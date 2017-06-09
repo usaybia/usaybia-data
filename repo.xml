@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Adapted from https://github.com/srophe/srophe-eXist-app/blob/dev/srophe-app/repo.xml by Winona Salesky, accessed 2017-06-08. -->
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>ScholarNET</description>
+    <author>Nathan Gibson</author>
+    <website>http://scholarnet.github.io/</website>
+    <status>beta</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>scholarnet</target>
+    <!--<prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>-->
+    <config>
+        <!-- App title -->
+        <title>ScholarNET: Voiceless Dialogues</title>
+        <!-- App description -->
+        <description></description>
+        <!-- Contact email -->
+        <contact></contact>
+        <!-- Logo name (assumes path to logo is $app-root/resources/img/) -->
+        <logo></logo>
+        <!-- Web Site URL -->
+        <url>http://scholarnet.github.io/</url>
+        <!-- Root of app for building dynamic links. Default is eXist app root -->
+        <nav-base>/exist/apps/scholarnet</nav-base>
+        <!-- eXist app root for app deployment-->
+        <app-root>scholarnet</app-root>
+        <!-- eXist data app root for data -->
+        <data-root></data-root>
+        <!-- Base URI for identifiers in app data -->
+        <base_uri>http://scholarnet.github.io</base_uri>
+        <!-- Absolute (from app root) Path to ODD file used for translating controlled values. May be left blank. -->
+        <odd></odd>
+        <!-- xpath to unique identifier for record, syriaca.org uses tei:idno[@type='URL'], this is the default value -->
+        <id-path/>
+        <!-- Map rendering -->
+        <maps>
+            <!--  <option selected="true" api-key="API_KEY_HERE">google</option> -->
+            <option>google</option>
+            <option selected="true">leaflet</option>
+        </maps>
+        <!-- Keyboard options -->
+        <!--<keyboard-options>
+            <option id="syriac-phonetic">Syriac Phonetic</option>
+            <option id="syriac-standard">Syriac Standard</option>
+            <option id="ms-Arabic (101)">Arabic Mod. Standard</option>
+            <option id="qwerty">English QWERTY</option>
+            <option id="ms-Greek">Greek Mod. Standard</option>
+            <option id="ms-Russian">Russian Mod. Standard</option>
+        </keyboard-options>-->
+        <!--<collections>
+            <!-\-<collection name="Short-name used in html pages to reference collection, module name" 
+                series="Series name used in TEI biblScope @depreciated, use collection-URI" 
+                collection-URI="Series id used in TEI biblScope. Only needed for subcollection filtering"
+                record-URI-pattern="URI for building links to record views."
+                app-root="folder name in app" 
+                data-root="folder name in data"/>-\->
+        </collections>-->
+        <!--
+    -->
+    </config>
+    
+    
+    
+<deployed>2017-06-08T22:56:20.244-04:00</deployed>
+</meta>

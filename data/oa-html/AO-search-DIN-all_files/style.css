@@ -1,0 +1,158 @@
+
+
+/* Style de la page de login*/
+/* ------------------------ */
+	
+#form_login{
+	display: none;
+}
+
+.fieldLogin{
+  width: 15%;
+  margin: 0 auto;
+  border: none;
+}
+
+
+
+/* Style de l'index gauche*/
+/* ---------------------- */
+
+.form_index_gauche{
+	/*width: 340px;*/
+	height: auto;
+	float: left;
+}
+
+.document{
+	border: 1px solid #D40000;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+	width: 260px;
+}
+
+.document li{
+	color: #D40000;
+}
+
+.manuscrit{
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.manuscrit p {
+	
+}
+
+.manuscrit img{
+/*	width: 88%;
+	height: 88%;
+*/	
+}
+
+/* Style de l'index droit*/
+/* --------------------- */
+
+.form_index_droit{
+	width: 620px;
+	height: auto;
+	float:right;
+}
+
+
+.encart{
+	border: 1px solid #D40000;
+	background-color: #F2E4D5;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.rechercheSimple{
+	border: 1px  dashed #D40000;
+	background-color: white;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 50px;
+	
+	
+}
+
+.rechercheSimple h2{
+	
+}
+
+.rechercheSimple table{
+	
+}
+
+.rechercheSimple p{
+	padding-left: 70%;
+}
+
+.source{
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.source h1{
+	color: #D40000;
+}
+
+.sourceLine td { padding: 0.2em; }
+
+.sourceLine th { font-size: 16px; }
+
+.sourceName {
+	margin-left: 20px;
+	display: list-item;
+}
+
+/* Style du resultat de la recherche et fiche d'une notice */
+/*-----------------------------------*/
+
+#result { margin-top: 20px;}
+.resultSearch{ margin: 0 auto; }
+
+.entryContainer { overflow-x: auto; }
+.keywords { color: red; }
+table.entry { direction: rtl; white-space: nowrap;}
+table td.category { text-align: center; }
+table.entry td { white-space: nowrap; text-align: right;}
+
+/* Style de la recherche avancee */
+/*-------------------------------*/
+
+.advancedSearch{
+	margin-top: 30px;
+	border: 1px dashed #D40000;
+	background-color: white;
+	/*height: 700px;*/
+	float: left;
+}
+
+.boutonSupprSearchLigne_1{
+	display: none;
+}
+
+.advancedSearch select{
+	/* width: 75px; */
+}
+
+.groupCategory {
+	margin-bottom: 1em;
+}
+
+#dialog {
+	display: none;
+	font-size: 14px;
+}

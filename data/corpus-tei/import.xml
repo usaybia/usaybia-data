@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import author="nathan"
+        date="2017-06-05"
+        desc="&lt;pre&gt;&lt;br/&gt;- CORPUS&lt;br/&gt;- nathan&lt;br/&gt;- 2017-06-05&lt;/pre&gt;"
+        name="CORPUS"
+        rootDir="/Users/nathan/Academic/Other Projects/ScholarNET/corpus"
+        script="bfmLoader.groovy"
+        version="0.7.8">
+   <linkGrp type="align"/>
+   <corpora>
+      <corpus annotate="true"
+              cqpid="CORPUS1496648914810"
+              desc="&lt;pre&gt;&lt;br/&gt;- CORPUS&lt;br/&gt;- nathan&lt;br/&gt;- 2017-06-05&lt;/pre&gt;"
+              encoding="UTF-8"
+              font=""
+              lang="ar"
+              name="CORPUS">
+         <tokenizer onlyThoseTests="false" skip="false">
+            <param name="whitespaces">[\p{Z}\p{C}]+</param>
+            <param name="regPunct">[\p{Ps}\p{Pe}\p{Pi}\p{Pf}\p{Po}\p{S}]</param>
+            <param name="punct_strong">[.!?]+|\.\.|\.\.\.|…|\|</param>
+            <param name="regElision">['‘’]</param>
+         </tokenizer>
+         <xslt xsl=""/>
+         <pattributes/>
+         <sattributes/>
+         <biblios/>
+         <uis>
+            <ui command="textualplans">
+               <word>w</word>
+            </ui>
+            <ui command="concordance">
+               <context_limits type="list">text</context_limits>
+            </ui>
+         </uis>
+         <editions default="default">
+       	    <edition build_edition="true"
+                     mode="groovy"
+                     name="default"
+                     page_break_tag="pb"
+                     script="pager.groovy"
+                     words_per_page="500"/>
+         </editions>
+         <texts/>
+         <queries/>
+         <knowledgeRepositories/>
+         <preBuild/>
+         <parameters/>
+      </corpus>
+   </corpora>
+</import>

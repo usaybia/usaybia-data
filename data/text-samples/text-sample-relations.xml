@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-app-data/dev/data/spear/schema/out/odd_SPEAR_draft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:2" ref="scholarNET:wroteAbout"
+                  passive="scholarNET:1"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">26</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:3" ref="scholarNET:wroteAbout"
+                  passive="scholarNET:4"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">282</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:8" ref="scholarNET:quotedTextuallyFrom"
+                  passive="scholarNET:6"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:6" ref="scholarNET:recountedFrom"
+                  passive="scholarNET:7"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:7" ref="scholarNET:quotedOrallyFrom"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
+                  passive="scholarNET:7"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
+                  passive="scholarNET:9"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
+                  passive="scholarNET:10"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
+                  passive="scholarNET:11"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:10" ref="scholarNET:parentOf"
+                  passive="scholarNET:6"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:wasInRoomWith"
+                  passive="scholarNET:12"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:spokeTo"
+                  passive="scholarNET:12"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:5" ref="scholarNET:wasInRoomWith"
+                  passive="scholarNET:13"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:14" ref="scholarNET:transmittedTo"
+                  passive="scholarNET:8"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:14" ref="scholarNET:madeMultipleVisitsTo"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:14" ref="scholarNET:didNotKnowWell"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:14" ref="scholarNET:transmittedAbout"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:15" ref="scholarNET:transmittedTo"
+                  passive="scholarNET:8"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:15" ref="scholarNET:transmittedAbout"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:16" ref="scholarNET:spokeTo"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:16" ref="scholarNET:wasInMajlisWith"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:16" ref="scholarNET:hadEnmityFor"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:17" ref="scholarNET:transmittedTo"
+                  passive="scholarNET:8"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:18" ref="scholarNET:transmittedTo"
+                  passive="scholarNET:17"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:18" ref="scholarNET:heard"
+                  passive="scholarNET:5"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:5" ref="scholarNET:dedicatedBookTo"
+                  passive="scholarNET:19"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:5" ref="scholarNET:quotedTextuallyFrom"
+                  passive="scholarNET:2"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">1</citedRange>
+               <citedRange unit="pp">280</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:21"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:22"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:23"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:24"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:25"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:26"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
+                  passive="scholarNET:27"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:28" ref="scholarNET:parentOf"
+                  passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:29" ref="scholarNET:employed"
+                  passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:29"
+                  ref="scholarNET:appointedAsChiefPhysician" passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:8" ref="scholarNET:quotedFromManuscriptOf"
+                  passive="scholarNET:30"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:30"
+                  ref="scholarNET:wroteAboutEventsContemporaryWith" passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:30" ref="scholarNET:wroteAbout"
+                  passive="scholarNET:31"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:32" ref="scholarNET:transmittedTo"
+                  passive="scholarNET:8"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="general" active="scholarNET:32" ref="scholarNET:transmittedAbout"
+                  passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:20" ref="scholarNET:adopted"
+                  passive="scholarNET:33"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:20" ref="scholarNET:wasStolenFromBy"
+                  passive="scholarNET:33"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:20"
+                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:34"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:20"
+                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:35"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:20"
+                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:21"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:30"
+                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:20"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">101</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:quarreledWith"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:executed"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:forbadeFromLeaving"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:ateWith"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:disregardedWarningOf"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:sentFor"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:36" ref="scholarNET:orderedTreatmentFor"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:36" ref="scholarNET:claimedToSaveLifeOf"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:stoppedAllowanceOf"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:38" ref="scholarNET:visited"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:befriended"
+                  passive="scholarNET:38"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:ateWith"
+                  passive="scholarNET:38"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:38" ref="scholarNET:spokeTo"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:38"
+                  ref="scholarNET:persuadedToDisregardWarning" passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:38"
+                  ref="scholarNET:spokeAboutWhilePresent" passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:38" ref="scholarNET:disparagedWarningOf"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:wasToldAbout"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37"
+                  ref="scholarNET:orderedImprisonmentOf" passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:movedToOwnResidence"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:36" ref="scholarNET:toldStoriesTo"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:37" ref="scholarNET:displayedCorpseOf"
+                  passive="scholarNET:36"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="personal" active="scholarNET:36" ref="scholarNET:claimedToHaveDrugged"
+                  passive="scholarNET:37"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36" ref="scholarNET:dedicatedBookTo"
+                  passive="scholarNET:39"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36" ref="scholarNET:dedicatedBookTo"
+                  passive="scholarNET:40"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36"
+                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:1"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36"
+                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:2"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36"
+                  ref="scholarNET:wroteCollectionOfSayingsOf" passive="scholarNET:2"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36"
+                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:1"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+         <div>
+            <listRelation>
+               <relation ana="textual" active="scholarNET:36"
+                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:2"/>
+            </listRelation>
+            <bibl type="primary">
+               <ptr target="scholarNET:IU"/>
+               <citedRange unit="vol">2</citedRange>
+               <citedRange unit="pp">36</citedRange>
+            </bibl>
+         </div>
+      </body>
+   </text>
+</TEI>

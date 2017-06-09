@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../epub2tei.xsl"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    prefix="cc: http://creativecommons.org/ns# rendition: http://www.idpf.org/vocab/rendition/#"
+    version="3.0" unique-identifier="BookID" xml:lang="ar" id="package" dir="rtl">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>عيون الأنباء في طبقات الأطباء</dc:title>
+        <dc:creator opf:role="aut">ابن أبي أصيبعة</dc:creator>
+        <dc:publisher>http://shamela.ws</dc:publisher>
+        <dc:language>ar</dc:language>
+        <dc:identifier id="BookID" opf:scheme="UUID"
+            >urn:uuid:6340ddaf9c31895b14b3fcc6b6c1d3f2</dc:identifier>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        <item id="stylesheet" href="style.css" media-type="text/css"/>
+        <item id="logo" href="img/logo.png" media-type="image/png"/>
+        <item id="info" href="xhtml/info.xhtml" media-type="application/xhtml+xml"/>
+        <item id="P1" href="xhtml/P1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="P2" href="xhtml/P2.xhtml" media-type="application/xhtml+xml"/>
+    </manifest>
+    <spine toc="ncx" page-progression-direction="rtl">
+        <itemref idref="info"/>
+        <itemref idref="P1"/>
+        <itemref idref="P2"/>
+    </spine>
+</package>

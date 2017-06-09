@@ -1,0 +1,204 @@
+/* =Typography
+-----------------------------------------------------------------------------*/
+body{
+  background-color: #F1EEE9;
+  font-size: 1em;
+}
+
+h1 { font-size: 22px; }
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* =Links
+-----------------------------------------------------------------------------*/
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+.forms label {
+	margin-bottom: 0;
+}
+
+.contentOnomasticon{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+#langage { text-align: right;}
+
+/* =Header
+-----------------------------------------------------------------------------*/
+.head{
+  border-bottom: solid 1px #D40000;
+  height: auto;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.logoIRHT{
+  width: 20%;
+  height: 20%;
+  float: left;
+}
+
+.logoOA{
+  /*width: 63%;*/
+  /*height: 63%;*/
+  margin: 0 auto 0 auto;
+}
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+#btnUp {
+	position: fixed;
+	bottom: 50px;
+	right: 100px;
+	cursor: pointer;
+}
+
+#btnDown {
+  position: fixed;
+  bottom: 70px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.ajaxLoader {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('/img/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .ajaxLoader {
+    display: block;
+}
+
+.font-80 {
+  font-size: 80%;
+}
+.font-60 {
+  font-size: 60%;
+}
+
+.btn:focus {
+  color: #666666;
+}
+
+.btn.disabled, .btn[disabled],.btn-disabled, .btn-disables:hover {
+  color: #999999;
+}
+
+/*button.changeType:hover span {
+  display: none;
+}*/
+button.btn-red.addred:hover:before {
+  content: "Make private";
+}
+button.btn-green.addred:hover:before {
+  content: "it's public!";
+}
+button.btn-green.addgreen:hover:before {
+  content: "Make public";
+}
+button.btn-red.addgreen:hover:before {
+  content: "it's private!";
+}
+button.btn.saving {
+  content: "Saving...";
+}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+.foot{
+  border-top: solid 1px #D40000;
+  direction: ltr;
+}
+
+.lang{
+  float: left;
+}
+
+.contact{
+  float: right;
+}
+
+
+.units-row {
+  margin-bottom:0.2em;
+}
+
+table.table-hovered tbody tr td, table.table-hovered thead tr th {
+  /*max-height: 27px;*/
+  max-width: 500px;
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis;
+}
+
+table.table-hovered tbody tr:hover td, table.table-hovered thead tr:hover th {
+  background-color: #E2DBCF;
+}
+
+.ui-tooltip {
+  max-width: 600px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sourceMore {
+  display: none;
+}
+
+table.table-hovered tbody tr.showMore:hover td {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+table.table-hovered tbody tr.showMore:hover td span{
+  text-decoration: underline;
+}
+
+.ui-autocomplete {
+  max-height: 220px;
+  max-width: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 13px;
+}
+

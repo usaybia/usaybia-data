@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg" name="http://scholarnet.github.io" abbrev="scholarNET" version="0.3" spec="1.0">
+    <title>scholarNET</title>
+    <!-- TEI data -->
+<!--    <dependency package="http://..."/>-->
+    <!-- eXist shared resources -->
+    <dependency package="http://exist-db.org/apps/shared"/>
+    <!-- JSON Parser and Serializer for XQuery -->
+    <dependency package="http://xqilla.sourceforge.net/pkg/xqjson"/>
+    <!-- Functx  -->
+    <dependency package="http://www.functx.com"/>
+</package>

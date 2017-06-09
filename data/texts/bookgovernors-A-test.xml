@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person><persName>Aaron the priest</persName><bibl>I. xxiii</bibl>; <bibl>II. 24</bibl>. </person>
+            <person><persName>Aaron, Rabban</persName><bibl>II. 391,465</bibl>. </person>
+            <person><persName>Abba the archdeacon</persName><bibl>II. 46</bibl>. </person>
+            <person><persName>Abba, Mar</persName><bibl>I. lxxvii</bibl>. </person>
+            <person><persName>Abba bar-Daira</persName><bibl>II. 653</bibl>. </person>
+            <person><persName>Abban</persName><bibl>II. 203</bibl>. </person>
+            <person><persName>Abbeloos</persName><bibl>II. 386, 397</bibl>.</person>
+            <person><persName>Abh, month of</persName><bibl>I. xxiii</bibl>. </person>
+            <person><persName>'Abhd IsM' of Nisibis, his catalogue quoted</persName><bibl>II. 47, 51, 52, 61, 74, 91, 93, 96, 107, 178, 191, 192, 258, 298, 300, 302, 335, 348, 385, 417, 419, 541, 542</bibl> </person>
+            <person><persName>'Abhd ]sho', friend of Thomas of Marga</persName><bibl>I. xi, xxxiv, xxxvi</bibl>; <bibl>II. 3,85, 186,211, 214, 235, 263, 378, 416, 437, 448, 568</bibl>. </person>
+            <person><persName>'Abhd Isha' of Kartaw</persName><bibl>II. 649</bibl>.</person>
+            <person><persName>'Abhd IsM', Metropolitan of Nisibis</persName><bibl>II. 192</bibl>.</person>
+            <person><persName>'Abhd ish6', founder of a monastery</persName><bibl>I. cxxxi</bibl>.</person>
+            <person><persName>'Abhd IsM', Bishop of Beth B~gbash</persName><bibl>II. 449</bibl>. </person>
+            <person><persName>"Abd'ullah, Sul~n</persName><bibl>II. 273</bibl>. </person>
+            <person><persName>Abba, Nestorian Patriarch</persName><bibl>I. cxxxiii</bibl>; <bibl>II. 208</bibl>. </person>
+            <person><persName>Abba, Monastery of</persName><bibl>II. 577</bibl>. </person>
+            <person><persName>Abba, Mar</persName><bibl>II. 300</bibl>. </person>
+            <person><persName>Abba of Rabban $elibba,.</persName><bibl>II. 95</bibl>. </person>
+            <person><persName>Abba bar-berikh -$ebhyaneh</persName><bibl>II. 258</bibl>. </person>
+            <person><persName>'Abba Shappira</persName><bibl>II. 67</bibl>.</person>
+            <person><persName>'Abhda, founder of a monastery</persName><bibl>I. cxxxi</bibl>. </person>
+            <person><persName>Abhroi of Beth</persName></person>
+            <person><persName>'Abbe</persName><bibl>II. 96. AbhQ N6</bibl>~ [NQ4J of Anbar, <bibl>II. 222</bibl>. </person>
+            <person><persName>Abiram</persName><bibl>II. 325</bibl>. </person>
+            <person><persName>Abraham, "father of nations"</persName><bibl>II. 24, 26, 38, 56, 248, 319, 368, 372</bibl>. </person>
+            <person><persName>Abraham of Egypt</persName><bibl>II. 198</bibl>. </person>
+            <person><persName>Abraham, friend of Rabban Hormizd</persName><bibl>I. xliv, c1ix</bibl>. </person>
+            <person><persName>Abraham of Kashkar, the philosopher</persName><bibl>II. 37</bibl>. </person>
+            <person><persName>Abraham of Kashkar, Abbot of the Great Monastery.</persName><bibl>I. xlvi, lx, cxxxiii, cxxxiv-cxl</bibl>; II, 4, 37, 42, 43. 44,47. S4 56, S9. 66, 211, 212, 301. </person>
+            <person><persName>Abraham, Abbot of Monastery ofRabban Zekba-isMc</persName><bibl>I. xlii, ci</bibl>; <bibl>II. 7. 39, 213, 214, 222, 225</bibl>; his history by SabhrisM', <bibl>II. 210,214</bibl></person>
+            <person><persName>Abraham of Nethpar</persName><bibl>II. 109. 210</bibl>. </person>
+            <person><persName>Abraham of Bath ~a~a</persName><bibl>II. 6, 107, log</bibl>. </person>
+            <person><persName>Abraham, brother of Joseph, his history by Sabhr-isM'</persName><bibl>II. 21 I</bibl>. </person>
+            <person><persName>Abraham, Bishop of Nineveh</persName><bibl>II. 259, 379</bibl> </person>
+            <person><persName>Abraham bar-Lipha, the Expositor</persName><bibl>II. 380, 381, 382</bibl>. </person>
+            <person><persName>Abraham of Marga</persName>, u. 577. </person>
+            <person><persName>Abraham of Gunduk</persName><bibl>II. 43</bibl>. </person>
+            <person><persName>Abraham of Nisibis</persName><bibl>II. 47</bibl>. </person>
+            <person><persName>Abraham, monk o Mount 1z1a</persName>U.67 </person>
+            <person><persName>Abraham, disciple of Sisoes</persName><bibl>II. 572</bibl>. </person>
+            <person><persName>Abraham bar-Dcishandad</persName><bibl>II. 222, 301, 383</bibl>. </person>
+            <person><persName>Abraham, govemorofShamhig</persName><bibl>II. 167, line 28</bibl>. </person>
+            <person><persName>Abraham, Nestorian Patriarch</persName><bibl>I. x, xxvi, xxix</bibl>; <bibl>II. 3, 103, 328,404, 405, 437,447,448, 462, 480, 497, 502, 504, 5 II, 518, 522</bibl>. </person>
+            <person><persName>Absalom</persName><bibl>II. 389</bibl>. </person>
+            <person><persName>AbU Bakr</persName><bibl>II. 126</bibl>. </person>
+            <person><persName>Abu'l-fedci' quoted</persName><bibl>II. 221,259</bibl>. </person>
+            <person><persName>Abti'l-Ma~asm</persName><bibl>II. 337</bibl>. </person>
+            <person><persName>Abu Nu~ al-Anbc1ri</persName><bibl>II. 301, 302</bibl>. </person>
+            <person><persName>AbUshehr</persName><bibl>II. 188</bibl>. </person>
+            <person><persName>Acacius</persName><bibl>II. 45</bibl>. </person>
+            <person><persName>Acephalai</persName><bibl>II. 41</bibl>. </person>
+            <person><persName>Acephalus</persName><bibl>II. 41</bibl>. </person>
+            <person><persName>Acta Sanctorum quoted</persName><bibl>II. 29. 30, 31, 35. 127,397</bibl>, </person>
+            <person><persName>Adcidci, monk of izIa</persName><bibl>I. lxxii</bibl>; <bibl>II. 66</bibl>. </person>
+            <person><persName>Adam</persName><bibl>II. 28, 117, 250, 280, 285, 573, 620, 624</bibl></person>
+            <person><persName>Addai, his monastery called Rama.</persName><bibl>II. 576</bibl>. </person>
+            <person><persName>'AdM, festival of</persName><bibl>II. 438</bibl>. </person>
+            <person><persName>Adharmah.</persName><bibl>II. 67</bibl>. </person>
+            <person><persName>Adharbaijcin</persName><bibl>I. xxiv, xxv</bibl>; <bibl>II. 44t 208, 220. 236, 240, 316. 439, 448. 525. 603</bibl>. </person>
+            <person><persName>Adhur-Na~</persName>IL 241. </person>
+            <person><persName>Adhur-parwa</persName><bibl>II. 2 I 3</bibl>. </person>
+            <person><persName>Adiabene</persName><bibl>I. xxiv, xxxv, xl, Klviii, lxi, lxxii, lxxiii, lxxiv, ciii, cvii</bibl>; <bibl>II. 38, 46, 79, 81, 82, 84, go, 91, 96, 104. 107, 108. 119. 124, 126, 130, 131. 174, 176, 179, 181, 2og, 216, 247,256,258,260,286. 287, 293, 295, 315, 317, 344. 378, 383, 384, 387, 388, 391, 400. 402,414, 465, 506, 613,650</bibl>. </person>
+            <person><persName>Adana</persName><bibl>I. c1x</bibl>. </person>
+            <person><persName>Agrell quoted.</persName><bibl>II. 529</bibl>. ~. </person>
+            <person><persName>Abbot of B~</persName></person>
+            <person><persName>'Abhe</persName><bibl>I. cvii</bibl>; <bibl>II. 8, 9, 248, 249, 251, 252, 253,254</bibl>: 256, 258, 259, 260, 261, 262, 264, 265, 266, 270, 271, 280, 282, 283, 307,312,313,379,416,487, 650</person>
+            <person><persName>~the anchorite</persName><bibl>II. 577</bibl>. </person>
+            <person><persName>Ahithophel</persName><bibl>II. 3Sg</bibl>. </person>
+            <person><persName>A~mhn</persName><bibl>II. 397</bibl>. </person>
+            <person><persName>Ahrens quoted</persName>n. 321, 363, 418, 493, 498, 606, 674.</person>
+            <person><persName>'Ain Balp-e</persName><bibl>II. 495</bibl>.</person>
+            <person><persName>'Ain Bar~e</persName>n. 103, 495.</person>
+            <person><persName>'Ain e~-~afra</persName><bibl>II. 43</bibl>.</person>
+            <person><persName>Akar</persName>n. 482.</person>
+            <person><persName>'A~6Ie, II 187'A\ni</persName><bibl>II. 67, 150, 296, 487, 558, 577</bibl>.</person>
+            <person><persName>'A\r Babil</persName><bibl>II. 1I3</bibl>.</person>
+            <person><persName>Al-anbar</persName><bibl>I. xxvii</bibl>; n. 3.</person>
+            <person><persName>Al-B~a</persName><bibl>II. 181, 544</bibl>.</person>
+            <person><persName>Al-Bawazi~</persName>n. 449.</person>
+            <person><persName>Al-Behidhorl quoted</persName><bibl>II. 525</bibl>.</person>
+            <person><persName>Al-Gar</persName>II 240.</person>
+            <person><persName>Al-Gezira</persName><bibl>II. II I, 123</bibl>.</person>
+            <person><persName>Al-l;Jaditha</persName>n. 102, 328, 384.</person>
+            <person><persName>Al-J:Iirah</persName>n. 51, 178,300.</person>
+            <person><persName>Al-~a~r</persName><bibl>II. I 13</bibl>.</person>
+            <person><persName>Al-~tar</persName><bibl>II. 47</bibl>.</person>
+            <person><persName>Al-KUfa</persName><bibl>II. 187</bibl>.</person>
+            <person><persName>Al-Mahdi</persName><bibl>II. 385</bibl>.</person>
+            <person><persName>Al-Mamum</persName><bibl>II. 525</bibl>.</person>
+            <person><persName>Al-Rashid</persName>n. 525.</person>
+            <person><persName>Al-Sayyed bin-Anas</persName><bibl>II. 525</bibl>.</person>
+            <person><persName>Al-Wasit</persName><bibl>II. 37</bibl>.</person>
+            <person><persName>Al-Ya'\ubiquoted</persName><bibl>II. 525, 526</bibl>.</person>
+            <person><persName>Albrecht</persName><bibl>II. 368</bibl>.</person>
+            <person><persName>Aleppo</persName><bibl>II. 125, 276</bibl>.</person>
+            <person><persName>Alexandra of</persName></person>
+            <person><persName>Alexandria</persName><bibl>II. 197</bibl></person>
+            <person><persName>Alexandria</persName><bibl>I. xxx</bibl>; <bibl>II. 39, 41, 94, 95, 191, 194, 198, 199, 585, 586</bibl>.</person>
+            <person><persName>Al~6sh</persName><bibl>I. xlii, dvii</bibl>; <bibl>II. 101, 194,207,399</bibl>.</person>
+            <person><persName>Alleyne</persName><bibl>II. 53 I</bibl>.</person>
+            <person><persName>Alphaeus</persName>n. 348. , I</person>
+            <person>Altar cloth</person>
+            <person>At Beth'.. liv. "</person>
+            <person><persName>Aman~lidha</persName>n. 199.</person>
+            <person><persName>'Amedia</persName>n. 67, 2391melineau<bibl>II. 397</bibl></person>
+            <person><persName>Amid</persName>n. 329.</person>
+            <person><persName>'Ammanuel, Bishop of Bet. Garmai</persName><bibl>I. dviii</bibl>.</person>
+            <person><persName>Ammianus Marcellinus quoted</persName><bibl>II. 67, 329</bibl>.</person>
+            <person><persName>'Ammi~e</persName>n. 574.</person>
+            <person><persName>Ammon of Nitria</persName>U. '97. 203, 204</person>
+            <person><persName>Ammon of Raithe</persName>n. 29</person>
+            <person><persName>Ammonius the Bishop</persName><bibl>II. 492</bibl>~ 493.</person>
+            <person><persName>Amonius of. Zinai</persName>II; 649</person>
+            <person><persName>'Amram</persName>n. 593.</person>
+            <person><persName>'Amran bar-Mu!tammad</persName><bibl>I. lxvii, cxvi</bibl>; <bibl>II. 12, 450, 451, 452, 454,457, 646,657,658, 675</bibl>.</person>
+            <person><persName>'Amr ibn-Mattai</persName><bibl>I. xxvii</bibl>; <bibl>II. 44</bibl>.</person>
+            <person><persName>Amulqlr</persName><bibl>II. 669</bibl>.</person>
+            <person><persName>Anahid</persName><bibl>II. 216</bibl>.</person>
+            <person><persName>Ananias</persName><bibl>II. 610</bibl>.</person>
+            <person><persName>Ananias, Bishop of Gllan</persName>II_ 447,491.</person>
+            <person><persName>'Anan-hM', editor of the Book of Paradise</persName><bibl>I. xxxii, xxxiii, lvi, lx, lxi, ci, cvii</bibl>; <bibl>II. 7, 174, 175-178, 189, 192, 193,237</bibl> </person>
+            <person><persName>cAnan-IsM' of I:Iadhatta.'</persName><bibl>II. 654</bibl></person>
+            <person><persName>'Anan-IsM', Monastery of</persName>n. 575.</person>
+            <person><persName>Anaxagoras</persName><bibl>II. 531</bibl>.</person>
+            <person><persName>Anbar</persName><bibl>I. cxxviii</bibl>; <bibl>II. 222</bibl>.</person>
+            <person><persName>Anchorites, description of</persName><bibl>I. cxli</bibl>. 'J). '). of Bet. , quoted, 17, 203, 9 225; hi!> 200. ishQ',</person>
+            <person><persName>Archbishop of Crete</persName></person>
+            <person><persName>Abrah:94 2ldeft</persName>n. 448.</person>
+            <person><persName>Abr:els, classes of</persName><bibl>II. 544. rcinoe. n. 200, 396</bibl>. </person>
+            <person><persName>A.ntioch</persName><bibl>I. Iii, lvi, lxxxvi, cii, CVj II. 6, 41, 80, 96, 127, 201, 21 I, 348, 463, 612, 614</bibl>. .</person>
+            <person><persName>Antoninus Martyr;</persName><bibl>II. 583,584, 585, 586</bibl>.</person>
+            <person><persName>Anton1s, see</persName></person>
+            <person>Antony.</person>
+            <person>Antonius, see</person>
+            <person>Antony.</person>
+            <person><persName>Antony of Egypt</persName><bibl>I. xlv, cxxi, cl</bibl>; <bibl>II. 28, 29, 30, 32, 35, 52, 188, 192, 194, 202, 255, 256, 278,642</bibl>. </person>
+            <person><persName>Aones</persName><bibl>I. cxxiv</bibl>. </person>
+            <person><persName>Apamea</persName><bibl>I. lvi, lxxxvii</bibl>; n. 45, 128.</person>
+            <person><persName>Aphnl-Maran of Beth</persName></person>
+            <person><persName>'Abbe</persName><bibl>I. lxxiii, lxxvii, xcviii</bibl>; n. 6, 74, 83, 108, 121, 123, 186, 234, 247, 273, 653 </person>
+            <person><persName>Aphni-Maran, Monastery of</persName><bibl>II. 123, 653</bibl></person>
+            <person><persName>Aphraates</persName><bibl>I. clxii</bibl>; n. 22, 588.</person>
+            <person><persName>Aphrim</persName>n. 38.</person>
+            <person><persName>Aphroditopolis</persName>n. 31.</person>
+            <person><persName>Apollo of Or</persName><bibl>II. 203</bibl>.</person>
+            <person><persName>Apollo of Thebes</persName>n. 203.</person>
+            <person>Apollonius the merchant</persName><bibl>II. 198,470</bibl> . .</person>
+            <person><persName>Apostles, the Twelve</persName><bibl>I. cxviii</bibl>; <bibl>II. 27,28, 80, 129. 55 1, 577, 610</bibl>. </person>
+            <person><persName>Apostles, Fast of</persName>n. 666. </person>
+            <person>Apostles, Friday evening of, n466.</person>
+            <person>Apostles, relics of</person>
+            <person>At Beth</person>
+            <person><persName>'Abbe</persName><bibl>I. lxxxvii</bibl>; <bibl>II. 127</bibl>.</person>
+            <person><persName>Apostles, the Week of</persName>n. 466, 666.</person>
+            <person>Arabia</persName><bibl>I. x, xi, xxx</bibl>; n. 188, 585.</person>
+            <person><persName>Arabs</persName><bibl>II. 5</bibl>(,60,67,81,123, 126,208, 236, 266,279. 313, 315,322,337, 390, 585, 613, 678.</person>
+            <person><persName>Arabs, the Lakhmite, p:. 5</persName>I.</person>
+            <person><persName>ArbeI, n. 37, 90, 124, 130, 176, 240, 302, 349</person>
+            <person>Arbil</persName><bibl>II. 17I</bibl>.</person>
+            <person><persName>Arcadius</persName><bibl>II. 29</bibl>.</person>
+            <person><persName>Ardabil</persName>n. 236, 603.</person>
+            <person>Ardashir</persName>n. 126. </person>
+            <person>Arius</persName>n. 577. </person>
+            <person>Aristotle</persName>n. 418,460, 531. </person>
+            <person>Ariwan </persName><bibl>I. lxxxvii, lxxxviii</bibl>; n. 124.</person>
+            <person><persName>Armenazwai, IJ. 324</person>
+            <person>Armenia, 1. x, xxx; n. 67~ 448, 483, 52 5.</person>
+            <person>Amobius quoted</persName><bibl>I. cxv</bibl>.</person>
+            <person><persName>Aro'1ye</persName>n. 388. </person>
+            <person>Arras. the Lower</persName>n. 448. </person>
+            <person>Ar-Rum</persName>n. 123. </person>
+            <person>Arsanls, see</person>
+            <person>Arsenius. </person>
+            <person>Arsenius</persName><bibl>I. eli, cliv. cxxxvii</bibl>; n. 29,455. 563. 586,642.</person>
+            <person><persName>Arsham</persName><bibl>I. clxi</bibl>.</person>
+            <person><persName>Arzan</persName>n. II5.</person>
+            <person>Arzon</persName><bibl>II. 67, 90, 230</bibl> .</person>
+            <person><persName>Ashimonian Desert</persName>n. (52.</person>
+            <person>Asia Minor</persName><bibl>II. 123, 128. INDEX</bibl>.</person>
+            <person><persName>'AO'KfJTIKOV, the, of Pachomius</persName><bibl>II. 202</bibl>.</person>
+            <person><persName>Assemclnrs B. 0., quotedpassim.</person>
+            <person>Assemani's Codex Li/urgicus quoted</persName><bibl>II. 485</bibl>.</person>
+            <person><persName>Athenians, u. 530, 531.</person>
+            <person>Aswan</persName><bibl>II. 191</bibl>.</person>
+            <person><persName>Assyria</persName><bibl>II. 86</bibl>.</person>
+            <person><persName>Assyrians</persName><bibl>II. 40, 3 19, 320, 53 1</bibl></person>
+            <person><persName>Athanasius of</person>
+            <person>Alexandria</persName><bibl>II. 30, 194, 199, 278</bibl>.</person>
+            <person><persName>Athens</persName><bibl>II. 42</bibl>.</person>
+            <person><persName>Athor</persName><bibl>I. xxxv, xlviii</bibl>; <bibl>II. 131, 258, 287, 305</bibl>.</person>
+            <person><persName>Athorclye</persName><bibl>II. 368</bibl>.</person>
+            <person><persName>Ath~en the historian</persName>n. 186, 207, 234</person>
+            <person><persName>'ATpal</persName><bibl>II. 305</bibl>.</person>
+            <person><persName>Aurciham of Gunduk</persName><bibl>II. 67</bibl>.</person>
+            <person><persName>Aurelius of Tarsus</persName><bibl>II. 201</bibl>.</person>
+            <person><persName>A wclkh in ~alcina</persName><bibl>I. cvii</bibl>; <bibl>II. 249, 250, 25 1</bibl>.</person>
+            <person><persName>Awcincl</persName><bibl>II. 111,233</bibl>.</person>
+            <person><persName>Awgin of Clysma, founder of monasticism in Mesopotamia</persName><bibl>I. ix, xliv, xlv, lx, CXXV, cxxvi -cxxxiv</bibl>; <bibl>II. 628</bibl>.</person>
+            <person><persName>Awroman -Azmir -I}andilcln mountains</persName><bibl>II. 454</bibl>.</person>
+            <person><persName>Aw!ar Raze quoted</persName>n. 268.</person>
+            <person>Aycls</persName><bibl>I. cvij II. 8, 231, 232</bibl>.</person>
+            <person><persName>Azd, the tribe of</persName><bibl>II. 450, 525</bibl>. </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>
