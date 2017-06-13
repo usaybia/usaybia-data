@@ -170,7 +170,7 @@
 
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     <xsl:template match="/opf:package" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-        <xsl:result-document href="../epubTEI-test.xml" format="xml">
+        <xsl:result-document href="../epubTEI.xml" format="xml">
             <xsl:variable name="folder-uri" select="replace(base-uri(.), '/[^/]*$', '/')"/>
             <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="{@xml:lang}">
                 <teiHeader>
