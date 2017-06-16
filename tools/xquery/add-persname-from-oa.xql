@@ -33,8 +33,8 @@ declare function scholarNET:add-persNames($nodes as node()*, $names-all-regex-st
                             $string/text()
 };
 
-let $nymList := doc("../../data/oa-tei/nymTEI.xml")
-let $text := doc("../../data/texts/IU/epubTEI.xml")
+let $nymList := doc("/db/apps/scholarnet/data/oa-tei/nymTEI.xml")
+let $text := doc("/db/apps/scholarnet/data/texts/IU/epubTEI.xml")
 
 let $names := $nymList/TEI/text/body/listNym/nym/form[@type='vocalized']
 
@@ -42,7 +42,7 @@ let $names-regex :=
     for $name in $names
     return replace(replace($name,'([ؠ-ي])([ؠ-ي])','$1[ً-ٖ]*$2'),'([ؠ-ي])([ؠ-ي])','$1[ً-ٖ]*$2')
     
-let $names-all-regex-string := concat('[\s\t\n^](',string-join($names-regex,')[\s\t\n$]|[\s\t\n^]('),')[\s\t\n$]')
+let $names-all-regex-string := concat('[\s\t\n\>](',string-join($names-regex,')[\s\t\n\<]|[\s\t\n\>]('),')[\s\t\n\<]')
 
 let $text-w-persNames := 
     for $p in $text//p
@@ -58,4 +58,4 @@ let $text-w-persNames :=
                         $string/text()
         }
 
-return scholarNET:add-persNames($text/node(), $names-all-regex-string)
+return scholarNET:add-persNames($text, $names-all-regex-string)
