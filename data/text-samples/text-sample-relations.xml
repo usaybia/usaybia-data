@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-app-data/dev/data/spear/schema/out/odd_SPEAR_draft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/dev/srophe-app/documentation/SPEARschema/out/odd_SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../tools/xslt/SPEAR2XGMML.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -18,8 +19,8 @@
       <body>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:2" ref="scholarNET:wroteAbout"
-                  passive="scholarNET:1"/>
+               <relation ana="undesignated" active="scholarNET:2" passive="scholarNET:1"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -29,8 +30,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:3" ref="scholarNET:wroteAbout"
-                  passive="scholarNET:4"/>
+               <relation ana="undesignated" active="scholarNET:3" passive="scholarNET:4"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -40,8 +41,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:8" ref="scholarNET:quotedTextuallyFrom"
-                  passive="scholarNET:6"/>
+               <relation ana="textual" active="scholarNET:6" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -51,8 +52,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:6" ref="scholarNET:recountedFrom"
-                  passive="scholarNET:7"/>
+               <relation ana="oral" active="scholarNET:7" passive="scholarNET:6"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -62,8 +63,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:7" ref="scholarNET:quotedOrallyFrom"
-                  passive="scholarNET:5"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:7"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -73,8 +74,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
-                  passive="scholarNET:7"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:7"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -84,8 +85,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
-                  passive="scholarNET:9"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:9"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -95,8 +96,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
-                  passive="scholarNET:10"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:10"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -106,8 +107,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:dictatedTo"
-                  passive="scholarNET:11"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:11"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -117,8 +118,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:10" ref="scholarNET:parentOf"
-                  passive="scholarNET:6"/>
+               <relation ana="supportive" mutual="scholarNET:10 scholarNET:6"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -128,8 +129,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:wasInRoomWith"
-                  passive="scholarNET:12"/>
+               <relation ana="undesignated" mutual="scholarNET:5 scholarNET:12"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -139,8 +140,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:spokeTo"
-                  passive="scholarNET:12"/>
+               <relation ana="supportive" mutual="scholarNET:5 scholarNET:12"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -150,8 +151,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:5" ref="scholarNET:wasInRoomWith"
-                  passive="scholarNET:13"/>
+               <relation ana="undesignated" mutual="scholarNET:5 scholarNET:13"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -161,8 +162,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:14" ref="scholarNET:transmittedTo"
-                  passive="scholarNET:8"/>
+               <relation ana="oral" active="scholarNET:14" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -172,8 +173,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:14" ref="scholarNET:madeMultipleVisitsTo"
-                  passive="scholarNET:5"/>
+               <relation ana="supportive" mutual="scholarNET:14 scholarNET:5"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -183,8 +184,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:14" ref="scholarNET:didNotKnowWell"
-                  passive="scholarNET:5"/>
+               <relation ana="undesignated" mutual="scholarNET:14 scholarNET:5"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -194,8 +195,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:14" ref="scholarNET:transmittedAbout"
-                  passive="scholarNET:5"/>
+               <relation ana="undesignated" active="scholarNET:14" passive="scholarNET:5"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -205,8 +206,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:15" ref="scholarNET:transmittedTo"
-                  passive="scholarNET:8"/>
+               <relation ana="oral" active="scholarNET:15" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -216,8 +217,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:15" ref="scholarNET:transmittedAbout"
-                  passive="scholarNET:5"/>
+               <relation ana="undesignated" active="scholarNET:15" passive="scholarNET:5"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -227,8 +228,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:16" ref="scholarNET:spokeTo"
-                  passive="scholarNET:5"/>
+               <relation ana="supportive" mutual="scholarNET:16 scholarNET:5"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -238,8 +239,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:16" ref="scholarNET:wasInMajlisWith"
-                  passive="scholarNET:5"/>
+               <relation ana="undesignated" mutual="scholarNET:16 scholarNET:5"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -249,8 +250,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:16" ref="scholarNET:hadEnmityFor"
-                  passive="scholarNET:5"/>
+               <relation ana="opposing" mutual="scholarNET:16 scholarNET:5"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -260,8 +261,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:17" ref="scholarNET:transmittedTo"
-                  passive="scholarNET:8"/>
+               <relation ana="oral" active="scholarNET:17" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -271,8 +272,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:18" ref="scholarNET:transmittedTo"
-                  passive="scholarNET:17"/>
+               <relation ana="oral" active="scholarNET:18" passive="scholarNET:17"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -282,8 +283,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:18" ref="scholarNET:heard"
-                  passive="scholarNET:5"/>
+               <relation ana="oral" active="scholarNET:5" passive="scholarNET:18"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -293,8 +294,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:5" ref="scholarNET:dedicatedBookTo"
-                  passive="scholarNET:19"/>
+               <relation ana="supportive" mutual="scholarNET:5 scholarNET:19"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -304,8 +305,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:5" ref="scholarNET:quotedTextuallyFrom"
-                  passive="scholarNET:2"/>
+               <relation ana="textual" active="scholarNET:2" passive="scholarNET:5"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -315,8 +316,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:21"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:21"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -326,8 +327,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:22"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:22"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -337,8 +338,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:23"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:23"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -348,8 +349,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:24"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:24"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -359,8 +360,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:25"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:25"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -370,8 +371,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:26"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:26"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -381,8 +382,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:20" ref="scholarNET:spokeAboutWorkOf"
-                  passive="scholarNET:27"/>
+               <relation ana="positive" active="scholarNET:20" passive="scholarNET:27"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -392,8 +393,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:28" ref="scholarNET:parentOf"
-                  passive="scholarNET:20"/>
+               <relation ana="supportive" mutual="scholarNET:28 scholarNET:20"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -403,8 +404,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:29" ref="scholarNET:employed"
-                  passive="scholarNET:20"/>
+               <relation ana="supportive" mutual="scholarNET:29 scholarNET:20"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -414,8 +415,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:29"
-                  ref="scholarNET:appointedAsChiefPhysician" passive="scholarNET:20"/>
+               <relation ana="supportive" mutual="scholarNET:29 scholarNET:20"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -425,8 +426,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:8" ref="scholarNET:quotedFromManuscriptOf"
-                  passive="scholarNET:30"/>
+               <relation ana="textual" active="scholarNET:30" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -436,8 +437,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:30"
-                  ref="scholarNET:wroteAboutEventsContemporaryWith" passive="scholarNET:20"/>
+               <relation ana="undesignated" active="scholarNET:30" passive="scholarNET:20"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -447,8 +448,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:30" ref="scholarNET:wroteAbout"
-                  passive="scholarNET:31"/>
+               <relation ana="undesignated" active="scholarNET:30" passive="scholarNET:31"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -458,8 +459,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:32" ref="scholarNET:transmittedTo"
-                  passive="scholarNET:8"/>
+               <relation ana="oral" active="scholarNET:32" passive="scholarNET:8"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -469,8 +470,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="general" active="scholarNET:32" ref="scholarNET:transmittedAbout"
-                  passive="scholarNET:20"/>
+               <relation ana="undesignated" active="scholarNET:32" passive="scholarNET:20"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -480,8 +481,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:20" ref="scholarNET:adopted"
-                  passive="scholarNET:33"/>
+               <relation ana="supportive" mutual="scholarNET:20 scholarNET:33"
+                  ref="scholarNET:hadRelationshipWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -491,8 +492,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:20" ref="scholarNET:wasStolenFromBy"
-                  passive="scholarNET:33"/>
+               <relation ana="destructive" mutual="scholarNET:20 scholarNET:33"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -502,8 +503,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:20"
-                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:34"/>
+               <relation ana="negative" active="scholarNET:20" passive="scholarNET:34"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -513,8 +514,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:20"
-                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:35"/>
+               <relation ana="negative" active="scholarNET:20" passive="scholarNET:35"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -524,8 +525,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:20"
-                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:21"/>
+               <relation ana="negative" active="scholarNET:20" passive="scholarNET:21"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -535,8 +536,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:30"
-                  ref="scholarNET:refutedTextuallyWithHarshCriticism" passive="scholarNET:20"/>
+               <relation ana="negative" active="scholarNET:30" passive="scholarNET:20"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -546,8 +547,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:quarreledWith"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -557,8 +558,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:executed"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -568,8 +569,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:forbadeFromLeaving"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -579,8 +580,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:ateWith"
-                  passive="scholarNET:36"/>
+               <relation ana="supportive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -590,8 +591,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:disregardedWarningOf"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -601,8 +602,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:sentFor"
-                  passive="scholarNET:36"/>
+               <relation ana="supportive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -612,8 +613,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:36" ref="scholarNET:orderedTreatmentFor"
-                  passive="scholarNET:37"/>
+               <relation ana="supportive" mutual="scholarNET:36 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -623,8 +624,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:36" ref="scholarNET:claimedToSaveLifeOf"
-                  passive="scholarNET:37"/>
+               <relation ana="undesignated" active="scholarNET:36" passive="scholarNET:37"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -634,8 +635,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:stoppedAllowanceOf"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -645,8 +646,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:38" ref="scholarNET:visited"
-                  passive="scholarNET:37"/>
+               <relation ana="supportive" mutual="scholarNET:38 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -656,8 +657,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:befriended"
-                  passive="scholarNET:38"/>
+               <relation ana="supportive" mutual="scholarNET:37 scholarNET:38"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -667,8 +668,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:ateWith"
-                  passive="scholarNET:38"/>
+               <relation ana="supportive" mutual="scholarNET:37 scholarNET:38"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -678,8 +679,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:38" ref="scholarNET:spokeTo"
-                  passive="scholarNET:37"/>
+               <relation ana="supportive" mutual="scholarNET:38 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -689,8 +690,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:38"
-                  ref="scholarNET:persuadedToDisregardWarning" passive="scholarNET:37"/>
+               <relation ana="undesignated" mutual="scholarNET:38 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -700,8 +701,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:38"
-                  ref="scholarNET:spokeAboutWhilePresent" passive="scholarNET:36"/>
+               <relation ana="negative" active="scholarNET:38" passive="scholarNET:36"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -711,8 +712,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:38" ref="scholarNET:disparagedWarningOf"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:38 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -722,8 +723,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:wasToldAbout"
-                  passive="scholarNET:36"/>
+               <relation ana="undesignated" active="scholarNET:37" passive="scholarNET:36"
+                  ref="scholarNET:mentioned"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -733,8 +734,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37"
-                  ref="scholarNET:orderedImprisonmentOf" passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -744,8 +745,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:movedToOwnResidence"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -755,8 +756,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:36" ref="scholarNET:toldStoriesTo"
-                  passive="scholarNET:37"/>
+               <relation ana="supportive" mutual="scholarNET:36 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -766,8 +767,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:37" ref="scholarNET:displayedCorpseOf"
-                  passive="scholarNET:36"/>
+               <relation ana="destructive" mutual="scholarNET:37 scholarNET:36"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -777,8 +778,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="personal" active="scholarNET:36" ref="scholarNET:claimedToHaveDrugged"
-                  passive="scholarNET:37"/>
+               <relation ana="destructive" mutual="scholarNET:36 scholarNET:37"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -788,8 +789,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36" ref="scholarNET:dedicatedBookTo"
-                  passive="scholarNET:39"/>
+               <relation ana="supportive" mutual="scholarNET:36 scholarNET:39"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -799,8 +800,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36" ref="scholarNET:dedicatedBookTo"
-                  passive="scholarNET:40"/>
+               <relation ana="supportive" mutual="scholarNET:36 scholarNET:40"
+                  ref="scholarNET:interactedWith"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -810,8 +811,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36"
-                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:1"/>
+               <relation ana="textual" active="scholarNET:1" passive="scholarNET:36"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -821,8 +822,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36"
-                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:2"/>
+               <relation ana="textual" active="scholarNET:2" passive="scholarNET:36"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -832,8 +833,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36"
-                  ref="scholarNET:wroteCollectionOfSayingsOf" passive="scholarNET:2"/>
+               <relation ana="textual" active="scholarNET:2" passive="scholarNET:36"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -843,8 +844,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36"
-                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:1"/>
+               <relation ana="textual" active="scholarNET:1" passive="scholarNET:36"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>
@@ -854,8 +855,8 @@
          </div>
          <div>
             <listRelation>
-               <relation ana="textual" active="scholarNET:36"
-                  ref="scholarNET:basedWritingOnTeachingsOf" passive="scholarNET:2"/>
+               <relation ana="textual" active="scholarNET:2" passive="scholarNET:36"
+                  ref="scholarNET:wasSourceFor"/>
             </listRelation>
             <bibl type="primary">
                <ptr target="scholarNET:IU"/>

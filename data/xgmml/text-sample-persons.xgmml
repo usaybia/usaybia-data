@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns:dc="http://purl.org/dc/elements/1.1/"
+       xmlns:xlink="http://www.w3.org/1999/xlink"
+       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns:cy="http://www.cytoscape.org"
+       xmlns="http://www.cs.rpi.edu/XGMML"
+       id="sn1"
+       label="Scholar Net test"
+       directed="0"
+       cy:documentVersion="3.0">
+   <node id="scholarNET:1" label="scholarNET:1">
+      <att name="shared name"
+           value="scholarNET:1"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Hippocrates" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:2" label="scholarNET:2">
+      <att name="shared name"
+           value="scholarNET:2"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Galen" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:3" label="scholarNET:3">
+      <att name="shared name"
+           value="scholarNET:3"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Muhadhdhab al-Dīn Abū Naṣr Muḥammad"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:4" label="scholarNET:4">
+      <att name="shared name"
+           value="scholarNET:4"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Badīʿ al-Asṭurlābī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:5" label="scholarNET:5">
+      <att name="shared name"
+           value="scholarNET:5"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Shaykh Abū al-Barakāt, ʾAwḥad al-Zamān"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Jewish"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:6" label="scholarNET:6">
+      <att name="shared name"
+           value="scholarNET:6"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Shaykh Muwaffaq al-Dīn ʿAbd al-Laṭīf al-Baghdādī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:7" label="scholarNET:7">
+      <att name="shared name"
+           value="scholarNET:7"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Ibn al-Dahhān al-Munajjim"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:8" label="scholarNET:8">
+      <att name="shared name"
+           value="scholarNET:8"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Ibn Abī ʾUṣaybiʿa"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:9" label="scholarNET:9">
+      <att name="shared name"
+           value="scholarNET:9"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Jammāl al-Dīn b. Faḍlān"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:10" label="scholarNET:10">
+      <att name="shared name"
+           value="scholarNET:10"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Yūsuf, father of al-Shaykh Muwaffaq al-Dīn ʿAbd al-Laṭīf"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:11" label="scholarNET:11">
+      <att name="shared name"
+           value="scholarNET:11"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Muhadhdhab b. al-Naqqāsh"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:12" label="scholarNET:12">
+      <att name="shared name"
+           value="scholarNET:12"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Caliph al-Mustanjid bi-Allāh"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:13" label="scholarNET:13">
+      <att name="shared name"
+           value="scholarNET:13"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Chief Justice (Qāḍī al-Quḍā)"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:14" label="scholarNET:14">
+      <att name="shared name"
+           value="scholarNET:14"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Shaykh Saʿd al-Dīn Abū Saʿīd b. Abī al-Sahl al-Baghdādī al-ʿAwād"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Jewish"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:15" label="scholarNET:15">
+      <att name="shared name"
+           value="scholarNET:15"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Qāḍī Najm al-Dīn ʿAmr b. Muḥammad, known as Ibn al-Kuraydī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:16" label="scholarNET:16">
+      <att name="shared name"
+           value="scholarNET:16"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Amīn al-Dawla b. al-Tilmīdh"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Christian"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:17" label="scholarNET:17">
+      <att name="shared name"
+           value="scholarNET:17"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Badr al-Dīn Abū al-ʿIzz Yūsuf b. Makkī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:18" label="scholarNET:18">
+      <att name="shared name"
+           value="scholarNET:18"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Muhadhdhab al-Dīn Ibn Habal"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:19" label="scholarNET:19">
+      <att name="shared name"
+           value="scholarNET:19"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Sulṭān al-Muʿẓam Ghiyyāth al-Dīn Abī Shujāʿ Muḥammad b. Malik Shāh"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:2" label="scholarNET:2">
+      <att name="shared name"
+           value="scholarNET:2"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Galen" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:4" label="scholarNET:4">
+      <att name="shared name"
+           value="scholarNET:4"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Badīʿ al-ʾAṣṭrulābī, Badīʿ al-Zammān Abū al-Qāsim Hibbat Allāh b. al-Ḥusayn b. Aḥmad al-Baghdādī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:20" label="scholarNET:20">
+      <att name="shared name"
+           value="scholarNET:20"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Ibn Riḍwān" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:21" label="scholarNET:21">
+      <att name="shared name"
+           value="scholarNET:21"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Al-Rāzī" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:22" label="scholarNET:22">
+      <att name="shared name"
+           value="scholarNET:22"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Ptolemy" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:23" label="scholarNET:23">
+      <att name="shared name"
+           value="scholarNET:23"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Plato" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:24" label="scholarNET:24">
+      <att name="shared name"
+           value="scholarNET:24"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Aristotle" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:25" label="scholarNET:25">
+      <att name="shared name"
+           value="scholarNET:25"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Alexander" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:26" label="scholarNET:26">
+      <att name="shared name"
+           value="scholarNET:26"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Themistius (?)"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:27" label="scholarNET:27">
+      <att name="shared name"
+           value="scholarNET:27"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Muḥammad al-Fārābī"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:28" label="scholarNET:28">
+      <att name="shared name"
+           value="scholarNET:28"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Riḍwān" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:29" label="scholarNET:29">
+      <att name="shared name"
+           value="scholarNET:29"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="al-Ḥākim" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:30" label="scholarNET:30">
+      <att name="shared name"
+           value="scholarNET:30"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-Mukhtār Ibn al-Ḥasan b. Baṭlān"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Christian"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:31" label="scholarNET:31">
+      <att name="shared name"
+           value="scholarNET:31"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Al-Sulṭān" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:32" label="scholarNET:32">
+      <att name="shared name"
+           value="scholarNET:32"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Abū ʿAbd Allāh Muḥammad al-Māliqī al-Nāsikh"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:33" label="scholarNET:33">
+      <att name="shared name"
+           value="scholarNET:33"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Yatīma" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:34" label="scholarNET:34">
+      <att name="shared name"
+           value="scholarNET:34"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Ḥunayn b. Isḥaq"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Christian"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:35" label="scholarNET:35">
+      <att name="shared name"
+           value="scholarNET:35"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Abū al-Faraj b. al-Ṭayyib"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Christian"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:36" label="scholarNET:36">
+      <att name="shared name"
+           value="scholarNET:36"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Isḥaq b. ʿImrān"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:37" label="scholarNET:37">
+      <att name="shared name"
+           value="scholarNET:37"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Ziyādat Allāh b. al-ʾAghlab"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Muslim"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:38" label="scholarNET:38">
+      <att name="shared name"
+           value="scholarNET:38"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="A Jewish youth"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Jewish"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:39" label="scholarNET:39">
+      <att name="shared name"
+           value="scholarNET:39"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Saʿīd b. Tūfayl al-Mutaṭabbib"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:40" label="scholarNET:40">
+      <att name="shared name"
+           value="scholarNET:40"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Al-ʿAbbās, the majordomo of Ibrāhīm b. al-ʾAghlab"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:1" label="scholarNET:1">
+      <att name="shared name"
+           value="scholarNET:1"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Hippocrates" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:2" label="scholarNET:2">
+      <att name="shared name"
+           value="scholarNET:2"
+           type="string"
+           cy:type="String"/>
+      <att name="name" value="Galen" type="string" cy:type="String"/>
+      <att name="affiliation"
+           value="unspecified"
+           type="string"
+           cy:type="String"/>
+   </node>
+   <node id="scholarNET:41" label="scholarNET:41">
+      <att name="shared name"
+           value="scholarNET:41"
+           type="string"
+           cy:type="String"/>
+      <att name="name"
+           value="Isḥaq b. Sulaymān al-Isrāʾīlī, Abū Yaʿqūb"
+           type="string"
+           cy:type="String"/>
+      <att name="affiliation"
+           value="Jewish"
+           type="string"
+           cy:type="String"/>
+   </node>
+</graph>
