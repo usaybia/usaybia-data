@@ -6,7 +6,7 @@
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     
         <xsl:template match="/TEI/text/body" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:result-document href="../../data/xgmml/XGMMLfromSPEAR.xgmml" format="xml">
+            <xsl:result-document href="../../data/xgmml/text-samples-1-5x-relations.xgmml" format="xml">
                 
                 <graph id="sn1" label="Relations from IU Samples" directed="1" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
                     <att name="networkMetadata">
@@ -48,8 +48,8 @@
                         <xsl:variable name="relation" select="listRelation/relation/@ref"/>
                         <xsl:variable name="mutual">
                             <xsl:choose>
-                                <xsl:when test="listRelation/relation/@active">1</xsl:when>
-                                <xsl:otherwise>0</xsl:otherwise>
+                                <xsl:when test="listRelation/relation/@active">0</xsl:when>
+                                <xsl:otherwise>1</xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
                         <edge id="{$edge-id}" label="{$person1} {$relation} {$person2}" source="{$person1}" target="{$person2}" cy:directed="1">
@@ -59,7 +59,7 @@
                             <att name="source" value="{bibl/ptr/@target} {string-join(bibl/citedRange,'.')}" type="string" cy:type="String"/>
                             <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
                         </edge>
-                        <xsl:if test="$mutual">
+                        <xsl:if test="$mutual=1">
                             <edge id="{$edge-id-reciprocal}" label="{$person2} {$relation} {$person1}" source="{$person2}" target="{$person1}" cy:directed="1">
                                 <att name="shared name" value="{$person2} {$relation} {$person1}" type="string" cy:type="String"/>
                                 <att name="shared interaction" value="{$relation}" type="string" cy:type="String"/>
