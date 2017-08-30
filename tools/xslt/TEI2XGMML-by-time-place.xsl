@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:functx="http://www.functx.com"
+    xmlns:scholarNET="http://scholarnet.github.io"
     exclude-result-prefixes="xs"
     version="2.0">
     
@@ -31,12 +32,43 @@
         
     </xsl:function>
     
+    <xsl:function name="scholarNET:next-multiple" as="xs:integer">
+        <xsl:param name="integerBefore" as="xs:integer"/>
+        <xsl:param name="multipleOf" as="xs:integer"/>
+        <xsl:choose>
+            <xsl:when test="($integerBefore mod $multipleOf) = 0">
+                <xsl:value-of select="$integerBefore"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$integerBefore + $multipleOf - ($integerBefore mod $multipleOf)"/>
+            </xsl:otherwise>
+        </xsl:choose>        
+    </xsl:function>
+    
+    <xsl:function name="scholarNET:previous-multiple" as="xs:integer">
+        <xsl:param name="integerAfter"/>
+        <xsl:param name="multipleOf" as="xs:integer"/>
+        <xsl:value-of select="$integerAfter - ($integerAfter mod $multipleOf)"/>
+    </xsl:function>
+    
+    <xsl:function name="scholarNET:multiples-between">
+        <xsl:param name="integerBefore"/>
+        <xsl:param name="integerAfter"/>
+        <xsl:param name="multipleOf" as="xs:integer"/>
+        <xsl:variable name="floor" select="scholarNET:next-multiple($integerBefore,$multipleOf)"/>
+        <xsl:variable name="ceiling" select="scholarNET:previous-multiple($integerAfter,$multipleOf)"/>
+        <xsl:variable name="count" select="xs:integer((($ceiling - $floor) div $multipleOf) - 1)"/>
+        <xsl:variable name="between" select="for $i in 1 to $count return $floor + ($multipleOf * $count)"/>
+        
+        <xsl:sequence select="$floor,$between,$ceiling"/>
+    </xsl:function>
+    
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     
         <xsl:template match="//body" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
             <xsl:result-document href="../xgmml/XGMMLfromTEI-timeplace.xgmml" format="xml">
                 
-                <graph id="sn1" label="Scholar Net test" directed="0" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
+                <graph id="sn2" label="ScholarNET Onomasticon Arabicum Places &amp; Times" directed="0" cy:documentVersion="3.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML">
                     <att name="networkMetadata">
                         <rdf:RDF>
                             <rdf:Description rdf:about="http://www.cytoscape.org/">
@@ -44,70 +76,44 @@
                                 <dc:description>N/A</dc:description>
                                 <dc:identifier>N/A</dc:identifier>
                                 <dc:date>2017-08-22 10:30:00</dc:date>
-                                <dc:title>Scholar Net test</dc:title>
+                                <dc:title>ScholarNET Onomasticon Arabicum Places &amp; Times</dc:title>
                                 <dc:source>N/A</dc:source>
                                 <dc:format>Cytoscape-XGMML</dc:format>
                             </rdf:Description>
                         </rdf:RDF>
                     </att>
-                    <att name="shared name" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="name" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="selected" value="1" type="boolean" cy:type="Boolean"/>
-                    <att name="religious-affiliation-standardized1" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation1" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation-standardized2" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation2" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation-standardized3" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation3" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation-standardized4" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="religious-affiliation4" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref1" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref2" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref3" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref4" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref5" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref6" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref7" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref8" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="ref9" value="Scholar Net test" type="string" cy:type="String"/>
-                    <att name="__Annotations" type="list" cy:type="List" cy:elementType="String">
-                    </att>
-                    <att name="date" value="Scholar Net test" type="double" cy:type="double"/>
                     
-                    <xsl:variable name="places-all" select="listPerson/person/descendant::placeName"/>
-                    <xsl:for-each select="$places-all">
-                        <node id="{.}" label="{.}">
-                            <att name="shared name" value="{.}" type="string" cy:type="String"/>
-                            <att name="name" value="{.}" type="string" cy:type="String"/>
-                            <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
-                        </node>
-                    </xsl:for-each>
+                    <xsl:variable name="persons-all" select="listPerson/person"/>                
                     
-                    <xsl:for-each select="listPerson/person">
+                    <xsl:for-each select="$persons-all[descendant::placeName and descendant::date]">
                         <xsl:variable name="this-person" select="."/>
                         <xsl:variable name="OA-id" select="idno[@type='OA-ID']/text()"/>
                         <xsl:variable name="ISM" select="persName[@type='ISM'][1]"/>
                         <xsl:variable name="display-name" select="concat($ISM,' - ',$OA-id)"/>
                         <xsl:variable name="begin">
                             <xsl:choose>
-                                <xsl:when test="$this-person/birth/date/@when"><xsl:value-of select="$this-person/birth/date/@when"/></xsl:when>
-                                <xsl:when test="$this-person/birth/date/@notBefore"><xsl:value-of select="$this-person/birth/date/@notBefore"/></xsl:when>
-                                <xsl:when test="$this-person/death/date/@when"><xsl:value-of select="functx:pad-integer-to-length(min($this-person/death/date/@when) - 60,4)"/></xsl:when>
-                                <xsl:when test="$this-person/death/date/@notBefore"><xsl:value-of select="functx:pad-integer-to-length(min($this-person/death/date/@notBefore) - 60,4)"/></xsl:when>
+                                <xsl:when test="$this-person/birth/date/@when"><xsl:value-of select="min($this-person/birth/date/@when)"/></xsl:when>
+                                <xsl:when test="$this-person/birth/date/@notBefore"><xsl:value-of select="min($this-person/birth/date/@notBefore)"/></xsl:when>
+                                <xsl:when test="$this-person/death/date/@when and $this-person/death/note[@type='UMT' and matches(.,'[0-9]+')]">
+                                    <xsl:value-of select="min($this-person/death/date/@when) - round(avg(for $age in $this-person/death/note[@type='UMT' and matches(.,'[0-9]+')] return xs:integer(replace($age,'^.*?([0-9]+).*?$','$1'))))"/>
+                                </xsl:when>
+                                <xsl:when test="$this-person/death/date/@when"><xsl:value-of select="min($this-person/death/date/@when) - 60"/></xsl:when>
+                                <xsl:when test="$this-person/death/date/@notBefore"><xsl:value-of select="min($this-person/death/date/@notBefore) - 60"/></xsl:when>
                             </xsl:choose>
                         </xsl:variable>
                         <xsl:variable name="end">
                             <xsl:choose>
-                                <xsl:when test="$this-person/death/date/@when"><xsl:value-of select="$this-person/death/date/@when"/></xsl:when>
-                                <xsl:when test="$this-person/death/date/@notAfter"><xsl:value-of select="$this-person/death/date/@notAfter"/></xsl:when>
-                                <xsl:when test="$this-person/birth/date/@when"><xsl:value-of select="functx:pad-integer-to-length(max($this-person/birth/date/@when) + 60,4)"/></xsl:when>
-                                <xsl:when test="$this-person/birth/date/@notAfter"><xsl:value-of select="functx:pad-integer-to-length(max($this-person/birth/date/@notAfter) + 60,4)"/></xsl:when>
+                                <xsl:when test="$this-person/death/date/@when"><xsl:value-of select="max($this-person/death/date/@when)"/></xsl:when>
+                                <xsl:when test="$this-person/death/date/@notAfter"><xsl:value-of select="max($this-person/death/date/@notAfter)"/></xsl:when>
+                                <xsl:when test="$this-person/birth/date/@when"><xsl:value-of select="max($this-person/birth/date/@when) + 60"/></xsl:when>
+                                <xsl:when test="$this-person/birth/date/@notAfter"><xsl:value-of select="max($this-person/birth/date/@notAfter) + 60"/></xsl:when>
                             </xsl:choose>
                         </xsl:variable>
                         <xsl:variable name="places" select="$this-person//placeName"/>
                         <node id="{$OA-id}" label="{$display-name}">
                             <att name="shared name" value="{$display-name}" type="string" cy:type="String"/>
                             <att name="name" value="{$display-name}" type="string" cy:type="String"/>
+                            <att name="type" value="person" type="string" cy:type="String"/>
                             <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
                             <xsl:for-each select="faith">
                                 <att name="{concat('religious-affiliation-standardized',position())}" value="{@key}" type="string" cy:type="String"/>
@@ -119,18 +125,31 @@
                             <xsl:for-each select="$places">
                                 <att name="places" value="{text()}" type="string" cy:type="String"/>
                             </xsl:for-each>
-                            <xsl:if test="$begin"><att name="begin" value="{$begin}" type="double" cy:type="double"/></xsl:if>
-                            <xsl:if test="$end"><att name="end" value="{$end}" type="double" cy:type="double"/></xsl:if>
+                            <xsl:if test="string-length($begin)"><att name="begin" value="{functx:pad-integer-to-length($begin,4)}" type="string" cy:type="String"/></xsl:if>
+                            <xsl:if test="string-length($end)"><att name="end" value="{functx:pad-integer-to-length($end,4)}" type="string" cy:type="String"/></xsl:if>
                         </node>
                         
+                        
                         <xsl:for-each select="$places">
-                            <edge id="{concat($OA-id,'-p-',position())}" label="{$display-name} (is associated with) {.}" source="{$OA-id}" target="{.}" cy:directed="0">
-                                <att name="shared name" value="{$display-name} (is associated with) {.}" type="string" cy:type="String"/>
-                                <att name="shared interaction" value="is associated with" type="string" cy:type="String"/>
-                                <att name="name" value="{$display-name} (is associated with) {.}" type="string" cy:type="String"/>
-                                <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
-                                <att name="interaction" value="is associated with" type="string" cy:type="String"/>
-                            </edge>
+                            <xsl:variable name="this-place" select="."/>
+                            <xsl:if test="string-length($begin) and string-length($end)">
+                                <xsl:for-each select="scholarNET:multiples-between($begin,$end,30)">
+                                    <node id="{$this-place}-{.}" label="{$this-place}-{.}">
+                                        <att name="shared name" value="{$this-place}-{.}" type="string" cy:type="String"/>
+                                        <att name="name" value="{$this-place}" type="string" cy:type="String"/>
+                                        <att name="type" value="place" type="string" cy:type="String"/>
+                                        <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
+                                        <att name="date" value="{.}" type="string" cy:type="String"/>
+                                    </node>
+                                    <edge id="{concat($OA-id,'-',$this-place,'-',.,'-p-',position())}" label="{$display-name} (is associated with) {$this-place}-{.}" source="{$OA-id}" target="{$this-place}-{.}" cy:directed="0">
+                                        <att name="shared name" value="{$display-name} (is associated with) {$this-place}-{.}" type="string" cy:type="String"/>
+                                        <att name="shared interaction" value="is associated with" type="string" cy:type="String"/>
+                                        <att name="name" value="{$display-name} (is associated with) {$this-place}-{.}" type="string" cy:type="String"/>
+                                        <att name="selected" value="0" type="boolean" cy:type="Boolean"/>
+                                        <att name="interaction" value="is associated with" type="string" cy:type="String"/>
+                                    </edge>
+                                </xsl:for-each>
+                            </xsl:if>
                         </xsl:for-each>
                         
                         <!--<xsl:for-each select="following-sibling::person[bibl=$this-person/bibl]">
