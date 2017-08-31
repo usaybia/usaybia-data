@@ -1,9 +1,9 @@
 **Caption**: Comparison of the relative frequency of *ibn*/*bin*/*bint* in several biographical sources used by the Onomasticon Arabicum
 
-**Interactive Chart URL**: http://voyant-tools.org/?corpus=be75a09f87b5ca3dd0d01413e6ebc55d&view=Trends&query=(%D8%A8%D9%90?%D9%86%7C[%D8%A7%D8%A5]%D8%A8%D9%92?%D9%86%7C%D8%A8%D9%90?%D9%86%D9%92?%D8%AA)&bins=9
+**Interactive Chart URL**: http://voyant-tools.org/?corpus=31d68ca9bdd5a19f1bb7f487848cb0fb&view=Trends&query=(%D8%A8%D9%90?%D9%86%7C[%D8%A7%D8%A5]%D9%90?%D8%A8%D9%92?%D9%86%7C%D8%A8%D9%90?%D9%86%D9%92?%D8%AA)&bins=9
 
 **Search Terms**:‪
-(بِ?ن|[اإ]بْ?ن|بِ?نْ?ت)
+(بِ?ن|[اإ]ِ?بْ?ن|بِ?نْ?ت)
 
 **Texts**
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/DQ-affiliations-no-index.txt
