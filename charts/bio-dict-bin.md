@@ -6,14 +6,14 @@
 (بِ?ن|[اإ]بْ?ن|بِ?نْ?ت)
 
 **Texts**
-https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/DQ-affiliations.txt
+https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/DQ-affiliations-no-index.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/HQ-Iraq-1-affiliations.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/HQ-Iraq-4-2-affiliations.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/HQ-Maghreb-affiliations.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/HQ-Other-affiliations.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/IU-affiliations.txt
-https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/SD-affiliations.txt
-https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/WA-affiliations.txt
+https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/SD-affiliations-no-index.txt
+https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/WA-affiliations-no-index.txt
 https://raw.githubusercontent.com/ScholarNET/ScholarNET-data/master/data/texts/txt/YT-affiliations.txt
 
 **Citation**: Chart produced using Stéfan Sinclair and Geoffrey Rockwell, “Trends,” *Voyant Tools*, accessed August 31, 2017, http://voyant-tools.org.
