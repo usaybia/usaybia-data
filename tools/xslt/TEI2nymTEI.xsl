@@ -19,7 +19,7 @@
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     
         <xsl:template match="//body" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-            <xsl:result-document href="nymTEI.xml" format="xml">
+            <xsl:result-document href="nymTEI-Syriaca.xml" format="xml">
                 
                 <TEI xmlns="http://www.tei-c.org/ns/1.0">
                     <teiHeader>
@@ -38,8 +38,9 @@
                     <text>
                         <body>
                             <listNym>
-                                <xsl:variable name="persons" select="//person[faith/@key]"/>
+                                <xsl:variable name="persons" select="//person"/>
                                 <xsl:variable name="Christians" select="$persons[faith/@key='Christian']"/>
+                                <xsl:variable name="probable-Christians" select="$persons[not(faith) and starts-with(idno,'http://syriaca.org/')]"/>
                                 <xsl:variable name="Muslims" select="$persons[faith/@key='Muslim']"/>
                                 <xsl:variable name="Sabians" select="$persons[faith/@key='Sabian']"/>
                                 <xsl:variable name="Zoroastrians" select="$persons[faith/@key='Zoroastrian']"/>
@@ -67,6 +68,11 @@
                                         <xsl:call-template name="usg">
                                             <xsl:with-param name="grp" select="$Christians"/>
                                             <xsl:with-param name="key" select="'Christian'"/>
+                                            <xsl:with-param name="name" select="."/>
+                                        </xsl:call-template>
+                                        <xsl:call-template name="usg">
+                                            <xsl:with-param name="grp" select="$probable-Christians"/>
+                                            <xsl:with-param name="key" select="'probable-Christian'"/>
                                             <xsl:with-param name="name" select="."/>
                                         </xsl:call-template>
                                         <xsl:call-template name="usg">
