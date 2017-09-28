@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>409.2</string>
+	<key>AMApplicationVersion</key>
+	<string>2.5</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>AppleScript ausführen</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>tell application "Finder"	select (every item of window 1 whose name is in {"7536.txt", "12045.txt", "12222.txt", "37473.txt", "6615.txt", "12205.txt", "12212.txt", "12226.txt", "11404.txt", "12129.txt", "12403.txt", "12221.txt", "30741.txt", "9760.txt", "9783.txt", "117366.txt", "6706.txt", "8184.txt", "8620.txt", "23718.txt", "12318.txt", "12404.txt", "12396.txt", "26106.txt", "14512.txt", "16439.txt", "122397.txt", "6616.txt", "30797.txt", "22799.txt", "763.txt", "22788.txt", "12289.txt", "21564.txt", "12406.txt", "10927.txt", "6700.txt", "6628.txt", "16550.txt", "14789.txt", "6708.txt", "7435.txt", "6625.txt", "21712.txt", "12716.txt", "8559.txt", "6607.txt", "122237.txt", "23644.txt", "6608.txt", "6630.txt", "9872.txt", "6631.txt", "12348.txt", "6633.txt", "28174.txt", "11782.txt", "16362.txt", "16364.txt", "12722.txt", "12715.txt", "18147.txt", "25841.txt", "12397.txt", "22771.txt", "6624.txt", "9091.txt", "8376.txt", "23708.txt", "4445.txt", "12320.txt", "16363.txt", "9233.txt", "8362.txt", "176.txt", "9226.txt", "26317.txt", "5539.txt", "12417.txt", "11988.txt", "9807.txt", "6641.txt", "6637.txt", "31372.txt", "7650.txt", "11997.txt", "3283.txt", "17097.txt", "8880.txt", "6626.txt", "26578.txt", "12398.txt", "6617.txt", "6640.txt", "408.txt", "17048.txt", "11998.txt", "14329.txt", "13551.txt", "6627.txt"})end tell</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>0CFCDBC8-FAB3-47BA-8C8B-25CE861317BB</string>
+				<key>Keywords</key>
+				<array>
+					<string>Ausführen</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>C05D8670-72D0-4B1D-93E9-F253DE87D086</string>
+				<key>UUID</key>
+				<string>52828161-6D7F-4FDB-87ED-2049ECEB5767</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:248.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.workflow</string>
+	</dict>
+</dict>
+</plist>
