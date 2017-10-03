@@ -34,7 +34,7 @@ declare function scholarNET:add-persNames($nodes as node()*, $names-all-regex-st
 };
 
 let $nymList := doc("/db/apps/scholarnet/data/oa-tei/nymTEI.xml")
-let $text := doc("/db/apps/scholarnet/data/texts/IU/epubTEI.xml")
+let $text := doc("/db/apps/scholarnet/data/texts/tei/IU.xml")
 
 let $names := $nymList/TEI/text/body/listNym/nym/form[@type='vocalized']
 
@@ -42,7 +42,10 @@ let $names-regex :=
     for $name in $names
     return replace(replace($name,'([ؠ-ي])([ؠ-ي])','$1[ً-ٖ]*$2'),'([ؠ-ي])([ؠ-ي])','$1[ً-ٖ]*$2')
     
-let $names-all-regex-string := concat('[\s\t\n\>](',string-join($names-regex,')[\s\t\n\<]|[\s\t\n\>]('),')[\s\t\n\<]')
+    (: This is removing these letters when it should just find them :)
+let $word-dividers := '[\s\t\n\>][بكلو]?[َِ]?'
+    
+let $names-all-regex-string := concat($word-dividers,'(',string-join($names-regex,concat(')',$word-dividers,'|',$word-dividers,'(')),')',$word-dividers)
 
 let $text-w-persNames := 
     for $p in $text//p
