@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "Finder"	select (every item of window 1 whose name is in {"7536.txt", "12045.txt", "12222.txt", "37473.txt", "6615.txt", "12205.txt", "12212.txt", "12226.txt", "11404.txt", "12129.txt", "12403.txt", "12221.txt", "30741.txt", "9760.txt", "9783.txt", "117366.txt", "6706.txt", "8184.txt", "8620.txt", "23718.txt", "12318.txt", "12404.txt", "12396.txt", "26106.txt", "14512.txt", "16439.txt", "122397.txt", "6616.txt", "30797.txt", "22799.txt", "763.txt", "22788.txt", "12289.txt", "21564.txt", "12406.txt", "10927.txt", "6700.txt", "6628.txt", "16550.txt", "14789.txt", "6708.txt", "7435.txt", "6625.txt", "21712.txt", "12716.txt", "8559.txt", "6607.txt", "122237.txt", "23644.txt", "6608.txt", "6630.txt", "9872.txt", "6631.txt", "12348.txt", "6633.txt", "28174.txt", "11782.txt", "16362.txt", "16364.txt", "12722.txt", "12715.txt", "18147.txt", "25841.txt", "12397.txt", "22771.txt", "6624.txt", "9091.txt", "8376.txt", "23708.txt", "4445.txt", "12320.txt", "16363.txt", "9233.txt", "8362.txt", "176.txt", "9226.txt", "26317.txt", "5539.txt", "12417.txt", "11988.txt", "9807.txt", "6641.txt", "6637.txt", "31372.txt", "7650.txt", "11997.txt", "3283.txt", "17097.txt", "8880.txt", "6626.txt", "26578.txt", "12398.txt", "6617.txt", "6640.txt", "408.txt", "17048.txt", "11998.txt", "14329.txt", "13551.txt", "6627.txt"})end tell</string>
+					<string>tell application "Finder"	set TextFile to (choose file with prompt "Select your text file" of type {"txt"})	set My_Folder to choose folder with prompt "Select your destination folder"	set List_files to paragraphs of (read TextFile)	move List_files to My_Folderend tell</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -102,12 +102,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:248.000000</string>
+				<string>248.000000:248.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
