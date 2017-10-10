@@ -129,7 +129,8 @@
             <xsl:param name="grp"/>
             <xsl:param name="key"/>
             <xsl:param name="name"/>
-            <xsl:variable name="occurences" select="count($grp[$name=scholarNET:strip-vowels-string(faith)])"/>
+            <xsl:variable name="occurences" select="count($grp/faith[matches(scholarNET:strip-vowels-string(.),$name)])"/>               
+            
             <usg type="{$key}">
                 <measure type="occurrences"><xsl:value-of select="$occurences"/></measure>
             </usg>
