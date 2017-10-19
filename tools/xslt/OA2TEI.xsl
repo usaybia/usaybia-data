@@ -61,7 +61,7 @@
     </xsl:function>
     
         <xsl:template match="//body">
-            <xsl:result-document href="TEIfromOA-all.xml" format="xml">
+            <xsl:result-document href="../../data/oa-tei/TEIfromOA-all.xml" format="xml">
                 <xsl:processing-instruction name="xml-model">
                     <xsl:text>href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"</xsl:text>
                 </xsl:processing-instruction>
@@ -100,22 +100,21 @@
                                         <idno type="OA-ID"><xsl:value-of select="@data-id"/></idno>
                                         <idno type="URI"><xsl:value-of select="../ul/li/a/@href"/></idno>
                                         <xsl:for-each select="tbody/tr[@class='ligne_general ligne DIN']">
-                                            <xsl:variable name="faith" select="td[@class='contents']"/>
                                             <xsl:variable name="key">
                                                 <xsl:choose>
-                                                    <xsl:when test="matches($faith,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
-                                                    <xsl:when test="matches($faith,'حَنَف|زَيدِي|السُنِّي|سُنِّي
+                                                    <xsl:when test="matches(.,'صَابِئِِ')">Sabian</xsl:when>
+                                                    <xsl:when test="matches(.,'مَجُوسِ')">Zoroastrian</xsl:when>        
+                                                    <xsl:when test="matches(.,'زِندِيق')">Zindiq</xsl:when>
+                                                    <xsl:when test="matches(.,'[اإ]َ?سْ?لَ?م|اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
+                                                    <xsl:when test="matches(.,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
+                                                    <xsl:when test="matches(.,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
+                                                    <xsl:when test="matches(.,'حَنَف|زَيدِي|السُنِّي|سُنِّي
                                                         |أنصَارِي|خَارِجِي|صَحَابِي|إمَامِي|مَالِكِ|شَافِعِ|مُعتَزِلِ|صُوف|غَ?الِ?ي|عَارِف  بالله|حَنبَلِ|مُرجِئ|أشعَرِ|عَلَوِي|شِيع|رَافِضِ|مُسلِم')">Muslim</xsl:when>
-                                                    <xsl:when test="matches($faith,'مَجُوسِ')">Zoroastrian</xsl:when>   
-                                                    <xsl:when test="matches($faith,'اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
-                                                    <xsl:when test="matches($faith,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
-                                                    <xsl:when test="matches($faith,'صَابِئِِ')">Sabian</xsl:when>
-                                                    <xsl:when test="matches($faith,'زِندِيق')">Zindiq</xsl:when>
                                                     <xsl:otherwise>Other</xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
                                             <faith key="{$key}" xml:lang="ar">
-                                                <xsl:value-of select="$faith"/>
+                                                <xsl:value-of select="td[@class='contents']"/>
                                             </faith>
                                             <xsl:call-template name="comments">
                                                 <xsl:with-param name="tr" select="."/>
@@ -263,7 +262,14 @@
                                         
                                         
                                         <xsl:for-each select="tbody/tr[@class='ligne_reference ligne REF']">
-                                            <bibl><xsl:value-of select="normalize-space(td[@class='contents'])"/></bibl>
+                                            <bibl>
+                                                <xsl:attribute name="type">
+                                                    <xsl:analyze-string select="td[@class='contents']" regex="^[\s\t\n]*([A-Z]+)">
+                                                        <xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring>
+                                                    </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:value-of select="normalize-space(td[@class='contents'])"/>
+                                            </bibl>
                                             <xsl:call-template name="comments">
                                                 <xsl:with-param name="tr" select="."/>
                                                 <xsl:with-param name="type" select="'REF'"/>
