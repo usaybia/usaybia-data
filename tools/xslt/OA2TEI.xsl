@@ -105,7 +105,7 @@
                                                 <xsl:choose>
                                                     <xsl:when test="matches($faith,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
                                                     <xsl:when test="matches($faith,'حَنَف|زَيدِي|السُنِّي|سُنِّي
-                                                        |أنصَارِي|خَارِجِي|صَحَابِي|إمَامِي|مَالِكِ|شَافِعِ|مُعتَزِلِ|صُوف|عَارِف  بالله|حَنبَلِ|مُرجِئ|أشعَرِ|عَلَوِي|شِيع|رَافِضِ|مُسلِم')">Muslim</xsl:when>
+                                                        |أنصَارِي|خَارِجِي|صَحَابِي|إمَامِي|مَالِكِ|شَافِعِ|مُعتَزِلِ|صُوف|غَ?الِ?ي|عَارِف  بالله|حَنبَلِ|مُرجِئ|أشعَرِ|عَلَوِي|شِيع|رَافِضِ|مُسلِم')">Muslim</xsl:when>
                                                     <xsl:when test="matches($faith,'مَجُوسِ')">Zoroastrian</xsl:when>   
                                                     <xsl:when test="matches($faith,'اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
                                                     <xsl:when test="matches($faith,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
