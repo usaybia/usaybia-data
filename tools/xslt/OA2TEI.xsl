@@ -106,7 +106,7 @@
                                                     <xsl:when test="matches($faith,'صَابِئِِ')">Sabian</xsl:when>
                                                     <xsl:when test="matches($faith,'مَجُوسِ')">Zoroastrian</xsl:when>        
                                                     <xsl:when test="matches($faith,'زِندِيق')">Zindiq</xsl:when>
-                                                    <xsl:when test="matches($faith,'اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
+                                                    <xsl:when test="matches($faith,'أَ?سْ?لَ?م|اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
                                                     <xsl:when test="matches($faith,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
                                                     <xsl:when test="matches($faith,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
                                                     <xsl:when test="matches($faith,'حَنَف|زَيدِي|السُنِّي|سُنِّي
@@ -117,12 +117,16 @@
                                             <faith key="{$key}" xml:lang="ar">
                                                 <xsl:value-of select="td[@class='contents']"/>
                                             </faith>
+                                            <!-- Adds another faith element if comment matches a different key -->
                                             <xsl:for-each select="td[@class='comments']">
-                                                <xsl:choose>
-                                                    <xsl:when test="matches(.,'أَ?سْ?لَ?م')">
-                                                        <faith key="Convert-to-Islam"/>
-                                                    </xsl:when>
-                                                </xsl:choose>
+                                                <xsl:if test="matches(.,'صَابِئِِ') and not($key='Sabian')"><faith key="Sabian"/></xsl:if>
+                                                <xsl:if test="matches(.,'مَجُوسِ') and not($key='Zoroastrian')"><faith key="Zoroastrian"/></xsl:if>
+                                                <xsl:if test="matches(.,'زِندِيق') and not($key='Zindiq')"><faith key="Zindiq"/></xsl:if>
+                                                <xsl:if test="matches(.,'أَ?سْ?لَ?م|اعتَنَقَ  الإسلام') and not($key='Convert-to-Islam')"><faith key="Convert-to-Islam"/></xsl:if>
+                                                <xsl:if test="matches(.,'يَهُودِ|إسرَاِئِيلِ') and not($key='Jewish')"><faith key="Jewish"/></xsl:if>
+                                                <xsl:if test="matches(.,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ') and not($key='Christian')"><faith key="Christian"/></xsl:if>
+                                                <xsl:if test="matches(.,'حَنَف|زَيدِي|السُنِّي|سُنِّي
+                                                    |أنصَارِي|خَارِجِي|صَحَابِي|إمَامِي|مَالِكِ|شَافِعِ|مُعتَزِلِ|صُوف|غَ?الِ?ي|عَارِف  بالله|حَنبَلِ|مُرجِئ|أشعَرِ|عَلَوِي|شِيع|رَافِضِ|مُسلِم') and not($key='Muslim')"><faith key="Muslim"/></xsl:if>
                                             </xsl:for-each>
                                             <xsl:call-template name="comments">
                                                 <xsl:with-param name="tr" select="."/>
