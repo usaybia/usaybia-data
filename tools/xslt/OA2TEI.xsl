@@ -100,15 +100,16 @@
                                         <idno type="OA-ID"><xsl:value-of select="@data-id"/></idno>
                                         <idno type="URI"><xsl:value-of select="../ul/li/a/@href"/></idno>
                                         <xsl:for-each select="tbody/tr[@class='ligne_general ligne DIN']">
+                                            <xsl:variable name="faith" select="td[@class='contents']"/>
                                             <xsl:variable name="key">
                                                 <xsl:choose>
-                                                    <xsl:when test="matches(.,'صَابِئِِ')">Sabian</xsl:when>
-                                                    <xsl:when test="matches(.,'مَجُوسِ')">Zoroastrian</xsl:when>        
-                                                    <xsl:when test="matches(.,'زِندِيق')">Zindiq</xsl:when>
-                                                    <xsl:when test="matches(.,'[اإ]َ?سْ?لَ?م|اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
-                                                    <xsl:when test="matches(.,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
-                                                    <xsl:when test="matches(.,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
-                                                    <xsl:when test="matches(.,'حَنَف|زَيدِي|السُنِّي|سُنِّي
+                                                    <xsl:when test="matches($faith,'صَابِئِِ')">Sabian</xsl:when>
+                                                    <xsl:when test="matches($faith,'مَجُوسِ')">Zoroastrian</xsl:when>        
+                                                    <xsl:when test="matches($faith,'زِندِيق')">Zindiq</xsl:when>
+                                                    <xsl:when test="matches($faith,'اعتَنَقَ  الإسلام')">Convert-to-Islam</xsl:when>
+                                                    <xsl:when test="matches($faith,'يَهُودِ|إسرَاِئِيلِ')">Jewish</xsl:when>
+                                                    <xsl:when test="matches($faith,'نَصرَانِ|مَسِيحِ|نِسطُورِ|نِصرَانِ|رَاهِب|سِريَانِ')">Christian</xsl:when>
+                                                    <xsl:when test="matches($faith,'حَنَف|زَيدِي|السُنِّي|سُنِّي
                                                         |أنصَارِي|خَارِجِي|صَحَابِي|إمَامِي|مَالِكِ|شَافِعِ|مُعتَزِلِ|صُوف|غَ?الِ?ي|عَارِف  بالله|حَنبَلِ|مُرجِئ|أشعَرِ|عَلَوِي|شِيع|رَافِضِ|مُسلِم')">Muslim</xsl:when>
                                                     <xsl:otherwise>Other</xsl:otherwise>
                                                 </xsl:choose>
@@ -116,6 +117,13 @@
                                             <faith key="{$key}" xml:lang="ar">
                                                 <xsl:value-of select="td[@class='contents']"/>
                                             </faith>
+                                            <xsl:for-each select="td[@class='comments']">
+                                                <xsl:choose>
+                                                    <xsl:when test="matches(.,'أَ?سْ?لَ?م')">
+                                                        <faith key="Convert-to-Islam"/>
+                                                    </xsl:when>
+                                                </xsl:choose>
+                                            </xsl:for-each>
                                             <xsl:call-template name="comments">
                                                 <xsl:with-param name="tr" select="."/>
                                                 <xsl:with-param name="type" select="'DIN'"/>
