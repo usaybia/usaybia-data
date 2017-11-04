@@ -158,12 +158,12 @@
             '(حنف.*?\W|زيدي.*?\W|السني
         .*?\W|أنصاري.*?\W|خارجي.*?\W|صحابي.*?\W|إمامي.*?\W|مالكي.*?\W|شافع.*?\W|معتزل.*?\W|صوف.*?\W|عارِف  بالله.*?\W|حنبل.*?\W|مرجئ.*?\W|أشعر.*?\W|علوي.*?\W|شيع.*?\W|رافض.*?\W|مسلم)'"/>
     <xsl:variable name="search-zoroastrian" select="'(مجوس.*?\W)'"/>
-    <xsl:variable name="search-convert" select="'(اعتنق  الإسلام)'"/>
+    <xsl:variable name="search-convert" select="'(اعتنق.*?  الإسلام|اسلم.*?\W)'"/>
     <xsl:variable name="search-jewish" select="'(يهود.*?\W|إسرائيل.*?\W)'"/>
     <xsl:variable name="search-sabian" select="'(صابئ.*?\W)'"/>
     <xsl:variable name="search-zindiq" select="'(زنديق.*?\W)'"/>
     
-    <xsl:variable name="nyms" select="doc('nymTEI.xml')/tei:TEI/tei:text/tei:body/tei:listNym/tei:nym"/>
+    <xsl:variable name="nyms" select="doc('../../data/oa-tei/nymTEI.xml')/tei:TEI/tei:text/tei:body/tei:listNym/tei:nym"/>
     <xsl:variable name="search-ism" select="concat('(',string-join($nyms/tei:form[@type='simple'],')|('),')')"/>
 
 
