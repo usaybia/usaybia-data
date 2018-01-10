@@ -47,7 +47,7 @@ let $add-vowels :=
                     '$1$2[ً-ِْ-ٖ]*') (: Adds vowel wildcard after all consonants :) 
                 ,'\[ً-ِْ-ٖ\]\*([ً-ِْ-ٖ])'
                 ,'$1'), (: Then removes wildcard if it is next to an existing vowel. :)
-            '([ء-ي])\[-ِْ-ٖ]\*',
+            '([ء-ي])\[ً-ِْ-ٖ\]\*',
             '$1[ً-ٖ]*') (: If there is no shadda normalizes to shadda-agnostic. :)
     else 
         replace(
@@ -57,9 +57,16 @@ let $add-vowels :=
                 '$1[ً-ٖ]*') (: Adds vowel wildcard after all consonants :) 
             ,'\[ً-ٖ\]\*([\(ّ])'
             ,'$1') (: Then removes wildcard if it is next to an existing vowel-shadda combo. :)
-
-(:let $normalize-alif := replace($existing-vowels,'ا','[آاإأ]'):)
-let $normalize-alif := replace($add-vowels,'ا','[آاإأ]')
+            
+let $remove-final-vowel := (: Removes final vowel because it confuses Voyant Tools. :)
+    replace(
+        replace($add-vowels,
+        '\[ً-ٖ\]\*(\*?)($|\|)',
+        '$1$2'),
+    '\[ً-ِْ-ٖ\]\*(\*?)($|\|)',
+    '$1$2')
+    
+let $normalize-alif := replace($remove-final-vowel,'ا','[آاإأ]')
 let $normalize-ya := replace($normalize-alif,'ى','[يىئ]')
 let $normalize-waw := replace($normalize-ya,'و','[وؤ]')
 
