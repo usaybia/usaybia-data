@@ -33,6 +33,7 @@ let $existing-vowels :=
             replace(replace($string, '([ً-ِْ-ٖ])','ّ?$1ّ?'),'(ّّ\?)|(ّ\?ّ)','ّ?') (: optional shadda before / after required vowel, ignoring existing shaddas by removing duplicate shaddas :)
     else 
         if ($require-existing-shadda) then
+        (: Does this properly include optional shaddas where there are not required ones? :)
             replace(replace($string, '([ً-ِْ-ٖ])','$1?'),'(ّ([ً-ِْ-ٖ]\?))|(([ً-ِْ-ٖ]\?)ّ)','($2$4ّ)|(ّ$2$4)') (: optional existing vowel + required shadda on either side :)
         else 
             replace(replace($string, '([ً-ٖ])','[ّ$1]*'),'ّ?(\[ّ[ً-ٖ]\]\*)ّ?','$1') (: optional existing vowel + optional shadda, in any order, replacing existing shaddas :)
