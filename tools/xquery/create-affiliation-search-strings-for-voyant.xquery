@@ -12,17 +12,23 @@ let $search-labels := (
 
 let $search-strings := (
 'حنف*|زيدي*|السنّي*|أنصاري*|خارجي*|صحابي*|إمامي*|مالكي*|شافع*|معتزل*|صوفي*|حنبل*|مرجئ*|أشعر*|علوي*|شيع*|رافض*',
-'مسيح*|نسطور*|نصران*|راهب*|سرياني*'
+'مسيح*|نسطور*|نصران*|نصارى*|راهب*|سرياني*'
 ,'يهود*|إسرائيل*'
 ,'مجوس*'
 ,'صابئ*'
 ,'زنديق*',
 'اسلم*|*عتنق* الإسلام')
 
+let $prefixes := ('ب','ل','ك','ف','و')
+
 (: If turned on will only search for variants that include any shaddas in above strings. :)
 let $require-existing-shadda := 1
 (: If turned on will not allow any vowels provided in $search-strings to be absent. If off, will match any specified vowels as well as unvocalized versions, but not alternate vowels. :)
 let $require-existing-vowels := 0
+(: If turned on will add a search term with the definite article prefixed to the word. :)
+let $add-optional-article := 1
+(: If turned on will add attached prepositions and conjunctions as optional search strings. :)
+let $add-optional-prefixes := 1
 
 for $string at $i in $search-strings
 let $existing-vowels := 
@@ -33,7 +39,6 @@ let $existing-vowels :=
             replace(replace($string, '([ً-ِْ-ٖ])','ّ?$1ّ?'),'(ّّ\?)|(ّ\?ّ)','ّ?') (: optional shadda before / after required vowel, ignoring existing shaddas by removing duplicate shaddas :)
     else 
         if ($require-existing-shadda) then
-        (: Does this properly include optional shaddas where there are not required ones? :)
             replace(replace($string, '([ً-ِْ-ٖ])','$1?'),'(ّ([ً-ِْ-ٖ]\?))|(([ً-ِْ-ٖ]\?)ّ)','($2$4ّ)|(ّ$2$4)') (: optional existing vowel + required shadda on either side :)
         else 
             replace(replace($string, '([ً-ٖ])','[ّ$1]*'),'ّ?(\[ّ[ً-ٖ]\]\*)ّ?','$1') (: optional existing vowel + optional shadda, in any order, replacing existing shaddas :)
@@ -66,8 +71,35 @@ let $remove-final-vowel := (: Removes final vowel because it confuses Voyant Too
         '$1$2'),
     '\[ً-ِْ-ٖ\]\*(\*?)($|\|)',
     '$1$2')
-    
-let $normalize-alif := replace($remove-final-vowel,'ا','[آاإأ]')
+
+let $add-article := 
+    if ($add-optional-article) then
+     (: Duplicates each segment of the search string, adding the article on the front of one. 
+     Then removes any back-to-back | characters created in the process. :) 
+        replace(
+            replace($remove-final-vowel,'(.*?[\|$])','$1|الْ?$1'),
+            '\|\|',
+            '|')
+    else $remove-final-vowel
+
+let $add-prefixes := 
+    if ($add-optional-prefixes) then 
+        let $prefixes-to-add := concat(string-join($prefixes,'?[ً-ِْ-ٖ]?'),'?[ً-ِْ-ٖ]?')
+        (: Breaks string into segments by | character and adds prefix query to each string, then rejoins them. :)
+        let $prefixes-added := concat($prefixes-to-add,string-join(tokenize($add-article,'\|'),concat('|',$prefixes-to-add)))
+        (: Accounts for elided ا when preposition ل is added producing لل instead of لال. 
+        Duplicates the form with the article (if present) and creates an additional form with لل in place 
+        of the article. :)
+        return replace(
+            replace(
+                $prefixes-added,
+                concat('((',$prefixes-to-add,')(الْ\?)(.*?[\|$]))'),
+                '$1|لِ?لْ?$4'),
+            '\|\|',
+            '|')
+    else $add-article
+
+let $normalize-alif := replace($add-prefixes,'ا','[آاإأ]')
 let $normalize-ya := replace($normalize-alif,'ى','[يىئ]')
 let $normalize-waw := replace($normalize-ya,'و','[وؤ]')
 
