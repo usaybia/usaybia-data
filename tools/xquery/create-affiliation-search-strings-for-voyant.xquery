@@ -7,8 +7,12 @@ let $search-labels := (
 'Jewish',
 'Zoroastrian',
 'Sabian',
-'Zindiq',
-'Convert-to-Islam')
+'Zindiq'
+ (:Removing conversion labels from search strings, since these are of a different nature, and need different methods to identify, being 
+ verbs and verbal phrases. (Voyant does not seem to handle phrases containing wildcards.):)
+(:,
+'Convert-to-Islam':)
+)
 
 let $search-strings := (
 'حنف*|زيدي*|السنّي*|أنصاري*|خارجي*|صحابي*|إمامي*|مالكي*|شافع*|معتزل*|صوفي*|حنبل*|مرجئ*|أشعر*|علوي*|شيع*|رافض*',
@@ -16,8 +20,11 @@ let $search-strings := (
 ,'يهود*|إسرائيلي*'
 ,'مجوس*'
 ,'صابئ*'
-,'زنديق*',
-'اسلم*|*عتنق* الإسلام')
+,'زنديق*'
+ (:Removing conversion labels.:)
+(:,
+'اسلم*|*عتنق* الإسلام':)
+)
 
 let $prefixes := ('ب','ل','ك','ف','و')
 
