@@ -41,12 +41,12 @@ for $string at $i in $search-strings
 let $existing-vowels := 
     if ($require-existing-vowels) then
         if ($require-existing-shadda) then
-            replace(replace($string, '([ً-ِْ-ٖ])','ّ?$1ّ?'),'(ّّ\?([ً-ِْ-ٖ])ّ\?)|(ّ\?([ً-ِْ-ٖ])ّ\?ّ)','(ّ$2$4)|($2$4ّ)') (: optional shadda before / after required vowel, but keeps existing shaddas by replacing optional shaddas with required :)
+            replace(replace($string, '([ً-ِْ-ٖ])','ّ?$1ّ?'),'(ّّ\?([ً-ِْ-ٖ])ّ\?)|(ّ\?([ً-ِْ-ٖ])ّ\?ّ)','[$2$4ّ]') (: optional shadda before / after required vowel, but keeps existing shaddas by replacing optional shaddas with required :)
         else 
             replace(replace($string, '([ً-ِْ-ٖ])','ّ?$1ّ?'),'(ّّ\?)|(ّ\?ّ)','ّ?') (: optional shadda before / after required vowel, ignoring existing shaddas by removing duplicate shaddas :)
     else 
         if ($require-existing-shadda) then
-            replace(replace($string, '([ً-ِْ-ٖ])','$1?'),'(ّ([ً-ِْ-ٖ]\?))|(([ً-ِْ-ٖ]\?)ّ)','($2$4ّ)|(ّ$2$4)') (: optional existing vowel + required shadda on either side :)
+            replace(replace($string, '([ً-ِْ-ٖ])','$1?'),'(ّ([ً-ِْ-ٖ]\?))|(([ً-ِْ-ٖ]\?)ّ)','[$2$4ّ]') (: optional existing vowel + required shadda on either side :)
         else 
             replace(replace($string, '([ً-ٖ])','[ّ$1]*'),'ّ?(\[ّ[ً-ٖ]\]\*)ّ?','$1') (: optional existing vowel + optional shadda, in any order, replacing existing shaddas :)
 
@@ -110,5 +110,6 @@ let $normalize-alif := replace($add-prefixes,'ا','[آاإأ]')
 let $normalize-ya := replace($normalize-alif,'ى','[يىئ]')
 let $normalize-waw := replace($normalize-ya,'و','[وؤ]')
 
-return (concat($search-labels[$i],': '),$normalize-waw,'
+return (concat($search-labels[$i],': 
+'),$normalize-waw,'
 ')
