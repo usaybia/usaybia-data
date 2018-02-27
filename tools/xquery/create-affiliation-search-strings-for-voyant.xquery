@@ -20,12 +20,14 @@ declare function scholarNET:process-shadda($search-string as xs:string) as xs:st
 
     if ($require-existing-vowels) then
         if ($require-existing-shadda) then
-            replace(replace($search-string, '([ً-ِْ-ٖ])','(ّ)?$1(ّ)?'),'((ّ)\(ّ\)\?([ً-ِْ-ٖ])\(ّ\)\?)|(\(ّ\)\?([ً-ِْ-ٖ])\(ّ\)\?(ّ))','((ّ)$3$5|$3$5(ّ))') (: optional shadda before \ after required vowel, but keeps existing shaddas by replacing optional shaddas with required :)
+            replace(replace($search-string, '([ً-ِْ-ٖ])','(ّ)?$1(ّ)?'),'((ّ)\(ّ\)\?([ً-ِْ-ٖ])\(ّ\)\?)|(\(ّ\)\?([ً-ِْ-ٖ])\(ّ\)\?(ّ))','(ّ)$3$5') (: optional shadda before / after required vowel, but keeps existing shaddas by replacing optional shaddas with required. :)
+            (: NB: Looks for required shadda only before required vowel, since Voyant does not seem to support parentheses. :)
         else 
             replace(replace($search-string, '([ً-ِْ-ٖ])','(ّ)?$1(ّ)?'),'((ّ)\(ّ\)\?)|(\(ّ\)\?(ّ))','(ّ)?') (: optional shadda before / after required vowel, ignoring existing shaddas by removing duplicate shaddas :)
     else 
         if ($require-existing-shadda) then
-            replace(replace($search-string, '([ً-ِْ-ٖ])','(ّ)?$1?(ّ)?'),'((ّ)\(ّ\)\?([ً-ِْ-ٖ]\?)\(ّ\)\?)|(\(ّ\)\?([ً-ِْ-ٖ]\?)\(ّ\)\?(ّ))','($3$5(ّ)|(ّ)$3$5)') (: optional existing vowel + required shadda on either side :)
+            replace(replace($search-string, '([ً-ِْ-ٖ])','(ّ)?$1?(ّ)?'),'((ّ)\(ّ\)\?([ً-ِْ-ٖ]\?)\(ّ\)\?)|(\(ّ\)\?([ً-ِْ-ٖ]\?)\(ّ\)\?(ّ))','(ّ)$3$5') (: required shadda + optional existing vowel :)
+            (: NB: Looks for required shadda only before optional vowel, since Voyant does not seem to support parentheses. :)
         else 
             replace(replace($search-string, '([ً-ٖ])','[(ّ)$1]*'),'(ّ)?(\[\(ّ\)[ً-ٖ]\]\*)(ّ)?','$1') (: optional existing vowel + optional shadda, in any order, replacing existing shaddas :)
 };
@@ -122,7 +124,7 @@ let $processed-rows :=
             for $cell in $cells[position()>1]
             return (scholarNET:voyantSearchString($cell))
         let $cluster := string-join($cells[position()>1 and string-length(.)],'|')
-        let $search-strings-combined := replace(string-join($search-strings,'|'),'\|\s*$','')
+        let $search-strings-combined := replace(string-join($search-strings,'|'),'\|+\s*$','')
         let $search-url := 
             concat(
                     'http://voyant-tools.org/?corpus=90e03a27efc07a543ee15f894a2db0a0&amp;view=Contexts&amp;query=',
@@ -132,7 +134,7 @@ let $processed-rows :=
 ')
 
 return (
-    concat(string-join(('Macro-affiliation','Search String','Cluster','Link (replace ampersands)'),'&#9;'),'       
+    concat(string-join(('Macro-affiliation','Search String','Search Cluster','Link (replace ampersands)'),'&#9;'),'       
 '),
     $processed-rows
     )
