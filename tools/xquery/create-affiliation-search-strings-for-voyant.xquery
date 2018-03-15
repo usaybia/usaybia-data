@@ -1,5 +1,7 @@
 declare namespace scholarNET='https://scholarnet.github.io/';
 
+declare variable $voyantCorpusID :='a05c92769b2183e6e05332abe89c9fde';
+
 declare variable $search-string-file := doc('../pre-voyant-search-strings.tsv');
 
 declare variable $prefixes := ('ب','ل','ك','ف','و');
@@ -127,7 +129,9 @@ let $processed-rows :=
         let $search-strings-combined := replace(string-join($search-strings,'|'),'\|+\s*$','')
         let $search-url := 
             concat(
-                    'http://voyant-tools.org/?corpus=90e03a27efc07a543ee15f894a2db0a0&amp;view=Contexts&amp;query=',
+                    'http://voyant-tools.org/?corpus=',
+                    $voyantCorpusID,
+                    '&amp;view=Contexts&amp;query=',
                     escape-html-uri($search-strings-combined),
                     '&amp;context=50&amp;expand=500')
         return (string-join(($label,$search-strings-combined,$cluster,$search-url),'&#9;'),'
