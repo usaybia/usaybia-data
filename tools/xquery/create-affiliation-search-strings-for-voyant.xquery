@@ -1,6 +1,6 @@
 declare namespace scholarNET='https://scholarnet.github.io/';
 
-declare variable $voyantCorpusID :='a05c92769b2183e6e05332abe89c9fde';
+declare variable $voyantCorpusID :='9de745f02a7f932a10853a676bad5db0';
 
 declare variable $search-string-file := doc('../pre-voyant-search-strings.tsv');
 
