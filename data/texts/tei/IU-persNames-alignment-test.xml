@@ -1,0 +1,43 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ar">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>عيون الأنباء في طبقات الأطباء</title>
+            <author>ابن أبي أصيبعة</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>ScholarNET</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <publisher>http://shamela.ws</publisher>
+               <idno type="uuid">urn:uuid:6340ddaf9c31895b14b3fcc6b6c1d3f2</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="ar" xml:id="div-a">
+               <head n="419"><seg xml:id="a-1">أَبُو نصر الفارابي</seg></head>
+               <p><seg xml:id="a-2">هُوَ أَبُو نصر <persName>مُحَمَّد</persName> بن <persName>مُحَمَّد</persName> بن
+                  أوزلغ بن <persName>طرخان</persName> مدينته فاراب وَهِي مَدِينَة من بِلَاد التّرْك
+                  فِي أَرض خُرَاسَان وَكَانَ أَبوهُ قَائِد جَيش وَهُوَ فَارسي المنتسب</seg></p>
+               <p><seg xml:id="a-3">وَكَانَ بِبَغْدَاد مُدَّة ثمَّ انْتقل إِلَى الشَّام وَأقَام بِهِ إِلَى حِين
+                  وَفَاته</seg></p>
+         </div>
+         <div xml:lang="en" xml:id="div-e">
+            <head n="419"><seg xml:id="e-1">Abū Nasr al-Farabī</seg></head>
+            <p><seg xml:id="e-2">Abū Nasr Muhammad ibn Muhammad ibn Uzalagh ibn Tarkhān was a native of Fārāb, a town in a Turkish district of Khurāsān. His father was an army officer. He was of Persian origin,</seg></p> 
+            <p><seg xml:id="e-3">lived in Baghdād for a time and then moved to Damascus, where he stayed for the rest of his life</seg></p>
+         </div>
+         <linkGrp type="alignment"
+            domains="#div-a #div-e">
+            <link target="#e-1 #a-1"/>
+            <link target="#e-2 #a-2"/>
+            <link target="#e-3 #a-3"/>
+         </linkGrp>
+      </body>
+   </text>
+</TEI>
