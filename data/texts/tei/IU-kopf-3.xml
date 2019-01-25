@@ -58,6 +58,10 @@
         with '&lt;blockquote>&lt;p>&lt;l>\1&lt;/l>'</change>
       <change who="ngibson" when="2019-01-25">added various missing end tags (esp. div before hr)</change>
       <change who="ngibson" when="2019-01-25">removed font and hr HTML tags</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;/l>(.+?)&lt;/p> with &lt;/l>&lt;l>\1&lt;/l>&lt;/p> in xpath //p</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;br/> with &lt;/l>&lt;l> in xpath //l</change>
+      <change who="ngibson" when="2019-01-25">replaced (&lt;blockquote>[\s\n\t]*)+(.+?)([\s\n\t]*&lt;/blockquote>)+ with &lt;quote>\2&lt;/quote></change>
+      <change who="ngibson" when="2019-01-25">formatted manuscript volume 4 title page</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1159,18 +1163,8 @@
             Jurjān. There I struck up a friendship with Abū `Ubayd al-Jūzjānī and composed a poem
             about myself, which includes the following line of another poet: <pb n="570" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>"Since I have become great, there is no place that can contain me; </l>
-                      And since my price is high, no one is able to buy me." </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>"Since I have become great, there is no place that can contain me; </l><l>
+                      And since my price is high, no one is able to buy me." </l></p></quote>
           <p>Abū `Ubayd al-Jūzjānī, the friend of al-Shaikh al-Ra'īd, says: "The forgoing is what
             the Shaikh told me in his own words. From here on [I report what] I have myself
             witnessed of the circumstances of his life:</p>
@@ -1262,18 +1256,8 @@
             insisted on his being arrested. One of his foes betrayed him; he was seized and confined
             in the citadel called Fardajan. There he composed a poem containing the following
             lines:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>"That I have entered here is certain, as you see. </l> But there is every
-                      doubt as to my getting out again."</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>"That I have entered here is certain, as you see. </l><l> But there is every
+                      doubt as to my getting out again."</l></p></quote>
           <p>He had been in the citadel for four months when `Alā' al-Dawlah marched on Hamadān and
             captured it. Tāj al-Mulk was defeated and retreated to the very same citadel [in which
             Ibn Sīnā was imprisoned]. Later, `Ala' al-Dawlah withdrew from Hamadān, and Tāj al-Mulk
@@ -1420,44 +1404,27 @@
             his body was transferred to Isfahān and buried near the Kaunkanbad Gate.</p>
           <p>When Ibn Sīnā died of the colic that afflicted him, one of his contemporaries wrote in
             a poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I saw Ibn Sīnā with men of distinction,</l> But in prison he met a most
-                      wretched death.<br/> He could not with the "Shifā'" overcome the calamity
-                      befalling him <br/> Nor was he rescued from death by the "Najāh." </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I saw Ibn Sīnā with men of distinction,</l><l> But in prison he met a most
+                      wretched death.</l><l> He could not with the "Shifā'" overcome the calamity
+                      befalling him </l><l> Nor was he rescued from death by the "Najāh." </l></p></quote>
           <p>[There follow a few brief remarks on the above lines. ]</p>
           <p>Specimen of the Poetry of al-Shaikh al-Ra'īs</p>
           <p>The following poem on the soul is one of the noblest and most sublime examples of his
             poetry:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>It descended upon thee from the lofty station </l> — a dove, proud and
+          <quote><p><l>It descended upon thee from the lofty station </l><l> — a dove, proud and
                       inaccessible, <pb n="580" ed="kopf"/>
-                      <br/> Curtained from the eye of every knowing [creature]. <br/> Yet it itself
-                      is uncovered and never wore a veil. <br/> It came to thee unwillingly, and it
-                      may perhaps <br/> Be unwilling to abandon thee, although it complains of its
-                      sufferings.<br/> It first resisted and would not become familiar, but when
-                      agreeing to the union <br/> It grew accustomed to the wrecked ruin [the body].
-                      <br/> Methinks that it forgot the memories of meetings in the protected ground
-                      <br/> And those abodes which it left with regret.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> Curtained from the eye of every knowing [creature]. </l><l> Yet it itself
+                      is uncovered and never wore a veil. </l><l> It came to thee unwillingly, and it
+                      may perhaps </l><l> Be unwilling to abandon thee, although it complains of its
+                      sufferings.</l><l> It first resisted and would not become familiar, but when
+                      agreeing to the union </l><l> It grew accustomed to the wrecked ruin [the body].
+                      </l><l> Methinks that it forgot the memories of meetings in the protected ground
+                      </l><l> And those abodes which it left with regret.</l></p></quote>
           <p> </p>
-          <p><u>Al-Ilākī,</u><ref target="#FN1" type="noteAnchor">1</ref> i. e., al-Sayyid Abū
+        </div>
+      <div>
+        <head><persName>Al-Ilākī,</persName></head>
+          <p><ref target="#FN1" type="noteAnchor">1</ref> i. e., al-Sayyid Abū
             `Abdallāh Muhammad ibn Yūsuf Sharaf al-Dīn, a man of noble descent, a distinguished
             personality and an expert in the medical art and the philosophical sciences was a
             disciple of al-Shaikh al-Ra'īs (Ibn Sīnā). He made an abridgment of the"K. al-Qānūn,"
@@ -1515,33 +1482,13 @@
             worthy of praise. He stemmed from one of the noble families of Isfahan. His father, `Abd
             al-Rahmān ibn Mandawaih, was a distinguished man of letters and extremely pious. He
             composed fine poetry, of which the following lines are a specimen:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Miserly people guard their wealth.</l> Upon my life! This world is worth
-                      nothing, as is death (as are desires) <br/> And man is but a creature
-                      cherishing false hopes. </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Miserly people guard their wealth.</l><l> Upon my life! This world is worth
+                      nothing, as is death (as are desires) </l><l> And man is but a creature
+                      cherishing false hopes. </l></p></quote>
           <p>Another specimen:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Man's span of life is short, </l> Yet in this world he entertains long
-                      hopes. <br/> Fast comes the time of his departure, but he does not know <br/>
-                      Where his journey will end. </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Man's span of life is short, </l><l> Yet in this world he entertains long
+                      hopes. </l><l> Fast comes the time of his departure, but he does not know </l><l>
+                      Where his journey will end. </l></p></quote>
           <p>Abū Alī ibn Mandawaih is the author of the following works: 1) A number of epistles,
             including the well-known forty epistles on medicine which he addressed to fellow
             physicians and which are the following: i) To Ahmad ibn Sa`d, on the regimen of the
@@ -1690,20 +1637,10 @@
           <p>Sharaf al-Dīn ibn `Unain told me that inspired by this incident, he improvised a poem
             and immediately asked the Shaikh's permission to recite it. The Shaikh agreed, and the
             poet recited:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>She [the dove] repaired to the Solomon of this age in her distress,</l>
-                      While death was looming from the wings of a ravisher. <br/> Who told the dove
-                      that your place was an inviolable sanctuary, <br/> And that you were a refuge
-                      for the panic-stricken."</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>She [the dove] repaired to the Solomon of this age in her distress,</l><l>
+                      While death was looming from the wings of a ravisher. </l><l> Who told the dove
+                      that your place was an inviolable sanctuary, </l><l> And that you were a refuge
+                      for the panic-stricken."</l></p></quote>
           <p>Shaikh Fakhr al-Dīn greatly enjoyed the poem. He called the poet over to him and asked
             him to sit by his side. After the meeting, he sent him a complete robe of honor and a
             large sum of money. He remained his benefactor forever.</p>
@@ -1711,25 +1648,15 @@
             but later added further lines to the poem." I have found the additional verses in his
             Divan. They read as follows: <pb n="589" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O son of the nobles who are well fed, </l> Who are secure while souls fly
-                      about <br/> Among sharp swords and bleeding spears, <br/> Who told the dove
-                      that your place was an inviolable sanctuary?<br/> She came to you when death
-                      was close at hand,<br/> And you bestowed upon her renewed life.<br/> If she
-                      had been granted money, she would have come away<br/> With a twofold present
-                      from your hands. <br/> She repaired to the Solomon of this age in her
-                      distress, <br/> While death was looming from the wings of a ravisher, <br/>
-                      Greedy for meat, having long been denied food, so that his shadow<br/> Sped in
-                      front of him with a trembling heart.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O son of the nobles who are well fed, </l><l> Who are secure while souls fly
+                      about </l><l> Among sharp swords and bleeding spears, </l><l> Who told the dove
+                      that your place was an inviolable sanctuary?</l><l> She came to you when death
+                      was close at hand,</l><l> And you bestowed upon her renewed life.</l><l> If she
+                      had been granted money, she would have come away</l><l> With a twofold present
+                      from your hands. </l><l> She repaired to the Solomon of this age in her
+                      distress, </l><l> While death was looming from the wings of a ravisher, </l><l>
+                      Greedy for meat, having long been denied food, so that his shadow</l><l> Sped in
+                      front of him with a trembling heart.</l></p></quote>
           <p>Say I: Sharaf al-Dīn ibn `Unain reports that he obtained about 30,000 dinars from Fakhr
             al-Dīn Khatīb al-Rayyī and through the reputation he acquired in Persia.</p>
           <p>[Here follows another of his poems on Fakhr al-Dīn, sent to him from Naisābūr to
@@ -2028,26 +1955,24 @@
           <p>3) "K. al-A`rād," a medical work in Persian, two small volumes. </p>
           <p>4) "K. Yādkār," a medical work in Persian, one volume, dedicated to Khwārizmshāh. </p>
         </div>
-
+        <floatingText>
+            <front>
+              <titlePage>
+                <note>06-503-N-C</note>
+                <docAuthor><persName>Ibn Abū Usaibi'ah</persName></docAuthor>
+                <docTitle>
+                  <titlePart>HISTORY OF PHYSICIANS</titlePart>
+                </docTitle>
+                <byline>Translated from the Arabic by <persName>Dr. L. Kopf</persName> with partial annotations
+                  by <persName>Dr. M. Plessner</persName>, Institute of Asian and African Studies, The Hebrew
+                  University, Jerusalem, Israel</byline>
+                <docDate>1971</docDate>
+                <note>Volume IV — Manuscript pages 600-946 plus annotations and
+                  footnotes</note>
+              </titlePage>
+            </front>
+        </floatingText>
         
-        <p align="left"><font color="#0000FF"><a name="Volume4_title"/>[This page is
-            unnumbered]</font></p>
-        <p align="right">06-503-N-C</p>
-        <p align="center">Ibn Abū Usaibi'ah</p>
-        <p align="center">"HISTORY OF PHYSICIANS"</p>
-        <p align="center">Translated from the Arabic by Dr. L. Kopf <br/> with partial annotations
-          by Dr. M. Plessner, <br/> Institute of Asian and African Studies, <br/> The Hebrew
-          University, Jerusalem, Israel</p>
-        <p align="center">Translated for the National Library of Medicine, Bethesda, Maryland, <br/>
-          under the Special Foreign Currency Program, carried out under a <br/> National Science
-          Foundation Contract with the Israel Program for <br/> Scientific Translations, Jerusalem,
-          Israel</p>
-        <p align="center">1971</p>
-        <p align="center">Volume IV — Manuscript<br/> pages 600-946 plus annotations and
-          footnotes</p>
-        
-        <p><pb n="600" ed="kopf"/>
-        </p>
       </div>
       <div n="12" type="chapter">
         <head>CHAPTER XII: On the Classes of Physicians Who Originated in India</head>
@@ -2438,23 +2363,13 @@
             lived during the reign of Ma`add.</p>
           <p>Eulogizing Abū Ja`far Ahmad ibn al-Jazzār, with special reference to his book "Zād
             al-Musāfir" (Provisions for the Traveler), Kusahjim said:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O Abū Ja`far, you performed, both in life and in death, </l> Glorious
-                      deeds that will withstand the passage of time. <br/> Seeing, in these parts,
-                      how around the Zād al-Musāfir <br/> People crowd, scholars as well as
-                      students,<br/> I became convinced that if, in its time, Yuhannā had been
-                      alive, <br/> He would not have given his [book] "Perfection" that title,<br/>
-                      I shall always praise the deeds of Ahmad, which will never cease <br/> To be
-                      considered noble by the noble-minded. </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O Abū Ja`far, you performed, both in life and in death, </l><l> Glorious
+                      deeds that will withstand the passage of time. </l><l> Seeing, in these parts,
+                      how around the Zād al-Musāfir </l><l> People crowd, scholars as well as
+                      students,</l><l> I became convinced that if, in its time, Yuhannā had been
+                      alive, </l><l> He would not have given his [book] "Perfection" that title,</l><l>
+                      I shall always praise the deeds of Ahmad, which will never cease </l><l> To be
+                      considered noble by the noble-minded. </l></p></quote>
           <p>Ibn al-Jazzār wrote the following books:</p>
           <p>1) A book on the treatment of diseases, known as "Zād al-Musāfir," in two volumes.</p>
           <p>2) A book on simple drugs, known as "al-I`timād."</p>
@@ -2684,7 +2599,10 @@
             "Great Helper." Al-Harrānī told them its composition, and since then it has become
             widely known in Andalusia. '" <pb n="623" ed="kopf"/>
           </p>
-          <p><u>Ahmad and `Umar, the Sons of Yūnus ibn Ahmad al-Harrānī</u>. These men traveled to
+        </div>
+        <div>
+          <head><persName>Ahmad and `Umar, the Sons of Yūnus ibn Ahmad al-Harrānī.</persName></head>
+           <p>These men traveled to
             the East in the year 330/941, during the reign of al-Nāsir, and stayed there for ten
             years. They came to Baghdad, where they studied the writings of Galen under the guidance
             of Thābit ibn Sinān ibn Thābit ibn Qurra the Sabiān and assisted Ibn Wasīf in the
@@ -2819,60 +2737,30 @@
             the poet and man of letters, requesting him to come and cheer him up; but his uncle did
             not respond to the invitation, and so he wrote to him: <pb n="628" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Deprived of every comforter and companion,</l> I have chosen as my
-                      commensals Hippocrates and Galen.<br/> I have taken their books as a remedy
-                      for my solitude,<br/> They being a remedy for any ill that can be cured.<br/>
-                      When I absorbed their instruction, I found<br/> That it enlightens the mind
-                      and animates the body.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Deprived of every comforter and companion,</l><l> I have chosen as my
+                      commensals Hippocrates and Galen.</l><l> I have taken their books as a remedy
+                      for my solitude,</l><l> They being a remedy for any ill that can be cured.</l><l>
+                      When I absorbed their instruction, I found</l><l> That it enlightens the mind
+                      and animates the body.</l></p></quote>
           <p>When the poem reached his uncle, he answered in verse, some of the lines reading as
             follows:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>You have found out that Hippocrates and Galen </l> Neither eat nor cost
-                      the host anything;<br/> Wherefore you made them your delight [?], to the
-                      exclusion of your kin.<br/> And are satisfied with them as friends and
-                      companions.<br/> Methinks that your stinginess will never leave you, <br/> So
-                      that, in the end, you will keep company with the devil.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>You have found out that Hippocrates and Galen </l><l> Neither eat nor cost
+                      the host anything;</l><l> Wherefore you made them your delight [?], to the
+                      exclusion of your kin.</l><l> And are satisfied with them as friends and
+                      companions.</l><l> Methinks that your stinginess will never leave you, </l><l> So
+                      that, in the end, you will keep company with the devil.</l></p></quote>
           <p>Toward the end of his life, Sa`īd ibn `Abd Rabbīh composed the following poem,
             stressing that his conduct had always been blameless and that he disdained the favor of
             kings:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>After penetrating deeply into the study of traits</l> And long enjoying
-                      the favor of the Creator,<br/> Shall I now, when about to behold His heavenly
-                      kingdom,<br/> Be found asking sustenance of anyone but my Provider?<br/> Human
-                      life is but a moment's pleasure,<br/> It is as transient as a flash of
-                      lightning.<br/> My soul is aware that its parting is near at hand.<br/> That
-                      my guide is driving me hard toward death.<br/> Even if I hid underground or
-                      fled from death<br/> All over the world, it would still catch up with me. <pb
+          <quote><p><l>After penetrating deeply into the study of traits</l><l> And long enjoying
+                      the favor of the Creator,</l><l> Shall I now, when about to behold His heavenly
+                      kingdom,</l><l> Be found asking sustenance of anyone but my Provider?</l><l> Human
+                      life is but a moment's pleasure,</l><l> It is as transient as a flash of
+                      lightning.</l><l> My soul is aware that its parting is near at hand.</l><l> That
+                      my guide is driving me hard toward death.</l><l> Even if I hid underground or
+                      fled from death</l><l> All over the world, it would still catch up with me. <pb
                         n="629" ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                    </l></p></quote>
           <p>Sa`īd ibn `Abd Rabbih wrote the following works:</p>
           <p>1) An antidotarium.</p>
 
@@ -3471,20 +3359,10 @@
             his house to a negro; a love poem to a youth; verses about fate; about work and faith
             and visiting friends.]</p>
           <p>He composed a poem about the physician Sha`bān:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O physician who annoys and importunes the world: </l> There are two months
-                      of the passing year against you, <br/> You are Sha`bān, but you murder the
+          <quote><p><l>O physician who annoys and importunes the world: </l><l> There are two months
+                      of the passing year against you, </l><l> You are Sha`bān, but you murder the
                       people on Muharram. <pb n="649" ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                    </l></p></quote>
           <p>[He talks about a critical moment in his life; about renouncing this world; about these
             bad times; another love poem; a poem inspired after he had seen a handsome youth giving
             his place to a negro; about his talents and fortune.] </p>
@@ -5374,31 +5252,11 @@
             reflected his incompetence and clearly showed his lack of imagination and understanding.
             With his great pretensions and poor comprehension of even the most elementary aspects of
             what he was dealing with, he could be compared to the man described by a poet:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>He bares his thighs in order to plunge into the deep sea, </l> Yet the
-                      waves submerge him even on the shore.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>He bares his thighs in order to plunge into the deep sea, </l><l> Yet the
+                      waves submerge him even on the shore.</l></p></quote>
           <p>Or as another poet puts it:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>You made bold to encounter two hundred horsemen. </l> But a single one has
-                      driven you back.  <pb n="720" ed="kopf"/></p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>You made bold to encounter two hundred horsemen. </l><l> But a single one has
+                      driven you back.  <pb n="720" ed="kopf"/></l></p></quote>
           <p>There was in Cairo a physician from Antioch called Jurjis and nicknamed "the
             philosopher," who was, as is called in the West, Abū-l-Baidā'. Ibn Rahmūn would compose
             medical and philosophical tracts in the language of the common people which were absurd,
@@ -5407,50 +5265,20 @@
             moment, without due consideration. These tracts are quite ludicrous.</p>
           <p>The said Jurjis composed about him the following lines, which are the best piece of
             satirical poetry I have ever read about an incompetent physician:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Despite Abū 'l-Khair's ignorance, </l> The learned are found light on his
-                      scales.<br/> His poor patients, because of his bad luck,<br/> Perish in a sea
-                      that has no shore.<br/> Three enter all at a time:<br/> Himself, the bier and
-                      the body-washer.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Despite Abū 'l-Khair's ignorance, </l><l> The learned are found light on his
+                      scales.</l><l> His poor patients, because of his bad luck,</l><l> Perish in a sea
+                      that has no shore.</l><l> Three enter all at a time:</l><l> Himself, the bier and
+                      the body-washer.</l></p></quote>
           <p>Another remarked:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Abū 'l-Khair in the treatment of patients, </l> Has a hand that never
-                      fails. <br/> Everyone seeking his assistance <br/> Is buried after two
-                      days.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Abū 'l-Khair in the treatment of patients, </l><l> Has a hand that never
+                      fails. </l><l> Everyone seeking his assistance </l><l> Is buried after two
+                      days.</l></p></quote>
           <p>Here is still another poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Abū 'l-Khair's craziness is craziness indeed,</l> Any craziness being in
-                      his eyes the acme of reason.<br/> Seize him, chain him, tie him up
-                      securely,<br/> For he who underrates a lunatic is not of sound mind.<br/> At
-                      first, he harmed people by his talk alone,<br/> But now he has begun to injure
-                      by both words and deeds.  <pb n="721" ed="kopf"/></p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Abū 'l-Khair's craziness is craziness indeed,</l><l> Any craziness being in
+                      his eyes the acme of reason.</l><l> Seize him, chain him, tie him up
+                      securely,</l><l> For he who underrates a lunatic is not of sound mind.</l><l> At
+                      first, he harmed people by his talk alone,</l><l> But now he has begun to injure
+                      by both words and deeds.  <pb n="721" ed="kopf"/></l></p></quote>
           <p>Salāma ibn Rahmūn wrote the following works:</p>
           <p>1) "The Order of the Universe."</p>
           <p>2) A treatise on why rain is scarce in Egypt.</p>
@@ -5532,33 +5360,13 @@
             name inscribed on them, each bearing on it some interesting notes and sundry remarks
             pertinent to its contents.</p>
           <p>Here are some samples of Balmuzaffar's poetry: </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>It is said that nature is the origin of existence. </l> Would that I knew
-                      what nature really is! <br/> Whether a powerful being that has formed itself
-                      as it is, <br/> Or whether incapable of this.  <pb n="724" ed="kopf"/></p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>It is said that nature is the origin of existence. </l><l> Would that I knew
+                      what nature really is! </l><l> Whether a powerful being that has formed itself
+                      as it is, </l><l> Or whether incapable of this.  <pb n="724" ed="kopf"/></l></p></quote>
           <p>Another poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>It is said that nature is what we know —</l> This is how we define
-                      it.<br/> Now, they who do not know what was before it, <br/> How can they
-                      presume to explore what is after it?</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>It is said that nature is what we know —</l><l> This is how we define
+                      it.</l><l> Now, they who do not know what was before it, </l><l> How can they
+                      presume to explore what is after it?</l></p></quote>
           <p>Balmuzaffar wrote the following works:</p>
           <p>1) "Notes on Alchemy."</p>
           <p>2) A book on astrology.</p>
@@ -5741,50 +5549,20 @@
           <p>I say: There lived in Cairo Ibn al-Munajjīm al-Misrī, a famous poet with a malicious
             tongue. He composed numerous satirical poems on Ibn Jumai`, one of which reads as
             follows:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Ibn Jumai`'s medical knowledge is tainted with stupidity. </l> Owing to
-                      which he misapplies the medical lore of the Messiah. <br/> He could not
-                      diagnose the illness from the patient's urine <br/> Contained in the phial,
-                      even if he rinsed his mouth with it. <br/> The most astonishing thing is that
-                      he always takes <br/> A fee from the next-of-kin for killing a patient.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Ibn Jumai`'s medical knowledge is tainted with stupidity. </l><l> Owing to
+                      which he misapplies the medical lore of the Messiah. </l><l> He could not
+                      diagnose the illness from the patient's urine </l><l> Contained in the phial,
+                      even if he rinsed his mouth with it. </l><l> The most astonishing thing is that
+                      he always takes </l><l> A fee from the next-of-kin for killing a patient.</l></p></quote>
           <p>Another poem of his:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Leave Ibn Jumai` alone with his falsehoods</l> And his pretensions of
-                      being skilled in medicine and geometry; <br/> For he is nothing but a fool who
-                      had dropped from somewhere, <br/> And when he settles in a place, he brings
-                      only disaster to it.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Leave Ibn Jumai` alone with his falsehoods</l><l> And his pretensions of
+                      being skilled in medicine and geometry; </l><l> For he is nothing but a fool who
+                      had dropped from somewhere, </l><l> And when he settles in a place, he brings
+                      only disaster to it.</l></p></quote>
           <p>Still another:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Everything you claim is but lie and distortion. </l> You said that your
-                      father was Jumai` the Jew, <br/> But Jumai` the Jew is not your father;<br/>
-                      Rather, your father is [as wicked as] all the Jews together.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Everything you claim is but lie and distortion. </l><l> You said that your
+                      father was Jumai` the Jew, </l><l> But Jumai` the Jew is not your father;</l><l>
+                      Rather, your father is [as wicked as] all the Jews together.</l></p></quote>
           <p>From the handwriting of Yūsuf ibn Hibat Allāh ibn Muslim, I have copied the following
             poem, in which he eulogizes al-Shaikh al-Muwaffaq ibn Jumai`: [The poem follows.]  <pb
               n="732" ed="kopf"/></p>
@@ -5880,64 +5658,40 @@
           <p>Ibn Shū`a died in Cairo in the year 579/1183. He composed poems, of which the
             following, about al-Najm when he knocked out his eye, was recited to me by Qādī Nafīs
             al-Dīn al-Zubair, who had heard it from the author himself:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Be not amazed if the eyes become tired</l> By looking at the rays of the
-                      sun; for this is a thing well known.<br/> But wonder how my eye grew blind
-                      from looking<br/> At a "star" [al-Najm] which is tiny and hardly visible.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Be not amazed if the eyes become tired</l><l> By looking at the rays of the
+                      sun; for this is a thing well known.</l><l> But wonder how my eye grew blind
+                      from looking</l><l> At a "star" [al-Najm] which is tiny and hardly visible.</l></p></quote>
           <p>Here is another of his poems, satirizing Ibn Jumai` the Jew, which was also recited to
             me by Nafīs al-Dīn, who had heard it from the author:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O Ibn Jumai`, by claiming to be a physician and a geometer, </l> You have
-                      uttered an obvious lie.<br/> If you are learned in medicine, why did your
-                      abilities fail you<br/> In curing an ailment deeply hidden within you?<br/>
-                      For treating it, you need a doctor who cures<br/> With a sharp knife, two
-                      spans long.<br/> Even so, you might not be restored to health.<br/> Answer,
-                      therefore, this question with understanding and thought<br/> What is the
-                      geometrical figure that has a shape you like, <br/> But that you want only if
-                      it is not a prism?</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O Ibn Jumai`, by claiming to be a physician and a geometer, </l><l> You have
+                      uttered an obvious lie.</l><l> If you are learned in medicine, why did your
+                      abilities fail you</l><l> In curing an ailment deeply hidden within you?</l><l>
+                      For treating it, you need a doctor who cures</l><l> With a sharp knife, two
+                      spans long.</l><l> Even so, you might not be restored to health.</l><l> Answer,
+                      therefore, this question with understanding and thought</l><l> What is the
+                      geometrical figure that has a shape you like, </l><l> But that you want only if
+                      it is not a prism?</l></p></quote>
           <p>Another poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>A meadow abundantly watered by the rains of spring</l> Has favored us with
-                      an embroidery which no hand can imitate.<br/> Its sparkling yellow and its
-                      white are like<br/> Gold and silver that are weighed in the scales of the
-                      wind.  <pb n="736" ed="kopf"/><br/> The sweet fragrance of its hyacinths gives
-                      up the flowers' secrets <br/> And the ring-doves in it lovingly voice their
-                      passion.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>A meadow abundantly watered by the rains of spring</l><l> Has favored us with
+                      an embroidery which no hand can imitate.</l><l> Its sparkling yellow and its
+                      white are like</l><l> Gold and silver that are weighed in the scales of the
+                      wind.  <pb n="736" ed="kopf"/></l><l> The sweet fragrance of its hyacinths gives
+                      up the flowers' secrets </l><l> And the ring-doves in it lovingly voice their
+                      passion.</l></p></quote>
           <p> </p>
-          <p><u>Abū 'l-Barakāt ibn al-Qudā`i,</u> honorifically named al-Muwaffaq [i.e., Muwaffaq
+        </div>
+        <div>
+          <head><persName>Abū 'l-Barakāt ibn al-Qudā`i,</persName></head> 
+          <p> honorifically named al-Muwaffaq [i.e., Muwaffaq
             al-Dīn], was a skillful physician, who practiced his art in a praiseworthy manner and
             became renowned for his mastery of it. He also concerned himself with ophthalmology and
             surgery, and was considered a great specialist in these. In Egypt he served as physician
             to al-Malik al-`Azīz, the son of al-Malik al-Nāsir Salāh al-Dīn. He died in Cairo in the
             year 598/1193.</p>
-          <p>Abū- 'l-Ma`alī ibn Tamām. Abū-'l-Ma`alī Tamām ibn Hibat Allāh Ibn Tamām, a Jew, was a
+        </div>
+        <div>
+          <head><persName>Abū- 'l-Ma`alī ibn Tamām</persName>.</head>
+          <p> Abū-'l-Ma`alī Tamām ibn Hibat Allāh Ibn Tamām, a Jew, was a
             man of wide learning, who gained esteem with the ruling dynasty and was considered an
             outstanding personality and an excellent therapeutist. He lived in Fustāt. Several of
             his children embraced Islam.</p>
@@ -5945,7 +5699,10 @@
             great prestige during his reign. Later,  he entered the service of Salāh al-Dīn's
             brother, al-Malik al-`Adil Abū Bakr ibn Ayyūb. He wrote two books: "Annotations," and
             "Medical Observations."</p>
-          <p>Al-Ra'is Mūsā. Al-Ra'īs Abū `Imrān Mūsā ibn Maimūn al-Qurtubī [a native of Cordoba], a
+        </div>
+        <div>
+          <head><persName>Al-Ra'is Mūsā</persName>.</head>
+          <p> Al-Ra'īs Abū `Imrān Mūsā ibn Maimūn al-Qurtubī [a native of Cordoba], a
             Jew learned in the traditions of the Jews and one of their religious authorities and
             greatest scholars. In Egypt he was chief of the Jewish community. He was unique in his
             time in medical theory and practice, mastered many sciences and possessed an excellent
@@ -5956,23 +5713,13 @@
             Egypt and settling in Fustāt, he returned to his former faith.</p>
           <p>Qādī al-Sa`īd ibn Sana` al-Mulk composed the following poem in praise of al-Ra'is
             Mūsā.</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I see that Galen's medicine is for the body alone, </l> While the medicine
-                      of Abū `Imrān is for both mind and body. <br/> If he were to treat the world
-                      with his vast learning, <br/> He would restore it from the disease of
-                      ignorance to knowledge. <br/> If the full moon were to seek his medical
-                      advice, <br/> Her claim to perfection would be justified. <br/> On the day of
-                      her fullness, he would cure her of her spots, <br/> And at the time of her
-                      greatest waning, he would restore her from infirmity.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I see that Galen's medicine is for the body alone, </l><l> While the medicine
+                      of Abū `Imrān is for both mind and body. </l><l> If he were to treat the world
+                      with his vast learning, </l><l> He would restore it from the disease of
+                      ignorance to knowledge. </l><l> If the full moon were to seek his medical
+                      advice, </l><l> Her claim to perfection would be justified. </l><l> On the day of
+                      her fullness, he would cure her of her spots, </l><l> And at the time of her
+                      greatest waning, he would restore her from infirmity.</l></p></quote>
           <p>Al-Ra'is ibn Mūsā wrote the following works:</p>
           <p>1) An abridgement of the Sixteen Books of Galen.</p>
           <p>2) A treatise on piles and their treatment.</p>
@@ -6042,20 +5789,10 @@
           <p>His teacher of medicine was al-Ra'īs Hibat Allāh ibn Jumai`, the Jew, but he also
             studied under Abū 'l-Fadā'il ibn al-Nāqid. He was in the service of al-Malik al-`Adil
             Abū Bakr ibn Ayyūb. I have come across the following lines about him:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>When a disease is difficult to fathom,</l> Ibn Bayān furnishes its
-                      explanation.<br/> If you desire to be healthy.<br/> Receive from him a
+          <quote><p><l>When a disease is difficult to fathom,</l><l> Ibn Bayān furnishes its
+                      explanation.</l><l> If you desire to be healthy.</l><l> Receive from him a
                       guarantee of immunity. <pb n="740" ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                    </l></p></quote>
           <p>He lived more than eighty years. Toward the end of his life his eyesight became weak.
             He wrote the following works: </p>
           <p>1) "Antidotarium," in 12 chapters; he chose the subject matter well and arranged it
@@ -6115,18 +5852,8 @@
             rules, and was the most competent person of <pb n="742" ed="kopf"/> his time in the
             preservation of health and treatment of disease. He followed the example of his fathers
             and outstripped his contemporaries by his soaring ambition and pride.</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>He inherited those noble qualities from his father and grandfather. </l>
-                      Just as the new spearhead is fitted onto the old shaft.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>He inherited those noble qualities from his father and grandfather. </l><l>
+                      Just as the new spearhead is fitted onto the old shaft.</l></p></quote>
           <p>He lived in Egypt and was physician to al-Malik al-Zāhir Rukn al-Dīn Baibars al-Maliki
             al-Sālihi, ruler over Egypt and Syria.</p>
         </div>
@@ -6136,18 +5863,8 @@
             al-Kūlāmī, Kūlam being a place in India. On his mother's side, he descended from the
             celebrated poet ibn al-Zubair, who lived in Egypt and was the author of the following
             lines:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O camping-place, where, do you think, did the beloved ones go? </l> Did
-                      they after last meeting with us, turn to Najd or to Tihama?</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O camping-place, where, do you think, did the beloved ones go? </l><l> Did
+                      they after last meeting with us, turn to Najd or to Tihama?</l></p></quote>
           <p>Qādī Nafīs al-Dīn was born in 555/1160 or 556/1161. He studied medicine at first under
             ibn Shū`a and later under al-Shaikh al-Sadīd and became a skilled general practitioner;
             he also mastered ophthalmology and surgery, becoming known especially as an eye-doctor.
@@ -6171,35 +5888,25 @@
             al-Karafa Cemetery.</p>
           <p>Shaikh `Izz al-Dīn Muhammad ibn Hasan al-Ganawī al-Darīr al-Irbilī eulogized him in the
             following poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>The finest man in the world has with no one to take his place;</l> With
-                      the death of al-Khunjī excellence has faded away.<br/> You were the great
-                      authority who came at last<br/> And solved for us problems left by the
-                      ancients;<br/> Who discovered things hidden <br/> Through which questions
-                      became clear to the askers;<br/> Who cleared the way to obstructing difficult
-                      issues,<br/> Which, but for him, even the most daring would not have presumed
-                      to tackle.<br/> If the seas were compared with the knowledge of this great
-                      savant,<br/> His knowledge would appear like an ocean, and the seas like
-                      brooks.<br/> Would that the arrows of fate had missed their mark<br/> And
-                      inflicted these mortal wounds on another:<br/> Did the bearer of his bier
-                      realize whom he was carrying?<br/> Even his foes and victims loved him.<br/>
-                      He died unique in his time and among his people,<br/> A sea of knowledge that
-                      never had a shore.<br/> Though they removed him from our sight, hiding him in
-                      the ground.<br/> His knowledge is not concealed and his fame not extinct;<br/>
+          <quote><p><l>The finest man in the world has with no one to take his place;</l><l> With
+                      the death of al-Khunjī excellence has faded away.</l><l> You were the great
+                      authority who came at last</l><l> And solved for us problems left by the
+                      ancients;</l><l> Who discovered things hidden </l><l> Through which questions
+                      became clear to the askers;</l><l> Who cleared the way to obstructing difficult
+                      issues,</l><l> Which, but for him, even the most daring would not have presumed
+                      to tackle.</l><l> If the seas were compared with the knowledge of this great
+                      savant,</l><l> His knowledge would appear like an ocean, and the seas like
+                      brooks.</l><l> Would that the arrows of fate had missed their mark</l><l> And
+                      inflicted these mortal wounds on another:</l><l> Did the bearer of his bier
+                      realize whom he was carrying?</l><l> Even his foes and victims loved him.</l><l>
+                      He died unique in his time and among his people,</l><l> A sea of knowledge that
+                      never had a shore.</l><l> Though they removed him from our sight, hiding him in
+                      the ground.</l><l> His knowledge is not concealed and his fame not extinct;</l><l>
                       If the sun of nobility has dimmed with his passing,   <pb n="744" ed="kopf"
-                      /><br/> His learning will not cease to serve the seekers of knowledge.<br/> I
-                      did not know that the sun might set underground.<br/> And that the moon might
-                      take up a station on earth,<br/> Until I saw him descend to his grave;<br/>
-                      Then I knew that the moon might be found in a tomb.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      /></l><l> His learning will not cease to serve the seekers of knowledge.</l><l> I
+                      did not know that the sun might set underground.</l><l> And that the moon might
+                      take up a station on earth,</l><l> Until I saw him descend to his grave;</l><l>
+                      Then I knew that the moon might be found in a tomb.</l></p></quote>
           <p>Afdal al-Dīn al-Khunjī wrote the following works:</p>
           <p>1) A commentary on what al-Ra'īs ibn Sīnā said about the pulse.</p>
           <p>2) A treatise on general and particular definitions.</p>
@@ -6315,18 +6022,8 @@
             vizierate, talking all the while; and all the emirs walked in front of al-Malik
             al-Kāmil.</p>
           <p>Al-`Adūd ibn Munqid composed the following lines on Abū Shākir:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>That savant, Abū Shākir, has many who love and praise him.</l> With his
-                      splendid knowledge, he is Hippocrates' vicar in our time.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>That savant, Abū Shākir, has many who love and praise him.</l><l> With his
+                      splendid knowledge, he is Hippocrates' vicar in our time.</l></p></quote>
           <p>Abū Shākir ibn Abī Sulaymān died in the year 613/1216 and was buried in Dair al-Khandaq
             near Cairo.</p>
         </div>
@@ -6616,24 +6313,14 @@
             in his family were mentioned and their <pb n="760" ed="kopf"/> learning and achievements
             described by me. He thanked me and was most kind. I thereupon recited to him the
             following impromptu poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>How shall I not praise those whose merits</l> Are known in both East and
-                      West?<br/> There shine on their account, in the sky of nobility,<br/> Stars of
-                      good luck that never set.<br/> They are men whose rank in learning among the
-                      people <br/> You see transcending the high station of the planets. <br/> How
-                      many books on medicine they have written, containing <br/> Everything that
-                      arouses wonder and admiration. <br/> My praise to the Banū Shākir has not
-                      ceased, whether far or near.<br/> I perpetuate their generosity by writing
-                      these glowing lines.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>How shall I not praise those whose merits</l><l> Are known in both East and
+                      West?</l><l> There shine on their account, in the sky of nobility,</l><l> Stars of
+                      good luck that never set.</l><l> They are men whose rank in learning among the
+                      people </l><l> You see transcending the high station of the planets. </l><l> How
+                      many books on medicine they have written, containing </l><l> Everything that
+                      arouses wonder and admiration. </l><l> My praise to the Banū Shākir has not
+                      ceased, whether far or near.</l><l> I perpetuate their generosity by writing
+                      these glowing lines.</l></p></quote>
           <p>As to why a ring was attached to al-Rashīd's ear, from which he received his sobriquet,
             it was as follows: None of the sons of his father survived but he. When his mother was
             pregnant with him, his father was advised to prepare a silver ring, the value of which
@@ -6647,54 +6334,24 @@
           <p>Here is one of the poems composed by Rashīd al-Dīn Abū Hulaiqa; he recited it to me:
               <pb n="761" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>The beloved one has agreed to a rendez-vous on a night</l> When the
-                      watcher was negligent and fell asleep<br/> In a meadow which, but for its
-                      transience, could have been compared<br/> To the Garden of Eden with all its
-                      attributes. <br/> My companion is like the shining moon. <br/> My senses
-                      reeled within me.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>The beloved one has agreed to a rendez-vous on a night</l><l> When the
+                      watcher was negligent and fell asleep</l><l> In a meadow which, but for its
+                      transience, could have been compared</l><l> To the Garden of Eden with all its
+                      attributes. </l><l> My companion is like the shining moon. </l><l> My senses
+                      reeled within me.</l></p></quote>
           <p>[Another poem of his is then quoted. ]</p>
           <p>Here is yet another of Rashīd al-Dīn's poems:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O my two companions, I find no sleep </l> Because I am in love; my heart
-                      is captured and chained <br/> By love for a girl whose face outshines the full
-                      moon, <br/> Especially through its contrast with her black hair. <br/> I am
-                      confused by her, who equals the new moon in beauty, <br/> How strange it is
-                      that the moon should lead astray instead of guiding!<br/> She has teeth like a
-                      string of pearls,<br/> And her speech is like pearls when scattered.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O my two companions, I find no sleep </l><l> Because I am in love; my heart
+                      is captured and chained </l><l> By love for a girl whose face outshines the full
+                      moon, </l><l> Especially through its contrast with her black hair. </l><l> I am
+                      confused by her, who equals the new moon in beauty, </l><l> How strange it is
+                      that the moon should lead astray instead of guiding!</l><l> She has teeth like a
+                      string of pearls,</l><l> And her speech is like pearls when scattered.</l></p></quote>
           <p>The following lines he composed in Damiette after receiving a letter from his father in
             Cairo, informing him of the latter's recovery from an illness:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>The clouds of grace pour their rain upon me </l> Since the affliction you
-                      suffered from has ceased. <br/> I am enveloped in delight since I have seen
-                      your writing. <br/> How can I discharge my duty of thanksgiving?</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>The clouds of grace pour their rain upon me </l><l> Since the affliction you
+                      suffered from has ceased. </l><l> I am enveloped in delight since I have seen
+                      your writing. </l><l> How can I discharge my duty of thanksgiving?</l></p></quote>
           <p>Rashīd al-Dīn Abū Hulaiqa wrote the following works: </p>
           <p>1) A treatise on the preservation of health. </p>
           <p>2) A treatise explaining that spiritual enjoyment is more pleasurable than physical
@@ -6710,18 +6367,8 @@
             that since the human body is continually disintegrating through its inner heat and the
             heat of the outside air, it is eventually destroyed by these two factors, after
             mentioning these, he quotes the following lines:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Either of the two is fatal to me,</l> How much more both of them
-                      combined.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Either of the two is fatal to me,</l><l> How much more both of them
+                      combined.</l></p></quote>
           <p>These lines could nowhere have had a greater effect than where they appear, for they
             exactly fit the context and elucidate the intended meaning.</p>
         </div>
@@ -6742,55 +6389,35 @@
             classes of physicians and that he had bought it and incorporated it in his library. He
             spoke of the book in glowing terms, which shows his generous character and noble
             disposition. The letter opened with these lines:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I am a man who loves you for your notable achievements,</l> Of which I
-                      have heard, the ear being able to love no less than the eye.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I am a man who loves you for your notable achievements,</l><l> Of which I
+                      have heard, the ear being able to love no less than the eye.</l></p></quote>
           <p>I answered him in writing, with a poem which I composed in the same meter and
             rhyme:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Your letter has reached me, beautifully written </l> And filled with
-                      thoughts which shine like the sun, <br/> The letter of a man noble, generous
-                      and praiseworthy, <br/> With a benign countenance, which radicates light.
-                      <br/> He is the lord and master through whom East and West flourish in wisdom,
-                      <br/> A savant encompassing all the sciences, <br/> To whom no gate of noble
-                      action is closed,<br/> A generous man, accumulating all kinds of
-                      accomplishments,<br/> But scattering his money with an open hand.<br/> When
-                      his qualities are mentioned at gatherings,<br/> They fill the air as with the
-                      odor of musk.<br/> He is first in the race for lofty goals,<br/> And he who
-                      aspires to reach him is bound to fail.  <pb n="764" ed="kopf"/><br/> When
-                      speaking, he outshines all others with his rhetoric. <br/> And even a priest
-                      falls silent while he talks. <br/> If Galen had lived in his time,<br/> He
-                      would surely have said: this one can be trusted in medicine. <br/> There is no
-                      one like him in preserving health <br/> And no one as able as he in observing
-                      disease. <br/> If I praise the merits of Muhammad, <br/> Everyone will confirm
-                      my words. <br/> But if I tried to enumerate his achievements, <br/> I would
-                      fail though I were as eloquent as al-Farazdaq. <br/> No wonder that, with
-                      regard to the sons of Hulaiqa, <br/> I am bound by the ties of true
-                      friendship. <br/> To their father I am obliged for many favors of long ago.
-                      <br/> So my gratitude is due to them for ever — <br/> To them, who all aspire
-                      to lofty aims, but especially <br/> To him who said to me, while experiencing
-                      a great longing: <br/> "I am a man who loves you for your notable
-                      achievements. <br/> Of which I have heard, the ear being able to love as less
-                      then the eye."<br/> May they continue to enjoy well-being and never-failing
-                      health, <br/> As long as the great and lofty trees put forth leaves.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Your letter has reached me, beautifully written </l><l> And filled with
+                      thoughts which shine like the sun, </l><l> The letter of a man noble, generous
+                      and praiseworthy, </l><l> With a benign countenance, which radicates light.
+                      </l><l> He is the lord and master through whom East and West flourish in wisdom,
+                      </l><l> A savant encompassing all the sciences, </l><l> To whom no gate of noble
+                      action is closed,</l><l> A generous man, accumulating all kinds of
+                      accomplishments,</l><l> But scattering his money with an open hand.</l><l> When
+                      his qualities are mentioned at gatherings,</l><l> They fill the air as with the
+                      odor of musk.</l><l> He is first in the race for lofty goals,</l><l> And he who
+                      aspires to reach him is bound to fail.  <pb n="764" ed="kopf"/></l><l> When
+                      speaking, he outshines all others with his rhetoric. </l><l> And even a priest
+                      falls silent while he talks. </l><l> If Galen had lived in his time,</l><l> He
+                      would surely have said: this one can be trusted in medicine. </l><l> There is no
+                      one like him in preserving health </l><l> And no one as able as he in observing
+                      disease. </l><l> If I praise the merits of Muhammad, </l><l> Everyone will confirm
+                      my words. </l><l> But if I tried to enumerate his achievements, </l><l> I would
+                      fail though I were as eloquent as al-Farazdaq. </l><l> No wonder that, with
+                      regard to the sons of Hulaiqa, </l><l> I am bound by the ties of true
+                      friendship. </l><l> To their father I am obliged for many favors of long ago.
+                      </l><l> So my gratitude is due to them for ever — </l><l> To them, who all aspire
+                      to lofty aims, but especially </l><l> To him who said to me, while experiencing
+                      a great longing: </l><l> "I am a man who loves you for your notable
+                      achievements. </l><l> Of which I have heard, the ear being able to love as less
+                      then the eye."</l><l> May they continue to enjoy well-being and never-failing
+                      health, </l><l> As long as the great and lofty trees put forth leaves.</l></p></quote>
           <p>Muhadhdhab al-Dīn Sa`īd never ceased to study and to behave commandably in both word
             and deed. He studied medicine under his father, mastering its general and specific
             aspects and familiarizing himself with both its theory and practice. He served as
@@ -6845,24 +6472,14 @@
             When death came to him, when the destroyer of pleasures alighted at his house, he
             vanished as if he had never been. This is how fate deals with man, as I said in a
             poem:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Beware of fate as much as thou canst,</l> For it will strike even the
-                      noble, though it delay for a while.<br/> Look how Najm al-Dīn Ayyūb who
-                      was<br/> The lord of mankind and ruler of kingdoms,<br/> Enjoyed good health
-                      until a disease afflicted him<br/> And no device was of any avail.<br/>
-                      Prospering in wordly affairs, he thought this would last forever, <br/> When
-                      he met his death all of a sudden.  <pb n="767" ed="kopf"/><br/> Indeed, he was
-                      the star of grandeur [najm al-`ulā - Najm al-Dīn],<br/> But then, as is the
-                      way of stars, he set.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Beware of fate as much as thou canst,</l><l> For it will strike even the
+                      noble, though it delay for a while.</l><l> Look how Najm al-Dīn Ayyūb who
+                      was</l><l> The lord of mankind and ruler of kingdoms,</l><l> Enjoyed good health
+                      until a disease afflicted him</l><l> And no device was of any avail.</l><l>
+                      Prospering in wordly affairs, he thought this would last forever, </l><l> When
+                      he met his death all of a sudden.  <pb n="767" ed="kopf"/></l><l> Indeed, he was
+                      the star of grandeur [najm al-`ulā - Najm al-Dīn],</l><l> But then, as is the
+                      way of stars, he set.</l></p></quote>
           <p>Rashīd al-Dīn Abū Sa`īd wrote the following works:</p>
           <p>1) "The Essentials of Medicine"; dedicated to al-Malik al-Sālih Najm al-Dīn Ayyūb, this
             is an outstanding book on medicine, describing selected curative treatments.</p>
@@ -7449,20 +7066,10 @@
             482/1089 he was still in Mosul, but afterwards he moved to Aleppo and stayed there for
             the rest of his days. His work in Aleppo was continued by a group of physicians whom he
             had trained. He wrote verses which include the following:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I acquired knowledge, little by little. </l> Until I realized I knew
-                      nothing at all: <br/> How wonderful that my consciousness of being ignorant
-                      <br/> Stems from my not being so: <pb n="791" ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I acquired knowledge, little by little. </l><l> Until I realized I knew
+                      nothing at all: </l><l> How wonderful that my consciousness of being ignorant
+                      </l><l> Stems from my not being so: <pb n="791" ed="kopf"/>
+                    </l></p></quote>
           <p>His books include a treatise on the fact that the living are dying, although the food
             they eat replaces what is washed in them.</p>
         </div>
@@ -7480,18 +7087,8 @@
             of his poems purport to be dirges for his contemporaries, but his intention in writing
             them was jocular. He took great pleasure in drinking and did so copiously. Being highly
             imaginative, he frequently improvised poetry, such as the verse:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O hunter of gifts, there's work for you;</l> Get up early and bring the
-                      drinks.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O hunter of gifts, there's work for you;</l><l> Get up early and bring the
+                      drinks.</l></p></quote>
           <p>He was also a musician: he played the lute. His medical office was in Jīrūn, while his
             residence, a stone building, was in al-Labādīn. He wrote many eulogies for the Banū
             al-Sūfī, who were the rulers of Damascus during the reign of Mujīr al-Dīn Abaq ibn
@@ -7503,47 +7100,27 @@
           <p>Abū al-Fadl ibn al-Mulahha wrote the following verses in a letter of thanks to Abū
             al-Hakam: <pb n="792" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>If Allāh rewards a man for his deeds, may he requite the beneficient
-                        brother, the physician Abū al-Hakam,</l> The distinguished, unique
-                      philosopher, whom Arabs and non-Arabs alike revere as a sage.<br/> Who is the
+          <quote><p><l>If Allāh rewards a man for his deeds, may he requite the beneficient
+                        brother, the physician Abū al-Hakam,</l><l> The distinguished, unique
+                      philosopher, whom Arabs and non-Arabs alike revere as a sage.</l><l> Who is the
                       savior of his patients; had Hippocrates seen him, he would have bowed to
-                      him.<br/> He snatched me from the jaws of fate when I was afflicted with
-                      multiple pains and injuries.<br/> He exerted his skill upon me, relieved my
-                      pain, and restored me to health.<br/> He still instructs me in everything I
-                      do, by virtuous advice derived from noble predecessors.<br/> His thoughts
-                      brighten our lives as if they were suns driving out the dark night.<br/> He
+                      him.</l><l> He snatched me from the jaws of fate when I was afflicted with
+                      multiple pains and injuries.</l><l> He exerted his skill upon me, relieved my
+                      pain, and restored me to health.</l><l> He still instructs me in everything I
+                      do, by virtuous advice derived from noble predecessors.</l><l> His thoughts
+                      brighten our lives as if they were suns driving out the dark night.</l><l> He
                       looked after me as if he were my father or mother when my family had lost
-                      hope.<br/> He took the load off my back. He attended me, keeping watch while I
-                      slept.<br/> His treatment was applied to my body without pause. But for him,
-                      the illness would have overpowered me.<br/> I regained my health after it had
-                      been lost. May Allāh bless him most bountifully.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      hope.</l><l> He took the load off my back. He attended me, keeping watch while I
+                      slept.</l><l> His treatment was applied to my body without pause. But for him,
+                      the illness would have overpowered me.</l><l> I regained my health after it had
+                      been lost. May Allāh bless him most bountifully.</l></p></quote>
           <p>Abū al-Hakam would write satirical poems about a group of contemporary poets who
             disparaged him. Al-`Arqala Abū al-Nadā Hasan ibn Numair of Kalb wrote the following
             epigram concerning Abū al-Hakam:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>We have a physician who is a defective poet, may Allāh rid us of him;</l>
+          <quote><p><l>We have a physician who is a defective poet, may Allāh rid us of him;</l><l>
                       He never visits a patient in the morning without having to compose a dirge at
                       night. <pb n="793" ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                    </l></p></quote>
           <p>He wrote another poem about Abū al-Hakam . . . . . . . . . . </p>
           <p>Ibn Abū Usaybi`ah explains: In this satirical poem, al-`Arqala describes Abū al-Hakam
             as having inverted eyelids for the following reason. He once left the house of Zain
@@ -7574,55 +7151,25 @@
             poetry, medicine and astronomy;] . . . . . . . . . .</p>
           <p>Satirical poems about Malik al-Najāt, the poet Aba al-Wahsh and `Ilyān, known as
             al-`Ukkāz of Aleppo: . . . . . . . . . .</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I have an old friend whom I visit; my hand hurts from shaking it at him in
-                        remonstration.</l> If I were asked to describe him, I would say: "This is a
+          <quote><p><l>I have an old friend whom I visit; my hand hurts from shaking it at him in
+                        remonstration.</l><l> If I were asked to describe him, I would say: "This is a
                       man who will develop a stone in his bladder before all his faults can be
-                      enumerated. [This involves an untranslatable pun. ]<br/> Al-`Ukkāz complained
-                      to me about his illness, but found no relief with me, <br/> For the malady of
-                      desire baffles anyone who tries to cure it.<br/> When I treat a man who has a
+                      enumerated. [This involves an untranslatable pun. ]</l><l> Al-`Ukkāz complained
+                      to me about his illness, but found no relief with me, </l><l> For the malady of
+                      desire baffles anyone who tries to cure it.</l><l> When I treat a man who has a
                       fever, I compose a poem for him, and if he likes it, he overcomes his
-                      malady.<br/> Tell the people who believe in my treatment that drink mixed with
-                      poetry<br/> Is a cure for all scorched intestines, which are soothed by it at
-                      once.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      malady.</l><l> Tell the people who believe in my treatment that drink mixed with
+                      poetry</l><l> Is a cure for all scorched intestines, which are soothed by it at
+                      once.</l></p></quote>
           <p>[Verses about courage, secrecy, . . . . . . . . . . a poem entitled "The
             Virtuous"]:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Oh, those people who admire me, regarding my treatment as unique;</l> When
+          <quote><p><l>Oh, those people who admire me, regarding my treatment as unique;</l><l> When
                       they rely on me as a physician, I flee from their dwellings as if they were
-                      places of evil.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      places of evil.</l></p></quote>
           <p>He also wrote: <pb n="795" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>When a woman is over fifty, try not to see her;</l> Leave the old hag
-                      alone and look for a younger one instead.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>When a woman is over fifty, try not to see her;</l><l> Leave the old hag
+                      alone and look for a younger one instead.</l></p></quote>
           <p>He composed the following poem when he was approaching death, in Dhu al-Qa`dah,
             549/1154 . . . . . . . . . . and the following on the Tuesday before he died, telling
             his son Abū al-Majd to recite it after his death . . . . . . . . . .</p>
@@ -7676,28 +7223,18 @@
           </p>
           <p>In praise of the books of Galen he wrote:</p>
 
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I admire the books of Galen, who combined the wisdom of Hippocrates and
-                        the ancients, </l> Like Dioscorides, whose teachings are accepted by all
-                      physicians <br/> Since Hippocrates and those who came after him, medicine has
-                      spread like a light in the dark; <br/> Medical thought following the pattern
+          <quote><p><l>I admire the books of Galen, who combined the wisdom of Hippocrates and
+                        the ancients, </l><l> Like Dioscorides, whose teachings are accepted by all
+                      physicians </l><l> Since Hippocrates and those who came after him, medicine has
+                      spread like a light in the dark; </l><l> Medical thought following the pattern
                       set by them, shines and shows the light of health in the darkness of malady,
-                      <br/> You should consult no others in curing the sick, for their existence is
-                      worth nothing. <br/> Those ancients achieved perfection; they need not be
-                      supplemented by others<br/> Except in the sphere of drugs, the benefits of
-                      which are innumerable and of which Arabs and Persians know as many <br/> As
+                      </l><l> You should consult no others in curing the sick, for their existence is
+                      worth nothing. </l><l> Those ancients achieved perfection; they need not be
+                      supplemented by others</l><l> Except in the sphere of drugs, the benefits of
+                      which are innumerable and of which Arabs and Persians know as many </l><l> As
                       there are stars in the sky or plants on earth — they can no more be counted
-                      than the grains of sand or the hills; <br/> For every day you see the
-                      impossible being accomplished by experiment, miracle and intelligence.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      than the grains of sand or the hills; </l><l> For every day you see the
+                      impossible being accomplished by experiment, miracle and intelligence.</l></p></quote>
           <p>Ibn al-Budhūkh wrote a commentary on Hippocrates' "Book of Maladies," a poem in short
             meter which is a commentary on Hippocrates' "introduction to Medicine," a poem in short
             meter which is a commentary on "The Lions' Treasure, Unique of its Kind," and marginal
@@ -7727,52 +7264,22 @@
             587/February 1191. This poem is entitled "The Precious Gem." [The very long poem
             follows.] </p>
           <p>He also wrote the following:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>He recovered from his illness after revealing to me the symptoms he had
-                        previously kept hidden;</l> For if a doctor knows what ails his patient, he
-                      will undoubtedly bring him relief.<br/> How many hide their condition,
-                      covering up their illness perversely!<br/> When love takes a man prisoner and
+          <quote><p><l>He recovered from his illness after revealing to me the symptoms he had
+                        previously kept hidden;</l><l> For if a doctor knows what ails his patient, he
+                      will undoubtedly bring him relief.</l><l> How many hide their condition,
+                      covering up their illness perversely!</l><l> When love takes a man prisoner and
                       he is lost in its abundant charms, blinded by its glowing light.  <pb n="799"
-                        ed="kopf"/><br/> That man, possessed by his desire, if he has no one with
-                      whom to take refuge, will stay in its grip.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                        ed="kopf"/></l><l> That man, possessed by his desire, if he has no one with
+                      whom to take refuge, will stay in its grip.</l></p></quote>
           <p>In another poem he says:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I exerted myself studying medicine, so that I might not be in need of
-                        gifts from princes. </l> I was right to immunize myself by studying;<br/> A
-                      man must secure his livelihood, but he should do it the right way: <br/> Come
-                      close to the mighty by humility, but avoid submission to them. </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I exerted myself studying medicine, so that I might not be in need of
+                        gifts from princes. </l><l> I was right to immunize myself by studying;</l><l> A
+                      man must secure his livelihood, but he should do it the right way: </l><l> Come
+                      close to the mighty by humility, but avoid submission to them. </l></p></quote>
           <p>He also wrote:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>O you, who hate an ointment, you will see that it is better than to
-                        preserve modesty; </l> In forty days it serves the body better than anything
-                      else, but <br/> A rebel will not recover unless he overcomes his passion.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>O you, who hate an ointment, you will see that it is better than to
+                        preserve modesty; </l><l> In forty days it serves the body better than anything
+                      else, but </l><l> A rebel will not recover unless he overcomes his passion.</l></p></quote>
           <p>Hakim al-Zamān `Abd al-Mun`im al-Jilyānī wrote several books, in both verse and prose,
             which are comprised in ten collections.</p>
           <p>1) A dīwān of the sciences and philosophy, in which he records all the explanations of
@@ -7846,21 +7353,11 @@
             ibn al-Naqqāsh, asking directions as to an ointment with balm-tree extract: <pb n="802"
               ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>My riding-companions, who consult al-Muhadhdhab in all matters of science,
-                        philosophy and rhetoric, </l> Complain to him of the weakening effect of old
-                      age. <br/> They desire balm-tree extract to strengthen their stride. <br/>
-                      This is the wish of those who are past eighty and cannot stand up <br/> They
-                      want more life in their old age, though death is the destiny of man.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>My riding-companions, who consult al-Muhadhdhab in all matters of science,
+                        philosophy and rhetoric, </l><l> Complain to him of the weakening effect of old
+                      age. </l><l> They desire balm-tree extract to strengthen their stride. </l><l>
+                      This is the wish of those who are past eighty and cannot stand up </l><l> They
+                      want more life in their old age, though death is the destiny of man.</l></p></quote>
           <p>The physician sent what was asked of him. He remained in the service of Nūr al-Dīn
             until the latter's death. Nūr al-Dīn died in the month of Shawwal, 569/1173, in
             Damascus. When al-Malik al-Nāsir Salah al-Dīn became ruler of Damascus, Muhadhdhab
@@ -8575,33 +8072,13 @@
               ed="kopf"/>
           </p>
 
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>A man treated me with collyrium and I was relieved, </l> Both as regards
-                      my eye and my pocket.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>A man treated me with collyrium and I was relieved, </l><l> Both as regards
+                      my eye and my pocket.</l></p></quote>
           <p>The judge also said:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>He treated the Banū al-`Abbās until he</l> Drove darkness from their eyes
-                      with his collyrium.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>He treated the Banū al-`Abbās until he</l><l> Drove darkness from their eyes
+                      with his collyrium.</l></p></quote>
           <p> </p>
-          <p><u>Al-Sharif Abū al-Fadl</u> sent Sharaf al-Dīn ibn `Unayn a colt when he was in Egypt.
+          <p>Al-Sharif Abū al-Fadl sent Sharaf al-Dīn ibn `Unayn a colt when he was in Egypt.
             Sharaf al-Dīn found it to be weak and lean, and so he wrote to al-Sharīf in a jocular
             vein . . . . . . . . . . . . . .</p>
         </div>
@@ -8787,22 +8264,12 @@
             Zain al-Dīn accompanied him there and became one of the leading figures in his state. He
             devoted himself to military and governmental matters as well as to medicine. With this
             in mind I composed the following lines about him: </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Zain al-Dīn holds every fine position; his rank is supreme in the heavens
+          <quote><p><l>Zain al-Dīn holds every fine position; his rank is supreme in the heavens
                         of praise: <pb n="837" ed="kopf"/>
-                      </l> A prince endowed with universal knowledge, whose intellect and experience
-                      are peerless; <br/> As a physician he presides over councils, as a warrior he
-                      defeats squadrons, <br/> In time of peace he revives many who rely on his
-                      skill, <br/> In time of war he annihilates many with his sword.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> A prince endowed with universal knowledge, whose intellect and experience
+                      are peerless; </l><l> As a physician he presides over councils, as a warrior he
+                      defeats squadrons, </l><l> In time of peace he revives many who rely on his
+                      skill, </l><l> In time of war he annihilates many with his sword.</l></p></quote>
           <p>He stayed in Damascus with al-Malik al-Nāsīr until Tatar messengers came to the latter
             from the East, demanding that he hand over his kingdom or come to terms by paying
             tribute, etc. Zain al-Dīn al-Hāfizr was sent as a messenger to Khāqān Hūlāgu, the Tatar
@@ -9419,30 +8886,10 @@
             his flanks, I advised him to take medicine, but he retorted with two lines of poetry: 
               <pb n="862" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I am not going to chase away the birds from a tree. </l> The bitter fruits
-                      of which I know from long experience.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I am not going to chase away the birds from a tree. </l><l> The bitter fruits
+                      of which I know from long experience.</l></p></quote>
           <p>"And when I enquired about his pains, he again replied with a line: </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>No wound can inflict pain on a dead body.</l></p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>No wound can inflict pain on a dead body.</l></p></quote>
           <p>"It was my habit at that time to give public lectures at the al-Azhar Mosque from early
             morning until about the fourth hour or noon. My lectures were attended by students of
             medicine and others. Toward evening, I returned to the mosque, when my audience was of a
@@ -9584,18 +9031,8 @@
             at their gates.</p>
           <p>A friend of mine composed these lines: <pb n="868" ed="kopf"/>
           </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Whoever exerts himself in the quest of knowledge is spared </l> By the
-                      dignity of knowledge, the meanness of material gains.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Whoever exerts himself in the quest of knowledge is spared </l><l> By the
+                      dignity of knowledge, the meanness of material gains.</l></p></quote>
           <p>All the ways of gaining wordly possessions require utter devotion, special skill and
             much expenditure of time. A person applying himself to science can afford nothing of
             this. He can only wait for wealth to come to him without any effort on his part, seeking
@@ -10013,20 +9450,10 @@
           <p>When Ya`qūb called on al-Malik al-Nāsir, he mentioned — after saluting him — his
             service of many years and remarked that he had grown old and feeble. He then recited the
             following lines by Ibn Munkidh, may Allāh have mercy upon him:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I came to you when the garments of youth were still fresh, </l> How should
-                      I leave you whom they have become worn out? <br/> I can claim the respect due
-                      to a guest, to a protege of long standing<br/> And to one who came to you when
-                      the tribesmen were still youths.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>I came to you when the garments of youth were still fresh, </l><l> How should
+                      I leave you whom they have become worn out? </l><l> I can claim the respect due
+                      to a guest, to a protege of long standing</l><l> And to one who came to you when
+                      the tribesmen were still youths.</l></p></quote>
           <p>Upon hearing this, al-Malik al-Nāsir treated him very kindly, gave him money and
             apparel and ordered that he should continue to receive all he had been granted by
             al-Malik al-Mu`azzam, without having to report for duty. He lived a little longer, and
@@ -10164,37 +9591,27 @@
             al-M`uazzami.</p>
           <p>[Here follow about eight and a half pages of ibn Raqīqa's poetry, including the
             following medical recommendations]:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Beware of filling yourself with food — keep away from it;</l> Do not take
-                      a meal before having digested the previous one.<br/> Also avoid over-indulging
-                      in sexual intercourse,<br/> For it is, for him who practices it frequently, a
-                      cause of illness<br/> Do not drink water immediately after eating,<br/> Then
+          <quote><p><l>Beware of filling yourself with food — keep away from it;</l><l> Do not take
+                      a meal before having digested the previous one.</l><l> Also avoid over-indulging
+                      in sexual intercourse,</l><l> For it is, for him who practices it frequently, a
+                      cause of illness</l><l> Do not drink water immediately after eating,</l><l> Then
                       you will be saved from great damage, <pb n="889" ed="kopf"/>
-                      <br/> Nor on an empty stomach nor when hungry. <br/> But only after eating a
-                      little food.<br/> Always drink but little water, for this is beneficial <br/>
-                      Even to him who is burning with thirst.<br/> Watch your digestion — this is
-                      very important —<br/> And undergo a purgative cure every year.<br/> As to
-                      venesection, refrain from it<br/> Unless a patient has soft stools and
-                      observes a diet.<br/> Do not move about immediately after eating,<br/> But
-                      only after having digested,<br/> In order to prevent the chyme from descending
-                      all of a sudden, <br/> In which case it will stick to the ducts and pores.
-                      <br/> Likewise, do not rest too long,<br/> For this produces all kinds of
-                      unhealthy humors in your body<br/> Drink as little water as possible after
-                      taking exercise<br/> And abstain from drinking [strong] wine,<br/> But temper
-                      your cup in the right measure,<br/> So as to keep your bodily heat
-                      constant.<br/> Avoid drunkeness like the plague,<br/> For it is the habit of
-                      low people.<br/> If you refrain from indulging your desires,<br/> If you keep
-                      yourself in check,<br/> You will attain eternal life in the Abode of
-                      Peace.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> Nor on an empty stomach nor when hungry. </l><l> But only after eating a
+                      little food.</l><l> Always drink but little water, for this is beneficial </l><l>
+                      Even to him who is burning with thirst.</l><l> Watch your digestion — this is
+                      very important —</l><l> And undergo a purgative cure every year.</l><l> As to
+                      venesection, refrain from it</l><l> Unless a patient has soft stools and
+                      observes a diet.</l><l> Do not move about immediately after eating,</l><l> But
+                      only after having digested,</l><l> In order to prevent the chyme from descending
+                      all of a sudden, </l><l> In which case it will stick to the ducts and pores.
+                      </l><l> Likewise, do not rest too long,</l><l> For this produces all kinds of
+                      unhealthy humors in your body</l><l> Drink as little water as possible after
+                      taking exercise</l><l> And abstain from drinking [strong] wine,</l><l> But temper
+                      your cup in the right measure,</l><l> So as to keep your bodily heat
+                      constant.</l><l> Avoid drunkeness like the plague,</l><l> For it is the habit of
+                      low people.</l><l> If you refrain from indulging your desires,</l><l> If you keep
+                      yourself in check,</l><l> You will attain eternal life in the Abode of
+                      Peace.</l></p></quote>
           <p>Sadīd al-Dīn ibn Raqīqa wrote the following works:</p>
           <p>1) "The Precious Treasures Hidden in Problems." This is a poetical rendering of
             Hunayn's "Problems," a summary of Ibn Sīnā's Qānūn and other texts indispensible to
@@ -10254,21 +9671,11 @@
           <p>"The patience of the chaste is graceful."</p>
           <p>[There follows a collection of his poetry].</p>
           <p>He also wrote:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>You, who inherited from father and grandfather </l> The stamp of medicine
-                      and dignity,<br/> "You who are the guarantor for the return of every soul <pb
+          <quote><p><l>You, who inherited from father and grandfather </l><l> The stamp of medicine
+                      and dignity,</l><l> "You who are the guarantor for the return of every soul <pb
                         n="892" ed="kopf"/>
-                      <br/> Which aspires to leave the body,<br/> "I swear, if medicine could cure
-                      Time, <br/> We would exist without Death."</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> Which aspires to leave the body,</l><l> "I swear, if medicine could cure
+                      Time, </l><l> We would exist without Death."</l></p></quote>
           <p>[more poetry follows.]</p>
           <p>Sadaqa al-Sāmirī wrote the following books:</p>
           <p>1) A commentary on the Old Testament.</p>
@@ -10329,19 +9736,9 @@
             prohibitions.</p>
           <p>This was the subject of the poem composed about him by the Shaikh Shihab al-Dīn
             Fityan:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Al-Malik al-Amjad whose virtue</l> was celebrated by all kings,<br/>
-                      Relied on al-Sāmirī to the same extent<br/> as the latter relied on speed [in
-                      treatment]</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>Al-Malik al-Amjad whose virtue</l><l> was celebrated by all kings,</l><l>
+                      Relied on al-Sāmirī to the same extent</l><l> as the latter relied on speed [in
+                      treatment]</l></p></quote>
           <p>These two strophes were recited to me by Shams al-Dīn Muhammad ibn Shihāb al-Dīn
             Fityān, who told me that he had heard them from his father.</p>
           <p>Ibn Abū Usaybi`ah continues: The Shaikh Muhadhadhab al-Dīn's position remained the same
@@ -10491,27 +9888,17 @@
           <p>The following is part of a poem written in honor of the master Amin al-Dawla, as
             recited to me by the author himself, Sharf al-Dīn Isma`īl ibn `Abd Allāh ibn `Umar the
             scribe, known as "the son of the Yemenite judge":</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>"Destiny altered my life, my pure happiness clouded over;</l> The tyrant
-                      Time turned my sweet life into bitter;<br/> My love went away without looking
-                      back, while my heart yearned for the departed,<br/> I wished to be cured from
-                      that disease, burning like fire within me, and you did cure me;<br/> It was
+          <quote><p><l>"Destiny altered my life, my pure happiness clouded over;</l><l> The tyrant
+                      Time turned my sweet life into bitter;</l><l> My love went away without looking
+                      back, while my heart yearned for the departed,</l><l> I wished to be cured from
+                      that disease, burning like fire within me, and you did cure me;</l><l> It was
                       said to me: "When a disease is serious, a cure is rare and a helper much
-                      needed";<br/> [I answered:] How can we complain of our aches and pains while
-                      the doctor is our Vizier?<br/> Indeed I shall turn to him, our Vizier and
-                      master, do not worry, for his benevolence is great;<br/> When a disease is
-                      fatal, nothing can cure it but an expert physician,<br/> A chief, a master, a
-                      skillful doctor, a noble scholar, a great Vizier,<br/> A gentle savior, a
-                      merciful author, bountiful, affectionate, honorable and selfless.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      needed";</l><l> [I answered:] How can we complain of our aches and pains while
+                      the doctor is our Vizier?</l><l> Indeed I shall turn to him, our Vizier and
+                      master, do not worry, for his benevolence is great;</l><l> When a disease is
+                      fatal, nothing can cure it but an expert physician,</l><l> A chief, a master, a
+                      skillful doctor, a noble scholar, a great Vizier,</l><l> A gentle savior, a
+                      merciful author, bountiful, affectionate, honorable and selfless.</l></p></quote>
           <p>An example of Amīn al-Dawlah's own poetry was included in his letter to Burhān al-Dīn,
             the Vizier of the Emir `Izz al-Dīn al-Mu`azzamī, in which he sent him his condolences on
             the death of his father, Sharf al-Dīn `Umar. . . . <pb n="901" ed="kopf"/>
@@ -10845,24 +10232,14 @@
             celebrated in a poem written by one of his grateful patients, namely Shams al-Ārab,
             i.e., Abū Muhammad Abd al-Aziz ibn al-Nafīs ibn Hibat Allāh ibn Wahbān al-Sulamī, the
             Baghdadian:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Sadīd al-Dīn has such a power in medicine, that he always saves the eyes
-                        from mote; </l> How often has he banished darkness and guarded the sight
-                      from all harm;<br/> An oculist cannot treat mankind unless he is as skillful
-                      as this; <br/> O savior of our generation! How many are those to whom you have
+          <quote><p><l>Sadīd al-Dīn has such a power in medicine, that he always saves the eyes
+                        from mote; </l><l> How often has he banished darkness and guarded the sight
+                      from all harm;</l><l> An oculist cannot treat mankind unless he is as skillful
+                      as this; </l><l> O savior of our generation! How many are those to whom you have
                       given sight after being blind; <pb n="914" ed="kopf"/>
-                      <br/> Your science is the cure to every malady, your words the balm of every
-                      spirit;<br/> My gratitude is so great, I wish I could express the least of my
-                      thanks, O beloved!</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> Your science is the cure to every malady, your words the balm of every
+                      spirit;</l><l> My gratitude is so great, I wish I could express the least of my
+                      thanks, O beloved!</l></p></quote>
           <p>My father remained in service in the fort of Damascus and frequented the al-Nurī
             Hospital until he died, may he be blessed, during the night of Thursday, the 22nd of
             Rabī` II, 649/1251. He was buried outside the Gate of Paradise, on the way to Mount
@@ -11362,32 +10739,22 @@
             writings, so that many will be able to benefit by them!</p>
           <p>In the same epistle I included the following verses, addressed to him
             extemporaneously:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>The rising sun was almost eclipsed by the radiance of Badr al-Dīn,</l> A
+          <quote><p><l>The rising sun was almost eclipsed by the radiance of Badr al-Dīn,</l><l> A
                       virtuous physician, a noble scholar, both in heart and soul. <pb n="933"
                         ed="kopf"/>
-                      <br/> The most learned of men in the medical art, the science of feeling the
-                      pulse,<br/> An expert in curing, not by guesswork, but by sound
-                      knowledge;<br/> From Hippocrates and "the old master," from the Greeks and
-                      Persians [he got his art];<br/> How many are those whom he has restored to
-                      health, saving them from the contrary!<br/> His opinion is loftier than that
-                      of Qais and his style more perfect than that of Quss;<br/> Indeed he presented
-                      my heart with his book "The Soul-Cheerer,"<br/> A book which leads us into the
-                      world of holiness,<br/> The light of its import shines in the darkness of my
-                      soul.<br/> How beautiful is the flower of the handwriting in the
-                      paper-garden!<br/> When the eye falls upon its first thoughts, it is
-                      refreshed;<br/> How much comfort and delight I have received from it!<br/> I
-                      have accepted its contents with kisses and learning,<br/> And shall gather its
-                      fruit, sweeter than that of the sweetest fruit tree.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      </l><l> The most learned of men in the medical art, the science of feeling the
+                      pulse,</l><l> An expert in curing, not by guesswork, but by sound
+                      knowledge;</l><l> From Hippocrates and "the old master," from the Greeks and
+                      Persians [he got his art];</l><l> How many are those whom he has restored to
+                      health, saving them from the contrary!</l><l> His opinion is loftier than that
+                      of Qais and his style more perfect than that of Quss;</l><l> Indeed he presented
+                      my heart with his book "The Soul-Cheerer,"</l><l> A book which leads us into the
+                      world of holiness,</l><l> The light of its import shines in the darkness of my
+                      soul.</l><l> How beautiful is the flower of the handwriting in the
+                      paper-garden!</l><l> When the eye falls upon its first thoughts, it is
+                      refreshed;</l><l> How much comfort and delight I have received from it!</l><l> I
+                      have accepted its contents with kisses and learning,</l><l> And shall gather its
+                      fruit, sweeter than that of the sweetest fruit tree.</l></p></quote>
           <p>I included the following verses in another epistle . . . . . . . . . . </p>
           <p>May God prolong the life of his majesty the illustrious master, the learned scholar,
             the honorable leader, the standard of our generation and unique one of our times, the
@@ -11412,47 +10779,27 @@
             Universals." Glory be to God for his all-embracing favors and perfect kindness! But our
             master is the first to be appointed chief of the profession and leader of the other
             masters and scholars. </p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>And it could not be so good, were it not for him; </l> And he could not be
-                      so successful, were it not for it.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>And it could not be so good, were it not for him; </l><l> And he could not be
+                      so successful, were it not for it.</l></p></quote>
           <p>[Even after his appointment] the signs of glory continued to shine through all his
             deeds and the marks of superiority proved his virtues and nobility. May God the
             Omnipotent aid him in his new post and help him in everything he does now and in the
             future, if he so wishes!"</p>
           <p>The following verses are part of a poem which I addressed to him in the year
             645/1247:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>I wrote with unreined passion, with an extreme delight that grew
+          <quote><p><l>I wrote with unreined passion, with an extreme delight that grew
                         constantly with the passing of time; <pb n="935" ed="kopf"/>
-                      </l> With unceasing longings for him who keeps attracting my thoughts and is
-                      the subject of all my good wishes:<br/> He is the master Badr al-Dīn, the
+                      </l><l> With unceasing longings for him who keeps attracting my thoughts and is
+                      the subject of all my good wishes:</l><l> He is the master Badr al-Dīn, the
                       noble and praiseworthy, in the apogee of height, unique in his
-                      generation;<br/> A physician who masters all that Hippocrates had said before,
-                      and knows all that Galen said later;<br/> Who is versed in the discussions of
-                      the "old master" which sound, when read by him, like pearls;<br/> Indeed when
+                      generation;</l><l> A physician who masters all that Hippocrates had said before,
+                      and knows all that Galen said later;</l><l> Who is versed in the discussions of
+                      the "old master" which sound, when read by him, like pearls;</l><l> Indeed when
                       these pearls of speech come from the sea of his learning, it is no wonder, for
-                      pearls do come from the sea;<br/> When he quotes others, his words are like
-                      magic, but all sweet things come from magic;<br/> When he treats a sick man
+                      pearls do come from the sea;</l><l> When he quotes others, his words are like
+                      magic, but all sweet things come from magic;</l><l> When he treats a sick man
                       and aids the poor, both his nobility and virtues are shown in the recovery and
-                      benevolence.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      benevolence.</l></p></quote>
           <p>The mamluk kisses the hand of the illustrious master and scholarly physician, the noble
             chief and unrivaled leader, the hand of Badr al-Dīn, may God prolong its strength and
             generosity, may he double its favors to the good folk who deserve them and prostrate its
@@ -11475,36 +10822,16 @@
             honor and the fact that evil men consider the virtues as vices, should be helped by God
             to remain forever doing good, excelling in virtues, reaching the highest ranks, being
             happy and guarded against all misfortune.</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>This is my prayer, which I could have spared myself, for what I have asked
-                        God concerning you is already done.</l></p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+          <quote><p><l>This is my prayer, which I could have spared myself, for what I have asked
+                        God concerning you is already done.</l></p></quote>
           <p>Our master, may the high ranks be beautified by him and the elevated positions become
             even nobler by his fine opinions, has already surpassed by his virtues and nobility all
             those who are famous for their merits, has distinguished himself among all his
             contemporaries for his dignified conduct and good influence. He is the the perfect
             example to other physicians and to all his friends and loves ones.</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>When men divided happiness among themselves, I got the biggest share;</l>
+          <quote><p><l>When men divided happiness among themselves, I got the biggest share;</l><l>
                       The mamluk again kisses the hand of his master for his favors, and offers his
-                      services and full obedience.</p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                      services and full obedience.</l></p></quote>
           <p>Badr al-Dīn the son of the Judge of Ba`albekk wrote the following books:</p>
           <p>1) An exhaustive treatise on the weather of al-Raqqa.</p>
           <p>2) "The Soul-Cheerer," in which he gives a full account of all the different kinds of
@@ -11644,21 +10971,11 @@
             taken from the author's manuscript, which had not been available in Syria previously. My
             father acquired it, on which occasion `Izz al-Dīn ibn al-Suwaidī wrote him a poem
             praising him, from which I recall the following lines:</p>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <blockquote>
-                  <blockquote>
-                    <p><l>Be praised, for you are the owner of noble and sublime things of the
-                        commentary on the book "The Benefits of the Members";</l> The lending of
+          <quote><p><l>Be praised, for you are the owner of noble and sublime things of the
+                        commentary on the book "The Benefits of the Members";</l><l> The lending of
                       rare books is still a habit among the learned and virtuous. <pb n="942"
                         ed="kopf"/>
-                    </p>
-                  </blockquote>
-                </blockquote>
-              </blockquote>
-            </blockquote>
-          </blockquote>
+                    </l></p></quote>
           <p>So my father sent him the book, which was in two volumes. He made a copy of it, in the
             most beautiful handwriting and with the finest accuracy. </p>
           <p>The following are samples of his poetry, as he himself recited to me:</p>
@@ -11726,8 +11043,9 @@
           <p>3) "Introduction to the Sciences of Logic, Physics and Metaphysics." </p>
           <p>He died in Ramadan, 681/1282.</p>
         </div>
-
-        <p><u>Abū al-Karaj ibn al-Qaff.</u> The illustrious physician and scholar Abū al-Faraj, the
+    <div>
+      <head><persName>Abū al-Karaj ibn al-Qaff</persName>.</head>
+        <p> The illustrious physician and scholar Abū al-Faraj, the
           son of the peerless and learned Shaikh Muwaffaq al-Dīn Ya`qūb ibn Ishaq ibn al-Qaff, a
           Christian from Karak, was born in Karak on Saturday the 13th of Dhū al-Qa`dah, 630/1232.
           His father, Muwaffaq al-Dīn, was a friend of mine, who kept our relationship intimate and
@@ -11781,11 +11099,9 @@
       </div>
       <p><a name="FOOTNOTES">FOOTNOTES</a></p>
       <p>These all appeared at the foot of the pages of the manuscripts.  Abbreviations:</p>
-      <blockquote>
-        <p>GAL = Brockelmann, Geschichte der arabischen Litteratur; I<sup>2</sup> = vol. 1, 2nd ed.;
+      <quote><p>GAL = Brockelmann, Geschichte der arabischen Litteratur; I<sup>2</sup> = vol. 1, 2nd ed.;
           S I = GAL supplement vol 1; S II = GAL supplement vol. 2.; I.Q. = Ibn al-Qiftī. Tarīkh
-          al-Hukamā' (History of Philosophers).</p>
-      </blockquote>
+          al-Hukamā' (History of Philosophers).</p></quote>
 
       <note n="1" xml:id="FN1"> * [GAL I<sup>2</sup>, 638: S I, 887; not in I. Q.] </note>
       <note n="2" xml:id="FN2"> [GAL I<sup>2</sup>; 626; S I, 870; not in I. Q. (übers. Weidemann,
