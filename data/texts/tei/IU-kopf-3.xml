@@ -62,6 +62,7 @@
       <change who="ngibson" when="2019-01-25">replaced &lt;br/> with &lt;/l>&lt;l> in xpath //l</change>
       <change who="ngibson" when="2019-01-25">replaced (&lt;blockquote>[\s\n\t]*)+(.+?)([\s\n\t]*&lt;/blockquote>)+ with &lt;quote>\2&lt;/quote></change>
       <change who="ngibson" when="2019-01-25">formatted manuscript volume 4 title page</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;sup>(.+?)&lt;/sup> with \1</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -11097,45 +11098,52 @@
         <p>He died in Jumāda I, 685/1286. And Allāh knows best.</p>
         
       </div>
+      </div>
+        
+      
+
+
+    </body>
+    <back>
       <p><a name="FOOTNOTES">FOOTNOTES</a></p>
       <p>These all appeared at the foot of the pages of the manuscripts.  Abbreviations:</p>
-      <quote><p>GAL = Brockelmann, Geschichte der arabischen Litteratur; I<sup>2</sup> = vol. 1, 2nd ed.;
-          S I = GAL supplement vol 1; S II = GAL supplement vol. 2.; I.Q. = Ibn al-Qiftī. Tarīkh
-          al-Hukamā' (History of Philosophers).</p></quote>
-
-      <note n="1" xml:id="FN1"> * [GAL I<sup>2</sup>, 638: S I, 887; not in I. Q.] </note>
-      <note n="2" xml:id="FN2"> [GAL I<sup>2</sup>; 626; S I, 870; not in I. Q. (übers. Weidemann,
+      <quote><p>GAL = Brockelmann, Geschichte der arabischen Litteratur; I2 = vol. 1, 2nd ed.;
+        S I = GAL supplement vol 1; S II = GAL supplement vol. 2.; I.Q. = Ibn al-Qiftī. Tarīkh
+        al-Hukamā' (History of Philosophers).</p></quote>
+      
+      <note n="1" xml:id="FN1"> * [GAL I2, 638: S I, 887; not in I. Q.] </note>
+      <note n="2" xml:id="FN2"> [GAL I2; 626; S I, 870; not in I. Q. (übers. Weidemann,
         Beitr. 28, 117/18, Mitt. z.Gesch. d. Med. 313/21).] </note>
       <note n="3" xml:id="FN3"> * [GAL S I, 423; I. Q. , 438 (differing version). ]</note>
-      <note n="4" xml:id="FN4"> * [GAL I<sup>2</sup> 638; S I, 886; not in I. Q.]</note>
-      <note n="5" xml:id="FN5"> * [Gal I<sup>2</sup>, 640; S I, 888; not in I. Q. ] </note>
-      <note n="6" xml:id="FN6"> ** [GAL I<sup>2</sup>, 666; S I, 920; I. Q. 291.]</note>
+      <note n="4" xml:id="FN4"> * [GAL I2 638; S I, 886; not in I. Q.]</note>
+      <note n="5" xml:id="FN5"> * [Gal I2, 640; S I, 888; not in I. Q. ] </note>
+      <note n="6" xml:id="FN6"> ** [GAL I2, 666; S I, 920; I. Q. 291.]</note>
       <note n="7" xml:id="FN7"> * [GAL S I, 824 below; not in I. Q.]</note>
-      <note n="8" xml:id="FN8"> * [GAL I<sup>2</sup> 643; S I, 892; I.Q. 209.]</note>
-      <note n="9" xml:id="FN9"> * [GAL I<sup>2</sup>, 644; S I, 893; not in I. Q. ]</note>
-
-      <note n="10" xml:id="FN10"> * [GAL I<sup>2</sup>, 646; SI, 895; not in I. Q.] </note>
+      <note n="8" xml:id="FN8"> * [GAL I2 643; S I, 892; I.Q. 209.]</note>
+      <note n="9" xml:id="FN9"> * [GAL I2, 644; S I, 893; not in I. Q. ]</note>
+      
+      <note n="10" xml:id="FN10"> * [GAL I2, 646; SI, 895; not in I. Q.] </note>
       <note n="11" xml:id="FN11"> ** [Not in GAL, I. Q. ]</note>
       <note n="12" xml:id="FN12"> * [The countries of Western Islam.]</note>
       <note n="13" xml:id="FN13"> * [I.Q.337]</note>
       <note n="14" xml:id="FN14"> * [I.Q.320.]</note>
-      <note n="15" xml:id="FN15"> * [GAL I<sup>2</sup>, 154; S I, 228; not in I. Q. ]</note>
-      <note n="16" xml:id="FN16"> * [GAL I<sup>2</sup>, 272; S I, 422; I. Q. 105.]</note>
+      <note n="15" xml:id="FN15"> * [GAL I2, 154; S I, 228; not in I. Q. ]</note>
+      <note n="16" xml:id="FN16"> * [GAL I2, 272; S I, 422; I. Q. 105.]</note>
       <note n="17" xml:id="FN17"> * [I. Q. 334]</note>
       <note n="18" xml:id="FN18"> * [I. Q. 178]</note>
       <note n="19" xml:id="FN19"> * [I. Q. 438]</note>
-
+      
       <note n="20" xml:id="FN20"> * [I.Q. 277; GAL S II 375. ]</note>
-
       
-
       
-
+      
+      
+      
       <p align="left" class="small">This text was transcribed by Roger Pearse, Ipswich, UK, 2011.
         This file and all material on this page is in the public domain - copy freely.</p>
-
       
-
+      
+      
       <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tbody>
           <tr>
@@ -11147,8 +11155,6 @@
           </tr>
         </tbody>
       </table>
-
-
-    </body>
+    </back>
   </text>
 </TEI>
