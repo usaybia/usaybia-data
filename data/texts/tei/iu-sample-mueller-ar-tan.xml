@@ -66,6 +66,14 @@
       <tan:resp roles="editor" who="gibson"/>
       <tan:change when="2019-05-02" who="gibson">Started new file.</tan:change>
    </tan:head>
+   <facsimile>
+      <surface start="#PB2.240">
+         <graphic url="../img/IU-mueller-1884-vol2b-103.png"/>
+      </surface>
+      <surface start="#PB2.241">
+         <graphic url="../img/IU-mueller-1884-vol2b-104.png"/>
+      </surface>
+   </facsimile>
    <text>
       <body xml:lang="ar" in-progress="true">
          <div n="3" type="pt">
@@ -74,7 +82,8 @@
                   <div n="12" type="par">
                      <pb ed="mueller-1884"
                         edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml"
-                        n="2.240"/>
+                        n="2.240"
+                        xml:id="PB2.240"/>
                      <p>وَمن شعر الصاحب أَمِين الدولة قَالَ وَكتب بِهِ فِي كتاب إِلَى برهَان
                         الدّين وَزِير الْأَمِير عز الدّين المعظمي تَعْزِيَة لبرهان الدّين فِي وَلَده
                         الْخَطِيب شرف الدّين عمر</p></div>
@@ -138,7 +147,7 @@
                      الطِّبّ وَكَانَ السَّبَب فِي ذَلِك أَنه فِي أول أمره كَانَ يعاني صناعَة الْكحل
                      ويحاول أَعمالهَا وخدم بهَا <pb ed="mueller-1884"
                         edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml"
-                        n="2.240"/>فِي البيمارستان الْكَبِير الَّذِي أنشأه وَوَقفه الْملك الْعَادِل نور
+                        n="2.240" xml:id="PB2.241"/>فِي البيمارستان الْكَبِير الَّذِي أنشأه وَوَقفه الْملك الْعَادِل نور
                      الدّين مَحْمُود بن زنكي
                      ثمَّ بعد ذَلِك لما اشْتغل على ابْن المطران ورسم بصناعة الطِّبّ أطلق لَهُ الصاحب
                         صفي الدّين بن شكر وَزِير الْملك الْعَادِل أبي بكر بن أَيُّوب جامكية على الطِّبّ
