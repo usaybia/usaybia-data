@@ -256,6 +256,50 @@
                            <ptr target="#div12345"/>
                         </bibl>
                      </div>
+                     <div uri="https://usaybia.net/factoid/1-3" resp="#ngibson">
+                        <listRelation>
+                           <relation  ref="snap:ParentOf" active="https://usaybia.net/person/3" passive="https://usaybia.net/person/1"/>
+                        </listRelation>
+                        <bibl type="primary">
+                           <!-- -->
+                        </bibl>
+                     </div>
+                     <div uri="https://usaybia.net/factoid/1-4" resp="#ngibson">
+                        <listRelation>
+                           <relation  ref="snap:ParentOf" active="https://usaybia.net/person/3" passive="https://usaybia.net/person/2"/>
+                        </listRelation>
+                        <bibl type="primary">
+                           <!-- -->
+                        </bibl>
+                     </div>
+                     <div uri="https://usaybia.net/factoid/1-5" resp="#ngibson">
+                        <listPerson>
+                           <person>
+                              <persName ref="https://usaybia.net/person/1"/>
+                              <occupation ref="http://syriaca.org/keyword/occulist">
+                                 <note type="desc"><persName ref="http://syriaca.org/person/1">Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī</persName> was an occulist.</note>
+                              </occupation>
+                           </person>
+                        </listPerson>
+                        <bibl type="primary">
+                           <!--  -->
+                        </bibl>
+                     </div>
+                     <div uri="https://usaybia.net/factoid/1-6" resp="#ngibson">
+                        <listPerson>
+                           <person>
+                              <persName ref="https://usaybia.net/person/2"/>
+                              <occupation ref="http://syriaca.org/keyword/occulist"><!-- Use as many keywords as needed to describe content in note. -->
+                                 <note type="desc">
+                                    <persName ref="https://usaybia.net/person/2">Hamid b. ʿAlī</persName> was an occulist.
+                                 </note>
+                              </occupation>
+                           </person>
+                        </listPerson>
+                        <bibl type="primary">
+                           <!--  -->
+                        </bibl>
+                     </div>
                   </div>
                   <div n="2" type="par">
                      <anchor xml:id="kopf10" corresp="iu-sample-mueller-ar-tan.xml#mueller10"/>
