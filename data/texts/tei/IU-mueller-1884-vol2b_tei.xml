@@ -1,17 +1,105 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns='http://www.tei-c.org/ns/1.0'>
-	<teiHeader>
+	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type='main'>IU-mueller-1884-vol2b</title>
+				<title xml:lang="ar" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+				<author ref="https://usaybia.net/person/1">ابن أبي أصيبعة</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal>Nathan P. Gibson</principal>
+				<editor role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+					http://syriaca.org/documentation/editors.html#ngibson 
+					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+					http://orcid.org/0000-0003-0786-8075
+					http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+				<!-- add student researchers -->
+				<respStmt>
+					<resp>TEI XML encoding by</resp>
+					<name type="person" ref="https://usaybia.net/documentation/editors.xml#ngibson">Nathan P. Gibson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Based on the work of</resp>
+					<name type="person" ref="http://viaf.org/viaf/56706883">August Müller</name>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person"><!--Insert name of the person who edits this document --></name>
+				</respStmt>
 			</titleStmt>
+			<editionStmt>
+				<edition n="0.1"/>
+				<respStmt>
+					<resp>based upon</resp>
+					<name><ptr target="#sourceDesc1"/></name>
+				</respStmt>
+			</editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<distributor><placeName>Ludwig Maximilian University of Munich, Institute of Near and Middle Eastern Studies</placeName></distributor>
+				<authority>
+					<orgName ref="https://usaybia.net">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</orgName>
+					(<orgName xml:lang="de"  ref="https://usaybia.net">Wissensgemeinschaften: Interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte</orgName>)
+				</authority>
+				<idno type="URI">https://usaybia.net/text/1</idno>
+				<availability>
+					<p/>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">
+						<p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+						<p>https://creativecommons.org/licenses/by/4.0/</p></licence>
+					<ab><note>This electronic edition is designed for open access reuse. The base
+						text is in the public domain, since the editor of the print edition died in 1892. 
+						The TEI XML edition is copyrighted by Nathan P. Gibson and is released under a 
+						Creative Commons Attribution 4.0 International
+						Public License (CC BY 4.0).</note></ab>
+					<ab>
+						<!-- Is the HTML copyright notice here accurate? -->
+						<note>The HTML page is copyrighted by Vanderbilt University and released under a
+							under a Creative Commons Attribution 4.0 International Public License (CC-BY
+							4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse
+							should follow the suggested citation and also credit the copyright holder of
+							the TEI XML edition.</note>
+					</ab>
+				</availability>
+				<date calendar="Gregorian">2019-05-07</date>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: nathanpgibson@gmail.com</publisher></bibl>
+			<sourceDesc xml:id="sourceDesc1">
+				<biblStruct>
+					<monogr>
+						<editor><forename>August</forename><surname>Müller</surname></editor>
+						<title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+						<idno type="URI">https://usaybia.net/bibl/1</idno>
+						<!--<ref target=""/>-->
+						<imprint>
+							<pubPlace>Königsberg</pubPlace>
+							<publisher>selbstverlag</publisher>
+							<date>1884</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p><!-- insert editorial declaration --></p>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<!-- insert language documentation -->
+		</profileDesc>
+		<revisionDesc status="UneditedTranscription">
+			<change when="2019-05-07" who="https://usaybia.net/documentation/editors.xml#ngibson">Created:
+				file</change>
+		</revisionDesc>
 	</teiHeader>
 	<facsimile xml:id='facs_103'>
 		<surface ulx='0' uly='0' lrx='1822' lry='2850' corresp='IU-mueller-1884-vol2b-103.png'>
@@ -1661,7 +1749,7 @@
 			</zone>
 		</surface>
 	</facsimile>
-	<text>
+	<text xml:lang="ar">
 		<body>
 			<pb facs='#facs_103' xml:id='IU-mueller-1884-vol2b-103.png' n='103'/>
 			<p facs='#facs_103_r1'>
@@ -1691,23 +1779,23 @@
 				<lb facs='#facs_103_line_1549019313032_13' n='N021'/>
 				<lb facs='#facs_103_r2l17' n='N022'/>
 				<lb facs='#facs_103_line_1548170481422_184' n='N023'/>مهذب الدين عبد الرحيم بن علي 
-				<lb facs='#facs_103_line_1548170481423_185' n='N024'/>هو شيخنا الامام الصدر الكبير العالم الفاضل مهذب الدين
-				<lb facs='#facs_103_r2l19' n='N025'/>ابو محمد عبد الرحيم بن علي بن حامد ويعرف بالدخوار وكان رحمه الله اوحد عصره و<unclear>ف</unclear>ريد
-				<lb facs='#facs_103_r2l20' n='N026'/>دهره وعلامة زمانه واليه انتهت رياسة صناعة الطب ومعرفتها على ما ينبغي وتحقيق كلياتها
-				<lb facs='#facs_103_r2l21' n='N027'/>وجزئياتها ولم يكن في اجتهاده من يجار<unclear>ي</unclear>ه ولا في علمه من يماثله اتعب نفسه في الاشتغال
-				<lb facs='#facs_103_r2l22' n='N028'/>‬‬‬‬‫‫وكد خاطره في تحصيل العلم حتى فاق اهل زمانه في صناعة الطب وحظي عند الملوك ونال من‬‬
-				<lb facs='#facs_103_r2l23' n='N029'/>جهتهم من المال والجاه ما لم ينله غيره من الاطباء الى ان توفي ‬وكان مولده ومنشؤه بدمشق وكان
-				<lb facs='#facs_103_r2l24' n='N030'/>‫‫ ابوه علي بن حامد كحالا مشهورا وكذلك كان اخوه وهو حامد بن علي كحالا‬‬وكان الحكيم مهذب 
-				<lb facs='#facs_103_r2l25' n='N031'/>‫‫ الدين ايضا في مبدا امره يكحل وهو مع ذلك مواظب على الاشتغال والنسخ‬‬ وكان خطه منسوبا
-				<lb facs='#facs_103_r2l26' n='N032'/>وكتب كتبا كثيرة بخطه وقد رايت منها نحو مائة مجلد او اكثر في الطب وغيره واشتغل بالعربية ‬‬
-				<lb facs='#facs_103_r2l27' n='N033'/>‫‫ على الشيخ تاج الدين الكندي ابي اليمن ولم يزل مجتهدا في تحصيل العلوم وملازمة القراءة 
-				<lb facs='#facs_103_r2l28' n='N034'/><unclear>??</unclear>
-				<lb facs='#facs_103_r2l29' n='N035'/>‫‫ شيئا من المكي على الشيخ رضي الدين الرحبي رحمه الله ثم بعد ذلك لازم موفق الدين بن المطران ‬‬‬‬
-				<lb facs='#facs_103_r2l30' n='N036'/>‫‫ وتتلمذ له واشتغل عليه بصناعة الطب ولم يزل ملازما له في اسفاره وحضره الى ان تميز ومهر‬‬‬
-				<lb facs='#facs_103_r2l31' n='N037'/>‫‫واشتغل بعد ذلك ايضا على فخر الدين المارديني لما ورد الى دمشق في سنة تسع وسبعين ‬‬‬‬
-				<lb facs='#facs_103_r2l32' n='N038'/>‫‫ وخمسمائة بشيء من القانون لابن سينا وكان فخر الدين المارديني كثير الدراية لهذا الكتاب 
-				<lb facs='#facs_103_r2l33' n='N039'/>والتحقيق لمعانيه وخدم الحكيم مهذب الدين الملك العادل ابا بكر بن ايوب بصناعة الطب 
-				<lb facs='#facs_103_r2l34' n='N040'/>وكان السبب في ذلك انه في اول امره كان يعاني صناعة الكحل ويحاول اعمالها وخدم بها في 
+				<lb n="N024" facs="#facs_103_line_1548170481423_185"/>هو <span xml:id="recogito-b5dbbec1-6ecd-4e92-b11b-420c58fe8350" ana="test">شيخنا</span> الامام الصدر الكبير العالم الفاضل مهذب الدين
+				<lb n="N025" facs="#facs_103_r2l19"/>ابو محمد عبد الرحيم بن علي بن حامد ويعرف ب<persName xml:id="recogito-d4bd0d6d-7021-4521-aad7-8c67ef1f8b57" ana="https://onomasticon.irht.cnrs.fr/en/entry/id/14807,https://onomasticon.irht.cnrs.fr/en/entry/id/20271,https://onomasticon.irht.cnrs.fr/en/entry/id/32271">الدخوار</persName> وكان رحمه الله اوحد عصره و<unclear>ف</unclear>ريد
+				<lb n="N026" facs="#facs_103_r2l20"/>دهره وعلامة زمانه واليه انتهت رياسة صناعة الطب ومعرفتها على ما ينبغي وتحقيق كلياتها
+				<lb n="N027" facs="#facs_103_r2l21"/>وجزئياتها ولم يكن في اجتهاده من يجار<unclear>ي</unclear>ه ولا في علمه من يماثله اتعب نفسه في الاشتغال
+				<lb n="N028" facs="#facs_103_r2l22"/>‬‬‬‬‫‫وكد خاطره في تحصيل العلم حتى فاق اهل زمانه في صناعة الطب وحظي عند الملوك ونال من‬‬
+				<lb n="N029" facs="#facs_103_r2l23"/>جهتهم من المال والجاه ما لم ينله غيره من الاطباء الى ان توفي ‬وكان مولده ومنشؤه بدمشق وكان
+				<lb n="N030" facs="#facs_103_r2l24"/>‫‫ ابوه علي بن حامد كحالا مشهورا وكذلك كان اخوه وهو حامد بن علي كحالا‬‬وكان الحكيم مهذب 
+				<lb n="N031" facs="#facs_103_r2l25"/>‫‫ الدين ايضا في مبدا امره يكحل وهو مع ذلك مواظب على الاشتغال والنسخ‬‬ وكان خطه منسوبا
+				<lb n="N032" facs="#facs_103_r2l26"/>وكتب كتبا كثيرة بخطه وقد رايت منها نحو مائة مجلد او اكثر في الطب وغيره واشتغل بالعربية ‬‬
+				<lb n="N033" facs="#facs_103_r2l27"/>‫‫ على الشيخ تاج الدين الكندي ابي اليمن ولم يزل مجتهدا في تحصيل العلوم وملازمة القراءة 
+				<lb n="N034" facs="#facs_103_r2l28"/><unclear>??</unclear>
+				<lb n="N035" facs="#facs_103_r2l29"/>‫‫ شيئا من المكي على <persName xml:id="recogito-94c0de44-acf0-4c69-b08d-e77587efc4b3">الشيخ رضي الدين الرحبي</persName> رحمه الله ثم بعد ذلك لازم <persName xml:id="recogito-7493caa2-300f-4bc3-bcab-8cc172176b27">موفق الدين بن المطران</persName> ‬‬‬‬
+				<lb n="N036" facs="#facs_103_r2l30"/>‫‫ وتتلمذ له واشتغل عليه بصناعة الطب ولم يزل ملازما له في اسفاره وحضره الى ان تميز ومهر‬‬‬
+				<lb n="N037" facs="#facs_103_r2l31"/>‫‫واشتغل بعد ذلك ايضا على فخر الدين المارديني لما ورد الى دمشق في سنة تسع وسبعين ‬‬‬‬
+				<lb n="N038" facs="#facs_103_r2l32"/>‫‫ وخمسمائة بشيء من القانون لابن سينا وكان فخر الدين المارديني كثير الدراية لهذا الكتاب 
+				<lb n="N039" facs="#facs_103_r2l33"/>والتحقيق لمعانيه وخدم الحكيم مهذب الدين الملك العادل ابا بكر بن ايوب بصناعة الطب 
+				<lb n="N040" facs="#facs_103_r2l34"/>وكان السبب في ذلك انه في اول امره كان يعاني صناعة الكحل ويحاول اعمالها وخدم بها في 
 				<lb facs='#facs_103_r2l35' n='N041'/>
 			</p>
 			<pb facs='#facs_104' xml:id='IU-mueller-1884-vol2b-104.png' n='104'/>
