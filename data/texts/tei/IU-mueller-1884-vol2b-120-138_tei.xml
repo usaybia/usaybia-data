@@ -1,15 +1,102 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns='http://www.tei-c.org/ns/1.0'>
-	<teiHeader>
+	<teiHeader xml:lang="en">
 		<fileDesc>
 			<titleStmt>
-				<title type='main'>IU-mueller-1884-vol2b</title>
+				<title xml:lang="ar" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+				<author xml:lang="ar" ref="https://usaybia.net/person/1">ابن أبي أصيبعة</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal ref="#ngibson">Nathan P. Gibson</principal>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+					http://syriaca.org/documentation/editors.html#ngibson 
+					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+					http://orcid.org/0000-0003-0786-8075
+					http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+				<respStmt>
+					<resp>Text transcribed by</resp>
+					<name type="person" ref="https://usaybia.net/documentation/editors.xml#mtolay
+						https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</name>
+				</respStmt>
+				<respStmt>
+					<resp>Text transcribed by</resp>
+					<name type="person" ref="https://usaybia.net/documentation/editors.xml#nloehr
+						https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/nadine-loehr/index.html">Nadine Löhr</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI XML encoding generated from Transkribus and edited by</resp>
+					<name type="person" ref="https://usaybia.net/documentation/editors.xml#ngibson">Nathan P. Gibson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Based on the work of</resp>
+					<name type="person" ref="http://viaf.org/viaf/56706883">August Müller</name>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name type="person"><!--Insert name of the person who edits this document --></name>
+				</respStmt>
 			</titleStmt>
+			<editionStmt>
+				<edition n="0.1"/>
+				<respStmt>
+					<resp>based upon</resp>
+					<name><ptr target="#sourceDesc1"/></name>
+				</respStmt>
+			</editionStmt>
 			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
+				<distributor><placeName>Ludwig Maximilian University of Munich, Institute of Near and Middle Eastern Studies</placeName></distributor>
+				<authority>
+					<orgName ref="https://usaybia.net">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</orgName>
+					(<orgName xml:lang="de"  ref="https://usaybia.net">Wissensgemeinschaften: Interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte</orgName>)
+				</authority>
+				<idno type="URI">https://usaybia.net/text/1</idno>
+				<availability>
+					<p/>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">
+						<p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+						<p>https://creativecommons.org/licenses/by/4.0/</p></licence>
+					<ab><note>This electronic edition is designed for open access reuse. The base
+						text is in the public domain, since the editor of the print edition died in 1892. 
+						The TEI XML edition is copyrighted by Nathan P. Gibson and is released under a 
+						Creative Commons Attribution 4.0 International
+						Public License (CC BY 4.0).</note></ab>
+					<ab>
+						<!-- Is the HTML copyright notice here accurate? -->
+						<note>The HTML page is copyrighted by Vanderbilt University and released under a
+							under a Creative Commons Attribution 4.0 International Public License (CC-BY
+							4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse
+							should follow the suggested citation and also credit the copyright holder of
+							the TEI XML edition.</note>
+					</ab>
+				</availability>
+				<date calendar="Gregorian">2019-08-06</date>
 			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: nathanpgibson@gmail.com</publisher></bibl>
+			<sourceDesc xml:id="sourceDesc1">
+				<biblStruct>
+					<monogr>
+						<editor><forename>August</forename><surname>Müller</surname></editor>
+						<title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+						<idno type="URI">https://usaybia.net/bibl/1</idno>
+						<!--<ref target=""/>-->
+						<imprint>
+							<pubPlace>Königsberg</pubPlace>
+							<publisher>selbstverlag</publisher>
+							<date>1884</date>
+						</imprint>
+					</monogr>
+					<citedRange unit="volume" from="2" to="2">2</citedRange>
+					<citedRange unit="page" from="256" to="284">256–284</citedRange>
+				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -910,7 +997,7 @@
 			</zone>
 		</surface>
 	</facsimile>
-	<text>
+	<text xml:lang="ar" style="direction: rtl">
 		<body>
 			<pb facs='#facs_120' xml:id='IU-mueller-1884-vol2b-120.png' n='120'/>
 			<p facs='#facs_120_r2'>
