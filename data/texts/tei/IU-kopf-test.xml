@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>History of the Physicians</title>
+        <author>Ibn Abī Uṣaybiʿa</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Usaybia.net</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Ibn Abi Usaibia</author>
+            <editor role="translator">Lothar Kopf</editor>
+            <editor role="annotator">M. Plessner</editor>
+            <editor role="html-encoder">Roger Pearse</editor>
+            <title>History of physicians</title>
+            <ptr target="http://www.tertullian.org/fathers/ibn_abi_usaibia_03.htm"/>
+            <respStmt>
+              <resp when="2011">This text was transcribed by </resp>
+              <name type="person" ref="https://www.roger-pearse.com">Roger Pearse (Ipswich,
+                UK)</name>
+            </respStmt>
+            <availability>
+              <licence>public domain</licence>
+            </availability>
+            <imprint>
+              <date>1971</date>
+            </imprint>
+            <biblScope unit="page" from="531" to="946">531–946</biblScope>
+            <funder>Translated for the National Library of Medicine, Bethesda, Maryland, under the
+              Special Foreign Currency Program, carried out under a National Science Foundation
+              Contract with the Israel Program for Scientific Translations, Jerusalem,
+              Israel</funder>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="ngibson" when="2019-01-24">CREATED: Pasted HTML into TEI body, created
+        teiHeader</change>
+      <change who="ngibson" when="2019-01-24">replaced
+        '&lt;p>&lt;u>(.+?)&lt;/p>[\n\s\t]*&lt;p> &lt;/p>' with '&lt;div>&lt;u>\1&lt;/div>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;div>&lt;u>(.+?)&lt;/u>' with
+        '&lt;div>&lt;head>\1&lt;/head>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;head>(.+?)&lt;/head>' with
+        '&lt;head>&lt;persName>\1&lt;/persName>&lt;/head>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;/div>' with '&lt;/p>&lt;/div>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;a name="p(\d+)">.+?&lt;/a>' with '&lt;pb
+        n="\1" ed="kopf"/>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;p>&lt;a
+        name="(\d+)".+?(FN\d+).+?&lt;/b>\s*(.+?)&lt;/p>' with '&lt;note n="\1"
+        xml:id="\2">\3&lt;/note>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;a name="(FN\d+)"/>&lt;a
+        href="#\d+">&lt;sup>(\d+)&lt;/sup>&lt;/a>' with '&lt;ref target="#\1"
+        type="noteAnchor">\2&lt;/ref>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;blockquote>[\s\n\t]*&lt;p>(.+?)&lt;br/>'
+        with '&lt;blockquote>&lt;p>&lt;l>\1&lt;/l>'</change>
+      <change who="ngibson" when="2019-01-25">added various missing end tags (esp. div before
+        hr)</change>
+      <change who="ngibson" when="2019-01-25">removed font and hr HTML tags</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;/l>(.+?)&lt;/p> with
+        &lt;/l>&lt;l>\1&lt;/l>&lt;/p> in xpath //p</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;br/> with &lt;/l>&lt;l> in xpath
+        //l</change>
+      <change who="ngibson" when="2019-01-25">replaced
+        (&lt;blockquote>[\s\n\t]*)+(.+?)([\s\n\t]*&lt;/blockquote>)+ with
+        &lt;quote>\2&lt;/quote></change>
+      <change who="ngibson" when="2019-01-25">formatted manuscript volume 4 title page</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;sup>(.+?)&lt;/sup> with \1</change>
+      <change who="ngibson" when="2019-01-29">formatted footnote section (back/div) and
+        respStmt</change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;p>(\d+)\)(.+?)&lt;/p> with &lt;item
+        n="\1">\2&lt;/item></change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;item(.+)&lt;/item> with
+        &lt;list>&lt;item\1&lt;/item> in xpath //item[preceding-sibling::p][1]</change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;/item>([\s\t\n]*)&lt;p> with
+        &lt;/item>&lt;/list>\1&lt;p> (required additional correction)</change>
+      <change who="ngibson" when="2019-02-01">used find/replace to correct transcription of common
+        names: Muḥammad, al-Ḥasan, Ḥusayn, Aḥmad, ʿAlī, Masīḥī, Isḥāq, Isḥaq, Raḥīm, Raḥmān, Raḥman,
+        Ismāʿīl, Yaḥyā, Yuḥannā, Yūḥannā</change>
+      <change who="ngibson" when="2019-02-01">corrected transcription by replacing (\W)ibn(\W) with
+        \1b.\2</change>
+      <change who="ngibson" when="2019-02-01">corrected transcription by replacing` with ʿ</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>    
+      <div n="15" type="chapter">
+        <head>CHAPTER XV: On the Classes of Famous Syrian Physicians</head>
+        <div>
+          <head><persName>Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī</persName></head>
+          <p> was our Shaykh, the chief of ministers, the learned and worthy Muhadhdhab al-Dīn ʿAbd
+            al-Raḥīm b. ʿAlī b. Ḥāmid, known as al-Dakhwār. He was — may Allāh have mercy upon him —
+            unique among his generation, peerless in his time, the most learned scholar of his
+            epoch, the apogee of medical skill and knowledge, both general and specialized. No one
+            matched him in diligence or learning. He tired himself out with work, straining his mind
+            in order to gain knowledge, until he surpassed all contemporary physicians and won more
+            remuneration and honor from kings than any doctor had ever before. He was born in
+            Damascus and brought up there by his father, ʿAlī b. Ḥāmid, a famous oculist, whose
+            other <pb n="902" ed="kopf"/> son, Ḥāmid b. ʿAlī, took up the same profession. At first,
+            Muhadhdhab al-Dīn was also an oculist, but at the same time he worked as a copyist. His
+            calligraphy was outstanding. He transcribed many books, of which I have seen a hundred
+            or more, dealing with medicine and other sciences. He worked for the al-Shaykh Tāj al-Dīn
+            al-Kindī Abū al-Yaman, but constantly endeavored to increase his knowledge by reading
+            and memorizing — a habit he kept up until old age.</p>
+          <p>At the beginning of his medical career, he was introduced to al-Makī's teachings by
+            the Shaīkh Radī al-Dīn al-Rahbī — may Allāh have mercy upon him — and then became a
+            close associate of Mūwafaq al-Dīn b. al-Mutrān, for whom he worked and from whom he
+            learnt the art of medicine. He continued to seek out his company and study his books
+            until he became expert. Afterwards Fakhr al-Dīn al-Mardīnī, who came to Damascus in the
+            year 579/1189, instructed him to part of Ibn Sīnā's ʿQānūn," which Fakhr al-Dīn knew and
+            comprehended thoroughly.</p>
+          <p>Muhadhdhab al-Dīn worked as a physician to al-Malik al-ʿAdil Abū Bakr b. Ayyūb. This
+            was because at the beginning of his career he was interested in eye diseases and wished
+            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.240"/>the Great Hospital
+            established by al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zankī. Later, when he worked with
+            al-Mutrān and had become noted for his medical skill, Safī al-Dīn b. Shakr, the vizier
+            of al-Malik al-ʿAdil b. Ayyūb, granted him an allowance, by means of which he was able to
+            practice work and at the same time increase his knowledge and proficiency. </p>
+
+          <p> He was tireless in the service of the vizier, and the latter, knowing Muhadhadhab's
+            professional merits, preferred him to all others. In the month of Shawwal, 604/1207,
+            al-Malik al-ʿĀdil said to Ibn Shakr: "We want another doctor besides Muwaffaq al-Dīn
+            ʿAbd al-ʿAzīz for attending the troops. This work is not congenial to <pb n="903"
+              ed="kopf"/> ʿAbd al-ʿAzīz, so do as he requests." Said b. Shakr: "We have here an
+            excellent physician, named Muhadhdhab al-Dakhwār, who is fit for our master's service."
+            Then he ordered him to comply. When Muhadhdhab al-Dīn appeared before the vizier, the
+            latter said to him: "I have recommended you to the Sultan, and you are paid a month for
+            your services." But Muhadhdhab al-Dīn said: "My lord: The Doctor Muwaffaq al-Dīn ʿAbd
+            al-ʿAzīz earns about a hundred dinars monthly.</p>
+
+          <p>I know my status, and I will not serve without a decent wage. Then he took leave of the
+            vizier and refused the post. But his companions made him regret his refusal, his lost
+            chance to be engaged by the vizier. For his salary at the hospital was very low.</p>
+          <p>About that time, Muwaffaq ʿAbd al-ʿAzīz was stricken with severe colitis, which grew
+            worse and eventually caused his death. When the news of his passing reached al-Malik
+            al-ʿAdil, the latter said to the vizier: "You once recommended to us a doctor by the
+            name of Muhadhdhab. Appoint him in place of Muwaffad ʿAbd al-ʿAziz. "So Muhadhdhab got
+            all his posts, and he remained in the service of al-Malik al-ʿĀdil from then on. He rose
+            steadily in al-Malik al-ʿĀdil's esteem, and his status was enhanced, until he became his
+            companion, associate and adviser. At the beginning of his service, al-Malik put his
+            knowledge to some unusual tests, and the results strengthened his opinion of him and his
+            reliance upon him.</p>
+          <p>About that time, al-Malik al-ʿĀdil fell ill. He was attended by the best doctors.
+            Muhadhdhab advised bloodletting but the other physicians present did not agree. He said:
+            "By Allāh! If we let blood from him, he will bleed without our being able to staunch
+            it." But they were still obstinate. Very soon the Sultan began to bleed heavily. When he
+            was well again, he realized that Muhadhdhab outshone all the others. <pb n="904"
+              ed="kopf"/>
+          </p>
+          <p>Another story has it that one day, when he was standing at the palace gate with some
+            court physicians, a servant came out with a vial containing the urine of one of the
+            concubines and reported that she was in pain. When the doctors had inspected the vial,
+            they ventured a diagnosis. But Muhadhdhab examined it closely and said: "The pain she
+            complains of does not cause this color," suspecting it to be induced by Lawsonia with
+            which she had anointed herself. The servant told him that his finding was correct,
+            marvelled at him and reported the incident to al-Malik al-ʿĀdil; this increased the
+            latter's confidence in Muhadhdhab.</p>
+          <p>One of the best anecdotes about Shaykh Muhadhdhab al-Dīn, and one that illustrates his
+            savoir-faire and loyalty, is the following which was told my by my father. Once,
+            al-Malik al-ʿĀdil was very angry with the chief judge, Muhyī al-Dīn b. Zakī al-Dīn, of
+            Damascus. He ordered him to be detained in the fortress, demanded from him the sum of
+            10,000 Egyptian dinars and pressed for payment. Muhyī al-Dīn was to remain in prison
+            until the amount was settled. He paid some of the money, but was unable to raise the
+            balance. Al-Malik al-ʿĀdil was inexorable, saying: "He must pay the rest, otherwise I
+            shall deal very harshly with him." The judge was in dire straits. He sold all his
+            possessions — his household effects, and <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.241"/> even his books. Then he wrote letters to the
+            Sultan, using the good offices of many leading personalities, such as al-Shamīs, the
+            court teacher, and Shams al-Khawās the vizier, asking for the remission of part of the
+            amount or to be allowed to pay in installments. But the Sultan remained adamant, and as
+            a result, the judge was so worried that he hardly ate or slept and thus almost killed
+            himself. At this point, his old friend Muhadhdhab al-Dīn paid him a visit. The judge
+            told Muhadhdhab al-Dīn his troubles, begging him to do what he could. After some
+            consideration, al-Muhadhdhab said: "I shall do something for you. I hope that, God
+            willing, it will be of use." Then he departed. <pb n="905" ed="kopf"/>
+          </p>
+          <p>Serīat al-Malik al-ʿAdil, the mother of al-Malīk al-Sālih b. al-Malīk, was unwell at
+            that time. She was of Turkish origin, an intelligent, pious and good woman, very kind
+            and generous. When the Doctor Muhadhdhab al-Dīn came to see her in the harem, he
+            acquainted her with the case of the judge, his troubles and the unjust treatment meted
+            out to him — i.e., that he was being asked to do the impossible — and requested that she
+            intervene: perhaps the Sultan could show mercy to him and remit part of the debt or let
+            him pay it in installments. The chief eunuch supported Muhadhdhab request. But Seriat
+            said: "How can I do anything for the judge, or even mention him to the Sultan? I cannot,
+            because he will ask: 'What makes you speak about the judge, and how is it that you know
+            him?' If we were, say, a doctor who visits us from time to time, or a merchant who sells
+            us cloth, it would be possible for me to talk and intervene; but as it is, I can do
+            nothing." When Muhadhdhab heard this, he said: "My lady! You have an only son, whom you
+            wish happiness and a long life. Now, you can obtain this for him from Allāh by doing
+            something without actually intervening with the Sultan at all." Said she: "And what is
+            that?" Said he: "When the Sultan and you sleep together, tell him you have dreamt that
+            the judge is being treated unjustly"; and he told her what to say. She thereupon said,
+            "It can be done."</p>
+          <p>One night, when she was well again and the Sultan was sleeping with her, as the night
+            was ending, she pretended to be frightened, clutched at her heart and kept shivering and
+            crying. The Sultan, who loved her dearly, noticed it and said: "What is the matter with
+            you?" But she did not reply. He then ordered some apple juice to be brought and had her
+            drink some, sprinkled her face with rose water and said: "Will you not tell me what has
+            happened to you, why you are so upset?" She said: "O Master, I have had a dream which
+            almost frightened to death. I dreamt that it was Doomsday and saw a large crowd of <pb
+              n="906" ed="kopf"/> people. In one place, where there was a great fire, people were
+            saying: "This had been prepared for al-Malīk al-ʿĀdil because of the injustice he did to
+            the judge." Then she said: "Have you ever done anything to the judge?" And he, who did
+            not doubt her story, became troubled, rose early, called his servants and said to them:
+            "Go to the judge and make him happy: give him my regards, ask him to forgive me and tell
+            him that all he has paid will be returned to him. As for me, I will ask nothing of him."
+            So they went to him. The judge was very pleased with their announcement, blessed the
+            Sultan and forgave him. In the same morning the Sultan ordered that he be given a suit
+            of clothes and a mule. He restored him to his office and ordered that all the books and
+            other possessions he had sold be redeemed from the purchasers for the same amount as
+            they had paid. Thus relief was brought to the judge after anguish, by minimum effort and
+            the subtlest of tactics.</p>
+          <p>In the year 610/1213, when he was in the east, al-Malīk al-ʿĀdil became very ill, and
+            Muhadhdhab al-Dīn treated him until he was cured. During that illness, the king paid the
+            physician 7,000 Egyptian dinars. In addition, the king's children, some eastern kings
+            and others sent him gold, suits of clothes, mule carts, gold neckbands and other
+            items.</p>
+          <p>A similar event occurred in the year <pb ed="mueller-1884" n="2.242"> </pb> 612/1215, when al-Malīk al-Ādil went to Egypt and
+            stayed in Cairo. At that time, a dreadful cholera epidemic killed many people. Among
+            those stricken was al-Malīk al-Kāmil b. al-Maīlk al-ʿĀdil, who was the Governor of
+            Egypt. Muhadhdhab al-Dīn treated him most solicitously until he became well again. This
+            time, Muhadhdhab al-Dīn received 12,000 dinars' worth of gold, besides many suits of
+            clothes and other splendid gifts, including fourteen mules carrying golden rings and a
+            great deal of satin and other kinds of cloth. <pb n="907" ed="kopf"/>
+          </p>
+          <p>About that time, the Sultan appointed Muhadhdhab al-Dīn chief physician of Egypt and
+            Syria. I was then with my father, who was also in the service of al-Malīk al-ʿĀdil.
+            Muhadhdhab al-Dīn was in charge of ophthalmological matters; it was he who decided who
+            was qualified to treat eye diseases.</p>
+          <p>In the year 614/1217, having learnt of Christian maneuvers near the coast, al-Malik
+            al-ʿĀdil went to Syria and stayed at Marj al-Sughr. While he was in a place called
+            Manzilat al-Ālekīn, he fell ill and died, may Allāh have mercy upon him. He died in the
+            second hour of Friday, the 7th day of Jumādā al-Ākhira, in the year 615/1218.</p>
+          <p>When al-Malik al-Muʿazam had established his rule over Syria, he wished to employ
+            several of those who had served his father, al-Malik al-ʿĀdil, among them the physician
+            Rashīd al-Dīn b. al-Surī, who refused. As for Muhadhdhab al-Dīn, he gave him a salary
+            and ordered him to live in Damascus, where he was to treat patients at the Great
+            Hospital established by al-Malik al-ʿAdil Nūr al-Dīn b. Zankī.</p>
+          <p>When Muhadhdhab al-Dīn was in Damascus, he began to teach medicine, and many of the
+            best physicians joined him, besides others that studied under him. I, too, stayed in
+            Damascus to learn from him (but I had first worked under him at the military camp where
+            my father and he served the great Sultan). I would visit him as one of a group of
+            students, and I began to study Galen. He was well-versed in the works of this author and
+            others. He admired Galen very much, and whenever someone mentioned anything he had
+            written concerning diseases and their therapy or the fundamentals of the medical
+            science, he would say: "That is medicine."</p>
+
+          <p>He was quick-witted, a clear thinker and a good conversationalist. I accompanied him on
+            his rounds at the hospital, thus gaining personal experience. At that time, his
+            associate was the eminent physician ʿAmrān. Later, their collaboration became less
+            fruitful. <pb n="908" ed="kopf"/>
+          </p>
+          <p>Muhadhdhab al-Dīn was a supremely able medical savant and practitioner, the exponent of
+            the most effective cures known in his day. Hence he eventually gained the reputation of
+            a wizard.</p>
+        </div>
+      </div>
+
+
+
+
+    </body>
+    <back>
+      <div>
+        <head>FOOTNOTES</head>
+
+        <p>These all appeared at the foot of the pages of the manuscripts.  Abbreviations:</p>
+        <p>GAL = Brockelmann, Geschichte der arabischen Litteratur; I2 = vol. 1, 2nd ed.; S I = GAL
+          supplement vol 1; S II = GAL supplement vol. 2.; I.Q. = Ibn al-Qiftī. Tarīkh al-Hukamā'
+          (History of Philosophers).</p>
+
+        <note n="1" xml:id="FN1"> * [GAL I2, 638: S I, 887; not in I. Q.] </note>
+        <note n="2" xml:id="FN2"> [GAL I2; 626; S I, 870; not in I. Q. (übers. Weidemann, Beitr. 28,
+          117/18, Mitt. z.Gesch. d. Med. 313/21).] </note>
+        <note n="3" xml:id="FN3"> * [GAL S I, 423; I. Q. , 438 (differing version). ]</note>
+        <note n="4" xml:id="FN4"> * [GAL I2 638; S I, 886; not in I. Q.]</note>
+        <note n="5" xml:id="FN5"> * [Gal I2, 640; S I, 888; not in I. Q. ] </note>
+        <note n="6" xml:id="FN6"> ** [GAL I2, 666; S I, 920; I. Q. 291.]</note>
+        <note n="7" xml:id="FN7"> * [GAL S I, 824 below; not in I. Q.]</note>
+        <note n="8" xml:id="FN8"> * [GAL I2 643; S I, 892; I.Q. 209.]</note>
+        <note n="9" xml:id="FN9"> * [GAL I2, 644; S I, 893; not in I. Q. ]</note>
+
+        <note n="10" xml:id="FN10"> * [GAL I2, 646; SI, 895; not in I. Q.] </note>
+        <note n="11" xml:id="FN11"> ** [Not in GAL, I. Q. ]</note>
+        <note n="12" xml:id="FN12"> * [The countries of Western Islam.]</note>
+        <note n="13" xml:id="FN13"> * [I.Q.337]</note>
+        <note n="14" xml:id="FN14"> * [I.Q.320.]</note>
+        <note n="15" xml:id="FN15"> * [GAL I2, 154; S I, 228; not in I. Q. ]</note>
+        <note n="16" xml:id="FN16"> * [GAL I2, 272; S I, 422; I. Q. 105.]</note>
+        <note n="17" xml:id="FN17"> * [I. Q. 334]</note>
+        <note n="18" xml:id="FN18"> * [I. Q. 178]</note>
+        <note n="19" xml:id="FN19"> * [I. Q. 438]</note>
+
+        <note n="20" xml:id="FN20"> * [I.Q. 277; GAL S II 375. ]</note>
+      </div>
+    </back>
+  </text>
+</TEI>
