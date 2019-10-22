@@ -2,17 +2,76 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>History of the Physicians</title>
-        <author>Ibn Abī Uṣaybiʿa</author>
+        <title>Choice Accounts of the Types of Physicians</title>
+        <author ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿa</author>
+        <sponsor ref="https://www.uni-muenchen.de">
+          <orgName>Ludwig Maximilian University of Munich</orgName>
+          (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+        </sponsor>
+        <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+          (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+        </sponsor>
+        <funder ref="https://www.bmbf.de/">
+          <orgName>German Federal Ministry of Education and Research</orgName>
+          (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+        </funder>
+        <principal ref="#ngibson">Nathan P. Gibson</principal>
+        <editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+          http://syriaca.org/documentation/editors.html#ngibson 
+          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+          http://orcid.org/0000-0003-0786-8075
+          http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+        <respStmt>
+          <resp>Conversion to TEI and initial correction of name transcription by </resp>
+          <name type="person" ref="https://usaybia.net/editors.xml#ngibson">Nathan P. Gibson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Additional name correction and page number alignment by </resp>
+          <name type="person" ref="https://usaybia.net/editors.xml#vbirkhahn">Vanessa Birkhahn</name>
+        </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="0.1"/>
+        <respStmt>
+          <resp>based upon</resp>
+          <name><ptr target="#sourceDesc1"/></name>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <authority>Usaybia.net</authority>
+        <distributor><placeName>Ludwig Maximilian University of Munich, Institute of Near and Middle Eastern Studies</placeName></distributor>
+        <authority>
+          <orgName ref="https://usaybia.net">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</orgName>
+          (<orgName xml:lang="de"  ref="https://usaybia.net">Wissensgemeinschaften: Interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte</orgName>)
+        </authority>
+        <idno type="URI">https://usaybia.net/text/2</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+            <p>https://creativecommons.org/licenses/by/4.0/</p></licence>
+          <ab><note>This electronic edition is designed for open access reuse. The base
+            text is in the public domain, since the translation was conducted on behalf of 
+            the United States government for the National Library of Medicine. 
+            The TEI XML edition is copyrighted the Wissensgemeinschaften team and is released under a 
+            Creative Commons Attribution 4.0 International
+            Public License (CC BY 4.0).</note></ab>
+          <ab>
+            <!-- Is the HTML copyright notice here accurate? -->
+            <note>The HTML code is copyrighted by Vanderbilt University and released under a
+              under a Creative Commons Attribution 4.0 International Public License (CC-BY
+              4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse
+              should follow the suggested citation and also credit the copyright holder of
+              the TEI XML edition.</note>
+          </ab>
+        </availability>
+        <date calendar="Gregorian">2019-10-22</date>
       </publicationStmt>
-      <sourceDesc>
+      <sourceDesc xml:id="sourceDesc1">
         <biblStruct>
           <monogr>
             <author>Ibn Abi Usaibia</author>
@@ -25,14 +84,6 @@
               <resp when="2011">This text was transcribed by </resp>
               <name type="person" ref="https://www.roger-pearse.com">Roger Pearse (Ipswich,
                 UK)</name>
-            </respStmt>
-            <respStmt>
-              <resp>Conversion to TEI and correction of name transcription by </resp>
-              <name type="person" ref="https://usaybia.net/editors.xml#ngibson">Nathan P. Gibson</name>
-            </respStmt>
-            <respStmt>
-              <resp>Additional name correction and page number alignment</resp>
-              <name type="person" ref="https://usaybia.net/editors.xml#vbirkhahn">Vanessa Birkhahn</name>
             </respStmt>
             <availability>
               <licence>public domain</licence>
