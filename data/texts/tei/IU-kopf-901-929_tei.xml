@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Choice Accounts of the Types of Physicians</title>
+        <author ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿa</author>
+        <sponsor ref="https://www.uni-muenchen.de">
+          <orgName>Ludwig Maximilian University of Munich</orgName>
+          (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+        </sponsor>
+        <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+          (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+        </sponsor>
+        <funder ref="https://www.bmbf.de/">
+          <orgName>German Federal Ministry of Education and Research</orgName>
+          (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+        </funder>
+        <principal ref="#ngibson">Nathan P. Gibson</principal>
+        <editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+          http://syriaca.org/documentation/editors.html#ngibson 
+          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+          http://orcid.org/0000-0003-0786-8075
+          http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+        <respStmt>
+          <resp>Conversion to TEI and initial correction of name transcription by </resp>
+          <name type="person" ref="https://usaybia.net/editors.xml#ngibson">Nathan P. Gibson</name>
+        </respStmt>
+        <respStmt>
+          <resp>Additional name correction and page number alignment by </resp>
+          <name type="person" ref="https://usaybia.net/editors.xml#vbirkhahn">Vanessa Birkhahn</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.1"/>
+        <respStmt>
+          <resp>based upon</resp>
+          <name><ptr target="#sourceDesc1"/></name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor><placeName>Ludwig Maximilian University of Munich, Institute of Near and Middle Eastern Studies</placeName></distributor>
+        <authority>
+          <orgName ref="https://usaybia.net">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</orgName>
+          (<orgName xml:lang="de"  ref="https://usaybia.net">Wissensgemeinschaften: Interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte</orgName>)
+        </authority>
+        <idno type="URI">https://usaybia.net/text/2</idno>
+        <availability>
+          <p/>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+            <p>https://creativecommons.org/licenses/by/4.0/</p></licence>
+          <ab><note>This electronic edition is designed for open access reuse. The base
+            text is in the public domain, since the translation was conducted on behalf of 
+            the United States government for the National Library of Medicine. 
+            The TEI XML edition is copyrighted the Wissensgemeinschaften team and is released under a 
+            Creative Commons Attribution 4.0 International
+            Public License (CC BY 4.0).</note></ab>
+          <ab>
+            <!-- Is the HTML copyright notice here accurate? -->
+            <note>The HTML code is copyrighted by Vanderbilt University and released under a
+              under a Creative Commons Attribution 4.0 International Public License (CC-BY
+              4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse
+              should follow the suggested citation and also credit the copyright holder of
+              the TEI XML edition.</note>
+          </ab>
+        </availability>
+        <date calendar="Gregorian">2019-10-22</date>
+      </publicationStmt>
+      <sourceDesc xml:id="sourceDesc1">
+        <biblStruct>
+          <monogr>
+            <author>Ibn Abi Usaibia</author>
+            <editor role="translator">Lothar Kopf</editor>
+            <editor role="annotator">M. Plessner</editor>
+            <editor role="html-encoder">Roger Pearse</editor>
+            <title>History of physicians</title>
+            <ptr target="http://www.tertullian.org/fathers/ibn_abi_usaibia_03.htm"/>
+            <respStmt>
+              <resp when="2011">This text was transcribed by </resp>
+              <name type="person" ref="https://www.roger-pearse.com">Roger Pearse (Ipswich,
+                UK)</name>
+            </respStmt>
+            <availability>
+              <licence>public domain</licence>
+            </availability>
+            <imprint>
+              <date>1971</date>
+            </imprint>
+            <biblScope unit="page" from="531" to="946">531–946</biblScope>
+            <funder>Translated for the National Library of Medicine, Bethesda, Maryland, under the
+              Special Foreign Currency Program, carried out under a National Science Foundation
+              Contract with the Israel Program for Scientific Translations, Jerusalem,
+              Israel</funder>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="ngibson" when="2019-01-24">CREATED: Pasted HTML into TEI body, created
+        teiHeader</change>
+      <change who="ngibson" when="2019-01-24">replaced
+        '&lt;p>&lt;u>(.+?)&lt;/p>[\n\s\t]*&lt;p> &lt;/p>' with '&lt;div>&lt;u>\1&lt;/div>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;div>&lt;u>(.+?)&lt;/u>' with
+        '&lt;div>&lt;head>\1&lt;/head>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;head>(.+?)&lt;/head>' with
+        '&lt;head>&lt;persName>\1&lt;/persName>&lt;/head>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;/div>' with '&lt;/p>&lt;/div>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;a name="p(\d+)">.+?&lt;/a>' with '&lt;pb
+        n="\1" ed="kopf"/>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;p>&lt;a
+        name="(\d+)".+?(FN\d+).+?&lt;/b>\s*(.+?)&lt;/p>' with '&lt;note n="\1"
+        xml:id="\2">\3&lt;/note>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;a name="(FN\d+)"/>&lt;a
+        href="#\d+">&lt;sup>(\d+)&lt;/sup>&lt;/a>' with '&lt;ref target="#\1"
+        type="noteAnchor">\2&lt;/ref>'</change>
+      <change who="ngibson" when="2019-01-24">replaced '&lt;blockquote>[\s\n\t]*&lt;p>(.+?)&lt;br/>'
+        with '&lt;blockquote>&lt;p>&lt;l>\1&lt;/l>'</change>
+      <change who="ngibson" when="2019-01-25">added various missing end tags (esp. div before
+        hr)</change>
+      <change who="ngibson" when="2019-01-25">removed font and hr HTML tags</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;/l>(.+?)&lt;/p> with
+        &lt;/l>&lt;l>\1&lt;/l>&lt;/p> in xpath //p</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;br/> with &lt;/l>&lt;l> in xpath
+        //l</change>
+      <change who="ngibson" when="2019-01-25">replaced
+        (&lt;blockquote>[\s\n\t]*)+(.+?)([\s\n\t]*&lt;/blockquote>)+ with
+        &lt;quote>\2&lt;/quote></change>
+      <change who="ngibson" when="2019-01-25">formatted manuscript volume 4 title page</change>
+      <change who="ngibson" when="2019-01-25">replaced &lt;sup>(.+?)&lt;/sup> with \1</change>
+      <change who="ngibson" when="2019-01-29">formatted footnote section (back/div) and
+        respStmt</change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;p>(\d+)\)(.+?)&lt;/p> with &lt;item
+        n="\1">\2&lt;/item></change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;item(.+)&lt;/item> with
+        &lt;list>&lt;item\1&lt;/item> in xpath //item[preceding-sibling::p][1]</change>
+      <change who="ngibson" when="2019-01-29">replaced &lt;/item>([\s\t\n]*)&lt;p> with
+        &lt;/item>&lt;/list>\1&lt;p> (required additional correction)</change>
+      <change who="ngibson" when="2019-02-01">used find/replace to correct transcription of common
+        names: Muḥammad, al-Ḥasan, Ḥusayn, Aḥmad, ʿAlī, Masīḥī, Isḥāq, Isḥaq, Raḥīm, Raḥmān, Raḥman,
+        Ismāʿīl, Yaḥyā, Yuḥannā, Yūḥannā</change>
+      <change who="ngibson" when="2019-02-01">corrected transcription by replacing (\W)ibn(\W) with
+        \1b.\2</change>
+      <change who="ngibson" when="2019-02-01">corrected transcription by replacing` with ʿ</change>
+      <change who="vbirkhahn" when="2019-10-09">corrected transcriptions and added Mueller page numbers (2.239-274)</change>
+      <change who="ngibson" when="2019-10-14">edited transcriptions and Mueller page numbers (2.239-274)</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en" style="direction: ltr">
+    <body>
+      <div n="15" type="chapter">
+        <head>CHAPTER XV: On the Classes of Famous Syrian Physicians</head>
+        <div>
+          <head><persName>Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī</persName></head>
+          <p> was our Shaykh, the chief of ministers, the learned and worthy Muhadhdhab al-Dīn ʿAbd
+            al-Raḥīm b. ʿAlī b. Ḥāmid, known as al-Dakhwār. He was — may Allāh have mercy upon him —
+            unique among his generation, peerless in his time, the most learned scholar of his
+            epoch, the apogee of medical skill and knowledge, both general and specialized. No one
+            matched him in diligence or learning. He tired himself out with work, straining his mind
+            in order to gain knowledge, until he surpassed all contemporary physicians and won more
+            remuneration and honor from kings than any doctor had ever before. He was born in
+            Damascus and brought up there by his father, ʿAlī b. Ḥāmid, a famous oculist, whose
+            other <pb n="902" ed="kopf"/> son, Ḥāmid b. ʿAlī, took up the same profession. At first,
+            Muhadhdhab al-Dīn was also an oculist, but at the same time he worked as a copyist. His
+            calligraphy was outstanding. He transcribed many books, of which I have seen a hundred
+            or more, dealing with medicine and other sciences. He worked for the al-Shaykh Tāj al-Dīn
+            al-Kindī Abū al-Yaman, but constantly endeavored to increase his knowledge by reading
+            and memorizing — a habit he kept up until old age.</p>
+          <p>At the beginning of his medical career, he was introduced to al-Makī's teachings by
+            the Shaīkh Radī al-Dīn al-Rahbī — may Allāh have mercy upon him — and then became a
+            close associate of Mūwafaq al-Dīn b. al-Mutrān, for whom he worked and from whom he
+            learnt the art of medicine. He continued to seek out his company and study his books
+            until he became expert. Afterwards Fakhr al-Dīn al-Mardīnī, who came to Damascus in the
+            year 579/1189, instructed him to part of Ibn Sīnā's ʿQānūn," which Fakhr al-Dīn knew and
+            comprehended thoroughly.</p>
+          <p>Muhadhdhab al-Dīn worked as a physician to al-Malik al-ʿAdil Abū Bakr b. Ayyūb. This
+            was because at the beginning of his career he was interested in eye diseases and wished
+            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" n="2.240"/>the Great Hospital
+            established by al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zankī. Later, when he worked with
+            al-Mutrān and had become noted for his medical skill, Safī al-Dīn b. Shakr, the vizier
+            of al-Malik al-ʿAdil b. Ayyūb, granted him an allowance, by means of which he was able to
+            practice work and at the same time increase his knowledge and proficiency. </p>
+
+          <p> He was tireless in the service of the vizier, and the latter, knowing Muhadhadhab's
+            professional merits, preferred him to all others. In the month of Shawwal, 604/1207,
+            al-Malik al-ʿĀdil said to Ibn Shakr: "We want another doctor besides Muwaffaq al-Dīn
+            ʿAbd al-ʿAzīz for attending the troops. This work is not congenial to <pb n="903"
+              ed="kopf"/> ʿAbd al-ʿAzīz, so do as he requests." Said b. Shakr: "We have here an
+            excellent physician, named Muhadhdhab al-Dakhwār, who is fit for our master's service."
+            Then he ordered him to comply. When Muhadhdhab al-Dīn appeared before the vizier, the
+            latter said to him: "I have recommended you to the Sultan, and you are paid a month for
+            your services." But Muhadhdhab al-Dīn said: "My lord: The Doctor Muwaffaq al-Dīn ʿAbd
+            al-ʿAzīz earns about a hundred dinars monthly.</p>
+
+          <p>I know my status, and I will not serve without a decent wage. Then he took leave of the
+            vizier and refused the post. But his companions made him regret his refusal, his lost
+            chance to be engaged by the vizier. For his salary at the hospital was very low.</p>
+          <p>About that time, Muwaffaq ʿAbd al-ʿAzīz was stricken with severe colitis, which grew
+            worse and eventually caused his death. When the news of his passing reached al-Malik
+            al-ʿAdil, the latter said to the vizier: "You once recommended to us a doctor by the
+            name of Muhadhdhab. Appoint him in place of Muwaffad ʿAbd al-ʿAziz. "So Muhadhdhab got
+            all his posts, and he remained in the service of al-Malik al-ʿĀdil from then on. He rose
+            steadily in al-Malik al-ʿĀdil's esteem, and his status was enhanced, until he became his
+            companion, associate and adviser. At the beginning of his service, al-Malik put his
+            knowledge to some unusual tests, and the results strengthened his opinion of him and his
+            reliance upon him.</p>
+          <p>About that time, al-Malik al-ʿĀdil fell ill. He was attended by the best doctors.
+            Muhadhdhab advised bloodletting but the other physicians present did not agree. He said:
+            "By Allāh! If we let blood from him, he will bleed without our being able to staunch
+            it." But they were still obstinate. Very soon the Sultan began to bleed heavily. When he
+            was well again, he realized that Muhadhdhab outshone all the others. <pb n="904"
+              ed="kopf"/>
+          </p>
+          <p>Another story has it that one day, when he was standing at the palace gate with some
+            court physicians, a servant came out with a vial containing the urine of one of the
+            concubines and reported that she was in pain. When the doctors had inspected the vial,
+            they ventured a diagnosis. But Muhadhdhab examined it closely and said: "The pain she
+            complains of does not cause this color," suspecting it to be induced by Lawsonia with
+            which she had anointed herself. The servant told him that his finding was correct,
+            marvelled at him and reported the incident to al-Malik al-ʿĀdil; this increased the
+            latter's confidence in Muhadhdhab.</p>
+          <p>One of the best anecdotes about Shaykh Muhadhdhab al-Dīn, and one that illustrates his
+            savoir-faire and loyalty, is the following which was told my by my father. Once,
+            al-Malik al-ʿĀdil was very angry with the chief judge, Muhyī al-Dīn b. Zakī al-Dīn, of
+            Damascus. He ordered him to be detained in the fortress, demanded from him the sum of
+            10,000 Egyptian dinars and pressed for payment. Muhyī al-Dīn was to remain in prison
+            until the amount was settled. He paid some of the money, but was unable to raise the
+            balance. Al-Malik al-ʿĀdil was inexorable, saying: "He must pay the rest, otherwise I
+            shall deal very harshly with him." The judge was in dire straits. He sold all his
+            possessions — his household effects, and <pb ed="mueller-1884" n="2.241"/> even his books. Then he wrote letters to the
+            Sultan, using the good offices of many leading personalities, such as al-Shamīs, the
+            court teacher, and Shams al-Khawās the vizier, asking for the remission of part of the
+            amount or to be allowed to pay in installments. But the Sultan remained adamant, and as
+            a result, the judge was so worried that he hardly ate or slept and thus almost killed
+            himself. At this point, his old friend Muhadhdhab al-Dīn paid him a visit. The judge
+            told Muhadhdhab al-Dīn his troubles, begging him to do what he could. After some
+            consideration, al-Muhadhdhab said: "I shall do something for you. I hope that, God
+            willing, it will be of use." Then he departed. <pb n="905" ed="kopf"/>
+          </p>
+          <p>Serīat al-Malik al-ʿAdil, the mother of al-Malīk al-Sālih b. al-Malīk, was unwell at
+            that time. She was of Turkish origin, an intelligent, pious and good woman, very kind
+            and generous. When the Doctor Muhadhdhab al-Dīn came to see her in the harem, he
+            acquainted her with the case of the judge, his troubles and the unjust treatment meted
+            out to him — i.e., that he was being asked to do the impossible — and requested that she
+            intervene: perhaps the Sultan could show mercy to him and remit part of the debt or let
+            him pay it in installments. The chief eunuch supported Muhadhdhab request. But Seriat
+            said: "How can I do anything for the judge, or even mention him to the Sultan? I cannot,
+            because he will ask: 'What makes you speak about the judge, and how is it that you know
+            him?' If we were, say, a doctor who visits us from time to time, or a merchant who sells
+            us cloth, it would be possible for me to talk and intervene; but as it is, I can do
+            nothing." When Muhadhdhab heard this, he said: "My lady! You have an only son, whom you
+            wish happiness and a long life. Now, you can obtain this for him from Allāh by doing
+            something without actually intervening with the Sultan at all." Said she: "And what is
+            that?" Said he: "When the Sultan and you sleep together, tell him you have dreamt that
+            the judge is being treated unjustly"; and he told her what to say. She thereupon said,
+            "It can be done."</p>
+          <p>One night, when she was well again and the Sultan was sleeping with her, as the night
+            was ending, she pretended to be frightened, clutched at her heart and kept shivering and
+            crying. The Sultan, who loved her dearly, noticed it and said: "What is the matter with
+            you?" But she did not reply. He then ordered some apple juice to be brought and had her
+            drink some, sprinkled her face with rose water and said: "Will you not tell me what has
+            happened to you, why you are so upset?" She said: "O Master, I have had a dream which
+            almost frightened to death. I dreamt that it was Doomsday and saw a large crowd of <pb
+              n="906" ed="kopf"/> people. In one place, where there was a great fire, people were
+            saying: "This had been prepared for al-Malīk al-ʿĀdil because of the injustice he did to
+            the judge." Then she said: "Have you ever done anything to the judge?" And he, who did
+            not doubt her story, became troubled, rose early, called his servants and said to them:
+            "Go to the judge and make him happy: give him my regards, ask him to forgive me and tell
+            him that all he has paid will be returned to him. As for me, I will ask nothing of him."
+            So they went to him. The judge was very pleased with their announcement, blessed the
+            Sultan and forgave him. In the same morning the Sultan ordered that he be given a suit
+            of clothes and a mule. He restored him to his office and ordered that all the books and
+            other possessions he had sold be redeemed from the purchasers for the same amount as
+            they had paid. Thus relief was brought to the judge after anguish, by minimum effort and
+            the subtlest of tactics.</p>
+          <p>In the year 610/1213, when he was in the east, al-Malīk al-ʿĀdil became very ill, and
+            Muhadhdhab al-Dīn treated him until he was cured. During that illness, the king paid the
+            physician 7,000 Egyptian dinars. In addition, the king's children, some eastern kings
+            and others sent him gold, suits of clothes, mule carts, gold neckbands and other
+            items.</p>
+          <p>A similar event occurred in the year <pb ed="mueller-1884" n="2.242"/>612/1215, when al-Malīk al-Ādil went to Egypt and
+            stayed in Cairo. At that time, a dreadful cholera epidemic killed many people. Among
+            those stricken was al-Malīk al-Kāmil b. al-Maīlk al-ʿĀdil, who was the Governor of
+            Egypt. Muhadhdhab al-Dīn treated him most solicitously until he became well again. This
+            time, Muhadhdhab al-Dīn received 12,000 dinars' worth of gold, besides many suits of
+            clothes and other splendid gifts, including fourteen mules carrying golden rings and a
+            great deal of satin and other kinds of cloth. <pb n="907" ed="kopf"/>
+          </p>
+          <p>About that time, the Sultan appointed Muhadhdhab al-Dīn chief physician of Egypt and
+            Syria. I was then with my father, who was also in the service of al-Malīk al-ʿĀdil.
+            Muhadhdhab al-Dīn was in charge of ophthalmological matters; it was he who decided who
+            was qualified to treat eye diseases.</p>
+          <p>In the year 614/1217, having learnt of Christian maneuvers near the coast, al-Malik
+            al-ʿĀdil went to Syria and stayed at Marj al-Sughr. While he was in a place called
+            Manzilat al-Ālekīn, he fell ill and died, may Allāh have mercy upon him. He died in the
+            second hour of Friday, the 7th day of Jumādā al-Ākhira, in the year 615/1218.</p>
+          <p>When al-Malik al-Muʿazam had established his rule over Syria, he wished to employ
+            several of those who had served his father, al-Malik al-ʿĀdil, among them the physician
+            Rashīd al-Dīn b. al-Surī, who refused. As for Muhadhdhab al-Dīn, he gave him a salary
+            and ordered him to live in Damascus, where he was to treat patients at the Great
+            Hospital established by al-Malik al-ʿAdil Nūr al-Dīn b. Zankī.</p>
+          <p>When Muhadhdhab al-Dīn was in Damascus, he began to teach medicine, and many of the
+            best physicians joined him, besides others that studied under him. I, too, stayed in
+            Damascus to learn from him (but I had first worked under him at the military camp where
+            my father and he served the great Sultan). I would visit him as one of a group of
+            students, and I began to study Galen. He was well-versed in the works of this author and
+            others. He admired Galen very much, and whenever someone mentioned anything he had
+            written concerning diseases and their therapy or the fundamentals of the medical
+            science, he would say: "That is medicine."</p>
+
+          <p>He was quick-witted, a clear thinker and a good conversationalist. I accompanied him on
+            his rounds at the hospital, thus gaining personal experience. At that time, his
+            associate was the eminent physician ʿAmrān. Later, their collaboration became less
+            fruitful. <pb n="908" ed="kopf"/>
+          </p>
+          <p>Muhadhdhab al-Dīn was a supremely able medical savant and practitioner, the exponent of
+            the most effective cures known in his day. Hence he eventually gained the reputation of
+            a wizard.</p>
+          <pb ed="mueller-1884" n="2.243"/>
+          <pb ed="mueller-1884" n="2.244"/>
+          <pb ed="mueller-1884" n="2.245"/>
+          <pb ed="mueller-1884" n="2.246"/>
+        </div>
+        <div>
+          <head><persName>My uncle, Rashid al-Dīn ʿĀlī b. Khalīfa.</persName></head>
+          <p> Abū al-Ḥasan ʿAlī b. Khalīfa b. Yūnus b. Abī al-Qāsin b. Khalīfa, from [the tribe of]
+            Kazraj, the offspring of Saīd b. ʿIbāda, was born in Aleppo in 579/1183. My father was
+            born before him, in 575/1179, in Cairo the unconquerable. They both grew up in that
+            city, where they also practiced. My gradfather, may he be blessed, was an ambitious man
+            who greatly admired virtue and scholarship and was well-versed in the different
+            sciences. He was known as Ibn Abī Usaybiʿa. He used to be in the service of al-Malik
+            al-Nāsir Salah Al-Din Yūsuf b. Ayyūb and his children, and moved to Egypt when that ruler
+            conquered the land. Among my grandfather's Damascene acquaintances and friends were
+            Jamāl al-Dīn b. al-Hawāfir the physician and Shihāb al-Dīn Abu al-Hajjāj Yūsuf the
+            oculist, for my grandfather was born and raised in Damascus, where he also spent many
+            years of his life. By the time he met the two aforesaid gentlement in Egypt, my
+            grandfather was already raising my father and uncle. He intended to teach them both
+            medicine <pb ed="mueller-1884" n="2.247"/>, in consideration of the nobleness of this profession and the demand for
+            physicians, knowing that he who mastered its principles would be honored and favored in
+            this world and attain the highest rank in the hereafter. </p>
+          <p>So he attached my father and uncle to these two Shaykhs, in order that they might reap
+            from their knowledge. My father was entrusted to Abū al-Hajjaj Yūsuf, in order to study
+            ophthalmology and learn its practice. Abū al-Hajjāj was then serving as an oculist in a
+            hospital in Cairo, not the one situated in the fort, but one located in the market
+            district of lower Cairo. My grandfather used to live just by it, so it was easy for my
+            father to frequent Aba al-Hajjāj Yūsuf constantly and <pb n="909" ed="kopf"/> study from
+            him until he mastered his field. He also studied with other notable master-physicians
+            who lived at that time in Egypt, such as the master Mūsā al-Qurtabī, the author of
+            famous works, and others like him. As for my uncle, he was attached to Jamāl al-Dīn b.
+            Abī al-Hawāfir and studied general medicine under him.</p>
+          <p>My uncle first started his studies with Taqī the Teacher. His full name was Abū al-Taqī
+            Sālih b. Aḥmad b. Ibrāhīm b. al-Ḥasan b. Sulaymān from the tribe of Quraish, the
+            Jerusalemite. This Taqī was adept in many sciences, had a fine way of teaching in school
+            and a celebrated system which no one else could follow. After my uncle, may he be
+            blessed, had learned the Qu'rān by heart and perfected his mathematics, all under Taqī,
+            he started to study medicine thoroughly under the direction of Jamāl al-Dīn b. Abī
+            al-Hawāfir, who was then chief physician of Egypt, under the rule of al-Malik al-ʿAzīz
+            ʿOthmān, the son of al-Malik al-Nāsir Salāh al-Dīn. He studied with him parts of Galen's
+            Sixteen Books, memorizing the whole of the first ones in the shortest time possible. He
+            then joined the physicians in their consultations and their rounds of the patients in
+            the hospital, learning the different maladies</p>
+
+          <p>and the appropriate prescriptions. (There was a group of very notable physicians at the
+            hospital.) At the same time he studied ophthalmology with the judge Nafīs al-Dīn b.
+            al-Zubair, who was then head of the department in the hospital, and started to practice
+            it. He also joined him in initiating a surgical department.</p>
+          <p>The Shaykh Muwaffaq al-Dīn ʿAbd al-Latīf b. Yūsuf the Baghdadian, an intimate friend of
+            my grandfather's was staying in Cairo at the time. My uncle studied a little Arabic and
+            philosophy with him and they used to discuss Aristotle's books, debating the difficult
+            points. My uncle also used to meet and study with Sadīd al-Dīn the Logician, who was a
+            great scholar in the philosophical sciences. Before that, he had studied astronomy under
+            Abī Muḥammad b. al-Jaʿdī, an expert <pb n="910" ed="kopf"/> astronomer who was
+            celebrated for his judgments. This shaykh lived at the time of the Egyptian caliphs and
+            was considered a favorite of theirs; his father was one of the chief emirs of their
+            state.</p>
+          <p>The art of music my uncle studied under the guidance of Ibn al-Dīgūr the Egyptian and
+            Safī al-Dīn Abī ʿAlī b. al-Tabbān. He also knew the elite in this field, such as
+            al-Bahā; the great composer, Shihāb al-Dīn al-Naqjūnī, Shujāʿ al-Dīn b. al-Ḥasan the
+            Baghdadian and their equals, from which he learnt many Arabic and other melodies. From
+            his youth, my uncle devoted all his leisure to study, work and the betterment of his
+            soul.</p>
+          <p>My grandfather moved back to Syria in 597/1200, when my uncle was about twenty years
+            old. He immediately took up practicing medicine and improving his knowledge of it.
+            Shaykh Radīʿ al-Dīn Yūsuf b. Haīdara from Rahba, an old friend of my grandfather's, was
+            then staying in Damascus. <pb ed="mueller-1884" n="2.248"/>When he heard of my uncle, saw him at work and realized his virtues, he was happily surprised. My uncle constantly visited his court, studied and
+            discussed medical matters with him. He worked in the hospital built by al-Malik al-ʿAdil Nūr al-Dīn b. Zankī, together with other physicians who were there at the time, such as
+            Muwaffaq al-Dīn b. al-Saraf and Shaykh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī. Meanwhile he also studied philosophy under Shaykh Muwaffaq al-Dīn Abd al-Latīf b. Yūsuf
+            the Baghdadian, for he too had returned to Syria. There was in Damascus a group of men celebrated for their literary achievements and knowledge of Arabic, such as Zaīn al-Dīn
+            b. Muʿtī, with whom my uncle studied and practiced, and Tāj al-Dīn Zaid b. al-Ḥasan al-Kindī Abī al-Yaman, who was an old and intimate friend of my grandfather's since the
+            days of ʿIz al-Dīn Farukhshāh. My uncle studied with him too and practiced his Arabic. <pb n="911" ed="kopf"/></p>
+          <p>Before my uncle was twenty-five years old, he had already mastered all these sciences,
+            becoming an exemplary shaykh in medicine and having his own disciples. He was also
+            writing poems and responsa, spoke Persian, knowing all its rules and even composing
+            poetry in it, and knew Turkish as well. On Friday the 15th of Ramadān, 605/1208, the
+            Sultan al-Malik al-Muʿazzam ʿĪsā b. al-Malik al-ʿĀdil Abū Bakr b. Āyyūb called for him.
+            Having conversed with him, he honored and favored him and asked him to stay in his
+            service, but difficulties arose because of the Sultan's frequent travels. Some time
+            later, al-Malik al-Amjad Majd al-Dīn Bahrām Shah b. ʿIzz al-Dīn Farūkhshāh b. Shāhinshāh
+            b. ʿAyyūb, the governor of Baʿalbekk, heard of him and sent for him and my grandfather,
+            whom he had known since his father's time. When they both arrived, he welcomed them,
+            treated them most generously and allotted them a good salary, expenses and a high rank.
+            In consequence, my uncle's position with him became so favorable that he hardly left him
+            at all. The governor then became aware of my uncle's mastery of arithmetic and asked him
+            to be his teacher in this field. In obedience to this order, my uncle instructed the
+            governor thoroughly in this science and even compiled for his use a textbook comprising
+            four treatises. Al-Malik al- 'Amjad himself, may Allāh bless him, was a virtuous man who
+            showed keen respect to the learned; he wrote fine poetry, including a famous
+            authology.</p>
+          <p>In the year 609/1212, a dear servant of the Sultan al-Malik al-ʿĀdil Abū Bakr b. Ayyūb,
+            called Sulaita, became afflicted with an eye disease. His condition was so bad that his
+            sight was diminished and his case considered hopeless. All the best physicians and
+            oculists tried to treat him, but none could cure him; so they decided unanimously that
+            he would be blind, as no treatment had any effect whatsoever. When my father saw this
+            man and examined his eyes, he said; "I will treat this man's eyes and he will see with
+            both of them, if God so wishes." He started to treat him, and his condition steadily
+            improved, until his recovery was complete. He returned <pb n="912" ed="kopf"/> to his
+            former self and was able to ride a horse again, so that everyone was astonished and
+            regarded the cure as an unrivaled miracle. In consequence, al-Malik al- Ādil's
+            generosity and consideration toward my father increased greatly, and he paid him the
+            utmost honor by presenting him with precious robes, etc.</p>
+          <p>Even before this event, my father quite frequently, used to visit the Sultan's palace
+            in the fort of Damascus, treating those who were afflicted with serious eye diseases and
+            curing them in the shortest time conceivable. This also came to the knowledge of
+            al-Malik al-ʿĀdil, who said; "Such a man should accompany me wherever I go!" and asked
+            him to join his service. My father requested to be excused and given permission to stay
+            in Damascus, but this was not granted. The Sultan granted him a salary and expenses, and
+            my father enrolled in his service on the 15th of Dhū al-Hijja 609/1212. He was a
+            favorite of his and of all his sons and successors, who relied upon him in all medical
+            matters and <pb ed="mueller-1884" n="2.249"/>treated him with great generosity and perfect deference. He remained in
+            service until the death of al-Malik al-ʿĀdil, may he be blessed, when he was asked to
+            continue in his post by the son and successor in Damascus, al-Malik al-Muʿazam. The
+            latter treated him with the same honor and esteem, or even more, as his father had done.
+            My father served him from the beginning of Safar 616/1219 until he died, may Allāh have
+            mercy upon him, and then was asked by his son, al-Malik al-Nāsir Da'ūd, to stay in his
+            service too, promising him all the rights he had enjoyed formerly. My father remained
+            until al-Malik al-Nāsir had to leave for Karak, at which point my father chose to stay
+            in Damascus.</p>
+          <p>He started frequenting the Sultan's palace in the fort, attending all the descendants
+            of al-Malik al-ʿĀdil who succeeded him in Damascus and others as well. All revered him
+            highly, relied upon him in all medical matters and allotted him a generous salary and
+            expenses. He also used to frequent the Great Hospital named after <pb n="913" ed="kopf"
+            /> Nur al-Dīn, where he was also remunerated. People used to come to him from every
+            quarter, having heard of his rapid cures. The many maladies which were wont to be cured
+            by the iron he treated thus to perfection. For other diseases habitually treated by
+            drugs he indeed applied drugs, saving the afflicted from the use of the iron. This
+            method was praised by Galen in his book "The Test of the Virtuous Physician," saying:
+            "Whenever you see a physician administering drugs in the case of maladies which are
+            usually treated with the iron, know that he is learned, experienced and skilled." He
+            adds: "You should also praise the physician whom you see using drugs exclusively against
+            those eye diseases for which others usually employ the scalpel, i.e., cataract, scabies,
+            cold, water, opacity, growth, stye, excess or loss of flesh in the interior angle of the
+            eye; you should also praise the physician whom you see promptly extract from the eye a
+            collection of matter, by lowering the layer called "the grape-like" back to its place
+            after it has become very swollen, until it is healed again, or perform any other
+            ophthalmological operation which is similar to the above, without having recourse to the
+            iron." So much for Galen's remarks.</p>
+          <p>I have indeed witnessed many such cases in my father's treatments and also many eye
+            diseases which were considered hopeless but which he succeeded in curing. This was
+            celebrated in a poem written by one of his grateful patients, namely Shams al-Ārab,
+            i.e., Abū Muḥammad Abd al-Aziz b. al-Nafīs b. Hibat Allāh b. Wahbān al-Silamī, the
+            Baghdadian:</p>
+          <quote><p><l>Sadīd al-Dīn has such a power in medicine, that he always saves the eyes from
+                mote; </l><l> How often has he banished darkness and guarded the sight from all
+                harm;</l><l> An oculist cannot treat mankind unless he is as skillful as this;
+                </l><l> O savior of our generation! How many are those to whom you have given sight
+                after being blind; <pb n="914" ed="kopf"/>
+              </l><l> Your science is the cure to every malady, your words the balm of every
+                spirit;</l><l> My gratitude is so great, I wish I could express the least of my
+                thanks, O beloved!</l></p></quote>
+          <p>My father remained in service in the fort of Damascus and frequented the al-Nurī
+            Hospital until he died, may he be blessed, during the night of Thursday, the 22nd of
+            Rabīʿ II, 649/1251. He was buried outside the Gate of Paradise, on the way to Mount
+            Qāsiyūn. He died during the reign of al-Malik al-Nāsir Yūsuf b. Muḥammad, the ruler of
+            Damascus. As for my uncle, he was staying with al-Malik al-Amjad in Baʿlbek when
+            al-Malik al-Muʿazam came there to help him fight his adversaries. When they met
+            together, my uncle would keep them company. Now during those days, there was nobody who
+            <pb ed="mueller-1884" n="2.250"/>knew music and the art of the lute better than him, neither was there anyone with a
+            sweeter voice, so that he touched the souls of his listeners in the same fashion as Abū
+            Nasr al-Fārābī, according to what was said. Al-Malik al-Muʿazam was greatly impressed
+            by him and engaged him in his service, which post he took up on the 1st of Jumiādā I,
+            610/1213, receiving a fine salary and expenses.</p>
+          <p>Al-Malik al-Muʿazzam showered on my uncle constant favors and presents; he hardly left
+            him and relied on him for anything medical. The same can be said for al-Malik al-Kāmil
+            Muḥammad and al-Malik al-Ashraf, who both had absolute confidence in him. Whenever one
+            of them came to visit his brother al -Malik al-Muʿazam, my uncle would keep them
+            constant company and obtain many presents from both rulers. I know of one occasion, when
+            al-Malik al-Kāmil came to visit his brother al-Malik al-Muʿazam; they were sitting in
+            audience in the company of my uncle; that same night, al-Malik al-Kāmil gave my uncle a
+            splendid robe of honor and five hundred Egyptian dinars. <pb n="915" ed="kopf"/>
+          </p>
+          <p>When al-Malik al-Muʿazam was in Damascus, he appointed my uncle military scribe,
+            insisting on his acceptance of the post. My uncle could do nothing but obey this order,
+            sat on the Divan and received the privates and officers. After a while in his
+            secretarial post, he realized that all his time was spent in correspondence and
+            calculations, with no leisure left for himself to devote to intellectual and other
+            pursuits. He thus asked the Sultan to be released, using the mediation of several of his
+            intimates, until he was finally granted his request.</p>
+          <p>In the year 611/1214 al-Malik al-Muʿazam made the pilgrimage [to Mecca] and my uncle
+            went with him. He stayed in his service until the expedition of ʿAmta, in the middle of
+            Shaban, 614/1217. The Franks having advanced, the great Sultan al-Malik al-ʿĀdil and his
+            son al-Malik al-Muʿazam fell into disagreement as to the route which should be
+            followed. My uncle joined the company of al-Malik al-ʿĀdil, who went in the direction of
+            Damascus, while al-Malik al-Muʿazam turned toward Nablus. Later, my uncle left Damascus
+            In the company of al-Malik al-Nāsir Dā'ūd b. al-Malik al-Muʿazam, but arriving at
+            ʿIglun, he [al-Malik al-Muʿazam] ordered his son to come back, and they all returned to
+            Damascus. My uncle then fell ill; his affliction continued for the rest of the year, and
+            he found that traveling was injurious to him; in fact, by nature he was inclined to
+            solitude and the peaceful study of books.</p>
+          <p>On the 5th of Muharram, 615/1218 he was summoned by al-Malik al-ʿĀdil Abū Bakr b.
+            Ayyūb, who had heard of his achievements and perfect conduct. He assigned him the post
+            of chief physician in the two hospitals of Damascus built by al-Malik al-ʿĀdil Nūr
+            al-Dīn Mahmud b. Zenkī. From then on, he used to frequent these two hospitals and the
+            fort, enjoying a salary and expenses. He was also paid as the personal physician of Sitt
+            al-Sā'am, the sister of al-Malik al-ʿAdil, whom he would attend at her palace. <pb
+              n="916" ed="kopf"/>
+          </p>
+          <p>Having settled in Damascus, he established a public school where he could teach
+            medicine. He had many disciples, all of them later to be distinguished members of the
+            profession. At that time he used to meet with ʿAlam al-Dīn Qaisar b. Abū al-Qāsim b.
+            ʿAbd al-Gānī, who was unique in his generation for his knowledge of the mathematical
+            sciences. My uncle studied astronomy under him and became an expert in no time. One day,
+            when ʿAlam al-Dīn was at my uncle's house teaching him some astronomical figures, he
+            said to him in my presence: "O, Rashīd al-Dīn, by Allāh, what you have learnt in about
+            one month would take others five years of effort to master."</p>
+          <p>While in Damascus, my uncle also used to frequent the illustrious and learned Imām, the
+            Shaykh of shaykhs, Sadr al-Din b. Hamawaihi. This person initiated him to Sufism on the
+            20th of Ramadān, 615/1218. The following is the text of the inscription attached to his
+            sufi garment, in which he was clad on that day: "In the name of Allāh the Merciful and
+            Compassionate; the illustrious Mollah, noble and learned Imām, Shaykh of shaykhs, Sadr
+            al-Dīn, the living proof of Islam and standard of monotheism, Abū al-Ḥasan Muḥammad, the
+            son of the illustrious Imam and noble scholar, Shaykh of shaykhs Imad al-Dīn Abū Hafs
+            ʿUmar b. Abū al-Ḥasan b. Muḥammad b. Hamawaih, may God maintain his support forever,
+            herewith endows kindly <pb ed="mueller-1884" n="2.251"/> his devotee ʿAlī b. Khalīfa b. Yūnus from the tribe of Chazrag the
+            Damascene, may Allāh make him succeed in his devotions, with the Sufi garment."</p>
+          <p>While dressing him in it, the shaykh told my uncle that he had received that robe from
+            his above-mentioned father, may he be blessed, and that his father had gotten it from
+            his father, the shaykh of Islam Muʿīn al-Dīn Abū ʿAbd Allāh Muḥammad b. Hamawaih, may
+            Allāh bless him. He was given it by the prophet Elijah, may he rest in peace, who in
+            turn received it from the Apostle of God himself, may Allāh bless him and give him
+            peace. The shaykh added that his grandfather was connected to the Prophet also by
+            shaykh of his generation <pb n="917" ed="kopf"/> Abū al-Qāsim al-Karakānī, the master
+            and Imām Abū ʿUthmān al-Maġribi; the shaykh of the community ʿAbd ʿAmru al-Zajājī; the
+            another chain of celebrated sufīs, that is: Shaykh Abū ʿAlī al-Farandi al-Tūsī, the
+            chief ofthe congregation al-Jūnaīd b. Muḥammad; his maternal uncle Sarī al-Saqatī;
+            Maʿrūf al-Karhī. ʿAlī b. Mūsā al-Rida, may he be blessed (this Maʿrūf accompanied ʿAlī b.
+            Mūsā, served him and was instructed by him); Mūsā b. Jaʿfar al-Kāzim; Jaʿfar b. Muḥammad
+            al-Sadīq; Muḥammad b. ʿAlī al-Bāqir; ʿAlī b. al-Husain Zain al-ʿĀbidīn; al-Husain b.
+            ʿAlī; ʿAlī al-Bāqir; ʿAlī b. al-Ḥusayn Zain al-ʿĀbidīn; al-Ḥusayn b. ʿAlī(W) al-Bāqir:
+            ʿAlī Talib, may he be blessed; ʿAlī, may Allāh honor his countenance, was directly
+            connected with the master of the apostles and Imām of the pious believers, our prophet
+            Muḥammad, may the best prayers and and wishes rest upon him. According to yet another
+            version, the tradition goes from Maʿrūf through Da'ūd al-Tā'i, Habīb al-ʿAgamī, Hasan
+            al-Basrī the leader of the followers, to ʿAlī, may he be blessed, and then to the
+            Prophet, may Allāh bless him and give him peace.</p>
+          <p>The endowment of my uncle with such a robe brought upon him all of God's incumbent
+            blessings, as it did upon all those who had been honored by it. This event took place on
+            the 20th of Ramadān, 615/ 1218 in Damascus the well-protected. The robe was thrown on
+            the aforesaid, may Allāh lead him to success, accompanied by the above-quoted lines,
+            written by the hand of the Mollah Sadr al-Dīn, the Shaykh of shaykhs, Ibn Hamawaih Abū
+            al-Ḥasan b. ʿUmar b. Abū al-Ḥasan b. Muḥammad, who wrote them during the month of
+            Ramadān, 615/ 1218, praising God and praying for his apostle, asking pardon for his
+            sins.</p>
+          <p>In the year 616/1219 my uncle received a message from al-Malik al-Sālih ʿIsmāʿīl b.
+            al-Malik al-ʿĀdil, in his own handwriting, asking him to come to the town of Bosrā and
+            treat his mother and other sick persons who were staying with him; afterward he could
+            return to Damascus. Indeed a great epidemic was raging in Bosrā <pb n="918" ed="kopf"/>
+            at the time, My uncle went to Bosrā, cured the sultan's mother in the shortest time
+            possible and was presented with gold and honorary robes. While in Bosrā, he was stricken
+            with an acute fever, which grew steadily worse, even after his return to Damascus. He
+            was treated there by the best physicians, but his term had come. He died, may Allāh have
+            mercy upon him, in the second hour of Monday, the 17th of Shaban, 616/1219, at the age
+            of 38. He was buried near his father and brother outside the Gate of Paradise.</p>
+          <p>The following are some of his aphorisms, as I heard them from him, may his soul rest in
+            peace:</p>
+          <p>1. "The commandment of the early morning is to face the new day, in which you are
+            capable of doing all manner of things, with the resolution to perform the finest deeds,
+            such as would lead you to the highest of ranks; you have to do good, for it will bring
+            you closer to God and endear you to mem, beware of evil, for it will estrange you from
+            God and make people hate you. Do what would give you credit in the soul-reckoning at the
+            end of the day; do not let the evil part of your nature overpower the good that is in
+            you. A noble man is not he who retains his natural purity by the absence of obstacles,
+            but rather he who retains it in spite of obstacles; the best way to shun these obstacles
+            is to retreat into seclusion from the world.</p>
+          <p>Follow the prophets' testaments and emulate the deeds of the wise.</p>
+          <p>Speak the truth, for a lie belittles a man in his own eyes even more than in the eyes
+            of others.</p>
+          <p>Be patient and you will be thanked and honored, for hatred brings anguish and leads to
+            enmity <pb ed="mueller-1884" n="2.252"/>and evil, just as envy does.</p>
+          <p>Avoid evil men and you will spare yourself their harm;</p>
+          <p>Avoid the rulers of this world and you will spare yourself the company of evil men, <pb
+              n="919" ed="kopf"/>
+          </p>
+          <p>Accept from this world only what is essential for your physical needs.</p>
+
+          <p>Know that this your day is a piece of your life gone forever, so spend it on something
+            which might benefit you later; after having satisfied the needs of your body, dedicate
+            the rest of your day to the perfection of your soul. Do unto people as you would like
+            them to do unto you. Beware of anger and of haste to take revenge on an angry man or to
+            be affected by him; for in most cases it would lead to repentence; you should be
+            patient, for patience is the mainstay of all wisdom."</p>
+          <p>2. "The commandment of the early night is to face this coming night in which you have
+            no pressing physical duty to fulfill, with the resolution to work on the improvement of
+            your soul, by studying the sciences, by meditating on the knowledge of truth; as long as
+            you can stay awake, do this; when you feel yourself falling asleep, fix your soul to the
+            subject of your concern, so that your dreams may also be of the same nature. Do what
+            would give you credit in the soul-reckoning of the following morning.</p>
+
+          <p>Endeavor to be a better person tomorrow than you were yesterday.</p>
+          <p>Beware of being entrained by your nature to ponder on what you have seen during the day
+            of the conditions of worldly people, for by this you will waste your time, open for
+            yourself the gates of deception, trickery and guile in order to achieve worldly matters,
+            corrupt your soul and spoil your position, drawing away from truths and acquiring those
+            shameful characteristics which are so difficult to cast off. Know that these [worldly
+            matters] are transient and useless accidents, that the needs of man are indeed very
+            few.</p>
+
+          <p>Think only of the things which might be useful to you and prepare yourself to meet
+            Allāh, for the knowledge of when you will die is <pb n="920" ed="kopf"/> concealed from
+            you, although your wish to stay alive another day is stronger than your fear to die this
+            same night; so you should be reconciled to persevere in those things which might benefit
+            you after your departure. Dixi."</p>
+          <p>3. "Respect the shaykhs, even though they may not answer your questions, for their
+            silence might be broken later; perhaps it was due to weariness, or to the fact that it
+            was none of your business, or to their knowledge of your incapability of understanding
+            the answer; keep in mind that the benefit you might derive from them is incomparably
+            greater than any particular answer."</p>
+          <p>4. "First of all, study the general sayings of the famous; after having mastered these,
+            you can go on to study the particular sayings of each person as contained in their
+            book."</p>
+
+          <p>5. Consider the sayings of each person objectively, without love or hatred; then weigh
+            them according to the rules and examine them by experiment, if possible; only then can
+            you accept the truth in them. In case this is too difficult for you, enlist someone's
+            aid, for each mind has a special capacity for interpreting certain meanings."</p>
+          <p>6. "If you are pushed forth by virtuous people, go forth, for if you do not, you will
+            lag behind."</p>
+          <p>7. "Always seek the truth, for in this way you will acquire knowledge for yourself and
+            love from other men."</p>
+          <p>8. "Take care that your individual deeds correspond to the general rule you keep in
+            your mind; this way your knowledge will be sound, your experience beneficial, the
+            development of your intellect certain, and the advantages you reap from contact with
+            people enhanced."</p>
+          <p>9. "Study first the sayings of those whose intention was to instruct: having mastered,
+            that science, consolidate it by studying the sayings of those who love truth and refute
+            error; when your <pb n="921" ed="kopf"/> knowledge becomes so well-based and certain
+            that it cannot be destroyed by doubt, it will not hurt you if, from time to time, you
+            leaf through the books of skeptics and controversialists; for their purpose is to show
+            off their power in their claims, no matter whether they really know them or not, whether
+            their claims are true or false.'</p>
+          <p>10. "When practicing as a physician, fear Allāh and try to act according to what you
+            know for sure; when you cannot, endeavor to come as close to this as possible."</p>
+          <p>11. "Having reached the rank of master, do not ever turn away the worthy, namely an
+            intelligent, pure and good, naturally wise person, but do turn away all others."</p>
+          <p>12. "When you know of many remedies to a single disease, choose the best one for every
+            stage of it."</p>
+          <p>13. "Maladies have their own life-spans, and remedies need the help of Fate; medicine
+            is largely mere conjecture <pb ed="mueller-1884" n="2.253"/>
+            and suppositions, which sometimes contain a grain of truth;
+            success here is the reward of good measure and experimentation, not of sophistry and
+            excess; the purpose of medicine is the preservation of health when it is good and its
+            recovery when it has been lost; these two [achievements] are the mark of a sound mind
+            and refined thinking, and by them you can distinguish between the master and the
+            ignorant, the praiseworthy scholar and the idler, the one who acts according to good
+            measure and experiment and the one seeking only wealth and high rank."</p>
+          <p>14. "Knowledge is long and difficult to gain; he who tries desperately to snatch it
+            quickly and succinctly, ignoring the essential factors of long life, subtle thought,
+            human cooperation and perfection, will only confound his thoughts and breed havoc in his
+            mind."</p>
+          <p>15. "Observe the activity of nature when unhindered by any obstacles and follow her
+            example in your own deeds." <pb n="922" ed="kopf"/>
+          </p>
+          <p>16. "How wonderful patience is, were it not paid for by time!"</p>
+          <p>17. "Whenever I await something, its fulfillment seems too far off and its value too
+            paltry."</p>
+          <p>18. "You look forward to good, but think of it little."</p>
+          <p>19. "Evil is in our nature and is capable of ignoring the fear of the other world, as
+            well as the fear of the sword."</p>
+          <p>20. "Good is perfected only by destruction."</p>
+          <p>21. "Those who pursue their own interests are four times as many as those who feel for
+            God's other creatures."</p>
+          <p>22. "If you want to be mistreated by people, guard yourself from them; if you do not
+            want to be mistreated by people, mistreat them yourself; as to the middle road — do not
+            wish it."</p>
+          <p>23. "Departure is the best time of life."</p>
+          <p>24. "Seclusion is the best way of life."</p>
+
+          <p>25. "Solitude is outcome of wisdom."</p>
+          <p>26. "Evil men are always looking for somebody with whom they can pass their days in
+            idle talk, amusement and vanity; when they are left alone, they are constantly grieved
+            because of the evil rooted in their souls. The opposite is true of good folk, for they
+            are satisfied with themselves."</p>
+          <p>27. "The root of every trouble is the love of this world."</p>
+          <p>28. "How long do people neglect their real interests because of their involvement in
+            the affairs of this world, and then they are gone!"</p>
+          <p>29. "I wonder how a man, not knowing the time of his death and being open to either
+            happiness or misfortune at any given moment, can put his confidence in this world and
+            ignore his most important concern."</p>
+          <p>30. "How many people delight in their hopes without even starting to fulfill them!"</p>
+          <p>31. "Hopes are the dreams of the wakeful." <pb n="923" ed="kopf"/>
+          </p>
+          <p>32. "There are too many things to be done at any one moment, and therefore you should
+            choose the most important of them.</p>
+          <p>33. "What would you think of him, who neglects his tasks at their appropriate time,
+            hoping for other occasions to arise and deferring them constantly, until he dies still
+            hoping?"</p>
+          <p>34. "As long as you are in a position to take care of your body and exercise your soul,
+            keeping them both in good order without languor or waste — you should not change your
+            position; for you have a good motive and should stick to it as far as you can. Many a
+            man who has changed his position for another that seemed better to him left it later,
+            finding it worse."</p>
+          <p>35. "Do not envy the happy man, for the opposite of happy is miserable."</p>
+          <p>36. "If each of two enemies were to attain his purpose by the other, they would both be
+            happy and victorious; therefore we were ordered, when seeking to achieve important
+            goals, to put together all our individual wills and form one great cause, which will be
+            aided by heavenly succor."</p>
+          <p>37. "Beware of regarding people as your brothers; beware of the arrows of [their] will,
+            for they smite."</p>
+          <p>38. "Beware of injuring the religious doctors, for they are men of God."</p>
+          <p>39. "When a man of true knowledge is mistreated, God will swiftly come to his aid,
+            uncover his oppressor and destroy him."</p>
+          <p>40. "God has his beloved ones, whom he guards with his eye that is always watchful;
+            these are the savants."</p>
+          <p>41. "The savants are the truly happy."</p>
+          <p>42. According to the term as used by the mob, the happy people in this world are those
+            who never hand out favors; but these are really the evil ones." <pb n="924" ed="kopf"/>
+          </p>
+          <p>43. "A man might hit upon a word of wisdom on one occasion and on another seek it in
+            himself, but without success."</p>
+          <p>44. "Whoever associates with fools in spite of their ignorance and is dragged into
+            their doings by his love of this world should blame only himself when he is infected
+            with their evil."</p>
+          <p>45. "First fix your scales, then weigh."</p>
+          <p>46. "When you come to possess a material mind, then you are a true man, in absolute
+            terms." <pb ed="mueller-1884" n="2.254"/></p>
+          <p>47. "Trust your knowledge when no objection can impair it."</p>
+          <p>48. "How wonderful is unanimous opinion!"</p>
+          <p>49. "How wonderful is analogous opinion!"</p>
+          <p>50. "A reasonable action is not done according to the absolute good, but rather
+            according to its author's intentions."</p>
+          <p>51. "How wonderful is the opinion which arises between a truth-speaking adviser and an
+            honest and clever man, who asks for his advice! "</p>
+
+
+          <p>52. "Put your confidence only in a man who believes firmly in the subject of his hopes
+            and fears and is certain of the exclusive truth of his belief. As for him who unsure of
+            his belief or does not believe in anything at all, do not place your confidence in him,
+            nor take him as your companion. When the believer who is certain of his truth is not a
+            member of your community, beware of him also, for he might consider you impious with
+            regard to his belief, regard you as an enemy and treat you with hostility."</p>
+          <p>53. "Trust your religion more then its representatives."</p>
+          <p>54. "The reason for practicing the precepts of religion is to gain the certainty of
+            true belief; the practice of the precepts of religion is in itself a proof of the
+            certainty of true belief; he who practices these precepts may indeed do so just by
+            imitation of others, without knowing anything else, but he could also do so out of real
+            devotion; now, the signs showing that his acts are indeed the consequence of <pb n="925"
+              ed="kopf"/> the certainty of true belief are the traces of divine inspiration in his
+            faith, the piety of his everyday conduct and his relationships with the other creatures
+            of God, which spring entirely from his own soul."</p>
+          <p>55. "Freedom is the best of life."</p>
+          <p>56. "Humility is the gate to freedom."</p>
+          <p>57. "Whoever is able to live contentedly in accordance with his needs and instead sells
+            his soul to another, spurred by the desire for the luxuries of life, is the stupidest of
+            fools."</p>
+
+          <p>58. "How few are the needs of man, were he impartial toward himself!</p>
+          <p>59. "Avoid the company of worldly-minded men, for in case you find them, they will
+            enslave you, and in case you lose them, you will be sorry."</p>
+          <p>60. "When annoyed, prefer the company of someone who will not divert you too much from
+            your mood."</p>
+          <p>61. "The loss of a friend is a portent of a journey."</p>
+          <p>62. "When a wise man is hurt by you or imagines himself to have been hurt by you, you
+            will benefit both by his apology, in case you have done nothing and are indeed innocent,
+            and by his forgiveness, in case you have really hurt him. On the other hand, when you
+            notice that a rancorous man imagines himself to have been hurt by you, robbed of his
+            benefit or contradicted, beware of him, for he will constantly think of ways to injure
+            you."</p>
+          <p>63. "Friends are like one soul in different bodies."</p>
+          <p>64. "A physician treats the human body not as being a human body categorically
+            speaking, but as being related to his own; this relationship is one of the noblest, so
+            that the one concerned with it should also be a noble man."</p>
+          <p>65. "Money is a magnet for the souls of fools and knowledge is a magnet for the souls
+            of the wise." <pb n="926" ed="kopf"/>
+          </p>
+          <p>66. "I have seen fools admiring the wealthy, although they know for sure that they will
+            not give them any part of their wealth, except as the price for goods or payment for
+            labor, the same as they get from the poor."</p>
+          <p>67. "The best savant is he whose knowledge is proportionate to his mind."</p>
+          <p>68. "If it is possible to live apart from people with the minimum of needs, this is the
+            best situation."</p>
+          <p>69. "If you are the kind of person who is stingy with money and spends it only on the
+            most important things, you should better do just this with regard to your time."</p>
+          <p>70. "Wisdom is in reliance upon God the Omnipotent."</p>
+          <p>71. "A man comes to know his own defects by learning the defects of others."</p>
+          <p>72. "Having attached fine virtues to your soul, you are paying it the utmost honor; for
+            if you are not susceptible to anger, for example while all other people are susceptible
+            to it, you become the finest man in this respect."</p>
+          <p>73. "The more perfect a thing is, the more pleasure it gives; the more defective a
+            thing is, the more pain it causes.".</p>
+          <p>74. "Read much of the biographies of sages and emulate them as far as you can in your
+            generation."</p>
+          <p>75. "Make your soul stronger than your body."</p>
+          <p>76. "Improve the quality of your food and reduce its quantity."</p>
+          <p>77. "Give your body enough food to maintain its strength; beware of surpassing it, but
+            increase the nourishment of your soul."  </p>
+          <p>78. "The nourishment of the soul is gradual study; you should start with small and easy
+            <pb ed="mueller-1884" n="2.255"/>portions and proceed slowly, until the soul grows stronger and used to difficulties;
+            when it becomes thus skilled, it will crave for more and everything will be easy for
+            it." <pb n="927" ed="kopf"/>
+          </p>
+          <p>79. "A strong stomach digests any kind of food which enters it and a virtuous soul
+            accepts any kind of knowledge which reaches it."</p>
+          <p>80. "As long as you cannot bear solitude you are compelled to live with people."</p>
+          <p>81. "Associate people in what gives them pleasure, but do not forsake the nearness of
+            God."</p>
+          <p>82. "A man wrote to his shaykh complaining of difficulties in his affairs. His shaykh
+            wrote back saying; "You will never be saved from what you hate if you do not give up
+            many a thing you love, and you will not reach the object of your love unless you learn
+            to bear many a thing you hate. Dixi."</p>
+          <p>83. "Be thankful both to him who does good and to him who does no evil; forgive people
+            their deeds and do not censure them; for every creature has its own particular
+            nature."</p>
+          <p>84. "You should approve of the same things in others as you do in yourself and
+            disapprove of the same things in them as you do in yourself."</p>
+          <p>85. "Do not overlook any of your deeds of devotion to God the Omnipotent."</p>
+          <p>86. "Obey God truly and people will obey you."</p>
+          <p>87. "There is nothing more valuable than sincere intention."</p>
+          <p>88. "Take from everything that which may guide you toward the goal at which it is
+            aimed."</p>
+          <p>89. "Do not trust anything you get by chance."</p>
+          <p>90. "Submit yourself to men, and especially to the ulemas and shaykhs [religious
+            doctors and spiritual masters], and do not despise anybody; for the scholar frequently
+            conceals his knowledge in order to select his spiritual heir, just as the farmer selects
+            his land."</p>
+          <p>91. "In every science, study the sayings of its first masters." <pb n="928" ed="kopf"/>
+          </p>
+
+          <p>92. "Study intensively the divine books of revelation, for they contain all
+            wisdom."</p>
+          <p>93. "Associate much with the shaykhs, for you will always benefit either from their
+            knowledge or from their way of life."</p>
+          <p>94. "If you observe the virtuous both in movement and at rest, you will find there much
+            wisdom."</p>
+          <p>95. "I have observed that the most important thing for most people is that which brings
+            them money."</p>
+          <p>96. "How often do people hear prophetic and wise commandments, but use only those which
+            bring them monetary profit."</p>
+          <p>97. "How strong is man's inclination to bodily pleasures!"</p>
+          <p>98. "At any given moment do not neglect to think of the future."</p>
+          <p>99. "Whoever does, not think of the future comes face to face with it unprepared."</p>
+          <p>100. "Humility is at the root of everything good and noble."</p>
+          <p>101. "A man can attain everything he desires through humility."</p>
+          <p>102. "The humble is aided in the fulfillment of his goals."</p>
+          <p>103. "Aim at the extreme degree of human perfection, for if you are unable to attain
+            it, you will attain the degree which is in your power. If you aim only at the degree of
+            perfection next to yours, hoping to proceed from it to the following, you will most
+            probably end by taking it easy and being satisfied with less than you deserve."</p>
+          <p>104. "Beware of neglecting any of the physical labors of devotion, for they are the
+            most pleasant auxiliary on the way to spiritual devotion."</p>
+          <p>105. "Oneness is sufficient honor, for God the Omnipotent is one."</p>
+          <p>106. "The purer oneness is, the nobler it is, for absolutely no plurality of facets can
+            mix with the oneness of God the Omnipotent."</p>
+          <p>107. "Have recourse to God the Omnipotent, rely on him and put your trust in him alone,
+            and he will guard you, supply you with all your needs and will not disappoint any of
+            your hopes." <pb n="929" ed="kopf"/>
+          </p>
+          <p>108. "Consider yourself a part of your community, and its members — your brothers: do
+            not rely on governments, for the communities are the more enduring of the two."</p>
+          <p>109. "Accustom your soul to the good, both in thought and in deed, and you will be
+            rewarded with good both by God the Omnipotent and by men, both here and now and in the
+            hereafter."</p>
+          <p>110. "Do not desire solitude as long as you still have the least desire."</p>
+          <p>111. "If the weak were to stop at the end of his possibilities, he would be spared many
+            a danger."</p>
+          <p>112. "I wish I knew how to excuse myself for the things I know and have not done; I
+            hope Allāh the Omnipotent will forgive me."</p>
+          <p>[There follow samples of his poetry, as told to the author.]</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
