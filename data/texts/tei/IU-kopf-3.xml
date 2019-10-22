@@ -26,6 +26,14 @@
               <name type="person" ref="https://www.roger-pearse.com">Roger Pearse (Ipswich,
                 UK)</name>
             </respStmt>
+            <respStmt>
+              <resp>Conversion to TEI and correction of name transcription by </resp>
+              <name type="person" ref="https://usaybia.net/editors.xml#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+            <respStmt>
+              <resp>Additional name correction and page number alignment</resp>
+              <name type="person" ref="https://usaybia.net/editors.xml#vbirkhahn">Vanessa Birkhahn</name>
+            </respStmt>
             <availability>
               <licence>public domain</licence>
             </availability>
@@ -87,6 +95,8 @@
       <change who="ngibson" when="2019-02-01">corrected transcription by replacing (\W)ibn(\W) with
         \1b.\2</change>
       <change who="ngibson" when="2019-02-01">corrected transcription by replacing` with ʿ</change>
+      <change who="vbirkhahn" when="2019-10-09">corrected transcriptions and added Mueller page numbers (2.239-274)</change>
+      <change who="ngibson" when="2019-10-14">edited transcriptions and Mueller page numbers (2.239-274)</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -221,7 +231,7 @@
             that al-Rāzī was traveling in the country when he struck up a warm friendship with
             Mansūr b. Ismāʿīl, for whom he wrote the Mansūrī book. Muḥammad b. al-Ḥasan al-Warrāq
             told Abū al-Faraj that a very old man from al-Ray, whom he had asked about al-Rāzī, told
-            him that the latter was a shaikh with a very large head who used to sit in his council
+            him that the latter was a shaykh with a very large head who used to sit in his council
             with his disciples opposite him, behind them their disciples and behind them theirs.
             When a man came he would tell his problem to the first ones he met. If they could solve
             it well and good — if not, they would pass it on to the others: if they knew, so much
@@ -934,7 +944,7 @@
             mentioned Abū al-Khayr as still being alive in the year 330/941. In "The Solution to
             al-Rāzī's Doubts about Galen" Abū al-Ḥasan ʿAlī b. Ridwān wrote thus: "In our generation
             there lived al-Ḥasan b. Bābā, known as b. al-Khammār, who reached such perfection in
-            medicine that he was accepted by Mahmūd the king of the earth. This King Mahmūd was
+            medicine that he was accepted by Maḥmūd the king of the earth. This King Maḥmūd was
             indeed great, but that person [Abū al-Khayr] was a philosopher of fine reasoning and
             vast knowledge. He knew how to treat scholars and the chiefs of the people, great men
             and kings.  His method was as follows. When somebody who behaved humbly and devotedly
@@ -994,7 +1004,7 @@
             the most distinguished in philosophy, medicine and the literary arts, the author of
             superior prose and excellent poetry, famous books and celebrated attainments. He was
             also a skilled scribe, and served successfully in this capacity. He studied medicine
-            under Shaikh Abū al-Khayr al-Ḥasan b. Sawār b. Bābā, known as Ibn al-Khammār, and was
+            under Shaykh Abū al-Khayr al-Ḥasan b. Sawār b. Bābā, known as Ibn al-Khammār, and was
             among his best students.</p>
           <p>Abū Mansūr al-Thaʿālibī in his book "The Genius of the Times" described Abū al-Farj b.
             Hindū as follows: "He had great success in the arts and sciences, his works were the
@@ -1049,7 +1059,7 @@
             God bless him, a good hand in treatment and was held in great esteem by the kings of his
             times. <pb n="563" ed="kopf"/>
           </p>
-          <p>The Shaikh and Imam Shams al-Dīn ʿAbd al-Hamīd b. ʿĪsā from Khusroshah told me that the
+          <p>The Shaykh and Imam Shams al-Dīn ʿAbd al-Hamīd b. ʿĪsā from Khusroshah told me that the
             Grand Master Ibn Sīna had met this physician when he was very old. He used to attend his
             council and lessons and benefited from his medical knowledge.</p>
           <p>Abū Mansūr al-Ḥasan b. Nūh al-Qamarī wrote the following books:</p>
@@ -1084,7 +1094,7 @@
             subsequent matters by former phenomena (as opposed to what they had done), so that
             everything will be clear with its fundamentals and causes, and will constitute a true
             argument."</p>
-          <p>I have heard the illustrious shaikh and leading physician Muhadhdhab al-Dīn ʿAbd
+          <p>I have heard the illustrious shaykh and leading physician Muhadhdhab al-Dīn ʿAbd
             al-Raḥīm b. ʿAlī, may God bless him, say: "I cannot find among the early and late
             Christian physicians anyone who is better than Abū Sahl al-Masīḥī in eloquence, good
             expression, and fine meaning." It is said that al-Masīḥī was the teacher of Ibn Sīnā in
@@ -1113,15 +1123,15 @@
 
         <div>
           <head>IBN SĪNĀ (Avicenna)</head>
-          <head><persName>Al-Shaikh al-Ra'īs b. Sīnā,</persName></head>
+          <head><persName>Al-Shaykh al-Ra'īs b. Sīnā,</persName></head>
           <p> i.e., Abū ʿAlī al-Ḥusayn b. ʿAbdallāh b. al-Ḥasan b. ʿAlī b. Sīnā. He is so well known
             that there is no need to introduce him, and his merits are so renowned that they need
             not be recorded. He himself related the circumstances of his life in such detail that
             there is no point in anyone else's repeating then; for this reason I shall restrict
             myself to presenting his own story and to reproducing the biography given by his friend
-            Abū ʿUbaid al-Jūzjānī. This is the gist of what al-Shaikh al-Ra'īs told about himself,
+            Abū ʿUbaid al-Jūzjānī. This is the gist of what al-Shaykh al-Ra'īs told about himself,
             as transmitted by Abū ʿUbaid al-Jūzjānī:</p>
-          <p>Al-Shaikh al-Ra'īs said: "My father was a native of Balkh, but moved from that city to
+          <p>Al-Shaykh al-Ra'īs said: "My father was a native of Balkh, but moved from that city to
             Bukhārā in the days of Nūh b. Mansūr and, during the reign of that prince, was appointed
             governor of the village of Kharmaithan, a government estate in the Bukhārā region and a
             most excellent locality. Near it is another village, Afshana, where my father married my
@@ -1242,11 +1252,11 @@
           </p>
           <quote><p><l>"Since I have become great, there is no place that can contain me; </l><l>
                 And since my price is high, no one is able to buy me." </l></p></quote>
-          <p>Abū ʿUbayd al-Jūzjānī, the friend of al-Shaikh al-Ra'īd, says: "The forgoing is what
-            the Shaikh told me in his own words. From here on [I report what] I have myself
+          <p>Abū ʿUbayd al-Jūzjānī, the friend of al-Shaykh al-Ra'īd, says: "The forgoing is what
+            the Shaykh told me in his own words. From here on [I report what] I have myself
             witnessed of the circumstances of his life:</p>
           <p>There lived in Jurjān a man named Abū Muḥammad al-Shīrazī, who loved the sciences. He
-            bought a house in his neighborhood for the Shaikh and lodged him therein. I visited him
+            bought a house in his neighborhood for the Shaykh and lodged him therein. I visited him
             every day to study the Almagest and to write down [texts on] logic from his dictation.
             He dictated to me his treatise on this subject, "al-Mukhtasar al-Aussat." For Abū
             Muḥammad al-Shīrāzī he wrote the "K. al-Mabdā' wal-Maʿād" and the "K.al-Arsād
@@ -1292,13 +1302,13 @@
             this performance he was rewarded with numerous robes of honor. He returned home after
             spending forty days and nights at Shams al-Dawlah's court.</p>
           <p>He became one of the companions of the Emir. When the latter set out for Quarmisin to
-            wage war on ʿAnaz, the Shaikh accompanied him. After the Emir had been defeated and came
+            wage war on ʿAnaz, the Shaykh accompanied him. After the Emir had been defeated and came
             back to Hamadān, Ibn Sīnā was asked to take up the office of vizier, and he did so. But
             the army became dissatisfied with him, fearing that he would act aginst their welfare.
             So they attacked his house, took him prisoner, seized all his property and bade the Emir
             kill him. Though <pb n="572" ed="kopf"/> declining their request, the Emir nevertheless
             banished him from the country in order to preserve their goodwill. For forty days Ibn
-            Sīnā hid in the house of the Shaikh Abū Sa'd b. Dukhdūk. Thereafter the Emir Shams
+            Sīnā hid in the house of the Shaykh Abū Sa'd b. Dukhdūk. Thereafter the Emir Shams
             al-Dawlah had another attack of colic. He sent for Ibn Sīnā, who presented himself at
             court, and apologized to him profusely. Ibn Sīnā cured him and stayed on, esteemed and
             revered.</p>
@@ -1317,10 +1327,10 @@
           <p>Then Shams al-Dawlah set out on his campaign against the Emir of Tārim. Near the latter
             place, he again had an attack of colic which caused him great suffering. In addition, he
             was afflicted with diseases resulting from his bad habits and from his refusal to heed
-            the advice of the Shaikh. The soldiers, fearing he might die, turned back and made their
+            the advice of the Shaykh. The soldiers, fearing he might die, turned back and made their
             way toward Hamadān, carrying him on a stretcher [?]. He died thus en route.</p>
           <p>Therefore, Shams al-Dawlah' s son was recognized as ruler. He was requested to appoint
-            the Shaikh his vizier, but refused. Ibn Sīnā therefore secretly wrote to ʿAlā'
+            the Shaykh his vizier, but refused. Ibn Sīnā therefore secretly wrote to ʿAlā'
             al-Dawlah, asking for  <pb n="573" ed="kopf"/> employment and suggesting that he might
             go over to him. He hid in the house of Abū Ghalib al-ʿAttar. I asked him to complete the
             "K. al-Shifa'," and he called Abū Ghalib, requested paper and an inkstand, which were
@@ -1340,23 +1350,23 @@
           <p>He had been in the citadel for four months when ʿAlā' al-Dawlah marched on Hamadān and
             captured it. Tāj al-Mulk was defeated and retreated to the very same citadel [in which
             Ibn Sīnā was imprisoned]. Later, ʿAla' al-Dawlah withdrew from Hamadān, and Tāj al-Mulk
-            and Shams al-Dawlah's son returned to the city, taking the Shaikh with them. He took up
+            and Shams al-Dawlah's son returned to the city, taking the Shaykh with them. He took up
             quarters at al-ʿAlawi's house, where he applied himself to writing the chapter on logic
             of the "K. al-Shifa." During his stay at the citadel he had written the "K. al-Hidāyāt,"
             the "Risāla Hayy b. Yaqzān" and the "Book of Colic." The "Adwiya Qalbiyya," was written
             shortly after his arrival at Hamadān. Since then, quite a long time had elapsed, during
             which Tāj al-Mulk had made him fine promises. <pb n="574" ed="kopf"/>
           </p>
-          <p>Then the Shaikh conceived the idea of going to Isfahan. He departed, disguised as a
+          <p>Then the Shaykh conceived the idea of going to Isfahan. He departed, disguised as a
             sufi, accompanied by me, his brother and two servants. After many hardships, we reached
-            Tabarān on the outskirts of Isfahan, where we were met by friends of the Shaikh and
-            companions and courtiers of the Emir ʿAlā' al-Dawlah. The Shaikh was given special
+            Tabarān on the outskirts of Isfahan, where we were met by friends of the Shaykh and
+            companions and courtiers of the Emir ʿAlā' al-Dawlah. The Shaykh was given special
             raiment and carriages and was lodged in the Kūnkanabd Quarter at ʿAbdallah b. Bābī's
             house, which contained all the necessary utensils and furniture. He appeared at ʿAlā'
             al-Dawlah's court, and was received with the honor and esteem due to a person of his
             standing. The Emir ordered study sessions to be held in his presence every Friday eve,
-            attended by a variety of scholars, including the Shaikh; it was found that no one
-            matched the Shaikh in his knowledge of any of the sciences.</p>
+            attended by a variety of scholars, including the Shaykh; it was found that no one
+            matched the Shaykh in his knowledge of any of the sciences.</p>
           <p>In Isfahan, he applied himself to completing the "K. al-Shifa'," finishing the chapters
             on logic and the Almagest. Previously he had epitomized Euclid's "Elements,"
             "Arithmetic" and "Music." To each of the chapters dealing with mathematics he made
@@ -1371,21 +1381,21 @@
             marched on Hamadān, he traveled in his retinue.</p>
           <p>One evening, it was mentioned in the presence of ʿAlā' al-Dawlah that the calendars
             drawn up on the basis of early observations, were faulty; whereupon the Emir ordered the
-            Shaikh to undertake the <pb n="575" ed="kopf"/> observation of the stars concerned, for
-            which purpose he granted him as much money as was needed. The Shaikh set to work,
+            Shaykh to undertake the <pb n="575" ed="kopf"/> observation of the stars concerned, for
+            which purpose he granted him as much money as was needed. The Shaykh set to work,
             instructing me to provide the necessary instruments and to engage technicians, until
             many of the problems had been solved. The defect in the earlier observations had been
             due to their being carried out in widely different places.</p>
-          <p>In Isfahan the Shaikh wrote the "Kitāb al-ʿAlā'ī." It is interesting to note that,
+          <p>In Isfahan the Shaykh wrote the "Kitāb al-ʿAlā'ī." It is interesting to note that,
             during the twenty-five years I was his associate and servant, I never saw him read a
             newly acquired book right through; rather he picked out the difficulties raised in it
             and read what the author had to say about them, so as to arrive at a correct
             appreciation of his knowledge and understanding.</p>
-          <p>One day, the Shaikh was sitting before the Emir in the presence of Abū Mansūr
-            al-Jiba'ī, when a lexicographical question came up for discussion. While the Shaikh was
+          <p>One day, the Shaykh was sitting before the Emir in the presence of Abū Mansūr
+            al-Jiba'ī, when a lexicographical question came up for discussion. While the Shaykh was
             discoursing upon it to the best of his ability, Abū Mansūr turned to him saying: "You
             are a philosopher and a physician, but you have not studied lexicography to such an
-            extent that your observations are acceptable." The Shaikh, peeved at this remark,
+            extent that your observations are acceptable." The Shaykh, peeved at this remark,
             devoted the next three years to a study of lexicographical works. [Among other things]
             he had Abū Mansūr al-Azharī's dictionary, "Tahdhīb al-Lughgha," sent to him from
             Khurasan. Eventually he attained such perfect knowledge of lexicography as is but rarely
@@ -1395,48 +1405,48 @@
             cover and then asked the Emir to show the volume to Abū Mansūr al-Jiba'ī. While so
             doing, the Emir said: "I found this volume while hunting in the desert. It is now for
             you to examine it and tell me what it contains." Abū Mansūr inspected the volume, but
-            much of its content was obscure to him. Then the <pb n="576" ed="kopf"/> Shaikh said:
+            much of its content was obscure to him. Then the <pb n="576" ed="kopf"/> Shaykh said:
             "What you do not understand of this book is to be found in such and such a place in the
             dictionaries." And he mentioned to him a great number of dictionaries in which he had
             looked up those words. Abū Mansūr was no authority on lexicography, but he realized,
-            that the epistles had been written by the Shaikh himself and that he had been induced to
+            that the epistles had been written by the Shaykh himself and that he had been induced to
             write them by the insult which had stung him that day; he now apologized to him.
-            Thereafter, the Shaikh compiled a dictionary entitled "Lisān al-ʿArab" (The Language of
+            Thereafter, the Shaykh compiled a dictionary entitled "Lisān al-ʿArab" (The Language of
             the Arabs), the like of which had never been written before. Yet he did not live to
             prepare the final version; indeed, he did not get beyond the first draft, and there was
             no one to do the editing.</p>
-          <p>In his medical practice, the Shaikh gained a great deal of experience which he intended
+          <p>In his medical practice, the Shaykh gained a great deal of experience which he intended
             to embody in the Qānūn. He put down the case-histories on loose sheets, which however,
             were lost, before the Qanūn was completed. One case was as follows. One day he had a
             headache, and he perceived that some substance was about to descend to his forehead,
             where it would doubtless have caused a swelling. He gave orders to fetch a large
             quantity of ice, pound it, wrap it in a cloth and cover his head with it. As a result,
             the place in question was strengthened, so that it was able to resist that substance,
-            and the Shaikh was cured. Another case was this: A woman of Khwārizm, afflicted with
+            and the Shaykh was cured. Another case was this: A woman of Khwārizm, afflicted with
             tuberculosis, was ordered by him to take no medicine but sugared "jalanjabīn"
             [Maimonides 85: miel rosat]. When in the course of time, she had taken the quantity of
             one hundred mann, her health was restored.</p>
-          <p>In Jurjān the Shaikh wrote the "Smaller Compendium on Logic," which he later placed at
+          <p>In Jurjān the Shaykh wrote the "Smaller Compendium on Logic," which he later placed at
             the beginning of the "K. al-Najāh." A copy of it reached Shīrāz, and when a group of
             local scholars studied it, they were baffled by certain problems, which they wrote down
             on a sheet of paper. The Qādi of Shirāz was one of that group. He forwarded the sheet,
             by a mounted messenger leaving [for Jurjān], <pb n="577" ed="kopf"/> to Abū 'l-Qāsim
             al-Kirmānī, a friend of Ibrāhīm b. Bābā al-Dailāmī, who was preoccupied with the science
-            of "al-tanāzur" [Ibn al-Qiftī: "al-bātin"]. He added a letter for the Shaikh [Ibn Sīnā]
+            of "al-tanāzur" [Ibn al-Qiftī: "al-bātin"]. He added a letter for the Shaykh [Ibn Sīnā]
             begging Abū 'l-Qāsim to submit the sheet to the latter and ask him to answer the
             questions inscribed on it. Abū 'l-Qāsim went to Ibn Sīnā's residence at dusk on a
             summer's day to deliver the letter and the sheet. Ibn Sīnā read the letter, returned it
             to Abū 'l-Qāsim but retained the sheet, which he began to study while the people [in the
-            house] were talking. When Abū'l-Qāsim had left, the Shaikh ordered me to fetch some
+            house] were talking. When Abū'l-Qāsim had left, the Shaykh ordered me to fetch some
             blank paper and cut it into sheets. I prepared five, each containing 10 quarto leaves of
-            fir ʿaunī size. We then recited the evening prayer, candles were brought and the Shaikh
+            fir ʿaunī size. We then recited the evening prayer, candles were brought and the Shaykh
             ordered sherbet [?] to be served. Hie invited me and his brother to sit down and drink
             sherbet with him, and he began to prepare the answers to those questions. He wrote and
             drank until midnight, by which time sleep overtook me and his brother, and he asked us
             to leave. The following morning there came a knock at the door; it was the messenger of
-            the Shaikh asking me to come to him. When I presented myself, he was on the prayer rug,
+            the Shaykh asking me to come to him. When I presented myself, he was on the prayer rug,
             with the five sheets lying before him. He said to me: "Take these and deliver them to
-            the Shaikh Abū 'l-Qāsim al-Kirmānī. Tell him that I have hastened to prepare the answers
+            the Shaykh Abū 'l-Qāsim al-Kirmānī. Tell him that I have hastened to prepare the answers
             in order that the messenger might not be delayed." When I brought them to Abū 'l-Qāsim,
             he was greatly astonished and despatched the messenger immediately. He published this
             episode, and it made a tremendous impression on the people.</p>
@@ -1444,10 +1454,10 @@
             them. I myself engaged in astronomical observation for eight years with the object of
             elucidating what Ptolemy had reported of his own observations, some of which I was able
             to verity.</p>
-          <p>After the Shaikh had written the "K. al-Insāf," his baggage was plundered by the
+          <p>After the Shaykh had written the "K. al-Insāf," his baggage was plundered by the
             soldiery the day Sultan Masʿud entered Isfahan. <pb n="578" ed="kopf"/> Among the things
             taken was the said book, which subsequently was not discovered.</p>
-          <p>The Shaikh was vigorous in every respect. Of his physical powers, sexual potency was
+          <p>The Shaykh was vigorous in every respect. Of his physical powers, sexual potency was
             the strongest and the best developed. He exercised it most freely, and not without
             effect upon his state of health. He so much relied on his robust constitution that he
             sometimes went too far. In the year in which ʿAlā' al-Dawlah fought Tāsh Farāsh at the
@@ -1465,20 +1475,20 @@
             but one of his servants put a large quantity of opium into it, served it up to him, and
             he ate it. The reason for this action was that the servants had embezzled a large sum of
             money from his treasury and wished him dead in order to escape punishment.</p>
-          <p>In his sick condition the Shaikh was transferred to Isfahan, where he resumed treating
+          <p>In his sick condition the Shaykh was transferred to Isfahan, where he resumed treating
             himself. He was so weak as to be unable to stand. Through further treatment he managed
             to walk and to appear at the court of ʿAlā' al-Dīn. But he did not take care of himself,
             being over-indulgent with regard to sexual intercourse. He never fully recovered and was
             subject to frequent relapses. <pb n="579" ed="kopf"/>
           </p>
-          <p>When ʿAlā' al-Dawlah left for Hamadān, the Shaikh accompanied him. On the way, the
+          <p>When ʿAlā' al-Dawlah left for Hamadān, the Shaykh accompanied him. On the way, the
             illness recurred and lasted until he reached Hamadān. He knew that his strength was
             sapped and that it would not be sufficient to overcome the malady. He therefore
             refrained from treating himself, saying: "The manager who has been operating my body is
             no longer able to control it, and no treatment will avail now." He remained in this
             state for a while and was then transferred to the custody of God. He was 53 years old
             when he died in 428/1037. The year of his birth was 375/984. Here ends Abū ʿUbayd's
-            account of the life of al-Shaikh al-Ra'īs.</p>
+            account of the life of al-Shaykh al-Ra'īs.</p>
           <p>His tomb lies under the walls on the southern side of Hamadān. According to one report,
             his body was transferred to Isfahān and buried near the Kaunkanbad Gate.</p>
           <p>When Ibn Sīnā died of the colic that afflicted him, one of his contemporaries wrote in
@@ -1487,7 +1497,7 @@
                 wretched death.</l><l> He could not with the "Shifā'" overcome the calamity
                 befalling him </l><l> Nor was he rescued from death by the "Najāh." </l></p></quote>
           <p>[There follow a few brief remarks on the above lines. ]</p>
-          <p>Specimen of the Poetry of al-Shaikh al-Ra'īs</p>
+          <p>Specimen of the Poetry of al-Shaykh al-Ra'īs</p>
           <p>The following poem on the soul is one of the noblest and most sublime examples of his
             poetry:</p>
           <quote><p><l>It descended upon thee from the lofty station </l><l> — a dove, proud and
@@ -1505,7 +1515,7 @@
           <head><persName>Al-Ilākī,</persName></head>
           <p><ref target="#FN1" type="noteAnchor">1</ref> i. e., al-Sayyid Abū ʿAbdallāh Muḥammad b.
             Yūsuf Sharaf al-Dīn, a man of noble descent, a distinguished personality and an expert
-            in the medical art and the philosophical sciences was a disciple of al-Shaikh al-Ra'īs
+            in the medical art and the philosophical sciences was a disciple of al-Shaykh al-Ra'īs
             (Ibn Sīnā). He made an abridgment of the"K. al-Qānūn," which he edited to perfection.
             His works also include the "Book of Causes and Symptoms."</p>
         </div>
@@ -1516,8 +1526,8 @@
             toponymic adjective derived from Bīrūn, by the name of a town in Sind.</p>
           <p>This personage applied himself to the philosophical sciences, gained distinction in
             astronomy and astrology [?] and acquired a fine knowledge of medicine. He was a
-            contemporary of al-Shaikh al-Ra'īs (Ibn Sīnā), with whom he held scientific discussions
-            and exchanged letters. I have seen [a manuscript of] the answers of al-Shaikh al-Ra'īs
+            contemporary of al-Shaykh al-Ra'īs (Ibn Sīnā), with whom he held scientific discussions
+            and exchanged letters. I have seen [a manuscript of] the answers of al-Shaykh al-Ra'īs
             to questions put to him by Abū'l-Raihān al-Bīrūnī, containing useful bits of philosophy.
             Abū 'l-Raihān al-Birūnī lived in Khwārizm. <pb n="581" ed="kopf"/>
           </p>
@@ -1525,7 +1535,7 @@
           <list>
             <item n="1"> "K. al-Jamāhīr fī 'l-Jawāhīr," on the different kinds of gems and related
               subjects; this he wrote for al-Malik al-Muʿazzam Shihāb al-Dawlah Abū 'l-Fath Maudūd
-              b. Masʿūd b. Mahmūd.</item>
+              b. Masʿūd b. Maḥmūd.</item>
 
             <item n="2"> "K. al-Āthār al-Bāgiyyaʿcan al-Qurūn al-Khāliyya" (The Traces Left from
               Past Centuries).</item>
@@ -1536,7 +1546,7 @@
             <item n="5"> "K. Maqālīd al-Haiʿa."</item>
             <item n="6"> "K. Tastūh al-Kura."</item>
             <item n="7"> "K. al-ʿAmal bil-Astrulab" (The Use of the Astrolabe).</item>
-            <item n="8"> "K. al-Qānūn al-Masʿūdi; this was written for Masʿūd b. Mahmūd b.
+            <item n="8"> "K. al-Qānūn al-Masʿūdi; this was written for Masʿūd b. Maḥmūd b.
               Subuktukīn, following the precedent set by Ptolemy.</item>
             <item n="9"> "K.al-Tafhīm," on astrology.</item>
             <item n="10"> A treatise entitled "Correction of Errors Found in the Book "Dalā'il
@@ -1546,7 +1556,7 @@
             <item n="12"> A treatise on the use of the globular astrolabe (cf. above. No. 7).</item>
             <item n="13"> "K. al-Azlāl" (On Shadows).</item>
             <item n="14"> "K. al-Zīj al-masʿūd" (an astronomical almanac); he wrote this for the
-              Sultan Masʿūd b. Mahmūd, ruler of Ghazna.</item>
+              Sultan Masʿūd b. Maḥmūd, ruler of Ghazna.</item>
             <item n="15"> "The Book of Ptolemy. . . "</item>
           </list>
           <p>Abū 'l-Raihān al-Bīrunī died in the fourth decade of the fifth century. <pb n="582"
@@ -1634,7 +1644,7 @@
             discussed. In this way, the gathering of information on the anatomy of any organ or on
             the [medicinal] use of any of its parts has been facilitated." He finished this book in
             the year 459/1068.</p>
-          <p>I have been told by a certain physician that Ibn Abī Sādiq was in touch with al-Shaikh
+          <p>I have been told by a certain physician that Ibn Abī Sādiq was in touch with al-Shaykh
             al-Ra'īs b. Sīnā and studied under him. I do not consider this report implausible. On
             the contrary, it may well be correct, for Ibn Abī Sadiq was Ibn Sīnā's contemporary and
             lived in Persia; moreover Ibn Sīnā's prestige was enormous, as was his knowledge and the
@@ -1657,7 +1667,7 @@
         <div>
           <head><persName>Tahir b. Ibrāhīm al-Shajarī.</persName></head>
           <p>
-            <ref target="#FN5" type="noteAnchor">5</ref> Al-Shaikh Abū 'l-Ḥasan Tāhir b. Ibrāhīm b.
+            <ref target="#FN5" type="noteAnchor">5</ref> Al-Shaykh Abū 'l-Ḥasan Tāhir b. Ibrāhīm b.
             Muḥammad b. Tāhir al-Shajarī was a distinguished physician and a student of the medical
             science, which he mastered completely in addition to its practical application. He wrote
             the following books: 1) "Elucidation of Therapeutic Procedure"; this was dedicated to
@@ -1683,9 +1693,9 @@
           </p>
           <p>The Imam Fakhr al-Dīn studied philosophy in Marāgha under Majd al-Dīn al-Jīlī, one of
             the greatest personalities of his time. He wrote excellent books. Qādī Shams al-Dīn
-            al-Khuyī related to me the following saying of Shaikh Fakhr al-Dīn: "By God, I very much
+            al-Khuyī related to me the following saying of Shaykh Fakhr al-Dīn: "By God, I very much
             regret that I have to give up study during meals, for time is precious." Muhyi al-Dīn,
-            the Qādī of Marnad [?] told me as follows: "In Marnad, Shaikh Fakhr al-Dīn attended the
+            the Qādī of Marnad [?] told me as follows: "In Marnad, Shaykh Fakhr al-Dīn attended the
             college where my father was a teacher. He studied law under him and afterwards took up
             philosophy by himself. He so distinguished himself that he outshone everyone. I met him
             at Hamadān and Harāt and studied under him. The atmosphere at his study circle was
@@ -1694,34 +1704,34 @@
             al-Dīn al-Naisābūrī, sat next to him, followed by the remainder of his pupils and the
             other people in the order of their rank. When someone had spoken about a certain topic,
             he was interrogated by those veteran disciples, and if a difficult problem or abstruse
-            theme were on the agenda, the Shaikh himself took part in the discussion and discoursed
+            theme were on the agenda, the Shaykh himself took part in the discussion and discoursed
             upon that item in a means so superb as to defy description.</p>
           <p>Shams al-Dīn Muḥammad Al-Waththār al-Mauilī told me: "I was in Harāt in the year six
-            hundred .... [blank in original], when Shaikh Fakhr al-Dīn, coming from Bāmyān, entered
+            hundred .... [blank in original], when Shaykh Fakhr al-Dīn, coming from Bāmyān, entered
             the city with great pomp and a large suite. On his arrival, he was received with great
             honor by the Sultan of Harāt, Ḥusayn Kharmain, who later erected for him a pulpit with a
             prayer rug in the front part of the dais [iwan] at the local great mosque. He was to sit
             in this place on a memorable day, so that the masses could see him and listen to his
             words. On that day I was present with the others, standing by the side of Sharaf al-Dīn
             b. ʿUnain, the poet, may God have mercy upon him. The place was filled with a large
-            crowd. Shaikh Fakhr-al-Dīn was in <pb n="588" ed="kopf"/> the front part of the dais,
+            crowd. Shaykh Fakhr-al-Dīn was in <pb n="588" ed="kopf"/> the front part of the dais,
             flanked on each side by some of his Turkish mamelukes leaning on their swords. Sultan
-            Ḥusayn Kharmain, the ruler of Harāt, approached and saluted him, and the Shaikh invited
+            Ḥusayn Kharmain, the ruler of Harāt, approached and saluted him, and the Shaykh invited
             him to sit at his side. Sultan Mahmud, the son of Shihāb Dīn al-Ghaurī's sister and
-            ruler of Fairuzkuh, also approached and saluted, and the Shaikh asked him to sit next to
-            him on the other side. In a spirited discourse the Shaikh was eloquently holding forth
+            ruler of Fairuzkuh, also approached and saluted, and the Shaykh asked him to sit next to
+            him on the other side. In a spirited discourse the Shaykh was eloquently holding forth
             on the soul when suddenly a dove appeared in the precincts of the mosque, pursued by a
             hawk that was on the point of capturing it. The dove circled round the mosque until
-            exhausted, and then repaired to the dais where the Shaikh was, flew in between the two
-            rows of soldiers and eventually alighted in front of the Shaikh, and so was rescued.</p>
+            exhausted, and then repaired to the dais where the Shaykh was, flew in between the two
+            rows of soldiers and eventually alighted in front of the Shaykh, and so was rescued.</p>
           <p>Sharaf al-Dīn b. ʿUnain told me that inspired by this incident, he improvised a poem
-            and immediately asked the Shaikh's permission to recite it. The Shaikh agreed, and the
+            and immediately asked the Shaykh's permission to recite it. The Shaykh agreed, and the
             poet recited:</p>
           <quote><p><l>She [the dove] repaired to the Solomon of this age in her distress,</l><l>
                 While death was looming from the wings of a ravisher. </l><l> Who told the dove that
                 your place was an inviolable sanctuary, </l><l> And that you were a refuge for the
                 panic-stricken."</l></p></quote>
-          <p>Shaikh Fakhr al-Dīn greatly enjoyed the poem. He called the poet over to him and asked
+          <p>Shaykh Fakhr al-Dīn greatly enjoyed the poem. He called the poet over to him and asked
             him to sit by his side. After the meeting, he sent him a complete robe of honor and a
             large sum of money. He remained his benefactor forever.</p>
           <p>Shams al-Dīn al-Waththār said: "Qudāmā recited only those two verses before Ibn Khatīb,
@@ -1742,7 +1752,7 @@
           <p>[Here follows another of his poems on Fakhr al-Dīn, sent to him from Naisābūr to
             Harāt:]</p>
           <p>Najm al-Dīn b. Sharaf al-Dīn ʿAlī b. Muḥammad al-Asafzārī told me as follows: "Fakhr
-            al-Dīn's father, the Shaikh and Imam Diyā' al-Dīn ʿUmar, was a native of al-Rayy. He
+            al-Dīn's father, the Shaykh and Imam Diyā' al-Dīn ʿUmar, was a native of al-Rayy. He
             studied jurisprudence, specializing in the controversies of the different schools of
             Muslim law and in its theoretical foundations, until he became a great authority and was
             almost without rival. He taught at al-Rayy; there at fixed times he also delivered
@@ -1788,19 +1798,19 @@
             of the father, Fakhr al-Dīn.</p>
           <p>ʿAlā' al-Mulk al-ʿAlawī was appointed vizier by Sultan Khwārizmshāh. He was a
             distinguished personality, who possessed literary skill and composed poems in Arabic and
-            Persian. He married the daughter of Shaikh Fakhr al-Dīn. When Genghiz Khān, the king of
+            Persian. He married the daughter of Shaykh Fakhr al-Dīn. When Genghiz Khān, the king of
             the Tatars, had vanquished Khwārizmshāh and killed most of his soldiers, and
             Khwārizmshāh himself was missing, ʿAlā' al-Mulk went to Genghiz Khān and sought asylum
             with him. Genghiz Khān received him with honors and made him one of his courtiers. When
             the Tatars occupied Persia, destroyed its castles and cities and slaughtered all the
             citizens, sparing no one, ʿAlā' al-Mulk, perceiving that a part of the Tatar army was
             marching on Harāt to destroy the city and kill its inhabitants, asked Genghiz Khān to
-            assure the protection of Shaikh Fakhr al-Dīn b. Khatīb al-Rayyī's children and to allow
+            assure the protection of Shaykh Fakhr al-Dīn b. Khatīb al-Rayyī's children and to allow
             him to bring them honorably into his presence. Genghiz Khān granted his request and
             promised safe conduct for them. <pb n="592" ed="kopf"/> When the soldiers were about to
             occupy Harāt, they announced that the children of Fakhr al-Dīn b. al-Khatīb, having been
             granted protection, were to keep by themselves in one place, whereupon they would be
-            spared. The house of Shaikh Fakhr al-Dīn, which had been presented to him by its former
+            spared. The house of Shaykh Fakhr al-Dīn, which had been presented to him by its former
             owner, Sultan Khwārizmshān, was one of the largest, most beautiful and most richly
             decorated in Harāt. When Fakhr al-Dīn's children heard of the soldiers' announcement,
             they confidently remained in that house, but they were joined there by a multitude of
@@ -1810,11 +1820,11 @@
             everyone in their path and when they reached the house of Fakhr al-Dīn, called upon his
             children to make themselves known. When they — i.e., Diyā al-Dīn, Shams al-Dīn and their
             sister — came forward, they led them aside, and then put to the sword all the other
-            people in the house. They took the children of Shaikh Fakhr al-Dīn from Harāt to
+            people in the house. They took the children of Shaykh Fakhr al-Dīn from Harāt to
             Samarkand because the king of the Tatars, Genghiz Khan, was there at the time, and so
             was ʿAlā' al-Mulk. The chronicler ends saying: "And I do not know what became of them
             thereafter."</p>
-          <p>I say: Shaikh Fakhr al-Dīn spent most of his life in al-Rayy, but he also visited
+          <p>I say: Shaykh Fakhr al-Dīn spent most of his life in al-Rayy, but he also visited
             Khwārizm, where he was taken ill, and subsequently died in Harāt. When his illness was
             at its climax, he had his disciple, Ibrāhīm b. Abī Bakr b. ʿAlī al-Isfahānī, take down
             his last message; this was on Sunday, the 21st day of Muharram, 606/1209. He died at the
@@ -1835,7 +1845,7 @@
             Him and all the righteous servants of God. And I say: Be it known to you, my brethren in
             faith and companions in the quest for truth, that people say: When a man dies, his bond
             with mankind is severed."</p>
-          <p>Say I: Shaikh Fakhr al-Dīn also composed numerous poems in Persian, as well as
+          <p>Say I: Shaykh Fakhr al-Dīn also composed numerous poems in Persian, as well as
             tetrastichs. He was the author of the following books:</p>
           <list>
             <item n="1"> The great commentary on the Qur'ān, entitled "Mafātīd al-Ghaib," in 12
@@ -1944,17 +1954,17 @@
             of his most distinguished disciples. His numerous books on medicine and philosophy
             include a commentary on the whole of the general part [Kulliyyāt] of Ibn Sīnā's Qānūn.
             In this work I have found that he gave preference to al-Masīhi and Ibn al-Khatīb over
-            the Shaikh Abū ʿAlī b. Sīnā. These are his words: "al-Masīḥī is more adept in the
-            medical art than Shaikh Abū ʿAlī, for my teachers preferred him to many who surpassed
+            the Shaykh Abū ʿAlī b. Sīnā. These are his words: "al-Masīḥī is more adept in the
+            medical art than Shaykh Abū ʿAlī, for my teachers preferred him to many who surpassed
             Abū ʿAlī in this field. Al-Masīḥī's diction is more lucid and intelligible than that of
-            the Shaikh, who affected an extremely concise style, to no purpose. On the superiority
-            he accorded to Ibn al-Khatīb over al-Shaikh al-Ra'īs, he said: "This is apparent from
+            the Shaykh, who affected an extremely concise style, to no purpose. On the superiority
+            he accorded to Ibn al-Khatīb over al-Shaykh al-Ra'īs, he said: "This is apparent from
             the utterances of these two great authorities, the latter of whom surpassed the former
             with regard to knowledge, practice, assurance and method."</p>
           <p>Al-Qutb al-Misrī was killed in the city of Naisābūr when the Tatars occupied the
             Persian domains, killing their inhabitants.</p>
 
-          <p>Al-Qutb al-Misrī wrote a commentary on the general part of al-Shaikh al-Ra'īs b. Sīnā's
+          <p>Al-Qutb al-Misrī wrote a commentary on the general part of al-Shaykh al-Ra'īs b. Sīnā's
             Qanūn. <pb n="597" ed="kopf"/>
           </p>
         </div>
@@ -1966,7 +1976,7 @@
             Originating from the Maghrib, he settled in Baghdād for a time and then moved to Persia,
             where he stayed for the rest of his life. His father, too, possessed some knowledge of
             philosophy.</p>
-          <p>I have copied the following from [a manuscript in] the handwriting of Shaikh Muwaffaq
+          <p>I have copied the following from [a manuscript in] the handwriting of Shaykh Muwaffaq
             al-Dīn ʿAbd al-Latīf b. Yūsuf al-Baghdādī: "This youth of Baghdād, al-Samau'al, was a
             Jew who embraced Islam. He died, while still young, in Marāgha. He surpassed all his
             contemporaries in arithmetic and reached a peak of proficiency in algebra. He lived in
@@ -2014,7 +2024,7 @@
           </p>
         </div>
         <div>
-          <head><persName>Najīb al-Dīn Abū Hāmid Muḥammad b. ʿAlī b. ʿUmar
+          <head><persName>Najīb al-Dīn Abū Ḥāmid Muḥammad b. ʿAlī b. ʿUmar
             al-Samarqandī</persName></head>
           <p>
             <ref target="#FN10" type="noteAnchor">10</ref> was a physician of great merit and the
@@ -3195,7 +3205,7 @@
         </div>
         <div>
           <head><persName>Ibn al-Nabbāsh,</persName></head>
-          <p> i.e., Abū ʿAbd Allāh Muḥammad b. ʿAbd Allāh b. Hāmid al-Bajjanī, known as Ibn
+          <p> i.e., Abū ʿAbd Allāh Muḥammad b. ʿAbd Allāh b. Ḥāmid al-Bajjanī, known as Ibn
             al-Nabbāsh, occupied himself intensely with medicine and had much practical skill. He
             possessed a solid foundation in the natural sciences and did original work <pb n="639"
               ed="kopf"/> in the other philosophical disciplines. He lived in the region of
@@ -3325,7 +3335,7 @@
 
         <div>
           <head><persName>Ibn Samjūn.</persName></head>
-          <p> This was Abū Bakr Hāmid b. Samjūn, an excellent physician, distinguished in the sphere
+          <p> This was Abū Bakr Ḥāmid b. Samjūn, an excellent physician, distinguished in the sphere
             of simple drugs, their strength and influence, about which he knew all there is to know.
             His book on this subject is renowned for its perfection. He devoted untiring effort in
             compiling it and recorded in it many of the ancients' views. <pb n="643" ed="kopf"/> Abū
@@ -3399,7 +3409,7 @@
             brilliant. He left Andalusia for Egypt, staying a while in Cairo, and then returned to
             Spain. He arrived in Egypt around 510/1116. <pb n="645" ed="kopf"/>
           </p>
-          <p>When he was in Alexandria he was imprisoned. The Shaikh Sadīd al-Dīn al-Mantiqī told me
+          <p>When he was in Alexandria he was imprisoned. The Shaykh Sadīd al-Dīn al-Mantiqī told me
             about this in Cairo in 632/1234. The reason for the arrest of Abū al-Salt was the
             following. A vessel loaded with copper had arrived in Alexandria and was wrecked close
             by. Nobody could think of a way of raising her because of her lying too deep, but Abū
@@ -3424,7 +3434,7 @@
             the Caliphate of al-Amir bi-Ahkam Allāh and the Vizierate of al-Malik al-Afdal b. Amīr
             al-Juyūsh. <pb n="646" ed="kopf"/>
           </p>
-          <p>I have copied the following from the correspondence of the Shaikh Abū al-Qāsim ʿAlī b.
+          <p>I have copied the following from the correspondence of the Shaykh Abū al-Qāsim ʿAlī b.
             Sulaymān, known as Ibn al-Sairafī, who reported: "I received a note from the Sahikh Abū
             al-Salt while he was in prison, and at the end of it there were two poems in honor of
             al-Afdal's court."</p>
@@ -3678,7 +3688,7 @@
           <p>I have copied the following from a manuscript of Muḥammad b. Aḥmad b. Sālih al- ʿAbdī,
             an Occidental with interest in and opinions on medicine: "Abū al-ʿInā the Egyptian, one
             of Abū al-ʿAlā's teachers and the reason for his leaving Baghdād (but this is another
-            long story), said: 'I was informed about him by the Shaikh, the physician Abū al-Qāsim
+            long story), said: 'I was informed about him by the Shaykh, the physician Abū al-Qāsim
             Hishām b. ʿIsmaʿīl b. Muḥammad b. Aḥmad b. Sāhib al-Salāt, at his house in Seville, may
             God guard it.'"</p>
           <p>One of Abū al-ʿAlā's disciples in medicine was ʿAbū ʿĀmir b. Yannaq, the poet from
@@ -3747,7 +3757,7 @@
             times as Ibn Zuhr had said, and thereupon felt better.</p>
           <p>Following this episode, Ibn Zuhr's position with the Caliph became even more
             exalted.</p>
-          <p>Shaikh Muhyī al-Dīn Abū ʿAbd Allāh Muḥammad b. ʿAlī b. Muḥammad b. al-ʿArabī al-Tāʿī
+          <p>Shaykh Muhyī al-Dīn Abū ʿAbd Allāh Muḥammad b. ʿAlī b. Muḥammad b. al-ʿArabī al-Tāʿī
             al-Hātimī of Murcia told me that Abū Marwān ʿAbd al-Malik b. Zuhr, on his way to the
             palace of the Emir of the Faithful in Seville, near the baths of Abū al-Khair and the
             house of Ibn Mu'mal, would pass by a man with a dangerous tumor and a swollen, yellowish
@@ -3812,7 +3822,7 @@
             good, honest and outspoken. He was the best physician of his time, and his fame spread
             all over Andalusia and beyond.</p>
           <p>The Judge Abū Marwān Muḥammad b. Aḥmad b. ʿAbd al-Mālik al-Bājī of Seville told me that
-            according to what he had heard from the Shaikh, vizier and physician Abū Bakr b. Zuhr,
+            according to what he had heard from the Shaykh, vizier and physician Abū Bakr b. Zuhr,
             the latter had <pb n="661" ed="kopf"/> spent seven years in the company of his
             grandfather ʿAbd al-Mālik al-Bājī, studying with him; under his direction he had read
             Sahnūn's "Selection after the Māliki School" and the Musnad of Ibn Abū Shaiba.</p>
@@ -3825,7 +3835,7 @@
             Yūsuf, the latter's son Abū Yūsuf, surnamed al-Mansūr, and Abū Yūsuf's son Abū ʿAbd
             Allāh Muḥammad al-Nāsir. Abū Bakr b. Zuhr, may God bless him, died at the beginning of
             al-Nāsir's reign, in 596/1199, in Maʿrrākash, which he had come to visit, and was buried
-            there in the place known as the Tombs of the Shaikhs. He was nearly sixty years of
+            there in the place known as the Tombs of the Shaykhs. He was nearly sixty years of
             age.</p>
           <p>The Judge adds that Abū Bakr b. Zuhr had great powers of discernment, was an excellent
             practitioner and prescribed detailed regimes. This was well known. One day, his father,
@@ -3918,7 +3928,7 @@
             ʿImrān, the ascetic from Mertola who lived in Seville, had heard from al-Hafīd himself
             at the end of his life. [A poem follows.] The Judge recited another verse, which he had
             heard from al-Hafīd himself [another poem].</p>
-          <p>The Shaikh Alam al-Dīn Qaisa b. Abū al-Qāsim b. ʿAbd al-Ghani b. Musāfir al-Hanafī the
+          <p>The Shaykh Alam al-Dīn Qaisa b. Abū al-Qāsim b. ʿAbd al-Ghani b. Musāfir al-Hanafī the
             geometrician recited to me these verses of al-Hafīd, which are marvelously original in
             style and full of word play. [An example is quoted. ]</p>
           <p>Of the muwashshahāt [Andalusian songs] of al-Hafīd Abū Bakr b. Zuhr, the following were
@@ -4044,7 +4054,7 @@
             al-Nāsir, also esteemed him greatly. When al-Mansūr was in Cordoba on his way to attack
             Alfonso, in the year 591/1194, he sent for Ibn Rushd. When Ibn Rushd appeared before
             him, the Caliph did him the supreme honor of assigning him the place usually occupied by
-            Abū Muḥammad ʿAbd al-Wāhid, the son of the Shaikh Abū Hafs al-Hintātī, the companion of
+            Abū Muḥammad ʿAbd al-Wāhid, the son of the Shaykh Abū Hafs al-Hintātī, the companion of
             ʿAbd al-Muʿmin, who was the third or fourth of the Ten [followers of Ibn Tumart].</p>
           <p>Abū Muḥammad ʿAbd al-Wāhid was al-Mansūr's son-in-law and was held in great esteem by
             him. The Caliph's daughter bore him a son called ʿAlī, who is now the ruler of Africa.
@@ -4093,7 +4103,7 @@
             <item n="2"> "The Book of Introduction to Religious Law."</item>
             <item n="3"> "The Book for Beginners in Jurisprudence."</item>
             <item n="4"> "The Book of General Principles."</item>
-            <item n="5"> A commentary on the medical poem described to the Chief Shaikh Ibn
+            <item n="5"> A commentary on the medical poem described to the Chief Shaykh Ibn
               Sīnā.</item>
 
             <item n="6"> "A Book of Animals."</item>
@@ -4185,7 +4195,7 @@
             latter's death served his son al-Nāsir, i.e., Abū ʿAbd Allāh Muḥammad b. Yaʿqūb.
             Subsequently, he served al-Nāsir's son Abū Yaʿqūb Yūsuf al-Mustansir b. al-Nāsir. Abū
             al-Hajjāj b. Mūrātīr lived long, held high office and wielded great influence under
-            al-Mansūr. He participated in the sessions of the councilors and shaikhs to discuss
+            al-Mansūr. He participated in the sessions of the councilors and shaykhs to discuss
             questions related to the Arabic language etc. He died of podagra in Marrakesh during the
             reign of al-Mustansir.</p>
         </div>
@@ -4932,7 +4942,7 @@
             expert in the theory, its rules and general aspects of medicine, but he did not practice
             it and had no experience in therapy. His works are full of useful information; he
             possessed a beautiful handwriting and considerable mastery of the Arabic language.</p>
-          <p>The following was related to me by Shaikh ʿAlam al-Dīn Qaisar b. Abi 'l-Qāsim b. ʿAbd
+          <p>The following was related to me by Shaykh ʿAlam al-Dīn Qaisar b. Abi 'l-Qāsim b. ʿAbd
             al-Gānī b. Musāfir al-Hanafī, the geometrician.</p>
           <p>At the beginning of his career, Ibn al-Haitham was in government service in al-Basrah
             and the surrounding district. But because he aspired to meritorious attainments and to
@@ -5023,12 +5033,12 @@
 
         <div>
           <head><persName>Al-Mubashshir bin Fātik,</persName></head>
-          <p> i.e., the Emir Mahmūd al-Dawlah Abū 'l Wafā' al-Mubashshir b. Fātik al-Amirī, was one
+          <p> i.e., the Emir Maḥmūd al-Dawlah Abū 'l Wafā' al-Mubashshir b. Fātik al-Amirī, was one
             of the most eminent emirs and most distinguished scholars of Egypt. He was always busily
             occupied, loved learning and was fond of meeting scholars, debating with them and
             putting to use what he imbibed from them. One of those with whom he associated and from
             whom he learnt a great deal about astronomy and mathematics was Abū ʿAlī Muḥammad b.
-            al-Ḥasan b. al-Haitham. He was also acquainted with Shaikh Abū 'l-Ḥusayn, known as
+            al-Ḥasan b. al-Haitham. He was also acquainted with Shaykh Abū 'l-Ḥusayn, known as
             al-Āmidī under whom he studied many philosophical disciplines. Moreover, he applied
             himself to medicine, keeping company with the physician Abū 'l-Ḥasan ʿAlī b. Ridwān.</p>
 
@@ -5038,7 +5048,7 @@
             containing works by ancient authors. He acquired a huge number of books, many of which
             are still extant, but the color of their leaves has changed owing to immersion in
             water.</p>
-          <p>Shaikh Sadīd al-Dīn al-Mantiq told me in Cairo: "The Emir Ibn Fātik was eager to
+          <p>Shaykh Sadīd al-Dīn al-Mantiq told me in Cairo: "The Emir Ibn Fātik was eager to
             acquire knowledge and possessed a collection of books. On coming home, he spent most of
             his time with them, finding no better occupation than reading and writing and convinced
             that this was the most important pursuit. He had a wife of noble descent like him, of
@@ -5281,7 +5291,7 @@
             <item n="37"> Answers to questions on the pulse which had been forwarded to him from
               Syria.</item>
             <item n="38"> An epistle containing answers to questions on tumors which had been put to
-              him by Shaikh Abū 'l-Tayyib Azhar b. al-Nuʿmān.</item>
+              him by Shaykh Abū 'l-Tayyib Azhar b. al-Nuʿmān.</item>
             <item n="39"> An epistle on the treatment of a youth affected by the ailment called
               elephantiasis.</item>
             <item n="40"> A report by Abū 'l-ʿAskar al-Ḥusayn b. Maʿdan, the ruler of Mukran, about
@@ -5420,7 +5430,7 @@
             their obscure passages. He studied <pb n="719" ed="kopf"/> medicine under Ifrāʿīm,
             practiced it for a time under his supervision and also applied himself, with success, to
             logic and the other philosophical sciences, writing some works in this field. His
-            teacher of logic was the Emir Abū 'l-Wafāʿ Mahmūd al-Dawlah al-Mubashshir b. Fātik. When
+            teacher of logic was the Emir Abū 'l-Wafāʿ Maḥmūd al-Dawlah al-Mubashshir b. Fātik. When
             Abū 'l-Salt ʿUmayya b. ʿAbd al-ʿAzīz b. Abi al-Salt al-Andalūsī came to Egypt from the
             Maghrib, he became acquainted with Salāma b. Rahmūn, and the two engaged in debates and
             controversies. In his "Egyptian Epistle" Ibn Abī al-Salt mentions Salāma among the
@@ -5480,7 +5490,7 @@
         </div>
         <div>
           <head><persName>Ibn al-ʿAinzarbī,</persName></head>
-          <p> i.e., Shaikh Muwaffaq al-Dīn Abū Nasr ʿAdnān b. Nasr b. Mansūr, a native of Anazarba,
+          <p> i.e., Shaykh Muwaffaq al-Dīn Abū Nasr ʿAdnān b. Nasr b. Mansūr, a native of Anazarba,
             stayed for a time in Baghdad, where he applied himself to medicine and the philosophical
             sciences and became proficient in them, especially in astrology. Thereafter he left
             Baghdad and went to Egypt, where he married. He lived in Egypt until his death. In the
@@ -5490,7 +5500,7 @@
             logic and other sciences. He had several disciples, who worked under his supervision and
             each of whom distinguished himself in the medical art. At the beginning of his career,
             he made a living by practicing astrology.</p>
-          <p>My father told me: "A grandson of Shaikh Abū Nasr ʿAdnān b. al-ʿAinzarbī informed me
+          <p>My father told me: "A grandson of Shaykh Abū Nasr ʿAdnān b. al-ʿAinzarbī informed me
             that his grandfather had gained fame in Egypt and came into contact with the caliphs in
             the following way: An envoy from Baghdad who had been acquainted with Ibn al-ʿAinzarbī
             in that city and knew him as a person of wide learning, came to Egypt. While walking
@@ -5531,7 +5541,7 @@
         </div>
         <div>
           <head><persName>Balmuzaffar b. Muʿarraf,</persName></head>
-          <p> i.e., Balmuzaffar Nasr b. Mahmūd b. al Muʿarraf, was a wise and clever man, who
+          <p> i.e., Balmuzaffar Nasr b. Maḥmūd b. al Muʿarraf, was a wise and clever man, who
             applied himself assiduously to the philosophical sciences. He also studied medicine and
             literature and composed poems. He was a disciple of Ibn al-ʿAinzarbī, to whom he
             attached himself for a time, studying under him many of the philosophical and other
@@ -5543,7 +5553,7 @@
             alchemy and was eager to meet its adepts. With his own hand he copied a immense number
             of books on that subject, as well as numerous medical and philosophical books. He was
             most ardent to acquire books and study them.</p>
-          <p>Shaikh Sadīd al-Dīn al-Mantiqī told me that Balmuzaffar had in his house a large room
+          <p>Shaykh Sadīd al-Dīn al-Mantiqī told me that Balmuzaffar had in his house a large room
             whose shelves were crammed with books. In that room, he spent most of his time, writing,
             reading and copying. A noteworthy detail is that among the many thousands of books he
             possessed there was none that did not contain witticisms and anecdotes, relating to the
@@ -5567,10 +5577,10 @@
           </list>
         </div>
         <div>
-          <head><persName>Al-Shaikh al-Sadīd al-Tibb,</persName></head>
-          <p> i.e., al-Qādī al-Ajall al-Sadīd Abū al-Mansūr ʿAbd Allāh b. al-Shaikh al-Sadīd Abū
+          <head><persName>Al-Shaykh al-Sadīd al-Tibb,</persName></head>
+          <p> i.e., al-Qādī al-Ajall al-Sadīd Abū al-Mansūr ʿAbd Allāh b. al-Shaykh al-Sadīd Abū
             al-Ḥasan ʿAlī. His honorific name was Sharaf al-Dīn, but his father's honorific name was
-            so commonly applied to him that he was known by it and al-Shaikh al-Sadīd became, as it
+            so commonly applied to him that he was known by it and al-Shaykh al-Sadīd became, as it
             were his actual name. He was well-versed in the medical art, both in its theoretical
             foundations and in its practical application; he was an experienced therapeutist and a
             fine surgeon. He won great prestige in the service of the Egyptian caliphs and received
@@ -5579,8 +5589,8 @@
             boundles favors on him. He lived long and was reckoned among the elite of the medical
             profession. His father, too, was a court physician to the Egyptian caliphs and gained
             fame under their reign.</p>
-          <p>Qādī Nafīs al-Dīn b. al-Zubair, who had been acquainted with al-Shaikh al-Sadīd and had
-            studied medicine under him, told me as follows: "Al-Shaikh al-Sadīd Raʿīs al-Tibb said
+          <p>Qādī Nafīs al-Dīn b. al-Zubair, who had been acquainted with al-Shaykh al-Sadīd and had
+            studied medicine under him, told me as follows: "Al-Shaykh al-Sadīd Raʿīs al-Tibb said
             to me: 'The first caliph to whom I was introduced and who bestowed his favor on me was
             al-ʿAmīr bi-Ahkām Allāh. It came to pass in this way. My father was a physician in his
             service; he had an established position <pb n="725" ed="kopf"/> with him and enjoyed
@@ -5601,32 +5611,32 @@
             attached to the Caliph's service. The Caliph granted me a monthly allowance, by which I
             was able to support myself as comfortably as I could have wished. In addition, presents
             and monetary awards were constantly showered on me.'"</p>
-          <p>Asʿad al-Dīn ʿAbd al-ʿAziz b. Abi al-Ḥasan told me that al-Shaikh al-Sadīd had once
-            earned 30,000 dinars in a single day by treating one of the Caliphs. Shaikh Nafīs al-Dīn
-            b. al-Zubair told me that when al-Shaikh al-Sadīd appeared before al-Hāfiz bi-Dīn Allāh,
+          <p>Asʿad al-Dīn ʿAbd al-ʿAziz b. Abi al-Ḥasan told me that al-Shaykh al-Sadīd had once
+            earned 30,000 dinars in a single day by treating one of the Caliphs. Shaykh Nafīs al-Dīn
+            b. al-Zubair told me that when al-Shaykh al-Sadīd appeared before al-Hāfiz bi-Dīn Allāh,
             he earned, there and then about 50,000 dinars and even more, in addition to the gold and
             silver articles in the reception room, which were all given to him as presents. The
             caliph liked to do things in the grand manner, and was very generous.  <pb n="726"
               ed="kopf"/></p>
-          <p>Shaikh Rādī al-Dīn al-Rahbī told me as follows: "When al-Muhadhdhab b. al-Naqqāsh, an
+          <p>Shaykh Rādī al-Dīn al-Rahbī told me as follows: "When al-Muhadhdhab b. al-Naqqāsh, an
             excellent physician, came to Syria from Baghdad, he settled in Damascus for a time, but
             was unable to make a living there. Hearing of the munificence of the Egyptian caliphs
             and the favors they bestowed on those repairing to their court, especially scholars and
             professionals, he left for Egypt. On arriving there, he waited for a few days. He had
-            heard of al-Shaikh al-Sadīd, the physician of the caliphs — of his merits, his
+            heard of al-Shaykh al-Sadīd, the physician of the caliphs — of his merits, his
             comfortable life, and his virtues. So he went to his house, greeted him and told him
             what his occupation was. He said that the purpose of his coming was to visit him,
             entrust him with all his affairs and draw from the sea of his knowledge. He promised
             that whatever he received from the caliphs would be considered a favor from him and
-            al-Shaikh al-Sadīd, placed to his credit all his life. Al-Shaikh al-Sadīd received him
+            al-Shaykh al-Sadīd, placed to his credit all his life. Al-Shaykh al-Sadīd received him
             as befits such a person and honored him greatly. Then he asked him: 'How much would you
             like to be paid if you were to stay in Cairo?' Ibn al-Naqqāsh replied: 'O my lord,
             whatever you think fit and whatever you advise will suffice me.' 'Speak straight out,'
-            said al-Shaikh al-Sadīd: 'By Allāh, if a monthly allowance of ten Egyptian dinars were
+            said al-Shaykh al-Sadīd: 'By Allāh, if a monthly allowance of ten Egyptian dinars were
             granted me, I would consider it a great boon.' 'This sum will not ensure your proper
             upkeep. I shall instruct my manager to assign to you fifteen Egyptian dinars every
             month, a room in my neighborhood — fully furnished and equipped — in which you will
-            live, and a beautiful slave girl who will be yours.' Al-Shaikh al-Sadīd then took a
+            live, and a beautiful slave girl who will be yours.' Al-Shaykh al-Sadīd then took a
             sumptuous robe of honor and had b. al-Naqqāsh put it on; then ordered his servant to
             fetch a mule from among his best mounts, and presented him with it. Thus he said to him:
             'The pay will reach you every month, and whatever you need, books or other things, will
@@ -5635,21 +5645,21 @@
             any of the state dignitaries.  <pb n="727" ed="kopf"/>Ibn al-Naqqash agreed to these
             conditions, and nothing changed in his situation as long as he stayed in Cairo.
             Eventually he returned to Syria and lived in Damascus until his death."</p>
-          <p>I say: al-Shaikh al-Sadīd studied medicine under Abū Nasr ʿAdnān b. al-Ainzarbī. He
+          <p>I say: al-Shaykh al-Sadīd studied medicine under Abū Nasr ʿAdnān b. al-Ainzarbī. He
             never ceased to enjoy the esteem of the caliphs, and the reputation he gained with them
             grew steadily, from the time of al-Amir bi-Ahkām Allāh to the last days of al-ʿAdīd
             bi-Allāh. As youth he was, with his father, in the service of al-Amir bi-Ahkām Allāh,
             i.e., Abū ʿAlī al-Mansūr b. Abi al-Qāsim Aḥmad al-Mustaʿlī bi-Allāh b. al-Mustansir.
             When al-Amīr fell in battle — at al-Jazīra, on Tuesday, the 4th of Dhū 'l-Qaʿdah of the
             year 524/1129 after being Caliph for twenty eight years, nine months and a few days —
-            al-Shaikh al-Sadīd entered the service of al-Hāfiz Li-Dīn Allāh, i.e., Abū 'l-Maimūn
+            al-Shaykh al-Sadīd entered the service of al-Hāfiz Li-Dīn Allāh, i.e., Abū 'l-Maimūn
             ʿAbd al-Masīd b. al-Amīr Abū 'l-Qasim Muḥammad b. al-Imām al-Mustansir bi-Allāh, who was
             recognized as sovereign the very day al-Amīr fell in battle. He remained in al-Hāfiz
             li-Dīn Allāh's service until the latter's death, which took place on the 5th of Jumādā
             II in the year 540/1149. Thereafter he entered the service of al-Zāfir bi-Amr Allāh,
             i.e., Abū Mansūr Ismāʿīl b. al-Hafiz li-Dīn Allāh, who was recognized as sovereign on
             the night preceding the 5th of Jumādā II in the year 544/1149, upon his father's death.
-            Al-Shaikh al-Sadīd remained in the service of al-Zāfir bi-Amr Allāh until the latter
+            Al-Shaykh al-Sadīd remained in the service of al-Zāfir bi-Amr Allāh until the latter
             fell in battle on the 29th of Muharram of the year 549/1154. Thereafter he entered the
             service of al-Fāʿiz bi-Nasr Allāh, i.e., Abū 'l-Qāsim ʿĪsā b. al-Zāfir bi-Amr Allāh, who
             was recognized as sovereign on the 30th of Muharram of the year 549. He remained in the
@@ -5657,16 +5667,16 @@
             . [lacuna]. Thereafter he entered the service of al-ʿĀdid li-Dīn Allāh, i.e., Abū
             Muḥammad ʿAbd Allāh b. al-Maulā Abū al-Hāssāji Yūsuf b. al-Imām al-Hāfiz li-Dīn Allāh,
             with whom <pb n="728" ed="kopf"/> he remained until the latter died on the 9th of
-            Muharram, 567/1171, the last Egyptian caliph. Al-Shaikh al-Sadīd thus lived to see and
+            Muharram, 567/1171, the last Egyptian caliph. Al-Shaykh al-Sadīd thus lived to see and
             serve five Egyptian caliphs, during whose reign he received valuable gifts and
             innumerable favors.</p>
           <p>Thereafter, when al-Malik al-Nāsir Salāh al-Dīn Yūsuf b. Ayyūb seized power in Cairo
-            and made himself ruler of the country, al-Shaikh al-Sadīd lost the many favors, the
+            and made himself ruler of the country, al-Shaykh al-Sadīd lost the many favors, the
             lavish gifts and the generous monthly allowance for the rest of his stay in Cairo —
             until he went to Syria — although Salāh al-Dīn would avail himself of his medical
             services and follow his prescriptions and advice more faithfully than those of other
             physicians. He continued as head physician right up to his death.</p>
-          <p>In Cairo, al-Shaikh al-Sadīd resided near Zawīla Gate, in a house which was in a very
+          <p>In Cairo, al-Shaykh al-Sadīd resided near Zawīla Gate, in a house which was in a very
             good state of repair and profusely adorned. During the latter part of his life he was
             visited by a great mishap; his house caught fire and he lost a large quantity of
             furniture, household wares and other belongings. When part of the house had been
@@ -5675,7 +5685,7 @@
           <p>Egyptian gold coins fell down and broke and, in the turmoil of the conflagration and
             destruction, the gold spilled in all directions, before the eyes of the people, some
             coins having been melted by the fire. The damage amounted to thousands of dinars.</p>
-          <p>Qādī Nafīs al-Dīn b. al-Zubair told me that shortly before this event, al-Shaikh
+          <p>Qādī Nafīs al-Dīn b. al-Zubair told me that shortly before this event, al-Shaykh
             al-Sadīd had dreamt that the house in which he lived burnt down. Much perturbed he
             decided to move and actually began to build a new house near the old one. He urged the
             builders to make haste, and when only one room remained to be completed so that the
@@ -5684,24 +5694,24 @@
             Sukr, the Vizier of al-Malik al-ʿĀdil Abū Bakr b. Ayyūb. It is now named after Safī
             al-Dīn.  <pb n="729" ed="kopf"/></p>
           <p>I have copied the following poem from the handwriting of Fahr al-Kutt'ab Hasan b. ʿAlī
-            b. Ibrāhīm al-Guwainī, the secretary. The composed for al-Shaikh al-Sadīd, of whom he
+            b. Ibrāhīm al-Guwainī, the secretary. The composed for al-Shaykh al-Sadīd, of whom he
             was a close and loving friend, comforting him after the destruction of his house and the
             loss of his valuables. [The poem follows].</p>
         </div>
         <div>
           <head><persName>Ibn Jumaiʿ,</persName></head>
-          <p> i.e., al-Shaikh al-Muwaffaq Shams al-Riʿāsa Abū al-ʿAshāir Hibat Allāh b. Zain b.
+          <p> i.e., al-Shaykh al-Muwaffaq Shams al-Riʿāsa Abū al-ʿAshāir Hibat Allāh b. Zain b.
             Hasan b. Ifrāʿīm Yaʿqūb b. Ismāʿīl b. Jumaiʿ, the Israelite, was a famous physician and
             scholar and most distinguished personality. He concerned himself with various sciences
             and acquired a sound knowledge of them, making special efforts to master the medical art
             and becoming a good therapeutist. He was also an excellent writer.</p>
-          <p>He studied medicine under Shaikh al-Muwaffaq Abū Nasr ʿAdnān b. al-ʿAinzarbī, to whom
+          <p>He studied medicine under Shaykh al-Muwaffaq Abū Nasr ʿAdnān b. al-ʿAinzarbī, to whom
             he attached himself for a time. He was born and bred in Fustāt, served al-Malik al-Nāsir
             Salāh al-Dīn Yūsuf b. Ayyūb, gained great prestige during his reign and attained a high
             and influential position with him. Salāh al-Dīn fully trusted in his medical skill, and
             he prepared for him the theriac known as al-Fārūq.</p>
           <p>Ibn Jumaiʿ gave public lectures for those anxious to study medicine with him. He was a
-            man of great ambition. Al-Shaikh al-Sadīd b. Abī al-Bayān told me that he had studied
+            man of great ambition. Al-Shaykh al-Sadīd b. Abī al-Bayān told me that he had studied
             medicine under b. Jumaiʿ; he also said that Ibn Jumaiʿ was himself an assiduous student,
             who had gained supreme mastery of the theory of medicine and excelled in its
             practice.</p>
@@ -5758,7 +5768,7 @@
                 father was Jumaiʿ the Jew, </l><l> But Jumaiʿ the Jew is not your father;</l><l>
                 Rather, your father is [as wicked as] all the Jews together.</l></p></quote>
           <p>From the handwriting of Yūsuf b. Hibat Allāh b. Muslim, I have copied the following
-            poem, in which he eulogizes al-Shaikh al-Muwaffaq b. Jumaiʿ: [The poem follows.]  <pb
+            poem, in which he eulogizes al-Shaykh al-Muwaffaq b. Jumaiʿ: [The poem follows.]  <pb
               n="732" ed="kopf"/></p>
           <p>Ibn Jumaiʿ wrote the following works:</p>
           <list>
@@ -5975,7 +5985,7 @@
           </list>
         </div>
         <div>
-          <head><persName>Al-Shaikh al-Sadīd b. Abī 'l-Bayān.</persName></head>
+          <head><persName>Al-Shaykh al-Sadīd b. Abī 'l-Bayān.</persName></head>
           <p> Sadīd al-Dīn Abū 'l-Fadl Dāʿud b. Abī 'l-Bayan Sulaimān b. Abī 'l-Faraj Isrāʿīl b. Abī
             'l-Tayyib Sulaimān b. Mubārak, was a Karaite Israelite. He was born in Cairo in the year
             556/1751. He was a venerable man with a thorough knowledge of medical theory and
@@ -6015,7 +6025,7 @@
             a most virtuous man of good Arab stock, who gained fame by his achievements and
             excellent character. He bestowed favors and lavished gifts upon high and low.</p>
           <p>He was born and bred in Damascus, studied medicine under the Imām Muhadhdhab al-Dīn b.
-            al-Naqqāsh and Shaikh Radī al-Dīn al-Rahbī and served as a physician to al-Malik
+            al-Naqqāsh and Shaykh Radī al-Dīn al-Rahbī and served as a physician to al-Malik
             al-ʿAzīm ʿUtmān, the son of al-Malik al-Nāsir Salāh al-Dīn, with whom he stayed in
             Egypt. Appointed chief of physicians by al-Malik al-ʿAzīz, he remained in his service
             and enjoyed his favors and numerous gifts until al-Malik al-ʿAzīz died — may Allāh have
@@ -6032,7 +6042,7 @@
             with him, he said: 'Even though you are low yourself, the profession has its honor. You
             should have sat down by his side, while treating his eyes, rather than stand before a
             simple vendor of chick-peas.' The other promised not to do it again and went away."</p>
-          <p>I say: Shaikh Jamāl al-Dīn b. Abi 'l-Hawāfir had a number of disciples who
+          <p>I say: Shaykh Jamāl al-Dīn b. Abi 'l-Hawāfir had a number of disciples who
             distinguished themselves in the medical art. The most talented of these and the one who
             acquired the broadest knowledge was my learned paternal uncle, Rashīd al-Dīn ʿAlī b.
             Khalīfa, may Allāh have mercy upon him.</p>
@@ -6069,7 +6079,7 @@
           <quote><p><l>O camping-place, where, do you think, did the beloved ones go? </l><l> Did
                 they after last meeting with us, turn to Najd or to Tihama?</l></p></quote>
           <p>Qādī Nafīs al-Dīn was born in 555/1160 or 556/1161. He studied medicine at first under
-            b. Shūʿa and later under al-Shaikh al-Sadīd and became a skilled general practitioner;
+            b. Shūʿa and later under al-Shaykh al-Sadīd and became a skilled general practitioner;
             he also mastered ophthalmology and surgery, becoming known especially as an eye-doctor.
             Al-Malik al-Kāmil, the son of al-Malik al-ʿAdil, appointed him chief of the Egyptian
             physicians. He practiced ophthalmology at al-Nasirī Hospital, which was part of the
@@ -6089,7 +6099,7 @@
             he became Chief Qādī of Cairo and its suburbs. He died — may Allāh have mercy upon him —
             in Cairo on Wednesday, the 5th of Ramadan of the year 646/1268, and was buried in the
             al-Karafa Cemetery.</p>
-          <p>Shaikh ʿIzz al-Dīn Muḥammad b. Hasan al-Ganawī al-Darīr al-Irbilī eulogized him in the
+          <p>Shaykh ʿIzz al-Dīn Muḥammad b. Hasan al-Ganawī al-Darīr al-Irbilī eulogized him in the
             following poem:</p>
           <quote><p><l>The finest man in the world has with no one to take his place;</l><l> With
                 the death of al-Khunjī excellence has faded away.</l><l> You were the great
@@ -6878,7 +6888,7 @@
             Ibrāhīm al-Marwazī. He died during the caliphate of al-Rādī, between the years 323/934
             and 329/939. Yuḥannā b. Hīlān and Ibrāhīm al-Marwazī had both studied under a man from
             Marw.</p>
-          <p>In his "Annotations" Shaikh Abū Sulaymān Muḥammad b. Tāhis b. Bahrām al-Sijistānī, says
+          <p>In his "Annotations" Shaykh Abū Sulaymān Muḥammad b. Tāhis b. Bahrām al-Sijistānī, says
             that according to what he heard from Yaḥyā b. ʿAdī, Mattā had studied the "Isagoge" with
             a Christian and the "Categories" and"Hermeneutics" with a man named Rūbīl. The "Book of
             Analogy" he had studied under Abū Yaḥyā al-Marwazī. </p>
@@ -7239,10 +7249,10 @@
             until it was of equal extension as the external surface. After I had perforated the
             stomach and the water had come out, it shrank and the folds of the interior returned to
             their former condition, as did the pylorus. We praised God, not believing our eyes."
-            Shaikh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī told me a story by the following chain of
+            Shaykh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī told me a story by the following chain of
             transmission: Muwaffaq al-Dīn Asʿad b. Ilyās the Metropolitan's son; his father; his
             maternal uncle Abū al-Faraj b. Hayān; Abū al-Karam the physician; his father; his
-            grandfather. The latter said: 'One day, I was accompanying the Shaikh Abū al-Faraj
+            grandfather. The latter said: 'One day, I was accompanying the Shaykh Abū al-Faraj
             al-Yabrūdī when a man stopped him and said, 'O Master, I was in the baths, as is my
             wont, and had my head shaved, and now I find my face all swollen and burning.' We
             examined his face and found that it was swelling and growing redder and redder. The
@@ -7267,7 +7277,7 @@
             version, he gave him an enema, and lo! whatever was there was dislodged and expelled.
             The man opened his eyes, said something, and then went straight back to his shop.</p>
           <p>Al-Yahrūdī died in Damascus in the year 4—/1—- and was buried in the Jacobite church
-            there, near Thomas' Gate. In this connection, Shaikh Muhadhdhab al-Dīn ʿAbd al-Raʿhīm b.
+            there, near Thomas' Gate. In this connection, Shaykh Muhadhdhab al-Dīn ʿAbd al-Raʿhīm b.
             ʿAlī told me a story, by the following chain of transmission: Muwaffaq al Dīn Asʿad b.
             Ilyās the Metropolitan's son; his maternal uncle; the latter's father; ʿAbd Allāh b.
             Rajā b. Yaʿqūb; b. al-Kitānī, who was in charge of the Sultan's affairs in Damascus. The
@@ -7312,7 +7322,7 @@
         </div>
         <div>
           <head><persName>Abū al-Hakam.</persName></head>
-          <p> The wise and learned Shaikh Abū al-Hakam ʿUbayd Allāh b. al-Muzaffar b. ʿAbd Allāh
+          <p> The wise and learned Shaykh Abū al-Hakam ʿUbayd Allāh b. al-Muzaffar b. ʿAbd Allāh
             al-Bāhilī, of Murcia in Andalusia, was distinguished in the philosophical sciences,
             well-versed in medicine, interested in literature and famous for his poetry. He was a
             good conversationalist, had a sense of humor, and loved parties and entertainment. Many
@@ -7362,7 +7372,7 @@
           <p>He then took a mirror and saw the wound which remained under his eyelid from his fall,
             and recited the following verses . . . . . . . .</p>
           <p>He wrote the following poems . . . . . . . .</p>
-          <p>I received his Diwān from Shaikh Shams al-Dīn Abū al-Fadl al-Mitwāʿ the oculist, who
+          <p>I received his Diwān from Shaykh Shams al-Dīn Abū al-Fadl al-Mitwāʿ the oculist, who
             received it from the physician Amīn al-Dīn Abū Zakariyyā Yaḥyā al-Bayāsī, who in turn
             received it from Abū al-Majd, who heard it from his father, Abū al-Hakam himself. A poem
             praising the chief Muʿayyid al-Dīn Abū al-Fawāris b. al-Sūfī: . . . . . . . . . .</p>
@@ -7413,7 +7423,7 @@
             musical instruments. Moreover, he built an organ and mastered it excellently. His
             medical education was directed by his father, among others. He distinguished himself in
             both the theory and practice of medicine. He lived during the reign of the Sultan
-            al-Malik al-ʿĀdil Nūr al-Dīn Mahmūd b. Zanjī — may God have mercy upon him — who honored
+            al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zanjī — may God have mercy upon him — who honored
             and favored him, aware of his great knowledge and virtue. When al-Malik-al-Adre
             established the great hospital, he made him its medical director and granted him a
             salary and allowance. Ābū al-Majd would visit the hospital and treat its inmates.</p>
@@ -7546,19 +7556,19 @@
         </div>
         <div>
           <head><persName>Abū al-Fadl b. Abū al-Waqqār.</persName></head>
-          <p> The honorable, learned Shaikh Abū al-Fadl Ismāʿīl b. Abū al-Waqqār originated from
+          <p> The honorable, learned Shaykh Abū al-Fadl Ismāʿīl b. Abū al-Waqqār originated from
             al-Maʿarra and took up residence in Damascus. He traveled to Baghdād, where he studied
             under the most prominent physicians and met a number of savants to whom he attached
             himself, he then returned to Damascus. He was outstanding in both medical theory and
             practice, very beneficent, of excellent character and behavior — a real sage. He served
-            the Sultan al-Malik al-Adil Nūr al-Dīn Mahmūd b. Zankī, who depended on him as a
+            the Sultan al-Malik al-Adil Nūr al-Dīn Maḥmūd b. Zankī, who depended on him as a
             physician and kept him by his side wherever he went. He favored him greatly and
             presented him with many gifts. Abū al-Fadl died while in Aleppo with al-Malik in the
             first decade of Rabīʿu al-Awwal 554/March 1159.</p>
         </div>
         <div>
           <head><persName>Muhadhdhab al-Dīn al-Naqqāsh.</persName></head>
-          <p> The Shaikh and learned Imām, Abū al-Ḥasan ʿAlī b. Abū ʿAbd Allāh ʿĪsā b. Hibat Allāh
+          <p> The Shaykh and learned Imām, Abū al-Ḥasan ʿAlī b. Abū ʿAbd Allāh ʿĪsā b. Hibat Allāh
             al-Naggāsh <pb n="801" ed="kopf"/> was born and bred in Baghdad. He was well-versed in
             Arabic language and literature and spoke Persian as well. He studied medicine for a
             while under the honorable Amīn al-Dawla Hibat Allāh b. Saʿīd b. al-Tilmīdh. He devoted
@@ -7566,7 +7576,7 @@
             al-Ḥusayn. The Judge ʿUmar b. . . . . . . . [?] of Quraysh transmitted some Hadīth in
             his name in his great collection. Abū ʿAbd Allāh ʿĪsā b. Hibat Allāh b. al-Naqqāsh was a
             textile merchant.</p>
-          <p>In his "Book of Pearls" ʿImād al-Dīn Abū ʿAbd Allāh Muḥammad b. Muḥammad b. Hāmid, the
+          <p>In his "Book of Pearls" ʿImād al-Dīn Abū ʿAbd Allāh Muḥammad b. Muḥammad b. Ḥāmid, the
             Scribe of Isfahān, reproduces a poem which Muhadhdhab al-Dīn dedicated to his father . .
             . . . . . .</p>
           <p>He met Abū ʿAbd Allāh b. al-Naqqāsh in Baghdād, where the latter died on the 20th of
@@ -7579,7 +7589,7 @@
             and convened a general conference of those practicing that profession. Once he went to
             Egypt and stayed in Cairo for a while, but afterwards he returned to Damascus and
             remained there until his death. He served as physician to al-Malik al-ʿĀdil Nūr al-Dīn
-            Mahmūd b. Zanki. He was moreover interested in rhetoric, composing a great number of
+            Maḥmūd b. Zanki. He was moreover interested in rhetoric, composing a great number of
             speeches which he dedicated to Nūr al-Dīn, in whose esteem he ranked high. He wrote
             missives to the inhabitants of the other provinces. For many years he worked in the
             great hospital which was founded in Damascus by al-Malik al- ʿĀdil.</p>
@@ -7617,8 +7627,8 @@
         </div>
         <div>
           <head><persName>Sukra of Aleppo</persName></head>
-          <p> was a minor Jewish Shaikh in Aleppo, a skilled medical practitioner and
-            well-acquainted with drugs. The Shaikh Safī al-Dīn Halīl b. Abū al-Fādil b. Mansūr of
+          <p> was a minor Jewish Shaykh in Aleppo, a skilled medical practitioner and
+            well-acquainted with drugs. The Shaykh Safī al-Dīn Halīl b. Abū al-Fādil b. Mansūr of
             Tanūkh, the scribe of Laodicea, told me the following: When al-Malik al-ʿĀdil was in
             Aleppo, he had a maiden in the castle there of whom he was very fond. Once, that maiden
             became seriously ill. The Sultan had to go to Damscus, but his heart remained with her.
@@ -7669,7 +7679,7 @@
         </div>
         <div>
           <head><persName>Ibn al-Salāh.</persName></head>
-          <p> The Shaikh and learned Imām Najm al-Dīn Abū al-Futūh Aḥmad b. Muḥammad b. al-Sūrī,
+          <p> The Shaykh and learned Imām Najm al-Dīn Abū al-Futūh Aḥmad b. Muḥammad b. al-Sūrī,
             known as Ibn al-Salāh, had both profound and detailed knowledge in the philosophical
             sciences. He was eloquent, expressed himself clearly and wrote wittily. He was also a
             distinguished physician. Ibn al-Salāh was a Persian, originating from Hamadān, and lived
@@ -7678,15 +7688,16 @@
             lived there until his death — may God have mercy upon him — which occurred on a Sunday
             night in the year 540/1145 . . . . . . . . . . He was buried in the tombs of the Sufīs,
             near the River Banyas, outside Damascus.</p>
-          <p>I have copied the following from a manuscript of the Shaikh, the physician Amīn al-Dīn
-            Abū Zakariyā Yaḥyā b. Ismāʿil al-Bayāsī, may God have mercy upon him: The shaikh, the
+            
+          <p>I have copied the following from a manuscript of the Shaykh, the physician Amīn al-Dīn
+            Abū Zakariyā Yaḥyā b. Ismāʿil al-Bayāsī, may God have mercy upon him: The shaykh, the
             learned imām and philosopher Abū al-Futūʿh b. al-Salāh, arrived in Damascus from Baghdad
-            and stayed with the learned Shaikh, the physician Abū al-Fadl Ismaīl b. Abū al-Waqqār.
+            and stayed with the learned Shaykh, the physician Abū al-Fadl Ismaīl b. Abū al-Waqqār.
             Ibn al-Salah wished to obtain some Baghdādi shoes and asked for a man who could make
             some good ones. A man named Saʿdān the Shoemaker was pointed out to him, and he ordered
             shoes from him. When they were ready, Ibn al-Salāh found them too narrow, too long, and
             of bad workmanship, so that he repeatedly decried him, his work and those who bought
-            from him. Shaikh Abū al-Hakam, the physician of the Maghrib, on hearing about this
+            from him. Shaykh Abū al-Hakam, the physician of the Maghrib, on hearing about this
             episode, composed the following jocular poem, in which he used many logical,
             philosophical and geometrical terms . . . . . . . . . . [The long poem follows.]</p>
           <p>Ibn al-Salāh, wrote a treatise on the fourth form — ascribed to Galen — of valid
@@ -7699,8 +7710,8 @@
             lawyer, a great sage of truly orthodox views, and an eloquent stylist. Whoever debated
             with him was defeated by his arguments; whatever subject was explored by him was
             enhanced by his achievements. But his knowledge was greater that his prudence. The
-            Shaikh Sadīd al-Dīn Mahmūd b. ʿAmr told me that Shihāb al-Dīn al-Suhrawardī frequently
-            visited his Shaikh, Fakhr al-Dīn al Māridīnī, and was friendly with him. Shaikh Fakhr
+            Shaykh Sadīd al-Dīn Maḥmūd b. ʿAmr told me that Shihāb al-Dīn al-Suhrawardī frequently
+            visited his Shaykh, Fakhr al-Dīn al Māridīnī, and was friendly with him. Shaykh Fakhr
             al-Dīn used to say to Sadīd al-Dīn, "How gifted, how brilliant this youth is! I have
             never found anyone like him in my generation; but I fear that the combined effect of his
             great rashness and passion and his bad memory will bring about his downfall." Sadīd
@@ -7722,14 +7733,14 @@
             al-Suhrawardī heard this, he realized that he was doomed; he asked to be left in a
             secluded place and be denied food and drink until he met Allāh the Glorious. This was
             done late in the year 586/1190 in the fortress of Aleppo, when he was about thirty-six
-            years old." The Shaikh Sadīd al-Dīn Mahmud b. ʿUmar concludes; "When our master, Fakhr
+            years old." The Shaykh Sadīd al-Dīn Mahmud b. ʿUmar concludes; "When our master, Fakhr
             al-Dīn of Māridīn, heard of his death, he said to us: 'Did I not tell you so, was I not
             worried about him?'"</p>
           <p>Ibn Abū Usaybiʿah continues: "It is said that Sihāb al-Dīn al-Suhrawardī was adept in
             natural magic and performed well authenticated miracles in this field. The physician
             Ibrāhīm b. Abū al-Fadl b. Sadaqa told me that he once met him outside the Gate of Escape
             and they went in the direction of the Great Plain, accompanied by a group of students
-            and others. The conversation turned to that science, its wonders and the Shaikh's
+            and others. The conversation turned to that science, its wonders and the Shaykh's
             knowledge of it. He listened as he walked along, and then exclaimed: 'How beautiful
             Damascus is and how beautiful this place!' We looked and saw in the east high
             whitewashed walls, close to each other and apparently of fine construction. There was an
@@ -7741,26 +7752,26 @@
             When I saw that wonderful sight, I felt as in a trance; my perceptive faculty was not
             the same as usual."</p>
           <p>Some Persian sages told me that when they were once in al-Qābān, on their way from
-            Damascus, in the company of the Shaikh Shihāb al-Dīn, they met a flock of sheep tended
-            by a Turk. They said to the <pb n="808" ed="kopf"/> Shaikh: "O master, we would like one
+            Damascus, in the company of the Shaykh Shihāb al-Dīn, they met a flock of sheep tended
+            by a Turk. They said to the <pb n="808" ed="kopf"/> Shaykh: "O master, we would like one
             of these sheep to eat." He said: "I have ten dirhams, take them and buy a sheep." So we
             bought a sheep from him. As we went on, we were overtaken by the Turk's friend, who
             said: "Give back that sheep and take a smaller one, that man didn't know what he was
             selling you. The sheep you bought is worth the two Persian camels you have, much more
-            than what he took from you as its price." We bargained with him until the Shaikh noticed
+            than what he took from you as its price." We bargained with him until the Shaykh noticed
             it and said: "Take the sheep and go; I shall stay here and settle things with him." We
             went on and he stayed, talking and arguing with the man. After we had walked a little
             further he left him and followed us. The Turk went after him shouting, but he paid no
             attention to him and did not say a word. The Turk finally reached him, in great anger,
             seized his left hand and cried: "Where are you going, leaving me behind?" Suddently the
-            Shaikh's arm came off his shoulder; it was left in the Turk's hand with blood flowing.
-            The Turk almost fainted with astonishment, threw the arm down and ran away. The Shaikh
+            Shaykh's arm came off his shoulder; it was left in the Turk's hand with blood flowing.
+            The Turk almost fainted with astonishment, threw the arm down and ran away. The Shaykh
             returned, picked up the arm with his right hand and rejoined us. The Turk kept looking
-            back at us until he disappeared. When the Shaikh reached us, there was nothing in his
+            back at us until he disappeared. When the Shaykh reached us, there was nothing in his
             right hand but his handkerchief."  </p>
           <p>Safi al-Dīn Hālīl b. Abū al-Fadl the Scribe told me the following in the name of the
-            Shaikh Diyā' al-Dīn b. Saqrar, may God have mercy upon him. In the year 579/1183, the
-            Shaikh Shihāb al-Dīn ʿUmar al-Suhrawardī came to Aleppo and stayed at Halāwiyah College.
+            Shaykh Diyā' al-Dīn b. Saqrar, may God have mercy upon him. In the year 579/1183, the
+            Shaykh Shihāb al-Dīn ʿUmar al-Suhrawardī came to Aleppo and stayed at Halāwiyah College.
             Its rector in those days was the illustrious head of the Hanafiya school, Iftikhār
             al-Dīn, may God bless him. When Shihāb al-Dīn attended a lesson and argued with the
             lawyers, he wore a weasel-skin mantle and carried a ewer and a shepherd's wooden stall.
@@ -7804,7 +7815,7 @@
             sent an assassin to him, and afterwards took revenge upon those who had decided to kill
             him. He seized and imprisoned some of them, humiliated them and confiscated great sums
             of money from them.</p>
-          <p>Sadīd al-Dīn Mahmūd b. ʿOmar, known as b. Ruqaīqa, told me the following: "The Shaikh
+          <p>Sadīd al-Dīn Maḥmūd b. ʿOmar, known as b. Ruqaīqa, told me the following: "The Shaykh
             Shihāb al-Dīn al-Suhrawardī dressed poorly, paid no attention to his appearance, and
             cared nothing for the affairs of this world. We were once strolling together in the
             Mosque of Mayā-Fāriqūn, he wearing a frayed, short upper gown, a kerchief round his
@@ -7876,7 +7887,7 @@
         </div>
         <div>
           <head><persName>Rafīʿ al-Dīn al-Jīlī.</persName></head>
-          <p> The venerable judge and learned Imām, Rafīʿ al-Dīn Abū Hāmid ʿAbd alʿAzīz b. ʿAbd
+          <p> The venerable judge and learned Imām, Rafīʿ al-Dīn Abū Ḥāmid ʿAbd alʿAzīz b. ʿAbd
             al-Wahib b. Ismaʿīl b. ʿAbd al-Hādī al-Jīlī originated from Fīlmān but acquired his
             reputation in al-Gilān. He was pre-eminent in the philosophical sciences, the principles
             of religion, religious jurisprudence, the natural sciences and medicine. He lived in
@@ -7938,7 +7949,7 @@
             and placed it on his head. Upon my question, he said: "This is the script of our master,
             the Imam Fakhr al-Dīn b. al-Hatib of al-Rayy, may Allāh have mercy upon him." I esteemed
             him all the more for the respect he showed toward his master.</p>
-          <p>When Shams al-Dīn of Khosrushāh died, may God have mercy upon him, the Shaikh ʿIzz
+          <p>When Shams al-Dīn of Khosrushāh died, may God have mercy upon him, the Shaykh ʿIzz
             al-Dīn Muḥammad b. Hasan al-Gahawī al-Darīr al-Arbalī composed a eulogy in his honor . .
             . . . . . . . .</p>
           <p>The Commaander Najm al-Dīn al-Labūdf also composed a eulogy on him. . . . . . . . . .
@@ -8021,7 +8032,7 @@
             practice of medicine, peerless in the knowledge and application of its principles, a
             gentle and efficient therapeutist. He was adept in the philosophical sciences, devoted
               <pb n="818" ed="kopf"/> to the literary arts; he studied grammar, language and
-            literature successfully under the Shaikh and Imām Taj al-Dīn Abū al-Yaman Zaid b.
+            literature successfully under the Shaykh and Imām Taj al-Dīn Abū al-Yaman Zaid b.
             al-Ḥasan al-Qindī. Muwaffaq al-Dīn b. al-Mutrān was born and brought up in Damascus. His
             father was also a very competent physician, who roamed the world in quest of virtue. He
             traveled to Byzantium to acquaint himself thoroughly with the principles and different
@@ -8071,8 +8082,8 @@
             his service at the Sultan's palace, with a numerous retinue of horsemen, Turkish slaves
             and others; but when he approached the mosque, he dismounted took the books he was
             studying in his hand or under his arm, let none of the servants accompany him and
-            continued on foot, with the books, to the group of the Shaikh under where he was
-            studying; he greeted the Shaikh and sat among the group, intelligent and quiet, until he
+            continued on foot, with the books, to the group of the Shaykh under where he was
+            studying; he greeted the Shaykh and sat among the group, intelligent and quiet, until he
             finished his lesson and returned to his previous company.</p>
           <p>The governor and honorable judge, Jamāl al-Dīn Abū al-Ḥasan ʿAlī b. Yūsuf b. Ibrāhīm
             al-Qiftī, said that the physician, Muwaffaq al-Dīn Asʿad b. al-Mutrān, a Christian,
@@ -8108,7 +8119,7 @@
             the year 600/1203. They were comfortably off, living under the protection of al-Malik
             al-Zāhir, may God prosper his reign, on allowances that had been awarded to them. She
             died after a while, and I have not heard of the son of ʿUmar since.</p>
-          <p>The Shaikh Muwaffaq al-Dīn b. al-Būrī, the Christian scribe, told me that when al-Malik
+          <p>The Shaykh Muwaffaq al-Dīn b. al-Būrī, the Christian scribe, told me that when al-Malik
             al-Nāsir Salāh al-Dīn Yūsuf b. Ayyūb had conquered al-Kerak, the Christian physician
             Muwallaq al-Dīn Yaʿqūb b. Siqlāb, then a young man, came to Damascus. On his head he
             wore a shawl with a narrow band round it, and he was clad in a long-sleeved
@@ -8151,7 +8162,7 @@
             and went to the hot baths. He honored the youth with an exquisite robe, gave him a mule
             and a saddle, a great quantity of gold and a thousand Egyptian dinars, and then asked
             him to remain in his service. The youth replied: "I cannot, O master, until I have
-            consulted my shaikh, the physician Muwaffaq al-Dīn b. al-Mutrān." "Who is this Muwaffaq
+            consulted my shaykh, the physician Muwaffaq al-Dīn b. al-Mutrān." "Who is this Muwaffaq
             al-Dīn?" — "Why, he is only my brother's servant: You must not leave Sarhad." Upon being
             further pressed, he said: "I must go to my house, and then I will come back." He went
             home, fetched the honorary robe, the money and the rest, and said: "This is what you
@@ -8196,9 +8207,9 @@
           <p>Ibn Usaybiʿah continues: "Ibn al-Mutrān was very virtuous, of noble character, kind
             toward his disciples, to whom he gave books and other gifts. When one of them began to
             practice medicine, he gave him an honorary robe and showed a constant interest in him.
-            His best student was the Shaikh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī, may God have
+            His best student was the Shaykh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī, may God have
             mercy upon him, who studied with him for a long time and accompanied him during the
-            campaign in which Salāh al-Dīn conquered the coastal region. Shaikh Muhadhdhab al-Dīn
+            campaign in which Salāh al-Dīn conquered the coastal region. Shaykh Muhadhdhab al-Dīn
             told me the following story about Ibn al-Mutrān's therapeutical proficiency: "Asad
             al-Dīn Shirkūh, the Governor of Homs, once sent for Ibn al-Mutrān. He went to see him
             with me. When we were on our way, a man afflicted with elephantiasis approached us. His
@@ -8316,7 +8327,7 @@
             writer and excellent poet. He was oculist to the Sultan al-Malik al-Nāsir Salāh al-Dīn
             Yūsuf b. Ayyūb, who esteemed him greatly and bestowed on him a high rank and generous
             emoluments. He continued in this important position, right up to his death.</p>
-          <p>The material connected with him includes a satirical verse that I heard from the Shaikh
+          <p>The material connected with him includes a satirical verse that I heard from the Shaykh
             Najīb al-Dīn Abū al-Fath Allāh b. al-Muzaffar b. ʿUqail al-Saibānī, who knew it by
             heart. He heard it from its author, the Judge ʿAbd al-Raḥīm b. ʿAlī: <pb n="830"
               ed="kopf"/>
@@ -8368,21 +8379,21 @@
             up in Damascus. His father Muḥammad moved from Khurasān to Syria, settled in Damascus
             and died there. He was unique among his generation in the field of chronometry and
             astronomy. It was he who made the clock at the Gate of the Mosque in Damascus. This was
-            during the reign of al-Malik al-ʿĀdil Nūr al-Dīn Mahmūd b. Zankī, from whom Fakhr al-Dīn
+            during the reign of al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zankī, from whom Fakhr al-Dīn
             received many gifts, an allowance and a salary for determining the time. He held this
             office until his death, may God have mercy upon him. He had two sons, one of whom was
             Bahā' al-Dīn Abū al-Ḥasan ʿAlī, the best poet of his generation, whose Dīwān has
             remained famous. He died in Cairo. The other son was Fakhr al-Dīn Ridwān, who was an
             excellent physician and a distinguished literary figure as well. He studied medicine for
-            a while under Shaikh Radiyy al-Dīn al-Rahbi. Keen-witted and sensible, he devoted
+            a while under Shaykh Radiyy al-Dīn al-Rahbi. Keen-witted and sensible, he devoted
             himself with thoroughness to every subject he took up. He studied medicine also under
-            Shaikh Fakhr al-Dīn of Māridīn. When Fakhr al-Dīn arrived in Damascus, he was an expert
+            Shaykh Fakhr al-Dīn of Māridīn. When Fakhr al-Dīn arrived in Damascus, he was an expert
             calligrapher, and also composed poetry. He had a good knowledge of logic and the
-            philosophical sciences, and studied literature with Shaikh Taj al-Dīn al-Kindī in
+            philosophical sciences, and studied literature with Shaykh Taj al-Dīn al-Kindī in
             Damascus. He served al-Malik al-Fā'iz b. al-Malik al-ʿAdil Abū Bakr b. Ayyūb as vizier,
             and al-Malik al-Muʿazzam ʿĪsā b. al-Malik al-ʿAdil as physician and vizier. He was the
             latter's night-time companion and played the lute for him. He cherished and <pb n="832"
-              ed="kopf"/> upheld the medical tradition of the honorable Shaikh Ibn Sīnā. He died of
+              ed="kopf"/> upheld the medical tradition of the honorable Shaykh Ibn Sīnā. He died of
             jaundice in Damascus, may God have mercy upon him. He wrote the following verses . . . .
             . . . . . . and several books including a supplement to Ibn Sīnā's "Book on Colic";
             marginal notes to Ibn Sīnā's al-Qānūn; selected poems; etc. </p>
@@ -8607,7 +8618,7 @@
         </div>
         <div>
           <head><persName>Muwaffaq al-Dīn ʿAbd al-ʿAzīz.</persName></head>
-          <p> The shaikh and learned imam, Muwaffaq al-Dīn ʿAbd al-ʿAzīz b. ʿAbd al-Jabbār b. Abū
+          <p> The Shaykh and learned imam, Muwaffaq al-Dīn ʿAbd al-ʿAzīz b. ʿAbd al-Jabbār b. Abū
             Muḥammad al-Sulamī was pious and benevolent, a lover of beauty, a perfect man and a
             genuine Arab, who cared for the sick, especially the poverty-stricken, whom he visited
             and treated and then sent money for their expenses and provided whatever food and drugs
@@ -8665,10 +8676,10 @@
             he had ever harmed or offended anybody. His father was from al-Hahbah; he too, was a
             good physician and an even better oculist. Kadiyy al-Dīn was born and bred in Jazīrat b.
             ʿUmar, and then lived for a while at Nisivī and al-Rahba. He traveled to Baghdad and
-            other places, practicing medicine and becoming expert in it. In Egypt he met the Shaikh
+            other places, practicing medicine and becoming expert in it. In Egypt he met the Shaykh
             Muwaffaq al-Dīn, known as Ibn Jumaiʿ the Egyptian, and studied under him. He arrived
             with his father in Damascus in 555/1160, during the reign of the Sultan al-Malik
-            al-ʿAdil Nūr al-Dīn Mahmūd b. Zanghī. When they had been there tor several years, his
+            al-ʿAdil Nūr al-Dīn Maḥmūd b. Zanghī. When they had been there tor several years, his
             father died and was buried on Mount Qāsiyun. Radiyy al-Dīn remained in Damascus, keeping
             office for the treatment of the sick; he wrote many books there. After a time, while
             continuing on the same occupation, he studied under Muhadhdhab al-Dīn b. al-Naqqash the
@@ -8689,9 +8700,9 @@
             medicine to many students, many of whom became prominent. These in turn instructed
             others, becoming leading masters of the art. If one were to review the physicians of
             Syria, one would find that all of them studied under either al-Rahbī himself or his
-            disciples. Among his students at the beginning of his career was the Shaikh Muhadhdhab
+            disciples. Among his students at the beginning of his career was the Shaykh Muhadhdhab
             al-Dīn ʿAbd al-Raḥīm b. ʿAlī, who afterwards studied under Ibn al-Mūtrān.</p>
-          <p>The Shaikh Radiyy al-Dīn told me himself that those who had studied with him had all
+          <p>The Shaykh Radiyy al-Dīn told me himself that those who had studied with him had all
             later helped and benefited the people. He named many who were prominent in the medical
             profession, some already dead. He made it a rule never to teach any medical principle to
             Christians or Jews or to persons who were not worthy of it, for he hold the profession
@@ -8757,7 +8768,7 @@
             too weak; he needed richer and coarser food. When he went over to mutton, he produced
             blood sufficiently strong for the requirements of his body, so that his humors became
             balanced and his color normal."</p>
-          <p>Shaikh Radiyy al-Dīn al-Rahbī was born in Jumādā I, 534/1139, in Jazfrat b. ʿUmar. His
+          <p>Shaykh Radiyy al-Dīn al-Rahbī was born in Jumādā I, 534/1139, in Jazfrat b. ʿUmar. His
             last illness broke out on the Feast of Sacrifice in the year 630/1232. He died, may God
             have mercy upon him, on the morning of Sunday, the 10th of Muharram, 631/1233, in
             Damascus, and he was buried on Mount Qāsiyūn. He lived about a hundred years without any
@@ -8784,10 +8795,10 @@
             appearance, character and behavior. He applied himself to the study of books, while his
             soul was forever seeking to acquire virtue. He thoroughly mastered medicine both in its
             general principles and its details. He wrote books on medicine, and annotated medical
-            works written by others. He studied medicine with his father and with Shaikh Muwaffaq
+            works written by others. He studied medicine with his father and with Shaykh Muwaffaq
             al-Dīn ʿAbd al-Latīf b. Yūsuf, of Baghdād, under whose direction he copied many
             scientific books, especially the works of Muwaffaq al-Dīn himself. He also studied
-            literature with Shaikh 'Alam al-Dīn al-Sakhāwī and other scholars, until his knowledge
+            literature with Shaykh 'Alam al-Dīn al-Sakhāwī and other scholars, until his knowledge
             could not be bettered. He was also a skilled poet, but most of all liked to study the
             books of the ancients. He was pure and dignified and did not like to have recourse to
             kings and notables. He worked for a while at the Great Hospital founded by al-Malik
@@ -8838,7 +8849,7 @@
         </div>
         <div>
           <head><persName>ʿAbd al-Latif al-Baghdādi,</persName></head>
-          <p> i.e., Muwaffak al-Dīn ʿAbd al-Latif al-Baghdādi. The Shaikh and illustrious Imām
+          <p> i.e., Muwaffak al-Dīn ʿAbd al-Latif al-Baghdādi. The Shaykh and illustrious Imām
             Muwaffak al-Dīn Abū Muḥammad ʿAbd al-Latīf b. Yūsuf b. Muḥammad b. ʿAlī  b. Abī Saʿd,
             known as Ibn al-Labbād [The son of the feltmaker]. His family hailed from Mosul, but he
             himself was born in Baghdād. He became renowned for his knowledge of various sciences
@@ -8850,21 +8861,21 @@
             in the Hadith with a number of scholars, including Abū 'l-Fath Muḥammad b. ʿAbd al-Bāqī,
             known as Ibn al-Battī, Abū Zarʿah Tāhir b.  Muḥammad al-Maqdisī [of Jerusalem], Abū
             'l-Kasim Yaḥyā b. Thābit al-Wakīl and others.</p>
-          <p>Shaikh Muwaffak al-Dīn's father, Yūsuf, was himself a student of the Hadīth, a
+          <p>Shaykh Muwaffak al-Dīn's father, Yūsuf, was himself a student of the Hadīth, a
             brilliant scholar in Qur'ānic subjects, including the <pb n="850" ed="kopf"/> variant
             readings, and an excellent authority on Shiʿite tenets, on the differences between the
             various schools of Muḥammadan law and on the theoretical foundations of both Muslim
             theology and law. In addition, he had some knowledge of the speculative sciences (in
             contradistinction to the religious disciplines, which are largely dependent upon
-            tradition). Shaikh Muwaffak al-Dīn's paternal uncle, Sulaimān, was an excellent
+            tradition). Shaykh Muwaffak al-Dīn's paternal uncle, Sulaimān, was an excellent
             jurist.</p>
-          <p>Shaikh Muwaffak al-Dīn ʿAbd al-Latīf was a highly industrious person. He never let a
+          <p>Shaykh Muwaffak al-Dīn ʿAbd al-Latīf was a highly industrious person. He never let a
             moment pass without reading, writing or copying. I have seen countless books written in
             his hand, for he used to make several copies of his own works and copied numerous books
             of earlier authors. He was a friend of my grandfather's, and the two men kept close
             company when they lived in Egypt.</p>
           <p>Both my father and my paternal uncle studied belles-lettres under him. My uncle also
-            studied Aristotle with him, for Shaikh Muwaffak was greatly interested in his works and
+            studied Aristotle with him, for Shaykh Muwaffak was greatly interested in his works and
             was anxious to understand them.</p>
           <p>When he had moved from Egypt to Damascus and was staying there for a time, the
             townspeople derived much benefit from his learning. I saw him when he lived in Damascus,
@@ -8880,11 +8891,11 @@
           </p>
 
           <p>"I was born in the year 557 in a house belonging to my grandfather in al-Fālūdhaj Road.
-            While receiving my education from Shaikh Abū al-Najīb, I knew neither leisure nor
+            While receiving my education from Shaykh Abū al-Najīb, I knew neither leisure nor
             amusement. Most of my time was devoted to lessons in the Hadīth. After I had received
             authorizations from professors in Baghdād, Khurāsān, Syria and Egypt, my father said to
             me one day: 'I have had you study with all the luminaries of Baghdād, and now you are,
-            as regards knowledge of the Hadīth, on a par with the old shaikhs.' At the same time, I 
+            as regards knowledge of the Hadīth, on a par with the old Shaykhs.' At the same time, I 
             had also studied calligraphy and learnt the Qur'ān [Thaʿlab's] Fasīh, the Maqāmas [of
             al-Harīrī|], the poetry of al-Mutanabbī and others, a compendium of jurisprudence and a
             compendium of grammar all by heart. When I reached puberty, my father took me to Kamāl
@@ -8901,7 +8912,7 @@
             my lesson, and he would grant me the privilege of explaining it. Then we would leave the
             mosque. On the way, he would talk to me, and when we reached his house, he would take
             out the books that he was studying, and I would listen to him read his lesson and learn
-            it by heart with him. Thereafter we would go to see Shaikh Kamal al-Dīn, and he would
+            it by heart with him. Thereafter we would go to see Shaykh Kamal al-Dīn, and he would
             say his lesson <pb n="852" ed="kopf"/> and explain it while I listened. In this way I
             made so much progress that I eventually surpassed him in both knowledge and
             understanding. The greater part of the night I spent in learning by heart and repeating.
@@ -8928,13 +8939,13 @@
             Dar al-Dhahab, a college built by Fakhr al-Dawlah b. al-Muttalib. <pb n="853" ed="kopf"
             />
           </p>
-          <p>"Shaikh Kamal al-Dīn wrote 130 works, most of them on grammar and some on law, on the
+          <p>"Shaykh Kamal al-Dīn wrote 130 works, most of them on grammar and some on law, on the
             principles of Muslim law and theology, on mysticism and on ascetism. I mastered most of
             his writings through lectures, reading and self-tuition. He had begun to write two large
             works, one on lexicology and the other on law, but was not fortunate enought to be able
             to complete them. Under his guidance I studied part of Sibawaihi's "Kitāb" and devoted
             myself to "al-Muqtadab," which I came to master thoroughly.</p>
-          <p>"After the death of the Shaikh, I occupied myself entirely with Sibawaihi's "Kitāb" and
+          <p>"After the death of the Shaykh, I occupied myself entirely with Sibawaihi's "Kitāb" and
             its commentary by al-Sirafi. Later, I studied a great number of works under b. ʿUbaida
             al-Karkhī, among others the "K. al-'Usūl" of Ibn al-Sarraj, a copy of which was found in
             the waqf [endowment] established by Ibn al-Khashshāb in the al-Ma'munīyyah Hospice. I
@@ -8957,7 +8968,7 @@
             know him. His name was Ibn Tātilī and he claimed descent from the veil-wearers. He had
             left the Maghrib when ʿAbd al-Muʿmin made himself master of that region. When he had
             settled in Baghdād, a number of great scholars and notables frequented him, among them
-            al-Radī al-Qazwini and Shaikh al-Shuyukh b. Sakina. I, too, was one of those who
+            al-Radī al-Qazwini and Shaykh al-Shuyukh b. Sakina. I, too, was one of those who
             cultivated his acquaintance. He taught me the elements of arithmetic and the
             "Introduction to Grammar" by Ibn Babshādh. He had a wonderful way of teaching, and all
             who came to see him thought him a great authority. Actually, he possessed only
@@ -8998,7 +9009,7 @@
             divine secrets.</p>
           <p>"On entering Damascus I found a great number of eminent scholars from Baghdād and
             elsewhere, who had been attracted by Salāh al-Dīn's liberality; they included Jamāl
-            al-Dīn ʿAbd al -Latīf, the son of Shaikh Abū 'l-Najīb, the surviving members of Raʿis
+            al-Dīn ʿAbd al -Latīf, the son of Shaykh Abū 'l-Najīb, the surviving members of Raʿis
             al-Ruʿasa's family, b. Talha the secretary, the household of b. Juhair, the vizier b.
             al-ʿAttār al-Maqtūl and the vizier Ibn Hubaira. I used <pb n="856" ed="kopf"/> to meet
             al-Kindī, the grammarian of Baghdād, and had many discussions with him. He was a
@@ -9015,7 +9026,7 @@
             al-'Alif wal-Lām" [on the definite article], "K.Rubba" [on the use of the word "rubba"
             in grammar], and a book on "essence" and "essential attributes" — terms frequently used
             by the theologians; with the latter I intended to refute the opinions of al-Kindī.</p>
-          <p>In Damascus I met Shaikh ʿAbd Allāh b. Tātilī, who resided in the western tunnel of the
+          <p>In Damascus I met Shaykh ʿAbd Allāh b. Tātilī, who resided in the western tunnel of the
             mosque. Hordes of pupils used to gather round him. People were divided into two factions
             with regard to him. His opponents included the preacher al-Dawlaī, a notable personality
             who enjoyed great prestige and respect. Ibn Tātili eventually committed a serious
@@ -9142,7 +9153,7 @@
             al-Malik al-ʿAzīz achieved nothing. Receiving an attack of colic, he retreated to Marj
             al-Safr, and when he had recovered, I set out to meet him. He permitted me to join him
             on his way back and granted me a pension from the treasury, more than sufficient to meet
-            my needs. I became closely attached to Shaikh Abū 'l-Qāsim, who used to visit me morning
+            my needs. I became closely attached to Shaykh Abū 'l-Qāsim, who used to visit me morning
             and evening until his death. Once when he was seriously ill, suffering from his head to
             his flanks, I advised him to take medicine, but he retorted with two lines of poetry: 
               <pb n="862" ed="kopf"/>
@@ -9158,7 +9169,7 @@
             the death of al-Malik al-ʿAzīz. He had been a noble and courageous young man, modest and
             never unwilling to grant a request. In spite of his youth and vigor, he showed perfect
             restraint in both monetary and sexual matters."</p>
-          <p>The author says: Thereafter Shaikh Muwaffaq al-Dīn stayed on in Cairo for a time,
+          <p>The author says: Thereafter Shaykh Muwaffaq al-Dīn stayed on in Cairo for a time,
             receiving stipends and grants from the sons of Salāh al-Dīn. Egypt was then visited by a
             dearth and an epidemic such as had never been borne before. On these events Muwaffaq
             al-Dīn wrote a book, in which he described most startling happenings that he had either
@@ -9167,7 +9178,7 @@
           <p>Later, when the Sultan al-Malik al-ʿĀdil Saif al-Dīn Abū Bakr b. Ayyub made himself
             master of Egypt, the greater part of Syria and the East, and the sons of his brother
             al-Malik al-Nāsir Salāh al Dīn dispersed having been deprived of their possessions.
-            Shaikh Muwaffaq al-Dīn moved to Jerusalem, where he stayed for a time. There, at al-Aksa
+            Shaykh Muwaffaq al-Dīn moved to Jerusalem, where he stayed for a time. There, at al-Aksa
             Mosque he gave frequent lectures on various sciences and wrote numerous books. Later, in
             the year 604/1207 he went to Damascus, where he lodged at the al-ʿAziziyya College and
             took up teaching and study. He had many pupils, who studied <pb n="863" ed="kopf"/>
@@ -9183,7 +9194,7 @@
             sciences. Muwaffaq al-Dīn remained in his service until the ruler of Erzerum, the Sultan
             Kayqbādh b. Kaykhsarū b. Qalaj Arslān conquered his kingdom. ʿAlā' al-Dīn was taken
             prisoner and was never heard of again.</p>
-          <p>Shaikh Muwaffaq al-Dīn Abd al-Latīf continues: "On the seventeenth day of Dhū-al-Qaʿdah
+          <p>Shaykh Muwaffaq al-Dīn Abd al-Latīf continues: "On the seventeenth day of Dhū-al-Qaʿdah
             of the year 625/1228, I set out for Erzerum, and on the eleventh day of Safar of the
             year 626/1229, I returned to Erzanjan. In the middle of Rabīʿ I, I went to Kamākh, which
             I left for Dabarkī [?] in the month of Jumada I. In the month of Rajab I moved from
@@ -9192,7 +9203,7 @@
             the city's prosperity, amenities and welfare greatly enhanced by the excellent
             administration of the Atabeg Shihāb al-Dīn. The whole population was united in their
             love of him, because he ruled his subjects justly."</p>
-          <p>Shaikh Muwaffaq al-Dīn settled in Aleppo, where he engaged in teaching and wrote many
+          <p>Shaykh Muwaffaq al-Dīn settled in Aleppo, where he engaged in teaching and wrote many
             works. In Shihāb al-Dīn Tughril al-Khādim, the Atabeg of Aleppo, he found an excellent
             patron, so that he could <pb n="864" ed="kopf"/> devote himself to teaching medicine and
             other subjects. He would repair to the Great Mosque of Aleppo to lecture on the Hadīth
@@ -9201,7 +9212,7 @@
             materialize. His books and letters reached us constantly, and he even sent me some of
             his works written by his own hand. </p>
           <p>This is the text of a letter I wrote to him when he was in Aleppo. . . . . . . . . . . </p>
-          <p>In the first letter that Shaikh Muwaffaq al-Dīn ʿAbd al-Latīf sent to my father he
+          <p>In the first letter that Shaykh Muwaffaq al-Dīn ʿAbd al-Latīf sent to my father he
             wrote with reference to me: "The son of the son is more beloved than the son himself. So
             this Muwaffaq al-Dīn [honorific name of Ibn Abū Usaybiʿah], being the son of my son, is
             dearer to me than any other man. Since his earliest youth, his excellence has been
@@ -9608,7 +9619,7 @@
             in 561/1175.</p>
 
           <p>His father was also a renowned physician. Studying medicine under the guidance of
-            Shaikh Radī al-Dīn al-Rahbī, ʿImrān attained distinction in both the theory and practice
+            Shaykh Radī al-Dīn al-Rahbī, ʿImrān attained distinction in both the theory and practice
             of that art and became one of the greatest medical authorities. He gained great prestige
             with kings, who fully relied upon him as to medicinal and clinical treatment and
             rewarded him with countless monetary and other remunerations. He acquired more books on
@@ -9679,9 +9690,9 @@
             omitting anything, and in many <pb n="881" ed="kopf"/> instances had even repeated the
             very words used by Galen, without adding or leaving out a single one. This is a feat
             such as he alone, of all his contemporaries, could boast of.</p>
-          <p>During his stay in Damascus, Muwaffaq al-Dīn frequently met the Shaikh Muhadhdhab
+          <p>During his stay in Damascus, Muwaffaq al-Dīn frequently met the Shaykh Muhadhdhab
             al-Dīn ʿAbd al-Raḥīm b. ʿAlī, in the place assigned to the physicians at the Sultan's
-            residence, and the two would discuss various medical topics. Shaikh Muhadhdhab al-Dīn
+            residence, and the two would discuss various medical topics. Shaykh Muhadhdhab al-Dīn
             had a better diction, was brighter and a more skilled debator, which Yaʿqub was more
             deliberate, expressed himself more lucidly and had more traditional texts at his
             command; for he was, so to speak, in the position of an interpreter who could always
@@ -9708,7 +9719,7 @@
             the observation of stars. He made correct prognoses and gave amazing forewarnings.
             Yaʿqūb told me a great deal about his knowledge of philosophy, his ingenuity and his
             sagacity.</p>
-          <p>In Jerusalem Yaʿqūb also met Shaikh Abū Mansūr al-Nasrānī, a physician, under whom he
+          <p>In Jerusalem Yaʿqūb also met Shaykh Abū Mansūr al-Nasrānī, a physician, under whom he
             studied. He assisted him in his medical practice and profited greatly thereby.</p>
           <p>Yaʿqūb was a most clever, sensible and even-tempered person. While he was in the
             personal service of al-Malik al-Muʿazzam ʿĪsā b. Abī Bakr b. Ayyūb, the latter placed so
@@ -9758,10 +9769,10 @@
             advantages of this art. No one had his knowledge of simple drugs, their nature,
             different names and descriptions, specific properties and effects.</p>
           <p>He was born in 573/1177 in the city of Tyre, He grew up there, but later left his
-            hometown. Studying medicine under Shaikh Muwaffaq al-Dīn ʿAbd al-ʿAzīz and Shaikh
+            hometown. Studying medicine under Shaykh Muwaffaq al-Dīn ʿAbd al-ʿAzīz and Shaykh
             Muwaffaq al-Dīn ʿAbd al-Latīf b. Yūsuf al-Baghdādī, he distinguished himself in this
             art. For some years he resided in Jerusalem, where he practiced in the local hospital
-            and became friendly with Shaikh Abū-al-ʿAbbās al-Jayyānī. The latter was an outstanding
+            and became friendly with Shaykh Abū-al-ʿAbbās al-Jayyānī. The latter was an outstanding
             authority on simple drugs, a versatile scholar and a pious and charitable man. From his
             friendship with him Rashīd al-Dīn was enriched. He learnt from him most of the things he
             knew and made himself so well acquainted with the specific properties of many simple
@@ -9815,7 +9826,7 @@
         </div>
         <div>
           <head><persName>Sadīd al-Dīn b. Raqīqa.</persName></head>
-          <p> Abū 'l-Thanāʿ, Mahmūd b. ʿUmar b. Muḥammad b. Ibrāhīm b. Shujaʿ al-Shaibānī al-Hānawī,
+          <p> Abū 'l-Thanāʿ, Maḥmūd b. ʿUmar b. Muḥammad b. Ibrāhīm b. Shujaʿ al-Shaibānī al-Hānawī,
             known as b. Raqīqa was a man endowed with an excellent character and perfect virtues.
             Having familiarized himself with the medical teachings of the Ancients, scattered over a
             great number of writings, he surpassed all his fellow physicians and healers. Moreover,
@@ -9823,7 +9834,7 @@
             poems, many lines of which became proverbial. As to the Rajaz meter [used for didactic
             poems], I never saw in his time any physician more dexterous than he in using it. He
             could take any medical work and put it into Rajaz meter in a trice, without omitting
-            anything of its contents and retaining beautiful language. He frequented Shaikh Fakhr
+            anything of its contents and retaining beautiful language. He frequented Shaykh Fakhr
             al-Dīn b. ʿAbd al-Salām al-Māridīnī and was closely associated with him, studying
             medicine and other sciences under his guidance. He was also familiar with ophthalmology
             and surgery and, in treating eye diseases, performed many operations with the iron. In
@@ -9844,7 +9855,7 @@
           <p>I have it from Sadīd al-Dīn b. Raqīqa himself that he was born in 564/1168 in the city
             of Hīnī, where he also grew up. When Fakhr al-Dīn al-Māridīnī was staying in Hīnī, the
             ruler of the town, Nūr al-Dīn b. Jamāl al-Dīn b. Artaq, contracted an eye disease.
-            Shaikh Fakhr al-Dīn treated him for a number of days, but then had to leave and
+            Shaykh Fakhr al-Dīn treated him for a number of days, but then had to leave and
             therefore advised Nūr al-Dīn b. Artaq to have himself treated by Sadīd al-Dīn b. Raqīqa.
             The latter cured him within a short time. When he had completely recovered, he allotted
             to Sadīd al-Dīn a monthly salary and a grant in consideration of his services. Sadīd
@@ -9978,13 +9989,13 @@
         </div>
         <div>
           <head><persName>Muhadhdhab al-Dīn Yūsuf b. Abī Saʿīd.</persName></head>
-          <p> The Shaikh and Imām, Master and Vizier Muhadhdhab al-Dīn Yūsuf b. Abī Saʿīd b. Khalaf
+          <p> The Shaykh and Imām, Master and Vizier Muhadhdhab al-Dīn Yūsuf b. Abī Saʿīd b. Khalaf
             al-Sāmirī mastered the science of medicine, distinguished himself in the philosophical
             sciences, devoted himself to the literary arts and attained the supreme degree of
             virtue. He was most benevolent, full of generosity, noble-hearted and sensible. He
             studied medicine with the physician Ibrāhīm al-Samiri, known as "the Sun of physicians,
             " who served al-Malik al-Nasir Saladin Yūsuf. Muhadhdhab al-Dīn also studied with the
-            Shaikh Isma'īl b. Abī al-Waqqār the physician, and Muhadhadhab al-Dīn b. al-Naqqāsh. He
+            Shaykh Isma'īl b. Abī al-Waqqār the physician, and Muhadhadhab al-Dīn b. al-Naqqāsh. He
             studied literature under Tag al-Dīn al-Kindī Abū al-Yaman. In medicine he was
             celebrated, for his therapeutics. The following story may serve as an illustration.</p>
           <p>Sitt al-Shām, the sister of al-Malik al-Adil Abū Bakr b. Ayyūb, was afflicted with
@@ -10015,20 +10026,20 @@
             al-Dīn Farrukhshāh, staying with him in Baʿalbekk. During this ruler's lifetime,
             Muhadhdhab al-Dīn's rank was greatly elevated; he received much money and many favors
             from his master, who used to consult him in his affairs and rely on him in his
-            enterprises, for our shaikh was a man of sound intelligence, vast knowledge and great
+            enterprises, for our Shaykh was a man of sound intelligence, vast knowledge and great
             talent. The ruler, finding his views sound and his aims praiseworthy, finally made him
             his Vizier. Muhadhdhab al-Dīn dedicated <pb n="894" ed="kopf"/> himself to his post; his
             power increased and his importance grew, until he became the actual director of all
             government affairs, all of which were carried out according to his commands and
             prohibitions.</p>
-          <p>This was the subject of the poem composed about him by the Shaikh Shihab al-Dīn
+          <p>This was the subject of the poem composed about him by the Shaykh Shihab al-Dīn
             Fityan:</p>
           <quote><p><l>Al-Malik al-Amjad whose virtue</l><l> was celebrated by all kings,</l><l>
                 Relied on al-Sāmirī to the same extent</l><l> as the latter relied on speed [in
                 treatment]</l></p></quote>
           <p>These two strophes were recited to me by Shams al-Dīn Muḥammad b. Shihāb al-Dīn Fityān,
             who told me that he had heard them from his father.</p>
-          <p>Ibn Abū Usaybiʿah continues: The Shaikh Muhadhadhab al-Dīn's position remained the same
+          <p>Ibn Abū Usaybiʿah continues: The Shaykh Muhadhadhab al-Dīn's position remained the same
             as to power and importance, until the complaints voiced by his own family and his
             Samaritan relatives grew too frequent; for a group of them had come up to him in
             Baʿalbekk from Damascus. He had given them positions everywhere, but they spead only
@@ -10071,13 +10082,13 @@
           </p>
           <p>He remained in the service of al-Malik al-Sālih Ismaʿīl, enjoying extensive powers,
             absolute obedience, and high importance, until al-Malik al-Sālih Najm al-Dīn Ayyub b.
-            al-Malik al-Kāmil conquered Damascus and appointed the Emir Muʿin al-Dīn b. Shaikh
+            al-Malik al-Kāmil conquered Damascus and appointed the Emir Muʿin al-Dīn b. Shaykh
             al-Shuiūkh his delegate there. When he took the city, he gave al-Malik al-Salih Ismaʿīl
             Baʿalbek, where he moved with his family and possessions, in the year 643/1245-6. During
             his Vizierate, Amin al-Dawlah set his mind to collecting money, which he indeed gathered
             for his master al-Malik al-Sālih Ismaʿīl in great sums, by the expropriation of many of
             the citizens of Damascus, with the help of the city's Chief Justice, Rafīʿ al-Dīn
-            al-Jīlī, and his following. When the Emir Muʿīn al-Dīn b. Shaikh al-Shuykh, the Sultan's
+            al-Jīlī, and his following. When the Emir Muʿīn al-Dīn b. Shaykh al-Shuykh, the Sultan's
             delegate in Damascus, the Damascene Vizier Jamāl al-Dīn b. al-Matrūh and the notables of
             the realm became aware of the sums amassed by Amin al-Dawlah, they decided to arrest and
             dispossess him. With this in mind, they prepared a trap: inviting him to their assembly,
@@ -10168,7 +10179,7 @@
             composed in his honor, at the beginning of the year 643/1245. . . <pb n="900" ed="kopf"
             />
           </p>
-          <p>I have copied the following strophes from a manuscript by the Shaikh Muwaffaq al-Dīn
+          <p>I have copied the following strophes from a manuscript by the Shaykh Muwaffaq al-Dīn
             Hibat Allāh Abū al-Qasim b. ʿAbd al-Wahhāb b. Muḥammad b. All the scribe, known as Ibn
             al-Nahhās, written to the master Amīn al-Dawlah, in which he asked him for a manuscript
             promised him by al-Malik al-Amjad, in 627/ 1227. . .</p>
@@ -10186,7 +10197,7 @@
                 expert physician,</l><l> A chief, a master, a skillful doctor, a noble scholar, a
                 great Vizier,</l><l> A gentle savior, a merciful author, bountiful, affectionate,
                 honorable and selfless.</l></p></quote>
-          <p><pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.239"/>An example of Amīn al-Dawlah's own poetry was included in his letter to Burhān al-Dīn,
+          <p><pb ed="mueller-1884" n="2.239"/>An example of Amīn al-Dawlah's own poetry was included in his letter to Burhān al-Dīn,
             the Vizier of the Emir ʿIzz al-Dīn al-Muʿazzamī, in which he sent him his condolences on
             the death of his father, Sharf al-Dīn ʿUmar. . . . <pb n="901" ed="kopf"/>
           </p>
@@ -10211,40 +10222,41 @@
 
         <div>
           <head><persName>Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī</persName></head>
-          <p> was our shaikh, the chief of ministers, the learned and worthy Muhadhdhab al-Dīn ʿAbd
-            al-Raḥīm b. ʿAlī b. Hāmid, known as al-Dikhwār. He was — may Allāh have mercy upon him —
+          <p> was our Shaykh, the chief of ministers, the learned and worthy Muhadhdhab al-Dīn ʿAbd
+            al-Raḥīm b. ʿAlī b. Ḥāmid, known as al-Dakhwār. He was — may Allāh have mercy upon him —
             unique among his generation, peerless in his time, the most learned scholar of his
             epoch, the apogee of medical skill and knowledge, both general and specialized. No one
             matched him in diligence or learning. He tired himself out with work, straining his mind
             in order to gain knowledge, until he surpassed all contemporary physicians and won more
             remuneration and honor from kings than any doctor had ever before. He was born in
-            Damascus and brought up there by his father, ʿAlī b. Hamid, a famous oculist, whose
-            other <pb n="902" ed="kopf"/> son, Hamid b. ʿAlī, took up the same profession. At first,
-            Muhadhadhab al-Dīn was also an oculist, but at the same time he worked as a copyist. His
+            Damascus and brought up there by his father, ʿAlī b. Ḥāmid, a famous oculist, whose
+            other <pb n="902" ed="kopf"/> son, Ḥāmid b. ʿAlī, took up the same profession. At first,
+            Muhadhdhab al-Dīn was also an oculist, but at the same time he worked as a copyist. His
             calligraphy was outstanding. He transcribed many books, of which I have seen a hundred
-            or more, dealing with medicine and other sciences. He worked for the Shaikh Tāj al-Dīn
-            al-Kindī Abū al-Yamān, but constantly endeavored to increase his knowledge by reading
+            or more, dealing with medicine and other sciences. He worked for the al-Shaykh Tāj al-Dīn
+            al-Kindī Abū al-Yaman, but constantly endeavored to increase his knowledge by reading
             and memorizing — a habit he kept up until old age.</p>
-          <p>At the beginning of his medical career, he was introduced to al-Malkī's teachings by
-            the Shaikh Radī al-Dīn al-Rahbī — may Allāh have mercy upon him — and then became a
-            close associate of Muwaffaq al-Dīn b. al-Mutrān, for whom he worked and from whom he
+          <p>At the beginning of his medical career, he was introduced to al-Makī's teachings by
+            the Shaīkh Radī al-Dīn al-Rahbī — may Allāh have mercy upon him — and then became a
+            close associate of Mūwafaq al-Dīn b. al-Mutrān, for whom he worked and from whom he
             learnt the art of medicine. He continued to seek out his company and study his books
-            until he became expert. Afterwards Fakhr al-Dīn al-Madīnī, who came to Damascus in the
+            until he became expert. Afterwards Fakhr al-Dīn al-Mardīnī, who came to Damascus in the
             year 579/1189, instructed him to part of Ibn Sīnā's ʿQānūn," which Fakhr al-Dīn knew and
             comprehended thoroughly.</p>
           <p>Muhadhdhab al-Dīn worked as a physician to al-Malik al-ʿAdil Abū Bakr b. Ayyūb. This
             was because at the beginning of his career he was interested in eye diseases and wished
-            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.240"/>the Great Hospital
-            established by al-Malik al-ʿĀdil Nūr al-Dīn Mahmūd b. Zankī. Later, when he worked with
+            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" n="2.240"/>the Great Hospital
+            established by al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zankī. Later, when he worked with
             al-Mutrān and had become noted for his medical skill, Safī al-Dīn b. Shakr, the vizier
-            of al-Malik al-ʿĀdil b. Ayūb, granted him an allowance, by means of which he was able to
-            practice work and at the same time increase his knowledge and proficiency. He was
-            tireless in the service of the vizier, and the latter, knowing Muhadhadhab's
+            of al-Malik al-ʿAdil b. Ayyūb, granted him an allowance, by means of which he was able to
+            practice work and at the same time increase his knowledge and proficiency. </p>
+
+          <p> He was tireless in the service of the vizier, and the latter, knowing Muhadhadhab's
             professional merits, preferred him to all others. In the month of Shawwal, 604/1207,
             al-Malik al-ʿĀdil said to Ibn Shakr: "We want another doctor besides Muwaffaq al-Dīn
             ʿAbd al-ʿAzīz for attending the troops. This work is not congenial to <pb n="903"
               ed="kopf"/> ʿAbd al-ʿAzīz, so do as he requests." Said b. Shakr: "We have here an
-            excellent physician, named Muhadhdhab al-Dikhwār, who is fit for our master's service."
+            excellent physician, named Muhadhdhab al-Dakhwār, who is fit for our master's service."
             Then he ordered him to comply. When Muhadhdhab al-Dīn appeared before the vizier, the
             latter said to him: "I have recommended you to the Sultan, and you are paid a month for
             your services." But Muhadhdhab al-Dīn said: "My lord: The Doctor Muwaffaq al-Dīn ʿAbd
@@ -10277,7 +10289,7 @@
             which she had anointed herself. The servant told him that his finding was correct,
             marvelled at him and reported the incident to al-Malik al-ʿĀdil; this increased the
             latter's confidence in Muhadhdhab.</p>
-          <p>One of the best anecdotes about Shaikh Muhadhdhab al-Dīn, and one that illustrates his
+          <p>One of the best anecdotes about Shaykh Muhadhdhab al-Dīn, and one that illustrates his
             savoir-faire and loyalty, is the following which was told my by my father. Once,
             al-Malik al-ʿĀdil was very angry with the chief judge, Muhyī al-Dīn b. Zakī al-Dīn, of
             Damascus. He ordered him to be detained in the fortress, demanded from him the sum of
@@ -10285,9 +10297,9 @@
             until the amount was settled. He paid some of the money, but was unable to raise the
             balance. Al-Malik al-ʿĀdil was inexorable, saying: "He must pay the rest, otherwise I
             shall deal very harshly with him." The judge was in dire straits. He sold all his
-            possessions — his household effects, and <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.241"/> even his books. Then he wrote letters to the
+            possessions — his household effects, and <pb ed="mueller-1884" n="2.241"/> even his books. Then he wrote letters to the
             Sultan, using the good offices of many leading personalities, such as al-Shamīs, the
-            court teacher, and Shams al-Khawāss the vizier, asking for the remission of part of the
+            court teacher, and Shams al-Khawās the vizier, asking for the remission of part of the
             amount or to be allowed to pay in installments. But the Sultan remained adamant, and as
             a result, the judge was so worried that he hardly ate or slept and thus almost killed
             himself. At this point, his old friend Muhadhdhab al-Dīn paid him a visit. The judge
@@ -10295,7 +10307,7 @@
             consideration, al-Muhadhdhab said: "I shall do something for you. I hope that, God
             willing, it will be of use." Then he departed. <pb n="905" ed="kopf"/>
           </p>
-          <p>Seriat al-Malik al-ʿAdil, the mother of al-Malik al-Sālih b. al-Malik, was unwell at
+          <p>Serīat al-Malik al-ʿAdil, the mother of al-Malīk al-Sālih b. al-Malīk, was unwell at
             that time. She was of Turkish origin, an intelligent, pious and good woman, very kind
             and generous. When the Doctor Muhadhdhab al-Dīn came to see her in the harem, he
             acquainted her with the case of the judge, his troubles and the unjust treatment meted
@@ -10320,7 +10332,7 @@
             happened to you, why you are so upset?" She said: "O Master, I have had a dream which
             almost frightened to death. I dreamt that it was Doomsday and saw a large crowd of <pb
               n="906" ed="kopf"/> people. In one place, where there was a great fire, people were
-            saying: "This had been prepared for al-Malik al-ʿĀdil because of the injustice he did to
+            saying: "This had been prepared for al-Malīk al-ʿĀdil because of the injustice he did to
             the judge." Then she said: "Have you ever done anything to the judge?" And he, who did
             not doubt her story, became troubled, rose early, called his servants and said to them:
             "Go to the judge and make him happy: give him my regards, ask him to forgive me and tell
@@ -10331,28 +10343,28 @@
             other possessions he had sold be redeemed from the purchasers for the same amount as
             they had paid. Thus relief was brought to the judge after anguish, by minimum effort and
             the subtlest of tactics.</p>
-          <p>In the year 610/1213, when he was in the east, al-Malik al-ʿĀdil became very ill, and
+          <p>In the year 610/1213, when he was in the east, al-Malīk al-ʿĀdil became very ill, and
             Muhadhdhab al-Dīn treated him until he was cured. During that illness, the king paid the
             physician 7,000 Egyptian dinars. In addition, the king's children, some eastern kings
             and others sent him gold, suits of clothes, mule carts, gold neckbands and other
             items.</p>
-          <p>A similar event occurred in the year 612/1215, when al-Malik al-Ādil went to Egypt and
+          <p>A similar event occurred in the year <pb ed="mueller-1884" n="2.242"/>612/1215, when al-Malīk al-Ādil went to Egypt and
             stayed in Cairo. At that time, a dreadful cholera epidemic killed many people. Among
-            those stricken was al-Malik al-Kāmil b. al-Malik al-ʿĀdil, who was the Governor of
+            those stricken was al-Malīk al-Kāmil b. al-Maīlk al-ʿĀdil, who was the Governor of
             Egypt. Muhadhdhab al-Dīn treated him most solicitously until he became well again. This
             time, Muhadhdhab al-Dīn received 12,000 dinars' worth of gold, besides many suits of
             clothes and other splendid gifts, including fourteen mules carrying golden rings and a
             great deal of satin and other kinds of cloth. <pb n="907" ed="kopf"/>
           </p>
           <p>About that time, the Sultan appointed Muhadhdhab al-Dīn chief physician of Egypt and
-            Syria. I was then with my father, who was also in the service of al-Malik al-ʿĀdil.
+            Syria. I was then with my father, who was also in the service of al-Malīk al-ʿĀdil.
             Muhadhdhab al-Dīn was in charge of ophthalmological matters; it was he who decided who
             was qualified to treat eye diseases.</p>
           <p>In the year 614/1217, having learnt of Christian maneuvers near the coast, al-Malik
             al-ʿĀdil went to Syria and stayed at Marj al-Sughr. While he was in a place called
             Manzilat al-Ālekīn, he fell ill and died, may Allāh have mercy upon him. He died in the
             second hour of Friday, the 7th day of Jumādā al-Ākhira, in the year 615/1218.</p>
-          <p>When al-Malik al-Muʿazzam had established his rule over Syria, he wished to employ
+          <p>When al-Malik al-Muʿazam had established his rule over Syria, he wished to employ
             several of those who had served his father, al-Malik al-ʿĀdil, among them the physician
             Rashīd al-Dīn b. al-Surī, who refused. As for Muhadhdhab al-Dīn, he gave him a salary
             and ordered him to live in Damascus, where he was to treat patients at the Great
@@ -10365,6 +10377,7 @@
             others. He admired Galen very much, and whenever someone mentioned anything he had
             written concerning diseases and their therapy or the fundamentals of the medical
             science, he would say: "That is medicine."</p>
+
           <p>He was quick-witted, a clear thinker and a good conversationalist. I accompanied him on
             his rounds at the hospital, thus gaining personal experience. At that time, his
             associate was the eminent physician ʿAmrān. Later, their collaboration became less
@@ -10373,25 +10386,29 @@
           <p>Muhadhdhab al-Dīn was a supremely able medical savant and practitioner, the exponent of
             the most effective cures known in his day. Hence he eventually gained the reputation of
             a wizard.</p>
+          <pb ed="mueller-1884" n="2.243"/>
+          <pb ed="mueller-1884" n="2.244"/>
+          <pb ed="mueller-1884" n="2.245"/>
+          <pb ed="mueller-1884" n="2.246"/>
         </div>
         <div>
           <head><persName>My uncle, Rashid al-Dīn ʿĀlī b. Khalīfa.</persName></head>
-          <p> Abū al-Ḥasan ʿAlī b. Khalīfa b. Yūnus b. Abū al-Qāsim b. Khalīfa, from [the tribe of]
+          <p> Abū al-Ḥasan ʿAlī b. Khalīfa b. Yūnus b. Abī al-Qāsin b. Khalīfa, from [the tribe of]
             Kazraj, the offspring of Saīd b. ʿIbāda, was born in Aleppo in 579/1183. My father was
             born before him, in 575/1179, in Cairo the unconquerable. They both grew up in that
             city, where they also practiced. My gradfather, may he be blessed, was an ambitious man
             who greatly admired virtue and scholarship and was well-versed in the different
-            sciences. He was known as Ibn Abū Usaybiʿah. He used to be in the service of al-Malik
-            al-Nāsir Salahatom Yūsuf b. Ayyūb and his children, and moved to Egypt when that ruler
+            sciences. He was known as Ibn Abī Usaybiʿa. He used to be in the service of al-Malik
+            al-Nāsir Salah Al-Din Yūsuf b. Ayyūb and his children, and moved to Egypt when that ruler
             conquered the land. Among my grandfather's Damascene acquaintances and friends were
-            Jamāl al-Dīn b. Abū al-Hawāfir the physician and Shihāb al-Dīn Aba al-Hajjāj Yūsuf the
+            Jamāl al-Dīn b. al-Hawāfir the physician and Shihāb al-Dīn Abu al-Hajjāj Yūsuf the
             oculist, for my grandfather was born and raised in Damascus, where he also spent many
             years of his life. By the time he met the two aforesaid gentlement in Egypt, my
             grandfather was already raising my father and uncle. He intended to teach them both
-            medicine, in consideration of the nobleness of this profession and the demand for
+            medicine <pb ed="mueller-1884" n="2.247"/>, in consideration of the nobleness of this profession and the demand for
             physicians, knowing that he who mastered its principles would be honored and favored in
             this world and attain the highest rank in the hereafter. </p>
-          <p>So he attached my father and uncle to these two Shaikhs, in order that they might reap
+          <p>So he attached my father and uncle to these two Shaykhs, in order that they might reap
             from their knowledge. My father was entrusted to Abū al-Hajjaj Yūsuf, in order to study
             ophthalmology and learn its practice. Abū al-Hajjāj was then serving as an oculist in a
             hospital in Cairo, not the one situated in the fort, but one located in the market
@@ -10408,7 +10425,7 @@
             blessed, had learned the Qu'rān by heart and perfected his mathematics, all under Taqī,
             he started to study medicine thoroughly under the direction of Jamāl al-Dīn b. Abī
             al-Hawāfir, who was then chief physician of Egypt, under the rule of al-Malik al-ʿAzīz
-            ʿOtmān, the son of al-Malik al-Nāsir Salāh al-Dīn. He studied with him parts of Galen's
+            ʿOthmān, the son of al-Malik al-Nāsir Salāh al-Dīn. He studied with him parts of Galen's
             Sixteen Books, memorizing the whole of the first ones in the shortest time possible. He
             then joined the physicians in their consultations and their rounds of the patients in
             the hospital, learning the different maladies</p>
@@ -10417,45 +10434,38 @@
             hospital.) At the same time he studied ophthalmology with the judge Nafīs al-Dīn b.
             al-Zubair, who was then head of the department in the hospital, and started to practice
             it. He also joined him in initiating a surgical department.</p>
-          <p>The Shaikh Muwaffaq al-Dīn ʿAbd al-Latīf b. Yūsuf the Baghdadian, an intimate friend of
+          <p>The Shaykh Muwaffaq al-Dīn ʿAbd al-Latīf b. Yūsuf the Baghdadian, an intimate friend of
             my grandfather's was staying in Cairo at the time. My uncle studied a little Arabic and
             philosophy with him and they used to discuss Aristotle's books, debating the difficult
             points. My uncle also used to meet and study with Sadīd al-Dīn the Logician, who was a
             great scholar in the philosophical sciences. Before that, he had studied astronomy under
-            Abū Muḥammad b. al-Jaʿdī, an expert <pb n="910" ed="kopf"/> astronomer who was
-            celebrated for his judgments. This shaikh lived at the time of the Egyptian caliphs and
+            Abī Muḥammad b. al-Jaʿdī, an expert <pb n="910" ed="kopf"/> astronomer who was
+            celebrated for his judgments. This shaykh lived at the time of the Egyptian caliphs and
             was considered a favorite of theirs; his father was one of the chief emirs of their
             state.</p>
-          <p>The art of music my uncle studied under the guidance of Ibn al-Daigūr the Egyptian and
-            Safī al-Dīn Abū ʿAlī b. al-Tabbān. He also knew the elite in this field, such as
+          <p>The art of music my uncle studied under the guidance of Ibn al-Dīgūr the Egyptian and
+            Safī al-Dīn Abī ʿAlī b. al-Tabbān. He also knew the elite in this field, such as
             al-Bahā; the great composer, Shihāb al-Dīn al-Naqjūnī, Shujāʿ al-Dīn b. al-Ḥasan the
             Baghdadian and their equals, from which he learnt many Arabic and other melodies. From
             his youth, my uncle devoted all his leisure to study, work and the betterment of his
             soul.</p>
           <p>My grandfather moved back to Syria in 597/1200, when my uncle was about twenty years
             old. He immediately took up practicing medicine and improving his knowledge of it.
-            Shaikh Radīʿ al-Dīn Yūsuf b. Haidara from Rahba, an old friend of my grandfather's, was
-            then staying in Damascus. When he heard of my uncle, saw him at work and realized his
-            virtues, he was happily surprised. My uncle constantly visited his court, studied and
-            discussed medical matters with him. He worked in the hospital built by al-Malik al-ʿAdil
-            Nūr al-Dīn b. Zankī, together with other physicians who were there at the time, such as
-            Muwaffaq al-Dīn b. al-Sirī and Shaikh Muhadhadhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī.
-            Meanwhile he also studied philosophy under Shaikh Muwaffaq al-Dīn Abd al-Latīf b. Yūsuf
-            the Baghdadian, for he too had returned to Syria. There was in Damascus a group of men
-            celebrated for their literary achievements and knowledge of Arabic, such as Zain al-Dīn
-            b. Muʿtā, with whom my uncle studied and practiced, and Tāj al-Dīn Zaid b. al-Ḥasan
-            al-Kindī Abū al-Yaman, who was an old and intimate friend of my grandfather's since the
-            days of ʿIzz al-Dīn Farrukhshāh. My uncle studied with him too and practiced his Arabic.
-              <pb n="911" ed="kopf"/>
-          </p>
+            Shaykh Radīʿ al-Dīn Yūsuf b. Haīdara from Rahba, an old friend of my grandfather's, was
+            then staying in Damascus. <pb ed="mueller-1884" n="2.248"/>When he heard of my uncle, saw him at work and realized his virtues, he was happily surprised. My uncle constantly visited his court, studied and
+            discussed medical matters with him. He worked in the hospital built by al-Malik al-ʿAdil Nūr al-Dīn b. Zankī, together with other physicians who were there at the time, such as
+            Muwaffaq al-Dīn b. al-Saraf and Shaykh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī. Meanwhile he also studied philosophy under Shaykh Muwaffaq al-Dīn Abd al-Latīf b. Yūsuf
+            the Baghdadian, for he too had returned to Syria. There was in Damascus a group of men celebrated for their literary achievements and knowledge of Arabic, such as Zaīn al-Dīn
+            b. Muʿtī, with whom my uncle studied and practiced, and Tāj al-Dīn Zaid b. al-Ḥasan al-Kindī Abī al-Yaman, who was an old and intimate friend of my grandfather's since the
+            days of ʿIz al-Dīn Farukhshāh. My uncle studied with him too and practiced his Arabic. <pb n="911" ed="kopf"/></p>
           <p>Before my uncle was twenty-five years old, he had already mastered all these sciences,
-            becoming an exemplary shaikh in medicine and having his own disciples. He was also
+            becoming an exemplary shaykh in medicine and having his own disciples. He was also
             writing poems and responsa, spoke Persian, knowing all its rules and even composing
             poetry in it, and knew Turkish as well. On Friday the 15th of Ramadān, 605/1208, the
             Sultan al-Malik al-Muʿazzam ʿĪsā b. al-Malik al-ʿĀdil Abū Bakr b. Āyyūb called for him.
             Having conversed with him, he honored and favored him and asked him to stay in his
             service, but difficulties arose because of the Sultan's frequent travels. Some time
-            later, al-Malik al-Amjad Magd al-Dīn Bahrām Shah b. ʿIzz al-Dīn Farrūkhshāh b. Sāhinshāh
+            later, al-Malik al-Amjad Majd al-Dīn Bahrām Shah b. ʿIzz al-Dīn Farūkhshāh b. Shāhinshāh
             b. ʿAyyūb, the governor of Baʿalbekk, heard of him and sent for him and my grandfather,
             whom he had known since his father's time. When they both arrived, he welcomed them,
             treated them most generously and allotted them a good salary, expenses and a high rank.
@@ -10486,9 +10496,9 @@
             in Damascus, but this was not granted. The Sultan granted him a salary and expenses, and
             my father enrolled in his service on the 15th of Dhū al-Hijja 609/1212. He was a
             favorite of his and of all his sons and successors, who relied upon him in all medical
-            matters and treated him with great generosity and perfect deference. He remained in
+            matters and <pb ed="mueller-1884" n="2.249"/>treated him with great generosity and perfect deference. He remained in
             service until the death of al-Malik al-ʿĀdil, may he be blessed, when he was asked to
-            continue in his post by the son and successor in Damascus, al-Malik al-Muʿazzam. The
+            continue in his post by the son and successor in Damascus, al-Malik al-Muʿazam. The
             latter treated him with the same honor and esteem, or even more, as his father had done.
             My father served him from the beginning of Safar 616/1219 until he died, may Allāh have
             mercy upon him, and then was asked by his son, al-Malik al-Nāsir Da'ūd, to stay in his
@@ -10517,7 +10527,7 @@
           <p>I have indeed witnessed many such cases in my father's treatments and also many eye
             diseases which were considered hopeless but which he succeeded in curing. This was
             celebrated in a poem written by one of his grateful patients, namely Shams al-Ārab,
-            i.e., Abū Muḥammad Abd al-Aziz b. al-Nafīs b. Hibat Allāh b. Wahbān al-Sulamī, the
+            i.e., Abū Muḥammad Abd al-Aziz b. al-Nafīs b. Hibat Allāh b. Wahbān al-Silamī, the
             Baghdadian:</p>
           <quote><p><l>Sadīd al-Dīn has such a power in medicine, that he always saves the eyes from
                 mote; </l><l> How often has he banished darkness and guarded the sight from all
@@ -10531,47 +10541,47 @@
             Hospital until he died, may he be blessed, during the night of Thursday, the 22nd of
             Rabīʿ II, 649/1251. He was buried outside the Gate of Paradise, on the way to Mount
             Qāsiyūn. He died during the reign of al-Malik al-Nāsir Yūsuf b. Muḥammad, the ruler of
-            Damascus. As for my uncle, he was staying with al-Malik al-Amjad in Baʿalbekk when
-            al-Malik al-Muʿazzam came there to help him fight his adversaries. When they met
+            Damascus. As for my uncle, he was staying with al-Malik al-Amjad in Baʿlbek when
+            al-Malik al-Muʿazam came there to help him fight his adversaries. When they met
             together, my uncle would keep them company. Now during those days, there was nobody who
-            knew music and the art of the lute better than him, neither was there anyone with a
+            <pb ed="mueller-1884" n="2.250"/>knew music and the art of the lute better than him, neither was there anyone with a
             sweeter voice, so that he touched the souls of his listeners in the same fashion as Abū
-            Nasr al-Fārābī, according to what was said. Al-Malik al-Muʿazzam was greatly impressed
+            Nasr al-Fārābī, according to what was said. Al-Malik al-Muʿazam was greatly impressed
             by him and engaged him in his service, which post he took up on the 1st of Jumiādā I,
             610/1213, receiving a fine salary and expenses.</p>
           <p>Al-Malik al-Muʿazzam showered on my uncle constant favors and presents; he hardly left
             him and relied on him for anything medical. The same can be said for al-Malik al-Kāmil
             Muḥammad and al-Malik al-Ashraf, who both had absolute confidence in him. Whenever one
-            of them came to visit his brother al -Malik al-Muʿazzam, my uncle would keep them
+            of them came to visit his brother al -Malik al-Muʿazam, my uncle would keep them
             constant company and obtain many presents from both rulers. I know of one occasion, when
-            al-Malik al-Kāmil came to visit his brother al-Malik al-Muʿazzam; they were sitting in
+            al-Malik al-Kāmil came to visit his brother al-Malik al-Muʿazam; they were sitting in
             audience in the company of my uncle; that same night, al-Malik al-Kāmil gave my uncle a
             splendid robe of honor and five hundred Egyptian dinars. <pb n="915" ed="kopf"/>
           </p>
-          <p>When al-Malik al-Muʿazzam was in Damascus, he appointed my uncle military scribe,
+          <p>When al-Malik al-Muʿazam was in Damascus, he appointed my uncle military scribe,
             insisting on his acceptance of the post. My uncle could do nothing but obey this order,
             sat on the Divan and received the privates and officers. After a while in his
             secretarial post, he realized that all his time was spent in correspondence and
             calculations, with no leisure left for himself to devote to intellectual and other
             pursuits. He thus asked the Sultan to be released, using the mediation of several of his
             intimates, until he was finally granted his request.</p>
-          <p>In the year 611/1214 al-Malik al-Muʿazzam made the pilgrimage [to Mecca] and my uncle
+          <p>In the year 611/1214 al-Malik al-Muʿazam made the pilgrimage [to Mecca] and my uncle
             went with him. He stayed in his service until the expedition of ʿAmta, in the middle of
             Shaban, 614/1217. The Franks having advanced, the great Sultan al-Malik al-ʿĀdil and his
-            son al-Malik al-Muʿazzam fell into disagreement as to the route which should be
+            son al-Malik al-Muʿazam fell into disagreement as to the route which should be
             followed. My uncle joined the company of al-Malik al-ʿĀdil, who went in the direction of
-            Damascus, while al-Malik al-Muʿazzam turned toward Nablus. Later, my uncle left Damascus
-            In the company of al-Malik al-Nāsir Dā'ud b. al-Malik al-Muʿazzam, but arriving at
-            ʿIglun, he [al-Malik al-Muʿazzam] ordered his son to come back, and they all returned to
+            Damascus, while al-Malik al-Muʿazam turned toward Nablus. Later, my uncle left Damascus
+            In the company of al-Malik al-Nāsir Dā'ūd b. al-Malik al-Muʿazam, but arriving at
+            ʿIglun, he [al-Malik al-Muʿazam] ordered his son to come back, and they all returned to
             Damascus. My uncle then fell ill; his affliction continued for the rest of the year, and
             he found that traveling was injurious to him; in fact, by nature he was inclined to
             solitude and the peaceful study of books.</p>
           <p>On the 5th of Muharram, 615/1218 he was summoned by al-Malik al-ʿĀdil Abū Bakr b.
             Ayyūb, who had heard of his achievements and perfect conduct. He assigned him the post
             of chief physician in the two hospitals of Damascus built by al-Malik al-ʿĀdil Nūr
-            al-Dīn Mahmud b. Zengī. From then on, he used to frequent these two hospitals and the
+            al-Dīn Mahmud b. Zenkī. From then on, he used to frequent these two hospitals and the
             fort, enjoying a salary and expenses. He was also paid as the personal physician of Sitt
-            al-Sī'am, the sister of al-Malik al-ʿAdil, whom he would attend at her palace. <pb
+            al-Sā'am, the sister of al-Malik al-ʿAdil, whom he would attend at her palace. <pb
               n="916" ed="kopf"/>
           </p>
           <p>Having settled in Damascus, he established a public school where he could teach
@@ -10579,30 +10589,30 @@
             profession. At that time he used to meet with ʿAlam al-Dīn Qaisar b. Abū al-Qāsim b.
             ʿAbd al-Gānī, who was unique in his generation for his knowledge of the mathematical
             sciences. My uncle studied astronomy under him and became an expert in no time. One day,
-            when ʿAlam al-Dīh was at my uncle's house teaching him some astronomical figures, he
-            said to him in my presence: "O, Rashid al-Dīn, by Allāh, what you have learnt in about
+            when ʿAlam al-Dīn was at my uncle's house teaching him some astronomical figures, he
+            said to him in my presence: "O, Rashīd al-Dīn, by Allāh, what you have learnt in about
             one month would take others five years of effort to master."</p>
           <p>While in Damascus, my uncle also used to frequent the illustrious and learned Imām, the
-            Shaikh of shaikhs, Sadr al-Din b. Hamawaihi. This person initiated him to Sufism on the
+            Shaykh of shaykhs, Sadr al-Din b. Hamawaihi. This person initiated him to Sufism on the
             20th of Ramadān, 615/1218. The following is the text of the inscription attached to his
             sufi garment, in which he was clad on that day: "In the name of Allāh the Merciful and
-            Compassionate; the illustrious Mollah, noble and learned Imām, Shaikh of shaikhs, Sadr
+            Compassionate; the illustrious Mollah, noble and learned Imām, Shaykh of shaykhs, Sadr
             al-Dīn, the living proof of Islam and standard of monotheism, Abū al-Ḥasan Muḥammad, the
-            son of the illustrious Imam and noble scholar, Shaikh of shaikhs Imad al-Dīn Abū Hafs
-            ʿUmar b. Abd al-Ḥasan b. Muḥammad b. Hamawaih, may God maintain his support forever,
-            herewith endows kindly his devotee ʿAlī b. Halīfa b. Yonus from the tribe of Chazrag the
+            son of the illustrious Imam and noble scholar, Shaykh of shaykhs Imad al-Dīn Abū Hafs
+            ʿUmar b. Abū al-Ḥasan b. Muḥammad b. Hamawaih, may God maintain his support forever,
+            herewith endows kindly <pb ed="mueller-1884" n="2.251"/> his devotee ʿAlī b. Khalīfa b. Yūnus from the tribe of Chazrag the
             Damascene, may Allāh make him succeed in his devotions, with the Sufi garment."</p>
-          <p>While dressing him in it, the shaikh told my uncle that he had received that robe from
+          <p>While dressing him in it, the shaykh told my uncle that he had received that robe from
             his above-mentioned father, may he be blessed, and that his father had gotten it from
-            his father, the shaikh of Islam Muʿīn al-Dīn Abū ʿAbd Allāh Muḥammad b. Hamawaihi, may
+            his father, the shaykh of Islam Muʿīn al-Dīn Abū ʿAbd Allāh Muḥammad b. Hamawaih, may
             Allāh bless him. He was given it by the prophet Elijah, may he rest in peace, who in
             turn received it from the Apostle of God himself, may Allāh bless him and give him
-            peace. The shaikh added that his grandfather was connected to the Prophet also by
-            another chain of celebrated sufīs, that is: Shaikh Abū ʿAlī(W)al-Farandi al-Tūsī, the
-            shaikh of his generation <pb n="917" ed="kopf"/> Abū al-Qāsim al-Karākānī, the master
-            and Imām Abū ʿUthmān al-Magribi; the shaikh of the community ʿAbd ʿAmru al-Zagāgī; the
-            chief ofthe congregation al-Jūnaid b. Muḥammad; his maternal uncle Sarī al-Saqatī;
-            Maʿrūf al-Karh. ʿAlī b. Mūsā al-Rida, may he be blessed (this Maʿrūf accompanied ʿAlī b.
+            peace. The shaykh added that his grandfather was connected to the Prophet also by
+            shaykh of his generation <pb n="917" ed="kopf"/> Abū al-Qāsim al-Karakānī, the master
+            and Imām Abū ʿUthmān al-Maġribi; the shaykh of the community ʿAbd ʿAmru al-Zajājī; the
+            another chain of celebrated sufīs, that is: Shaykh Abū ʿAlī al-Farandi al-Tūsī, the
+            chief ofthe congregation al-Jūnaīd b. Muḥammad; his maternal uncle Sarī al-Saqatī;
+            Maʿrūf al-Karhī. ʿAlī b. Mūsā al-Rida, may he be blessed (this Maʿrūf accompanied ʿAlī b.
             Mūsā, served him and was instructed by him); Mūsā b. Jaʿfar al-Kāzim; Jaʿfar b. Muḥammad
             al-Sadīq; Muḥammad b. ʿAlī al-Bāqir; ʿAlī b. al-Husain Zain al-ʿĀbidīn; al-Husain b.
             ʿAlī; ʿAlī al-Bāqir; ʿAlī b. al-Ḥusayn Zain al-ʿĀbidīn; al-Ḥusayn b. ʿAlī(W) al-Bāqir:
@@ -10616,7 +10626,7 @@
             blessings, as it did upon all those who had been honored by it. This event took place on
             the 20th of Ramadān, 615/ 1218 in Damascus the well-protected. The robe was thrown on
             the aforesaid, may Allāh lead him to success, accompanied by the above-quoted lines,
-            written by the hand of the Mollah Sadr al-Dīn, the Shaikh of shaikhs, Ibn Hamawaih Abū
+            written by the hand of the Mollah Sadr al-Dīn, the Shaykh of shaykhs, Ibn Hamawaih Abū
             al-Ḥasan b. ʿUmar b. Abū al-Ḥasan b. Muḥammad, who wrote them during the month of
             Ramadān, 615/ 1218, praising God and praying for his apostle, asking pardon for his
             sins.</p>
@@ -10645,7 +10655,7 @@
           <p>Speak the truth, for a lie belittles a man in his own eyes even more than in the eyes
             of others.</p>
           <p>Be patient and you will be thanked and honored, for hatred brings anguish and leads to
-            enmity and evil, just as envy does.</p>
+            enmity <pb ed="mueller-1884" n="2.252"/>and evil, just as envy does.</p>
           <p>Avoid evil men and you will spare yourself their harm;</p>
           <p>Avoid the rulers of this world and you will spare yourself the company of evil men, <pb
               n="919" ed="kopf"/>
@@ -10679,7 +10689,7 @@
             you, although your wish to stay alive another day is stronger than your fear to die this
             same night; so you should be reconciled to persevere in those things which might benefit
             you after your departure. Dixi."</p>
-          <p>3. "Respect the shaikhs, even though they may not answer your questions, for their
+          <p>3. "Respect the shaykhs, even though they may not answer your questions, for their
             silence might be broken later; perhaps it was due to weariness, or to the fact that it
             was none of your business, or to their knowledge of your incapability of understanding
             the answer; keep in mind that the benefit you might derive from them is incomparably
@@ -10714,7 +10724,8 @@
           <p>12. "When you know of many remedies to a single disease, choose the best one for every
             stage of it."</p>
           <p>13. "Maladies have their own life-spans, and remedies need the help of Fate; medicine
-            is largely mere conjecture and suppositions, which sometimes contain a grain of truth;
+            is largely mere conjecture <pb ed="mueller-1884" n="2.253"/>
+            and suppositions, which sometimes contain a grain of truth;
             success here is the reward of good measure and experimentation, not of sophistry and
             excess; the purpose of medicine is the preservation of health when it is good and its
             recovery when it has been lost; these two [achievements] are the mark of a sound mind
@@ -10790,7 +10801,7 @@
             with their evil."</p>
           <p>45. "First fix your scales, then weigh."</p>
           <p>46. "When you come to possess a material mind, then you are a true man, in absolute
-            terms."</p>
+            terms." <pb ed="mueller-1884" n="2.254"/></p>
           <p>47. "Trust your knowledge when no objection can impair it."</p>
           <p>48. "How wonderful is unanimous opinion!"</p>
           <p>49. "How wonderful is analogous opinion!"</p>
@@ -10860,9 +10871,9 @@
           <p>75. "Make your soul stronger than your body."</p>
           <p>76. "Improve the quality of your food and reduce its quantity."</p>
           <p>77. "Give your body enough food to maintain its strength; beware of surpassing it, but
-            increase the nourishment of your soul."</p>
+            increase the nourishment of your soul."  </p>
           <p>78. "The nourishment of the soul is gradual study; you should start with small and easy
-            portions and proceed slowly, until the soul grows stronger and used to difficulties;
+            <pb ed="mueller-1884" n="2.255"/>portions and proceed slowly, until the soul grows stronger and used to difficulties;
             when it becomes thus skilled, it will crave for more and everything will be easy for
             it." <pb n="927" ed="kopf"/>
           </p>
@@ -10871,7 +10882,7 @@
           <p>80. "As long as you cannot bear solitude you are compelled to live with people."</p>
           <p>81. "Associate people in what gives them pleasure, but do not forsake the nearness of
             God."</p>
-          <p>82. "A man wrote to his shaikh complaining of difficulties in his affairs. His shaikh
+          <p>82. "A man wrote to his shaykh complaining of difficulties in his affairs. His shaykh
             wrote back saying; "You will never be saved from what you hate if you do not give up
             many a thing you love, and you will not reach the object of your love unless you learn
             to bear many a thing you hate. Dixi."</p>
@@ -10886,7 +10897,7 @@
           <p>88. "Take from everything that which may guide you toward the goal at which it is
             aimed."</p>
           <p>89. "Do not trust anything you get by chance."</p>
-          <p>90. "Submit yourself to men, and especially to the ulemas and shaikhs [religious
+          <p>90. "Submit yourself to men, and especially to the ulemas and shaykhs [religious
             doctors and spiritual masters], and do not despise anybody; for the scholar frequently
             conceals his knowledge in order to select his spiritual heir, just as the farmer selects
             his land."</p>
@@ -10895,7 +10906,7 @@
 
           <p>92. "Study intensively the divine books of revelation, for they contain all
             wisdom."</p>
-          <p>93. "Associate much with the shaikhs, for you will always benefit either from their
+          <p>93. "Associate much with the shaykhs, for you will always benefit either from their
             knowledge or from their way of life."</p>
           <p>94. "If you observe the virtuous both in movement and at rest, you will find there much
             wisdom."</p>
@@ -10932,9 +10943,12 @@
             a danger."</p>
           <p>112. "I wish I knew how to excuse myself for the things I know and have not done; I
             hope Allāh the Omnipotent will forgive me."</p>
-
-          <p>[There follow samples of his poetry, as told to the author.]</p>
-          <p>My uncle Rāshid al-Dīn ʿAlī al-Halīfa wrote the following books:</p>
+          <p>[There follow samples of his poetry, as told to the author.]</p>          
+          <pb ed="mueller-1884" n="2.256"/>
+          <pb ed="mueller-1884" n="2.257"/>
+          <pb ed="mueller-1884" n="2.258"/>
+          <pb ed="mueller-1884" n="2.259"/>
+          <p>My uncle Rashīd al-Dīn ʿAlī al-Khalīfa wrote the following books:</p>
           <list>
             <item n="1"> A useful abridgment of the science of mathematics; four treatises,
               dedicated to al-Malik al Amjad the ruler of Baʿalbekk, presented in Safar, 608/1211,
@@ -10949,17 +10963,14 @@
               are easily accessible and known to all.</item>
             <item n="5"> A treatise on the relationship and parallelism of the pulse to muscular
               rhythms.</item>
-            <item n="6"> A treatise on the genesis of mountains; dedicated to al Malik
+            <item n="6"> A treatise on the genesis of mountains; dedicated to al-Malik
               al-Amjad.</item>
             <item n="7"> "On the Elements."</item>
             <item n="8"> "Notes and Experiments in Medicine." <pb n="930" ed="kopf"/>
             </item>
-          </list>
-        </div>
-        <div>
-          <head><persName>Badr al-Dīn,</persName></head>
+          </list></div><div><head><persName>Badr al-Dīn,</persName></head>
           <p> the son of the Judge of Baʿalbekk. The illustrious physician and accomplished scholar
-            Badr al-Dīn al -Muzaffar, the son of the judge and learned Imām Magd al-Dīn Abd
+            Badr al-Dīn al-Muzaffar, the son of the judge and learned Imām Majd al-Dīn Abd
             al-Raḥmān b. Ibrāhīm was the son of the Judge of Baʿalbekk. He grew up in Damascus,
             where he studied medicine. An indescribable amount of precious knowledge, extreme
             intelligence and manly valor was. imbued into his soul by God the Omnipotent. He studied
@@ -10970,24 +10981,24 @@
             the other students, for he never ceased to increase his knowledge, improve his
             scholarship and deepen his understanding. He knew many medical books and philosophical
             works by heart. The following story, to which I myself was a witness, may serve as proof
-            of his high ambition and fine character. The shaikh Muhadhdhab al-Dīn ʿAbd al-Raḥīm ʿAlī
+            of his high ambition and fine character. The shaykh Muhadhab al-Dīn ʿAbd al-Raḥīm ʿAlī
             had composed a treatise on vomiting. Each of his disciples studied it with him but Badr
             al-Dīn learnt it by heart and recited it from memory, without referring to the text,
-            from beginning to end. For this the shaikh esteemed him highly. Our physician was
-            attached to this shaikh, assiduously reading and studying under his guidance.</p>
-          <p>In the year 622/1225, when Shaikh Muhadhdhab al-Dīn traveled to the East in order to
+            from beginning to end. For this the shaykh esteemed him highly. Our physician was
+            attached to this shaykh, assiduously reading and studying under his guidance.</p>
+          <p>In the year 622/1225, when Shaykh Muhadhdhab al-Dīn traveled to the East in order to
             join the service of al-Malik al-Ashraf Mūsā b. al-Malik al-ʿĀdil, he was accompanied by
             Badr al-Dīn, who continued to study with him. Later, Badr al-Dīn worked at the hospital
             of al-Raqqa and composed a fine treatise on the weather, conditions and predominant
             characteristics of this locality. He stayed in al-Raqqa for many years and studied
             philosophy under Zain al-Dīn the blind, may he be blessed, who was a master in the <pb
               n="931" ed="kopf"/> philosophical sciences. He then returned to Damascus, When
-            al-Malik al-Gawwād Muzaffar al-Dīn Yūnus b. Shams al-Dīn Mamdūd b. al-Malik al-ʿĀdil
+            al-Malik al-Gawād Muzaffar al-Dīn Yūnus b. Shams al-Dīn Mamdūd b. al-Malik al-ʿĀdil
             conquered Damascus in the year 635/1237, he called Badr al-Dīn to his service. The
             latter became a favorite, enjoying an important position in the government. The Sultan
             relied upon him in all medical matters and appointed him chief of all the physicians,
-            oculists and surgeons, to which effect he gave him a written certificate in the month of
-            Safar 637/1239.</p>
+            oculists and surgeons, to which effect he gave him a written <pb ed="mueller-1884" n="2.260"/>
+            certificate in the month of Safar 637/1239.</p>
           <p>Badr al-Dīn revived the long-forgotten virtues of medicine and instilled new life into
             its neglected merits by his continuous desire for doing good and his ceaseless concern
             for the general weal. The achievement which I now relate is the one I find the most
@@ -11000,7 +11011,7 @@
             best way, plastered them and installed running water in them, so that the hospital was
             improved by this most noble deed.</p>
           <p>Still he did not give up teaching medicine and also served as a physician in the fort
-            of Damascus, at the "happy palace," treating the royal family of al-Malik al-Sālih Najm
+            of Damascus, at the "happy palace," treating the royal family of al-Malik al-Sālāh Najm
             al-Dīn Ayyūb b. al-Malik al-Kāmil and others who took refuge there, frequenting the
             hospital from time to time and practicing there as well. This ruler also gave him a
             written certificate, appointing him head physician, in the year 645/1247. Badr al-Dīn
@@ -11011,11 +11022,11 @@
           </p>
           <p>The following story may illustrate his high ambition and nobility of soul. He devoted
             himself to the science of religious law, spending much of his time in a room in the
-            madrassa named Qiligiya, which was built by the Emir Saif al-Dīn b. Qilig, may he be
+            madrassa named Qiligiya, which was built by the Emir Saīf al-Dīn b. Qilij, may he be
             blessed, which was adjacent to his house. He studied books on jurisprudence and the
             literary arts, learnt the Qur'ān by heart to perfection and came to know its
             commentaries and modes of reading so well that he was considered an authority in the
-            field. His master was the shaikh and Imām Shihāb al-Dīn Abū Shama, may Allāh bless him.
+            field. His master was the shaykh and Imām Shihāb al-Dīn Abū Shama, may Allāh bless him.
             Badr al-Dīn's sole interest lay in worship and religion and in being of assistance to
             other muslims.</p>
           <p>The fame of his nobility, generosity and kindness was continuously reaching my ears,
@@ -11026,7 +11037,7 @@
             "The Soul-Cheerer, the originator of joy and happiness." In this book he surpassed
             former scholars, preceded all other physicians and philosophers, liberated anguished
             hearts and became the unquestionable leader in his lofty rank, with nobody to vie for
-            his perfection and mastership. He is our lord, the shaikh of our times and the example
+            his perfection and mastership. He is our lord, the shaykh of our times and the example
             of our generation. May God render his life full of happiness and fill the earth with his
             writings, so that many will be able to benefit by them!</p>
           <p>In the same epistle I included the following verses, addressed to him
@@ -11037,7 +11048,8 @@
                 pulse,</l><l> An expert in curing, not by guesswork, but by sound knowledge;</l><l>
                 From Hippocrates and "the old master," from the Greeks and Persians [he got his
                 art];</l><l> How many are those whom he has restored to health, saving them from the
-                contrary!</l><l> His opinion is loftier than that of Qais and his style more perfect
+                contrary!</l><pb ed="mueller-1884" n="2.261"/>
+                <l> His opinion is loftier than that of Qais and his style more perfect
                 than that of Quss;</l><l> Indeed he presented my heart with his book "The
                 Soul-Cheerer,"</l><l> A book which leads us into the world of holiness,</l><l> The
                 light of its import shines in the darkness of my soul.</l><l> How beautiful is the
@@ -11055,7 +11067,7 @@
             all his envious enemies; may happiness reside always in his home and may tongues never
             cease singing his praise in harmony. The mamluk [Ibn Abū Usaybiʿah uses this term here
             in reference to himself] ends [his <pb n="934" ed="kopf"/> epistle] by expressing his
-            great longing to serve Badr al-Dīn. Had he the eloquence of the master shaikh together
+            great longing to serve Badr al-Dīn. Had he the eloquence of the master shaykh together
             with Galen's prosy style, he still would have been unable to describe the depth of his
             yearnings and the magnitude of his suffering because of the separation. He prays to God
             the Omnipotent to facilitate their prompt meeting and make it good and beneficial. When
@@ -11076,6 +11088,7 @@
             deeds and the marks of superiority proved his virtues and nobility. May God the
             Omnipotent aid him in his new post and help him in everything he does now and in the
             future, if he so wishes!"</p>
+            <pb ed="mueller-1884" n="2.262"/>
           <p>The following verses are part of a poem which I addressed to him in the year
             645/1247:</p>
           <quote><p><l>I wrote with unreined passion, with an extreme delight that grew constantly
@@ -11102,7 +11115,7 @@
             his benevolence; may he fulfill all our master's passions and desires, which cannot be
             fathomed by words or put down on paper.</p>
           <p>As to the mamlūk, he relies on the master's vast knowledge, sincere love and
-            friendliness and his boundless devotion to his followers and <pb n="936" ed="kopf"/>
+            friendliness and his boundless devotion <pb ed="mueller-1884" n="2.263"/> to his followers and <pb n="936" ed="kopf"/>
             companions. The mamluk has received the epistle of the mamlūk's father with the good
             news, which filled his heart with joy and his soul with delight. Now he knows of the
             master's appointment as chief of all other physicians and of his protection over them by
@@ -11127,7 +11140,7 @@
             <item n="1"> An exhaustive treatise on the weather of al-Raqqa.</item>
             <item n="2"> "The Soul-Cheerer," in which he gives a full account of all the different
               kinds of heart ailments and their remedies; this is a very <pb n="937" ed="kopf"/>
-              useful book, dedicated to the Emir Saif al-Dīn al-Mushidd Abū al-Ḥasan ʿAlī b. ʿUmar
+              useful book, dedicated to the Emir Saiīf al-Dīn al-Mushid Abī al-Ḥasan ʿAlī b. ʿUmar
               b. Qizil, may Allāh have mercy upon him. </item>
             <item n="3"> "Medical Anecdotes," in which he includes many useful facts taken from the
               books by Galen and others.</item>
@@ -11135,11 +11148,11 @@
         </div>
         <div>
           <head><persName>Shams al-Dīn Muḥammad "the Universal."</persName></head>
-          <p> The illustrious physician and unique scholar Abū ʿAbd Allāh Muḥammad b. Ibrāhīm b. Abū
+          <p> The illustrious physician and unique scholar Abū ʿAbd Allāh Muḥammad b. Ibrāhīm b. Abī
             al-Mahāsin was the son of a Spaniard who lived in North Africa and later settled in
             Damascus where he remained until his death, may he be blessed. The physician Shams
             al-Dīn Muḥammad grew up in Damascus and studied medicine under our master the physician
-            Muhadhadhab al-Dīn ʿAbd al Raḥīm b. ʿAlī, may Allāh bless him. He devpted himself to his
+            Muhadhdhab al-Dīn ʿAbd al Raḥīm b. ʿAlī, may Allāh bless him. He devpted himself to his
             master assiduously and came to master all those things from the books of the ancients
             which one must know and which are studied by all medical students. The physician Shams
             al-Dīn was so far in his studies, that he memorized all of the first book of the Qānūn,
@@ -11162,11 +11175,13 @@
             was a native of Hamāt, but moved to Damascus, where he studied under our master the
             physician Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī and others. Having distinguished
             himself in medicine, he traveled to Aleppo, where he increased his knowledge. He served
-            al-Malik al-Nāsir Yūsuf b. Muḥammad b. Ghāzī, the ruler of Aleppo, until the latter
+            al-Malik al-Nāsir Yūsuf b. Muḥammad b. Ghāzī, <pb ed="mueller-1884" n="2.264"/>
+            the ruler of Aleppo, until the latter
             conquered Damascus. Our physician accompanied him there, being greatly relied upon and
             receiving many favors. I have written the following poem to express my nostalgia for
             Damascus, in which I described the city and praise the physician Muwaffaq al-Dīn [. . .
             ]</p>
+          <pb ed="mueller-1884" n="2.265"/>
           <p>When the Tatars turned in the direction of Damascus and its people heard of their
             movements, the physician Muwaffaq al-Dīn went to Egypt, where he lived for a long
             period. Later he served al-Malik al-Mansūr, the ruler of Hamāt, staying with him there.
@@ -11181,9 +11196,9 @@
             years until their separation. He died in Hamāt in the year 642/1244-5.</p>
         </div>
         <div>
-          <head><persName>Najm al-Dīn b. al-Minfāh.</persName></head>
-          <p> The illustrious physician and noble scholar Abū al-Abbas Aḥmad b. Abū al-Fadl Asʿad b.
-            Hilwān —known as the "daughter of Dahin al-Luz" [the one anointed with almond-oil] — was
+          <head><persName>Najm al-Dīn b. al-Minfākh.</persName></head>
+          <p> The illustrious physician and noble scholar Abū al-Abbās Aḥmad b. Abū al-Fadl Asʿad b.
+            Ḥilwān —known as the "daughter of Dahin al-Luz" [the one anointed with almond-oil] — was
             born in Damascus in the year 593/1196. He was swarthy and skinny; keen-witted, highly
             intelligent and eloquent, accomplished to the point where nobody could match him in
             research nor equal him in discussion. He studied under our master the <pb n="939"
@@ -11196,12 +11211,13 @@
             vizier. [But] later this ruler was to avenge himself on him, expropriating him
             completely. The physician then went to Damascus and settled there. Many came to study
             medicine under him and he became a distinguished citizen. The governor Jamāl al-Dīn b.
-            Matrūh wrote him the following poem in answer to his letter [on praising his
+            Matrūḥ wrote him the following poem in answer to his letter [on praising his
             handwriting] ....</p>
           <p>Najm al-Dīn, may he be blessed, was, because of his sharp temperament, an impatient man
             in his attitude and speech. A group of people envied him his superiority and devised
             ways to harm him. One day he recited the following allegorical poem to me [ . . . . . .
             ]</p>
+          <pb ed="mueller-1884" n="2.266"/>
           <p>In his old age he served al-Malik al-Ashraf b. al-Malik al-Mansūr the ruler of Homs in
             Tell Bāshir. He remained in his service for a short period and died, may he be blessed,
             on the 13th of the Dhu al-Qaʿda, 652/1254. His half brother by his mother the judge
@@ -11223,9 +11239,9 @@
           </list>
         </div>
         <div>
-          <head><persName>Ibn al-Suwaidi.</persName></head>
+          <head><persName>Ibn al-Suwaīdī.</persName></head>
           <p> The illustrious physician and peerless scholar Abū Isḥāq Ibrāhīm b. Muḥammad ʿIzz al
-            Dīn b. al-Suwaidi was a descendant of Saʿd b. Maʿād from the tribe of Aws. He was born
+            Dīn b. al-Suwaīdī was a descendant of Saʿd b. Maʿād from the tribe of Aws. He was born
             in the year 600/1203 in Damascus, where he grew up to become the standard of his times
             and singularity of his generation. He united in himself all the virtues, an extreme
             generosity, noble ancestry and perfect manliness, boundless kindness and constant
@@ -11242,7 +11258,7 @@
             composing poetry extempore and the most gifted in declaiming it. I witnessed him several
             times recite a poem he had composed on the spur of the moment, rich in various meanings,
             which nobody else could do, for this art was his specialty.</p>
-          <p>His father, may he be blessed, was a merchant from al-Suwaidā' in the Horān, a man of
+          <p>His father, may he be blessed, was a merchant from al-Suwaīdī in the Horān, a man of
             good character, fine origins, gentle speech and noble deeds. He was a friend of my
             father's, and the <pb n="941" ed="kopf"/> ties between them were solid, intimate and
             praiseworthy. I also used to study with ʿIzz al Dīn in the same school, our master being
@@ -11256,14 +11272,15 @@
             Damascus and was, in addition, the instructor of the Dahwāryīa. He received salaries
             from all of these four posts.</p>
           <p>ʿIzz al-Dīn copied in his own handwriting many medical books and works in other
-            sciences — some of them in the script of Ibn al-Bawwāb and others in the script of the
-            Kufi school of Mawlid. Both his scripts were clearer than the brilliant stars and
+            sciences — some of them in the script of Ibn al-Bawāb and others in the script of the
+            Kufi school of Mawlid. Both his scripts were cleared than the brilliant stars and
             brighter than splendid jewels, finer than luxuriant gardens and more radiant than the
             rising sun. He told me that he had copied three versions of the Ibn Sīnā's Qānūn. In the
-            year 632/1234 a merchant from Persia arrived in Damascus with a copy of Ibn Abū Sādiq's
+            year 632/1234 a merchant from Persia arrived in Damascus with a copy of 
+            <pb ed="mueller-1884" n="2.267"/> Ibn Abī Ṣādiq's
             commentary to Galen's book "The Benefits of the Members." This copy was a correct one,
             taken from the author's manuscript, which had not been available in Syria previously. My
-            father acquired it, on which occasion ʿIzz al-Dīn b. al-Suwaidī wrote him a poem
+            father acquired it, on which occasion ʿIzz al-Dīn b. al-Suwaīdī wrote him a poem
             praising him, from which I recall the following lines:</p>
           <quote><p><l>Be praised, for you are the owner of noble and sublime things of the
                 commentary on the book "The Benefits of the Members";</l><l> The lending of rare
@@ -11289,7 +11306,8 @@
           <p> The learned physician and supreme literary man Imad al-Dīn Abū Abd Allāh Muḥammad, the
             son of the judge and preacher Taqi al-Dīn Abbas b. Aḥmad b. ʿUbayd al-Rabʿī, was like
             his father, a man of virtuous soul and perfect manliness, complete magnanimity and
-            all-embracing generosity, great intelligence and outstanding knowledge. He was born in
+            all-embracing generosity, great intelligence and outstanding knowledge. 
+             He was born <pb ed="mueller-1884" n="2.268"/>in
             the year 605/1208 in the city of Danīsr, where he grew up and studied the medical
             profession. He distinguished himself in this science and mastered all its import, being
             capable of maintaining existing health and restoring it when lost. I first met him in
@@ -11307,6 +11325,10 @@
             Damascus.</p>
           <p>The following are examples of his poetry, as he recited to me [mostly love poems
             addressed to boys] . . . .  </p>
+          <pb ed="mueller-1884" n="2.269"/>
+          <pb ed="mueller-1884" n="2.270"/>
+          <pb ed="mueller-1884" n="2.271"/>
+          <pb ed="mueller-1884" n="2.272"/>
           <p>His books are:</p>
           <list>
             <item n="1"> "The Guiding Treatise on the Grades of Simple Drugs."</item>
@@ -11318,11 +11340,12 @@
           </list>
         </div>
         <div>
-          <head><persName>Muwaffaq al-Dīn Yaʿqūb, the Samaritan.</persName></head>
+          <head><persName>Muwaffaq al-Dīn Yaʿqūb, the Samarītan.</persName></head>
           <p> The illustrious physician and unrivaled scholar, the leader of his generation and
-            standard of his times, Abū Yūsuf Yaʿqub b. Janaʿim, was born and bred in Damascus. He
+            standard of his times, Abū Yūsuf Yaʿqub, was born and bred in Damascus. He
             distinguished himself in the science of medicine, but was also well-versed in all the
-            philosophical sciences. His medical knowledge was perfect in both theory and practice,
+            philosophical sciences. <pb ed="mueller-1884" n="2.273"/>His medical knowledge 
+             was perfect in both theory and practice,
             as he had mastered all its generalia and specialia; he was praised for his treatment and
             thanked for his conversation, which was noble among the notables and distinguished at
             all other times. He was a sound prop concerning the restoration and maintenance of
@@ -11331,23 +11354,23 @@
             his knowledge. His writings have an eloquent turn of phrase and are truthful in meaning,
             sound in composition and of great significance. <pb n="944" ed="kopf"/>
           </p>
-          <p>Muwuffuq ul-Dīn Yaʿqūb al Sāmīrī wrote the following books:</p>
+          <p>Muwuffaq al-Dīn Yaʿqūb al Sāmīrī wrote the following books:</p>
           <list>
             <item n="1"> A commentary on the universal contained in Ibn Sīnā's "Qānūn," In which he
               summarizes all Ibn Khatīb al-Ray's sayings on this subject in his commentary on the
               universal, al-Qutb al-Misrī's in his commentary on them, and also the sayings of
               others. His edition points out the contradictions In the respective utterances and is
               well composed and eloquently styled.</item>
-            <item n="2"> "The Solution of Najm al-Dīn b. al-Minfah's Doubts Concerning the
+            <item n="2"> "The Solution of Najm al-Dīn b. al-Minfagh's Doubts Concerning the
               Universals."</item>
             <item n="3"> "Introduction to the Sciences of Logic, Physics and Metaphysics." </item>
           </list>
           <p>He died in Ramadan, 681/1282.</p>
         </div>
         <div>
-          <head><persName>Abū al-Karaj b. al-Qaff</persName>.</head>
+          <head><persName>Abū al-Faraj b. al-Qaff</persName>.</head>
           <p> The illustrious physician and scholar Abū al-Faraj, the son of the peerless and
-            learned Shaikh Muwaffaq al-Dīn Yaʿqūb b. Isḥaq b. al-Qaff, a Christian from Karak, was
+            learned Shaykh Muwaffaq al-Dīn Yaʿqūb b. Isḥaq b. al-Qaff, a Christian from Karak, was
             born in Karak on Saturday the 13th of Dhū al-Qaʿdah, 630/1232. His father, Muwaffaq
             al-Dīn, was a friend of mine, who kept our relationship intimate and strong throughout
             his life. Being with him was a sweet and precious experience and enjoying his friendship
@@ -11374,9 +11397,9 @@
           <p>His father then moved to well-guarded Damascus, where he served in the supreme Divan.
             His son accompanied him there and studied, with a group of notables, the natural
             sciences and the philosophical arts under the master Shams al-Dīn ʿAbd al-Hamīd
-            al-Khosrushāhī and ʿIzz al-Dīn al-Ḥasan al-Ghanawī al-Darīr. He continued his medical
-            studies with the physician Najm al-Dīn b. al-Mīnfāh and Muwaffaq al-Dīn Yaʿqūb, the
-            Samaritan. He also studied Euclid's book with the master Muʿayyad al-Dīn al-Aradi,
+            al-Khosrūshāhī and ʿIzz al-Dīn al-Ḥasan al-Ghanawī al-Darīr. He continued his medical
+            studies with the physician Najm al-Dīn b. al-Mīnfāgh and Muwaffaq al-Dīn Yaʿqūb, the
+            Samaritan. He also studied Euclid's book with the master Muʿayad al-Dīn al-Aradi,
             understanding it so perfectly that he solved all its difficulties.</p>
           <p>Abū al-Faraj b. al-Qaff served as physician in the fort of ʿAglūn, where he stayed for
             several years. He then returned to Damascus and served in its unconquerable fort,
@@ -11389,7 +11412,7 @@
             <item n="3"> "Commentary on the 'Aphorisms,'" in two parts.</item>
             <item n="4"> A treatise on the preservation of health. <pb n="946" ed="kopf"/>
             </item>
-            <item n="5"> "The Pillar of Surgery," twenty treatises.</item>
+            <item n="5"> "The Pillar <pb ed="mueller-1884" n="2.274"/>of Surgery," twenty treatises.</item>
             <item n="6"> Treatise on theory and practice, mentioning all that is necessary for the
               surgeon exclusively.</item>
             <item n="7"> "The Quintessence of the Purpose," in one volume.</item>
