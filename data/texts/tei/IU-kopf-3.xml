@@ -26,6 +26,14 @@
               <name type="person" ref="https://www.roger-pearse.com">Roger Pearse (Ipswich,
                 UK)</name>
             </respStmt>
+            <respStmt>
+              <resp>Conversion to TEI and correction of name transcription by </resp>
+              <name type="person" ref="https://usaybia.net/editors.xml#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+            <respStmt>
+              <resp>Additional name correction and page number alignment</resp>
+              <name type="person" ref="https://usaybia.net/editors.xml#vbirkhahn">Vanessa Birkhahn</name>
+            </respStmt>
             <availability>
               <licence>public domain</licence>
             </availability>
@@ -87,6 +95,8 @@
       <change who="ngibson" when="2019-02-01">corrected transcription by replacing (\W)ibn(\W) with
         \1b.\2</change>
       <change who="ngibson" when="2019-02-01">corrected transcription by replacing` with ʿ</change>
+      <change who="vbirkhahn" when="2019-10-09">corrected transcriptions and added Mueller page numbers (2.239-274)</change>
+      <change who="ngibson" when="2019-10-14">edited transcriptions and Mueller page numbers (2.239-274)</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -7678,8 +7688,9 @@
             lived there until his death — may God have mercy upon him — which occurred on a Sunday
             night in the year 540/1145 . . . . . . . . . . He was buried in the tombs of the Sufīs,
             near the River Banyas, outside Damascus.</p>
-            Abū Zakariyā Yaḥyā b. Ismāʿil al-Bayāsī, may God have mercy upon him: The shaykh, the
+            
           <p>I have copied the following from a manuscript of the Shaykh, the physician Amīn al-Dīn
+            Abū Zakariyā Yaḥyā b. Ismāʿil al-Bayāsī, may God have mercy upon him: The shaykh, the
             learned imām and philosopher Abū al-Futūʿh b. al-Salāh, arrived in Damascus from Baghdad
             and stayed with the learned Shaykh, the physician Abū al-Fadl Ismaīl b. Abū al-Waqqār.
             Ibn al-Salah wished to obtain some Baghdādi shoes and asked for a man who could make
@@ -10186,7 +10197,7 @@
                 expert physician,</l><l> A chief, a master, a skillful doctor, a noble scholar, a
                 great Vizier,</l><l> A gentle savior, a merciful author, bountiful, affectionate,
                 honorable and selfless.</l></p></quote>
-          <p><pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.239"/>An example of Amīn al-Dawlah's own poetry was included in his letter to Burhān al-Dīn,
+          <p><pb ed="mueller-1884" n="2.239"/>An example of Amīn al-Dawlah's own poetry was included in his letter to Burhān al-Dīn,
             the Vizier of the Emir ʿIzz al-Dīn al-Muʿazzamī, in which he sent him his condolences on
             the death of his father, Sharf al-Dīn ʿUmar. . . . <pb n="901" ed="kopf"/>
           </p>
@@ -10234,7 +10245,7 @@
             comprehended thoroughly.</p>
           <p>Muhadhdhab al-Dīn worked as a physician to al-Malik al-ʿAdil Abū Bakr b. Ayyūb. This
             was because at the beginning of his career he was interested in eye diseases and wished
-            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.240"/>the Great Hospital
+            to gain practice in their treatment. He worked as an oculist in <pb ed="mueller-1884" n="2.240"/>the Great Hospital
             established by al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd b. Zankī. Later, when he worked with
             al-Mutrān and had become noted for his medical skill, Safī al-Dīn b. Shakr, the vizier
             of al-Malik al-ʿAdil b. Ayyūb, granted him an allowance, by means of which he was able to
@@ -10286,7 +10297,7 @@
             until the amount was settled. He paid some of the money, but was unable to raise the
             balance. Al-Malik al-ʿĀdil was inexorable, saying: "He must pay the rest, otherwise I
             shall deal very harshly with him." The judge was in dire straits. He sold all his
-            possessions — his household effects, and <pb ed="mueller-1884" edRef="https://github.com/usaybia/usaybia-data/blob/master/data/texts/tei/IU-sample.xml" n="2.241"/> even his books. Then he wrote letters to the
+            possessions — his household effects, and <pb ed="mueller-1884" n="2.241"/> even his books. Then he wrote letters to the
             Sultan, using the good offices of many leading personalities, such as al-Shamīs, the
             court teacher, and Shams al-Khawās the vizier, asking for the remission of part of the
             amount or to be allowed to pay in installments. But the Sultan remained adamant, and as
@@ -10337,7 +10348,7 @@
             physician 7,000 Egyptian dinars. In addition, the king's children, some eastern kings
             and others sent him gold, suits of clothes, mule carts, gold neckbands and other
             items.</p>
-          <p>A similar event occurred in the year <pb ed="mueller-1884" n="2.242"> </pb> 612/1215, when al-Malīk al-Ādil went to Egypt and
+          <p>A similar event occurred in the year <pb ed="mueller-1884" n="2.242"/>612/1215, when al-Malīk al-Ādil went to Egypt and
             stayed in Cairo. At that time, a dreadful cholera epidemic killed many people. Among
             those stricken was al-Malīk al-Kāmil b. al-Maīlk al-ʿĀdil, who was the Governor of
             Egypt. Muhadhdhab al-Dīn treated him most solicitously until he became well again. This
@@ -10375,6 +10386,10 @@
           <p>Muhadhdhab al-Dīn was a supremely able medical savant and practitioner, the exponent of
             the most effective cures known in his day. Hence he eventually gained the reputation of
             a wizard.</p>
+          <pb ed="mueller-1884" n="2.243"/>
+          <pb ed="mueller-1884" n="2.244"/>
+          <pb ed="mueller-1884" n="2.245"/>
+          <pb ed="mueller-1884" n="2.246"/>
         </div>
         <div>
           <head><persName>My uncle, Rashid al-Dīn ʿĀlī b. Khalīfa.</persName></head>
@@ -10390,7 +10405,7 @@
             oculist, for my grandfather was born and raised in Damascus, where he also spent many
             years of his life. By the time he met the two aforesaid gentlement in Egypt, my
             grandfather was already raising my father and uncle. He intended to teach them both
-            medicine <pb ed="mueller-1884" n="2.247"> </pb>, in consideration of the nobleness of this profession and the demand for
+            medicine <pb ed="mueller-1884" n="2.247"/>, in consideration of the nobleness of this profession and the demand for
             physicians, knowing that he who mastered its principles would be honored and favored in
             this world and attain the highest rank in the hereafter. </p>
           <p>So he attached my father and uncle to these two Shaykhs, in order that they might reap
@@ -10437,7 +10452,7 @@
           <p>My grandfather moved back to Syria in 597/1200, when my uncle was about twenty years
             old. He immediately took up practicing medicine and improving his knowledge of it.
             Shaykh Radīʿ al-Dīn Yūsuf b. Haīdara from Rahba, an old friend of my grandfather's, was
-            then staying in Damascus. <pb ed="mueller-1884" n="2.248"> </pb>When he heard of my uncle, saw him at work and realized his virtues, he was happily surprised. My uncle constantly visited his court, studied and
+            then staying in Damascus. <pb ed="mueller-1884" n="2.248"/>When he heard of my uncle, saw him at work and realized his virtues, he was happily surprised. My uncle constantly visited his court, studied and
             discussed medical matters with him. He worked in the hospital built by al-Malik al-ʿAdil Nūr al-Dīn b. Zankī, together with other physicians who were there at the time, such as
             Muwaffaq al-Dīn b. al-Saraf and Shaykh Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī. Meanwhile he also studied philosophy under Shaykh Muwaffaq al-Dīn Abd al-Latīf b. Yūsuf
             the Baghdadian, for he too had returned to Syria. There was in Damascus a group of men celebrated for their literary achievements and knowledge of Arabic, such as Zaīn al-Dīn
@@ -10481,7 +10496,7 @@
             in Damascus, but this was not granted. The Sultan granted him a salary and expenses, and
             my father enrolled in his service on the 15th of Dhū al-Hijja 609/1212. He was a
             favorite of his and of all his sons and successors, who relied upon him in all medical
-            matters and <pb ed="mueller-1884" n="2.249"> </pb> treated him with great generosity and perfect deference. He remained in
+            matters and <pb ed="mueller-1884" n="2.249"/>treated him with great generosity and perfect deference. He remained in
             service until the death of al-Malik al-ʿĀdil, may he be blessed, when he was asked to
             continue in his post by the son and successor in Damascus, al-Malik al-Muʿazam. The
             latter treated him with the same honor and esteem, or even more, as his father had done.
@@ -10529,7 +10544,7 @@
             Damascus. As for my uncle, he was staying with al-Malik al-Amjad in Baʿlbek when
             al-Malik al-Muʿazam came there to help him fight his adversaries. When they met
             together, my uncle would keep them company. Now during those days, there was nobody who
-            knew music and the art of the lute better than him, neither was there anyone with a
+            <pb ed="mueller-1884" n="2.250"/>knew music and the art of the lute better than him, neither was there anyone with a
             sweeter voice, so that he touched the souls of his listeners in the same fashion as Abū
             Nasr al-Fārābī, according to what was said. Al-Malik al-Muʿazam was greatly impressed
             by him and engaged him in his service, which post he took up on the 1st of Jumiādā I,
@@ -10585,7 +10600,7 @@
             al-Dīn, the living proof of Islam and standard of monotheism, Abū al-Ḥasan Muḥammad, the
             son of the illustrious Imam and noble scholar, Shaykh of shaykhs Imad al-Dīn Abū Hafs
             ʿUmar b. Abū al-Ḥasan b. Muḥammad b. Hamawaih, may God maintain his support forever,
-            herewith endows kindly his devotee ʿAlī b. Halīfa b. Yūnus from the tribe of Chazrag the
+            herewith endows kindly <pb ed="mueller-1884" n="2.251"/> his devotee ʿAlī b. Khalīfa b. Yūnus from the tribe of Chazrag the
             Damascene, may Allāh make him succeed in his devotions, with the Sufi garment."</p>
           <p>While dressing him in it, the shaykh told my uncle that he had received that robe from
             his above-mentioned father, may he be blessed, and that his father had gotten it from
@@ -10640,7 +10655,7 @@
           <p>Speak the truth, for a lie belittles a man in his own eyes even more than in the eyes
             of others.</p>
           <p>Be patient and you will be thanked and honored, for hatred brings anguish and leads to
-            enmity and evil, just as envy does.</p>
+            enmity <pb ed="mueller-1884" n="2.252"/>and evil, just as envy does.</p>
           <p>Avoid evil men and you will spare yourself their harm;</p>
           <p>Avoid the rulers of this world and you will spare yourself the company of evil men, <pb
               n="919" ed="kopf"/>
@@ -10709,7 +10724,8 @@
           <p>12. "When you know of many remedies to a single disease, choose the best one for every
             stage of it."</p>
           <p>13. "Maladies have their own life-spans, and remedies need the help of Fate; medicine
-            is largely mere conjecture and suppositions, which sometimes contain a grain of truth;
+            is largely mere conjecture <pb ed="mueller-1884" n="2.253"/>
+            and suppositions, which sometimes contain a grain of truth;
             success here is the reward of good measure and experimentation, not of sophistry and
             excess; the purpose of medicine is the preservation of health when it is good and its
             recovery when it has been lost; these two [achievements] are the mark of a sound mind
@@ -10785,7 +10801,7 @@
             with their evil."</p>
           <p>45. "First fix your scales, then weigh."</p>
           <p>46. "When you come to possess a material mind, then you are a true man, in absolute
-            terms."</p>
+            terms." <pb ed="mueller-1884" n="2.254"/></p>
           <p>47. "Trust your knowledge when no objection can impair it."</p>
           <p>48. "How wonderful is unanimous opinion!"</p>
           <p>49. "How wonderful is analogous opinion!"</p>
@@ -10855,9 +10871,9 @@
           <p>75. "Make your soul stronger than your body."</p>
           <p>76. "Improve the quality of your food and reduce its quantity."</p>
           <p>77. "Give your body enough food to maintain its strength; beware of surpassing it, but
-            increase the nourishment of your soul."</p>
+            increase the nourishment of your soul."  </p>
           <p>78. "The nourishment of the soul is gradual study; you should start with small and easy
-            portions and proceed slowly, until the soul grows stronger and used to difficulties;
+            <pb ed="mueller-1884" n="2.255"/>portions and proceed slowly, until the soul grows stronger and used to difficulties;
             when it becomes thus skilled, it will crave for more and everything will be easy for
             it." <pb n="927" ed="kopf"/>
           </p>
@@ -10927,8 +10943,11 @@
             a danger."</p>
           <p>112. "I wish I knew how to excuse myself for the things I know and have not done; I
             hope Allāh the Omnipotent will forgive me."</p>
-
-          <p>[There follow samples of his poetry, as told to the author.]</p>
+          <p>[There follow samples of his poetry, as told to the author.]</p>          
+          <pb ed="mueller-1884" n="2.256"/>
+          <pb ed="mueller-1884" n="2.257"/>
+          <pb ed="mueller-1884" n="2.258"/>
+          <pb ed="mueller-1884" n="2.259"/>
           <p>My uncle Rashīd al-Dīn ʿAlī al-Khalīfa wrote the following books:</p>
           <list>
             <item n="1"> A useful abridgment of the science of mathematics; four treatises,
@@ -10949,10 +10968,7 @@
             <item n="7"> "On the Elements."</item>
             <item n="8"> "Notes and Experiments in Medicine." <pb n="930" ed="kopf"/>
             </item>
-          </list>
-        </div>
-        <div>
-          <head><persName>Badr al-Dīn,</persName></head>
+          </list></div><div><head><persName>Badr al-Dīn,</persName></head>
           <p> the son of the Judge of Baʿalbekk. The illustrious physician and accomplished scholar
             Badr al-Dīn al-Muzaffar, the son of the judge and learned Imām Majd al-Dīn Abd
             al-Raḥmān b. Ibrāhīm was the son of the Judge of Baʿalbekk. He grew up in Damascus,
@@ -10981,8 +10997,8 @@
             conquered Damascus in the year 635/1237, he called Badr al-Dīn to his service. The
             latter became a favorite, enjoying an important position in the government. The Sultan
             relied upon him in all medical matters and appointed him chief of all the physicians,
-            oculists and surgeons, to which effect he gave him a written certificate in the month of
-            Safar 637/1239.</p>
+            oculists and surgeons, to which effect he gave him a written <pb ed="mueller-1884" n="2.260"/>
+            certificate in the month of Safar 637/1239.</p>
           <p>Badr al-Dīn revived the long-forgotten virtues of medicine and instilled new life into
             its neglected merits by his continuous desire for doing good and his ceaseless concern
             for the general weal. The achievement which I now relate is the one I find the most
@@ -11032,7 +11048,8 @@
                 pulse,</l><l> An expert in curing, not by guesswork, but by sound knowledge;</l><l>
                 From Hippocrates and "the old master," from the Greeks and Persians [he got his
                 art];</l><l> How many are those whom he has restored to health, saving them from the
-                contrary!</l><l> His opinion is loftier than that of Qais and his style more perfect
+                contrary!</l><pb ed="mueller-1884" n="2.261"/>
+                <l> His opinion is loftier than that of Qais and his style more perfect
                 than that of Quss;</l><l> Indeed he presented my heart with his book "The
                 Soul-Cheerer,"</l><l> A book which leads us into the world of holiness,</l><l> The
                 light of its import shines in the darkness of my soul.</l><l> How beautiful is the
@@ -11071,6 +11088,7 @@
             deeds and the marks of superiority proved his virtues and nobility. May God the
             Omnipotent aid him in his new post and help him in everything he does now and in the
             future, if he so wishes!"</p>
+            <pb ed="mueller-1884" n="2.262"/>
           <p>The following verses are part of a poem which I addressed to him in the year
             645/1247:</p>
           <quote><p><l>I wrote with unreined passion, with an extreme delight that grew constantly
@@ -11097,7 +11115,7 @@
             his benevolence; may he fulfill all our master's passions and desires, which cannot be
             fathomed by words or put down on paper.</p>
           <p>As to the mamlūk, he relies on the master's vast knowledge, sincere love and
-            friendliness and his boundless devotion to his followers and <pb n="936" ed="kopf"/>
+            friendliness and his boundless devotion <pb ed="mueller-1884" n="2.263"/> to his followers and <pb n="936" ed="kopf"/>
             companions. The mamluk has received the epistle of the mamlūk's father with the good
             news, which filled his heart with joy and his soul with delight. Now he knows of the
             master's appointment as chief of all other physicians and of his protection over them by
@@ -11157,11 +11175,13 @@
             was a native of Hamāt, but moved to Damascus, where he studied under our master the
             physician Muhadhdhab al-Dīn ʿAbd al-Raḥīm b. ʿAlī and others. Having distinguished
             himself in medicine, he traveled to Aleppo, where he increased his knowledge. He served
-            al-Malik al-Nāsir Yūsuf b. Muḥammad b. Ghāzī, the ruler of Aleppo, until the latter
+            al-Malik al-Nāsir Yūsuf b. Muḥammad b. Ghāzī, <pb ed="mueller-1884" n="2.264"/>
+            the ruler of Aleppo, until the latter
             conquered Damascus. Our physician accompanied him there, being greatly relied upon and
             receiving many favors. I have written the following poem to express my nostalgia for
             Damascus, in which I described the city and praise the physician Muwaffaq al-Dīn [. . .
             ]</p>
+          <pb ed="mueller-1884" n="2.265"/>
           <p>When the Tatars turned in the direction of Damascus and its people heard of their
             movements, the physician Muwaffaq al-Dīn went to Egypt, where he lived for a long
             period. Later he served al-Malik al-Mansūr, the ruler of Hamāt, staying with him there.
@@ -11197,6 +11217,7 @@
             in his attitude and speech. A group of people envied him his superiority and devised
             ways to harm him. One day he recited the following allegorical poem to me [ . . . . . .
             ]</p>
+          <pb ed="mueller-1884" n="2.266"/>
           <p>In his old age he served al-Malik al-Ashraf b. al-Malik al-Mansūr the ruler of Homs in
             Tell Bāshir. He remained in his service for a short period and died, may he be blessed,
             on the 13th of the Dhu al-Qaʿda, 652/1254. His half brother by his mother the judge
@@ -11255,7 +11276,8 @@
             Kufi school of Mawlid. Both his scripts were cleared than the brilliant stars and
             brighter than splendid jewels, finer than luxuriant gardens and more radiant than the
             rising sun. He told me that he had copied three versions of the Ibn Sīnā's Qānūn. In the
-            year 632/1234 a merchant from Persia arrived in Damascus with a copy of Ibn Abū Sādiq's
+            year 632/1234 a merchant from Persia arrived in Damascus with a copy of 
+            <pb ed="mueller-1884" n="2.267"/> Ibn Abī Ṣādiq's
             commentary to Galen's book "The Benefits of the Members." This copy was a correct one,
             taken from the author's manuscript, which had not been available in Syria previously. My
             father acquired it, on which occasion ʿIzz al-Dīn b. al-Suwaīdī wrote him a poem
@@ -11284,7 +11306,8 @@
           <p> The learned physician and supreme literary man Imad al-Dīn Abū Abd Allāh Muḥammad, the
             son of the judge and preacher Taqi al-Dīn Abbas b. Aḥmad b. ʿUbayd al-Rabʿī, was like
             his father, a man of virtuous soul and perfect manliness, complete magnanimity and
-            all-embracing generosity, great intelligence and outstanding knowledge. He was born in
+            all-embracing generosity, great intelligence and outstanding knowledge. 
+             He was born <pb ed="mueller-1884" n="2.268"/>in
             the year 605/1208 in the city of Danīsr, where he grew up and studied the medical
             profession. He distinguished himself in this science and mastered all its import, being
             capable of maintaining existing health and restoring it when lost. I first met him in
@@ -11302,6 +11325,10 @@
             Damascus.</p>
           <p>The following are examples of his poetry, as he recited to me [mostly love poems
             addressed to boys] . . . .  </p>
+          <pb ed="mueller-1884" n="2.269"/>
+          <pb ed="mueller-1884" n="2.270"/>
+          <pb ed="mueller-1884" n="2.271"/>
+          <pb ed="mueller-1884" n="2.272"/>
           <p>His books are:</p>
           <list>
             <item n="1"> "The Guiding Treatise on the Grades of Simple Drugs."</item>
@@ -11317,7 +11344,8 @@
           <p> The illustrious physician and unrivaled scholar, the leader of his generation and
             standard of his times, Abū Yūsuf Yaʿqub, was born and bred in Damascus. He
             distinguished himself in the science of medicine, but was also well-versed in all the
-            philosophical sciences. His medical knowledge was perfect in both theory and practice,
+            philosophical sciences. <pb ed="mueller-1884" n="2.273"/>His medical knowledge 
+             was perfect in both theory and practice,
             as he had mastered all its generalia and specialia; he was praised for his treatment and
             thanked for his conversation, which was noble among the notables and distinguished at
             all other times. He was a sound prop concerning the restoration and maintenance of
@@ -11384,7 +11412,7 @@
             <item n="3"> "Commentary on the 'Aphorisms,'" in two parts.</item>
             <item n="4"> A treatise on the preservation of health. <pb n="946" ed="kopf"/>
             </item>
-            <item n="5"> "The Pillar of Surgery," twenty treatises.</item>
+            <item n="5"> "The Pillar <pb ed="mueller-1884" n="2.274"/>of Surgery," twenty treatises.</item>
             <item n="6"> Treatise on theory and practice, mentioning all that is necessary for the
               surgeon exclusively.</item>
             <item n="7"> "The Quintessence of the Purpose," in one volume.</item>
