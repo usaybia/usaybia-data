@@ -1,0 +1,16 @@
+/* Place project-specific CSS here */
+rdg[wit="shamela"] {
+    color: green;
+    /*vertical-align: super;*/
+}
+rdg[wit="transkribus"] {
+    color: red;
+    text-decoration: line-through;
+/*    vertical-align: sub;*/
+}
+text {
+    text-align:right;
+}
+app {
+    display: inline;
+}

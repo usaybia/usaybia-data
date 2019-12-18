@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../tools/xslt/teibp.xsl"?>
+<!-- The following stylesheets are automatically associated in Firefox through the 
+XSLT but have to be specified manually in Oxygen -->
+<?xml-stylesheet type="text/css" href="../../../tools/css/teibp.css"?>
+<?xml-stylesheet type="text/css" href="../../../tools/css/custom.css"?>
+<!-- LOG
+	- Converted &lt; and &gt; escaped brackets
+ 	- Removed cx:apparatus root element
+ 	- Uncommented teiHeader and p for page number
+ 	- Removed w and s tokenization
+ 	- Moved pb, p, and lb (from transkribus) outside app
+ 	- Changed w1 to transkribus and w2 to shamela
+-->
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>IU-mueller-1884-vol2b</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: nathanpgibson@gmail.com</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="ar" style="direction: rtl">
+		<body>
+			<pb n='2'/>
+			<p>
+				<lb facs='#facs_2_r1l1' n='N001'/>
+				<app>
+					<rdg wit="transkribus">١٣٨
+				</rdg>
+					<rdg wit="shamela"/>
+				</app>
+			</p>
+			<p>
+				<app>
+					<rdg wit="transkribus"><lb facs='#facs_2_r1l3' n='N001'/>الله</rdg>
+					<rdg wit="shamela">‫‫الله</rdg>
+				</app>
+				الذى هدانى وكفانى
+				<app>
+					<rdg wit="transkribus">أو انى أو من اشعر أبى</rdg>
+					
+								<rdg wit="shamela">واواني‬‬
+							 
+							‫‫ومن شعر ابى</rdg>
+				</app>
+				نصر
+				<app>
+					<rdg wit="transkribus">القارانى ثال</rdg>
+					<rdg wit="shamela">الفارابى قال‬‬</rdg>
+				</app>
+			</p>
+		</body>
+	</text>
+</TEI>
