@@ -11,784 +11,788 @@ XSLT but have to be specified manually in Oxygen -->
  	- Moved pb, p, and lb, etc (from transkribus) outside app
  	- Changed transkribus to transkribus and shamela to shamela
 -->
-<cx:apparatus
-xmlns:cx="http://interedition.eu/collatex/ns/1.0"
-xmlns="http://www.tei-c.org/ns/1.0"><?xmlversion="1.0"encoding="UTF-8"?><TEIxmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><titletype="main"><w>IU-mueller-1884-vol2b</w></title></titleStmt><publicationStmt><publisher><w>tranScriptorium</w></publisher></publicationStmt><sourceDesc><bibl><publisher><w>TRP</w><w>document</w><w>creator:</w><w>nathanpgibson@gmail.com</w></publisher></bibl></sourceDesc></fileDesc></teiHeader><text><body><pbn="2"/><p><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫الله</w></rdg></app><app><rdg
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title type="main">IU-mueller-1884-vol2b</title></titleStmt><publicationStmt><publisher>tranScriptorium</publisher></publicationStmt><sourceDesc><bibl><publisher>TRPdocumentcreator:nathanpgibson@gmail.com</publisher></bibl></sourceDesc></fileDesc></teiHeader>
+    <text>
+        <body>
+            <pb n="2"/>
+            <p>
+                <app>
+                    <rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫الله</rdg></app><app><rdg
 wit="w1">facs="#facs_2_r1l1"</rdg><rdg wit="w2"/></app><app><rdg wit="w1">n="N001"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>١٣٨</w></rdg><rdg wit="w2"/></app><app><rdg
+wit="w2"/></app><app><rdg wit="w1">١٣٨</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1"></p></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><p></rdg><rdg
 wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">facs="#facs_2_r1l3"</rdg><rdg wit="w2"/></app><app><rdg wit="w1">n="N001"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>الله</w></rdg><rdg
-wit="w2"/></app><w>الذى</w><w>هدانى</w><w>وكفانى</w><app><rdg
-wit="w1"><w>أو</w></rdg><rdg wit="w2"><w>واواني‬‬</w></rdg></app><app><rdg
-wit="w1"><w>انى</w></rdg><rdg wit="w2"><w>‫‫ومن</w></rdg></app><app><rdg
-wit="w1"><w>أو</w></rdg><rdg wit="w2"><w>شعر</w></rdg></app><app><rdg
-wit="w1"><w>من</w></rdg><rdg wit="w2"><w>ابى</w></rdg></app><app><rdg
-wit="w1"><w>اشعر</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>أبى</w></rdg><rdg wit="w2"/></app><w>نصر</w><app><rdg
-wit="w1"><w>القارانى</w></rdg><rdg
-wit="w2"><w>الفارابى</w></rdg></app><app><rdg wit="w1"><w>ثال</w></rdg><rdg
-wit="w2"><w>قال‬‬</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>‫‫لما</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l2"</rdg><rdg
-wit="w2"><w>رايت</w></rdg></app><app><rdg wit="w1">n="N002"/></rdg><rdg
-wit="w2"><w>الزمان</w></rdg></app><app><rdg
-wit="w1"><w>البسيط٢</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">الله</rdg><rdg
+wit="w2"/></app>الذىهدانىوكفانى<app><rdg
+wit="w1">أو</rdg><rdg wit="w2">واواني‬‬</rdg></app><app><rdg
+wit="w1">انى</rdg><rdg wit="w2">‫‫ومن</rdg></app><app><rdg
+wit="w1">أو</rdg><rdg wit="w2">شعر</rdg></app><app><rdg
+wit="w1">من</rdg><rdg wit="w2">ابى</rdg></app><app><rdg
+wit="w1">اشعر</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">أبى</rdg><rdg wit="w2"/></app>نصر<app><rdg
+wit="w1">القارانى</rdg><rdg
+wit="w2">الفارابى</rdg></app><app><rdg wit="w1">ثال</rdg><rdg
+wit="w2">قال‬‬</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">‫‫لما</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l2"</rdg><rdg
+wit="w2">رايت</rdg></app><app><rdg wit="w1">n="N002"/></rdg><rdg
+wit="w2">الزمان</rdg></app><app><rdg
+wit="w1">البسيط٢</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l4"</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">n="N003"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>لمارأبت</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>الرمان</w></rdg><rdg wit="w2"/></app><w>نكسا</w><app><rdg
-wit="w1"><w>طوليس</w></rdg><rdg wit="w2"><w>*</w></rdg></app><app><rdg
-wit="w1"/><rdg wit="w2"><w>وليس</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>الصجبة</w></rdg><rdg wit="w2"><w>الصحبة</w></rdg></app><app><rdg
-wit="w1"><w>التقا)</w></rdg><rdg
-wit="w2"><w>انتفاع‬‬</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>‫‫كل</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l5"</rdg><rdg
-wit="w2"><w>رئيس</w></rdg></app><app><rdg wit="w1">n="N004"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>كل</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>ريس</w></rdg><rdg wit="w2"/></app><w>به</w><app><rdg
-wit="w1"><w>مسلال</w></rdg><rdg
-wit="w2"><w>ملال</w></rdg></app><w>*</w><w>وكل</w><app><rdg
-wit="w1"><w>رأس</w></rdg><rdg
-wit="w2"><w>راس</w></rdg></app><w>به</w><app><rdg
-wit="w1"><w>سدام</w></rdg><rdg wit="w2"><w>صداع‬‬</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫لزمت</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l6"</rdg><rdg wit="w2"><w>بيتى</w></rdg></app><app><rdg
-wit="w1">n="N005"/></rdg><rdg wit="w2"><w>وصنت</w></rdg></app><app><rdg
-wit="w1"><w>لرمب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>يبى</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>وصلت</w></rdg><rdg
-wit="w2"/></app><w>عرضا</w><w>*</w><w>به</w><w>من</w><w>العزة</w><app><rdg
-wit="w1"><w>التنا٣</w></rdg><rdg
-wit="w2"><w>اقتناع‬‬</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>‫‫اشرب</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l7"</rdg><rdg
-wit="w2"><w>مما</w></rdg></app><app><rdg wit="w1">n="N006"/></rdg><rdg
-wit="w2"><w>اقتنيت</w></rdg></app><app><rdg wit="w1"><w>اشرب</w></rdg><rdg
-wit="w2"><w>راحا</w></rdg></app><app><rdg wit="w1"><w>ثما</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>اقتنيب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>راها</w></rdg><rdg
-wit="w2"/></app><w>*</w><w>لها</w><w>على</w><app><rdg
-wit="w1"><w>راحى</w></rdg><rdg wit="w2"><w>راحتى</w></rdg></app><app><rdg
-wit="w1"><w>شعام</w></rdg><rdg wit="w2"><w>شعاع‬‬</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫لى</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l8"</rdg><rdg wit="w2"><w>من</w></rdg></app><app><rdg
-wit="w1">n="N007"/></rdg><rdg wit="w2"><w>قواريرها</w></rdg></app><app><rdg
-wit="w1"><w>أبى</w></rdg><rdg wit="w2"><w>ندامى</w></rdg></app><app><rdg
-wit="w1"><w>مبن</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>قوار</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>ير</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>هاندانى</w></rdg><rdg
-wit="w2"/></app><w>*</w><w>ومن</w><w>قراقيرها</w><app><rdg
-wit="w1"><w>سماج</w></rdg><rdg wit="w2"><w>سماع‬‬</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫واجتنى</w></rdg></app><app><rdg
+wit="w1">لمارأبت</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">الرمان</rdg><rdg wit="w2"/></app>نكسا<app><rdg
+wit="w1">طوليس</rdg><rdg wit="w2">*</rdg></app><app><rdg
+wit="w1"/><rdg wit="w2">وليس</rdg></app>فى<app><rdg
+wit="w1">الصجبة</rdg><rdg wit="w2">الصحبة</rdg></app><app><rdg
+wit="w1">التقا)</rdg><rdg
+wit="w2">انتفاع‬‬</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">‫‫كل</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l5"</rdg><rdg
+wit="w2">رئيس</rdg></app><app><rdg wit="w1">n="N004"/></rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">كل</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">ريس</rdg><rdg wit="w2"/></app>به<app><rdg
+wit="w1">مسلال</rdg><rdg
+wit="w2">ملال</rdg></app>*وكل<app><rdg
+wit="w1">رأس</rdg><rdg
+wit="w2">راس</rdg></app>به<app><rdg
+wit="w1">سدام</rdg><rdg wit="w2">صداع‬‬</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫لزمت</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l6"</rdg><rdg wit="w2">بيتى</rdg></app><app><rdg
+wit="w1">n="N005"/></rdg><rdg wit="w2">وصنت</rdg></app><app><rdg
+wit="w1">لرمب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">يبى</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">وصلت</rdg><rdg
+wit="w2"/></app>عرضا*بهمنالعزة<app><rdg
+wit="w1">التنا٣</rdg><rdg
+wit="w2">اقتناع‬‬</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">‫‫اشرب</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l7"</rdg><rdg
+wit="w2">مما</rdg></app><app><rdg wit="w1">n="N006"/></rdg><rdg
+wit="w2">اقتنيت</rdg></app><app><rdg wit="w1">اشرب</rdg><rdg
+wit="w2">راحا</rdg></app><app><rdg wit="w1">ثما</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">اقتنيب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">راها</rdg><rdg
+wit="w2"/></app>*لهاعلى<app><rdg
+wit="w1">راحى</rdg><rdg wit="w2">راحتى</rdg></app><app><rdg
+wit="w1">شعام</rdg><rdg wit="w2">شعاع‬‬</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫لى</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l8"</rdg><rdg wit="w2">من</rdg></app><app><rdg
+wit="w1">n="N007"/></rdg><rdg wit="w2">قواريرها</rdg></app><app><rdg
+wit="w1">أبى</rdg><rdg wit="w2">ندامى</rdg></app><app><rdg
+wit="w1">مبن</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">قوار</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">ير</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">هاندانى</rdg><rdg
+wit="w2"/></app>*ومنقراقيرها<app><rdg
+wit="w1">سماج</rdg><rdg wit="w2">سماع‬‬</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫واجتنى</rdg></app><app><rdg
 wit="w1">facs="#facs_2_r1l9"</rdg><rdg wit="w2"/></app><app><rdg wit="w1">n="N008"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>وأحتنى</w></rdg><rdg
-wit="w2"/></app><w>من</w><app><rdg wit="w1"><w>حديب</w></rdg><rdg
-wit="w2"><w>حديث</w></rdg></app><w>قوم</w><w>*</w><w>قد</w><app><rdg
-wit="w1"><w>أففرت</w></rdg><rdg wit="w2"><w>اقفرت</w></rdg></app><app><rdg
-wit="w1"><w>مهم</w></rdg><rdg wit="w2"><w>منهم</w></rdg></app><app><rdg
-wit="w1"><w>البقا</w></rdg><rdg wit="w2"><w>البقاع</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>البسيط‬‬</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l11"</rdg><rdg wit="w2"><w>‫‫وقال</w></rdg></app><app><rdg
-wit="w1">n="N009"/></rdg><rdg wit="w2"><w>ايضا‬‬</w></rdg></app><app><rdg
-wit="w1"><w>وقال</w></rdg><rdg wit="w2"><w>‫‫اخى</w></rdg></app><app><rdg
-wit="w1"><w>الضا</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">وأحتنى</rdg><rdg
+wit="w2"/></app>من<app><rdg wit="w1">حديب</rdg><rdg
+wit="w2">حديث</rdg></app>قوم*قد<app><rdg
+wit="w1">أففرت</rdg><rdg wit="w2">اقفرت</rdg></app><app><rdg
+wit="w1">مهم</rdg><rdg wit="w2">منهم</rdg></app><app><rdg
+wit="w1">البقا</rdg><rdg wit="w2">البقاع</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">البسيط‬‬</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l11"</rdg><rdg wit="w2">‫‫وقال</rdg></app><app><rdg
+wit="w1">n="N009"/></rdg><rdg wit="w2">ايضا‬‬</rdg></app><app><rdg
+wit="w1">وقال</rdg><rdg wit="w2">‫‫اخى</rdg></app><app><rdg
+wit="w1">الضا</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l10"</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">n="N010"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>النقارب</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w1">النقارب</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l12"</rdg><rdg wit="w2"/></app><app><rdg
-wit="w1">n="N011"/></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><w>أخى</w></rdg><rdg
-wit="w2"/></app><w>خل</w><app><rdg wit="w1"><w>جبزدى</w></rdg><rdg
-wit="w2"><w>حيز</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ذى</w></rdg></app><w>باطل</w><w>*</w><w>وكن</w><app><rdg
-wit="w1"><w>الحقافق</w></rdg><rdg
-wit="w2"><w>للحقائق</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>جصير</w></rdg><rdg wit="w2"><w>حيز‬‬</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫فما</w></rdg></app><app><rdg
+wit="w1">n="N011"/></rdg><rdg wit="w2"/></app><app><rdg wit="w1">أخى</rdg><rdg
+wit="w2"/></app>خل<app><rdg wit="w1">جبزدى</rdg><rdg
+wit="w2">حيز</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ذى</rdg></app>باطل*وكن<app><rdg
+wit="w1">الحقافق</rdg><rdg
+wit="w2">للحقائق</rdg></app>فى<app><rdg
+wit="w1">جصير</rdg><rdg wit="w2">حيز‬‬</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫فما</rdg></app><app><rdg
 wit="w1">facs="#facs_2_r1l13"</rdg><rdg wit="w2"/></app><app><rdg wit="w1">n="N012"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>فىا</w></rdg><rdg
-wit="w2"/></app><w>الدار</w><app><rdg wit="w1"><w>وار</w></rdg><rdg
-wit="w2"><w>دار</w></rdg></app><app><rdg wit="w1"><w>خلودلنا</w></rdg><rdg
-wit="w2"><w>خلود</w></rdg></app><app><rdg wit="w1"><w>*</w></rdg><rdg
-wit="w2"><w>لنا</w></rdg></app><app><rdg wit="w1"><w>ولاالمرة</w></rdg><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"><w>فى</w></rdg><rdg
-wit="w2"><w>ولا</w></rdg></app><app><rdg wit="w1"><w>الارس</w></rdg><rdg
-wit="w2"><w>المرء</w></rdg></app><app><rdg wit="w1"><w>بالمنجر</w></rdg><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>الارض</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l14"</rdg><rdg
-wit="w2"><w>بالمعجز‬‬</w></rdg></app><app><rdg wit="w1">n="N013"/></rdg><rdg
-wit="w2"><w>‫‫وهل</w></rdg></app><app><rdg wit="w1"><w>وهل</w></rdg><rdg
-wit="w2"><w>نحن</w></rdg></app><app><rdg wit="w1"><w>محن</w></rdg><rdg
-wit="w2"><w>الا</w></rdg></app><app><rdg wit="w1"><w>الأخطوط</w></rdg><rdg
-wit="w2"><w>خطوط</w></rdg></app><app><rdg wit="w1"><w>وفعن</w></rdg><rdg
-wit="w2"><w>وقعن</w></rdg></app><w>*</w><app><rdg
-wit="w1"><w>عسلى</w></rdg><rdg wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>كره</w></rdg><rdg wit="w2"><w>كرة</w></rdg></app><app><rdg
-wit="w1"><w>وفير</w></rdg><rdg wit="w2"><w>وقع</w></rdg></app><app><rdg
-wit="w1"><w>م</w></rdg><rdg wit="w2"><w>مستوفز‬‬</w></rdg></app><app><rdg
-wit="w1"><w>يوفر</w></rdg><rdg wit="w2"><w>‫‫ينافس</w></rdg></app><app><rdg
+wit="w2"/></app><app><rdg wit="w1">فىا</rdg><rdg
+wit="w2"/></app>الدار<app><rdg wit="w1">وار</rdg><rdg
+wit="w2">دار</rdg></app><app><rdg wit="w1">خلودلنا</rdg><rdg
+wit="w2">خلود</rdg></app><app><rdg wit="w1">*</rdg><rdg
+wit="w2">لنا</rdg></app><app><rdg wit="w1">ولاالمرة</rdg><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1">فى</rdg><rdg
+wit="w2">ولا</rdg></app><app><rdg wit="w1">الارس</rdg><rdg
+wit="w2">المرء</rdg></app><app><rdg wit="w1">بالمنجر</rdg><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">الارض</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l14"</rdg><rdg
+wit="w2">بالمعجز‬‬</rdg></app><app><rdg wit="w1">n="N013"/></rdg><rdg
+wit="w2">‫‫وهل</rdg></app><app><rdg wit="w1">وهل</rdg><rdg
+wit="w2">نحن</rdg></app><app><rdg wit="w1">محن</rdg><rdg
+wit="w2">الا</rdg></app><app><rdg wit="w1">الأخطوط</rdg><rdg
+wit="w2">خطوط</rdg></app><app><rdg wit="w1">وفعن</rdg><rdg
+wit="w2">وقعن</rdg></app>*<app><rdg
+wit="w1">عسلى</rdg><rdg wit="w2">على</rdg></app><app><rdg
+wit="w1">كره</rdg><rdg wit="w2">كرة</rdg></app><app><rdg
+wit="w1">وفير</rdg><rdg wit="w2">وقع</rdg></app><app><rdg
+wit="w1">م</rdg><rdg wit="w2">مستوفز‬‬</rdg></app><app><rdg
+wit="w1">يوفر</rdg><rdg wit="w2">‫‫ينافس</rdg></app><app><rdg
 wit="w1"><lb</rdg><rdg wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l15"</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">n="N014"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>ساقس</w></rdg><rdg
-wit="w2"/></app><w>هذا</w><w>لهذا</w><w>على</w><w>*</w><app><rdg
-wit="w1"><w>أفسل</w></rdg><rdg
-wit="w2"><w>اقل</w></rdg></app><w>من</w><app><rdg
-wit="w1"><w>الكاسم</w></rdg><rdg wit="w2"><w>الكلم</w></rdg></app><app><rdg
-wit="w1"><w>الموجر</w></rdg><rdg
-wit="w2"><w>الموجز‬‬</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>‫‫محيط</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l16"</rdg><rdg
-wit="w2"><w>السموات</w></rdg></app><app><rdg wit="w1">n="N015"/></rdg><rdg
-wit="w2"><w>اولى</w></rdg></app><app><rdg wit="w1"><w>جيط</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>السهوات</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>أولى</w></rdg><rdg
-wit="w2"/></app><w>بنا</w><w>*</w><w>فكم</w><w>ذا</w><app><rdg
-wit="w1"><w>التراحم</w></rdg><rdg
-wit="w2"><w>التزاحم</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>المركر</w></rdg><rdg wit="w2"><w>المركز</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>المتقارب‬‬</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l17"</rdg><rdg wit="w2"><w>‫‫ولابى</w></rdg></app><app><rdg
+wit="w1">ساقس</rdg><rdg
+wit="w2"/></app>هذالهذاعلى*<app><rdg
+wit="w1">أفسل</rdg><rdg
+wit="w2">اقل</rdg></app>من<app><rdg
+wit="w1">الكاسم</rdg><rdg wit="w2">الكلم</rdg></app><app><rdg
+wit="w1">الموجر</rdg><rdg
+wit="w2">الموجز‬‬</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">‫‫محيط</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l16"</rdg><rdg
+wit="w2">السموات</rdg></app><app><rdg wit="w1">n="N015"/></rdg><rdg
+wit="w2">اولى</rdg></app><app><rdg wit="w1">جيط</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">السهوات</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">أولى</rdg><rdg
+wit="w2"/></app>بنا*فكمذا<app><rdg
+wit="w1">التراحم</rdg><rdg
+wit="w2">التزاحم</rdg></app>فى<app><rdg
+wit="w1">المركر</rdg><rdg wit="w2">المركز</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">المتقارب‬‬</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l17"</rdg><rdg wit="w2">‫‫ولابى</rdg></app><app><rdg
 wit="w1">n="N016"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>ولأنى</w></rdg><rdg wit="w2"/></app><w>نصر</w><app><rdg
-wit="w1"><w>الغار</w></rdg><rdg
-wit="w2"><w>الفارابى</w></rdg></app><app><rdg wit="w1"><w>أبى</w></rdg><rdg
-wit="w2"/></app><w>من</w><w>الكتب</w><app><rdg
-wit="w1"><w>مرح</w></rdg><rdg
-wit="w2"><w>شرح</w></rdg></app><w>كتاب</w><app><rdg
-wit="w1"><w>المحسطى</w></rdg><rdg
-wit="w2"><w>المجسطى</w></rdg></app><app><rdg
-wit="w1"><w>ابطليوس</w></rdg><rdg
-wit="w2"><w>لبطليموس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>ثرج</w></rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><w>كتاب</w><w>البرهان</w><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l18"</rdg><rdg wit="w2"><w>شرح</w></rdg></app><app><rdg
-wit="w1">n="N017"/></rdg><rdg wit="w2"><w>كتاب</w></rdg></app><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>الخطابة</w></rdg></app><app><rdg wit="w1"><w>رح</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>الخطارة</w></rdg><rdg
-wit="w2"/></app><w>لارسطوطاليس</w><w>شرح</w><app><rdg
-wit="w1"><w>القالة</w></rdg><rdg
-wit="w2"><w>المقالة</w></rdg></app><app><rdg
-wit="w1"><w>التانبة</w></rdg><rdg
-wit="w2"><w>الثانى</w></rdg></app><app><rdg
-wit="w1"><w>والثامثة</w></rdg><rdg
-wit="w2"><w>والثامنة</w></rdg></app><w>من</w><app><rdg
+wit="w1">ولأنى</rdg><rdg wit="w2"/></app>نصر<app><rdg
+wit="w1">الغار</rdg><rdg
+wit="w2">الفارابى</rdg></app><app><rdg wit="w1">أبى</rdg><rdg
+wit="w2"/></app>منالكتب<app><rdg
+wit="w1">مرح</rdg><rdg
+wit="w2">شرح</rdg></app>كتاب<app><rdg
+wit="w1">المحسطى</rdg><rdg
+wit="w2">المجسطى</rdg></app><app><rdg
+wit="w1">ابطليوس</rdg><rdg
+wit="w2">لبطليموس‬‬</rdg></app><app><rdg
+wit="w1">ثرج</rdg><rdg
+wit="w2">‫‫شرح</rdg></app>كتابالبرهان<app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">لارسطوطاليس</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l18"</rdg><rdg wit="w2">شرح</rdg></app><app><rdg
+wit="w1">n="N017"/></rdg><rdg wit="w2">كتاب</rdg></app><app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">الخطابة</rdg></app><app><rdg wit="w1">رح</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">كتاب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">الخطارة</rdg><rdg
+wit="w2"/></app>لارسطوطاليسشرح<app><rdg
+wit="w1">القالة</rdg><rdg
+wit="w2">المقالة</rdg></app><app><rdg
+wit="w1">التانبة</rdg><rdg
+wit="w2">الثانى</rdg></app><app><rdg
+wit="w1">والثامثة</rdg><rdg
+wit="w2">والثامنة</rdg></app>من<app><rdg
 wit="w1"><lb</rdg><rdg wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l19"</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">n="N018"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>٢تاب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>الحسدل</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>لارسطوطاليس</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>مرح</w></rdg><rdg wit="w2"/></app><w>كتاب</w><app><rdg
-wit="w1"><w>المنالطة</w></rdg><rdg
-wit="w2"><w>الجدل</w></rdg></app><app><rdg
-wit="w1"><w>لارسطوطاليس</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>مرحكتاب</w></rdg><rdg wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>كتاب</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l20"</rdg><rdg wit="w2"><w>المغالطة</w></rdg></app><app><rdg
-wit="w1">n="N019"/></rdg><rdg wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>القيباس</w></rdg><rdg wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg
-wit="w1"><w>لارسسطوطاليس</w></rdg><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><w>وهو</w><app><rdg
-wit="w1"><w>الشرج</w></rdg><rdg wit="w2"><w>الشرح</w></rdg></app><app><rdg
-wit="w1"><w>الكبير</w></rdg><rdg
-wit="w2"><w>الكبير‬‬</w></rdg></app><app><rdg wit="w1"><w>شيرح</w></rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"><w>تاب</w></rdg><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"><w>بارينياس</w></rdg><rdg
-wit="w2"><w>باريمينياس</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l21"</rdg><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1">n="N020"/></rdg><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"><w>على</w></rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"><w>جهة</w></rdg><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"><w>التعليق</w></rdg><rdg
-wit="w2"><w>المقولات</w></rdg></app><app><rdg wit="w1"><w>-رح</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>المقولات</w></rdg><rdg wit="w2"><w>جهة</w></rdg></app><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"><w>على</w></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"><w>جهة</w></rdg><rdg
-wit="w2"><w>المختصر</w></rdg></app><app><rdg
-wit="w1"><w>التعليق</w></rdg><rdg
-wit="w2"><w>الكبير</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l22"</rdg><rdg
-wit="w2"><w>المنطق‬‬</w></rdg></app><app><rdg wit="w1">n="N021"/></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg
-wit="w2"><w>المختصر</w></rdg></app><app><rdg
-wit="w1"><w>المنصر</w></rdg><rdg wit="w2"><w>الصغير</w></rdg></app><app><rdg
-wit="w1"><w>الكير</w></rdg><rdg
-wit="w2"/></app><w>فى</w><w>المنطق</w><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>المخنصر</w></rdg><rdg wit="w2"><w>طريقة</w></rdg></app><app><rdg
-wit="w1"><w>الصغرفى</w></rdg><rdg
-wit="w2"><w>المتكلمين‬‬</w></rdg></app><app><rdg
-wit="w1"><w>المنطق</w></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>على</w></rdg><rdg wit="w2"><w>المختصر</w></rdg></app><app><rdg
-wit="w1"><w>طريية</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>التكامين</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w1">٢تاب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">الحسدل</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">لارسطوطاليس</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">مرح</rdg><rdg wit="w2"/></app>كتاب<app><rdg
+wit="w1">المنالطة</rdg><rdg
+wit="w2">الجدل</rdg></app><app><rdg
+wit="w1">لارسطوطاليس</rdg><rdg
+wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg
+wit="w1">مرحكتاب</rdg><rdg wit="w2">‫‫شرح</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">كتاب</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l20"</rdg><rdg wit="w2">المغالطة</rdg></app><app><rdg
+wit="w1">n="N019"/></rdg><rdg wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg
+wit="w1">القيباس</rdg><rdg wit="w2">‫‫شرح</rdg></app><app><rdg
+wit="w1">لارسسطوطاليس</rdg><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app>وهو<app><rdg
+wit="w1">الشرج</rdg><rdg wit="w2">الشرح</rdg></app><app><rdg
+wit="w1">الكبير</rdg><rdg
+wit="w2">الكبير‬‬</rdg></app><app><rdg wit="w1">شيرح</rdg><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1">تاب</rdg><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1">بارينياس</rdg><rdg
+wit="w2">باريمينياس</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l21"</rdg><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1">n="N020"/></rdg><rdg
+wit="w2">جهة</rdg></app><app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1">على</rdg><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1">جهة</rdg><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1">التعليق</rdg><rdg
+wit="w2">المقولات</rdg></app><app><rdg wit="w1">-رح</rdg><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">على</rdg></app><app><rdg
+wit="w1">المقولات</rdg><rdg wit="w2">جهة</rdg></app><app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1">على</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1">جهة</rdg><rdg
+wit="w2">المختصر</rdg></app><app><rdg
+wit="w1">التعليق</rdg><rdg
+wit="w2">الكبير</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l22"</rdg><rdg
+wit="w2">المنطق‬‬</rdg></app><app><rdg wit="w1">n="N021"/></rdg><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1">كتاب</rdg><rdg
+wit="w2">المختصر</rdg></app><app><rdg
+wit="w1">المنصر</rdg><rdg wit="w2">الصغير</rdg></app><app><rdg
+wit="w1">الكير</rdg><rdg
+wit="w2"/></app>فىالمنطق<app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">على</rdg></app><app><rdg
+wit="w1">المخنصر</rdg><rdg wit="w2">طريقة</rdg></app><app><rdg
+wit="w1">الصغرفى</rdg><rdg
+wit="w2">المتكلمين‬‬</rdg></app><app><rdg
+wit="w1">المنطق</rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">على</rdg><rdg wit="w2">المختصر</rdg></app><app><rdg
+wit="w1">طريية</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">التكامين</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l23"</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">n="N022"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>كناب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>المحنصر</w></rdg><rdg
-wit="w2"/></app><w>الاوسط</w><w>فى</w><app><rdg
-wit="w1"><w>القياس</w></rdg><rdg
-wit="w2"><w>القياس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التوطئة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المنطق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><w>كتاب</w><app><rdg
-wit="w1"><w>التوطتة</w></rdg><rdg
-wit="w2"><w>ايساغوجى</w></rdg></app><app><rdg wit="w1"><w>فى</w></rdg><rdg
-wit="w2"><w>لفرفوريوس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>المنطق</w></rdg><rdg
-wit="w2"><w>‫‫املاء</w></rdg></app><app><rdg wit="w1"><w>شرج</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>ك٣تاب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>السافوحخى</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w1">كناب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">المحنصر</rdg><rdg
+wit="w2"/></app>الاوسطفى<app><rdg
+wit="w1">القياس</rdg><rdg
+wit="w2">القياس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التوطئة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المنطق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app>كتاب<app><rdg
+wit="w1">التوطتة</rdg><rdg
+wit="w2">ايساغوجى</rdg></app><app><rdg wit="w1">فى</rdg><rdg
+wit="w2">لفرفوريوس‬‬</rdg></app><app><rdg
+wit="w1">المنطق</rdg><rdg
+wit="w2">‫‫املاء</rdg></app><app><rdg wit="w1">شرج</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">ك٣تاب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">السافوحخى</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l24"</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">n="N023"/></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>هرقوريوس</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>املاء</w></rdg><rdg wit="w2"/></app><w>فى</w><app><rdg
-wit="w1"><w>معأنى</w></rdg><rdg wit="w2"><w>معانى</w></rdg></app><app><rdg
-wit="w1"><w>البساعوخى</w></rdg><rdg
-wit="w2"><w>ايساغوجي‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>العباس</w></rdg><rdg
-wit="w2"><w>القياس</w></rdg></app><w>الصغير</w><w>ووجد</w><app><rdg
-wit="w1"><w>كمثابه</w></rdg><rdg wit="w2"><w>كتابه</w></rdg></app><app><rdg
-wit="w1"><w>هذاهترحما</w></rdg><rdg wit="w2"><w>هذا</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>مترجما</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l25"</rdg><rdg wit="w2"><w>بخطه‬‬</w></rdg></app><app><rdg
-wit="w1">n="N024"/></rdg><rdg wit="w2"><w>‫‫احصاء</w></rdg></app><app><rdg
-wit="w1"><w>ابجطة</w></rdg><rdg wit="w2"><w>القضايا</w></rdg></app><app><rdg
-wit="w1"><w>اخصاء</w></rdg><rdg
-wit="w2"><w>والقياسات</w></rdg></app><app><rdg
-wit="w1"><w>القضارا</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>والقباسات</w></rdg><rdg
-wit="w2"/></app><w>التى</w><w>تستعمل</w><w>على</w><w>العموم</w><w>فى</w><w>جميع</w><app><rdg
-wit="w1"><w>الصناقم</w></rdg><rdg
-wit="w2"><w>الصنائع</w></rdg></app><app><rdg
-wit="w1"><w>القباسبة</w></rdg><rdg
-wit="w2"><w>القياسية‬‬</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l26"</rdg><rdg
-wit="w2"><w>شروط</w></rdg></app><app><rdg wit="w1">n="N025"/></rdg><rdg
-wit="w2"><w>القياس‬‬</w></rdg></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"><w>سروط</w></rdg><rdg
-wit="w2"><w>البرهان‬‬</w></rdg></app><app><rdg
-wit="w1"><w>القياس</w></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>الجدل‬‬</w></rdg></app><app><rdg
-wit="w1"><w>البرمان</w></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg
-wit="w2"><w>المواضع</w></rdg></app><app><rdg
-wit="w1"><w>الحسدل</w></rdg><rdg
-wit="w2"><w>المنتزعة</w></rdg></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"><w>المواسع</w></rdg><rdg
-wit="w2"><w>المقالة</w></rdg></app><app><rdg
-wit="w1"><w>المنتز</w></rdg><rdg
-wit="w2"><w>الثامنة</w></rdg></app><app><rdg wit="w1"><w>هة</w></rdg><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"><w>من</w></rdg><rdg
-wit="w2"><w>الجدل‬‬</w></rdg></app><app><rdg
-wit="w1"><w>القالة</w></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>المواضع</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l27"</rdg><rdg wit="w2"><w>المغلطة‬‬</w></rdg></app><app><rdg
-wit="w1">n="N026"/></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>النامتة</w></rdg><rdg
-wit="w2"><w>اكتساب</w></rdg></app><app><rdg wit="w1"><w>فى</w></rdg><rdg
-wit="w2"><w>المقدمات</w></rdg></app><app><rdg
-wit="w1"><w>الجدل</w></rdg><rdg wit="w2"><w>وهى</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>المسماة</w></rdg></app><app><rdg
-wit="w1"><w>المواسع</w></rdg><rdg
-wit="w2"><w>بالمواضع</w></rdg></app><app><rdg
-wit="w1"><w>المغلطة</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>ك٣متاب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>اكنساب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>المنسدقات</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>وهى</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>المسماء</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>بالمواضع</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w1">هرقوريوس</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">املاء</rdg><rdg wit="w2"/></app>فى<app><rdg
+wit="w1">معأنى</rdg><rdg wit="w2">معانى</rdg></app><app><rdg
+wit="w1">البساعوخى</rdg><rdg
+wit="w2">ايساغوجي‬‬</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">العباس</rdg><rdg
+wit="w2">القياس</rdg></app>الصغيرووجد<app><rdg
+wit="w1">كمثابه</rdg><rdg wit="w2">كتابه</rdg></app><app><rdg
+wit="w1">هذاهترحما</rdg><rdg wit="w2">هذا</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">مترجما</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l25"</rdg><rdg wit="w2">بخطه‬‬</rdg></app><app><rdg
+wit="w1">n="N024"/></rdg><rdg wit="w2">‫‫احصاء</rdg></app><app><rdg
+wit="w1">ابجطة</rdg><rdg wit="w2">القضايا</rdg></app><app><rdg
+wit="w1">اخصاء</rdg><rdg
+wit="w2">والقياسات</rdg></app><app><rdg
+wit="w1">القضارا</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">والقباسات</rdg><rdg
+wit="w2"/></app>التىتستعملعلىالعمومفىجميع<app><rdg
+wit="w1">الصناقم</rdg><rdg
+wit="w2">الصنائع</rdg></app><app><rdg
+wit="w1">القباسبة</rdg><rdg
+wit="w2">القياسية‬‬</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l26"</rdg><rdg
+wit="w2">شروط</rdg></app><app><rdg wit="w1">n="N025"/></rdg><rdg
+wit="w2">القياس‬‬</rdg></app><app><rdg wit="w1">كتاب</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1">سروط</rdg><rdg
+wit="w2">البرهان‬‬</rdg></app><app><rdg
+wit="w1">القياس</rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">الجدل‬‬</rdg></app><app><rdg
+wit="w1">البرمان</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1">كتاب</rdg><rdg
+wit="w2">المواضع</rdg></app><app><rdg
+wit="w1">الحسدل</rdg><rdg
+wit="w2">المنتزعة</rdg></app><app><rdg wit="w1">كتاب</rdg><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1">المواسع</rdg><rdg
+wit="w2">المقالة</rdg></app><app><rdg
+wit="w1">المنتز</rdg><rdg
+wit="w2">الثامنة</rdg></app><app><rdg wit="w1">هة</rdg><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1">من</rdg><rdg
+wit="w2">الجدل‬‬</rdg></app><app><rdg
+wit="w1">القالة</rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">المواضع</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l27"</rdg><rdg wit="w2">المغلطة‬‬</rdg></app><app><rdg
+wit="w1">n="N026"/></rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">النامتة</rdg><rdg
+wit="w2">اكتساب</rdg></app><app><rdg wit="w1">فى</rdg><rdg
+wit="w2">المقدمات</rdg></app><app><rdg
+wit="w1">الجدل</rdg><rdg wit="w2">وهى</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">المسماة</rdg></app><app><rdg
+wit="w1">المواسع</rdg><rdg
+wit="w2">بالمواضع</rdg></app><app><rdg
+wit="w1">المغلطة</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">ك٣متاب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">اكنساب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">المنسدقات</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">وهى</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">المسماء</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">بالمواضع</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l28"</rdg><rdg wit="w2"/></app><app><rdg
-wit="w1">n="N027"/></rdg><rdg wit="w2"/></app><w>وهى</w><app><rdg
-wit="w1"><w>الخليل</w></rdg><rdg
-wit="w2"><w>التحليل‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كالام</w></rdg><rdg
-wit="w2"><w>‫‫كلام</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>النسدمات</w></rdg><rdg
-wit="w2"><w>المقدمات</w></rdg></app><app><rdg
-wit="w1"><w>الختلطة</w></rdg><rdg
-wit="w2"><w>المختلطة</w></rdg></app><w>من</w><w>وجودى</w><app><rdg
-wit="w1"><w>وصرورى</w></rdg><rdg
-wit="w2"><w>وضروري‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كالام</w></rdg><rdg
-wit="w2"><w>‫‫كلام</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>الخسلامصدر</w></rdg><rdg
-wit="w2"><w>الخلاء</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>صدر</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l29"</rdg><rdg
-wit="w2"><w>لكتاب</w></rdg></app><app><rdg wit="w1">n="N028"/></rdg><rdg
-wit="w2"><w>الخطابة‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg
-wit="w1"><w>الخطابة</w></rdg><rdg wit="w2"><w>كتاب</w></rdg></app><app><rdg
-wit="w1"><w>شرح</w></rdg><rdg wit="w2"><w>السماع</w></rdg></app><app><rdg
-wit="w1"><w>كمناب</w></rdg><rdg wit="w2"><w>الطبيعى</w></rdg></app><app><rdg
-wit="w1"><w>السمابج</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg
-wit="w1"><w>الطبسى</w></rdg><rdg wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"><w>على</w></rdg><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"><w>جهه</w></rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"><w>التعليق</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>شر</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>٢</w></rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w1">n="N027"/></rdg><rdg wit="w2"/></app>وهى<app><rdg
+wit="w1">الخليل</rdg><rdg
+wit="w2">التحليل‬‬</rdg></app><app><rdg
+wit="w1">كالام</rdg><rdg
+wit="w2">‫‫كلام</rdg></app>فى<app><rdg
+wit="w1">النسدمات</rdg><rdg
+wit="w2">المقدمات</rdg></app><app><rdg
+wit="w1">الختلطة</rdg><rdg
+wit="w2">المختلطة</rdg></app>منوجودى<app><rdg
+wit="w1">وصرورى</rdg><rdg
+wit="w2">وضروري‬‬</rdg></app><app><rdg
+wit="w1">كالام</rdg><rdg
+wit="w2">‫‫كلام</rdg></app>فى<app><rdg
+wit="w1">الخسلامصدر</rdg><rdg
+wit="w2">الخلاء</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">صدر</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l29"</rdg><rdg
+wit="w2">لكتاب</rdg></app><app><rdg wit="w1">n="N028"/></rdg><rdg
+wit="w2">الخطابة‬‬</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">‫‫شرح</rdg></app><app><rdg
+wit="w1">الخطابة</rdg><rdg wit="w2">كتاب</rdg></app><app><rdg
+wit="w1">شرح</rdg><rdg wit="w2">السماع</rdg></app><app><rdg
+wit="w1">كمناب</rdg><rdg wit="w2">الطبيعى</rdg></app><app><rdg
+wit="w1">السمابج</rdg><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg
+wit="w1">الطبسى</rdg><rdg wit="w2">على</rdg></app><app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1">على</rdg><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1">جهه</rdg><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1">التعليق</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">شر</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">٢</rdg><rdg wit="w2"/></app><app><rdg wit="w1"><lb</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l30"</rdg><rdg wit="w2"/></app><app><rdg
 wit="w1">n="N029"/></rdg><rdg
-wit="w2"/></app><w>كتاب</w><w>السماء</w><w>والعالم</w><app><rdg
-wit="w1"><w>لارسسطوط</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg
-wit="w1"><w>اليس</w></rdg><rdg wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>على</w></rdg><rdg wit="w2"><w>جهة</w></rdg></app><app><rdg
-wit="w1"><w>جهه</w></rdg><rdg wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg
-wit="w1"><w>التعليق</w></rdg><rdg wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg
-wit="w1"><w>رج</w></rdg><rdg
-wit="w2"/></app><w>كتاب</w><w>الاثار</w><app><rdg
-wit="w1"><w>العلوبة</w></rdg><rdg wit="w2"><w>ال‬‬</w></rdg></app><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>‫‫علوية‬‬</w></rdg></app><app><rdg
+wit="w2"/></app>كتابالسماءوالعالم<app><rdg
+wit="w1">لارسسطوط</rdg><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg
+wit="w1">اليس</rdg><rdg wit="w2">على</rdg></app><app><rdg
+wit="w1">على</rdg><rdg wit="w2">جهة</rdg></app><app><rdg
+wit="w1">جهه</rdg><rdg wit="w2">التعليق‬‬</rdg></app><app><rdg
+wit="w1">التعليق</rdg><rdg wit="w2">‫‫شرح</rdg></app><app><rdg
+wit="w1">رج</rdg><rdg
+wit="w2"/></app>كتابالاثار<app><rdg
+wit="w1">العلوبة</rdg><rdg wit="w2">ال‬‬</rdg></app><app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">‫‫علوية‬‬</rdg></app><app><rdg
 wit="w1">facs="#facs_2_r1l31"</rdg><rdg
-wit="w2"><w>‫‫لارسطوطاليس</w></rdg></app><app><rdg wit="w1">n="N030"/></rdg><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"><w>على</w></rdg><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"><w>جهة</w></rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"><w>التعليق</w></rdg><rdg
-wit="w2"><w>مقالة</w></rdg></app><app><rdg wit="w1"><w>شرح</w></rdg><rdg
-wit="w2"><w>الاسكندر</w></rdg></app><app><rdg
-wit="w1"><w>مةالة</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>الاسكتدر</w></rdg><rdg
-wit="w2"/></app><w>الافروديسى</w><w>فى</w><app><rdg
-wit="w1"><w>الننس</w></rdg><rdg
-wit="w2"><w>النفس</w></rdg></app><w>على</w><w>جهة</w><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l32"</rdg><rdg wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg
-wit="w1">n="N031"/></rdg><rdg wit="w2"><w>صدر</w></rdg></app><app><rdg
-wit="w1"><w>التعليق</w></rdg><rdg wit="w2"><w>كتاب</w></rdg></app><app><rdg
-wit="w1"><w>-رج</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>صدركتاب</w></rdg><rdg wit="w2"/></app><w>الاخلاق</w><app><rdg
-wit="w1"><w>الارسطوطاليس</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><w>فى</w><app><rdg
-wit="w1"><w>النواميس</w></rdg><rdg
-wit="w2"><w>النواميس‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كناب</w></rdg><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><w>احصاء</w><app><rdg
-wit="w1"><lb</rdg><rdg wit="w2"><w>العلوم</w></rdg></app><app><rdg
-wit="w1">facs="#facs_2_r1l33"</rdg><rdg wit="w2"><w>وترتيبها‬‬</w></rdg></app><app><rdg
-wit="w1">n="N032"/></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>اعلوم</w></rdg><rdg
-wit="w2"><w>الفلسفتين</w></rdg></app><app><rdg wit="w1"><w>وير</w></rdg><rdg
-wit="w2"><w>لفلاطن</w></rdg></app><app><rdg wit="w1"><w>ببها</w></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>كتاب</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>القلسفتبن</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>لقلاطن</w></rdg><rdg wit="w2"/></app><w>وارسطوطاليس</w><app><rdg
-wit="w1"><w>مجروم</w></rdg><rdg wit="w2"><w>مخروم</w></rdg></app><app><rdg
-wit="w1"><w>الاخر</w></rdg><rdg wit="w2"><w>الاخر‬‬</w></rdg></app><app><rdg
-wit="w1"><w>كتاب</w></rdg><rdg wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg
-wit="w1"><w>المدبية</w></rdg><rdg
-wit="w2"><w>المدينة</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>الفاضلة</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l34"</rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1">n="N033"/></rdg><rdg
-wit="w2"/></app><app><rdg wit="w1"><w>القاضلة</w></rdg><rdg wit="w2"/></app><app><rdg
-wit="w1"><w>والمدبة</w></rdg><rdg wit="w2"/></app><w>الجاهلة</w><app><rdg
-wit="w1"><w>والمذية</w></rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg
-wit="w1"><w>القاسعة</w></rdg><rdg
-wit="w2"><w>الفاسقة</w></rdg></app><app><rdg
-wit="w1"><w>والمدبثة</w></rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><w>المبدلة</w><app><rdg
-wit="w1"><w>والمدبثة</w></rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg
-wit="w1"><w>الشالة</w></rdg><rdg wit="w2"><w>الضالة</w></rdg></app><app><rdg
-wit="w1"><w>ابتدأمة</w></rdg><rdg wit="w2"><w>ابتدا</w></rdg></app><app><rdg
-wit="w1"><w>اليف</w></rdg><rdg wit="w2"><w>بتاليف</w></rdg></app><app><rdg
+wit="w2">‫‫لارسطوطاليس</rdg></app><app><rdg wit="w1">n="N030"/></rdg><rdg
+wit="w2">على</rdg></app><app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1">على</rdg><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1">جهة</rdg><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1">التعليق</rdg><rdg
+wit="w2">مقالة</rdg></app><app><rdg wit="w1">شرح</rdg><rdg
+wit="w2">الاسكندر</rdg></app><app><rdg
+wit="w1">مةالة</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">الاسكتدر</rdg><rdg
+wit="w2"/></app>الافروديسىفى<app><rdg
+wit="w1">الننس</rdg><rdg
+wit="w2">النفس</rdg></app>علىجهة<app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">التعليق‬‬</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l32"</rdg><rdg wit="w2">‫‫شرح</rdg></app><app><rdg
+wit="w1">n="N031"/></rdg><rdg wit="w2">صدر</rdg></app><app><rdg
+wit="w1">التعليق</rdg><rdg wit="w2">كتاب</rdg></app><app><rdg
+wit="w1">-رج</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">صدركتاب</rdg><rdg wit="w2"/></app>الاخلاق<app><rdg
+wit="w1">الارسطوطاليس</rdg><rdg
+wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app>فى<app><rdg
+wit="w1">النواميس</rdg><rdg
+wit="w2">النواميس‬‬</rdg></app><app><rdg
+wit="w1">كناب</rdg><rdg
+wit="w2">‫‫كتاب</rdg></app>احصاء<app><rdg
+wit="w1"><lb</rdg><rdg wit="w2">العلوم</rdg></app><app><rdg
+wit="w1">facs="#facs_2_r1l33"</rdg><rdg wit="w2">وترتيبها‬‬</rdg></app><app><rdg
+wit="w1">n="N032"/></rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">اعلوم</rdg><rdg
+wit="w2">الفلسفتين</rdg></app><app><rdg wit="w1">وير</rdg><rdg
+wit="w2">لفلاطن</rdg></app><app><rdg wit="w1">ببها</rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">كتاب</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">القلسفتبن</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">لقلاطن</rdg><rdg wit="w2"/></app>وارسطوطاليس<app><rdg
+wit="w1">مجروم</rdg><rdg wit="w2">مخروم</rdg></app><app><rdg
+wit="w1">الاخر</rdg><rdg wit="w2">الاخر‬‬</rdg></app><app><rdg
+wit="w1">كتاب</rdg><rdg wit="w2">‫‫كتاب</rdg></app><app><rdg
+wit="w1">المدبية</rdg><rdg
+wit="w2">المدينة</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">الفاضلة</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l34"</rdg><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1">n="N033"/></rdg><rdg
+wit="w2"/></app><app><rdg wit="w1">القاضلة</rdg><rdg wit="w2"/></app><app><rdg
+wit="w1">والمدبة</rdg><rdg wit="w2"/></app>الجاهلة<app><rdg
+wit="w1">والمذية</rdg><rdg
+wit="w2">والمدينة</rdg></app><app><rdg
+wit="w1">القاسعة</rdg><rdg
+wit="w2">الفاسقة</rdg></app><app><rdg
+wit="w1">والمدبثة</rdg><rdg
+wit="w2">والمدينة</rdg></app>المبدلة<app><rdg
+wit="w1">والمدبثة</rdg><rdg
+wit="w2">والمدينة</rdg></app><app><rdg
+wit="w1">الشالة</rdg><rdg wit="w2">الضالة</rdg></app><app><rdg
+wit="w1">ابتدأمة</rdg><rdg wit="w2">ابتدا</rdg></app><app><rdg
+wit="w1">اليف</rdg><rdg wit="w2">بتاليف</rdg></app><app><rdg
 wit="w1"><lb</rdg><rdg wit="w2"/></app><app><rdg wit="w1">facs="#facs_2_r1l35"</rdg><rdg
 wit="w2"/></app><app><rdg wit="w1">n="N034"/></rdg><rdg
-wit="w2"/></app><w>هذا</w><app><rdg wit="w1"><w>الكتا</w></rdg><rdg
-wit="w2"><w>الكتاب</w></rdg></app><app><rdg wit="w1"><w>سمفداد</w></rdg><rdg
-wit="w2"><w>ببغداد</w></rdg></app><app><rdg wit="w1"><w>وحملة</w></rdg><rdg
-wit="w2"><w>وحمله</w></rdg></app><w>الى</w><w>الشام</w><w>فى</w><app><rdg
-wit="w1"><w>أخرستة</w></rdg><rdg wit="w2"><w>اخر</w></rdg></app><app><rdg
-wit="w1"><w>ثلانين</w></rdg><rdg wit="w2"><w>سنة</w></rdg></app><app><rdg
-wit="w1"><w>وقلتماثة</w></rdg><rdg
-wit="w2"><w>ثلاثين</w></rdg></app><app><rdg
-wit="w1"><w>وتممهيد</w></rdg><rdg
-wit="w2"><w>وثلاثمائة</w></rdg></app><app><rdg wit="w1"><w>مشق</w></rdg><rdg
-wit="w2"><w>وتممه</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بدمشق</w></rdg></app><w>فى</w><w>سنة</w><app><rdg
-wit="w1"><w>أحدى</w></rdg><rdg
-wit="w2"><w>احدى‫‫الله</w></rdg></app><app><rdg wit="w1"></p></rdg><rdg
-wit="w2"><w>الذى</w></rdg></app><app><rdg wit="w1"><p></rdg><rdg
-wit="w2"><w>هدانى</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>وكفانى</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l36"</rdg><rdg
-wit="w2"><w>واواني‬‬</w></rdg></app><app><rdg wit="w1">n="N001"/></rdg><rdg
-wit="w2"><w>‫‫ومن</w></rdg></app><app><rdg wit="w1"><w>ابريس</w></rdg><rdg
-wit="w2"><w>شعر</w></rdg></app><app><rdg wit="w1"></p></rdg><rdg
-wit="w2"><w>ابى</w></rdg></app><app><rdg wit="w1"></body></rdg><rdg
-wit="w2"><w>نصر</w></rdg></app><app><rdg wit="w1"></text></rdg><rdg
-wit="w2"><w>الفارابى</w></rdg></app><app><rdg wit="w1"></TEI></rdg><rdg
-wit="w2"><w>قال‬‬</w></rdg></app><app><rdg wit="w1">w>وارسطوطاليس</w></rdg><rdg
-wit="w2"><w>‫‫لما</w></rdg></app><app><rdg wit="w1"><w>مجروم</w></rdg><rdg
-wit="w2"><w>رايت</w></rdg></app><app><rdg wit="w1"><w>الاخر</w></rdg><rdg
-wit="w2"><w>الزمان</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>نكسا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الصحبة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>انتفاع‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>رئيس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>به</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ملال</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وكل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>راس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>به</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>صداع‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫لزمت</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بيتى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وصنت</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>عرضا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>به</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>العزة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اقتناع‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫اشرب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مما</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اقتنيت</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>راحا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لها</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>راحتى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>شعاع‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫لى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>قواريرها</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ندامى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ومن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>قراقيرها</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>سماع‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫واجتنى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>حديث</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>قوم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>قد</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اقفرت</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>منهم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>البقاع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>البسيط‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫وقال</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ايضا‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫اخى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>خل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>حيز</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ذى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>باطل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وكن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>للحقائق</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>حيز‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫فما</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الدار</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>دار</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>خلود</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لنا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ولا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المرء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الارض</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بالمعجز‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫وهل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>نحن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>خطوط</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وقعن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كرة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وقع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مستوفز‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫ينافس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>هذا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لهذا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اقل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الكلم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الموجز‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫محيط</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>السموات</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اولى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بنا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>*</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فكم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ذا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التزاحم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المركز</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المتقارب‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫ولابى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>نصر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفارابى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الكتب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>شرح</w></rdg></app><w>كتاب</w><app><rdg
-wit="w1"><w>المدبية</w></rdg><rdg
-wit="w2"><w>المجسطى</w></rdg></app><app><rdg wit="w1"><lb</rdg><rdg
-wit="w2"><w>لبطليموس‬‬</w></rdg></app><app><rdg wit="w1">facs="#facs_2_r1l34"</rdg><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1">n="N033"/></rdg><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"><w>القاضلة</w></rdg><rdg
-wit="w2"><w>البرهان</w></rdg></app><app><rdg
-wit="w1"><w>والمدبة</w></rdg><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الخطابة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المقالة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الثانى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والثامنة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الجدل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المغالطة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وهو</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الشرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الكبير‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>باريمينياس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المقولات</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المختصر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الكبير</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المنطق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المختصر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الصغير</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المنطق</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>طريقة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المتكلمين‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المختصر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاوسط</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التوطئة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المنطق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ايساغوجى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لفرفوريوس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫املاء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>معانى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ايساغوجي‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الصغير</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ووجد</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتابه</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>هذا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مترجما</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بخطه‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫احصاء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القضايا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والقياسات</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>تستعمل</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>العموم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جميع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الصنائع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياسية‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>شروط</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>القياس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>البرهان‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الجدل‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المواضع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المنتزعة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المقالة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الثامنة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الجدل‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المواضع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المغلطة‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اكتساب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المقدمات</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وهى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المسماة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بالمواضع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وهى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التحليل‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كلام</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المقدمات</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المختلطة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>من</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وجودى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وضروري‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كلام</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الخلاء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>صدر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لكتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الخطابة‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>السماع</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الطبيعى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>السماء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والعالم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاثار</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ال‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫علوية‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫لارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مقالة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاسكندر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الافروديسى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>النفس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>على</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>جهة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>التعليق‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫شرح</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>صدر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاخلاق</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لارسطوطاليس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>النواميس‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>احصاء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>العلوم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وترتيبها‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفلسفتين</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لفلاطن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مخروم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاخر‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفاضلة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><w>الجاهلة</w><app><rdg
-wit="w1"><w>والمذية</w></rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg
-wit="w1"><w>القاسعة</w></rdg><rdg
-wit="w2"><w>الفاسقة</w></rdg></app><app><rdg
-wit="w1"><w>والمدبثة</w></rdg><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"><</rdg><rdg
-wit="w2"><w>المبدلة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الضالة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ابتدا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بتاليف</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>هذا</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الكتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ببغداد</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وحمله</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الشام</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>اخر</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>سنة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>ثلاثين</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وثلاثمائة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وتممه</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>بدمشق</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>فى</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>سنة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>احدى</w></rdg></app><app><rdg wit="w1"/><rdg
+wit="w2"/></app>هذا<app><rdg wit="w1">الكتا</rdg><rdg
+wit="w2">الكتاب</rdg></app><app><rdg wit="w1">سمفداد</rdg><rdg
+wit="w2">ببغداد</rdg></app><app><rdg wit="w1">وحملة</rdg><rdg
+wit="w2">وحمله</rdg></app>الىالشامفى<app><rdg
+wit="w1">أخرستة</rdg><rdg wit="w2">اخر</rdg></app><app><rdg
+wit="w1">ثلانين</rdg><rdg wit="w2">سنة</rdg></app><app><rdg
+wit="w1">وقلتماثة</rdg><rdg
+wit="w2">ثلاثين</rdg></app><app><rdg
+wit="w1">وتممهيد</rdg><rdg
+wit="w2">وثلاثمائة</rdg></app><app><rdg wit="w1">مشق</rdg><rdg
+wit="w2">وتممه</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بدمشق</rdg></app>فىسنة<app><rdg
+wit="w1">أحدى</rdg><rdg
+wit="w2">احدى‫‫الله</rdg></app><app><rdg wit="w1"></p></rdg><rdg
+wit="w2">الذى</rdg></app><app><rdg wit="w1"><p></rdg><rdg
+wit="w2">هدانى</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">وكفانى</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l36"</rdg><rdg
+wit="w2">واواني‬‬</rdg></app><app><rdg wit="w1">n="N001"/></rdg><rdg
+wit="w2">‫‫ومن</rdg></app><app><rdg wit="w1">ابريس</rdg><rdg
+wit="w2">شعر</rdg></app><app><rdg wit="w1"></p></rdg><rdg
+wit="w2">ابى</rdg></app><app><rdg wit="w1"></body></rdg><rdg
+wit="w2">نصر</rdg></app><app><rdg wit="w1"></text></rdg><rdg
+wit="w2">الفارابى</rdg></app><app><rdg wit="w1"></TEI></rdg><rdg
+wit="w2">قال‬‬</rdg></app><app><rdg wit="w1">w>وارسطوطاليس</w></rdg><rdg
+wit="w2">‫‫لما</rdg></app><app><rdg wit="w1">مجروم</rdg><rdg
+wit="w2">رايت</rdg></app><app><rdg wit="w1">الاخر</rdg><rdg
+wit="w2">الزمان</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">نكسا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الصحبة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">انتفاع‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">رئيس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">به</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ملال</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وكل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">راس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">به</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">صداع‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫لزمت</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بيتى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وصنت</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">عرضا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">به</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">العزة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اقتناع‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫اشرب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مما</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اقتنيت</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">راحا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لها</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">راحتى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">شعاع‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫لى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">قواريرها</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ندامى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ومن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">قراقيرها</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">سماع‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫واجتنى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">حديث</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">قوم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">قد</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اقفرت</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">منهم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">البقاع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">البسيط‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫وقال</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ايضا‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫اخى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">خل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">حيز</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ذى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">باطل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وكن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">للحقائق</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">حيز‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫فما</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الدار</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">دار</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">خلود</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لنا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ولا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المرء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الارض</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بالمعجز‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫وهل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">نحن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">خطوط</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وقعن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كرة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وقع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مستوفز‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫ينافس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">هذا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لهذا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اقل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الكلم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الموجز‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫محيط</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">السموات</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اولى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بنا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">*</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فكم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ذا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التزاحم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المركز</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المتقارب‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫ولابى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">نصر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفارابى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الكتب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">شرح</rdg></app>كتاب<app><rdg
+wit="w1">المدبية</rdg><rdg
+wit="w2">المجسطى</rdg></app><app><rdg wit="w1"><lb</rdg><rdg
+wit="w2">لبطليموس‬‬</rdg></app><app><rdg wit="w1">facs="#facs_2_r1l34"</rdg><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1">n="N033"/></rdg><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1">القاضلة</rdg><rdg
+wit="w2">البرهان</rdg></app><app><rdg
+wit="w1">والمدبة</rdg><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الخطابة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المقالة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الثانى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والثامنة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الجدل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المغالطة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وهو</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الشرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الكبير‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">باريمينياس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المقولات</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المختصر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الكبير</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المنطق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المختصر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الصغير</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المنطق</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">طريقة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المتكلمين‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المختصر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاوسط</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التوطئة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المنطق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ايساغوجى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لفرفوريوس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫املاء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">معانى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ايساغوجي‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الصغير</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ووجد</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتابه</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">هذا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مترجما</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بخطه‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫احصاء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القضايا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والقياسات</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">تستعمل</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">العموم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جميع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الصنائع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياسية‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">شروط</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">القياس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">البرهان‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الجدل‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المواضع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المنتزعة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المقالة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الثامنة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الجدل‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المواضع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المغلطة‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اكتساب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المقدمات</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وهى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المسماة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بالمواضع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وهى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التحليل‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كلام</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المقدمات</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المختلطة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">من</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وجودى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وضروري‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كلام</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الخلاء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">صدر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لكتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الخطابة‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">السماع</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الطبيعى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">السماء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والعالم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاثار</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ال‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫علوية‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫لارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مقالة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاسكندر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الافروديسى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">النفس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">على</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">جهة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">التعليق‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫شرح</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">صدر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاخلاق</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لارسطوطاليس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">النواميس‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">احصاء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">العلوم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وترتيبها‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفلسفتين</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لفلاطن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مخروم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاخر‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفاضلة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app>الجاهلة<app><rdg
+wit="w1">والمذية</rdg><rdg
+wit="w2">والمدينة</rdg></app><app><rdg
+wit="w1">القاسعة</rdg><rdg
+wit="w2">الفاسقة</rdg></app><app><rdg
+wit="w1">والمدبثة</rdg><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"><</rdg><rdg
+wit="w2">المبدلة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الضالة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ابتدا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بتاليف</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">هذا</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الكتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ببغداد</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وحمله</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الشام</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">اخر</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">سنة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">ثلاثين</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وثلاثمائة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وتممه</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">بدمشق</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">فى</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">سنة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">احدى</rdg></app><app><rdg wit="w1"/><rdg
 wit="w2"></p></rdg></app><app><rdg wit="w1"/><rdg wit="w2"></body></rdg></app><app><rdg
 wit="w1"/><rdg wit="w2"></text></rdg></app><app><rdg wit="w1"/><rdg
 wit="w2"></TEI></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>احصاء</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>العلوم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وترتيبها‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفلسفتين</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>لفلاطن</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>وارسطوطاليس</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>مخروم</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الاخر‬‬</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>‫‫كتاب</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفاضلة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الجاهلة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الفاسقة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>المبدلة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>والمدينة</w></rdg></app><app><rdg wit="w1"/><rdg
-wit="w2"><w>الضالة</w></rdg></app></cx:apparatus>
+wit="w2">احصاء</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">العلوم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وترتيبها‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفلسفتين</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">لفلاطن</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">وارسطوطاليس</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">مخروم</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الاخر‬‬</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">‫‫كتاب</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفاضلة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الجاهلة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الفاسقة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">المبدلة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">والمدينة</rdg></app><app><rdg wit="w1"/><rdg
+wit="w2">الضالة</rdg></app>
