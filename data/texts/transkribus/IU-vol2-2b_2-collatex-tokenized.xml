@@ -40,11 +40,15 @@ XSLT but have to be specified manually in Oxygen -->
    <text>
       <body>
          <pb n="2"/>
-         <!--<p>--><app next="#app1"><rdg wit="transkribus"><lb facs="#facs_2_r1l1" n="N001"/>
+         <!--<p>--><lb facs="#facs_2_r1l1" n="N001"/>
+         <app><rdg wit="transkribus">
             ١٣٨
+            </rdg></app>
+         <lb facs="#facs_2_r1l3" n="N001"/>
+         <app><rdg wit="transkribus">
+            
 <!--         </p>-->
-         <!--<p>-->
-            <lb facs="#facs_2_r1l3" n="N001"/>
+         <!--<p>-->            
             الله</rdg><rdg wit="shamela">‫‫الله</rdg></app>الذى
             هدانى
             وكفانى<app><rdg wit="transkribus">أو
@@ -55,24 +59,31 @@ XSLT but have to be specified manually in Oxygen -->
             أبى</rdg><rdg wit="shamela">واواني‬‬
             ‫‫ومن
             شعر
-            ابى</rdg></app>نصر<app><rdg wit="transkribus">القارانى
-            ثال
-            <lb facs="#facs_2_r1l2" n="N002"/>
+            ابى</rdg></app>نصر
+         <app><rdg wit="transkribus">القارانى
+            ثال</rdg><rdg wit="shamela">الفارابى
+               قال‬‬</rdg></app>
+         <lb facs="#facs_2_r1l2" n="N002"/>
+         <app><rdg wit="transkribus">
             البسيط٢
-            <lb facs="#facs_2_r1l4" n="N003"/>
+            </rdg></app>
+         <lb facs="#facs_2_r1l4" n="N003"/>
+         <app><rdg wit="transkribus">
             لمارأبت
-            الرمان</rdg><rdg wit="shamela">الفارابى
-            قال‬‬
+            الرمان</rdg><rdg wit="shamela">
             ‫‫لما
             رايت
             الزمان</rdg></app>نكسا<app><rdg wit="transkribus">طوليس</rdg><rdg wit="shamela">*
-            وليس</rdg></app>فى<app><rdg wit="transkribus">الصجبة
+            وليس</rdg></app>فى
+         <app><rdg wit="transkribus">الصجبة
             التقا)
-            <lb facs="#facs_2_r1l5" n="N004"/>
+            </rdg><rdg wit="shamela">الصحبة
+               انتفاع‬‬
+            </rdg></app>
+         <lb facs="#facs_2_r1l5" n="N004"/>
+         <app><rdg wit="transkribus">
             كل
-            ريس</rdg><rdg wit="shamela">الصحبة
-            انتفاع‬‬
-            ‫‫كل
+            ريس</rdg><rdg wit="shamela">‫‫كل
             رئيس</rdg></app>به<app><rdg wit="transkribus">مسلال</rdg><rdg wit="shamela">ملال</rdg></app>*
             وكل<app><rdg wit="transkribus">رأس</rdg><rdg wit="shamela">راس</rdg></app>به<app><rdg wit="transkribus">سدام
             <lb facs="#facs_2_r1l6" n="N005"/>
