@@ -1,11 +1,16 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
-let $apps := //app[rdg/lb]
-let $count := 
+let $doc := doc('../../data/texts/transkribus/IU-vol2-2b_2-collatex-tokenized.xml')
+let $apps := $doc//app[rdg/lb]
+let $lines := 
     for $app in $apps
-    return count($app/rdg/lb/preceding-sibling::node()[not(name())])
+    return $app/rdg/node()[not(name()='lb')]
 
-return $count
+let $words-per-line := 
+    for $line in $lines 
+    return tokenize($line,'[\s\n\t]+') 
+    
+return $words-per-line
 
 (: Word count before and after line breaks 
 seems to be quite stable between the two 
