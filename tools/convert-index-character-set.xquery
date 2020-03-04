@@ -22,7 +22,7 @@ declare function functx:replace-multi
           $changeTo[position() > 1])
    else $arg
  } ;
- 
+  
  let $key-doc := doc('../data/lhom-encoding-key.tsv')
  let $from := 
     for $line at $i in tokenize($key-doc,'\n')
