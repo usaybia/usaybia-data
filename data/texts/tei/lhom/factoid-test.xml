@@ -1,0 +1,657 @@
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 14.25</title>
+                <title xml:lang="ar" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+                <author xml:lang="ar" ref="https://usaybia.net/person/1">ابن أبي أصيبعة</author>
+                <sponsor ref="https://www.uni-muenchen.de">
+                    <orgName>Ludwig Maximilian University of Munich</orgName>
+                    (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+                </sponsor>
+                <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+                    <orgName>Institute of Near and Middle Eastern Studies</orgName>
+                    (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+                </sponsor>
+                <funder ref="https://www.bmbf.de/">
+                    <orgName>German Federal Ministry of Education and Research</orgName>
+                    (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+                </funder>
+                <principal ref="#ngibson">Nathan P. Gibson</principal>
+                <editor role="editor" ref="https://usaybia.net/documentation/editors.xml#nloehr
+                    https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+                    http://syriaca.org/documentation/editors.html#ngibson 
+                    https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+                    http://orcid.org/0000-0003-0786-8075
+                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <!--<editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
+                    https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>-->                
+                <!--<editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
+                    https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
+                    https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>-->
+                <respStmt>
+                    <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+                    <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+                </respStmt>				
+                <!--<respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person">Insert other names of people who edit this document </name>
+                </respStmt>-->
+            </titleStmt>
+            <publicationStmt>
+                <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Arabic Edition</title>
+                        <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
+                        <author>Ibn Abī Uṣaybiʿa</author>
+                        <editor>Emilie Savage-Smith</editor>
+                        <editor>Simon Swain</editor>
+                        <editor>Geert Jan van Gelder</editor>
+                        <editor role="contributor">Ignacio Sánchez</editor>
+                        <editor role="contributor">N. Peter Joosse</editor>
+                        <editor role="contributor">Alasdair Watson</editor>
+                        <editor role="contributor">Bruce Inksetter</editor>
+                        <editor role="contributor">Franak Hilloowala</editor>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                        </availability>
+                        <imprint>
+                            <pubPlace>Leiden</pubPlace>
+                            <publisher>Brill</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope unit="chapter">14</biblScope>
+                    </monogr>
+                    <monogr>
+                        <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                        <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                        <author>Ibn Abī Uṣaybiʿa</author>
+                        <editor>Emilie Savage-Smith</editor>
+                        <editor>Simon Swain</editor>
+                        <editor>Geert Jan van Gelder</editor>
+                        <editor role="contributor">Ignacio Sánchez</editor>
+                        <editor role="contributor">N. Peter Joosse</editor>
+                        <editor role="contributor">Alasdair Watson</editor>
+                        <editor role="contributor">Bruce Inksetter</editor>
+                        <editor role="contributor">Franak Hilloowala</editor>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                        </availability>
+                        <imprint>
+                            <pubPlace>Leiden</pubPlace>
+                            <publisher>Brill</publisher>
+                            <date>2020</date>
+                        </imprint>
+                        <biblScope unit="volume">2</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
+            <change when="2020-02-28" who="#ngibson">Extracted text to test with factoids</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1" xml:lang="ar-Arab">
+                <div type="textpart" subtype="chapter" n="14">
+                    <div type="textpart" subtype="biography" n="25">
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">
+								‭[14.25]‬ علي بن رضوان <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. It is not found in <hi rend="smallcaps">MS</hi> R.</p></note>
+							</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.1‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							هو أبو الحسن علي بن رضوان بن علي بن جعفر وكان مولده ومنشؤه بمصر وبها تعلم الطب وقد ذكر علي بن رضوان في سيرته من كيفية تعلمه صناعة الطب وأحواله <note n="2" type="footnote"><p>A: adds وأحواله over line</p></note>
+							ما هذا نصه:‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							قال إنه لما كان ينبغي لكل إنسان أليق الصنائع به وأوفقها له وكانت صناعة الطب تتاخم الفلسفة طاعة لله عز وجل وكانت دلالات النجوم في مولدي تدل على أن صناعتي الطب وكان العيش عندي في الفضيلة ألذ من كل عيش أخذت في تعليم صناعة الطب وأنا ابن خمس عشرة سنة والأجود أن أقتص إليك <note n="3" type="footnote"><p>Above the line in A: إليك</p></note>
+							أمري كله.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							ولدت بأرض مصر في عرض ثلاثين درجة وطول خمس وخمسين درجة والطالع بزيج يحيى بن أبي منصور الحمل ه لو <note n="4" type="footnote"><p>Gc: كو</p></note>
+							وعاشرة الجدي ه كح ومواضع الكواكب الشمس بالدلو ه لب <note n="5" type="footnote"><p>ABL, Müller: ا ‭٥‬ لب‬‎; Gc: ه كب</p></note>
+							والقمر بالعقرب ح يه وعرضه جنوب ح يز وزحل <note n="6" type="footnote"><p>LH: وزجل</p></note>
+							بالقوس كط والمشتري بالجدي ه كح والمريخ بالدلو كا مح والزهرة بالقوس كد ك وعطارد بالدلو يط وسهم السعادة بالجدي د ه وجزء الاستقبال المتقدم بالسرطان كب ي والجوزهر <note n="7" type="footnote"><p>L: الجوهر</p></note>
+							بالقوس يز يا والذنب بالجوزاء يز ما <note n="8" type="footnote"><p>A: يا, above the line ما</p></note>
+							والنسر الواقع بالجدي ا كب والشعرى العبور بالسرطان ه يب.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							فلما بلغت السنة السادسة أسلمت نفسي في <note n="9" type="footnote"><p>In margin of L: في</p></note>
+							التعليم ولما بلغت السنة العاشرة انتقلت إلى المدينة العظمى وأجهدت نفسي في التعليم ولما أقمت <note n="10" type="footnote"><p>A: بلغت</p></note>
+							أربع عشرة سنة أخذت في تعليم الطب والفلسفة ولم يكن لي مال أنفق منه فلذلك عرض لي في التعليم صعوبة ومشقة ‭[ii,100]‬ فكنت مرة أتكسب بصناعه القضايا بالنجوم ومرة
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٤‬ب‬‎" />
+							بصناعة الطب ومرة بالتعليم ولم أزل كذلك وأنا في غاية الاجتهاد <note n="11" type="footnote"><p>L: repeats الاجتهاد</p></note>
+							في التعليم إلى السنة الثانية والثلاثين فإني اشتهرت فيها بالطب وكفاني ما كنت أكسبه بالطب بل وكان يفضل عني إلى وقتي هذا وهو آخر السنة التاسعة والخمسين وكسبت مما <note n="12" type="footnote"><p>L: عما</p></note>
+							فضل عن نفقتي أملاكاً في هذه المدينة إن كتب الله عليها السلامة وبلغني سن الشيخوخة كفاني في النفقة عليها.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							وكنت منذ السنة الثانية والثلاثين إلى يومي هذا أعمل تذكرة لي وأغيرها في كل سنة إلى أن قررتها على هذا التقرير <note n="13" type="footnote"><p>L: om. التقرير</p></note>
+							الذي أستقبل به السنة الستين من ذلك <note n="14" type="footnote"><p>A: add. أنني</p></note>
+							أتصرف كل يوم في صناعتي بمقدار ما يغني من <note n="15" type="footnote"><p>AGc: om. من</p></note>
+							الرياضة التي تحفظ صحة البدن وأغتذي بعد الاستراحة من الرياضة غذاء أقصد به حفظ الصحة وأجتهد في حال تصرفي في التواضع والمداراة وغياث الملهوف وكشف كربة المكروب وإسعاف المحتاج وأجعل قصدي في كل ذلك الالتذاذ بالأفعال والانفعالات الجميلة ولا بد أن يحصل مع ذلك كسب ما ينفق فأنفق منه على صحة بدني وعمارة منزلي نفقة لا تبلغ التبذير ولا تنحط إلى التقتير وتلزم الحال الوسطى بقدر ما يوجبه التعقل في كل وقت وأتفقد آلات منزلي فما يحتاج إلى إصلاح أصلحته وما يحتاج إلى بدل <note n="16" type="footnote"><p>A: ابدال</p></note>
+							بدلته وأعد في منزلي <note n="17" type="footnote"><p>L: منزل</p></note>
+							ما يحتاج إليه من الطعام والشراب والعسل والزيت والحطب وما يحتاج إليه من الثياب فما فضل بعد ذلك كله صرفته في وجوه الجميل والمنافع مثل إعطاء الأهل والإخوان والجيران وعمارة المنزل وما اجتمع من غلة أملاكي ادخرته <note n="18" type="footnote"><p>AB: اذخرته</p></note>
+							لعمارتها وثمرها <note n="19" type="footnote"><p>A: وٮمرها; Gc: نموها; Müller: ومرمتها</p></note>
+							ولوقت الحاجة إلى مثله وإذا هممت لتجديد أمر مثل تجارة أو بناء أو غير <note n="20" type="footnote"><p>LBHGc: وغير</p></note>
+							ذلك فرضته مطلوباً وحللته إلى موضوعاته ولوازمها فإن وجدته من الممكن الأكثر بادرت إليه وإن وجدته من الممكن القليل اطرحته وأتعرف ما يمكنني تعريفه من الأمور المزمعة وآخذ له أهبته.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							وأجعل ثيابي مزينة بشعار الأخيار والنظافة وطيب الرائحة وألزم الصمت وكف اللسان عن معايب الناس وأجتهد أن لا <note n="21" type="footnote"><p>LBGc: الا</p></note>
+							أتكلم إلا بما ينبغي وأتوقى الأيمان ومثالب الآراء وأحذر العجب وحب الغلبة وأطرح الهم الحرصي والاغتمام وإن دهمني <note n="22" type="footnote"><p>A: يهتمني, in margin دهمني خ</p></note>
+							أمر فادح أسلمت فيه إلى الله تعالى وقابلته بما يوجبه التعقل من غير جبن ولا تهور ومن عاملته عاملته يداً بيد لا أسلف ولا أتسلف إلا أن أضطر لذلك وإن طلب مني أحد سلفاً وهبت منه ولم أرد منه عوضاً وما بقي من يومي بعد فراغي من رياضتي صرفته في عبادة الله سبحانه بأن أتنزه بالنظر في ملكوت السموات والأرض وتمجيد محكمها وأتدبر مقالة أرسطوطاليس في التدبير وآخذ نفسي بلزوم وصاياها بالغداة والعشي
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٥‬أ‬‎" />
+							وأتفقد في وقت خلوتي ما سلف في <note n="23" type="footnote"><p>LH: om. في</p></note>
+							يومي من أفعالي وانفعالاتي فما كان خيراً أو جميلاً أو نافعاً سررت به وما كان شراً أو قبيحاً أو ضاراً اغتممت به ووافقت <note n="24" type="footnote"><p>L: واوقفت</p></note>
+							نفسي بأن لا أعود إلى مثله.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.2‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							قال وأما الأشياء التي أتنزه فيها فلأني فرضت نزهتي ذكر الله عز وجل وتمجيده بالنظر في ملكوت السماء والأرض وكان قد كتب العلماء والقدماء <note n="25" type="footnote"><p>LBH: القدماء والعارفون</p></note>
+							في ذلك كتباً كثيرة رأيت أن أقتصر منها على ما أنصه من ذلك خمسة كتب من كتب الأدب وعشرة كتب من كتب الشرع وكتب أبقراط وجالينوس في صناعة الطب وما جانسها مثل كتاب الحشائش لديسقوريدس وكتب روفس وأريباسيوس وبولس ‭[ii,101]‬ وكتاب الحاوي للرازي ومن كتب الفلاحة والصيدلة أربعة كتب ومن كتب التعاليم المجسطي ومداخله وما أنتفع به فيه والمربعة لبطلميوس ومن كتب العارفين كتب أفلاطن وأرسطوطاليس والإسكندر وثامسطيوس ومحمد الفارابي وما أنتفع به فيها وما سوى ذلك إما <note n="26" type="footnote"><p>LH: om. إما</p></note>
+							أبيعه بأي ثمن اتفق وإما أن أخزنه في صناديق وبيعه أجود من خزنه.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.3‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							أقول هذا جملة ما ذكره من سيرته <note n="27" type="footnote"><p>Above the line in A, Gc om.: هذا جملة ما ذكره من سيرته صح</p></note>
+							وكان مولده في ديار <note n="28" type="footnote"><p>A: بديار</p></note>
+							مصر بالجيزة ونشأ بمدينة مصر وكان أبوه فراناً ولم يزل ملازماً للاشتغال والنظر في العلم إلى أن تميز وصار له الذكر الحسن والسمعة العظيمة وخدم الحاكم وجعله رئيساً على سائر المتطببين وكانت دار ابن رضوان بمدينة مصر في قصر الشمع <note n="29" type="footnote"><p>A: الجمع</p></note>
+							وهي إلى الآن تعرف به وقد تهدمت ولم يتبين إلا بقايا <note n="30" type="footnote"><p>AGc: اثار</p></note>
+							يسيرة من آثارها وحدث في الزمان الذي كان فيه <note n="31" type="footnote"><p>L: به</p></note>
+							ابن رضوان بديار مصر الغلاء العظيم والجلاء الفادح الذي هلك به أكثر أهلها.‬‎
+						<note resp="#ngibson" type="person-list">
+						    <persName ref="https://usaybia.net/person/test1">Ibn Riḍwān, Abū al-Ḥasan ʿAlī</persName>
+						    <persName ref="https://usaybia.net/person/test2">Father of Ibn Riḍwān, Abū al-Ḥasan ʿAlī</persName>
+						    <persName ref="https://usaybia.net/person/test3">al-Ḥākim</persName>
+						    <persName ref="https://usaybia.net/person/test4">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn</persName>
+						</note>
+						    <note resp="#ngibson" type="factoids">
+						        <div type="factoid">
+						            
+						        </div>
+						    </note>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">ونقلت من خط المختار بن الحسن بن بطلان أن الغلاء عرض بمصر في سنة خمس وأربعين وأربعمائة قال ونقص النيل في السنة التي تليها وتزايد الغلاء وتبعه وباء عظيم واشتد وعظم في سنة سبع وأربعين وأربعمائة وحكي أن السلطان كفن من ماله ثمانين ألف نفس وأنه فقد ثمانمائة قائد وحصل للسلطان من المواريث مال جزيل.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.4‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							وحدثني أبو عبد الله محمد المالقي الناسخ أن ابن رضوان تغير عقله في آخر عمره وكان السبب في ذلك أنه في ذلك الغلاء كان قد أخذ يتيمة رباها وكبرت عنده <note n="32" type="footnote"><p>A: كان اخذ يتيمة ورباها عنده وكبرت; Gc: عنده اخذ يتيمه رباها وكبرت</p></note>
+							فلما كان في بعض الأيام خلا لها الموضع وكان قد ادخر أشياء نفيسة ومن الذهب نحو <note n="33" type="footnote"><p>L: om نجو</p></note>
+							عشرين ألف دينار فأخذت الجميع وهربت ولم يظهر منها على خبر ولا عرف أين توجهت فتغيرت أحواله من حينئذ.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.5‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							أقول وكان ابن رضوان كثير الرد على من كان معاصره من الأطباء وغيرهم وكذلك على كثير ممن تقدمه وكانت عنده سفاهة في بحثه وتشنيع على من يريد مناقشته وأكثر ذلك يوجد عندما كان يرد على
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٥‬ب‬‎" />
+							حنين بن إسحق وعلى أبي الفرج بن الطيب وكذلك أيضاً على أبي بكر محمد بن زكريا <note n="34" type="footnote"><p>AGc: om. ابى بكر محمد بن زكريا</p></note>
+							الرازي.‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							ولم يكن لابن رضوان في صناعة الطب معلم ينسب إليه وله كتاب في ذلك يتضمن أن تحصيل الصناعة من الكتب أوفق من المعلمين وقد رد عليه ابن بطلان هذا الرأي وغيره في كتاب مفرد وذكر فصلاً في العلل التي لأجلها صار المتعلم من أفواه الرجال <note n="35" type="footnote"><p>A: المعلمين, in margin الرجال</p></note>
+							أفضل من المتعلم من الصحف إذا كان قبولهما واحداً وأورد عدة علل.‬‎
+						</p>
+						<list>
+							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								الأولى منها <note n="36" type="footnote"><p>L: منهما</p></note>
+								تجري هكذا وصول المعاني من النسيب إلي النسيب خلاف وصولها من غير النسيب إلى النسيب والنسيب الناطق أفهم للتعليم بالنطق وهو المعلم وغير النسيب له جماد وهو الكتاب وبُعد الجماد من الناطق مطيل لطريق الفهم وقرب الناطق <note n="37" type="footnote"><p>LH: om من الناطق … وقرب الناطق‬‎</p></note>
+								من الناطق مقرب للفهم فالفهم من النسيب وهو المعلم أقرب وأسهل <note n="38" type="footnote"><p>A: adds منه</p></note>
+								من غير النسيب وهو الكتاب
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								والثانية هكذا النفس العلامة علامة بالفعل وصدور الفعل عنها <note n="39" type="footnote"><p>Schacht &amp; Meyerhof, <hi rend="italic">Medico-Philosophical Controversy</hi>, 50; al-Ṣafadī, <hi rend="italic">Wāfī</hi>, xxi:108: وصدور; <hi rend="smallcaps">IAU</hi>, Müller: وصورة</p></note>
+								يقال له تعليم والتعليم والتعلم من المضاف وكلما هو للشيء بالطبع أخص به مما ليس له <note n="40" type="footnote"><p>AGc: om. له</p></note>
+								بالطبع والنفس المتعلمة علامة بالقوة وقبول العلم <note n="41" type="footnote"><p>A: وصورة الفعل crossed out, in margin وقول العلم صح</p></note>
+								فيها يقال له تعلم والمضافان <note n="42" type="footnote"><p>L: المضافات</p></note>
+								معاً بالطبع فالتعليم من المعلم أخص بالمتعلم من الكتاب. <note n="43" type="footnote"><p>Gc: بالقوة وقول المعلم من المعلم أخص بالمتعلم من الكتاب</p></note>
+							</item>
+						</list>
+						<list>
+							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								والثالثة على هذه الصورة المتعلم إذا استعجم عليه ما يفهمه المعلم من لفظ نقله إلى لفظ آخر والكتاب لا ينقل من لفظ إلى لفظ فالفهم من المعلم أصلح للمتعلم من الكتاب كلما هو بهذه الصفة فهو في إيصال ‭[ii,102]‬ العلم <note n="44" type="footnote"><p>Above the line in A: العلم</p></note>
+								أصلح للمتعلم.
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								والرابعة العلم موضوعه اللفظ واللفظ على ثلاثة أضرب قريب من العقل وهو الذي صاغه العقل مثالاً لما عنده من المعاني ومتوسط وهو المتلفظ به بالصوت وهو مثال لما صاغه العقل وبعيد وهو المثبت في الكتب وهو مثال ما خرج باللفظ فالكتاب مثال مثال مثال المعاني التي في العقل والمثال الأول لا يقوم مقام الممثل لعوز <note n="45" type="footnote"><p>A: لعدم, in margin لعوز</p></note>
+								المثل فما ظنك بمثال مثال <note n="46" type="footnote"><p>L: مبال</p></note>
+								مثال الممثل فالمثال الأول لما عند العقل أقرب في الفهم <note n="47" type="footnote"><p>A: للفهم, above the line في الفهم</p></note>
+								من مثال المثال والمثال الأول هو اللفظ والثاني هو الكتاب وإذا كان الأمر على هذا فالفهم من لفظ المعلم أسهل وأقرب من لفظ الكتاب.
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								والخامسة وصول اللفظ <note n="48" type="footnote"><p>Gc: الخط</p></note>
+								الدال على المعنى إلى العقل يكون من جهة <note n="49" type="footnote"><p>Above the line in A: جهة</p></note>
+								حاسة غريبة من اللفظ وهي <note n="50" type="footnote"><p>AGc: وهو</p></note>
+								البصر لأن الحاسة النسبية للفظ هي السمع لأنه تصويت والشيء الواصل من النسيب وهو اللفظ أقرب من وصوله من الغريب وهو الكتابة فالفهم من المعلم باللفظ أسهل <note n="51" type="footnote"><p>A: add. واقرب</p></note>
+								من القهم من الكتاب من الخط. <note n="52" type="footnote"><p>HGc: بالخط</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								والسادسة هكذا يوجد في الكتاب أشياء تصد عن العلم قد عدمت في تعليم المعلم وهي التصحيف العارض من اشتباه الحروف مع عدم اللفظ والغلط بروغان
+								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٦‬أ‬‎" />
+								البصر وقلة الخبرة بالإعراب أو عدم وجوده مع الخبرة به أو فساد الموجود منه واصطلاح الكُتّاب <note n="53" type="footnote"><p>Gc: add. كتابة</p></note>
+								ما لا يقرأ وقراءة ما لا يكتب ونحو التعليم ونمط الكلام ومذهب صاحب الكتاب وسقم النسخ ورداءة النقل وادماج القارئ مواضع المقاطع وخلط مبادئ التعاليم وذكر ألفاظ مصطلح عليها في تلك الصناعة وألفاظ يونانية لم يخرجها الناقل من اللغة كالثوروس وهذه كلها معوقة عن العلم وقد استراح المتعلم من تكلفها عند قراءته على المعلم وإذا كان الأمر على هذا فالقراءة على العلماء أفضل وأجدى <note n="54" type="footnote"><p>A: اجدى وانفع, above the line افضل</p></note>
+								من قراءة الإنسان لنفسه وهو ما أردنا بيانه.
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								قال وأنا آتيك ببيان سابع أظنه مصدقاً عندك وهو ما قاله المفسرون في الاعتياض عن السالبة البسيطة بالموجبة المعدولة فإنهم مجمعون على أن هذا الفصل لو لم يسمعه من أرسطوطاليس تلميذاه ثاؤفرسطس وأوذيموس لما فهم قط من كتاب وإذا كان الأمر على هذا فالفهم من المعلم أفضل من الفهم من الكتاب وبحسب هذا يجب على كل محب للعلم أن لا يقطع بظن فربما خفي الصواب وإذا خفي الصواب علم <note n="55" type="footnote"><p>A: على, in margin علم خ</p></note>
+								الأشياء علماً رديئاً فثار عليه بحسب اعتقاده في الحق أنه مجال <note n="56" type="footnote"><p>Ed. em. A: محالٌ شكوك with <hi rend="italic">ḥ</hi> having a <hi rend="italic">muhmal</hi> sign, which it also has in L: مُحال; Gc: محال وشكوك; H, Müller: محال شكوك; Schacht &amp; Meyerhof, <hi rend="italic">Medico-Philosophical Controversy</hi>, 53: محال</p></note>
+								شكوك يعسر حلّها.
+							</item>
+						</list>
+						<p style="direction:rtl; unicode-bidi:embed">
+							وكانت وفاة علي بن رضوان رحمه الله <note n="57" type="footnote"><p>A: add. بمصر crossed out</p></note>
+							في سنة ثلاث وخمسين وأربعمائة بمصر وذلك في خلافة المستنصر بالله أبي تميم معد بن الظاهر لإعزاز دين الله بن الحاكم. <note n="58" type="footnote"><p>In margin of A: لإعزاز دين الله بن الحاكم صح</p></note>
+							‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.6‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">ومن كلام علي بن رضوان قال إذا كانت للإنسان صناعة ترتاض بها أعضاؤه ويمدحه بها الناس ويكسب بها كفايته في بعض يومه فأفضل ما ينبغي له في باقي يومه أن يصرفه في طاعة ربه وأفضل الطاعات النظر في الملكوت وتمجيد المالك لها سبحانه ومن رزق ذلك فقد رزق خير الدنيا والآخرة وطوبى له وحسن مآب.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.7‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							ومن كلامه نقلته من خطه <note n="59" type="footnote"><p>A: بخطه, above the line من خطه</p></note>
+							قال الطبيب على رأي بقراط هو الذي اجتمعت فيه سبع خصال:‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">الأولى أن يكون تام الخلق صحيح الأعضاء حسن الذكاء جيد الرؤية عاقلاً ذكوراً خير الطبع‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">الثانية أن يكون حسن الملبس طيب الرائحة نظيف البدن والثوب‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">الثالثة أن يكون كتوماً لأسرار المرضى لا يبوح بشيء من أمراضهم‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							الرابعة أن تكون رغبته في إبراء المرضى أكثر من رغبته ‭[ii,103]‬ فيما يلتمسه <note n="60" type="footnote"><p>A: add. منهم</p></note>
+							من الأجرة ورغبته في علاج الفقراء أكثر من رغبته في علاج الأغنياء‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">الخامسة أن يكون حريصاً على التعليم والمبالغة في منافع الناس‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							السادسة <note n="61" type="footnote"><p>L: om. السادسة corr. to السادسة in left margin</p></note>
+							أن يكون سليم القلب عفيف النظر صادق اللهجة لا يخطر بباله شيء من أمور النساء والأموال التي شاهدها في منازل الأعلاء فضلاً عن <note n="62" type="footnote"><p>Above the line in A: عن</p></note>
+							أن يتعرض إلى شيء منها‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">السابعة أن يكون مأموناً ثقة على الأرواح والأموال لا يصف دواء قتالاً ولا يعلمه ولا دواء يسقط الأجنة يعالج عدوه بنية صادقة كما يعالج حبيبه.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٦‬ب‬‎" />
+							‬‎
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.8‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">وقال:‬‎</p>
+						<list>
+							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								المعلم لصناعة الطب هو الذي اجتمعت فيه <note n="63" type="footnote"><p>L: om. فيه</p></note>
+								هذه الخصال بعد استكماله صناعة الطب والمتعلم لها هو الذي فراسته تدل على أنه ذو طبع خير ونفس ذكية وأن يكون حريصاً على التعليم ذكياً ذكوراً لما قد تعلمه
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">وقال البدن السليم من العيوب هو البدن الصحيح الذي كل واحد من أعضائه باق على فضيلته أعني أن يكون يفعل فعله الخاص على ما ينبغي</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								<p style="direction:rtl; unicode-bidi:embed">
+									وقال تعرُّف العيوب هو أن تنظر إلى هيئة الأعضاء والسحنة والمزاج وملمس البشرة وتتفقد أفعال الأعضاء الباطنة والظاهرة مثل أن تنادي به <note n="64" type="footnote"><p>AGc: om. به</p></note>
+									من بعيد فتعتبر بذلك حال سمعه وأن تعتبر بصره بنظر <note n="65" type="footnote"><p>L: نضره نظر</p></note>
+									الأشياء البعيدة والقريبة ولسانه بجودة <note n="66" type="footnote"><p>L: بجود</p></note>
+									الكلام وقوته بشيل الثقل والمسك والضبط والمشي وأنحاء ذلك مثل أن تنظر مشيه مقبلاً ومدبراً ويؤمر بالاستلقاء على ظهره ممدود اليدين قد نصب رجليه وصفهما وتعتبر بذلك حال أحشائه وتتعرف <note n="67" type="footnote"><p>A: وتعتبر</p></note>
+									حال <note n="68" type="footnote"><p>Above the line in A: حال</p></note>
+									مزاج قلبه بالنبض وبالأخلاق ومزاج كبده بالبول وحال <note n="69" type="footnote"><p>L: بابول حال</p></note>
+									الأخلاط وتعتبر عقله بأن يسأل عن أشياء وفهمه وطاعته بأن يؤمر بأشياء وأخلاقه إلى ما تميل بأن تعتبر كل واحد منها <note n="70" type="footnote"><p>L: منهما</p></note>
+									بما يحركه أو يسكنه وعلى هذا المثال أجر <note n="71" type="footnote"><p>BH: اجري; LGc: اجرى</p></note>
+									الحال في تفقد <note n="72" type="footnote"><p>AGc: om. تفقد</p></note>
+									كل واحد من الأعضاء والأخلاق.‬‎
+								</p>
+								<p style="direction:rtl; unicode-bidi:embed">
+									أما فيما يمكن ظهوره للحس فلا تقنع فيه حتى تشاهده بالحس وأما فيما يتعرف بالاستدلال ما يستدل عليه بالعلامات الخاصية وأما فيما يتعرف بالمسألة فابحث عنه بالمسألة حتى تعتبر كل واحد من العيوب فتعرف هل <note n="73" type="footnote"><p>L: كل</p></note>
+									عيب حاضر أو كان أو متوقع أم الحال حال صحة وسلامة‬‎
+								</p>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">ومن كلامه قال إذا دعيت إلى مريض فأعطه ما لا يضره إلى أن تعرف علته فتعالجها عند ذلك ومعنى معرفة المرض هو أن تعرف من أي خلط حدث أولاً ثم تعرف بعد ذلك في أي عضو هو وعند ذلك تعالجه.</item>
+						</list>
+						<p style="direction:rtl; unicode-bidi:embed">
+							<hi rend="bold">[‭14.25.9‬]</hi>
+						</p>
+						<p style="direction:rtl; unicode-bidi:embed">ولعلي بن رضوان من الكتب:‬‎</p>
+						<list>
+							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								شرح كتاب الفرق لجالينوس وفرغ من شرحه له في يوم الخميس لليلتين بقيتا من ذي الحجة سنة اثنتين وثلاثين وأربعمائة <note n="74" type="footnote"><p>In margin of A, Gc om.: وفرغ من … وثلاثين وأربعمائة صح‬‎</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">شرح كتاب الصناعة الصغيرة لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">شرح كتاب النبض الصغير لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">شرح كتاب جالينوس إلى أغلوقن في التأتي لشفاء الأمراض</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">شرح المقالة الأولى في خمس مقالات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								وشرح المقالة الثانية في مقالتين <note n="75" type="footnote"><p>In margin of A, Gc om.: في التأتي … الثانية في مقالتين صح‬‎</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">شرح كتاب الأسطقسات لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								شرح بعض كتاب المزاج لجالينوس ولم يشرح من الكتب الستة عشر لجالينوس سوى ما ذكرت <note n="76" type="footnote"><p>In margin of A, Gc om.: ولم يشرح … ما ذكرت صح‬‎</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب الأصول في الطب أربع مقالات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كناش <note n="77" type="footnote"><p>Schacht &amp; Meyerhof, <hi rend="italic">Medico-Philosophy Controversy</hi>, 41, consider this title to be part of the previous book-title, but all manuscript copies employed in this edition treat كناش as a separate entry.</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								رسالة في علاج الجذام <note n="78" type="footnote"><p>In margin of A, Gc om.: رسالة في علاج الجذام</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب تتبع مسائل حنين مقالتان</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب النافع في كيفية تعليم صناعة الطب ثلاث مقالات <note n="79" type="footnote"><p>AGc: add. here title no. 11.</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن جالينوس لم يغلط في أقاويله في اللبن على ما ظنه قوم</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭15‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في دفع المضار عن الأبدان بمصر <note n="80" type="footnote"><p>L: المضار بمصر عن الابدان</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭16‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في سيرته</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭17‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في الشعير وما يعمل منه ألفها لأبي زكريا يهوذا بن سعادة الطبيب <note n="81" type="footnote"><p>In margin of A, Gc om.: ألفها لأبي زكريا يهوذا بن سعادة الطبيب صح</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭18‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								جوابه لمسائل في لبن الأتن سأله إياها يهوذا بن سعادة <note n="82" type="footnote"><p>In margin of A, Gc om.: سأله إياها يهوذا بن سعادة</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭19‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تعاليق ‭[ii,104]‬ طبية</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭20‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تعاليق نقلها في صيدلة الطب</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭21‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في
+								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٧‬أ‬‎" />
+								مذهب أبقراط في تعليم الطب
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭22‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب <note n="83" type="footnote"><p>AGc: مقالة</p></note>
+								في أن أفضل أحوال عبد الله بن الطيب الحال السوفسطائية وهو خمس مقالات
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭23‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب في أن الأشخاص كل واحد من الأنواع المتناسلة أب أول منه تناسلت الأشخاص على مذهب الفلسفة <note n="84" type="footnote"><p>A: لفلاسفة, in margin الفلسفة</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭24‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تفسير مقالة الحكيم فيثاغورس في الفضيلة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭25‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في الرد على إفرائيم وابن زرعة في الاختلاف في الملل</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭26‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">انتزاعات شروح جالينوس لكتب أبقراط</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭27‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب الانتصار لأرسطوطاليس وهو كتاب التوسط بينه وبين خصومه المناقضين له في السماع الطبيعي <note n="85" type="footnote"><p>In margin of A: وهو كتاب … السماع الطبيعي صح رجع تسع‬‎</p></note>
+								تسع وثلاثون مقالة
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭28‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تفسير ناموس الطب لأبقراط</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭29‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تفسير وصية أبقراط المعروفة بترتيب الطب</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭30‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كلام في الأدوية المسهلة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭31‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب في عمل الأشربة والمعاجين</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭32‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تعليق من كتاب التميمي في الأغذية والأدوية</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭33‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تعليق من كتاب فوسيدونيوس في أشربة لذيذة للأصحاء</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭34‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								فوائد علقها من كتاب فيلغريوس <note n="86" type="footnote"><p>L: فيلغويوس</p></note>
+								في الأشربة النافعة اللذيذة في أوقات الأمراض
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭35‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في الباه</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭36‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن كل واحد من الأعضاء يغتذي من الخلط المشاكل له</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭37‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في الطريق إلى إحصاء عدد الحميات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭38‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								فصل من كلامه في القوى الطبيعية <note n="87" type="footnote"><p>In margin of A, Gc om.: من كلامه في القوى الطبيعية</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭39‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								جواب مسائل <note n="88" type="footnote"><p>In margin of A, Gc om.: جواب مسايل صح في رجع</p></note>
+								في النبض وصل إليه السؤال عنها من <note n="89" type="footnote"><p>L: add. ناحيه</p></note>
+								الشام <note n="90" type="footnote"><p>AGc: om. وصل إليه السؤال عنها من الشام</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭40‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								رسالة في أجوبة مسائل سأل عنها الشيخ أبو الطيب أزهر بن النعمان <note n="91" type="footnote"><p>In margin of A, Gc om.: سأل عنها … بن النعمان صح‬‎</p></note>
+								في الأورام
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭41‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة في علاج صبي أصابه المرض المسمى بداء الفيل وداء الأسد</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭42‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								نسخة الدستور الذي أنفذه أبو العسكر الحسين بن معدان ملك مكران في حال علة الفالج في شقّه <note n="92" type="footnote"><p>L: سقه</p></note>
+								الأيسر وجواب ابن رضوان له
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭43‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب حيلة البرء لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭44‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب تدبير الصحة لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭45‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب الكثرة لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭46‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب الفصد لجالينيوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭47‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب الأدوية المفردة لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭48‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب الميامر لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭49‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها من كتاب قاطاجانس لجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭50‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">فوائد علقها في الأخلاط من كتب عدة لأبقراط وجالينوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭51‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب في حل شكوك الرازي على كتب جالينوس سبع مقالات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭52‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في حفظ الصحة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭53‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أدوار الحميات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭54‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في التنفس الشديد وهو <note n="93" type="footnote"><p>In margin of A, Gc om.: التنفس الشديد وهو صح</p></note>
+								ضيق النفس
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭55‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة كتب بها إلى أبي زكريا يهوذا بن سعادة في النظام الذي استعمله جالينوس في تحليل الحد في كتابه المسمى الصناعة الصغيرة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭56‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في نقض مقالة ابن بطلان في الفرخ والفروج</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭57‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في الفأر</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭58‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة فيما أورده ابن بطلان من التحييرات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭59‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن ما جهله يقين وحكمة وما علمه ابن بطلان غلط وسفسطة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭60‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن ابن بطلان لا يعلم كلام نفسه فضلاً عن كلام غيره</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭61‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة إلى أطباء مصر والقاهرة في خبر ابن بطلان</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭62‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">قول له في جملة الرد عليه</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭63‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب في مسائل جرت بينه وبين ابن الهيثم في المجرة والمكان</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭64‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								أخراجه لحواشي كامل الصناعة
+								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٧‬ب‬‎" />
+								الطبية الموجود منه بعض الأولى
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭65‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة في أزمنة الأمراض</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭66‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في التطرق بالطب إلى السعادة <note n="94" type="footnote"><p>In margin of A, Gc om.: مقالة في … إلى السعادة صح‬‎</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭67‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في أسباب مدد حميات الأخلاط <note n="95" type="footnote"><p>A: الامراض corr. to الاخلاط over line.</p></note>
+								وقرانهما
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭68‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								جوابه عما شرح له من حال عليل به علة الفالج في شقه الأيسر <note n="96" type="footnote"><p>ALHGc: om. title, present in BR, Müller.</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭69‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في الأورام</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭70‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب في الأدوية المفردة على حروف المعجم <note n="97" type="footnote"><p>In margin of A, Gc om.: على حروف المعجم صح</p></note>
+								اثنتا عشرة <note n="98" type="footnote"><p>L: اثنا عشر</p></note>
+								مقالة الموجود منه إلى بعض السادسة <note n="99" type="footnote"><p>AGc: om. الموجود منه إلى بعض السادسة</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭71‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في شرف الطب</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭72‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة في الكون والفساد</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭73‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في سبل <note n="100" type="footnote"><p>B, Müller: سبيل</p></note>
+								السعادة وهي السيرة التي اختارها لنفسه
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭74‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								رسالة ‭[ii,105]‬ في بقاء النفس بعد الموت <note n="101" type="footnote"><p>In margin of A, Gc om.: رسالة في بقاء النفس بعد الموت صح</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭75‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في فضيلة الفلسفة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭76‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في بقاء النفس على رأي أفلاطن وأرسطوطاليس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭77‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								أجوبته لمسائل <note n="102" type="footnote"><p>A: مساىل اجوبة; Gc: اجوبه لمسايل</p></note>
+								منطقية من كتاب القياس
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭78‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في حل شكوك يحيى ابن عدي المسماة بالمحرسات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭79‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في الحر <note n="103" type="footnote"><p>A: الحز</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭80‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في بعث نبوة محمد صلى الله عليه وسلم <note n="104" type="footnote"><p>A: صلعم; L: om. وسلم</p></note>
+								من التوراة والفلسفة
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭81‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن في الوجود نقط وخطوط طبيعية</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭82‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في حدث العالم</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭83‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في التنبيه على حيل من ينتحل <note n="105" type="footnote"><p>A: على حيّل من يتحيل with ظ above حيل and يتحيل (conjectural readings); Gc: يتحيّل; H: على حٮل من ٮٮٮحل</p></note>
+								صناعة القضايا بالنجوم وتشرف <note n="106" type="footnote"><p>A: يسرف; LGc: يشرف</p></note>
+								أهلها
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭84‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في خلط الضروري والوجودي</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭85‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في اكتساب الحلال من المال</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭86‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								مقالة في الفرق بين الفاضل من الناس والسديد والقطب <note n="107" type="footnote"><p>Ed. em. All <hi rend="smallcaps">MSS</hi> and Müller: والعطب</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭87‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في كل السياسة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭88‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة في السعادة</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭89‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في اعتذاره عما ناقض به المحدثين</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭90‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في توحيد الفلاسفة وعبادتهم</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭91‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب في الرد على الرازي في العلم الإلهي وإثبات الرسل</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭92‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب المستعمل من المنطق في العلوم والصنائع ثلاث مقالات</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭93‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								رسالة صغرى في الهيولى صنفها لأبي سليمان بن بابشاذ <note n="108" type="footnote"><p>In margin of A, Gc om.: صنفها لأبي سليمان بن بابشاذ</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭94‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								تذكرتاه المسميتان <note n="109" type="footnote"><p>LGcH: المسماة</p></note>
+								بالكمال الكامل والسعادة القصوى غير كاملة
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭95‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								تعاليقه لفوائد كتب أفلاطون المشاجرة <note n="110" type="footnote"><p>ALH: المساحرة; B: المشاحرة; Gc: المساجرة; Müller: المساجرة</p></note>
+								لهوية <note n="111" type="footnote"><p>Riḍā: لهوية; <hi rend="smallcaps">IAU</hi>, Müller: الهوية</p></note>
+								طبيعة الإنسان
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭96‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">تعاليق فوائد مدخل فرفوريوس</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭97‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								تهذيب كتاب الحاىس <note n="112" type="footnote"><p>A: الحاٮس; B: الحابس; L: الجانس; Gc: الجاٮس; H: الحانس; Müller: الحابس</p></note>
+								في رياسة البناء <note n="113" type="footnote"><p>ABL: الثناء; Gc: البنا; H: الثىا; cf. Müller: الثنا</p></note>
+								الموجود منه بعض لا كل
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭98‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								تعاليق في أن خط الاستواء بالطبع أظلم ليلاً وأن جوهره بالعرض أظلم ليلاً <note n="114" type="footnote"><p>L: om. وأن جوهره بالعرض أظلم ليلاً</p></note>
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭99‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								كتاب فيما ينبغي <note n="115" type="footnote"><p>A: add. في</p></note>
+								أن يكون في حانوت الطبيب أربع مقالات
+							</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭100‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في هواء مصر</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭101‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في مزاج السكر</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭102‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">مقالة في التنبيه على ما في كلام ابن بطلان من الهذيان</item>
+							<label style="direction:rtl; unicode-bidi:embed">‭103‬.</label>
+							<item style="direction:rtl; unicode-bidi:embed">
+								رسالة في دفع مضار الحلوى بالمحرور <note n="116" type="footnote"><p>B: om. last item</p></note>
+							</item>
+						</list>
+					</div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
