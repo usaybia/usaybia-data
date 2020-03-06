@@ -30,7 +30,7 @@ declare function functx:replace-multi
  let $to := 
     for $line at $i in tokenize($key-doc,'\n')
     return if ($i=2) then () else tokenize($line,'	')[2]
- let $text :=doc('../data/lhom-personal-names.txt')
+ let $text :=doc('../data/lhom-personal-names.xml')
  
 
   
