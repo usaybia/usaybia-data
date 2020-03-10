@@ -37,6 +37,7 @@ Need to debug by trying different sections of the encoding table. -->
         
     </xsl:function>
     
+    <!-- regular characters to replace -->
     <xsl:variable name="key-doc" select="doc('../../data/lhom-encoding-key.tsv')"/>
     <xsl:variable name="key-doc-lines" select="tokenize($key-doc,'\n')"/>
     <xsl:variable name="from">
@@ -50,12 +51,31 @@ Need to debug by trying different sections of the encoding table. -->
         </xsl:for-each>
     </xsl:variable>
     
+    <!-- special terms to replace -->
+    <xsl:variable name="key-doc-terms" select="doc('../../data/lhom-special-terms-encoding-key.tsv')"/>
+    <xsl:variable name="key-doc-terms-lines" select="tokenize($key-doc-terms,'\n')"/>
+    <xsl:variable name="from-terms">
+        <xsl:for-each select="$key-doc-terms-lines">
+            <char><xsl:sequence select="tokenize(.,'\t')[1]"/></char>
+        </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="to-terms">
+        <xsl:for-each select="$key-doc-terms-lines">
+            <char><xsl:sequence select="tokenize(.,'\t')[2]"/></char>
+        </xsl:for-each>
+    </xsl:variable>
+    
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     <xsl:template match="/root">
         <xsl:result-document href="lhom-personal-names-converted.xml" format="xml">
-            <xsl:for-each select=".">
-                <xsl:copy-of select="functx:replace-multi(.,$from/tei:char/text(),$to/tei:char/text())"/>
-            </xsl:for-each>            
+            <xsl:variable name="characters-replaced">
+                <xsl:for-each select=".">
+                    <xsl:copy-of select="functx:replace-multi(.,$from/tei:char/text(),$to/tei:char/text())"/>
+                </xsl:for-each>  
+            </xsl:variable>
+            <xsl:for-each select="$characters-replaced">
+                <xsl:copy-of select="functx:replace-multi(.,$from-terms/tei:char/text(),$to-terms/tei:char/text())"/>
+            </xsl:for-each>   
         </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
