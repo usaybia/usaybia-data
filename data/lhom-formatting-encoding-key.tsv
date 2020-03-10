@@ -2,4 +2,6 @@
 <root>ENCODED	DECODED
 \n(\d)	 $1
 (\W)al-\n	$1al-
+(\W)l-\n	$1l-
+(\w)-\n(\w)	$1$2
 </root>
