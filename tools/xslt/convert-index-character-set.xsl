@@ -65,6 +65,20 @@ Need to debug by trying different sections of the encoding table. -->
         </xsl:for-each>
     </xsl:variable>
     
+    <!-- formatting -->
+    <xsl:variable name="key-doc-formatting" select="doc('../../data/lhom-formatting-encoding-key.tsv')"/>
+    <xsl:variable name="key-doc-formatting-lines" select="tokenize($key-doc-formatting,'\n')"/>
+    <xsl:variable name="from-formatting">
+        <xsl:for-each select="$key-doc-formatting-lines">
+            <char><xsl:sequence select="tokenize(.,'\t')[1]"/></char>
+        </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="to-formatting">
+        <xsl:for-each select="$key-doc-formatting-lines">
+            <char><xsl:sequence select="tokenize(.,'\t')[2]"/></char>
+        </xsl:for-each>
+    </xsl:variable>
+    
     <xsl:output encoding="UTF-8" indent="yes" method="xml" name="xml"/>
     <xsl:template match="/root">
         <xsl:result-document href="lhom-personal-names-converted.xml" format="xml">
@@ -73,8 +87,13 @@ Need to debug by trying different sections of the encoding table. -->
                     <xsl:copy-of select="functx:replace-multi(.,$from/tei:char/text(),$to/tei:char/text())"/>
                 </xsl:for-each>  
             </xsl:variable>
-            <xsl:for-each select="$characters-replaced">
-                <xsl:copy-of select="functx:replace-multi(.,$from-terms/tei:char/text(),$to-terms/tei:char/text())"/>
+            <xsl:variable name="special-terms-replaced">
+                <xsl:for-each select="$characters-replaced">
+                    <xsl:copy-of select="functx:replace-multi(.,$from-terms/tei:char/text(),$to-terms/tei:char/text())"/>
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:for-each select="$special-terms-replaced">
+                <xsl:copy-of select="functx:replace-multi(.,$from-formatting/tei:char/text(),$to-formatting/tei:char/text())"/>
             </xsl:for-each>   
         </xsl:result-document>
     </xsl:template>
