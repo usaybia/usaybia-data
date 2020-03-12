@@ -8,6 +8,6 @@
 (\W)l-\n	$1l-
 <!-- ... lines ending with hyphen -->
 (\w)-\n(\w)	$1$2
-<!-- ... lines ending with comma -->
-,\n	, 
+<!-- ... lines ending with comma or of -->
+(,| of| and)\n	$1 
 </root>
