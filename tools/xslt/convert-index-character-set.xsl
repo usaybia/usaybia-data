@@ -92,9 +92,13 @@ Need to debug by trying different sections of the encoding table. -->
                     <xsl:copy-of select="functx:replace-multi(.,$from-terms/tei:char/text(),$to-terms/tei:char/text())"/>
                 </xsl:for-each>
             </xsl:variable>
-            <xsl:for-each select="$special-terms-replaced">
-                <xsl:copy-of select="functx:replace-multi(.,$from-formatting/tei:char/text(),$to-formatting/tei:char/text())"/>
-            </xsl:for-each>   
+            <xsl:variable name="formatting-replaced">
+                <xsl:for-each select="$special-terms-replaced">
+                    <xsl:copy-of select="functx:replace-multi(.,$from-formatting/tei:char/text(),$to-formatting/tei:char/text())"/>
+                </xsl:for-each>
+            </xsl:variable>   
+            <!-- Insert line breaks -->
+            <xsl:copy-of select="replace($formatting-replaced,'\\n','&#10;')"/>
         </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
