@@ -8,6 +8,11 @@
 (\W)l-\n	$1l-
 <!-- ... lines ending with hyphen -->
 (\w)-\n(\w)	$1$2
-<!-- ... lines ending with comma or of -->
-(,| of| and)\n	$1 
+<!-- ... lines ending with comma or various words -->
+(,| of| and| ibn| Abū| Abī| bint| Umm)\n	$1 
+<!-- Create new line between digit and letter -->
+<!-- (\dn?) ([A-Za-z])	$1\n$2 -->
+<!-- Remove line breaks for ...
+... lines starting with no. -->
+<!-- \nno\.	 no. -->
 </root>
