@@ -105,7 +105,7 @@ Need to debug by trying different sections of the encoding table. -->
                 <xsl:copy-of select="replace($line-breaks-inserted,'(\n.*?(`see`|\d)+[^\n]+)','$1 COMPLETE_LINE ')"/>
             </xsl:variable>
             <xsl:variable name="merge-incomplete-lines"
-                select="replace(replace($tag-complete-lines,'\n',' '),' COMPLETE_LINE ','&#10;')"/>
+                select="replace(replace($tag-complete-lines,'\n',' '),' COMPLETE_LINE  ?','&#10;')"/>
             <xsl:copy-of select="$merge-incomplete-lines"/>
         </xsl:result-document>
     </xsl:template>
