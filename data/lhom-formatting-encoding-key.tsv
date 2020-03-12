@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>ENCODED	DECODED
+<!-- Remove line breaks for ...
+ ... lines starting with numbers -->
 \n(\d)	 $1
+<!-- ... lines ending with al- / l- -->
 (\W)al-\n	$1al-
 (\W)l-\n	$1l-
+<!-- ... lines ending with hyphen -->
 (\w)-\n(\w)	$1$2
+<!-- ... lines ending with comma -->
+,\n	, 
 </root>
