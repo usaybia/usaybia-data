@@ -9,10 +9,10 @@
 <!-- ... lines ending with hyphen -->
 (\w)-\n(\w)	$1$2
 <!-- ... lines ending with comma or various words -->
-(,| of| and| the| ibn| Abū| Abī| bint| Umm|`see`|`or`)\n	$1 
+(,| of| and| the| to| into| after| on| ibn| Abū| Abī| bint| Umm|`see`|`or`)\n	$1 
 <!-- Create new line between digit and letter -->
 (\dn?) ([A-Za-zĀḌḤĪṢṬŪẒʿʾ])	$1\\n$2
 <!-- Remove line breaks for ...
 ... lines starting with no. -->
-(\n|\\n)(no\.|and |of |the |ibn |bint |Abī |`)	 $2
+(\n|\\n)(no\.|and |of |the |to |into |after |on |ibn |bint |Abī |`)	 $2
 </root>
