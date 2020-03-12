@@ -96,9 +96,17 @@ Need to debug by trying different sections of the encoding table. -->
                 <xsl:for-each select="$special-terms-replaced">
                     <xsl:copy-of select="functx:replace-multi(.,$from-formatting/tei:char/text(),$to-formatting/tei:char/text())"/>
                 </xsl:for-each>
-            </xsl:variable>   
-            <!-- Insert line breaks -->
-            <xsl:copy-of select="replace($formatting-replaced,'\\n','&#10;')"/>
+            </xsl:variable>  
+            <xsl:variable name="line-breaks-inserted">
+                <xsl:copy-of select="replace($formatting-replaced,'\\n','&#10;')"/>
+            </xsl:variable>
+            <xsl:variable name="tag-complete-lines">
+                <!-- looks for digits or `see` -->
+                <xsl:copy-of select="replace($line-breaks-inserted,'(\n.*?(`see`|\d)+[^\n]+)','$1 COMPLETE_LINE ')"/>
+            </xsl:variable>
+            <xsl:variable name="merge-incomplete-lines"
+                select="replace(replace($tag-complete-lines,'\n',' '),' COMPLETE_LINE ','&#10;')"/>
+            <xsl:copy-of select="$merge-incomplete-lines"/>
         </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
