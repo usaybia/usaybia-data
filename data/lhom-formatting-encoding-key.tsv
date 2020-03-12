@@ -14,5 +14,5 @@
 (\dn?) ([A-Za-zĀḌḤĪṢṬŪẒʿʾ])	$1\\n$2
 <!-- Remove line breaks for ...
 ... lines starting with no. -->
-(\n|\\n)no\.	 no.
+(\n|\\n)(no\.|and |of |ibn |bint |Abī )	 $2
 </root>
