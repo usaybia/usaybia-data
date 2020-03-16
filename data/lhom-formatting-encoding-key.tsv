@@ -15,4 +15,7 @@
 <!-- Remove line breaks for ...
 ... lines starting with certain words -->
 (\n|\\n)(no\.s?|a |and |of |the |to |from |at |into |after |on |ibn |bint |Abī |`)	 $2
+<!-- Make sure page numbers are on own line -->
+\{	\\n{
+\}	}\\n
 </root>
