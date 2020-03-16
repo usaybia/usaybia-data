@@ -98,7 +98,7 @@ Need to debug by trying different sections of the encoding table. -->
                 </xsl:for-each>
             </xsl:variable>  
             <xsl:variable name="line-breaks-inserted">
-                <xsl:copy-of select="replace(replace($formatting-replaced,'\\n','&#10;'),'\n+','&#10;')"/>
+                <xsl:copy-of select="replace(replace(replace($formatting-replaced,'\\n','&#10;'),'\n+','&#10;'),'(\})\n(\{!\})','$1$2')"/>
             </xsl:variable>
             <xsl:variable name="tag-complete-lines">
                 <!-- looks for digits or `see` -->
