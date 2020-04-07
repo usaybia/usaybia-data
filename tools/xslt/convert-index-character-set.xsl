@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Something I added to the encoding key has completely messed up the conversion. 
-Need to debug by trying different sections of the encoding table. -->
+<!-- Uses encoding tables to make extracted text readable. 
+After conversion needed to run the following find/replace to clean 
+up page breaks and italics: 
+    replace "([^\n\}]+)(\{[0-9!\{\}]+\})" with "$2\n$1" 
+    replace "``" with "" 
+    replace "`(\s+)`" with "$1" -->
 <xsl:stylesheet xmlns="http://www.tei-c.org/ns/1.0" 
     xmlns:tei="http://www.tei-c.org/ns/1.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
