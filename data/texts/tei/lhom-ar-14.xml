@@ -1,6 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" 
     xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
@@ -111,7 +112,7 @@
 					<div type="textpart" subtype="biography" n="1">
 						<head style="direction:rtl; unicode-bidi:embed">
 							الباب الرابع عشر في طبقات الأطباء المشهورين من أطباء ديار مصر
-							<note n="1" type="footnote"><p>Chapter Fourteen is preserved in <hi rend="smallcaps">MSS</hi> ABGcHLR, partially preserved in GaGb, but missing from P and S.</p><p><hi rend="smallcaps">MS</hi> A has a twelve-line marginal note written upside-down at the start of Chapter Fourteen. At the end of Chapter Thirteen two words are written that intersect this <hi rend="italic">ḥāshiyah</hi> at right angles: <hi rend="italic">buligha muqābalatan</hi>; the collation note was written before the <hi rend="italic">ḥāshiyah</hi> and is not part of it. The <hi rend="italic">ḥāshiyah</hi> reads:</p><p style="direction:rtl; unicode-bidi:embed">حاشية قال كاتبها وجدتُ في مسودة المصنف أسماءً لم ترد النسخة المنقول منها والمنقول منها نسخة قد نقلت من نسخة كتبها المصنف بخطه أيضاً وهجس بخاطري أنه أهمل الأسماء من المبيضة إما لأنه أراد الاختصار لكونهم لا فائدة فيهم وإما لغرض ما آخر وأردت أن لا تكون هذه النسخة ناقصة اسماً من الأسماء الواردة المسودة وكنت قد أوردت ما وجدته غير وارد النسخة المنقول منها في الأبواب المتقدمة من هذا الكتاب في هذه النسخة كل اسم حيث أورده المصنف في مسودته خشية أن يكون الناقل من مبيضته أهملهم والآن وقع في نفسي أن أورد جميع الأسماء الواردة المسودة تلو بعضهم بعض في قائمات وأنبه على مواضعهم حسب الطاقة إن استطعت ذلك ومن الله أستمد المعونة على ذلك ‭.‬‬‎</p><p>For a discussion of this <hi rend="italic">ḥāshiyah</hi> and its significance in terms of the manuscript tradition of the treatise, see the essay by Ignacio Sánchez, ‘The Textual and Manuscript Tradition …’ in Volume 1.</p></note>
+							<note n="1" type="footnote"><p>Chapter Fourteen is preserved in <hi rend="smallcaps">MSS</hi> ABGcHLR, partially preserved in GaGb, but missing from P and S.</p><p><hi rend="smallcaps">MS</hi> A has a twelve-line marginal note written upside-down at the start of Chapter Fourteen. At the end of Chapter Thirteen two words are written that intersect this <hi rend="italic">ḥāshiyah</hi> at right angles: <hi rend="italic">buligha muqābalatan</hi>; the collation note was written before the <hi rend="italic">ḥāshiyah</hi> and is not part of it. The <hi rend="italic">ḥāshiyah</hi> reads:</p><p style="direction:rtl; unicode-bidi:embed">حاشية قال كاتبها وجدتُ في مسودة المصنف أسماءً لم ترد النسخة المنقول منها والمنقول منها نسخة قد نقلت من نسخة كتبها المصنف بخطه أيضاً وهجس بخاطري أنه أهمل الأسماء من المبيضة إما لأنه أراد الاختصار لكونهم لا فائدة فيهم وإما لغرض ما آخر وأردت أن لا تكون هذه النسخة ناقصة اسماً من الأسماء الواردة المسودة وكنت قد أوردت ما وجدته غير وارد النسخة المنقول منها في الأبواب المتقدمة من هذا الكتاب في هذه النسخة كل اسم حيث أورده المصنف في مسودته خشية أن يكون الناقل من مبيضته أهملهم والآن وقع في نفسي أن أورد جميع الأسماء الواردة المسودة تلو بعضهم بعض في قائمات وأنبه على مواضعهم حسب الطاقة إن استطعت ذلك ومن الله أستمد المعونة على ذلك ‭.‬‬‎</p><p>For a discussion of this <hi rend="italic">ḥāshiyah</hi> and its significance in terms of the manuscript tradition of the treatise, see the essay by Ignacio Sánchez, ‘The Textual and Manuscript Tradition …’ in Volume 1.</p></note>
 							‬‎
 						</head>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -147,7 +148,7 @@
 					<div type="textpart" subtype="biography" n="2">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.2]‬ إبراهيم بن عيسى <note n="1" type="footnote"><p>In A, this biography is written on an inserted page which is between fol. 215b and fol. 216a; this biography does not occur in Version 1 and Version 2. All <hi rend="smallcaps">MSS</hi> read إبرهيم بن عيسى</p></note>
+								‭[14.2]‬ إبراهيم بن عيسى <note n="1" type="footnote"><p>In A, this biography is written on an inserted page which is between fol. 215b and fol. 216a; this biography does not occur in Version 1 and Version 2. All <hi rend="smallcaps">MSS</hi> read إبرهيم بن عيسى</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">إبراهيم بن عيسى كان طبيباً فاضلاً معروفاً في زمانه متميزاً في أوانه صحب يوحنا بن ماسويه ببغداد وقرأ عليه وأخذ عنه.‬‎</p>
@@ -160,7 +161,7 @@
 					<div type="textpart" subtype="biography" n="3">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.3]‬ الحسن بن زيرك <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the first biography of Chapter 14, Balīṭīyān, on fol. 215b. In A, there is a marginal note written vertically near the start of the present biography: لم اجده وارداً مسودة المصنف (‘I did not find it present in the author’s draft’).</p></note>
+								‭[14.3]‬ الحسن بن زيرك <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the first biography of Chapter 14, Balīṭīyān, on fol. 215b. In A, there is a marginal note written vertically near the start of the present biography: لم اجده وارداً مسودة المصنف (‘I did not find it present in the author’s draft’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -195,7 +196,7 @@
 					<div type="textpart" subtype="biography" n="4">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.4]‬ سعيد بن توفيل <note n="1" type="footnote"><p>This biography is missing from Version 1, but is present in Versions 2 and 3; This biography is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, this biography follows biography 14.03, on fol. 216a; in A, there is a marginal note written vertically in the right margin near the biography heading: لم اجده واردا مسوده المصنف هاهنا (‘I did not did not find it here in the draft [<hi rend="italic">musawwadah</hi>] of the author’).</p></note>
+								‭[14.4]‬ سعيد بن توفيل <note n="1" type="footnote"><p>This biography is missing from Version 1, but is present in Versions 2 and 3; This biography is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, this biography follows biography 14.03, on fol. 216a; in A, there is a marginal note written vertically in the right margin near the biography heading: لم اجده واردا مسوده المصنف هاهنا (‘I did not did not find it here in the draft [<hi rend="italic">musawwadah</hi>] of the author’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -212,7 +213,7 @@
 							فلما كان في نصف الليل استدعى شيئاً يأكله فجيء بفراريج كردباج حارة وبزماورد من دجاج وجداء باردة فأكل منها
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٦‬ب‬‎" />
 							فانقطع الإسهال عنه فخرج نسيم الخادم وسعيد في الدار فقال له أكل الأمير خروف كردباج فخف عنه القيام قال سعيد الله المستعان ضعفت <note n="6" type="footnote"><p>R: خفّت</p></note>
-							قوته الدافعة بقهر الغذاء لها وستتحرك حركة منكرة فو‌الله ما وافى السحر حتى قام أكثر من عشرة مجالس وخرج من أنطاكية وعلته تتزايد إلا أن في قوته احتمالاً لها وطلب مصر وثقل عليه ركوب الدواب فعملت له عجلة كانت تجر بالرجال وطِّئت له فما وصل الفرما حتى شكا إزعاج ها فركب الماء إلى الفسطاط وضرب له بالميدان قبة نزل فيها.‬‎
+							قوته الدافعة بقهر الغذاء لها وستتحرك حركة منكرة فو‌الله ما وافى السحر حتى قام أكثر من عشرة مجالس وخرج من أنطاكية وعلته تتزايد إلا أن في قوته احتمالاً لها وطلب مصر وثقل عليه ركوب الدواب فعملت له عجلة كانت تجر بالرجال وطِّئت له فما وصل الفرما حتى شكا إزعاج ها فركب الماء إلى الفسطاط وضرب له بالميدان قبة نزل فيها.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ولما حل ابن طولون بمصر <note n="7" type="footnote"><p>R: لما دخل ابن طولون</p></note>
@@ -298,7 +299,7 @@
 					<div type="textpart" subtype="biography" n="5">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.5]‬ خلف الطولوني <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, it is the first biography written on an interleaf between fol. 215b and fol. 216a, which begins with the note: اول الباب</p></note>
+								‭[14.5]‬ خلف الطولوني <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, it is the first biography written on an interleaf between fol. 215b and fol. 216a, which begins with the note: اول الباب</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">هو أبو علي خلف الطولونى مولى أمير المؤمنين كان مشتغلاً بصناعة الطب وله معرفة جيدة في علم أمراض العين ومداواتها.‬‎</p>
@@ -312,7 +313,7 @@
 					<div type="textpart" subtype="biography" n="6">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.6]‬ نسطاس بن جريج <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing from Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is the third biography written on an inserted page which is between fol. 215b and fol. 216a, where it follows the second biography of Chapter 14, Ibrāhīm ibn ʿĪsā.</p></note>
+								‭[14.6]‬ نسطاس بن جريج <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing from Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is the third biography written on an inserted page which is between fol. 215b and fol. 216a, where it follows the second biography of Chapter 14, Ibrāhīm ibn ʿĪsā.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">نسطاس بن جريج كان نصرانياً عالماً بصناعة الطب وكان في دولة الإخشيد بن ‭[ii,86]‬ طغج.‬‎</p>
@@ -330,18 +331,18 @@
 					<div type="textpart" subtype="biography" n="7">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.7]‬ إسحق بن إبراهيم بن نسطاس <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing from Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is the fourth biography written on an inserted page which is between fol. 215b and fol. 216a, where it follows the sixth biography of Chapter 14, Nasṭās ibn Jurayj. All <hi rend="smallcaps">MSS</hi> read: إسحق بن إبرهيم بن نسطاس</p></note>
+								‭[14.7]‬ إسحق بن إبراهيم بن نسطاس <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing from Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is the fourth biography written on an inserted page which is between fol. 215b and fol. 216a, where it follows the sixth biography of Chapter 14, Nasṭās ibn Jurayj. All <hi rend="smallcaps">MSS</hi> read: إسحق بن إبرهيم بن نسطاس</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو يعقوب إسحق بن إبراهيم بن نسطاس بن جريج نصراني فاضل في صناعة الطب وكان في خدمة الحاكم بأمر الله ويعتمد عليه في الطب وتوفي إسحق بن إبراهيم بن نسطاس بالقاهرة في أيام الحاكم واستطب بعده أبا الحسن علي بن رضوان واستمر في خدمته وجعله رئيساً على سائر الأطباء. <note n="2" type="footnote"><p>In A, this biography is followed by three sentences written by the copyist; see <hi rend="smallcaps">IAU</hi> 14.09 for a discussion of those comments.</p></note>
+							هو أبو يعقوب إسحق بن إبراهيم بن نسطاس بن جريج نصراني فاضل في صناعة الطب وكان في خدمة الحاكم بأمر الله ويعتمد عليه في الطب وتوفي إسحق بن إبراهيم بن نسطاس بالقاهرة في أيام الحاكم واستطب بعده أبا الحسن علي بن رضوان واستمر في خدمته وجعله رئيساً على سائر الأطباء. <note n="2" type="footnote"><p>In A, this biography is followed by three sentences written by the copyist; see <hi rend="smallcaps">IAU</hi> 14.09 for a discussion of those comments.</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="8">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.8]‬ البالسي <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In <hi rend="smallcaps">MS</hi> A, it follows the fourth biography of Chapter 14, Saʿīd ibn Tawfīl in the main text on fol. 217b.</p></note>
+								‭[14.8]‬ البالسي <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In <hi rend="smallcaps">MS</hi> A, it follows the fourth biography of Chapter 14, Saʿīd ibn Tawfīl in the main text on fol. 217b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -350,14 +351,14 @@
 							وأفعالها.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وله من الكتب كتاب التكميل في الأدوية المفردة ألفه لكافور الإخشيدي. <note n="4" type="footnote"><p>In A there is a marginal note written vertically in the left margin at the end of the present biography:</p><p style="direction:rtl; unicode-bidi:embed">وىتلوه موسى بن العازار الاسراىلي ورد القاىمه قبله فلينظر القارى ذلك‬‎</p><p>(‘The biography of Mūsā ibn al-ʿĀzār al-Isrāʾīlī [Ch. 14.9] follows it [the biography of al-Bālisī], but comes before in the list. The reader should look there.’).</p></note>
+							وله من الكتب كتاب التكميل في الأدوية المفردة ألفه لكافور الإخشيدي. <note n="4" type="footnote"><p>In A there is a marginal note written vertically in the left margin at the end of the present biography:</p><p style="direction:rtl; unicode-bidi:embed">وىتلوه موسى بن العازار الاسراىلي ورد القاىمه قبله فلينظر القارى ذلك‬‎</p><p>(‘The biography of Mūsā ibn al-ʿĀzār al-Isrāʾīlī [Ch. 14.9] follows it [the biography of al-Bālisī], but comes before in the list. The reader should look there.’).</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="9">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.9]‬ موسى بن العازار الإسرائيلي <note n="1" type="footnote"><p>This biography is found in Version 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. In A, there is a note that precedes the present biography:</p><p style="direction:rtl; unicode-bidi:embed">قال كاتبها كل هذه الاسماء اوردها في المسوده متتاليه من اول الباب واورد بليطيان حاشية لم اعلم له محلاً أنبه عليه واورد تلو هذه الاسماء في المسودة البالسي وقد ورد الاصل بعد اسماء وردت لم يرد المسوده فلتقهم ذلك واورد في المسوده بعد البالسي وقيل موسى [‭crossed out‬] سعيد بن البطريق موسي بن العازار الاسرائيلي‬‎</p><p>(‘The copyist of this says: He (<hi rend="smallcaps">IAU</hi>) put all these names in the draft in successive order, from the beginning of the chapter. But Balīṭiyān he put in the margin and I do not know a place for him where I can refer to him. After these names in the draft he put al-Bālisī, who in the exemplar had come after names that are found there, but he is not found in the draft. You should understand this. In the draft, after al-Bālisī [Ch. 14.8] and before Saʿīd ibn al-Biṭrīq [Ch. 14.11] he put Mūsā ibn al-ʿĀzār.’) Here the copyist of manuscript A is comparing the order of the exemplar (<hi rend="italic">aṣl</hi>) with that or the draft (<hi rend="italic">musawwadah</hi>).</p></note>
+								‭[14.9]‬ موسى بن العازار الإسرائيلي <note n="1" type="footnote"><p>This biography is found in Version 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. In A, there is a note that precedes the present biography:</p><p style="direction:rtl; unicode-bidi:embed">قال كاتبها كل هذه الاسماء اوردها في المسوده متتاليه من اول الباب واورد بليطيان حاشية لم اعلم له محلاً أنبه عليه واورد تلو هذه الاسماء في المسودة البالسي وقد ورد الاصل بعد اسماء وردت لم يرد المسوده فلتقهم ذلك واورد في المسوده بعد البالسي وقيل موسى [‭crossed out‬] سعيد بن البطريق موسي بن العازار الاسرائيلي‬‎</p><p>(‘The copyist of this says: He (<hi rend="smallcaps">IAU</hi>) put all these names in the draft in successive order, from the beginning of the chapter. But Balīṭiyān he put in the margin and I do not know a place for him where I can refer to him. After these names in the draft he put al-Bālisī, who in the exemplar had come after names that are found there, but he is not found in the draft. You should understand this. In the draft, after al-Bālisī [Ch. 14.8] and before Saʿīd ibn al-Biṭrīq [Ch. 14.11] he put Mūsā ibn al-ʿĀzār.’) Here the copyist of manuscript A is comparing the order of the exemplar (<hi rend="italic">aṣl</hi>) with that or the draft (<hi rend="italic">musawwadah</hi>).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">موسى بن العازا الإسرائيلي مشهور بالتقدم والحذق في صناعة الطب وكان في خدمة المعز لدين الله وكان في خدمته أيضاً ابنه إسحق بن موسى المتطبب وكان جليل القدر عند المعز ومتولياً أمره كله في حياة أبيه وتوفي إسحق بن موسى لاثنتي عشرة ليلة خلت من صفر سنة ثلاث وستين وثلاثمائة واغتم المعز لموت إسحق لموضعه منه ولكفايته وجعل موضعه أخاه إسماعيل بن موسى وابنه يعقوب بن إسحق وكان ذلك في حياة أبيهم موسى وتوفي قبل وفاة إسحق بيوم أخ له مسلم اسمه عون الله بن موسى.‬‎</p>
@@ -388,7 +389,7 @@
 					<div type="textpart" subtype="biography" n="10">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.10]‬ يوسف النصراني <note n="1" type="footnote"><p>This biography is found in Version 1 and Version 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. In A, there is a note before the present biography: ىلوه فى الاصل سعيد بن البطريق وورد فى المسوده اىضاً بعد التميمي (‘In the exemplar (<hi rend="italic">aṣl</hi>), he [Mūsā ibn al-ʿĀzār al-Isrāʾīlī; Ch. 14.9] is followed by Saʿīd ibn al-Biṭrīq [Ch. 14.11], but in the draft (<hi rend="italic">musawwadah</hi>) he is also found after al-Tamīmī [Ch. 14.14]’).</p></note>
+								‭[14.10]‬ يوسف النصراني <note n="1" type="footnote"><p>This biography is found in Version 1 and Version 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. In A, there is a note before the present biography: ىلوه فى الاصل سعيد بن البطريق وورد فى المسوده اىضاً بعد التميمي (‘In the exemplar (<hi rend="italic">aṣl</hi>), he [Mūsā ibn al-ʿĀzār al-Isrāʾīlī; Ch. 14.9] is followed by Saʿīd ibn al-Biṭrīq [Ch. 14.11], but in the draft (<hi rend="italic">musawwadah</hi>) he is also found after al-Tamīmī [Ch. 14.14]’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">يوسف النصراني كان طبيباً عارفاً بصناعة الطب فاضلاً في العلوم.‬‎</p>
@@ -401,7 +402,7 @@
 					<div type="textpart" subtype="biography" n="11">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.11]‬ سعيد بن البطريق <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A, it follows the eighth biography of Chapter 14, al-Bālisī, on fol. 217b. At the end of this biography in <hi rend="smallcaps">MS</hi> A, the copyist has added a later note: وورد في المسودة تلو هذا الاسم اسم آخر كان في الحاشية فقطعه المجلد فترجمته قليلة فلم تظهر (‘Another name follows this one in the <hi rend="italic">musawwadah</hi>. It was in the margin, but it was cut off by the bookbinder. It was a small biography and therefore does not appear.’). Apparently the biography of ʿIsā ibn al-Biṭrīq [Ch. 14.12] and possibly that of Sahlān [14.15] as well were added by the author in the margin of his <hi rend="italic">musawwadah</hi>, which was a working draft; when the margins were later trimmed by a binder, the text was cut off and became illegible, though enough was left to see that there had been something there.</p></note>
+								‭[14.11]‬ سعيد بن البطريق <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A, it follows the eighth biography of Chapter 14, al-Bālisī, on fol. 217b. At the end of this biography in <hi rend="smallcaps">MS</hi> A, the copyist has added a later note: وورد في المسودة تلو هذا الاسم اسم آخر كان في الحاشية فقطعه المجلد فترجمته قليلة فلم تظهر (‘Another name follows this one in the <hi rend="italic">musawwadah</hi>. It was in the margin, but it was cut off by the bookbinder. It was a small biography and therefore does not appear.’). Apparently the biography of ʿIsā ibn al-Biṭrīq [Ch. 14.12] and possibly that of Sahlān [14.15] as well were added by the author in the margin of his <hi rend="italic">musawwadah</hi>, which was a working draft; when the margins were later trimmed by a binder, the text was cut off and became illegible, though enough was left to see that there had been something there.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -440,14 +441,14 @@
 							</item>
 						</list>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقد ذيل هذا الكتاب نسيب لسعيد بن البطريق يقال له يحيى بن سعيد بن يحيى وسمى كتابه كتاب تأريخ الذيل. <note n="15" type="footnote"><p>In A, there is a marginal note beginning on the second line from the bottom of the page and extending into the left margin: وورد فى المسوده ىلو هذا الاسم اسم اخر كان في الحاشيه فقطعه المجلد فترجمة قليله فلم نظر</p><p>(‘Another name is found in the author’s draft following this name [Saʿīd ibn al-Biṭrīq]. It was in the gloss [<hi rend="italic">ḥāshiyah</hi>] but the bookbinder cut it and a few biographies did not appear’.). The copyist is probably referring here to the biography of ʿĪsā ibn al-Biṭrīq (Ch. 14.12) [and possibly Sahlān (Ch. 14.15)] that is missing from <hi rend="smallcaps">MS</hi> A but does appear in Version 3 (but not in Versions 1 or 2). The inserted leaf at the beginning of Chapter 14 (between fols. 215b and 216a) may have been a full sheet that was later cut, thus eliminating some biographies.</p></note>
+							وقد ذيل هذا الكتاب نسيب لسعيد بن البطريق يقال له يحيى بن سعيد بن يحيى وسمى كتابه كتاب تأريخ الذيل. <note n="15" type="footnote"><p>In A, there is a marginal note beginning on the second line from the bottom of the page and extending into the left margin: وورد فى المسوده ىلو هذا الاسم اسم اخر كان في الحاشيه فقطعه المجلد فترجمة قليله فلم نظر</p><p>(‘Another name is found in the author’s draft following this name [Saʿīd ibn al-Biṭrīq]. It was in the gloss [<hi rend="italic">ḥāshiyah</hi>] but the bookbinder cut it and a few biographies did not appear’.). The copyist is probably referring here to the biography of ʿĪsā ibn al-Biṭrīq (Ch. 14.12) [and possibly Sahlān (Ch. 14.15)] that is missing from <hi rend="smallcaps">MS</hi> A but does appear in Version 3 (but not in Versions 1 or 2). The inserted leaf at the beginning of Chapter 14 (between fols. 215b and 216a) may have been a full sheet that was later cut, thus eliminating some biographies.</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="12">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.12]‬ عيسى بن البطريق <note n="1" type="footnote"><p>This biography is found in Version 3 and missing in Versions 1 and 2. In A, there is a marginal note in the left margin at the end of the preceding biography of Saʿīd ibn al-Biṭrīq (Ch. 14.11) on fol. 217b where ʿĪsā ibn al-Biṭrīq’s biography should follow:</p><p style="direction:rtl; unicode-bidi:embed">وورد فى المسوده ىلو هذا الاسم اسم اخر كان فى الحاشيه فقطعه المجلد فترجمة قليله فلم نظر‬‎</p><p>(‘Another name is found in the author’s draft following this name [Saʿīd ibn al-Biṭrīq]. It was in the gloss [<hi rend="italic">ḥāshiyah</hi>] but the bookbinder cut it and a few biographies did not appear’.). See Ch. 14.1.</p></note>
+								‭[14.12]‬ عيسى بن البطريق <note n="1" type="footnote"><p>This biography is found in Version 3 and missing in Versions 1 and 2. In A, there is a marginal note in the left margin at the end of the preceding biography of Saʿīd ibn al-Biṭrīq (Ch. 14.11) on fol. 217b where ʿĪsā ibn al-Biṭrīq’s biography should follow:</p><p style="direction:rtl; unicode-bidi:embed">وورد فى المسوده ىلو هذا الاسم اسم اخر كان فى الحاشيه فقطعه المجلد فترجمة قليله فلم نظر‬‎</p><p>(‘Another name is found in the author’s draft following this name [Saʿīd ibn al-Biṭrīq]. It was in the gloss [<hi rend="italic">ḥāshiyah</hi>] but the bookbinder cut it and a few biographies did not appear’.). See Ch. 14.1.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">عيسى بن البطريق كان طبيباً نصرانياً عالماً بصناعة الطب علمها وعملها متميزاً في جزئيات المداواة والعلاج مشكوراً فيها وكان مقامه بمدينة مصر القديمة وكان هذا عيسى بن البطريق أخا سعيد بن البطريق المقدم ذكره ولم يزل عيسى بمدينة مصر طبيباً إلى أن توفي بها.‬‎</p>
@@ -455,7 +456,7 @@
 					<div type="textpart" subtype="biography" n="13">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.13]‬ أعين بن أعين <note n="1" type="footnote"><p>This biography is found in Version 2 and Version 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the eleventh biography of Chapter 14, Saʿīd ibn al-Biṭrīq, on fol. 217b.</p></note>
+								‭[14.13]‬ أعين بن أعين <note n="1" type="footnote"><p>This biography is found in Version 2 and Version 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the eleventh biography of Chapter 14, Saʿīd ibn al-Biṭrīq, on fol. 217b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -477,7 +478,7 @@
 					<div type="textpart" subtype="biography" n="14">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.14]‬ التميمي <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In Version 1, it is found in a much shorter form in Chapter 15 (as the fifth biography). In <hi rend="smallcaps">MS</hi> A, it follows the thirteenth biography of Chapter 14, Aʿyan ibn Aʿyan, on fol. 218a.</p></note>
+								‭[14.14]‬ التميمي <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In Version 1, it is found in a much shorter form in Chapter 15 (as the fifth biography). In <hi rend="smallcaps">MS</hi> A, it follows the thirteenth biography of Chapter 14, Aʿyan ibn Aʿyan, on fol. 218a.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -596,7 +597,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في ماهية الرمد وأنواعه وأسبابه وعلاجه</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب الفحص والأخبار. <note n="47" type="footnote"><p>In A, there is a marginal note after the end of the present biography: ىىلوه فى القاٮمه التى زيدت ٮن مٯسر [؟]‬‎ ٯىله ىوسف النصراني نظر هناك (‘The one who comes next in the list that was added is Ibn Muqashshir, before him was Yūsuf al-Naṣrānī. Look there.’). The word <hi rend="italic">qāʾimah</hi> refers to the list of biographies on the interleaf between folios 215 and 216 (labelled in the upper right-hand corner <hi rend="italic">awwal al-qāʾimah</hi>), where the copyist also gives instructions for the correct order, and where the biography of Abū l-Fatḥ Manṣūr ibn Sahlān ibn Muqashshir immediately follows that of Yūsuf al-Naṣrānī; the reader’s attention is possibly being directed to the copyist’s note preceding Yūsuf al-Naṣrānī’s biography. See Ch. 14.10 for the biography of Yūsuf al-Naṣrānī and nt. 1 of the Arabic text of the copyist’s note; for Ibn Muqashshir, see Ch. 14.16.</p></note>
+								كتاب الفحص والأخبار. <note n="47" type="footnote"><p>In A, there is a marginal note after the end of the present biography: ىىلوه فى القاٮمه التى زيدت ٮن مٯسر [؟]‬‎ ٯىله ىوسف النصراني نظر هناك (‘The one who comes next in the list that was added is Ibn Muqashshir, before him was Yūsuf al-Naṣrānī. Look there.’). The word <hi rend="italic">qāʾimah</hi> refers to the list of biographies on the interleaf between folios 215 and 216 (labelled in the upper right-hand corner <hi rend="italic">awwal al-qāʾimah</hi>), where the copyist also gives instructions for the correct order, and where the biography of Abū l-Fatḥ Manṣūr ibn Sahlān ibn Muqashshir immediately follows that of Yūsuf al-Naṣrānī; the reader’s attention is possibly being directed to the copyist’s note preceding Yūsuf al-Naṣrānī’s biography. See Ch. 14.10 for the biography of Yūsuf al-Naṣrānī and nt. 1 of the Arabic text of the copyist’s note; for Ibn Muqashshir, see Ch. 14.16.</p></note>
 							</item>
 						</list>
 					</div>
@@ -623,31 +624,31 @@
 					<div type="textpart" subtype="biography" n="16">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.16]‬ أبو الفتح منصور بن سهلان بن مقشر <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A, this biography is written on a page inserted between fol. 215b and fol. 216a. It follows the tenth biography of Chapter 14, Yūsuf al-Naṣrānī. In <hi rend="smallcaps">MS</hi> L, ابن مقشر is not part of the heading, but rather begins the text, followed by a lacuna.</p></note>
+								‭[14.16]‬ أبو الفتح منصور بن سهلان بن مقشر <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A, this biography is written on a page inserted between fol. 215b and fol. 216a. It follows the tenth biography of Chapter 14, Yūsuf al-Naṣrānī. In <hi rend="smallcaps">MS</hi> L, ابن مقشر is not part of the heading, but rather begins the text, followed by a lacuna.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أبو الفتح منصور بن سهلان بن مقشر كان طبيباً نصرانياً مشهوراً وله دراية وخبرة بصناعة الطب وكان طبيب الحاكم بأمر الله ومن الخواص عنده وكان العزيز أيضاً يستطبه ويرى له ويحترمه وكان متقدماً في الدولة وتوفي في أيام الحاكم واستطب الحاكم بعده إسحق ابن إبراهيم بن نسطاس ومات إسحاق بن نسطاس أيضاً في أيام الحاكم بعد ذلك. <note n="2" type="footnote"><p>In A, there is a note following the end of the present biography: تلوه عمار بن الموصلى ورد الاصل (‘After him [i.e., after Ibn al-Muqashshir] there follows ʿAmmār ibn al-Mawṣilī [Ch. 14.17], who is in the original [<hi rend="italic">al-aṣl</hi>]’); the biography of ʿAmmār ibn al-Mawṣilī is in the main body of the text, on fol. 219a.</p></note>
+							أبو الفتح منصور بن سهلان بن مقشر كان طبيباً نصرانياً مشهوراً وله دراية وخبرة بصناعة الطب وكان طبيب الحاكم بأمر الله ومن الخواص عنده وكان العزيز أيضاً يستطبه ويرى له ويحترمه وكان متقدماً في الدولة وتوفي في أيام الحاكم واستطب الحاكم بعده إسحق ابن إبراهيم بن نسطاس ومات إسحاق بن نسطاس أيضاً في أيام الحاكم بعد ذلك. <note n="2" type="footnote"><p>In A, there is a note following the end of the present biography: تلوه عمار بن الموصلى ورد الاصل (‘After him [i.e., after Ibn al-Muqashshir] there follows ʿAmmār ibn al-Mawṣilī [Ch. 14.17], who is in the original [<hi rend="italic">al-aṣl</hi>]’); the biography of ʿAmmār ibn al-Mawṣilī is in the main body of the text, on fol. 219a.</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="17">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.17]‬ عمّار بن علي الموصلي <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A it occurs on fol 219a.</p></note>
+								‭[14.17]‬ عمّار بن علي الموصلي <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A it occurs on fol 219a.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							عمار بن علي الموصلي كان كحالاً مشهوراً ومعالجاً مذكوراً له <note n="2" type="footnote"><p>A: adds دربة crossed out</p></note>
 							خبرة بمداواة أمراض العين ودربة بأعمال الحديد وكان قد سافر إلى مصر وأقام بها وكان في أيام الحاكم ولعمار بن علي من الكتب <note n="3" type="footnote"><p>AGc: وله من الكتب</p></note>
-							كتاب المنتخب في علم العين وعللها ومداواتها بالأدوية والحديد ألفه للحاكم. <note n="4" type="footnote"><p>In <hi rend="smallcaps">MS</hi> A, there is a note following the present biography: و ىٮلوه فى القاىمه اىضاً ابوبشر (‘Following [this biography] in the list there is also [the biography] of Abū Bishr’). For Abū Bishr, see Ch. 14.19.</p></note>
+							كتاب المنتخب في علم العين وعللها ومداواتها بالأدوية والحديد ألفه للحاكم. <note n="4" type="footnote"><p>In <hi rend="smallcaps">MS</hi> A, there is a note following the present biography: و ىٮلوه فى القاىمه اىضاً ابوبشر (‘Following [this biography] in the list there is also [the biography] of Abū Bishr’). For Abū Bishr, see Ch. 14.19.</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="18">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.18]‬ الحقير النافع <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the biography of ʿAmmār ibn ʿAlī al-Mawṣilī (Ch. 14.17) on fol. 219a. In <hi rend="smallcaps">MS</hi> A, there is a note following the name heading of the present biography: لم يرد المسوده (‘it is not present in the <hi rend="italic">musawwadah</hi> [author’s draft]’).</p></note>
+								‭[14.18]‬ الحقير النافع <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B; in <hi rend="smallcaps">MS</hi> A, it follows the biography of ʿAmmār ibn ʿAlī al-Mawṣilī (Ch. 14.17) on fol. 219a. In <hi rend="smallcaps">MS</hi> A, there is a note following the name heading of the present biography: لم يرد المسوده (‘it is not present in the <hi rend="italic">musawwadah</hi> [author’s draft]’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -669,7 +670,7 @@
 					<div type="textpart" subtype="biography" n="19">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.19]‬ أبو بشر طبيب العظيمية <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc. In <hi rend="smallcaps">MS</hi> A, this biography is written on a page inserted between fol. 215b and fol. 216a; in A, it follows the biography of Abū l-Fatḥ Manṣūr ibn Muqashshir (Ch. 14.16). In A, there is a note preceding the present biography: وتلوه (‘And following it is.’).</p></note>
+								‭[14.19]‬ أبو بشر طبيب العظيمية <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc. In <hi rend="smallcaps">MS</hi> A, this biography is written on a page inserted between fol. 215b and fol. 216a; in A, it follows the biography of Abū l-Fatḥ Manṣūr ibn Muqashshir (Ch. 14.16). In A, there is a note preceding the present biography: وتلوه (‘And following it is.’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">أبو بشر طبيب العظيمية كان في أيام الحاكم مشهوراً في الدولة ويعد من الأفاضل في صناعة الطب.‬‎</p>
@@ -677,7 +678,7 @@
 					<div type="textpart" subtype="biography" n="20">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.20]‬ ابن معشر الطبيب <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. All manuscripts read the name as ابن معشر الطبيب; L: معشر الطبيب ابو corr. to ابن in margin. Müller and Ibn al-Qifṭī (<hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 438) interpret name as ابن مقشر الطبيب; see Müller, ‘Lesarten’, 46.</p></note>
+								‭[14.20]‬ ابن معشر الطبيب <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc; in <hi rend="smallcaps">MS</hi> A, this biography is written on an inserted page which is between fol. 215b and fol. 216a. All manuscripts read the name as ابن معشر الطبيب; L: معشر الطبيب ابو corr. to ابن in margin. Müller and Ibn al-Qifṭī (<hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 438) interpret name as ابن مقشر الطبيب; see Müller, ‘Lesarten’, 46.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -687,14 +688,14 @@
 						<p style="direction:rtl; unicode-bidi:embed">وقال عبيد الله بن جبرئيل إن ابن معشر الطبيب كان في خدمة الحاكم وبلغ معه أعلى المنازل وأسناها وكان له منه الصلات الكثيرة والعطايا العظيمة.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							قال ولما مرض ابن معشر الطبيب عاده الحاكم بنفسه ولما مات أطلق لمخلفيه <note n="3" type="footnote"><p>L: لمحليفه</p></note>
-							مالاً وافراً. <note n="4" type="footnote"><p>In A, there is a note following the present biography: ىىلوه على بن سلىمان ورد الاصل (‘Following this one, [the biography of] ʿAlī ibn Sulaymān [see Ch. 14.21] is found in the original [<hi rend="italic">aṣl</hi>]’).</p></note>
+							مالاً وافراً. <note n="4" type="footnote"><p>In A, there is a note following the present biography: ىىلوه على بن سلىمان ورد الاصل (‘Following this one, [the biography of] ʿAlī ibn Sulaymān [see Ch. 14.21] is found in the original [<hi rend="italic">aṣl</hi>]’).</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="21">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.21]‬ علي بن سليمان <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A, it follows the biography of al-Ḥaqīr al-Nāfiʿ [Ch. 14.18], on fol. 219a.</p></note>
+								‭[14.21]‬ علي بن سليمان <note n="1" type="footnote"><p>This biography is found in all three versions. In <hi rend="smallcaps">MS</hi> A, it follows the biography of al-Ḥaqīr al-Nāfiʿ [Ch. 14.18], on fol. 219a.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -893,7 +894,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							فمما صنعته في <note n="77" type="footnote"><p>R, Lah: قما صنعته من</p></note>
-							العلوم الرياضية خمسة وعشرون كتاباً: <note n="78" type="footnote"><p><hi rend="smallcaps">MS</hi> A uses numerals at the beginning of each title in this list, while <hi rend="smallcaps">MSS</hi> <hi rend="smallcaps">BHLR</hi> write the numbers out in words. Gc (vers. 2) uses no numerals at all. Title number 7 has been added by the copyist of <hi rend="smallcaps">MS</hi> A upside down at the top of the page, and thereafter every numeral from seven through twenty-four is corrected by an increase of one; in <hi rend="smallcaps">MS</hi> A there is a marginal note in the upper right corner near the re-numbered item 8: اسىدار هذا هو الثامن وتعملت العدة خمسه وعسرون كتابا فاسطر الناطر ذلك ولا ىعتمد على العدد الاّ متوالياً (‘I changed this to the eighth one, making the total twenty-five books, and so I indicated that and only the numeration that follows should be used’.).</p></note>
+							العلوم الرياضية خمسة وعشرون كتاباً: <note n="78" type="footnote"><p><hi rend="smallcaps">MS</hi> A uses numerals at the beginning of each title in this list, while <hi rend="smallcaps">MSS</hi> <hi rend="smallcaps">BHLR</hi> write the numbers out in words. Gc (vers. 2) uses no numerals at all. Title number 7 has been added by the copyist of <hi rend="smallcaps">MS</hi> A upside down at the top of the page, and thereafter every numeral from seven through twenty-four is corrected by an increase of one; in <hi rend="smallcaps">MS</hi> A there is a marginal note in the upper right corner near the re-numbered item 8: اسىدار هذا هو الثامن وتعملت العدة خمسه وعسرون كتابا فاسطر الناطر ذلك ولا ىعتمد على العدد الاّ متوالياً (‘I changed this to the eighth one, making the total twenty-five books, and so I indicated that and only the numeration that follows should be used’.).</p></note>
 							‬‎
 						</p>
 						<list>
@@ -925,7 +926,7 @@
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب في تحليل المسائل الهندسية <note n="87" type="footnote"><p>L: om. title and adds no. 7 after والسادس</p></note>
+								كتاب في تحليل المسائل الهندسية <note n="87" type="footnote"><p>L: om. title and adds no. 7 after والسادس</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -1258,7 +1259,7 @@
 									<item style="direction:rtl; unicode-bidi:embed"> كتابه في الذبول</item>
 									<label style="direction:rtl; unicode-bidi:embed">‭29‬.</label>
 									<item style="direction:rtl; unicode-bidi:embed">
-										كتابه في أفضل هيئات البدن <note n="156" type="footnote"><p>Lah om. nos. 27– 29.</p></note>
+										كتابه في أفضل هيئات البدن <note n="156" type="footnote"><p>Lah om. nos. 27– 29.</p></note>
 									</item>
 									<label style="direction:rtl; unicode-bidi:embed">‭30‬.</label>
 									<item style="direction:rtl; unicode-bidi:embed">
@@ -1293,8 +1294,8 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">رُبَّ ميْتٍ قد صار بالعلم حيّاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ومبقًّى قد مات جهْلاً وغَـيّا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رُبَّ ميْتٍ قد صار بالعلم حيّاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ومبقًّى قد مات جهْلاً وغَـيّا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -1569,7 +1570,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في خواص القطع المكافئ</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭34‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								مقالة في خواص القطع الزائد <note n="233" type="footnote"><p>Lah has one single title for nos. 33–34: مقالة في خواص القطوع</p></note>
+								مقالة في خواص القطع الزائد <note n="233" type="footnote"><p>Lah has one single title for nos. 33–34: مقالة في خواص القطوع</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭35‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في نسب القسى الزمانية إلى ارتفاعها</item>
@@ -1822,7 +1823,7 @@
 							<hi rend="bold">[‭14.25.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو الحسن علي بن رضوان بن علي بن جعفر وكان مولده ومنشؤه بمصر وبها تعلم الطب وقد ذكر علي بن رضوان في سيرته من كيفية تعلمه صناعة الطب وأحواله <note n="2" type="footnote"><p>A: adds وأحواله over line</p></note>
+						   هو<persName ref="https://usaybia.net/person/2126"> أبو الحسن علي بن رضوان بن علي بن جعفر</persName> وكان مولده ومنشؤه<placeName ref="http://usaybia.net/place/Egypt"> بمصر</placeName> وبها تعلم الطب وقد ذكر علي بن رضوان في سيرته من كيفية تعلمه صناعة الطب وأحواله <note n="2" type="footnote"><p>A: adds وأحواله over line</p></note>
 							ما هذا نصه:‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1830,7 +1831,7 @@
 							أمري كله.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ولدت بأرض مصر في عرض ثلاثين درجة وطول خمس وخمسين درجة والطالع بزيج يحيى بن أبي منصور الحمل ه لو <note n="4" type="footnote"><p>Gc: كو</p></note>
+						   ولدت بأرض مصر في عرض ثلاثين درجة وطول خمس وخمسين درجة والطالع بزيج <persName ref="https://usaybia.net/person/Abu_Mansur">يحيى بن أبي منصور</persName>الحمل ه لو <note n="4" type="footnote"><p>Gc: كو</p></note>
 							وعاشرة الجدي ه كح ومواضع الكواكب الشمس بالدلو ه لب <note n="5" type="footnote"><p>ABL, Müller: ا ‭٥‬ لب‬‎; Gc: ه كب</p></note>
 							والقمر بالعقرب ح يه وعرضه جنوب ح يز وزحل <note n="6" type="footnote"><p>LH: وزجل</p></note>
 							بالقوس كط والمشتري بالجدي ه كح والمريخ بالدلو كا مح والزهرة بالقوس كد ك وعطارد بالدلو يط وسهم السعادة بالجدي د ه وجزء الاستقبال المتقدم بالسرطان كب ي والجوزهر <note n="7" type="footnote"><p>L: الجوهر</p></note>
@@ -1880,8 +1881,8 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							أقول هذا جملة ما ذكره من سيرته <note n="27" type="footnote"><p>Above the line in A, Gc om.: هذا جملة ما ذكره من سيرته صح</p></note>
 							وكان مولده في ديار <note n="28" type="footnote"><p>A: بديار</p></note>
-							مصر بالجيزة ونشأ بمدينة مصر وكان أبوه فراناً ولم يزل ملازماً للاشتغال والنظر في العلم إلى أن تميز وصار له الذكر الحسن والسمعة العظيمة وخدم الحاكم وجعله رئيساً على سائر المتطببين وكانت دار ابن رضوان بمدينة مصر في قصر الشمع <note n="29" type="footnote"><p>A: الجمع</p></note>
-							وهي إلى الآن تعرف به وقد تهدمت ولم يتبين إلا بقايا <note n="30" type="footnote"><p>AGc: اثار</p></note>
+						   مصر <placeName ref="https://usaybia.net/place/Giza">بالجيزة</placeName> ونشأ بمدينة مصر وكان أبوه فراناً ولم يزل ملازماً للاشتغال والنظر في العلم إلى أن تميز وصار له الذكر الحسن والسمعة العظيمة وخدم<persName> الحاكم و</persName>جعله رئيساً على سائر المتطببين وكانت دار ابن رضوانبمدينة مصر في قصر الشمع <note n="29" type="footnote"><p>A: الجمع</p></note>
+							وهي إلى الآن تعرف به وقد تهدمت ولم يتبين إلا بقايا <note n="30" type="footnote"><p>AGc: اثار</p></note> 
 							يسيرة من آثارها وحدث في الزمان الذي كان فيه <note n="31" type="footnote"><p>L: به</p></note>
 							ابن رضوان بديار مصر الغلاء العظيم والجلاء الفادح الذي هلك به أكثر أهلها.‬‎
 						</p>
@@ -1900,7 +1901,8 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							أقول وكان ابن رضوان كثير الرد على من كان معاصره من الأطباء وغيرهم وكذلك على كثير ممن تقدمه وكانت عنده سفاهة في بحثه وتشنيع على من يريد مناقشته وأكثر ذلك يوجد عندما كان يرد على
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٥‬ب‬‎" />
-							حنين بن إسحق وعلى أبي الفرج بن الطيب وكذلك أيضاً على أبي بكر محمد بن زكريا <note n="34" type="footnote"><p>AGc: om. ابى بكر محمد بن زكريا</p></note>
+						   <persName ref="https://usaybia.net/person/Ibn_Ishaq">حنين بن إسحق</persName> وعلى <persName ref="https://usaybia.net/person/al-Tayyib">أبي الفرج بن الطيب</persName>
+						   وكذلك أيض<persName ref="https://usaybia.net/person/al-Razi">اً على أبي بكر محمد بن زكريا </persName><note type="desc">name of al-Razi incomplete </note><note n="34" type="footnote"><p>AGc: om. ابى بكر محمد بن زكريا</p></note>
 							الرازي.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -2010,7 +2012,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								<p style="direction:rtl; unicode-bidi:embed">
-									وقال تعرُّف العيوب هو أن تنظر إلى هيئة الأعضاء والسحنة والمزاج وملمس البشرة وتتفقد أفعال الأعضاء الباطنة والظاهرة مثل أن تنادي به <note n="64" type="footnote"><p>AGc: om. به</p></note>
+									وقال تعرُّف العيوب هو أن تنظر إلى هيئة الأعضاء والسحنة والمزاج وملمس البشرة وتتفقد أفعال الأعضاء الباطنة والظاهرة مثل أن تنادي به <note n="64" type="footnote"><p>AGc: om. به</p></note>
 									من بعيد فتعتبر بذلك حال سمعه وأن تعتبر بصره بنظر <note n="65" type="footnote"><p>L: نضره نظر</p></note>
 									الأشياء البعيدة والقريبة ولسانه بجودة <note n="66" type="footnote"><p>L: بجود</p></note>
 									الكلام وقوته بشيل الثقل والمسك والضبط والمشي وأنحاء ذلك مثل أن تنظر مشيه مقبلاً ومدبراً ويؤمر بالاستلقاء على ظهره ممدود اليدين قد نصب رجليه وصفهما وتعتبر بذلك حال أحشائه وتتعرف <note n="67" type="footnote"><p>A: وتعتبر</p></note>
@@ -2070,7 +2072,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">كتاب تتبع مسائل حنين مقالتان</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب النافع في كيفية تعليم صناعة الطب ثلاث مقالات <note n="79" type="footnote"><p>AGc: add. here title no. 11.</p></note>
+								كتاب النافع في كيفية تعليم صناعة الطب ثلاث مقالات <note n="79" type="footnote"><p>AGc: add. here title no. 11.</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في أن جالينوس لم يغلط في أقاويله في اللبن على ما ظنه قوم</item>
@@ -2344,6 +2346,203 @@
 							</item>
 						</list>
 					</div>
+				   <div type="factoid" subtype="birthDate" xml:id="factoid-55" resp="#dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/8559-55</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <birth>
+				               <note> needs to be determined via planetary constellations!</note> 
+				            </birth>
+				         </person>
+				      </listPerson>
+				      <bibl type="primary">
+				         <ptr target="https://usaybia.net/person/2126"/>
+				         <citedRange unit="pp">3</citedRange>
+				      </bibl>
+				      <bibl type="urn">
+				         <ptr target="urn:cts:syriacLit:nhsl8559.syriacCorpus57:4"/>
+				      </bibl>
+				      <bibl type="primary">
+				         <ptr target="http://syriaca.org/bibl/657"/>
+				         <citedRange unit="part">3</citedRange>
+				      </bibl>
+				   </div>
+				   <div type="factoid" subtype="birthPlace" xml:id="factoid-67" resp="#ktorabi">
+				      <idno type="URI">http://syriaca.org/spear/819-67</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <birth><placeName ref="https://usaybia.net/place21"/><note type="desc"
+				               >born in "Old Cairo" at 30° latitude and 55° longitude. According to Usaybia "Giza".</note></birth>
+				         </person>
+				      </listPerson>
+				   </div>
+				   <div type="factoid" subtype="deathDate" xml:id="factoid-155" resp="#dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/8559-155</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <death>
+				               <choice>
+				                  <reg><date when="1061" calendar="Gregorian">1061</date></reg>
+				                  <orig><date when="0453" datingMethod="Hijri"></date></orig>
+				                  <note type="desc">during the caliphate of al-Mustanṣir bi-Allāh Abū Tamīm Maʿadd ibn al-Ẓāhir li-Iʿzāz al-Dīn al-Ḥākim
+				                     <persName ref="https://usaybia.net/person/???"></persName></note>
+				               </choice>
+				            </death>
+				         </person>
+				      </listPerson>
+				   </div>
+				   <div type="factoid" subtype="deathPlace" xml:id="factoid-15" resp="#sgross #egibes #ekeogh">
+				      <idno type="URI">http://syriaca.org/spear/845-15</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <death><placeName ref="http://syriaca.org/place/2761"/><note type="desc"
+				               ><persName ref="http://syriaca.org/person/2621"
+				                  >Egypt</persName></note></death>
+				         </person>
+				      </listPerson>
+				   </div>
+				      <div type="factoid" subtype="education" xml:id="factoid-5" resp="#jwickes">
+				         <idno type="URI">http://syriaca.org/spear/842-5</idno>
+				         <listPerson>
+				            <person>
+				               <persName ref="https://usaybia.net/person/2126"/>
+				               <education ana="http://usaybia.net/education/medicine"><note type="desc"
+				                  > when I reached the age of 14 I moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
+				                  I undertook the study of medicine</note></education>
+				               <education ana="http://usaybia.net/education/philosophy"><note type="desc"
+				                  > when I reached the age of 14 I moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
+				                  I undertook the study of medicine and philosophy</note></education>
+				            </person>
+				         </listPerson>
+				      </div>
+				         <div type="factoid" subtype="mentalState" xml:id="factoid-3" resp="#tbaillargeon #tmcneir">
+				            <idno type="URI">http://syriaca.org/spear/799-3</idno>
+				            <listPerson>
+				               <person>
+				                  <persName ref="https://usaybia.net/person/2126"/>
+				                  <state type="mental" ana="https://usaybia.net/mental/deteriorating">
+				                     <note type="desc"><persName ref="https://usaybia.net/person/2126"
+				                        >his</persName> mental faculties deteriorated <date>after the period of famine
+				                           <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053/1061</date></reg></date></note>
+				                  </state>
+				               </person>
+				            </listPerson>
+				         </div>
+				   <div type="factoid" subtype="occupation" xml:id="factoid-12" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3071-12</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <occupation ana="https://usaybia.net/keyword/medicine"></occupation>
+				            <occupation ana="https://usaybia.net/keyword/astrologer"><note><persName ref="https://usaybia.net/person/2126"/>I
+				               made a living by practising the art of astrology <reg><date cert="low">before 32</date></reg></note></occupation>
+				            <occupation ana="https://usaybia.net/keyword/teacher"></occupation>
+				         </person>
+				      </listPerson>
+				   </div>
+				   <div type="factoid" subtype="residence" xml:id="factoid-5" resp="#ktorabi">
+				      <idno type="URI">http://syriaca.org/spear/804-5</idno>
+				      <listPerson>
+				         <person>
+				            <persName ref="https://usaybia.net/person/2126"/>
+				            <residence><placeName ref="https://usaybia.net/place/Fustat"/><note type="desc"
+				               ><persName ref="https://usaybia.net/person/2126">Ibn Ridwan's</persName>
+				               house was in <placeName ref="https://usaybia.net/place/Qasr_al-Sham"
+				                  >Qaṣr al-Shamʿ quarter of Fustat</placeName>.</note></residence>
+				         </person>
+				      </listPerson>
+				   </div>
+				   <div type="factoid" subtype="event" xml:id="factoid-27" resp="#dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/8559-27</idno>
+				      <listEvent>
+				         <event ana="https://usaybia.net/keyword/crises">
+				            <desc> In <choice>
+				               <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+				               <orig><date when-custom="445"
+				                  datingMethod="Hijri">445</date></orig>
+				            </choice>, <persName ref="https://usaybia.net/person/Ibn Butlan"> Ibn Butlan
+				            </persName> reports about a shortage of supplies in <placeName ref="https://usaybia.net/place/Egypt">Egypt</placeName>
+				               the level of the Nile fell and the shortage of food increased, followed by a great pestilence in
+				               <reg><date when="1055" calendar="Gregorian">1055</date></reg>
+				               <orig><date when-custom="447"
+				                  datingMethod="Hijri">447</date></orig>
+				               </desc>
+				         </event>
+				      </listEvent>
+				   </div>
+				   <div type="factoid" subtype="event" xml:id="factoid-27" resp="#dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/8559-27</idno>
+				      <listEvent>
+				         <event ana="https://usaybia.net/keyword/crime">
+				            <desc> In <choice>
+				               <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian"
+				                  srophe:computed-start="1053"srophe:computed-end="1061">1053/1061</date></reg>
+				               <orig><date notBefore="445" notAfter="453" calendar="Hijri"
+				                  srophe:computed-start="445"
+				                  srophe:computed-end="453">445/453"></date></orig>
+				            </choice>, <persName ref="https://usaybia.net/person/orphan of Ibn Ridwan"> an orphan girl
+				            </persName> whom he <persName ref="https://usaybia.net/person/2126"/>raised in his <placeName ref="http://syriaca.org/place/Qasr_al-Sham">house</placeName>
+				               took valuables and gold worth about 20.000 Dinar and fled.
+				            </desc>
+				         </event>
+				      </listEvent>
+				   </div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Ibn Butlan">
+				         </relation>
+				      </listRelation>
+				</div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Hunayn_ibn_Ishaq">
+				         </relation>
+				      </listRelation>
+				   </div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Ibn_al-Tayyib">
+				         </relation>
+				      </listRelation>
+				   </div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/al-Razi">
+				         </relation>
+				      </listRelation>
+				   </div>
+			   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+			      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+			      <listRelation>
+			            <relation ref="snap:ParentOf" active="https://usaybia.net/person/2126" passive="https://usaybia.net/person/orphan_girl">
+			         </relation>
+			      </listRelation>
+			</div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/al-Hakim">
+				         </relation>
+				      </listRelation>
+				   </div>
+				   <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+				      <idno type="URI">http://syriaca.org/spear/3044-7</idno>
+				      <listRelation>
+				         <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/Usaybia_himself https://usaybia.net/person/Muhammad of Malaga">
+				            <desc>Abū ʿAbd Allāh Muḥammad of <placeName ref="https://usaybia.net/place/Malaga">Malaga [in al-Andalus]</placeName>, 
+				               the <occupation ref="https://usaybia.net/occupation/scribe">copyist,</occupation> has related to me</desc>
+				         </relation>
+				      </listRelation>
+				   </div>
+				   
 					<div type="textpart" subtype="biography" n="26">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
@@ -2432,15 +2631,15 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">يشمِّر لِلُّـجّ عـن سـاقِـهِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">يشمِّر لِلُّـجّ عـن سـاقِـهِ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ويغْمُره الموجُ في الساحلِ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">أو كما قال الآخر:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">تَمَنَّيْتـُمُ مـائتـيْ فـارسٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فردَّكُـمُ فـارسٌ واحـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">تَمَنَّيْتـُمُ مـائتـيْ فـارسٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فردَّكُـمُ فـارسٌ واحـدُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -2466,17 +2665,17 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ثلاثةٌ تدخُل فـي دُفْـعةٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">طَلْعتُهُ والنَّعْش والغاسلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">طَلْعتُهُ والنَّعْش والغاسلُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">ولبعضهم:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لأبي الخير في العِلا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">جِ يدٌ ما تُقـصِّـرُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">جِ يدٌ ما تُقـصِّـرُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كلُّ مَن يستطـبُّـهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كلُّ مَن يستطـبُّـهُ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">بعد يوميْنِ يُقْـبَـرُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -2488,11 +2687,11 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">جنونُ أبي الخير الجُنونُ بـعـينِـهِ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وكلُّ جنونٍ عنده غـايةُ الـعـقْـلِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وكلُّ جنونٍ عنده غـايةُ الـعـقْـلِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">خُذُوه فغُـلُّـوه فـشُـدُّو وِثـاقَـهُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فما عاقلٌ مَن يستهين بـمـخـتـلِّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خُذُوه فغُـلُّـوه فـشُـدُّو وِثـاقَـهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فما عاقلٌ مَن يستهين بـمـخـتـلِّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وقد كان يؤْذي الناسَ بالقول وحْـدَه‬‎</l>
@@ -2520,7 +2719,7 @@
 					<div type="textpart" subtype="biography" n="28">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.28]‬ مبارك بن سلامة بن رحمون <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A, it is added in the right-hand margin of fol. 228b.</p></note>
+								‭[14.28]‬ مبارك بن سلامة بن رحمون <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A, it is added in the right-hand margin of fol. 228b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -2646,7 +2845,7 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وقالوا الطبيعةُ معلومنـا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ونحن نبيِّن ما حَـدَّهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونحن نبيِّن ما حَـدَّهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولم يعرفوا الآن ما قبْلها‬‎</l>
@@ -2667,7 +2866,7 @@
 					<div type="textpart" subtype="biography" n="31">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.31]‬ الشيخ السديد رئيس الطب <note n="1" type="footnote"><p>This biography is found in all three versions. There is a large lacuna in <hi rend="smallcaps">MS</hi> R. <hi rend="smallcaps">MS</hi> Gb (fol. 96b) has the following Latin note at the start of the biography: <hi rend="italic">Haec omnia usque ad libri finem iam supra scripta sunt partim priore volumine partim hoc ipso</hi> (‘All of these as far as the end of the book are already written above, partly in the previous volume partly in this one itself’).</p></note>
+								‭[14.31]‬ الشيخ السديد رئيس الطب <note n="1" type="footnote"><p>This biography is found in all three versions. There is a large lacuna in <hi rend="smallcaps">MS</hi> R. <hi rend="smallcaps">MS</hi> Gb (fol. 96b) has the following Latin note at the start of the biography: <hi rend="italic">Haec omnia usque ad libri finem iam supra scripta sunt partim priore volumine partim hoc ipso</hi> (‘All of these as far as the end of the book are already written above, partly in the previous volume partly in this one itself’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -2802,7 +3001,7 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أيا مَن حَقُّ نِعـمـتِـهِ قـديمٌ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أيا مَن حَقُّ نِعـمـتِـهِ قـديمٌ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									على المرؤوس منّا والرئيسِ <note n="71" type="footnote"><p>A: على الرئيس منا والمرؤوس, which is unmetrical.</p></note>
 									‬‎
@@ -2811,12 +3010,12 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									فكم <note n="72" type="footnote"><p>A: كم, which is unmetrical.</p></note>
-									عافٍ أَعَدتَّ له العوافـي‬‎
+									عافٍ أَعَدتَّ له العوافـي‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">وكم عنّا نضوْتَ لباسَ بـوسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ويا مَن نفسُه أعلـى مَـحَـلًّا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويا مَن نفسُه أعلـى مَـحَـلًّا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">من المنفوس يُعْدَمُ والنفـيسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -2830,7 +3029,7 @@
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							فعايِنْ ما عَراكَ بنُور تـقْـوى‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">خلائقك التي هي كالشُّمـوسِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خلائقك التي هي كالشُّمـوسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">مُصابُك بالذي أضحى ثـَوابـاً‬‎</l>
@@ -2859,7 +3058,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
-							وكلُّ حوادثِ الـدنـيا يسـيرٌ‬‎
+							وكلُّ حوادثِ الـدنـيا يسـيرٌ‬‎
 						</l>
 								<l style="direction:rtl; unicode-bidi:embed">إذا بقِيَتْ حُشاشاتُ النـفـوسِ‬‎</l>
 							</lg>
@@ -2867,12 +3066,12 @@
 						<p style="direction:rtl; unicode-bidi:embed">ونقلت أيضاً من خطه مما نظمه في مآثر القاضي السديد مجيزاً لبيتين عُملا فيه وهما:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولكلِّ عافِيَةٍ عَفَتْ وقـتٌ فـإنْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكلِّ عافِيَةٍ عَفَتْ وقـتٌ فـإنْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">عُدتَ المريضَ فأنت من أوقاتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فاسلَمْ ليسْلَمَ مَن تُعَلِّـلـهُ فـقـدْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">صحَّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فاسلَمْ ليسْلَمَ مَن تُعَلِّـلـهُ فـقـدْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">صحَّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -2904,7 +3103,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
-									للّٰهِ نفسُـك مـا أتـمَّ ضِـياءَهـا
+									للّٰهِ نفسُـك مـا أتـمَّ ضِـياءَهـا
 									<note n="80" type="footnote"><p>AGc, incorrectly: ضياؤُها</p></note>
 									‬‎
 								</l>
@@ -2921,16 +3120,16 @@
 								<l style="direction:rtl; unicode-bidi:embed">ونُهًى تُجِير النفس َمن آفـاتِـهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كمْ مِثلِ مُهْجتِيَ اخْتلسْتَ من الرَّدَى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فرددتَّ عنها وهْيَ في سَكَراتِهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كمْ مِثلِ مُهْجتِيَ اخْتلسْتَ من الرَّدَى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فرددتَّ عنها وهْيَ في سَكَراتِهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وغمرْتَها بِرًّا وبُرءاً بـعـدمـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وغمرْتَها بِرًّا وبُرءاً بـعـدمـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">قذفتْ بها الأمراض في غَمَراتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ونزعْتَ عنها النَّزْعَ وهْو مُدافِعٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لنسيمِ رَوْحِ الرُّوح عن لَهَواتِها‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونزعْتَ عنها النَّزْعَ وهْو مُدافِعٌ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لنسيمِ رَوْحِ الرُّوح عن لَهَواتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
@@ -2958,7 +3157,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									للّٰهِ فِكْرُك مُدْرِكاً ما اكتنَّ <note n="85" type="footnote"><p>A: اكت اننَ (?), corrected in bottom margin to اكتنَّ</p></note>
+									للّٰهِ فِكْرُك مُدْرِكاً ما اكتنَّ <note n="85" type="footnote"><p>A: اكت اننَ (?), corrected in bottom margin to اكتنَّ</p></note>
 									فـي الـ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">أعضاءِ عنه من جميعِ جهاتِها‬‎</l>
@@ -2978,12 +3177,12 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									 <note n="87" type="footnote"><p>At this point B adds in right margin: تضمين (‘quotation’).</p></note>
-									ولكلِّ عافيةٍ عَفَتْ وقـتٌ فـإنْ‬‎
+									ولكلِّ عافيةٍ عَفَتْ وقـتٌ فـإنْ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">عُدتَ المريضَ فأنت من أوقاتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فاسْلَمْ ليسْلمَ مَن تُعلَّـلُـهُ فـقـد‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فاسْلَمْ ليسْلمَ مَن تُعلَّـلُـهُ فـقـد‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">صحّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
 							</lg>
 						</lg>
@@ -3003,7 +3202,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">أعودُ إلى هذا الوجود ولا هـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">هو السيِّد القاضي السديد الذي به‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">هو السيِّد القاضي السديد الذي به‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">أُفاخر أربابَ العُلا وأُبـاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3018,7 +3217,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">تُريه خفايا الغائباتِ كما هـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">زِمام العوافي والسَّقام بكـفّـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">زِمام العوافي والسَّقام بكـفّـه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">له آمرٌ في الفِرْقتين ونـاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3026,7 +3225,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">ببَهْجتك الدنيا ولستَ بـزاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">تَجِلّ عن الماء الزُّلال وجَلّ أن‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">تَجِلّ عن الماء الزُّلال وجَلّ أن‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">يُقاسَ هواءٌ مُنْـعِـشٌ بـمِـياهِ‬‎</l>
 							</lg>
 						</lg>
@@ -3091,16 +3290,16 @@
 							<hi rend="bold">[‭14.32.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول <note n="22" type="footnote"><p>In A, beginning with اقول وكان بمصر and including the next three short poems, the text has been added later in the left margin of fol. 232a. This sentence and the three poems are omitted in LHRGcGb. They are found in B and in Müller. Preceding this sentence and the three poems there is the following annotation, beginning at the end of the ninth line of text and moving to the upper left corner and then down the outside left margin: قال كاتبها ورايت في مسودة المصنف ابياتا يُهجي بها ابن جميع المذكور ثم انه ضرب عليها وأضرب عنها وكانه انما فعل ذلك لما تقدم من كلامه مع الصاحب جمال الدين بن المطروح ولم يورد الابيات <del rend="overstrike">ما</del> في المبيضة قال في مسودتة‬‎. (‘The copyist [of this note] says: I saw in the author’s draft (<hi rend="italic">musawwadat al-muṣannif</hi>) lines of poetry satirizing the aforementioned Ibn Jumayʿ, and that he had struck them out and abandoned them. He did that after discussing the matter with al-Ṣāḥib Jamāl al-Dīn ibn al-Maṭrūḥ, and the lines of poetry were not included in the fair copy (<hi rend="italic">al-mubayyaḍah</hi>). In his <hi rend="italic">musawwadah</hi> he said’ …).</p></note>
+							أقول <note n="22" type="footnote"><p>In A, beginning with اقول وكان بمصر and including the next three short poems, the text has been added later in the left margin of fol. 232a. This sentence and the three poems are omitted in LHRGcGb. They are found in B and in Müller. Preceding this sentence and the three poems there is the following annotation, beginning at the end of the ninth line of text and moving to the upper left corner and then down the outside left margin: قال كاتبها ورايت في مسودة المصنف ابياتا يُهجي بها ابن جميع المذكور ثم انه ضرب عليها وأضرب عنها وكانه انما فعل ذلك لما تقدم من كلامه مع الصاحب جمال الدين بن المطروح ولم يورد الابيات <del rend="overstrike">ما</del> في المبيضة قال في مسودتة‬‎. (‘The copyist [of this note] says: I saw in the author’s draft (<hi rend="italic">musawwadat al-muṣannif</hi>) lines of poetry satirizing the aforementioned Ibn Jumayʿ, and that he had struck them out and abandoned them. He did that after discussing the matter with al-Ṣāḥib Jamāl al-Dīn ibn al-Maṭrūḥ, and the lines of poetry were not included in the fair copy (<hi rend="italic">al-mubayyaḍah</hi>). In his <hi rend="italic">musawwadah</hi> he said’ …).</p></note>
 							وكان بمصر ابن المنجم المصري وكان شاعراً مشهوراً خبيث اللسان وله أهاجي كثيرة في ابن جميع ومن ذلك مما أنشدت له فيه:‬‎
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لابن جُميعٍ في طبّـه حُـمُـقٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">يُسَبّ طِبُّ المسيح من سَبَـبِـهْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">يُسَبّ طِبُّ المسيح من سَبَـبِـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وليس يدري ما في الزُّجاجة من‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وليس يدري ما في الزُّجاجة من‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">بوْلِ مريضٍ ولو تَمضمضَ بِـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3119,16 +3318,16 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فما هـو إلا رقـيعٌ أتـى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وإنْ حلَّ في بَلَدٍ أنحـسَـهْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وإنْ حلَّ في بَلَدٍ أنحـسَـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									
 									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[ii,114]‬‬‎" />
-									وقد جعل الشُّرْبَ من شأنـه‬‎
+									وقد جعل الشُّرْبَ من شأنـه‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									ولكنْ كما تشرَب النَّرْجِسَهْ <note n="24" type="footnote"><p>B omits this line.</p></note>
+									ولكنْ كما تشرَب النَّرْجِسَهْ <note n="24" type="footnote"><p>B omits this line.</p></note>
 									‬‎
 								</l>
 							</lg>
@@ -3136,7 +3335,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">وله أيضاً فيه:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كذبتَ وصحَّفتَ فيما ادّعيْتَ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كذبتَ وصحَّفتَ فيما ادّعيْتَ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وقلتَ أبوك جُمَيْعُ اليهودي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3156,12 +3355,12 @@
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									وإن نَفِدتْ <note n="27" type="footnote"><p>AL, incorrectly:‬‎ نفذتْ</p></note>
-									منك الدموعُ فبالدَّمِ‬‎
+									منك الدموعُ فبالدَّمِ‬‎
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فحُقَّ بأن تُذْري على فَقْدِ سيّدٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فقدْنا به فضلَ العُلَى والـتـكـرُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فحُقَّ بأن تُذْري على فَقْدِ سيّدٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقدْنا به فضلَ العُلَى والـتـكـرُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -3175,19 +3374,19 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأهداهُمُ بالرأي والأمر مُبْهَمٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأعلمهمْ بالغـيْب عِـلْـمَ تـفـهُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأعلمهمْ بالغـيْب عِـلْـمَ تـفـهُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
-									وأرحبهمْ صدْراً وكفًّا
+									وأرحبهمْ صدْراً وكفًّا
 									<note n="30" type="footnote"><p>B: كفا وصدرا (with the letter م written above both words, to indicate the order should be reversed)</p></note>
 									ومنزلاً‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كمثلِ الصبح عند التـبـسُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كمثلِ الصبح عند التـبـسُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأنْجد مَن يمّمْـتُـه لمُـلِـمّة‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأنـجـد مَـن أمّـلـتُـهُ لـتـألُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأنـجـد مَـن أمّـلـتُـهُ لـتـألُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو كان يُفْدى من حِمامٍ فديْـتُهُ‬‎</l>
@@ -3195,28 +3394,28 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وبطْش أسُودٍ كالأَساود ترتمي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">بهَـزّةِ هـنْـديٍّ وعِـزّةِ لَـهْـذَمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">بهَـزّةِ هـنْـديٍّ وعِـزّةِ لَـهْـذَمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولكنْ قضاءُ اللّٰه في الخَلق نافذٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فلا دافعٌ للآمر الـمـتـحـكِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فلا دافعٌ للآمر الـمـتـحـكِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
-							وما ردَّ بُقراطاً عن الموت طِبُّهُ‬‎
+							وما ردَّ بُقراطاً عن الموت طِبُّهُ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">وقد كان من أعيانه في التـقـدُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كان من أعيانه في التـقـدُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									ولا حادَ جالينوسُ عن حتْفِ أنْفِهِ <note n="31" type="footnote"><p>LBRHGbGc &amp; al-Ṣafadī, <hi rend="italic">Wāfī</hi>: يومه</p></note>
 									‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">فسلَّم ما أعياه للـمـتـسـلّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فسلَّم ما أعياه للـمـتـسـلّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">لا كسر كِسْرى ثمّ تابعَ تُـبَّعاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وعاد بـعـادٍ ثـم جـرَّ بـجُـرْهُـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لا كسر كِسْرى ثمّ تابعَ تُـبَّعاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وعاد بـعـادٍ ثـم جـرَّ بـجُـرْهُـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فقُلْ مُعْلِناً للشامتين بيومه‬‎</l>
@@ -3241,11 +3440,11 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فلا فَرَحٌ إلا ويعْقبه الأسى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولا غايةُ البـنْـيان غـيرُ الـتـهـدُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولا غايةُ البـنْـيان غـيرُ الـتـهـدُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فقُبحاً لدهرٍ ردَّنا بعد فقْده‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">حَيارى بلا هـادٍ حـلـيف الـتـيتُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقُبحاً لدهرٍ ردَّنا بعد فقْده‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حَيارى بلا هـادٍ حـلـيف الـتـيتُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">أما عَجَبٌ إذ غاله الحتْفُ رامياً‬‎</l>
@@ -3261,22 +3460,22 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأرفع بيتاً في القبيل مكارماً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">كما لاح بدرُ التِّمِّ مـا بـين أنـجُـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كما لاح بدرُ التِّمِّ مـا بـين أنـجُـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									فيا أيّها المولى الموفَّق أين ما <note n="33" type="footnote"><p>Thus A, which is better than أينما (LBRHGbGc).</p></note>
+									فيا أيّها المولى الموفَّق أين ما <note n="33" type="footnote"><p>Thus A, which is better than أينما (LBRHGbGc).</p></note>
 									‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">رأيناه من دُرّ الكـلام الـمـنـظَّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رأيناه من دُرّ الكـلام الـمـنـظَّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وما غالَ ذاك النُّطقَ أفصحَ مِقْوَلٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وما غالَ ذاك النُّطقَ أفصحَ مِقْوَلٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">يُنِير دُجى ليلٍ من الشكّ مُظْلِـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وما أخمدَ الحِسَّ الذكيَّ توقُّداً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وقد كان يَهدي كـلَّ سـارٍ مـيمَّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وما أخمدَ الحِسَّ الذكيَّ توقُّداً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كان يَهدي كـلَّ سـارٍ مـيمَّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭25‬">
@@ -3286,19 +3485,19 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولا كلّ من أجرى المَدامعَ ثاكلٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأين جميلٌ في الأسى من متمِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأين جميلٌ في الأسى من متمِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									
 									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[ii,115]‬‬‎" />
 									فلا تعْذُلوني إنْ بكيتُ <note n="34" type="footnote"><p>B: بليت</p></note>
-									تأسُّفاً‬‎
+									تأسُّفاً‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">فقدْرُ عظيمِ الحُزن قدْرُ المـعـظِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقدْرُ عظيمِ الحُزن قدْرُ المـعـظِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وواللّٰه ما وفّيتُ واجبَ حقِّه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وواللّٰه ما وفّيتُ واجبَ حقِّه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ولو أنّ جسمي كلّ عـين بـمـرْزمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3312,7 +3511,7 @@
 								<l style="direction:rtl; unicode-bidi:embed" n="‭30‬">
 							فويْح المنايا ما درتْ كُنْه حادثٍ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">رمتْ سيّداً يحيا به كلُّ مـنْـعـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رمتْ سيّداً يحيا به كلُّ مـنْـعـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ثوى بين أحجار الثرى ولقد غدا‬‎</l>
@@ -3326,8 +3525,8 @@
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وقد كنتُ أهْديه الثناءَ مبـجِّـلاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فها أنا أهديه الرِّثا جهْدَ مُعْـدِمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كنتُ أهْديه الثناءَ مبـجِّـلاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فها أنا أهديه الرِّثا جهْدَ مُعْـدِمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فيا قبرَه الوضّاح لم يدْر ما حوى‬‎</l>
@@ -3335,17 +3534,17 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭35‬">
-							سقاك من الوَسْميّ كلُّ سحـابةٍ‬‎
+							سقاك من الوَسْميّ كلُّ سحـابةٍ‬‎
 						</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									تُجيل <note n="37" type="footnote"><p>A: ٮجيل; LGb: تحيل</p></note>
-									عليك العين ذات تـوسُّـمِ‬‎
+									عليك العين ذات تـوسُّـمِ‬‎
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولا زال منك النشرُ يأرج عَرْفُهُ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									فيهديه أنفاسَ الصَّبا بمـسـلِّـمِ <note n="38" type="footnote"><p>A adds the number 36, referring to the number of lines.</p></note>
+									فيهديه أنفاسَ الصَّبا بمـسـلِّـمِ <note n="38" type="footnote"><p>A adds the number 36, referring to the number of lines.</p></note>
 									‬‎
 								</l>
 							</lg>
@@ -3462,7 +3661,7 @@
 					<div type="textpart" subtype="biography" n="35">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.35]‬ الرئيس هبة الله <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A this biography is written in the left margin on fol. 233a. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb.</p></note>
+								‭[14.35]‬ الرئيس هبة الله <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A this biography is written in the left margin on fol. 233a. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان إسرائيلياً فاضلاً مشهوراً بالطب جيد الأعمال حسن المعالجة وكان في آخر دولة الخلفاء المصريين وخدمهم بصناعة الطب وكانت له منهم الجامكية الوافرة والصلات المتوالية ثم انقرضت دولتهم وبقي بعدهم يعيش فيما أنعموا به عليه إلى أن توفي وكانت وفاته في سنة خمسمائة ونيف وثمانين.‬‎</p>
@@ -3527,11 +3726,11 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">يا أيها المدّعي طِـبّـاً وهـنـدسةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">أوضحتَ يا ابنَ جُميعٍ واضحَ الزُّورِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أوضحتَ يا ابنَ جُميعٍ واضحَ الزُّورِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إن كنتَ بالطبّ ذا علم فلِمْ عجـزتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">قُواك عن طبِّ داءٍ فيك مسـتـورِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">قُواك عن طبِّ داءٍ فيك مسـتـورِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -3550,7 +3749,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									يا هندسيًّا له شـكـلٌ يَـهـيم <note n="16" type="footnote"><p>R: تـهـيم</p></note>
+									يا هندسيًّا له شـكـلٌ يَـهـيم <note n="16" type="footnote"><p>R: تـهـيم</p></note>
 									بـه‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -3559,16 +3758,16 @@
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">مجسَّم أُسْطـوانـيّ عـلـى أُكَـرٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">مجسَّم أُسْطـوانـيّ عـلـى أُكَـرٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">تألفتْ بـين مـخـروط وتـدويرِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									[…] <note n="18" type="footnote"><p>The space of six syllables is left blank in LHB; in A إلا نصـف زاويةٍ is written between lines 5 and 6. The whole line is lacking in Gb.</p></note>
+									[…] <note n="18" type="footnote"><p>The space of six syllables is left blank in LHB; in A إلا نصـف زاويةٍ is written between lines 5 and 6. The whole line is lacking in Gb.</p></note>
 									إلا نـصـف زاويةٍ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									فهو <note n="19" type="footnote"><p>In A مثل الحـبل فـي البير is written between lines 5 and 6. The word فهو is not in ARHGcL; the hemistich is unmetrical with or without it; al-Ṣafadī, <hi rend="italic">Wāfī</hi>: يكون فيه كمثل.</p></note>
+									فهو <note n="19" type="footnote"><p>In A مثل الحـبل فـي البير is written between lines 5 and 6. The word فهو is not in ARHGcL; the hemistich is unmetrical with or without it; al-Ṣafadī, <hi rend="italic">Wāfī</hi>: يكون فيه كمثل.</p></note>
 									كمثل الحَـبْـل فـي الـبـيرِ‬‎
 								</l>
 							</lg>
@@ -3585,14 +3784,14 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وباح نَشْرُ خُزاماها بما كتـمـتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وناحَ قُمْريُّها شَجْواً بمـا يَجِـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وناحَ قُمْريُّها شَجْواً بمـا يَجِـدُ‬‎</l>
 							</lg>
 						</lg>
 					</div>
 					<div type="textpart" subtype="biography" n="37">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.37]‬ أبو البركات بن القضاعي <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A this biography is written in the left and upper margin of fol. 233b. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb.</p></note>
+								‭[14.37]‬ أبو البركات بن القضاعي <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. In <hi rend="smallcaps">MS</hi> A this biography is written in the left and upper margin of fol. 233b. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3603,7 +3802,7 @@
 					<div type="textpart" subtype="biography" n="38">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.38]‬ أبو المعالي بن تمام <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the top and right margin on fol. 233b.</p></note>
+								‭[14.38]‬ أبو المعالي بن تمام <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the top and right margin on fol. 233b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3652,21 +3851,21 @@
 						<p style="direction:rtl; unicode-bidi:embed">وقال القاضي السعيد بن سناء الملك يمدح الرئيس موسى:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أرى طِبَّ جالينوسَ للجسم وحْدَهُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وطبُّ أبي عِمْران للعقل والجِسْمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أرى طِبَّ جالينوسَ للجسم وحْدَهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وطبُّ أبي عِمْران للعقل والجِسْمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فلو أنه طبَّ الزمانَ بعِـلْـمـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فلو أنه طبَّ الزمانَ بعِـلْـمـه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">لأبراه من داء الجَهالة بالعـلْـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولو كان بدْرُ التِّمّ مَن يستطـبّـه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لَتَمّ له ما يدّعـيه مـن الـتّـمِّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولو كان بدْرُ التِّمّ مَن يستطـبّـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لَتَمّ له ما يدّعـيه مـن الـتّـمِّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وداواه يومَ التمّ من كَـلَـفٍ بـه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									وأبرأه يومَ السَّرار من السُّـقْـمِ <note n="8" type="footnote"><p>B: om. وقال القاضي السعيد … لسَّرار من السُّـقْـمِ‬‎</p></note>
+									وأبرأه يومَ السَّرار من السُّـقْـمِ <note n="8" type="footnote"><p>B: om. وقال القاضي السعيد … لسَّرار من السُّـقْـمِ‬‎</p></note>
 									‬‎
 								</l>
 							</lg>
@@ -3693,7 +3892,7 @@
 					<div type="textpart" subtype="biography" n="40">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.40]‬ إبراهيم بن الرئيس موسى <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the bottom margin and right margin of fol. 233b.</p></note>
+								‭[14.40]‬ إبراهيم بن الرئيس موسى <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. This biography is not found in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the bottom margin and right margin of fol. 233b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3717,7 +3916,7 @@
 					<div type="textpart" subtype="biography" n="41">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.41]‬ أبو البركات بن شعيا <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. This biography is missing in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the right margin of fol. 233b.</p></note>
+								‭[14.41]‬ أبو البركات بن شعيا <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. This biography is missing in <hi rend="smallcaps">MSS</hi> Gc and Gb. In <hi rend="smallcaps">MS</hi> A this biography is written in the right margin of fol. 233b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3749,7 +3948,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ومن نوادره في حسن المداواة أنه كان بعض <note n="7" type="footnote"><p>A.: كان من بعض</p></note>
-							أهلنا من النساء قد عرض لها مرض وتغير مزاج وتطاول بها ولم ينجع فيها علاج فلما افتقدها قال لعمي وكان صديقه عندي أقراص قد ركبتها لهذا المرض خاصة وهي تبرأ بها إن شاء الله تكون تتناول في كل يوم بالغداة منها قرصاً مع شراب سكنجبين وأعطاه الأقراص فلما تناولتها برأت. <note n="8" type="footnote"><p>In margin of A, LBGcGbHL om.: ومن نوادر في … الأقراص فلما تناولتها‬‎. Misplaced in R. The last word (برأت) is missing in A, R omits فلما تناولتها برأت. At that point the copyist adds a note in the top margin of fol. 234a saying: يحتاج إلى يتم [تتميم؟] هذا الجزء [الخبر؟] لأنه كان وارد الحاشية ومحذوف[؟]‬‎ (‘This section requires completion because it was in the margin and was cut off.’); the latter part might also be read as <hi rend="italic">li-anna dhikrahū ⟨fī⟩ l-ḥāshiyah maḥdhūf⟨an⟩</hi>.</p></note>
+							أهلنا من النساء قد عرض لها مرض وتغير مزاج وتطاول بها ولم ينجع فيها علاج فلما افتقدها قال لعمي وكان صديقه عندي أقراص قد ركبتها لهذا المرض خاصة وهي تبرأ بها إن شاء الله تكون تتناول في كل يوم بالغداة منها قرصاً مع شراب سكنجبين وأعطاه الأقراص فلما تناولتها برأت. <note n="8" type="footnote"><p>In margin of A, LBGcGbHL om.: ومن نوادر في … الأقراص فلما تناولتها‬‎. Misplaced in R. The last word (برأت) is missing in A, R omits فلما تناولتها برأت. At that point the copyist adds a note in the top margin of fol. 234a saying: يحتاج إلى يتم [تتميم؟] هذا الجزء [الخبر؟] لأنه كان وارد الحاشية ومحذوف[؟]‬‎ (‘This section requires completion because it was in the margin and was cut off.’); the latter part might also be read as <hi rend="italic">li-anna dhikrahū ⟨fī⟩ l-ḥāshiyah maḥdhūf⟨an⟩</hi>.</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3908,7 +4107,7 @@
 					<div type="textpart" subtype="biography" n="46">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.46]‬ شهاب الدين بن فتح الدين بن أبي الحوافر <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. This biography is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> L, the name is written as شهاب الدين … بن ابو الحوافر‬‎.</p></note>
+								‭[14.46]‬ شهاب الدين بن فتح الدين بن أبي الحوافر <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. This biography is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> L, the name is written as شهاب الدين … بن ابو الحوافر‬‎.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3920,8 +4119,8 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وَرِثَ المكارمَ عن أبيه وجَدِّه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">كالرُّمح أُنبوباً على أنبـوبِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وَرِثَ المكارمَ عن أبيه وجَدِّه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كالرُّمح أُنبوباً على أنبـوبِ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4000,7 +4199,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فيا أيها الحَبْر الـذي جـاء آخـرا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فحلَّ لنـا مـا لـم تـحـلّ الأوائلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فحلَّ لنـا مـا لـم تـحـلّ الأوائلُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -4030,7 +4229,7 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">أيدري بمن قد سار حاملُ نـعْـشِـهِ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									غداةَ أجَنُّوه <note n="9" type="footnote"><p>GcL: أحبوه غداه</p></note>
+									غداةَ أجَنُّوه <note n="9" type="footnote"><p>GcL: أحبوه غداه</p></note>
 									ومَـنْ هـو حـامـلُ‬‎
 								</l>
 							</lg>
@@ -4053,11 +4252,11 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وما كنتُ أدْري أنّ للشمس في الثرى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">أُفولاً وأنّ البدرَ في التُّـرب نـازلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أُفولاً وأنّ البدرَ في التُّـرب نـازلُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">إلى أن رأينـاه وقـد حـلَّ قـبـرَه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">قضيْنا بأنّ البدرَ في اللَّحْد حاصـلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">إلى أن رأينـاه وقـد حـلَّ قـبـرَه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">قضيْنا بأنّ البدرَ في اللَّحْد حاصـلُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4089,7 +4288,7 @@
 					<div type="textpart" subtype="biography" n="49">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.49]‬ أبو سليمان داود بن أبي المنى بن أبي فانة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. The biography occurs twice in <hi rend="smallcaps">MS</hi> Gb; the first entry (found on fols. [A]b–1a) will be indicated as Gb1 and the second entry (found on fols. 102b–103b) as Gb2. Near the heading of Gb2, half-way down fol. 102b, there is the following marginal note written in a hand different from that of the copyist:</p><p>هذا الجلد مربوط إلى الأول من نهاء والأول منه مكرر مذكور في الجلد الأول (‘This volume [<hi rend="italic">jild</hi>, perhaps here in sense of a section of a treatise, but not a discrete quire] has been bound to the first at its end, and the first of it [that is, the following section of the manuscript] repeats what has been said in the first of the volume.’)</p><p>In this instance, a later reader has noted in a <hi rend="italic">nastaʿlīq</hi> hand that the biography beginning on fol. 102b of <hi rend="smallcaps">MS</hi> Gb repeats that given earlier on fol. [A]b at the start of the second of the two bound volumes comprising <hi rend="smallcaps">MSS</hi> Ga and Gb. <hi rend="smallcaps">MSS</hi> Ga and Gb are apparently two incomplete, partially merged, copies of <hi rend="smallcaps">IAU</hi>’s <hi rend="italic">ʿUyūn</hi>, copied by the same unnamed copyist and in the same format (31 lines/page). Some biographies are given twice, with the copyist apparently having a different exemplar at each copying; one version of the duplicate entries represents a Version 2 exemplar and the other a Version 3.</p><p>Biographies Ch. 14.01 through Ch. 14.30 are missing entirely from <hi rend="smallcaps">MSS</hi> Ga and Gb. <hi rend="smallcaps">MS</hi> Gb begins with biography 14.49 and then presents sequentially the remaining biographies in Ch. 14, ending fol. 9a, line 2; then Ch. 15 begins, with Ch. 15.01 through Ch. 15.60 occupying fol. 9a<hi rend="subscript">3</hi> to fol. 96a<hi rend="subscript">5</hi>, at which point the text returns to Ch. 14, starting with Ch. 14.31 and continuing to Ch. 14.58, ending near the bottom of folio 109b, where Ch. 15 begins again. Thus, between folios 96a and 109b there are repetitions of chapters Ch. 14.49 through Ch. 14.58 (with the exception of Chs. 14.50, 14.52–23, and 14.57, which are omitted). The repetitious features of this manuscript were noted by another reader, a European, who added on fol. 96a of <hi rend="smallcaps">MS</hi> Gb, at the start of entry 14.31, the Latin note <hi rend="italic">Haec omnia usque ad libri finem iam supra scripta sunt partim priore volumine partim hoc ipso</hi> (‘All of these as far as the end of the book are already written above, partly in the previous volume, partly in this one itself’).</p></note>
+								‭[14.49]‬ أبو سليمان داود بن أبي المنى بن أبي فانة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. The biography occurs twice in <hi rend="smallcaps">MS</hi> Gb; the first entry (found on fols. [A]b–1a) will be indicated as Gb1 and the second entry (found on fols. 102b–103b) as Gb2. Near the heading of Gb2, half-way down fol. 102b, there is the following marginal note written in a hand different from that of the copyist:</p><p>هذا الجلد مربوط إلى الأول من نهاء والأول منه مكرر مذكور في الجلد الأول (‘This volume [<hi rend="italic">jild</hi>, perhaps here in sense of a section of a treatise, but not a discrete quire] has been bound to the first at its end, and the first of it [that is, the following section of the manuscript] repeats what has been said in the first of the volume.’)</p><p>In this instance, a later reader has noted in a <hi rend="italic">nastaʿlīq</hi> hand that the biography beginning on fol. 102b of <hi rend="smallcaps">MS</hi> Gb repeats that given earlier on fol. [A]b at the start of the second of the two bound volumes comprising <hi rend="smallcaps">MSS</hi> Ga and Gb. <hi rend="smallcaps">MSS</hi> Ga and Gb are apparently two incomplete, partially merged, copies of <hi rend="smallcaps">IAU</hi>’s <hi rend="italic">ʿUyūn</hi>, copied by the same unnamed copyist and in the same format (31 lines/page). Some biographies are given twice, with the copyist apparently having a different exemplar at each copying; one version of the duplicate entries represents a Version 2 exemplar and the other a Version 3.</p><p>Biographies Ch. 14.01 through Ch. 14.30 are missing entirely from <hi rend="smallcaps">MSS</hi> Ga and Gb. <hi rend="smallcaps">MS</hi> Gb begins with biography 14.49 and then presents sequentially the remaining biographies in Ch. 14, ending fol. 9a, line 2; then Ch. 15 begins, with Ch. 15.01 through Ch. 15.60 occupying fol. 9a<hi rend="subscript">3</hi> to fol. 96a<hi rend="subscript">5</hi>, at which point the text returns to Ch. 14, starting with Ch. 14.31 and continuing to Ch. 14.58, ending near the bottom of folio 109b, where Ch. 15 begins again. Thus, between folios 96a and 109b there are repetitions of chapters Ch. 14.49 through Ch. 14.58 (with the exception of Chs. 14.50, 14.52–23, and 14.57, which are omitted). The repetitious features of this manuscript were noted by another reader, a European, who added on fol. 96a of <hi rend="smallcaps">MS</hi> Gb, at the start of entry 14.31, the Latin note <hi rend="italic">Haec omnia usque ad libri finem iam supra scripta sunt partim priore volumine partim hoc ipso</hi> (‘All of these as far as the end of the book are already written above, partly in the previous volume, partly in this one itself’).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4126,7 +4325,7 @@
 							الرحمة فقال لأحد أولاده الخمسة وهو الفارس أبو الخير بن <note n="8" type="footnote"><p>Above the line in A, Gc om.: بن</p></note>
 							أبي سليمان داود المذكور وكان هذا الولد قد تربى مع الولد <note n="9" type="footnote"><p>AHRGcGb2: الملك</p></note>
 							المجذم ملك البيت المقدس وعلمه الفروسية فلما توج الملك فرسه وخرج المذكور من بين إخوته <note n="10" type="footnote"><p>LGb1: الأخوه</p></note>
-							الأربعة الأطباء جندياً وكان قول الحكيم أبي سليمان لولده هذا بأن يمضي رسولاً عنه إلى الملك الناصر ويبشره بملك البيت المقدس في الوقت المذكور فامتثل مرسومه ومضى إلى الملك الناصر فاتفق وصوله إليه في غرة <note n="11" type="footnote"><p>A: فى غزَّة; L: فى غُرّة; HRGb1Gb2Gc: فى غره</p></note>
+							الأربعة الأطباء جندياً وكان قول الحكيم أبي سليمان لولده هذا بأن يمضي رسولاً عنه إلى الملك الناصر ويبشره بملك البيت المقدس في الوقت المذكور فامتثل مرسومه ومضى إلى الملك الناصر فاتفق وصوله إليه في غرة <note n="11" type="footnote"><p>A: فى غزَّة; L: فى غُرّة; HRGb1Gb2Gc: فى غره</p></note>
 							سنة ثمانين وخمسمائة والناس يهنؤونه بها وهم على فاميه فمضى إلى الفقيه المذكور ففرح به غاية الفرح ودخل به إلى الملك الناصر أوصل إليه الرسالة عن أبيه ففرح بذلك فرحاً شديداً وأنعم عليه بجائزة سنية وأعطاه علماً أصفر ونشابة من رنكة <note n="12" type="footnote"><p>In margin of A, GcGb2 om.: وأعطاه علماً أصفر ونشابة من رنكة</p></note>
 							وقال له متى يسّر الله ما ذكرت اجعلوا هذا العلم الأصفر والنشابة فوق داركم فالحارة التي أنتم فيها تسلم جميعها في خفارة داركم.‬‎
 						</p>
@@ -4153,7 +4352,7 @@
 					<div type="textpart" subtype="biography" n="50">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.50]‬ أبو سعيد بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is missing in <hi rend="smallcaps">MS</hi> Gc, and while it is found in <hi rend="smallcaps">MS</hi> Gb1 (fols 1a–1b), it is not repeated in <hi rend="smallcaps">MS</hi> Gb2 (see Ch. 14.49 above for discussion of these manuscripts). In <hi rend="smallcaps">MS</hi> A this biography is written in the top and left margins of fol. 236b. <hi rend="smallcaps">MS</hi> B (Version 1) differs substantially from the other copies, forming a combined, but very condensed, version of Ch. 14.49 and Ch. 14.50 together.</p></note>
+								‭[14.50]‬ أبو سعيد بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is missing in <hi rend="smallcaps">MS</hi> Gc, and while it is found in <hi rend="smallcaps">MS</hi> Gb1 (fols 1a–1b), it is not repeated in <hi rend="smallcaps">MS</hi> Gb2 (see Ch. 14.49 above for discussion of these manuscripts). In <hi rend="smallcaps">MS</hi> A this biography is written in the top and left margins of fol. 236b. <hi rend="smallcaps">MS</hi> B (Version 1) differs substantially from the other copies, forming a combined, but very condensed, version of Ch. 14.49 and Ch. 14.50 together.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4175,7 +4374,7 @@
 					<div type="textpart" subtype="biography" n="51">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.51]‬ أبو شاكر بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. The biography occurs twice in <hi rend="smallcaps">MS</hi> Gb; the first entry (found on fols. 1b–2a) will be indicated as Gb1 and the second entry (found on fol. 103b) as Gb2. <hi rend="smallcaps">MS</hi> B differs substantially from the other copies, forming a condensed version of 14.51 and including a mention at the end of the biography of the subject of 14.54 (see n. 10 below).</p></note>
+								‭[14.51]‬ أبو شاكر بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. The biography occurs twice in <hi rend="smallcaps">MS</hi> Gb; the first entry (found on fols. 1b–2a) will be indicated as Gb1 and the second entry (found on fol. 103b) as Gb2. <hi rend="smallcaps">MS</hi> B differs substantially from the other copies, forming a condensed version of 14.51 and including a mention at the end of the biography of the subject of 14.54 (see n. 10 below).</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4226,7 +4425,7 @@
 					<div type="textpart" subtype="biography" n="52">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.52]‬ أبو نصر بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Version 3 but is missing in Versions 1 and 2. It is not found in <hi rend="smallcaps">MSS</hi> BGc; in <hi rend="smallcaps">MS</hi> Gb it occurs once (on fol. 2a) and will be indicated as Gb1. In <hi rend="smallcaps">MS</hi> A, this biography is written in the right margin of fol. 236b, with the heading قبله أبو نصر بن أبي سليمان (‘Before him [Abū Ḥulayqah (Ch. 14.54)], [there is] Abū Naṣr ibn Abī Sulaymān’) written diagonally and extending from the beginning the entry for Rashīd al-Dīn Abū Ḥulayqah (Ch. 14.54) to entry Ch. 14.52.</p></note>
+								‭[14.52]‬ أبو نصر بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Version 3 but is missing in Versions 1 and 2. It is not found in <hi rend="smallcaps">MSS</hi> BGc; in <hi rend="smallcaps">MS</hi> Gb it occurs once (on fol. 2a) and will be indicated as Gb1. In <hi rend="smallcaps">MS</hi> A, this biography is written in the right margin of fol. 236b, with the heading قبله أبو نصر بن أبي سليمان (‘Before him [Abū Ḥulayqah (Ch. 14.54)], [there is] Abū Naṣr ibn Abī Sulaymān’) written diagonally and extending from the beginning the entry for Rashīd al-Dīn Abū Ḥulayqah (Ch. 14.54) to entry Ch. 14.52.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً عارفاً بصناعة الطب حسن المعالجة جيد العلاج وتوفي بالكرك.‬‎</p>
@@ -4234,7 +4433,7 @@
 					<div type="textpart" subtype="biography" n="53">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.53]‬ أبو الفضل بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Version 3 but is missing from Versions 1 and 2. It is not found in <hi rend="smallcaps">MSS</hi> BGc; in <hi rend="smallcaps">MS</hi> Gb it occurs only once (on fol. 2a). In <hi rend="smallcaps">MS</hi> A this biography is written in the right margin of fol. 236b.</p></note>
+								‭[14.53]‬ أبو الفضل بن أبي سليمان <note n="1" type="footnote"><p>This biography is found in Version 3 but is missing from Versions 1 and 2. It is not found in <hi rend="smallcaps">MSS</hi> BGc; in <hi rend="smallcaps">MS</hi> Gb it occurs only once (on fol. 2a). In <hi rend="smallcaps">MS</hi> A this biography is written in the right margin of fol. 236b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً مشكوراً في صناعة الطب عالماً بها متميزاً في المعالجة والمداواة وكان أصغر إخوته وعمر من دونهم كان مولده في سنة ستين وخمسمائة ووفاته في سنة أربع وأربعين وستمائة فمدة حياته أربع وثمانون سنة لم يبلغها أحد من إخوته وكان طبيباً للملك المعظم مقيماً بالكرك ثم خدم الملك الكامل بالديار المصرية وتوفي بها.‬‎</p>
@@ -4242,7 +4441,7 @@
 					<div type="textpart" subtype="biography" n="54">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.54]‬ رشيد الدين أبو حليقة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fol. 2a–6b) will be indicated as Gb1 and the second entry (on fol. 103b–108a) and will be indicated as Gb2.</p><p>In <hi rend="smallcaps">MS</hi> B, Rashīd al-Dīn Abū Ḥulayqah’s name is mentioned at the end of biography 14.51 (Abū Shākir ibn Abī Sulaymān):</p><p>B: adds ولأخي أبي شاكر بن أبي سليمن ولد فاضل في صناعة الطب وهو رشيد الدين أبو خليفة وكان قد خدم أيضاً للملك الكامل وهو في وقتنا هذا مقيم بالقاهرة في خدمة السلطان الملك الصالح أيوب بن الملك الكامل</p><p>(‘The brother of Abū Shākir ibn Abī Sulaymān had a son distinguished in the art of medicine. He was Rashīd al-Dīn Abū Khalīfah [= Ḥulayqah], and he also served al-Malik al-Kāmil and was during our own time resident in Cairo in the service of Sultan al-Malik al-Ṣāliḥ Ayyūb ibn al-Malik al-Kāmil.’)</p></note>
+								‭[14.54]‬ رشيد الدين أبو حليقة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fol. 2a–6b) will be indicated as Gb1 and the second entry (on fol. 103b–108a) and will be indicated as Gb2.</p><p>In <hi rend="smallcaps">MS</hi> B, Rashīd al-Dīn Abū Ḥulayqah’s name is mentioned at the end of biography 14.51 (Abū Shākir ibn Abī Sulaymān):</p><p>B: adds ولأخي أبي شاكر بن أبي سليمن ولد فاضل في صناعة الطب وهو رشيد الدين أبو خليفة وكان قد خدم أيضاً للملك الكامل وهو في وقتنا هذا مقيم بالقاهرة في خدمة السلطان الملك الصالح أيوب بن الملك الكامل</p><p>(‘The brother of Abū Shākir ibn Abī Sulaymān had a son distinguished in the art of medicine. He was Rashīd al-Dīn Abū Khalīfah [= Ḥulayqah], and he also served al-Malik al-Kāmil and was during our own time resident in Cairo in the service of Sultan al-Malik al-Ṣāliḥ Ayyūb ibn al-Malik al-Kāmil.’)</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4300,7 +4499,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							فمن ذلك <note n="23" type="footnote"><p>LHR: ومن ذلك</p></note>
 							أنه مرضت دار من بعض الآدر <note n="24" type="footnote"><p>A: الدور; Gc: دور; Gb2: ان بعض دور السلطان مرضت</p></note>
-							السلطانية بالعباسة <note n="25" type="footnote"><p>A: adds بالعباسة over line – unclear in <hi rend="smallcaps">MS</hi> A, damaged by wormholes.</p></note>
+							السلطانية بالعباسة <note n="25" type="footnote"><p>A: adds بالعباسة over line – unclear in <hi rend="smallcaps">MS</hi> A, damaged by wormholes.</p></note>
 							وكان من سيرته معه أن لا يشرك معه طبيباً في مداواته وفي مداواة من يعز عليه من دوره وأولاده فباشر مداواة المريضة المذكورة أياماً قلائل ثم حصل له <note n="26" type="footnote"><p>A: om. له</p></note>
 							شغل ضروري ألجأه إلى ترك المريضة ودخل القاهرة وأقام بها ثمانية عشر يوماً ثم خرج إلى العباسية فوجد المريضة قد تولى مداواتها الأطباء الذين في الخدمة فلما حضر وباشر معهم قالوا له هذه المريضة تموت والمصلحة أن نعلم السلطان بذلك قبل أن يفجأه أمرها بغتة فقال لهم إن هذه المريضة عندي ما هي في مرضة الموت وإنها تعافى بمشيئة الله تعالى من هذه المرضة فقال له أحدهم وهو أكبرهم سناً وكان الحكيم المذكور شاباً إنني أكبر منك وقد باشرت من المرضى أكثر منك فتوافقني على كتابة هذه الرقعة فلم يفعل يوافقه فقالت جماعة الحكماء لا بد لنا من المطالعة فقال <note n="27" type="footnote"><p>A: قال</p></note>
 							لهم إن كان لا بد لكم من هذه المطالعة <note n="28" type="footnote"><p>A: om. لهم إن كان لا بد لكم من هذه المطالعة</p></note>
@@ -4455,7 +4654,7 @@
 							أقول ومثل هذه الحكاية كانت قد عرضت <note n="95" type="footnote"><p>AHGcGb2: كانت عرضت; R: قد عرضت</p></note>
 							لجالينوس لما عرف المرأة العاشقة وذلك أنه كان قد استدعي إلى امرأة جليلة القدر وكان المرض قد طال بها وحدس أنها عاشقة فتردد إليها ولما كان يوماً وهو يجس نبضها وكانت الأجناد قد ركبوا في الميدان وهم يلعبون فحكى بعض الحاضرين ما كانوا فيه وأن فلاناً تبينت له فروسية ولعب جيد وعندما سمعت باسم ذلك الرجل <note n="96" type="footnote"><p>A: بذلك, corr. to باسم ذلك الرجل in right margin.</p></note>
 							تغير نبضها واختلف ثم جسه بعد ذلك فوجده قد تساكن إلى أن عاد إلى حاله الأولى ثم إن جالينوس أشار لذلك <note n="97" type="footnote"><p>A: الى ذلك; GcGb2: الى</p></note>
-							الحاكي سراً أن يعيد قوله فلما أعاده وجس نبضها وجده أيضاً قد تغير فتحقق من حالها أنها تعشق لذلك الرجل وهذا مما يدل على وفور العلم وحسن النظر في تقدمة المعرفة. 
+							الحاكي سراً أن يعيد قوله فلما أعاده وجس نبضها وجده أيضاً قد تغير فتحقق من حالها أنها تعشق لذلك الرجل وهذا مما يدل على وفور العلم وحسن النظر في تقدمة المعرفة. 
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٤٠‬أ‬‎" />
 							‬‎
 						</p>
@@ -4480,7 +4679,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تُشْرِق منهمْ في سماء الـعُـلا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">نجومُ سَعْدٍ قَـطُّ لـم تـغْـرُبِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">نجومُ سَعْدٍ قَـطُّ لـم تـغْـرُبِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">قومٌ ترى أقدارَهم في الـوَرى‬‎</l>
@@ -4536,7 +4735,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ومُجالِسي القَمَرُ المُنير تـنـزّهـتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فيه الحَواسُّ باسمها وكنـاتِـهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فيه الحَواسُّ باسمها وكنـاتِـهـا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4545,40 +4744,40 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أَحِنُّ إلى ذكر التواصل يا سـعْـدُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">حنينَ النِّياق العِيسِ عَنَّ لها الوِرْدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أَحِنُّ إلى ذكر التواصل يا سـعْـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حنينَ النِّياق العِيسِ عَنَّ لها الوِرْدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فسُعْدى على قلبي ألذُّ من المُنـى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فسُعْدى على قلبي ألذُّ من المُنـى‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وقُرْبي لها عند اللقاء هو القَصْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">حوَتْ مَبْسِماً كالدُّرّ أضحى منظَّماً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حوَتْ مَبْسِماً كالدُّرّ أضحى منظَّماً‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وثغْراً كمثل الأُقْحُوان به شُـهْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									وفَرْعاً كمثل الليل أو حظِّ <note n="106" type="footnote"><p>ALRH: خط; GcGb2: خد</p></note>
+									وفَرْعاً كمثل الليل أو حظِّ <note n="106" type="footnote"><p>ALRH: خط; GcGb2: خد</p></note>
 									عاشـقٍ‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كضوء الصبح هذا لِذا ضِدُّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كضوء الصبح هذا لِذا ضِدُّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							أقول لها عند الـوَداع وبـينـنـا‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">حديثٌ كنشر المِسْك خالَطَـه نَـدُّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حديثٌ كنشر المِسْك خالَطَـه نَـدُّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تُرى نلتقي بعد الفِراق بمَـنـزلٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ويظفَر مشتاقٌ أضرَّ به البُـعْـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويظفَر مشتاقٌ أضرَّ به البُـعْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تمُرّ اللـيالـي لـيلةً بـعـد لـيلةٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وذكْركُمُ بـاقٍ يجـدّده الـعَـهْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولكنّ خوفَ الصَّبّ أن طال هجْركمْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكنّ خوفَ الصَّبّ أن طال هجْركمْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">فيقضي ولا يُقْضى له منكُمُ وعْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -4587,12 +4786,12 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
-									ولي في الرِّماح السُّمْر سُمرٌ
+									ولي في الرِّماح السُّمْر سُمرٌ
 									<note n="107" type="footnote"><p>RH: سر</p></note>
 									لأنهـا‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									تُشابهها قَدًّا فـيا حَـبَّـذا الـقَـدُّ <note n="108" type="footnote"><p>This line is lacking in AGc.</p></note>
+									تُشابهها قَدًّا فـيا حَـبَّـذا الـقَـدُّ <note n="108" type="footnote"><p>This line is lacking in AGc.</p></note>
 									‬‎
 								</l>
 							</lg>
@@ -4615,20 +4814,20 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">خليلَيَّ إنّي قد بقِيتُ مسـهَّـدا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">من الحبّ مأسورَ الفؤادِ مقيَّدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خليلَيَّ إنّي قد بقِيتُ مسـهَّـدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">من الحبّ مأسورَ الفؤادِ مقيَّدا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">بحبّ فتاةٍ يُخْجِل البدرَ وجهُهـا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولا سيَّما في ليلِ شَعرٍ إذا بدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولا سيَّما في ليلِ شَعرٍ إذا بدا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ضَلَلْتُ بها وهْي الهِلال مَلاحةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فوا عجباً منه أَضلَّ وما هدى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فوا عجباً منه أَضلَّ وما هدى‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">لها مَبْسِمٌ كالدُّرّ أضحى منظَّماً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ونُطْقٌ كمثل الدّرّ أمسى مبدَّدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لها مَبْسِمٌ كالدُّرّ أضحى منظَّماً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونُطْقٌ كمثل الدّرّ أمسى مبدَّدا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4640,8 +4839,8 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									مطرتْ عليَّ <note n="113" type="footnote"><p>A: added above the line, as a correction.</p></note>
-									سحائبُ النَّعْمـاءِ‬‎
+									مطرتْ عليَّ <note n="113" type="footnote"><p>A: added above the line, as a correction.</p></note>
+									سحائبُ النَّعْمـاءِ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									مُذ زال ما تشْكو <note n="114" type="footnote"><p>A: نشكو; LHGb2: يشكوا; GcGb2: تشكوا</p></note>
@@ -4652,7 +4851,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">
 									
 									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[ii,130]‬‬‎" />
-									ولبِسْتُ مذ أبصرتُ خطَّك نعمة‬‎
+									ولبِسْتُ مذ أبصرتُ خطَّك نعمة‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									فبِما <note n="115" type="footnote"><p>A: unclear; seems to have corrected فبِمَ to فبِما, but above it again فبِمَ (which is metrically impossible).</p></note>
@@ -4680,7 +4879,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب في الأمراض وأسبابها وعلاماتها ومداواتها بالأدوية المفردة والمركبة التي قد أظهرت التجربة نجحها ولم يداو بها <note n="119" type="footnote"><p>ALRGb1: يداوابها; H: ىداواتها; lacuna in Gc; Gb2 omits this book title.</p></note>
-								مرضاً يؤدي إلى السلامة إلا ونجحت التقطها من الكتب المصنفة في صناعة الطب من آدم وإلى وقتنا هذا ونظم متشتتها ومتفرقها <note n="120" type="footnote"><p>In margin of A: التي قد أظهرت … متشتتها ومتفرقها‬‎; GcGb2: add. book title كتاب سماه عيون الطب مشتملا على معرفة الأمراض وعلاماتها وأسبابها وعلاجاتها بالأدوية المجربة المنضجة</p><p>A: marginal note upside down in right margin on fol. 240b:</p><p style="direction:rtl; unicode-bidi:embed">قال كاتبها وجدت حاشية على النسخة المنقول منها وهي وله كتاب سماه عيون الطب مشتملاً على الأمراض واسبابها وعلاماتها وعلاجاتها بالأدوية المفجربة الممتحنة ليس بخط كاتب الأصل‬‎</p><p>(‘The copyist says: I found a marginal comment in the exemplar stating: “He has a book entitled <hi rend="italic">K. ʿUyūn al-ṭibb</hi> that deals with diseases, their causes and symptoms, and their treatment with tested compound drugs.” The handwriting is not that of the author.’)</p></note>
+								مرضاً يؤدي إلى السلامة إلا ونجحت التقطها من الكتب المصنفة في صناعة الطب من آدم وإلى وقتنا هذا ونظم متشتتها ومتفرقها <note n="120" type="footnote"><p>In margin of A: التي قد أظهرت … متشتتها ومتفرقها‬‎; GcGb2: add. book title كتاب سماه عيون الطب مشتملا على معرفة الأمراض وعلاماتها وأسبابها وعلاجاتها بالأدوية المجربة المنضجة</p><p>A: marginal note upside down in right margin on fol. 240b:</p><p style="direction:rtl; unicode-bidi:embed">قال كاتبها وجدت حاشية على النسخة المنقول منها وهي وله كتاب سماه عيون الطب مشتملاً على الأمراض واسبابها وعلاماتها وعلاجاتها بالأدوية المفجربة الممتحنة ليس بخط كاتب الأصل‬‎</p><p>(‘The copyist says: I found a marginal comment in the exemplar stating: “He has a book entitled <hi rend="italic">K. ʿUyūn al-ṭibb</hi> that deals with diseases, their causes and symptoms, and their treatment with tested compound drugs.” The handwriting is not that of the author.’)</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -4711,7 +4910,7 @@
 					<div type="textpart" subtype="biography" n="55">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.55]‬ مهذب الدين أبو سعيد محمد بن أبي حليقة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 6b–7a) will be indicated as Gb1 and the second entry (on fols. 108a–108b) and will be indicated as Gb2.</p></note>
+								‭[14.55]‬ مهذب الدين أبو سعيد محمد بن أبي حليقة <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 6b–7a) will be indicated as Gb1 and the second entry (on fols. 108a–108b) and will be indicated as Gb2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4750,7 +4949,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">وفيه المَعاني وهْي كالشمس تُشْرِقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كتابُ كـريمٍ أرْيَحـيٍّ مـمـجَّـدٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كتابُ كـريمٍ أرْيَحـيٍّ مـمـجَّـدٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">صبيحِ المُـحَـيّا نُـورُهُ يتـألّـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -4758,14 +4957,14 @@
 								<l style="direction:rtl; unicode-bidi:embed">به قد زها في العلم غَرْبٌ ومشرقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">حكيمٌ حوى كلَّ العلوم بـأسْـرهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حكيمٌ حوى كلَّ العلوم بـأسْـرهـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وما عنه بابٌ للمَـكـارم يُغْـلَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							كريمٌ لأنواع المَحـامـد جـامـعٌ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولكنه للـمـال جُـوداً مـفـرِّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكنه للـمـال جُـوداً مـفـرِّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إذا ذُكرتْ أوصافُه في مَـحـافـلٍ‬‎</l>
@@ -4775,17 +4974,17 @@
 								<l style="direction:rtl; unicode-bidi:embed">
 									
 									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[ii,131]‬‬‎" />
-									حوى قَصَباتِ السَّبْق في طَلَب العُلى‬‎
+									حوى قَصَباتِ السَّبْق في طَلَب العُلى‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">ومن رام تشبيهاً به ليس يَلْـحَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">إذا قال بَـذَّ الـقـائلـين بـلاغةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ويصمُت قُسٌّ عنده حين يَنْـطِـقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">إذا قال بَـذَّ الـقـائلـين بـلاغةً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويصمُت قُسٌّ عنده حين يَنْـطِـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو أنّ جالينوسَ كـان لـوقْـتِـهِ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لقال بهذا في التـطـبُّـب يُوثَـقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لقال بهذا في التـطـبُّـب يُوثَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
@@ -4798,7 +4997,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إذا قلتُ مدْحاً في مَعالي محـمـدٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فكلُّ امرئٍ فيمـا أقـولُ يصـدِّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فكلُّ امرئٍ فيمـا أقـولُ يصـدِّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو رُمْتُ أُحْصي ما حواه من العُلى‬‎</l>
@@ -4806,7 +5005,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولا غَرْوَ في أَبْنا حُلـيقةَ أنّـنـي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">بصِدْق الوَلا في قَبْضة الرِّقِّ مُوثَقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">بصِدْق الوَلا في قَبْضة الرِّقِّ مُوثَقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لوالـدهـمْ عـنـدي أَيادٍ قـديمةٌ‬‎</l>
@@ -4814,9 +5013,9 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭15‬">
-							وكلٌّ ففي العَلْـياء سـامٍ وسِـيَّمـا‬‎
+							وكلٌّ ففي العَلْـياء سـامٍ وسِـيَّمـا‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">لَمَن قال لي إذ جَدَّ فيه التـشـوُّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لَمَن قال لي إذ جَدَّ فيه التـشـوُّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وإني امرؤ أحببتكم لـمـحـاسـنٍ‬‎</l>
@@ -4857,7 +5056,7 @@
 					<div type="textpart" subtype="biography" n="56">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.56]‬ رشيد الدين أبو سعيد <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 7a–8a) will be indicated as Gb1 and the second entry (on fols. 108b–109a) and will be indicated as Gb2.</p></note>
+								‭[14.56]‬ رشيد الدين أبو سعيد <note n="1" type="footnote"><p>This biography is found in Versions 2 and 3 but is missing in Version 1. It is not found in <hi rend="smallcaps">MS</hi> B. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 7a–8a) will be indicated as Gb1 and the second entry (on fols. 108b–109a) and will be indicated as Gb2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4920,14 +5119,14 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">قد كان نجْـم الـدين أيّوبُ الـذي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">مَلَكَ البريّةَ واستطال على الدُّوَلْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">مَلَكَ البريّةَ واستطال على الدُّوَلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">في صحّةٍ بسعوده حتـى عَـثـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">في جسمه داءٌ فأعْيتْه الـحِـيَلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وصَفَتْ له الدنيا وظنَّ بأنّهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وصَفَتْ له الدنيا وظنَّ بأنّهـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">تبقى له أبداً ففاجأه الأَجَـلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -4948,14 +5147,14 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								تعاليق على كتاب الحاوي لأبي بكر محمد بن زكريا الرازي <note n="36" type="footnote"><p>Gc: كتاب الحاوي لأبي بكر محمد بن أبي بكر الرازي</p></note>
-								في الطب. <note n="37" type="footnote"><p>Gb2: om. في الطب; A: marginal note reading:</p><p style="direction:rtl; unicode-bidi:embed">حاشية وجدت في المنقول منها كتاب عيون الطب لأبي حليقة واشتبه على الكاتب لاشتراك الاسم‬‎</p><p>‘Marginal comment: I found in the exemplar (<hi rend="italic">al-manqūl minhā</hi>) the book <hi rend="italic">Choice Facts of Medicine</hi> by Abū Ḥulayqah, but the copyist was confused because of the identical name’ – that is, the copyist was confused by the fact that both Abū Ḥulayqah and Abū Saʿīd are called Rashīd al-Dīn.</p></note>
+								في الطب. <note n="37" type="footnote"><p>Gb2: om. في الطب; A: marginal note reading:</p><p style="direction:rtl; unicode-bidi:embed">حاشية وجدت في المنقول منها كتاب عيون الطب لأبي حليقة واشتبه على الكاتب لاشتراك الاسم‬‎</p><p>‘Marginal comment: I found in the exemplar (<hi rend="italic">al-manqūl minhā</hi>) the book <hi rend="italic">Choice Facts of Medicine</hi> by Abū Ḥulayqah, but the copyist was confused because of the identical name’ – that is, the copyist was confused by the fact that both Abū Ḥulayqah and Abū Saʿīd are called Rashīd al-Dīn.</p></note>
 							</item>
 						</list>
 					</div>
 					<div type="textpart" subtype="biography" n="57">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.57]‬ أسعد الدين بن أبي الحسن <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc. In <hi rend="smallcaps">MS</hi> Gb it occurs only once (on fol. 8a) and will be indicated as Gb1. In <hi rend="smallcaps">MS</hi> A this biography is written vertically in the left margin and upside down in the top margin and continues vertically in the right margin of fol. 241b.</p></note>
+								‭[14.57]‬ أسعد الدين بن أبي الحسن <note n="1" type="footnote"><p>This biography is found in Versions 1 and 3 but is missing in Version 2. It is not found in <hi rend="smallcaps">MS</hi> Gc. In <hi rend="smallcaps">MS</hi> Gb it occurs only once (on fol. 8a) and will be indicated as Gb1. In <hi rend="smallcaps">MS</hi> A this biography is written vertically in the left margin and upside down in the top margin and continues vertically in the right margin of fol. 241b.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5005,7 +5204,7 @@
 					<div type="textpart" subtype="biography" n="58">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[14.58]‬ ضياء الدين بن البيطار <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 8a–9a) will be indicated as Gb1 and the second entry (on fols. 109a–109b) and will be indicated as Gb2.</p></note>
+								‭[14.58]‬ ضياء الدين بن البيطار <note n="1" type="footnote"><p>This biography is found in Versions 1, 2 and 3. In <hi rend="smallcaps">MS</hi> Gb it occurs twice; the first entry (on fols. 8a–9a) will be indicated as Gb1 and the second entry (on fols. 109a–109b) and will be indicated as Gb2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5082,12 +5281,12 @@
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب <note n="34" type="footnote"><p>A: note in right margin at end of the text of Ch. 14. The note is written in a different hand than the text:</p><p>عـ والنسخة بعينها بخط المؤلف في جلدين وعليها اشارة تقدمة المؤلف إلى الملك المشار إليه عند العبد الفقير إليه وأنه وبيتي[؟] الآن‬‎ (‘This very copy [i.e., of <hi rend="italic">Kitāb al-Mughnī</hi>], in the author’s handwriting in two volumes, is in the possession of myself (the humble servant in need of God) now.’)</p></note>
+								كتاب <note n="34" type="footnote"><p>A: note in right margin at end of the text of Ch. 14. The note is written in a different hand than the text:</p><p>عـ والنسخة بعينها بخط المؤلف في جلدين وعليها اشارة تقدمة المؤلف إلى الملك المشار إليه عند العبد الفقير إليه وأنه وبيتي[؟] الآن‬‎ (‘This very copy [i.e., of <hi rend="italic">Kitāb al-Mughnī</hi>], in the author’s handwriting in two volumes, is in the possession of myself (the humble servant in need of God) now.’)</p></note>
 								المغني في الأدوية المفردة وهو مرتب بحسب مداواة الأعضاء الآلمة
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب الأفعال الغريبة والخواص العجيبة. <note n="35" type="footnote"><p>In margin of B: وتوفي ضياء الدين بن البيطار بدمشق في شعبان سنة ست وأربعين وستمائة; L: note in left margin at end of text of chapter 14: آخر الجزو الثامن من تجزئة الأصل وهي نسخة المصنف رحمه الله</p><p>(‘The end of the eighth <hi rend="italic">juzʾ</hi> according to the divisions of the exemplar (<hi rend="italic">aṣl</hi>), which is the copy of the author, may God have mercy upon him.’)</p></note>
+								كتاب الأفعال الغريبة والخواص العجيبة. <note n="35" type="footnote"><p>In margin of B: وتوفي ضياء الدين بن البيطار بدمشق في شعبان سنة ست وأربعين وستمائة; L: note in left margin at end of text of chapter 14: آخر الجزو الثامن من تجزئة الأصل وهي نسخة المصنف رحمه الله</p><p>(‘The end of the eighth <hi rend="italic">juzʾ</hi> according to the divisions of the exemplar (<hi rend="italic">aṣl</hi>), which is the copy of the author, may God have mercy upon him.’)</p></note>
 							</item>
 						</list>
 					</div>
