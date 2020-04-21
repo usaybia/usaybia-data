@@ -4,15 +4,15 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <!--<fileDesc>
+        <fileDesc>
             <titleStmt>
-                <title level="a">John of Ephesus, Paul the Mourner, in the Lives of the Eastern Saints</title>
-                <title level="m">SPEAR: Syriac Persons, Events, and Relations</title>
-                <funder>The National Endowment for the Humanities</funder>
+                <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+                <title level="m">Wissensgemeinschaften</title>
+                <!--<funder>The National Endowment for the Humanities</funder>
                 <principal>Daniel L. Schwartz</principal>
                 <funder>Texas A&amp;M University</funder>
-                <principal>Daniel L. Schwartz</principal>
-                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                <principal>Daniel L. Schwartz</principal>-->
+                <!--<editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                     >Daniel L. Schwartz</editor>
                 <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
                     >Daniel L. Schwartz</editor>
@@ -27,8 +27,8 @@
                 <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ewalsh"
                     >Erin Galgay Walsh</editor>
                 <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#syoung"
-                    >Samuel Young</editor>
-                <respStmt>
+                    >Samuel Young</editor>-->
+                <!--<respStmt>
                     <resp>Data architecture, data entry, editing, proofreading, and revision
                         by</resp>
                     <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L.
@@ -38,53 +38,28 @@
                     <resp>Data architecture and technical assistance by</resp>
                     <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
                         Michelson</name>
-                </respStmt>
+                </respStmt>-->
                 <respStmt>
                     <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#jwalters"
-                        >James Walters</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#tbaillargeon"
-                        >Tara Baillargeon</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#jdaccache"
-                        >Jimmy Daccache</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#tmcneir"
-                        >Taylor McNeir</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#ewalsh"
-                        >Erin Galgay Walsh</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Data entry and encoding by</resp>
-                    <name ref="http://syriaca.org/documentation/editors.xml#syoung"
-                        >Samuel Young</name>
+                    <name xml:id="nloehr" ref="https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                        >Nadine Löhr</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition n="1.0"/>
             </editionStmt>
             <publicationStmt>
-                <authority>Syriaca.org: The Syriac Reference Portal</authority>
-                <idno type="URI">http://syriaca.org/spear/798/tei</idno>
+<!--                <authority>Syriaca.org: The Syriac Reference Portal</authority>-->
+                <idno type="URI">http://usaybia.net/factoid/lhom-14-26/tei</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
                         <p>Distributed under a Creative Commons Attribution 3.0 Unported
                             License.</p>
                     </licence>
                 </availability>
-                <date><!-\- INPUT ONCE WE HAVE A "FINAL" DRAFT -\-></date>
+                <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
             </publicationStmt>
-            <sourceDesc>
+            <!--<sourceDesc>
                 <listBibl>
                     <head>Sources for the Data in this Born Digital Prosopography</head>
                     <bibl type="primary">
@@ -103,14 +78,14 @@
                 <listRelation>
                     <relation type="part" active="http://syriaca.org/work/798" ref="dcterms:isPartOf" passive="http://syriaca.org/work/9501"/>
                 </listRelation>
-            </sourceDesc>
+            </sourceDesc>-->
         </fileDesc>
         <encodingDesc>
-            <editorialDecl>
+            <!--<editorialDecl>
                 <p>The prosopographical data in this document was encoded from E. W. Brooks'
                     edition and English translation of John of Ephesus’s Lives of the Eastern
                     Saints, Patrologia Orientalis, volume 17, 1923. </p>
-            </editorialDecl>
+            </editorialDecl>-->
             <classDecl>
                 <taxonomy>
                     <category xml:id="calculated">
@@ -122,16 +97,16 @@
         </encodingDesc>
         <profileDesc> </profileDesc>
         <revisionDesc>
-            <change
+            <!--<change
                 who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
                 >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
                 Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
-                2017.</change>
-        </revisionDesc>-->
+                2017.</change>-->
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="factoid" subtype="birthDate" xml:id="factoid-55" resp="#dschwartz">
+            <div type="factoid" subtype="birthDate" xml:id="factoid-55" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/8559-55</idno>
                 <listPerson>
                     <person>
@@ -153,7 +128,7 @@
                     <citedRange unit="part">3</citedRange>
                 </bibl>
             </div>
-            <div type="factoid" subtype="birthPlace" xml:id="factoid-67" resp="#ktorabi">
+            <div type="factoid" subtype="birthPlace" xml:id="factoid-67" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/819-67</idno>
                 <listPerson>
                     <person>
@@ -163,7 +138,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="deathDate" xml:id="factoid-155" resp="#dschwartz">
+            <div type="factoid" subtype="deathDate" xml:id="factoid-155" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/8559-155</idno>
                 <listPerson>
                     <person>
@@ -179,7 +154,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="deathPlace" xml:id="factoid-15" resp="#sgross #egibes #ekeogh">
+            <div type="factoid" subtype="deathPlace" xml:id="factoid-15" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/845-15</idno>
                 <listPerson>
                     <person>
@@ -190,7 +165,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="education" xml:id="factoid-5" resp="#jwickes">
+            <div type="factoid" subtype="education" xml:id="factoid-5" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/842-5</idno>
                 <listPerson>
                     <person>
@@ -204,7 +179,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="mentalState" xml:id="factoid-3" resp="#tbaillargeon #tmcneir">
+            <div type="factoid" subtype="mentalState" xml:id="factoid-3" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/799-3</idno>
                 <listPerson>
                     <person>
@@ -217,7 +192,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="occupation" xml:id="factoid-12" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="occupation" xml:id="factoid-12" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3071-12</idno>
                 <listPerson>
                     <person>
@@ -229,7 +204,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="residence" xml:id="factoid-5" resp="#ktorabi">
+            <div type="factoid" subtype="residence" xml:id="factoid-5" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/804-5</idno>
                 <listPerson>
                     <person>
@@ -241,7 +216,7 @@
                     </person>
                 </listPerson>
             </div>
-            <div type="factoid" subtype="event" xml:id="factoid-27" resp="#dschwartz">
+            <div type="factoid" subtype="event" xml:id="factoid-27" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/8559-27</idno>
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crises">
@@ -259,7 +234,7 @@
                     </event>
                 </listEvent>
             </div>
-            <div type="factoid" subtype="event" xml:id="factoid-27" resp="#dschwartz">
+            <div type="factoid" subtype="event" xml:id="factoid-27" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/8559-27</idno>
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crime">
@@ -276,49 +251,49 @@
                     </event>
                 </listEvent>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Ibn Butlan">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Hunayn_ibn_Ishaq">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/Ibn_al-Tayyib">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:EnmityFor" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/al-Razi">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:ParentOf" active="https://usaybia.net/person/2126" passive="https://usaybia.net/person/orphan_girl">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/2126 https://usaybia.net/person/al-Hakim">
                     </relation>
                 </listRelation>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#ktorabi #dschwartz">
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">http://syriaca.org/spear/3044-7</idno>
                 <listRelation>
                     <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/Usaybia_himself https://usaybia.net/person/Muhammad of Malaga">
