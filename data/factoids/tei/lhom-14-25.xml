@@ -106,8 +106,9 @@
     </teiHeader>
     <text>
         <body>
-            <div type="factoid" subtype="birthDate" xml:id="factoid-55" resp="#nloehr">
-                <idno type="URI">http://syriaca.org/spear/8559-55</idno>
+            <!-- Here is how the factoid URI and number might work. -->
+            <div type="factoid" subtype="birthDate" xml:id="factoid-1" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-1</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/2126"/>
@@ -116,16 +117,18 @@
                         </birth>
                     </person>
                 </listPerson>
-                <bibl type="primary">
-                    <ptr target="https://usaybia.net/person/2126"/>
-                    <citedRange unit="pp">3</citedRange>
-                </bibl>
+                <!-- This is the reference that links the factoid to the text -->
+                <!-- If we add numbered divs for the numbered subsections (like 14.25.1) 
+                we could use this kind of reference, but we would have to make sure the URN 
+                resolves correctly with the additional number on the end. -->
                 <bibl type="urn">
-                    <ptr target="urn:cts:syriacLit:nhsl8559.syriacCorpus57:4"/>
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25.1"/>
                 </bibl>
-                <bibl type="primary">
-                    <ptr target="http://syriaca.org/bibl/657"/>
-                    <citedRange unit="part">3</citedRange>
+                <!-- Or we could do it like this if it isn't possible to resolve the additional numbers 
+                on the end. -->
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">1</citedRange>
                 </bibl>
             </div>
             <div type="factoid" subtype="birthPlace" xml:id="factoid-67" resp="#nloehr">
