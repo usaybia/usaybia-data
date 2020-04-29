@@ -113,7 +113,16 @@
                     <person>
                         <persName ref="https://usaybia.net/person/2126"/>
                         <birth>
-                            <note> needs to be determined via planetary constellations!</note> 
+                            <choice>
+                                <orig>
+                                    <!-- Hijri -->
+                                </orig>
+                                <reg>
+                                    <!-- AD/CE -->
+                                </reg>
+                            </choice>
+                            
+                            <note> <!-- needs to be determined via planetary constellations! --></note> 
                         </birth>
                     </person>
                 </listPerson>
