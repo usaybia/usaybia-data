@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:srophe="https://srophe.app"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a" xml:lang="en">#REF!</title>
+            <sponsor ref="https://www.uni-muenchen.de">
+               <orgName>Ludwig Maximilian University of Munich</orgName>
+                        (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+                    </sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+               <orgName>Institute of Near and Middle Eastern Studies</orgName>
+                        (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+                    </sponsor>
+            <funder ref="https://www.bmbf.de/">
+               <orgName>German Federal Ministry of Education and Research</orgName>
+                        (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+                    </funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor xml:id="ngibson"
+                    role="editor"
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor xml:id="vbirkhahn"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor xml:id="fioppolo"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
+            <editor xml:id="nloehr"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor xml:id="rschmahl"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
+            <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
+            <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
+            <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <respStmt>
+               <resp>The orignal version of this record was adapted from the index entry in 
+                            A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
+                            Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+               <name>Emilie Savage-Smith</name>
+               <name>Simon Swain</name>
+               <name>G. J. H. van Gelder</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion into tabular and TEI-XML formats, data mining, and proofing by</resp>
+               <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+            </respStmt>
+            <respStmt>
+               <resp>Entity classification, bibliography editing,
+                            and occupational, affiliational, and gender descriptors by</resp>
+               <name type="person" ref="#vbirkhahn">Vanessa Birkhahn</name>
+            </respStmt>
+            <respStmt>
+               <resp>English and Arabic name entry, 
+                            matching with external records by</resp>
+               <name type="person" ref="#rschmahl">Robin Schmahl</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relational descriptors, English and Arabic name entry, 
+                            matching with external records by</resp>
+               <name type="person" ref="#mtolay">Malinda Tolay</name>
+            </respStmt>
+            <respStmt>
+               <resp>Relational descriptors by</resp>
+               <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Bibliography editing by</resp>
+               <name type="person" ref="#nloehr">Nadine Löhr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Original data architecture of TEI person records for Srophé by</resp>
+               <name type="person"
+                     ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
+            </respStmt>
+            <respStmt>
+               <resp>Srophé app design and development by</resp>
+               <name type="person"
+                     ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1.0"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>
+               <ref target="https://usaybia.net">Usaybia.net</ref>
+            </authority>
+            <date>2020</date>
+            <idno type="URI">https://usaybia.net/person/961/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
+                                License.</p>
+               </licence>
+            </availability>
+            <date>2020-05-21+02:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This record created following the Syriaca.org guidelines. Documentation
+                        available at: <ref target="http://syriaca.org/documentation">http://syriaca.org/documentation</ref>.</p>
+            <interpretation>
+               <p>Approximate dates described in terms of centuries or partial centuries
+                            have been interpreted as documented in <ref target="http://syriaca.org/documentation/dates.html">Syriaca.org
+                                Dates</ref>.</p>
+            </interpretation>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="syriaca-headword">
+                  <catDesc>The name used by Syriaca.org for document titles, citation, and
+                                disambiguation. These names have been created according to the
+                                Syriac.org guidelines for headwords: <ref target="http://syriaca.org/documentation/headwords.html">http://syriaca.org/documentation/headwords.html</ref>.</catDesc>
+               </category>
+               <category xml:id="syriaca-anglicized">
+                  <catDesc>An anglicized version of a name, included to facilitate
+                                searching.</catDesc>
+               </category>
+               <category xml:id="ektobe-headword">
+                  <catDesc>The name used by e-Ktobe as a standardized name form.</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="syriaca-author">
+                  <catDesc>A person who is relevant to the Guide to Syriac
+                                Authors</catDesc>
+               </category>
+               <category xml:id="syriaca-saint">
+                  <catDesc>A person who is relevant to the Bibliotheca Hagiographica
+                                Syriaca.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            <language ident="syr-Syrj">Vocalized West Syriac</language>
+            <language ident="syr-Syrn">Vocalized East Syriac</language>
+            <language ident="en">English</language>
+            <language ident="en-x-gedsh">Names or terms Romanized into English according to
+                        the standards adopted by the Gorgias Encyclopedic Dictionary of the Syriac
+                        Heritage</language>
+            <language ident="ar">Arabic</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="1.0"
+                 when="2020-05-21+02:00">CREATED: person</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="person-961">
+               <persName xml:id="name961-1"
+                         xml:lang="en-x-lhom"
+                         srophe-tags="#syriaca-headword">#REF!</persName>
+               <idno type="URI">https://usaybia.net/person/961</idno>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
