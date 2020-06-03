@@ -1,9 +1,7 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,19 +21,11 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
-					http://syriaca.org/documentation/editors.html#ngibson 
-					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
-					http://orcid.org/0000-0003-0786-8075
-                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
-                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
-                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -47,7 +37,9 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
@@ -111,7 +103,9 @@
                     <div type="textpart" subtype="biography" n="1">
                         <head style="direction:rtl; unicode-bidi:embed">
                             الباب التاسع في طبقات الأطباء النقلة الذين نقلوا كتب الطب وغيره من اللسان اليوناني إلى اللسان العربي وذكر الذين نقلوا لهم
-                            <note n="1" type="footnote"><p>The edition of this chapter is based on <hi rend="smallcaps">MS</hi> ABPRSb. Chapter 9 is found in all three versions of the work.</p></note>
+                            <note n="1" type="footnote">
+                                <p>The edition of this chapter is based on <hi rend="smallcaps">MS</hi> ABPRSb. Chapter 9 is found in all three versions of the work.</p>
+                            </note>
                             ‬‎
                         </head>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -124,8 +118,12 @@
                             <hi rend="bold">‭[9.2]‬ حنين بن إسحاق</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً باللغات الأربع غريبها ومستعملها العربية والسريانية واليونانية <note n="2" type="footnote"><p>R: om. واليونانية</p></note>
-                            والفارسية ونقله في الغاية من الجودة. <note n="3" type="footnote"><p>AP: om. ونقله في الغاية من الجودة; P: permutation of biographies 9.1 and 9.2 (noted by the copyist).</p></note>
+                            كان عالماً باللغات الأربع غريبها ومستعملها العربية والسريانية واليونانية <note n="2" type="footnote">
+                                <p>R: om. واليونانية</p>
+                            </note>
+                            والفارسية ونقله في الغاية من الجودة. <note n="3" type="footnote">
+                                <p>AP: om. ونقله في الغاية من الجودة; P: permutation of biographies 9.1 and 9.2 (noted by the copyist).</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -134,8 +132,12 @@
                             <hi rend="bold">‭[9.3]‬ إسحاق بن حنين</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان أيضاً <note n="4" type="footnote"><p>AP: om. أيضاً</p></note>
-                            عالماً باللغات التي يعرفها أبوه وهو يلحق به في النقل وكان إسحاق عذب العبارة فصيح الكلام وكان حنين مع ذلك أكثر تصنيفاً ونقلاً وقد تقدم ذكر إسحاق وأبيه. <note n="5" type="footnote"><p>A: ذكره, in margin إسحق وأبيه بخطه; P: ذكره</p></note>
+                            كان أيضاً <note n="4" type="footnote">
+                                <p>AP: om. أيضاً</p>
+                            </note>
+                            عالماً باللغات التي يعرفها أبوه وهو يلحق به في النقل وكان إسحاق عذب العبارة فصيح الكلام وكان حنين مع ذلك أكثر تصنيفاً ونقلاً وقد تقدم ذكر إسحاق وأبيه. <note n="5" type="footnote">
+                                <p>A: ذكره, in margin إسحق وأبيه بخطه; P: ذكره</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -144,7 +146,9 @@
                             <hi rend="bold">‭[9.4]‬ حبيش الأعسم</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وهو ابن أخت حنين بن إسحاق وتلميذه ناقل مجود <note n="6" type="footnote"><p>B: محمود</p></note>
+                            وهو ابن أخت حنين بن إسحاق وتلميذه ناقل مجود <note n="6" type="footnote">
+                                <p>B: محمود</p>
+                            </note>
                             يلحق بحنين وإسحاق وقد تقدم أيضاً ذكره. ‭[i,204]‬‬‎
                         </p>
                     </div>
@@ -159,8 +163,12 @@
                             <hi rend="bold">‭[9.6]‬ قسطا بن لوقا البعلبكي</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان ناقلاً <note n="7" type="footnote"><p>B: كان فاضلاً أيضاً</p></note>
-                            خبيراً باللغات فاضلاً في العلوم الحكمية وغيرها وسيأتي ذكره وأخباره فيما بعد إن شاء الله تعالى. <note n="8" type="footnote"><p>PR: om. تعالى</p></note>
+                            كان ناقلاً <note n="7" type="footnote">
+                                <p>B: كان فاضلاً أيضاً</p>
+                            </note>
+                            خبيراً باللغات فاضلاً في العلوم الحكمية وغيرها وسيأتي ذكره وأخباره فيما بعد إن شاء الله تعالى. <note n="8" type="footnote">
+                                <p>PR: om. تعالى</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -178,11 +186,16 @@
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                كتاب قوى الأطعمة ومنافعها ومضارها <note n="9" type="footnote"><p><hi rend="smallcaps">MS</hi> Sb resumes.</p></note>
+                                كتاب قوى الأطعمة ومنافعها ومضارها <note n="9" type="footnote">
+                                    <p>
+                                        <hi rend="smallcaps">MS</hi> Sb resumes.</p>
+                                </note>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                كتاب قوى العقاقير ومنافعها ومضارها. <note n="10" type="footnote"><p>R: om. كتاب قوى العقاقير ومنافعها ومضارها</p></note>
+                                كتاب قوى العقاقير ومنافعها ومضارها. <note n="10" type="footnote">
+                                    <p>R: om. كتاب قوى العقاقير ومنافعها ومضارها</p>
+                                </note>
                             </item>
                         </list>
                     </div>
@@ -201,7 +214,9 @@
                     <div type="textpart" subtype="biography" n="10">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.10]‬ شهدى <note n="11" type="footnote"><p>ABPR: شهدى; Sb: سهدى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 4, 6 (Berg); 10, 12, 14 (Lam): سهدا Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:148: شُهْدى</p></note>
+                                ‭[9.10]‬ شهدى <note n="11" type="footnote">
+                                    <p>ABPR: شهدى; Sb: سهدى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 4, 6 (Berg); 10, 12, 14 (Lam): سهدا Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:148: شُهْدى</p>
+                                </note>
                                 الكرخي
                             </hi>
                         </p>
@@ -210,13 +225,19 @@
                     <div type="textpart" subtype="biography" n="11">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.11]‬ ابن شهدى <note n="12" type="footnote"><p>ABPR: شهدى; Sb: سهدى</p></note>
+                                ‭[9.11]‬ ابن شهدى <note n="12" type="footnote">
+                                    <p>ABPR: شهدى; Sb: سهدى</p>
+                                </note>
                                 الكرخي
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان مثل أبيه في النقل ثم إنه في <note n="13" type="footnote"><p>Sb: om. في</p></note>
-                            آخر عمره فاق أباه ولم يزل متوسطاً وكان ينقل من السرياني إلى العربي ومن نقله: كتاب الأجنة لأبقراط. <note n="14" type="footnote"><p>R: add. سرجس الرأسي من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط</p></note>
+                            كان مثل أبيه في النقل ثم إنه في <note n="13" type="footnote">
+                                <p>Sb: om. في</p>
+                            </note>
+                            آخر عمره فاق أباه ولم يزل متوسطاً وكان ينقل من السرياني إلى العربي ومن نقله: كتاب الأجنة لأبقراط. <note n="14" type="footnote">
+                                <p>R: add. سرجس الرأسي من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -235,7 +256,9 @@
                     <div type="textpart" subtype="biography" n="14">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.14]‬ زرويا بن مانحوه <note n="15" type="footnote"><p>A: زرويا بن مانحوه; PRSb: زروبا بن مانحوه; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>: زروبا بن ماحوه (Sayyid, 2/1:146); زروبا بن ماجوه (Flügel, 244; Tajaddud, 304).</p></note>
+                                ‭[9.14]‬ زرويا بن مانحوه <note n="15" type="footnote">
+                                    <p>A: زرويا بن مانحوه; PRSb: زروبا بن مانحوه; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>: زروبا بن ماحوه (Sayyid, 2/1:146); زروبا بن ماجوه (Flügel, 244; Tajaddud, 304).</p>
+                                </note>
                                 الناعمي الحمصي
                             </hi>
                         </p>
@@ -246,20 +269,28 @@
                             <hi rend="bold">[‭9.15‬] هلال بن أبي هلال الحمصي</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان صحيح <note n="16" type="footnote"><p>R: حسن</p></note>
+                            كان صحيح <note n="16" type="footnote">
+                                <p>R: حسن</p>
+                            </note>
                             النقل ولم يكن عنده فصاحة ولا بلاغة في اللفظ.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="16">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.16]‬ فثيون <note n="17" type="footnote"><p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 1:204; 2/1:146: فثيون; ABPRSb: قينون</p></note>
+                                ‭[9.16]‬ فثيون <note n="17" type="footnote">
+                                    <p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 1:204; 2/1:146: فثيون; ABPRSb: قينون</p>
+                                </note>
                                 الترجمان
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وجدت نقله كثير اللحن ولم يكن يعرف شيئاً من علم <note n="18" type="footnote"><p>R: om. العربية</p></note>
-                            العربية <note n="19" type="footnote"><p>AP: من العربية; Sb: يعرف علم العربية</p></note>
+                            وجدت نقله كثير اللحن ولم يكن يعرف شيئاً من علم <note n="18" type="footnote">
+                                <p>R: om. العربية</p>
+                            </note>
+                            العربية <note n="19" type="footnote">
+                                <p>AP: من العربية; Sb: يعرف علم العربية</p>
+                            </note>
                             أصلاً.‬‎
                         </p>
                     </div>
@@ -274,7 +305,9 @@
                             <hi rend="bold">[‭9.18‬] بسيل المطران</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            نقل كتباً كثيرة وكان نقله أميل إلى الجودة. <note n="20" type="footnote"><p>R: add. والله أعلم</p></note>
+                            نقل كتباً كثيرة وكان نقله أميل إلى الجودة. <note n="20" type="footnote">
+                                <p>R: add. والله أعلم</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -299,7 +332,9 @@
                     <div type="textpart" subtype="biography" n="22">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.22]‬ خيرون <note n="21" type="footnote"><p>A: حىرون; PR: حيرون; Sb: حيزون</p></note>
+                                ‭[9.22]‬ خيرون <note n="21" type="footnote">
+                                    <p>A: حىرون; PR: حيرون; Sb: حيزون</p>
+                                </note>
                                 بن رابطة
                             </hi>
                         </p>
@@ -308,11 +343,15 @@
                     <div type="textpart" subtype="biography" n="23">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭9.23‬] تذرس السنقل <note n="22" type="footnote"><p>Sb: السيقل</p></note>
+                                [‭9.23‬] تذرس السنقل <note n="22" type="footnote">
+                                    <p>Sb: السيقل</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وجدت له نقلاً في الكتب الحكمية لا بأس به. <note n="23" type="footnote"><p>R: om. لا بأس به</p></note>
+                            وجدت له نقلاً في الكتب الحكمية لا بأس به. <note n="23" type="footnote">
+                                <p>R: om. لا بأس به</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -321,18 +360,24 @@
                             <hi rend="bold">[‭9.24‬] سرجس الرأسي</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط. <note n="24" type="footnote"><p>R: om. سرجس الرأسي … فهو وسط‬‎</p></note>
+                            من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط. <note n="24" type="footnote">
+                                <p>R: om. سرجس الرأسي … فهو وسط‬‎</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="25">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭9.25‬] أيوب الرهاوي <note n="25" type="footnote"><p>R: الرماوي</p></note>
+                                [‭9.25‬] أيوب الرهاوي <note n="25" type="footnote">
+                                    <p>R: الرماوي</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ليس أيوب الأبرش المذكور أولاً ناقل جيد عالم باللغات إلا أنه بالسريانية خير <note n="26" type="footnote"><p>R: غير</p></note>
+                            ليس أيوب الأبرش المذكور أولاً ناقل جيد عالم باللغات إلا أنه بالسريانية خير <note n="26" type="footnote">
+                                <p>R: غير</p>
+                            </note>
                             منه بالعربية.‬‎
                         </p>
                     </div>
@@ -347,9 +392,11 @@
                             <hi rend="bold">[‭9.27‬] إبراهيم بن الصلت</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان متوسطاً في النقل يلحق بسرجس <note n="27" type="footnote"><p>A: بجرجس</p></note>
+                            كان متوسطاً في النقل يلحق بسرجس <note n="27" type="footnote">
+                                <p>A: بجرجس</p>
+                            </note>
                             الرأسي.
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٢٥‬ب‬‎" />
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٢٥‬ب‬‎"/>
                             ‬‎
                         </p>
                     </div>
@@ -358,7 +405,9 @@
                             <hi rend="bold">‭[9.28]‬ ثابت الناقل</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان <note n="28" type="footnote"><p>RSb: add. أيضاً</p></note>
+                            كان <note n="28" type="footnote">
+                                <p>RSb: add. أيضاً</p>
+                            </note>
                             متوسطاً في النقل إلا أنه يفضل إبراهيم بن الصلت وكان مقلاً من النقل ومن نقله: كتاب الكيموسين لجالينوس.‬‎
                         </p>
                     </div>
@@ -367,7 +416,9 @@
                             <hi rend="bold">[‭9.29‬] أبو يوسف الكاتب</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان <note n="29" type="footnote"><p>Sb: add. أيضاً</p></note>
+                            كان <note n="29" type="footnote">
+                                <p>Sb: add. أيضاً</p>
+                            </note>
                             متوسطاً في النقل ونقل عدة كتب من كتب بقراط.‬‎
                         </p>
                     </div>
@@ -376,7 +427,9 @@
                             <hi rend="bold">[‭9.30‬] يوحنا بن بختيشوع</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            نقل كتباً كثيرة إلى السرياني فأما إلى العربي فما عرف بنقله شيء منها. <note n="30" type="footnote"><p>P: om. شيء منها</p></note>
+                            نقل كتباً كثيرة إلى السرياني فأما إلى العربي فما عرف بنقله شيء منها. <note n="30" type="footnote">
+                                <p>P: om. شيء منها</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
@@ -385,7 +438,9 @@
                             <hi rend="bold">[‭9.31‬] البطريق</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان في أيام المنصور وأمره بنقل أشياء من الكتب القديمة وله نقل كثير جيد إلا أنه دون نقل حنين بن إسحاق وقد وجدت بنقله كتباً <note n="31" type="footnote"><p>Sb: كتب</p></note>
+                            كان في أيام المنصور وأمره بنقل أشياء من الكتب القديمة وله نقل كثير جيد إلا أنه دون نقل حنين بن إسحاق وقد وجدت بنقله كتباً <note n="31" type="footnote">
+                                <p>Sb: كتب</p>
+                            </note>
                             كثيرة في الطب من كتب أبقراط وجالينوس.‬‎
                         </p>
                     </div>
@@ -398,7 +453,9 @@
                     <div type="textpart" subtype="biography" n="33">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.33]‬ توما <note n="32" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 49 (Berg); 121 (Lam) Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 131; <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:280: توما; ABPR: قيضا; Sb: قيصا. Cf. also <hi rend="italic">Fihrist</hi> )‬‎Sayyid(‬‎, 1:58: تاوما</p></note>
+                                ‭[9.33]‬ توما <note n="32" type="footnote">
+                                    <p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 49 (Berg); 121 (Lam) Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 131; <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:280: توما; ABPR: قيضا; Sb: قيصا. Cf. also <hi rend="italic">Fihrist</hi> )‬‎Sayyid(‬‎, 1:58: تاوما</p>
+                                </note>
                                 الرهاوي
                             </hi>
                         </p>
@@ -407,19 +464,27 @@
                     <div type="textpart" subtype="biography" n="34">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭9.34‬] منصور بن باناس <note n="33" type="footnote"><p>R: اياس</p></note>
+                                [‭9.34‬] منصور بن باناس <note n="33" type="footnote">
+                                    <p>R: اياس</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            طبقته في النقل مثل توما <note n="34" type="footnote"><p>ABPR: قيضا; Sb: قيصا</p></note>
+                            طبقته في النقل مثل توما <note n="34" type="footnote">
+                                <p>ABPR: قيضا; Sb: قيصا</p>
+                            </note>
                             الرهاوي وكان بالسريانية أقوى منه بالعربية.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="35">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.35]‬ عبد يسوع <note n="35" type="footnote"><p>A: يشوع</p></note>
-                                بن بهريز <note n="36" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:146: حبيب بن بهريز</p></note>
+                                ‭[9.35]‬ عبد يسوع <note n="35" type="footnote">
+                                    <p>A: يشوع</p>
+                                </note>
+                                بن بهريز <note n="36" type="footnote">
+                                    <p>Cf. <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:146: حبيب بن بهريز</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">مطران الموصل كان صديقاً لجبريل بن بختيشوع وناقلاً له حبيب بن بهريز.‬‎</p>
@@ -439,24 +504,34 @@
                     <div type="textpart" subtype="biography" n="38">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.38]‬ أبو الحسن علي بن إبراهيم بن بكس <note n="37" type="footnote"><p>In margin of A: كان من الأطباء المشهوين … إبراهيم بن بكس‬‎</p></note>
+                                ‭[9.38]‬ أبو الحسن علي بن إبراهيم بن بكس <note n="37" type="footnote">
+                                    <p>In margin of A: كان من الأطباء المشهوين … إبراهيم بن بكس‬‎</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان أيضاً طبيباً مشهوراً وكان مثل أبيه <note n="38" type="footnote"><p>A: وكان ينقل أيضا</p></note>
-                            في النقل فأما الذين كان هؤلاء النقلة ينقلون لهم <note n="39" type="footnote"><p>P: om. لهم</p></note>
+                            كان أيضاً طبيباً مشهوراً وكان مثل أبيه <note n="38" type="footnote">
+                                <p>A: وكان ينقل أيضا</p>
+                            </note>
+                            في النقل فأما الذين كان هؤلاء النقلة ينقلون لهم <note n="39" type="footnote">
+                                <p>P: om. لهم</p>
+                            </note>
                             خارجاً عن الخلفاء فمنهم.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="39">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.39]‬ شبريشوع <note n="40" type="footnote"><p>Ed. em. ABPRSb, Müller: شيرشوع</p></note>
+                                ‭[9.39]‬ شبريشوع <note n="40" type="footnote">
+                                    <p>Ed. em. ABPRSb, Müller: شيرشوع</p>
+                                </note>
                                 بن قطرب
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            من أهل جنديسابور <note n="41" type="footnote"><p>A: om. من أهل جنديسابور</p></note>
+                            من أهل جنديسابور <note n="41" type="footnote">
+                                <p>A: om. من أهل جنديسابور</p>
+                            </note>
                             وكان لا يزال يبر النقلة ويهدي إليهم ويتقرب إلى تحصيل الكتب منهم بما يمكنه من المال وكان يريد السرياني أكثر من العربي وهو أحد الخوز.‬‎
                         </p>
                     </div>
@@ -465,8 +540,12 @@
                             <hi rend="bold">‭[9.40]‬ ومنهم محمد بن موسى المنجم</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وهو أحد بني موسى بن شاكر <note n="42" type="footnote"><p>In margin of A: ظ شاكر.</p></note>
-                            الحساب المشهورين بالفضل والعلم والتصنيف في العلوم الرياضية وكان محمد هذا أبر الناس بحنين بن إسحاق وقد <note n="43" type="footnote"><p>P: om. وقد</p></note>
+                            وهو أحد بني موسى بن شاكر <note n="42" type="footnote">
+                                <p>In margin of A: ظ شاكر.</p>
+                            </note>
+                            الحساب المشهورين بالفضل والعلم والتصنيف في العلوم الرياضية وكان محمد هذا أبر الناس بحنين بن إسحاق وقد <note n="43" type="footnote">
+                                <p>P: om. وقد</p>
+                            </note>
                             نقل له حنين كثيراً من الكتب الطبية.‬‎
                         </p>
                     </div>
@@ -475,19 +554,25 @@
                             <hi rend="bold">‭[9.41]‬ ومنهم علي بن يحيى المعروف بابن المنجم</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            أحد كتاب المأمون وكان نديماً له وعنده فضل <note n="44" type="footnote"><p>A: تحصل</p></note>
+                            أحد كتاب المأمون وكان نديماً له وعنده فضل <note n="44" type="footnote">
+                                <p>A: تحصل</p>
+                            </note>
                             ‭[i,206]‬ ومال إلى الطب فنقلوا له منه كتباً كثيرة.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="42">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.42]‬ ومنهم تادُرى <note n="45" type="footnote"><p>A: تاذرى; B: ثادرى; R: تادرى; Sb: نادرى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> ثياذورس (Berg, 12); ثيادورس (Lam, 27).</p></note>
+                                ‭[9.42]‬ ومنهم تادُرى <note n="45" type="footnote">
+                                    <p>A: تاذرى; B: ثادرى; R: تادرى; Sb: نادرى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> ثياذورس (Berg, 12); ثيادورس (Lam, 27).</p>
+                                </note>
                                 الأسقف
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان أسقفاً في الكرخ ببغداد <note n="46" type="footnote"><p>Sb: om. ببغداد</p></note>
+                            كان أسقفاً في الكرخ ببغداد <note n="46" type="footnote">
+                                <p>Sb: om. ببغداد</p>
+                            </note>
                             وكان حريصاً على طلب الكتب متقرباً إلى قلوب نقلتها فحصل منها شيئاً كثيراً وصنف له قوم من الأطباء النصارى كتباً لها قدر وجعلوها باسمه.‬‎
                         </p>
                     </div>
@@ -496,14 +581,18 @@
                             <hi rend="bold">‭[9.43]‬ ومنهم محمد بن موسى بن عبد الملك</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            نقلت له كتب طبية وكان من جملة العلماء الفضلاء يلخص الكتب ويعتبر جيد <note n="47" type="footnote"><p>Sb: جد</p></note>
+                            نقلت له كتب طبية وكان من جملة العلماء الفضلاء يلخص الكتب ويعتبر جيد <note n="47" type="footnote">
+                                <p>Sb: جد</p>
+                            </note>
                             الكلام فيها من رديه.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="44">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.44]‬ ومنهم عيسى بن يونس الكاتب الحاسب <note n="48" type="footnote"><p>P: om. الحاسب</p></note>
+                                ‭[9.44]‬ ومنهم عيسى بن يونس الكاتب الحاسب <note n="48" type="footnote">
+                                    <p>P: om. الحاسب</p>
+                                </note>
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">من جملة الفضلاء بالعراق وكان كثير العناية بتحصيل الكتب القديمة والعلوم اليونانية.‬‎</p>
@@ -513,7 +602,9 @@
                             <hi rend="bold">‭[9.45]‬ ومنهم علي المعروف بالفيوم</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            اشتهر باسم المدينة التي كان عاملها وكانت النقلة يحصلون من جانبه ويمتارون <note n="49" type="footnote"><p>Sb: يمتازون</p></note>
+                            اشتهر باسم المدينة التي كان عاملها وكانت النقلة يحصلون من جانبه ويمتارون <note n="49" type="footnote">
+                                <p>Sb: يمتازون</p>
+                            </note>
                             من فضله.‬‎
                         </p>
                     </div>
@@ -526,7 +617,9 @@
                     <div type="textpart" subtype="biography" n="47">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.47]‬ ومنهم إبراهيم بن محمد بن موسى <note n="50" type="footnote"><p>APSb: محمد بن موسى</p></note>
+                                ‭[9.47]‬ ومنهم إبراهيم بن محمد بن موسى <note n="50" type="footnote">
+                                    <p>APSb: محمد بن موسى</p>
+                                </note>
                                 الكاتب
                             </hi>
                         </p>
@@ -541,13 +634,19 @@
                     <div type="textpart" subtype="biography" n="49">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.49]‬ ومنهم محمد بن عبد الملك ابن <note n="51" type="footnote"><p>ABPR: om. ابن</p></note>
+                                ‭[9.49]‬ ومنهم محمد بن عبد الملك ابن <note n="51" type="footnote">
+                                    <p>ABPR: om. ابن</p>
+                                </note>
                                 الزيات
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان يقارب عطاؤه للنقلة والعلماء والنساخ في كل شهر ألفي دينار ونقل باسمه كتب‭ <note n="52" type="footnote"><p>Sb: كتباً‬‎</p></note>
-                            <hi rend="superscript">,</hi> <note n="53" type="footnote"><p>A: add. كثيرة‬‎</p></note>
+                            وكان يقارب عطاؤه للنقلة والعلماء والنساخ في كل شهر ألفي دينار ونقل باسمه كتب‭ <note n="52" type="footnote">
+                                <p>Sb: كتباً‬‎</p>
+                            </note>
+                            <hi rend="superscript">,</hi> <note n="53" type="footnote">
+                                <p>A: add. كثيرة‬‎</p>
+                            </note>
                             ‬ عدة وكان أيضاً ممن نقلت له الكتب اليونانية وترجمت باسمه جماعة من أكابر الأطباء مثل يوحنا بن ماسويه وجبريل بن بختيشوع وبختيشوع بن جبريل بن بختيشوع وداؤد بن سرابيون وسلمويه بن بيان واليسع وإسرائيل بن زكريا بن الطيفوري وحبيش بن الحسن.‬‎
                         </p>
                     </div>

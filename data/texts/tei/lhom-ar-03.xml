@@ -1,9 +1,7 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,19 +21,11 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
-					http://syriaca.org/documentation/editors.html#ngibson 
-					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
-					http://orcid.org/0000-0003-0786-8075
-                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
-                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
-                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -47,7 +37,9 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
@@ -111,35 +103,67 @@
                     <div type="textpart" subtype="biography" n="1">
                         <head style="direction:rtl; unicode-bidi:embed">
                             الباب الثالث في طبقات الأطباء اليونانيين الذين هم من نسل أسقليبيوس
-                            <note n="1" type="footnote"><p>The edition of this chapter is based on manuscripts ABGcR.</p></note>
+                            <note n="1" type="footnote">
+                                <p>The edition of this chapter is based on manuscripts ABGcR.</p>
+                            </note>
                             ‬‎
                         </head>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">‭[3.1]‬ تلاميذ أسقليبيوس</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وذلك أن أسقليبيوس <note n="2" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
-                            كما ذكرنا أولاً لما حصلت <note n="3" type="footnote"><p>B: حصرت</p></note>
-                            له معرفة صناعة الطب بالتجربة وبقيت عنده أمور منها وشرع في تعليمها لأولاده وأقاربه عهد إليهم ألا يعلموا هذه الصناعة لأحد إلا لأولادهم ولمن هو من نسل أسقليبيوس <note n="4" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
+                            وذلك أن أسقليبيوس <note n="2" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
+                            كما ذكرنا أولاً لما حصلت <note n="3" type="footnote">
+                                <p>B: حصرت</p>
+                            </note>
+                            له معرفة صناعة الطب بالتجربة وبقيت عنده أمور منها وشرع في تعليمها لأولاده وأقاربه عهد إليهم ألا يعلموا هذه الصناعة لأحد إلا لأولادهم ولمن هو من نسل أسقليبيوس <note n="4" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
                             لا غير‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان الذي خلفه أسقليبيوس <note n="5" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
-                            من التلاميذ من ولد وقرابة ستة وهم ماغينس <note n="6" type="footnote"><p>R: ماغينوس; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: ماغينوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغيس</p></note>
-                            وسقراطون وخروسبس <note n="7" type="footnote"><p>ABGcR: وخروسيس; Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: أخروسيوس; Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: أخروسيس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أخروسيس</p></note>
-                            الطبيب ومهراريس <note n="8" type="footnote"><p>R: مهواريس; cf. al-Bayhaqī, <hi rend="italic">Manāqib al-Shāfiʿī</hi>, 1:133: مهواريس</p></note>
-                            المكذوب عليه المزور نسبه <note n="9" type="footnote"><p>AGcR: بسببه; in margin of AR: نسبه ظ</p></note>
-                            في الكتب الأول وأنه لحق سليمان بن داود <note n="10" type="footnote"><p>B: add. عليهما السلام</p></note>
+                            وكان الذي خلفه أسقليبيوس <note n="5" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
+                            من التلاميذ من ولد وقرابة ستة وهم ماغينس <note n="6" type="footnote">
+                                <p>R: ماغينوس; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: ماغينوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغيس</p>
+                            </note>
+                            وسقراطون وخروسبس <note n="7" type="footnote">
+                                <p>ABGcR: وخروسيس; Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: أخروسيوس; Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: أخروسيس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أخروسيس</p>
+                            </note>
+                            الطبيب ومهراريس <note n="8" type="footnote">
+                                <p>R: مهواريس; cf. al-Bayhaqī, <hi rend="italic">Manāqib al-Shāfiʿī</hi>, 1:133: مهواريس</p>
+                            </note>
+                            المكذوب عليه المزور نسبه <note n="9" type="footnote">
+                                <p>AGcR: بسببه; in margin of AR: نسبه ظ</p>
+                            </note>
+                            في الكتب الأول وأنه لحق سليمان بن داود <note n="10" type="footnote">
+                                <p>B: add. عليهما السلام</p>
+                            </note>
                             وهذا حديث
                             <hi rend="bold">[</hi>
                             ‭
                             <hi rend="bold">[i,22</hi>
-                            ‬ خرافة لأن بينهما ألوف من السنين وموريدس <note n="11" type="footnote"><p>R: هوريدس; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: صوريذوس; Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: صورمدوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: صورمدرس</p></note>
-                            وميساوس <note n="12" type="footnote"><p>ABGcR: وميساوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: سيناوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: سيساوس</p></note>
-                            وكان كل واحد من هؤلاء ينتحل <note n="13" type="footnote"><p>A: يمتحن</p></note>
-                            رأي أستاذه أسقليبيوس <note n="14" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
-                            وهو رأي التجربة إذ كان الطب إنما خرج له <note n="15" type="footnote"><p>Gc: om. له</p></note>
-                            بالتجربة ولم يزل الطب ينتقل من هؤلاء التلاميذ وإلى من علموه من الأهل <note n="16" type="footnote"><p>A: om. من الأهل</p></note>
+                            ‬ خرافة لأن بينهما ألوف من السنين وموريدس <note n="11" type="footnote">
+                                <p>R: هوريدس; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 13: صوريذوس; Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: صورمدوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: صورمدرس</p>
+                            </note>
+                            وميساوس <note n="12" type="footnote">
+                                <p>ABGcR: وميساوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 15: سيناوس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: سيساوس</p>
+                            </note>
+                            وكان كل واحد من هؤلاء ينتحل <note n="13" type="footnote">
+                                <p>A: يمتحن</p>
+                            </note>
+                            رأي أستاذه أسقليبيوس <note n="14" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
+                            وهو رأي التجربة إذ كان الطب إنما خرج له <note n="15" type="footnote">
+                                <p>Gc: om. له</p>
+                            </note>
+                            بالتجربة ولم يزل الطب ينتقل من هؤلاء التلاميذ وإلى من علموه من الأهل <note n="16" type="footnote">
+                                <p>A: om. من الأهل</p>
+                            </note>
                             إلى أن ظهر غورس.‬‎
                         </p>
                     </div>
@@ -148,46 +172,106 @@
                             <hi rend="bold">‭[3.2]‬ غورس</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وغورس هو الثاني من الأطباء الحذاق المشهورين الذين أولهم أسقليبيوس <note n="1" type="footnote"><p>Müller: أسقليبيوس; A: أسقلنبيوس; RB: أسقلىىىوس أولهم; G: أسقلنبيوس أولهم</p></note>
-                            على ما ذكره يحيى النحوي وذلك أنه قال <note n="2" type="footnote"><p>Gc: om. قال</p></note>
-                            الأطباء المشهورين الذين كان يقتدى بهم في صناعة الطب من اليونانيين على ما تناهى إلينا <note n="3" type="footnote"><p>Gc: om. على ما تناهى إلينا</p></note>
-                            ثمانية وهم أسقليبيوس <note n="4" type="footnote"><p>Müller: أسقليبيوس; ABGcR: أسقلنبيوس</p></note>
-                            الأول <note n="5" type="footnote"><p>Gc: الثاني crossed out.</p></note>
-                            وغورس <note n="6" type="footnote"><p>A: om. وغورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 14, Isḥāq ibn Ḥunayn, <hi rend="italic">Taʾrīkh</hi>, 65; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: غوروس</p></note>
-                            ومينس <note n="7" type="footnote"><p>B: مسيس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 14: منيسى; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 286: منيسى</p></note>
-                            وبرمانيدس وأفلاطن الطبيب وأسقليبيوس <note n="8" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
+                            وغورس هو الثاني من الأطباء الحذاق المشهورين الذين أولهم أسقليبيوس <note n="1" type="footnote">
+                                <p>Müller: أسقليبيوس; A: أسقلنبيوس; RB: أسقلىىىوس أولهم; G: أسقلنبيوس أولهم</p>
+                            </note>
+                            على ما ذكره يحيى النحوي وذلك أنه قال <note n="2" type="footnote">
+                                <p>Gc: om. قال</p>
+                            </note>
+                            الأطباء المشهورين الذين كان يقتدى بهم في صناعة الطب من اليونانيين على ما تناهى إلينا <note n="3" type="footnote">
+                                <p>Gc: om. على ما تناهى إلينا</p>
+                            </note>
+                            ثمانية وهم أسقليبيوس <note n="4" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGcR: أسقلنبيوس</p>
+                            </note>
+                            الأول <note n="5" type="footnote">
+                                <p>Gc: الثاني crossed out.</p>
+                            </note>
+                            وغورس <note n="6" type="footnote">
+                                <p>A: om. وغورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 14, Isḥāq ibn Ḥunayn, <hi rend="italic">Taʾrīkh</hi>, 65; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: غوروس</p>
+                            </note>
+                            ومينس <note n="7" type="footnote">
+                                <p>B: مسيس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 14: منيسى; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 286: منيسى</p>
+                            </note>
+                            وبرمانيدس وأفلاطن الطبيب وأسقليبيوس <note n="8" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
                             الثاني وأبقراط وجالينوس.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكانت مدة حياة غورس سبعاً وأربعين سنة منها صبي ومتعلم سبع عشرة سنة وعالم معلم ثلاثين سنة وكان منذ <note n="9" type="footnote"><p>BR: add. وقت</p></note>
-                            وفاة أسقليبيوس <note n="10" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
+                            وكانت مدة حياة غورس سبعاً وأربعين سنة منها صبي ومتعلم سبع عشرة سنة وعالم معلم ثلاثين سنة وكان منذ <note n="9" type="footnote">
+                                <p>BR: add. وقت</p>
+                            </note>
+                            وفاة أسقليبيوس <note n="10" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
                             الأول وإلى وقت ظهور غورس ثمانمائة سنة وخمسين سنة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان في هذه الفترة التي بين أسقليبيوس <note n="11" type="footnote"><p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p></note>
-                            وبين غورس من الأطباء المذكورين <note n="12" type="footnote"><p>R: المذكورة</p></note>
-                            سورندوس <note n="13" type="footnote"><p>A: سوندوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سوريذوس</p></note>
-                            ومانيوس وساوثاس <note n="14" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سادماس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: وساوناس</p></note>
-                            ومسيساندس <note n="15" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: مسيناروس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: مسنياوس</p></note>
-                            وسقوريدوس <note n="16" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سقروقوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سفردوس</p></note>
-                            الأول وسيقطوس <note n="17" type="footnote"><p>In margin of A: خ وسقلوس; Gc: سقطوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سقلموس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: اسفلوس</p></note>
-                            وسمرياس <note n="18" type="footnote"><p>B: سمرناس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سمويلس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سمربلس</p></note>
-                            واقطيماخس <note n="19" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: افطيمياخس</p></note>
-                            وقلغيموس <note n="20" type="footnote"><p>Gc: قاغيموس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: قدفيمون; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أفلطيمون</p></note>
-                            واغانيس <note n="21" type="footnote"><p>R: اغانيوس</p></note>
-                            وإيراقلس <note n="22" type="footnote"><p>ABGc: ابراقلس</p></note>
-                            واسطورس <note n="23" type="footnote"><p>B: اسطورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: اسقورس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أبيقوىس</p></note>
+                            وكان في هذه الفترة التي بين أسقليبيوس <note n="11" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGc: أسقلنبيوس; R: أسقلىىىوس</p>
+                            </note>
+                            وبين غورس من الأطباء المذكورين <note n="12" type="footnote">
+                                <p>R: المذكورة</p>
+                            </note>
+                            سورندوس <note n="13" type="footnote">
+                                <p>A: سوندوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سوريذوس</p>
+                            </note>
+                            ومانيوس وساوثاس <note n="14" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سادماس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: وساوناس</p>
+                            </note>
+                            ومسيساندس <note n="15" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: مسيناروس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: مسنياوس</p>
+                            </note>
+                            وسقوريدوس <note n="16" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سقروقوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سفردوس</p>
+                            </note>
+                            الأول وسيقطوس <note n="17" type="footnote">
+                                <p>In margin of A: خ وسقلوس; Gc: سقطوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سقلموس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: اسفلوس</p>
+                            </note>
+                            وسمرياس <note n="18" type="footnote">
+                                <p>B: سمرناس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سمويلس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سمربلس</p>
+                            </note>
+                            واقطيماخس <note n="19" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: افطيمياخس</p>
+                            </note>
+                            وقلغيموس <note n="20" type="footnote">
+                                <p>Gc: قاغيموس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: قدفيمون; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أفلطيمون</p>
+                            </note>
+                            واغانيس <note n="21" type="footnote">
+                                <p>R: اغانيوس</p>
+                            </note>
+                            وإيراقلس <note n="22" type="footnote">
+                                <p>ABGc: ابراقلس</p>
+                            </note>
+                            واسطورس <note n="23" type="footnote">
+                                <p>B: اسطورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: اسقورس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أبيقوىس</p>
+                            </note>
                             الطبيب.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولما ظهر غورس نظر في رأي التجربة وقواه وخلف من التلاميذ من بين <note n="24" type="footnote"><p>Gc: om. من بين</p></note>
-                            ولد وقريب سبعة وهم مرقس وجورجيس <note n="25" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: خروجيس</p></note>
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٤‬ب‬‎" />
-                            ومالسطس <note n="26" type="footnote"><p>Gc: مالسرطس; R: مارسطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ماسطس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماسطيس</p></note>
-                            وفولس <note n="27" type="footnote"><p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: بولس</p></note>
-                            وماهالس <note n="28" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ماهانس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماهانس</p></note>
-                            واراسسطراطس <note n="29" type="footnote"><p>AGcR: اراسطراطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ارسيسطراطس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: اسقواطيس</p></note>
-                            الأول وسقيروس <note n="30" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سيفورس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: سيقورس</p></note>
+                            ولما ظهر غورس نظر في رأي التجربة وقواه وخلف من التلاميذ من بين <note n="24" type="footnote">
+                                <p>Gc: om. من بين</p>
+                            </note>
+                            ولد وقريب سبعة وهم مرقس وجورجيس <note n="25" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: خروجيس</p>
+                            </note>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٤‬ب‬‎"/>
+                            ومالسطس <note n="26" type="footnote">
+                                <p>Gc: مالسرطس; R: مارسطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ماسطس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماسطيس</p>
+                            </note>
+                            وفولس <note n="27" type="footnote">
+                                <p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: بولس</p>
+                            </note>
+                            وماهالس <note n="28" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ماهانس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماهانس</p>
+                            </note>
+                            واراسسطراطس <note n="29" type="footnote">
+                                <p>AGcR: اراسطراطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: ارسيسطراطس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: اسقواطيس</p>
+                            </note>
+                            الأول وسقيروس <note n="30" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: سيفورس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: سيقورس</p>
+                            </note>
                             وكان كل واحد من هؤلاء ينتحل رأي أستاذه وهو رأي التجربة ولم يزل الطب ينتقل من هؤلاء وإلى من علموه من ولد وقريب إلى أن ظهر مينس.‬‎
                         </p>
                     </div>
@@ -196,24 +280,54 @@
                             <hi rend="bold">‭[3.3]‬ مينس</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ومينس <note n="1" type="footnote"><p>B: مسيس</p></note>
-                            هو الثالث من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته أربعاً وثمانين سنة منها صبي ومتعلم أربعاً وستين سنة وعالم معلم عشرين سنة وكان منذ وقت <note n="2" type="footnote"><p>A: om. وقت</p></note>
-                            وفاة غورس وإلى ظهور مينس خمسمائة وستين سنة <note n="3" type="footnote"><p>B: om. سنة</p></note>
-                            وكان في هذه الفترة التي بين غورس ومينس من الأطباء المذكورين انيقورس <note n="4" type="footnote"><p>In margin of A: خ افىىروس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: أقسورس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أفينورس</p></note>
-                            وسقوريدوس <note n="5" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سفوريدوس</p></note>
-                            الثاني واخطيقون <note n="6" type="footnote"><p>Gc: اخليقون; cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أخطيفون</p></note>
-                            واسقوريس وراوس <note n="7" type="footnote"><p>Gc: واوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: باريس</p></note>
-                            واسقفلس <note n="8" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أسقطيس</p></note>
-                            وموطيمس <note n="9" type="footnote"><p>R: موطمس</p></note>
-                            وأفلاطن الأول الطبيب وبقراط الأول بن عسقيديقوس. <note n="10" type="footnote"><p>R: عسقيدقوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: عسفندوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: اغنوسوديقوس</p></note>
+                            ومينس <note n="1" type="footnote">
+                                <p>B: مسيس</p>
+                            </note>
+                            هو الثالث من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته أربعاً وثمانين سنة منها صبي ومتعلم أربعاً وستين سنة وعالم معلم عشرين سنة وكان منذ وقت <note n="2" type="footnote">
+                                <p>A: om. وقت</p>
+                            </note>
+                            وفاة غورس وإلى ظهور مينس خمسمائة وستين سنة <note n="3" type="footnote">
+                                <p>B: om. سنة</p>
+                            </note>
+                            وكان في هذه الفترة التي بين غورس ومينس من الأطباء المذكورين انيقورس <note n="4" type="footnote">
+                                <p>In margin of A: خ افىىروس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: أقسورس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أفينورس</p>
+                            </note>
+                            وسقوريدوس <note n="5" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: سفوريدوس</p>
+                            </note>
+                            الثاني واخطيقون <note n="6" type="footnote">
+                                <p>Gc: اخليقون; cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أخطيفون</p>
+                            </note>
+                            واسقوريس وراوس <note n="7" type="footnote">
+                                <p>Gc: واوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: باريس</p>
+                            </note>
+                            واسقفلس <note n="8" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: أسقطيس</p>
+                            </note>
+                            وموطيمس <note n="9" type="footnote">
+                                <p>R: موطمس</p>
+                            </note>
+                            وأفلاطن الأول الطبيب وبقراط الأول بن عسقيديقوس. <note n="10" type="footnote">
+                                <p>R: عسقيدقوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 16: عسفندوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: اغنوسوديقوس</p>
+                            </note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولما ظهر مينس نظر في مقالات من تقدم فإذا التجربة خطأ عنده فضم إليها القياس وقال لا يجب أن تكون تجربة بلا <note n="11" type="footnote"><p>A: بغير</p></note>
-                            قياس لأنها تكون خطراً ولما توفي خلف من التلاميذ أربعة وهم قطرطس <note n="12" type="footnote"><p>Gc: سقرطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: فطرس</p></note>
-                            وامينس وسورانس <note n="13" type="footnote"><p>In margin of R: خ وساوراس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سورانوس</p></note>
-                            ومثيناوس <note n="14" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: مساوس</p></note>
-                            القديم ورأي هؤلاء القياس والتجربة <note n="15" type="footnote"><p>Gc: التجربة والقياس</p></note>
+                            ولما ظهر مينس نظر في مقالات من تقدم فإذا التجربة خطأ عنده فضم إليها القياس وقال لا يجب أن تكون تجربة بلا <note n="11" type="footnote">
+                                <p>A: بغير</p>
+                            </note>
+                            قياس لأنها تكون خطراً ولما توفي خلف من التلاميذ أربعة وهم قطرطس <note n="12" type="footnote">
+                                <p>Gc: سقرطس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: فطرس</p>
+                            </note>
+                            وامينس وسورانس <note n="13" type="footnote">
+                                <p>In margin of R: خ وساوراس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سورانوس</p>
+                            </note>
+                            ومثيناوس <note n="14" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: مساوس</p>
+                            </note>
+                            القديم ورأي هؤلاء القياس والتجربة <note n="15" type="footnote">
+                                <p>Gc: التجربة والقياس</p>
+                            </note>
                             ولم يزل الطب ينتقل من هؤلاء التلاميذ وإلى من علموه وخلفوه إلى أن ظهر برمانيدس.‬‎
                         </p>
                     </div>
@@ -222,28 +336,62 @@
                             <hi rend="bold">‭[3.4]‬ برمانيدس</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وبرمانيدس هو الرابع من الأطباء المشهورين الثمانية الذين <note n="1" type="footnote"><p>Gc: التي</p></note>
-                            تقدم ذكرهم وكانت مدة حياته أربعين سنة منها صبي ومتعلم خمساً وعشرين سنة وكامل معلم خمس عشرة سنة وكان منذ وقت وفاة مينس وإلى ظهور برمانيدس سبعمائة سنة وخمس عشرة سنة <note n="2" type="footnote"><p>Gc: om. وكان منذ … عشرة سنة‬‎</p></note>
-                            وكان في هذه الفترة التي بين مينس وبرمانيدس من الأطباء المذكورين سمانس <note n="3" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: برسماس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سيمانس</p></note>
-                            وغورانس <note n="4" type="footnote"><p>R: غوانس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: غوراس</p></note>
-                            وابيقورس <note n="5" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسقورس</p></note>
-                            واسطفانس <note n="6" type="footnote"><p>B: اينقولس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسطغانوس</p></note>
-                            وانيقولس <note n="7" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسقولس</p></note>
-                            وساوارس <note n="8" type="footnote"><p>In margin of A: خ ساوراس</p></note>
-                            ووراطيمس <note n="9" type="footnote"><p>R: حوراطمس</p></note>
-                            وفولوس <note n="10" type="footnote"><p>B: فوطون; R: فوطوس; cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: مولوقس</p></note>
-                            وسوانيديقوس <note n="11" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سورانيديقوس</p></note>
-                            وساموس ومتيثاوس <note n="12" type="footnote"><p>R: ميثاوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: مساوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ميسنياوس</p></note>
-                            الثاني وافيطاقلون <note n="13" type="footnote"><p>Gc: وافيطاقلون ومتيتاوس الثاني; R: أفيطافلون; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: أفيطافلوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فيطافلون</p></note>
-                            وسوناخس <note n="14" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سوثاخس</p></note>
-                            وسويازيوس <note n="15" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سرياريوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سونانوس</p></note>
-                            ومامالس. <note n="16" type="footnote"><p>Gc: ومامالس وسوريازيوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فامانخس</p></note>
+                            وبرمانيدس هو الرابع من الأطباء المشهورين الثمانية الذين <note n="1" type="footnote">
+                                <p>Gc: التي</p>
+                            </note>
+                            تقدم ذكرهم وكانت مدة حياته أربعين سنة منها صبي ومتعلم خمساً وعشرين سنة وكامل معلم خمس عشرة سنة وكان منذ وقت وفاة مينس وإلى ظهور برمانيدس سبعمائة سنة وخمس عشرة سنة <note n="2" type="footnote">
+                                <p>Gc: om. وكان منذ … عشرة سنة‬‎</p>
+                            </note>
+                            وكان في هذه الفترة التي بين مينس وبرمانيدس من الأطباء المذكورين سمانس <note n="3" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: برسماس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سيمانس</p>
+                            </note>
+                            وغورانس <note n="4" type="footnote">
+                                <p>R: غوانس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: غوراس</p>
+                            </note>
+                            وابيقورس <note n="5" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسقورس</p>
+                            </note>
+                            واسطفانس <note n="6" type="footnote">
+                                <p>B: اينقولس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسطغانوس</p>
+                            </note>
+                            وانيقولس <note n="7" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: اسقولس</p>
+                            </note>
+                            وساوارس <note n="8" type="footnote">
+                                <p>In margin of A: خ ساوراس</p>
+                            </note>
+                            ووراطيمس <note n="9" type="footnote">
+                                <p>R: حوراطمس</p>
+                            </note>
+                            وفولوس <note n="10" type="footnote">
+                                <p>B: فوطون; R: فوطوس; cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: مولوقس</p>
+                            </note>
+                            وسوانيديقوس <note n="11" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سورانيديقوس</p>
+                            </note>
+                            وساموس ومتيثاوس <note n="12" type="footnote">
+                                <p>R: ميثاوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: مساوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ميسنياوس</p>
+                            </note>
+                            الثاني وافيطاقلون <note n="13" type="footnote">
+                                <p>Gc: وافيطاقلون ومتيتاوس الثاني; R: أفيطافلون; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: أفيطافلوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فيطافلون</p>
+                            </note>
+                            وسوناخس <note n="14" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سوثاخس</p>
+                            </note>
+                            وسويازيوس <note n="15" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سرياريوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سونانوس</p>
+                            </note>
+                            ومامالس. <note n="16" type="footnote">
+                                <p>Gc: ومامالس وسوريازيوس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فامانخس</p>
+                            </note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولما ظهر برمانيدس قال إن التجربة وحدها كانت أو مع القياس خطر فأسقطها وانتحل القياس وحده ولما توفي خلف من التلاميذ ثلاثة نفر وهم ثاسلس وأقرن وديوقيلس <note n="17" type="footnote"><p>Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 45: ذيوقيس</p></note>
+                            ولما ظهر برمانيدس قال إن التجربة وحدها كانت أو مع القياس خطر فأسقطها وانتحل القياس وحده ولما توفي خلف من التلاميذ ثلاثة نفر وهم ثاسلس وأقرن وديوقيلس <note n="17" type="footnote">
+                                <p>Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 45: ذيوقيس</p>
+                            </note>
                             فوقع بينهم المنازعات والخلف ‭[i,23]‬ وانفصلوا ثلاث فرق فادّعى أقرن التجربة وحدها وادّعى ديوقيلس القياس وحده وادّعى ثاسلس الحيل وذكر أن الطب إنما هو حيلة ولم تزل هذه الحال بينهم إلى أن ظهر أفلاطن الطبيب
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٥‬أ‬‎" />
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٥‬أ‬‎"/>
                             .‬‎
                         </p>
                     </div>
@@ -252,45 +400,103 @@
                             <hi rend="bold">‭[3.5]‬ أفلاطن الطبيب</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأفلاطن الطبيب <note n="1" type="footnote"><p>Marginal note in AR: حاشية أظنه صاحب كتاب الكي</p></note>
-                            هو الخامس من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته ستين سنة منها صبي ومتعلم أربعين سنة وعالم معلم عشرين سنة وكان منذ وقت <note n="2" type="footnote"><p>AGc: om. وقت</p></note>
-                            وفاة <note n="3" type="footnote"><p>Gc: om. وفاة</p></note>
-                            برمانيدس وإلى ظهور أفلاطن سبعمائة سنة وخمس وثلاثين سنة وكان <note n="4" type="footnote"><p>Gc: add. من</p></note>
-                            الأطباء المذكورون في هذه الفترة التي بين برمانيدس وأفلاطن <note n="5" type="footnote"><p>Gc: فلاطون</p></note>
-                            الطبيب قد تقسموا <note n="6" type="footnote"><p>R: قسموا</p></note>
-                            ثلاثة أقسام أصحاب التجربة وهم أقرن الأقراغنطي <note n="7" type="footnote"><p>AR: الأفراغيطي; B: الأفراغبطي</p></note>
-                            وبنتخلس <note n="8" type="footnote"><p>In margin of A: خ بنتخنس; R: نتنحلس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سحس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سخلس</p></note>
-                            وانقلس وفيليبس <note n="9" type="footnote"><p>ABGcR: وقيلنبس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فيليس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فيلس</p></note>
-                            وغافوطيمس <note n="10" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: اغافيطيمس</p></note>
-                            والحسدروس <note n="11" type="footnote"><p>A: الحسدروس; in margin of A: خ الخسندروس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: الحدروس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: أكسيدوس</p></note>
-                            وملسيس <note n="12" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: مليسيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ميلسنس</p></note>
-                            وأصحاب الحيل وهم ماناخس وماساوس وغريانس <note n="13" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: عموناس</p></note>
-                            وغرغوريس <note n="14" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: غوفولس</p></note>
+                            وأفلاطن الطبيب <note n="1" type="footnote">
+                                <p>Marginal note in AR: حاشية أظنه صاحب كتاب الكي</p>
+                            </note>
+                            هو الخامس من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته ستين سنة منها صبي ومتعلم أربعين سنة وعالم معلم عشرين سنة وكان منذ وقت <note n="2" type="footnote">
+                                <p>AGc: om. وقت</p>
+                            </note>
+                            وفاة <note n="3" type="footnote">
+                                <p>Gc: om. وفاة</p>
+                            </note>
+                            برمانيدس وإلى ظهور أفلاطن سبعمائة سنة وخمس وثلاثين سنة وكان <note n="4" type="footnote">
+                                <p>Gc: add. من</p>
+                            </note>
+                            الأطباء المذكورون في هذه الفترة التي بين برمانيدس وأفلاطن <note n="5" type="footnote">
+                                <p>Gc: فلاطون</p>
+                            </note>
+                            الطبيب قد تقسموا <note n="6" type="footnote">
+                                <p>R: قسموا</p>
+                            </note>
+                            ثلاثة أقسام أصحاب التجربة وهم أقرن الأقراغنطي <note n="7" type="footnote">
+                                <p>AR: الأفراغيطي; B: الأفراغبطي</p>
+                            </note>
+                            وبنتخلس <note n="8" type="footnote">
+                                <p>In margin of A: خ بنتخنس; R: نتنحلس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 17: سحس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: سخلس</p>
+                            </note>
+                            وانقلس وفيليبس <note n="9" type="footnote">
+                                <p>ABGcR: وقيلنبس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فيليس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: فيلس</p>
+                            </note>
+                            وغافوطيمس <note n="10" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: اغافيطيمس</p>
+                            </note>
+                            والحسدروس <note n="11" type="footnote">
+                                <p>A: الحسدروس; in margin of A: خ الخسندروس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: الحدروس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: أكسيدوس</p>
+                            </note>
+                            وملسيس <note n="12" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: مليسيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ميلسنس</p>
+                            </note>
+                            وأصحاب الحيل وهم ماناخس وماساوس وغريانس <note n="13" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: عموناس</p>
+                            </note>
+                            وغرغوريس <note n="14" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: غوفولس</p>
+                            </note>
                             وقونيس.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأصحاب القياس وهم أنكساغورس وفولوطيمس <note n="15" type="footnote"><p>ABGcR: قولوطيمس; Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: أفولوطيمس</p></note>
-                            وماخاخس <note n="16" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ماخاخيس</p></note>
-                            وسقولوس <note n="17" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: منقولوس</p></note>
-                            وسوفوس <note n="18" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: سونفس</p></note>
-                            ولما ظهر أفلاطن <note n="19" type="footnote"><p>Gc: أفلاطون</p></note>
-                            نظر في هذه المقالات <note n="20" type="footnote"><p>R: المقالة</p></note>
-                            وعلم أن التجربة وحدها رديئة وخطر <note n="21" type="footnote"><p>Gc: om. وخطر</p></note>
+                            وأصحاب القياس وهم أنكساغورس وفولوطيمس <note n="15" type="footnote">
+                                <p>ABGcR: قولوطيمس; Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: أفولوطيمس</p>
+                            </note>
+                            وماخاخس <note n="16" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ماخاخيس</p>
+                            </note>
+                            وسقولوس <note n="17" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: منقولوس</p>
+                            </note>
+                            وسوفوس <note n="18" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: سونفس</p>
+                            </note>
+                            ولما ظهر أفلاطن <note n="19" type="footnote">
+                                <p>Gc: أفلاطون</p>
+                            </note>
+                            نظر في هذه المقالات <note n="20" type="footnote">
+                                <p>R: المقالة</p>
+                            </note>
+                            وعلم أن التجربة وحدها رديئة وخطر <note n="21" type="footnote">
+                                <p>Gc: om. وخطر</p>
+                            </note>
                             والقياس وحده لا يصح فانتحل الرأيين جميعاً.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">قال يحيى النحوي وإن أفلاطن أحرق الكتب التي ألفها ثاسلس وأصحابه ومن انتحل رأياً واحداً من التجربة والقياس وترك الكتب القديمة التي فيها الرأيان جميعاً.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأقول إن يحيى النحوي فيما ذكره من هذه الكتب وأنها قد ألفت فإن كان لها حقيقة فذلك <note n="22" type="footnote"><p>R: فلذلك</p></note>
-                            ينافي قول من يرى أن صناعة الطب أول من دونها وأثبتها في الكتب أبقراط إذ كان هؤلاء الذين قد ألفوا هذه الكتب من قبل أبقراط <note n="23" type="footnote"><p>A: بقراط</p></note>
+                            وأقول إن يحيى النحوي فيما ذكره من هذه الكتب وأنها قد ألفت فإن كان لها حقيقة فذلك <note n="22" type="footnote">
+                                <p>R: فلذلك</p>
+                            </note>
+                            ينافي قول من يرى أن صناعة الطب أول من دونها وأثبتها في الكتب أبقراط إذ كان هؤلاء الذين قد ألفوا هذه الكتب من قبل أبقراط <note n="23" type="footnote">
+                                <p>A: بقراط</p>
+                            </note>
                             بمدة طويلة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولما توفي أفلاطن خلف من تلاميذه من أولاده وقراباته ستة وهم ميرونس <note n="24" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ميرولس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: ميراوس</p></note>
-                            وأفرده بالحكم على الأمراض وفورنوس <note n="25" type="footnote"><p>Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فوريوس; ABGcR: فورنوس</p></note>
-                            وأفرده بالتدبير للأبدان وفورلس <note n="26" type="footnote"><p>Gc: قوربس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فوولس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: قوراس</p></note>
-                            وأفرده بالفصد والكي وثافرورس <note n="27" type="footnote"><p>Gc: ىاعرورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ثافرودوس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: نافرون</p></note>
-                            وأفرده بعلاج الجراحات وسرجس وأفرده بعلاج العين وفانيس <note n="28" type="footnote"><p>Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: مانيوس</p></note>
-                            وأفرده بجبر العظام المكسورة وإصلاح المخلوعة ولم يزل الطب يجري أمره على سداد بين هؤلاء التلاميذ وبين من خلفوه إلى أن ظهر أسقليبيوس <note n="29" type="footnote"><p>ABR: أسقلنبيوس</p></note>
+                            ولما توفي أفلاطن خلف من تلاميذه من أولاده وقراباته ستة وهم ميرونس <note n="24" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ميرولس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: ميراوس</p>
+                            </note>
+                            وأفرده بالحكم على الأمراض وفورنوس <note n="25" type="footnote">
+                                <p>Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فوريوس; ABGcR: فورنوس</p>
+                            </note>
+                            وأفرده بالتدبير للأبدان وفورلس <note n="26" type="footnote">
+                                <p>Gc: قوربس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: فوولس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: قوراس</p>
+                            </note>
+                            وأفرده بالفصد والكي وثافرورس <note n="27" type="footnote">
+                                <p>Gc: ىاعرورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 18: ثافرودوس; Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: نافرون</p>
+                            </note>
+                            وأفرده بعلاج الجراحات وسرجس وأفرده بعلاج العين وفانيس <note n="28" type="footnote">
+                                <p>Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 46: مانيوس</p>
+                            </note>
+                            وأفرده بجبر العظام المكسورة وإصلاح المخلوعة ولم يزل الطب يجري أمره على سداد بين هؤلاء التلاميذ وبين من خلفوه إلى أن ظهر أسقليبيوس <note n="29" type="footnote">
+                                <p>ABR: أسقلنبيوس</p>
+                            </note>
                             الثاني.‬‎
                         </p>
                     </div>
@@ -299,41 +505,95 @@
                             <hi rend="bold">‭[3.6]‬ أسقليبيوس الثاني</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأسقليبيوس <note n="1" type="footnote"><p>Müller: أسقليبيوس; ABGcR: وأسقلنبيوس</p></note>
-                            الثاني هو السادس من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته مائة وعشر سنين منها صبي ومتعلم خمس عشرة سنة وعالم ومعلم خمس وتسعين سنة منها عطل خمس <note n="2" type="footnote"><p>In margin of AR: خ سبع</p></note>
-                            سنين وكان منذ وقت <note n="3" type="footnote"><p>AR: om. وقت</p></note>
-                            وفاة أفلاطن وإلى ظهور أسقليبيوس <note n="4" type="footnote"><p>Müller: أسقليبيوس; ABR: وأسقلنبيوس</p></note>
+                            وأسقليبيوس <note n="1" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGcR: وأسقلنبيوس</p>
+                            </note>
+                            الثاني هو السادس من الأطباء المشهورين الثمانية الذين تقدم ذكرهم وكانت مدة حياته مائة وعشر سنين منها صبي ومتعلم خمس عشرة سنة وعالم ومعلم خمس وتسعين سنة منها عطل خمس <note n="2" type="footnote">
+                                <p>In margin of AR: خ سبع</p>
+                            </note>
+                            سنين وكان منذ وقت <note n="3" type="footnote">
+                                <p>AR: om. وقت</p>
+                            </note>
+                            وفاة أفلاطن وإلى ظهور أسقليبيوس <note n="4" type="footnote">
+                                <p>Müller: أسقليبيوس; ABR: وأسقلنبيوس</p>
+                            </note>
                             الثاني ألف وأربعمائة وعشرين سنة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان في هذه الفترة التي بين
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٥‬ب‬‎" />
-                            أفلاطن وأسقليبيوس <note n="5" type="footnote"><p>Müller: أسقليبيوس; ABGcR: وأسقلنبيوس</p></note>
-                            الثاني من الأطباء المذكورين ميلن الأقراغنطي <note n="6" type="footnote"><p>ABGc: الافراغيطي; R: الإفراط</p></note>
-                            وثامسطيوس الطبيب واقنينوس <note n="7" type="footnote"><p>Gc: اقننتوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: افيليوس</p></note>
-                            وفرديقلوس <note n="8" type="footnote"><p>Gc: add. القديم; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: فوذيفولس</p></note>
-                            وأندروماخس القديم <note n="9" type="footnote"><p>Gc: om. القديم</p></note>
-                            وهو أول من صنع الترياق وعاش أربعين سنة وإيرقليدس <note n="10" type="footnote"><p>ABGcR: أبرقليدس</p></note>
-                            الأول وعاش ستين سنة وافلاغورس وعاش خمس وثلاثين سنة وماخمينس <note n="11" type="footnote"><p>Gc: وماخينس; R: وماخمسيس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ماخيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماخالس</p></note>
-                            وبسطس <note n="12" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: سطس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: نسطس</p></note>
-                            وسيقورس <note n="13" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: منيفورس</p></note>
-                            وغالوس <note n="14" type="footnote"><p>R: om. وبسطس وسيقورس وغالوس</p></note>
-                            وماباطياس <note n="15" type="footnote"><p>Gc: ماجاطياس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ملياطاس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماراطناس</p></note>
-                            وإيرقلس <note n="16" type="footnote"><p>ABGcR: ابرقلس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: امروقليس: <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: أفروقلس</p></note>
-                            الطبيب وعاش مائة سنة وماناطيس وفيثاغورس الطبيب وعاش سبعين سنة وماخميس <note n="17" type="footnote"><p>R: وماخمسيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماخينس</p></note>
-                            وغالوس ومارينوس <note n="18" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماذاموموس</p></note>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٥‬ب‬‎"/>
+                            أفلاطن وأسقليبيوس <note n="5" type="footnote">
+                                <p>Müller: أسقليبيوس; ABGcR: وأسقلنبيوس</p>
+                            </note>
+                            الثاني من الأطباء المذكورين ميلن الأقراغنطي <note n="6" type="footnote">
+                                <p>ABGc: الافراغيطي; R: الإفراط</p>
+                            </note>
+                            وثامسطيوس الطبيب واقنينوس <note n="7" type="footnote">
+                                <p>Gc: اقننتوس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: افيليوس</p>
+                            </note>
+                            وفرديقلوس <note n="8" type="footnote">
+                                <p>Gc: add. القديم; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: فوذيفولس</p>
+                            </note>
+                            وأندروماخس القديم <note n="9" type="footnote">
+                                <p>Gc: om. القديم</p>
+                            </note>
+                            وهو أول من صنع الترياق وعاش أربعين سنة وإيرقليدس <note n="10" type="footnote">
+                                <p>ABGcR: أبرقليدس</p>
+                            </note>
+                            الأول وعاش ستين سنة وافلاغورس وعاش خمس وثلاثين سنة وماخمينس <note n="11" type="footnote">
+                                <p>Gc: وماخينس; R: وماخمسيس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ماخيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماخالس</p>
+                            </note>
+                            وبسطس <note n="12" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: سطس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: نسطس</p>
+                            </note>
+                            وسيقورس <note n="13" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: منيفورس</p>
+                            </note>
+                            وغالوس <note n="14" type="footnote">
+                                <p>R: om. وبسطس وسيقورس وغالوس</p>
+                            </note>
+                            وماباطياس <note n="15" type="footnote">
+                                <p>Gc: ماجاطياس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ملياطاس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماراطناس</p>
+                            </note>
+                            وإيرقلس <note n="16" type="footnote">
+                                <p>ABGcR: ابرقلس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: امروقليس: <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: أفروقلس</p>
+                            </note>
+                            الطبيب وعاش مائة سنة وماناطيس وفيثاغورس الطبيب وعاش سبعين سنة وماخميس <note n="17" type="footnote">
+                                <p>R: وماخمسيس; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماخينس</p>
+                            </note>
+                            وغالوس ومارينوس <note n="18" type="footnote">
+                                <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:270: ماذاموموس</p>
+                            </note>
                             وعاش مائة سنة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولما ظهر أسقليبيوس <note n="19" type="footnote"><p>AGcR: وأسقلنبيوس</p></note>
-                            الثاني نظر في الآراء القديمة فوجد أن الذي يجب أن يعتقد هو رأي أفلاطن فانتحله ثم توفي وخلف ثلاثة <note n="20" type="footnote"><p>Gc: om. ثلاثة</p></note>
-                            تلاميذ من أهل بيته لا غريب فيهم ولا طبيب سواهم <note n="21" type="footnote"><p>R: مثواهم</p></note>
-                            وهم بقراط ابن إيراقلس <note n="22" type="footnote"><p>ABGcR: ابرقلس</p></note>
-                            وماغارينس <note n="23" type="footnote"><p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ماغاريس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغاريس</p></note>
-                            ووارخس <note n="24" type="footnote"><p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أورجس</p></note>
-                            فلم تمض مديدة أشهر حتى توفي ماغارينس <note n="25" type="footnote"><p>Gc: ماغرينس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 20: ماغاريس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغاريس</p></note>
-                            ولحقه وارخس <note n="26" type="footnote"><p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أورجس</p></note>
-                            وبقي بقراط وحيد دهره طبيب كامل الفضائل تضرب به [‭[i,24‬ الأمثال الطبيب الفيلسوف إلى أن بلغ به الأمر أن عبد وهو الذي قوى صناعة القياس والتجربة تقوية عظيمة عجيبة لا يتهيأ لطاعن أن يحلها ولا يهتكها وعلم الغرباء الطب وجعلهم شبيهاً بأولاده لما خاف على الطب أن يفنى ويبيد من العالم كما يتبين أمره في هذا الباب الذي يأتي. <note n="27" type="footnote"><p>Gc: om. الذي يأتي</p></note>
+                            ولما ظهر أسقليبيوس <note n="19" type="footnote">
+                                <p>AGcR: وأسقلنبيوس</p>
+                            </note>
+                            الثاني نظر في الآراء القديمة فوجد أن الذي يجب أن يعتقد هو رأي أفلاطن فانتحله ثم توفي وخلف ثلاثة <note n="20" type="footnote">
+                                <p>Gc: om. ثلاثة</p>
+                            </note>
+                            تلاميذ من أهل بيته لا غريب فيهم ولا طبيب سواهم <note n="21" type="footnote">
+                                <p>R: مثواهم</p>
+                            </note>
+                            وهم بقراط ابن إيراقلس <note n="22" type="footnote">
+                                <p>ABGcR: ابرقلس</p>
+                            </note>
+                            وماغارينس <note n="23" type="footnote">
+                                <p>Cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 19: ماغاريس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغاريس</p>
+                            </note>
+                            ووارخس <note n="24" type="footnote">
+                                <p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أورجس</p>
+                            </note>
+                            فلم تمض مديدة أشهر حتى توفي ماغارينس <note n="25" type="footnote">
+                                <p>Gc: ماغرينس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 20: ماغاريس; Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: ماغاريس</p>
+                            </note>
+                            ولحقه وارخس <note n="26" type="footnote">
+                                <p>Cf. Shahrazūrī, <hi rend="italic">Nuzhat al-arwāḥ</hi>, 287: أورجس</p>
+                            </note>
+                            وبقي بقراط وحيد دهره طبيب كامل الفضائل تضرب به [‭[i,24‬ الأمثال الطبيب الفيلسوف إلى أن بلغ به الأمر أن عبد وهو الذي قوى صناعة القياس والتجربة تقوية عظيمة عجيبة لا يتهيأ لطاعن أن يحلها ولا يهتكها وعلم الغرباء الطب وجعلهم شبيهاً بأولاده لما خاف على الطب أن يفنى ويبيد من العالم كما يتبين أمره في هذا الباب الذي يأتي. <note n="27" type="footnote">
+                                <p>Gc: om. الذي يأتي</p>
+                            </note>
                             ‬‎
                         </p>
                     </div>
