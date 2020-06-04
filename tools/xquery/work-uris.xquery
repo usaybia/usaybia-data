@@ -8,8 +8,10 @@ xquery version "3.1";
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 
 let $collection := collection("/db/apps/usaybianet/data/texts/tei")
+let $next-limit := 500
 
-for $item at $i in $collection//list/item
+for $item at $i in ($collection//list/item)[position()<=$next-limit]
+return if ($item[not(title)]) then 
 let $section-number := $item/parent::list/preceding-sibling::p[hi][1]/hi/text()[1]
 let $section-number-sanitized := normalize-space(replace(replace(replace($section-number,".*\[", ""),"\].*",""),"\p{Cf}",""))
 let $item-number := replace(concat("no",replace($item/preceding-sibling::label[1]/text()[1],"(\d+).*","$1")),"\p{Cf}","")
@@ -30,3 +32,4 @@ let $item-new :=
 
 return 
     (update insert $item-new following $item, update delete $item)
+else ()
