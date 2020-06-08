@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-08+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -170,6 +170,10 @@
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
                  n="1.0"
                  when="2020-05-21+02:00">CREATED: person</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="1.1"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +182,13 @@
             <person xml:id="person-1963">
                <persName xml:id="name1963-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">Ṣāʿid ibn ʿAbdūs</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1963-1">Ṣāʿid ibn ʿAbdūs</persName>
                <idno type="URI">https://usaybia.net/person/1963</idno>
+               <bibl xml:id="bib1963-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">10.37.4</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

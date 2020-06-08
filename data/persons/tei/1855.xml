@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Pythagoras 2.1.4; 4.1.11.3; 4.1.11.4; 4.3; 4.3.2 (teaching and diet); 4.3.4.1–2 (travels and settlement in Italy); 4.3.4.3 (opposition of Cylon and death);</title>
+            <title level="a" xml:lang="en">"Pythagoras 2.1.4; 4.1.11.3; 4.1.11.4; 4.3; 4.3.2 (teaching and diet); 4.3.4.1–2 (travels and settlement in Italy); 4.3.4.3 (opposition of Cylon and death);"</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
                         (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-08+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -170,6 +170,10 @@
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
                  n="1.0"
                  when="2020-05-21+02:00">CREATED: person</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="1.1"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +182,13 @@
             <person xml:id="person-1855">
                <persName xml:id="name1855-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">Pythagoras 2.1.4; 4.1.11.3; 4.1.11.4; 4.3; 4.3.2 (teaching and diet); 4.3.4.1–2 (travels and settlement in Italy); 4.3.4.3 (opposition of Cylon and death);</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1855-1">"Pythagoras 2.1.4; 4.1.11.3; 4.1.11.4; 4.3; 4.3.2 (teaching and diet); 4.3.4.1–2 (travels and settlement in Italy); 4.3.4.3 (opposition of Cylon and death);"</persName>
                <idno type="URI">https://usaybia.net/person/1855</idno>
+               <bibl xml:id="bib1855-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">"4.4.1; 4.4.2.2; 4.5.1n; 4.6.3.1; 10.2.4 no. 34; 14.25.9 no. 24"</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

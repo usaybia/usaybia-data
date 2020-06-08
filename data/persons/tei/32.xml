@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-08+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -170,6 +170,10 @@
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
                  n="1.0"
                  when="2020-05-21+02:00">CREATED: person</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="1.1"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +182,13 @@
             <person xml:id="person-32">
                <persName xml:id="name32-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib32-1">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī</persName>
                <idno type="URI">https://usaybia.net/person/32</idno>
+               <bibl xml:id="bib32-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">"10.64.3; 10.66.4; 11.21; 14.22.5.2 no. 68n; 14.33.3n.; 15.18.1.1n; 15.31.6 no. 16; 15.37.1; 15.40; 15.45.1; 15.51.1.2"</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

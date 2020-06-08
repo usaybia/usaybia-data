@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-08+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -170,6 +170,10 @@
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
                  n="1.0"
                  when="2020-05-21+02:00">CREATED: person</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="1.1"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +182,13 @@
             <person xml:id="person-2380">
                <persName xml:id="name2380-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī)</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2380-1">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī)</persName>
                <idno type="URI">https://usaybia.net/person/2380</idno>
+               <bibl xml:id="bib2380-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">"7.1.6n; 7.2.3; 7.5.2; 7.5.4n; 7.5.5n; 7.10; 8.3.23; 8.4.7n; 8.7n; 8.26.14n; 8.29.11n; 15.33 no. 3; 15.50.7 no.2"</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>
