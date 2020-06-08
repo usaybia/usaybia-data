@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Adapted from https://github.com/srophe/srophe-eXist-app/blob/dev/srophe-app/repo.xml by Winona Salesky, accessed 2017-06-08. -->
 <meta xmlns="http://exist-db.org/xquery/repo">
-    <description>ScholarNET</description>
-    <author>Nathan Gibson</author>
-    <website>http://scholarnet.github.io/</website>
-    <status>beta</status>
+    <description>usaybia.net</description>
+    <author>Nathan Gibson and the Communities of Knowledge project team</author>
+    <website>https://usaybia.net</website>
+    <status>alpha</status>
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>scholarnet</target>
+    <target>usaybianet</target>
     <!--<prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>-->
     <config>
         <!-- App title -->
-        <title>ScholarNET: Voiceless Dialogues</title>
+        <title>Communities of Knowledge</title>
         <!-- App description -->
         <description></description>
         <!-- Contact email -->
@@ -21,15 +21,15 @@
         <!-- Logo name (assumes path to logo is $app-root/resources/img/) -->
         <logo></logo>
         <!-- Web Site URL -->
-        <url>http://scholarnet.github.io/</url>
+        <url>https://usaybia.net</url>
         <!-- Root of app for building dynamic links. Default is eXist app root -->
-        <nav-base>/exist/apps/scholarnet</nav-base>
+        <nav-base>/exist/apps/usaybia</nav-base>
         <!-- eXist app root for app deployment-->
-        <app-root>scholarnet</app-root>
+        <app-root>usaybia</app-root>
         <!-- eXist data app root for data -->
-        <data-root></data-root>
+        <data-root>usaybia-data</data-root>
         <!-- Base URI for identifiers in app data -->
-        <base_uri>http://scholarnet.github.io</base_uri>
+        <base_uri>https://usaybia.net</base_uri>
         <!-- Absolute (from app root) Path to ODD file used for translating controlled values. May be left blank. -->
         <odd></odd>
         <!-- xpath to unique identifier for record, syriaca.org uses tei:idno[@type='URL'], this is the default value -->
