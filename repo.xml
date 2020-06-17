@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Adapted from https://github.com/srophe/srophe-eXist-app/blob/dev/srophe-app/repo.xml by Winona Salesky, accessed 2017-06-08. -->
 <meta xmlns="http://exist-db.org/xquery/repo">
-    <description>usaybia.net</description>
+    <description>Usaybia.net data</description>
     <author>Nathan Gibson and the Communities of Knowledge project team</author>
     <website>https://usaybia.net</website>
     <status>alpha</status>
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>usaybianet</target>
+    <target>usaybia-data</target>
     <!--<prepare>pre-install.xql</prepare>
     <finish>post-install.xql</finish>-->
     <config>
