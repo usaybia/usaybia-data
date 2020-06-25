@@ -35,18 +35,18 @@
             <editor xml:id="nloehr"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor xml:id="rschmahl"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
-            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -94,7 +94,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="0.3"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-25+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -167,9 +167,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.0"
-                 when="2020-05-21+02:00">CREATED: person</change>
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +182,26 @@
             <person xml:id="person-2196">
                <persName xml:id="name2196-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">Thābit ibn Qurrah al-Ḥarrānī</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2196-1 #bib2196-1">Thābit ibn Qurrah al-Ḥarrānī</persName>
+               <persName xml:id="name2196-2" xml:lang="ar" source="#bib2196-1">أبو الحسن ثابت بن قُرّة الحراني</persName>
+               <persName xml:id="name2196-3" xml:lang="en-x-lhom" source="#bib2196-1">Thābit the Translator</persName>
+               <persName xml:id="name2196-4" xml:lang="ar" source="#bib2196-1">ثابت الناقل</persName>
+               <note xml:id="abstract-en-2196"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib2196-1">Thābit ibn Qurrah al-Ḥarrānī, mathematician and scientist</note>
                <idno type="URI">https://usaybia.net/person/2196</idno>
+               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/11861</idno>                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4190</idno>                <idno type="URI">https://ar.wikipedia.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%D8%A8%D9%86_%D9%82%D8%B1%D8%A9</idno>                <idno type="URI">http://viaf.org/viaf/55563658</idno>                <idno type="URI">http://dx.doi.org.emedien.ub.uni-muenchen.de/10.1163/1573-3912_islam_SIM_7507</idno>
+               <state xml:lang="en" type="occupation" source="#bib2196-1">
+                  <label>mathematician, scientist</label>
+               </state>
+               <bibl xml:id="bib2196-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">1.5n; 2.1.5; 8.29.5; 8.29.22n; 9.12; 9.28; 10.1.5; 10.2.4 no. 25; 10.3; 10.19 no. 1; 11.3; 14.22.4.3 no. 44n; 14.25.9 no. 45n</citedRange>
+                  <citedRange unit="section">10.3</citedRange>
+                  <citedRange unit="section">9.28</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

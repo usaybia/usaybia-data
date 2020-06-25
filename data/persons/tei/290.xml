@@ -35,18 +35,18 @@
             <editor xml:id="nloehr"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor xml:id="rschmahl"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
-            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -71,7 +71,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -94,7 +95,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="0.3"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -108,7 +109,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-25+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -167,9 +168,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.0"
-                 when="2020-05-21+02:00">CREATED: person</change>
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +183,20 @@
             <person xml:id="person-290">
                <persName xml:id="name290-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">Abū Muḥammad al-Ṣilḥī</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib290-1">Abū Muḥammad al-Ṣilḥī</persName>
+               <note xml:id="abstract-en-290"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib290-1">Abū Muḥammad al-Ṣilḥī, secretary to al-Muṭīʿ li-Allāh</note>
                <idno type="URI">https://usaybia.net/person/290</idno>
+               <state xml:lang="en" type="occupation" source="#bib290-1">
+                  <label>secretary</label>
+               </state>
+               <bibl xml:id="bib290-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">10.29</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

@@ -35,18 +35,18 @@
             <editor xml:id="nloehr"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor xml:id="rschmahl"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
-            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -75,7 +75,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -94,7 +95,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="0.3"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -108,7 +109,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-05-21+02:00</date>
+            <date>2020-06-25+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -167,9 +168,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
+                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
          <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.0"
-                 when="2020-05-21+02:00">CREATED: person</change>
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,8 +183,22 @@
             <person xml:id="person-1464">
                <persName xml:id="name1464-1"
                          xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword">al-Malik al-ʿAzīz Uthmān</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1464-1">al-Malik al-ʿAzīz Uthmān</persName>
+               <persName xml:id="name1464-2" xml:lang="ar" source="#">الملك العزيز عثمان بن عبذد الملك الناصر صلاح الدين</persName>
+               <note xml:id="abstract-en-1464"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib1464-1">al-Malik al-ʿAzīz Uthmān, Ayyubid ruler of Egypt, son of Saladin</note>
                <idno type="URI">https://usaybia.net/person/1464</idno>
+               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2_%D8%B9%D9%85%D8%A7%D8%AF_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%B9%D8%AB%D9%85%D8%A7%D9%86</idno>
+               <state xml:lang="en" type="occupation" source="#bib1464-1">
+                  <label>ruler</label>
+               </state>
+               <bibl xml:id="bib1464-1">
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">14.37; 14.44.2; 15.22 no. 17; 15.40.3; 15.40.9 no. 23; 15.51.1</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>
