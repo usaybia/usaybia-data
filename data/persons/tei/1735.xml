@@ -193,8 +193,14 @@
                      source="#bib1735-1">Najm al-Dīn ibn al-Minfākh, Abū l-ʿAbbās Aḥmad ibn Abī l-Fāḍl Asʿad ibn Ḥulwān nicknamed ‘the son of the singer’, physician teacher of Ibn al-Quff</note>
                <idno type="URI">https://usaybia.net/person/1735</idno>
                <idno type="URI">http://viaf.org/viaf/90084451</idno>
-               <state xml:lang="en" type="occupation" source="#bib1735-1">
-                  <label>singer, physician, teacher</label>
+               <state xml:lang="en" type="occupation" role="singer" source="#bib1735-1">
+                  <desc>singer</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="physician" source="#bib1735-1">
+                  <desc>physician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="teacher" source="#bib1735-1">
+                  <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1735-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

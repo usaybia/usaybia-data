@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1816-1">Phanias, physician of antiquity, pupil of Plato the Physician</note>
                <idno type="URI">https://usaybia.net/person/1816</idno>
-               <state xml:lang="en" type="occupation" source="#bib1816-1">
-                  <label>physician, pupil</label>
+               <state xml:lang="en" type="occupation" role="physician" source="#bib1816-1">
+                  <desc>physician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="pupil" source="#bib1816-1">
+                  <desc>pupil</desc>
                </state>
                <bibl xml:id="bib1816-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib473-1">ʿAlī ibn ʿĪsā ibn Māhān, guard commander under caliphs al-Mahdī and Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/473</idno>
-               <state xml:lang="en" type="occupation" source="#bib473-1">
-                  <label>commander, caliph</label>
+               <state xml:lang="en" type="occupation" role="commander" source="#bib473-1">
+                  <desc>commander</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="caliph" source="#bib473-1">
+                  <desc>caliph</desc>
                </state>
                <bibl xml:id="bib473-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

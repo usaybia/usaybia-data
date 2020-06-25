@@ -191,8 +191,14 @@
                      type="abstract"
                      source="#bib1294-1">ʿIzz al-Dīn al-Ḥasan ibn Muḥammad ibn Aḥmad al-Ghanawī al-Rāfiḍī al-Irbilī al-Ḍarīr (d. 660/1262), poet, philosopher, teacher of Ibn al-Quff</note>
                <idno type="URI">https://usaybia.net/person/1294</idno>
-               <state xml:lang="en" type="occupation" source="#bib1294-1">
-                  <label>poet, philosopher, teacher</label>
+               <state xml:lang="en" type="occupation" role="poet" source="#bib1294-1">
+                  <desc>poet</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="philosopher" source="#bib1294-1">
+                  <desc>philosopher</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="teacher" source="#bib1294-1">
+                  <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1294-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

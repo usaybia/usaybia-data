@@ -193,8 +193,11 @@
                      source="#bib1258-1">Isḥāq ibn Ḥunayn, translator of Greek philosophy, author of `Taʾrīkh al-aṭibbāʾ`</note>
                <idno type="URI">https://usaybia.net/person/1258</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30088</idno>                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50087</idno>                <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AD%D8%A7%D9%82_%D8%A8%D9%86_%D8%AD%D9%86%D9%8A%D9%86</idno>                <idno type="URI">http://viaf.org/viaf/81962417</idno>                <idno type="URI">http://dx.doi.org.emedien.ub.uni-muenchen.de/10.1163/1573-3912_ei3_COM_32555</idno>                <idno type="URI">http://syriaca.org/person/1000</idno>
-               <state xml:lang="en" type="occupation" source="#bib1258-1">
-                  <label>translator, author</label>
+               <state xml:lang="en" type="occupation" role="translator" source="#bib1258-1">
+                  <desc>translator</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="author" source="#bib1258-1">
+                  <desc>author</desc>
                </state>
                <bibl xml:id="bib1258-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

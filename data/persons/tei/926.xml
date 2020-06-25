@@ -191,8 +191,14 @@
                      source="#bib926-1">Ibn Abī Uṣaybiʿah, Muwaffaq al-Dīn Abū l-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfah, the author of the present book `passim` treatises specified: Preface `K. Maʿālim al-umam wa-akhbār dhawī li-ḥikam (The Outstanding Personalities of All Nations`); 5.1.27 (intention to write a monograph on Galen); 10.67.3 `Iṣābāt al-munajjimīn` (`The Predictions of the Astrologers`); 11.5.13 `Ḥikāyāt al-aṭibbāʾ fī ʿilājāt al-adwāʾ` (`Anecdotes of Physicians on the Treatment of Illnesses`); 15.42 `K. al-tajārib wa-l-fawāʾid` (`Experiences and Useful Lessons`) poetry by ⅠＡＵ:</note>
                <idno type="URI">https://usaybia.net/person/926</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/250369</idno>                <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%A3%D8%B5%D9%8A%D8%A8%D8%B9%D8%A9</idno>                <idno type="URI">http://viaf.org/viaf/272709554</idno>                <idno type="URI">http://dx.doi.org/10.1163/1573-3912_islam_SIM_3058</idno>
-               <state xml:lang="en" type="occupation" source="#bib926-1">
-                  <label>author, phyiscian, poet</label>
+               <state xml:lang="en" type="occupation" role="author" source="#bib926-1">
+                  <desc>author</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="phyiscian" source="#bib926-1">
+                  <desc>phyiscian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="poet" source="#bib926-1">
+                  <desc>poet</desc>
                </state>
                <bibl xml:id="bib926-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

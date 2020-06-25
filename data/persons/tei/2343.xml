@@ -192,8 +192,11 @@
                      source="#bib2343-1">Yūsuf al-Khūrī `or` al-Qass (the priest), Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā known as Yūsuf the Translator, the Physician, and the Sleepless, physician under al-Muktafī</note>
                <idno type="URI">https://usaybia.net/person/2343</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4161</idno>
-               <state xml:lang="en" type="occupation" source="#bib2343-1">
-                  <label>Physician, physician</label>
+               <state xml:lang="en" type="occupation" role="Physician" source="#bib2343-1">
+                  <desc>Physician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="physician" source="#bib2343-1">
+                  <desc>physician</desc>
                </state>
                <bibl xml:id="bib2343-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

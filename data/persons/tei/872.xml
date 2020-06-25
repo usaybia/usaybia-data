@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib872-1">Hermias ‘the Slave’, ruler of Atarneus Herminus, teacher of Alexander of Aphrodisias</note>
                <idno type="URI">https://usaybia.net/person/872</idno>
-               <state xml:lang="en" type="occupation" source="#bib872-1">
-                  <label>ruler, teacher</label>
+               <state xml:lang="en" type="occupation" role="ruler" source="#bib872-1">
+                  <desc>ruler</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="teacher" source="#bib872-1">
+                  <desc>teacher</desc>
                </state>
                <bibl xml:id="bib872-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

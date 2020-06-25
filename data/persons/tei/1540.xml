@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1540-1">al-Mastūr, Abū l-Faraj al-Ḥusayn ibn Muḥammad, grammarian and poet (d. 392/1001–1002)</note>
                <idno type="URI">https://usaybia.net/person/1540</idno>
-               <state xml:lang="en" type="occupation" source="#bib1540-1">
-                  <label>grammarian, poet</label>
+               <state xml:lang="en" type="occupation" role="grammarian" source="#bib1540-1">
+                  <desc>grammarian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="poet" source="#bib1540-1">
+                  <desc>poet</desc>
                </state>
                <bibl xml:id="bib1540-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

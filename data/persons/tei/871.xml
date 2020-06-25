@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib871-1">Hermann of Carinthia, Istrian scholar and translator</note>
                <idno type="URI">https://usaybia.net/person/871</idno>
-               <state xml:lang="en" type="occupation" source="#bib871-1">
-                  <label>scholar, translator</label>
+               <state xml:lang="en" type="occupation" role="scholar" source="#bib871-1">
+                  <desc>scholar</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="translator" source="#bib871-1">
+                  <desc>translator</desc>
                </state>
                <bibl xml:id="bib871-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

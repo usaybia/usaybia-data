@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib2225-1">Thrasyllus of Mendes, 1st-c. ＡⅮ grammarian and literary commentator</note>
                <idno type="URI">https://usaybia.net/person/2225</idno>
-               <state xml:lang="en" type="occupation" source="#bib2225-1">
-                  <label>grammarian, commentator</label>
+               <state xml:lang="en" type="occupation" role="grammarian" source="#bib2225-1">
+                  <desc>grammarian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="commentator" source="#bib2225-1">
+                  <desc>commentator</desc>
                </state>
                <bibl xml:id="bib2225-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib2067-1">Sharaf al-Dīn al-Muẓaffar ibn Muḥammad ibn al-Muẓaffar al-Ṭūsī, mathematician and astronomer (d. 610/1213)</note>
                <idno type="URI">https://usaybia.net/person/2067</idno>
-               <state xml:lang="en" type="occupation" source="#bib2067-1">
-                  <label>mathematician, astronomer</label>
+               <state xml:lang="en" type="occupation" role="mathematician" source="#bib2067-1">
+                  <desc>mathematician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="astronomer" source="#bib2067-1">
+                  <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib2067-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

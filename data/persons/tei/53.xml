@@ -194,8 +194,11 @@
                      source="#bib53-1">al-ʿAbdī ʿAbdishoʿ bar Bahrīz (ʿAbdīshūʿ ibn Bahrīz), metropolitan and translator</note>
                <idno type="URI">https://usaybia.net/person/53</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4167</idno>                <idno type="URI">http://viaf.org/viaf/116145542625296641660</idno>                <idno type="URI">http://syriaca.org/person/309</idno>
-               <state xml:lang="en" type="occupation" source="#bib53-1">
-                  <label>metropolitan, translator</label>
+               <state xml:lang="en" type="occupation" role="metropolitan" source="#bib53-1">
+                  <desc>metropolitan</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="translator" source="#bib53-1">
+                  <desc>translator</desc>
                </state>
                <bibl xml:id="bib53-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

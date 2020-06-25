@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib849-1">al-Ḥasan ibn Bishr al-Dimashqī, satiric poet at the court of the Fatimid caliph al-ʿAzīz bi-Allāh</note>
                <idno type="URI">https://usaybia.net/person/849</idno>
-               <state xml:lang="en" type="occupation" source="#bib849-1">
-                  <label>poet, caliph</label>
+               <state xml:lang="en" type="occupation" role="poet" source="#bib849-1">
+                  <desc>poet</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="caliph" source="#bib849-1">
+                  <desc>caliph</desc>
                </state>
                <bibl xml:id="bib849-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

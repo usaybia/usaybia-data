@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib1036-1">Ibn Kunāsah, Iraqi poet and scholar (123–207 `or` 208/ 741– 823 `or` 824)</note>
                <idno type="URI">https://usaybia.net/person/1036</idno>
-               <state xml:lang="en" type="occupation" source="#bib1036-1">
-                  <label>poet, scholar</label>
+               <state xml:lang="en" type="occupation" role="poet" source="#bib1036-1">
+                  <desc>poet</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="scholar" source="#bib1036-1">
+                  <desc>scholar</desc>
                </state>
                <bibl xml:id="bib1036-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

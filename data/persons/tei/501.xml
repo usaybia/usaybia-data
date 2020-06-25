@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib501-1">ʿĀmir ibn Sharāḥīl al-Shaʿbī, early `muḥaddith` and legal expert</note>
                <idno type="URI">https://usaybia.net/person/501</idno>
-               <state xml:lang="en" type="occupation" source="#bib501-1">
-                  <label>muḥaddith, legal expert</label>
+               <state xml:lang="en" type="occupation" role="muḥaddith" source="#bib501-1">
+                  <desc>muḥaddith</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="legal expert" source="#bib501-1">
+                  <desc>legal expert</desc>
                </state>
                <bibl xml:id="bib501-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

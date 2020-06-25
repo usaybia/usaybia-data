@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib817-1">Ḥamdūn, Ibrāhīm, called Ḥamdūn (Ibn Ismāʿīl ibn Dāwūd ibn Ḥamdūn), courtier of caliphs al-Maʿmūn, al-Muʿtaṣim</note>
                <idno type="URI">https://usaybia.net/person/817</idno>
-               <state xml:lang="en" type="occupation" source="#bib817-1">
-                  <label>courtier, caliph</label>
+               <state xml:lang="en" type="occupation" role="courtier" source="#bib817-1">
+                  <desc>courtier</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="caliph" source="#bib817-1">
+                  <desc>caliph</desc>
                </state>
                <bibl xml:id="bib817-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

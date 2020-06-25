@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1632-1">Muḥammad ibn Sallām al-Jumaḥī, traditionist and author of `Ṭabaqāt al-shuʿarā` (d. ca. 231–232/845–6)</note>
                <idno type="URI">https://usaybia.net/person/1632</idno>
-               <state xml:lang="en" type="occupation" source="#bib1632-1">
-                  <label>tradionist, author</label>
+               <state xml:lang="en" type="occupation" role="tradionist" source="#bib1632-1">
+                  <desc>tradionist</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="author" source="#bib1632-1">
+                  <desc>author</desc>
                </state>
                <bibl xml:id="bib1632-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

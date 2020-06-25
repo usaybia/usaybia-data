@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib1838-1">Politianus (Balīṭīyān), patriarch of Alexandria and physician</note>
                <idno type="URI">https://usaybia.net/person/1838</idno>
-               <state xml:lang="en" type="occupation" source="#bib1838-1">
-                  <label>patriarch, physician</label>
+               <state xml:lang="en" type="occupation" role="patriarch" source="#bib1838-1">
+                  <desc>patriarch</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="physician" source="#bib1838-1">
+                  <desc>physician</desc>
                </state>
                <bibl xml:id="bib1838-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

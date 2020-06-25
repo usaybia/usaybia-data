@@ -193,8 +193,14 @@
                      source="#bib461-1">ʿAlī, known as al-Fayyūm, Christian patron of translators including Ḥunayn ibn Isḥāq, governor of the Egyptian district of Fayyūm</note>
                <idno type="URI">https://usaybia.net/person/461</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4177</idno>
-               <state xml:lang="en" type="occupation" source="#bib461-1">
-                  <label>patron, translator, governor</label>
+               <state xml:lang="en" type="occupation" role="patron" source="#bib461-1">
+                  <desc>patron</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="translator" source="#bib461-1">
+                  <desc>translator</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="governor" source="#bib461-1">
+                  <desc>governor</desc>
                </state>
                <bibl xml:id="bib461-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

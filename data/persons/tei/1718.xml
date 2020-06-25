@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1718-1">al-Muẓaffar, ʿAbd al-Malik ibn Abī ʿĀmir, chamberlain of al-Ḥakam ⅠⅠ and `de facto` ruler of al-Andalus in 392–399/1002– 1008</note>
                <idno type="URI">https://usaybia.net/person/1718</idno>
-               <state xml:lang="en" type="occupation" source="#bib1718-1">
-                  <label>chamberlain, ruler</label>
+               <state xml:lang="en" type="occupation" role="chamberlain" source="#bib1718-1">
+                  <desc>chamberlain</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="ruler" source="#bib1718-1">
+                  <desc>ruler</desc>
                </state>
                <bibl xml:id="bib1718-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

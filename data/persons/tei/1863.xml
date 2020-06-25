@@ -189,8 +189,14 @@
                      type="abstract"
                      source="#bib1863-1">al-Qāḍī al-Nuʿmān (d. 363/ 974), theologian and qadi of the Fatimid caliph Muʿizz liDīn Allāh</note>
                <idno type="URI">https://usaybia.net/person/1863</idno>
-               <state xml:lang="en" type="occupation" source="#bib1863-1">
-                  <label>theologian, qadi, caliph</label>
+               <state xml:lang="en" type="occupation" role="theologian" source="#bib1863-1">
+                  <desc>theologian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="qadi" source="#bib1863-1">
+                  <desc>qadi</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="caliph" source="#bib1863-1">
+                  <desc>caliph</desc>
                </state>
                <bibl xml:id="bib1863-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

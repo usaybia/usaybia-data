@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib2235-1">Timotheus, Greek philosopher, teacher of Socrates</note>
                <idno type="URI">https://usaybia.net/person/2235</idno>
-               <state xml:lang="en" type="occupation" source="#bib2235-1">
-                  <label>philosopher, teacher</label>
+               <state xml:lang="en" type="occupation" role="philosopher" source="#bib2235-1">
+                  <desc>philosopher</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="teacher" source="#bib2235-1">
+                  <desc>teacher</desc>
                </state>
                <bibl xml:id="bib2235-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -192,8 +192,11 @@
                      source="#bib1627-1">al-Ḥasanī Muḥammad ibn Mūsā, Abū Jaʿfar al-Munajjim (‘the astrologer’), son of Mūsā ibn Shākir, patron of Ḥunayn ibn Isḥāq</note>
                <idno type="URI">https://usaybia.net/person/1627</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4172</idno>
-               <state xml:lang="en" type="occupation" source="#bib1627-1">
-                  <label>astrologer, patron</label>
+               <state xml:lang="en" type="occupation" role="astrologer" source="#bib1627-1">
+                  <desc>astrologer</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="patron" source="#bib1627-1">
+                  <desc>patron</desc>
                </state>
                <bibl xml:id="bib1627-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

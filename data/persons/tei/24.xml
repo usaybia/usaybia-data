@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib24-1">ʿAbd Allāh ibn Nāʾilī (`or` Ibn al-Tātalī `or` Ibn al-Bābilī), specialist in alchemy and numerology, member of the Almoravid dynasty</note>
                <idno type="URI">https://usaybia.net/person/24</idno>
-               <state xml:lang="en" type="occupation" source="#bib24-1">
-                  <label>alchemy, numerology</label>
+               <state xml:lang="en" type="occupation" role="alchemy" source="#bib24-1">
+                  <desc>alchemy</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="numerology" source="#bib24-1">
+                  <desc>numerology</desc>
                </state>
                <bibl xml:id="bib24-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

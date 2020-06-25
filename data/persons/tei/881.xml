@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib881-1">Hilāl ibn Abī Hilāl al-Ḥimṣī, mathematician (d. 218/833), translator of Apollonius’ `K. al-Makhrūṭāt`</note>
                <idno type="URI">https://usaybia.net/person/881</idno>
-               <state xml:lang="en" type="occupation" source="#bib881-1">
-                  <label>mathematican, translator</label>
+               <state xml:lang="en" type="occupation" role="mathematican" source="#bib881-1">
+                  <desc>mathematican</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="translator" source="#bib881-1">
+                  <desc>translator</desc>
                </state>
                <bibl xml:id="bib881-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

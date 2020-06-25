@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib111-1">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī (d. 379/989), Andalusī historian and secretary of al-Ḥakam ⅠⅠ</note>
                <idno type="URI">https://usaybia.net/person/111</idno>
-               <state xml:lang="en" type="occupation" source="#bib111-1">
-                  <label>historian, secretary</label>
+               <state xml:lang="en" type="occupation" role="historian" source="#bib111-1">
+                  <desc>historian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="secretary" source="#bib111-1">
+                  <desc>secretary</desc>
                </state>
                <bibl xml:id="bib111-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

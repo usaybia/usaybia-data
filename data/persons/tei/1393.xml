@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib1393-1">al-Khaṭīb al-Dawlaʿī, preacher and student of law (d. 598/1202)</note>
                <idno type="URI">https://usaybia.net/person/1393</idno>
-               <state xml:lang="en" type="occupation" source="#bib1393-1">
-                  <label>preacher, student</label>
+               <state xml:lang="en" type="occupation" role="preacher" source="#bib1393-1">
+                  <desc>preacher</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="student" source="#bib1393-1">
+                  <desc>student</desc>
                </state>
                <bibl xml:id="bib1393-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

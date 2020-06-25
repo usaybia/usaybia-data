@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib1069-1">Ibn al-Muʿtazz, ʿAbd Allāh, Abbasid prince and poet (d. 296/908)</note>
                <idno type="URI">https://usaybia.net/person/1069</idno>
-               <state xml:lang="en" type="occupation" source="#bib1069-1">
-                  <label>prince, poet</label>
+               <state xml:lang="en" type="occupation" role="prince" source="#bib1069-1">
+                  <desc>prince</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="poet" source="#bib1069-1">
+                  <desc>poet</desc>
                </state>
                <bibl xml:id="bib1069-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

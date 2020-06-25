@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1588-1">al-Mubarrad, Abū l-ʿAbbās Muḥammad ibn Yazīd al-Azdī, philologist, grammarian (d. 285/898)</note>
                <idno type="URI">https://usaybia.net/person/1588</idno>
-               <state xml:lang="en" type="occupation" source="#bib1588-1">
-                  <label>philologist, grammarian</label>
+               <state xml:lang="en" type="occupation" role="philologist" source="#bib1588-1">
+                  <desc>philologist</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="grammarian" source="#bib1588-1">
+                  <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib1588-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

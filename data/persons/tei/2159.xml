@@ -189,8 +189,17 @@
                      type="abstract"
                      source="#bib2159-1">al-Ṣūlī, Abū Bakr Muḥammad ibn Yaḥyā, court companion of caliphs, expert on poetry and chess, author of `K. al-Awrāq` (d. 335/947)</note>
                <idno type="URI">https://usaybia.net/person/2159</idno>
-               <state xml:lang="en" type="occupation" source="#bib2159-1">
-                  <label>caliph, expert , poet, author</label>
+               <state xml:lang="en" type="occupation" role="caliph" source="#bib2159-1">
+                  <desc>caliph</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="expert " source="#bib2159-1">
+                  <desc>expert </desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="poet" source="#bib2159-1">
+                  <desc>poet</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="author" source="#bib2159-1">
+                  <desc>author</desc>
                </state>
                <bibl xml:id="bib2159-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

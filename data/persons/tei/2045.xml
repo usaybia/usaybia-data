@@ -189,8 +189,14 @@
                      type="abstract"
                      source="#bib2045-1">al-Shahrazūrī, 7th/13th-c. physician, historian and philosopher</note>
                <idno type="URI">https://usaybia.net/person/2045</idno>
-               <state xml:lang="en" type="occupation" source="#bib2045-1">
-                  <label>physician, historian, philosopher</label>
+               <state xml:lang="en" type="occupation" role="physician" source="#bib2045-1">
+                  <desc>physician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="historian" source="#bib2045-1">
+                  <desc>historian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="philosopher" source="#bib2045-1">
+                  <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2045-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

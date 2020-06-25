@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib697-1">al-Darkazīnī, ʿImād al-Dīn Abū l-Barakāt ibn Salamah, vizier under the Seljuq ruler Maḥmūd ibn Muḥammad ibn Malikshāh (d. 521/1127)</note>
                <idno type="URI">https://usaybia.net/person/697</idno>
-               <state xml:lang="en" type="occupation" source="#bib697-1">
-                  <label>vizier, ruler</label>
+               <state xml:lang="en" type="occupation" role="vizier" source="#bib697-1">
+                  <desc>vizier</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="ruler" source="#bib697-1">
+                  <desc>ruler</desc>
                </state>
                <bibl xml:id="bib697-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib1671-1">Mūsā ibn ʿAbd al-Malik, secretary to the caliph al-Mutawakkil (`reg.` 232–247/847– 61)</note>
                <idno type="URI">https://usaybia.net/person/1671</idno>
-               <state xml:lang="en" type="occupation" source="#bib1671-1">
-                  <label>secretary, caliph</label>
+               <state xml:lang="en" type="occupation" role="secretary" source="#bib1671-1">
+                  <desc>secretary</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="caliph" source="#bib1671-1">
+                  <desc>caliph</desc>
                </state>
                <bibl xml:id="bib1671-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

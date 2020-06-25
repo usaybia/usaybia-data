@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib733-1">Elias of Nisibis, 11th c., brother of Zāhid al-ʿUlamāʾ, metropolitan of Nisibis, chronographer</note>
                <idno type="URI">https://usaybia.net/person/733</idno>
-               <state xml:lang="en" type="occupation" source="#bib733-1">
-                  <label>metropolitan, chronographer</label>
+               <state xml:lang="en" type="occupation" role="metropolitan" source="#bib733-1">
+                  <desc>metropolitan</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="chronographer" source="#bib733-1">
+                  <desc>chronographer</desc>
                </state>
                <bibl xml:id="bib733-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

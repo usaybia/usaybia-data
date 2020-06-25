@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib670-1">Caraka (also Sharak, Sīrk, or Jarak)– Indian physician, author of `Carakasaṃhitā`</note>
                <idno type="URI">https://usaybia.net/person/670</idno>
-               <state xml:lang="en" type="occupation" source="#bib670-1">
-                  <label>physician, author</label>
+               <state xml:lang="en" type="occupation" role="physician" source="#bib670-1">
+                  <desc>physician</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="author" source="#bib670-1">
+                  <desc>author</desc>
                </state>
                <bibl xml:id="bib670-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

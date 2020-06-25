@@ -190,8 +190,11 @@
                      type="abstract"
                      source="#bib128-1">Abū Bakr al-Khālidī, 4th/10th-c. poet and man of letters, brother of Abū ʿUthmān al-Khālidī</note>
                <idno type="URI">https://usaybia.net/person/128</idno>
-               <state xml:lang="en" type="occupation" source="#bib128-1">
-                  <label>poet , man of letters</label>
+               <state xml:lang="en" type="occupation" role="poet " source="#bib128-1">
+                  <desc>poet </desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="man of letters" source="#bib128-1">
+                  <desc>man of letters</desc>
                </state>
                <bibl xml:id="bib128-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

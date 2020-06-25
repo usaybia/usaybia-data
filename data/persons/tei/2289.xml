@@ -189,8 +189,14 @@
                      type="abstract"
                      source="#bib2289-1">al-Washshā, Abū l-Ṭayyib Muḥammad ibn Aḥmad, man of letters, grammarian and lexicographer (d. 325/937)</note>
                <idno type="URI">https://usaybia.net/person/2289</idno>
-               <state xml:lang="en" type="occupation" source="#bib2289-1">
-                  <label>man of letters, grammarian, lexicographer</label>
+               <state xml:lang="en" type="occupation" role="man of letters" source="#bib2289-1">
+                  <desc>man of letters</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="grammarian" source="#bib2289-1">
+                  <desc>grammarian</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="lexicographer" source="#bib2289-1">
+                  <desc>lexicographer</desc>
                </state>
                <bibl xml:id="bib2289-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

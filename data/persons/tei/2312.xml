@@ -189,8 +189,11 @@
                      type="abstract"
                      source="#bib2312-1">al-Yaʿqūbī, geographer and historian</note>
                <idno type="URI">https://usaybia.net/person/2312</idno>
-               <state xml:lang="en" type="occupation" source="#bib2312-1">
-                  <label>geographer, historian</label>
+               <state xml:lang="en" type="occupation" role="geographer" source="#bib2312-1">
+                  <desc>geographer</desc>
+               </state>
+                  <state xml:lang="en" type="occupation" role="historian" source="#bib2312-1">
+                  <desc>historian</desc>
                </state>
                <bibl xml:id="bib2312-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
