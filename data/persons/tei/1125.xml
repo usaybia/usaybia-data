@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">#REF!</title>
+            <title level="a" xml:lang="en">Ibn Sīnā</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
                         (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -35,18 +35,18 @@
             <editor xml:id="nloehr"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor xml:id="rschmahl"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
-            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -94,7 +94,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="0.3"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-06-08+02:00</date>
+            <date>2020-06-25+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -167,13 +167,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.0"
-                 when="2020-05-21+02:00">CREATED: person</change>
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.1"
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
                  when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
                 The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: CREATED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -183,11 +183,20 @@
                <persName xml:id="name1125-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1125-1">#REF!</persName>
+                         source="#bib1125-1">Ibn Sīnā</persName>
+               <persName xml:id="name1125-2" xml:lang="ar" source="#">ابن سينا ابو علي الحسين الشيخ الرئيس</persName>
+               <persName xml:id="name1125-3" xml:lang="en-x-lhom" source="#bib1125-1">al-Shaykh al-Raʾīs Ibn Sīnā</persName>
+               <persName xml:id="name1125-4" xml:lang="ar" source="#bib1125-1">الشيخ الرئيس بن سينا</persName>
+               <note xml:id="abstract-en-1125"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib1125-1">Ibn Sīnā, Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh al-Shaykh al-Raʾīs (d. 428/1037)</note>
                <idno type="URI">https://usaybia.net/person/1125</idno>
+               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30190 ; https://onomasticon.irht.cnrs.fr/en/entry/id/13056 ; https://onomasticon.irht.cnrs.fr/en/entry/id/30190 ; https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%8A%D9%86%D8%A7 ; http://viaf.org/viaf/89770781 ; http://dx.doi.org.emedien.ub.uni-muenchen.de/10.1163/1573-3912_islam_COM_0342 ; http://www.iranicaonline.org/articles/avicenna-index ; https://plato.stanford.edu/entries/ibn-sina/</idno>
                <bibl xml:id="bib1125-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">8.2</citedRange>
+                  <citedRange unit="section">1.2n; 8.26.6n; 10.35; 10.37.2; 10.51.2; 10.64.20 no. 12; 10.69.3.1; 10.75.1; 10.75.2; 10.75.4 no. 1; 10.83.7 no. 3; 11.11; 11.12; 11.13; 11.14; 11.15; 11.17; 11.19.7 nos. 34n, 35n, 62; 11.20; 11.23; 13.59.2.3; 13.61.2.1; 13.61.4 no. 6; 13.66.6 nos. 5, 37, 40; 14.29.4 no. 3; 14.32.5 no. 2n; 14.48.2; 14.48.3 no. 1; 15.10; 15.10 no. 4; 15.20 no. 2; 15.21 no. 2; 15.29; 15.29 nos. 1, 2; 15.31.6 nos. 1, 3, 4; 15.37.5 no. 2; 15.40.1; 15.40.3; 15.40.4; 15.40.9 nos. 87, 144, 147; 15.45.3(p); 15.46.4 no. 1; 15.49.6; 15.50.1; 15.57.1; 15.50.6(p); 15.52.1.1(p); 15.60.2 no. 2; ＡⅠ.1; ＡⅠ.2; ＡⅠ.3; ＡⅠⅠ.1(p); ＡⅠⅠ.8.1; ＡⅠⅠ.8.2</citedRange>
+                  <citedRange unit="section">11.13</citedRange>
                </bibl>
             </person>
          </listPerson>

@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb (573–635/1177–1238)</title>
+            <title level="a" xml:lang="en">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
                         (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -35,18 +35,18 @@
             <editor xml:id="nloehr"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor xml:id="rschmahl"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
-            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -94,7 +94,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="1.0"/>
+            <edition n="0.3"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -108,7 +108,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2020-06-08+02:00</date>
+            <date>2020-06-25+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -167,13 +167,13 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.0"
-                 when="2020-05-21+02:00">CREATED: person</change>
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
-                 n="1.1"
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
                  when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
                 The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
+         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: CREATED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -183,11 +183,20 @@
                <persName xml:id="name1472-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1472-1">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb (573–635/1177–1238)</persName>
+                         source="#bib1472-1">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb</persName>
+               <persName xml:id="name1472-2" xml:lang="ar" source="#">المالك الكامل محمد بن ابي بكر بن ايوب</persName>
+               <note xml:id="abstract-en-1472"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib1472-1">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb (573–635/1177–1238), fourth Ayyubid sultan in Egypt</note>
                <idno type="URI">https://usaybia.net/person/1472</idno>
+               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84_%D9%86%D8%A7%D8%B5%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D9%85%D8%AD%D9%85%D8%AF ; http://viaf.org/viaf/50020150 ; http://dx.doi.org/10.1163/1573-3912_islam_COM_0432</idno>
+               <state xml:lang="en" type="occupation" source="#bib1472-1">
+                  <label>sultan</label>
+               </state>
                <bibl xml:id="bib1472-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">14.54.8</citedRange>                   <citedRange unit="section">14.54.9</citedRange>                   <citedRange unit="section">14.54.10</citedRange>                   <citedRange unit="section">14.54.11</citedRange>                   <citedRange unit="section">14.56.1</citedRange>                   <citedRange unit="section">14.57.1</citedRange>                   <citedRange unit="section">14.57.3</citedRange>                   <citedRange unit="section">14.58.3</citedRange>                   <citedRange unit="section">15.37.3</citedRange>                   <citedRange unit="section">15.40.9 no. 14</citedRange>                   <citedRange unit="section">15.49.2</citedRange>                   <citedRange unit="section">15.50</citedRange>                   <citedRange unit="section">15.51.4</citedRange>
+                  <citedRange unit="section">14.22.2n; 14.40.1; 14.44.2; 14.45; 14.49.2;14.51.2; 14.53; 14.54.3; 14.54.4; 14.54.4–6; 14.54.8; 14.54.9; 14.54.10; 14.54.11; 14.56.1; 14.57.1; 14.57.3; 14.58.3; 15.37.3; 15.40.9 no. 14; 15.49.2; 15.50; 15.51.4</citedRange>
                </bibl>
             </person>
          </listPerson>
