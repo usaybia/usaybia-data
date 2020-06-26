@@ -81,11 +81,13 @@
             </sourceDesc>-->
         </fileDesc>
         <encodingDesc>
-            <!--<editorialDecl>
-                <p>The prosopographical data in this document was encoded from E. W. Brooks'
-                    edition and English translation of John of Ephesus’s Lives of the Eastern
-                    Saints, Patrologia Orientalis, volume 17, 1923. </p>
-            </editorialDecl>-->
+            <editorialDecl>
+                <p>The prosopographical data in this document was encoded from 
+                    <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                        Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                    A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                    of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+            </editorialDecl>
             <classDecl>
                 <taxonomy>
                     <category xml:id="calculated">
@@ -141,57 +143,80 @@
                 </bibl>
             </div>
             <div type="factoid" subtype="mentalState" xml:id="factoid-3" resp="#nloehr">
-                <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+                <idno type="URI">https://usaybia.net/factoid/14-25-3</idno>
                 <listPerson>
                     <person>
-                        <persName ref="https://usaybia.net/person/926"/>
-                        <state type="mental" ana="https://usaybia.net/mental/deteriorating">
+                        <persName ref="https://usaybia.net/person/1093"/>
+                        <state type="mental" ana="http://syriaca.org/keyword/mental-states">
                             <note type="desc"><persName ref="https://usaybia.net/person/926"
-                                >his</persName> mental faculties deteriorated <date>after the period of famine
-                                    <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053/1061</date></reg></date></note>
+                                >His</persName> mental faculties deteriorated <date>after the period of famine
+                                    (<reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053–1061</date></reg></date>).</note>
                         </state>
                     </person>
                 </listPerson>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">4</citedRange>
+                </bibl>
             </div>
             <div type="factoid" subtype="occupation" xml:id="factoid-12" resp="#nloehr">
-                <idno type="URI">https://usaybia.net/factoid/14-25-1</idno>
+                <idno type="URI">https://usaybia.net/factoid/14-25-12</idno>
                 <listPerson>
                     <person>
-                        <persName ref="https://usaybia.net/person/926"/>
-                        <occupation ana="https://usaybia.net/keyword/medicine"></occupation>
-                        <occupation ana="https://usaybia.net/keyword/astrologer"><note><persName ref="https://usaybia.net/person/926"/>I
-                            made a living by practising the art of astrology <reg><date cert="low">before 32</date></reg></note></occupation>
-                        <occupation ana="https://usaybia.net/keyword/teacher"></occupation>
+                        <persName ref="https://usaybia.net/person/1093"/>
+                        <occupation ana="https://usaybia.net/keyword/astrologers">
+                            <note>
+                                <persName ref="https://usaybia.net/person/1093">
+                                    Ibn Riḍwān
+                                </persName>
+                            made a living by practising the art of astrology 
+                                <reg>
+                                <date cert="low" 
+                                    notBefore="1002"
+                                    notAfter="1020">before the age of 32</date></reg></note></occupation>
                     </person>
                 </listPerson>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </div>
      <div type="factoid" subtype="event" xml:id="factoid-27" resp="#nloehr">
-         <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+         <idno type="URI">https://usaybia.net/factoid/14-25-27</idno>
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crime">
                         <desc> In <choice>
                             <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian"
-                                srophe:computed-start="1053"srophe:computed-end="1061">1053/1061</date></reg>
-                            <orig><date notBefore="445" notAfter="453" calendar="Hijri"
-                                srophe:computed-start="445"
-                                srophe:computed-end="453">445/453"></date></orig>
-                        </choice>, <persName ref="https://usaybia.net/person/2457"> an orphan girl
-                        </persName> whom he <persName ref="https://usaybia.net/person/926"/>raised in his <placeName ref="http://syriaca.org/place/Qasr_al-Sham">house</placeName>
-                            took valuables and gold worth about 20.000 Dinar and fled.
+                                srophe:computed-start="1053" srophe:computed-end="1061">1053–1061</date></reg>
+                            <orig><date notBefore="0445" notAfter="0453" calendar="Hijri"
+                                srophe:computed-start="0445"
+                                srophe:computed-end="0453">445–453</date></orig>
+                        </choice>, <persName ref="https://usaybia.net/person/2457">an orphan girl
+                        </persName> whom <persName ref="https://usaybia.net/person/1093">he</persName>raised in his 
+                            house in <placeName ref="http://syriaca.org/place/Qasr_al-Sham">Qasr al-Sham</placeName>
+                            took valuables and gold worth about 20,000 dinar and fled.
                         </desc>
                     </event>
                 </listEvent>
-            </div>
-        
-        
+         <bibl type="urn">
+             <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+             <citedRange unit="part">4</citedRange>
+         </bibl>
             </div>
             <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
-                <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+                <idno type="URI">https://usaybia.net/factoid/14-25-7</idno>
                 <listRelation>
                     <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/926 https://usaybia.net/person/2394">
                         <desc>Abū ʿAbd Allāh Muḥammad of <placeName ref="https://usaybia.net/place/Malaga">Malaga [in al-Andalus]</placeName>, 
-                            the <occupation ref="https://usaybia.net/occupation/scribe">copyist,</occupation> has related to me</desc>
+                            the <occupation ref="https://usaybia.net/occupation/scribe">copyist</occupation>, related to 
+                            Ibn Abī Uṣaybiʿa the mental derangement of 
+                            <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>.</desc>
                     </relation>
                 </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">4</citedRange>
+                </bibl>
             </div>
         </body>
         <!--<back>
