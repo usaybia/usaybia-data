@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+                <title level="m">Wissensgemeinschaften</title>
+                <!--<funder>The National Endowment for the Humanities</funder>
+                <principal>Daniel L. Schwartz</principal>
+                <funder>Texas A&amp;M University</funder>
+                <principal>Daniel L. Schwartz</principal>-->
+                <!--<editor role="general" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                    >Daniel L. Schwartz</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#dschwartz"
+                    >Daniel L. Schwartz</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jwalters"
+                    >James Walters</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#tbaillargeon"
+                    >Tara Baillargeon</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jdaccache"
+                    >Jimmy Daccache</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#tmcneir"
+                    >Taylor McNeir</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ewalsh"
+                    >Erin Galgay Walsh</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#syoung"
+                    >Samuel Young</editor>-->
+                <!--<respStmt>
+                    <resp>Data architecture, data entry, editing, proofreading, and revision
+                        by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dschwartz">Daniel L.
+                        Schwartz</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Data architecture and technical assistance by</resp>
+                    <name ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
+                        Michelson</name>
+                </respStmt>-->
+                <respStmt>
+                    <resp>Data entry and encoding by</resp>
+                    <name xml:id="nloehr" ref="https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                        >Nadine Löhr</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+<!--                <authority>Syriaca.org: The Syriac Reference Portal</authority>-->
+                <idno type="URI">http://usaybia.net/factoid/lhom-14-26/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                            License.</p>
+                    </licence>
+                </availability>
+                <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+            </publicationStmt>
+            <!--<sourceDesc>
+                <listBibl>
+                    <head>Sources for the Data in this Born Digital Prosopography</head>
+                    <bibl type="primary">
+                        <title>Lives of the Eastern Saints I</title>
+                        <title>Paul the Mourner</title>
+                        <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                        <editor><persName ref="http://syriaca.org/person/403">E. W. Brooks</persName></editor>
+                        <ptr target="http://syriaca.org/bibl/1409"/>
+                    </bibl>
+                    <bibl type="primary">
+                        <title>Paul the Mourner</title>
+                        <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                        <ptr target="http://syriaca.org/work/798"/>
+                    </bibl>
+                </listBibl>
+                <listRelation>
+                    <relation type="part" active="http://syriaca.org/work/798" ref="dcterms:isPartOf" passive="http://syriaca.org/work/9501"/>
+                </listRelation>
+            </sourceDesc>-->
+        </fileDesc>
+        <encodingDesc>
+            <!--<editorialDecl>
+                <p>The prosopographical data in this document was encoded from E. W. Brooks'
+                    edition and English translation of John of Ephesus’s Lives of the Eastern
+                    Saints, Patrologia Orientalis, volume 17, 1923. </p>
+            </editorialDecl>-->
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="calculated">
+                        <catDesc> Used to denote a date calculated by the editor from a regnal year
+                            given in the text. </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <revisionDesc>
+            <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Here is how the factoid URI and number might work. -->
+            <div type="factoid" subtype="birthDate" xml:id="factoid-1" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-1</idno>
+                <listPerson>
+                    <person>
+                        <persName ref="https://usaybia.net/person/2126"/>
+                        <birth>
+                            <choice>
+                                <orig>
+                                    <!-- Hijri -->
+                                </orig>
+                                <reg>
+                                    <!-- AD/CE -->
+                                </reg>
+                            </choice>
+                            
+                            <note> <!-- needs to be determined via planetary constellations! --></note> 
+                        </birth>
+                    </person>
+                </listPerson>
+                <!-- This is the reference that links the factoid to the text -->
+                <!-- If we add numbered divs for the numbered subsections (like 14.25.1) 
+                we could use this kind of reference, but we would have to make sure the URN 
+                resolves correctly with the additional number on the end. -->
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25.1"/>
+                </bibl>
+                <!-- Or we could do it like this if it isn't possible to resolve the additional numbers 
+                on the end. -->
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </div>
+            <div type="factoid" subtype="mentalState" xml:id="factoid-3" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+                <listPerson>
+                    <person>
+                        <persName ref="https://usaybia.net/person/926"/>
+                        <state type="mental" ana="https://usaybia.net/mental/deteriorating">
+                            <note type="desc"><persName ref="https://usaybia.net/person/926"
+                                >his</persName> mental faculties deteriorated <date>after the period of famine
+                                    <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053/1061</date></reg></date></note>
+                        </state>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="factoid" subtype="occupation" xml:id="factoid-12" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-1</idno>
+                <listPerson>
+                    <person>
+                        <persName ref="https://usaybia.net/person/926"/>
+                        <occupation ana="https://usaybia.net/keyword/medicine"></occupation>
+                        <occupation ana="https://usaybia.net/keyword/astrologer"><note><persName ref="https://usaybia.net/person/926"/>I
+                            made a living by practising the art of astrology <reg><date cert="low">before 32</date></reg></note></occupation>
+                        <occupation ana="https://usaybia.net/keyword/teacher"></occupation>
+                    </person>
+                </listPerson>
+     <div type="factoid" subtype="event" xml:id="factoid-27" resp="#nloehr">
+         <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+                <listEvent>
+                    <event ana="https://usaybia.net/keyword/crime">
+                        <desc> In <choice>
+                            <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian"
+                                srophe:computed-start="1053"srophe:computed-end="1061">1053/1061</date></reg>
+                            <orig><date notBefore="445" notAfter="453" calendar="Hijri"
+                                srophe:computed-start="445"
+                                srophe:computed-end="453">445/453"></date></orig>
+                        </choice>, <persName ref="https://usaybia.net/person/2457"> an orphan girl
+                        </persName> whom he <persName ref="https://usaybia.net/person/926"/>raised in his <placeName ref="http://syriaca.org/place/Qasr_al-Sham">house</placeName>
+                            took valuables and gold worth about 20.000 Dinar and fled.
+                        </desc>
+                    </event>
+                </listEvent>
+            </div>
+        
+        
+            </div>
+            <div type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
+                <listRelation>
+                    <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/926 https://usaybia.net/person/2394">
+                        <desc>Abū ʿAbd Allāh Muḥammad of <placeName ref="https://usaybia.net/place/Malaga">Malaga [in al-Andalus]</placeName>, 
+                            the <occupation ref="https://usaybia.net/occupation/scribe">copyist,</occupation> has related to me</desc>
+                    </relation>
+                </listRelation>
+            </div>
+        </body>
+        <!--<back>
+            <listBibl>
+                <head>Works Cited</head>
+                <bibl type="primary" xml:id="bibl798-1">
+                    <title>Lives of the Eastern Saints I</title>
+                    <title>Paul the Mourner</title>
+                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                    <editor><persName ref="http://syriaca.org/person/403">E. W. Brooks</persName></editor>
+                    <ptr target="http://syriaca.org/bibl/1409"/>
+                </bibl>
+                <bibl type="primary" xml:id="bibl798-2">
+                    <title>Paul the Mourner</title>
+                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                    <ptr target="http://syriaca.org/work/798"/>
+                </bibl>
+            </listBibl>
+        </back>-->
+    </text>
+</TEI>
