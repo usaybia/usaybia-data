@@ -104,15 +104,25 @@
 			<change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
 			<change when="2020-07-15" who="#ngibson">regex replacements changelog
 			<!--
+				NUMBER	FIND	REPLACE	COMMENT
+				1	(\s+)(عبد\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName>	ʿAbd compound names
+				2	(\s+)(سيف\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName> Sayf compound names
+				3	(\s+)(أبو\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abū compounds
+				4	(\s+)(أبي\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abī compounds
+				5	(\s+)(أب[وي]\s+)<addName>	$1<addName>$2	Abu/Abi + previous compounds
+				6	(\s+)(بن\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	bin compounds
+				7	(\s+)(بن\s+)<addName>	$1<addName>$2	bin + previous compounds
+				8	(\s+)([\u0620-\u065F]+\s+الدين)(\s+)	$1<addName>$2</addName>$3	Al-Dīn compounds (should probably be done as an earlier step)
+				9	(\s+)([لب])(أبي\s+[\u0620-\u065F]+)	$1$2<addName>$3</addName>	Combine with 3-4 above
+
+				Selective Replacements to do manually (not definitive enough)
 				FIND	REPLACE	COMMENT
-				(\s+)(عبد\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName>	ʿAbd compound names
-				(\s+)(سيف\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName> Sayf compound names
-				(\s+)(أبو\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abū compounds
-				(\s+)(أبي\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abī compounds
-				(\s+)(أب[وي]\s+)<addName>	$1<addName>$2	Abu/Abi + previous compounds
-				(\s+)(بن\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	bin compounds
-				(\s+)(بن\s+)<addName>	$1<addName>$2	bin + previous compounds
-				(\s+)([\u0620-\u065F]+\s+الدين)(\s+)	$1<addName>$2</addName>$3	Al-Dīn compounds (should probably be done as an earlier step)
+				(\s+)(أم\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Undistinguished from ʾam
+				(\s+)(بنت\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Sometimes a relationship
+
+				Selective auto-replacements to manually check and remove
+				Abū/Abī as relationships not names
+				Ibn as relationship not name
 			-->
 			</change>
         </revisionDesc>
@@ -913,7 +923,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.24.2‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">قال ابن جلجل حدثني عنه سليمان <addName>بن أيوب</addName> الفقيه قال قال اعتللت بحمى فطاولتني وأشرفت منها إذ مر بأبي وهو ناهض إلى صاحب المدينة أحمد <addName>بن عيسى</addName> فقام إليه وقضى واجب حقه بالسلام عليه وسأله عن علتي واستخبر <addName>أبي عما</addName> عولجت به فسفه علاج من عالجني وبعث إلى <addName>أبي بثمان</addName> عشرة حبة من حبوب مدورة وأمر أن أشرب منها كل يوم حبة فما استوعبتها حتى أقلعت الحمى وبرئت برؤأ تاماً.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">قال ابن جلجل حدثني عنه سليمان <addName>بن أيوب</addName> الفقيه قال قال اعتللت بحمى فطاولتني وأشرفت منها إذ مر ب<addName>أبي وهو</addName> ناهض إلى صاحب المدينة أحمد <addName>بن عيسى</addName> فقام إليه وقضى واجب حقه بالسلام عليه وسأله عن علتي واستخبر <addName>أبي عما</addName> عولجت به فسفه علاج من عالجني وبعث إلى <addName>أبي بثمان</addName> عشرة حبة من حبوب مدورة وأمر أن أشرب منها كل يوم حبة فما استوعبتها حتى أقلعت الحمى وبرئت برؤأ تاماً.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وعمي سعيد رحمه الله في آخر أيامه. <note n="12" type="footnote"><p>In margin of A, BGcH om.: وعمي سعيد رحمه الله في آخر أيامه</p></note>
 							‬‎
@@ -2540,7 +2550,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وها أنا بين عِدًى كلُّـهـمْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">عليَّ فكنْ بأبي أنت لي‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">عليَّ فكنْ ب<addName>أبي أنت</addName> لي‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">وقال أيضاً:‬‎</p>
@@ -3036,7 +3046,7 @@
 								من هيئتها وآثارها ومن اجتمع بهم <note n="114" type="footnote"><p>A: به</p></note>
 								فيها من الأطباء والمنجمين والشعراء وغيره من أهل الأدب وألف هذه الرسالة
 								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٥‬ب‬‎" />
-								لأبي الطاهر يحيى <addName>بن تميم</addName> <addName>بن المعز</addName> <addName>بن باديس</addName>
+								ل<addName>أبي الطاهر</addName> يحيى <addName>بن تميم</addName> <addName>بن المعز</addName> <addName>بن باديس</addName>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -3274,7 +3284,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.61.2.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">وفي زمانه وصل كتاب القانون لابن سينا إلى المغرب وقال ابن جميع المصري في كتاب التصريح بالمكنون في تنقيح القانون إن رجلاً من التجار جلب من العراق إلى الأندلس نسخة من هذا الكتاب وقد بولغ في تحسينها فاتحف بها لأبي العلاء <addName>بن زهر</addName> تقرباً إليه ولم يكن هذا الكتاب وقع إليه قبل ذلك فلما تأمله ذمه واطرح ولم يدخله خزانة كتبه وجعل يقطع من طرره ما يكتب فيه نسخ الأدوية لمن يستفتيه من المرضى.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">وفي زمانه وصل كتاب القانون لابن سينا إلى المغرب وقال ابن جميع المصري في كتاب التصريح بالمكنون في تنقيح القانون إن رجلاً من التجار جلب من العراق إلى الأندلس نسخة من هذا الكتاب وقد بولغ في تحسينها فاتحف بها ل<addName>أبي العلاء</addName> <addName>بن زهر</addName> تقرباً إليه ولم يكن هذا الكتاب وقع إليه قبل ذلك فلما تأمله ذمه واطرح ولم يدخله خزانة كتبه وجعل يقطع من طرره ما يكتب فيه نسخ الأدوية لمن يستفتيه من المرضى.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.61.2.2‬]</hi>
 						</p>
@@ -3462,13 +3472,13 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وحدثني القاضي <addName>أبو مروان</addName> محمد <addName>بن أحمد</addName> <addName>بن عبد الملك</addName> اللخمي ثم الباجي قال حدثني من أثق به أنه <note n="20" type="footnote"><p>H: om. أنه</p></note>
-							كان باشبيلية حكيم فاضل في صناعة الطب يعرف بالفار وله كتاب جيد في الأودية المفردة سفران وكان <addName>أبو مروان</addName> <addName>بن زهر</addName> كثيراً ما يأكل التين الأخضر ويميل إليه وكان الطبيب المعروف بالفار لا يغتذي منه بشيء وإن أخذ منه شيئاً فيكون واحدة في السنة فكان يقول هذا لأبي مروان <addName>بن زهر</addName> أنه لا بد أن تعرض لك <note n="21" type="footnote"><p>B: له</p></note>
+							كان باشبيلية حكيم فاضل في صناعة الطب يعرف بالفار وله كتاب جيد في الأودية المفردة سفران وكان <addName>أبو مروان</addName> <addName>بن زهر</addName> كثيراً ما يأكل التين الأخضر ويميل إليه وكان الطبيب المعروف بالفار لا يغتذي منه بشيء وإن أخذ منه شيئاً فيكون واحدة في السنة فكان يقول هذا ل<addName>أبي مروان</addName> <addName>بن زهر</addName> أنه لا بد أن تعرض لك <note n="21" type="footnote"><p>B: له</p></note>
 							نغلة صعبة بمداومتك أكل التين <note n="22" type="footnote"><p>H: om. أكل التين</p></note>
 							والنغلة هي الدبيلة بلغتهم وكان <addName>أبو مروان</addName> يقول له لا بد لكثرة حميتك وكونك لم تأكل شيئاً من التين أن يصيبك الشناج.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فلم يمت المعروف بالفار إلا بعلة التشنج وكذلك أيضاً عرض لأبي مروان <addName>بن زهر</addName> دبيلة في جنبه وتوفي بها وهذا من أبلغ ما يكون من <note n="23" type="footnote"><p>H: om. من</p></note>
-							تقدمة الإنذار قال ولما عرض لأبي مروان هذه العلة كان يعالجها ويصنع لها مراهم وأدوية ولم تؤثر نفعاً يعتد به فكان يقول له ابنه <addName>أبو بكر</addName> يا <addName>أبي لو</addName> غيرت هذا الدواء بالدواء الفلاني ولو زدت من هذا الدواء أو استعملت <note n="24" type="footnote"><p>Marginal note in R: اتفاقية غريبة</p></note>
+							قال فلم يمت المعروف بالفار إلا بعلة التشنج وكذلك أيضاً عرض ل<addName>أبي مروان</addName> <addName>بن زهر</addName> دبيلة في جنبه وتوفي بها وهذا من أبلغ ما يكون من <note n="23" type="footnote"><p>H: om. من</p></note>
+							تقدمة الإنذار قال ولما عرض ل<addName>أبي مروان</addName> هذه العلة كان يعالجها ويصنع لها مراهم وأدوية ولم تؤثر نفعاً يعتد به فكان يقول له ابنه <addName>أبو بكر</addName> يا <addName>أبي لو</addName> غيرت هذا الدواء بالدواء الفلاني ولو زدت من هذا الدواء أو استعملت <note n="24" type="footnote"><p>Marginal note in R: اتفاقية غريبة</p></note>
 							دواء كذا وكذا فكان يقول له <note n="25" type="footnote"><p>L: om. له</p></note>
 							يا بني إذا أراد الله تغيير هذه البنية فإنه لا يقدر لي أن استعمل من <note n="26" type="footnote"><p>A: add. هذه</p></note>
 							الأدوية إلا ما يتم به مشيئته وإرادته.‬‎
@@ -3491,7 +3501,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">كتاب التيسير في المداواة والتدبير ألفه للقاضي <addName>أبو الوليد</addName> محمد <addName>بن أحمد</addName> <addName>بن رشد</addName></item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">كتاب الأغذية ألفه لأبي محمد <addName>عبد المؤمن</addName> <addName>بن علي</addName></item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب الأغذية ألفه ل<addName>أبي محمد</addName> <addName>عبد المؤمن</addName> <addName>بن علي</addName></item>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">كتاب الزينة</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
@@ -4283,7 +4293,7 @@
 							<addName>عبد الله</addName> <addName>بن الحفيد</addName> <addName>أبي بكر</addName> <note n="3" type="footnote"><p>L: add. بن</p></note>
 							محمد <addName>بن أبي مروان</addName> <addName>عبد الملك</addName> <addName>بن أبي العلاء</addName> زهر <addName>بن أبي مروان</addName> <addName>عبد الملك</addName> <addName>بن محمد</addName> <addName>بن مروان</addName> <note n="4" type="footnote"><p>L: om. <addName>عبد الملك</addName> <addName>بن محمد</addName> <addName>بن مروان</addName></p></note>
 							<addName>بن زهر</addName> كان جيد الفطرة حسن الرأي جميل الصورة مفرط الذكاء محمود الطريقة محباً للبس الفاخر وكان كثير الاعتناء بصناعة الطب والنظر فيها والتحقيق لمعانيها واشتغل على والده ووقفه على كثير من أسرار علم <note n="5" type="footnote"><p>In margin of A: علم صح</p></note>
-							هذه الصناعة وعملها وقرأ كتاب النبات لأبي حنيفة الدينوري على أبيه واتقن معرفته وكان الخليفة <addName>أبو عبد الله</addName> محمد الناصر <addName>بن المنصور</addName> <addName>أبي يعقوب</addName> يرى له كثيراً ويحترمه ويعرف مقدار علمه وبيتوتته.‬‎
+							هذه الصناعة وعملها وقرأ كتاب النبات ل<addName>أبي حنيفة</addName> الدينوري على أبيه واتقن معرفته وكان الخليفة <addName>أبو عبد الله</addName> محمد الناصر <addName>بن المنصور</addName> <addName>أبي يعقوب</addName> يرى له كثيراً ويحترمه ويعرف مقدار علمه وبيتوتته.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.64.2.1‬]</hi>
@@ -4340,7 +4350,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							من أعيان أهل إشبيلية وكان محققاً للعلوم الحكمية متقناً لها معتنياً بكتب أرسطوطاليس وغيره من الحكماء المتقدمين فاضلاً في صناعة الطب متميزاً فيها خبيراً بأصولها وفروعها حسن المعالجة محمود الطريقة وخدم لأبي يعقوب والد المنصور وكان من طلبة الفقيه <addName>أبي بكر</addName> <addName>بن العربي</addName> لازمه مدة واشتغل عليه بعلم الحديث <note n="2" type="footnote"><p>H: om. بعلم الحديث</p></note>
+							من أعيان أهل إشبيلية وكان محققاً للعلوم الحكمية متقناً لها معتنياً بكتب أرسطوطاليس وغيره من الحكماء المتقدمين فاضلاً في صناعة الطب متميزاً فيها خبيراً بأصولها وفروعها حسن المعالجة محمود الطريقة وخدم ل<addName>أبي يعقوب</addName> والد المنصور وكان من طلبة الفقيه <addName>أبي بكر</addName> <addName>بن العربي</addName> لازمه مدة واشتغل عليه بعلم الحديث <note n="2" type="footnote"><p>H: om. بعلم الحديث</p></note>
 							وكان <addName>أبو جعفر</addName> <addName>بن هارون</addName> يروي الحديث وهو شيخ <addName>أبي الوليد</addName> ابن رشد في التعاليم والطب وأصله من ترجالة من ثغور الأندلس وهي التي أصابها المنصور خالية وهرب أهلها وعمرها المسلمون.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4813,7 +4823,7 @@
 							لا يؤتي بشيء منه إلى الحضرة أو يكون <note n="4" type="footnote"><p>Gc: om. أو يكون</p></note>
 							عند أحد
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٤‬ب‬‎" />
-							فلما كان بعد ذلك بمدة قال المنصور لأبي جعفر <addName>بن الغزال</addName> أريد أن تجمع حوائج الترياق الكبير وتركبه فامتثل أمره وجمع حوائجه وأعوزه الخمر الذي يعجن به أدوية <note n="5" type="footnote"><p>A: حوائج</p></note>
+							فلما كان بعد ذلك بمدة قال المنصور ل<addName>أبي جعفر</addName> <addName>بن الغزال</addName> أريد أن تجمع حوائج الترياق الكبير وتركبه فامتثل أمره وجمع حوائجه وأعوزه الخمر الذي يعجن به أدوية <note n="5" type="footnote"><p>A: حوائج</p></note>
 							الترياق وأنهى ذلك إلى المنصور فقال له تطلبه من كل ناحية وانظر لعل <note n="6" type="footnote"><p>H: add. أن</p></note>
 							يكون عند أحد منه ولو <note n="7" type="footnote"><p>H: om. ولو</p></note>
 							شيء يسير لنكمل الترياق فتطلبه <addName>أبو جعفر</addName> من كل أحد ولم يجد شيئاً منه فقال المنصور والله ما كان قصدي بتركيب الترياق في هذا الوقت إلا لأعتبر هل بقي من الخمر شيء عند أحد أم لا وتوفي <addName>أبو جعفر</addName> ابن الغزال في أيام الناصر.‬‎
@@ -4867,7 +4877,7 @@
 							<hi rend="bold">‭[13.81.2]‬</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							والندرومي من جملة المتميزين في علم ‭[ii,81]‬ الأدب والعربية وسمع كثيراً من الحديث وخدم الناصر في آخر دولته بصناعة الطب وخدم بعده لولده المستنصر وأقام بإشبيلية وخدم بعد ذلك لأبي النجاء سالم <addName>بن هود</addName> ولأخيه <addName>أبي عبد الله</addName> ابن هود صاحب الأندلس ولأبي <addName>عبد الله</addName> الندرومي من الكتب <note n="5" type="footnote"><p>A: وله من الكتب</p></note>
+							والندرومي من جملة المتميزين في علم ‭[ii,81]‬ الأدب والعربية وسمع كثيراً من الحديث وخدم الناصر في آخر دولته بصناعة الطب وخدم بعده لولده المستنصر وأقام بإشبيلية وخدم بعد ذلك ل<addName>أبي النجاء</addName> سالم <addName>بن هود</addName> ولأخيه <addName>أبي عبد الله</addName> ابن هود صاحب الأندلس ولأبي <addName>عبد الله</addName> الندرومي من الكتب <note n="5" type="footnote"><p>A: وله من الكتب</p></note>
 							اختصار كتاب المستصفي للغزالي.‬‎
 						</p>
 					</div>
@@ -4960,7 +4970,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو <addName>أبو العباس</addName> أحمد <addName>بن أبي عبد الله</addName> محمد من أهل إشبيلية عارف بصناعة الطب من فضلاء أهلها والمتميزين من أربابها قرأ الطب في أول أمره على <addName>عبد العزيز</addName> <addName>بن مسلمة</addName> الباجي ثم قرأ بعد ذلك على <addName>أبي الحجاج</addName> يوسف <addName>بن موراطير</addName> في مراكش ‭[ii,82]‬ وأقام بإشبيلية <note n="2" type="footnote"><p>B: في مراكش وهو في وقتنا هذا مقيم بإشبيلية</p></note>
-							وخدم لأبي النجاء <addName>بن هود</addName> صاحب إشبيلية وكان يطب أيضاً لأخيه <addName>أبي عبد الله</addName> <addName>بن هود</addName>.‬‎
+							وخدم ل<addName>أبي النجاء</addName> <addName>بن هود</addName> صاحب إشبيلية وكان يطب أيضاً لأخيه <addName>أبي عبد الله</addName> <addName>بن هود</addName>.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="88">
