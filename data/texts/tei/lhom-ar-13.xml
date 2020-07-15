@@ -114,8 +114,9 @@
 				7	(\s+)(بن\s+)<addName>	$1<addName>$2	bin + previous compounds
 				8	(\s+)([\u0620-\u065F]+\s+الدين)(\s+)	$1<addName>$2</addName>$3	Al-Dīn compounds (should probably be done as an earlier step)
 				9	(\s+)([لب])(أبي\s+[\u0620-\u065F]+)	$1$2<addName>$3</addName>	Combine with 3-4 above
-				10	(و?[لب]?)([\u0620-\u065F]+)(\s+)<addName>(بن\s+[\u0620-\u065F]+)	$1<forename>$2</forename>$3<addName>$4
+				10	(و?[لب]?)([\u0620-\u065F]+)(\s+)<addName>(بن\s+[\u0620-\u065F]+)	$1<forename>$2</forename>$3<addName>$4	Forenames followed by bin
 				11	([\u0620-\u065F]+)(\s+)<forename>الله	<forename>$1$2الله	Catching Allāh compounds in forenames
+				12	(\s+)(و?[لب]?)(ا?ل[\u0620-\u065F]+)((\s+)[عا]لى)?(\s+)(الله|بالله|لله)(\s+)	$1$2<addName>$3$4$6$7</addName>$8	Allāh compounds/regnal names
 
 				Selective Replacements to do manually (not definitive enough)
 				FIND	REPLACE	COMMENT
@@ -179,10 +180,10 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							فلما قطع عنه الرزق خرج إلى موضع فسيح من رحاب القيروان ووضع هنالك <note n="16" type="footnote"><p>ABGc: هناك</p></note>
-							كرسياً ودواة وقراطيس فكان يكتب الصفات كل يوم بدنانير فقيل لزيادة الله عرضت إسحاق <note n="17" type="footnote"><p>AH: بإسحاق</p></note>
+							كرسياً ودواة وقراطيس فكان يكتب الصفات كل يوم بدنانير فقيل <addName>لزيادة الله</addName> عرضت إسحاق <note n="17" type="footnote"><p>AH: بإسحاق</p></note>
 							للغنى <note n="18" type="footnote"><p>ABH: إسحاق الغني, above the line in A إسحاق للغنى</p></note>
 							فأمر بضمه إلى السجن <note n="19" type="footnote"><p>Gc: فأمر بسجنه</p></note>
-							فتبعه الناس هنالك ثم أخرجه بالليل إلى نفسه وكانت له معه حكايات ومعاتبات أحنقته عليه لفرط جوره وسخف رأيه فأمر بفصده في ذراعيه جميعاً وسال دمه حتى مات ثم أمر به فصلب ومكث مصلوباً زماناً طويلاً حتى عشش في جوفه طائر وكان مما قال لزيادة الله في تلك الليلة والله إنك لتدعى بسيد العرب وما أنت لها بسيد ولقد سقيتك منذ دهر دواء ليفعلنّ في عقلك وكان زيادة الله مجنوناً فتملخن <note n="20" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 86: فتملخن; ABH: فتمخل; R: تمتخل</p></note>
+							فتبعه الناس هنالك ثم أخرجه بالليل إلى نفسه وكانت له معه حكايات ومعاتبات أحنقته عليه لفرط جوره وسخف رأيه فأمر بفصده في ذراعيه جميعاً وسال دمه حتى مات ثم أمر به فصلب ومكث مصلوباً زماناً طويلاً حتى عشش في جوفه طائر وكان مما قال <addName>لزيادة الله</addName> في تلك الليلة والله إنك لتدعى بسيد العرب وما أنت لها بسيد ولقد سقيتك منذ دهر دواء ليفعلنّ في عقلك وكان زيادة الله مجنوناً فتملخن <note n="20" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 86: فتملخن; ABH: فتمخل; R: تمتخل</p></note>
 							ومات.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -780,7 +781,7 @@
 							رحلا إلى المشرق في دولة الناصر في سنة ثلاثين <note n="3" type="footnote"><p>In margin of A: بخطه صحـ أربعين; in R: أربعين</p></note>
 							وثلاثمائة وأقاما هنالك عشرة أعوام ودخلا بغداد وقرآ فيها على <forename>ثابت</forename> <addName>بن سنان</addName> <addName>بن ثابت</addName> <addName>بن قرة</addName> الحراني <note n="4" type="footnote"><p>Gc: om. الحراني</p></note>
 							الصابئ كتب جالينوس عرضاً وخدما ابن وصيف في عمل علل العين وانصرفا إلى الأندلس ودخلاها <note n="5" type="footnote"><p>In margin of A, B om.: ودخلاها</p></note>
-							في دولة المستنصر بالله وذلك في سنة إحدى وخمسين وثلاثمائة وغزيا معه غزواته إلى سنة اثنتين وانصرفا وألحقهما في خدمته بالطب وتسكنهما مدينة الزهراء واستخلصهما لنفسه دون غيرهما ممن كان في ذلك الوقت من الأطباء.‬‎
+							في دولة <addName>المستنصر بالله</addName> وذلك في سنة إحدى وخمسين وثلاثمائة وغزيا معه غزواته إلى سنة اثنتين وانصرفا وألحقهما في خدمته بالطب وتسكنهما مدينة الزهراء واستخلصهما لنفسه دون غيرهما ممن كان في ذلك الوقت من الأطباء.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.19.2.1‬]</hi>
@@ -790,7 +791,7 @@
 							<hi rend="bold">[‭13.19.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وتوجه عند المستنصر بالله لأن المستنصر كان نهماً في الأكل وكان يحدث له من <note n="6" type="footnote"><p>Above the line in A: في</p></note>
+							وتوجه عند <addName>المستنصر بالله</addName> لأن المستنصر كان نهماً في الأكل وكان يحدث له من <note n="6" type="footnote"><p>Above the line in A: في</p></note>
 							أكله تخمة لكثرة ما كان يتناول من الأكل وكان يصنع له الجوارشنات الجادة العجيبة وكان وافقه في ذلك موافقة وأفاد مالاً عظيماً <note n="7" type="footnote"><p>In margin of A, BGc om.: وتوجه عند المستنصر … مالاً عظيماً‬‎</p></note>
 							وكان ألكن <note n="8" type="footnote"><p>In margin of A: ألكن; BGc: بكى</p></note>
 							اللسان رديء الخط لا يقيم هجاء حروف كتابه وكان بصيراً بالأدوية المفردة وصانعاً للأشربة والمعجونات ومعالجاً بها <note n="9" type="footnote"><p>In margin of A, B om.: بها</p></note>
@@ -804,7 +805,7 @@
 							ورأيت له اثني عشر صبياً صقالبة <note n="11" type="footnote"><p>In margin of A: صقالبة</p></note>
 							طباخين للأشربة صناعين للمعجونات بين يديه <note n="12" type="footnote"><p>Above the line in A, BGc om.: بين يديه</p></note>
 							وكان قد استأذن أمير المؤمنين المستنصر <note n="13" type="footnote"><p>Above the line in A, BGc om.: المستنصر</p></note>
-							أن يعطي منها ما احتاج من المساكين والمرضى فأباح له ذلك وكان يداوي العين مداواة نفيسة وله بقرطبة آثار في ذلك وكان يواسي بعلمه صديقه وجاره والمساكين والضعفاء وولاه هشام المؤيد بالله خُطّة الشرطة وخُطّة السوق ومات بحمى الربع وعلة الإسهال وخلف عما قيمته أزيد من مائة ألف دينار. <note n="14" type="footnote"><p>Above the line in A, BGc om.: وخلف عما قيمته أزيد من مائة ألف دينار صح</p></note>
+							أن يعطي منها ما احتاج من المساكين والمرضى فأباح له ذلك وكان يداوي العين مداواة نفيسة وله بقرطبة آثار في ذلك وكان يواسي بعلمه صديقه وجاره والمساكين والضعفاء وولاه هشام <addName>المؤيد بالله</addName> خُطّة الشرطة وخُطّة السوق ومات بحمى الربع وعلة الإسهال وخلف عما قيمته أزيد من مائة ألف دينار. <note n="14" type="footnote"><p>Above the line in A, BGc om.: وخلف عما قيمته أزيد من مائة ألف دينار صح</p></note>
 							‬‎
 						</p>
 					</div>
@@ -829,7 +830,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.21.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً ذكياً عالماً بصيراً بالعلاج صانعاً بيده وكان في صدر دولة <addName>عبد الرحمن</addName> الناصر لدين الله واستوزره وولي الولايات والعمالات وكان قائد بطليوس زماناً وكان له من أمير المؤمنين الناصر محل كبير كان ينزله منزلة الثقة ويتطلع على الكرائم والخدم وألف في الطب كتاباً يشتمل على خمسة أسفار ذهب فيها مذهب الروم وكان يحيى قد أسلم وأما أبوه إسحاق فكان نصرانياً كما تقدم ذكره.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً ذكياً عالماً بصيراً بالعلاج صانعاً بيده وكان في صدر دولة <addName>عبد الرحمن</addName> الناصر <addName>لدين الله</addName> واستوزره وولي الولايات والعمالات وكان قائد بطليوس زماناً وكان له من أمير المؤمنين الناصر محل كبير كان ينزله منزلة الثقة ويتطلع على الكرائم والخدم وألف في الطب كتاباً يشتمل على خمسة أسفار ذهب فيها مذهب الروم وكان يحيى قد أسلم وأما أبوه إسحاق فكان نصرانياً كما تقدم ذكره.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.21.2.1‬]</hi>
 						</p>
@@ -1049,7 +1050,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							كان رجلاً ذا وقار وسكينة ومعرفة بالطب والنحو واللغة والشعر والرواية وخدم الناصر بصناعة الطب وكان المقيم برئاسته <forename>أحمد</forename> <addName>بن إلياس</addName> القائد وولاه الناصر خُطّة <note n="2" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-ḥukamāʾ</hi>, 108: خُطّة; ABHR: خطبة.</p></note>
-							الرد وقضاء شذونة وله في الطب تأليف حسن الأشكال وأدرك صدراً من دولة الحكم المستنصر بالله وكان حظياً عنده وخدمه بصناعة الطب.‬‎
+							الرد وقضاء شذونة وله في الطب تأليف حسن الأشكال وأدرك صدراً من دولة الحكم <addName>المستنصر بالله</addName> وكان حظياً عنده وخدمه بصناعة الطب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.27.2‬]</hi>
@@ -1104,7 +1105,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً عالماً جيد القريحة حسن الفطنة دقيق النظر بصيراً بالمنطق مشرفاً على كثير من علوم الفلسفة وكان متصلاً بالحاجب جعفر الصقلي ومستولياً على خاصته فأوصله بالحكم المستنصر بالله الأموي المستولي على جزيرة الأندلس <note n="2" type="footnote"><p>BH: om. لأموي المستولي على جزيرة الأندلس</p></note>
+							كان طبيباً عالماً جيد القريحة حسن الفطنة دقيق النظر بصيراً بالمنطق مشرفاً على كثير من علوم الفلسفة وكان متصلاً بالحاجب جعفر الصقلي ومستولياً على خاصته فأوصله بالحكم <addName>المستنصر بالله</addName> الأموي المستولي على جزيرة الأندلس <note n="2" type="footnote"><p>BH: om. لأموي المستولي على جزيرة الأندلس</p></note>
 							فخدمه بالطب إلى أن توفي الحاجب جعفر فأسقط حينئذ من ديوان الأطباء وبقي مخمولاً إلى أن توفي ومات بعلة الإسهال. <note n="3" type="footnote"><p>B: add. رحمه الله عليه</p></note>
 							‬‎
 						</p>
@@ -1116,7 +1117,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان شيخاً فاضلاً في الطب حليماً عفيفاً وخدم المستنصر بالله بالطب وأدرك <note n="2" type="footnote"><p>BH: om. وأدرك</p></note>
+							كان شيخاً فاضلاً في الطب حليماً عفيفاً وخدم <addName>المستنصر بالله</addName> بالطب وأدرك <note n="2" type="footnote"><p>BH: om. وأدرك</p></note>
 							صدراً <note n="3" type="footnote"><p>BH: وصدراً</p></note>
 							من دولة المؤيد وكان أولاد الناصر جميعهم يعتمدون <note n="4" type="footnote"><p>BH: om. جميعهم يعتمدون</p></note>
 							على تعظيمه وتبجيله ومعرفة حقه وكان وجيهاً عندهم مؤتمناً وكذلك عند الرؤساء وكان أديباً فهماً وكتب بخطه كتباً كثيرة في الطب والمجامع والفلسفة وعمر زماناً طويلاً. <note n="5" type="footnote"><p>BH: om. وكذلك عند … زماناً طويلاً‬‎</p></note>
@@ -1148,7 +1149,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.34.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">رحل إلى المشرق سنة تسع وأربعين وثلاثمائة ودخل البصرة ولم يدخل بغداد وأتى مدينة فسطاط مصر ودبر مارستانها ومهر بالطب ونبل فيه وأحكم كثيراً من أصوله وعانى صناعة المنطق عناية صحيحة وكان شيخه فيها <addName>أبو سليمان</addName> <forename>محمد</forename> <addName>بن طاهر</addName> <addName>بن بهرام</addName> السجستاني البغدادي ورجع إلى الأندلس سنة ستين وثلاثمائة وخدم بالطب المستنصر بالله والمؤيد بالله وكان قبل أن يتطبب مؤدباً بالحساب والهندسة وله في التكسير كتاب حسن.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">رحل إلى المشرق سنة تسع وأربعين وثلاثمائة ودخل البصرة ولم يدخل بغداد وأتى مدينة فسطاط مصر ودبر مارستانها ومهر بالطب ونبل فيه وأحكم كثيراً من أصوله وعانى صناعة المنطق عناية صحيحة وكان شيخه فيها <addName>أبو سليمان</addName> <forename>محمد</forename> <addName>بن طاهر</addName> <addName>بن بهرام</addName> السجستاني البغدادي ورجع إلى الأندلس سنة ستين وثلاثمائة وخدم بالطب <addName>المستنصر بالله</addName> والمؤيد بالله وكان قبل أن يتطبب مؤدباً بالحساب والهندسة وله في التكسير كتاب حسن.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.34.2‬]</hi>
 						</p>
@@ -1191,7 +1192,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو داود</addName> <forename>سليمان</forename> <addName>بن حسان</addName> يعرف بابن جلجل وكان طبيباً فاضلاً خبيراً بالمعالجات جيد التصرف في صناعة الطب وكان في أيام هشام المؤيد بالله وخدمه بالطب وله بصيرة واعتناء بقوى الأدوية المفردة وقد فسر أسماء الأدوية المفردة من كتاب ديسقوريدس العين زربي وأفصح عن مكنونها وأوضح مستغلق مضمونها.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو داود</addName> <forename>سليمان</forename> <addName>بن حسان</addName> يعرف بابن جلجل وكان طبيباً فاضلاً خبيراً بالمعالجات جيد التصرف في صناعة الطب وكان في أيام هشام <addName>المؤيد بالله</addName> وخدمه بالطب وله بصيرة واعتناء بقوى الأدوية المفردة وقد فسر أسماء الأدوية المفردة من كتاب ديسقوريدس العين زربي وأفصح عن مكنونها وأوضح مستغلق مضمونها.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.2.1‬]</hi>
 						</p>
@@ -1358,7 +1359,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو […] <note n="2" type="footnote"><p>Blank space in all <hi rend="smallcaps">MSS</hi>.</p></note>
-							وكان بالمرية في أيام ابن معن المعروف بابن صمادح ويلقب بالمعتصم بالله <note n="3" type="footnote"><p>H: ابن معن المعروف بابن صمادح ويلقب بكذا وكان بالمرية في أيام بالمعتصم بالله</p></note>
+							وكان بالمرية في أيام ابن معن المعروف بابن صمادح ويلقب ب<addName>المعتصم بالله</addName> <note n="3" type="footnote"><p>H: ابن معن المعروف بابن صمادح ويلقب بكذا وكان بالمرية في أيام بالمعتصم بالله</p></note>
 							وقال <addName>أبو يحيى</addName> <forename>اليسع</forename> <addName>بن عيسى</addName> <addName>بن حزم</addName> <addName>بن اليسع</addName> في كتاب االمعرب عن محاسن أهل المغرب إن الرميلي صحبه توفيقٌ يساعده ويصعده ويقيم له الجاه ويقعده مع دربة جرب بها فأدرك وقياسٌ حركه للمحاورة فتحرك فأصبح يقتديَ بنسخه ويتنافسَ في مستصرخه ويتوسل إليه برئاسة [و]نفسٌ لا ترضى بدنية ولا تعامل إلا بالحُرمية <note n="4" type="footnote"><p>HR: بالحرية</p></note>
 							وربما عالج في بعض أوقاته المَستورين بماله أدوية وأغذية فأحبه البعيد والقريب وأصبح ما له إلا حميم أو حبيب حتى أودت به الأيام فاقدة إحسانه نادبة مكانه.‬‎
 						</p>
@@ -1418,7 +1419,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو <addName>أبو بكر</addName> <forename>يحيى</forename> <addName>بن أحمد</addName> ويعرف بابن الخياط كان أحد تلاميذ <addName>أبي القاسم</addName> <forename>مسلمة</forename> <addName>بن أحمد</addName> المجريطي <note n="2" type="footnote"><p>ABHR: المرحيطي</p></note>
-							في علم العدد والهندسة ثم مال إلى أحكام النجوم وبرع فيها واشتهر بعلمها وخدم بها <forename>سليمان</forename> <addName>بن حكم</addName> <addName>بن الناصر</addName> لدين الله في زمن الفتنة وغيره من الأمراء وأخر من خدم بذلك الأمير المأمون <forename>يحيى</forename> <addName>بن إسماعيل</addName> <addName>بن ذي</addName> النون وكان مع ذلك معتنياً بصناعة الطب دقيق العلاج وكان حصيفاً حليماً دمثاً حسن السيرة كريم المذهب وتوفي بطليطلة سنة سبع وأربعين وأربعمائة وقد قارب ثمانين سنة. <note n="3" type="footnote"><p>Marginal note in A referring to the interleaf after f. 200: تلوه في الأصل <forename>منجم</forename> <addName>بن الفوال</addName> وتلو <forename>مروان</forename> <addName>بن جناح</addName> الوارد الأصل بهده وقبل <addName>أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> الوارد الأصل أيضاً</p></note>
+							في علم العدد والهندسة ثم مال إلى أحكام النجوم وبرع فيها واشتهر بعلمها وخدم بها <forename>سليمان</forename> <addName>بن حكم</addName> <addName>بن الناصر</addName> <addName>لدين الله</addName> في زمن الفتنة وغيره من الأمراء وأخر من خدم بذلك الأمير المأمون <forename>يحيى</forename> <addName>بن إسماعيل</addName> <addName>بن ذي</addName> النون وكان مع ذلك معتنياً بصناعة الطب دقيق العلاج وكان حصيفاً حليماً دمثاً حسن السيرة كريم المذهب وتوفي بطليطلة سنة سبع وأربعين وأربعمائة وقد قارب ثمانين سنة. <note n="3" type="footnote"><p>Marginal note in A referring to the interleaf after f. 200: تلوه في الأصل <forename>منجم</forename> <addName>بن الفوال</addName> وتلو <forename>مروان</forename> <addName>بن جناح</addName> الوارد الأصل بهده وقبل <addName>أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> الوارد الأصل أيضاً</p></note>
 							‬‎
 						</p>
 					</div>
@@ -1470,7 +1471,7 @@
 								[‭13.49‬] <forename>حسداي</forename> <addName>بن إسحاق</addName> <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2; written in A in the interleaf after f. 200.</p></note>
 							</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">معتن بصناعة الطب وخدم <forename>الحكم</forename> <addName>بن عبد الرحمن</addName> الناصر لدين الله وكان <forename>حسداي</forename> <addName>بن إسحاق</addName> من أحبار اليهود متقدماً في علم شريعتهم وهو أول من فتح لأهل (‭٢٠٠‬*ب) الأندلس منهم باب علمهم من الفقه والتأريخ وغير ذلك وكانوا قبل يضطرون في فقه دينهم وسني تأريخهم ومواقيت أعيادهم إلى يهود بغداد فيستجلبون من عندهم حساب عدة من السنين يتعرفون به مداخل تأريخهم ومبادئ سنيهم فلما اتصل حسداي بالحكم ونال عنده نهاية الحظوة توصل به إلى استجلاب ما شاء من تآليف اليهود بالمشرق فعلم حينئذ يهود الأندلس ما كانوا قبل يجهلونه واستغنوا عما كانوا يتجشمون الكلفة فيه.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">معتن بصناعة الطب وخدم <forename>الحكم</forename> <addName>بن عبد الرحمن</addName> الناصر <addName>لدين الله</addName> وكان <forename>حسداي</forename> <addName>بن إسحاق</addName> من أحبار اليهود متقدماً في علم شريعتهم وهو أول من فتح لأهل (‭٢٠٠‬*ب) الأندلس منهم باب علمهم من الفقه والتأريخ وغير ذلك وكانوا قبل يضطرون في فقه دينهم وسني تأريخهم ومواقيت أعيادهم إلى يهود بغداد فيستجلبون من عندهم حساب عدة من السنين يتعرفون به مداخل تأريخهم ومبادئ سنيهم فلما اتصل حسداي بالحكم ونال عنده نهاية الحظوة توصل به إلى استجلاب ما شاء من تآليف اليهود بالمشرق فعلم حينئذ يهود الأندلس ما كانوا قبل يجهلونه واستغنوا عما كانوا يتجشمون الكلفة فيه.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="50">
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1522,7 +1523,7 @@
 							وكان <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> مدمناً للشراب وعنده دعابة ونوادر وبلغني عنه أنه لما أتى من الإسكندرية إلى القاهرة كان هو وبعض الصوفية قد اصطحبا في الطريق فكانا يتحادثان وأنس كل واحد منهما إلى الآخر ولما وصلا إلى القاهرة قال له الصوفي أنت أين تنزل في القاهرة حتى أكون أراك فقال ما كان في خاطري أن أنزل إلا حانة الخمار وأشرب فإن كنت توافق وتأتي إلي فرأيك فصعب قوله على الصوفي وأنكر هذا الفعل ومشى إلى الخانكاه <note n="7" type="footnote"><p>Gc: الخانقة</p></note>
 							ولما كان في بعض الأيام بعد مديدة <note n="8" type="footnote"><p>In margin of A, Gc om.: بعد مديدة</p></note>
 							وابن حسداي في السوق وإذا يجمع من الناس وفي وسطهم صوفي يعزر وقد اشتهر أمره بأنه وجد <note n="9" type="footnote"><p>Below the line in A, GcH om.: وجد</p></note>
-							سكران ولما قرب إلى الموضع الذي فيه ابن حسداي ونظر إليه وجده ذلك الصوفي بعينه فقال له بالله قتلك الناموس. <note n="10" type="footnote"><p>A: الناس, above the line مس; BH: النامس; R: الناس; cf. <hi rend="italic">al-Wāfī</hi>, xxix:40: الناموس</p></note>
+							سكران ولما قرب إلى الموضع الذي فيه ابن حسداي ونظر إليه وجده ذلك الصوفي بعينه فقال <addName>له بالله</addName> قتلك الناموس. <note n="10" type="footnote"><p>A: الناس, above the line مس; BH: النامس; R: الناس; cf. <hi rend="italic">al-Wāfī</hi>, xxix:40: الناموس</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1597,7 +1598,7 @@
 								[‭13.55‬] الشريف <forename>محمد</forename> <addName>بن محمد</addName> الحسني <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن محمد</addName> <addName>بن عبد الله</addName> <addName>بن إدريس</addName> الحسني ويلقب بالعالي بالله كان فاضلاً عالماً بقوى الأدوية المفردة ومنافعها ومنابتها وأعيانها وله من الكتب كتب الأدوية المفردة.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن محمد</addName> <addName>بن عبد الله</addName> <addName>بن إدريس</addName> الحسني ويلقب ب<addName>العالي بالله</addName> كان فاضلاً عالماً بقوى الأدوية المفردة ومنافعها ومنابتها وأعيانها وله من الكتب كتب الأدوية المفردة.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="56">
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1620,7 +1621,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							كان يهودياً من أكابر علماء الأندلس في صناعة الطب وله خبرة واعتناء بالغ بالأدوية المفردة وخدم بصناعة الطب بني هود ولابن بكلارش من الكتب <note n="2" type="footnote"><p>AGc: وله من الكتب</p></note>
 							كتاب المجدولة في الأدوية المفردة وضعه مجدولاً <note n="3" type="footnote"><p>A: جد أولاً, in margin مجدولاً صح</p></note>
-							وألفه بمدينة المرية للمستعين بالله <addName>أبي جعفر</addName> <forename>أحمد</forename> <addName>بن المؤتمن</addName> ب<forename>الله</forename> <addName>بن هود</addName>.‬‎
+							وألفه بمدينة المرية ل<addName>لمستعين بالله</addName> <addName>أبي جعفر</addName> <forename>أحمد</forename> <addName>بن المؤتمن</addName> ب<forename>الله</forename> <addName>بن هود</addName>.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="58">
@@ -3280,7 +3281,7 @@
 							هو <addName>أبو العلاء</addName> <forename>زهر</forename> <addName>بن أبي مروان</addName> <addName>عبد الملك</addName> <addName>بن محمد</addName> <addName>بن مروان</addName> <addName>بن زهر</addName> مشهور بالحذق والمعرفة وله علاجات مختارة تدل على قوته في صناعة الطب واطلاعه على دقائقها وكانت له نوادر في مداواته المرضى ومعرفته لأحوالهم وما يجدونه من الآلام من غير أن يستخبرهم عن ذلك بل ينظره إلى قواريرهم أو <note n="2" type="footnote"><p>A: om. أو</p></note>
 							عندما يجس نبضهم وكان في دولة الملثمين ويعرفون أيضاً بالمرابطين وحظي في
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٧‬أ‬‎" />
-							أيامهم ونال المنزلة الرفيعة والذكر الجميل وكان قد اشتغل بصناعة ‭[ii,65]‬ الطب وهو صغير في أيام المعتضد بالله <addName>أبي عمرو</addName> <forename>عباد</forename> <addName>بن عباد</addName> واشتغل أيضاً بعلم الأدب وهو حسن التصنيف جيد التأليف. <note n="3" type="footnote"><p>Marginal note in R – see Appendix <hi rend="smallcaps">II</hi>.10.</p></note>
+							أيامهم ونال المنزلة الرفيعة والذكر الجميل وكان قد اشتغل بصناعة ‭[ii,65]‬ الطب وهو صغير في أيام <addName>المعتضد بالله</addName> <addName>أبي عمرو</addName> <forename>عباد</forename> <addName>بن عباد</addName> واشتغل أيضاً بعلم الأدب وهو حسن التصنيف جيد التأليف. <note n="3" type="footnote"><p>Marginal note in R – see Appendix <hi rend="smallcaps">II</hi>.10.</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3465,7 +3466,7 @@
 							<addName>بن علي</addName> <addName>بن محمد</addName> بن ‭[ii,67]‬ العربي <note n="15" type="footnote"><p>Above the line in A: <addName>بن عربي</addName>; Gc: <addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن علي</addName></p></note>
 							الطائي الحاتمي <note n="16" type="footnote"><p>Above the line in A, Gc om.: الحاتمي</p></note>
 							من أهل مرسية أن أبا مروان <addName>عبد الملك</addName> <addName>بن زهر</addName> كان في وقت مروره إلى دار أمير المؤمنين بإشبيلية يجد في طريقه عند حمام <addName>أبي الخير</addName> بالقرب من دار ابن مؤمل مريضاً به سوء قتبه <note n="17" type="footnote"><p>A: قنية; B: فىيه; H: فيىه; P: قنىه; R: قنيه</p></note>
-							وقد كبر جوفه واصفر لونه فكان أبداً يشكوا إليه حاله ويسأله النظر في أمره فلما كان في بعض الأيام سأله مثل ذلك فوقف <addName>أبو مروان</addName> <addName>بن زهر</addName> عنده ونظر إليه فوجد عند رأسه إبريقاً عتيقاً يشرب منه الماء فقال اكسر هذا الإبريق فإنه سبب مرضك فقال لا بالله يا سيدي فإني ما لي غيره فأمر بعض خدمه بكسره فكسره <note n="18" type="footnote"><p>HL: om. فكسره</p></note>
+							وقد كبر جوفه واصفر لونه فكان أبداً يشكوا إليه حاله ويسأله النظر في أمره فلما كان في بعض الأيام سأله مثل ذلك فوقف <addName>أبو مروان</addName> <addName>بن زهر</addName> عنده ونظر إليه فوجد عند رأسه إبريقاً عتيقاً يشرب منه الماء فقال اكسر هذا الإبريق فإنه سبب مرضك فقال <addName>لا بالله</addName> يا سيدي فإني ما لي غيره فأمر بعض خدمه بكسره فكسره <note n="18" type="footnote"><p>HL: om. فكسره</p></note>
 							فظهر منه لما كسر <note n="19" type="footnote"><p>Gc: om. لما كسر</p></note>
 							ضفدع وقد كبر مما له فيه من الزمان فقال له ابن زهر خلصت يا هذا من المرض انظر ما كنت تشرب وبرأ الرجل بعد ذلك.‬‎
 						</p>
