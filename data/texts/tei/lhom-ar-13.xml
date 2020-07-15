@@ -106,11 +106,13 @@
 			<!--
 				FIND	REPLACE	COMMENT
 				(\s+)(عبد\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName>	ʿAbd compound names
+				(\s+)(سيف\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName> Sayf compound names
 				(\s+)(أبو\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abū compounds
 				(\s+)(أبي\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abī compounds
 				(\s+)(أب[وي]\s+)<addName>	$1<addName>$2	Abu/Abi + previous compounds
 				(\s+)(بن\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	bin compounds
 				(\s+)(بن\s+)<addName>	$1<addName>$2	bin + previous compounds
+				(\s+)([\u0620-\u065F]+\s+الدين)(\s+)	$1<addName>$2</addName>$3	Al-Dīn compounds (should probably be done as an earlier step)
 			-->
 			</change>
         </revisionDesc>
@@ -393,7 +395,7 @@
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								وحكى الصاحب جمال الدين <addName>بن القفطي</addName> أنه رأى له بقفط كتاباً كبيراً في الطب اسمه قوت المقيم <note n="20" type="footnote"><p>In margin of A: وجدناه له … قوت المقيم‬‎; H: om. وجدناه له … قوت المقيم‬‎</p></note>
+								وحكى الصاحب <addName>جمال الدين</addName> <addName>بن القفطي</addName> أنه رأى له بقفط كتاباً كبيراً في الطب اسمه قوت المقيم <note n="20" type="footnote"><p>In margin of A: وجدناه له … قوت المقيم‬‎; H: om. وجدناه له … قوت المقيم‬‎</p></note>
 								وكان عشرين مجلداً <note n="21" type="footnote"><p>AH: om. وكان عشرين مجلداً; BGc: om. title.</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
@@ -1630,7 +1632,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							وأتى <addName>أبو الصلت</addName> من الأندلس إلى ديار مصر وأقام بالقاهرة مدة ثم عاد بعد ذلك إلى الأندلس وكان دخول <addName>أبي الصلت</addName> إلى مصر في حدود سنة عشر وخمسمائة <note n="5" type="footnote"><p>In margin of A, BGcHL om: وكان دخول … عشر وخمسمائة‬‎</p></note>
 							ولما كان في الإسكندرية <note n="6" type="footnote"><p>AGcH: بالإسكندرية</p></note>
-							حبس بها وحدثني الشيخ سديد الدين المنطقي في القاهرة سنة اثنين وثلاثين وستمائة <note n="7" type="footnote"><p>B: om. في القاهرة سنة اثنين وثلاثين وستمائة</p></note>
+							حبس بها وحدثني الشيخ <addName>سديد الدين</addName> المنطقي في القاهرة سنة اثنين وثلاثين وستمائة <note n="7" type="footnote"><p>B: om. في القاهرة سنة اثنين وثلاثين وستمائة</p></note>
 							أن أبا الصلت أمية <addName>بن عبد العزيز</addName> كان سبب حبسه في الإسكندرية <note n="8" type="footnote"><p>AGc: بالإسكندرية</p></note>
 							أن مركباً كان قد وصل إليها وهو موقر بالنحاس فغرق قريباً منها ولم تكن لهم حيلة تخليصه لطول المسافة في عمق البحر ففكر <addName>أبو الصلت</addName> في أمره وأجال النظر في هذا
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٢‬أ‬‎" />
@@ -3447,7 +3449,7 @@
 							<hi rend="bold">[‭13.62.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني الشيخ محيي الدين <addName>أبو عبد الله</addName> <note n="14" type="footnote"><p>H: add. محمد</p></note>
+							وحدثني الشيخ <addName>محيي الدين</addName> <addName>أبو عبد الله</addName> <note n="14" type="footnote"><p>H: add. محمد</p></note>
 							<addName>بن علي</addName> <addName>بن محمد</addName> بن ‭[ii,67]‬ العربي <note n="15" type="footnote"><p>Above the line in A: <addName>بن عربي</addName>; Gc: <addName>أبو عبد الله</addName> محمد <addName>بن علي</addName></p></note>
 							الطائي الحاتمي <note n="16" type="footnote"><p>Above the line in A, Gc om.: الحاتمي</p></note>
 							من أهل مرسية أن أبا مروان <addName>عبد الملك</addName> <addName>بن زهر</addName> كان في وقت مروره إلى دار أمير المؤمنين بإشبيلية يجد في طريقه عند حمام <addName>أبي الخير</addName> بالقرب من دار ابن مؤمل مريضاً به سوء قتبه <note n="17" type="footnote"><p>A: قنية; B: فىيه; H: فيىه; P: قنىه; R: قنيه</p></note>
@@ -3513,7 +3515,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو الشيخ الوزير الحكيم الأديب الحسيب الأصيل <addName>أبو بكر</addName> محمد <addName>بن أبي مروان</addName> <addName>بن أبي العلاء</addName> <addName>بن زهر</addName> مولده بمدينة إشبيلية ونشأ بها وتميز في العلوم وأخذ صناعة الطب عن أبيه وباشر أعمالها وكان معتدل القامة صحيح البنية قوي الأعضاء وصار في سن الشيخوخة ‭[ii,68]‬ ونضارة لونه وقوة حركاته لم يتبين فيها تغير وإنما عرض له في أواخر عمره ثقل في السمع وكان حافظاً للقرآن وسمع الحديث واشتغل بعلم الأدب والعربية ولم يكن في زمانه أعلم منه بمعرفة اللغة ويوصف بأنه قد أكمل صناعة الطب والأدب وعانى عمل الشعر <note n="2" type="footnote"><p>B: om. الشعر</p></note>
-							وأجاد فيه وله موشحات مشهورة ويغني بها وهي من أجود ما قيل في ذلك وكان ملازماً للأمور الشرعية متين الدين قوي النفس محباً للخير <note n="3" type="footnote"><p>Repeated in the margin of A: وكان ملازماً … محباً للخير‬‎</p></note>
+							وأجاد فيه وله موشحات مشهورة ويغني بها وهي من أجود ما قيل في ذلك وكان ملازماً للأمور الشرعية <addName>متين الدين</addName> قوي النفس محباً للخير <note n="3" type="footnote"><p>Repeated in the margin of A: وكان ملازماً … محباً للخير‬‎</p></note>
 							وكان مهوياً <note n="4" type="footnote"><p>A: مهاباً, in margin مهوباً صح; H: مهيباً</p></note>
 							وله جرأة في الكلام ولم يكن في زمانه أعلم منه بصناعة الطب وذكره قد شاع واشتهر في أقطار الأندلس وغيرها من البلاد.‬‎
 						</p>
@@ -3631,7 +3633,7 @@
 							<hi rend="bold">[‭13.63.8.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن شعر الحفيد <addName>أبي بكر</addName> <addName>بن زهر</addName> أنشدني محيي الدين <addName>أبو عبد الله</addName> محمد <addName>بن علي</addName> <note n="63" type="footnote"><p>AL: repeat <addName>بن علي</addName></p></note>
+							ومن شعر الحفيد <addName>أبي بكر</addName> <addName>بن زهر</addName> أنشدني <addName>محيي الدين</addName> <addName>أبو عبد الله</addName> محمد <addName>بن علي</addName> <note n="63" type="footnote"><p>AL: repeat <addName>بن علي</addName></p></note>
 							<addName>بن محمد</addName> <addName>بن العربي</addName> الحاتمي قال أنشدني الحفيد <addName>أبو بكر</addName> <addName>بن زهر</addName> لنفسه <note n="64" type="footnote"><p>In margin of A, Gc om.: أنشدني محيي … <addName>بن زهر</addName> لنفسه‬‎</p></note>
 							يتشوق إلى ولده:‬‎
 						</p>
@@ -3701,7 +3703,7 @@
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأنشدني شيخنا علم الدين قيصر <addName>بن أبي القاسم</addName> <addName>بن عبد الغني</addName> <addName>بن مسافر</addName> الحنفي المهندس للحفيد <addName>أبي بكر</addName> <addName>بن زهر</addName> وهي بديعة المعنى كثيرة التجنيس: <note n="70" type="footnote"><p>AGc: وقال وهي بديعة المعنى كثيرة التجنيس, A add. in margin وأنشدني شيخنا … <addName>أبي بكر</addName> <addName>بن زهر</addName> صح‬‎; B: om. وأنشدني شيخنا … كثيرة التجنيس‬‎, and following poem.</p></note>
+							وأنشدني شيخنا <addName>علم الدين</addName> قيصر <addName>بن أبي القاسم</addName> <addName>بن عبد الغني</addName> <addName>بن مسافر</addName> الحنفي المهندس للحفيد <addName>أبي بكر</addName> <addName>بن زهر</addName> وهي بديعة المعنى كثيرة التجنيس: <note n="70" type="footnote"><p>AGc: وقال وهي بديعة المعنى كثيرة التجنيس, A add. in margin وأنشدني شيخنا … <addName>أبي بكر</addName> <addName>بن زهر</addName> صح‬‎; B: om. وأنشدني شيخنا … كثيرة التجنيس‬‎, and following poem.</p></note>
 							‬‎
 						</p>
 						<lg>
