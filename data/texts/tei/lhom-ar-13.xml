@@ -114,6 +114,8 @@
 				7	(\s+)(بن\s+)<addName>	$1<addName>$2	bin + previous compounds
 				8	(\s+)([\u0620-\u065F]+\s+الدين)(\s+)	$1<addName>$2</addName>$3	Al-Dīn compounds (should probably be done as an earlier step)
 				9	(\s+)([لب])(أبي\s+[\u0620-\u065F]+)	$1$2<addName>$3</addName>	Combine with 3-4 above
+				10	(و?[لب]?)([\u0620-\u065F]+)(\s+)<addName>(بن\s+[\u0620-\u065F]+)	$1<forename>$2</forename>$3<addName>$4
+				11	([\u0620-\u065F]+)(\s+)<forename>الله	<forename>$1$2الله	Catching Allāh compounds in forenames
 
 				Selective Replacements to do manually (not definitive enough)
 				FIND	REPLACE	COMMENT
@@ -154,7 +156,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال <forename>سليمان</forename> <addName>بن حسان</addName> المعروف بابن جلجل إن <forename>إسحاق</forename> <addName>بن عمران</addName> مسلم النحلة وكان بغدادي الأصل ودخل إفريقية <note n="4" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 84: القيروان</p></note>
-							في دولة زيادة <forename>الله</forename> <addName>بن الأغلب</addName> التميمي <note n="5" type="footnote"><p>Above the line in A, BGc om.: التميمي</p></note>
+							في دولة <forename>زيادة الله</forename> <addName>بن الأغلب</addName> التميمي <note n="5" type="footnote"><p>Above the line in A, BGc om.: التميمي</p></note>
 							وهو <note n="6" type="footnote"><p>A: add. الذي</p></note>
 							استجلبه وأعطاه شروطاً ثلاثة لم يف له بأحدها بعث إليه عند وروده عليه راحلة أقلته وألف دينار لنفقته وكتاب
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٩٣‬ب‬‎" />
@@ -255,7 +257,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال <forename>أحمد</forename> <addName>بن إبراهيم</addName> <addName>بن أبي خالد</addName> المعروف بابن الجزار في كتاب أخبار الدولة يعني <note n="5" type="footnote"><p>A: أعني</p></note>
-							ابتداء دولة الإمام <addName>أبي محمد</addName> <addName>عبد الله</addName> المهدي الذي ظهر من المغرب حدثني <forename>إسحاق</forename> <addName>بن سليمان</addName> المتطبب قال لما قدمت من مصر على زيادة <forename>الله</forename> <addName>بن الأغلب</addName> وجدته مقيماً بالجيوش في الأريس فرحلت إليه فلما بلغه قدومي وقد كان بعث في طلبي وأرسل إلي بخمسمائة دينار وتقويتُ بها على السفر فأدخلت عليه ساعة وصولي فسلمت بالإمرة وفعلت ما يجب أن يفعل للملوك من التعبد فرأيت مجلسه قليل الوقار والغالب عليه حب اللهو وكل ما حرك الضحك فابتدأني بالكلام ابن خنبش <note n="6" type="footnote"><p>Cf. name in al-Qāḍī l-Nuʿmān, <hi rend="italic">Iftitāḥ</hi>, 168: الحبشي; al-Nuwayrī, <hi rend="italic">Nihāyat al-arab</hi> (Beirut), xxviii:58: الحنبش; Ibn Khaldūn, <hi rend="italic">Taʾrīkh</hi>, iv:260: الحبيش</p></note>
+							ابتداء دولة الإمام <addName>أبي محمد</addName> <addName>عبد الله</addName> المهدي الذي ظهر من المغرب حدثني <forename>إسحاق</forename> <addName>بن سليمان</addName> المتطبب قال لما قدمت من مصر على <forename>زيادة الله</forename> <addName>بن الأغلب</addName> وجدته مقيماً بالجيوش في الأريس فرحلت إليه فلما بلغه قدومي وقد كان بعث في طلبي وأرسل إلي بخمسمائة دينار وتقويتُ بها على السفر فأدخلت عليه ساعة وصولي فسلمت بالإمرة وفعلت ما يجب أن يفعل للملوك من التعبد فرأيت مجلسه قليل الوقار والغالب عليه حب اللهو وكل ما حرك الضحك فابتدأني بالكلام ابن خنبش <note n="6" type="footnote"><p>Cf. name in al-Qāḍī l-Nuʿmān, <hi rend="italic">Iftitāḥ</hi>, 168: الحبشي; al-Nuwayrī, <hi rend="italic">Nihāyat al-arab</hi> (Beirut), xxviii:58: الحنبش; Ibn Khaldūn, <hi rend="italic">Taʾrīkh</hi>, iv:260: الحبيش</p></note>
 							المعروف باليوناني فقال لي تقول إن الملوحة تجلو قلت نعم قال وتقول إن الحلاوة تجلو قلت نعم قال لي <note n="7" type="footnote"><p>A: om. لي</p></note>
 							فالحلاوة هي الملوحة والملوحة والملوحة هي الحلاوة فقلت إن الحلاوة تجلو <note n="8" type="footnote"><p>R: om. قلت نعم قال … إن الحلاوة تجلو‬‎</p></note>
 							بلطف وملاءمة والملوحة تجلو بعنف فتمادى على المكابرة وأحب المغالطة فلما رأيت ذلك منه <note n="9" type="footnote"><p>A: om. منه</p></note>
