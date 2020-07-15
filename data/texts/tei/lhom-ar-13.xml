@@ -105,7 +105,7 @@
 			<change when="2020-07-15" who="#ngibson">regex replacements changelog
 				FIND	REPLACE	COMMENT
 				(\s+)(عبد\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName>	ʿAbd compound names
-				
+				(\s+)(أبو\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Abū compounds
 			</change>
         </revisionDesc>
     </teiHeader>
@@ -304,7 +304,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.3.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو أبو جعفر أحمد بن إبراهيم بن أبي خالد ويعرف بابن الجزار من أهل [‭38‬,‭ii‬] القيروان طبيب ابن طبيب وعمه أبو بكر طبيب وكان ممن لقي إسحاق بن سليمان وصحبه وأخذ عنه وكان ابن الجزار من أهل الحفظ والتطلع والدراسة للطب وسائر العلوم حسن الفهم لها.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو جعفر</addName> أحمد بن إبراهيم بن أبي خالد ويعرف بابن الجزار من أهل [‭38‬,‭ii‬] القيروان طبيب ابن طبيب وعمه <addName>أبو بكر</addName> طبيب وكان ممن لقي إسحاق بن سليمان وصحبه وأخذ عنه وكان ابن الجزار من أهل الحفظ والتطلع والدراسة للطب وسائر العلوم حسن الفهم لها.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.3.2.1‬]</hi>
 						</p>
@@ -325,7 +325,7 @@
 							كنت عنده <note n="7" type="footnote"><p>Above the line in A: عنده</p></note>
 							في دهليزه <note n="8" type="footnote"><p>H: دهليزه</p></note>
 							وقد غص بالناس إذ أقبل <note n="9" type="footnote"><p>A: قيل; H: قىل</p></note>
-							ابن أخي النعمان القاضي وكان حدثاً جليلاً بإفريقية يستخلفه القاضي إذا منعه مانع عن الحكم فلم يجد في الدهليز موضعاً يجلس فيه إلا مجلس أبي جعفر فخرج أبو جعفر فقام له ابن أخي القاضي على قدم فما أقعده ولا أنزله وأراه قارورة ماء كانت معه لابن عمه ولد النعمان واستوفى جوابه عليها وهو واقف ثم نهض وركب وما كدح ذلك في نفسه وجعل يتكرر إليه بالماء في كل يوم حتى <note n="10" type="footnote"><p>AGc: إلى أن</p></note>
+							ابن أخي النعمان القاضي وكان حدثاً جليلاً بإفريقية يستخلفه القاضي إذا منعه مانع عن الحكم فلم يجد في الدهليز موضعاً يجلس فيه إلا مجلس أبي جعفر فخرج <addName>أبو جعفر</addName> فقام له ابن أخي القاضي على قدم فما أقعده ولا أنزله وأراه قارورة ماء كانت معه لابن عمه ولد النعمان واستوفى جوابه عليها وهو واقف ثم نهض وركب وما كدح ذلك في نفسه وجعل يتكرر إليه بالماء في كل يوم حتى <note n="10" type="footnote"><p>AGc: إلى أن</p></note>
 							برئ العليل.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -466,7 +466,7 @@
 					<div type="textpart" subtype="biography" n="5">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[13.5]‬ أبو القاسم مسلمة بن أحمد المعروف بالمجريطي <note n="1" type="footnote"><p>This biography is included in all three versions of the work. AH: بالمرخيطي; B: بالمرحيطي; R: om. المعروف بالمجريطي; cf. Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi>, 69: بالمرحيط; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 326: بالمرجيطي</p></note>
+								‭[13.5]‬ <addName>أبو القاسم</addName> مسلمة بن أحمد المعروف بالمجريطي <note n="1" type="footnote"><p>This biography is included in all three versions of the work. AH: بالمرخيطي; B: بالمرحيطي; R: om. المعروف بالمجريطي; cf. Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi>, 69: بالمرحيط; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 326: بالمرجيطي</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -477,7 +477,7 @@
 							كان قبله بعلم الأفلاك وحركات النجوم وكانت له عناية بإرصاد الكواكب وشغف بتفهم كتاب بطليموس المعروف بالمجسطي وله كتاب حسن في تمام علم العدد <note n="3" type="footnote"><p>H: علم تمام علم العدد</p></note>
 							وهو المعروف عندنا بالمعاملات وكتاب اختصر فيه تعديل الكواكب من زيج البتاني وعنى بزيج محمد بن موسى الخوارزمي وصرف تأريخه الفارسي إلى التأريخ العربي ووضع أوساط الكواكب فيه لأول تأريخ الهجرة وزاد فيه جداول حسنة على أنه اتبعه على خطائه فيه ولم ينبه على مواضع الغلط منه وقد نبهت على ذلك في كتابي المؤلف في إصلاح <note n="4" type="footnote"><p>H: اصطلاح</p></note>
 							حركات الكواكب والتعريف بخطأ الراصدين <note n="5" type="footnote"><p>Gc: الرياضيين</p></note>
-							وتوفي أبو القاسم مسلمة بن أحمد قبل مبعث الفتنة في سنة ثمان وتسعين وثلاثمائة وقد أنجب تلاميذ جلة لم ينجب عالم بالأندلس مثلهم فمن أشهرهم ابن السمح وابن الصفار والزهراوي والكرماني وابن خلدون.‬‎
+							وتوفي <addName>أبو القاسم</addName> مسلمة بن أحمد قبل مبعث الفتنة في سنة ثمان وتسعين وثلاثمائة وقد أنجب تلاميذ جلة لم ينجب عالم بالأندلس مثلهم فمن أشهرهم ابن السمح وابن الصفار والزهراوي والكرماني وابن خلدون.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.5.2‬]</hi>
@@ -500,7 +500,7 @@
 							<hi rend="bold">[‭13.6.1.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو القاسم أصبغ بن محمد بن السمح المهندس الغرناطي وكان في زمن الحكم قال القاضي صاعد إن ابن السمح كان محققاً لعلم العدد والهندسة متقدماً في علم هيئة الأفلاك
+							هو <addName>أبو القاسم</addName> أصبغ بن محمد بن السمح المهندس الغرناطي وكان في زمن الحكم قال القاضي صاعد إن ابن السمح كان محققاً لعلم العدد والهندسة متقدماً في علم هيئة الأفلاك
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٩٦‬أ‬‎" />
 							وحركات النجوم وكانت له مع ذلك عناية بالطب وله تآليف حسان منها:‬‎
 						</p>
@@ -530,7 +530,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.6.1.2‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">قال القاضي صاعد وأخبرني عنه تلميذه أبو مروان سليمان بن محمد بن عيسى بن الناشي المهندس أنه توفي بمدينة غرناطة قاعدة ملك الأمير حبوس بن ماكسن بن زيري بن مناد الصنهاجي ليلة الثلاثاء لاثنتي عشرة ليلة بقيت لرجب سنة ست وعشرين وأربعمائة وهو ابن ست وخمسين سنة شمسية.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">قال القاضي صاعد وأخبرني عنه تلميذه <addName>أبو مروان</addName> سليمان بن محمد بن عيسى بن الناشي المهندس أنه توفي بمدينة غرناطة قاعدة ملك الأمير حبوس بن ماكسن بن زيري بن مناد الصنهاجي ليلة الثلاثاء لاثنتي عشرة ليلة بقيت لرجب سنة ست وعشرين وأربعمائة وهو ابن ست وخمسين سنة شمسية.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.6.2‬]</hi>
 						</p>
@@ -561,7 +561,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو القاسم أحمد بن <addName>عبد الله</addName> بن عمر كان أيضاً متحققاً <note n="2" type="footnote"><p>A: محققاً</p></note>
+							هو <addName>أبو القاسم</addName> أحمد بن <addName>عبد الله</addName> بن عمر كان أيضاً متحققاً <note n="2" type="footnote"><p>A: محققاً</p></note>
 							بعلم <note n="3" type="footnote"><p>A: لعلم</p></note>
 							العدد والهندسة والنجوم وقعد في قرطبة لتعليم ذلك وله زيج مختصر على مذاهب السند هند وكتاب في العمل بالأسطرلاب موجز حسن <note n="4" type="footnote"><p>In margin of A: صحـ حسن</p></note>
 							العبارة قريب المأخذ وكان من جملة تلامذة أبي القاسم مسلمة بن أحمد المعروف بالمجريطي <note n="5" type="footnote"><p>ABHR: بالمرخيطي</p></note>
@@ -581,7 +581,7 @@
 					<div type="textpart" subtype="biography" n="8">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[13.8]‬ أبو الحسن علي بن سليمان الزهراوي <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
+								‭[13.8]‬ <addName>أبو الحسن</addName> علي بن سليمان الزهراوي <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -607,7 +607,7 @@
 								‭[13.9]‬ الكرماني <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو أبو الحكم عمرو بن <addName>عبد الرحمن</addName> بن أحمد بن علي الكرمانى من أهل قرطبة أحد الراسخين في علم العدد والهندسة.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو الحكم</addName> عمرو بن <addName>عبد الرحمن</addName> بن أحمد بن علي الكرمانى من أهل قرطبة أحد الراسخين في علم العدد والهندسة.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">قال القاضي صاعد أخبرني عن الكرماني تلميذه الحسين بن محمد بن الحسين بن يحيى المهندس المنجم إنه ما لقي أحداً يجاريه في علم الهندسة ولا يشق غباره في فك غامضها وتبين مشكلها واستيفاء أجزائها.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ورحل إلى ديار <note n="2" type="footnote"><p>A: بلاد</p></note>
@@ -618,8 +618,8 @@
 							ولا بصناعة المنطق.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أخبرني عنه بذلك أبو الفضل <note n="7" type="footnote"><p>Above the line in A: أبو الفضل</p></note>
-							حسداي ابن يوسف بن حسداي الإسرائيلي وكان خبيراً به ومحله من العلوم النظرية المحل الذي لا يجارى فيه عندنا بالأندلس وتوفي أبو الحكم الكرماني رحمه الله <note n="8" type="footnote"><p>A: om. رحمه الله</p></note>
+							أخبرني عنه بذلك <addName>أبو الفضل</addName> <note n="7" type="footnote"><p>Above the line in A: <addName>أبو الفضل</addName></p></note>
+							حسداي ابن يوسف بن حسداي الإسرائيلي وكان خبيراً به ومحله من العلوم النظرية المحل الذي لا يجارى فيه عندنا بالأندلس وتوفي <addName>أبو الحكم</addName> الكرماني رحمه الله <note n="8" type="footnote"><p>A: om. رحمه الله</p></note>
 							بسرقسطة سنة ثمان وخمسين وأربعمائة وقد بلغ تسعين سنة أو جاوزها بقليل. <note n="9" type="footnote"><p>Above the line in A: أو جاوزها بقليل</p></note>
 							‬‎
 						</p>
@@ -631,22 +631,22 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو مسلم عمر بن أحمد <note n="2" type="footnote"><p>Gc: أبو سلمه مسلم بن عمر بن أحمد; H: om. بن أحمد</p></note>
+							هو <addName>أبو مسلم</addName> عمر بن أحمد <note n="2" type="footnote"><p>Gc: <addName>أبو سلمه</addName> مسلم بن عمر بن أحمد; H: om. بن أحمد</p></note>
 							بن خلدون الحضرمي من أشراف أهل إشبيلية <note n="3" type="footnote"><p>A: أهل الأندلس</p></note>
 							ومن جملة تلامذة أبي القاسم مسلمة بن أحمد أيضاً وكان متصرفاً في علوم الفلسفة مشهوراً بعلم الهندسة والنجوم والطب مشبهاً <note n="4" type="footnote"><p>A: متشبهاً</p></note>
 							بالفلاسفة في إصلاح <note n="5" type="footnote"><p>H: اصطلاح</p></note>
-							أخلاقه وتعديل سيرته وتقويم طريقته وتوفي في بلده سنة تسع وأربعين وأربعمائة وكان من أشهر تلامذة أبي مسلم بن خلدون أبو جعفر أحمد بن <addName>عبد الله</addName> المعروف بابن الصفار المتطبب. <note n="6" type="footnote"><p>Cf. Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 71:</p><p style="direction:rtl; unicode-bidi:embed">من أشهر تلامذة أبي القسم أحمد بن <addName>عبد الله</addName> بن الصفار ابن البرغوث والواسطي وابن شهر والقرشي والأفطش المرواني وابن العطار‬‎</p></note>
+							أخلاقه وتعديل سيرته وتقويم طريقته وتوفي في بلده سنة تسع وأربعين وأربعمائة وكان من أشهر تلامذة أبي مسلم بن خلدون <addName>أبو جعفر</addName> أحمد بن <addName>عبد الله</addName> المعروف بابن الصفار المتطبب. <note n="6" type="footnote"><p>Cf. Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 71:</p><p style="direction:rtl; unicode-bidi:embed">من أشهر تلامذة أبي القسم أحمد بن <addName>عبد الله</addName> بن الصفار ابن البرغوث والواسطي وابن شهر والقرشي والأفطش المرواني وابن العطار‬‎</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="11">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[13.11]‬ أبو جعفر أحمد بن خميس بن عامر بن دُمِنْجُ <note n="1" type="footnote"><p>This biography is missing in Version 2. In margin of A: أبو جعفر أحمد … أحمد بن هشام‬‎</p></note>
+								‭[13.11]‬ <addName>أبو جعفر</addName> أحمد بن خميس بن عامر بن دُمِنْجُ <note n="1" type="footnote"><p>This biography is missing in Version 2. In margin of A: <addName>أبو جعفر</addName> أحمد … أحمد بن هشام‬‎</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أبو جعفر أحمد بن خميس بن عامر بن دُمِنْجُ <note n="2" type="footnote"><p>Ibn al-Abbār, <hi rend="italic">al-Takmilah li-kitāb al-ṣilah</hi>, i:30: دُمِنْجُ; A: دميج; H: دمىح; BR: دميح</p></note>
+							<addName>أبو جعفر</addName> أحمد بن خميس بن عامر بن دُمِنْجُ <note n="2" type="footnote"><p>Ibn al-Abbār, <hi rend="italic">al-Takmilah li-kitāb al-ṣilah</hi>, i:30: دُمِنْجُ; A: دميج; H: دمىح; BR: دميح</p></note>
 							من أهل طليطلة أحد المعتنين بعلم الهندسة والنجوم والطب وله مشاركة في علوم اللسان وحفظ <note n="3" type="footnote"><p>AR: وحظ</p></note>
 							صالح من الشعر وهو من أقران <note n="4" type="footnote"><p>HB: من ذات</p></note>
 							القاضي أبي الوليد هشام بن أحمد بن هشام.‬‎
@@ -725,7 +725,7 @@
 							وبرع في الطب براعة علا بها من كان في زمانه ولم يخدم بالطب وطلب ليُلحق فاستعفى من ذلك واستعان على الأمير حتى عفي ولم يكن أحد من الأشراف في وقته إلا وهو يحتاج إليه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال ابن جلجل حدثني أبو الأصبغ بن حيّوية <note n="3" type="footnote"><p>Ibn al-Faraḍī, <hi rend="italic">Taʾrīkh ʿulamāʾ al-Andalus</hi>, i:378 [= ʿAwwād Maʿrūf, 431]: حيوية; AHR: حنوى; Gc: حتوى; B: حىوي; cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 99: خيوى</p></note>
+							قال ابن جلجل حدثني <addName>أبو الأصبغ</addName> بن حيّوية <note n="3" type="footnote"><p>Ibn al-Faraḍī, <hi rend="italic">Taʾrīkh ʿulamāʾ al-Andalus</hi>, i:378 [= ʿAwwād Maʿrūf, 431]: حيوية; AHR: حنوى; Gc: حتوى; B: حىوي; cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 99: خيوى</p></note>
 							قال قال كنت عند الوزير <addName>عبد الله</addName> بن بدر وقد عرض لابنه محمد قرح شمل بدنه وبين يديه جماعة من الأطباء فيهم طملون فتكلم كل واحد منهم في تلك القروح وطملون ساكت فقال له الوزير [‭42‬,‭ii‬] ما عندك في هذا فإني أراك ساكتاً فقال عندي مرهم ينفع هذه القروح من يومه فمال إلى كلامه وأمره بإحضار المرهم فأحضره وطلى على القروح فجفت من ليلتها فوصله <addName>عبد الله</addName> بن بدر بخمسين ديناراً وانصرف الأطباء دونه بغير شيء.‬‎
 						</p>
 					</div>
@@ -840,7 +840,7 @@
 					<div type="textpart" subtype="biography" n="22">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.22‬] سليمان أبو بكر بن تاج <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.22‬] سليمان <addName>أبو بكر</addName> بن تاج <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -887,7 +887,7 @@
 							<hi rend="bold">[‭13.24.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو عثمان <note n="2" type="footnote"><p>In margin of A, BGcH om.: أبو عثمان</p></note>
+							هو <addName>أبو عثمان</addName> <note n="2" type="footnote"><p>In margin of A, BGcH om.: <addName>أبو عثمان</addName></p></note>
 							سعيد بن <addName>عبد الرحمن</addName> بن محمد بن عبد ربه بن حبيب بن محمد بن سالم مولى الأمير هشام الرضا بن <addName>عبد الرحمن</addName> <note n="3" type="footnote"><p>Above the line in A, Gc om.: الرحمن</p></note>
 							الداخل بالأندلس <note n="4" type="footnote"><p>Above the line in A, BGcH om.: بالأندلس</p></note>
 							وهو ابن أخي أبي <note n="5" type="footnote"><p>Above the line in A, Gc om.: أبي</p></note>
@@ -1043,11 +1043,11 @@
 					<div type="textpart" subtype="biography" n="28">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.28‬] أبو الوليد بن الكتاني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.28‬] <addName>أبو الوليد</addName> بن الكتاني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو الوليد محمد بن الحسين المعروف بابن الكتاني كان عالماً بهياً سرياً حلو اللسان محبوباً من العامة والخاصة لسخائه <note n="2" type="footnote"><p>R: لسخابه</p></note>
+							هو <addName>أبو الوليد</addName> محمد بن الحسين المعروف بابن الكتاني كان عالماً بهياً سرياً حلو اللسان محبوباً من العامة والخاصة لسخائه <note n="2" type="footnote"><p>R: لسخابه</p></note>
 							بعلمه ومؤاساته بنفسه ولم يكن يرغب <note n="3" type="footnote"><p>H: رغب</p></note>
 							في المال ولا جمعه وكان لطيف المعاناة وخدم الناصر والمستنصر بصناعة الطب ومات بعلة الاستسقاء.‬‎
 						</p>
@@ -1069,7 +1069,7 @@
 							<hi rend="bold">[‭13.29.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال القاضي صاعد أخبرني عنه الوزير أبو المطرف <addName>عبد الرحمن</addName> بن محمد بن <addName>عبد الكبير</addName> بن وافد اللخمي إنه كان دقيق الذهن ذكي الخاطر جيد الفهم حسن التوليد والتنتيج <note n="3" type="footnote"><p>Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 82: والتنتيج; R: والتسيح; AHB: والتسبيح</p></note>
+							قال القاضي صاعد أخبرني عنه الوزير <addName>أبو المطرف</addName> <addName>عبد الرحمن</addName> بن محمد بن <addName>عبد الكبير</addName> بن وافد اللخمي إنه كان دقيق الذهن ذكي الخاطر جيد الفهم حسن التوليد والتنتيج <note n="3" type="footnote"><p>Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 82: والتنتيج; R: والتسيح; AHB: والتسبيح</p></note>
 							وكان ذا ثروة وغنى واسع وتوفي قريباً من سنة عشرين وأربعمائة وهو قد قارب ثمانين سنة قال وقرأت في بعض تآليفه أنه أخذ صناعة المنطق عن محمد بن عبدون الجبلي وعمر بن يونس بن أحمد الحراني وأحمد بن حفصون الفيلسوف وأبي <addName>عبد الله</addName> محمد بن إبراهيم القاضي النحوي <note n="4" type="footnote"><p>H: om. وأبي <addName>عبد الله</addName> محمد بن إبراهيم القاضي النحوي</p></note>
 							وأبي <addName>عبد الله</addName> محمد بن مسعود البجاني <note n="5" type="footnote"><p>H: النجاي; R: البجائي</p></note>
 							ومحمد بن ميمون المعروف بمركوش وأبي القاسم فيد بن نجم وسعيد بن فتحون السرقسطي المعروف بالحمار وأبي الحارث الأسقف تلميذ ربيع بن زيد الأسقف الفيلسوف وأبي مرين البجاني <note n="6" type="footnote"><p>B: الىجاي; H: الىحاي; R: البجائي</p></note>
@@ -1092,7 +1092,7 @@
 					<div type="textpart" subtype="biography" n="31">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.31‬] أبو بكر أحمد بن جابر <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.31‬] <addName>أبو بكر</addName> أحمد بن جابر <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1128,11 +1128,11 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.34.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">رحل إلى المشرق سنة تسع وأربعين وثلاثمائة ودخل البصرة ولم يدخل بغداد وأتى مدينة فسطاط مصر ودبر مارستانها ومهر بالطب ونبل فيه وأحكم كثيراً من أصوله وعانى صناعة المنطق عناية صحيحة وكان شيخه فيها أبو سليمان محمد بن طاهر بن بهرام السجستاني البغدادي ورجع إلى الأندلس سنة ستين وثلاثمائة وخدم بالطب المستنصر بالله والمؤيد بالله وكان قبل أن يتطبب مؤدباً بالحساب والهندسة وله في التكسير كتاب حسن.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">رحل إلى المشرق سنة تسع وأربعين وثلاثمائة ودخل البصرة ولم يدخل بغداد وأتى مدينة فسطاط مصر ودبر مارستانها ومهر بالطب ونبل فيه وأحكم كثيراً من أصوله وعانى صناعة المنطق عناية صحيحة وكان شيخه فيها <addName>أبو سليمان</addName> محمد بن طاهر بن بهرام السجستاني البغدادي ورجع إلى الأندلس سنة ستين وثلاثمائة وخدم بالطب المستنصر بالله والمؤيد بالله وكان قبل أن يتطبب مؤدباً بالحساب والهندسة وله في التكسير كتاب حسن.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.34.2‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">قال القاضي صاعد وأخبرني أبو عثمان سعيد بن محمد بن البغونش الطليطلي أنه لم يلق في قرطبة أيام طلبه فيها من يلحق بمحمد بن عبدون الجبلي في صناعة الطب ولا يجاريه في ضبطها وحسن دربته فيها وإحكامه لغوامضها.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">قال القاضي صاعد وأخبرني <addName>أبو عثمان</addName> سعيد بن محمد بن البغونش الطليطلي أنه لم يلق في قرطبة أيام طلبه فيها من يلحق بمحمد بن عبدون الجبلي في صناعة الطب ولا يجاريه في ضبطها وحسن دربته فيها وإحكامه لغوامضها.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولمحمد بن عبدون من الكتب كتاب في التكسير.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="35">
@@ -1171,7 +1171,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو أبو داود سليمان بن حسان يعرف بابن جلجل وكان طبيباً فاضلاً خبيراً بالمعالجات جيد التصرف في صناعة الطب وكان في أيام هشام المؤيد بالله وخدمه بالطب وله بصيرة واعتناء بقوى الأدوية المفردة وقد فسر أسماء الأدوية المفردة من كتاب ديسقوريدس العين زربي وأفصح عن مكنونها وأوضح مستغلق مضمونها.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو داود</addName> سليمان بن حسان يعرف بابن جلجل وكان طبيباً فاضلاً خبيراً بالمعالجات جيد التصرف في صناعة الطب وكان في أيام هشام المؤيد بالله وخدمه بالطب وله بصيرة واعتناء بقوى الأدوية المفردة وقد فسر أسماء الأدوية المفردة من كتاب ديسقوريدس العين زربي وأفصح عن مكنونها وأوضح مستغلق مضمونها.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.2.1‬]</hi>
 						</p>
@@ -1250,11 +1250,11 @@
 					<div type="textpart" subtype="biography" n="37">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.37‬] أبو العرب يوسف بن محمد <note n="1" type="footnote"><p>This biography is present is all three version of the work.</p></note>
+								[‭13.37‬] <addName>أبو العرب</addName> يوسف بن محمد <note n="1" type="footnote"><p>This biography is present is all three version of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أحد المتحققين بصناعة الطب والراسخين في علمه قال القاضي صاعد حدثني الوزير أبو المطرف بن وافد وأبو عثمان سعيد بن محمد بن البغونش إنه كان محكماً لأصول الطب نافذاً في فروعه حسن التصرف في أنواعه <note n="2" type="footnote"><p>In margin of A: قال القاضي صاعد … التصرف في أنواعه‬‎</p></note>
+							أحد المتحققين بصناعة الطب والراسخين في علمه قال القاضي صاعد حدثني الوزير <addName>أبو المطرف</addName> بن وافد وأبو عثمان سعيد بن محمد بن البغونش إنه كان محكماً لأصول الطب نافذاً في فروعه حسن التصرف في أنواعه <note n="2" type="footnote"><p>In margin of A: قال القاضي صاعد … التصرف في أنواعه‬‎</p></note>
 							قال وسمعت غيرهما <note n="3" type="footnote"><p>Above the line in A: وسمعت غيرهما</p></note>
 							يقول <note n="4" type="footnote"><p>Gc: om. القاضي صاعد … غيرهما يقول‬‎</p></note>
 							لم يكن أحد بعد محمد بن عبدون يوازي أبا العرب في قيامه بصناعة الطب ونفوذه فيها وكان غلب عليه في آخر عمره حب الخمر فكان لا يوجد صاحياً ولا يرى مفيقاً من خمار وحرم بذلك الناس كثيراً من الانتفاع به وبعلمه وتوفي وهو قد قارب تسعين سنة وذلك بعد ثلاثين <note n="5" type="footnote"><p>A: ثلاث, above the line ثلاثين</p></note>
@@ -1270,7 +1270,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.38.1‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو أبو عثمان سعيد بن محمد بن البغونش قال القاضي صاعد كان من أهل طليطلة ثم رحل إلى قرطبة لطلب العلم بها فأخذ عن مسلمة بن أحمد علم العدد والهندسة وعن محمد بن عبدون الجبلي وسليمان بن جلجل وابن الشناعة ونظرائهم علم الطب ثم انصرف إلى طليطلة واتصل بها بأميرها الظافر إسماعيل بن <addName>عبد الرحمن</addName> بن إسماعيل بن عامر ابن مطرف بن ذي النون وحظي عنده وكان أحد مديري دولته.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو <addName>أبو عثمان</addName> سعيد بن محمد بن البغونش قال القاضي صاعد كان من أهل طليطلة ثم رحل إلى قرطبة لطلب العلم بها فأخذ عن مسلمة بن أحمد علم العدد والهندسة وعن محمد بن عبدون الجبلي وسليمان بن جلجل وابن الشناعة ونظرائهم علم الطب ثم انصرف إلى طليطلة واتصل بها بأميرها الظافر إسماعيل بن <addName>عبد الرحمن</addName> بن إسماعيل بن عامر ابن مطرف بن ذي النون وحظي عنده وكان أحد مديري دولته.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.38.2‬]</hi>
 						</p>
@@ -1339,7 +1339,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو […] <note n="2" type="footnote"><p>Blank space in all <hi rend="smallcaps">MSS</hi>.</p></note>
 							وكان بالمرية في أيام ابن معن المعروف بابن صمادح ويلقب بالمعتصم بالله <note n="3" type="footnote"><p>H: ابن معن المعروف بابن صمادح ويلقب بكذا وكان بالمرية في أيام بالمعتصم بالله</p></note>
-							وقال أبو يحيى اليسع بن عيسى بن حزم بن اليسع في كتاب االمعرب عن محاسن أهل المغرب إن الرميلي صحبه توفيقٌ يساعده ويصعده ويقيم له الجاه ويقعده مع دربة جرب بها فأدرك وقياسٌ حركه للمحاورة فتحرك فأصبح يقتديَ بنسخه ويتنافسَ في مستصرخه ويتوسل إليه برئاسة [و]نفسٌ لا ترضى بدنية ولا تعامل إلا بالحُرمية <note n="4" type="footnote"><p>HR: بالحرية</p></note>
+							وقال <addName>أبو يحيى</addName> اليسع بن عيسى بن حزم بن اليسع في كتاب االمعرب عن محاسن أهل المغرب إن الرميلي صحبه توفيقٌ يساعده ويصعده ويقيم له الجاه ويقعده مع دربة جرب بها فأدرك وقياسٌ حركه للمحاورة فتحرك فأصبح يقتديَ بنسخه ويتنافسَ في مستصرخه ويتوسل إليه برئاسة [و]نفسٌ لا ترضى بدنية ولا تعامل إلا بالحُرمية <note n="4" type="footnote"><p>HR: بالحرية</p></note>
 							وربما عالج في بعض أوقاته المَستورين بماله أدوية وأغذية فأحبه البعيد والقريب وأصبح ما له إلا حميم أو حبيب حتى أودت به الأيام فاقدة إحسانه نادبة مكانه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1354,7 +1354,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو محمد <addName>عبد الله</addName> بن محمد الأزدي ويعرف بابن الذهبي أحد المعتنين بصناعة الطب ومطالعة كتب الفلاسفة وكان كلفاً بصناعة الكيمياء مجتهداً في طلبها وتوفي ببلنسية في جمادى الآخرة سنة ست وخمسين وأربعمائة ولابن الذهبي من الكتب <note n="2" type="footnote"><p>A: وله الكتب</p></note>
+							هو <addName>أبو محمد</addName> <addName>عبد الله</addName> بن محمد الأزدي ويعرف بابن الذهبي أحد المعتنين بصناعة الطب ومطالعة كتب الفلاسفة وكان كلفاً بصناعة الكيمياء مجتهداً في طلبها وتوفي ببلنسية في جمادى الآخرة سنة ست وخمسين وأربعمائة ولابن الذهبي من الكتب <note n="2" type="footnote"><p>A: وله الكتب</p></note>
 							مقالة له <note n="3" type="footnote"><p>AB: om. له</p></note>
 							في أن الماء لا يغذو. <note n="4" type="footnote"><p>Interlinear note in A: يتلوه ما في الورقة المخرجة referring to interleaf pasted after f. 200 and containing biographies 13.42–45 and 13.50–51.</p></note>
 							(‭٢٠٠‬*أ)‬‎
@@ -1374,7 +1374,7 @@
 					<div type="textpart" subtype="biography" n="43">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.43‬] أبو جعفر بن خميس الطليطلي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.43‬] <addName>أبو جعفر</addName> بن خميس الطليطلي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">قرأ كتب جالينوس على مراتبها وتناول صناعة الطب من طرقها وكانت له رغبة كثيرة في معرفة العلم الرياضي والاشتغال به.‬‎</p>
@@ -1382,7 +1382,7 @@
 					<div type="textpart" subtype="biography" n="44">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.44‬] أبو الحسن <addName>عبد الرحمن</addName> بن خلف بن عساكر الدارمي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.44‬] <addName>أبو الحسن</addName> <addName>عبد الرحمن</addName> بن خلف بن عساكر الدارمي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1397,8 +1397,8 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو بكر يحيى بن أحمد ويعرف بابن الخياط كان أحد تلاميذ أبي القاسم مسلمة بن أحمد المجريطي <note n="2" type="footnote"><p>ABHR: المرحيطي</p></note>
-							في علم العدد والهندسة ثم مال إلى أحكام النجوم وبرع فيها واشتهر بعلمها وخدم بها سليمان بن حكم بن الناصر لدين الله في زمن الفتنة وغيره من الأمراء وأخر من خدم بذلك الأمير المأمون يحيى بن إسماعيل بن ذي النون وكان مع ذلك معتنياً بصناعة الطب دقيق العلاج وكان حصيفاً حليماً دمثاً حسن السيرة كريم المذهب وتوفي بطليطلة سنة سبع وأربعين وأربعمائة وقد قارب ثمانين سنة. <note n="3" type="footnote"><p>Marginal note in A referring to the interleaf after f. 200: تلوه في الأصل منجم بن الفوال وتلو مروان بن جناح الوارد الأصل بهده وقبل أبو جعفر يوسف بن أحمد بن حسداي الوارد الأصل أيضاً</p></note>
+							هو <addName>أبو بكر</addName> يحيى بن أحمد ويعرف بابن الخياط كان أحد تلاميذ أبي القاسم مسلمة بن أحمد المجريطي <note n="2" type="footnote"><p>ABHR: المرحيطي</p></note>
+							في علم العدد والهندسة ثم مال إلى أحكام النجوم وبرع فيها واشتهر بعلمها وخدم بها سليمان بن حكم بن الناصر لدين الله في زمن الفتنة وغيره من الأمراء وأخر من خدم بذلك الأمير المأمون يحيى بن إسماعيل بن ذي النون وكان مع ذلك معتنياً بصناعة الطب دقيق العلاج وكان حصيفاً حليماً دمثاً حسن السيرة كريم المذهب وتوفي بطليطلة سنة سبع وأربعين وأربعمائة وقد قارب ثمانين سنة. <note n="3" type="footnote"><p>Marginal note in A referring to the interleaf after f. 200: تلوه في الأصل منجم بن الفوال وتلو مروان بن جناح الوارد الأصل بهده وقبل <addName>أبو جعفر</addName> يوسف بن أحمد بن حسداي الوارد الأصل أيضاً</p></note>
 							‬‎
 						</p>
 					</div>
@@ -1455,7 +1455,7 @@
 					<div type="textpart" subtype="biography" n="50">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.50‬] أبو الفضل حسداي بن يوسف بن حسداي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biography written in A in the interleaf after f. 200.</p></note>
+								[‭13.50‬] <addName>أبو الفضل</addName> حسداي بن يوسف بن حسداي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biography written in A in the interleaf after f. 200.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1463,14 +1463,14 @@
 							موسى النبي <note n="3" type="footnote"><p>A: om. النبي</p></note>
 							عليه السلام عني بالعلوم على مراتبها وتناول المعارف من طرقها فأحكم علم لسان العرب ونال حظاً جزيلاً من صناعة الشعر والبلاغة وبرع في علم العدد وعلم الهندسة وعلم النجوم <note n="4" type="footnote"><p>A: في علم العدد والهندسة والنجوم</p></note>
 							وفهم صناعة الموسيقى وحاول عملها وأتقن علم المنطق وتمرن <note n="5" type="footnote"><p>H: وتمرس</p></note>
-							بطرق البحث والنظر واشتغل أيضاً بالعلم الطبيعي وكان له نظر في الطب وكان في سنة ثمان وخمسين وأربعمائة في الحياة وهو في سن الشبيبة. <note n="6" type="footnote"><p>Marginal note in A: يتلوه مما ورد الأصل أبو جعفر يوسف بن أحمد بن حسداي</p></note>
+							بطرق البحث والنظر واشتغل أيضاً بالعلم الطبيعي وكان له نظر في الطب وكان في سنة ثمان وخمسين وأربعمائة في الحياة وهو في سن الشبيبة. <note n="6" type="footnote"><p>Marginal note in A: يتلوه مما ورد الأصل <addName>أبو جعفر</addName> يوسف بن أحمد بن حسداي</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="51">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.51‬] أبو جعفر يوسف بن أحمد بن حسداي <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.51‬] <addName>أبو جعفر</addName> يوسف بن أحمد بن حسداي <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1535,7 +1535,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وهو أبو بكر حامد بن سمجون فاضل في صناعة الطب متميز في قوى الأدوية [‭52‬,‭ii‬] المفردة وأفعالها متقن لما يجب من معرفتها وكتابه في الأدوية المفردة مشهور بالجودة وقد بالغ فيه وأجهد نفسه في تأليفه واستوفى فيه كثيراً من آراء المتقدمين في الأدوية المفردة وقال أبو يحيى اليسع بن عيسى بن حزم بن اليسع في كتاب المعرب عن محاسن أهل المغرب إن ابن سمجون ألف كتابه هذا في أيام المنصور الحاجب محمد ابن أبي عامر <note n="2" type="footnote"><p>In margin of A, Gc om.: وقال أبو يحيى اليسع … محمد ابن أبي عامر‬‎</p></note>
+							وهو <addName>أبو بكر</addName> حامد بن سمجون فاضل في صناعة الطب متميز في قوى الأدوية [‭52‬,‭ii‬] المفردة وأفعالها متقن لما يجب من معرفتها وكتابه في الأدوية المفردة مشهور بالجودة وقد بالغ فيه وأجهد نفسه في تأليفه واستوفى فيه كثيراً من آراء المتقدمين في الأدوية المفردة وقال <addName>أبو يحيى</addName> اليسع بن عيسى بن حزم بن اليسع في كتاب المعرب عن محاسن أهل المغرب إن ابن سمجون ألف كتابه هذا في أيام المنصور الحاجب محمد ابن أبي عامر <note n="2" type="footnote"><p>In margin of A, Gc om.: وقال <addName>أبو يحيى</addName> اليسع … محمد ابن أبي عامر‬‎</p></note>
 							أقول وكانت وفاة محمد بن أبي عامر في سنة اثنتين وتسعين وثلاثمائة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولابن سمجون من الكتب:‬‎</p>
@@ -1553,7 +1553,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو عبيد عبد <note n="2" type="footnote"><p>Gc: عبيد; H: om. عبد</p></note>
+							هو <addName>أبو عبيد</addName> عبد <note n="2" type="footnote"><p>Gc: عبيد; H: om. عبد</p></note>
 							الله بن <addName>عبد العزيز</addName> البكري من مرسية من أعيان أهل الأندلس وأكابرهم <note n="3" type="footnote"><p>Gc: من أعمال الأندلس وهو من كبار أعيانها</p></note>
 							فاضل في معرفة الأدوية المفردة وقواها ومنافعها وأسمائها ونعوتها وما يتعلق بها وله من الكتب كتاب أعيان النبات والشجاريات الأندلسية.‬‎
 						</p>
@@ -1565,7 +1565,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو جعفر أحمد بن محمد بن أحمد بن سيد الغافقي إمام فاضل وحكيم عالم
+							هو <addName>أبو جعفر</addName> أحمد بن محمد بن أحمد بن سيد الغافقي إمام فاضل وحكيم عالم
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠١‬ب‬‎" />
 							ويعد من الأكابر في الأندلس وكان أعرف أهل زمانه بقوى الأدوية المفردة ومنافعها وخواصها وأعيانها ومعرفة أسمائها وكتابه في الأدوية المفردة لا نظير له في الجودة ولا شبيه له في معناه قد استقصى فيه ما ذكره ديسقوريدس والفاضل جالينوس بأوجز لفظ وأتم معنى ثم ذكر بعد قوليهما ما تجدد للمتأخرين من الكلام في الأدوية المفردة أو ما ألمّ <note n="2" type="footnote"><p>H: لم</p></note>
 							به واحد واحد منهم وعرفه فيما بعد فجاء كتابه جامعاً لما قاله الأفاضل في الأدوية المفردة ودستوراً يرجع إليه فيما يحتاج إلى تصحيحه منها وللغافقي من الكتب كتاب الأدوية المفردة.‬‎
@@ -1606,7 +1606,7 @@
 					<div type="textpart" subtype="biography" n="58">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.58‬] أبو الصلت <note n="1" type="footnote"><p>This biography is present in all three versions of the work. <hi rend="smallcaps">MS</hi> L begins here.</p></note>
+								[‭13.58‬] <addName>أبو الصلت</addName> <note n="1" type="footnote"><p>This biography is present in all three versions of the work. <hi rend="smallcaps">MS</hi> L begins here.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1622,11 +1622,11 @@
 							<hi rend="bold">[‭13.58.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأتى أبو الصلت من الأندلس إلى ديار مصر وأقام بالقاهرة مدة ثم عاد بعد ذلك إلى الأندلس وكان دخول أبي الصلت إلى مصر في حدود سنة عشر وخمسمائة <note n="5" type="footnote"><p>In margin of A, BGcHL om: وكان دخول … عشر وخمسمائة‬‎</p></note>
+							وأتى <addName>أبو الصلت</addName> من الأندلس إلى ديار مصر وأقام بالقاهرة مدة ثم عاد بعد ذلك إلى الأندلس وكان دخول أبي الصلت إلى مصر في حدود سنة عشر وخمسمائة <note n="5" type="footnote"><p>In margin of A, BGcHL om: وكان دخول … عشر وخمسمائة‬‎</p></note>
 							ولما كان في الإسكندرية <note n="6" type="footnote"><p>AGcH: بالإسكندرية</p></note>
 							حبس بها وحدثني الشيخ سديد الدين المنطقي في القاهرة سنة اثنين وثلاثين وستمائة <note n="7" type="footnote"><p>B: om. في القاهرة سنة اثنين وثلاثين وستمائة</p></note>
 							أن أبا الصلت أمية بن <addName>عبد العزيز</addName> كان سبب حبسه في الإسكندرية <note n="8" type="footnote"><p>AGc: بالإسكندرية</p></note>
-							أن مركباً كان قد وصل إليها وهو موقر بالنحاس فغرق قريباً منها ولم تكن لهم حيلة تخليصه لطول المسافة في عمق البحر ففكر أبو الصلت في أمره وأجال النظر في هذا
+							أن مركباً كان قد وصل إليها وهو موقر بالنحاس فغرق قريباً منها ولم تكن لهم حيلة تخليصه لطول المسافة في عمق البحر ففكر <addName>أبو الصلت</addName> في أمره وأجال النظر في هذا
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٢‬أ‬‎" />
 							المعنى حتى تلخص له فيه رأي واجتمع بالأفضل بن أمير الجيوش <note n="9" type="footnote"><p>Above the line in A, GcHL om.: بالأفضل بن أمير الجيوش</p></note>
 							ملك الإسكندرية <note n="10" type="footnote"><p>AGcHL: بملك الإسكندرية; R: om. ملك الإسكندرية</p></note>
@@ -1642,7 +1642,7 @@
 							<hi rend="bold">[‭13.58.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ولقد تلطف أبو الصلت جداً فيما صنعه وفي التحيل إلى رفع المركب إلا أن القدر لم يساعده وحنق عليه الملك لما غرمه من الآلات وكونها مرت ضائعة وأمر بحبسه وأن يستوجب ذلك وبقي في الاعتقال مدة إلى أن شفع فيه بعض الأعيان وأطلق وكان ذلك في خلافة الآمر بأحكام الله ووزارة الملك الأفضل بن أمير الجيوش. <note n="17" type="footnote"><p>B: om. وكان … أمير الجيوش‬‎</p></note>
+							ولقد تلطف <addName>أبو الصلت</addName> جداً فيما صنعه وفي التحيل إلى رفع المركب إلا أن القدر لم يساعده وحنق عليه الملك لما غرمه من الآلات وكونها مرت ضائعة وأمر بحبسه وأن يستوجب ذلك وبقي في الاعتقال مدة إلى أن شفع فيه بعض الأعيان وأطلق وكان ذلك في خلافة الآمر بأحكام الله ووزارة الملك الأفضل بن أمير الجيوش. <note n="17" type="footnote"><p>B: om. وكان … أمير الجيوش‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1764,7 +1764,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.58.4.2‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">ولما كان أبو الصلت أمية بن <addName>عبد العزيز</addName> قد توجه إلى الأندلس قال ظافر الحداد الإسكندري وأنفذها إلى المهدية إلى الشيخ أبي الصلت من مصر يذكر شوقه إليه وأيام اجتماعهما بالإسكندرية:‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">ولما كان <addName>أبو الصلت</addName> أمية بن <addName>عبد العزيز</addName> قد توجه إلى الأندلس قال ظافر الحداد الإسكندري وأنفذها إلى المهدية إلى الشيخ أبي الصلت من مصر يذكر شوقه إليه وأيام اجتماعهما بالإسكندرية:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -3067,7 +3067,7 @@
 							<hi rend="bold">[‭13.59.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو بكر محمد بن يحيى بن الصائغ ويعرف بابن باجة من الأندلس وكان في العلوم الحكمية علامة وقته وأوحد زمانه <note n="2" type="footnote"><p>Gc: om. وأوحد زمانه</p></note>
+							هو <addName>أبو بكر</addName> محمد بن يحيى بن الصائغ ويعرف بابن باجة من الأندلس وكان في العلوم الحكمية علامة وقته وأوحد زمانه <note n="2" type="footnote"><p>Gc: om. وأوحد زمانه</p></note>
 							وبلي بمحن كثيرة وشناعات من العوام <note n="3" type="footnote"><p>Gc: om. من العوام</p></note>
 							وقصدوا هلاكه مرات وسلمه الله منهم وكان متميزاً في العربية والأدب حافظاً للقرآن ويعد من الأفاضل في صناعة الطب وكان متقناً لصناعة الموسيقى جيد اللعب بالعود.‬‎
 						</p>
@@ -3075,7 +3075,7 @@
 							<hi rend="bold">[‭13.59.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال أبو الحسن علي بن <addName>عبد العزيز</addName> بن الإمام في صدر المجموع الذي نقله من أقاويل أبي بكر محمد بن الصائغ بن باجة ما هذا مثاله هذا مجموع ما قيد من أقوال أبي بكر بن الصائغ رحمه الله في العلوم الفلسفية وكان في ثقابة الذهن ولطف الغوص على تلك المعاني الجليلة الشريفة الدقيقة أعجوبة دهره ونادرة الفلك في زمانه فإن هذه الكتب الفلسفية كانت متداولة بالأندلس من زمان الحكم مستجلبها <note n="4" type="footnote"><p>Cf. al-Maʿṣūmī, ‘Ibn al-Imām’, 103: مستجليها</p></note>
+							وقال <addName>أبو الحسن</addName> علي بن <addName>عبد العزيز</addName> بن الإمام في صدر المجموع الذي نقله من أقاويل أبي بكر محمد بن الصائغ بن باجة ما هذا مثاله هذا مجموع ما قيد من أقوال أبي بكر بن الصائغ رحمه الله في العلوم الفلسفية وكان في ثقابة الذهن ولطف الغوص على تلك المعاني الجليلة الشريفة الدقيقة أعجوبة دهره ونادرة الفلك في زمانه فإن هذه الكتب الفلسفية كانت متداولة بالأندلس من زمان الحكم مستجلبها <note n="4" type="footnote"><p>Cf. al-Maʿṣūmī, ‘Ibn al-Imām’, 103: مستجليها</p></note>
 							ومستجلب غرائب <note n="5" type="footnote"><p>In margin of A: غرائب صح</p></note>
 							ما صنف بالمشرق ونقل من كتب الأوائل وغيرها نصر الله وجهه وتردد النظر فيها فما انتهج فيها الناظر ‭[ii,63]‬ قبله سبيلاً وما تقيد عنهم فيها إلا ضلالات وتبديل كما تبدد <note n="6" type="footnote"><p>Cf. al-Maʿṣūmī, ‘Ibn al-Imām’, 103: تعدد</p></note>
 							عن ابن حزم الإشبيلي وكان من أجل نظار زمانه وأكثرهم لم <note n="7" type="footnote"><p>Al-Maʿṣūmī, ‘Ibn al-Imām’, 103: لم; ABGaGcHLR: لمن</p></note>
@@ -3099,7 +3099,7 @@
 							<hi rend="bold">[‭13.59.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأما أبو بكر فنهضت به فطرته الفائقة ولم يدع النظر والتنتيج والتقييد لكل ما ارتسمت حقيقته في نفسه على أطوار أحواله وكيفما تصرف به زمنه وأثبت في الصناعة الذهنية وفي أجزاء العلم الطبيعي ما يدل على حصول هاتين <note n="19" type="footnote"><p>Gc: على أن هذين</p></note>
+							وأما <addName>أبو بكر</addName> فنهضت به فطرته الفائقة ولم يدع النظر والتنتيج والتقييد لكل ما ارتسمت حقيقته في نفسه على أطوار أحواله وكيفما تصرف به زمنه وأثبت في الصناعة الذهنية وفي أجزاء العلم الطبيعي ما يدل على حصول هاتين <note n="19" type="footnote"><p>Gc: على أن هذين</p></note>
 							الصناعتين في نفسه صورة ينطق عنها ويفصل ويركب فيها فعل المستولي على أمدها وله تعاليق في الهندسة وعلم الهيئة
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٦‬أ‬‎" />
 							تدل على بروعه في هذا الفن.‬‎
@@ -3121,9 +3121,9 @@
 							<hi rend="bold">[‭13.59.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول وكان هذا أبو الحسن علي بن الإمام من غرناطة وكان كاتباً فاضلاً متميزاً في العلوم وصحب أبا بكر بن باجة مدة واشتغل عليه وسافر أبو الحسن علي بن الإمام من المغرب <note n="24" type="footnote"><p>AGcR: الغرب</p></note>
-							وتوفي بقوص وكان من جملة تلاميذ ابن باجة أيضاً القاضي أبو الوليد محمد <note n="25" type="footnote"><p>Above the line in A: محمد</p></note>
-							ابن رشد وتوفي ابن باجة شاباً بمدينة فاس ودفن بها وأخبرني القاضي أبو مروان الإشبيلي <note n="26" type="footnote"><p>In margin of A, Gc om.: الإشبيلي</p></note>
+							أقول وكان هذا <addName>أبو الحسن</addName> علي بن الإمام من غرناطة وكان كاتباً فاضلاً متميزاً في العلوم وصحب أبا بكر بن باجة مدة واشتغل عليه وسافر <addName>أبو الحسن</addName> علي بن الإمام من المغرب <note n="24" type="footnote"><p>AGcR: الغرب</p></note>
+							وتوفي بقوص وكان من جملة تلاميذ ابن باجة أيضاً القاضي <addName>أبو الوليد</addName> محمد <note n="25" type="footnote"><p>Above the line in A: محمد</p></note>
+							ابن رشد وتوفي ابن باجة شاباً بمدينة فاس ودفن بها وأخبرني القاضي <addName>أبو مروان</addName> الإشبيلي <note n="26" type="footnote"><p>In margin of A, Gc om.: الإشبيلي</p></note>
 							أنه رأى قبر ابن باجة وقريباً من قبره قبر أبي بكر بن العربي الفقيه صاحب التصانيف. <note n="27" type="footnote"><p>B: om. وأخبرني القاضي … صاحب التصانيف‬‎</p></note>
 							‬‎
 						</p>
@@ -3181,7 +3181,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">نبذ يسيرة على الهندسة والهيئة</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭17‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								رسالة كتب بها إلى صديقه أبو جعفر يوسف بن أحمد <note n="33" type="footnote"><p>Above the line in A, Gc om.: بن أحمد</p></note>
+								رسالة كتب بها إلى صديقه <addName>أبو جعفر</addName> يوسف بن أحمد <note n="33" type="footnote"><p>Above the line in A, Gc om.: بن أحمد</p></note>
 								بن حسداي بعد قدومه إلى مصر
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭18‬.</label>
@@ -3193,7 +3193,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭21‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب التجربتين على أدوية ابن وافد <note n="34" type="footnote"><p>A: وافدي</p></note>
-								واشترك في تأليف هذا الكتاب أبو بكر بن باجة وأبو الحسن سفيان
+								واشترك في تأليف هذا الكتاب <addName>أبو بكر</addName> بن باجة وأبو الحسن سفيان
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭22‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">كتاب اختصار الحاوي للرازي</item>
@@ -3220,14 +3220,14 @@
 					<div type="textpart" subtype="biography" n="60">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.60‬] أبو مروان بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.60‬] <addName>أبو مروان</addName> بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.60.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو مروان <addName>عبد الملك</addName> بن الفقيه محمد بن مروان بن زهر الإيادي الإشبيلي كان فاضلاً في صناعة الطب خبيراً بأعمالها مشهوراً بالحذق <note n="2" type="footnote"><p>Gc: بأعمالها وبحاذقا في أمرها</p></note>
+							هو <addName>أبو مروان</addName> <addName>عبد الملك</addName> بن الفقيه محمد بن مروان بن زهر الإيادي الإشبيلي كان فاضلاً في صناعة الطب خبيراً بأعمالها مشهوراً بالحذق <note n="2" type="footnote"><p>Gc: بأعمالها وبحاذقا في أمرها</p></note>
 							وكان والده الفقيه محمد <note n="3" type="footnote"><p>A: add. ابن زهر; Gc: add. بن مروان</p></note>
 							من جملة الفقهاء والمتميزين في علم الحديث بإشبيلية.‬‎
 						</p>
@@ -3236,7 +3236,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال القاضي صاعد إن أبا مروان ابن زهر رحل إلى المشرق ودخل القيروان ومصر وتطبب هناك زمناً طويلاً ثم رجع إلى الأندلس <note n="4" type="footnote"><p>In margin of B: إلى الأندلس صح</p></note>
-							وقصد مدينة دانية وكان ملكها في ذلك الوقت مجاهد فلما وصل أبو مروان ابن زهر <note n="5" type="footnote"><p>In margin of A: ابن زهر صح</p></note>
+							وقصد مدينة دانية وكان ملكها في ذلك الوقت مجاهد فلما وصل <addName>أبو مروان</addName> ابن زهر <note n="5" type="footnote"><p>In margin of A: ابن زهر صح</p></note>
 							إليه أكرمه إكراماً كثيراً وأمره أن يقيم عنده ففعل وحظي في أيامه واشتهر في دانية بالتقدم في صناعة الطب وطار ذكره منها إلى أقطار الأندلس. <note n="6" type="footnote"><p>Gc: وتساع ذكره منها في الأقطار</p></note>
 							‬‎
 						</p>
@@ -3245,19 +3245,19 @@
 							الخواص والعوام بل إذا استعمل على الترتيب الذي يجب وبالتدريج الذي ينبغي يكون رياضة فاضلة ومهنة نافعة لتفتيحه المسام <note n="8" type="footnote"><p>A: للمسام</p></note>
 							وتطريقه للفضول وتلطيفه لما غلظ من الكيموسات.‬‎
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">أقول وانتقل أبو مروان بن زهر من دانية إلى مدينة إشبيلية ولم يزل بها إلى أن توفي وخلف أموالاً جزيلة وكان غني إشبيلية أنظارها في الرباع والضياع.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">أقول وانتقل <addName>أبو مروان</addName> بن زهر من دانية إلى مدينة إشبيلية ولم يزل بها إلى أن توفي وخلف أموالاً جزيلة وكان غني إشبيلية أنظارها في الرباع والضياع.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="61">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.61‬] أبو العلاء ابن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.61‬] <addName>أبو العلاء</addName> ابن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.61.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو العلاء زهر بن أبي مروان <addName>عبد الملك</addName> بن محمد بن مروان بن زهر مشهور بالحذق والمعرفة وله علاجات مختارة تدل على قوته في صناعة الطب واطلاعه على دقائقها وكانت له نوادر في مداواته المرضى ومعرفته لأحوالهم وما يجدونه من الآلام من غير أن يستخبرهم عن ذلك بل ينظره إلى قواريرهم أو <note n="2" type="footnote"><p>A: om. أو</p></note>
+							هو <addName>أبو العلاء</addName> زهر بن أبي مروان <addName>عبد الملك</addName> بن محمد بن مروان بن زهر مشهور بالحذق والمعرفة وله علاجات مختارة تدل على قوته في صناعة الطب واطلاعه على دقائقها وكانت له نوادر في مداواته المرضى ومعرفته لأحوالهم وما يجدونه من الآلام من غير أن يستخبرهم عن ذلك بل ينظره إلى قواريرهم أو <note n="2" type="footnote"><p>A: om. أو</p></note>
 							عندما يجس نبضهم وكان في دولة الملثمين ويعرفون أيضاً بالمرابطين وحظي في
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٧‬أ‬‎" />
 							أيامهم ونال المنزلة الرفيعة والذكر الجميل وكان قد اشتغل بصناعة ‭[ii,65]‬ الطب وهو صغير في أيام المعتضد بالله أبي عمرو عباد بن عباد واشتغل أيضاً بعلم الأدب وهو حسن التصنيف جيد التأليف. <note n="3" type="footnote"><p>Marginal note in R – see Appendix <hi rend="smallcaps">II</hi>.10.</p></note>
@@ -3271,7 +3271,7 @@
 							<hi rend="bold">[‭13.61.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال أبو يحيى اليسع <note n="4" type="footnote"><p>L: اليسنع</p></note>
+							وقال <addName>أبو يحيى</addName> اليسع <note n="4" type="footnote"><p>L: اليسنع</p></note>
 							بن عيسى بن حزم بن اليسع في كتاب المعرب عن محاسن أهل المغرب إن أبا العلاء ابن زهر كان مع صغر سنه تصرخ النجابة بذكره وتخطب المعارف بشكره ولم يزل يطالع كتب الأوائل متفهماً ويلقى الشيوخ مستعلماً والسعد ينهج له مناهج التيسير والقدر لا يرضى له من الوجاهة باليسير <note n="5" type="footnote"><p>Gc: om. والقدر لا يرضى له من الوجاهة باليسير</p></note>
 							حتى برز في الطب إلى غاية عجز <note n="6" type="footnote"><p>A: برز, in margin عجز</p></note>
 							الطب عن مرامها وضعف الفهم عن إبرامها وخرجت عن <note n="7" type="footnote"><p>L: من</p></note>
@@ -3284,16 +3284,16 @@
 							<hi rend="bold">[‭13.61.3.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ونقلت من خط محمد بن أحمد بن صالح العبدي وهو من أهل المغرب وله نظر وعناية بصناعة الطب قال أبو العيناء المصري وهو شيخ أبي العلاء بن زهر ومن قبله انصرف من بغداد وحكايته معه طويلة قال أخبرني بهذا الشيخ الطبيب أبو القاسم <note n="11" type="footnote"><p>L: القسم</p></note>
+							ونقلت من خط محمد بن أحمد بن صالح العبدي وهو من أهل المغرب وله نظر وعناية بصناعة الطب قال <addName>أبو العيناء</addName> المصري وهو شيخ أبي العلاء بن زهر ومن قبله انصرف من بغداد وحكايته معه طويلة قال أخبرني بهذا الشيخ الطبيب <addName>أبو القاسم</addName> <note n="11" type="footnote"><p>L: القسم</p></note>
 							هشام ابن إسماعيل بن محمد بن أحمد بن صاحب الصلاة بداره بإشبيلية حرسها الله. <note n="12" type="footnote"><p>In margin of A, Gc om.: قال أخبرني … حرسها الله‬‎; BR: add. تعالى</p></note>
 							‬‎
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من جملة تلاميذ أبي العلاء بن زهر في الطب أبو عامر بن ينق الشاطبي الشاعر.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من جملة تلاميذ أبي العلاء بن زهر في الطب <addName>أبو عامر</addName> بن ينق الشاطبي الشاعر.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.61.3.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وتوفي أبو العلاء بن زهر في سنة […] <note n="13" type="footnote"><p>Blank space in all Mss.</p></note>
+							وتوفي <addName>أبو العلاء</addName> بن زهر في سنة […] <note n="13" type="footnote"><p>Blank space in all Mss.</p></note>
 							ودفن بإشبيلية خارج باب الفتح ومن شعر أبي العلاء بن زهر قال في التغزل:‬‎
 						</p>
 						<lg>
@@ -3405,14 +3405,14 @@
 					<div type="textpart" subtype="biography" n="62">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.62‬] أبو مروان بن أبي العلاء بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.62‬] <addName>أبو مروان</addName> بن أبي العلاء بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.62.1.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو مروان <addName>عبد الملك</addName> بن أبي العلاء زهر <note n="2" type="footnote"><p>Gc: وهو</p></note>
+							هو <addName>أبو مروان</addName> <addName>عبد الملك</addName> بن أبي العلاء زهر <note n="2" type="footnote"><p>Gc: وهو</p></note>
 							بن أبي مروان <addName>عبد الملك</addName> بن محمد <note n="3" type="footnote"><p>H: محمود</p></note>
 							بن مروان بن زهر لحق بأبيه في صناعة الطب وكان جيد الاستقصاء في الأدوية المفردة والمركبة حسن المعالجة قد شاع ذكره في الأندلس وفي <note n="4" type="footnote"><p>Above the line in L: في</p></note>
 							غيرها من البلاد واشتغل الأطباء بمصنفاته ولم يكن في <note n="5" type="footnote"><p>L: repeats في</p></note>
@@ -3421,15 +3421,15 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان قد خدم الملثمين ونال من جهتهم من النعم والأموال <note n="7" type="footnote"><p>A: الأموال والنعم with super-scripted م noting the permutation.</p></note>
-							شيئاً كثيراً وفي الوقت الذي كان فيه أبو مروان <addName>عبد الملك</addName> بن أبي العلاء بن زهر دخل المهدي إلى الأندلس وهو أبو <addName>عبد الله</addName> محمد بن <addName>عبد الله</addName> بن تومرت ومعه <addName>عبد المؤمن</addName> وشرع في بث الدعوة لعبد المؤمن وتمهيد أمره إلى أن انتشرت كلمته واتسعت مملكته وملك البلاد وأطاعه الخلق <note n="8" type="footnote"><p>Gc: العباد</p></note>
+							شيئاً كثيراً وفي الوقت الذي كان فيه <addName>أبو مروان</addName> <addName>عبد الملك</addName> بن أبي العلاء بن زهر دخل المهدي إلى الأندلس وهو أبو <addName>عبد الله</addName> محمد بن <addName>عبد الله</addName> بن تومرت ومعه <addName>عبد المؤمن</addName> وشرع في بث الدعوة لعبد المؤمن وتمهيد أمره إلى أن انتشرت كلمته واتسعت مملكته وملك البلاد وأطاعه الخلق <note n="8" type="footnote"><p>Gc: العباد</p></note>
 							وحكاية المهدي في تأتيه إلى أن نال الملك وصفا له الأمر معروفة مشهورة ولما استقل <addName>عبد المؤمن</addName> بالمملكة وعرف بأمير المؤمنين واستولى على خزائن المغرب بذل الأموال وأظهر العدل وقرب أهل العلم وأكرمهم ووالى إحسانه إليهم واختص <note n="9" type="footnote"><p>A: add. <addName>عبد الملك</addName> crossed out.</p></note>
-							أبا مروان <addName>عبد الملك</addName> بن زهر لنفسه وجعل اعتماده عليه في الطب وأناله من الإنعام والعطاء فوق أمنيته وكان مكيناً عنده عالي القدر متميزاً على كثير من أبناء زمانه وألف له أبو مروان بن زهر الترياق السبعيني واختصره عشارياً واختصره سباعياً ويعرف بترياق الأنتلة.‬‎
+							أبا مروان <addName>عبد الملك</addName> بن زهر لنفسه وجعل اعتماده عليه في الطب وأناله من الإنعام والعطاء فوق أمنيته وكان مكيناً عنده عالي القدر متميزاً على كثير من أبناء زمانه وألف له <addName>أبو مروان</addName> بن زهر الترياق السبعيني واختصره عشارياً واختصره سباعياً ويعرف بترياق الأنتلة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.62.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني أبو القاسم المعاجيني الأندلسي أن الخليفة <addName>عبد المؤمن</addName> <note n="10" type="footnote"><p>B: وحدثني بعض الأطباء أن الخليفة</p></note>
+							وحدثني <addName>أبو القاسم</addName> المعاجيني الأندلسي أن الخليفة <addName>عبد المؤمن</addName> <note n="10" type="footnote"><p>B: وحدثني بعض الأطباء أن الخليفة</p></note>
 							احتاج إلى شرب دواء مسهل وكان يكره شرب الأدوية المسهلة <note n="11" type="footnote"><p>B: om. المسهلة</p></note>
 							فتلطف له ابن زهر في ذلك وأتى إلى كرمة في بستانه فجعل الماء الذي يسقيها به ماء قد أكسبه قوة أدوية مسهلة بنقعها فيه أو بغليانها معه ولما تشربت الكرمة قوة الأدوية المسهلة التي أرادها وطلع فيها العنب وله تلك القوة
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٨‬أ‬‎" />
@@ -3445,7 +3445,7 @@
 							بن علي بن محمد بن ‭[ii,67]‬ العربي <note n="15" type="footnote"><p>Above the line in A: بن عربي; Gc: أبو <addName>عبد الله</addName> محمد بن علي</p></note>
 							الطائي الحاتمي <note n="16" type="footnote"><p>Above the line in A, Gc om.: الحاتمي</p></note>
 							من أهل مرسية أن أبا مروان <addName>عبد الملك</addName> بن زهر كان في وقت مروره إلى دار أمير المؤمنين بإشبيلية يجد في طريقه عند حمام أبي الخير بالقرب من دار ابن مؤمل مريضاً به سوء قتبه <note n="17" type="footnote"><p>A: قنية; B: فىيه; H: فيىه; P: قنىه; R: قنيه</p></note>
-							وقد كبر جوفه واصفر لونه فكان أبداً يشكوا إليه حاله ويسأله النظر في أمره فلما كان في بعض الأيام سأله مثل ذلك فوقف أبو مروان بن زهر عنده ونظر إليه فوجد عند رأسه إبريقاً عتيقاً يشرب منه الماء فقال اكسر هذا الإبريق فإنه سبب مرضك فقال لا بالله يا سيدي فإني ما لي غيره فأمر بعض خدمه بكسره فكسره <note n="18" type="footnote"><p>HL: om. فكسره</p></note>
+							وقد كبر جوفه واصفر لونه فكان أبداً يشكوا إليه حاله ويسأله النظر في أمره فلما كان في بعض الأيام سأله مثل ذلك فوقف <addName>أبو مروان</addName> بن زهر عنده ونظر إليه فوجد عند رأسه إبريقاً عتيقاً يشرب منه الماء فقال اكسر هذا الإبريق فإنه سبب مرضك فقال لا بالله يا سيدي فإني ما لي غيره فأمر بعض خدمه بكسره فكسره <note n="18" type="footnote"><p>HL: om. فكسره</p></note>
 							فظهر منه لما كسر <note n="19" type="footnote"><p>Gc: om. لما كسر</p></note>
 							ضفدع وقد كبر مما له فيه من الزمان فقال له ابن زهر خلصت يا هذا من المرض انظر ما كنت تشرب وبرأ الرجل بعد ذلك.‬‎
 						</p>
@@ -3453,14 +3453,14 @@
 							<hi rend="bold">[‭13.62.2.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني القاضي أبو مروان محمد بن أحمد بن <addName>عبد الملك</addName> اللخمي ثم الباجي قال حدثني من أثق به أنه <note n="20" type="footnote"><p>H: om. أنه</p></note>
-							كان باشبيلية حكيم فاضل في صناعة الطب يعرف بالفار وله كتاب جيد في الأودية المفردة سفران وكان أبو مروان بن زهر كثيراً ما يأكل التين الأخضر ويميل إليه وكان الطبيب المعروف بالفار لا يغتذي منه بشيء وإن أخذ منه شيئاً فيكون واحدة في السنة فكان يقول هذا لأبي مروان بن زهر أنه لا بد أن تعرض لك <note n="21" type="footnote"><p>B: له</p></note>
+							وحدثني القاضي <addName>أبو مروان</addName> محمد بن أحمد بن <addName>عبد الملك</addName> اللخمي ثم الباجي قال حدثني من أثق به أنه <note n="20" type="footnote"><p>H: om. أنه</p></note>
+							كان باشبيلية حكيم فاضل في صناعة الطب يعرف بالفار وله كتاب جيد في الأودية المفردة سفران وكان <addName>أبو مروان</addName> بن زهر كثيراً ما يأكل التين الأخضر ويميل إليه وكان الطبيب المعروف بالفار لا يغتذي منه بشيء وإن أخذ منه شيئاً فيكون واحدة في السنة فكان يقول هذا لأبي مروان بن زهر أنه لا بد أن تعرض لك <note n="21" type="footnote"><p>B: له</p></note>
 							نغلة صعبة بمداومتك أكل التين <note n="22" type="footnote"><p>H: om. أكل التين</p></note>
-							والنغلة هي الدبيلة بلغتهم وكان أبو مروان يقول له لا بد لكثرة حميتك وكونك لم تأكل شيئاً من التين أن يصيبك الشناج.‬‎
+							والنغلة هي الدبيلة بلغتهم وكان <addName>أبو مروان</addName> يقول له لا بد لكثرة حميتك وكونك لم تأكل شيئاً من التين أن يصيبك الشناج.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							قال فلم يمت المعروف بالفار إلا بعلة التشنج وكذلك أيضاً عرض لأبي مروان بن زهر دبيلة في جنبه وتوفي بها وهذا من أبلغ ما يكون من <note n="23" type="footnote"><p>H: om. من</p></note>
-							تقدمة الإنذار قال ولما عرض لأبي مروان هذه العلة كان يعالجها ويصنع لها مراهم وأدوية ولم تؤثر نفعاً يعتد به فكان يقول له ابنه أبو بكر يا أبي لو غيرت هذا الدواء بالدواء الفلاني ولو زدت من هذا الدواء أو استعملت <note n="24" type="footnote"><p>Marginal note in R: اتفاقية غريبة</p></note>
+							تقدمة الإنذار قال ولما عرض لأبي مروان هذه العلة كان يعالجها ويصنع لها مراهم وأدوية ولم تؤثر نفعاً يعتد به فكان يقول له ابنه <addName>أبو بكر</addName> يا أبي لو غيرت هذا الدواء بالدواء الفلاني ولو زدت من هذا الدواء أو استعملت <note n="24" type="footnote"><p>Marginal note in R: اتفاقية غريبة</p></note>
 							دواء كذا وكذا فكان يقول له <note n="25" type="footnote"><p>L: om. له</p></note>
 							يا بني إذا أراد الله تغيير هذه البنية فإنه لا يقدر لي أن استعمل من <note n="26" type="footnote"><p>A: add. هذه</p></note>
 							الأدوية إلا ما يتم به مشيئته وإرادته.‬‎
@@ -3469,10 +3469,10 @@
 							<hi rend="bold">[‭13.62.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول وكان من أجل تلاميذ أبي مروان <addName>عبد الملك</addName> بن أبي العلاء بن زهر في صناعة الطب والآخذين عنه أبو الحسين بن أَسَدون شهر بالمصدوم
+							أقول وكان من أجل تلاميذ أبي مروان <addName>عبد الملك</addName> بن أبي العلاء بن زهر في صناعة الطب والآخذين عنه <addName>أبو الحسين</addName> بن أَسَدون شهر بالمصدوم
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٨‬ب‬‎" />
-							وأبو بكر بن الفقيه القاضي أبي الحسن قاضي إشبيلية وأبو محمد الشذوني والفقيه الزاهد أبو عمران بن أبي <note n="27" type="footnote"><p>L: om. أبي</p></note>
-							عمران وتوفي أبو مروان <addName>عبد الملك</addName> بن أبي العلاء بن زهر في سنة […] <note n="28" type="footnote"><p>Blank space in ABGcLR; H: سبع وخمسين</p></note>
+							وأبو بكر بن الفقيه القاضي أبي الحسن قاضي إشبيلية وأبو محمد الشذوني والفقيه الزاهد <addName>أبو عمران</addName> بن أبي <note n="27" type="footnote"><p>L: om. أبي</p></note>
+							عمران وتوفي <addName>أبو مروان</addName> <addName>عبد الملك</addName> بن أبي العلاء بن زهر في سنة […] <note n="28" type="footnote"><p>Blank space in ABGcLR; H: سبع وخمسين</p></note>
 							وخمسمائة ودفن بإشبيلية خارج باب الفتح.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3481,7 +3481,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">ولأبي مروان بن أبي العلاء ابن زهر من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">كتاب التيسير في المداواة والتدبير ألفه للقاضي أبو الوليد محمد بن أحمد بن رشد</item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب التيسير في المداواة والتدبير ألفه للقاضي <addName>أبو الوليد</addName> محمد بن أحمد بن رشد</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">كتاب الأغذية ألفه لأبي محمد <addName>عبد المؤمن</addName> بن علي</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
@@ -3499,14 +3499,14 @@
 					<div type="textpart" subtype="biography" n="63">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.63‬] الحفيد أبو بكر بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.63‬] الحفيد <addName>أبو بكر</addName> بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.63.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو الشيخ الوزير الحكيم الأديب الحسيب الأصيل أبو بكر محمد بن أبي مروان بن أبي العلاء بن زهر مولده بمدينة إشبيلية ونشأ بها وتميز في العلوم وأخذ صناعة الطب عن أبيه وباشر أعمالها وكان معتدل القامة صحيح البنية قوي الأعضاء وصار في سن الشيخوخة ‭[ii,68]‬ ونضارة لونه وقوة حركاته لم يتبين فيها تغير وإنما عرض له في أواخر عمره ثقل في السمع وكان حافظاً للقرآن وسمع الحديث واشتغل بعلم الأدب والعربية ولم يكن في زمانه أعلم منه بمعرفة اللغة ويوصف بأنه قد أكمل صناعة الطب والأدب وعانى عمل الشعر <note n="2" type="footnote"><p>B: om. الشعر</p></note>
+							هو الشيخ الوزير الحكيم الأديب الحسيب الأصيل <addName>أبو بكر</addName> محمد بن أبي مروان بن أبي العلاء بن زهر مولده بمدينة إشبيلية ونشأ بها وتميز في العلوم وأخذ صناعة الطب عن أبيه وباشر أعمالها وكان معتدل القامة صحيح البنية قوي الأعضاء وصار في سن الشيخوخة ‭[ii,68]‬ ونضارة لونه وقوة حركاته لم يتبين فيها تغير وإنما عرض له في أواخر عمره ثقل في السمع وكان حافظاً للقرآن وسمع الحديث واشتغل بعلم الأدب والعربية ولم يكن في زمانه أعلم منه بمعرفة اللغة ويوصف بأنه قد أكمل صناعة الطب والأدب وعانى عمل الشعر <note n="2" type="footnote"><p>B: om. الشعر</p></note>
 							وأجاد فيه وله موشحات مشهورة ويغني بها وهي من أجود ما قيل في ذلك وكان ملازماً للأمور الشرعية متين الدين قوي النفس محباً للخير <note n="3" type="footnote"><p>Repeated in the margin of A: وكان ملازماً … محباً للخير‬‎</p></note>
 							وكان مهوياً <note n="4" type="footnote"><p>A: مهاباً, in margin مهوباً صح; H: مهيباً</p></note>
 							وله جرأة في الكلام ولم يكن في زمانه أعلم منه بصناعة الطب وذكره قد شاع واشتهر في أقطار الأندلس وغيرها من البلاد.‬‎
@@ -3515,9 +3515,9 @@
 							<hi rend="bold">[‭13.63.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني القاضي أبو مروان محمد بن أحمد بن <addName>عبد الملك</addName> الباجي من أهل إشبيلية قال قال لي الشيخ <note n="5" type="footnote"><p>Above the line in A: الشيخ</p></note>
-							الوزير الحكيم أبو بكر بن زهر أنه لازم لجدي <addName>عبد الملك</addName> الباجي سبع سنين يشتغل عليه وقرأ عليه كتاب المدونة لسحنون في مذهب مالك وقرأ أيضاً عليه <note n="6" type="footnote"><p>H: عليه أيضاً</p></note>
-							مسند ابن أبي شيبة وحدثني أيضاً القاضي أبو مروان الباجي عن أبي بكر بن زهر أنه كان شديد البأس يجذب قوساً مائة وخمسين رطلاً بالإشبيلي والرطل الذي بإشبيلية ست عشرة أوقية وكل أوقية عشرة دراهم وأنه كان جيد اللعب بالشطرنج جداً.‬‎
+							وحدثني القاضي <addName>أبو مروان</addName> محمد بن أحمد بن <addName>عبد الملك</addName> الباجي من أهل إشبيلية قال قال لي الشيخ <note n="5" type="footnote"><p>Above the line in A: الشيخ</p></note>
+							الوزير الحكيم <addName>أبو بكر</addName> بن زهر أنه لازم لجدي <addName>عبد الملك</addName> الباجي سبع سنين يشتغل عليه وقرأ عليه كتاب المدونة لسحنون في مذهب مالك وقرأ أيضاً عليه <note n="6" type="footnote"><p>H: عليه أيضاً</p></note>
+							مسند ابن أبي شيبة وحدثني أيضاً القاضي <addName>أبو مروان</addName> الباجي عن أبي بكر بن زهر أنه كان شديد البأس يجذب قوساً مائة وخمسين رطلاً بالإشبيلي والرطل الذي بإشبيلية ست عشرة أوقية وكل أوقية عشرة دراهم وأنه كان جيد اللعب بالشطرنج جداً.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.63.3‬]</hi>
@@ -3528,17 +3528,17 @@
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٩‬أ‬‎" />
 							وذلك أنه كان في خدمة <addName>عبد المؤمن</addName> <note n="8" type="footnote"><p>H: om. وذلك أنه كان في خدمة <addName>عبد المؤمن</addName></p></note>
 							هو وأبوه وفي أيام <addName>عبد المؤمن</addName> مات أبوه وبقي هو في خدمته ثم خدم لابن <addName>عبد المؤمن</addName> أبي يعقوب يوسف ثم لابنه يعقوب أبي يوسف الذي لقب بالمنصور ثم خدم ابنه أبا <addName>عبد الله</addName> محمد <note n="9" type="footnote"><p>Above the line in A: محمد</p></note>
-							الناصر وفي أول دولته توفي أبو بكر بن زهر وكانت وفاته رحمه الله <note n="10" type="footnote"><p>AH: om. رحمه الله</p></note>
+							الناصر وفي أول دولته توفي <addName>أبو بكر</addName> بن زهر وكانت وفاته رحمه الله <note n="10" type="footnote"><p>AH: om. رحمه الله</p></note>
 							في عام ستة وتسعين <note n="11" type="footnote"><p>A: وخمسين, above the line تسعين; H: في عام سنة خمس وتسعين</p></note>
 							وخمسمائة بمراكش <note n="12" type="footnote"><p>H: بمدينة مراكش; marginal note in A: حاشية ويعرف أيضاً بالحضرة لكونها دار الملك لبني <addName>عبد المؤمن</addName></p></note>
 							وقد أتاها ليزور <note n="13" type="footnote"><p>H: لبزو</p></note>
 							بها ودفن هناك في الموضع المعروف بمقابر الشيوخ وعمر نحو التسعين سنة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال وكان أبو بكر بن زهر صائب الرأي حسن المعالجة جيد التدبير وقد عرف هذا منه حتى أنه يوماً كان قد كتب والده أبو مروان بن زهر نسخة دواء مسهل لعبد المؤمن الخليفة فلما رآه أبو بكر بعد ذلك وكان في حال شبيبته قال يجب <note n="14" type="footnote"><p>A: ينبغي, above the line يجب</p></note>
+							قال وكان <addName>أبو بكر</addName> بن زهر صائب الرأي حسن المعالجة جيد التدبير وقد عرف هذا منه حتى أنه يوماً كان قد كتب والده <addName>أبو مروان</addName> بن زهر نسخة دواء مسهل لعبد المؤمن الخليفة فلما رآه <addName>أبو بكر</addName> بعد ذلك وكان في حال شبيبته قال يجب <note n="14" type="footnote"><p>A: ينبغي, above the line يجب</p></note>
 							أن يبدل <note n="15" type="footnote"><p>A: يفرد, in margin يبدل</p></note>
 							هذا الدواء المفرد منه بدواء آخر فلم يتناول <addName>عبد المؤمن</addName> ذلك الدواء ولما <note n="16" type="footnote"><p>A: فلما, above the line ولما</p></note>
-							رآه أبوه قال يا أمير المؤمنين إن الصواب في قوله وبدل ذلك الدواء المفرد بغيره فأثر نفعاً بيناً وألف أبو بكر ابن زهر الترياق <note n="17" type="footnote"><p>Gc: add. السبعيني</p></note>
+							رآه أبوه قال يا أمير المؤمنين إن الصواب في قوله وبدل ذلك الدواء المفرد بغيره فأثر نفعاً بيناً وألف <addName>أبو بكر</addName> ابن زهر الترياق <note n="17" type="footnote"><p>Gc: add. السبعيني</p></note>
 							الخمسيني للمنصور أبي يوسف يعقوب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3560,7 +3560,7 @@
 							<hi rend="bold">[‭13.63.5‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال القاضي أبو مروان الباجي وكان المنصور قد قصد أن <note n="27" type="footnote"><p>A: أنه</p></note>
+							قال القاضي <addName>أبو مروان</addName> الباجي وكان المنصور قد قصد أن <note n="27" type="footnote"><p>A: أنه</p></note>
 							لا يترك شيئاً من كتب المنطق والحكمة باقياً في بلاده وأباد كثيراً منها
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٩‬ب‬‎" />
 							بإحراقها بالنار وشدد في أن لا يبقى أحد يشتغل بشيء منها وأنه متى وجد أحد ينظر في هذا العلم أو وجد عنده شيء من الكتب المصنفة فيه فإنه يلحقه ضرر عظيم ولما شرع في ذلك جعل أمره مفوضاً إلى الحفيد أبي بكر بن زهر وأنه الذي ينظر فيه وأراد الخليفة <note n="28" type="footnote"><p>A: add. بذلك</p></note>
@@ -3574,7 +3574,7 @@
 							ولما نظر ابن زهر في ذلك وامتثل أمر المنصور في جمع <note n="33" type="footnote"><p>L: جميع</p></note>
 							الكتب من عند الكتبيين وغيرهم وأن لا يبقى شيء منها وأهانة المشتغلين بها وكان بإشبيلية رجل من أعيانها يعادي الحفيد أبا بكر بن زهر ويحسده وعنده شر فعمل محضراً في أن ابن زهر <note n="34" type="footnote"><p>B: add. إنه</p></note>
 							دائم الاشتغال بهذا الفن والنظر فيه وأن عنده في داره <note n="35" type="footnote"><p>Gc: om. في داره</p></note>
-							شيئاً كثيراً من كتبه وجمع فيه شهادات عدة وبعث به إلى المنصور وكان المنصور حينئذ في حصن الفرح وهو موضع بناه قريباً من إشبيلية عن ميلين منها صحيح الهواء بحيث بقيت الحنطة فيه ثمانين سنة لم تتغير لصحته وكان أبو بكر بن زهر هو الذي أشار على المنصور أن يبنيه في ذلك الموضع ويقيم فيه بعض الأوقات فلما كان <note n="36" type="footnote"><p>H: add. في</p></note>
+							شيئاً كثيراً من كتبه وجمع فيه شهادات عدة وبعث به إلى المنصور وكان المنصور حينئذ في حصن الفرح وهو موضع بناه قريباً من إشبيلية عن ميلين منها صحيح الهواء بحيث بقيت الحنطة فيه ثمانين سنة لم تتغير لصحته وكان <addName>أبو بكر</addName> بن زهر هو الذي أشار على المنصور أن يبنيه في ذلك الموضع ويقيم فيه بعض الأوقات فلما كان <note n="36" type="footnote"><p>H: add. في</p></note>
 							المنصور به وقد أتاه المحضر نظره ثم أمر بأن يقبض على الذي عمله وأن يودع <note n="37" type="footnote"><p>A: ويودع</p></note>
 							السجن ففعل به ذلك وانهزم <note n="38" type="footnote"><p>H: om. يقبض على …‬‎ ذلك وانهزم</p></note>
 							جميع الشهود الذين <note n="39" type="footnote"><p>L: الذي</p></note>
@@ -3584,11 +3584,11 @@
 							<hi rend="bold">[‭13.63.6‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني أبو العباس أحمد بن محمد بن أحمد <note n="40" type="footnote"><p>A: om. بن أحمد</p></note>
-							الإشبيلي قال كان الحفيد أبو بكر بن زهر قد <note n="41" type="footnote"><p>In margin of A: قد صح</p></note>
+							وحدثني <addName>أبو العباس</addName> أحمد بن محمد بن أحمد <note n="40" type="footnote"><p>A: om. بن أحمد</p></note>
+							الإشبيلي قال كان الحفيد <addName>أبو بكر</addName> بن زهر قد <note n="41" type="footnote"><p>In margin of A: قد صح</p></note>
 							أتى إليه من الطلبة اثنان <note n="42" type="footnote"><p>A: اثنان من الطلبة</p></note>
 							ليشتغلا عليه بصناعة الطب فترددا إليه ولازماه مدة وقرآ عليه <note n="43" type="footnote"><p>Gc: om. بصناعة الطب … وقرآ عليه‬‎</p></note>
-							شيئاً من كتب الطب ثم إنهما أتياه يوماً وبيد أحدهما كتاب صغير في المنطق وكان يحضر معهما أبو الحسين المعروف بالمصدوم وكان غرضهم أن يشتغلوا فيه فلما نظر ابن زهر إلى ذلك الكتاب قال ما هذا ثم أخذه ينظر فيه فلما وجده في علم المنطق رمى به ناحية ثم نهض إليهم حافياً ليضربهم وانهزموا قدامه وتبعهم يعدو على حالته تلك وهو يبالغ في شتمهم وهم يتعادون <note n="44" type="footnote"><p>R: يتعادوان</p></note>
+							شيئاً من كتب الطب ثم إنهما أتياه يوماً وبيد أحدهما كتاب صغير في المنطق وكان يحضر معهما <addName>أبو الحسين</addName> المعروف بالمصدوم وكان غرضهم أن يشتغلوا فيه فلما نظر ابن زهر إلى ذلك الكتاب قال ما هذا ثم أخذه ينظر فيه فلما وجده في علم المنطق رمى به ناحية ثم نهض إليهم حافياً ليضربهم وانهزموا قدامه وتبعهم يعدو على حالته تلك وهو يبالغ في شتمهم وهم يتعادون <note n="44" type="footnote"><p>R: يتعادوان</p></note>
 							قدامه إلى أن رجع عنهم عن <note n="45" type="footnote"><p>A: من</p></note>
 							مسافة بعيدة فبقوا منقطعين عنه أياماً لا يجسرون أن يأتوا إليه <note n="46" type="footnote"><p>R: om. لا يجسرون أن يأتوا إليه</p></note>
 							ثم أنهم <note n="47" type="footnote"><p>H: add. تأتوا إليه crossed out.</p></note>
@@ -3608,7 +3608,7 @@
 							<hi rend="bold">[‭13.63.7‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني القاضي أبو مروان الباجي قال كان أبو زيد <addName>عبد الرحمن</addName> بن يوجان وزير المنصور يعادي الحفيد أبا بكر بن زهر ويحسده لما يرى من عظم حاله وعلو منزلته وعلمه فاحتال عليه في سم صيره مع أحد من <note n="53" type="footnote"><p>A: ممن</p></note>
+							وحدثني القاضي <addName>أبو مروان</addName> الباجي قال كان <addName>أبو زيد</addName> <addName>عبد الرحمن</addName> بن يوجان وزير المنصور يعادي الحفيد أبا بكر بن زهر ويحسده لما يرى من عظم حاله وعلو منزلته وعلمه فاحتال عليه في سم صيره مع أحد من <note n="53" type="footnote"><p>A: ممن</p></note>
 							كان عند الحفيد ابن زهر فقدمه إلى الحفيد ابن زهر <note n="54" type="footnote"><p>Gc: om. ابن زهر</p></note>
 							في بيض وكانت مع الحفيد أيضاً بنت أخته وكانت أخته <note n="55" type="footnote"><p>L: om. وكانت أخته</p></note>
 							وابنتها هذه عالمتين بصناعة الطب والمداواة ولهما خبرة جيدة بما يتعلق بمداواة النساء وكانتا تدخلان <note n="56" type="footnote"><p>HLR: وكانوا يدخلون</p></note>
@@ -3617,16 +3617,16 @@
 							توفيت أمها فما <note n="59" type="footnote"><p>BHLR: فلما</p></note>
 							أكل الحفيد من ذلك البيض وبنت <note n="60" type="footnote"><p>A: وابنة</p></note>
 							أخته ماتا جميعاً <note n="61" type="footnote"><p>A: معاً</p></note>
-							ولم ينفع فيهما علاج قال ولم يمت أبو زيد <addName>عبد الرحمن</addName> <note n="62" type="footnote"><p>A: om. <addName>عبد الرحمن</addName></p></note>
+							ولم ينفع فيهما علاج قال ولم يمت <addName>أبو زيد</addName> <addName>عبد الرحمن</addName> <note n="62" type="footnote"><p>A: om. <addName>عبد الرحمن</addName></p></note>
 							بن يوجان إلا مقتولاً قتله بعض أقاربه.‬‎
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من أجل تلامذة الحفيد أبي بكر بن زهر في صناعة الطب والآخذين عنه أبو جعفر بن الغزال.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من أجل تلامذة الحفيد أبي بكر بن زهر في صناعة الطب والآخذين عنه <addName>أبو جعفر</addName> بن الغزال.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.63.8.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ومن شعر الحفيد أبي بكر بن زهر أنشدني محيي الدين أبو <addName>عبد الله</addName> محمد بن علي <note n="63" type="footnote"><p>AL: repeat بن علي</p></note>
-							بن محمد بن العربي الحاتمي قال أنشدني الحفيد أبو بكر بن زهر لنفسه <note n="64" type="footnote"><p>In margin of A, Gc om.: أنشدني محيي … بن زهر لنفسه‬‎</p></note>
+							بن محمد بن العربي الحاتمي قال أنشدني الحفيد <addName>أبو بكر</addName> بن زهر لنفسه <note n="64" type="footnote"><p>In margin of A, Gc om.: أنشدني محيي … بن زهر لنفسه‬‎</p></note>
 							يتشوق إلى ولده:‬‎
 						</p>
 						<lg>
@@ -3651,7 +3651,7 @@
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأنشدني القاضي أبو مروان الباجي قال أنشدني أبو عمران بن عمران الزاهد المرتلي القاطن بإشبيلية قال أنشدني الخفيد أبو بكر بن زهر لنفسه في آخر عمره: <note n="66" type="footnote"><p>AGc: وقال أيضاً في آخر عمره, A add. in margin وأنشدني القاضي … بن زهر لنفسه صح‬‎</p></note>
+							وأنشدني القاضي <addName>أبو مروان</addName> الباجي قال أنشدني <addName>أبو عمران</addName> بن عمران الزاهد المرتلي القاطن بإشبيلية قال أنشدني الخفيد <addName>أبو بكر</addName> بن زهر لنفسه في آخر عمره: <note n="66" type="footnote"><p>AGc: وقال أيضاً في آخر عمره, A add. in margin وأنشدني القاضي … بن زهر لنفسه صح‬‎</p></note>
 							‬‎
 						</p>
 						<lg>
@@ -3684,8 +3684,8 @@
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأنشدني أيضاً القاضي أبو مروان الباجي عن الحفيد بن زهر <note n="68" type="footnote"><p>B: om. عن الحفيد بن زهر</p></note>
-							له من أبيات: <note n="69" type="footnote"><p>AGc: وقال من أبيات, A add. in margin وأنشدني أيضاً القاضي أبو مروان الباجي عن الحفيد بن زهر له من أبيات</p></note>
+							وأنشدني أيضاً القاضي <addName>أبو مروان</addName> الباجي عن الحفيد بن زهر <note n="68" type="footnote"><p>B: om. عن الحفيد بن زهر</p></note>
+							له من أبيات: <note n="69" type="footnote"><p>AGc: وقال من أبيات, A add. in margin وأنشدني أيضاً القاضي <addName>أبو مروان</addName> الباجي عن الحفيد بن زهر له من أبيات</p></note>
 							‬‎
 						</p>
 						<lg>
@@ -3765,7 +3765,7 @@
 							<hi rend="bold">[‭13.63.8.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن موشحاته مما أنشدني أبو <addName>عبد الله</addName> محمد سبط الحكيم أبي محمد <addName>عبد الله</addName> ابن الحفيد أبي بكر ابن زهر وكان والد هذا المذكور أبي <addName>عبد الله</addName> وهو أبو مروان أحمد بن القاضي أبي <addName>عبد الله</addName> محمد ابن أحمد بن <addName>عبد الملك</addName> الباجي قد تزوج ببنت أبي محمد <addName>عبد الله</addName> بن الحفيد أبي بكر بن زهر ورزق منها أبا <addName>عبد الله</addName> محمد وكان أعني أبا مروان أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله ابن الأحمر غدراً في سنة ثلاثين وستمائة وكان عمره إذ ذاك سبعاً وثلاثين سنة فمن ذلك <note n="74" type="footnote"><p>BR: om. وكان والد هذا … سنة فمن ذلك‬‎</p></note>
+							ومن موشحاته مما أنشدني أبو <addName>عبد الله</addName> محمد سبط الحكيم أبي محمد <addName>عبد الله</addName> ابن الحفيد أبي بكر ابن زهر وكان والد هذا المذكور أبي <addName>عبد الله</addName> وهو <addName>أبو مروان</addName> أحمد بن القاضي أبي <addName>عبد الله</addName> محمد ابن أحمد بن <addName>عبد الملك</addName> الباجي قد تزوج ببنت أبي محمد <addName>عبد الله</addName> بن الحفيد أبي بكر بن زهر ورزق منها أبا <addName>عبد الله</addName> محمد وكان أعني أبا مروان أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله ابن الأحمر غدراً في سنة ثلاثين وستمائة وكان عمره إذ ذاك سبعاً وثلاثين سنة فمن ذلك <note n="74" type="footnote"><p>BR: om. وكان والد هذا … سنة فمن ذلك‬‎</p></note>
 							قال وهي من أول قوله‭: <note n="75" type="footnote"><p>In margin of A, Gc om.: مما أنشدني … من أول قوله‬‎</p></note>
 							‬‬‎
 						</p>
@@ -4264,7 +4264,7 @@
 					<div type="textpart" subtype="biography" n="64">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.64‬] أبو محمد بن الحفيد أبي بكر بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.64‬] <addName>أبو محمد</addName> بن الحفيد أبي بكر بن زهر <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4281,17 +4281,17 @@
 							<hi rend="bold">[‭13.64.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							حدثني القاضي أبو مروان الباجي <note n="6" type="footnote"><p>H: om. الباجي</p></note>
-							قال لما توجه أبو محمد <addName>عبد الله</addName> بن الحفيد إلى الحضرة خرج منه فيما اشتراه لسفره ونفقته في الطريق <note n="7" type="footnote"><p>In margin of L: صح في الطريق</p></note>
+							حدثني القاضي <addName>أبو مروان</addName> الباجي <note n="6" type="footnote"><p>H: om. الباجي</p></note>
+							قال لما توجه <addName>أبو محمد</addName> <addName>عبد الله</addName> بن الحفيد إلى الحضرة خرج منه فيما اشتراه لسفره ونفقته في الطريق <note n="7" type="footnote"><p>In margin of L: صح في الطريق</p></note>
 							نحو عشرة آلاف دينار قال ولما اجتمع بالخليفة الناصر بالمهدية لما فتحها الناصر خدمه على ما جرت به العادة وقال له إنني يا أمير المؤمنين بحمد الله <note n="8" type="footnote"><p>AGc: om. بحمد الله</p></note>
 							بكل خير من إنعامكم وإحسانكم علي وعلى آبائي وقد وصل إلي مما كان بيد أبي من إحسانكم ما يغنيني مدة حياتي وأكثر وإنما أتيت لأكون في الخدمة كما كان أبي وأن أجلس في الموضع الذي كان يجلس فيه <note n="9" type="footnote"><p>Gc: add. أبي</p></note>
 							بين يدي أمير المؤمنين فأكرمه الناصر <note n="10" type="footnote"><p>A: om. الناصر</p></note>
 							إكراماً كثيراً وأطلق له من الأموال والنعم ما يفوق الوصف وكان مجلسه إذا حضر قريباً منه في الموضع الذي كان يجلس فيه والده الحفيد فكان يجلس إلى جانب الخليفة الناصر الخطيب أبو <addName>عبد الله</addName> محمد بن أبي علي الحسن بن أبي يوسف حجاج القاضي <note n="11" type="footnote"><p>BH: أبو <addName>عبد الله</addName> محمد بن الحسين بن أبي علي بن أبي يوسف حجاج القاضي</p></note>
 							وكان يجلس تلوه القاضي الشريف أبو <addName>عبد الله</addName> الحسيني <note n="12" type="footnote"><p>H: الحسين</p></note>
-							وكان يجلس تلوه أبو محمد <addName>عبد الله</addName> بن الحفيد أبي بكر بن زهر وكان يجلس إلى جانبه أبو موسى عيسى بن <addName>عبد العزيز</addName> <note n="13" type="footnote"><p>AGcHL: om. <addName>عبد العزيز</addName></p></note>
+							وكان يجلس تلوه <addName>أبو محمد</addName> <addName>عبد الله</addName> بن الحفيد أبي بكر بن زهر وكان يجلس إلى جانبه <addName>أبو موسى</addName> عيسى بن <addName>عبد العزيز</addName> <note n="13" type="footnote"><p>AGcHL: om. <addName>عبد العزيز</addName></p></note>
 							الجزولي
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٢‬أ‬‎" />
-							صاحب المقدمة المشهورة في النحو المعروفة بالجزولية وكان هذا في النحو يشتغل عليه أبو محمد <addName>عبد الله</addName> بن الحفيد <note n="14" type="footnote"><p>Gc: وكان هذا أبو محمد <addName>عبد الله</addName> بن الحفيد يشتغل عليه في النحو</p></note>
+							صاحب المقدمة المشهورة في النحو المعروفة بالجزولية وكان هذا في النحو يشتغل عليه <addName>أبو محمد</addName> <addName>عبد الله</addName> بن الحفيد <note n="14" type="footnote"><p>Gc: وكان هذا <addName>أبو محمد</addName> <addName>عبد الله</addName> بن الحفيد يشتغل عليه في النحو</p></note>
 							ويجلس بين يديه ويتعلم منه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4302,7 +4302,7 @@
 							<hi rend="bold">[‭13.64.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن أعجب ما حدثني القاضي أبو مروان الباجي عنه قال كنت يوماً عنده <note n="16" type="footnote"><p>HGcL: om. عنده</p></note>
+							ومن أعجب ما حدثني القاضي <addName>أبو مروان</addName> الباجي عنه قال كنت يوماً عنده <note n="16" type="footnote"><p>HGcL: om. عنده</p></note>
 							وإذا به قد قال لي إنني رأيت البارحة في النوم أختي وكانت أخته قد ماتت قبله قال وكأني قلت لها يا أختي بالله عرفيني كم يكون عمري فقالت لي طابيتين <note n="17" type="footnote"><p>A: طابتين, above the line بيتين</p></note>
 							ونصفاً والطابية هي خشبة للبناء معروفة في المغرب <note n="18" type="footnote"><p>H: بالمغرب</p></note>
 							بهذا الاسم طولها عشرة أشبار فقلت لها أنا أقول لك جد وأنت <note n="19" type="footnote"><p>L: وأنتى</p></note>
@@ -4316,11 +4316,11 @@
 							<hi rend="bold">[‭13.64.2.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال القاضي أبو مروان فلما <note n="24" type="footnote"><p>A: add. قضي crossed out</p></note>
+							قال القاضي <addName>أبو مروان</addName> فلما <note n="24" type="footnote"><p>A: add. قضي crossed out</p></note>
 							قص عليّ هذه الرؤيا قلت له لا تتوهم من هذا فلعله من أضغاث الأحلام قال ولم تكمل تلك السنة إلا وقد مات فكان عمره كما قيل له خمساً وعشرين سنة لا أزيد ولا أنقص <note n="25" type="footnote"><p>Gc: لا أقل ولا أكثر</p></note>
 							وخلف ولدين كل منهما فاضل في نفسه كريم في جنسه أحدهما يسمى <note n="26" type="footnote"><p>L: om. يسمى</p></note>
 							أبا مروان <addName>عبد الملك</addName> <note n="27" type="footnote"><p>H: om. <addName>عبد الملك</addName></p></note>
-							والآخر أبا العلاء محمد والأصغر منهما وهو أبو العلاء معتن بصناعة الطب وله نظر جيد في كتب جالينوس وكان <note n="28" type="footnote"><p>L: om. وكان</p></note>
+							والآخر أبا العلاء محمد والأصغر منهما وهو <addName>أبو العلاء</addName> معتن بصناعة الطب وله نظر جيد في كتب جالينوس وكان <note n="28" type="footnote"><p>L: om. وكان</p></note>
 							مقامهما في إشبيلية. <note n="29" type="footnote"><p>B: وهما في وقتنا هذا مقيمين في إشبلية; marginal note in L: آخر الجزء السابع من تجزئة الأصل وهي نسخة المصنف رحمه الله</p></note>
 							‬‎
 						</p>
@@ -4328,15 +4328,15 @@
 					<div type="textpart" subtype="biography" n="65">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.65‬] أبو جعفر بن هارون الترجالي <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.65‬] <addName>أبو جعفر</addName> بن هارون الترجالي <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							من أعيان أهل إشبيلية وكان محققاً للعلوم الحكمية متقناً لها معتنياً بكتب أرسطوطاليس وغيره من الحكماء المتقدمين فاضلاً في صناعة الطب متميزاً فيها خبيراً بأصولها وفروعها حسن المعالجة محمود الطريقة وخدم لأبي يعقوب والد المنصور وكان من طلبة الفقيه أبي بكر بن العربي لازمه مدة واشتغل عليه بعلم الحديث <note n="2" type="footnote"><p>H: om. بعلم الحديث</p></note>
-							وكان أبو جعفر بن هارون يروي الحديث وهو شيخ أبي الوليد ابن رشد في التعاليم والطب وأصله من ترجالة من ثغور الأندلس وهي التي أصابها المنصور خالية وهرب أهلها وعمرها المسلمون.‬‎
+							وكان <addName>أبو جعفر</addName> بن هارون يروي الحديث وهو شيخ أبي الوليد ابن رشد في التعاليم والطب وأصله من ترجالة من ثغور الأندلس وهي التي أصابها المنصور خالية وهرب أهلها وعمرها المسلمون.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكان أبو جعفر بن هارون أيضاً عالماً بصناعة الكحل وله آثار فاضلة في المداواة حدثني القاضي أبو مروان محمد بن أحمد بن <addName>عبد الملك</addName> اللخمي ثم الباجي <note n="3" type="footnote"><p>In margin of A: ثم الباجي; B: الملك الباجي</p></note>
+							وكان <addName>أبو جعفر</addName> بن هارون أيضاً عالماً بصناعة الكحل وله آثار فاضلة في المداواة حدثني القاضي <addName>أبو مروان</addName> محمد بن أحمد بن <addName>عبد الملك</addName> اللخمي ثم الباجي <note n="3" type="footnote"><p>In margin of A: ثم الباجي; B: الملك الباجي</p></note>
 							أن أخاه القاضي أبا <addName>عبد الله</addName> محمد بن أحمد لما كان صغيراً أصاب عينه عود وأخترق <note n="4" type="footnote"><p>HR: أخرق</p></note>
 							السواد
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٢‬ب‬‎" />
@@ -4352,14 +4352,14 @@
 					<div type="textpart" subtype="biography" n="66">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.66‬] أبو الوليد بن رشد <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.66‬] <addName>أبو الوليد</addName> بن رشد <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.66.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو القاضي أبو الوليد محمد بن أحمد بن محمد بن رشد مولده ومنشؤه بقرطبة مشهور بالفضل معتن بتحصيل العلوم أوحد في علم الفقه والخلاف واشتغل على الفقيه الحافظ أبي محمد بن رزق وكان أيضاً متميزاً في علم الطب وهو <note n="2" type="footnote"><p>In margin of A: وهو</p></note>
+							هو القاضي <addName>أبو الوليد</addName> محمد بن أحمد بن محمد بن رشد مولده ومنشؤه بقرطبة مشهور بالفضل معتن بتحصيل العلوم أوحد في علم الفقه والخلاف واشتغل على الفقيه الحافظ أبي محمد بن رزق وكان أيضاً متميزاً في علم الطب وهو <note n="2" type="footnote"><p>In margin of A: وهو</p></note>
 							جيد <note n="3" type="footnote"><p>L: om. جيد</p></note>
 							التصنيف حسن المعاني وله في الطب كتاب الكليات وقد أجاد في تأليفه <note n="4" type="footnote"><p>A: تصنيفه, in margin تأليفه</p></note>
 							وكان بينه وبين أبي مروان بن زهر مودة ولما ألف كتابه هذا في الأمور الكلية قصد من ابن زهر أن يؤلف كتاباً في الأمور الجزئية لتكون جملة كتابيهما ككتاب كامل في صناعة الطب.‬‎
@@ -4378,7 +4378,7 @@
 							هذا إلى وقت نكون فيه أشد فراغاً لعنايتنا في هذا الوقت بما يهم من غير ذلك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فمن وقع له هذا الكتاب دون هذا الجزء وأحب أن ينظر بعد ذلك إلى الكنانيش فأوفق الكنانيش له الكتاب الملقب بالتيسير الذي ألفه في زماننا هذا أبو مروان بن زهر وهذا الكتاب سألته أنا <note n="12" type="footnote"><p>L: سألناه أنا</p></note>
+							فمن وقع له هذا الكتاب دون هذا الجزء وأحب أن ينظر بعد ذلك إلى الكنانيش فأوفق الكنانيش له الكتاب الملقب بالتيسير الذي ألفه في زماننا هذا <addName>أبو مروان</addName> بن زهر وهذا الكتاب سألته أنا <note n="12" type="footnote"><p>L: سألناه أنا</p></note>
 							إياه وانتسخته فكان ذلك سبيلاً <note n="13" type="footnote"><p>A: سبباً</p></note>
 							إلى خروجه وهو كما قلنا كتاب الأقاويل الجزئية التي قلت <note n="14" type="footnote"><p>Cf. Ibn Rushd, <hi rend="italic">Kulliyyāt</hi>, 583: قيلت</p></note>
 							فيه شديدة <note n="15" type="footnote"><p>H: شديد</p></note>
@@ -4390,10 +4390,10 @@
 							<hi rend="bold">[‭13.66.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							حدثني القاضي أبو مروان الباجي قال كان القاضي أبو الوليد بن رشد حسن الرأي ذكياً رث البزة <note n="18" type="footnote"><p>L repeats البزة</p></note>
+							حدثني القاضي <addName>أبو مروان</addName> الباجي قال كان القاضي <addName>أبو الوليد</addName> بن رشد حسن الرأي ذكياً رث البزة <note n="18" type="footnote"><p>L repeats البزة</p></note>
 							قوي النفس وكان قد اشتغل بالتعاليم <note n="19" type="footnote"><p>H: add. الجيدة</p></note>
 							وبالطب على أبي جعفر بن هارون ولازمه مدة وأخذ عنه كثيراً من العلوم الحكمية وكان ابن رشد قد قضى مدة <note n="20" type="footnote"><p>GcH: om. مدة</p></note>
-							في إشبيلية قبل قرطبة وكان مكيناً عند المنصور وجيهاً في دولته وكذلك أيضاً كان ولده الناصر يحترمه كثيراً قال ولما كان المنصور بقرطبة وهو متوجه إلى غزو ألفُنش وذلك في عام أحد وتسعين وخمسمائة استدعى أبا الوليد بن رشد فلما حضر عنده احترمه احتراماً كثيراً وقربه إليه حتى تعدى به الموضع الذي كان يجلس فيه أبو محمد <addName>عبد الواحد</addName> بن الشيخ أبي حفص الهنتاتي صاحب <addName>عبد المؤمن</addName> وهو الثالث أو الرابع من العشرة وكان هذا أبو محمد <addName>عبد الواحد</addName> قد صاهره
+							في إشبيلية قبل قرطبة وكان مكيناً عند المنصور وجيهاً في دولته وكذلك أيضاً كان ولده الناصر يحترمه كثيراً قال ولما كان المنصور بقرطبة وهو متوجه إلى غزو ألفُنش وذلك في عام أحد وتسعين وخمسمائة استدعى أبا الوليد بن رشد فلما حضر عنده احترمه احتراماً كثيراً وقربه إليه حتى تعدى به الموضع الذي كان يجلس فيه <addName>أبو محمد</addName> <addName>عبد الواحد</addName> بن الشيخ أبي حفص الهنتاتي صاحب <addName>عبد المؤمن</addName> وهو الثالث أو الرابع من العشرة وكان هذا <addName>أبو محمد</addName> <addName>عبد الواحد</addName> قد صاهره
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٣‬أ‬‎" />
 							المنصور وزوجه بابنته لعظم منزلته عنده ورزق <addName>عبد الواحد</addName> منها ابناً اسمه علي وهو الآن صاحب إفريقية فلما قرب المنصور ابن رشد وأجلسه إلى جانبه حادثه ثم خرج من عنده وجماعة الطلبة وكثير من أصحابه ينتظرونه فهنؤوه <note n="21" type="footnote"><p>A: فهناؤه; HL: فهنؤه; R: فهنوه</p></note>
 							بمنزلته عند المنصور وإقباله عليه فقال والله إن هذا ليس مما يستوجب الهناء به فإن أمير المؤمنين قد قربني دفعة إلى أكثر مما كنت أؤمله فيه أو يصل رجائي إليه.‬‎
@@ -4411,7 +4411,7 @@
 							من قرطبة وكانت <note n="28" type="footnote"><p>HL: وكان</p></note>
 							أولاً لليهود وأن لا يخرج عنها ونقم أيضاً <note n="29" type="footnote"><p>Gc: om. وكانت أولاً لليهود وأن لا يخرج عنها ونقم أيضاً</p></note>
 							على جماعة أخر من <note n="30" type="footnote"><p>Gc: مع جماعة من</p></note>
-							الفضلاء الأعيان وأمر أن يكونوا في مواضع أخر وأظهر أنه فعل بهم ذلك بسبب ما يدعي فيهم أنهم مشتغلون بالحكمة وعلوم الأوائل وهؤلاء الجماعة هم أبو الوليد بن رشد وأبو جعفر الذهبي والفقيه أبو <addName>عبد الله</addName> محمد بن إبراهيم قاضي بجاية <note n="31" type="footnote"><p>H: ىحايه</p></note>
+							الفضلاء الأعيان وأمر أن يكونوا في مواضع أخر وأظهر أنه فعل بهم ذلك بسبب ما يدعي فيهم أنهم مشتغلون بالحكمة وعلوم الأوائل وهؤلاء الجماعة هم <addName>أبو الوليد</addName> بن رشد وأبو جعفر الذهبي والفقيه أبو <addName>عبد الله</addName> محمد بن إبراهيم قاضي بجاية <note n="31" type="footnote"><p>H: ىحايه</p></note>
 							وأبو الربيع الكفيف وأبو العباس الحافظ الشاعر القرّابي <note n="32" type="footnote"><p>AGc: om. القرّابي, above the line in A: الجراوي</p></note>
 							وبقوا مدة ثم إن جماعة من الأعيان بإشبيلية شهدوا لابن رشد أنه على ‭[ii,77]‬ غير ما نسب إليه فرضي المنصور عنه وعن سائر الجماعة وذلك في سنة خمس وتسعين وخمسمائة وجعل أبا جعفر الذهبي مزوارّاً للطلبة ومزوارّاً للأطباء وكان يصفه المنصور ويشكره ويقول إن أبا جعفر الذهبي <note n="33" type="footnote"><p>Gc: om. مزوارّاً للطلبة … جعفر الذهبي‬‎</p></note>
 							كالذهب الإبريز الذي لم يزدد في السبك إلا جودة.‬‎
@@ -4420,7 +4420,7 @@
 							<hi rend="bold">[‭13.66.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال القاضي أبو مروان ومما كان في قلب المنصور من ابن رشد إنه كان متى حضر مجلس المنصور <note n="34" type="footnote"><p>H: add. ومن ابن رشد crossed out.</p></note>
+							قال القاضي <addName>أبو مروان</addName> ومما كان في قلب المنصور من ابن رشد إنه كان متى حضر مجلس المنصور <note n="34" type="footnote"><p>H: add. ومن ابن رشد crossed out.</p></note>
 							وتكلم معه أو بحث عنده في شيء من العلم يخاطب المنصور بأن يقول تسمع يا أخي وأيضاً فإن ابن رشد كان قد صنف كتاباً في الحيوان وذكر فيه أنواع الحيوان ونعت كل واحد منها فلما ذكر الزرافة وصفها ثم قال وقد رأيت الزرافة عند ملك البربر يعني المنصور فلما بلغ ذلك المنصور صعب عليه وكان أحد الأسباب الموجبة في أنه نقم على ابن رشد وأبعده ويقال إنه مما اعتذر به <note n="35" type="footnote"><p>H: om. به</p></note>
 							ابن رشد أنه قال إنما قلت ملك البرّين وإنما تصحفت على القارئ فقال ملك البربر. <note n="36" type="footnote"><p>H: om. وإنما تصحفت … ملك البربر‬‎</p></note>
 							‬‎
@@ -4432,7 +4432,7 @@
 							وكانت وفاة القاضي أبي الوليد بن رشد رحمه الله في مراكش أول سنة <note n="37" type="footnote"><p>L: أوسنة</p></note>
 							خمس وتسعين وخمسمائة وذلك في أول دولة الناصر وكان ابن رشد قد عمر عمراً طويلاً وخلف ولداً طبيباً
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٣‬ب‬‎" />
-							عالماً بالصناعة يقال له أبو محمد <addName>عبد الله</addName> وخلف أيضاً أولاداً قد اشتغلوا بالفقه واستخدموا في قضاء الكور.‬‎
+							عالماً بالصناعة يقال له <addName>أبو محمد</addName> <addName>عبد الله</addName> وخلف أيضاً أولاداً قد اشتغلوا بالفقه واستخدموا في قضاء الكور.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.66.6‬]</hi>
@@ -4586,7 +4586,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في حركة الفلك</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭46‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب فيما خالف أبو النصر لأرسطوطاليس <note n="63" type="footnote"><p>AB: أرسطو</p></note>
+								كتاب فيما خالف <addName>أبو النصر</addName> لأرسطوطاليس <note n="63" type="footnote"><p>AB: أرسطو</p></note>
 								في كتاب البرهان من ترتيبه وقوانين البراهين والحدود
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭47‬.</label>
@@ -4596,11 +4596,11 @@
 					<div type="textpart" subtype="biography" n="67">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.67‬] أبو محمد بن رشد <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.67‬] <addName>أبو محمد</addName> بن رشد <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو محمد <addName>عبد الله</addName> بن أبي <note n="2" type="footnote"><p>Above the line in R: أبي</p></note>
+							هو <addName>أبو محمد</addName> <addName>عبد الله</addName> بن أبي <note n="2" type="footnote"><p>Above the line in R: أبي</p></note>
 							الوليد محمد بن أحمد بن محمد ابن رشد فاضل في صناعة الطب عالم بها مشكور في أفعالها وكان يفد إلى الناصر ويطبه ولأبي محمد بن رشد <note n="3" type="footnote"><p>AGc: وله</p></note>
 							من الكتب مقالة في حيلة البرء.‬‎
 						</p>
@@ -4608,7 +4608,7 @@
 					<div type="textpart" subtype="biography" n="68">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.68‬] أبو الحجاج يوسف بن موراطير <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.68‬] <addName>أبو الحجاج</addName> يوسف بن موراطير <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4622,9 +4622,9 @@
 							<hi rend="bold">‭[13.68.2]‬</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							حدثني القاضي أبو مروان الباجي قال كنا في تونس مع الناصر وكان في المعسكر غلاء وقل وجود <note n="3" type="footnote"><p>In margin of A, Gc om.: وجود</p></note>
-							الشعير فعمل أبو الحجاج بن موراطير موشحاً في الناصر <note n="4" type="footnote"><p>A: om. موشحاً في الناصر</p></note>
-							وأتى في ضمنه تغيير بيت كان عمله الحفيد أبو بكر بن زهر في بعض موشحاته وذلك أن ابن زهر <note n="5" type="footnote"><p>AGcH: om. وذلك أن ابن زهر</p></note>
+							حدثني القاضي <addName>أبو مروان</addName> الباجي قال كنا في تونس مع الناصر وكان في المعسكر غلاء وقل وجود <note n="3" type="footnote"><p>In margin of A, Gc om.: وجود</p></note>
+							الشعير فعمل <addName>أبو الحجاج</addName> بن موراطير موشحاً في الناصر <note n="4" type="footnote"><p>A: om. موشحاً في الناصر</p></note>
+							وأتى في ضمنه تغيير بيت كان عمله الحفيد <addName>أبو بكر</addName> بن زهر في بعض موشحاته وذلك أن ابن زهر <note n="5" type="footnote"><p>AGcH: om. وذلك أن ابن زهر</p></note>
 							قال:‬‎
 						</p>
 						<lg>
@@ -4681,8 +4681,8 @@
 							<hi rend="bold">‭[13.68.3]‬</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكان أبو الحجاج ابن موراطير قد خدم بصناعة الطب <note n="10" type="footnote"><p>H: بالطب</p></note>
-							المنصور أبا يوسف يعقوب ولما توفي المنصور خدم لولده الناصر وهو أبو <addName>عبد الله</addName> محمد بن يعقوب ومن بعد الناصر أيضاً خدم لولده أبي يعقوب يوسف المستنصر بن الناصر وكان أبو الحجاج بن موراطير قد عمر عمراً طويلاً وكان حظياً عند المنصور مكيناً عنده رفيع المنزلة وكان يدخل مجلس الخاصة مع الأشياخ للمذاكرة في العربية وغيرها <note n="11" type="footnote"><p>In margin of A, Gc om.: وكان أبو الحجاج … في العربية وغيرها‬‎</p></note>
+							وكان <addName>أبو الحجاج</addName> ابن موراطير قد خدم بصناعة الطب <note n="10" type="footnote"><p>H: بالطب</p></note>
+							المنصور أبا يوسف يعقوب ولما توفي المنصور خدم لولده الناصر وهو أبو <addName>عبد الله</addName> محمد بن يعقوب ومن بعد الناصر أيضاً خدم لولده أبي يعقوب يوسف المستنصر بن الناصر وكان <addName>أبو الحجاج</addName> بن موراطير قد عمر عمراً طويلاً وكان حظياً عند المنصور مكيناً عنده رفيع المنزلة وكان يدخل مجلس الخاصة مع الأشياخ للمذاكرة في العربية وغيرها <note n="11" type="footnote"><p>In margin of A, Gc om.: وكان <addName>أبو الحجاج</addName> … في العربية وغيرها‬‎</p></note>
 							ومات بالنقرس في مراكش في دولة المستنصر. <note n="12" type="footnote"><p>Gc: om ومات بالنقرس في مراكش في دولة المستنصر; marginal note in A: يتلوه ما في الورقة المخرجة; the interleaf containing biographies 13.69–77 has not come down to us.</p></note>
 							‬‎
 						</p>
@@ -4701,7 +4701,7 @@
 					<div type="textpart" subtype="biography" n="70">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.70‬] أبو مروان <addName>عبد الملك</addName> بن قبلال <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. HBLR: قيلال</p></note>
+								[‭13.70‬] <addName>أبو مروان</addName> <addName>عبد الملك</addName> بن قبلال <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. HBLR: قيلال</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">مولده ومنشؤه بغرناطة وكان جيد النظر في الطب حسن العلاج وخدم بصناعة الطب المنصور ثم خدم بعده لولده الناصر ومات في دولة الناصر في مراكش.‬‎</p>
@@ -4709,7 +4709,7 @@
 					<div type="textpart" subtype="biography" n="71">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.71‬] أبو إسحق إبراهيم الداني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.71‬] <addName>أبو إسحق</addName> إبراهيم الداني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4721,39 +4721,39 @@
 					<div type="textpart" subtype="biography" n="72">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.72‬] أبو يحيى بن قاسم الإشبيلي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.72‬] <addName>أبو يحيى</addName> بن قاسم الإشبيلي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان فاضلاً في صناعة الطب خبيراً بقوى الأدوية المفردة والمركبة كثير العناية بها وكان صاحب خزانة الأشربة والمعاجين التي يأخذها الخليفة المنصور من عنده وكذلك كان والده في خدمة أبي يعقوب والد المنصور.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وتوفي أبو يحيى في مراكش في دولة المستنصر وكان له ولد فجعل موضعه في الخزانة عوضاً عن أبيه. <note n="2" type="footnote"><p>In margin of R: وتوفي … عن أبيه‬‎</p></note>
+							وتوفي <addName>أبو يحيى</addName> في مراكش في دولة المستنصر وكان له ولد فجعل موضعه في الخزانة عوضاً عن أبيه. <note n="2" type="footnote"><p>In margin of R: وتوفي … عن أبيه‬‎</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="73">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.73‬] أبو الحكم بن غلندو <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.73‬] <addName>أبو الحكم</addName> بن غلندو <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							مولده ومنشؤه بإشبيلية وكان أديباً شاعراً حسن الشعر متميزاً في صناعة الطب محمود الطريقة وكان مفنناً وخدم بصناعة الطب المنصور <note n="2" type="footnote"><p>In margin of R: أبو العلاء … الطب المنصور‬‎</p></note>
+							مولده ومنشؤه بإشبيلية وكان أديباً شاعراً حسن الشعر متميزاً في صناعة الطب محمود الطريقة وكان مفنناً وخدم بصناعة الطب المنصور <note n="2" type="footnote"><p>In margin of R: <addName>أبو العلاء</addName> … الطب المنصور‬‎</p></note>
 							وكان مكيناً عنده وجيهاً في دولته وكان المنصور في عام ثمانين وخمسمائة حمله معه لما ولي الخلافة وكان ابن غلندو صاحب كتب كثيرة ويكتب خطين أندلسيين وتوفي بمراكش ودفن بها.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="74">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.74‬] أبو جعفر أحمد بن حسان <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.74‬] <addName>أبو جعفر</addName> أحمد بن حسان <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">هو الحاج أبو جعفر أحمد بن حسان الغرناطي مولده ومنشؤه بغرناطة واشتغل بصناعة الطب وأجاد في علمها وعملها وخدم المنصور بالطب وحج أبو جعفر بن حسان مع أبي الحسين بن جبير الغرناطي الأديب الكاتب صاحب كتاب الرحلة وذكره معه في الرحلة.‬‎</p>
-						<p style="direction:rtl; unicode-bidi:embed">وتوفي أبو جعفر بن حسان بمدينة فاس ولأبي جعفر بن حسان من الكتب كتاب تدبير الصحة ألفه للمنصور.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">هو الحاج <addName>أبو جعفر</addName> أحمد بن حسان الغرناطي مولده ومنشؤه بغرناطة واشتغل بصناعة الطب وأجاد في علمها وعملها وخدم المنصور بالطب وحج <addName>أبو جعفر</addName> بن حسان مع أبي الحسين بن جبير الغرناطي الأديب الكاتب صاحب كتاب الرحلة وذكره معه في الرحلة.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">وتوفي <addName>أبو جعفر</addName> بن حسان بمدينة فاس ولأبي جعفر بن حسان من الكتب كتاب تدبير الصحة ألفه للمنصور.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="75">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.75‬] أبو العلاء بن أبي جعفر أحمد بن حسان <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.75‬] <addName>أبو العلاء</addName> بن أبي جعفر أحمد بن حسان <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">من مدينة غرناطة وأحد الأعيان بها والمتميزين من أهلها قوي الذكاء حسن الفطرة مشتغل بالأدب وعنده براعة وفضل وهو طبيب وكاتب وخدم بصناعة الطب المستنصر وكان حظياً عنده وهو من جملة الفضلاء في صناعة الطب بإشبيلية وقد قطن بها.‬‎</p>
@@ -4761,7 +4761,7 @@
 					<div type="textpart" subtype="biography" n="76">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.76‬] أبو محمد الشذوني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.76‬] <addName>أبو محمد</addName> الشذوني <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4777,7 +4777,7 @@
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو الحسين بن أسدون شهر بالمصدوم وهو تلميذ أبي مروان <addName>عبد الملك</addName> بن زهر وكان المصدوم ديناً كثير الخير معتنياً بصناعة الطب مشهوراً بها أديباً شاعراً ومولده ومنشؤه بإشبيلية وكان مقيماً في البلد ويحضر عند المنصور ويطلبه في أوقات <note n="2" type="footnote"><p>L: بأوقات</p></note>
+							هو <addName>أبو الحسين</addName> بن أسدون شهر بالمصدوم وهو تلميذ أبي مروان <addName>عبد الملك</addName> بن زهر وكان المصدوم ديناً كثير الخير معتنياً بصناعة الطب مشهوراً بها أديباً شاعراً ومولده ومنشؤه بإشبيلية وكان مقيماً في البلد ويحضر عند المنصور ويطلبه في أوقات <note n="2" type="footnote"><p>L: بأوقات</p></note>
 							المداواة وتوفي المصدوم في إشبيلية سنة ثمان وثمانين وخمسمائة.‬‎
 						</p>
 					</div>
@@ -4793,7 +4793,7 @@
 					<div type="textpart" subtype="biography" n="79">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.79‬] أبو جعفر بن الغزال <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.79‬] <addName>أبو جعفر</addName> بن الغزال <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4808,20 +4808,20 @@
 							فلما كان بعد ذلك بمدة قال المنصور لأبي جعفر بن الغزال أريد أن تجمع حوائج الترياق الكبير وتركبه فامتثل أمره وجمع حوائجه وأعوزه الخمر الذي يعجن به أدوية <note n="5" type="footnote"><p>A: حوائج</p></note>
 							الترياق وأنهى ذلك إلى المنصور فقال له تطلبه من كل ناحية وانظر لعل <note n="6" type="footnote"><p>H: add. أن</p></note>
 							يكون عند أحد منه ولو <note n="7" type="footnote"><p>H: om. ولو</p></note>
-							شيء يسير لنكمل الترياق فتطلبه أبو جعفر من كل أحد ولم يجد شيئاً منه فقال المنصور والله ما كان قصدي بتركيب الترياق في هذا الوقت إلا لأعتبر هل بقي من الخمر شيء عند أحد أم لا وتوفي أبو جعفر ابن الغزال في أيام الناصر.‬‎
+							شيء يسير لنكمل الترياق فتطلبه <addName>أبو جعفر</addName> من كل أحد ولم يجد شيئاً منه فقال المنصور والله ما كان قصدي بتركيب الترياق في هذا الوقت إلا لأعتبر هل بقي من الخمر شيء عند أحد أم لا وتوفي <addName>أبو جعفر</addName> ابن الغزال في أيام الناصر.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="80">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.80‬] أبو بكر بن القاضي أبي الحسن الزهري <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.80‬] <addName>أبو بكر</addName> بن القاضي أبي الحسن الزهري <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">‭[13.80.1]‬</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو بكر بن الفقيه القاضي أبي الحسن الزهري القرشي قاضي إشبيلية مولده ومنشؤه بإشبيلية وكان جواداً كريماً حسن الخلق شريف النفس قد اشتغل بالأدب وتميز في العلم وكان أحد الفضلاء في صناعة الطب والمتعينين في أعمالها وخدم بالطب للسيد <note n="2" type="footnote"><p>A: السيد</p></note>
+							هو <addName>أبو بكر</addName> بن الفقيه القاضي أبي الحسن الزهري القرشي قاضي إشبيلية مولده ومنشؤه بإشبيلية وكان جواداً كريماً حسن الخلق شريف النفس قد اشتغل بالأدب وتميز في العلم وكان أحد الفضلاء في صناعة الطب والمتعينين في أعمالها وخدم بالطب للسيد <note n="2" type="footnote"><p>A: السيد</p></note>
 							أبي علي بن <addName>عبد المؤمن</addName> صاحب إشبيلية وكان يطبب الناس من دون أجرة ويكتب النسخ لهم.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4830,20 +4830,20 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان في مبدأ أمره محباً للشطرنج كثير اللعب به وجاد <note n="3" type="footnote"><p>A: add. أمره crossed out</p></note>
 							لعبه في الشطرنج <note n="4" type="footnote"><p>L: om. كثير اللعب به وجاد لعبه بالشطرنج</p></note>
-							جداً حتى صار يوصف به حدثني القاضي أبو مروان الباجي قال سألت القاضي أبا بكر بن أبي الحسن الزهري عن سبب تعلمه صناعة الطب فقال لي إنني كنت كثير اللعب بالشطرنج ولم يكد <note n="5" type="footnote"><p>A: يكن</p></note>
-							يوجد من يلعب مثلي به في إشبيلية إلا القليل فكانوا يقولون أبو بكر الزهري الشطرنجي فكان إذا بلغني ذلك أغتاظ <note n="6" type="footnote"><p>AGc: أغتاض; R: اغتاذ</p></note>
+							جداً حتى صار يوصف به حدثني القاضي <addName>أبو مروان</addName> الباجي قال سألت القاضي أبا بكر بن أبي الحسن الزهري عن سبب تعلمه صناعة الطب فقال لي إنني كنت كثير اللعب بالشطرنج ولم يكد <note n="5" type="footnote"><p>A: يكن</p></note>
+							يوجد من يلعب مثلي به في إشبيلية إلا القليل فكانوا يقولون <addName>أبو بكر</addName> الزهري الشطرنجي فكان إذا بلغني ذلك أغتاظ <note n="6" type="footnote"><p>AGc: أغتاض; R: اغتاذ</p></note>
 							منه ويصعب علي فقلت في نفسي لا بد أن اشتغل عن هذا بشيء غيره من العلم لأنعت به ويزول عني وصف الشطرنج وعلمت أن الفقه وسائر الأدب ولو اشتغلت به عمري كله لم يخصني منه وصف أنعت به فعدلت إلى أبي مروان <addName>عبد الملك</addName> بن زهر واشتغلت عليه بصناعة الطب وكنت أجلس عنده وأكتب لمن جاء مستوصفاً من المرضى الرقاع واشتهرت <note n="7" type="footnote"><p>A: واشتغلت</p></note>
 							بعد ذلك بالطب وزال عني ما كنت أكره الوصف به.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وعاش أبو بكر بن أبي الحسن الزهري خمساً وثمانين سنة وتوفي في دولة المستنصر ودفن بإشبيلية. <note n="8" type="footnote"><p>In margin of A: وعاش أبو بكر … ودفن بإشبيلية‬‎; Gc: om. وتوفي في دولة المستنصر ودفن بإشبيلية; H: add. بمدينة إشبيلية</p></note>
+							وعاش <addName>أبو بكر</addName> بن أبي الحسن الزهري خمساً وثمانين سنة وتوفي في دولة المستنصر ودفن بإشبيلية. <note n="8" type="footnote"><p>In margin of A: وعاش <addName>أبو بكر</addName> … ودفن بإشبيلية‬‎; Gc: om. وتوفي في دولة المستنصر ودفن بإشبيلية; H: add. بمدينة إشبيلية</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="81">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.81‬] أبو <addName>عبد الله</addName> الندرومي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biographies 13. 81–85 are written in the margin in A. Marginal note in A: قبل أبو العباس</p></note>
+								[‭13.81‬] أبو <addName>عبد الله</addName> الندرومي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biographies 13. 81–85 are written in the margin in A. Marginal note in A: قبل <addName>أبو العباس</addName></p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4866,7 +4866,7 @@
 					<div type="textpart" subtype="biography" n="82">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.82‬] أبو جعفر أحمد بن سابق <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.82‬] <addName>أبو جعفر</addName> أحمد بن سابق <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">أصله من قرطبة وكان فاضلاً ذكياً جيد النظر حسن العلاج موصوفاً بالعلم وكان من طلبة القاضي أبي الوليد بن رشد ومن جملة المشتغلين عليه بصناعة الطب وخدم بالطب الناصر وتوفي في دولة المستنصر.‬‎</p>
@@ -4882,7 +4882,7 @@
 					<div type="textpart" subtype="biography" n="84">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.84‬] أبو إسحاق بن طملوس <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.84‬] <addName>أبو إسحاق</addName> بن طملوس <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4893,27 +4893,27 @@
 					<div type="textpart" subtype="biography" n="85">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.85‬] أبو جعفر الذهبي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
+								[‭13.85‬] <addName>أبو جعفر</addName> الذهبي <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو جعفر أحمد بن جريج <note n="2" type="footnote"><p>H: جرح</p></note>
+							هو <addName>أبو جعفر</addName> أحمد بن جريج <note n="2" type="footnote"><p>H: جرح</p></note>
 							كان فاضلاً عالماً بصناعة الطب جيد المعرفة لها حسن التأني <note n="3" type="footnote"><p>A: التأتي</p></note>
-							في أعمالها وخدم المنصور بالطب وكذلك أيضاً خدم بعده الناصر ولده كان يحضر مجلس المذاكرة في الأدب وتوفي أبو جعفر الذهبي بتلمسان عند غزوة الناصر إلى إفريقية سنة <note n="4" type="footnote"><p>ABH: عام</p></note>
+							في أعمالها وخدم المنصور بالطب وكذلك أيضاً خدم بعده الناصر ولده كان يحضر مجلس المذاكرة في الأدب وتوفي <addName>أبو جعفر</addName> الذهبي بتلمسان عند غزوة الناصر إلى إفريقية سنة <note n="4" type="footnote"><p>ABH: عام</p></note>
 							ستمائة.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="86">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.86‬] أبو العباس بن الرومية <note n="1" type="footnote"><p>This biography is present in all three version of the work.</p></note>
+								[‭13.86‬] <addName>أبو العباس</addName> بن الرومية <note n="1" type="footnote"><p>This biography is present in all three version of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.86.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو العباس أحمد بن محمد بن مفرج النباتي المعروف بابن الرومية من أهل إشبيلية ومن أعيان علمائها وأكابر فضلائها قد أتقن علم النبات ومعرفة أشخاص الأدوية وقواها ومنافعها واختلاف أوصافها <note n="2" type="footnote"><p>A: أنصافها</p></note>
+							هو <addName>أبو العباس</addName> أحمد بن محمد بن مفرج النباتي المعروف بابن الرومية من أهل إشبيلية ومن أعيان علمائها وأكابر فضلائها قد أتقن علم النبات ومعرفة أشخاص الأدوية وقواها ومنافعها واختلاف أوصافها <note n="2" type="footnote"><p>A: أنصافها</p></note>
 							وتباين مواطنها <note n="3" type="footnote"><p>A: أوطانها</p></note>
 							وله الذكر الشائع والسمعة الحسنة كثير الخير موصوف بالديانة محقق للأمور الطبية <note n="4" type="footnote"><p>AGc: الطبيعية, in A above the line الطبية</p></note>
 							قد شرف نفسه بالفضائل وسمع من علم الحديث
@@ -4926,8 +4926,8 @@
 							<hi rend="bold">[‭13.86.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ولما وصل <note n="7" type="footnote"><p>H: add. أبو العباس</p></note>
-							من المغرب إلى الإسكندرية سمع به السلطان الملك العادل أبو بكر بن أيوب رحمه الله وبلغه فضله وجودة معرفته بالنبات وكان الملك العادل في ذلك الوقت بالقاهرة فاستدعاه من الإسكندرية وتلقاه وأكرمه ورسم بأن يقرر له جامكية وجراية ويكون مقيماً عنده فلم يفعل وقال إنما أتيت من بلدي لأحج إن شاء الله وأرجع إلى أهلي وبقي مقيماً عنده مدة وجمع حوائج الترياق الكبير وركبه له ثم توجه إلى الحجاز ولما حج عاد <note n="8" type="footnote"><p>A: om. ولما حج</p></note>
+							ولما وصل <note n="7" type="footnote"><p>H: add. <addName>أبو العباس</addName></p></note>
+							من المغرب إلى الإسكندرية سمع به السلطان الملك العادل <addName>أبو بكر</addName> بن أيوب رحمه الله وبلغه فضله وجودة معرفته بالنبات وكان الملك العادل في ذلك الوقت بالقاهرة فاستدعاه من الإسكندرية وتلقاه وأكرمه ورسم بأن يقرر له جامكية وجراية ويكون مقيماً عنده فلم يفعل وقال إنما أتيت من بلدي لأحج إن شاء الله وأرجع إلى أهلي وبقي مقيماً عنده مدة وجمع حوائج الترياق الكبير وركبه له ثم توجه إلى الحجاز ولما حج عاد <note n="8" type="footnote"><p>A: om. ولما حج</p></note>
 							إلى المغرب وأقام بإشبيلية. <note n="9" type="footnote"><p>L: في إشبيلية</p></note>
 							‬‎
 						</p>
@@ -4947,11 +4947,11 @@
 					<div type="textpart" subtype="biography" n="87">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.87‬] أبو العباس الكنبناري <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biography written in the margin of A.</p></note>
+								[‭13.87‬] <addName>أبو العباس</addName> الكنبناري <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biography written in the margin of A.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو العباس أحمد بن أبي <addName>عبد الله</addName> محمد من أهل إشبيلية عارف بصناعة الطب من فضلاء أهلها والمتميزين من أربابها قرأ الطب في أول أمره على <addName>عبد العزيز</addName> بن مسلمة الباجي ثم قرأ بعد ذلك على أبي الحجاج يوسف بن موراطير في مراكش ‭[ii,82]‬ وأقام بإشبيلية <note n="2" type="footnote"><p>B: في مراكش وهو في وقتنا هذا مقيم بإشبيلية</p></note>
+							هو <addName>أبو العباس</addName> أحمد بن أبي <addName>عبد الله</addName> محمد من أهل إشبيلية عارف بصناعة الطب من فضلاء أهلها والمتميزين من أربابها قرأ الطب في أول أمره على <addName>عبد العزيز</addName> بن مسلمة الباجي ثم قرأ بعد ذلك على أبي الحجاج يوسف بن موراطير في مراكش ‭[ii,82]‬ وأقام بإشبيلية <note n="2" type="footnote"><p>B: في مراكش وهو في وقتنا هذا مقيم بإشبيلية</p></note>
 							وخدم لأبي النجاء بن هود صاحب إشبيلية وكان يطب أيضاً لأخيه أبي <addName>عبد الله</addName> بن هود.‬‎
 						</p>
 					</div>
