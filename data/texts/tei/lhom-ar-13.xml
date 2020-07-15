@@ -102,9 +102,10 @@
         </fileDesc>
         <revisionDesc>
 			<change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-			<change when="2020-07-15" who="#ngibson">Regex replacements:
-				FIND	REPLACE
-				(\s+)(عبد\s+[\u0620-\u065F]+)	$1<addName>$2</addName>
+			<change when="2020-07-15" who="#ngibson">regex replacements changelog
+				FIND	REPLACE	COMMENT
+				(\s+)(عبد\s+ال[\u0620-\u065F]+)	$1<addName>$2</addName>	ʿAbd compound names
+				
 			</change>
         </revisionDesc>
     </teiHeader>
@@ -879,7 +880,7 @@
 					<div type="textpart" subtype="biography" n="24">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								[‭13.24‬] سعيد بن <addName>عبد ربه</addName> <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
+								[‭13.24‬] سعيد بن عبد ربه <note n="1" type="footnote"><p>This biography is present in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -887,15 +888,15 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو أبو عثمان <note n="2" type="footnote"><p>In margin of A, BGcH om.: أبو عثمان</p></note>
-							سعيد بن <addName>عبد الرحمن</addName> بن محمد بن <addName>عبد ربه</addName> بن حبيب بن محمد بن سالم مولى الأمير هشام الرضا بن <addName>عبد الرحمن</addName> <note n="3" type="footnote"><p>Above the line in A, Gc om.: الرحمن</p></note>
+							سعيد بن <addName>عبد الرحمن</addName> بن محمد بن عبد ربه بن حبيب بن محمد بن سالم مولى الأمير هشام الرضا بن <addName>عبد الرحمن</addName> <note n="3" type="footnote"><p>Above the line in A, Gc om.: الرحمن</p></note>
 							الداخل بالأندلس <note n="4" type="footnote"><p>Above the line in A, BGcH om.: بالأندلس</p></note>
 							وهو ابن أخي أبي <note n="5" type="footnote"><p>Above the line in A, Gc om.: أبي</p></note>
-							عمرو أحمد بن محمد بن <addName>عبد ربه</addName> الشاعر صاحب كتاب العقد وكانت وفاة عمه هذا أحمد بن محمد بن <addName>عبد ربه</addName> في شهر <note n="6" type="footnote"><p>A: om. شهر</p></note>
+							عمرو أحمد بن محمد بن عبد ربه الشاعر صاحب كتاب العقد وكانت وفاة عمه هذا أحمد بن محمد بن عبد ربه في شهر <note n="6" type="footnote"><p>A: om. شهر</p></note>
 							جمادى الأولى من سنة ثمان وعشرين وثلاثمائة ومولده في سنة ست وأربعين ومائتين لعشر خلون من شهر رمضان. <note n="7" type="footnote"><p>B: om. وكانت وفاة … شهر رمضان‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكان سعيد ابن <addName>عبد ربه</addName> <note n="8" type="footnote"><p>B: om. سعيد ابن <addName>عبد ربه</addName></p></note>
+							وكان سعيد ابن عبد ربه <note n="8" type="footnote"><p>B: om. سعيد ابن عبد ربه</p></note>
 							طبيباً فاضلاً وشاعراً محسناً وله في الطب رجز جليل محتو على جملة حسنة منه دل به على تمكنه من العلم وتحققه لمذاهب القدماء وكان له مع ذلك بصر بحركات الكواكب وطبائعها ومهاب الرياح وتغير الأهوية <note n="9" type="footnote"><p>In margin of A, BGcH om.: وكان له مع ذلك … الرياح وتغير الأهوية‬‎</p></note>
 							وكان مذهبه في مداواة الحميات أن يخلط بالمبردات شيئاً من [الحوار] <note n="10" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 104: الحوار. Blank space in ABR; Gc: من المبردات شيئاً; H: ذلك</p></note>
 							وله في ذلك مذهب جميل <note n="11" type="footnote"><p>A: جليل</p></note>
@@ -913,8 +914,8 @@
 							<hi rend="bold">[‭13.24.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن شعر سعيد بن <addName>عبد ربه</addName> أنه افتصد يوماً فبعث إلى عمه <note n="13" type="footnote"><p>A: add. الى crossed out.</p></note>
-							أحمد بن محمد بن <addName>عبد ربه</addName> الشاعر الأديب راغباً إليه في أن يحضر عنده مؤانساً له فلم يجبه عمه إلى ذلك وأبطأ عنه فكتب إليه:‬‎
+							ومن شعر سعيد بن عبد ربه أنه افتصد يوماً فبعث إلى عمه <note n="13" type="footnote"><p>A: add. الى crossed out.</p></note>
+							أحمد بن محمد بن عبد ربه الشاعر الأديب راغباً إليه في أن يحضر عنده مؤانساً له فلم يجبه عمه إلى ذلك وأبطأ عنه فكتب إليه:‬‎
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -951,7 +952,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">حتى تُنادمَ بعدهمْ إبـلـيسـا‬‎</l>
 							</lg>
 						</lg>
-						<p style="direction:rtl; unicode-bidi:embed">وقال سعيد بن <addName>عبد ربه</addName> أيضاً في آخر عمره وكان جميل المذهب منقبضاً عن الملوك:‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">وقال سعيد بن عبد ربه أيضاً في آخر عمره وكان جميل المذهب منقبضاً عن الملوك:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">أمِنْ بعدِ غوْصي في علوم الحقـائقِ‬‎</l>
@@ -985,7 +986,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.24.4‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">ولسعيد بن <addName>عبد ربه</addName> من الكتب:‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">ولسعيد بن عبد ربه من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">كتاب الأقراباذين</item>
