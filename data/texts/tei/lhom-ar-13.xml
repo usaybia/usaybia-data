@@ -124,6 +124,7 @@
 				17	</?temp>		Removing temp tag
 				18	((<(addName|forename).+?</(addName|forename)>\s*)+)	<persName ref="">$1</persName>	Combining name parts inside persName
 				19	<addName>(عبد.+?)</addName>	<forename>$1</forename>	Converting ʿAbd compounds to forenames when not part of genealogy or kunya
+				20	(\s+)(أبا\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Combine with 3-4 above.
 
 				Selective Replacements to do manually (not definitive enough)
 				FIND	REPLACE	COMMENT
@@ -271,8 +272,8 @@
 							<hi rend="bold">[‭13.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً فاضلاً بليغاً عالماً مشهوراً بالحذق والمعرفة جيد التصنيف عالي الهمة ويكنى أبا يعقوب وهو الذي شاع ذكره وانتشرت معرفته [‭37‬,‭ii‬] بالإسرائيلي وهو من أهل مصر وكان يكحل من أوليته ثم سكن القيروان ولازم <persName ref=""><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
-وتتلمذ له وخدم الإمام أبا محمد <persName ref=""><forename>عبد الله</forename> <addName>المهدي</addName> </persName>
+							كان طبيباً فاضلاً بليغاً عالماً مشهوراً بالحذق والمعرفة جيد التصنيف عالي الهمة ويكنى <addName>أبا يعقوب</addName> وهو الذي شاع ذكره وانتشرت معرفته [‭37‬,‭ii‬] بالإسرائيلي وهو من أهل مصر وكان يكحل من أوليته ثم سكن القيروان ولازم <persName ref=""><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
+وتتلمذ له وخدم الإمام <persName ref=""><addName>أبا محمد</addName> <forename>عبد الله</forename> <addName>المهدي</addName> </persName>
 <note n="2" type="footnote"><p>B: وخدم عبيد الله المهدي</p></note>
 							صاحب إفريقية بصناعة الطب وكان <persName ref=""><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
 مع فضله في صناعة الطب بصيراً بالمنطق متصرفاً في ضروب المعارف. <note n="3" type="footnote"><p>In margin of A, BGcH om.: وكان <persName ref=""><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
@@ -414,7 +415,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							قال قال الذي حدثني فكنت عنده ضحوة نهار إذ أقبل رسول النعمان القاضي بكتاب شكره فيه على ما تولى من علاج ابنه ومعه منديل بكسوة وثلاثمائة مثقال <note n="11" type="footnote"><p>A: دينار, in margin مثقال</p></note>
-							فقرأ الكتاب وجاوبه شاكراً ولم يقبض المال ولا الكسوة فقلت له يا أبا جعفر رزق ساقه الله إليك <note n="12" type="footnote"><p>H: رزق الله إليك ساقه</p></note>
+							فقرأ الكتاب وجاوبه شاكراً ولم يقبض المال ولا الكسوة فقلت له يا <addName>أبا جعفر</addName> رزق ساقه الله إليك <note n="12" type="footnote"><p>H: رزق الله إليك ساقه</p></note>
 							ترده <note n="13" type="footnote"><p>Above the line in A: ترده; H: om. ترده</p></note>
 							قال لي والله لا كان لرجال معد قبلي نعمة.‬‎
 						</p>
@@ -426,7 +427,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.3.3‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">وقال كشاجم يمدح أبا جعفر <persName ref=""><forename>أحمد</forename> <addName>بن الجزار</addName> </persName>
+						<p style="direction:rtl; unicode-bidi:embed">وقال كشاجم يمدح <persName ref=""><addName>أبا جعفر</addName> <forename>أحمد</forename> <addName>بن الجزار</addName> </persName>
 ويصف كتابه المعروف ب<persName ref=""><addName type="shuhra">زاد</addName> <addName>المسافر</addName></persName>
 :‬‎</p>
 						<lg>
@@ -1525,7 +1526,7 @@
 							قال وسمعت غيرهما <note n="3" type="footnote"><p>Above the line in A: وسمعت غيرهما</p></note>
 							يقول <note n="4" type="footnote"><p>Gc: om. القاضي صاعد … غيرهما يقول‬‎</p></note>
 							لم يكن أحد بعد <persName ref=""><forename>محمد</forename> <addName>بن عبدون</addName> </persName>
-يوازي أبا العرب في قيامه بصناعة الطب ونفوذه فيها وكان غلب عليه في آخر عمره حب الخمر فكان لا يوجد صاحياً ولا يرى مفيقاً من خمار وحرم بذلك الناس كثيراً من الانتفاع به وبعلمه وتوفي وهو قد قارب تسعين سنة وذلك بعد ثلاثين <note n="5" type="footnote"><p>A: ثلاث, above the line ثلاثين</p></note>
+يوازي <addName>أبا العرب</addName> في قيامه بصناعة الطب ونفوذه فيها وكان غلب عليه في آخر عمره حب الخمر فكان لا يوجد صاحياً ولا يرى مفيقاً من خمار وحرم بذلك الناس كثيراً من الانتفاع به وبعلمه وتوفي وهو قد قارب تسعين سنة وذلك بعد ثلاثين <note n="5" type="footnote"><p>A: ثلاث, above the line ثلاثين</p></note>
 							وأربعمائة.‬‎
 						</p>
 					</div>
@@ -1984,7 +1985,7 @@
 							ولما كان في الإسكندرية <note n="6" type="footnote"><p>AGcH: بالإسكندرية</p></note>
 							حبس بها وحدثني الشيخ <persName ref=""><addName>سديد الدين</addName> <addName>المنطقي</addName> </persName>
 في القاهرة سنة اثنين وثلاثين وستمائة <note n="7" type="footnote"><p>B: om. في القاهرة سنة اثنين وثلاثين وستمائة</p></note>
-							أن أبا الصلت <persName ref=""><forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
+							أن <persName ref=""><addName>أبا الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
 كان سبب حبسه في الإسكندرية <note n="8" type="footnote"><p>AGc: بالإسكندرية</p></note>
 							أن مركباً كان قد وصل إليها وهو موقر بالنحاس فغرق قريباً منها ولم تكن لهم حيلة تخليصه لطول المسافة في عمق البحر ففكر <persName ref=""><addName>أبو الصلت</addName> </persName>
 في أمره وأجال النظر في هذا
@@ -2178,7 +2179,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">وأكثرُ أخـلاقِ الـخـلـيقة أخـلاقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">لقد ضاءلتْني يا أبا الصلْت مُـذْ نـأتْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لقد ضاءلتْني يا <addName>أبا الصلْت</addName> مُـذْ نـأتْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ديارُك عن داري هـمـومٌ وأشـواقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -2335,7 +2336,7 @@
 							<hi rend="bold">[‭13.58.4.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ومن شعر <persName ref=""><addName>أبي الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
-قال يمدح أبا الطاهر <persName ref=""><forename>يحيى</forename> <addName>بن تميم</addName> <addName>بن معز</addName> <addName>بن باديس</addName> </persName>
+قال يمدح <persName ref=""><addName>أبا الطاهر</addName> <forename>يحيى</forename> <addName>بن تميم</addName> <addName>بن معز</addName> <addName>بن باديس</addName> </persName>
 ويذكر وصول ملك الروم بالهدايا راغباً في ترك الغزو وذلك في سنة خمس وخمسمائة:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3518,7 +3519,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							أقول وكان هذا <persName ref=""><addName>أبو الحسن</addName> <forename>علي</forename> <addName>بن الإمام</addName> </persName>
-من غرناطة وكان كاتباً فاضلاً متميزاً في العلوم وصحب أبا ب<persName ref=""><forename>كر</forename> <addName>بن باجة</addName> </persName>
+من غرناطة وكان كاتباً فاضلاً متميزاً في العلوم وصحب <persName ref=""><addName>أبا ب</addName><forename>كر</forename> <addName>بن باجة</addName> </persName>
 مدة واشتغل عليه وسافر <persName ref=""><addName>أبو الحسن</addName> <forename>علي</forename> <addName>بن الإمام</addName> </persName>
 من المغرب <note n="24" type="footnote"><p>AGcR: الغرب</p></note>
 							وتوفي بقوص وكان من جملة تلاميذ <persName ref=""><addName type="shuhra">ابن باجة</addName> </persName>
@@ -3653,7 +3654,7 @@
 							<hi rend="bold">[‭13.60.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال القاضي صاعد إن أبا مروان <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+							وقال القاضي صاعد إن <persName ref=""><addName>أبا مروان</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 رحل إلى المشرق ودخل القيروان ومصر وتطبب هناك زمناً طويلاً ثم رجع إلى الأندلس <note n="4" type="footnote"><p>In margin of B: إلى الأندلس صح</p></note>
 							وقصد مدينة دانية وكان ملكها في ذلك الوقت مجاهد فلما وصل <persName ref=""><addName>أبو مروان</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 <note n="5" type="footnote"><p>In margin of A: <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
@@ -3702,7 +3703,7 @@
 							وقال <persName ref=""><addName>أبو يحيى</addName> <addName>اليسع</addName> </persName>
 <note n="4" type="footnote"><p>L: اليسنع</p></note>
 							<persName ref=""><addName>بن عيسى</addName> <addName>بن حزم</addName> <addName>بن اليسع</addName> </persName>
-في كتاب المعرب عن محاسن أهل المغرب إن أبا العلاء <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+في كتاب المعرب عن محاسن أهل المغرب إن <persName ref=""><addName>أبا العلاء</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 كان مع صغر سنه تصرخ النجابة بذكره وتخطب المعارف بشكره ولم يزل يطالع كتب الأوائل متفهماً ويلقى الشيوخ مستعلماً والسعد ينهج له مناهج التيسير والقدر لا يرضى له من الوجاهة باليسير <note n="5" type="footnote"><p>Gc: om. والقدر لا يرضى له من الوجاهة باليسير</p></note>
 							حتى برز في الطب إلى غاية عجز <note n="6" type="footnote"><p>A: برز, in margin عجز</p></note>
 							الطب عن مرامها وضعف الفهم عن إبرامها وخرجت عن <note n="7" type="footnote"><p>L: من</p></note>
@@ -3885,7 +3886,7 @@
 							وحكاية المهدي في تأتيه إلى أن نال الملك وصفا له الأمر معروفة مشهورة ولما استقل <persName ref=""><forename>عبد المؤمن</forename> </persName>
 بالمملكة وعرف بأمير المؤمنين واستولى على خزائن المغرب بذل الأموال وأظهر العدل وقرب أهل العلم وأكرمهم ووالى إحسانه إليهم واختص <note n="9" type="footnote"><p>A: add. <persName ref=""><forename>عبد الملك</forename> </persName>
 crossed out.</p></note>
-							أبا مروان <persName ref=""><forename>عبد الملك</forename> <addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
+							<persName ref=""><addName>أبا مروان</addName> <forename>عبد الملك</forename> <addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
 وجعل اعتماده عليه في الطب وأناله من الإنعام والعطاء فوق أمنيته وكان مكيناً عنده عالي القدر متميزاً على كثير من أبناء زمانه وألف له <persName ref=""><addName>أبو مروان</addName> <addName>بن زهر</addName> <addName>الترياق</addName> </persName>
 السبعيني واختصره عشارياً واختصره سباعياً ويعرف بترياق الأنتلة.‬‎
 						</p>
@@ -3916,7 +3917,7 @@ crossed out.</p></note>
 ; Gc: <persName ref=""><addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن علي</addName></persName>
 </p></note>
 							الطائي الحاتمي <note n="16" type="footnote"><p>Above the line in A, Gc om.: الحاتمي</p></note>
-							من أهل مرسية أن أبا مروان <persName ref=""><forename>عبد الملك</forename> <addName>بن زهر</addName> </persName>
+							من أهل مرسية أن <persName ref=""><addName>أبا مروان</addName> <forename>عبد الملك</forename> <addName>بن زهر</addName> </persName>
 كان في وقت مروره إلى دار أمير المؤمنين بإشبيلية يجد في طريقه عند حمام <persName ref=""><addName>أبي الخير</addName> </persName>
 بالقرب من دار <persName ref=""><addName type="shuhra">ابن مؤمل</addName> </persName>
 مريضاً به سوء قتبه <note n="17" type="footnote"><p>A: قنية; B: فىيه; H: فيىه; P: قنىه; R: قنيه</p></note>
@@ -4104,7 +4105,7 @@ crossed out.</p></note>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ولما نظر <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
 في ذلك وامتثل أمر المنصور في جمع <note n="33" type="footnote"><p>L: جميع</p></note>
-							الكتب من عند الكتبيين وغيرهم وأن لا يبقى شيء منها وأهانة المشتغلين بها وكان بإشبيلية رجل من أعيانها يعادي الحفيد أبا ب<persName ref=""><forename>كر</forename> <addName>بن زهر</addName> </persName>
+							الكتب من عند الكتبيين وغيرهم وأن لا يبقى شيء منها وأهانة المشتغلين بها وكان بإشبيلية رجل من أعيانها يعادي الحفيد <persName ref=""><addName>أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
 ويحسده وعنده شر فعمل محضراً في أن <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
 <note n="34" type="footnote"><p>B: add. إنه</p></note>
 							دائم الاشتغال بهذا الفن والنظر فيه وأن عنده في داره <note n="35" type="footnote"><p>Gc: om. في داره</p></note>
@@ -4154,7 +4155,7 @@ crossed out.</p></note>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وحدثني القاضي <persName ref=""><addName>أبو مروان</addName> <addName>الباجي</addName> </persName>
 قال كان <persName ref=""><addName>أبو زيد</addName> <forename>عبد الرحمن</forename> <addName>بن يوجان</addName> </persName>
-وزير المنصور يعادي الحفيد أبا ب<persName ref=""><forename>كر</forename> <addName>بن زهر</addName> </persName>
+وزير المنصور يعادي الحفيد <persName ref=""><addName>أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
 ويحسده لما يرى من عظم حاله وعلو منزلته وعلمه فاحتال عليه في سم صيره مع أحد من <note n="53" type="footnote"><p>A: ممن</p></note>
 							كان عند الحفيد <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
 فقدمه إلى الحفيد <persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
@@ -4345,7 +4346,7 @@ crossed out.</p></note>
 محمد ابن <persName ref=""><forename>أحمد</forename> <addName>بن عبد الملك</addName> <addName>الباجي</addName> </persName>
 قد تزوج ببنت <persName ref=""><addName>أبي محمد</addName> <forename>عبد الله</forename> <addName>بن الحفيد</addName> <addName>أبي بكر</addName> <addName>بن زهر</addName> </persName>
 ورزق منها أبا <persName ref=""><forename>عبد الله</forename> </persName>
-محمد وكان أعني أبا مروان أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله <persName ref=""><addName type="shuhra">ابن الأحمر</addName> </persName>
+محمد وكان أعني <addName>أبا مروان</addName> أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله <persName ref=""><addName type="shuhra">ابن الأحمر</addName> </persName>
 غدراً في سنة ثلاثين وستمائة وكان عمره إذ ذاك سبعاً وثلاثين سنة فمن ذلك <note n="74" type="footnote"><p>BR: om. وكان والد هذا … سنة فمن ذلك‬‎</p></note>
 							قال وهي من أول قوله‭: <note n="75" type="footnote"><p>In margin of A, Gc om.: مما أنشدني … من أول قوله‬‎</p></note>
 							‬‬‎
@@ -4923,10 +4924,10 @@ crossed out.</p></note>
 فلما <note n="24" type="footnote"><p>A: add. قضي crossed out</p></note>
 							قص عليّ هذه الرؤيا قلت له لا تتوهم من هذا فلعله من أضغاث الأحلام قال ولم تكمل تلك السنة إلا وقد مات فكان عمره كما قيل له خمساً وعشرين سنة لا أزيد ولا أنقص <note n="25" type="footnote"><p>Gc: لا أقل ولا أكثر</p></note>
 							وخلف ولدين كل منهما فاضل في نفسه كريم في جنسه أحدهما يسمى <note n="26" type="footnote"><p>L: om. يسمى</p></note>
-							أبا مروان <persName ref=""><forename>عبد الملك</forename> </persName>
+							<persName ref=""><addName>أبا مروان</addName> <forename>عبد الملك</forename> </persName>
 <note n="27" type="footnote"><p>H: om. <persName ref=""><forename>عبد الملك</forename></persName>
 </p></note>
-							والآخر أبا العلاء محمد والأصغر منهما وهو <persName ref=""><addName>أبو العلاء</addName> </persName>
+							والآخر <addName>أبا العلاء</addName> محمد والأصغر منهما وهو <persName ref=""><addName>أبو العلاء</addName> </persName>
 معتن بصناعة الطب وله نظر جيد في كتب جالينوس وكان <note n="28" type="footnote"><p>L: om. وكان</p></note>
 							مقامهما في إشبيلية. <note n="29" type="footnote"><p>B: وهما في وقتنا هذا مقيمين في إشبلية; marginal note in L: آخر الجزء السابع من تجزئة الأصل وهي نسخة المصنف رحمه الله</p></note>
 							‬‎
@@ -5051,7 +5052,7 @@ crossed out.</p></note>
 قاضي بجاية <note n="31" type="footnote"><p>H: ىحايه</p></note>
 							وأبو الربيع الكفيف وأبو العباس الحافظ الشاعر القرّابي <note n="32" type="footnote"><p>AGc: om. القرّابي, above the line in A: الجراوي</p></note>
 							وبقوا مدة ثم إن جماعة من الأعيان بإشبيلية شهدوا ل<persName ref=""><addName type="shuhra">ابن رشد</addName> </persName>
-أنه على ‭[ii,77]‬ غير ما نسب إليه فرضي المنصور عنه وعن سائر الجماعة وذلك في سنة خمس وتسعين وخمسمائة وجعل أبا جعفر الذهبي مزوارّاً للطلبة ومزوارّاً للأطباء وكان يصفه المنصور ويشكره ويقول إن أبا جعفر الذهبي <note n="33" type="footnote"><p>Gc: om. مزوارّاً للطلبة … جعفر الذهبي‬‎</p></note>
+أنه على ‭[ii,77]‬ غير ما نسب إليه فرضي المنصور عنه وعن سائر الجماعة وذلك في سنة خمس وتسعين وخمسمائة وجعل <addName>أبا جعفر</addName> الذهبي مزوارّاً للطلبة ومزوارّاً للأطباء وكان يصفه المنصور ويشكره ويقول إن <addName>أبا جعفر</addName> الذهبي <note n="33" type="footnote"><p>Gc: om. مزوارّاً للطلبة … جعفر الذهبي‬‎</p></note>
 							كالذهب الإبريز الذي لم يزدد في السبك إلا جودة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5351,7 +5352,7 @@ crossed out.</p></note>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان <persName ref=""><addName>أبو الحجاج</addName> <addName type="shuhra">ابن موراطير</addName> </persName>
 قد خدم بصناعة الطب <note n="10" type="footnote"><p>H: بالطب</p></note>
-							المنصور أبا يوسف يعقوب ولما توفي المنصور خدم لولده الناصر وهو <persName ref=""><addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن يعقوب</addName> </persName>
+							المنصور <addName>أبا يوسف</addName> يعقوب ولما توفي المنصور خدم لولده الناصر وهو <persName ref=""><addName>أبو عبد الله</addName> <forename>محمد</forename> <addName>بن يعقوب</addName> </persName>
 ومن بعد الناصر أيضاً خدم لولده <persName ref=""><addName>أبي يعقوب</addName> </persName>
 يوسف <persName ref=""><forename>المستنصر</forename> <addName>بن الناصر</addName> </persName>
 وكان <persName ref=""><addName>أبو الحجاج</addName> <addName>بن موراطير</addName> </persName>
@@ -5539,7 +5540,7 @@ crossed out.</p></note>
 							وكان في مبدأ أمره محباً للشطرنج كثير اللعب به وجاد <note n="3" type="footnote"><p>A: add. أمره crossed out</p></note>
 							لعبه في الشطرنج <note n="4" type="footnote"><p>L: om. كثير اللعب به وجاد لعبه بالشطرنج</p></note>
 							جداً حتى صار يوصف به حدثني القاضي <persName ref=""><addName>أبو مروان</addName> <addName>الباجي</addName> </persName>
-قال سألت القاضي أبا ب<persName ref=""><forename>كر</forename> <addName>بن أبي الحسن</addName> <addName>الزهري</addName> </persName>
+قال سألت القاضي <persName ref=""><addName>أبا ب</addName><forename>كر</forename> <addName>بن أبي الحسن</addName> <addName>الزهري</addName> </persName>
 عن سبب تعلمه صناعة الطب فقال لي إنني كنت كثير اللعب بالشطرنج ولم يكد <note n="5" type="footnote"><p>A: يكن</p></note>
 							يوجد من يلعب مثلي به في إشبيلية إلا القليل فكانوا يقولون <persName ref=""><addName>أبو بكر</addName> <addName>الزهري</addName> </persName>
 الشطرنجي فكان إذا بلغني ذلك أغتاظ <note n="6" type="footnote"><p>AGc: أغتاض; R: اغتاذ</p></note>
