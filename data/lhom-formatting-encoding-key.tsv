@@ -3,4 +3,5 @@
 ENCODED	DECODED
 `(\s?)`	$1
 -\s+	-
+;\s*\n\s*	; 
 </root>
