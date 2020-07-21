@@ -11,5 +11,6 @@ ENCODED	DECODED
 `see[^\n]+`see`	(Lines need to be split)
 \n[^\d]+\n	(Find lines without numbered references)
 Lines beginning with lowercase letters besides "al-"
+[^\d\)n] *\n	(Lines not ending in number reference - maybe need to be joined)
 -->
 </root>
