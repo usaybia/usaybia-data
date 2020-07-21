@@ -12,5 +12,6 @@ ENCODED	DECODED
 \n[^\d]+\n	(Find lines without numbered references)
 Lines beginning with lowercase letters besides "al-"
 [^\d\)n] *\n	(Lines not ending in number reference - maybe need to be joined)
+page numbers in middle of entries
 -->
 </root>
