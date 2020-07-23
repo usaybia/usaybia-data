@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ENCODED	DECODED
+`(\s?)`	$1
+-\s+	-
+([;,])\s*\n\s*	$1 
+\n([^\n]*?\d )([\p{L}-[n]])	\\n$1\\n$2
+\n([^\n]*?\d )([\p{L}-[n]])	\\n$1\\n$2
+<!-- Replacements that will need to be done manually 
+\n(nos?\.)	$1
+`see[^\n]+`see`	(Lines need to be split)
+\n[^\d]+\n	(Find lines without numbered references)
+Lines beginning with lowercase letters besides "al-"
+[^\d\)n] *\n	(Lines not ending in number reference - maybe need to be joined)
+page numbers in middle of entries
+-->
+</root>
