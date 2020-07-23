@@ -73,7 +73,7 @@
                                                 International (CC BY 4.0) License.</p>
                </licence>
             </availability>
-            <date>2020-07-22+02:00</date>
+            <date>2020-07-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -120,6 +120,13 @@
                                     The canonical record is currently in the spreadsheet. Changes
                                     should be made there. THIS FILE SHOULD NOT BE MANUALLY
                                     EDITED!</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.3"
+                 when="2020-07-23+02:00">CHANGED: Updated places from spreadsheet
+                                    https://docs.google.com/spreadsheets/d/1B6vJjZjUbCX-oyqmrgVmVq7GmyqvaAjfBlzcIYnwhpQ.
+                                    The canonical record is currently in the spreadsheet. Changes
+                                    should be made there. THIS FILE SHOULD NOT BE MANUALLY
+                                    EDITED!</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -134,13 +141,17 @@
                      xml:id="abstract493-1"
                      xml:lang="en"
                      source="#bib493-1">
-                                                  "an island off the western coast of"
+                                                  "an island off the western coast of Anatolia"
                                             </desc>
                <idno type="URI">https://usaybia.net/place/493</idno>
                <bibl xml:id="bib493-1">
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="p">475
                                                 (index)</citedRange>
+                  <citedRange unit="entry">2.1.1n</citedRange>
+                  <citedRange unit="entry">4.1.11.3n</citedRange>
+                  <citedRange unit="entry">4.3.4.1</citedRange>
+                  <citedRange unit="entry">4.3.4.3</citedRange>
                </bibl>
             </place>
          </listPlace>
