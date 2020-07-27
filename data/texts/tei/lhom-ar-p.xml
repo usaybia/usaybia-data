@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,11 +23,19 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+					http://syriaca.org/documentation/editors.html#ngibson 
+					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+					http://orcid.org/0000-0003-0786-8075
+                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
+                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
+                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
+                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
+                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -37,9 +47,7 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p>
-                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
-                </p>
+              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
@@ -93,7 +101,7 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
+            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -105,106 +113,65 @@
                         <p style="direction:rtl; unicode-bidi:embed">[‭١‬ب]‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">‭[i,2]‬‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            بسم الله الرحمن الرحيم <note n="1" type="footnote">
-                                <p>This preface is included in all three versions of the work, although the dedication appears only in Version 1. The edition of this chapter is based on <hi rend="smallcaps">MSS</hi> ABGcR.</p>
-                            </note>
-                            وما توفيقي إلا به <note n="2" type="footnote">
-                                <p>B: بسم الله الرحمن الرحيم صلى الله على سيدنا محمد وآله وصحبه وسلم رب يسر يا كريم; Gc: رب يسر وأعن وافتح بخير بسم الله الرحمن الرحيم; R: بسم الله الرحمن الرحيم وبه نستعين</p>
-                            </note>
+                            بسم الله الرحمن الرحيم <note n="1" type="footnote"><p>This preface is included in all three versions of the work, although the dedication appears only in Version 1. The edition of this chapter is based on <hi rend="smallcaps">MSS</hi> ABGcR.</p></note>
+                            وما توفيقي إلا به <note n="2" type="footnote"><p>B: بسم الله الرحمن الرحيم صلى الله على سيدنا محمد وآله وصحبه وسلم رب يسر يا كريم; Gc: رب يسر وأعن وافتح بخير بسم الله الرحمن الرحيم; R: بسم الله الرحمن الرحيم وبه نستعين</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            الحمد لله ناشر الأمم ومنشر الرمم بارئ النسم ومبرئ السقم العائد من فضله بسوابغ النعم الموعد من عصاه بأليم العقاب والنقم مخرج الخلائق بلطف صنعه إلى الوجود من العدم مقدر الأدواء ومنزل الدواء بأتم الصنع وأتقن الحكم وأشهد أن لا إله إلا الله <note n="3" type="footnote">
-                                <p>Gc: add. وحده لا شريك له</p>
-                            </note>
+                            الحمد لله ناشر الأمم ومنشر الرمم بارئ النسم ومبرئ السقم العائد من فضله بسوابغ النعم الموعد من عصاه بأليم العقاب والنقم مخرج الخلائق بلطف صنعه إلى الوجود من العدم مقدر الأدواء ومنزل الدواء بأتم الصنع وأتقن الحكم وأشهد أن لا إله إلا الله <note n="3" type="footnote"><p>Gc: add. وحده لا شريك له</p></note>
                             شهادة خالصة بوفاء الذمم مخلصة من موبقات الخطل والندم وأشهد أن محمداً عبده ورسوله المبعوث بجوامع الكلم المرسل إلى كافة العرب والعجم الذي أنار بلألاء نور مبعثه حنادس الظلم وأباد بسيف معجزه من تجبر وظلم وقطع ببرهان دلالة نبوته داء الشرك وحسم صلى الله عليه صلاة دائمة باقية ما لمعت البروق وهمعت الديم وعلى آله أولي الفضل والكرم وعلى أصحابه الذين جعلوا شريعته لهم أمم وعلى أزواجه أمهات المؤمنين المبرآت من الدنس وشرف وكرم.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وبعد فإنه لما كانت صناعة الطب من أشرف الصنائع <note n="4" type="footnote">
-                                <p>Gc: من أفضل الصناعات</p>
-                            </note>
-                            وأربح <note n="5" type="footnote">
-                                <p>A: أزيح; R: أذبح</p>
-                            </note>
-                            البضائع وقد ورد تفضيلها في الكتب الإلهية والأوامر الشرعية حتى جعل علم الأبدان قريناً لعلم الأديان وقد قالت الحكماء إن المطالب نوعان خير ولذة وهذان الشيئان إنما يتم حصولهما للإنسان بوجود الصحة لأن اللذة المستفادة من هذه الدنيا والخير المرجو <note n="6" type="footnote">
-                                <p>R: الموجود</p>
-                            </note>
-                            في الدار الأخرى لا يصل الواصل إليهما إلا بدوام صحته وقوة منته <note n="7" type="footnote">
-                                <p>R: بنيته</p>
-                            </note>
+                            وبعد فإنه لما كانت صناعة الطب من أشرف الصنائع <note n="4" type="footnote"><p>Gc: من أفضل الصناعات</p></note>
+                            وأربح <note n="5" type="footnote"><p>A: أزيح; R: أذبح</p></note>
+                            البضائع وقد ورد تفضيلها في الكتب الإلهية والأوامر الشرعية حتى جعل علم الأبدان قريناً لعلم الأديان وقد قالت الحكماء إن المطالب نوعان خير ولذة وهذان الشيئان إنما يتم حصولهما للإنسان بوجود الصحة لأن اللذة المستفادة من هذه الدنيا والخير المرجو <note n="6" type="footnote"><p>R: الموجود</p></note>
+                            في الدار الأخرى لا يصل الواصل إليهما إلا بدوام صحته وقوة منته <note n="7" type="footnote"><p>R: بنيته</p></note>
                             وذلك إنما يتم بالصناعة الطبية لأنها حافظة للصحة الموجودة ورادة للصحة المفقودة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            فوجب إذ <note n="8" type="footnote">
-                                <p>Gc: إذا</p>
-                            </note>
-                            كانت صناعة الطب من الشرف بهذا المكان وعموم الحاجة إليها داعية في كل وقت وزمان أن يكون الاعتناء [‭i,3‬] بها أشد والرغبة في تحصيل قوانينها الكلية والجزئية آكد وأجد وإنه لما كان قد ورد كثير من المشتغلين <note n="9" type="footnote">
-                                <p>Gc: المشتلغين</p>
-                            </note>
+                            فوجب إذ <note n="8" type="footnote"><p>Gc: إذا</p></note>
+                            كانت صناعة الطب من الشرف بهذا المكان وعموم الحاجة إليها داعية في كل وقت وزمان أن يكون الاعتناء [‭i,3‬] بها أشد والرغبة في تحصيل قوانينها الكلية والجزئية آكد وأجد وإنه لما كان قد ورد كثير من المشتغلين <note n="9" type="footnote"><p>Gc: المشتلغين</p></note>
                             بها والراغبين في مباحث أصولها وتطلبها منذ أول ظهورها وإلى وقتنا هذا.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان فيهم جماعة من أكابر أهل هذه الصناعة وأولي النظر فيها والبراعة ممن قد تواترت الأخبار بفضلهم ونقلت الآثار بعلو قدرهم ونبلهم وشهدت لهم بذلك مصنفاتهم ودلت عليه <note n="10" type="footnote">
-                                <p>B: عليهم</p>
-                            </note>
-                            مؤلفاتهم <note n="11" type="footnote">
-                                <p>Gc: om. وشهدت لهم … مؤلفاتهم‬‎</p>
-                            </note>
+                            وكان فيهم جماعة من أكابر أهل هذه الصناعة وأولي النظر فيها والبراعة ممن قد تواترت الأخبار بفضلهم ونقلت الآثار بعلو قدرهم ونبلهم وشهدت لهم بذلك مصنفاتهم ودلت عليه <note n="10" type="footnote"><p>B: عليهم</p></note>
+                            مؤلفاتهم <note n="11" type="footnote"><p>Gc: om. وشهدت لهم … مؤلفاتهم‬‎</p></note>
                             ولم أجد لأحد من أربابها ولا من أنعم الاعتناء بها كتاباً جامعاً في معرفة طبقات الأطباء وفي ذكر أحوالهم على الولاء.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             رأيت أن أذكر في هذا الكتاب نكتاً وعيوناً في مراتب المتميزين من الأطباء القدماء والمحدثين ومعرفة طبقاتهم على توالي أزمنتهم وأوقاتهم وأن أودعه أيضاً نبذاً من أقوالهم وحكاياتهم ونوادرهم ومحاوراتهم وذكر شيء من أسماء كتبهم ليستدل
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢‬أ‬‎"/>
-                            بذلك على ما خصهم الله من العلم وحباهم به من جودة القريحة والفهم فإن كثيراً منهم وإن قدمت أزمانهم وتفاوتت أوقاتهم <note n="12" type="footnote">
-                                <p>Gc: add. فإن</p>
-                            </note>
-                            لهم علينا من النعم فيما صنفوه <note n="13" type="footnote">
-                                <p>Gc: صنعوه</p>
-                            </note>
-                            والمنن فيما قد جمعوا في كتبهم من علم هذه الصناعة <note n="14" type="footnote">
-                                <p>A: om. من علم هذه الصناعة</p>
-                            </note>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢‬أ‬‎" />
+                            بذلك على ما خصهم الله من العلم وحباهم به من جودة القريحة والفهم فإن كثيراً منهم وإن قدمت أزمانهم وتفاوتت أوقاتهم <note n="12" type="footnote"><p>Gc: add. فإن</p></note>
+                            لهم علينا من النعم فيما صنفوه <note n="13" type="footnote"><p>Gc: صنعوه</p></note>
+                            والمنن فيما قد جمعوا في كتبهم من علم هذه الصناعة <note n="14" type="footnote"><p>A: om. من علم هذه الصناعة</p></note>
                             ووصفوه ما هو تفضل المعلم على تلميذه والمحسن إلى من أحسن إليه.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">وقد أودعت هذا الكتاب أيضاً ذكر جماعة من الحكماء والفلاسفة ممن لهم نظر وعناية بصناعة الطب وجملاً من أحوالهم ونوادرهم وأسماء كتبهم وجعلت ذكر كل واحد منهم في الموضع الأليق به على حسب طبقاتهم ومراتبهم.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            فأما ذكر جميع الحكماء وأصحاب التعاليم وغيرهم من أرباب النظر في سائر العلوم <note n="15" type="footnote">
-                                <p>R: المواضع</p>
-                            </note>
-                            فإني أذكر ذلك إن شاء الله تعالى مستقصى في كتاب معالم الأمم وأخبار ذوي الحكم. <note n="16" type="footnote">
-                                <p>Marginal note in R: مطلب كتاب معالم الأمم وأخبار ذوي الحكم للمصنف لم تقف عليه والله الموفق لتحصيلي</p>
-                            </note>
+                            فأما ذكر جميع الحكماء وأصحاب التعاليم وغيرهم من أرباب النظر في سائر العلوم <note n="15" type="footnote"><p>R: المواضع</p></note>
+                            فإني أذكر ذلك إن شاء الله تعالى مستقصى في كتاب معالم الأمم وأخبار ذوي الحكم. <note n="16" type="footnote"><p>Marginal note in R: مطلب كتاب معالم الأمم وأخبار ذوي الحكم للمصنف لم تقف عليه والله الموفق لتحصيلي</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأما هذا الكتاب الذي قصدت حينئذ إلى تأليفه فإني جعلته منقسماً إلى خمسة عشر باباً وسميته كتاب عيون الأنباء في طبقات الأطباء <note n="17" type="footnote">
-                                <p>B, with Version 1, adds at this point this dedication:</p>
-                                <p style="direction:rtl; unicode-bidi:embed">وخدمت به خزانة المولى الصاحب الوزير العالم العادل الرئيس الكامل سيد الوزراء ملك الحكماء إمام العلماء شمس الشريعة أمين الدولة كمال الدين شرف الملة أبو الحسن بن غزال بن أبي سعيد أدام اﷲ سعادته وبلغه في الدارين إرادته‭.‬‬‎</p>
-                            </note>
+                            وأما هذا الكتاب الذي قصدت حينئذ إلى تأليفه فإني جعلته منقسماً إلى خمسة عشر باباً وسميته كتاب عيون الأنباء في طبقات الأطباء <note n="17" type="footnote"><p>B, with Version 1, adds at this point this dedication:</p><p style="direction:rtl; unicode-bidi:embed">وخدمت به خزانة المولى الصاحب الوزير العالم العادل الرئيس الكامل سيد الوزراء ملك الحكماء إمام العلماء شمس الشريعة أمين الدولة كمال الدين شرف الملة أبو الحسن بن غزال بن أبي سعيد أدام اﷲ سعادته وبلغه في الدارين إرادته‭.‬‬‎</p></note>
                             ومن الله تعالى أستمد التوفيق والمعونة إنه ولي ذلك والقادر عليه وهذا عدد الأبواب:‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الأول في كيفية وجود صناعة الطب وأول حدوثها‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الثاني في طبقات الأطباء الذين ظهرت لهم أجزاء من صناعة الطب وكانوا المبتدئين بها‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            الباب الثالث في طبقات الأطباء اليونانيين الذين هم من نسل أسقليبيوس <note n="18" type="footnote">
-                                <p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنيوس; R: اسقلينيوس</p>
-                            </note>
+                            الباب الثالث في طبقات الأطباء اليونانيين الذين هم من نسل أسقليبيوس <note n="18" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنيوس; R: اسقلينيوس</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الرابع في طبقات الأطباء اليونانيين الذين أذاع أبقراط فيهم صناعة الطب‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الخامس في طبقات الأطباء الذين كانوا منذ زمان جالينوس وقريباً منه‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب السادس في طبقات الأطباء الإسكندرانيين ومن كان في أزمنتهم من الأطباء النصارى وغيرهم‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            الباب السابع في طبقات الأطباء الذين كانوا في أول ظهور الإسلام من أطباء <note n="19" type="footnote">
-                                <p>Gc: om. أطباء</p>
-                            </note>
+                            الباب السابع في طبقات الأطباء الذين كانوا في أول ظهور الإسلام من أطباء <note n="19" type="footnote"><p>Gc: om. أطباء</p></note>
                             العرب‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الثامن في طبقات الأطباء السريانيين الذين كانوا في ابتداء ظهور دولة بني العباس [‭i,4‬]‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            الباب التاسع في طبقات الأطباء النقلة الذين نقلوا كتب الطب وغيره من اللسان اليوناني إلى اللسان العربي وذكر الذين نقلوا لهم <note n="20" type="footnote">
-                                <p>In margin of R: في طبقات الأطباء النقلة … نقلوا لهم‬‎</p>
-                            </note>
+                            الباب التاسع في طبقات الأطباء النقلة الذين نقلوا كتب الطب وغيره من اللسان اليوناني إلى اللسان العربي وذكر الذين نقلوا لهم <note n="20" type="footnote"><p>In margin of R: في طبقات الأطباء النقلة … نقلوا لهم‬‎</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب العاشر في طبقات الأطباء العراقيين وأطباء الجزيرة وديار بكر‬‎</p>
@@ -213,7 +180,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">الباب الثالث عشر في طبقات الأطباء الذين ظهروا في بلاد المغرب وأقاموا بها‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             الباب الرابع عشر في طبقات الأطباء المشهورين من أطباء ديار مصر
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢‬ب‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢‬ب‬‎" />
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">الباب الخامس عشر في طبقات الأطباء المشهورين من أطباء الشام.‬‎</p>
