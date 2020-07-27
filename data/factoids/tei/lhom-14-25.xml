@@ -2,7 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -157,9 +157,9 @@
                 <!-- If we add numbered divs for the numbered subsections (like 14.25.1) 
                 we could use this kind of reference, but we would have to make sure the URN 
                 resolves correctly with the additional number on the end. -->
-                <bibl type="urn">
+                <!--<bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25.1"/>
-                </bibl>
+                </bibl>-->
                 <!-- Or we could do it like this if it isn't possible to resolve the additional numbers 
                 on the end. -->
                 <bibl type="urn">
@@ -397,8 +397,8 @@
                     <citedRange unit="part">5</citedRange>
                 </bibl>
             </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-15" resp="#nloehr">
-                <idno type="URI">https://usaybia.net/factoid/14-25-15</idno>
+            <div type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-16</idno>
                 <listRelation>
                     <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 ref=https://usaybia.net/person/1919">
                     </relation>
