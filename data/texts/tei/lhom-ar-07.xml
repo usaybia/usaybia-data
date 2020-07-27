@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,11 +23,19 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
+					http://syriaca.org/documentation/editors.html#ngibson 
+					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
+					http://orcid.org/0000-0003-0786-8075
+                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
+                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
+                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
+                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
+                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -37,9 +47,7 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p>
-                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
-                </p>
+              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
@@ -93,7 +101,7 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
+            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
         </revisionDesc>
     </teiHeader>
 	<text>
@@ -103,9 +111,7 @@
 					<div type="textpart" subtype="biography" n="1">
 						<head style="direction:rtl; unicode-bidi:embed">
 							الباب السابع في طبقات الأطباء الذين كانوا في أول ظهور الإسلام من أطباء العرب وغيرهم
-							<note n="1" type="footnote">
-                                <p>The edition of this chapter is based on manuscripts AGaGcRSaSb; manuscript B has been occasionally used. This chapter occurs in all three versions.</p>
-                            </note>
+							<note n="1" type="footnote"><p>The edition of this chapter is based on manuscripts AGaGcRSaSb; manuscript B has been occasionally used. This chapter occurs in all three versions.</p></note>
 							‬‎
 						</head>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -115,490 +121,212 @@
 							<hi rend="bold">[‭7.1.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو الحارث <note n="2" type="footnote">
-                                <p>ARSa: الحرث</p>
-                            </note>
-							بن كلدة بن عمرو بن علاج الثقفي وثقيف من بقايا عاد <note n="3" type="footnote">
-                                <p>BGaGcSa: om. هو الحارث بن كلدة … بقايا عاد‬‎</p>
-                            </note>
-							وكان الحارث <note n="4" type="footnote">
-                                <p>AR: الحرث وكان; GaGcSa: كان</p>
-                            </note>
-							من الطائف وسافر البلاد وتعلم الطب بناحية فارس ومن أهل جنديسابور <note n="5" type="footnote">
-                                <p>R: يندنيسار; BGaGcSa: om. ومن أهل جنديسابور</p>
-                            </note>
-							وتمرن ‭[i,110]‬ هناك وعرف الداء والدواء وكان يضرب بالعود تعلم ذلك أيضاً بفارس واليمن وبقي <note n="6" type="footnote">
-                                <p>Above the line in A: تكرر من</p>
-                            </note>
-							الحارث <note n="7" type="footnote">
-                                <p>AR: الحرث; GaGcSa: om. الحارث</p>
-                            </note>
-							أيام رسول الله صلى الله عليه وسلم <note n="8" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							وأيام أبي بكر وعمر وعثمان وعلي بن أبي طالب ومعاوية <note n="9" type="footnote">
-                                <p>R: om. وبقي … ومعاوية‬‎; Sa: add. رضي الله عنهم</p>
-                            </note>
-							ولما كان بفارس كان يطب هناك ويعتمد أهلها عليه وشاع اسمه بينهم بالفضلة والعلم وكان قد عالج بعض أجلائهم فبرأ وأعطاه مالاً وجارية سماها الحارث <note n="10" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							سمية ثم إن نفس الحارث <note n="11" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
+							هو الحارث <note n="2" type="footnote"><p>ARSa: الحرث</p></note>
+							بن كلدة بن عمرو بن علاج الثقفي وثقيف من بقايا عاد <note n="3" type="footnote"><p>BGaGcSa: om. هو الحارث بن كلدة … بقايا عاد‬‎</p></note>
+							وكان الحارث <note n="4" type="footnote"><p>AR: الحرث وكان; GaGcSa: كان</p></note>
+							من الطائف وسافر البلاد وتعلم الطب بناحية فارس ومن أهل جنديسابور <note n="5" type="footnote"><p>R: يندنيسار; BGaGcSa: om. ومن أهل جنديسابور</p></note>
+							وتمرن ‭[i,110]‬ هناك وعرف الداء والدواء وكان يضرب بالعود تعلم ذلك أيضاً بفارس واليمن وبقي <note n="6" type="footnote"><p>Above the line in A: تكرر من</p></note>
+							الحارث <note n="7" type="footnote"><p>AR: الحرث; GaGcSa: om. الحارث</p></note>
+							أيام رسول الله صلى الله عليه وسلم <note n="8" type="footnote"><p>A: صلعم</p></note>
+							وأيام أبي بكر وعمر وعثمان وعلي بن أبي طالب ومعاوية <note n="9" type="footnote"><p>R: om. وبقي … ومعاوية‬‎; Sa: add. رضي الله عنهم</p></note>
+							ولما كان بفارس كان يطب هناك ويعتمد أهلها عليه وشاع اسمه بينهم بالفضلة والعلم وكان قد عالج بعض أجلائهم فبرأ وأعطاه مالاً وجارية سماها الحارث <note n="10" type="footnote"><p>AR: الحرث</p></note>
+							سمية ثم إن نفس الحارث <note n="11" type="footnote"><p>AR: الحرث</p></note>
 							اشتاقت إلى بلاده فرجع إلى الطائف واشتهر طبه بين العرب فكان يأتيه منهم الجم الغفير.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وسمية جاريته هي أم زياد بن أبيه الذي لحقه <note n="12" type="footnote">
-                                <p>R: ألحقه</p>
-                            </note>
-							معاوية بنسبه وذكر أن أبا سفيان وطئ سمية بالطائف سفاحاً فحملت به منه وولدت ولدين قبل زياد أحدهما أبو بكرة ونافع أخوه فانتسبا إلى الحارث <note n="13" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							بن كلدة وادّعيا أنه وطئ مولاته سمية فولدتهما منه وكان الحارث <note n="14" type="footnote">
-                                <p>A: الحرث</p>
-                            </note>
-							في الجاهلية وأدرك الإسلام وكان رسول الله صلى الله عليه وسلم <note n="15" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							يأمر من كانت به علة أن يأتيه ويستطبه وبقي الحارث <note n="16" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							أيام رسول الله صلى الله عليه وسلم <note n="17" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							وأيام أبي بكر وعمر وعثمان وعلي بن أبي طالب ومعاوية <note n="18" type="footnote">
-                                <p>GaGcSa: om. ولما كان بفارس … بن أبي طالب ومعاوية‬‎</p>
-                            </note>
+							وسمية جاريته هي أم زياد بن أبيه الذي لحقه <note n="12" type="footnote"><p>R: ألحقه</p></note>
+							معاوية بنسبه وذكر أن أبا سفيان وطئ سمية بالطائف سفاحاً فحملت به منه وولدت ولدين قبل زياد أحدهما أبو بكرة ونافع أخوه فانتسبا إلى الحارث <note n="13" type="footnote"><p>AR: الحرث</p></note>
+							بن كلدة وادّعيا أنه وطئ مولاته سمية فولدتهما منه وكان الحارث <note n="14" type="footnote"><p>A: الحرث</p></note>
+							في الجاهلية وأدرك الإسلام وكان رسول الله صلى الله عليه وسلم <note n="15" type="footnote"><p>A: صلعم</p></note>
+							يأمر من كانت به علة أن يأتيه ويستطبه وبقي الحارث <note n="16" type="footnote"><p>AR: الحرث</p></note>
+							أيام رسول الله صلى الله عليه وسلم <note n="17" type="footnote"><p>A: صلعم</p></note>
+							وأيام أبي بكر وعمر وعثمان وعلي بن أبي طالب ومعاوية <note n="18" type="footnote"><p>GaGcSa: om. ولما كان بفارس … بن أبي طالب ومعاوية‬‎</p></note>
 							وقال له معاوية ما الطب يا حارث فقال الأزم يعني الجوع ذكر ذلك ابن جلجل.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال الجوهري <note n="19" type="footnote">
-                                <p>R: الأزهري</p>
-                            </note>
+							وقال الجوهري <note n="19" type="footnote"><p>R: الأزهري</p></note>
 							في كتاب الصحاح الأزم المسك يقال أزم الرجل عن الشيء أمسك عنه
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٤‬أ‬‎"/>
-							وقال أبو زيد الآزم الذي ضم شفتيه وفي الحديث أن عمر <note n="20" type="footnote">
-                                <p>Sa: add. رضي الله عنه</p>
-                            </note>
-							سأل الحارث <note n="21" type="footnote">
-                                <p>ASa: الحرث</p>
-                            </note>
-							بن كلدة ما الدواء فقال الأزم يعني الحمية قال وكان طبيب العرب. <note n="22" type="footnote">
-                                <p>Above the line in A: انتهى</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٤‬أ‬‎" />
+							وقال أبو زيد الآزم الذي ضم شفتيه وفي الحديث أن عمر <note n="20" type="footnote"><p>Sa: add. رضي الله عنه</p></note>
+							سأل الحارث <note n="21" type="footnote"><p>ASa: الحرث</p></note>
+							بن كلدة ما الدواء فقال الأزم يعني الحمية قال وكان طبيب العرب. <note n="22" type="footnote"><p>Above the line in A: انتهى</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ويروى عن سعد بن أبي وقاص <note n="23" type="footnote">
-                                <p>Sa: add. رضي الله عنه</p>
-                            </note>
-							أنه مرض بمكة مرضاً فعاده رسول الله صلى الله عليه وسلم <note n="24" type="footnote">
-                                <p>ASa: صلعم</p>
-                            </note>
-							فقال ادعوا له الحارث <note n="25" type="footnote">
-                                <p>ARSa: الحرث</p>
-                            </note>
-							بن كلدة فإنه رجل يتطبب <note n="26" type="footnote">
-                                <p>Gc: متطبب</p>
-                            </note>
-							فلما عاده الحارث <note n="27" type="footnote">
-                                <p>AR: للحرث</p>
-                            </note>
-							نظر إليه وقال ليس عليه بأس اتخذوا <note n="28" type="footnote">
-                                <p>Ga: اتخذوه</p>
-                            </note>
+							ويروى عن سعد بن أبي وقاص <note n="23" type="footnote"><p>Sa: add. رضي الله عنه</p></note>
+							أنه مرض بمكة مرضاً فعاده رسول الله صلى الله عليه وسلم <note n="24" type="footnote"><p>ASa: صلعم</p></note>
+							فقال ادعوا له الحارث <note n="25" type="footnote"><p>ARSa: الحرث</p></note>
+							بن كلدة فإنه رجل يتطبب <note n="26" type="footnote"><p>Gc: متطبب</p></note>
+							فلما عاده الحارث <note n="27" type="footnote"><p>AR: للحرث</p></note>
+							نظر إليه وقال ليس عليه بأس اتخذوا <note n="28" type="footnote"><p>Ga: اتخذوه</p></note>
 							له فريقة بشيء من تمر عجوة وحلبة يطبخان فتحسّاها فبرئ.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.1.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكانت للحارث <note n="29" type="footnote">
-                                <p>AR: للحرث</p>
-                            </note>
-							معالجات كثيرة ومعرفة بما كانت العرب تعتاده وتحتاج إليه من المداواة <note n="30" type="footnote">
-                                <p>A: في مداواتها, in left margin من المداواة صح</p>
-                            </note>
-							وله كلام مستحسن <note n="31" type="footnote">
-                                <p>Sa: حسن</p>
-                            </note>
-							فيما يتعلق بالطب وغيره من <note n="32" type="footnote">
-                                <p>GcSa: بالطب فمن</p>
-                            </note>
-							ذلك أنه لما <note n="33" type="footnote">
-                                <p>Sa: om. لما</p>
-                            </note>
-							وفد على كسرى أنوشروان أذن <note n="34" type="footnote">
-                                <p>Sa: فأذن</p>
-                            </note>
-							له بالدخول عليه فلما وقف بين يديه منتصباً قال له من أنت قال أنا الحارث <note n="35" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							بن كلدة الثقفي قال فما صناعتك قال الطب قال أعرابي أنت قال نعم من صميمها وبحبوحة دارها <note n="36" type="footnote">
-                                <p>GcSa: om. من صميمها وبحبوحة دارها</p>
-                            </note>
-							قال فما تصنع العرب بطبيب مع جهلها وضعف عقولها وسوء أغذيتها قال أيها الملك إذا كانت هذه صفتها كانت أحوج إلى من يصلح جهلها ويقيم عوجها ويسوس أبدانها ويعدل أمشاجها فإن العاقل يعرف ذلك من نفسه ويميز موضع دائه ويحترز عن الأدواء كلها بحسن سياسته لنفسه قال كسرى فكيف تعرف ما تورده عليها ولو عرفت الحلم لم تنسب إلى الجهل قال الطفل يناغي فيداوى والحية ترقى فتحاوى ثم قال أيها الملك العقل من قسم الله تعالى قسمه بين عباده كقسمه الرزق فيهم فكل من قسمته أصاب وخص بها قوم وزاد فمنهم <note n="37" type="footnote">
-                                <p>Ga: منهم</p>
-                            </note>
+							وكانت للحارث <note n="29" type="footnote"><p>AR: للحرث</p></note>
+							معالجات كثيرة ومعرفة بما كانت العرب تعتاده وتحتاج إليه من المداواة <note n="30" type="footnote"><p>A: في مداواتها, in left margin من المداواة صح</p></note>
+							وله كلام مستحسن <note n="31" type="footnote"><p>Sa: حسن</p></note>
+							فيما يتعلق بالطب وغيره من <note n="32" type="footnote"><p>GcSa: بالطب فمن</p></note>
+							ذلك أنه لما <note n="33" type="footnote"><p>Sa: om. لما</p></note>
+							وفد على كسرى أنوشروان أذن <note n="34" type="footnote"><p>Sa: فأذن</p></note>
+							له بالدخول عليه فلما وقف بين يديه منتصباً قال له من أنت قال أنا الحارث <note n="35" type="footnote"><p>AR: الحرث</p></note>
+							بن كلدة الثقفي قال فما صناعتك قال الطب قال أعرابي أنت قال نعم من صميمها وبحبوحة دارها <note n="36" type="footnote"><p>GcSa: om. من صميمها وبحبوحة دارها</p></note>
+							قال فما تصنع العرب بطبيب مع جهلها وضعف عقولها وسوء أغذيتها قال أيها الملك إذا كانت هذه صفتها كانت أحوج إلى من يصلح جهلها ويقيم عوجها ويسوس أبدانها ويعدل أمشاجها فإن العاقل يعرف ذلك من نفسه ويميز موضع دائه ويحترز عن الأدواء كلها بحسن سياسته لنفسه قال كسرى فكيف تعرف ما تورده عليها ولو عرفت الحلم لم تنسب إلى الجهل قال الطفل يناغي فيداوى والحية ترقى فتحاوى ثم قال أيها الملك العقل من قسم الله تعالى قسمه بين عباده كقسمه الرزق فيهم فكل من قسمته أصاب وخص بها قوم وزاد فمنهم <note n="37" type="footnote"><p>Ga: منهم</p></note>
 							مثر ومعدم وجاهل وعالم وعاجز وحازم وذلك تقدير العزيز العليم.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فأعجب كسرى من كلامه ثم قال فما الذي تحمد من أخلاقها ويعجبك من مذاهبها وسخائها <note n="38" type="footnote">
-                                <p>Sa: وسجاياها</p>
-                            </note>
-							قال <note n="39" type="footnote">
-                                <p>Sa: فقال</p>
-                            </note>
-							الحارث <note n="40" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							أيها الملك لها أنفس سخية وقلوب جرية ولغة فصيحة وألسن بليغة وأنساب صحيحة وأحساب شريفة يمرق من أفواههم الكلام مروق السهم من نبعة الرام أعذب من هواء الربيع وألين من السلسبيل <note n="41" type="footnote">
-                                <p>Sa: سلسبيل</p>
-                            </note>
-							المعين مطعمو <note n="42" type="footnote">
-                                <p>Sa: يطعموا; GaGc: مطعموا</p>
-                            </note>
-							الطعام في الجدب وضاربو الهام في الحرب لا يرام عزهم ولا يُضام جارهم ولا يستباح حريمهم ولا يذل أكرمهم لا يقرون بفضل للأنام إلا للملك الهمام الذي لا يقاس <note n="43" type="footnote">
-                                <p>R: يقاص</p>
-                            </note>
+							فأعجب كسرى من كلامه ثم قال فما الذي تحمد من أخلاقها ويعجبك من مذاهبها وسخائها <note n="38" type="footnote"><p>Sa: وسجاياها</p></note>
+							قال <note n="39" type="footnote"><p>Sa: فقال</p></note>
+							الحارث <note n="40" type="footnote"><p>AR: الحرث</p></note>
+							أيها الملك لها أنفس سخية وقلوب جرية ولغة فصيحة وألسن بليغة وأنساب صحيحة وأحساب شريفة يمرق من أفواههم الكلام مروق السهم من نبعة الرام أعذب من هواء الربيع وألين من السلسبيل <note n="41" type="footnote"><p>Sa: سلسبيل</p></note>
+							المعين مطعمو <note n="42" type="footnote"><p>Sa: يطعموا; GaGc: مطعموا</p></note>
+							الطعام في الجدب وضاربو الهام في الحرب لا يرام عزهم ولا يُضام جارهم ولا يستباح حريمهم ولا يذل أكرمهم لا يقرون بفضل للأنام إلا للملك الهمام الذي لا يقاس <note n="43" type="footnote"><p>R: يقاص</p></note>
 							به أحد ولا يوازيه سوقة ولا ملك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.1.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فاستوى كسرى جالساً <note n="44" type="footnote">
-                                <p>A: add. وقال crossed out.</p>
-                            </note>
-							وجرى ماء رياضة الحلم في وجهه لما سمع من محكم كلامه وقال لجلسائه إني وجدته راجحاً ولقومه مادحاً وبفضيلتهم ناطقاً وبما <note n="45" type="footnote">
-                                <p>Sa: ومما</p>
-                            </note>
+							قال فاستوى كسرى جالساً <note n="44" type="footnote"><p>A: add. وقال crossed out.</p></note>
+							وجرى ماء رياضة الحلم في وجهه لما سمع من محكم كلامه وقال لجلسائه إني وجدته راجحاً ولقومه مادحاً وبفضيلتهم ناطقاً وبما <note n="45" type="footnote"><p>Sa: ومما</p></note>
 							يورده من لفظه صادقاً وكذا العاقل من أحكمته التجارب
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٤‬ب‬‎"/>
-							ثم أمره بالجلوس فجلس فقال كيف بصرك بالطب قال ناهيك <note n="46" type="footnote">
-                                <p>Sa: هيك</p>
-                            </note>
-							قال فما أصل الطب قال الأزم قال فما الأزم قال ضبط الشفتين والرفق باليدين قال أصبت قال فما الداء الدوي قال إدخال الطعام على الطعام هو الذي يفني <note n="47" type="footnote">
-                                <p>R: يعني</p>
-                            </note>
-							البرية ويهلك السباع في جوف البرية قال أصبت قال فما الجمرة <note n="48" type="footnote">
-                                <p>A: الجمرة, in the right margin خ العلة; GaGcSa: العلة</p>
-                            </note>
-							التي تصطلم <note n="49" type="footnote">
-                                <p>A‭R‬‬‎: تلتهب, in right margin of AR خ تصطلم; Ga: تلتهب</p>
-                            </note>
-							منها الأدواء قال هي التخمة إن بقيت في الجوف قتلت وإن تحللت أسقمت قال صدقت <note n="50" type="footnote">
-                                <p>GcSa: om. قال صدقت</p>
-                            </note>
-							قال فما تقول في الحجامة قال في نقصان الهلال في يوم صحو لا غيم فيه والنفس طيبة ‭[i,111]‬ والعروق ساكنة لسرور يفاجئك وهم <note n="51" type="footnote">
-                                <p>GcSa: وهما</p>
-                            </note>
-							يباعدك قال فما تقول في دخول الحمام قال لا تدخله شبعاناً ولا تغش أهلك سكراناً ولا تقم بالليل عرياناً ولا تقعد على الطعام غضباناً وارفق بنفسك يكن أرخى لبالك وقلل من طعمك <note n="52" type="footnote">
-                                <p>A: طعامك</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٤‬ب‬‎" />
+							ثم أمره بالجلوس فجلس فقال كيف بصرك بالطب قال ناهيك <note n="46" type="footnote"><p>Sa: هيك</p></note>
+							قال فما أصل الطب قال الأزم قال فما الأزم قال ضبط الشفتين والرفق باليدين قال أصبت قال فما الداء الدوي قال إدخال الطعام على الطعام هو الذي يفني <note n="47" type="footnote"><p>R: يعني</p></note>
+							البرية ويهلك السباع في جوف البرية قال أصبت قال فما الجمرة <note n="48" type="footnote"><p>A: الجمرة, in the right margin خ العلة; GaGcSa: العلة</p></note>
+							التي تصطلم <note n="49" type="footnote"><p>A‭R‬‬‎: تلتهب, in right margin of AR خ تصطلم; Ga: تلتهب</p></note>
+							منها الأدواء قال هي التخمة إن بقيت في الجوف قتلت وإن تحللت أسقمت قال صدقت <note n="50" type="footnote"><p>GcSa: om. قال صدقت</p></note>
+							قال فما تقول في الحجامة قال في نقصان الهلال في يوم صحو لا غيم فيه والنفس طيبة ‭[i,111]‬ والعروق ساكنة لسرور يفاجئك وهم <note n="51" type="footnote"><p>GcSa: وهما</p></note>
+							يباعدك قال فما تقول في دخول الحمام قال لا تدخله شبعاناً ولا تغش أهلك سكراناً ولا تقم بالليل عرياناً ولا تقعد على الطعام غضباناً وارفق بنفسك يكن أرخى لبالك وقلل من طعمك <note n="52" type="footnote"><p>A: طعامك</p></note>
 							يكن أهنأ لنومك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فما تقول في الدواء قال ما لزمتك الصحة فاجتنبه فإن هاج داء فاحسمه <note n="53" type="footnote">
-                                <p>Sa: فاحتمه</p>
-                            </note>
-							بما يردعه قبل استحكامه <note n="54" type="footnote">
-                                <p>R: أن يتمكن, in margin: خ استحكامه</p>
-                            </note>
-							فإن البدن بمنزلة الأرض إن أصلحتها عمرت وإن تركتها خربت قال فما تقول في الشراب قال أطيبه أهنأه وأرقه امرأه وأعذبه أشهاه لا تشربه صرفاً فيورثك صداعاً وتثير عليك من الأدواء أنواعاً قال فأي اللحمان أفضل قال الضأن <note n="55" type="footnote">
-                                <p>In right margin of A: خ الجداء الرضع; Gc: add. الجداء الرضع</p>
-                            </note>
-							الفتي والقديد المالح مهلك للآكل واجتنب لحم الجزور والبقر قال فما تقول في الفواكه قال كلها في إقبالها وحين أوانها وأتركها إذا أدبرت وولت وانقضى زمانها وأفضل الفواكه <note n="56" type="footnote">
-                                <p>AGa: الفاكهة</p>
-                            </note>
-							الرمان والأترج <note n="57" type="footnote">
-                                <p>Ga: om. والأترج; R: والأمرج</p>
-                            </note>
-							وأفضل الرياحين <note n="58" type="footnote">
-                                <p>Gc: الرياض</p>
-                            </note>
-							الورد والبنفسج وأفضل البقول الهندباء والخس قال فما تقول في شرب الماء قال هو حياة البدن وبه قوامه ينفع ما شرب منه بقدر وشربه <note n="59" type="footnote">
-                                <p>In right margin of A: ينفع ما شرب منه بقدر وشربه</p>
-                            </note>
-							ينفع عند العطش من وشربه <note n="60" type="footnote">
-                                <p>GaGcRSa: om. ينفع عند العطش منه وشربه</p>
-                            </note>
-							بعد النوم ضرر أفضله <note n="61" type="footnote">
-                                <p>Sa: وأفضله</p>
-                            </note>
-							أمرأه وأرقه أصفاه ومن عظام أنهار البارد الزلال لم <note n="62" type="footnote">
-                                <p>Sa: لا</p>
-                            </note>
-							يختلط بماء الآجام والآكام يدل عن صرادع المسطان ويتسلل <note n="63" type="footnote">
-                                <p>GcR: يتسلسل</p>
-                            </note>
-							عن الرضراض وعظام الحصى في الأيفاع <note n="64" type="footnote">
-                                <p>Sa: om. يدل عن صرادع … في الأيفاع‬‎</p>
-                            </note>
-							قال فما طعمه قال لا يعرف <note n="65" type="footnote">
-                                <p>Ga: يصف; Sa: يوهم</p>
-                            </note>
-							له طعم إلا أنه مشتق من الحياة قال فما لونه قال اشتبه على <note n="66" type="footnote">
-                                <p>Sa: عن</p>
-                            </note>
-							الأبصار لونه لأنه يحكي <note n="67" type="footnote">
-                                <p>A: repeats لأنه يحكي</p>
-                            </note>
-							لون كل شيء يكون <note n="68" type="footnote">
-                                <p>Sa: om. كان</p>
-                            </note>
-							فيه قال أخبرني عن أصل الإنسان ما هو قال أصله من حيث شرب الماء يعني <note n="69" type="footnote">
-                                <p>Sa: يعين</p>
-                            </note>
+							قال فما تقول في الدواء قال ما لزمتك الصحة فاجتنبه فإن هاج داء فاحسمه <note n="53" type="footnote"><p>Sa: فاحتمه</p></note>
+							بما يردعه قبل استحكامه <note n="54" type="footnote"><p>R: أن يتمكن, in margin: خ استحكامه</p></note>
+							فإن البدن بمنزلة الأرض إن أصلحتها عمرت وإن تركتها خربت قال فما تقول في الشراب قال أطيبه أهنأه وأرقه امرأه وأعذبه أشهاه لا تشربه صرفاً فيورثك صداعاً وتثير عليك من الأدواء أنواعاً قال فأي اللحمان أفضل قال الضأن <note n="55" type="footnote"><p>In right margin of A: خ الجداء الرضع; Gc: add. الجداء الرضع</p></note>
+							الفتي والقديد المالح مهلك للآكل واجتنب لحم الجزور والبقر قال فما تقول في الفواكه قال كلها في إقبالها وحين أوانها وأتركها إذا أدبرت وولت وانقضى زمانها وأفضل الفواكه <note n="56" type="footnote"><p>AGa: الفاكهة</p></note>
+							الرمان والأترج <note n="57" type="footnote"><p>Ga: om. والأترج; R: والأمرج</p></note>
+							وأفضل الرياحين <note n="58" type="footnote"><p>Gc: الرياض</p></note>
+							الورد والبنفسج وأفضل البقول الهندباء والخس قال فما تقول في شرب الماء قال هو حياة البدن وبه قوامه ينفع ما شرب منه بقدر وشربه <note n="59" type="footnote"><p>In right margin of A: ينفع ما شرب منه بقدر وشربه</p></note>
+							ينفع عند العطش من وشربه <note n="60" type="footnote"><p>GaGcRSa: om. ينفع عند العطش منه وشربه</p></note>
+							بعد النوم ضرر أفضله <note n="61" type="footnote"><p>Sa: وأفضله</p></note>
+							أمرأه وأرقه أصفاه ومن عظام أنهار البارد الزلال لم <note n="62" type="footnote"><p>Sa: لا</p></note>
+							يختلط بماء الآجام والآكام يدل عن صرادع المسطان ويتسلل <note n="63" type="footnote"><p>GcR: يتسلسل</p></note>
+							عن الرضراض وعظام الحصى في الأيفاع <note n="64" type="footnote"><p>Sa: om. يدل عن صرادع … في الأيفاع‬‎</p></note>
+							قال فما طعمه قال لا يعرف <note n="65" type="footnote"><p>Ga: يصف; Sa: يوهم</p></note>
+							له طعم إلا أنه مشتق من الحياة قال فما لونه قال اشتبه على <note n="66" type="footnote"><p>Sa: عن</p></note>
+							الأبصار لونه لأنه يحكي <note n="67" type="footnote"><p>A: repeats لأنه يحكي</p></note>
+							لون كل شيء يكون <note n="68" type="footnote"><p>Sa: om. كان</p></note>
+							فيه قال أخبرني عن أصل الإنسان ما هو قال أصله من حيث شرب الماء يعني <note n="69" type="footnote"><p>Sa: يعين</p></note>
 							رأسه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.1.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فما هذا النور الذي في العينين قال مركب من ثلاثة أشياء <note n="70" type="footnote">
-                                <p>Sa: add. في</p>
-                            </note>
-							البياض شحمة <note n="71" type="footnote">
-                                <p>Sa: شحم</p>
-                            </note>
-							والسواد ماء والناظر ريح قال فعلى كم جبل وطبع هذا البدن <note n="72" type="footnote">
-                                <p>Sa: om. هذا البدن</p>
-                            </note>
-							قال على أربع طبائع المرة السوداء وهي باردة يابسة والمرة الصفراء وهي حارة يابسة والدم وهو حار رطب والبلغم <note n="73" type="footnote">
-                                <p>A: om. وهو حار رطب والبلغم</p>
-                            </note>
-							وهو بارد رطب قال فلم لم <note n="74" type="footnote">
-                                <p>Sa: قال ولو</p>
-                            </note>
+							قال فما هذا النور الذي في العينين قال مركب من ثلاثة أشياء <note n="70" type="footnote"><p>Sa: add. في</p></note>
+							البياض شحمة <note n="71" type="footnote"><p>Sa: شحم</p></note>
+							والسواد ماء والناظر ريح قال فعلى كم جبل وطبع هذا البدن <note n="72" type="footnote"><p>Sa: om. هذا البدن</p></note>
+							قال على أربع طبائع المرة السوداء وهي باردة يابسة والمرة الصفراء وهي حارة يابسة والدم وهو حار رطب والبلغم <note n="73" type="footnote"><p>A: om. وهو حار رطب والبلغم</p></note>
+							وهو بارد رطب قال فلم لم <note n="74" type="footnote"><p>Sa: قال ولو</p></note>
 							يكن
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٥‬أ‬‎"/>
-							من طبع واحد <note n="75" type="footnote">
-                                <p>Sa: طبعة واحدة</p>
-                            </note>
-							قال لو خلق من طبع <note n="76" type="footnote">
-                                <p>R: شيء</p>
-                            </note>
-							واحد <note n="77" type="footnote">
-                                <p>Ga:‬‎ om. قال لو خلق من طبع واحد</p>
-                            </note>
-							لم يأكل ولم يشرب ولم يمرض ولم يهلك قال فمن طبيعتين <note n="78" type="footnote">
-                                <p>A: add. قال crossed out.</p>
-                            </note>
-							لو كان اقتصر عليهما قال لم يجز لأنهما <note n="79" type="footnote">
-                                <p>Sa: لأنه</p>
-                            </note>
-							ضدان يقتتلان قال فمن ثلاث قال لم يصلح موافقان ومخالف فالأربع هو الاعتدال والقيام <note n="80" type="footnote">
-                                <p>A: والقوام, in the left margin صح والقيام</p>
-                            </note>
-							قال فأجمل <note n="81" type="footnote">
-                                <p>Sa: جمل</p>
-                            </note>
-							لي الحار والبارد في أحرف جامعة قال كل حلو حار وكل حامض بارد وكل حريف حار وكل مر <note n="82" type="footnote">
-                                <p>GaGcR: مز</p>
-                            </note>
-							معتدل وفي المر <note n="83" type="footnote">
-                                <p>GaGcR: مز</p>
-                            </note>
-							حار وبارد قال فافضل ما عولج به المرة <note n="84" type="footnote">
-                                <p>In the left margin of A: المرة صح; Sa: om. المرة</p>
-                            </note>
-							الصفراء قال كل بارد لين قال فالمرة السوداء قال كل حار لين قال والبلغم قال كل حار يابس قال والدم قال إخراجه إذا زاد وتطفئته إذا سخن بالأشياء الباردة اليابسة قال فالرياح قال بالحقن اللينة والأدهان الحارة اللينة قال أفتأمر بالحقنة قال نعم قرأت في بعض <note n="85" type="footnote">
-                                <p>In the left margin of A: بعض صح</p>
-                            </note>
-							كتب الحكماء <note n="86" type="footnote">
-                                <p>Gc: om. الحكماء</p>
-                            </note>
-							أن الحقنة تنقي الجوف وتكسح الأدواء عنه والعجب لمن احتقن كيف يهرم أو يعدم الولد وأن الجهل كل الجهل من أكل ما قد عرف مضرته ويؤثر <note n="87" type="footnote">
-                                <p>R: نوش; Sa: يرى</p>
-                            </note>
-							شهوته على راحة بدنه قال فما الحمية قال الاقتصاد في كل شيء فإن الأكل فوق المقدار يضيق على الروح ساحتها ويسد مسامها <note n="88" type="footnote">
-                                <p>A: مساقها</p>
-                            </note>
-							قال فما تقول في النساء وإتيانهن قال كثرة غشيانهن رديء وإياك وإتيان المرأة المسنة فإنها كالشن <note n="89" type="footnote">
-                                <p>Sa: كالشيء</p>
-                            </note>
-							البالي <note n="90" type="footnote">
-                                <p>Gc: om. وإياك وإتيان المرأة المسنة فإنها كالشن البالي</p>
-                            </note>
-							تجذب قوتك وتسقم بدنك ماؤها سم قاتل ونفسها موت عاجل تأخذ منك الكل ولا تعطيك البعض والشابة ماؤها عذب زلال وعناقها غنج ودلال فوها بارد وريقها عذب وريحها طيب <note n="91" type="footnote">
-                                <p>AGaGcR: om. وريقها عذب; BSa: وريقها عذب طيب</p>
-                            </note>
-							وهنها ضيق <note n="92" type="footnote">
-                                <p>R: om. ضيق</p>
-                            </note>
-							تزيدك قوة إلى ‭[i,112]‬ قوتك ونشاطاً إلى نشاطك قال فأيهن القلب اليها أميل والعين برؤيتها أسر قال إذا أصبتها مديدة <note n="93" type="footnote">
-                                <p>Sa: المديدة</p>
-                            </note>
-							القامة عظيمة <note n="94" type="footnote">
-                                <p>Sa: العظيمة</p>
-                            </note>
-							الهامة واسعة الجبين أقناة العرنين كحلاء لعساء صافية الخد عريضة الصدر مليحة النحر في خدها رقة وفي <note n="95" type="footnote">
-                                <p>Sa: في</p>
-                            </note>
-							شفتيها لعس مقرونة الحاجبين ناهدة الثديين لطيفة الخصر والقدمين بيضاء فرغاء <note n="96" type="footnote">
-                                <p>A: add. جدعة crossed out.</p>
-                            </note>
-							جعدة <note n="97" type="footnote">
-                                <p>Sa: om. جعدة</p>
-                            </note>
-							غضة بضة تخالها في الظلمة بدراً زاهراً تبسم <note n="98" type="footnote">
-                                <p>R: ظاهراً تلسم</p>
-                            </note>
-							عن اقحوان وعن مبسم كالأرجوان كأنها بيضة مكنونة ألين من الزبد وأحلى من الشهد وأنزه من <note n="99" type="footnote">
-                                <p>In margin of Ga: صح من</p>
-                            </note>
-							الفردوس <note n="100" type="footnote">
-                                <p>R: الفدزواس</p>
-                            </note>
-							والخلد وأذكى ريحاً <note n="101" type="footnote">
-                                <p>Ga: om. ريحاً</p>
-                            </note>
-							من الياسمين والورد تفرح بقربها <note n="102" type="footnote">
-                                <p>Sa: بها</p>
-                            </note>
-							وتسرك الخلوة معها <note n="103" type="footnote">
-                                <p>Gc: بها</p>
-                            </note>
-							قال فاستضحك كسرى حتى اختلجت كتفاه قال ففي أي الأوقات إتيانهن أفضل قال عند إدبار الليل يكون الجوف أخلى والنفس أهدى والقلب أشهى والرحم أدفى فإن أردت الاستمتاع بها نهاراً تَسرح عينُك <note n="104" type="footnote">
-                                <p>Sa: فسرح عينيك</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٥‬أ‬‎" />
+							من طبع واحد <note n="75" type="footnote"><p>Sa: طبعة واحدة</p></note>
+							قال لو خلق من طبع <note n="76" type="footnote"><p>R: شيء</p></note>
+							واحد <note n="77" type="footnote"><p>Ga:‬‎ om. قال لو خلق من طبع واحد</p></note>
+							لم يأكل ولم يشرب ولم يمرض ولم يهلك قال فمن طبيعتين <note n="78" type="footnote"><p>A: add. قال crossed out.</p></note>
+							لو كان اقتصر عليهما قال لم يجز لأنهما <note n="79" type="footnote"><p>Sa: لأنه</p></note>
+							ضدان يقتتلان قال فمن ثلاث قال لم يصلح موافقان ومخالف فالأربع هو الاعتدال والقيام <note n="80" type="footnote"><p>A: والقوام, in the left margin صح والقيام</p></note>
+							قال فأجمل <note n="81" type="footnote"><p>Sa: جمل</p></note>
+							لي الحار والبارد في أحرف جامعة قال كل حلو حار وكل حامض بارد وكل حريف حار وكل مر <note n="82" type="footnote"><p>GaGcR: مز</p></note>
+							معتدل وفي المر <note n="83" type="footnote"><p>GaGcR: مز</p></note>
+							حار وبارد قال فافضل ما عولج به المرة <note n="84" type="footnote"><p>In the left margin of A: المرة صح; Sa: om. المرة</p></note>
+							الصفراء قال كل بارد لين قال فالمرة السوداء قال كل حار لين قال والبلغم قال كل حار يابس قال والدم قال إخراجه إذا زاد وتطفئته إذا سخن بالأشياء الباردة اليابسة قال فالرياح قال بالحقن اللينة والأدهان الحارة اللينة قال أفتأمر بالحقنة قال نعم قرأت في بعض <note n="85" type="footnote"><p>In the left margin of A: بعض صح</p></note>
+							كتب الحكماء <note n="86" type="footnote"><p>Gc: om. الحكماء</p></note>
+							أن الحقنة تنقي الجوف وتكسح الأدواء عنه والعجب لمن احتقن كيف يهرم أو يعدم الولد وأن الجهل كل الجهل من أكل ما قد عرف مضرته ويؤثر <note n="87" type="footnote"><p>R: نوش; Sa: يرى</p></note>
+							شهوته على راحة بدنه قال فما الحمية قال الاقتصاد في كل شيء فإن الأكل فوق المقدار يضيق على الروح ساحتها ويسد مسامها <note n="88" type="footnote"><p>A: مساقها</p></note>
+							قال فما تقول في النساء وإتيانهن قال كثرة غشيانهن رديء وإياك وإتيان المرأة المسنة فإنها كالشن <note n="89" type="footnote"><p>Sa: كالشيء</p></note>
+							البالي <note n="90" type="footnote"><p>Gc: om. وإياك وإتيان المرأة المسنة فإنها كالشن البالي</p></note>
+							تجذب قوتك وتسقم بدنك ماؤها سم قاتل ونفسها موت عاجل تأخذ منك الكل ولا تعطيك البعض والشابة ماؤها عذب زلال وعناقها غنج ودلال فوها بارد وريقها عذب وريحها طيب <note n="91" type="footnote"><p>AGaGcR: om. وريقها عذب; BSa: وريقها عذب طيب</p></note>
+							وهنها ضيق <note n="92" type="footnote"><p>R: om. ضيق</p></note>
+							تزيدك قوة إلى ‭[i,112]‬ قوتك ونشاطاً إلى نشاطك قال فأيهن القلب اليها أميل والعين برؤيتها أسر قال إذا أصبتها مديدة <note n="93" type="footnote"><p>Sa: المديدة</p></note>
+							القامة عظيمة <note n="94" type="footnote"><p>Sa: العظيمة</p></note>
+							الهامة واسعة الجبين أقناة العرنين كحلاء لعساء صافية الخد عريضة الصدر مليحة النحر في خدها رقة وفي <note n="95" type="footnote"><p>Sa: في</p></note>
+							شفتيها لعس مقرونة الحاجبين ناهدة الثديين لطيفة الخصر والقدمين بيضاء فرغاء <note n="96" type="footnote"><p>A: add. جدعة crossed out.</p></note>
+							جعدة <note n="97" type="footnote"><p>Sa: om. جعدة</p></note>
+							غضة بضة تخالها في الظلمة بدراً زاهراً تبسم <note n="98" type="footnote"><p>R: ظاهراً تلسم</p></note>
+							عن اقحوان وعن مبسم كالأرجوان كأنها بيضة مكنونة ألين من الزبد وأحلى من الشهد وأنزه من <note n="99" type="footnote"><p>In margin of Ga: صح من</p></note>
+							الفردوس <note n="100" type="footnote"><p>R: الفدزواس</p></note>
+							والخلد وأذكى ريحاً <note n="101" type="footnote"><p>Ga: om. ريحاً</p></note>
+							من الياسمين والورد تفرح بقربها <note n="102" type="footnote"><p>Sa: بها</p></note>
+							وتسرك الخلوة معها <note n="103" type="footnote"><p>Gc: بها</p></note>
+							قال فاستضحك كسرى حتى اختلجت كتفاه قال ففي أي الأوقات إتيانهن أفضل قال عند إدبار الليل يكون الجوف أخلى والنفس أهدى والقلب أشهى والرحم أدفى فإن أردت الاستمتاع بها نهاراً تَسرح عينُك <note n="104" type="footnote"><p>Sa: فسرح عينيك</p></note>
 							في جمال وجهها ويجتني فوك من ثمرات حسنها ويعي سمعُك من حلاوة لفظها وتسكن الجوارح كلها إليها
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٥‬ب‬‎"/>
-							قال كسرى لله درك من أعرابي لقد أعطيت علماً وخصصت فطنة وفهماً وأحسن صلته <note n="105" type="footnote">
-                                <p>Ga: صفته</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٥‬ب‬‎" />
+							قال كسرى لله درك من أعرابي لقد أعطيت علماً وخصصت فطنة وفهماً وأحسن صلته <note n="105" type="footnote"><p>Ga: صفته</p></note>
 							وأمر بتدوين ما نطق به.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.1.5‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال الواثق بالله في كتابه المسمى بالبستان <note n="106" type="footnote">
-                                <p>Sa: في كتاب البستان الذي له</p>
-                            </note>
-							إن الحارث <note n="107" type="footnote">
-                                <p>ARSa: الحرث</p>
-                            </note>
-							بن كلدة مر بقوم وهم في الشمس فقال عليكم بالظل فإن الشمس تنهج <note n="108" type="footnote">
-                                <p>Sa: تخلق</p>
-                            </note>
+							وقال الواثق بالله في كتابه المسمى بالبستان <note n="106" type="footnote"><p>Sa: في كتاب البستان الذي له</p></note>
+							إن الحارث <note n="107" type="footnote"><p>ARSa: الحرث</p></note>
+							بن كلدة مر بقوم وهم في الشمس فقال عليكم بالظل فإن الشمس تنهج <note n="108" type="footnote"><p>Sa: تخلق</p></note>
 							الثوب وتنقل الريح وتشحب اللون وتهيج الداء الدفين.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن كلام الحارث <note n="109" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							البطنة بيت الداء والحمية رأس الدواء وعودوا كل بدن ما اعتاد <note n="110" type="footnote">
-                                <p>Ga: اعتاده</p>
-                            </note>
-							وقيل هو من كلام عبد الملك بن أبجر <note n="111" type="footnote">
-                                <p>Sa: اىحى</p>
-                            </note>
-							وقد نسب قوم هذا الكلام إلى رسول الله صلى الله عليه وسلم <note n="112" type="footnote">
-                                <p>AR: صعلم</p>
-                            </note>
-							وأوله المعدة بيت الداء وهو أبلغ من لفظ البطنة وروي عن أمير المؤمنين علي بن أبي طالب عليه السلام <note n="113" type="footnote">
-                                <p>Sa: رضي عنه</p>
-                            </note>
-							أنه <note n="114" type="footnote">
-                                <p>Sa: om.</p>
-                            </note>
-							قال من أراد البقاء ولا بقاء <note n="115" type="footnote">
-                                <p>Marginal note in R: لعله من سره البقا ولا بقاء</p>
-                            </note>
-							فليجود الحذاء <note n="116" type="footnote">
-                                <p>R: العذاء</p>
-                            </note>
-							وليأكل <note n="117" type="footnote">
-                                <p>R: أوليأكل</p>
-                            </note>
+							ومن كلام الحارث <note n="109" type="footnote"><p>AR: الحرث</p></note>
+							البطنة بيت الداء والحمية رأس الدواء وعودوا كل بدن ما اعتاد <note n="110" type="footnote"><p>Ga: اعتاده</p></note>
+							وقيل هو من كلام عبد الملك بن أبجر <note n="111" type="footnote"><p>Sa: اىحى</p></note>
+							وقد نسب قوم هذا الكلام إلى رسول الله صلى الله عليه وسلم <note n="112" type="footnote"><p>AR: صعلم</p></note>
+							وأوله المعدة بيت الداء وهو أبلغ من لفظ البطنة وروي عن أمير المؤمنين علي بن أبي طالب عليه السلام <note n="113" type="footnote"><p>Sa: رضي عنه</p></note>
+							أنه <note n="114" type="footnote"><p>Sa: om.</p></note>
+							قال من أراد البقاء ولا بقاء <note n="115" type="footnote"><p>Marginal note in R: لعله من سره البقا ولا بقاء</p></note>
+							فليجود الحذاء <note n="116" type="footnote"><p>R: العذاء</p></note>
+							وليأكل <note n="117" type="footnote"><p>R: أوليأكل</p></note>
 							على نقاء وليشرب على ظمأ وليقل من شرب الماء ويتمدد بعد الغداء ويتمشى بعد العشاء ولا يبيت حتى يعرض نفسه على الخلاء ودخول الحمام على البطنة من شر الداء ودخلة إلى الحمام في الصيف خير من عشرة في الشتاء وأكل القديد اليابس في الليل معين على الفناء ومجامعة العجوز تهدم أعمار الأحياء.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وروي بعض هذه الكلمات عن الحارث <note n="118" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							بن كلدة وفيها من سره النساء ولا نساء فليكر العشاء وليباكر الغداء وليخفف الرداء وليقل غشيان النساء ومعنى <note n="119" type="footnote">
-                                <p>R: ومعف</p>
-                            </note>
+							وروي بعض هذه الكلمات عن الحارث <note n="118" type="footnote"><p>AR: الحرث</p></note>
+							بن كلدة وفيها من سره النساء ولا نساء فليكر العشاء وليباكر الغداء وليخفف الرداء وليقل غشيان النساء ومعنى <note n="119" type="footnote"><p>R: ومعف</p></note>
 							فليكر يؤخر والمراد بالرداء الدين وسمي الدين رداء لقولهم هو في عنقي وفي ذمتي فلما كانت العنق موضع الرداء سمي الدين رداء.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقد روي من طريق آخر وفيه وتعجيل العشاء وهو أصح وروى أبو عوانة عن عبد الملك عمير قال قال الحارث <note n="120" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							بن كلدة من سره البقاء ولا بقاء فليباكر الغداء وليعجل العشاء وليخفف <note n="121" type="footnote">
-                                <p>R: وليخف</p>
-                            </note>
-							الرداء وليقل الجماع <note n="122" type="footnote">
-                                <p>GcSa: om. وروي بعض هذه الكلمات … وليقل الجماع‬‎</p>
-                            </note>
-							وروى حرب بن محمد قال حدثنا <note n="123" type="footnote">
-                                <p>Sa: om. حدثنا</p>
-                            </note>
-							أبي قال <note n="124" type="footnote">
-                                <p>Sa: repeats قال</p>
-                            </note>
-							الحارث <note n="125" type="footnote">
-                                <p>A: الحرث</p>
-                            </note>
-							بن كلدة أربعة أشياء تهدم البدن الغشيان على البِطنة ودخول الحمام على الامتلاء وأكل القديد ومجامعة العجوز وروى داود بن رشيد عن عمرو بن معروف <note n="126" type="footnote">
-                                <p>R: عمرو بن معروف; BSa: عمرو بن عوف; Ga: عمر بن معروف</p>
-                            </note>
-							قال لما احتضر الحارث <note n="127" type="footnote">
-                                <p>ASa: الحرث</p>
-                            </note>
-							بن كلدة اجتمع إليه الناس <note n="128" type="footnote">
-                                <p>In right margin of A: خ شباب قريش</p>
-                            </note>
-							فقالوا <note n="129" type="footnote">
-                                <p>Sa: add. له</p>
-                            </note>
-							مرنا بأمر ننتهي إليه من بعدك فقال لا <note n="130" type="footnote">
-                                <p>A: om. لا</p>
-                            </note>
-							تزوجوا من النساء إلا شابة ولا تأكلوا إلا لحم فتى ولا تأكلوا <note n="131" type="footnote">
-                                <p>GaGcSa: om. إلا لحم فتى ولا تأكلوا</p>
-                            </note>
+							وقد روي من طريق آخر وفيه وتعجيل العشاء وهو أصح وروى أبو عوانة عن عبد الملك عمير قال قال الحارث <note n="120" type="footnote"><p>AR: الحرث</p></note>
+							بن كلدة من سره البقاء ولا بقاء فليباكر الغداء وليعجل العشاء وليخفف <note n="121" type="footnote"><p>R: وليخف</p></note>
+							الرداء وليقل الجماع <note n="122" type="footnote"><p>GcSa: om. وروي بعض هذه الكلمات … وليقل الجماع‬‎</p></note>
+							وروى حرب بن محمد قال حدثنا <note n="123" type="footnote"><p>Sa: om. حدثنا</p></note>
+							أبي قال <note n="124" type="footnote"><p>Sa: repeats قال</p></note>
+							الحارث <note n="125" type="footnote"><p>A: الحرث</p></note>
+							بن كلدة أربعة أشياء تهدم البدن الغشيان على البِطنة ودخول الحمام على الامتلاء وأكل القديد ومجامعة العجوز وروى داود بن رشيد عن عمرو بن معروف <note n="126" type="footnote"><p>R: عمرو بن معروف; BSa: عمرو بن عوف; Ga: عمر بن معروف</p></note>
+							قال لما احتضر الحارث <note n="127" type="footnote"><p>ASa: الحرث</p></note>
+							بن كلدة اجتمع إليه الناس <note n="128" type="footnote"><p>In right margin of A: خ شباب قريش</p></note>
+							فقالوا <note n="129" type="footnote"><p>Sa: add. له</p></note>
+							مرنا بأمر ننتهي إليه من بعدك فقال لا <note n="130" type="footnote"><p>A: om. لا</p></note>
+							تزوجوا من النساء إلا شابة ولا تأكلوا إلا لحم فتى ولا تأكلوا <note n="131" type="footnote"><p>GaGcSa: om. إلا لحم فتى ولا تأكلوا</p></note>
 							الفاكهة إلا في أوان نضجها ولا يتعالجن أحد منكم ما احتمَل بدنُه الداء وعليكم بالنورة في كل شهر فإنها مذيبة للبلغم مهلكة للمرة منبتة للحم ‭[i,113]‬ وإذا تغذى أحدكم فلينم على إثر غذائه وإذا تعشى فليخط أربعين خطوة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن كلام الحارث <note n="132" type="footnote">
-                                <p>A: الحرث</p>
-                            </note>
-							أيضاً قال دافع بالدواء ما وجدت مدفعاً <note n="133" type="footnote">
-                                <p>R: مندفعاً</p>
-                            </note>
+							ومن كلام الحارث <note n="132" type="footnote"><p>A: الحرث</p></note>
+							أيضاً قال دافع بالدواء ما وجدت مدفعاً <note n="133" type="footnote"><p>R: مندفعاً</p></note>
 							ولا تشربه إلا من ضرورة
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٦‬أ‬‎"/>
-							فإنه لا يصلح شيئاً إلا أفسد <note n="134" type="footnote">
-                                <p>Sa: فسد</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٦‬أ‬‎" />
+							فإنه لا يصلح شيئاً إلا أفسد <note n="134" type="footnote"><p>Sa: فسد</p></note>
 							مثله.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.1.6‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال سليمان بن جلجل أخبرنا الحسن بن الحسين الأزدي قال أخبرنا سعيد بن الأموي <note n="135" type="footnote">
-                                <p>GcSa: om. قال أخبرنا سعيد بن الأموي</p>
-                            </note>
-							قال أخبرنا <note n="136" type="footnote">
-                                <p>A: نا; Sa: انا</p>
-                            </note>
-							عمي أبو سعد <note n="137" type="footnote">
-                                <p>GaGcRSa: محمد بن سعيد</p>
-                            </note>
-							عن عبد الملك بن عمير قال كان أخوان من ثقيف من بني كنة يتحابان لم <note n="138" type="footnote">
-                                <p>Sa: om. لم</p>
-                            </note>
-							ير قط أحسن ألفة منهما فخرج الأكبر إلى سفر فأوصى الأصغر بامرأته فوقعت عينه عليها يوماً غير متعمد لذلك <note n="139" type="footnote">
-                                <p>Sa: معتمد كذلك</p>
-                            </note>
-							فهويها وضني وقدم أخوه فجاءه بالأطباء فلم يعرفوا ما به إلى أن جاءه بالحارث <note n="140" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
+							وقال سليمان بن جلجل أخبرنا الحسن بن الحسين الأزدي قال أخبرنا سعيد بن الأموي <note n="135" type="footnote"><p>GcSa: om. قال أخبرنا سعيد بن الأموي</p></note>
+							قال أخبرنا <note n="136" type="footnote"><p>A: نا; Sa: انا</p></note>
+							عمي أبو سعد <note n="137" type="footnote"><p>GaGcRSa: محمد بن سعيد</p></note>
+							عن عبد الملك بن عمير قال كان أخوان من ثقيف من بني كنة يتحابان لم <note n="138" type="footnote"><p>Sa: om. لم</p></note>
+							ير قط أحسن ألفة منهما فخرج الأكبر إلى سفر فأوصى الأصغر بامرأته فوقعت عينه عليها يوماً غير متعمد لذلك <note n="139" type="footnote"><p>Sa: معتمد كذلك</p></note>
+							فهويها وضني وقدم أخوه فجاءه بالأطباء فلم يعرفوا ما به إلى أن جاءه بالحارث <note n="140" type="footnote"><p>AR: الحرث</p></note>
 							بن كلدة فقال أرى عينين محتجبتين وما أدري ما هذا الوجع وسأجرب فاسقوه نبيذاً فلما عمل النبيذ فيه قال:‬‎
 						</p>
 						<lg>
@@ -609,9 +337,7 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ألِمَّا بـي إلى الأبيا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									تِ بالخَيْف <note n="141" type="footnote">
-                                        <p>BSa: الى الخيف</p>
-                                    </note>
+									تِ بالخَيْف <note n="141" type="footnote"><p>BSa: الى الخيف</p></note>
 									أَزُرْهُنـَّهْ‬‎
 								</l>
 							</lg>
@@ -629,9 +355,7 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">أيّها الجِيرةُ ٱسْلَموا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									وقِفُوا <note n="142" type="footnote">
-                                        <p>Sa: فقفوا</p>
-                                    </note>
+									وقِفُوا <note n="142" type="footnote"><p>Sa: فقفوا</p></note>
 									كيْ تَكَلَّموا‬‎
 								</l>
 							</lg>
@@ -642,385 +366,168 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">خرجتْ مُزْنةٌ من الـ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									ـبحْر <note n="143" type="footnote">
-                                        <p>BSa: البحور (unmetrical)</p>
-                                    </note>
+									ـبحْر <note n="143" type="footnote"><p>BSa: البحور (unmetrical)</p></note>
 									رَيـّا تحمْحمُ‬‎
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									هي ما <note n="144" type="footnote">
-                                        <p>BGaGcRSa: فيهما</p>
-                                    </note>
+									هي ما <note n="144" type="footnote"><p>BGaGcRSa: فيهما</p></note>
 									كنَّتي وتَزْ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">عُم أنّي لها حَمُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فطلقها أخوه ثم قال تزوجها <note n="145" type="footnote">
-                                <p>GaGcR: تزوج بها</p>
-                            </note>
-							يا أخي فقال والله لا تزوجتها فمات وما تزوجها. <note n="146" type="footnote">
-                                <p>Sa: om. وما تزوجها</p>
-                            </note>
+							قال فطلقها أخوه ثم قال تزوجها <note n="145" type="footnote"><p>GaGcR: تزوج بها</p></note>
+							يا أخي فقال والله لا تزوجتها فمات وما تزوجها. <note n="146" type="footnote"><p>Sa: om. وما تزوجها</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وللحارث <note n="147" type="footnote">
-                                <p>ARSa: الحرث</p>
-                            </note>
-							بن كلدة الثقفي من الكتب <note n="148" type="footnote">
-                                <p>Sa: om. من الكتب</p>
-                            </note>
+							وللحارث <note n="147" type="footnote"><p>ARSa: الحرث</p></note>
+							بن كلدة الثقفي من الكتب <note n="148" type="footnote"><p>Sa: om. من الكتب</p></note>
 							كتاب المحاورة في الطب بينه وبين كسرى أنوشروان.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="2">
 						<p style="direction:rtl; unicode-bidi:embed">
-							<hi rend="bold">‭[7.2]‬ النضر بن الحرث بن كلدة الثقفي</hi> <note n="1" type="footnote">
-                                <p>This biography is included in all three versions of the work. Note in the margin of Sa:</p>
-                                <p style="direction:rtl; unicode-bidi:embed">وقد خبط هذا المؤرخ في هذه الترجمة خبط عشواء حيث جعل النضر هذا ابن الحرث بن كلدة الثقفي والنضر من بني عبد الدار وهو النضر هذا ابن الحرث بن كلدة بن علقمة بن عبد المناف ابن عبد الدار بن قصي وإنما أوفعه في هذا الاتفاق الاسمين وسيأتى في كلامه التصريح بأنه من بني عبد الدار‬‎</p>
-                            </note>
+							<hi rend="bold">‭[7.2]‬ النضر بن الحرث بن كلدة الثقفي</hi> <note n="1" type="footnote"><p>This biography is included in all three versions of the work. Note in the margin of Sa:</p><p style="direction:rtl; unicode-bidi:embed">وقد خبط هذا المؤرخ في هذه الترجمة خبط عشواء حيث جعل النضر هذا ابن الحرث بن كلدة الثقفي والنضر من بني عبد الدار وهو النضر هذا ابن الحرث بن كلدة بن علقمة بن عبد المناف ابن عبد الدار بن قصي وإنما أوفعه في هذا الاتفاق الاسمين وسيأتى في كلامه التصريح بأنه من بني عبد الدار‬‎</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.2.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو ابن خالة النبي <note n="2" type="footnote">
-                                <p>R: add. محمد</p>
-                            </note>
-							صلى الله عليه وسلم <note n="3" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							وكان النضر قد سافر البلاد أيضاً كأبيه واجتمع مع الأفاضل والعلماء بمكة وغيرها وعاشر الأحبار والكهنة واشتغل وحصل من العلوم القديمة أشياء جليلة القدر <note n="4" type="footnote">
-                                <p>Gc: العذر</p>
-                            </note>
-							واطلع على علوم الفلسفة وأجزاء الحكمة <note n="5" type="footnote">
-                                <p>Sa: الطب</p>
-                            </note>
-							وتعلم من أبيه أيضاً ما كان يعلمه من الطب وغيره وكان النضر يؤاتي أبا سفيان في عداوة <note n="6" type="footnote">
-                                <p>Sa: غزوات</p>
-                            </note>
-							النبي صلى الله عليه وسلم <note n="7" type="footnote">
-                                <p>A: قال صلعم; Sa: صلعم</p>
-                            </note>
-							بكونه <note n="8" type="footnote">
-                                <p>R: يكونه; GaSa: لكونه</p>
-                            </note>
-							كان ثقفياً كما قال رسول الله صلى الله عليه وسلم <note n="9" type="footnote">
-                                <p>ASa: صلعم</p>
-                            </note>
-							قريش والأنصار حليفان وبنو أمية وثقيف حليفان. <note n="10" type="footnote">
-                                <p>Sa: والأنصار خلفاء</p>
-                            </note>
+							هو ابن خالة النبي <note n="2" type="footnote"><p>R: add. محمد</p></note>
+							صلى الله عليه وسلم <note n="3" type="footnote"><p>A: صلعم</p></note>
+							وكان النضر قد سافر البلاد أيضاً كأبيه واجتمع مع الأفاضل والعلماء بمكة وغيرها وعاشر الأحبار والكهنة واشتغل وحصل من العلوم القديمة أشياء جليلة القدر <note n="4" type="footnote"><p>Gc: العذر</p></note>
+							واطلع على علوم الفلسفة وأجزاء الحكمة <note n="5" type="footnote"><p>Sa: الطب</p></note>
+							وتعلم من أبيه أيضاً ما كان يعلمه من الطب وغيره وكان النضر يؤاتي أبا سفيان في عداوة <note n="6" type="footnote"><p>Sa: غزوات</p></note>
+							النبي صلى الله عليه وسلم <note n="7" type="footnote"><p>A: قال صلعم; Sa: صلعم</p></note>
+							بكونه <note n="8" type="footnote"><p>R: يكونه; GaSa: لكونه</p></note>
+							كان ثقفياً كما قال رسول الله صلى الله عليه وسلم <note n="9" type="footnote"><p>ASa: صلعم</p></note>
+							قريش والأنصار حليفان وبنو أمية وثقيف حليفان. <note n="10" type="footnote"><p>Sa: والأنصار خلفاء</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فكان النضر كثير الأذى والحسد للنبي عليه وسلام <note n="11" type="footnote">
-                                <p>ASa: صلعم</p>
-                            </note>
-							ويتكلم فيه بأشياء كثيرة كيما يحط من قدره عند أهل مكة ويبطل ما أتي به بزعمه ولم يعلم لشقاوته <note n="12" type="footnote">
-                                <p>Sa: بشقاوته</p>
-                            </note>
-							أن النبوة أعظم والسعادة أقدر والعناية الإلهية أجل والأمور المقدرة أثبت وإنما النضر اعتقد أن <note n="13" type="footnote">
-                                <p>Sa: om. أن</p>
-                            </note>
-							بمعلوماته وفضائله وحكمته يقاوم النبوة وأين الثرى من الثريا والحضيض <note n="14" type="footnote">
-                                <p>Gc: والخطيط</p>
-                            </note>
-							من الأوج والشقي من السعيد. <note n="15" type="footnote">
-                                <p>Sa: السعد</p>
-                            </note>
+							فكان النضر كثير الأذى والحسد للنبي عليه وسلام <note n="11" type="footnote"><p>ASa: صلعم</p></note>
+							ويتكلم فيه بأشياء كثيرة كيما يحط من قدره عند أهل مكة ويبطل ما أتي به بزعمه ولم يعلم لشقاوته <note n="12" type="footnote"><p>Sa: بشقاوته</p></note>
+							أن النبوة أعظم والسعادة أقدر والعناية الإلهية أجل والأمور المقدرة أثبت وإنما النضر اعتقد أن <note n="13" type="footnote"><p>Sa: om. أن</p></note>
+							بمعلوماته وفضائله وحكمته يقاوم النبوة وأين الثرى من الثريا والحضيض <note n="14" type="footnote"><p>Gc: والخطيط</p></note>
+							من الأوج والشقي من السعيد. <note n="15" type="footnote"><p>Sa: السعد</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وما أحسن ما وجدت حكاية ذكرها أفلاطون <note n="16" type="footnote">
-                                <p>A: أفلاطن</p>
-                            </note>
-							في كتاب النواميس في أن النبي <note n="17" type="footnote">
-                                <p>Sa: add. صلعم</p>
-                            </note>
-							وما يأتي به لا يصل إليه الحكيم بحكمته <note n="18" type="footnote">
-                                <p>Gc: om. بحكمته</p>
-                            </note>
-							ولا العالم بعلمه قال أفلاطون وقد كان مارينوس <note n="19" type="footnote">
-                                <p>Sa: مارينون</p>
-                            </note>
-							ملك اليونانيين الذي يذكر أوميرس الشاعر بأسه <note n="20" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: بالثناء</p>
-                            </note>
-							وجبروته وما تهيأ لليونانيين <note n="21" type="footnote">
-                                <p>Sa: om. الذي ذكر أوميرس … تهيأ لليونانيين‬‎</p>
-                            </note>
+							وما أحسن ما وجدت حكاية ذكرها أفلاطون <note n="16" type="footnote"><p>A: أفلاطن</p></note>
+							في كتاب النواميس في أن النبي <note n="17" type="footnote"><p>Sa: add. صلعم</p></note>
+							وما يأتي به لا يصل إليه الحكيم بحكمته <note n="18" type="footnote"><p>Gc: om. بحكمته</p></note>
+							ولا العالم بعلمه قال أفلاطون وقد كان مارينوس <note n="19" type="footnote"><p>Sa: مارينون</p></note>
+							ملك اليونانيين الذي يذكر أوميرس الشاعر بأسه <note n="20" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: بالثناء</p></note>
+							وجبروته وما تهيأ لليونانيين <note n="21" type="footnote"><p>Sa: om. الذي ذكر أوميرس … تهيأ لليونانيين‬‎</p></note>
 							في سلطانه
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٦‬ب‬‎"/>
-							رمي بشدائد في زمانه وخوارج في سلطانه ‭[i,114]‬ ففزع إلى فلاسفة عصره فتأملوا مصادر أموره ومواردها <note n="22" type="footnote">
-                                <p>Sa: مصادرها ومواردها</p>
-                            </note>
-							وقالوا له <note n="23" type="footnote">
-                                <p>Sa: om. له</p>
-                            </note>
-							قد تأملنا <note n="24" type="footnote">
-                                <p>Sa: تأمرنا</p>
-                            </note>
-							أمرك فلم نجد فيه من جهتك شيئاً يدعو إلى ما لحقك وإنما يعلم الفيلسوف الإفراطات وسوء النظام الواقعين في الجزء <note n="25" type="footnote">
-                                <p>Sa: الخير</p>
-                            </note>
-							فأما ما خرج عنه فليس تبحث عنه الفلسفة <note n="26" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīṣ</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: الحكمة</p>
-                            </note>
-							وإنما يوقف عليه من جهة النبوة وأشاروا عليه أن يطلب نبي عصره ليجتمع له مع علمهم ما ينبئ به <note n="27" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīṣ</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: add. النبي</p>
-                            </note>
-							وقالوا إنه لا يسكن في البلدان العامرة وإنما يكون في الأقاصي <note n="28" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: القواصي</p>
-                            </note>
-							المقفرة <note n="29" type="footnote">
-                                <p>Sa: القفرة</p>
-                            </note>
-							بين فقراء ذلك العصر فسألهم ما يجب أن يكون عليه رسله <note n="30" type="footnote">
-                                <p>A: رسلهم</p>
-                            </note>
-							إليه وما يكون دليلاً لهم <note n="31" type="footnote">
-                                <p>In margin of Gc: لهم</p>
-                            </note>
-							عليه فقالوا اجعل رسلك إليه من لانت سجيته وظهرت قناعته وصدقت لهجته وكان رجوعه إلى الحق أحب <note n="32" type="footnote">
-                                <p>Ga: add. إليه; Gc: إلى الحواجب</p>
-                            </note>
-							من ظفره به <note n="33" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: من ظفره بالباطل</p>
-                            </note>
-							فإن <note n="34" type="footnote">
-                                <p>In margin of Sa: صح ومواردها … ظفره به فإن‬‎</p>
-                            </note>
-							بين من استولى عليه هذا الوصف وبينه <note n="35" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: om. وبينه</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٦‬ب‬‎" />
+							رمي بشدائد في زمانه وخوارج في سلطانه ‭[i,114]‬ ففزع إلى فلاسفة عصره فتأملوا مصادر أموره ومواردها <note n="22" type="footnote"><p>Sa: مصادرها ومواردها</p></note>
+							وقالوا له <note n="23" type="footnote"><p>Sa: om. له</p></note>
+							قد تأملنا <note n="24" type="footnote"><p>Sa: تأمرنا</p></note>
+							أمرك فلم نجد فيه من جهتك شيئاً يدعو إلى ما لحقك وإنما يعلم الفيلسوف الإفراطات وسوء النظام الواقعين في الجزء <note n="25" type="footnote"><p>Sa: الخير</p></note>
+							فأما ما خرج عنه فليس تبحث عنه الفلسفة <note n="26" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīṣ</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: الحكمة</p></note>
+							وإنما يوقف عليه من جهة النبوة وأشاروا عليه أن يطلب نبي عصره ليجتمع له مع علمهم ما ينبئ به <note n="27" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīṣ</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: add. النبي</p></note>
+							وقالوا إنه لا يسكن في البلدان العامرة وإنما يكون في الأقاصي <note n="28" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: القواصي</p></note>
+							المقفرة <note n="29" type="footnote"><p>Sa: القفرة</p></note>
+							بين فقراء ذلك العصر فسألهم ما يجب أن يكون عليه رسله <note n="30" type="footnote"><p>A: رسلهم</p></note>
+							إليه وما يكون دليلاً لهم <note n="31" type="footnote"><p>In margin of Gc: لهم</p></note>
+							عليه فقالوا اجعل رسلك إليه من لانت سجيته وظهرت قناعته وصدقت لهجته وكان رجوعه إلى الحق أحب <note n="32" type="footnote"><p>Ga: add. إليه; Gc: إلى الحواجب</p></note>
+							من ظفره به <note n="33" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: من ظفره بالباطل</p></note>
+							فإن <note n="34" type="footnote"><p>In margin of Sa: صح ومواردها … ظفره به فإن‬‎</p></note>
+							بين من استولى عليه هذا الوصف وبينه <note n="35" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: om. وبينه</p></note>
 							وصلة تدلهم عليه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وتقدم إليهم في المسألة عنه عند مسقط رأسه ومنشئه وسيرته في هذه المواضع فإنك تجده زاهداً في النعيم <note n="36" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: التعليم [<hi rend="italic">app. crit</hi>: ما ثبته; ىاىٮ].</p>
-                            </note>
-							راغباً في الصدق مؤثراً للخلوة بعيداً من الحيلة غير حظي من الملوك ينسبونه إلى تجاوز حده والخروج عما جرى عليه أهل طبقته تتأمل فيه الجوف <note n="37" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: الخوف</p>
-                            </note>
-							وتخال فيه الغفلة إذا تكلم في الأمر توهمت أنه عالم بأصوله وليس يعرف ما يترقى إليه به وإذا سئل عما يصدر عنه ذكر أنه يلقى على لسانه وفي خاطره في اليقظة وبين النوم واليقظة ما لم يرو <note n="38" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>) 201: برد</p>
-                            </note>
-							فيه وإذا سئل عن شيء رأيته كأنه يقتضي الجواب من <note n="39" type="footnote">
-                                <p>AGc: عن</p>
-                            </note>
+							وتقدم إليهم في المسألة عنه عند مسقط رأسه ومنشئه وسيرته في هذه المواضع فإنك تجده زاهداً في النعيم <note n="36" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: التعليم [<hi rend="italic">app. crit</hi>: ما ثبته; ىاىٮ].</p></note>
+							راغباً في الصدق مؤثراً للخلوة بعيداً من الحيلة غير حظي من الملوك ينسبونه إلى تجاوز حده والخروج عما جرى عليه أهل طبقته تتأمل فيه الجوف <note n="37" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: الخوف</p></note>
+							وتخال فيه الغفلة إذا تكلم في الأمر توهمت أنه عالم بأصوله وليس يعرف ما يترقى إليه به وإذا سئل عما يصدر عنه ذكر أنه يلقى على لسانه وفي خاطره في اليقظة وبين النوم واليقظة ما لم يرو <note n="38" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>) 201: برد</p></note>
+							فيه وإذا سئل عن شيء رأيته كأنه يقتضي الجواب من <note n="39" type="footnote"><p>AGc: عن</p></note>
 							غيره ولا يفكر فيه تفكير القادر عليه والمستنبط له وإذا وجدوه فسيجمع لهم إلى ما تقرر من وصفه أعاجيب تظهر على لسانه ويده.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فجمع <note n="40" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): add. الملك</p>
-                            </note>
-							سبعة نفر وأضاف إليهم أمثل من وجده من الفلاسفة <note n="41" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): الحكماء</p>
-                            </note>
-							فخرجوا يلتمسونه فوجد <note n="42" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): فوجدوه</p>
-                            </note>
-							على مسافة خمسة أيام من مستقر مارينوس في قرية قد خرج <note n="43" type="footnote">
-                                <p>Ga: قرية فأخرج</p>
-                            </note>
-							أكثر أهلها عنها وسكنوا قريباً من مدينة مارينوس لما آثروه من لين جواره وكثرة الانتفاع به ولم يبق فيها إلا نفر <note n="44" type="footnote">
-                                <p>R: معز</p>
-                            </note>
-							من الزهاد قد قعدوا عن الاكتساب ومشايخ وزمنى خلفهم الجهد <note n="45" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. والضعف</p>
-                            </note>
-							وهو بينهم في منزل شعث وحول المنزل <note n="46" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: وحوله</p>
-                            </note>
-							جماعة من هؤلاء القوم قد شغفهم جواره وألهاهم عن الحظوظ التي وصل إليها غيرهم فتلقاهم أهل القرية بالترحيب وسألوهم عن سبب دخولهم قريتهم الشعثة التي ليس فيها ما يحبس <note n="47" type="footnote">
-                                <p>GaR: يجلس; cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: يحسد</p>
-                            </note>
-							أمثالهم عليه فقالوا رغبنا في لقاء هذا الرجل ومشاركتكم في فوائده وسألوهم عن وقت خلوته <note n="48" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. للقائه</p>
-                            </note>
-							فقالوا ما له <note n="49" type="footnote">
-                                <p>Ga: om. له</p>
-                            </note>
-							شيء يشغله عنكم فدخلوا إليه فوجدوه مختبئاً <note n="50" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: مقتعداً</p>
-                            </note>
+							فجمع <note n="40" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): add. الملك</p></note>
+							سبعة نفر وأضاف إليهم أمثل من وجده من الفلاسفة <note n="41" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): الحكماء</p></note>
+							فخرجوا يلتمسونه فوجد <note n="42" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>): فوجدوه</p></note>
+							على مسافة خمسة أيام من مستقر مارينوس في قرية قد خرج <note n="43" type="footnote"><p>Ga: قرية فأخرج</p></note>
+							أكثر أهلها عنها وسكنوا قريباً من مدينة مارينوس لما آثروه من لين جواره وكثرة الانتفاع به ولم يبق فيها إلا نفر <note n="44" type="footnote"><p>R: معز</p></note>
+							من الزهاد قد قعدوا عن الاكتساب ومشايخ وزمنى خلفهم الجهد <note n="45" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. والضعف</p></note>
+							وهو بينهم في منزل شعث وحول المنزل <note n="46" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: وحوله</p></note>
+							جماعة من هؤلاء القوم قد شغفهم جواره وألهاهم عن الحظوظ التي وصل إليها غيرهم فتلقاهم أهل القرية بالترحيب وسألوهم عن سبب دخولهم قريتهم الشعثة التي ليس فيها ما يحبس <note n="47" type="footnote"><p>GaR: يجلس; cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: يحسد</p></note>
+							أمثالهم عليه فقالوا رغبنا في لقاء هذا الرجل ومشاركتكم في فوائده وسألوهم عن وقت خلوته <note n="48" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. للقائه</p></note>
+							فقالوا ما له <note n="49" type="footnote"><p>Ga: om. له</p></note>
+							شيء يشغله عنكم فدخلوا إليه فوجدوه مختبئاً <note n="50" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: مقتعداً</p></note>
 							بين جماعة قد غضوا أبصارهم من هيبته فلما رآه السبعة نفر سبقته العبرة وغمرتهم الهيبة
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٧‬أ‬‎"/>
-							ومعهم الفيلسوف ممسك لنفسه ومتّهم لحسه يريد أن يستبرئ أمره <note n="51" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. ويعتبر حاله</p>
-                            </note>
-							فسلموا عليه فرد عليهم السلام رداً ضعيفاً وهو كالناعس المتحير ثم زاد نعاسه حتى كادت حبوته <note n="52" type="footnote">
-                                <p>Ga: كادت روحه حياته</p>
-                            </note>
-							أن تنحل فلما تبين من حوله ما تغشاه غضوا أبصارهم ووقفوا وقوف المصلين <note n="53" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: المصلين; AGaGcRSa: المصلي</p>
-                            </note>
-							فقال يا رسل الخاطئ الذي ملك جزءاً من عالمي فنظر إلى صلاحه <note n="54" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: فظن أن صلاحه</p>
-                            </note>
-							في سوق الخيرات الجسدية <note n="55" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: الجسدانية</p>
-                            </note>
-							إليه فأفسده بما غمره منها وكان سبيله سبيل من وكل بجزء من بستان كثير الزهر والثمار فصرف إليه أكثر من حصته من ماء ذلك البستان وظن أنه أصلح له فكان ما زاده منه على حصته <note n="56" type="footnote">
-                                <p>Ga: om. من ماء ذلك … على حصته‬‎</p>
-                            </note>
-							ناقصاً من طعوم ثماره ورائح أزهاره وسبباً لجفاف أشجار جزء جزء منه <note n="57" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: جزء آخر منه</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٧‬أ‬‎" />
+							ومعهم الفيلسوف ممسك لنفسه ومتّهم لحسه يريد أن يستبرئ أمره <note n="51" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: add. ويعتبر حاله</p></note>
+							فسلموا عليه فرد عليهم السلام رداً ضعيفاً وهو كالناعس المتحير ثم زاد نعاسه حتى كادت حبوته <note n="52" type="footnote"><p>Ga: كادت روحه حياته</p></note>
+							أن تنحل فلما تبين من حوله ما تغشاه غضوا أبصارهم ووقفوا وقوف المصلين <note n="53" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: المصلين; AGaGcRSa: المصلي</p></note>
+							فقال يا رسل الخاطئ الذي ملك جزءاً من عالمي فنظر إلى صلاحه <note n="54" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: فظن أن صلاحه</p></note>
+							في سوق الخيرات الجسدية <note n="55" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 202: الجسدانية</p></note>
+							إليه فأفسده بما غمره منها وكان سبيله سبيل من وكل بجزء من بستان كثير الزهر والثمار فصرف إليه أكثر من حصته من ماء ذلك البستان وظن أنه أصلح له فكان ما زاده منه على حصته <note n="56" type="footnote"><p>Ga: om. من ماء ذلك … على حصته‬‎</p></note>
+							ناقصاً من طعوم ثماره ورائح أزهاره وسبباً لجفاف أشجار جزء جزء منه <note n="57" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: جزء آخر منه</p></note>
 							وتصويح نبته.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فلما سمع السبعة نفر هذا لم يملكوا أنفسهم حتى قاموا مع أولئك فوقفوا وقوف المصلين قال الفيلسوف <note n="58" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: الحكيم</p>
-                            </note>
-							فبقيت جالساً خارجاً عن جملتهم لأستبرئ أمره وأتقصى <note n="59" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: وانفض</p>
-                            </note>
-							‭[i,115]‬ عجائبه فصاح بي <note n="60" type="footnote">
-                                <p>Ga: فقال لي</p>
-                            </note>
-							أيها الحسن الظن بنفسه الذي كان أقصى <note n="61" type="footnote">
-                                <p>
-                                    <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: غاية</p>
-                            </note>
-							ما لحقه أن سلك بفكره بين المحسوسات الجزئية والمعقولات الكلية واستخلص منها علماً وقف به على طبائع المحسوسات وما قرب منها فظن أنه يبلغ به كل علة ومعلول إنك لا تصل إلي بهذه الطريق لكن بمن <note n="62" type="footnote">
-                                <p>R: ممن</p>
-                            </note>
-							جعلته بيني وبين خلقي ونصبته للدلالة على إرادتي فاصرف أكثر عنايتك إلى الاستدلال عليه فإذا أصبته فأردد إليه <note n="63" type="footnote">
-                                <p>GaR: إليه</p>
-                            </note>
-							ما فضل عن معرفتك فقد حملته من جودي ما فرقت به بينه وبين غيره وجعلته سمة له يستعرضها <note n="64" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: يستقرى منها</p>
-                            </note>
-							إفهام المخلصين للحق ثم تماسك وقوي طرفه فرجع من حوله إلى ما كانوا عليه وخرجت من عنده فلما كان العشية عدت إليه فسمعته يخاطب أصحابه والسبعة نفر بشيء من كلام الزهاد ينهاهم فيه عن طاعة الجسد فلما انقضى كلامه قلت له قد سمعت ما سلف لك في صدر هذا اليوم وأنا أسألك زيادتي منه فقال كلما سمعته فإنما هو شيء صور في نفسي وأُنطق <note n="65" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: وانطلق</p>
-                            </note>
-							به لساني وليس لي فيه إلا التبليغ وإن كان منه شيء سنقف <note n="66" type="footnote">
-                                <p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: فستقف</p>
-                            </note>
+							فلما سمع السبعة نفر هذا لم يملكوا أنفسهم حتى قاموا مع أولئك فوقفوا وقوف المصلين قال الفيلسوف <note n="58" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: الحكيم</p></note>
+							فبقيت جالساً خارجاً عن جملتهم لأستبرئ أمره وأتقصى <note n="59" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: وانفض</p></note>
+							‭[i,115]‬ عجائبه فصاح بي <note n="60" type="footnote"><p>Ga: فقال لي</p></note>
+							أيها الحسن الظن بنفسه الذي كان أقصى <note n="61" type="footnote"><p><hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: غاية</p></note>
+							ما لحقه أن سلك بفكره بين المحسوسات الجزئية والمعقولات الكلية واستخلص منها علماً وقف به على طبائع المحسوسات وما قرب منها فظن أنه يبلغ به كل علة ومعلول إنك لا تصل إلي بهذه الطريق لكن بمن <note n="62" type="footnote"><p>R: ممن</p></note>
+							جعلته بيني وبين خلقي ونصبته للدلالة على إرادتي فاصرف أكثر عنايتك إلى الاستدلال عليه فإذا أصبته فأردد إليه <note n="63" type="footnote"><p>GaR: إليه</p></note>
+							ما فضل عن معرفتك فقد حملته من جودي ما فرقت به بينه وبين غيره وجعلته سمة له يستعرضها <note n="64" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: يستقرى منها</p></note>
+							إفهام المخلصين للحق ثم تماسك وقوي طرفه فرجع من حوله إلى ما كانوا عليه وخرجت من عنده فلما كان العشية عدت إليه فسمعته يخاطب أصحابه والسبعة نفر بشيء من كلام الزهاد ينهاهم فيه عن طاعة الجسد فلما انقضى كلامه قلت له قد سمعت ما سلف لك في صدر هذا اليوم وأنا أسألك زيادتي منه فقال كلما سمعته فإنما هو شيء صور في نفسي وأُنطق <note n="65" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: وانطلق</p></note>
+							به لساني وليس لي فيه إلا التبليغ وإن كان منه شيء سنقف <note n="66" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 203: فستقف</p></note>
 							عليه فأقمت عنده ثلاثة أيام أدبر السبعة نفر على الرجوع إلى أوطانهم فيأبون ذلك علي فلما كان اليوم الرابع دخلت عليه فما تمكنت من مجلسه حتى تغشاه ما كان غشيه في اليوم الذي دخلنا عليه ثم قال يا رسول الخاطئ المستبطئ نفسه في الرجوع له ارجع إلى بلدك فإنك لا تلحق صاحبك وإني أنسخه بمن يعدِّل ميل الجزء الذي في يده فخرجت من عنده فلحقت بلدي وقد قضى نحبه وتولى الأمر كهل من أهل بيت مارينوس فرد المظالم وخلص الأرواح مما غشيها من لبوسات
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٧‬ب‬‎"/>
-							الترفة والبطالة. <note n="67" type="footnote">
-                                <p>R: والبالة; GcSa: om. وتقدم إليهم في المسألة … الترفة والبطالة‬‎</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٧‬ب‬‎" />
+							الترفة والبطالة. <note n="67" type="footnote"><p>R: والبالة; GcSa: om. وتقدم إليهم في المسألة … الترفة والبطالة‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.2.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول ولما كان يوم بدر والتقى فيه المسلمون ومشركو قريش وكان <note n="68" type="footnote">
-                                <p>Sa: كان</p>
-                            </note>
-							المقدم على المشركين أبو سفيان <note n="69" type="footnote">
-                                <p>Note in margin of S: وهذا خطأ أيضاً أبو سفين لم يحضر بدر وكان صاحب العير التي أقبلت من الشام وقصد رسول الله صلى الله عليه وسلم أخذها وكانت وقعة بدر</p>
-                            </note>
-							وعدتهم ما بين التسعمائة والألف والمسلمون يومئذ ثلاثمائة وثلاثة عشر وأيد الله <note n="70" type="footnote">
-                                <p>Sa: add. تعالى</p>
-                            </note>
-							الإسلام ونصر نبيه صلى الله عليه السلام <note n="71" type="footnote">
-                                <p>ASa: صلعم</p>
-                            </note>
-							ووقعت <note n="72" type="footnote">
-                                <p>Sa: ووقع</p>
-                            </note>
-							الكسرة على المشركين وقتلت في جملتهم صناديد <note n="73" type="footnote">
-                                <p>Sa: صنايد</p>
-                            </note>
-							قريش وأسر جماعة من المشركين فبعضهم استفكوا أنفسهم وبعضهم أمر النبي صلى الله عليه وسلم <note n="74" type="footnote">
-                                <p>Sa: om. صلى الله عليه وسلم</p>
-                            </note>
-							بقتلهم وكان في <note n="75" type="footnote">
-                                <p>Sa: من</p>
-                            </note>
-							جملة المأسورين عقبة بن أبي معيط والنضر <note n="76" type="footnote">
-                                <p>GcSa: النضر من جملة المأسورين</p>
-                            </note>
-							ابن الحارث <note n="77" type="footnote">
-                                <p>ASa: الحرث</p>
-                            </note>
-							بن كلدة فقتلهما <note n="78" type="footnote">
-                                <p>Sa: فقتله النبي</p>
-                            </note>
-							عليه السلام <note n="79" type="footnote">
-                                <p>Sa: صلى الله عليه وسلم</p>
-                            </note>
+							أقول ولما كان يوم بدر والتقى فيه المسلمون ومشركو قريش وكان <note n="68" type="footnote"><p>Sa: كان</p></note>
+							المقدم على المشركين أبو سفيان <note n="69" type="footnote"><p>Note in margin of S: وهذا خطأ أيضاً أبو سفين لم يحضر بدر وكان صاحب العير التي أقبلت من الشام وقصد رسول الله صلى الله عليه وسلم أخذها وكانت وقعة بدر</p></note>
+							وعدتهم ما بين التسعمائة والألف والمسلمون يومئذ ثلاثمائة وثلاثة عشر وأيد الله <note n="70" type="footnote"><p>Sa: add. تعالى</p></note>
+							الإسلام ونصر نبيه صلى الله عليه السلام <note n="71" type="footnote"><p>ASa: صلعم</p></note>
+							ووقعت <note n="72" type="footnote"><p>Sa: ووقع</p></note>
+							الكسرة على المشركين وقتلت في جملتهم صناديد <note n="73" type="footnote"><p>Sa: صنايد</p></note>
+							قريش وأسر جماعة من المشركين فبعضهم استفكوا أنفسهم وبعضهم أمر النبي صلى الله عليه وسلم <note n="74" type="footnote"><p>Sa: om. صلى الله عليه وسلم</p></note>
+							بقتلهم وكان في <note n="75" type="footnote"><p>Sa: من</p></note>
+							جملة المأسورين عقبة بن أبي معيط والنضر <note n="76" type="footnote"><p>GcSa: النضر من جملة المأسورين</p></note>
+							ابن الحارث <note n="77" type="footnote"><p>ASa: الحرث</p></note>
+							بن كلدة فقتلهما <note n="78" type="footnote"><p>Sa: فقتله النبي</p></note>
+							عليه السلام <note n="79" type="footnote"><p>Sa: صلى الله عليه وسلم</p></note>
 							بعد منصرفه من بدر.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							حدثني شمس الدين أبو عبد الله محمد بن الحسن بن محمد <note n="80" type="footnote">
-                                <p>Above the line in A: بن محمد</p>
-                            </note>
-							الكاتب البغدادي ابن الكريم قال حدثنا أبو غالب محمد بن المبارك بن محمد <note n="81" type="footnote">
-                                <p>GaR: add. بن محمد</p>
-                            </note>
-							بن الميمون عن أبي الحسن علي بن أحمد بن الحسين بن محمويه الشافعي اليزدي <note n="82" type="footnote">
-                                <p>Sa: om. حدثني شمس الدين … الشافعي اليزدي‬‎</p>
-                            </note>
-							عن أبي سعد أحمد بن عبد الجبار بن أحمد بن أبي القاسم الصيرفي البغدادي عن أبي غالب محمد بن أحمد بن سهل بن بشران <note n="83" type="footnote">
-                                <p>Ga: بشر</p>
-                            </note>
-							النحوي الواسطي عن أبي الحسين علي بن محمد بن عبد الرحيم بن دينار الكاتب عن أبي الفرج علي بن الحسين بن محمد الكاتب الأصبهاني <note n="84" type="footnote">
-                                <p>R: الاصفهاني</p>
-                            </note>
-							قال حدثنا <note n="85" type="footnote">
-                                <p>Sa: ثنا</p>
-                            </note>
-							محمد بن جرير الطبري قال حدثنا <note n="86" type="footnote">
-                                <p>Sa: ثنا</p>
-                            </note>
-							ابن حميد قال حدثنا <note n="87" type="footnote">
-                                <p>Sa: ثنا</p>
-                            </note>
-							مسلمة عن محمد بن إسحاق قال حدثني عاصم بن عمر بن قتادة ويزيد بن رومان <note n="88" type="footnote">
-                                <p>Sa: add. قال</p>
-                            </note>
-							أن رسول الله صلى الله عليه وسلم <note n="89" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							قتل يوم بدر عقبة بن أبي معيط صبراً أمر عاصم بن ثابت بن أبي الأفلح الأنصاري فضرب عنقه ثم أقبل من بدر حتى إذا كان <note n="90" type="footnote">
-                                <p>Sa: كنا</p>
-                            </note>
-							بالصفراء قتل النضر بن الحارث <note n="91" type="footnote">
-                                <p>ASa: الحرث</p>
-                            </note>
-							بن كلدة الثقفي أحد بني عبد الدار أمر علي بن أبي طالب عليه السلام <note n="92" type="footnote">
-                                <p>Sa: رضي الله عنه</p>
-                            </note>
-							أن يضرب عنقه فقالت قتيلة بنت الحارث <note n="93" type="footnote">
-                                <p>ARSa: الحرث</p>
-                            </note>
+							حدثني شمس الدين أبو عبد الله محمد بن الحسن بن محمد <note n="80" type="footnote"><p>Above the line in A: بن محمد</p></note>
+							الكاتب البغدادي ابن الكريم قال حدثنا أبو غالب محمد بن المبارك بن محمد <note n="81" type="footnote"><p>GaR: add. بن محمد</p></note>
+							بن الميمون عن أبي الحسن علي بن أحمد بن الحسين بن محمويه الشافعي اليزدي <note n="82" type="footnote"><p>Sa: om. حدثني شمس الدين … الشافعي اليزدي‬‎</p></note>
+							عن أبي سعد أحمد بن عبد الجبار بن أحمد بن أبي القاسم الصيرفي البغدادي عن أبي غالب محمد بن أحمد بن سهل بن بشران <note n="83" type="footnote"><p>Ga: بشر</p></note>
+							النحوي الواسطي عن أبي الحسين علي بن محمد بن عبد الرحيم بن دينار الكاتب عن أبي الفرج علي بن الحسين بن محمد الكاتب الأصبهاني <note n="84" type="footnote"><p>R: الاصفهاني</p></note>
+							قال حدثنا <note n="85" type="footnote"><p>Sa: ثنا</p></note>
+							محمد بن جرير الطبري قال حدثنا <note n="86" type="footnote"><p>Sa: ثنا</p></note>
+							ابن حميد قال حدثنا <note n="87" type="footnote"><p>Sa: ثنا</p></note>
+							مسلمة عن محمد بن إسحاق قال حدثني عاصم بن عمر بن قتادة ويزيد بن رومان <note n="88" type="footnote"><p>Sa: add. قال</p></note>
+							أن رسول الله صلى الله عليه وسلم <note n="89" type="footnote"><p>A: صلعم</p></note>
+							قتل يوم بدر عقبة بن أبي معيط صبراً أمر عاصم بن ثابت بن أبي الأفلح الأنصاري فضرب عنقه ثم أقبل من بدر حتى إذا كان <note n="90" type="footnote"><p>Sa: كنا</p></note>
+							بالصفراء قتل النضر بن الحارث <note n="91" type="footnote"><p>ASa: الحرث</p></note>
+							بن كلدة الثقفي أحد بني عبد الدار أمر علي بن أبي طالب عليه السلام <note n="92" type="footnote"><p>Sa: رضي الله عنه</p></note>
+							أن يضرب عنقه فقالت قتيلة بنت الحارث <note n="93" type="footnote"><p>ARSa: الحرث</p></note>
 							ترثيه:‬‎
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									يا راكباً إنّ الأُثيْل مَظِنّةً <note n="94" type="footnote">
-                                        <p>Sa: مطيه. Marginal note in A:</p>
-                                        <p style="direction:rtl; unicode-bidi:embed">حاشية. أي أظن أنك تبلغ الأثيل صبيحة خامسة وهذا أصل قولهم مظان من الخير والشر أي موضع له فيما يظن له‬‎</p>
-                                    </note>
+									يا راكباً إنّ الأُثيْل مَظِنّةً <note n="94" type="footnote"><p>Sa: مطيه. Marginal note in A:</p><p style="direction:rtl; unicode-bidi:embed">حاشية. أي أظن أنك تبلغ الأثيل صبيحة خامسة وهذا أصل قولهم مظان من الخير والشر أي موضع له فيما يظن له‬‎</p></note>
 									‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">من صُبحِ خامسةٍ وأنتَ موفَّقُ‬‎</l>
@@ -1028,25 +535,18 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									
-									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[i,116]‬‬‎"/>
+									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[i,116]‬‬‎" />
 									بَلِّغْ به مَيْتاً فإنّ تحيّةً‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									ما إن تزال بها الركائبُ <note n="95" type="footnote">
-                                        <p>BSa: النجايب; Ga: النجايب, corrected in left margin to الركايب</p>
-                                    </note>
-									تخفِقُ <note n="96" type="footnote">
-                                        <p>Marginal note in A:</p>
-                                        <p style="direction:rtl; unicode-bidi:embed">حاشية. أي ما أزال أبعث إليه مع كل راكب تحية أي بلغه أنت التحية فهذه حالي في إهداء التحيات إليه‬‎</p>
-                                    </note>
+									ما إن تزال بها الركائبُ <note n="95" type="footnote"><p>BSa: النجايب; Ga: النجايب, corrected in left margin to الركايب</p></note>
+									تخفِقُ <note n="96" type="footnote"><p>Marginal note in A:</p><p style="direction:rtl; unicode-bidi:embed">حاشية. أي ما أزال أبعث إليه مع كل راكب تحية أي بلغه أنت التحية فهذه حالي في إهداء التحيات إليه‬‎</p></note>
 									‬‎
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									منّي إليه وعَبْرةً <note n="97" type="footnote">
-                                        <p>Sa: وغبرة</p>
-                                    </note>
+									منّي إليه وعَبْرةً <note n="97" type="footnote"><p>Sa: وغبرة</p></note>
 									مسفوحةً‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">جادت بِدَرّتها وأُخرى تخنُقُ‬‎</l>
@@ -1058,24 +558,18 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 									ظلّت سيوفُ بني أبيه تَنُوبه
-									<note n="98" type="footnote">
-                                        <p>BSa: تنوشه</p>
-                                    </note>
+									<note n="98" type="footnote"><p>BSa: تنوشه</p></note>
 									‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">للّٰهِ أرحامٌ هناك تَمَزَّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									قَسْراً <note n="99" type="footnote">
-                                        <p>BGaRSa, <hi rend="italic">Sīrah</hi>, <hi rend="italic">Aghānī</hi>: صبراً</p>
-                                    </note>
+									قَسْراً <note n="99" type="footnote"><p>BGaRSa, <hi rend="italic">Sīrah</hi>, <hi rend="italic">Aghānī</hi>: صبراً</p></note>
 									يُقاد إلى المنيّة متْعَباً‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									رسْفَ <note n="100" type="footnote">
-                                        <p>S: رشف</p>
-                                    </note>
+									رسْفَ <note n="100" type="footnote"><p>S: رشف</p></note>
 									المقيَّدِ وهْو عانٍ مُوثَقُ‬‎
 								</l>
 							</lg>
@@ -1085,9 +579,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									ما كان ضرَّك لو مَنَنْتَ <note n="101" type="footnote">
-                                        <p>Sa: منيت</p>
-                                    </note>
+									ما كان ضرَّك لو مَنَنْتَ <note n="101" type="footnote"><p>Sa: منيت</p></note>
 									وربما‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">مَنَّ الفتى وهو المَغِيظُ المُحْنَقُ‬‎</l>
@@ -1095,9 +587,7 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">والنضرُ أقربُ مَنْ أخذتَ بزلّةٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									وأحقُّهم إن كان عِتْقٌ <note n="102" type="footnote">
-                                        <p>BSa: عتقا</p>
-                                    </note>
+									وأحقُّهم إن كان عِتْقٌ <note n="102" type="footnote"><p>BSa: عتقا</p></note>
 									يُعْتَقُ‬‎
 								</l>
 							</lg>
@@ -1112,222 +602,116 @@
 							<hi rend="bold">[‭7.2.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال أبو الفرج الأصبهاني فبلغنا أن النبي صلى الله عليه وسلم <note n="103" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							قال لو سمعت هذا قبل أن أقتله ما قتلته فيقال إن شعرها أكرم شعر موتورة <note n="104" type="footnote">
-                                <p>Sa: موثرة</p>
-                            </note>
+							قال أبو الفرج الأصبهاني فبلغنا أن النبي صلى الله عليه وسلم <note n="103" type="footnote"><p>A: صلعم</p></note>
+							قال لو سمعت هذا قبل أن أقتله ما قتلته فيقال إن شعرها أكرم شعر موتورة <note n="104" type="footnote"><p>Sa: موثرة</p></note>
 							وأعفه وأكفه وأحلمه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول كأنه عليه السلام إنما أخر قتل النضر بن الحارث <note n="105" type="footnote">
-                                <p>A: الحرث</p>
-                            </note>
-							إلى أن وصل الصفراء ليروي فيه <note n="106" type="footnote">
-                                <p>Beginning of <hi rend="smallcaps">MS</hi> Sb.</p>
-                            </note>
-							ثم أنه رأى الصواب قتله فأمر بقتله. <note n="107" type="footnote">
-                                <p>Sa: om. أقول كأنه … قتله فأمر بقتله‬‎</p>
-                            </note>
+							أقول كأنه عليه السلام إنما أخر قتل النضر بن الحارث <note n="105" type="footnote"><p>A: الحرث</p></note>
+							إلى أن وصل الصفراء ليروي فيه <note n="106" type="footnote"><p>Beginning of <hi rend="smallcaps">MS</hi> Sb.</p></note>
+							ثم أنه رأى الصواب قتله فأمر بقتله. <note n="107" type="footnote"><p>Sa: om. أقول كأنه … قتله فأمر بقتله‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ويروى أيضاً في قولها والنضر أقرب من قتلت قرابة تشير <note n="108" type="footnote">
-                                <p>End of <hi rend="smallcaps">MS</hi> Sa.</p>
-                            </note>
-							إلى أنه قرابة النبي عليه السلام <note n="109" type="footnote">
-                                <p>Ga: صلى الله عليه وسلم; Sb: صلعم</p>
-                            </note>
-							وكانت وقعة بدر في السنة الثانية من الهجرة وبدر موضع وهو اسم ماء قال الشعبي بدر بئر كانت لرجل يدعى <note n="110" type="footnote">
-                                <p>A: اسمه, above the line يدعى صح</p>
-                            </note>
+							ويروى أيضاً في قولها والنضر أقرب من قتلت قرابة تشير <note n="108" type="footnote"><p>End of <hi rend="smallcaps">MS</hi> Sa.</p></note>
+							إلى أنه قرابة النبي عليه السلام <note n="109" type="footnote"><p>Ga: صلى الله عليه وسلم; Sb: صلعم</p></note>
+							وكانت وقعة بدر في السنة الثانية من الهجرة وبدر موضع وهو اسم ماء قال الشعبي بدر بئر كانت لرجل يدعى <note n="110" type="footnote"><p>A: اسمه, above the line يدعى صح</p></note>
 							بدراً
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٨‬أ‬‎"/>
-							ومنه يوم بدر والصفراء من بدر على سبعة عشر ميلاً <note n="111" type="footnote">
-                                <p>Marginal note in AGaR: قال الجوهري الميل من الأرض منتهى مد البصر عن ابن السكيت</p>
-                            </note>
-							ومن المدينة على <note n="112" type="footnote">
-                                <p>Sb: إلى</p>
-                            </note>
-							ثلاث ليال قواصد. <note n="113" type="footnote">
-                                <p>Gc: om. حدثني شمس الدين … ثلاث ليال قواصد‬‎; marginal note in Sb: حاشية قال الجوهري الميل من الأرض منتهى مد البصر</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٨‬أ‬‎" />
+							ومنه يوم بدر والصفراء من بدر على سبعة عشر ميلاً <note n="111" type="footnote"><p>Marginal note in AGaR: قال الجوهري الميل من الأرض منتهى مد البصر عن ابن السكيت</p></note>
+							ومن المدينة على <note n="112" type="footnote"><p>Sb: إلى</p></note>
+							ثلاث ليال قواصد. <note n="113" type="footnote"><p>Gc: om. حدثني شمس الدين … ثلاث ليال قواصد‬‎; marginal note in Sb: حاشية قال الجوهري الميل من الأرض منتهى مد البصر</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="3">
 						<p style="direction:rtl; unicode-bidi:embed">
-							<hi rend="bold">‭[7.3]‬ ابن أبي رمثة التميمي</hi> <note n="1" type="footnote">
-                                <p>This biography is included in all three versions of the treatise.</p>
-                            </note>
+							<hi rend="bold">‭[7.3]‬ ابن أبي رمثة التميمي</hi> <note n="1" type="footnote"><p>This biography is included in all three versions of the treatise.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً على عهد رسول الله صلى الله عليه وسلم <note n="2" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							ومزاولاً لأعمال اليد وصناعة الجراح وروى نعيم عن ابن أبي عيينة عن ابن أبجر عن زياد عن لقيط عن ابن أبي رمثة قال أتيت رسول الله صلى الله عليه وسلم <note n="3" type="footnote">
-                                <p>A: صلعم</p>
-                            </note>
-							فرأيت بين كتفيه الخاتم <note n="4" type="footnote">
-                                <p>Note in the margin of ASb: حاشية كانت زيادة لحمية تمكن إزالتها وإنما كره صلعم ذلك</p>
-                            </note>
-							فقلت إني طبيب فدعني أعالجه فقال أنت رفيق والطبيب الله <note n="5" type="footnote">
-                                <p>A: والله طبيب</p>
-                            </note>
-							قال سليمان بن حسان علم رسول الله <note n="6" type="footnote">
-                                <p>Gc: add. صلى الله عليه وسلم; Sb: add. صلعم</p>
-                            </note>
-							أنه رفيق اليد ولم يكن فائقاً في العلم فبان ذلك من قوله والطبيب الله. <note n="7" type="footnote">
-                                <p>Gc: add. تعالى</p>
-                            </note>
+							كان طبيباً على عهد رسول الله صلى الله عليه وسلم <note n="2" type="footnote"><p>A: صلعم</p></note>
+							ومزاولاً لأعمال اليد وصناعة الجراح وروى نعيم عن ابن أبي عيينة عن ابن أبجر عن زياد عن لقيط عن ابن أبي رمثة قال أتيت رسول الله صلى الله عليه وسلم <note n="3" type="footnote"><p>A: صلعم</p></note>
+							فرأيت بين كتفيه الخاتم <note n="4" type="footnote"><p>Note in the margin of ASb: حاشية كانت زيادة لحمية تمكن إزالتها وإنما كره صلعم ذلك</p></note>
+							فقلت إني طبيب فدعني أعالجه فقال أنت رفيق والطبيب الله <note n="5" type="footnote"><p>A: والله طبيب</p></note>
+							قال سليمان بن حسان علم رسول الله <note n="6" type="footnote"><p>Gc: add. صلى الله عليه وسلم; Sb: add. صلعم</p></note>
+							أنه رفيق اليد ولم يكن فائقاً في العلم فبان ذلك من قوله والطبيب الله. <note n="7" type="footnote"><p>Gc: add. تعالى</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="4">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.4]‬ عبد الملك بن أبجر الكناني <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the treatise.</p>
-                                </note>
+								‭[7.4]‬ عبد الملك بن أبجر الكناني <note n="1" type="footnote"><p>This biography is included in all three versions of the treatise.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً عالماً ماهراً وكان في أول أمره مقيماً في الإسكندرية <note n="2" type="footnote">
-                                <p>Sb: بالإسكندرية</p>
-                            </note>
-							لأنه كان المتولي في <note n="3" type="footnote">
-                                <p>In left margin of A: صح في</p>
-                            </note>
-							التدريس بها من بعد الإسكندرانيين الذين تقدم ذكرهم وذلك عند ما كانت البلاد في ذلك الوقت لملوك النصارى ثم إن المسلمين لما استولوا <note n="4" type="footnote">
-                                <p>Gc: استولوت</p>
-                            </note>
-							على البلاد وملكوا الإسكندرية أسلم ابن أبجر على يد عمر بن عبد العزيز وكان حينئذ أميراً قبل أن تصل إليه الخلافة وصحبه فلما أفضت <note n="5" type="footnote">
-                                <p>Sb: add إليه</p>
-                            </note>
-							الخلافة إلى عمر <note n="6" type="footnote">
-                                <p>S: om.إلى عمر</p>
-                            </note>
-							وذلك في صفر سنة تسع وتسعين للهجرة <note n="7" type="footnote">
-                                <p>Gc: add. النبوية</p>
-                            </note>
+							كان طبيباً عالماً ماهراً وكان في أول أمره مقيماً في الإسكندرية <note n="2" type="footnote"><p>Sb: بالإسكندرية</p></note>
+							لأنه كان المتولي في <note n="3" type="footnote"><p>In left margin of A: صح في</p></note>
+							التدريس بها من بعد الإسكندرانيين الذين تقدم ذكرهم وذلك عند ما كانت البلاد في ذلك الوقت لملوك النصارى ثم إن المسلمين لما استولوا <note n="4" type="footnote"><p>Gc: استولوت</p></note>
+							على البلاد وملكوا الإسكندرية أسلم ابن أبجر على يد عمر بن عبد العزيز وكان حينئذ أميراً قبل أن تصل إليه الخلافة وصحبه فلما أفضت <note n="5" type="footnote"><p>Sb: add إليه</p></note>
+							الخلافة إلى عمر <note n="6" type="footnote"><p>S: om.إلى عمر</p></note>
+							وذلك في صفر سنة تسع وتسعين للهجرة <note n="7" type="footnote"><p>Gc: add. النبوية</p></note>
 							نقل التدريس إلى أنطاكية وحران وتفرق في البلاد وكان عمر بن عبد العزيز يستطب ابن أبجر ويعتمد عليه في صناعة الطب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وروى الأعمش عن ابن أبجر قال دع الدواء ما احتمل بدنك الداء وهذا من قول النبي صلى الله عليه سلم <note n="8" type="footnote">
-                                <p>ASb: صلعم</p>
-                            </note>
-							سر بدائك ما حملك وروى سفيان عن ابن أبجر أنه قال المعدة حوض الجسد والعروق تشرع فيه فما ورد فيها بصحة صدر بصحة وما ورد فيها بسقم صدر بسقم. <note n="9" type="footnote">
-                                <p>GaSb: om. وروى سفيان … صدر بسقم‬‎</p>
-                            </note>
+							وروى الأعمش عن ابن أبجر قال دع الدواء ما احتمل بدنك الداء وهذا من قول النبي صلى الله عليه سلم <note n="8" type="footnote"><p>ASb: صلعم</p></note>
+							سر بدائك ما حملك وروى سفيان عن ابن أبجر أنه قال المعدة حوض الجسد والعروق تشرع فيه فما ورد فيها بصحة صدر بصحة وما ورد فيها بسقم صدر بسقم. <note n="9" type="footnote"><p>GaSb: om. وروى سفيان … صدر بسقم‬‎</p></note>
 							‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="5">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.5]‬ ابن أثال <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.5]‬ ابن أثال <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.5.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً متقدماً من الأطباء المتميزين في دمشق نصراني المذهب ولما ملك معاوية بن أبي سفيان دمشق اصطفاه لنفسه وأحسن إليه وكان كثير الافتقاد له والاعتقاد فيه والمحادثة معه ليلاً ونهاراً وكان ابن أثال خبيراً بالأدوية المفردة والمركبة وقواها وما منها سموم ‭[i,117]‬ قواتل وكان معاوية يقربه لذلك كثيراً ومات في أيام معاوية جماعة كثيرة من أكابر الناس والأمراء <note n="2" type="footnote">
-                                <p>Sb: add. أمراء</p>
-                            </note>
-							من المسلمين <note n="3" type="footnote">
-                                <p>Sb: المسلم</p>
-                            </note>
+							كان طبيباً متقدماً من الأطباء المتميزين في دمشق نصراني المذهب ولما ملك معاوية بن أبي سفيان دمشق اصطفاه لنفسه وأحسن إليه وكان كثير الافتقاد له والاعتقاد فيه والمحادثة معه ليلاً ونهاراً وكان ابن أثال خبيراً بالأدوية المفردة والمركبة وقواها وما منها سموم ‭[i,117]‬ قواتل وكان معاوية يقربه لذلك كثيراً ومات في أيام معاوية جماعة كثيرة من أكابر الناس والأمراء <note n="2" type="footnote"><p>Sb: add. أمراء</p></note>
+							من المسلمين <note n="3" type="footnote"><p>Sb: المسلم</p></note>
 							بالسم.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.5.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن ذلك حدثنا <note n="4" type="footnote">
-                                <p>A: ثنا</p>
-                            </note>
-							أبو عبد الله محمد بن الحسن بن محمد الكاتب البغدادي ابن الكريم قال حدثنا <note n="5" type="footnote">
-                                <p>A: ثنا</p>
-                            </note>
-							أبو غالب محمد بن المبارك بن محمد بن محمد بن ميمون عن أبي الحسن علي بن محمد <note n="6" type="footnote">
-                                <p>Sb: أحمد</p>
-                            </note>
-							بن الحسين بن محمويه الشافعي اليزدي عن أبي سعد أحمد بن عبد الجبار بن <note n="7" type="footnote">
-                                <p>Sb: om. بن</p>
-                            </note>
-							أحمد بن أبي القاسم <note n="8" type="footnote">
-                                <p>A: القسم</p>
-                            </note>
-							الصيرفي البغدادي عن أبي غالب محمد بن أحمد بن سهل بن بشران النحوي الواسطي عن أبي الحسن <note n="9" type="footnote">
-                                <p>Sb: الحسين</p>
-                            </note>
+							ومن ذلك حدثنا <note n="4" type="footnote"><p>A: ثنا</p></note>
+							أبو عبد الله محمد بن الحسن بن محمد الكاتب البغدادي ابن الكريم قال حدثنا <note n="5" type="footnote"><p>A: ثنا</p></note>
+							أبو غالب محمد بن المبارك بن محمد بن محمد بن ميمون عن أبي الحسن علي بن محمد <note n="6" type="footnote"><p>Sb: أحمد</p></note>
+							بن الحسين بن محمويه الشافعي اليزدي عن أبي سعد أحمد بن عبد الجبار بن <note n="7" type="footnote"><p>Sb: om. بن</p></note>
+							أحمد بن أبي القاسم <note n="8" type="footnote"><p>A: القسم</p></note>
+							الصيرفي البغدادي عن أبي غالب محمد بن أحمد بن سهل بن بشران النحوي الواسطي عن أبي الحسن <note n="9" type="footnote"><p>Sb: الحسين</p></note>
 							علي بن محمد بن عبد الرحيم بن دينار الكاتب عن أبي الفرج علي بن الحسين الأصبهاني الكاتب
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٨‬ب‬‎"/>
-							قال في كتابه المعروف بالأغاني الكبير أخبرني عمي قال حدثنا <note n="10" type="footnote">
-                                <p>Sb: حدثني</p>
-                            </note>
-							أحمد بن الحارث <note n="11" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
-							الخزاز قال حدثنا المدائني عن شيخ من أهل الحجاز عن زيد بن رافع مولى المهاجر بن خالد بن الوليد عن أبي ذئب عن أبي سهيل <note n="12" type="footnote">
-                                <p>Gc: om. ابن الكريم قال … عن أبي سهيل‬‎</p>
-                            </note>
-							أن <note n="13" type="footnote">
-                                <p>A: إلى, in margin ظ أن</p>
-                            </note>
-							معاوية لما أراد أن يظهر العقد ليزيد قال لأهل الشام إن أمير المؤمنين قد كبرت <note n="14" type="footnote">
-                                <p>Gc: كبرت</p>
-                            </note>
-							سنه ورق جلده ودق عظمه واقترب أجله يريد أن يستخلف عليكم فمن ترون فقالوا عبد الرحمن بن خالد بن الوليد فسكت وأضمرها ودس ابن أثال النصراني الطبيب إليه <note n="15" type="footnote">
-                                <p>Ga: om. إليه</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٨‬ب‬‎" />
+							قال في كتابه المعروف بالأغاني الكبير أخبرني عمي قال حدثنا <note n="10" type="footnote"><p>Sb: حدثني</p></note>
+							أحمد بن الحارث <note n="11" type="footnote"><p>AR: الحرث</p></note>
+							الخزاز قال حدثنا المدائني عن شيخ من أهل الحجاز عن زيد بن رافع مولى المهاجر بن خالد بن الوليد عن أبي ذئب عن أبي سهيل <note n="12" type="footnote"><p>Gc: om. ابن الكريم قال … عن أبي سهيل‬‎</p></note>
+							أن <note n="13" type="footnote"><p>A: إلى, in margin ظ أن</p></note>
+							معاوية لما أراد أن يظهر العقد ليزيد قال لأهل الشام إن أمير المؤمنين قد كبرت <note n="14" type="footnote"><p>Gc: كبرت</p></note>
+							سنه ورق جلده ودق عظمه واقترب أجله يريد أن يستخلف عليكم فمن ترون فقالوا عبد الرحمن بن خالد بن الوليد فسكت وأضمرها ودس ابن أثال النصراني الطبيب إليه <note n="15" type="footnote"><p>Ga: om. إليه</p></note>
 							فسقاه سماً فمات.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.5.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وبلغ ابن أخيه خالد بن المهاجر ابن خالد بن الوليد خبره وهو بمكة وكان أسوأ الناس رأياً في عمه لأن أباه المهاجر كان مع علي عليه السلام <note n="16" type="footnote">
-                                <p>Sb: رضي الله عنه</p>
-                            </note>
+							وبلغ ابن أخيه خالد بن المهاجر ابن خالد بن الوليد خبره وهو بمكة وكان أسوأ الناس رأياً في عمه لأن أباه المهاجر كان مع علي عليه السلام <note n="16" type="footnote"><p>Sb: رضي الله عنه</p></note>
 							بصفين وكان عبد الرحمن بن خالد مع معاوية وكان خالد بن المهاجر على رأي أبيه هاشمي المذهب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">فلما قتل عمه عبد الرحمن مر به عروة بن الزبير فقال له يا خالد اتدع ابن أثال نقي أوصال عمك بالشام وأنت بمكة مسبل إزارك تجره وتخطر فيه متخايلا فحمي خالد ودعا مولى له يقال له نافع فاعلمه الخبر وقال له لا بد من قتل ابن أثال وكان نافع جلداً شهماً.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فخرجا حتى قدما دمشق وكان ابن أثال يتمسى عند معاوية فجلس له في مسجد <note n="17" type="footnote">
-                                <p>Ga: om. مسجد</p>
-                            </note>
-							دمشق إلى أسطوانة وجلس <note n="18" type="footnote">
-                                <p>R: add. معه</p>
-                            </note>
-							غلامه إلى أخرى حتى خرج فقال خالد لنافع إياك أن تعرض له أنت فإني أضربه ولكن احفظ ظهري واكفني من ورائي فإن رابك <note n="19" type="footnote">
-                                <p>R: مرابك</p>
-                            </note>
-							شيء يريدني من ورائي <note n="20" type="footnote">
-                                <p>Gc: om. فإن رابك شيء يريدني من ورائي</p>
-                            </note>
-							فشأنك فلما حاذاه وثب إليه خالد فقتله وثار إليه من كان معه فصاح بهم نافع فانفرجوا ومضى خالد ونافع وتبعهما من كان معه فلما غشوهما حملا عليهم <note n="21" type="footnote">
-                                <p>Ga: عليهما</p>
-                            </note>
-							فتفرقوا حتى دخل خالد ونافع زقاقاً ضيقاً ففاتا الناس وبلغ معاوية الخبر فقال هذا خالد بن المهاجر انظروا الزقاق الذي دخل فيه ففتش عليه فأتي به فقال له لا جزاك الله من زائر <note n="22" type="footnote">
-                                <p>Sb: زائراً</p>
-                            </note>
-							خيراً قتلت طبيبي فقال قتلت المأمور وبقي الآمر فقال له عليك لعنة الله أما والله <note n="23" type="footnote">
-                                <p>Gc: add. لو كان صوابه لو كان قال لا إله إلا الله أو كان يشهد مرة واحدة قلت وهذا تتافض من أبي يزيد افرى عبد الرحمن بن خالد والحسن بن علي والأسير الرجعي ما كانوا مسلمين حتى دس عليهم من قتلهم بالسم على ما شهدت به التواريخ تمت; B: add. قال لا إله إلا الله أو كان</p>
-                            </note>
-							لو كان تشهّد مرة واحدة لقتلتك به أمعك نافع قال لا قال بلى والله وما اجترأت إلا به ثم أمر بطلبه فوجد فأتي به فضُرب <note n="24" type="footnote">
-                                <p>Cf. <hi rend="italic">Aghānī</hi>, 16:397: ضربه</p>
-                            </note>
-							مائة سوط ولم يهج خالداً <note n="25" type="footnote">
-                                <p>Sb: خالد</p>
-                            </note>
-							بشيء أكثر من أن حبسه وألزم بني مخزوم دية ابن أثال اثني عشر ألف درهم أدخل بيت المال منها ستة آلاف وأخذ ستة آلاف فلم يزل ذلك يجري في دية المعاهد حتى ولي عمر بن عبد العزيز فأبطل الذي يأخذه <note n="26" type="footnote">
-                                <p>R: مأخذه</p>
-                            </note>
+							فخرجا حتى قدما دمشق وكان ابن أثال يتمسى عند معاوية فجلس له في مسجد <note n="17" type="footnote"><p>Ga: om. مسجد</p></note>
+							دمشق إلى أسطوانة وجلس <note n="18" type="footnote"><p>R: add. معه</p></note>
+							غلامه إلى أخرى حتى خرج فقال خالد لنافع إياك أن تعرض له أنت فإني أضربه ولكن احفظ ظهري واكفني من ورائي فإن رابك <note n="19" type="footnote"><p>R: مرابك</p></note>
+							شيء يريدني من ورائي <note n="20" type="footnote"><p>Gc: om. فإن رابك شيء يريدني من ورائي</p></note>
+							فشأنك فلما حاذاه وثب إليه خالد فقتله وثار إليه من كان معه فصاح بهم نافع فانفرجوا ومضى خالد ونافع وتبعهما من كان معه فلما غشوهما حملا عليهم <note n="21" type="footnote"><p>Ga: عليهما</p></note>
+							فتفرقوا حتى دخل خالد ونافع زقاقاً ضيقاً ففاتا الناس وبلغ معاوية الخبر فقال هذا خالد بن المهاجر انظروا الزقاق الذي دخل فيه ففتش عليه فأتي به فقال له لا جزاك الله من زائر <note n="22" type="footnote"><p>Sb: زائراً</p></note>
+							خيراً قتلت طبيبي فقال قتلت المأمور وبقي الآمر فقال له عليك لعنة الله أما والله <note n="23" type="footnote"><p>Gc: add. لو كان صوابه لو كان قال لا إله إلا الله أو كان يشهد مرة واحدة قلت وهذا تتافض من أبي يزيد افرى عبد الرحمن بن خالد والحسن بن علي والأسير الرجعي ما كانوا مسلمين حتى دس عليهم من قتلهم بالسم على ما شهدت به التواريخ تمت; B: add. قال لا إله إلا الله أو كان</p></note>
+							لو كان تشهّد مرة واحدة لقتلتك به أمعك نافع قال لا قال بلى والله وما اجترأت إلا به ثم أمر بطلبه فوجد فأتي به فضُرب <note n="24" type="footnote"><p>Cf. <hi rend="italic">Aghānī</hi>, 16:397: ضربه</p></note>
+							مائة سوط ولم يهج خالداً <note n="25" type="footnote"><p>Sb: خالد</p></note>
+							بشيء أكثر من أن حبسه وألزم بني مخزوم دية ابن أثال اثني عشر ألف درهم أدخل بيت المال منها ستة آلاف وأخذ ستة آلاف فلم يزل ذلك يجري في دية المعاهد حتى ولي عمر بن عبد العزيز فأبطل الذي يأخذه <note n="26" type="footnote"><p>R: مأخذه</p></note>
 							السلطان لنفسه وأثبت الذي يدخل بيت المال.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1346,16 +730,14 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
 									
-									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[i,118]‬‬‎"/>
+									<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭[i,118]‬‬‎" />
 									دعْ ذا ولكن هـلْ تـرى‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">ناراً تُشَبّ بـذي مُـرارِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									ما إنْ تُـشُـبّ لـقِـرّةٍ <note n="27" type="footnote">
-                                        <p>A: لعزةٍ</p>
-                                    </note>
+									ما إنْ تُـشُـبّ لـقِـرّةٍ <note n="27" type="footnote"><p>A: لعزةٍ</p></note>
 									‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">بالمصطلين ولا قُـتـارِ‬‎</l>
@@ -1370,15 +752,9 @@
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال فبلغت أبياته معاوية فأطلقه فرجع إلى مكة فلما قدمها لقي عروة بن الزبير فقال له أما ابن أثال فقد قتلته وهذاك <note n="28" type="footnote">
-                                <p>Ga: وهذا</p>
-                            </note>
-							ابن جرموز <note n="29" type="footnote">
-                                <p>AR: جرمون</p>
-                            </note>
-							نقي أوصال الزبير بالبصرة فاقتله إن كنت ثائراً فشكاه عروة إلى أبي بكر بن عبد الرحمن بن الحارث <note n="30" type="footnote">
-                                <p>AR: الحرث</p>
-                            </note>
+							قال فبلغت أبياته معاوية فأطلقه فرجع إلى مكة فلما قدمها لقي عروة بن الزبير فقال له أما ابن أثال فقد قتلته وهذاك <note n="28" type="footnote"><p>Ga: وهذا</p></note>
+							ابن جرموز <note n="29" type="footnote"><p>AR: جرمون</p></note>
+							نقي أوصال الزبير بالبصرة فاقتله إن كنت ثائراً فشكاه عروة إلى أبي بكر بن عبد الرحمن بن الحارث <note n="30" type="footnote"><p>AR: الحرث</p></note>
 							بن هشام فأقسم عليه أن يمسك عنه ففعل.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1405,9 +781,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									كم غمرةٍ قد خاضها لم يثْنِه <note n="31" type="footnote">
-                                        <p>Sb: تثنه</p>
-                                    </note>
+									كم غمرةٍ قد خاضها لم يثْنِه <note n="31" type="footnote"><p>Sb: تثنه</p></note>
 									‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">عنها طِرادُك يا ابنَ فَقْع القَرْدَدِ‬‎</l>
@@ -1415,58 +789,34 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فاذهبْ فما ظفِرتْ يداك بمثله‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									فيما مضى ممن <note n="32" type="footnote">
-                                        <p>AGcRSb: مما; the more correct version of <hi rend="italic">Aghānī</hi> and <hi rend="italic">Khizānah</hi> has been adopted.</p>
-                                    </note>
-									يروح ويغتدي <note n="33" type="footnote">
-                                        <p>Gc: om. قال ولما حبس معاوية … مما يروح ويغتدي‬‎</p>
-                                    </note>
+									فيما مضى ممن <note n="32" type="footnote"><p>AGcRSb: مما; the more correct version of <hi rend="italic">Aghānī</hi> and <hi rend="italic">Khizānah</hi> has been adopted.</p></note>
+									يروح ويغتدي <note n="33" type="footnote"><p>Gc: om. قال ولما حبس معاوية … مما يروح ويغتدي‬‎</p></note>
 									‬‎
 								</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال أبو عبيد الله <note n="34" type="footnote">
-                                <p>R: om. الله; Sb: عبد الله</p>
-                            </note>
-							القاسم <note n="35" type="footnote">
-                                <p>Ga: القسم</p>
-                            </note>
-							بن سلام البغدادي في كتاب الأمثال إن معاوية بن أبي سفيان كان خاف أن يميل الناس إلى عبد الرحمن بن خالد بن الوليد <note n="36" type="footnote">
-                                <p>Abū ʿUbayd, <hi rend="italic">al-Amthāl</hi>, 192: add. في الشام</p>
-                            </note>
-							فاشتكى عبد الرحمان فسقاه المتطبب <note n="37" type="footnote">
-                                <p>Gc: الطبيب</p>
-                            </note>
-							شربة عسل فيها سم فأحرقته فعند ذلك قال معاوية لا جد <note n="38" type="footnote">
-                                <p>R: جسد</p>
-                            </note>
-							إلا ما أقعص عنك من <note n="39" type="footnote">
-                                <p>A: ما, above the line: من; cf. Abū ʿUbayd, <hi rend="italic">al-Amthāl</hi>, 192: ما</p>
-                            </note>
+							وقال أبو عبيد الله <note n="34" type="footnote"><p>R: om. الله; Sb: عبد الله</p></note>
+							القاسم <note n="35" type="footnote"><p>Ga: القسم</p></note>
+							بن سلام البغدادي في كتاب الأمثال إن معاوية بن أبي سفيان كان خاف أن يميل الناس إلى عبد الرحمن بن خالد بن الوليد <note n="36" type="footnote"><p>Abū ʿUbayd, <hi rend="italic">al-Amthāl</hi>, 192: add. في الشام</p></note>
+							فاشتكى عبد الرحمان فسقاه المتطبب <note n="37" type="footnote"><p>Gc: الطبيب</p></note>
+							شربة عسل فيها سم فأحرقته فعند ذلك قال معاوية لا جد <note n="38" type="footnote"><p>R: جسد</p></note>
+							إلا ما أقعص عنك من <note n="39" type="footnote"><p>A: ما, above the line: من; cf. Abū ʿUbayd, <hi rend="italic">al-Amthāl</hi>, 192: ما</p></note>
 							تكره قال وقال معاوية أيضاً حين بلغه أن الأشتر سقي شربة عسل فيها سم فمات إن لله جنوداً منها العسل.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.5.6‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ونقلت من تاريخ أبي عبد الله محمد بن عمر الواقدي قال لما كان في سنة ثمان وثلاثين بعث علي بن أبي طالب عليه السلام <note n="40" type="footnote">
-                                <p>Sb: رضي الله عنه</p>
-                            </note>
-							الأشتر والياً على مصر بعد قتل محمد بن أبي بكر وبلغ معاوية مسيره فدس إلى دهقان بالعريش فقال له إن قتلت الأشتر فلك خراجك عشرين سنة فلطف له الدهقان فسأل أي الشراب أحب إليه فقيل العسل فقال عندي عسل من عسل برقة فسمه وأتي به فشربه فمات فبلغ ذلك علياً <note n="41" type="footnote">
-                                <p>Gc: add. صوابه معاوية</p>
-                            </note>
+							ونقلت من تاريخ أبي عبد الله محمد بن عمر الواقدي قال لما كان في سنة ثمان وثلاثين بعث علي بن أبي طالب عليه السلام <note n="40" type="footnote"><p>Sb: رضي الله عنه</p></note>
+							الأشتر والياً على مصر بعد قتل محمد بن أبي بكر وبلغ معاوية مسيره فدس إلى دهقان بالعريش فقال له إن قتلت الأشتر فلك خراجك عشرين سنة فلطف له الدهقان فسأل أي الشراب أحب إليه فقيل العسل فقال عندي عسل من عسل برقة فسمه وأتي به فشربه فمات فبلغ ذلك علياً <note n="41" type="footnote"><p>Gc: add. صوابه معاوية</p></note>
 							فقال لليدين والفم.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وفي تاريخ الطبري أن الحسن بن علي عليه السلام <note n="42" type="footnote">
-                                <p>Sb: رضي الله عنهما</p>
-                            </note>
-							مات مسموماً في أيام معاوية وكان عند معاوية كما قيل دهاء <note n="43" type="footnote">
-                                <p>Sb: دهاء, in margin صح دهقاناً</p>
-                            </note>
+							وفي تاريخ الطبري أن الحسن بن علي عليه السلام <note n="42" type="footnote"><p>Sb: رضي الله عنهما</p></note>
+							مات مسموماً في أيام معاوية وكان عند معاوية كما قيل دهاء <note n="43" type="footnote"><p>Sb: دهاء, in margin صح دهقاناً</p></note>
 							فدس إلى جعدة بنت الأشعث بن قيس وكانت زوجة الحسن عليه السلام شربة وقال لها إن قتلت الحسن زوجتك يزيد فلما توفي الحسن بعثت إلى معاوية تطلب قوله فقال لها في
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٩‬ب‬‎"/>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٩‬ب‬‎" />
 							الجواب أنا أضن بيزيد.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">وقال كثير يرثي الحسن عليه السلام:‬‎</p>
@@ -1477,36 +827,22 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									لن <note n="44" type="footnote">
-                                        <p>Kuthayyir, <hi rend="italic">Dīwān</hi>: إن</p>
-                                    </note>
-									تستري الميْتَ <note n="45" type="footnote">
-                                        <p>AGcR: البيت</p>
-                                    </note>
+									لن <note n="44" type="footnote"><p>Kuthayyir, <hi rend="italic">Dīwān</hi>: إن</p></note>
+									تستري الميْتَ <note n="45" type="footnote"><p>AGcR: البيت</p></note>
 									على مثله‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">في الناس من حافٍ ومن ناعلِ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال عوانة بن الحكم لما كان قل موت الحسن بن علي عليهما السلام <note n="46" type="footnote">
-                                <p>Sb: رضي الله عنهما</p>
-                            </note>
-							كتب معاوية إلى ‭[i,119]‬ مروان بن الحكم عامله على المدينة أن أقبل <note n="47" type="footnote">
-                                <p>AGaR: أقتل</p>
-                            </note>
+							وقال عوانة بن الحكم لما كان قل موت الحسن بن علي عليهما السلام <note n="46" type="footnote"><p>Sb: رضي الله عنهما</p></note>
+							كتب معاوية إلى ‭[i,119]‬ مروان بن الحكم عامله على المدينة أن أقبل <note n="47" type="footnote"><p>AGaR: أقتل</p></note>
 							المطي فيما بيني وبينك بخبر الحسن بن علي قال فلم يلبث إلا يسيراً حتى كتب مروان بموته.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكان ابن عباس إذا دخل على معاوية أجلسه معه على سريره فأذن معاوية للناس فأخذوا مجالسهم وجاء ابن عباس فلم يمهله معاوية أن يسلم حتى قال يا ابن عباس هل أتاك موت <note n="48" type="footnote">
-                                <p>Above the line in A: موت</p>
-                            </note>
-							الحسن بن علي قال لا قال معاوية فإنه قد أتانا موته فاسترجع ابن عباس وقال إن موته يا معاوية لا يزيد في عمرك ولا يدخل عمله معك في قبرك وقد بلينا بأعظم فقد منه جده محمد صلى الله عليه وسلم <note n="49" type="footnote">
-                                <p>ASb: صلعم</p>
-                            </note>
-							فجبر الله مصابنا ولم يهلكنا بعده فقال له معاوية اقعد يا ابن عباس فقال ما هذا بيوم قعود وأظهر معاوية الشماتة بموت الحسن عليه السلام <note n="50" type="footnote">
-                                <p>R: om. عليه السلام; Sb: رضي الله عنه</p>
-                            </note>
+							وكان ابن عباس إذا دخل على معاوية أجلسه معه على سريره فأذن معاوية للناس فأخذوا مجالسهم وجاء ابن عباس فلم يمهله معاوية أن يسلم حتى قال يا ابن عباس هل أتاك موت <note n="48" type="footnote"><p>Above the line in A: موت</p></note>
+							الحسن بن علي قال لا قال معاوية فإنه قد أتانا موته فاسترجع ابن عباس وقال إن موته يا معاوية لا يزيد في عمرك ولا يدخل عمله معك في قبرك وقد بلينا بأعظم فقد منه جده محمد صلى الله عليه وسلم <note n="49" type="footnote"><p>ASb: صلعم</p></note>
+							فجبر الله مصابنا ولم يهلكنا بعده فقال له معاوية اقعد يا ابن عباس فقال ما هذا بيوم قعود وأظهر معاوية الشماتة بموت الحسن عليه السلام <note n="50" type="footnote"><p>R: om. عليه السلام; Sb: رضي الله عنه</p></note>
 							فقال قثم ابن عباس في ذلك:‬‎
 						</p>
 						<lg>
@@ -1516,15 +852,11 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									رحمة الله عليه أنـه <note n="51" type="footnote">
-                                        <p>Sb: ان</p>
-                                    </note>
+									رحمة الله عليه أنـه <note n="51" type="footnote"><p>Sb: ان</p></note>
 									‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									طـالَ ما أشجى <note n="52" type="footnote">
-                                        <p>A: اسجى, but clearly intending أشجى; glossed in right margin: السجي [أي الشجى] في الحلق الغصة‬‎</p>
-                                    </note>
+									طـالَ ما أشجى <note n="52" type="footnote"><p>A: اسجى, but clearly intending أشجى; glossed in right margin: السجي [أي الشجى] في الحلق الغصة‬‎</p></note>
 									ابنُ هـنـد وأرِنْ‬‎
 								</l>
 							</lg>
@@ -1539,20 +871,14 @@
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فارتعِ اليومَ ابنَ هندٍ آمـنـاً‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									إنما يقْمُص <note n="53" type="footnote">
-                                        <p>AGaRSb: يعمص; Müller, Riḍā, Najjār: يغمص; correct is no doubt يقمص (<hi rend="italic">Rabīʿ al-abrār</hi> and see the dictionaries s.v. <hi rend="italic">
-                                                <hi rend="smallcaps">QMṢ</hi>
-                                            </hi>).</p>
-                                    </note>
+									إنما يقْمُص <note n="53" type="footnote"><p>AGaRSb: يعمص; Müller, Riḍā, Najjār: يغمص; correct is no doubt يقمص (<hi rend="italic">Rabīʿ al-abrār</hi> and see the dictionaries s.v. <hi rend="italic"><hi rend="smallcaps">QMṢ</hi></hi>).</p></note>
 									بالعير السِّمَـنْ‬‎
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">واتق اللهَ وأحدث تـوبة‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
-									أنّ ما كان كشـيءٍ لـم يكُـنْ <note n="54" type="footnote">
-                                        <p>Gc: om. وقال عوانة بن الحكم … كشيء لم يكن‬‎; Sb: add.: قيل الشجى في الحلق الغصة</p>
-                                    </note>
+									أنّ ما كان كشـيءٍ لـم يكُـنْ <note n="54" type="footnote"><p>Gc: om. وقال عوانة بن الحكم … كشيء لم يكن‬‎; Sb: add.: قيل الشجى في الحلق الغصة</p></note>
 									‬‎
 								</l>
 							</lg>
@@ -1561,47 +887,27 @@
 					<div type="textpart" subtype="biography" n="6">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.6]‬ أبو حكم <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.6]‬ أبو حكم <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان طبيباً نصرانياً عالماً بأنواع العلاج والأدوية وله أعمال مذكورة وصفات مشهورة وكان يستطبه معاوية بن أبي سفيان <note n="2" type="footnote">
-                                <p>Sb: om.بن أبي سفيان</p>
-                            </note>
-							ويعتمد عليه في تركيبات أدوية <note n="3" type="footnote">
-                                <p>Sb: لأدوية</p>
-                            </note>
+							كان طبيباً نصرانياً عالماً بأنواع العلاج والأدوية وله أعمال مذكورة وصفات مشهورة وكان يستطبه معاوية بن أبي سفيان <note n="2" type="footnote"><p>Sb: om.بن أبي سفيان</p></note>
+							ويعتمد عليه في تركيبات أدوية <note n="3" type="footnote"><p>Sb: لأدوية</p></note>
 							لأغراض قصدها منه وعمر أبو حكم هذا عمراً طويلاً حتى تجاوز المائة سنة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							حدث أبو جعفر أحمد بن يوسف بن إبراهيم قال حدثني أبي قال حدثني عيسى ابن <note n="4" type="footnote">
-                                <p>Above the line in A: عيسى ابن</p>
-                            </note>
-							حكم الدمشقي المتطبب قال حدثني أبي عن أبيه قال ولي الموسم في أيام معاوية بن أبي سفيان <note n="5" type="footnote">
-                                <p>Sb: om. بن أبي سفيان</p>
-                            </note>
-							يزيد بن معاوية فوجهني أبوه معه متطبباً له وخرجت مع عبد الصمد بن علي بن عبد الله بن العباس <note n="6" type="footnote">
-                                <p>GaSb: om. بن عبد الله بن العباس</p>
-                            </note>
-							إلى مكة متطبباً له وقعدد عبد الصمد مثل قعدد <note n="7" type="footnote">
-                                <p>Sb: قعده</p>
-                            </note>
-							يزيد وبين وفاتهما مائة ونيف وعشرون سنة. <note n="8" type="footnote">
-                                <p>Gc: om. حدث أبو جعفر … وعشرون سنة‬‎</p>
-                            </note>
+							حدث أبو جعفر أحمد بن يوسف بن إبراهيم قال حدثني أبي قال حدثني عيسى ابن <note n="4" type="footnote"><p>Above the line in A: عيسى ابن</p></note>
+							حكم الدمشقي المتطبب قال حدثني أبي عن أبيه قال ولي الموسم في أيام معاوية بن أبي سفيان <note n="5" type="footnote"><p>Sb: om. بن أبي سفيان</p></note>
+							يزيد بن معاوية فوجهني أبوه معه متطبباً له وخرجت مع عبد الصمد بن علي بن عبد الله بن العباس <note n="6" type="footnote"><p>GaSb: om. بن عبد الله بن العباس</p></note>
+							إلى مكة متطبباً له وقعدد عبد الصمد مثل قعدد <note n="7" type="footnote"><p>Sb: قعده</p></note>
+							يزيد وبين وفاتهما مائة ونيف وعشرون سنة. <note n="8" type="footnote"><p>Gc: om. حدث أبو جعفر … وعشرون سنة‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال يوسف بن إبراهيم وحدثني عيسى بن حكم عن أبيه أن جده أعلمه <note n="9" type="footnote">
-                                <p>R: om. وحدثني عيسى بن حكم عن أبيه أن جده أعلمه</p>
-                            </note>
+							قال يوسف بن إبراهيم وحدثني عيسى بن حكم عن أبيه أن جده أعلمه <note n="9" type="footnote"><p>R: om. وحدثني عيسى بن حكم عن أبيه أن جده أعلمه</p></note>
 							أنه كان حمى عبد الملك بن مروان من شرب الماء في علته التي توفي فيها وأعلمه أنه متى شرب الماء قبل نضج علته توفي
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٠‬أ‬‎"/>
-							قال فاحتمى عن الماء يومين وبعض الثالث قال فإني عنده لجالس وعنده <note n="10" type="footnote">
-                                <p>Gc: om. لجالس وعنده</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٠‬أ‬‎" />
+							قال فاحتمى عن الماء يومين وبعض الثالث قال فإني عنده لجالس وعنده <note n="10" type="footnote"><p>Gc: om. لجالس وعنده</p></note>
 							بناته إذ دخل عليه الوليد ابنه فسأله عن حاله وهو يتبين في وجه الوليد السرور بموته فأجابه بأن قال:‬‎
 						</p>
 						<lg>
@@ -1611,27 +917,21 @@
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكان استفتاحه النصف <note n="11" type="footnote">
-                                <p>Sb: لنصف</p>
-                            </note>
+							وكان استفتاحه النصف <note n="11" type="footnote"><p>Sb: لنصف</p></note>
 							الأول وهو مواجه للوليد ثم واجه البنات عند قوله النصف الثاني ثم دعا بالماء فشربه فقضى من ساعته.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="7">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.7]‬ حكم الدمشقي <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.7]‬ حكم الدمشقي <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.7.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							كان يلحق <note n="2" type="footnote">
-                                <p>Ga: لحق</p>
-                            </note>
+							كان يلحق <note n="2" type="footnote"><p>Ga: لحق</p></note>
 							بابيه في معرفته بالمداواة والأعمال الطبية والصفات البديعة وكان مقيماً بدمشق وعمر أيضاً عمراً طويلاً مثل أبيه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1639,56 +939,30 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">قال يوسف بن إبراهيم حدثني عيسى بن حكم أن والده توفي وكان عبد الله بن طاهر بدمشق في سنة عشر ومائتين وإن عبد الله سأله عن مبلغ عمر أبيه فأعلمه أنه عمره مائة وخمس سنين لم يتغير عقله ولم ينقص علمه فقال عبد الله عاش حكم نصف التأريخ.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال ‭[i,120]‬ يوسف وحدثني عيسى أنه ركب مع أبيه حكم بمدينة دمشق إذ اجتازوا بحانوت حجام قد وقف عليه بشر كثير فلما بصر بنا بعض الوقوف قال <note n="3" type="footnote">
-                                <p>Ga: om. قال</p>
-                            </note>
-							أفرجوا هذا حكم المتطبب وعيسى ابنه وأفرج <note n="4" type="footnote">
-                                <p>Sb: فأفرج</p>
-                            </note>
-							القوم فإذا برجل <note n="5" type="footnote">
-                                <p>GcSb: رجل</p>
-                            </note>
-							قد فصده الحجام في العرق الباسليق وقد فصده فصداً واسعاً <note n="6" type="footnote">
-                                <p>Sb: في الباسليق فصداً واسعاً</p>
-                            </note>
-							وكان الباسليق على الشريان فلم يحسن الحجام تعليق العرق فأصاب الشريان ولم يكن عند الحجام حيلة في قطع الدم واستعملنا الحيلة في <note n="7" type="footnote">
-                                <p>Ga: om. قطع الدم واستعملنا الحيلة في</p>
-                            </note>
-							قطعه بالرفائد ونسج العنكبوت والوبر فلم ينقطع بذلك فسألني والذي عن حيلة فأعلمته أنه لا حيلة عندي فدعا بفستقة فشقها وطرح ما فيها وأخذ أحد نصفي القشر فجعله على موضع الفصد ثم أخذ حاشية من ثوب كتان غليظ فلف بها موضع الفصد على قشر الفستقة <note n="8" type="footnote">
-                                <p>Sb: علىbالقشر</p>
-                            </note>
-							لفاً شديداً حتى كان <note n="9" type="footnote">
-                                <p>Gc: كاد</p>
-                            </note>
-							يستغيث المفتصد من شدته ثم شد ذلك بعد اللف شداً شديداً <note n="10" type="footnote">
-                                <p>Sb: om. حتى كان يستغيث … شداً شديداً‬‎</p>
-                            </note>
+							قال ‭[i,120]‬ يوسف وحدثني عيسى أنه ركب مع أبيه حكم بمدينة دمشق إذ اجتازوا بحانوت حجام قد وقف عليه بشر كثير فلما بصر بنا بعض الوقوف قال <note n="3" type="footnote"><p>Ga: om. قال</p></note>
+							أفرجوا هذا حكم المتطبب وعيسى ابنه وأفرج <note n="4" type="footnote"><p>Sb: فأفرج</p></note>
+							القوم فإذا برجل <note n="5" type="footnote"><p>GcSb: رجل</p></note>
+							قد فصده الحجام في العرق الباسليق وقد فصده فصداً واسعاً <note n="6" type="footnote"><p>Sb: في الباسليق فصداً واسعاً</p></note>
+							وكان الباسليق على الشريان فلم يحسن الحجام تعليق العرق فأصاب الشريان ولم يكن عند الحجام حيلة في قطع الدم واستعملنا الحيلة في <note n="7" type="footnote"><p>Ga: om. قطع الدم واستعملنا الحيلة في</p></note>
+							قطعه بالرفائد ونسج العنكبوت والوبر فلم ينقطع بذلك فسألني والذي عن حيلة فأعلمته أنه لا حيلة عندي فدعا بفستقة فشقها وطرح ما فيها وأخذ أحد نصفي القشر فجعله على موضع الفصد ثم أخذ حاشية من ثوب كتان غليظ فلف بها موضع الفصد على قشر الفستقة <note n="8" type="footnote"><p>Sb: علىbالقشر</p></note>
+							لفاً شديداً حتى كان <note n="9" type="footnote"><p>Gc: كاد</p></note>
+							يستغيث المفتصد من شدته ثم شد ذلك بعد اللف شداً شديداً <note n="10" type="footnote"><p>Sb: om. حتى كان يستغيث … شداً شديداً‬‎</p></note>
 							وأمر بحمل الرجل إلى نهر بردى وأدخل يده في الماء ووطّأ له على شاطئ النهر ونومه عليه وأمر فحسى محات بيض نيمرشت ووكل به تلميذاً من تلامذته وأمره بمنعه من إخراج يده من موضع الفصد من الماء إلا عند وقت الصلاة أو يتخوف عليه الموت من شدة البرد فإن تخوف ذلك أذِن له في إخراج يده هنيهة ثم أمره بردها ففعل ذلك إلى الليل ثم أمر بحمله إلى منزله ونهاه عن تغطية موضع الفصد وعن حل الشد قبل استتمام خمسة أيام ففعل ذلك إلا أنه صار إليه في اليوم الثالث وقد ورم عضده وذراعه ورماً شديداً فنفس من الشد شيئاً يسيراً وقال للرجل الورم أسهل من الموت
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٠‬ب‬‎"/>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٠‬ب‬‎" />
 							فلما كان في اليوم الخامس حل الشداد فوجدنا قشر الفستقة ملتصقاً بلحم الرجل فقال والدي للرجل بهذا القشر نجوت من الموت فإن خلعت هذا القشر قبل انخلاعه وسقوطه من غير فعل منك تلفت نفسك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال عيسى فسقط القشر في اليوم السابع وبقي في <note n="11" type="footnote">
-                                <p>Sb: om.</p>
-                            </note>
-							مكانه دم يابس في خلقة الفستقة فنهاه والدي عن العبث به أو حك ما حوله أو فتّ شيء من ذلك الدم فلم يزل ذلك الدم <note n="12" type="footnote">
-                                <p>ASb: om. فلم يزل ذلك الدم</p>
-                            </note>
-							يتحات حتى انكشف موضع الفصد <note n="13" type="footnote">
-                                <p>A: الفصادة, in the right margin: الفصد صح</p>
-                            </note>
-							في <note n="14" type="footnote">
-                                <p>Ga: om. ذلك الدم … الفصد في‬‎</p>
-                            </note>
+							قال عيسى فسقط القشر في اليوم السابع وبقي في <note n="11" type="footnote"><p>Sb: om.</p></note>
+							مكانه دم يابس في خلقة الفستقة فنهاه والدي عن العبث به أو حك ما حوله أو فتّ شيء من ذلك الدم فلم يزل ذلك الدم <note n="12" type="footnote"><p>ASb: om. فلم يزل ذلك الدم</p></note>
+							يتحات حتى انكشف موضع الفصد <note n="13" type="footnote"><p>A: الفصادة, in the right margin: الفصد صح</p></note>
+							في <note n="14" type="footnote"><p>Ga: om. ذلك الدم … الفصد في‬‎</p></note>
 							أكثر من أربعين ليلة وبرأ الرجل.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="8">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.8]‬ عيسى بن حكم الدمشقي <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.8]‬ عيسى بن حكم الدمشقي <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1699,77 +973,39 @@
 							<hi rend="bold">[‭7.8.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال يوسف بن إبراهيم <note n="2" type="footnote">
-                                <p>Sb: om. بن إبراهيم</p>
-                            </note>
-							حدثني عيسى بن الحكم <note n="3" type="footnote">
-                                <p>Gc: الحاكم</p>
-                            </note>
-							أنه عرض لغضيض أم ولد الرشيد قولنج فأحضرته وأحضرت الأبح والطبري الحاسبين <note n="4" type="footnote">
-                                <p>Marginal note in A, incorporated to the main text in Sb: حاشية كان هذان من الفضلاء في علم النجوم ولكل واحد منهما تصانيف في هذا الفن</p>
-                            </note>
-							وسألت عيسى عما يرى معالجتها به قال عيسى فأعلمتها أن القولنج قد استحكم بها استحكاماً إن لم تبادره بالحقنة لم يؤمن عليها التلف فقالت للأبح والطبري اختارا لي وقتاً أتعالج فيه فقال لها الأبح علتك هذه ليست من العلل التي يمكن أن يؤخر لها العلاج إلى وقت يحمده المنجمون وأنا أرى أن <note n="5" type="footnote">
-                                <p>Gc: om. أن</p>
-                            </note>
-							تبادري بالعلاج قبل أن تعملي عملاً وكذلك يرى عيسى بن حكم فسألتني فأعلمتها أن الأبح قد صدقها <note n="6" type="footnote">
-                                <p>Ga: add. فيها</p>
-                            </note>
-							فسألت الطبري عن رأيه فقال القمر اليوم مع زحل وهو في غد مع المشتري وأنا أرى لك أن تؤخري العلاج إلى مقارنة القمر المشتري <note n="7" type="footnote">
-                                <p>Sb: om. المشتري</p>
-                            </note>
-							فقال الأبح أنا أخاف أن يصير القمر مع المشتري وقد عمل القولنج عملاً لا يحتاج معه إلى علاج فتطيرت من ذلك غضيض وابنتها أم محمد وأمرتا بإخراجه من الدار وقبلت قول الطبري فماتت غضيض قبل موافاة القمر المشتري فلما وافى القمر المشتري قال الأبح لأم محمد هذا وقت اختيار الطبري للعلاج فأين العليل حتى نعالجه فزادتها رسالته غيظاً عليه ولم تزل سيئة الرأي ‭[i,121]‬ فيه <note n="8" type="footnote">
-                                <p>Gc: om. فيه</p>
-                            </note>
+							قال يوسف بن إبراهيم <note n="2" type="footnote"><p>Sb: om. بن إبراهيم</p></note>
+							حدثني عيسى بن الحكم <note n="3" type="footnote"><p>Gc: الحاكم</p></note>
+							أنه عرض لغضيض أم ولد الرشيد قولنج فأحضرته وأحضرت الأبح والطبري الحاسبين <note n="4" type="footnote"><p>Marginal note in A, incorporated to the main text in Sb: حاشية كان هذان من الفضلاء في علم النجوم ولكل واحد منهما تصانيف في هذا الفن</p></note>
+							وسألت عيسى عما يرى معالجتها به قال عيسى فأعلمتها أن القولنج قد استحكم بها استحكاماً إن لم تبادره بالحقنة لم يؤمن عليها التلف فقالت للأبح والطبري اختارا لي وقتاً أتعالج فيه فقال لها الأبح علتك هذه ليست من العلل التي يمكن أن يؤخر لها العلاج إلى وقت يحمده المنجمون وأنا أرى أن <note n="5" type="footnote"><p>Gc: om. أن</p></note>
+							تبادري بالعلاج قبل أن تعملي عملاً وكذلك يرى عيسى بن حكم فسألتني فأعلمتها أن الأبح قد صدقها <note n="6" type="footnote"><p>Ga: add. فيها</p></note>
+							فسألت الطبري عن رأيه فقال القمر اليوم مع زحل وهو في غد مع المشتري وأنا أرى لك أن تؤخري العلاج إلى مقارنة القمر المشتري <note n="7" type="footnote"><p>Sb: om. المشتري</p></note>
+							فقال الأبح أنا أخاف أن يصير القمر مع المشتري وقد عمل القولنج عملاً لا يحتاج معه إلى علاج فتطيرت من ذلك غضيض وابنتها أم محمد وأمرتا بإخراجه من الدار وقبلت قول الطبري فماتت غضيض قبل موافاة القمر المشتري فلما وافى القمر المشتري قال الأبح لأم محمد هذا وقت اختيار الطبري للعلاج فأين العليل حتى نعالجه فزادتها رسالته غيظاً عليه ولم تزل سيئة الرأي ‭[i,121]‬ فيه <note n="8" type="footnote"><p>Gc: om. فيه</p></note>
 							حتى توفيت.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.8.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال يوسف نزلت على عيسى بن حكم في منزله بدمشق سنة خمس وعشرين ومائتين وبي نزلة صعبة فكان يغذوني بأغذية طيبة ويسقيني الثلج فكنت أنكر ذلك وأعلمه أن تلك الأغذية <note n="9" type="footnote">
-                                <p>Ga: om. طيبة ويسقيني … تلك الأغذية‬‎</p>
-                            </note>
-							مضرة بالنزلة فيعتل علي بالهواء ويقول أنا أعلم بهواء بلدي منك وهذه الأشياء المضرة بالعراق نافعة بدمشق فكنت أغتذي بما يغذوني به فلما خرجت عن البلد خرج مشيعاً لي حتى صرنا إلى الموضع المعروف بالراهب وهو الموضع الذي فارقني فيه فقال لي <note n="10" type="footnote">
-                                <p>Gc: om. لي</p>
-                            </note>
+							قال يوسف نزلت على عيسى بن حكم في منزله بدمشق سنة خمس وعشرين ومائتين وبي نزلة صعبة فكان يغذوني بأغذية طيبة ويسقيني الثلج فكنت أنكر ذلك وأعلمه أن تلك الأغذية <note n="9" type="footnote"><p>Ga: om. طيبة ويسقيني … تلك الأغذية‬‎</p></note>
+							مضرة بالنزلة فيعتل علي بالهواء ويقول أنا أعلم بهواء بلدي منك وهذه الأشياء المضرة بالعراق نافعة بدمشق فكنت أغتذي بما يغذوني به فلما خرجت عن البلد خرج مشيعاً لي حتى صرنا إلى الموضع المعروف بالراهب وهو الموضع الذي فارقني فيه فقال لي <note n="10" type="footnote"><p>Gc: om. لي</p></note>
 							قد أعددت لك طعاماً يُحمل معك يخالف الأطعمة التي كنت تأكلها وأنا آمرك أن لا تشرب ماء بارداً ولا تأكل من مثل الأغذية التي كنت تأكلها في منزلي شيئاً فلمته على ما كان يغذوني به فقال إنه لا يحسن بالعاقل أن يلزم قوانين الطب مع ضيفه في منزله
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨١‬أ‬‎"/>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨١‬أ‬‎" />
 							.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال يوسف وتجاريت وعيسى يوماً بدمشق ذكر البصل فابترك في ذمه ووصف معايبه وكان عيسى وسلمويه بن بيان يسلكان طريق الرهبان ولا يحمدان شيئاً مما يزيد في الباه ويذكران أن ذلك مما يتلف الأبدان ويذهب الأنفس فلم استجز الاحتجاج عليه بزيادة البصل في الباه فقلت له قد رأيت له في سفري هذا أعني فيما <note n="11" type="footnote">
-                                <p>Ga: ما</p>
-                            </note>
-							بين سر من رأى ودمشق منفعة فسأل عنها فاعلمته أني كنت أذوق الماء في بعض المناهل <note n="12" type="footnote">
-                                <p>Sb: المنازل</p>
-                            </note>
-							فأصيبه مالحاً فآكل البصل الني ثم أعاود شرب الماء فأجد ملوحته قد نقصت وكان عيسى قليل الضحك فاستضحك من قولي ثم رجع إلى إظهار جزع منه ثم قال يعز علي أن يغلط مثلك هذا الغلط لأنك <note n="13" type="footnote">
-                                <p>Gc: لأنه</p>
-                            </note>
-							صرت إلى أسمج نكتة في البصل وأعيب عيب فيه فجعلتها مدحاً ثم قال <note n="14" type="footnote">
-                                <p>Gc: add. لي</p>
-                            </note>
-							أليس متى حدث في الدماغ فساد فسدت الحواس حتى ينقص <note n="15" type="footnote">
-                                <p>Ga: يفسد</p>
-                            </note>
-							حس الشم والذوق والسمع والبصر فأعلمته أن الأمر كذلك فقال لي إن خاصية البصل أحداث فساد <note n="16" type="footnote">
-                                <p>Sb: add. في</p>
-                            </note>
+							قال يوسف وتجاريت وعيسى يوماً بدمشق ذكر البصل فابترك في ذمه ووصف معايبه وكان عيسى وسلمويه بن بيان يسلكان طريق الرهبان ولا يحمدان شيئاً مما يزيد في الباه ويذكران أن ذلك مما يتلف الأبدان ويذهب الأنفس فلم استجز الاحتجاج عليه بزيادة البصل في الباه فقلت له قد رأيت له في سفري هذا أعني فيما <note n="11" type="footnote"><p>Ga: ما</p></note>
+							بين سر من رأى ودمشق منفعة فسأل عنها فاعلمته أني كنت أذوق الماء في بعض المناهل <note n="12" type="footnote"><p>Sb: المنازل</p></note>
+							فأصيبه مالحاً فآكل البصل الني ثم أعاود شرب الماء فأجد ملوحته قد نقصت وكان عيسى قليل الضحك فاستضحك من قولي ثم رجع إلى إظهار جزع منه ثم قال يعز علي أن يغلط مثلك هذا الغلط لأنك <note n="13" type="footnote"><p>Gc: لأنه</p></note>
+							صرت إلى أسمج نكتة في البصل وأعيب عيب فيه فجعلتها مدحاً ثم قال <note n="14" type="footnote"><p>Gc: add. لي</p></note>
+							أليس متى حدث في الدماغ فساد فسدت الحواس حتى ينقص <note n="15" type="footnote"><p>Ga: يفسد</p></note>
+							حس الشم والذوق والسمع والبصر فأعلمته أن الأمر كذلك فقال لي إن خاصية البصل أحداث فساد <note n="16" type="footnote"><p>Sb: add. في</p></note>
 							الدماغ فإنما قلل حسك بملوحة الماء ما أحدث البصل في دماغك من الفساد.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال <note n="17" type="footnote">
-                                <p>Gc: add. يوسف</p>
-                            </note>
-							وقال لي عيسى وقد شيعني إلى الراهب وهو آخر كلام دار بيني وبينه أن والدي توفي وهو ابن مائة سنة وخمس سنين لم يتشنج له وجه ولم ينقص من ماء وجهه <note n="18" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 250: ولم يتغير ماء وجهه</p>
-                            </note>
-							لأشياء كان يفعلها <note n="19" type="footnote">
-                                <p>A: يعملها, in the left margin: يفعلها صح</p>
-                            </note>
-							وأنا الآن مزودكها فاعمل بها وهي ألا تذوق القديد ولا تغسل يديك ورجليك عند خروجك من الحمام أبداً إلا بماء بارد أبرد ما يمكنك والزم ذلك فإنه ينفعك فلزمت ما أمرني به من هذا الباب إلا أني ربما مصصت القطعة الصغيرة من القديد في السنة وفي الأكثر من ذلك. <note n="20" type="footnote">
-                                <p>Gc: om. من هذا الباب … الأكثر من ذلك‬‎</p>
-                            </note>
+							قال <note n="17" type="footnote"><p>Gc: add. يوسف</p></note>
+							وقال لي عيسى وقد شيعني إلى الراهب وهو آخر كلام دار بيني وبينه أن والدي توفي وهو ابن مائة سنة وخمس سنين لم يتشنج له وجه ولم ينقص من ماء وجهه <note n="18" type="footnote"><p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 250: ولم يتغير ماء وجهه</p></note>
+							لأشياء كان يفعلها <note n="19" type="footnote"><p>A: يعملها, in the left margin: يفعلها صح</p></note>
+							وأنا الآن مزودكها فاعمل بها وهي ألا تذوق القديد ولا تغسل يديك ورجليك عند خروجك من الحمام أبداً إلا بماء بارد أبرد ما يمكنك والزم ذلك فإنه ينفعك فلزمت ما أمرني به من هذا الباب إلا أني ربما مصصت القطعة الصغيرة من القديد في السنة وفي الأكثر من ذلك. <note n="20" type="footnote"><p>Gc: om. من هذا الباب … الأكثر من ذلك‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1779,24 +1015,16 @@
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2846" n="7.8.4no1" change="#change-1" cert="low">
-								كناش <note n="21" type="footnote">
-                                    <p>Gc: om. كناش</p>
-                                </note>
-							</title>
-                            </item>
+								كناش <note n="21" type="footnote"><p>Gc: om. كناش</p></note>
+							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2847" n="7.8.4no2" change="#change-1" cert="low">كتاب منافع الحيوان.</title>
-                            </item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب منافع الحيوان.</item>
 						</list>
 					</div>
 					<div type="textpart" subtype="biography" n="9">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.9]‬ تياذوق <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.9]‬ تياذوق <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1804,121 +1032,71 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً فاضلاً وله نوادر وألفاظ مستحسنة في صناعة الطب وعمر وكان في أول دولة بني أمية ومشهوراً عندهم بالطب وصحب أيضاً الحجاج بن يوسف الثقفي المتولي من جهة عبد الملك بن مروان وخدمه بصناعة الطب وكان يعتمد عليه ويثق بمداواته وكان له منه الجامكية الوافرة والافتقاد الكثير.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومن كلام تياذوق للحجاج <note n="2" type="footnote">
-                                <p>Sb: add. قال</p>
-                            </note>
+							ومن كلام تياذوق للحجاج <note n="2" type="footnote"><p>Sb: add. قال</p></note>
 							لا تنكح إلا شابة ولا تأكل من اللحم إلا فتياً نضيجاً ولا تشرب الدواء إلا من علة ولا تأكل الفاكهة إلا في أوان نضجها وأجد مضغ الطعام وإذا أكلت نهاراً فلا بأس أن تنام وإذا أكلت ليلاً فلا تنم حتى تمشي ولو خمسين خطوة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فقال له <note n="3" type="footnote">
-                                <p>Sb: om. له</p>
-                            </note>
+							فقال له <note n="3" type="footnote"><p>Sb: om. له</p></note>
 							بعض من حضر إذا كان الأمر كما تقول فلم هلك بقراط ولم هلك جالينوس وغيرهما ولم يبق أحد منهم قال يا بني قد احتججت فاسمع
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨١‬ب‬‎"/>
-							إن القوم دبّروا أنفسهم بما <note n="4" type="footnote">
-                                <p>Sb: مما</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨١‬ب‬‎" />
+							إن القوم دبّروا أنفسهم بما <note n="4" type="footnote"><p>Sb: مما</p></note>
 							يملكون ‭[i,122]‬ وغلبهم ما لا يملكون يعني الموت وما يرد بسبب من خارج كالحر والبرد والوقوع والغرق والجراح والغم وما أشبه ذلك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأوصى أيضاً تياذوق <note n="5" type="footnote">
-                                <p>GcSb: تياذوق أيضاً</p>
-                            </note>
+							وأوصى أيضاً تياذوق <note n="5" type="footnote"><p>GcSb: تياذوق أيضاً</p></note>
 							للحجاج فقال لا تأكلن حتى تجوع ولا تتكارهنّ على الجماع ولا تحبس البول وخذ من الحمام قبل أن يأخذ منك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال أيضاً <note n="6" type="footnote">
-                                <p>Gc: om. أيضاً</p>
-                            </note>
-							للحجاج أربعة تهدم العمر وربما قتلن دخول الحمام على البطنة والمجامعة على الامتلاء وأكل القديد الجاف وشرب الماء البارد على الريق وما <note n="7" type="footnote">
-                                <p>Ga: om. وما; Sb: وأما</p>
-                            </note>
-							مجامعة العجوز ببعيدة <note n="8" type="footnote">
-                                <p>A: ببعيد</p>
-                            </note>
+							وقال أيضاً <note n="6" type="footnote"><p>Gc: om. أيضاً</p></note>
+							للحجاج أربعة تهدم العمر وربما قتلن دخول الحمام على البطنة والمجامعة على الامتلاء وأكل القديد الجاف وشرب الماء البارد على الريق وما <note n="7" type="footnote"><p>Ga: om. وما; Sb: وأما</p></note>
+							مجامعة العجوز ببعيدة <note n="8" type="footnote"><p>A: ببعيد</p></note>
 							منهن.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.9.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قيل ومن أخباره مع الحجاج أنه دخل عليه يوماً فقال له الحجاج أي شيء دواء أكل الطين فقال عزيمة مثلك أيها الأمير فرمى الحجاج بالطين من يده ولم يعد إليه أبداً <note n="9" type="footnote">
-                                <p>GaGcSb: om. قيل ومن أخباره … ولم يعد إليه أبداً‬‎</p>
-                            </note>
-							ووجد الحجاج في رأسه صداعاً فبعث إلى تياذوق وأحضره فقال اغسل رجليك بماء حار وادهنهما وخصي للحجاج قائم على رأسه فقال والله ما رأيت طبيباً أقل معرفة بالطب منك شكا الأمير الصداع في رأسه فتصف له دواء في رجليه فقال له أما أن علامة ما قلت <note n="10" type="footnote">
-                                <p>A: om. قلت</p>
-                            </note>
-							فيك بينة قال الخصي وما <note n="11" type="footnote">
-                                <p>R: أوما</p>
-                            </note>
-							هي قال نُزعت خصيتاك فذهب شعر لحيتك فضحك الحجاج ومن حضر. <note n="12" type="footnote">
-                                <p>R: om. قيل ومن أخباره … ومن حضر‬‎</p>
-                            </note>
+							قيل ومن أخباره مع الحجاج أنه دخل عليه يوماً فقال له الحجاج أي شيء دواء أكل الطين فقال عزيمة مثلك أيها الأمير فرمى الحجاج بالطين من يده ولم يعد إليه أبداً <note n="9" type="footnote"><p>GaGcSb: om. قيل ومن أخباره … ولم يعد إليه أبداً‬‎</p></note>
+							ووجد الحجاج في رأسه صداعاً فبعث إلى تياذوق وأحضره فقال اغسل رجليك بماء حار وادهنهما وخصي للحجاج قائم على رأسه فقال والله ما رأيت طبيباً أقل معرفة بالطب منك شكا الأمير الصداع في رأسه فتصف له دواء في رجليه فقال له أما أن علامة ما قلت <note n="10" type="footnote"><p>A: om. قلت</p></note>
+							فيك بينة قال الخصي وما <note n="11" type="footnote"><p>R: أوما</p></note>
+							هي قال نُزعت خصيتاك فذهب شعر لحيتك فضحك الحجاج ومن حضر. <note n="12" type="footnote"><p>R: om. قيل ومن أخباره … ومن حضر‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وشكا الحجاج ضعفاً في معدته وقصوراً في الهضم إلى تياذوق فقال يكون الأمير يحضر بين يديه الفستق الأحمر القشر البراني ويكسره ويأكل من لبه فإن ذلك يقوي المعدة فلما أمسى الحجاج بعث إلى حظاياه وقال إن تياذوق وصف لي الفستق فبعث إليه كل واحدة منهن صينية فيها قلوب فستق فأكل من ذلك حتى امتلأ وأصابته بعقبه هيضة كادت تأتي على نفسه فشكا حاله إلى تياذوق وقال <note n="13" type="footnote">
-                                <p>Sb: فقال</p>
-                            </note>
-							وصفت لي شيئاً أضرَّ بي وذكر له ما تناول فقال له إنما قلت لك إن يحضر عندك الفستق بقشره البراني فتكسر الواحدة بعد الواحدة وتلوك قشرها البراني وفيه العطرية والقبض فيكون <note n="14" type="footnote">
-                                <p>R: ليكون</p>
-                            </note>
-							بذلك تقوية المعدة وأنت فقد عملت غير ما قلت لك وداواه مما عرض له. <note n="15" type="footnote">
-                                <p>GaGcSb: add. ومن أخباره … ولم يعد إليه أبداً‬‎; R: add. قيل ومن أخباره … ومن حضر‬‎</p>
-                            </note>
+							وشكا الحجاج ضعفاً في معدته وقصوراً في الهضم إلى تياذوق فقال يكون الأمير يحضر بين يديه الفستق الأحمر القشر البراني ويكسره ويأكل من لبه فإن ذلك يقوي المعدة فلما أمسى الحجاج بعث إلى حظاياه وقال إن تياذوق وصف لي الفستق فبعث إليه كل واحدة منهن صينية فيها قلوب فستق فأكل من ذلك حتى امتلأ وأصابته بعقبه هيضة كادت تأتي على نفسه فشكا حاله إلى تياذوق وقال <note n="13" type="footnote"><p>Sb: فقال</p></note>
+							وصفت لي شيئاً أضرَّ بي وذكر له ما تناول فقال له إنما قلت لك إن يحضر عندك الفستق بقشره البراني فتكسر الواحدة بعد الواحدة وتلوك قشرها البراني وفيه العطرية والقبض فيكون <note n="14" type="footnote"><p>R: ليكون</p></note>
+							بذلك تقوية المعدة وأنت فقد عملت غير ما قلت لك وداواه مما عرض له. <note n="15" type="footnote"><p>GaGcSb: add. ومن أخباره … ولم يعد إليه أبداً‬‎; R: add. قيل ومن أخباره … ومن حضر‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.9.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقيل إن بعض الملوك <note n="16" type="footnote">
-                                <p>In right margin of A: أن بعض الملوك</p>
-                            </note>
+							وقيل إن بعض الملوك <note n="16" type="footnote"><p>In right margin of A: أن بعض الملوك</p></note>
 							لما رأى تياذوق وقد شاخ وكبر سنه وخشي أن يموت ولا يعتاض عنه لأنه كان أعلم الناس وأحذق الأمة في وقته بالطب فقال له صف لي ما أعتمد عليه فأسوس به نفسي وأعمل به أيام حياتي فلست آمن أن يحدث عليك حدث الموت ولا أجد مثلك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فقال تياذوق أيها الملك بالخيرات أقول لك عشرة أبواب إن علمت واجتنبتها لم تعتل مدة <note n="17" type="footnote">
-                                <p>Sb: أيام, above the line مدة</p>
-                            </note>
+							فقال تياذوق أيها الملك بالخيرات أقول لك عشرة أبواب إن علمت واجتنبتها لم تعتل مدة <note n="17" type="footnote"><p>Sb: أيام, above the line مدة</p></note>
 							حياتك وهذه عشر كلمات لا تأكل طعاماً وفي معدتك طعام ولا تأكل ما تضعف أسنانك عن مضغه فتضعف معدتك عن هضمه ولا تشرب الماء على الطعام
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٢‬أ‬‎"/>
-							حتى تفرغ ساعتين فإن أصل الداء التخمة وأصل التخمة <note n="18" type="footnote">
-                                <p>In margin of Ga: صح وأصل التخمة</p>
-                            </note>
-							الماء على الطعام وعليك بدخول الحمام في كل يومين مرة واحدة فإنه يخرج من جسدك ما لا يصل إليه الدواء وأكثر الدم في بدنك تحرس به نفسك وعليك في كل فصل <note n="19" type="footnote">
-                                <p>Ga: وعليك كل يوم</p>
-                            </note>
-							قيئة ومسهلة ولا تحبس البول وإن كنت راكباً واعرض نفسك على الخلاء <note n="20" type="footnote">
-                                <p>Sb: الخلاة</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٢‬أ‬‎" />
+							حتى تفرغ ساعتين فإن أصل الداء التخمة وأصل التخمة <note n="18" type="footnote"><p>In margin of Ga: صح وأصل التخمة</p></note>
+							الماء على الطعام وعليك بدخول الحمام في كل يومين مرة واحدة فإنه يخرج من جسدك ما لا يصل إليه الدواء وأكثر الدم في بدنك تحرس به نفسك وعليك في كل فصل <note n="19" type="footnote"><p>Ga: وعليك كل يوم</p></note>
+							قيئة ومسهلة ولا تحبس البول وإن كنت راكباً واعرض نفسك على الخلاء <note n="20" type="footnote"><p>Sb: الخلاة</p></note>
 							قبل نومك ولا تكثر الجماع فإنه يقتبس من نار الحياة فليكثر أو يقل ولا تجامع العجوز فإنه يورث الموت الفجأة فلما سمع الملك ذلك أمر كاتبه أن يكتب هذه الألفاظ بالذهب الأحمر ويضعه في صندوق من ذهب مرصع وبقي ينظر إليه في كل يوم ويعمل به فلم يعتل مدة حياته حتى جاءه الموت الذي لا بد منه ولا محيص عنه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭7.9.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وذكر إبراهيم بن القاسم الكاتب قال قال الحجاج لابنه محمد يا بني إن تياذوق الطبيب كان قد ‭[i,123]‬ أوصاني في تدبير الصحة بوصية كنت استعملها فلم أر إلا خيراً ولما حضرته الوفاة دخلت عليه أعوده فقال الزم <note n="21" type="footnote">
-                                <p>Ga: الزمت</p>
-                            </note>
-							ما كنت وصيتك به وما نسيت منها فلا تنس لا تشربن دواء حتى تحتاج إليه ولا تأكلن طعاماً وفي جوفك <note n="22" type="footnote">
-                                <p>Sb: معدتك</p>
-                            </note>
+							وذكر إبراهيم بن القاسم الكاتب قال قال الحجاج لابنه محمد يا بني إن تياذوق الطبيب كان قد ‭[i,123]‬ أوصاني في تدبير الصحة بوصية كنت استعملها فلم أر إلا خيراً ولما حضرته الوفاة دخلت عليه أعوده فقال الزم <note n="21" type="footnote"><p>Ga: الزمت</p></note>
+							ما كنت وصيتك به وما نسيت منها فلا تنس لا تشربن دواء حتى تحتاج إليه ولا تأكلن طعاماً وفي جوفك <note n="22" type="footnote"><p>Sb: معدتك</p></note>
 							طعام وإذا أكلت فامش أربعين خطوة وإذا امتلأت من الطعام فنم على جنبك الأيسر ولا تأكلن الفاكهة وهي مولية ولا تأكلن من اللحم إلا فتياً ولا تنكحن عجوزاً وعليك بالسواك ولا تتبعن اللحم اللحم فإن إدخال اللحم على اللحم يقتل الأُسود في الفلوات.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وقال أيضاً إبراهيم بن القاسم الكاتب في كتاب أخبار <note n="23" type="footnote">
-                                <p>Sb: إبراهيم بن القاسم الكتاب في أخبار</p>
-                            </note>
-							الحجاج إن الحجاج لما قتل سعيد بن جبير رحمه الله وكان من خيار التابعين وجرى بينهما كلام كثير وأمر به فذبح بين يديه وخرج منه دم كثير <note n="24" type="footnote">
-                                <p>GaRSb: عظيم</p>
-                            </note>
-							استكثره وهاله فقال الحجاج لتياذوق طبيبه ما هذا قال لاجتماع نفسه وإنه لم يجزع <note n="25" type="footnote">
-                                <p>Sb: يخرج</p>
-                            </note>
-							من الموت ولا هاب ما فعلت به وغيره تقتله وهو مفترق النفس فيقل دمه <note n="26" type="footnote">
-                                <p>R: نفسه</p>
-                            </note>
+							وقال أيضاً إبراهيم بن القاسم الكاتب في كتاب أخبار <note n="23" type="footnote"><p>Sb: إبراهيم بن القاسم الكتاب في أخبار</p></note>
+							الحجاج إن الحجاج لما قتل سعيد بن جبير رحمه الله وكان من خيار التابعين وجرى بينهما كلام كثير وأمر به فذبح بين يديه وخرج منه دم كثير <note n="24" type="footnote"><p>GaRSb: عظيم</p></note>
+							استكثره وهاله فقال الحجاج لتياذوق طبيبه ما هذا قال لاجتماع نفسه وإنه لم يجزع <note n="25" type="footnote"><p>Sb: يخرج</p></note>
+							من الموت ولا هاب ما فعلت به وغيره تقتله وهو مفترق النفس فيقل دمه <note n="26" type="footnote"><p>R: نفسه</p></note>
 							لذلك.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -1928,72 +1106,44 @@
 						<p style="direction:rtl; unicode-bidi:embed">ولتياذوق من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2848" n="7.9.5no1" change="#change-1" cert="low">كناش كبير ألفه لابنه</title>
-                            </item>
+							<item style="direction:rtl; unicode-bidi:embed">كناش كبير ألفه لابنه</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2849" n="7.9.5no2" change="#change-1" cert="low">كتاب أبدال الأدوية وكيفية دقها وإنقاعها وإذابتها</title>
-                            </item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب أبدال الأدوية وكيفية دقها وإنقاعها وإذابتها</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2850" n="7.9.5no3" change="#change-1" cert="low">وشيء من تفسير أسماء الأدوية.</title>
-                            </item>
+							<item style="direction:rtl; unicode-bidi:embed">وشيء من تفسير أسماء الأدوية.</item>
 						</list>
 					</div>
 					<div type="textpart" subtype="biography" n="10">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-								‭[7.10]‬ زينب طبيبة بني أود <note n="1" type="footnote">
-                                    <p>This biography is included in all three versions of the work.</p>
-                                </note>
+								‭[7.10]‬ زينب طبيبة بني أود <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كانت عارفة بالأعمال الطبية خبيرة بالعلاج ومداواة آلام العين والجراحات مشهورة بين العرب بذلك.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال أبو الفرج الأصبهاني في كتاب الأغاني الكبير <note n="2" type="footnote">
-                                <p>Gc: add. قال</p>
-                            </note>
-							أخبرنا محمد بن خلف المرزبان قال حدثني حماد بن إسحاق عن أبيه عن ابن <note n="3" type="footnote">
-                                <p>Gc: om. أخبرنا محمد … أبيه عن ابن‬‎</p>
-                            </note>
-							كناسة عن أبيه عن جده قال أتيت <note n="4" type="footnote">
-                                <p>R: قال زينب</p>
-                            </note>
+							قال أبو الفرج الأصبهاني في كتاب الأغاني الكبير <note n="2" type="footnote"><p>Gc: add. قال</p></note>
+							أخبرنا محمد بن خلف المرزبان قال حدثني حماد بن إسحاق عن أبيه عن ابن <note n="3" type="footnote"><p>Gc: om. أخبرنا محمد … أبيه عن ابن‬‎</p></note>
+							كناسة عن أبيه عن جده قال أتيت <note n="4" type="footnote"><p>R: قال زينب</p></note>
 							امرأة من بني أود لتكحلني من رمد كان قد أصابني فكحلتني ثم قالت
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٢‬ب‬‎"/>
-							اضطجع <note n="5" type="footnote">
-                                <p>Sb: اضطح</p>
-                            </note>
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٨٢‬ب‬‎" />
+							اضطجع <note n="5" type="footnote"><p>Sb: اضطح</p></note>
 							قليلاً حتى يدور الدواء في عينيك فاضطجعت ثم تمثلت قول الشاعر:‬‎
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
-									أمخترمي <note n="6" type="footnote">
-                                        <p>A: امخٮرى</p>
-                                    </note>
+									أمخترمي <note n="6" type="footnote"><p>A: امخٮرى</p></note>
 									رَيْبُ المَنونِ ولم أزُرْ‬‎
 								</l>
 								<l style="direction:rtl; unicode-bidi:embed">طبيبَ بني أوْدٍ عـلـى النـأْي زينـبا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
-							فضحكت ثم قالت أتدري فيمن قيل هذا الشعر قلت لا قالت فيَّ <note n="7" type="footnote">
-                                <p>Gc: om. فيَّ</p>
-                            </note>
-							والله قيل <note n="8" type="footnote">
-                                <p>Sb: وأقيل</p>
-                            </note>
-							وأنا زينب <note n="9" type="footnote">
-                                <p>Sb: add بنت</p>
-                            </note>
-							التي عناها وأنا طبيبة بني أود أفتدري من الشاعر قلت لا قالت <note n="10" type="footnote">
-                                <p>R: om: فيَّ والله … لا قالت‬‎</p>
-                            </note>
-							عمك أبو سماك الأسدي. <note n="11" type="footnote">
-                                <p>Sb: om. أبو سماك الأسدي</p>
-                            </note>
+							فضحكت ثم قالت أتدري فيمن قيل هذا الشعر قلت لا قالت فيَّ <note n="7" type="footnote"><p>Gc: om. فيَّ</p></note>
+							والله قيل <note n="8" type="footnote"><p>Sb: وأقيل</p></note>
+							وأنا زينب <note n="9" type="footnote"><p>Sb: add بنت</p></note>
+							التي عناها وأنا طبيبة بني أود أفتدري من الشاعر قلت لا قالت <note n="10" type="footnote"><p>R: om: فيَّ والله … لا قالت‬‎</p></note>
+							عمك أبو سماك الأسدي. <note n="11" type="footnote"><p>Sb: om. أبو سماك الأسدي</p></note>
 							‬‎
 						</p>
 					</div>
