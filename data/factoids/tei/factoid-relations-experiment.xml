@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <listEvent>
+               <event>
+                  <desc>
+                     In 
+                     <choice>
+                        <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                        <orig><date when-custom="445" datingMethod="Hijri">445</date></orig>
+                     </choice>,
+                     <persName ref="https://usaybia.net/person/1">Person 1</persName>
+                     sent 
+                     <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                     with 
+                     <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName>
+                     from 
+                     <placeName ref="https://usaybia.net/place/1">Place 1</placeName>.
+                     <listRelation>
+                        <relation ref="syriaca:sentPersonWithObject" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:sentPersonWithObject" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                     </listRelation>
+                  </desc>
+               </event>
+               <listRelation>
+                  <relation name="syriaca:precedes" 
+                     active="https://usaybia.net/factoid/1"
+                     passive="https://usaybia.net/factoid/2"/>
+               </listRelation>
+            </listEvent>
+         </div>
+         <div>
+            <listEvent>
+               <event>
+                  <desc>
+                     In 
+                     <choice>
+                        <reg><date when="1054" calendar="Gregorian">1054</date></reg>
+                        <orig><date when-custom="446" datingMethod="Hijri">446</date></orig>
+                     </choice>,
+                     <persName ref="https://usaybia.net/person/3">Person 3</persName>
+                     received 
+                     <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName>
+                     brought by 
+                     <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                     at 
+                     <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                     <listRelation>
+                        <relation ref="syriaca:receivedObjectFromPerson" 
+                           active="https://usaybia.net/person/2" 
+                           passive="https://usaybia.net/person/3"/>
+                        <relation ref="syriaca:receivedObjectFromPerson" 
+                           active="https://usaybia.net/person/2" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                     </listRelation>
+                  </desc>
+               </event>
+            </listEvent>
+         </div>
+         <!-- OR -->
+         <div>
+            <listRelation type="srophe:cluster" ana="http://syriaca.org/keyword/sendingObject">
+               <desc>
+                  <listEvent>
+                     <event xml:id="event1">
+                        <desc>
+                           In 
+                           <choice>
+                              <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                              <orig><date when-custom="445" datingMethod="Hijri">445</date></orig>
+                           </choice>,
+                           <persName ref="https://usaybia.net/person/1">Person 1</persName>
+                           sent 
+                           <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                           with 
+                           <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName>
+                           from 
+                           <placeName ref="https://usaybia.net/place/1">Place 1</placeName>.
+                        </desc>
+                     </event>
+                     <event xml:id="event2">
+                        <desc>
+                           In 
+                           <choice>
+                              <reg><date when="1054" calendar="Gregorian">1054</date></reg>
+                              <orig><date when-custom="446" datingMethod="Hijri">446</date></orig>
+                           </choice>,
+                           <persName ref="https://usaybia.net/person/3">Person 3</persName>
+                           received 
+                           <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName>
+                           brought by 
+                           <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                           at 
+                           <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                        </desc>
+                     </event>
+                  </listEvent>
+               </desc>
+               <relation ref="syriaca:sentPersonWithObject" 
+                  active="https://usaybia.net/person/1" 
+                  passive="https://usaybia.net/person/2"
+                  datingPoint="#event1"/>
+               <relation ref="syriaca:sentPersonWithObject" 
+                  active="https://usaybia.net/person/1" 
+                  passive="https://usaybia.net/manuscript/1"
+                  datingPoint="#event1"/>
+               <relation ref="syriaca:receivedObjectFromPerson" 
+                  active="https://usaybia.net/person/2" 
+                  passive="https://usaybia.net/person/3"
+                  datingPoint="#event2"/>
+               <relation ref="syriaca:receivedObjectFromPerson" 
+                  active="https://usaybia.net/person/2" 
+                  passive="https://usaybia.net/manuscript/1"
+                  datingPoint="#event2"/>
+         </listRelation>
+         </div>
+         
+      </body>
+  </text>
+</TEI>
