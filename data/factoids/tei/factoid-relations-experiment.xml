@@ -18,7 +18,193 @@
   </teiHeader>
   <text>
       <body>
-         <div>
+         <!-- Basic example with only one date -->
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-1" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-1</idno>
+            <listEvent>
+               <event>
+                  <desc>
+                     In 
+                     <choice>
+                        <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                        <orig><date when-custom="445" datingMethod="Hijri">445</date></orig>
+                     </choice>,
+                     <persName ref="https://usaybia.net/person/1">Person 1</persName>
+                     sent 
+                     <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                     with 
+                     <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName> 
+                     from 
+                     <placeName ref="https://usaybia.net/place/1">Place 1</placeName>
+                     to 
+                     <persName ref="https://usaybia.net/person/3">Person 3</persName> 
+                     at 
+                     <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                     <listRelation>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/place/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/place/2"/>
+                     </listRelation>
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
+         </div>
+         <!-- Option 1 for multiple dates: Use @when|@notBefore|@notAfter|@from|@to on relations -->
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-2" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-2</idno>
+            <listEvent>
+               <event>
+                  <desc>
+                     In 
+                     <choice>
+                        <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                        <orig><date when-custom="445" datingMethod="Hijri">445</date></orig>
+                     </choice>,
+                     <persName ref="https://usaybia.net/person/1">Person 1</persName>
+                     sent 
+                     <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                     with 
+                     <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName> 
+                     from 
+                     <placeName ref="https://usaybia.net/place/1">Place 1</placeName>
+                     to 
+                     <persName ref="https://usaybia.net/person/3">Person 3</persName>, 
+                     arriving in 
+                     <choice>
+                        <reg><date when="1054" calendar="Gregorian">1054</date></reg>
+                        <orig><date when-custom="446" datingMethod="Hijri">446</date></orig>
+                     </choice>
+                     at 
+                     <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                     <listRelation>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           when="1053"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           when="1053"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           when="1053"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/place/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           when="1054"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           when="1054"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           when="1054"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/place/2"/>
+                     </listRelation>
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
+         </div>
+         <!-- Option 2 for multiple dates: Use @datingPoint on relations -->
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-3" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-3</idno>
+            <listEvent>
+               <event>
+                  <desc>
+                     In 
+                     <choice xml:id="date-1-1">
+                        <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                        <orig><date when-custom="445" datingMethod="Hijri">445</date></orig>
+                     </choice>,
+                     <persName ref="https://usaybia.net/person/1">Person 1</persName>
+                     sent 
+                     <persName ref="https://usaybia.net/person/2">Person 2</persName>
+                     with 
+                     <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName> 
+                     from 
+                     <placeName ref="https://usaybia.net/place/1">Place 1</placeName>
+                     to 
+                     <persName ref="https://usaybia.net/person/3">Person 3</persName>, 
+                     arriving in 
+                     <choice xml:id="date-1-2">
+                        <reg><date when="1054" calendar="Gregorian">1054</date></reg>
+                        <orig><date when-custom="446" datingMethod="Hijri">446</date></orig>
+                     </choice>
+                     at 
+                     <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                     <listRelation>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           datingPoint="#date-1-1"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           datingPoint="#date-1-1"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           datingPoint="#date-1-1"
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/place/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           datingPoint="#date-1-2"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           datingPoint="#date-1-2"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           datingPoint="#date-1-2"
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/place/2"/>
+                     </listRelation>
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
+         </div>
+         <!-- Option 3 for multiple dates: Split event into two factoids and relate them using listEvent/listRelation -->
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-4" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
             <listEvent>
                <event>
                   <desc>
@@ -35,23 +221,34 @@
                      from 
                      <placeName ref="https://usaybia.net/place/1">Place 1</placeName>.
                      <listRelation>
-                        <relation ref="syriaca:sentPersonWithObject" 
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
                            active="https://usaybia.net/person/1" 
                            passive="https://usaybia.net/person/2"/>
-                        <relation ref="syriaca:sentPersonWithObject" 
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
                            active="https://usaybia.net/person/1" 
                            passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                           active="https://usaybia.net/person/1" 
+                           passive="https://usaybia.net/place/1"/>
                      </listRelation>
                   </desc>
                </event>
                <listRelation>
                   <relation name="syriaca:precedes" 
-                     active="https://usaybia.net/factoid/1"
-                     passive="https://usaybia.net/factoid/2"/>
+                     active="https://usaybia.net/factoid/14-25-4"
+                     passive="https://usaybia.net/factoid/14-25-5"/>
                </listRelation>
             </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
          </div>
-         <div>
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-5" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-5</idno>
             <listEvent>
                <event>
                   <desc>
@@ -68,22 +265,31 @@
                      at 
                      <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
                      <listRelation>
-                        <relation ref="syriaca:receivedObjectFromPerson" 
-                           active="https://usaybia.net/person/2" 
-                           passive="https://usaybia.net/person/3"/>
-                        <relation ref="syriaca:receivedObjectFromPerson" 
-                           active="https://usaybia.net/person/2" 
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/person/2"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
                            passive="https://usaybia.net/manuscript/1"/>
+                        <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                           active="https://usaybia.net/person/3" 
+                           passive="https://usaybia.net/place/2"/>
                      </listRelation>
                   </desc>
                </event>
             </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
          </div>
-         <!-- OR -->
-         <div>
-            <listRelation type="srophe:cluster" ana="http://syriaca.org/keyword/sendingObject">
-               <desc>
-                  <listEvent>
+         <!-- Option 4 for multiple dates: Put multiple <event> elements inside a single div/listEvent -->
+         <div 
+            type="factoid" subtype="event" 
+            xml:id="factoid-6" 
+            resp="#ngibson">
+            <idno type="URI">https://usaybia.net/factoid/14-25-6</idno>
+            <listEvent>
                      <event xml:id="event1">
                         <desc>
                            In 
@@ -98,6 +304,17 @@
                            <objectName ref="https://usaybia.net/manuscript/1">a manuscript</objectName>
                            from 
                            <placeName ref="https://usaybia.net/place/1">Place 1</placeName>.
+                           <listRelation>
+                              <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                                 active="https://usaybia.net/person/1" 
+                                 passive="https://usaybia.net/person/2"/>
+                              <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                                 active="https://usaybia.net/person/1" 
+                                 passive="https://usaybia.net/manuscript/1"/>
+                              <relation ref="syriaca:senderOfPersonWithObjectFromPlace" 
+                                 active="https://usaybia.net/person/1" 
+                                 passive="https://usaybia.net/place/1"/>
+                           </listRelation>
                         </desc>
                      </event>
                      <event xml:id="event2">
@@ -114,29 +331,25 @@
                            <persName ref="https://usaybia.net/person/2">Person 2</persName>
                            at 
                            <placeName ref="https://usaybia.net/place/2">Place 2</placeName>.
+                           <listRelation>
+                              <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                                 active="https://usaybia.net/person/3" 
+                                 passive="https://usaybia.net/person/2"/>
+                              <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                                 active="https://usaybia.net/person/3" 
+                                 passive="https://usaybia.net/manuscript/1"/>
+                              <relation ref="syriaca:receiverOfObjectFromPersonAtPlace" 
+                                 active="https://usaybia.net/person/3" 
+                                 passive="https://usaybia.net/place/2"/>
+                           </listRelation>
                         </desc>
                      </event>
                   </listEvent>
-               </desc>
-               <relation ref="syriaca:sentPersonWithObject" 
-                  active="https://usaybia.net/person/1" 
-                  passive="https://usaybia.net/person/2"
-                  datingPoint="#event1"/>
-               <relation ref="syriaca:sentPersonWithObject" 
-                  active="https://usaybia.net/person/1" 
-                  passive="https://usaybia.net/manuscript/1"
-                  datingPoint="#event1"/>
-               <relation ref="syriaca:receivedObjectFromPerson" 
-                  active="https://usaybia.net/person/2" 
-                  passive="https://usaybia.net/person/3"
-                  datingPoint="#event2"/>
-               <relation ref="syriaca:receivedObjectFromPerson" 
-                  active="https://usaybia.net/person/2" 
-                  passive="https://usaybia.net/manuscript/1"
-                  datingPoint="#event2"/>
-         </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>   
          </div>
-         
       </body>
   </text>
 </TEI>
