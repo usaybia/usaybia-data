@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-04-21/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
     <teiHeader>
@@ -92,7 +92,7 @@
                                 <surname>Hilloowala</surname>
                             </respStmt>
                             <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
-                            <idno type="URI">WVSJMDSV</idno>
+                            <idno type="Zotero">WVSJMDSV</idno>
                             <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
                             <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
                             <imprint>
@@ -262,7 +262,7 @@
                             <reg><date when="1053" calendar="Gregorian">1053</date></reg>
                             <orig><date when-custom="445"
                                 datingMethod="Hijri">445</date></orig>
-                        </choice>, <persName ref=https://usaybia.net/person/961> Ibn Butlan
+                        </choice>, <persName ref="https://usaybia.net/person/961"> Ibn Butlan
                         </persName> a shortage of supplies occured in <placeName ref="https://usaybia.net/place/Egypt">Egypt,</placeName>
                             the level of the Nile fell and the shortage of food increased, followed by a great pestilence in
                             <reg><date when="1055" calendar="Gregorian">1055</date></reg>
@@ -337,10 +337,19 @@
             <div type="factoid" subtype="deathPlace" xml:id="factoid-11" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-11</idno>
                 <listPerson>
-                    <person><persName ref="https://usaybia.net/person/961">Ibn Buṭlān says</persName>
-                        <persName ref="https://usaybia.net/person/1093"/> Ibn Riḍwān
-                        <death> died <placeName ref="http://syriaca.org/place/Egypt"/><note type="desc"
-                            > in Egypt</death>
+                    <person>
+                        <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>
+                        <death>
+                            <placeName ref="http://syriaca.org/place/Egypt"/>
+                            <note type="desc">
+                                <!-- We need to figure out how to record quotations like this. -->
+                            <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName>
+                                says 
+                            <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>
+                                died in 
+                                <placeName  ref="https://usaybia.net/place/Egypt">Egypt</placeName>.
+                            </note>
+                        </death>
                     </person>
                 </listPerson>
                 <bibl type="urn">
@@ -411,6 +420,7 @@
         </body>
     </text>
 </TEI>
+<!-- <back>            
             <listBibl>
                 <head>Works Cited</head>
                 <bibl type="primary" xml:id="bibl798-1">
@@ -426,6 +436,7 @@
                     <ptr target="http://syriaca.org/work/798"/>
                 </bibl>
             </listBibl>
-        </back>-->
+        </back>
     </text>
 </TEI>
+-->
