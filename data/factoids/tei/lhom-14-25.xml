@@ -102,6 +102,9 @@
                             </imprint>
                         <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                     </bibl>
+                    <bibl type="urn">
+                        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"/>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -149,7 +152,7 @@
                                 </reg>
                             </choice>
                             
-                            <note> <!-- needs to be determined via planetary constellations! --></note> 
+                            <note type="desc"> <!-- needs to be determined via planetary constellations! --></note> 
                         </birth>
                     </person>
                 </listPerson>
@@ -340,7 +343,7 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>
                         <death>
-                            <placeName ref="http://syriaca.org/place/Egypt"/>
+                            <placeName ref="https://usaybia.net/place/Egypt"/>
                             <note type="desc">
                                 <!-- We need to figure out how to record quotations like this. -->
                             <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName>
