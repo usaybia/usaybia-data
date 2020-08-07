@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3975506.svg)](https://doi.org/10.5281/zenodo.3975506)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3975505.svg)](https://doi.org/10.5281/zenodo.3975505)
 
 # Usaybia.net Data Repository
 These data files can be used with the [Srophé Web App](https://srophe.app).
