@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
    <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../../../usaybia-tools/tools/xslt/align-lhom-en-ar.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" 
     xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
@@ -101,9 +102,9 @@
     </teiHeader>
 	<text>
 		<body>
-			<div type="edition" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1" xml:lang="ar-Arab">
+			<div type="edition" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1">
 				<div type="textpart" subtype="chapter" n="14">
-					<div type="textpart" subtype="biography" n="1">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="1">
 						<head style="direction:rtl; unicode-bidi:embed">
 							الباب الرابع عشر في طبقات الأطباء المشهورين من أطباء ديار مصر
 							<note n="1" type="footnote">
@@ -173,7 +174,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">وتوفي بليطيان في سنة ست وثمانين ومائة للهجرة.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="2">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="2">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.2]‬ إبراهيم بن عيسى <note n="1" type="footnote">
@@ -192,7 +193,7 @@
 							سنة ستين ومائتين.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="3">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="3">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.3]‬ الحسن بن زيرك <note n="1" type="footnote">
@@ -257,7 +258,7 @@
 							في غد ذلك اليوم.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="4">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="4">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.4]‬ سعيد بن توفيل <note n="1" type="footnote">
@@ -458,7 +459,7 @@
 							والله أعلم.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="5">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="5">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.5]‬ خلف الطولوني <note n="1" type="footnote">
@@ -480,7 +481,7 @@
 							في سنة اثنتين وثلاثمائة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="6">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="6">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.6]‬ نسطاس بن جريج <note n="1" type="footnote">
@@ -506,7 +507,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="7">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="7">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.7]‬ إسحق بن إبراهيم بن نسطاس <note n="1" type="footnote">
@@ -521,7 +522,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="8">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="8">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.8]‬ البالسي <note n="1" type="footnote">
@@ -547,7 +548,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="9">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="9">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.9]‬ موسى بن العازار الإسرائيلي <note n="1" type="footnote">
@@ -600,7 +601,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="10">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="10">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.10]‬ يوسف النصراني <note n="1" type="footnote">
@@ -619,7 +620,7 @@
 							القيسراني.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="11">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="11">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.11]‬ سعيد بن البطريق <note n="1" type="footnote">
@@ -703,7 +704,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="12">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="12">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.12]‬ عيسى بن البطريق <note n="1" type="footnote">
@@ -715,7 +716,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">عيسى بن البطريق كان طبيباً نصرانياً عالماً بصناعة الطب علمها وعملها متميزاً في جزئيات المداواة والعلاج مشكوراً فيها وكان مقامه بمدينة مصر القديمة وكان هذا عيسى بن البطريق أخا سعيد بن البطريق المقدم ذكره ولم يزل عيسى بمدينة مصر طبيباً إلى أن توفي بها.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="13">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="13">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.13]‬ أعين بن أعين <note n="1" type="footnote">
@@ -747,7 +748,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="14">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="14">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.14]‬ التميمي <note n="1" type="footnote">
@@ -979,7 +980,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="15">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="15">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.15]‬ سهلان <note n="1" type="footnote">
@@ -1013,7 +1014,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولم يعترض العزيز لتركته ولا ترك أحداً يمد يده إليها على كثرتها.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="16">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="16">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.16]‬ أبو الفتح منصور بن سهلان بن مقشر <note n="1" type="footnote">
@@ -1028,7 +1029,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="17">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="17">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.17]‬ عمّار بن علي الموصلي <note n="1" type="footnote">
@@ -1049,7 +1050,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="18">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="18">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.18]‬ الحقير النافع <note n="1" type="footnote">
@@ -1091,7 +1092,7 @@
 							وشفاه في ثلاثة أيام فأطلق له ألف دينار وخلع عليه ولقبه بالحقير النافع وجعله من أطباء الخاص.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="19">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="19">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.19]‬ أبو بشر طبيب العظيمية <note n="1" type="footnote">
@@ -1101,7 +1102,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">أبو بشر طبيب العظيمية كان في أيام الحاكم مشهوراً في الدولة ويعد من الأفاضل في صناعة الطب.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="20">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="20">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.20]‬ ابن معشر الطبيب <note n="1" type="footnote">
@@ -1126,7 +1127,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="21">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="21">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.21]‬ علي بن سليمان <note n="1" type="footnote">
@@ -1205,7 +1206,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="22">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="22">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.22]‬ ابن الهيثم <note n="1" type="footnote">
@@ -3189,7 +3190,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="23">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="23">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.23]‬ المبشر بن فاتك <note n="1" type="footnote">
@@ -3260,7 +3261,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="24">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="24">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.24]‬ إسحق بن يونس <note n="1" type="footnote">
@@ -3270,7 +3271,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">إسحق بن يونس كان طبيباً عالماً بالصناعة الطبية عارفاً بالعلوم الحكمية جيد الدراية حسن العلاج قرأ الحكمة على ابن السمح وكان مقيماً بمصر.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="25">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="25">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.25]‬ علي بن رضوان <note n="1" type="footnote">
@@ -4278,7 +4279,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="26">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="26">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.26]‬ أفرائيم بن الزفان <note n="1" type="footnote">
@@ -4368,7 +4369,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="27">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="27">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.27]‬ سلامة بن رحمون <note n="1" type="footnote">
@@ -4513,7 +4514,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="28">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="28">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.28]‬ مبارك بن سلامة بن رحمون <note n="1" type="footnote">
@@ -4528,7 +4529,7 @@
 							من الكتب مقالة في الجمرة المسماة بالشقفة والخزفة مختصرة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="29">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="29">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.29]‬ ابن العين زربي <note n="1" type="footnote">
@@ -4661,7 +4662,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="30">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="30">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.30]‬ بلمظفر بن معرف <note n="1" type="footnote">
@@ -4750,7 +4751,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="31">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="31">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.31]‬ الشيخ السديد رئيس الطب <note n="1" type="footnote">
@@ -5294,7 +5295,7 @@
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">وتوفي الشيخ السديد رحمه الله بالقاهرة في سنة اثنتين وتسعين وخمسمائة.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="32">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="32">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.32]‬ ابن جميع <note n="1" type="footnote">
@@ -5748,7 +5749,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="33">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="33">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.33]‬ أبو البيان بن المدور <note n="1" type="footnote">
@@ -5816,7 +5817,7 @@
 							مجرباته في الطب.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="34">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="34">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.34]‬ أبو الفضائل بن الناقد <note n="1" type="footnote">
@@ -5851,7 +5852,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولأبي الفضائل بن الناقد من الكتب مجرباته في الطب.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="35">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="35">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.35]‬ الرئيس هبة الله <note n="1" type="footnote">
@@ -5861,7 +5862,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان إسرائيلياً فاضلاً مشهوراً بالطب جيد الأعمال حسن المعالجة وكان في آخر دولة الخلفاء المصريين وخدمهم بصناعة الطب وكانت له منهم الجامكية الوافرة والصلات المتوالية ثم انقرضت دولتهم وبقي بعدهم يعيش فيما أنعموا به عليه إلى أن توفي وكانت وفاته في سنة خمسمائة ونيف وثمانين.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="36">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="36">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.36]‬ الموفق بن شوعة <note n="1" type="footnote">
@@ -6021,7 +6022,7 @@
 							</lg>
 						</lg>
 					</div>
-					<div type="textpart" subtype="biography" n="37">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="37">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.37]‬ أبو البركات بن القضاعي <note n="1" type="footnote">
@@ -6036,7 +6037,7 @@
 							مشهوراً بجودة المعرفة في عملها وكان يعاني أيضاً صناعة الكحل والجراح ويعد من الأفاضل فيهما وخدم بصناعة الطب الملك العزيز بن الملك الناصر صلاح الدين في الديار المصرية وتوفي أبو البركات بن القضاعي بالقاهرة في سنة ثمان وتسعين وخمسمائة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="38">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="38">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.38]‬ أبو المعالي بن تمام <note n="1" type="footnote">
@@ -6066,7 +6067,7 @@
 							من الكتب تعاليق ومجربات في الطب.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="39">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="39">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.39]‬ الرئيس موسى <note n="1" type="footnote">
@@ -6162,7 +6163,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="40">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="40">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.40]‬ إبراهيم بن الرئيس موسى <note n="1" type="footnote">
@@ -6199,7 +6200,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="41">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="41">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.41]‬ أبو البركات بن شعيا <note n="1" type="footnote">
@@ -6218,7 +6219,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="42">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="42">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.42]‬ الأسعد المحلي <note n="1" type="footnote">
@@ -6294,7 +6295,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="43">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="43">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.43]‬ الشيخ السديد بن أبي البيان <note n="1" type="footnote">
@@ -6395,7 +6396,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="44">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="44">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.44]‬ جمال الدين بن أبي الحوافر <note n="1" type="footnote">
@@ -6487,7 +6488,7 @@
 							عمي الحكيم رشيد الدين علي بن خليفة رحمه الله.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="45">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="45">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.45]‬ فتح الدين بن جمال الدين بن أبي الحوافر <note n="1" type="footnote">
@@ -6508,7 +6509,7 @@
 							الصالح ‭[ii,120]‬ نجم الدين أيوب بن الملك الكامل محمد وتوفي رحمه الله في أيامه بالقاهرة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="46">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="46">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.46]‬ شهاب الدين بن فتح الدين بن أبي الحوافر <note n="1" type="footnote">
@@ -6540,7 +6541,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="47">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="47">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.47]‬ القاضي نفيس الدين بن الزبير <note n="1" type="footnote">
@@ -6600,7 +6601,7 @@
 							وعملها.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="48">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="48">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.48]‬ أفضل الدين الخونجي <note n="1" type="footnote">
@@ -6764,7 +6765,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="49">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="49">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.49]‬ أبو سليمان داود بن أبي المنى بن أبي فانة <note n="1" type="footnote">
@@ -6865,7 +6866,7 @@
 							رجب سنة ثلاث وثمانين وخمسمائة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="50">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="50">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.50]‬ أبو سعيد بن أبي سليمان <note n="1" type="footnote">
@@ -6908,7 +6909,7 @@
 							وستمائة ودفن بدير الخندق عند القاهرة.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="51">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="51">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.51]‬ أبو شاكر بن أبي سليمان <note n="1" type="footnote">
@@ -6980,7 +6981,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="52">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="52">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.52]‬ أبو نصر بن أبي سليمان <note n="1" type="footnote">
@@ -6990,7 +6991,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً عارفاً بصناعة الطب حسن المعالجة جيد العلاج وتوفي بالكرك.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="53">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="53">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.53]‬ أبو الفضل بن أبي سليمان <note n="1" type="footnote">
@@ -7000,7 +7001,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً مشكوراً في صناعة الطب عالماً بها متميزاً في المعالجة والمداواة وكان أصغر إخوته وعمر من دونهم كان مولده في سنة ستين وخمسمائة ووفاته في سنة أربع وأربعين وستمائة فمدة حياته أربع وثمانون سنة لم يبلغها أحد من إخوته وكان طبيباً للملك المعظم مقيماً بالكرك ثم خدم الملك الكامل بالديار المصرية وتوفي بها.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="54">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="54">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.54]‬ رشيد الدين أبو حليقة <note n="1" type="footnote">
@@ -7734,7 +7735,7 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ومطابقاً للمعنى المقصود إليه.‬‎</p>
 					</div>
-					<div type="textpart" subtype="biography" n="55">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="55">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.55]‬ مهذب الدين أبو سعيد محمد بن أبي حليقة <note n="1" type="footnote">
@@ -7916,7 +7917,7 @@
 							بن أبي حليقة من الكتب كتاب في الطب.‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="56">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="56">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.56]‬ رشيد الدين أبو سعيد <note n="1" type="footnote">
@@ -8094,7 +8095,7 @@
                             </item>
 						</list>
 					</div>
-					<div type="textpart" subtype="biography" n="57">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="57">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.57]‬ أسعد الدين بن أبي الحسن <note n="1" type="footnote">
@@ -8180,7 +8181,7 @@
 							‬‎
 						</p>
 					</div>
-					<div type="textpart" subtype="biography" n="58">
+					<div xml:lang="ar-Arab"  type="textpart" subtype="biography" n="58">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[14.58]‬ ضياء الدين بن البيطار <note n="1" type="footnote">
