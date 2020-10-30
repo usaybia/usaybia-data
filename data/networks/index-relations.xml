@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+                <title level="m">Wissensgemeinschaften</title>
+                <sponsor ref="https://www.uni-muenchen.de">
+                    <orgName>Ludwig Maximilian University of Munich</orgName>
+                    (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+                </sponsor>
+                <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+                    <orgName>Institute of Near and Middle Eastern Studies</orgName>
+                    (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+                </sponsor>
+                <funder ref="https://www.bmbf.de/">
+                    <orgName>German Federal Ministry of Education and Research</orgName>
+                    (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+                </funder>
+                <principal ref="#ngibson">Nathan P. Gibson</principal>
+                <!-- Insert editor and ref statements --> 
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Usaybia.net</authority>
+                <idno type="URI">http://usaybia.net/networks/lhom-index/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                            License.</p>
+                    </licence>
+                </availability>
+                <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <head>Sources for the Data in this Born Digital Prosopography</head>
+                    <bibl type="primary">
+                            <editor>
+                                <forename>Emilie</forename>
+                                <surname>Savage-Smith</surname>
+                            </editor>
+                            <editor>
+                                <forename>Simon</forename>
+                                <surname>Swain</surname>
+                            </editor>
+                            <editor>
+                                <forename>G. J. H. van</forename>
+                                <surname>Gelder</surname>
+                            </editor>
+                            <respStmt>
+                                <resp>contributor</resp>
+                                <forename>Ignacio Javier</forename>
+                                <surname>Sánchez Rojo</surname>
+                            </respStmt>
+                            <respStmt>
+                                <resp>contributor</resp>
+                                <forename>N. Peter</forename>
+                                <surname>Joosse</surname>
+                            </respStmt>
+                            <respStmt>
+                                <resp>contributor</resp>
+                                <forename>Alasdair</forename>
+                                <surname>Watson</surname>
+                            </respStmt>
+                            <respStmt>
+                                <resp>contributor</resp>
+                                <forename>Bruce</forename>
+                                <surname>Inksetter</surname>
+                            </respStmt>
+                            <respStmt>
+                                <resp>contributor</resp>
+                                <forename>Franak</forename>
+                                <surname>Hilloowala</surname>
+                            </respStmt>
+                            <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                            <idno type="URI">WVSJMDSV</idno>
+                            <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
+                            <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
+                            <imprint>
+                                <pubPlace>Leiden</pubPlace>
+                                <publisher>Brill</publisher>
+                                <date>2020</date>
+                            </imprint>
+                        <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The prosopographical data in this document was encoded from 
+                    <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                        Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                    A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                    of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="calculated">
+                        <catDesc> Used to denote a date calculated by the editor from a regnal year
+                            given in the text. </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc> </profileDesc>
+        <revisionDesc>
+            <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+           <listRelation>
+               <relation ref="addressee-of" active="https://usaybia.net/person/1" passive="https://usaybia.net/person/1040"/>
+               <relation ref="agent-of" active="https://usaybia.net/person/2" passive="https://usaybia.net/person/1184"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/3" passive="https://usaybia.net/person/1599"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/4" passive="https://usaybia.net/person/1436"/>
+               <relation ref="household-of" active="https://usaybia.net/person/5" passive="https://usaybia.net/person/1700"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/6" passive="https://usaybia.net/person/1502"/>
+               <relation ref="daughter-of" active="https://usaybia.net/person/7" passive="https://usaybia.net/person/1436"/>
+               <relation ref="advisor-to" active="https://usaybia.net/person/8" passive="https://usaybia.net/person/2386"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/10" passive="https://usaybia.net/person/1702"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/12" passive="https://usaybia.net/person/806"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/15" passive="https://usaybia.net/person/1950"/>
+               <relation ref="host-of" active="https://usaybia.net/person/18" passive="https://usaybia.net/person/1125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/23" passive="https://usaybia.net/person/806"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/31" passive="https://usaybia.net/person/1523"/>
+               <relation ref="father-of" active="https://usaybia.net/person/33" passive="https://usaybia.net/person/274"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/34" passive="https://usaybia.net/person/2258"/>
+               <relation ref="served" active="https://usaybia.net/person/37" passive="https://usaybia.net/person/1459"/>
+               <relation ref="son-of" active="https://usaybia.net/person/38" passive="https://usaybia.net/person/1339"/>
+               <relation ref="leader-of-a-revolt-against" active="https://usaybia.net/person/40" passive="https://usaybia.net/person/811"/>
+               <relation ref="son-of" active="https://usaybia.net/person/42" passive="https://usaybia.net/person/1383"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/44" passive="https://usaybia.net/person/2255"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/45" passive="https://usaybia.net/person/15"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/47" passive="https://usaybia.net/person/1700"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/49" passive="https://usaybia.net/person/1337"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/50" passive="https://usaybia.net/person/806"/>
+               <relation ref="student-of" active="https://usaybia.net/person/52" passive="https://usaybia.net/person/1136"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/54" passive="https://usaybia.net/person/1972"/>
+               <relation ref="" active="https://usaybia.net/person/60" passive="https://usaybia.net/person/841"/>
+               <relation ref="son-of" active="https://usaybia.net/person/62" passive="https://usaybia.net/person/1408"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/65" passive="https://usaybia.net/person/2386"/>
+               <relation ref="father-of" active="https://usaybia.net/person/74" passive="https://usaybia.net/person/1596"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/76" passive="https://usaybia.net/person/274"/>
+               <relation ref="son-of" active="https://usaybia.net/person/78" passive="https://usaybia.net/person/233"/>
+               <relation ref="tutor-to" active="https://usaybia.net/person/86" passive="https://usaybia.net/person/1125"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/89" passive="https://usaybia.net/person/1125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/93" passive="https://usaybia.net/person/1174"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/95" passive="https://usaybia.net/person/1897"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/100" passive="https://usaybia.net/person/1667"/>
+               <relation ref="secretary-of" active="https://usaybia.net/person/102" passive="https://usaybia.net/person/324"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/106" passive="https://usaybia.net/person/1125"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/108" passive="https://usaybia.net/person/841"/>
+               <relation ref="secretary-of" active="https://usaybia.net/person/111" passive="https://usaybia.net/person/814"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/112" passive="https://usaybia.net/person/1016"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/113" passive="https://usaybia.net/person/437"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/117" passive="https://usaybia.net/person/1171"/>
+               <relation ref="son-of" active="https://usaybia.net/person/118" passive="https://usaybia.net/person/841"/>
+               <relation ref="author-of-lines-ascribed-to" active="https://usaybia.net/person/123" passive="https://usaybia.net/person/1125"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/124" passive="https://usaybia.net/person/1125"/>
+               <relation ref="student-of" active="https://usaybia.net/person/127" passive="https://usaybia.net/person/1919"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/128" passive="https://usaybia.net/person/376"/>
+               <relation ref="source-of" active="https://usaybia.net/person/129" passive="https://usaybia.net/person/2182"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/132" passive="https://usaybia.net/person/899"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/133" passive="https://usaybia.net/person/1125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/134" passive="https://usaybia.net/person/2258"/>
+               <relation ref="son-of" active="https://usaybia.net/person/135" passive="https://usaybia.net/person/762"/>
+               <relation ref="physician-serving" active="https://usaybia.net/person/140" passive="https://usaybia.net/person/1981"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/150" passive="https://usaybia.net/person/139"/>
+               <relation ref="patient-of" active="https://usaybia.net/person/155" passive="https://usaybia.net/person/186"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/157" passive="https://usaybia.net/person/1594"/>
+               <relation ref="student-of" active="https://usaybia.net/person/158" passive="https://usaybia.net/person/1136"/>
+               <relation ref="paternal-uncle-of" active="https://usaybia.net/person/159" passive="https://usaybia.net/person/32"/>
+               <relation ref="student-of" active="https://usaybia.net/person/160" passive="https://usaybia.net/person/916"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/166" passive="https://usaybia.net/person/1070"/>
+               <relation ref="" active="https://usaybia.net/person/167" passive="https://usaybia.net/person/1981"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/170" passive="https://usaybia.net/person/598"/>
+               <relation ref="protector-of" active="https://usaybia.net/person/173" passive="https://usaybia.net/person/1125"/>
+               <relation ref="father-of" active="https://usaybia.net/person/176" passive="https://usaybia.net/person/292"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/181" passive="https://usaybia.net/person/1145"/>
+               <relation ref="serving" active="https://usaybia.net/person/184" passive="https://usaybia.net/person/1579"/>
+               <relation ref="son-of" active="https://usaybia.net/person/190" passive="https://usaybia.net/person/1066"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/194" passive="https://usaybia.net/person/1053"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/196" passive="https://usaybia.net/person/1125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/199" passive="https://usaybia.net/person/1139"/>
+               <relation ref="shaykh-of" active="https://usaybia.net/person/200" passive="https://usaybia.net/person/1589"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/203" passive="https://usaybia.net/person/1191"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/207" passive="https://usaybia.net/person/177"/>
+               <relation ref="collaborator-of" active="https://usaybia.net/person/210" passive="https://usaybia.net/person/943"/>
+               <relation ref="son-of" active="https://usaybia.net/person/213" passive="https://usaybia.net/person/104"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/214" passive="https://usaybia.net/person/841"/>
+               <relation ref="recipient-of-a-treatise-by" active="https://usaybia.net/person/216" passive="https://usaybia.net/person/1919"/>
+               <relation ref="" active="https://usaybia.net/person/217" passive="https://usaybia.net/person/881"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/221" passive="https://usaybia.net/person/1125"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/222" passive="https://usaybia.net/person/2116"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/229" passive="https://usaybia.net/person/1497"/>
+               <relation ref="captain-of-the-guard-under" active="https://usaybia.net/person/237" passive="https://usaybia.net/person/495"/>
+               <relation ref="father-of" active="https://usaybia.net/person/238" passive="https://usaybia.net/person/32"/>
+               <relation ref="son-of" active="https://usaybia.net/person/257" passive="https://usaybia.net/person/356"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/258" passive="https://usaybia.net/person/1755"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/261" passive="https://usaybia.net/person/1981"/>
+               <relation ref="student-of" active="https://usaybia.net/person/266" passive="https://usaybia.net/person/1125"/>
+               <relation ref="" active="https://usaybia.net/person/269" passive="https://usaybia.net/person/1981"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/270" passive="https://usaybia.net/person/401"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/271" passive="https://usaybia.net/person/1022"/>
+               <relation ref="son-of" active="https://usaybia.net/person/277" passive="https://usaybia.net/person/1096"/>
+               <relation ref="patient-of" active="https://usaybia.net/person/280" passive="https://usaybia.net/person/926"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/289" passive="https://usaybia.net/person/1125"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/290" passive="https://usaybia.net/person/1706"/>
+               <relation ref="murdered-by" active="https://usaybia.net/person/292" passive="https://usaybia.net/person/1502"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/314" passive="https://usaybia.net/person/1022"/>
+               <relation ref="son-of" active="https://usaybia.net/person/318" passive="https://usaybia.net/person/1667"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/321" passive="https://usaybia.net/person/982"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/323" passive="https://usaybia.net/person/1125"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/328" passive="https://usaybia.net/person/32"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/341" passive="https://usaybia.net/person/1706"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/343" passive="https://usaybia.net/person/1919"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/344" passive="https://usaybia.net/person/841"/>
+               <relation ref="father-of" active="https://usaybia.net/person/353" passive="https://usaybia.net/person/1579"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/355" passive="https://usaybia.net/person/841"/>
+               <relation ref="son-of" active="https://usaybia.net/person/360" passive="https://usaybia.net/person/1017"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/362" passive="https://usaybia.net/person/2263"/>
+               <relation ref="pupil-and-amanuensis-of" active="https://usaybia.net/person/372" passive="https://usaybia.net/person/1125"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/375" passive="https://usaybia.net/person/1016"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/376" passive="https://usaybia.net/person/128"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/379" passive="https://usaybia.net/person/472"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/386" passive="https://usaybia.net/person/841"/>
+               <relation ref="acquaintance-of" active="https://usaybia.net/person/388" passive="https://usaybia.net/person/1070"/>
+               <relation ref="singer-under" active="https://usaybia.net/person/389" passive="https://usaybia.net/person/841"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/390" passive="https://usaybia.net/person/1508"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/392" passive="https://usaybia.net/person/1919"/>
+               <relation ref="son-of" active="https://usaybia.net/person/403" passive="https://usaybia.net/person/2273"/>
+               <relation ref="general-of" active="https://usaybia.net/person/411" passive="https://usaybia.net/person/1497"/>
+               <relation ref="great-grandson-of" active="https://usaybia.net/person/420" passive="https://usaybia.net/person/944"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/421" passive="https://usaybia.net/person/1122"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/434" passive="https://usaybia.net/person/1408"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/435" passive="https://usaybia.net/person/1989"/>
+               <relation ref="" active="https://usaybia.net/person/449" passive="https://usaybia.net/person/1405"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/450" passive="https://usaybia.net/person/1595"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/451" passive="https://usaybia.net/person/1125"/>
+               <relation ref="" active="https://usaybia.net/person/452" passive="https://usaybia.net/person/786"/>
+               <relation ref="" active="https://usaybia.net/person/461" passive="https://usaybia.net/person/899"/>
+               <relation ref="son-of" active="https://usaybia.net/person/462" passive="https://usaybia.net/person/1755"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/464" passive="https://usaybia.net/person/1125"/>
+               <relation ref="father-of" active="https://usaybia.net/person/468" passive="https://usaybia.net/person/1594"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/472" passive="https://usaybia.net/person/1667"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/473" passive="https://usaybia.net/person/1436"/>
+               <relation ref="son-of" active="https://usaybia.net/person/476" passive="https://usaybia.net/person/1436"/>
+               <relation ref="son-of" active="https://usaybia.net/person/477" passive="https://usaybia.net/person/2181"/>
+               <relation ref="" active="https://usaybia.net/person/483" passive="https://usaybia.net/person/1497"/>
+               <relation ref="maidservant-of" active="https://usaybia.net/person/490" passive="https://usaybia.net/person/565"/>
+               <relation ref="patient-of" active="https://usaybia.net/person/498" passive="https://usaybia.net/person/1911"/>
+               <relation ref="" active="https://usaybia.net/person/504" passive="https://usaybia.net/person/815"/>
+               <relation ref="" active="https://usaybia.net/person/506" passive="https://usaybia.net/person/841"/>
+               <relation ref="killer-of" active="https://usaybia.net/person/508" passive="https://usaybia.net/person/2379"/>
+               <relation ref="official-under" active="https://usaybia.net/person/511" passive="https://usaybia.net/person/1497"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/515" passive="https://usaybia.net/person/1599"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/521" passive="https://usaybia.net/person/1855"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/524" passive="https://usaybia.net/person/1852"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/526" passive="https://usaybia.net/person/1766"/>
+               <relation ref="continuator-of" active="https://usaybia.net/person/528" passive="https://usaybia.net/person/752"/>
+               <relation ref="editor-of-the-works-of" active="https://usaybia.net/person/529" passive="https://usaybia.net/person/565"/>
+               <relation ref="addressee-of-a-letter-attributed-to" active="https://usaybia.net/person/535" passive="https://usaybia.net/person/714"/>
+               <relation ref="student-of" active="https://usaybia.net/person/537" passive="https://usaybia.net/person/565"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/541" passive="https://usaybia.net/person/786"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/546" passive="https://usaybia.net/person/527"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/547" passive="https://usaybia.net/person/886"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/552" passive="https://usaybia.net/person/1420"/>
+               <relation ref="physician-under" active="https://usaybia.net/person/554" passive="https://usaybia.net/person/2241"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/555" passive="https://usaybia.net/person/2125"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/557" passive="https://usaybia.net/person/886"/>
+               <relation ref="student-of" active="https://usaybia.net/person/561" passive="https://usaybia.net/person/2125"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/562" passive="https://usaybia.net/person/561"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/563" passive="https://usaybia.net/person/565"/>
+               <relation ref="father-of" active="https://usaybia.net/person/564" passive="https://usaybia.net/person/1829"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/566" passive="https://usaybia.net/person/565"/>
+               <relation ref="acquainted-with" active="https://usaybia.net/person/572" passive="https://usaybia.net/person/926"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/584" passive="https://usaybia.net/person/2379"/>
+               <relation ref="physician-in-the-service-of" active="https://usaybia.net/person/591" passive="https://usaybia.net/person/1653"/>
+               <relation ref="translator-of" active="https://usaybia.net/person/596" passive="https://usaybia.net/person/786"/>
+               <relation ref="son-of" active="https://usaybia.net/person/599" passive="https://usaybia.net/person/1981"/>
+               <relation ref="secretary-of" active="https://usaybia.net/person/600" passive="https://usaybia.net/person/899"/>
+               <relation ref="rebel-against" active="https://usaybia.net/person/602" passive="https://usaybia.net/person/1497"/>
+               <relation ref="commander-in-chief-of" active="https://usaybia.net/person/611" passive="https://usaybia.net/person/1692"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/614" passive="https://usaybia.net/person/763"/>
+               <relation ref="biographer-of" active="https://usaybia.net/person/616" passive="https://usaybia.net/person/1981"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/617" passive="https://usaybia.net/person/1125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/622" passive="https://usaybia.net/person/487"/>
+               <relation ref="son-of" active="https://usaybia.net/person/623" passive="https://usaybia.net/person/622"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/637" passive="https://usaybia.net/person/648"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/644" passive="https://usaybia.net/person/145"/>
+               <relation ref="under" active="https://usaybia.net/person/649" passive="https://usaybia.net/person/1502"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/651" passive="https://usaybia.net/person/886"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/657" passive="https://usaybia.net/person/841"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/658" passive="https://usaybia.net/person/1667"/>
+               <relation ref="physician-in" active="https://usaybia.net/person/660" passive="https://usaybia.net/person/148"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/661" passive="https://usaybia.net/person/1692"/>
+               <relation ref="known-to" active="https://usaybia.net/person/662" passive="https://usaybia.net/person/926"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/663" passive="https://usaybia.net/person/1292"/>
+               <relation ref="father-of" active="https://usaybia.net/person/664" passive="https://usaybia.net/person/1025"/>
+               <relation ref="named-by" active="https://usaybia.net/person/665" passive="https://usaybia.net/person/1040"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/677" passive="https://usaybia.net/person/886"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/681" passive="https://usaybia.net/person/2422"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/683" passive="https://usaybia.net/person/2241"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/684" passive="https://usaybia.net/person/2125"/>
+               <relation ref="enemy-of" active="https://usaybia.net/person/685" passive="https://usaybia.net/person/1855"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/692" passive="https://usaybia.net/person/1948"/>
+               <relation ref="in-service-of" active="https://usaybia.net/person/693" passive="https://usaybia.net/person/1654"/>
+               <relation ref="brother-in-law-of" active="https://usaybia.net/person/694" passive="https://usaybia.net/person/2326"/>
+               <relation ref="father-of" active="https://usaybia.net/person/698" passive="https://usaybia.net/person/2146"/>
+               <relation ref="son-of" active="https://usaybia.net/person/700" passive="https://usaybia.net/person/899"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/702" passive="https://usaybia.net/person/2328"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/709" passive="https://usaybia.net/person/886"/>
+               <relation ref="Patriarch-of" active="https://usaybia.net/person/723" passive="https://usaybia.net/person/458"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/724" passive="https://usaybia.net/person/565"/>
+               <relation ref="father-of" active="https://usaybia.net/person/727" passive="https://usaybia.net/person/762"/>
+               <relation ref="son-of" active="https://usaybia.net/person/729" passive="https://usaybia.net/person/886"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/733" passive="https://usaybia.net/person/2350"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/747" passive="https://usaybia.net/person/786"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/748" passive="https://usaybia.net/person/565"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/749" passive="https://usaybia.net/person/1855"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/754" passive="https://usaybia.net/person/886"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/757" passive="https://usaybia.net/person/841"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/758" passive="https://usaybia.net/person/1497"/>
+               <relation ref="son-of" active="https://usaybia.net/person/759" passive="https://usaybia.net/person/2302"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/766" passive="https://usaybia.net/person/1985"/>
+               <relation ref="under" active="https://usaybia.net/person/772" passive="https://usaybia.net/person/1700"/>
+               <relation ref="daughter-of" active="https://usaybia.net/person/774" passive="https://usaybia.net/person/793"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/777" passive="https://usaybia.net/person/886"/>
+               <relation ref="physician-serving" active="https://usaybia.net/person/781" passive="https://usaybia.net/person/1248"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/782" passive="https://usaybia.net/person/1830"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/783" passive="https://usaybia.net/person/1830"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/789" passive="https://usaybia.net/person/2421"/>
+               <relation ref="concubine-of" active="https://usaybia.net/person/793" passive="https://usaybia.net/person/841"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/795" passive="https://usaybia.net/person/1692"/>
+               <relation ref="friend-and-dedicatee-of" active="https://usaybia.net/person/800" passive="https://usaybia.net/person/786"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/802" passive="https://usaybia.net/person/886"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/803" passive="https://usaybia.net/person/799"/>
+               <relation ref="translator-of" active="https://usaybia.net/person/810" passive="https://usaybia.net/person/743"/>
+               <relation ref="loyal-to" active="https://usaybia.net/person/811" passive="https://usaybia.net/person/35"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/813" passive="https://usaybia.net/person/1581"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/817" passive="https://usaybia.net/person/1497"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/818" passive="https://usaybia.net/person/1667"/>
+               <relation ref="Brother-of" active="https://usaybia.net/person/819" passive="https://usaybia.net/person/1594"/>
+               <relation ref="student-of" active="https://usaybia.net/person/823" passive="https://usaybia.net/person/1136"/>
+               <relation ref="physician-at" active="https://usaybia.net/person/826" passive="https://usaybia.net/person/1700"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/827" passive="https://usaybia.net/person/1408"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/828" passive="https://usaybia.net/person/1599"/>
+               <relation ref="under" active="https://usaybia.net/person/834" passive="https://usaybia.net/person/1667"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/835" passive="https://usaybia.net/person/1502"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/838" passive="https://usaybia.net/person/2326"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/843" passive="https://usaybia.net/person/1667"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/848" passive="https://usaybia.net/person/1599"/>
+               <relation ref="poet-at-the-court-of" active="https://usaybia.net/person/849" passive="https://usaybia.net/person/598"/>
+               <relation ref="source-used-by" active="https://usaybia.net/person/850" passive="https://usaybia.net/person/1016"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/852" passive="https://usaybia.net/person/1696"/>
+               <relation ref="student-of" active="https://usaybia.net/person/853" passive="https://usaybia.net/person/1410"/>
+               <relation ref="favoured-by" active="https://usaybia.net/person/854" passive="https://usaybia.net/person/793"/>
+               <relation ref="student-of" active="https://usaybia.net/person/859" passive="https://usaybia.net/person/1408"/>
+               <relation ref="assistant-to" active="https://usaybia.net/person/862" passive="https://usaybia.net/person/1975"/>
+               <relation ref="father-of" active="https://usaybia.net/person/868" passive="https://usaybia.net/person/886"/>
+               <relation ref="maid/concubine-of" active="https://usaybia.net/person/877" passive="https://usaybia.net/person/565"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/880" passive="https://usaybia.net/person/786"/>
+               <relation ref="detractor-of" active="https://usaybia.net/person/884" passive="https://usaybia.net/person/565"/>
+               <relation ref="student-of" active="https://usaybia.net/person/885" passive="https://usaybia.net/person/565"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/892" passive="https://usaybia.net/person/899"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/895" passive="https://usaybia.net/person/790"/>
+               <relation ref="general-of" active="https://usaybia.net/person/897" passive="https://usaybia.net/person/1497"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/901" passive="https://usaybia.net/person/2395"/>
+               <relation ref="source-for" active="https://usaybia.net/person/903" passive="https://usaybia.net/person/1392"/>
+               <relation ref="serving" active="https://usaybia.net/person/905" passive="https://usaybia.net/person/1497"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/914" passive="https://usaybia.net/person/913"/>
+               <relation ref="chief-qadi-under" active="https://usaybia.net/person/919" passive="https://usaybia.net/person/1700"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/922" passive="https://usaybia.net/person/1599"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/938" passive="https://usaybia.net/person/1687"/>
+               <relation ref="addressee-of" active="https://usaybia.net/person/941" passive="https://usaybia.net/person/1093"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/946" passive="https://usaybia.net/person/1687"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/947" passive="https://usaybia.net/person/1290"/>
+               <relation ref="student-of" active="https://usaybia.net/person/951" passive="https://usaybia.net/person/1136"/>
+               <relation ref="under" active="https://usaybia.net/person/956" passive="https://usaybia.net/person/1497"/>
+               <relation ref="son-of" active="https://usaybia.net/person/965" passive="https://usaybia.net/person/702"/>
+               <relation ref="son-of" active="https://usaybia.net/person/966" passive="https://usaybia.net/person/966"/>
+               <relation ref="courtier-and-assistant-to" active="https://usaybia.net/person/967" passive="https://usaybia.net/person/1199"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/981" passive="https://usaybia.net/person/1667"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/992" passive="https://usaybia.net/person/1688"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/993" passive="https://usaybia.net/person/1497"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/1002" passive="https://usaybia.net/person/1668"/>
+               <relation ref="patronized-by" active="https://usaybia.net/person/1003" passive="https://usaybia.net/person/1981"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/1009" passive="https://usaybia.net/person/43"/>
+               <relation ref="copyist-of" active="https://usaybia.net/person/1011" passive="https://usaybia.net/person/1070"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1028" passive="https://usaybia.net/person/1136"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1033" passive="https://usaybia.net/person/1702"/>
+               <relation ref="addressee-of" active="https://usaybia.net/person/1034" passive="https://usaybia.net/person/2000"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/1035" passive="https://usaybia.net/person/598"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1037" passive="https://usaybia.net/person/1502"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1046" passive="https://usaybia.net/person/815"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1047" passive="https://usaybia.net/person/1136"/>
+               <relation ref="under" active="https://usaybia.net/person/1055" passive="https://usaybia.net/person/2292"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1062" passive="https://usaybia.net/person/2273"/>
+               <relation ref="under" active="https://usaybia.net/person/1063" passive="https://usaybia.net/person/1981"/>
+               <relation ref="under" active="https://usaybia.net/person/1067" passive="https://usaybia.net/person/1668"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1070" passive="https://usaybia.net/person/1981"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1081" passive="https://usaybia.net/person/148"/>
+               <relation ref="follower-then-critic-of" active="https://usaybia.net/person/1092" passive="https://usaybia.net/person/1704"/>
+               <relation ref="physician-at" active="https://usaybia.net/person/1093" passive="https://usaybia.net/person/1688"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/1100" passive="https://usaybia.net/person/1139"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1103" passive="https://usaybia.net/person/1026"/>
+               <relation ref="during" active="https://usaybia.net/person/1104" passive="https://usaybia.net/person/1687"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/1112" passive="https://usaybia.net/person/565"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1117" passive="https://usaybia.net/person/2228"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1126" passive="https://usaybia.net/person/1552"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1138" passive="https://usaybia.net/person/1139"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1139" passive="https://usaybia.net/person/1683"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1141" passive="https://usaybia.net/person/1139"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/1143" passive="https://usaybia.net/person/1136"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1148" passive="https://usaybia.net/person/1136"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/1149" passive="https://usaybia.net/person/1599"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1166" passive="https://usaybia.net/person/1691"/>
+               <relation ref="during" active="https://usaybia.net/person/1169" passive="https://usaybia.net/person/437"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1178" passive="https://usaybia.net/person/1353"/>
+               <relation ref="a-source-used-by" active="https://usaybia.net/person/1179" passive="https://usaybia.net/person/926"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1182" passive="https://usaybia.net/person/762"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1183" passive="https://usaybia.net/person/2299"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1185" passive="https://usaybia.net/person/145"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1186" passive="https://usaybia.net/person/437"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/1187" passive="https://usaybia.net/person/1436"/>
+               <relation ref="physician-under" active="https://usaybia.net/person/1189" passive="https://usaybia.net/person/1702"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/1190" passive="https://usaybia.net/person/1125"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1192" passive="https://usaybia.net/person/1993"/>
+               <relation ref="official-of" active="https://usaybia.net/person/1193" passive="https://usaybia.net/person/1700"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1194" passive="https://usaybia.net/person/796"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/1195" passive="https://usaybia.net/person/2326"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/1196" passive="https://usaybia.net/person/1502"/>
+               <relation ref="official-during" active="https://usaybia.net/person/1197" passive="https://usaybia.net/person/1755"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1198" passive="https://usaybia.net/person/1903"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1199" passive="https://usaybia.net/person/841"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1202" passive="https://usaybia.net/person/1678"/>
+               <relation ref="biographer-of" active="https://usaybia.net/person/1203" passive="https://usaybia.net/person/811"/>
+               <relation ref="cousin-of" active="https://usaybia.net/person/1204" passive="https://usaybia.net/person/1950"/>
+               <relation ref="prefect-of-police-under" active="https://usaybia.net/person/1208" passive="https://usaybia.net/person/841"/>
+               <relation ref="prefect-of-police-under" active="https://usaybia.net/person/1209" passive="https://usaybia.net/person/841"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1223" passive="https://usaybia.net/person/2388"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1225" passive="https://usaybia.net/person/1903"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1230" passive="https://usaybia.net/person/1443"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1234" passive="https://usaybia.net/person/1436"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/1235" passive="https://usaybia.net/person/1955"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/1236" passive="https://usaybia.net/person/1502"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1237" passive="https://usaybia.net/person/899"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1239" passive="https://usaybia.net/person/1965"/>
+               <relation ref="scribe-of" active="https://usaybia.net/person/1241" passive="https://usaybia.net/person/772"/>
+               <relation ref="cousin-of" active="https://usaybia.net/person/1243" passive="https://usaybia.net/person/841"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/1244" passive="https://usaybia.net/person/1436"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1247" passive="https://usaybia.net/person/806"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/1248" passive="https://usaybia.net/person/1950"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1250" passive="https://usaybia.net/person/1353"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1251" passive="https://usaybia.net/person/1353"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1252" passive="https://usaybia.net/person/2196"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1253" passive="https://usaybia.net/person/899"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1255" passive="https://usaybia.net/person/1864"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1256" passive="https://usaybia.net/person/2395"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/1259" passive="https://usaybia.net/person/437"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/1261" passive="https://usaybia.net/person/2337"/>
+               <relation ref="service-of" active="https://usaybia.net/person/1262" passive="https://usaybia.net/person/815"/>
+               <relation ref="physician-at-the-court-of" active="https://usaybia.net/person/1263" passive="https://usaybia.net/person/2377"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/1264" passive="https://usaybia.net/person/899"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1265" passive="https://usaybia.net/person/1674"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1266" passive="https://usaybia.net/person/806"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1270" passive="https://usaybia.net/person/1706"/>
+               <relation ref="governor-under" active="https://usaybia.net/person/1271" passive="https://usaybia.net/person/841"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1273" passive="https://usaybia.net/person/1112"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1276" passive="https://usaybia.net/person/335"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/1277" passive="https://usaybia.net/person/1696"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1278" passive="https://usaybia.net/person/1705"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1279" passive="https://usaybia.net/person/1674"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1280" passive="https://usaybia.net/person/806"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1286" passive="https://usaybia.net/person/1702"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1289" passive="https://usaybia.net/person/1585"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1294" passive="https://usaybia.net/person/1086"/>
+               <relation ref="conspirator-under" active="https://usaybia.net/person/1299" passive="https://usaybia.net/person/1579"/>
+               <relation ref="chamberlain-of" active="https://usaybia.net/person/1300" passive="https://usaybia.net/person/814"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1303" passive="https://usaybia.net/person/806"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1310" passive="https://usaybia.net/person/1362"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/1311" passive="https://usaybia.net/person/1690"/>
+               <relation ref="serving" active="https://usaybia.net/person/1314" passive="https://usaybia.net/person/1070"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1317" passive="https://usaybia.net/person/494"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1318" passive="https://usaybia.net/person/1904"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/1319" passive="https://usaybia.net/person/920"/>
+               <relation ref="loved-by" active="https://usaybia.net/person/1321" passive="https://usaybia.net/person/307"/>
+               <relation ref="under" active="https://usaybia.net/person/1333" passive="https://usaybia.net/person/1497"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1334" passive="https://usaybia.net/person/1400"/>
+               <relation ref="oculist-to" active="https://usaybia.net/person/1336" passive="https://usaybia.net/person/1497"/>
+               <relation ref="physician-serving" active="https://usaybia.net/person/1337" passive="https://usaybia.net/person/841"/>
+               <relation ref="under" active="https://usaybia.net/person/1341" passive="https://usaybia.net/person/1667"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1344" passive="https://usaybia.net/person/1678"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/1357" passive="https://usaybia.net/person/1125"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1361" passive="https://usaybia.net/person/1903"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/1363" passive="https://usaybia.net/person/762"/>
+               <relation ref="state-secretary-of" active="https://usaybia.net/person/1367" passive="https://usaybia.net/person/1786"/>
+               <relation ref="relation-of" active="https://usaybia.net/person/1368" passive="https://usaybia.net/person/401"/>
+               <relation ref="supporter-of" active="https://usaybia.net/person/1374" passive="https://usaybia.net/person/1981"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1375" passive="https://usaybia.net/person/1692"/>
+               <relation ref="under" active="https://usaybia.net/person/1380" passive="https://usaybia.net/person/1579"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/1387" passive="https://usaybia.net/person/1667"/>
+               <relation ref="slave-girl-of" active="https://usaybia.net/person/1389" passive="https://usaybia.net/person/841"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/1397" passive="https://usaybia.net/person/1436"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1399" passive="https://usaybia.net/person/1955"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/1400" passive="https://usaybia.net/person/1981"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1401" passive="https://usaybia.net/person/926"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/1423" passive="https://usaybia.net/person/1599"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1424" passive="https://usaybia.net/person/886"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1430" passive="https://usaybia.net/person/2411"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1441" passive="https://usaybia.net/person/609"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1444" passive="https://usaybia.net/person/762"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1451" passive="https://usaybia.net/person/1981"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1454" passive="https://usaybia.net/person/1981"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1459" passive="https://usaybia.net/person/2382"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1460" passive="https://usaybia.net/person/2382"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1461" passive="https://usaybia.net/person/1475"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1462" passive="https://usaybia.net/person/2382"/>
+               <relation ref="supporter-of" active="https://usaybia.net/person/1468" passive="https://usaybia.net/person/465"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1477" passive="https://usaybia.net/person/1471"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1478" passive="https://usaybia.net/person/1487"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1481" passive="https://usaybia.net/person/1493"/>
+               <relation ref="under" active="https://usaybia.net/person/1501" passive="https://usaybia.net/person/841"/>
+               <relation ref="chamberlain-of" active="https://usaybia.net/person/1503" passive="https://usaybia.net/person/814"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1513" passive="https://usaybia.net/person/799"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1514" passive="https://usaybia.net/person/2139"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/1524" passive="https://usaybia.net/person/1337"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1530" passive="https://usaybia.net/person/2326"/>
+               <relation ref="service-of" active="https://usaybia.net/person/1531" passive="https://usaybia.net/person/841"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/1533" passive="https://usaybia.net/person/841"/>
+               <relation ref="physician-at" active="https://usaybia.net/person/1535" passive="https://usaybia.net/person/841"/>
+               <relation ref="`ghulām`-of" active="https://usaybia.net/person/1537" passive="https://usaybia.net/person/1692"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/1538" passive="https://usaybia.net/person/841"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/1539" passive="https://usaybia.net/person/1700"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1544" passive="https://usaybia.net/person/1557"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/1556" passive="https://usaybia.net/person/886"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1562" passive="https://usaybia.net/person/113"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1563" passive="https://usaybia.net/person/2208"/>
+               <relation ref="son-in-law-of" active="https://usaybia.net/person/1566" passive="https://usaybia.net/person/1337"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1567" passive="https://usaybia.net/person/1497"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1575" passive="https://usaybia.net/person/886"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1577" passive="https://usaybia.net/person/799"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1583" passive="https://usaybia.net/person/1108"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1586" passive="https://usaybia.net/person/1086"/>
+               <relation ref="`mawlā`-(client)-of" active="https://usaybia.net/person/1591" passive="https://usaybia.net/person/1436"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1594" passive="https://usaybia.net/person/926"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1598" passive="https://usaybia.net/person/1383"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1600" passive="https://usaybia.net/person/1702"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1601" passive="https://usaybia.net/person/1755"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1604" passive="https://usaybia.net/person/1064"/>
+               <relation ref="under" active="https://usaybia.net/person/1605" passive="https://usaybia.net/person/1702"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/1608" passive="https://usaybia.net/person/841"/>
+               <relation ref="source-of" active="https://usaybia.net/person/1615" passive="https://usaybia.net/person/2182"/>
+               <relation ref="quoted-by" active="https://usaybia.net/person/1618" passive="https://usaybia.net/person/1073"/>
+               <relation ref="high-official-under" active="https://usaybia.net/person/1628" passive="https://usaybia.net/person/1702"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/1629" passive="https://usaybia.net/person/1976"/>
+               <relation ref="grandson-of" active="https://usaybia.net/person/1633" passive="https://usaybia.net/person/806"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/1638" passive="https://usaybia.net/person/916"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1643" passive="https://usaybia.net/person/763"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1645" passive="https://usaybia.net/person/883"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1646" passive="https://usaybia.net/person/2292"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1649" passive="https://usaybia.net/person/1947"/>
+               <relation ref="under" active="https://usaybia.net/person/1662" passive="https://usaybia.net/person/1692"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1663" passive="https://usaybia.net/person/1692"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/1671" passive="https://usaybia.net/person/1702"/>
+               <relation ref="in-service-of" active="https://usaybia.net/person/1674" passive="https://usaybia.net/person/1653"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1675" passive="https://usaybia.net/person/1199"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1677" passive="https://usaybia.net/person/899"/>
+               <relation ref="vizier-under" active="https://usaybia.net/person/1679" passive="https://usaybia.net/person/43"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1711" passive="https://usaybia.net/person/1595"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1713" passive="https://usaybia.net/person/1086"/>
+               <relation ref="physician-serving" active="https://usaybia.net/person/1717" passive="https://usaybia.net/person/1981"/>
+               <relation ref="chamberlain-of" active="https://usaybia.net/person/1718" passive="https://usaybia.net/person/814"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1720" passive="https://usaybia.net/person/565"/>
+               <relation ref="opponent-of" active="https://usaybia.net/person/1722" passive="https://usaybia.net/person/1599"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1724" passive="https://usaybia.net/person/1380"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1725" passive="https://usaybia.net/person/2160"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1726" passive="https://usaybia.net/person/1717"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1729" passive="https://usaybia.net/person/2244"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1732" passive="https://usaybia.net/person/1981"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1734" passive="https://usaybia.net/person/2051"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1735" passive="https://usaybia.net/person/1086"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1736" passive="https://usaybia.net/person/1362"/>
+               <relation ref="theologian-of" active="https://usaybia.net/person/1743" passive="https://usaybia.net/person/1704"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1744" passive="https://usaybia.net/person/437"/>
+               <relation ref="household-of" active="https://usaybia.net/person/1751" passive="https://usaybia.net/person/1494"/>
+               <relation ref="companion-to" active="https://usaybia.net/person/1753" passive="https://usaybia.net/person/1493"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/1757" passive="https://usaybia.net/person/952"/>
+               <relation ref="practised-during" active="https://usaybia.net/person/1758" passive="https://usaybia.net/person/1144"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/1762" passive="https://usaybia.net/person/886"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/1768" passive="https://usaybia.net/person/456"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1771" passive="https://usaybia.net/person/565"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1779" passive="https://usaybia.net/person/2433"/>
+               <relation ref="belonging-to" active="https://usaybia.net/person/1790" passive="https://usaybia.net/person/565"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1791" passive="https://usaybia.net/person/1348"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/1795" passive="https://usaybia.net/person/786"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/1799" passive="https://usaybia.net/person/786"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1802" passive="https://usaybia.net/person/799"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1803" passive="https://usaybia.net/person/786"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/1812" passive="https://usaybia.net/person/2125"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1813" passive="https://usaybia.net/person/1845"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1814" passive="https://usaybia.net/person/565"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1816" passive="https://usaybia.net/person/1830"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1817" passive="https://usaybia.net/person/1855"/>
+               <relation ref="half-brother-of" active="https://usaybia.net/person/1822" passive="https://usaybia.net/person/456"/>
+               <relation ref="belonging-to" active="https://usaybia.net/person/1823" passive="https://usaybia.net/person/565"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1827" passive="https://usaybia.net/person/2414"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/1828" passive="https://usaybia.net/person/786"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1835" passive="https://usaybia.net/person/2411"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/1837" passive="https://usaybia.net/person/886"/>
+               <relation ref="son-in-law-of" active="https://usaybia.net/person/1839" passive="https://usaybia.net/person/886"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1845" passive="https://usaybia.net/person/886"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/1854" passive="https://usaybia.net/person/2214"/>
+               <relation ref="opposition-of" active="https://usaybia.net/person/1855" passive="https://usaybia.net/person/685"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1857" passive="https://usaybia.net/person/1855"/>
+               <relation ref="niece-of" active="https://usaybia.net/person/1858" passive="https://usaybia.net/person/872"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1859" passive="https://usaybia.net/person/1705"/>
+               <relation ref="`kātib`-to" active="https://usaybia.net/person/1860" passive="https://usaybia.net/person/1981"/>
+               <relation ref="qadi-of" active="https://usaybia.net/person/1863" passive="https://usaybia.net/person/1653"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1866" passive="https://usaybia.net/person/1139"/>
+               <relation ref="concubine-of" active="https://usaybia.net/person/1867" passive="https://usaybia.net/person/2326"/>
+               <relation ref="under" active="https://usaybia.net/person/1868" passive="https://usaybia.net/person/1692"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/1870" passive="https://usaybia.net/person/899"/>
+               <relation ref="Mamlūk-of" active="https://usaybia.net/person/1871" passive="https://usaybia.net/person/1687"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/1873" passive="https://usaybia.net/person/1599"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/1886" passive="https://usaybia.net/person/1722"/>
+               <relation ref="cousin-of" active="https://usaybia.net/person/1888" passive="https://usaybia.net/person/1599"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1891" passive="https://usaybia.net/person/1221"/>
+               <relation ref="chamberlain-to" active="https://usaybia.net/person/1892" passive="https://usaybia.net/person/1502"/>
+               <relation ref="under" active="https://usaybia.net/person/1894" passive="https://usaybia.net/person/841"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1904" passive="https://usaybia.net/person/32"/>
+               <relation ref="under" active="https://usaybia.net/person/1908" passive="https://usaybia.net/person/2015"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/1910" passive="https://usaybia.net/person/32"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1914" passive="https://usaybia.net/person/32"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/1915" passive="https://usaybia.net/person/1013"/>
+               <relation ref="regent-of" active="https://usaybia.net/person/1918" passive="https://usaybia.net/person/623"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1920" passive="https://usaybia.net/person/762"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1921" passive="https://usaybia.net/person/762"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1925" passive="https://usaybia.net/person/145"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1928" passive="https://usaybia.net/person/762"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1931" passive="https://usaybia.net/person/1213"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/1938" passive="https://usaybia.net/person/1599"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/1939" passive="https://usaybia.net/person/1599"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/1940" passive="https://usaybia.net/person/1599"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/1941" passive="https://usaybia.net/person/1624"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1945" passive="https://usaybia.net/person/926"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1946" passive="https://usaybia.net/person/1716"/>
+               <relation ref="son-in-law-of" active="https://usaybia.net/person/1948" passive="https://usaybia.net/person/795"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/1952" passive="https://usaybia.net/person/1459"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/1959" passive="https://usaybia.net/person/2181"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1961" passive="https://usaybia.net/person/141"/>
+               <relation ref="contemporary-with" active="https://usaybia.net/person/1963" passive="https://usaybia.net/person/1136"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/1966" passive="https://usaybia.net/person/1021"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1967" passive="https://usaybia.net/person/795"/>
+               <relation ref="under" active="https://usaybia.net/person/1970" passive="https://usaybia.net/person/841"/>
+               <relation ref="chamberlain-of" active="https://usaybia.net/person/1973" passive="https://usaybia.net/person/1702"/>
+               <relation ref="service-of" active="https://usaybia.net/person/1975" passive="https://usaybia.net/person/437"/>
+               <relation ref="source-for" active="https://usaybia.net/person/1976" passive="https://usaybia.net/person/1016"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1979" passive="https://usaybia.net/person/1386"/>
+               <relation ref="physician-in" active="https://usaybia.net/person/1984" passive="https://usaybia.net/person/841"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1985" passive="https://usaybia.net/person/841"/>
+               <relation ref="patient-of" active="https://usaybia.net/person/1986" passive="https://usaybia.net/person/1531"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/1988" passive="https://usaybia.net/person/841"/>
+               <relation ref="intellectual-under" active="https://usaybia.net/person/1991" passive="https://usaybia.net/person/1497"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/1993" passive="https://usaybia.net/person/1700"/>
+               <relation ref="steward-of" active="https://usaybia.net/person/1995" passive="https://usaybia.net/person/2292"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/2012" passive="https://usaybia.net/person/786"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2013" passive="https://usaybia.net/person/1700"/>
+               <relation ref="under" active="https://usaybia.net/person/2017" passive="https://usaybia.net/person/1494"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/2020" passive="https://usaybia.net/person/1981"/>
+               <relation ref="predecessor-of" active="https://usaybia.net/person/2025" passive="https://usaybia.net/person/786"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2027" passive="https://usaybia.net/person/1830"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2028" passive="https://usaybia.net/person/1353"/>
+               <relation ref="student-of" active="https://usaybia.net/person/2036" passive="https://usaybia.net/person/275"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/2040" passive="https://usaybia.net/person/1667"/>
+               <relation ref="student-of" active="https://usaybia.net/person/2052" passive="https://usaybia.net/person/762"/>
+               <relation ref="under" active="https://usaybia.net/person/2053" passive="https://usaybia.net/person/1479"/>
+               <relation ref="Son-of" active="https://usaybia.net/person/2055" passive="https://usaybia.net/person/1451"/>
+               <relation ref="working-for" active="https://usaybia.net/person/2056" passive="https://usaybia.net/person/926"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2058" passive="https://usaybia.net/person/2041"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2060" passive="https://usaybia.net/person/762"/>
+               <relation ref="under" active="https://usaybia.net/person/2061" passive="https://usaybia.net/person/1451"/>
+               <relation ref="student-of" active="https://usaybia.net/person/2066" passive="https://usaybia.net/person/1362"/>
+               <relation ref="father-of" active="https://usaybia.net/person/2068" passive="https://usaybia.net/person/663"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2069" passive="https://usaybia.net/person/32"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/2070" passive="https://usaybia.net/person/1053"/>
+               <relation ref="halfbrother-of" active="https://usaybia.net/person/2085" passive="https://usaybia.net/person/1735"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2088" passive="https://usaybia.net/person/762"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/2090" passive="https://usaybia.net/person/1199"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/2098" passive="https://usaybia.net/person/1702"/>
+               <relation ref="under" active="https://usaybia.net/person/2101" passive="https://usaybia.net/person/1451"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/2105" passive="https://usaybia.net/person/622"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2107" passive="https://usaybia.net/person/886"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2108" passive="https://usaybia.net/person/926"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2109" passive="https://usaybia.net/person/1700"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/2112" passive="https://usaybia.net/person/2125"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2116" passive="https://usaybia.net/person/2196"/>
+               <relation ref="astrologer-to" active="https://usaybia.net/person/2117" passive="https://usaybia.net/person/1497"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2121" passive="https://usaybia.net/person/1702"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/2124" passive="https://usaybia.net/person/2382"/>
+               <relation ref="father-of" active="https://usaybia.net/person/2129" passive="https://usaybia.net/person/2125"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/2132" passive="https://usaybia.net/person/886"/>
+               <relation ref="admirer-of" active="https://usaybia.net/person/2133" passive="https://usaybia.net/person/565"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2141" passive="https://usaybia.net/person/916"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2142" passive="https://usaybia.net/person/2143"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2143" passive="https://usaybia.net/person/2144"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2144" passive="https://usaybia.net/person/2141"/>
+               <relation ref="under" active="https://usaybia.net/person/2145" passive="https://usaybia.net/person/1451"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2146" passive="https://usaybia.net/person/698"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/2147" passive="https://usaybia.net/person/841"/>
+               <relation ref="under" active="https://usaybia.net/person/2149" passive="https://usaybia.net/person/1646"/>
+               <relation ref="physician-accompanying" active="https://usaybia.net/person/2152" passive="https://usaybia.net/person/148"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/2157" passive="https://usaybia.net/person/1646"/>
+               <relation ref="eunuch-of" active="https://usaybia.net/person/2158" passive="https://usaybia.net/person/2382"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/2160" passive="https://usaybia.net/person/2376"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2162" passive="https://usaybia.net/person/1692"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/2164" passive="https://usaybia.net/person/1700"/>
+               <relation ref="favoured-by" active="https://usaybia.net/person/2169" passive="https://usaybia.net/person/793"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/2170" passive="https://usaybia.net/person/2026"/>
+               <relation ref="under" active="https://usaybia.net/person/2171" passive="https://usaybia.net/person/1497"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/2176" passive="https://usaybia.net/person/926"/>
+               <relation ref="eunuch-(`khādim`)-at-the-court-of" active="https://usaybia.net/person/2177" passive="https://usaybia.net/person/1755"/>
+               <relation ref="general-of" active="https://usaybia.net/person/2178" passive="https://usaybia.net/person/1994"/>
+               <relation ref="held-power-during" active="https://usaybia.net/person/2179" passive="https://usaybia.net/person/760"/>
+               <relation ref="opponent-of" active="https://usaybia.net/person/2180" passive="https://usaybia.net/person/465"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/2185" passive="https://usaybia.net/person/1667"/>
+               <relation ref="father-of" active="https://usaybia.net/person/2190" passive="https://usaybia.net/person/151"/>
+               <relation ref="father-in-law-of" active="https://usaybia.net/person/2191" passive="https://usaybia.net/person/2326"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/2193" passive="https://usaybia.net/person/786"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/2208" passive="https://usaybia.net/person/1563"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/2211" passive="https://usaybia.net/person/886"/>
+               <relation ref="time-of" active="https://usaybia.net/person/2215" passive="https://usaybia.net/person/1702"/>
+               <relation ref="successor-to" active="https://usaybia.net/person/2219" passive="https://usaybia.net/person/565"/>
+               <relation ref="eldest-son-of" active="https://usaybia.net/person/2221" passive="https://usaybia.net/person/886"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2223" passive="https://usaybia.net/person/899"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/2224" passive="https://usaybia.net/person/786"/>
+               <relation ref="brother-in-law-of" active="https://usaybia.net/person/2226" passive="https://usaybia.net/person/35"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2229" passive="https://usaybia.net/person/1829"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/2232" passive="https://usaybia.net/person/887"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/2233" passive="https://usaybia.net/person/565"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2234" passive="https://usaybia.net/person/886"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/2235" passive="https://usaybia.net/person/2125"/>
+               <relation ref="father-of" active="https://usaybia.net/person/2243" passive="https://usaybia.net/person/2405"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2246" passive="https://usaybia.net/person/886"/>
+               <relation ref="slave-belonging-to" active="https://usaybia.net/person/2249" passive="https://usaybia.net/person/565"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/2250" passive="https://usaybia.net/person/1855"/>
+               <relation ref="source-for" active="https://usaybia.net/person/2252" passive="https://usaybia.net/person/926"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/2255" passive="https://usaybia.net/person/1702"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2257" passive="https://usaybia.net/person/1070"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2263" passive="https://usaybia.net/person/1013"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2264" passive="https://usaybia.net/person/1596"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/2265" passive="https://usaybia.net/person/1975"/>
+               <relation ref="concubine-of" active="https://usaybia.net/person/2267" passive="https://usaybia.net/person/1436"/>
+               <relation ref="daughter-of" active="https://usaybia.net/person/2268" passive="https://usaybia.net/person/806"/>
+               <relation ref="daughter-of" active="https://usaybia.net/person/2269" passive="https://usaybia.net/person/806"/>
+               <relation ref="daughter-of" active="https://usaybia.net/person/2270" passive="https://usaybia.net/person/793"/>
+               <relation ref="adversary-of" active="https://usaybia.net/person/2271" passive="https://usaybia.net/person/1599"/>
+               <relation ref="circle-of" active="https://usaybia.net/person/2274" passive="https://usaybia.net/person/1408"/>
+               <relation ref="successor-to" active="https://usaybia.net/person/2275" passive="https://usaybia.net/person/2261"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2276" passive="https://usaybia.net/person/2226"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/2286" passive="https://usaybia.net/person/2226"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/2290" passive="https://usaybia.net/person/1700"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/2297" passive="https://usaybia.net/person/1692"/>
+               <relation ref="continuator-of" active="https://usaybia.net/person/2304" passive="https://usaybia.net/person/1965"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/2306" passive="https://usaybia.net/person/145"/>
+               <relation ref="servant-of" active="https://usaybia.net/person/2307" passive="https://usaybia.net/person/806"/>
+               <relation ref="physician-in-the-service-of" active="https://usaybia.net/person/2310" passive="https://usaybia.net/person/1653"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/2321" passive="https://usaybia.net/person/1497"/>
+               <relation ref="friend-of" active="https://usaybia.net/person/2322" passive="https://usaybia.net/person/756"/>
+               <relation ref="collaborator-of" active="https://usaybia.net/person/2323" passive="https://usaybia.net/person/899"/>
+               <relation ref="philosopher-during" active="https://usaybia.net/person/2325" passive="https://usaybia.net/person/1667"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2327" passive="https://usaybia.net/person/1955"/>
+               <relation ref="physician-in-the-time-of" active="https://usaybia.net/person/2332" passive="https://usaybia.net/person/1658"/>
+               <relation ref="physician-accompanying" active="https://usaybia.net/person/2333" passive="https://usaybia.net/person/148"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/2337" passive="https://usaybia.net/person/1199"/>
+               <relation ref="physician-accompanying" active="https://usaybia.net/person/2339" passive="https://usaybia.net/person/148"/>
+               <relation ref="student-of" active="https://usaybia.net/person/2340" passive="https://usaybia.net/person/1919"/>
+               <relation ref="physician-under" active="https://usaybia.net/person/2343" passive="https://usaybia.net/person/1658"/>
+               <relation ref="alchemist-associate-of" active="https://usaybia.net/person/2344" passive="https://usaybia.net/person/1497"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/2349" passive="https://usaybia.net/person/939"/>
+               <relation ref="physician-of" active="https://usaybia.net/person/2350" passive="https://usaybia.net/person/1756"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2353" passive="https://usaybia.net/person/1136"/>
+               <relation ref="on-campaign-with" active="https://usaybia.net/person/2355" passive="https://usaybia.net/person/411"/>
+               <relation ref="majordomo-to" active="https://usaybia.net/person/2359" passive="https://usaybia.net/person/1708"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2362" passive="https://usaybia.net/person/1408"/>
+               <relation ref="`mawlā`-of" active="https://usaybia.net/person/2365" passive="https://usaybia.net/person/1598"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/2368" passive="https://usaybia.net/person/762"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/2370" passive="https://usaybia.net/person/142"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/2375" passive="https://usaybia.net/person/1599"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/2378" passive="https://usaybia.net/person/841"/>
+               <relation ref="fought-on-the-side-of" active="https://usaybia.net/person/2379" passive="https://usaybia.net/person/440"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2393" passive="https://usaybia.net/person/926"/>
+               <relation ref="quoted-by" active="https://usaybia.net/person/2397" passive="https://usaybia.net/person/1070"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/2382" passive="https://usaybia.net/person/261"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2401" passive="https://usaybia.net/person/926"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/2406" passive="https://usaybia.net/person/1986"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/2414" passive="https://usaybia.net/person/2411"/>
+               <relation ref="mentioned-with" active="https://usaybia.net/person/2419" passive="https://usaybia.net/person/1520"/>
+               <relation ref="identified-with" active="https://usaybia.net/person/2421" passive="https://usaybia.net/person/1213"/>
+               <relation ref="family-of" active="https://usaybia.net/person/2423" passive="https://usaybia.net/person/1141"/>
+               <relation ref="subject-of-a-love-epigram-by" active="https://usaybia.net/person/2427" passive="https://usaybia.net/person/731"/>
+               <relation ref="conflation-of" active="https://usaybia.net/person/2428" passive="https://usaybia.net/person/2385"/>
+               <relation ref="theologian-of" active="https://usaybia.net/person/2389" passive="https://usaybia.net/person/1704"/>
+               <relation ref="physician-in-service-of" active="https://usaybia.net/person/2390" passive="https://usaybia.net/person/1405"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/2440" passive="https://usaybia.net/person/841"/>
+               <relation ref="brother-in-law-of" active="https://usaybia.net/person/2441" passive="https://usaybia.net/person/1967"/>
+               <relation ref="father-of" active="https://usaybia.net/person/2439" passive="https://usaybia.net/person/1040"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/4" passive="https://usaybia.net/person/806"/>
+               <relation ref="sister-of" active="https://usaybia.net/person/7" passive="https://usaybia.net/person/841"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/15" passive="https://usaybia.net/person/1502"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/95" passive="https://usaybia.net/person/1707"/>
+               <relation ref="attributed-to" active="https://usaybia.net/person/105" passive="https://usaybia.net/person/605"/>
+               <relation ref="probably-son-of" active="https://usaybia.net/person/136" passive="https://usaybia.net/person/828"/>
+               <relation ref="under" active="https://usaybia.net/person/143" passive="https://usaybia.net/person/815"/>
+               <relation ref="serving-under" active="https://usaybia.net/person/167" passive="https://usaybia.net/person/1454"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/244" passive="https://usaybia.net/person/1864"/>
+               <relation ref="informant-of" active="https://usaybia.net/person/274" passive="https://usaybia.net/person/926"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/318" passive="https://usaybia.net/person/1667"/>
+               <relation ref="associate-of" active="https://usaybia.net/person/335" passive="https://usaybia.net/person/1502"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/386" passive="https://usaybia.net/person/495"/>
+               <relation ref="general-of" active="https://usaybia.net/person/411" passive="https://usaybia.net/person/1700"/>
+               <relation ref="and" active="https://usaybia.net/person/473" passive="https://usaybia.net/person/841"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/483" passive="https://usaybia.net/person/899"/>
+               <relation ref="under" active="https://usaybia.net/person/520" passive="https://usaybia.net/person/2292"/>
+               <relation ref="fosterfather-of" active="https://usaybia.net/person/525" passive="https://usaybia.net/person/1855"/>
+               <relation ref="purchaser-of-the-works-of" active="https://usaybia.net/person/544" passive="https://usaybia.net/person/565"/>
+               <relation ref="claiming-descent-from-or-adherence-to" active="https://usaybia.net/person/576" passive="https://usaybia.net/person/2411"/>
+               <relation ref="great-grandfather-of" active="https://usaybia.net/person/585" passive="https://usaybia.net/person/448"/>
+               <relation ref="under" active="https://usaybia.net/person/592" passive="https://usaybia.net/person/841"/>
+               <relation ref="rebel-against" active="https://usaybia.net/person/602" passive="https://usaybia.net/person/1700"/>
+               <relation ref="under" active="https://usaybia.net/person/648" passive="https://usaybia.net/person/1700"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/658" passive="https://usaybia.net/person/1897"/>
+               <relation ref="son-of" active="https://usaybia.net/person/669" passive="https://usaybia.net/person/686"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/682" passive="https://usaybia.net/person/886"/>
+               <relation ref="in-the-reign-of" active="https://usaybia.net/person/689" passive="https://usaybia.net/person/841"/>
+               <relation ref="brother-in-law-of" active="https://usaybia.net/person/692" passive="https://usaybia.net/person/1967"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/702" passive="https://usaybia.net/person/806"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/745" passive="https://usaybia.net/person/565"/>
+               <relation ref="vizier-of" active="https://usaybia.net/person/757" passive="https://usaybia.net/person/495"/>
+               <relation ref="identified-with" active="https://usaybia.net/person/789" passive="https://usaybia.net/person/398"/>
+               <relation ref="under" active="https://usaybia.net/person/796" passive="https://usaybia.net/person/1497"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/801" passive="https://usaybia.net/person/886"/>
+               <relation ref="loyal-to" active="https://usaybia.net/person/811" passive="https://usaybia.net/person/2285"/>
+               <relation ref="courtier-of" active="https://usaybia.net/person/817" passive="https://usaybia.net/person/1700"/>
+               <relation ref="under" active="https://usaybia.net/person/822" passive="https://usaybia.net/person/815"/>
+               <relation ref="under" active="https://usaybia.net/person/856" passive="https://usaybia.net/person/1497"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/872" passive="https://usaybia.net/person/453"/>
+               <relation ref="enemy-of" active="https://usaybia.net/person/979" passive="https://usaybia.net/person/997"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/993" passive="https://usaybia.net/person/1700"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/1002" passive="https://usaybia.net/person/1687"/>
+               <relation ref="time-of" active="https://usaybia.net/person/1021" passive="https://usaybia.net/person/2295"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1028" passive="https://usaybia.net/person/1000"/>
+               <relation ref="under" active="https://usaybia.net/person/1055" passive="https://usaybia.net/person/1702"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1070" passive="https://usaybia.net/person/1594"/>
+               <relation ref="under" active="https://usaybia.net/person/1081" passive="https://usaybia.net/person/1700"/>
+               <relation ref="follower-then-critic-of" active="https://usaybia.net/person/1092" passive="https://usaybia.net/person/1599"/>
+               <relation ref="on" active="https://usaybia.net/person/1120" passive="https://usaybia.net/person/1139"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1154" passive="https://usaybia.net/person/1579"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1178" passive="https://usaybia.net/person/1502"/>
+               <relation ref="disciple-of" active="https://usaybia.net/person/1183" passive="https://usaybia.net/person/765"/>
+               <relation ref="physician-under" active="https://usaybia.net/person/1189" passive="https://usaybia.net/person/1705"/>
+               <relation ref="cousin-of" active="https://usaybia.net/person/1204" passive="https://usaybia.net/person/1502"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1215" passive="https://usaybia.net/person/1093"/>
+               <relation ref="shaykh-of" active="https://usaybia.net/person/1216" passive="https://usaybia.net/person/930"/>
+               <relation ref="student-of" active="https://usaybia.net/person/1217" passive="https://usaybia.net/person/1125"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1237" passive="https://usaybia.net/person/1696"/>
+               <relation ref="commander-under" active="https://usaybia.net/person/1244" passive="https://usaybia.net/person/841"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/1248" passive="https://usaybia.net/person/1502"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/1251" passive="https://usaybia.net/person/1502"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1266" passive="https://usaybia.net/person/489"/>
+               <relation ref="under" active="https://usaybia.net/person/1268" passive="https://usaybia.net/person/1436"/>
+               <relation ref="governor-under" active="https://usaybia.net/person/1271" passive="https://usaybia.net/person/495"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/1334" passive="https://usaybia.net/person/1070"/>
+               <relation ref="state-secretary-of" active="https://usaybia.net/person/1367" passive="https://usaybia.net/person/1981"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1371" passive="https://usaybia.net/person/1957"/>
+               <relation ref="commentatora-of" active="https://usaybia.net/person/1411" passive="https://usaybia.net/person/886"/>
+               <relation ref="successor-of" active="https://usaybia.net/person/1451" passive="https://usaybia.net/person/1981"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1464" passive="https://usaybia.net/person/1981"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1514" passive="https://usaybia.net/person/1947"/>
+               <relation ref="mother-of" active="https://usaybia.net/person/1524" passive="https://usaybia.net/person/1354"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/1567" passive="https://usaybia.net/person/2326"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1575" passive="https://usaybia.net/person/1856"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/1580" passive="https://usaybia.net/person/1408"/>
+               <relation ref="under" active="https://usaybia.net/person/1585" passive="https://usaybia.net/person/1652"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/1594" passive="https://usaybia.net/person/1074"/>
+               <relation ref="secretary-to" active="https://usaybia.net/person/1604" passive="https://usaybia.net/person/1502"/>
+               <relation ref="in-the-caliphate-of" active="https://usaybia.net/person/1609" passive="https://usaybia.net/person/465"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/1627" passive="https://usaybia.net/person/899"/>
+               <relation ref="source-for" active="https://usaybia.net/person/1629" passive="https://usaybia.net/person/1016"/>
+               <relation ref="successor-to" active="https://usaybia.net/person/1646" passive="https://usaybia.net/person/2292"/>
+               <relation ref="son-of" active="https://usaybia.net/person/1725" passive="https://usaybia.net/person/828"/>
+               <relation ref="pupil-of" active="https://usaybia.net/person/1726" passive="https://usaybia.net/person/2078"/>
+               <relation ref="on-behalf-of" active="https://usaybia.net/person/1745" passive="https://usaybia.net/person/1755"/>
+               <relation ref="grandfather-of" active="https://usaybia.net/person/1813" passive="https://usaybia.net/person/886"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1821" passive="https://usaybia.net/person/456"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/1849" passive="https://usaybia.net/person/1841"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/1858" passive="https://usaybia.net/person/565"/>
+               <relation ref="under" active="https://usaybia.net/person/1868" passive="https://usaybia.net/person/1658"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/1874" passive="https://usaybia.net/person/1408"/>
+               <relation ref="Companion-of" active="https://usaybia.net/person/1888" passive="https://usaybia.net/person/1599"/>
+               <relation ref="vizier-to" active="https://usaybia.net/person/1972" passive="https://usaybia.net/person/1696"/>
+               <relation ref="perhaps-descendant-of" active="https://usaybia.net/person/1984" passive="https://usaybia.net/person/643"/>
+               <relation ref="in-the-reign-of" active="https://usaybia.net/person/1987" passive="https://usaybia.net/person/1646"/>
+               <relation ref="collaborator-of" active="https://usaybia.net/person/1993" passive="https://usaybia.net/person/899"/>
+               <relation ref="patron-of" active="https://usaybia.net/person/2003" passive="https://usaybia.net/person/1885"/>
+               <relation ref="served" active="https://usaybia.net/person/2028" passive="https://usaybia.net/person/841"/>
+               <relation ref="dedicatee-of" active="https://usaybia.net/person/2073" passive="https://usaybia.net/person/2000"/>
+               <relation ref="uncle-of" active="https://usaybia.net/person/2092" passive="https://usaybia.net/person/1981"/>
+               <relation ref="time-of" active="https://usaybia.net/person/2161" passive="https://usaybia.net/person/1506"/>
+               <relation ref="claimed-brother-of" active="https://usaybia.net/person/2190" passive="https://usaybia.net/person/1397"/>
+               <relation ref="under" active="https://usaybia.net/person/2253" passive="https://usaybia.net/person/841"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/2268" passive="https://usaybia.net/person/1497"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/2286" passive="https://usaybia.net/person/35"/>
+               <relation ref="son-of" active="https://usaybia.net/person/2315" passive="https://usaybia.net/person/1094"/>
+               <relation ref="time-of" active="https://usaybia.net/person/2318" passive="https://usaybia.net/person/1497"/>
+               <relation ref="brother-of" active="https://usaybia.net/person/2350" passive="https://usaybia.net/person/733"/>
+               <relation ref="under" active="https://usaybia.net/person/2376" passive="https://usaybia.net/person/1579"/>
+               <relation ref="contemporary-of" active="https://usaybia.net/person/2428" passive="https://usaybia.net/person/507"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/2441" passive="https://usaybia.net/person/1692"/>
+               <relation ref="nephew-of" active="https://usaybia.net/person/4" passive="https://usaybia.net/person/841"/>
+               <relation ref="teacher-of" active="https://usaybia.net/person/642" passive="https://usaybia.net/person/572"/>
+               <relation ref="physician-to" active="https://usaybia.net/person/692" passive="https://usaybia.net/person/1692"/>
+               <relation ref="companion-of" active="https://usaybia.net/person/993" passive="https://usaybia.net/person/1702"/>
+               <relation ref="under" active="https://usaybia.net/person/1268" passive="https://usaybia.net/person/841"/>
+               <relation ref="ancestor-of" active="https://usaybia.net/person/1581" passive="https://usaybia.net/person/1408"/>
+               <relation ref="commentator-on" active="https://usaybia.net/person/1849" passive="https://usaybia.net/person/565"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/2190" passive="https://usaybia.net/person/1436"/>
+               <relation ref="wife-of" active="https://usaybia.net/person/7" passive="https://usaybia.net/person/1204"/>
+               <relation ref="father-of" active="https://usaybia.net/person/1268" passive="https://usaybia.net/person/1408"/>
+               <relation ref="mistakenly-attributed-dedicatee-of-book-by" active="https://usaybia.net/person/1506" passive="https://usaybia.net/person/1919"/>
+           </listRelation>
+        </body>
+    </text>
+</TEI>
