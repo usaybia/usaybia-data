@@ -167,6 +167,28 @@
                     <citedRange unit="part">1</citedRange>
                 </bibl>
             </div>
+            <div 
+                type="factoid" subtype="relation" 
+                xml:id="factoid-17" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/14-25-17</idno>
+                <!-- Insert factoid content here -->
+                <listRelation>
+                    <relation ref="default_value" 
+                        mutual=" 
+                        ">
+                        <desc>                
+                            <persName ref=""><!--insert person 1 name--></persName> 
+                            <!--describe relationship in short phrase, e.g., "corresponded with"--> 
+                            <persName ref=""><!--insert person 2 name--></persName>.
+                        </desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                    <citedRange unit="part">5</citedRange>
+                </bibl>   
+            </div>
             <div type="factoid" subtype="birthPlace" xml:id="factoid-2" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-2</idno>
                 <listPerson>
@@ -302,7 +324,7 @@
             <div type="factoid" subtype="relation" xml:id="factoid-9" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-9</idno>
                 <listRelation>
-                    <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/926 https://usaybia.net/person/2394">
+                    <relation ref="http://syriaca.org/keyword/professional-relationship" mutual="https://usaybia.net/person/926 https://usaybia.net/person/2394">
                         <desc>Abū ʿAbd Allāh Muḥammad of <placeName ref="https://usaybia.net/place/Malaga">Malaga [in al-Andalus]</placeName>, 
                             the <occupation ref="https://usaybia.net/occupation/scribe">copyist</occupation>, related to 
                             Ibn Abī Uṣaybiʿa the mental derangement of 
@@ -367,7 +389,7 @@
             <div type="factoid" subtype="relation" xml:id="factoid-13" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-13</idno>
                 <listRelation>
-                    <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/961">
+                    <relation ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/961">
                     </relation>
                 </listRelation>
                 <bibl type="urn">
@@ -378,7 +400,7 @@
             <div type="factoid" subtype="relation" xml:id="factoid-14" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-14</idno>
                 <listRelation>
-                    <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/899">
+                    <relation ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/899">
                     </relation>
                 </listRelation>
                 <bibl type="urn">
@@ -389,7 +411,7 @@
             <div type="factoid" subtype="relation" xml:id="factoid-15" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-15</idno>
                 <listRelation>
-                    <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/1136">
+                    <relation ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/1136">
                     </relation>
                 </listRelation>
                 <bibl type="urn">
@@ -400,7 +422,7 @@
             <div type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-16</idno>
                 <listRelation>
-                    <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 ref=https://usaybia.net/person/1919">
+                    <relation ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/1093 ref=https://usaybia.net/person/1919">
                     </relation>
                 </listRelation>
                 <bibl type="urn">
