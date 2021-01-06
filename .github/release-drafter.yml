@@ -1,5 +1,6 @@
-name-template: 'v$RESOLVED_VERSION 🌈'
+name-template: 'Pre-release version $RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
+version-template: '$MAJOR.$MINOR.$PATCH-alpha' # Different config files could be referenced by workflows in different branches to allow 'alpha' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
   - title: '🚀 Features'
     labels:
@@ -12,8 +13,9 @@ categories:
       - 'bug'
   - title: '🧰 Maintenance'
     label: 'chore'
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+prerelease: true # This can also be specified in the workflow file to allow differences between branches
 version-resolver:
   major:
     labels:
@@ -26,6 +28,18 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
+  This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website. 
+
+  It includes person records, place records, bibliography records, some marked-up Arabic text, and some factoids.
+
+  The .xar package is intended to be used in [eXist-db 5.x](http://exist-db.org/exist/apps/homepage/index.html) with the [Srophé app Usaybia fork](https://github.com/usaybia/srophe-eXist-app).
+
+  You can also make your own .xar of the data by downloading this repo and running ant in the repo directory.  
+
   ## Changes
 
   $CHANGES
+
+  ## Contributors
+
+  $CONTRIBUTORS
