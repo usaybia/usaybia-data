@@ -1,0 +1,1061 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:py="http://codespeak.net/lxml/objectify/pytype"
+ xml:id="arabicLit.textgroup.work.H01" py:pytype="TREE">
+ <teiHeader>
+  <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" level="a">Chapter 9</title>
+        <title xml:lang="en" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+  <author xml:lang="en" ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿah</author>
+  <sponsor ref="https://www.uni-muenchen.de">
+    <orgName>Ludwig Maximilian University of Munich</orgName>
+    (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+  </sponsor>
+  <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+    <orgName>Institute of Near and Middle Eastern Studies</orgName>
+    (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+  </sponsor>
+  <funder ref="https://www.bmbf.de/">
+    <orgName>German Federal Ministry of Education and Research</orgName>
+    (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+  </funder>
+  <principal ref="#ngibson">Nathan P. Gibson</principal>
+  <editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+          <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+          <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+          <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+          <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+  <respStmt>
+    <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                  A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+    <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+  </respStmt>				
+  <!-- <respStmt>
+    <resp>Edited by</resp>
+    <name type="person">Insert other names of people who edit this document </name>
+  </respStmt> -->
+</titleStmt>
+     <publicationStmt>
+        <p>
+              <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+          </p>
+     </publicationStmt>
+     <sourceDesc>
+         <biblStruct>
+          <monogr>
+              <title>Annotated English Translation</title>
+              <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+              <author>Ibn Abī Uṣaybiʿa</author>
+              <editor>Emilie Savage-Smith</editor>
+              <editor>Simon Swain</editor>
+              <editor>Geert Jan van Gelder</editor>
+              <editor role="contributor">Ignacio Sánchez</editor>
+              <editor role="contributor">N. Peter Joosse</editor>
+              <editor role="contributor">Alasdair Watson</editor>
+              <editor role="contributor">Bruce Inksetter</editor>
+              <editor role="contributor">Franak Hilloowala</editor>
+              <textLang mainLang="en">English</textLang>
+              <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+              </availability>
+              <imprint>
+                  <pubPlace>Leiden</pubPlace>
+                  <publisher>Brill</publisher>
+                  <date>2020</date>
+              </imprint>
+              <biblScope unit="chapter">9</biblScope>
+            </monogr>
+          <monogr>
+              <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+              <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+              <author>Ibn Abī Uṣaybiʿa</author>
+              <editor>Emilie Savage-Smith</editor>
+              <editor>Simon Swain</editor>
+              <editor>Geert Jan van Gelder</editor>
+              <editor role="contributor">Ignacio Sánchez</editor>
+              <editor role="contributor">N. Peter Joosse</editor>
+              <editor role="contributor">Alasdair Watson</editor>
+              <editor role="contributor">Bruce Inksetter</editor>
+              <editor role="contributor">Franak Hilloowala</editor>
+              <textLang mainLang="ar">Arabic</textLang>
+              <availability>
+                  <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+              </availability>
+              <imprint>
+                  <pubPlace>Leiden</pubPlace>
+                  <publisher>Brill</publisher>
+                  <date>2020</date>
+              </imprint>
+              <biblScope unit="volume">3</biblScope>
+          </monogr>
+         </biblStruct>
+     </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+      <change when="2020-08-28" who="#ngibson">Added header to downloaded text.</change>
+  </revisionDesc>
+</teiHeader>
+ <text>
+  <body>
+   <div type="translation" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1"
+    xml:lang="en-Latn">
+    <div type="textpart" subtype="chapter" n="9">
+     <div type="textpart" subtype="biography" n="1">
+      <head> Chapter 9 Physicians Who Translated Works on Medicine and Other Subjects from Greek
+       into Arabic, and Their Patrons</head>
+      <head> Bruce Inksetter and Ignacio Sánchez</head>
+      <p>
+       <hi rend="bold"> 9.1 Jūrjis<note n="1" type="footnote">
+         <p> This chapter is included in all three versions of the book. Biographies 9.1–9.38 of
+          this chapter have clear parallels in Ibn al-Nadīm, <hi rend="italic"> Fihrist</hi>
+          (Flügel, 244–245; Tajaddud, 304–306; Sayyid, 2/1:144–149). Both <hi rend="smallcaps">
+           IAU</hi> and Ibn al-Nadīm seem to have relied on the same unidentified source, which, in
+          view of the transliterations and the religious affiliation of the translators, must have
+          been originally written by a Christian author in Syriac and later translated into Arabic.
+           <hi rend="smallcaps"> IAU</hi> is more detailed than Ibn al-Nadīm. The second part of <hi
+           rend="smallcaps"> IAU</hi> ’s account (9.39–9.49) centres on the sponsors of the
+          translation movement and has no parallel in Ibn al-Nadīm; the main source for this list of
+          patrons is Ḥunayn ibn Isḥāq’s <hi rend="italic"> Epistle</hi> (<hi rend="italic">
+           Risālah</hi> ). The identities of the translators mentioned in this chapter have been
+          discussed in Meyerhof, ‘New Light’; Gutas, <hi rend="italic"> Greek Thought, Arabic
+           Culture</hi> , 121–140; Nasrallah, <hi rend="italic"> Histoire</hi> , ii:74–91; Micheau,
+          ‘Mécènes et médecins’; Ḥunayn ibn Isḥāq, <hi rend="italic"> Galen Translations</hi> ,
+          Appendix 2.</p>
+        </note>
+       </hi>
+      </p>
+      <p> The first of those who began the work of translating medical and other works from Greek
+       into Arabic. Jūrjis undertook this task at the invitation of the caliph al-Manṣūr, who
+       treated him with the utmost generosity. An account of his life has been given in an earlier
+       chapter of this work.<note n="2" type="footnote">
+        <p> See Ch. 8.1.</p>
+       </note>
+      </p>
+     </div>
+     <div type="textpart" subtype="biography" n="2">
+      <p>
+       <hi rend="bold"> 9.2 Ḥunayn ibn Isḥāq<note n="3" type="footnote">
+         <p> See Ch. 8.29 for the full biography.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Ḥunayn knew four languages – Arabic, Syriac, Greek and Persian – including rare words as
+       well as common vocabulary. His works are superb examples of the translator’s art.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="3">
+      <p>
+       <hi rend="bold"> 9.3 Isḥāq ibn Ḥunayn</hi>
+      </p>
+      <p> Isḥāq was conversant with all the languages that his father knew, and was comparable to
+       him as a translator. His style was mellifluous and his diction fluent. However, Ḥunayn has
+       more works to his credit, both original compositions and translations, than Isḥāq. Accounts
+       of the lives of both Isḥāq and his father have been given in an earlier chapter of this
+        work.<note n="4" type="footnote">
+        <p> For these two earlier biographies, see Chs. 8.29 and 8.30.</p>
+       </note>
+      </p>
+     </div>
+     <div type="textpart" subtype="biography" n="4">
+      <p>
+       <hi rend="bold"> 9.4 Ḥubaysh al-Aʿsam<note n="5" type="footnote">
+         <p> The nephew of Ḥunayn ibn Isḥāq; his biography will be found in Ch. 8.31. See also <hi
+           rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Ḥubaysh b. Ḥasan al-Dimashqī’
+          (G. Strohmaier).</p>
+        </note>
+       </hi>
+      </p>
+      <p> The son of a sister of Ḥunayn ibn Isḥāq, and Ḥunayn’s pupil. An admirable translator,
+       worthy to be ranked with Ḥunayn and Isḥāq. An account of his life has been given in an
+       earlier chapter as well.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="5">
+      <p>
+       <hi rend="bold"> 9.5 ʿĪsā ibn Yaḥyā ibn Ibrāhīm<note n="6" type="footnote">
+         <p> A very brief notice will be found at Ch. 8.35. For Ḥunayn’s numerous references to his
+          translations, see Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> (index).</p>
+        </note>
+       </hi>
+      </p>
+      <p> Another pupil of Ḥunayn ibn Isḥāq. An excellent translator: Ḥunayn praised him and held
+       his translation work in high regard. ʿĪsā’s translations are closely modelled on those of
+       Ḥunayn. He also produced original compositions.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="6">
+      <p>
+       <hi rend="bold"> 9.6 Qusṭā ibn Lūqā al-Baʿlabakkī</hi>
+      </p>
+      <p> He was a translator experienced in languages and accomplished in the philosophical and
+       other sciences. An account of his life and works will be presented later in this work, God
+        willing.<note n="7" type="footnote">
+        <p> See Ch. 10.44 for a lengthy biography.</p>
+       </note>
+      </p>
+     </div>
+     <div type="textpart" subtype="biography" n="7">
+      <p>
+       <hi rend="bold"> 9.7 Ayyūb, known as al-Abrash (‘the Speckled’)<note n="8" type="footnote">
+         <p> Although <hi rend="smallcaps"> IAU</hi> does not include al-Ruhāwī in the name, this
+          must be Ayyūb al-Ruhāwī al-Abrash (d. ca. 220/835), otherwise known as Iyob or Job of
+          Edessa. Another short biography of him is given in Ch. 8.22. ‘<hi rend="italic">
+           Al-abrash</hi> (‘the speckled’, or ‘the spotted’) was sometimes used as a euphemism for
+           <hi rend="italic"> al-abraṣ</hi> (‘the leper’), as in the case of the pre-Islamic
+          Jadhīmah, but whether this meaning was applicable to Job of Edessa is unknown. He was a
+          Christian physician, although his exact confession is unknown, and worked as physician for
+          the Abbasid caliphs and the governor of Khorasan, ‘Abd Allāh ibn Ṭāhir. Ḥunayn ibn Isḥāq
+          refers to Ayyūb al-Ruhāwī as the translator of thirty-six Galenic works (Ḥunayn ibn Isḥāq,
+           <hi rend="italic"> Risālah</hi> , index s.v. Aijūb al-Ruhāwī; <hi rend="italic"> Galen
+           Translations</hi> , s.v. Ayyūb al-Ruhāwī). On this translator, see Roggema, ‘Iyob of
+          Edessa’. For bibliographic references, see Sezgin, <hi rend="italic">
+           <hi rend="smallcaps"> GAS</hi>
+          </hi>
+          <hi rend="smallcaps"> III</hi> , 230; Ullmann, <hi rend="italic"> Medizin</hi> ,
+          101 f.</p>
+        </note>
+       </hi>
+      </p>
+      <p> An unproductive and mediocre translator, until late in life, when he produced a number of
+       translations worthy of Ḥunayn.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="8">
+      <p>
+       <hi rend="bold"> 9.8 Māsarjīs<note n="9" type="footnote">
+         <p> Māsarjīs, also called Māsarjawayh (Persian Māsargōye), was a physician of Judeo-Persian
+          origin. He is one of the few known physicians from the Umayyad period, but the exact dates
+          of his life are unknown: see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Māsard̲j̲awayh’ (A. Dietrich). His biography is also given in Ch. 8.19.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A translator from Syriac into Arabic, and renowned for his knowledge of the art of
+       medicine. He is the author of works entitled:</p>
+      <list>
+       <label> 1.</label>
+       <item> On the effectiveness of foods: their beneficial and harmful effects (<hi rend="italic"
+         > K. quwā al-aṭʿimah wa-manāfiʿihā wa-maḍārrihā</hi> )</item>
+       <label> 2.</label>
+       <item> On the effectiveness of drugs: their beneficial and harmful effects (<hi rend="italic"
+         > K. quwā al-ʿaqāqīr wa-manāfiʿihā wa-maḍārrihā</hi> )</item>
+      </list>
+     </div>
+     <div type="textpart" subtype="biography" n="9">
+      <p>
+       <hi rend="bold"> 9.9 ʿĪsā ibn Māsarjīs<note n="10" type="footnote">
+         <p> ‘Īsā, the son of Māsarjīs, was also a physician. Almost nothing is known about his
+          life. See <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Māsard̲j̲awayh’ (A. Dietrich).</p>
+        </note>
+       </hi>
+      </p>
+      <p> ʿĪsā ibn Māsarjīs followed in his father’s footsteps. He is the author of:</p>
+      <list>
+       <label> 1.</label>
+       <item> On colours (<hi rend="italic"> K. al-alwān</hi> )</item>
+       <label> 2.</label>
+       <item> On scents and flavours (<hi rend="italic"> K. al-rawāʾiḥ wa-l-ṭuʿūm</hi> )</item>
+      </list>
+     </div>
+     <div type="textpart" subtype="biography" n="10">
+      <p>
+       <hi rend="bold"> 9.10 Shahdā al-Karkhī<note n="11" type="footnote">
+         <p> Little is known about either Shahdā al-Karkhī or his son. Ḥunayn ibn Isḥāq states that
+          Ibn Shahdā (written Sahdā) had translated Galen’s <hi rend="italic"> De Sectis</hi> into
+          Syriac, but was a mediocre translator (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> ,
+          4; Ḥunayn ibn Isḥāq, <hi rend="italic"> Galen Translations</hi> , 11); he also translated
+          Galen’s <hi rend="italic"> Ars medica</hi> and <hi rend="italic"> De pulsibus ad
+           tirones</hi> (<hi rend="italic"> Risālah</hi> , 6; <hi rend="italic"> Galen
+           Translations</hi> , 13, 15).</p>
+        </note>
+       </hi>
+      </p>
+      <p> Shahdā, a native of Karkh,<note n="12" type="footnote">
+        <p> A district of Baghdad. See <hi rend="italic">
+          <hi rend="smallcaps"> EI</hi>
+         </hi>
+         <hi rend="italic">
+          <hi rend="superscript"> 2</hi>
+         </hi> art. ‘al-Kark̲h̲’ (M. Streck &amp; J. Lassner).</p>
+       </note> was much like the aforementioned<note n="13" type="footnote">
+        <p> The expression <hi rend="italic"> qarīb al-ḥāl</hi> is puzzling; it seems to compare
+         Shahdā to translators mentioned before, with <hi rend="italic"> minhum</hi>
+         understsood.</p>
+       </note> as a translator.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="11">
+      <p>
+       <hi rend="bold"> 9.11 Ibn Shahdā al-Karkhī</hi>
+      </p>
+      <p> As a translator, he produced work similar to that of his father. The translations he
+       produced later in life, however, are superior to those of his father, although still
+       undistinguished. Ibn Shahdā al-Karkhī translated from Syriac into Arabic. Among other things,
+       he translated Hippocrates’ work on embryos.<note n="14" type="footnote">
+        <p> Ibn al-Nadīm also states that Ibn Shahdā was the translator of Hippocrates’ <hi
+          rend="italic"> On Embryos</hi> (<hi rend="italic"> K. al-Ajinnah</hi> ; <hi rend="italic">
+          De natura pueri</hi> ; see Fichtner, <hi rend="italic"> Corpus Hippocraticum</hi> ,
+         no. 46); see Ibn al-Nadīm, <hi rend="italic"> Fihrist</hi> (Flügel, 244; Tajaddud, 305;
+         Sayyid, 2/1:148).</p>
+       </note>
+      </p>
+     </div>
+     <div type="textpart" subtype="biography" n="12">
+      <p>
+       <hi rend="bold"> 9.12 al-Ḥajjāj ibn Maṭar<note n="15" type="footnote">
+         <p> Al-Ḥajjāj ibn Yūsuf ibn Maṭar (fl. 169–218/786–833) translated Euclid’s <hi
+           rend="italic"> Elements</hi> at the request of Hārūn al-Rashīd (r. 169–193/786–809) and
+          reworked it under the caliph al-Maʾmūn (r. 197–218/813–833); see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘al-Ḥajjāj b. Yūsuf b. Maṭar’ (G. de Young
+          &amp; S. Brentjes). An anecdote about a mission dispatched by al-Maʾmūn to Byzantium, in
+          which this translator is said to have participated, will be found in the biography of
+          Ḥunayn ibn Isḥāq in Ch. 8.29. Ibn al-Nadīm, <hi rend="italic"> Fihrist</hi> (Sayyid,
+          1/2:145), records a translation of the <hi rend="italic"> Almagest</hi> .</p>
+        </note>
+       </hi>
+      </p>
+      <p> Al-Ḥajjāj ibn Maṭar translated for the caliph al-Maʾmūn. Among other works, he produced a
+       translation of Euclid’s <hi rend="italic"> Elements</hi> which was subsequently revised and
+       corrected by Thābit ibn Qurrah al-Ḥarrānī.<note n="16" type="footnote">
+        <p> For the biography of Thābit ibn Qurrah, see Ch. 10.3.</p>
+       </note>
+      </p>
+     </div>
+     <div type="textpart" subtype="biography" n="13">
+      <p>
+       <hi rend="bold"> 9.13 Ibn Nāʿimah<note n="17" type="footnote">
+         <p> ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī was a Syriac Orthodox scholar mainly
+          known for his translation of the so-called ‘Theology of Aristotle’, which is a
+          periphrastic selection from the last three <hi rend="italic"> Enneads</hi> by Plotinus
+          revised by al-Kindī around 225/840. He also translated Aristotle’s <hi rend="italic">
+           Sophistici Elenchi</hi> . See Zimmermann, ‘Origins’.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Ibn Nāʿimah – that is, ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī – was a generally
+       undistinguished translator, although he produced some respectable work on occasion.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="14">
+      <p>
+       <hi rend="bold"> 9.14 Zarūyā ibn Mānaḥūh al-Nāʿimī al-Ḥimṣī<note n="18" type="footnote">
+         <p> The precise form of the name of this little-known translator is uncertain. With the
+          exception of <hi rend="smallcaps"> MS</hi> A, all manuscript copies, as well as Ibn
+          al-Nadīm, write the name as Zarūbā, while Zarūyā perhaps reflects a Syriac origin or a
+          masculine equivalent of the Biblical name Zeruiah, the sister of David. The second part of
+          the name, Mānaḥūh, may also be doubtful, and Mājūh might be a preferred reading.</p>
+        </note>
+       </hi>
+      </p>
+      <p> He produced facile translations, which, however, did not measure up to those of his
+       predecessors.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="15">
+      <p>
+       <hi rend="bold"> 9.15 Hilāl ibn Abī Hilāl al-Ḥimṣī<note n="19" type="footnote">
+         <p> Hilāl ibn Abī Hilāl al-Ḥimṣī (d. 218/833) was a mathematician associated with the Banū
+          Mūsā, and one of the translators of Apollonius’ <hi rend="italic"> Conic Sections</hi>
+           (<hi rend="italic"> K. al-Makhrūṭāt</hi> ); see Toomer, <hi rend="italic"> Apollonius’
+           Conics</hi> , xviii, 620, 628. His father, Hilāl al-Ḥimṣī, was a physician and author of
+          a book quoted by al-Rāzī; see Ullmann, <hi rend="italic"> Medizin</hi> , 122; Nasrallah,
+           <hi rend="italic"> Histoire</hi> , ii:79.</p>
+        </note>
+       </hi>
+      </p>
+      <p> His translations are sound, but are lacking in literary style and elegance.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="16">
+      <p>
+       <hi rend="bold"> 9.16 Pethion the Translator<note n="20" type="footnote">
+         <p> Pethion (fl. second half of the 3rd/9th century) was an East Syrian Christian, author
+          of a lost ecclesiastical history. He is one of <hi rend="smallcaps"> IAU</hi> ’s and
+          Barhebraeus’ main sources for the physicians from Gondēshāpūr, probably via quotations in
+          Elias of Nisibis’ <hi rend="italic"> Chronicle</hi> . Although nothing is known about his
+          life, it has been suggested that he is the Pethion of Elam to whom the Catholicos Timothy
+          addressed his ninth letter; see Berti, <hi rend="italic"> L’ au-delà de l’ âme</hi> ,
+          26–32. For Fathyūn al-tarjumān, see also Sezgin, <hi rend="italic">
+           <hi rend="smallcaps"> GAS</hi>
+          </hi>
+          <hi rend="smallcaps"> III</hi> : 231.</p>
+        </note>
+       </hi>
+      </p>
+      <p> I have found his translations barbarously ungrammatical; his grasp of the Arabic language
+       was most imperfect.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="17">
+      <p>
+       <hi rend="bold"> 9.17 Abū Naṣr ibn Nārī ibn Ayyūb</hi>
+      </p>
+      <p> He produced few translations, and those he did produce are considered less reliable than
+       those of other translators.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="18">
+      <p>
+       <hi rend="bold"> 9.18 Basīl al-Muṭrān<note n="21" type="footnote">
+         <p> According to Ibn al-Qifṭī, Basīl translated the first four books of Porphyry’s
+          commentary on Aristotle’s <hi rend="italic"> Physics</hi> ; see Ibn al-Qifṭī, <hi
+           rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 39.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A prolific and passably good translator.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="19">
+      <p>
+       <hi rend="bold"> 9.19 Iṣṭifan ibn Basīl<note n="22" type="footnote">
+         <p> Little is known about the life of Iṣṭifan ibn Basīl (d. ca. 298/910). Presumably the
+          son of the former translator, Iṣṭifan was a member of the Church of the East and,
+          according to Ḥunayn ibn Isḥāq, the author of nine translations of works by Galen
+          commissioned by Muḥammad ibn Mūsā; he was also the translator of Oribasius’ <hi
+           rend="italic"> Collectiones</hi> . Ḥunayn and Iṣṭifan collaborated in the translation of
+          Galen’s <hi rend="italic"> Causes of Breathing</hi> (Ḥunayn ibn Isḥāq, <hi rend="italic">
+           Risālah</hi> , 24; Ḥunayn ibn Isḥāq, <hi rend="italic"> Galen Translations</hi> , 53),
+          and in the first translation of Dioscorides’ <hi rend="italic"> Materia Medica</hi> . On
+          this translator see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Iṣṭifan ibn Basīl’ (I. Sánchez).</p>
+         <p> According to a marginal annotation in an Istanbul manuscript containing several works
+          on logic, the translator of Aristotle’s <hi rend="italic"> Prior Analytics</hi> , Tadhārā
+          Ibn Basīl, was Iṣṭifan’s brother (Dāneshpazūh, <hi rend="italic"> Manṭiq</hi> , viii;
+          Lameer, <hi rend="italic"> Al-Fārābī and Aristotelian Syllogism</hi> , 4). On this author,
+          see Nasrallah, <hi rend="italic"> Histoire</hi> , ii:79–81; <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Greek into Arabic’ (C. D’Ancona); Graf,
+           <hi rend="italic"> Geschichte</hi> , ii:131.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Not far short of the standard of Ḥunayn ibn Isḥāq himself as far as his ability as a
+       translator goes; however, Ḥunayn’s style is smoother and more graceful.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="20">
+      <p>
+       <hi rend="bold"> 9.20 Mūsā ibn Khālid the Translator<note n="23" type="footnote">
+         <p> Mūsā ibn Khālid was a disciple of Ḥunayn ibn Isḥāq; see Ibn al-Qifṭī, <hi rend="italic"
+           > Taʾrīkh al-ḥukamāʾ</hi> , 171.</p>
+        </note>
+       </hi>
+      </p>
+      <p> I have found many works translated by this scholar, including Galen’s <hi rend="italic">
+        Sixteen Books</hi>
+       <note n="24" type="footnote">
+        <p> That is, the Alexandrian medical curriculum: see Ch. 6.3 for the account of them by Ibn
+         Riḍwān.</p>
+       </note> and other works, but in terms of skill he fell far short of the standard of Ḥunayn
+       ibn Isḥāq.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="21">
+      <p>
+       <hi rend="bold"> 9.21 Usṭāth<note n="25" type="footnote">
+         <p> Usṭāth (Eustathius) (first half of the 3rd/9th c.) was one of the scholars of the
+          circle of al-Kindī, for whom he translated Aristotle’s <hi rend="italic"> Metaphysics</hi>
+          ; he was also the translator of the <hi rend="italic"> Nicomachean Ethics</hi> . See
+          Endress, ‘The Circle of al-Kindī’, 52; Nasrallah, <hi rend="italic"> Histoire</hi> ,
+          ii:81.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A mediocre translator.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="22">
+      <p>
+       <hi rend="bold"> 9.22 Khayrūn ibn Rābiṭah<note n="26" type="footnote">
+         <p> An otherwise unidentified translator. In all copies, the first letter is undotted,
+          while the third letter is a <hi rend="italic"> rāʾ</hi> in three copies (A, P, R) but
+          dotted in <hi rend="smallcaps"> MS</hi> Sb. Thus the name could be read as Ḥayzūn or
+          Ḥayrūn, but Khayrūn seems more likely.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Not renowned for the quality of his translations.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="23">
+      <p>
+       <hi rend="bold"> 9.23 Theodore the Syncellus<note n="27" type="footnote">
+         <p> In Arabic al-Sunqal, a transcription of ‮ܣܘܢܩܠܐ‬‎, the Syriac rendition of the Greek
+          σύγκελλος (referring specifically to the chief minister of the Constantinopolitan
+          patriarch). Nothing is known about this translator. There was a certain Theodore at Mar
+          Saba, brother of Michael the Syncellus, who might correspond to this figure, but Michael
+          and his brothers left for Constantinople after the sack of the monastery in 197/813. See
+          Brock, ‘Syriac into Greek at Mar Saba’.</p>
+        </note>
+       </hi>
+      </p>
+      <p> I am familiar with his translations of various philosophical works. They are quite
+       acceptable in terms of quality.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="24">
+      <p>
+       <hi rend="bold"> 9.24 Sergius of Rēsh ʿAynā<note n="28" type="footnote">
+         <p> Sergius of Rēsh ʿAynā (d. 536) was the most important translator of Greek medical works
+          into Syriac. There is a brief notice on him in Ch. 3 6, and he is mentioned several times
+          in <hi rend="smallcaps"> IAU</hi> ’s biography of Ḥunayn ibn Isḥāq in Ch. 8.29. Ḥunayn ibn
+          Isḥāq reports on his numerous translations in his <hi rend="italic"> Risālah</hi> . On
+          this translator, see also Griffith, ‘Sergios of Rešʿaina’; Aydin, <hi rend="italic">
+           Sergius of Reshaina</hi> .</p>
+        </note>
+       </hi>
+      </p>
+      <p> Sergius al-Raʾsī was a native of the city of Rēsh ʿAynā.<note n="29" type="footnote">
+        <p> Rēsh ʿAynā, a city in upper Mesopotamia, is the modern Raʾs al-ʿAyn, in the Ḥasakah
+         Governorate of Syria, near the Turkish border.</p>
+       </note> He translated many works, but was undistinguished as a translator. Some of his works
+       were revised by Ḥunayn, and those are excellent, whereas those works that Ḥunayn did not
+       revise are of indifferent quality.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="25">
+      <p>
+       <hi rend="bold"> 9.25 Ayyūb al-Ruhāwī (Ayyūb of Edessa)<note n="30" type="footnote">
+         <p> This is the well-known Yaʿqūb of Edessa (ca. 630–708), a Syriac Orthodox polymath who
+          revised previous translations of Severus of Antioch and the translation of the Old
+          Testament. See Salvesen, ‘Yaʿqūb of Edessa’. Edessa, in upper Mesopotamia, later known as
+          al-Ruhā (or al-Ruhāʾ), is the modern Şanlıurfa (or simply Urfa) in southeastern
+          Turkey.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Not the Ayyūb al-Abrash who was mentioned earlier. This Ayyūb was an excellent translator
+       with a good knowledge of languages, although his Syriac was better than his Arabic.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="26">
+      <p>
+       <hi rend="bold"> 9.26 Yūsuf the Translator<note n="31" type="footnote">
+         <p> Yūsuf al-Khūrī or al-Qass (the priest). According to Ibn al-Qifṭī, he worked as a
+          physician during the caliphate of al-Muktafī (r. 288–295/902–908) and received the
+          nickname ‘the sleepless’ either because of his habit of studying during the night or due
+          to a tumour in his head that prevented him from sleeping. Ḥunayn ibn Isḥāq is very
+          critical of his translation of Galen’s <hi rend="italic"> Simple Medicines</hi> (Ḥunayn
+          ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 30; <hi rend="italic"> Galen
+           Translations</hi> , 67). Yūsuf also translated Archimedes’ book on triangles. On this
+          translator, see Ullmann, <hi rend="italic"> Medizin</hi> , 124, 319. See also
+          Ch. 8.39.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā, known as ‘the doctor’<note n="32" type="footnote">
+        <p>
+         <hi rend="italic"> Al-mutaṭabbib</hi> , or medical practitioner, not necessarily in a
+         pejorative sense.</p>
+       </note> and ‘the translator’, and also dubbed ‘the sleepless’ (<hi rend="italic">
+        al-nāʿis</hi> ), was a pupil of ʿĪsā ibn Ṣaharbukht.<note n="33" type="footnote">
+        <p> ʿĪsā ibn Ṣaharbukht was a Christian physician from Gondēshāpūr, student of Jūrjis ibn
+         Jibrīl ibn Bukhtīshūʿ and author of a treatise entitled <hi rend="italic"> On the
+          Effectiveness of Simple Drugs</hi> . On this author, see Reinink, ‘Ṣharbokht bar Msargis’.
+         The biography of ʿĪsā ibn Ṣahār Bukht (as he is there called) was given at Ch. 8.37.</p>
+       </note> Yūsuf was a native of Khuzestan,<note n="34" type="footnote">
+        <p> Khuzestan (Khūzistān) is a province in the southwest of Iran, situated between the
+         Zagros Mountains and the Persian Gulf, bounded on the west by the Iran-Iraq border. The
+         conquest of Khūzistān by Muslim armies between c. 635 and 642 is recorded in a detailed
+         account preserved in a mid-to-late 7th c. east-Syriac history; see Robinson, ‘The conquest
+         of Khūzistān’.</p>
+       </note> and suffered from a speech impediment. His translations are unimpressive.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="27">
+      <p>
+       <hi rend="bold"> 9.27 Ibrāhīm ibn al-Ṣalt<note n="35" type="footnote">
+         <p> Ibrāhīm ibn al-Ṣalt was a physician who belonged to the Church of the East. Almost
+          nothing is known about his life. Ḥunayn ibn Isḥāq mentions him three times as the author
+          of translations into Arabic and Syriac, one sponsored by the Banū Mūsā (Ḥunayn ibn Isḥāq,
+           <hi rend="italic"> Risālah</hi> , 31, 34, 35; <hi rend="italic"> Galen Translations</hi>
+          , 71, 81, 83).</p>
+        </note>
+       </hi>
+      </p>
+      <p> A mediocre translator. His work is similar to that of Sergius of Rēsh ʿAynā.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="28">
+      <p>
+       <hi rend="bold"> 9.28 Thābit the Translator<note n="36" type="footnote">
+         <p> Presumably Thābit ibn Qurrah, whose biography is given in Ch. 10.3.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Also mediocre, albeit better than Ibrāhīm ibn al-Ṣalt. He was not a prolific translator.
+       Galen’s <hi rend="italic"> Juices</hi>
+       <note n="37" type="footnote">
+        <p> Thābit ibn Qurrah’s translation of Galen’s <hi rend="italic"> Good and Bad Juices</hi>
+         into Arabic is also mentioned by Ḥunayn ibn Isḥāq (<hi rend="italic"> Risālah</hi> , 36;
+          <hi rend="italic"> Galen Translations</hi> , 85) with the title <hi rend="italic"> K. fī
+          l-Kaymūs</hi> . Cf. Fichtner, <hi rend="italic"> Corpus Galenicum</hi> , no. 39, and
+         Ch. 5.24 for a long extract from the work.</p>
+       </note> is among the works that he translated.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="29">
+      <p>
+       <hi rend="bold"> 9.29 Abū Yūsuf the Secretary<note n="38" type="footnote">
+         <p> Abū Yūsuf al-Kātib is otherwise unknown.</p>
+        </note>
+       </hi>
+      </p>
+      <p> An undistinguished translator. He translated a number of the works of Hippocrates.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="30">
+      <p>
+       <hi rend="bold"> 9.30 Yūḥannā ibn Bukhtīshūʿ<note n="39" type="footnote">
+         <p> Yūḥannā ibn Bukhtīshūʿ (d. ca. 300/912), a Christian physician of the Nestorian church,
+          was the son of Bukhtīshūʿ ibn Jibrīl. Ḥunayn ibn Isḥāq states that he collaborated with
+          him in the translation of Galen’s <hi rend="italic"> On Antidotes</hi> (Ḥunayn ibn Isḥāq,
+           <hi rend="italic"> Risālah</hi> , 38; <hi rend="italic"> Galen Translations</hi> , 91).
+          For his biography, see Ch. 8.32, and Ullmann, <hi rend="italic"> Medizin</hi> , 111
+          no. 5a; Graf, <hi rend="italic"> Geschichte</hi> , ii:111.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Translated numerous works into Syriac, but is not known to have done any translation into
+       Arabic.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="31">
+      <p>
+       <hi rend="bold"> 9.31 al-Biṭrīq<note n="40" type="footnote">
+         <p> Little is known about al-Biṭrīq, a Byzantine Melkite scholar whose translations,
+          produced mainly under the caliphate of al-Manṣūr (r. 136–158/754–75), are easily confused
+          with those of his son Yaḥyā. He translated medical works by Galen and Hippocrates, and
+          also, according to Ibn al-Nadīm, Ptolemy’s <hi rend="italic"> Tetrabiblos</hi> , for the
+          astronomer/astrologer ʿUmar ibn al-Farrūkhān; see Ibn al-Nadīm, <hi rend="italic">
+           Fihrist</hi> (Flügel, 273; Tajaddud, 336; Sayyid, 2/1:232). On this author, see Dunlop,
+          ‘The Translations of al-Biṭrīq’; Nasrallah, <hi rend="italic"> Histoire</hi> ,
+          ii:81–82.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Lived in the time of al-Manṣūr. The caliph ordered him to undertake the task of
+       translating a number of ancient works. He did so, translating numerous books, but as a
+       translator he is not up to the standard of Ḥunayn ibn Isḥāq. I have seen Arabic versions of
+       many of the medical works of Hippocrates and Galen that are by al-Biṭrīq.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="32">
+      <p>
+       <hi rend="bold"> 9.32 Yaḥyā ibn al-Biṭrīq<note n="41" type="footnote">
+         <p> Yaḥyā (or Yūḥannā) ibn al-Biṭrīq (d. ca. 200/815) was, according to Ibn Juljul, the
+          client (<hi rend="italic"> mawlā</hi> ) of al-Maʾmūn, a status that usually implies a
+          conversion to Islam. Yaḥyā is one of the first translators of philosophical works into
+          Arabic, and the translation of the pseudo-Aristotle’s <hi rend="italic"> Secretum
+           Secretorum</hi> (<hi rend="italic"> Sirr al-asrār</hi> ) has also been attributed to him
+           (<hi rend="italic"> Sirr al-asrār</hi> , 69; Ibn Juljul, <hi rend="italic"> Ṭabaqāt
+           al-aṭibbāʾ</hi> , 26). Ibn al-Biṭrīq also composed two medical treatises: <hi
+           rend="italic"> On poisons and their dangers</hi> (<hi rend="italic"> K. al-sumūmāt
+           wa-dafʿ maḍārrihā</hi> ) and <hi rend="italic"> On the Classes of Insects</hi> (<hi
+           rend="italic"> K. ajnās al-ḥasharāt</hi> ). On this author, see Dunlop, ‘The Translations
+          of al-Biṭrīq’; <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Yaḥyā (or Yūḥannā) b. al-Biṭrīḳ‘ (F. Micheau); <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Ibn al-Biṭrīq, Yaḥyā’ (G. Strohmaier);
+          Sezgin, <hi rend="italic">
+           <hi rend="smallcaps"> GAS</hi>
+          </hi>
+          <hi rend="smallcaps"> III</hi> , 225; Ullmann, <hi rend="italic"> Medizin</hi> , 326;
+          Nasrallah, <hi rend="italic"> Histoire</hi> , ii:82–86.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Belonged to the circle of al-Ḥasan ibn Sahl.<note n="42" type="footnote">
+        <p> Al-Ḥasan ibn Sahl (d. 236/850–851), secretary and governor of Iraq under al-Maʾmūn. See
+          <hi rend="italic">
+          <hi rend="smallcaps"> EI</hi>
+         </hi>
+         <hi rend="italic">
+          <hi rend="superscript"> 2</hi>
+         </hi> art. ‘al-Ḥasan b. Sahl’ (D. Sourdel).</p>
+       </note> He did not know much of either Arabic or Greek, as he was a Latin<note n="43"
+        type="footnote">
+        <p> Yaḥyā ibn al-Biṭrīq belonged to a Byzantine Melkite family, had Greek as his mother
+         tongue, and translated directly from Greek (not Syriac). Ancient Greek is here identified
+         with the uncial script. ‘Contemporary vernacular form of Greek’: literally ‘language of the
+         Romans of the day’.</p>
+       </note> who was fluent in the contemporary vernacular form of Greek and knew how to write it
+       in its characteristic cursive script instead of the discrete letters of ancient Greek
+       writing.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="33">
+      <p>
+       <hi rend="bold"> 9.33 Tūmā al-Ruhāwī (Thomas of Edessa)<note n="44" type="footnote">
+         <p> The manuscripts of <hi rend="smallcaps"> IAU</hi> give the name as Qīḍā, but this is an
+          error. Tūmā al-Ruhāwī (Thomas of Edessa) was a contemporary of Ḥunayn ibn Isḥāq. Ḥunayn
+          refers to him as ‘a certain man from Edessa’. Thomas translated the last part of Galen’s
+           <hi rend="italic"> A Man’s Ability to Know the Imperfections of his Soul</hi> (Ḥunayn ibn
+          Isḥāq, <hi rend="italic"> Risālah</hi> , 49; <hi rend="italic"> Galen Translations</hi> ,
+          121; <hi rend="italic"> De propriorum animi cuiuslibet affectuum dignotione et
+           curatione</hi> and <hi rend="italic"> De animi cuiuslibet peccatorum dignotione et
+           curatione</hi> , Fichtner, <hi rend="italic"> Corpus Galenicum</hi> nos. 29–30). Nothing
+          is known about his life, but he is mentioned in other major sources: see Ibn al-Qifṭī, <hi
+           rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 131; Ibn al-Nadīm, <hi rend="italic">
+           Fihrist</hi> (Flügel, 291; Tajaddud, 349; Sayyid, 2/1:280).</p>
+        </note>
+       </hi>
+      </p>
+      <p> Whenever Ḥunayn had a great deal of translation work in hand and was pressed for time, he
+       would ask Tūmā al-Ruhāwī (Thomas of Edessa) to do some of the translation, subsequently
+       revising what he had done.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="34">
+      <p>
+       <hi rend="bold"> 9.34 Manṣūr ibn Bānās<note n="45" type="footnote">
+         <p> Almost nothing is known about this translator. According to Ḥunayn ibn Isḥāq, Ibn Bānās
+          was a Sabian, author of a deficient Syriac translation of Galen’s <hi rend="italic">
+           Character Traits</hi> (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 49 [written
+          Ibn Athānās]; <hi rend="italic"> Galen Translations</hi> , 121).</p>
+        </note>
+       </hi>
+      </p>
+      <p> Approximately as good a translator as Thomas of Edessa. His Syriac was stronger than his
+       Arabic.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="35">
+      <p>
+       <hi rend="bold"> 9.35 ʿAbdīshūʿ ibn Bahrīz (ʿAbdishoʿ bar Bahrīz)<note n="46" type="footnote">
+         <p> ʿAbdishoʿ bar Bahrīz was the metropolitan of Harran, Mosul and Ḥazza; see Roggema,
+          ‘Abdisho bar Bahrīz’. For Jibrīl ibn Bukhtīshūʿ (d. 212/827), the son of Bukhtīshūʿ ibn
+          Jūrjis, see his biography in Ch. 8.3.</p>
+        </note>
+       </hi>
+      </p>
+      <p> The metropolitan of Mosul. He was a friend of Jibrīl ibn Bukhtīshūʿ and one of his
+       translators.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="36">
+      <p>
+       <hi rend="bold"> 9.36 Abū ʿUthmān Saʿīd ibn Yaʿqūb al-Dimashqī<note n="47" type="footnote">
+         <p> Saʿīd ibn Yaʿqūb al-Dimashqī was a very important physician and translator of medical
+          and philosophical texts, including definitive versions of Aristotle’s <hi rend="italic">
+           Topica</hi> and Porphyry’s <hi rend="italic"> Isagoge</hi> ; he is also mentioned in Ibn
+          al-Qifṭī, <hi rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 409; and Ibn al-Nadīm, <hi
+           rend="italic"> Fihrist</hi> (Flügel, 298; Tajaddud, 356; Sayyid, 2/1:304). See <hi
+           rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Abū ʿUthmān al-Dimashqī’ (G. Endress). For
+          his biography, see Ch. 10.16.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A translator of the first order who served ʿAlī ibn ʿĪsā<note n="48" type="footnote">
+        <p> The well-known Abbasid vizier (d. 334/946), twice vizier under al-Muqtadir bi-Allāh. See
+          <hi rend="italic">
+          <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘ʿAlī b. ʿIsā b. Dāʾūd b. al-Jarrāḥ’
+         (M.L.M. van Berkel); <hi rend="italic">
+          <hi rend="smallcaps"> EI</hi>
+         </hi>
+         <hi rend="italic">
+          <hi rend="superscript"> 2</hi>
+         </hi> art. ‘ʿAlī b. ʿIsā’ (D. Bowen); Gutas, <hi rend="italic"> Greek Thought, Arabic
+          Culture</hi> , 72, 132.</p>
+       </note> exclusively.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="37">
+      <p>
+       <hi rend="bold"> 9.37 Abū Isḥāq Ibrāhīm ibn Baks<note n="49" type="footnote">
+         <p> Ibrāhīm ibn Baks (fl. 4th/10th c.) was a Christian physician active in Baghdad, whose
+          biography is given in Ch. 10.42. Ibn al-Qifṭī, who refers to him as Ibrāhīm ibn Bakkūsh
+          al-ʿAshshārī, states that he translated three works. The first one is Aristotle’s <hi
+           rend="italic"> Sophistica</hi> , which he translated into Arabic from Ibn Nāʿimah’s
+          Syriac version (Ibn al-Qifṭī, <hi rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 37); according
+          to the colophon of the Paris <hi rend="smallcaps"> MS</hi> , he collated the Greek
+          original with the help of Yūḥannā ibn Fātilah (see Peters, <hi rend="italic"> Aristoteles
+           Arabus</hi> , 25). The other two are translations of Theophrastus’ <hi rend="italic"> The
+           Causes of Plants</hi> and <hi rend="italic"> On Sense Perception</hi> (Ibn al-Qifṭī, <hi
+           rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 107). Two sources suggest that he was already
+          active during the first half of the 4th/10th century. <hi rend="smallcaps"> IAU</hi>
+          states that a physician named Abū l-Ḥasan ibn Nafīs commissioned the translation of
+          Yūḥannā ibn Sarābiyūn’s <hi rend="italic"> al-Kunnāsh al-ṣaghīr</hi> in 312/924–925.
+          According to the Qāḍī ʿAbd al-Jabbār, ‘one Abū l-Ḥasan ibn Nafīs’ was the teacher of Ibn
+          Baks (ʿAbd al-Jabbār, <hi rend="italic"> Tathbīt</hi> , 619), and Ibn Baks was one of the
+          physicians who struggled to fight an epidemic that spread over Baghdad in 330/941–942
+          (ʿAbd al-Jabbār, <hi rend="italic"> Tathbīt</hi> , 619). On this physician, see Ullmann,
+           <hi rend="italic"> Die Natur- und Geheimwissenschaften</hi> , 73–74; Gutas, <hi
+           rend="italic"> Greek Thought, Arabic Culture</hi> , 151.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A renowned physician who translated many works into the Arabic language. His translations,
+       too, are highly esteemed.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="38">
+      <p>
+       <hi rend="bold"> 9.38 Abū l-Ḥasan ʿAlī ibn Ibrāhīm ibn Baks<note n="50" type="footnote">
+         <p> Like his father, ʿAlī ibn Ibrāhīm ibn Baks (d. 394/1003–1004) was a physician: he
+          worked at the ʿAḍudī Hospital in Baghdad (Ibn al-Qifṭī, <hi rend="italic"> Taʾrīkh
+           al-ḥukamāʾ</hi> , 235–236). His biography is also given in Ch. 10.43.</p>
+        </note>
+       </hi>
+      </p>
+      <p> Also a well-known physician, and a reliable translator as well.</p>
+      <p>
+       <hi rend="italic"> The patrons of these translators, other than caliphs, are listed
+        below</hi> :</p>
+     </div>
+     <div type="textpart" subtype="biography" n="39">
+      <p>
+       <hi rend="bold"> 9.39 Sabrīshūʿ ibn Quṭrub (Sabrishoʿ bar Quṭrub)<note n="51" type="footnote">
+         <p> Sabrīshūʿ ibn Quṭrub (Syriac, Sabrishoʿ bar Quṭrub) was a physician from Gondēshāpūr,
+          mentioned by Ḥunayn ibn Isḥāq as the commissioner of Galen’s <hi rend="italic"> On
+           Sects</hi> , one of his earliest translations, made when he was in his early twenties
+          (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 5; <hi rend="italic"> Galen
+           Translations</hi> , 11). The name in all <hi rend="smallcaps"> MSS</hi> is written as <hi
+           rend="italic"> Sh-y-r-sh-w-ʿ</hi> . On this author, see Micheau, ‘Mécènes et médecins’,
+          162–163.</p>
+        </note>
+       </hi>
+      </p>
+      <p> He was from Gondēshāpūr and was always generous to translators, constantly bestowing
+       presents upon them; he sought to attract them and obtain books from them by paying them as
+       much as he could manage. It was Syriac translations that he prized, rather than Arabic.
+       Sabrīshūʿ ibn Quṭrub was of Khuzestani origin.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="40">
+      <p>
+       <hi rend="bold"> 9.40 Muḥammad ibn Mūsā the Astrologer<note n="52" type="footnote">
+         <p> Mūsā ibn Shākir was an astronomer and companion of the caliph al-Maʾmūn since the days
+          of his governorate in Khorasan. Mūsā’s three sons, Muḥammad, Aḥmad and al-Ḥasan, played a
+          central role in the intellectual life of 3rd/9th c. Baghdad, especially as sponsors of
+          translations. Muḥammad ibn Mūsā (d. 259/873) is mentioned by Ḥunayn ibn Isḥāq as the
+          commissioner of numerous translations (see Ḥunayn ibn Isḥāq, <hi rend="italic">
+           Risālah</hi> , index). One source also refers to him as the author of a work entitled <hi
+           rend="italic"> On Realms and Routes</hi> (<hi rend="italic"> K. al-Mamālik
+           wa-l-Masālik</hi> ); see Contadini, <hi rend="italic"> World of Beasts</hi> , 93. On the
+          Banū Mūsā family, see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Mūsā, Banū’ (D.R. Hill); Gutas, <hi rend="italic"> Greek Thought, Arabic
+           Culture</hi> , 133–134; Micheau, ‘Mécènes et médecins’, 167–170.</p>
+        </note>
+       </hi>
+      </p>
+      <p> One of the sons of Mūsā ibn Shākir, who were noted arithmeticians and celebrated for their
+       skill, learning and writings on the mathematical sciences. This one, Muḥammad, was a most
+       generous patron to Ḥunayn ibn Isḥāq, who translated numerous medical works for him.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="41">
+      <p>
+       <hi rend="bold"> 9.41 ʿAlī ibn Yaḥyā, known as Ibn al-Munajjim<note n="53" type="footnote">
+         <p> The Banū l-Munajjim were a Zoroastrian family of Persian origin who joined the Abbasid
+          court of al-Manṣūr (r. 136–158/754–775) as astrologers, whence their name. They enjoyed
+          high status for several generations and stand out as one of the most influential families
+          in the intellectual life of the 3rd–4th/9th–10th cc. and as sponsors of the translation
+          movement. Among other works, ʿAlī ibn Yaḥyā commissioned Ḥunayn ibn Isḥāq’s famous <hi
+           rend="italic"> Risālah</hi> . On this family, see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Munad̲j̲d̲j̲im, Banū’ l-’ (M. Fleischhammer); <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi> Three</hi> art. ‘Banū Munajjim family’ (L. Berggren);
+          Gutas, <hi rend="italic"> Greek Thought, Arabic Culture</hi> , 128; Micheau, ‘Mécènes et
+          medecins’, 164–167.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A secretary and companion of the caliph al-Maʾmūn, who held him in high regard. He was
+       interested in medicine and commissioned the translation of numerous works on that
+       subject.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="42">
+      <p>
+       <hi rend="bold"> 9.42 Tādurā <emph> al-usquf</emph> (Theodore the Bishop)<note n="54"
+         type="footnote">
+         <p> The Arabic Tādurā is a transcription of the Syriac rendition of Theodore (‮ܛܐܕܘܖܐ‬‎).
+          Theodore the Bishop (<hi rend="italic"> al-usquf</hi> ) is to be identified with Theodore
+          of Karkh Guddan, bishop of that city, who was a patron of letters and a translator closely
+          associated with Sergius of Rēsh ʿAynā: see Ḥunayn ibn Isḥāq, <hi rend="italic">
+           Risālah</hi> , 12; <hi rend="italic"> Galen Translations</hi> , 27. See Aydin, <hi
+           rend="italic"> Sergius of Reshaina</hi> , sections 2.1.1, 2.1.7, 4.8.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A bishop in al-Karkh in Baghdad. He was an avid book-collector, and accordingly sought to
+       win the hearts of translators. In this way he acquired many books. A number of Christian
+       physicians composed important works for him which they published under his patronage.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="43">
+      <p>
+       <hi rend="bold"> 9.43 Muḥammad ibn Mūsā ibn ʿAbd al-Malik<note n="55" type="footnote">
+         <p> The identification of this patron is conjectural, but it is likely that he corresponds
+          to Abū ʿImrān Mūsā ibn ʿAbd al-Malik ibn Hishām al-Iṣbahānī (Muḥammad is not part of his
+          name). Mūsā ibn ʿAbd al-Malik (d. 246/860–861) was in charge of the land tax (<hi
+           rend="italic"> ṣāḥib dīwān al-kharāj</hi> ) and the caliphal chancellery (<hi
+           rend="italic"> dīwān al-rasāʾil</hi> ) under al-Mutawakkil; see Ibn Khallikān, <hi
+           rend="italic"> Wafayāt</hi> , v:337–341 (n. 750).</p>
+        </note>
+       </hi>
+      </p>
+      <p> A number of medical works were translated for him. He himself was a man of considerable
+       learning and prepared summaries of various books, retaining their valuable parts and
+       discarding those that were of no interest.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="44">
+      <p>
+       <hi rend="bold"> 9.44 ʿĪsā ibn Yūnus, the Secretary and Accountant<note n="56"
+         type="footnote">
+         <p> ʿĪsā ibn Yūnus <hi rend="italic"> al-kātib al-ḥāsib</hi> is unidentified. A ‘civil
+          servant’ was usually either a drafter of documents and epistles (<hi rend="italic">
+           kātib</hi> ) or a financial expert and accountant (<hi rend="italic"> ḥāsib</hi> ). For a
+          debate between the two, see al-Tawḥidī, <hi rend="italic"> Imtāʿ</hi> , i:96, and van
+          Berkel, ‘Accountants and Men of Letters’. Some, like ʿĪsā ibn Yūnus, combined the two.
+          According to the recension B of Ḥunayn’s <hi rend="italic"> Risālah</hi> , Isḥāq ibn
+          Ḥunayn translated Galen’s <hi rend="italic"> The Usefulness of Pulse</hi> for ‘Īsā ibn
+          Yūnus, which might refer to the same person; see Bergsträsser, ‘Neue Materialen’, 34;
+          Ḥunayn ibn Isḥāq, <hi rend="italic"> Galen Translations</hi> , 57.</p>
+        </note>
+       </hi>
+      </p>
+      <p> A distinguished scholar of Iraq. He was a keen collector of ancient books and had a deep
+       interest in Greek learning.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="45">
+      <p>
+       <hi rend="bold"> 9.45 ʿAlī, known as al-Fayyūm<note n="57" type="footnote">
+         <p> Unidentified. Ḥunayn ibn Isḥāq translated Galen’s <hi rend="italic"> Parts of
+           Medicine</hi> for him (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 32; <hi
+           rend="italic"> Galen Translations</hi> , 73). Since it was a translation into Syriac,
+          ʿAlī al-Fayyūm must have been a Christian; see Meyerhof, ‘New Light’, 720.</p>
+        </note>
+       </hi>
+      </p>
+      <p> So dubbed because of his tenure as governor of the Fayyum.<note n="58" type="footnote">
+        <p> The Fayyum (al-Fayyūm) is a large district in central Egypt that had a large Christian
+         population. For a full analysis of the cadastral survey of the Fayyum by al-Nābulusī in the
+         mid-7th/13th c., see Rapoport, <hi rend="italic"> Rural Society</hi> , and Rapoport, <hi
+          rend="italic"> Rural Economy and Tribal Society</hi> .</p>
+       </note> He was generous to translators, who grew fat on his bounty.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="46">
+      <p>
+       <hi rend="bold"> 9.46 Aḥmad ibn Muḥammad, known as Ibn al-Mudabbir, the Secretary<note n="59"
+         type="footnote">
+         <p> Aḥmad ibn Muḥammad ibn al-Mudabbir (d. 270 or 271/883 or 884) was a high-ranking
+          official at the courts of al-Wāthiq and al-Mutawakkil and a man of letters. Ḥunayn ibn
+          Isḥāq translated for him the <hi rend="italic"> Commentary of the Hippocratic
+           Aphorisms</hi> (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 40; <hi rend="italic"
+           > Galen Translations</hi> , 97). On this patron, see <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Ibn al-Mudabbir’ (H.L. Gottschalk); Micheau, ‘Mécènes et médecins’,
+          172–174.</p>
+        </note>
+       </hi>
+      </p>
+      <p> An unfailing source of ample money and benefits for translators.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="47">
+      <p>
+       <hi rend="bold"> 9.47 Ibrāhīm ibn Muḥammad ibn Mūsā, the Secretary<note n="60"
+         type="footnote">
+         <p> Ibrāhīm ibn Muḥammad ibn Mūsā might be the son of the aforementioned (Ch. 9.40)
+          Muḥammad ibn Mūsā al-Munajjim; see Meyerhof, ‘New Light’, 715; Micheau, ‘Mécènes et
+          médecins’, 169–170. Ḥunayn ibn Isḥāq translated for him Galen’s <hi rend="italic">
+           Commentary on Hippocrates’ ‘Prognosis’</hi> (Ḥunayn ibn Isḥāq, <hi rend="italic">
+           Risālah</hi> , 41; <hi rend="italic"> Galen Translations</hi> , 97).</p>
+        </note>
+       </hi>
+      </p>
+      <p> He took a great interest in the translation of Greek works into the Arabic language. He
+       was extremely generous toward men of learning and scholarship, including translators in
+       particular.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="48">
+      <p>
+       <hi rend="bold"> 9.48 ʿAbd Allāh ibn Isḥāq<note n="61" type="footnote">
+         <p> Almost nothing is known about ʿAbd Allāh ibn Isḥāq. In recension A of the <hi
+           rend="italic"> Risālah</hi> , Ḥunayn states that he corrected for him a translation of
+          Galen’s <hi rend="italic"> The Best Physician is also a Philosopher</hi> (Ḥunayn ibn
+          Isḥāq, <hi rend="italic"> Risālah</hi> , 47); in recension B, he states that he made a
+          second translation; see Bergsträsser, ‘Neue Materialen’, 37; Ḥunayn ibn Isḥāq, <hi
+           rend="italic"> Galen Translations</hi> , 109.</p>
+        </note>
+       </hi>
+      </p>
+      <p> He also was deeply interested in having works translated and collecting them.</p>
+     </div>
+     <div type="textpart" subtype="biography" n="49">
+      <p>
+       <hi rend="bold"> 9.49 Muḥammad ibn ʿAbd al-Malik ibn al-Zayyāt<note n="62" type="footnote">
+         <p> Ibn al-Zayyāt (d. 243/847) was vizier under the Abbasid caliphs al-Muʿtaṣim and
+          al-Wāthiq, but fell into disgrace with al-Mutawakkil, who had him imprisoned and tortured.
+          A poet himself, Ibn al-Zayyāt was an important Maecenas who patronized authors such as
+          al-Jāhiẓ and sponsored the translation of Galenic works. Ḥunayn ibn Isḥāq states that he
+          translated Galen’s <hi rend="italic"> On Voice</hi> for Ibn al-Zayyāt (Ḥunayn ibn Isḥāq,
+           <hi rend="italic"> Risālah</hi> , 24; <hi rend="italic"> Galen Translations</hi> , 55),
+          and that he had to postpone his translation of Galen’s <hi rend="italic"> Character
+           Traits</hi> due to his dealings with the vizier (<hi rend="italic"> Risālah</hi> , 49;
+           <hi rend="italic"> Galen Translations</hi> , 121). See also <hi rend="italic">
+           <hi rend="smallcaps"> EI</hi>
+          </hi>
+          <hi rend="italic">
+           <hi rend="superscript"> 2</hi>
+          </hi> art. ‘Ibn al-Zayyāt’ (D. Sourdel); Micheau, ‘Mécènes et médecins’, 171–172.</p>
+        </note>
+       </hi>
+      </p>
+      <p> He spent nearly 2,000 dinars a month on translators, scholars and copyists. Many books
+       were translated under his patronage, including Greek works, and a number of distinguished
+       physicians prepared translations for him, including Yūḥannā ibn Māsawayh,<note n="63"
+        type="footnote">
+        <p> Yūḥannā ibn Māsawayh (d. 243/877), the Latin Mesue, was one of the first physicians who
+         wrote medical works in Arabic. His biography is given in Ch. 8.26. On his role as patron
+         and translator, see Micheau, ‘Mécènes et médecins’, 152–155.</p>
+       </note> Jibrīl ibn Bukhtīshūʿ, Bukhtīshūʿ ibn Jibrīl ibn Bukhtīshūʿ,<note n="64"
+        type="footnote">
+        <p> On the role of the Bukhtīshūʿ family as translators and patrons, see Micheau, ‘Mécènes
+         et médecins’, 155–158. Their biographies are given in Ch. 8.3 and Ch. 8.4 respectively.</p>
+       </note> Dāwūd ibn Sarābiyūn,<note n="65" type="footnote">
+        <p> Meyerhof suggests that Dāwūd ibn Sarābiyūn corresponds to the Dāwūd al-Mutaṭabbib who
+         commissioned five Syriac translations of Galenic works from Ḥunayn ibn Isḥāq (<hi
+          rend="italic"> Risālah</hi> , 3, 6, 49; <hi rend="italic"> Galen Translations</hi> , 9,
+         13, 121); see also Meyerhof, ‘New Light’, 719. Ḥunayn states that Dāwūd was in his thirties
+         when he translated Galen’s <hi rend="italic"> On the Medical Art</hi> (Ḥunayn ibn Isḥāq,
+          <hi rend="italic"> Risālah</hi> , 6; <hi rend="italic"> Galen Translations</hi> , 13).
+         According to Ibn al-Qifṭī, Dāwūd, a native of Beth Garmai, was one of the court physicians
+         under al-Hādī (r. 159–170/775–786) and the brother of Yūḥannā ibn Sarābiyūn, the author of
+         the <hi rend="italic"> Pandectae</hi> (<hi rend="italic"> al-Kunnāsh</hi> ) (Ibn al-Qifṭī,
+          <hi rend="italic"> Taʾrīkh al-ḥukamāʾ</hi> , 431). Ullmann, who has questioned the dating
+         of this work in view of the various quotations from authors who lived in the second half of
+         the 3rd/9th century, argues that the publication of Ibn Sarābiyūn’s <hi rend="italic">
+          Kunnāsh</hi> should be dated at the end of that century, and that Dāwūd and Yūḥannā were
+         separated by a century (Ullmann, ‘Yūḥannā ibn Sarābiyūn’, 280). <hi rend="smallcaps">
+          IAU</hi> also refers to Dāwūd ibn Sarābiyūn as the brother of Yūḥannā and mentions him
+         elsewhere several times, often in connection with the Bukhtīshūʿ family (Chs. 8.2; 8.3; and
+         8.25); he states that Abū l-Ḥasan ibn Nafīs, teacher of Ibn Baks, commissioned the
+         translation of Ibn Sarābiyūn’s <hi rend="italic"> al-Kunnāsh al-ṣaghīr</hi> in the year
+         313/925–926 (Ch. 6.5). On Dāwūd al-Mutaṭabbib, see also Micheau, ‘Mécènes et médecins’,
+         159–161.</p>
+       </note> Salmawayh ibn Bunān,<note n="66" type="footnote">
+        <p> Salmawayh ibn Bunān (d. 225/840) was a Christian physician to the caliph al-Muʿtaṣim (r.
+         218–227/833–842). His biography is given in Ch. 8.20. He sponsored fourteen Syriac and
+         Arabic translations of Ḥunayn ibn Isḥāq and collaborated with him in the translation of
+         Galen’s <hi rend="italic"> The Method of Healing</hi> (<hi rend="italic"> K. fī ḥīlat
+          al-burʾ</hi> ). Ḥunayn wrote a short epistle addressed to him as an introduction to his
+         Syriac translation of Galen’s <hi rend="italic"> Habits</hi> . See Micheau, ‘Mécènes et
+         médecins’, 150–152.</p>
+       </note> al-Yasaʿ,<note n="67" type="footnote">
+        <p> That is, Elisha. A certain al-Yasaʿ commissioned the Syriac translation of Galen’s <hi
+          rend="italic"> Classification of the Diseases of the Internal Parts</hi> to Sergius of
+         Rēsh ʿAynā; see Ḥunayn ibn Isḥāq (<hi rend="italic"> Risālah</hi> , 12; <hi rend="italic">
+          Galen Translations</hi> , 27).</p>
+       </note> Isrāʾīl ibn Zakariyyā ibn al-Ṭayfūrī,<note n="68" type="footnote">
+        <p> Isrāʾīl ibn Zakariyyā ibn al-Ṭayfūrī, of the Nestorian church, belonged to a well-known
+         family of physicians. Following in the steps of his father, Ibn al-Ṭayfūrī became the
+         personal physician of the vizier al-Fatḥ ibn Khāqān and worked at the court until the time
+         of al-Muntaṣir, whom he was accused of poisoning (Ṭabarī, <hi rend="italic"> Taʾrīkh</hi> ,
+         iii:1496). Ḥunayn ibn Isḥāq reports that he asked him to write a second Syriac translation
+         of Galen’s <hi rend="italic"> Classification of the Diseases of the Internal Parts</hi>
+         (Ḥunayn ibn Isḥāq, <hi rend="italic"> Risālah</hi> , 13; <hi rend="italic"> Galen
+          Translations</hi> , 29). On this physician (and his father and grandfather), see Micheau,
+         ‘Mécènes et médecins’, 161–162. The biographies of members of the Ṭayfūrī family are given
+         in Chs. 8.10; 8.11; and 8.12.</p>
+       </note> and Ḥubaysh ibn al-Ḥasan.<note n="69" type="footnote">
+        <p> The biographies of most of these physicians will be found in Ch. 8. The last-named of
+         them, Ḥubaysh ibn al-Ḥasan, is the Ḥubaysh al-Aʿsam mentioned earlier in Ch. 9.4.</p>
+       </note>
+      </p>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

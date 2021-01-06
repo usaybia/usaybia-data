@@ -1,0 +1,1219 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xml:id="arabicLit.textgroup.work.H01" py:pytype="TREE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 12</title>
+				<title xml:lang="en" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+				<author xml:lang="en" ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿah</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal ref="#ngibson">Nathan P. Gibson</principal>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<respStmt>
+					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				</respStmt>				
+				<!-- <respStmt>
+					<resp>Edited by</resp>
+					<name type="person">Insert other names of people who edit this document </name>
+				</respStmt> -->
+			</titleStmt>
+           <publicationStmt>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
+           </publicationStmt>
+           <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-08-28" who="#ngibson">Added header to downloaded text.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="translation" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1" xml:lang="en-Latn">
+                <div type="textpart" subtype="chapter" n="12">
+                    <div type="textpart" subtype="biography" n="1">
+                        <head>Chapter 12 Physicians of India</head>
+                        <head>Bruce Inksetter and Emilie Savage-Smith</head>
+                        <p>
+                            <hi rend="bold">
+                                12.1 Kankah al-Hindi
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in all three versions of the book. There has been considerable confusion over the identity of this Kankah (or Kanakah) al-Hindī amongst early Arab historians as well as modern historians. David Pingree has convincingly argued that two and sometimes three different persons were combined together in the various preserved accounts, including this entry by
+                                        <hi rend="smallcaps">IAU</hi>
+                                        . Here,
+                                        <hi rend="smallcaps">IAU</hi>
+                                        has combined elements from the life of the physician Mankah al-Hindī, who is alleged to have travelled from India to Iraq and to have undertaken translations, with others from that of the astrologer Kankah al-Hindī (fl. ca. 775–800) who was also supposedly at the court of Hārūn al-Rashīd and an associate of the astrologer Māshāʾ Allāh and worked more in the tradition of Sasanian astrology than Indian astrology. Yet
+                                        <hi rend="smallcaps">IAU</hi>
+                                        did not realize he was making this error, for he devoted a separate later entry (Ch. 12.5) to Mankah al-Hindī. Because of this conflation of two people in whatever source
+                                        <hi rend="smallcaps">IAU</hi>
+                                        was using, medical works have been incorrectly attributed to the astrologer Kankah al-Hindī. Eduard Sachau has also pointed out the closeness of the name Kankah with that of the ancient Indian physician Kaṅkāyana, which might also have contributed to the misidentification of this author (al-Bīrūnī,
+                                        <hi rend="italic">Alberuni’s India</hi>
+                                        , i:xxxii). A further confusion arose with the development of stories in the alchemical literature about a completely fictitious Kankah al-Hindī, who was a wondrous alchemist, the inventor of an Indian amulet and founder of a city full of mechanical devices. For a discussion of these confusions, see
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">DSB</hi>
+                                        </hi>
+                                        art. ‘Kanaka’ (D. Pingree); Pingree,
+                                        <hi rend="italic">Astral Omens to Astrology</hi>
+                                        , 51–62; and Pingree,
+                                        <hi rend="italic">Census of the Exact Sciences in Sanskrit</hi>
+                                        , i:19. Confusions continue in the modern literature: Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 202,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">VII</hi>
+                                        , 95–96; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 13; Shefer-Mossensohn &amp; Hershkovitzh, ‘Early Muslim Medicine’. Ibn al-Qifṭī has an entry for Kankah (
+                                        <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                        , 265–267), but does not mention Mankah; Ibn al-Nadīm mentions both: Kankah in
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel 270; Tajaddud 330; Sayyid ii:223) and Mankah in
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel 303; Tajaddud 260; Sayyid ii:315). For a general discussion of Indian sources for Arabic and Persian medicine, see Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 187–202; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 103–107; Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 30–45; Taha,
+                                        <hi rend="italic">Compilation of Pharmacological Ideas</hi>
+                                        , 38–43.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            He was a prominent figure among the great scholars of India. Kankah al-Hindī knew much about the art of medicine, the effects of remedies, the characteristics of naturally generated things and the occult properties of substances,
+                            <note n="2" type="footnote">
+                                <p>
+                                    <hi rend="italic">Khawāṣṣ al-mawjūdāt</hi>
+                                    is a common designation of hidden or occult properties in substances of potential medical or magical use.
+                                </p>
+                            </note>
+                            and was one of the most learned of men regarding the configuration of the universe,
+                            <note n="3" type="footnote">
+                                <p>
+                                    <hi rend="italic">Ḥayʾat al-ʿālam</hi>
+                                    usually designates a largely non-mathematical form of astronomy, or cosmology, and was the title of a popular treatise on the topic attributed to Ibn al-Haytham (see Ch. 14.22.4.3 title no. 10).
+                                </p>
+                            </note>
+                            the arrangement of the spheres, and the movements of the stars. Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī
+                            <note n="4" type="footnote">
+                                <p>
+                                    For this influential Baghdadi astrologer (d. 272/886), see
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    Three art. ‘Abū Maʿshar’ (C. Burnett); Abū Maʿshar,
+                                    <hi rend="italic">Kitāb al-Mudkhal al-kabīr</hi>
+                                    (Lemay); Abū Maʿshar,
+                                    <hi rend="italic">On Historical Astrology</hi>
+                                    .
+                                </p>
+                            </note>
+                            says in his
+                            <hi rend="italic">Book of Thousands</hi>
+                            <note n="5" type="footnote">
+                                <p>
+                                    <hi rend="italic">K. al-ulūf</hi>
+                                    ; see Pingree,
+                                    <hi rend="italic">Thousands</hi>
+                                    , 16.
+                                </p>
+                            </note>
+                            that Kankah was universally regarded by the ancient scholars of India as having been second to none in the science of astrology.
+                            <note n="6" type="footnote">
+                                <p>
+                                    Rather than directly from Abū Maʿshar, this last sentence seems to be taken from Ṣāʿid al-Andalusī, who refers to Abū Maʿshar’s appreciation of Kankah in exactly the same words (Ṣāʿid al-Andalusī,
+                                    <hi rend="italic">Ṭabaqāt</hi>
+                                    (Cheikho), 14–15). Abū Maʿshar’s description of Kankah as foremost amongst scholars of India ‘in ancient times’ (
+                                    <hi rend="italic">fī sālif al-dahr</hi>
+                                    ) again demonstrates the early confusion regarding this figure and the frequent unreliability of Abū Maʿshar, who would have been writing only a generation or two after the astrologer Kankah.
+                                </p>
+                            </note>
+                        </p>
+                        <p>Kankah is the author of a number of books, including:</p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                On the
+                                <hi rend="italic">namūdār</hi>
+                                <note n="7" type="footnote">
+                                    <p>
+                                        A
+                                        <hi rend="italic">namūdār</hi>
+                                        is a method of setting up a birth-horoscope when the date of birth is not known. For an extensive discussion of this technique, see Qabīṣī,
+                                        <hi rend="italic">Introduction to Astrology</hi>
+                                        , 109–111.
+                                    </p>
+                                </note>
+                                for [determining the lengths of] lives (
+                                <hi rend="italic">K. al-namūdār fī l-aʿmār</hi>
+                                )
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                The secrets of nativities (
+                                <hi rend="italic">K. asrār al-mawālīd</hi>
+                                )
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                The large book on planetary conjunctions (
+                                <hi rend="italic">K. al-qirānāt al-kabīr</hi>
+                                )
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                The small book on planetary conjunctions (
+                                <hi rend="italic">K. al-qirānāt al-ṣaghīr</hi>
+                                )
+                                <note n="8" type="footnote">
+                                    <p>
+                                        Ibn al-Nadīm and Ibn al-Qifṭī list only titles 1–4 in their entry on Kankah; see Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel, 270; Tajaddud, 330; Sayyid, ii:223); Ibn al-Qifṭī,
+                                        <hi rend="italic">Taʾrīkh al</hi>
+                                        -
+                                        <hi rend="italic">ḥukamāʾ</hi>
+                                        , 267.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>5.</label>
+                            <item>
+                                On medicine (
+                                <hi rend="italic">K. fī l-ṭibb</hi>
+                                ). This work is in the format of a compendium.
+                            </item>
+                            <label>6.</label>
+                            <item>
+                                On delusion (
+                                <hi rend="italic">K. fī l-tawahhum</hi>
+                                )
+                            </item>
+                            <label>7.</label>
+                            <item>
+                                On the creation of the universe and the periodic nature of planetary conjunctions (
+                                <hi rend="italic">K. fī iḥdāth al-ʿālam wa-l-dawr fī l-qirān</hi>
+                                ).
+                                <note n="9" type="footnote">
+                                    <p>
+                                        These last three titles occur only in
+                                        <hi rend="smallcaps">IAU</hi>
+                                        ’s
+                                        <hi rend="italic">ʿUyūn al-anbāʾ</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="textpart" subtype="biography" n="2">
+                        <p>
+                            <hi rend="bold">
+                                12.2 Ṣanjahal
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in Version 2 and Version 3 of the book, but is missing from Version 
+                                        <hi rend="smallcaps">I</hi>
+                                        . Ṣanjahal is an otherwise unknown Indian physician and astrologer whose dates are unknown. He is not mentioned either in Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        or in Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            Ṣanjahal was one of the most learned and outstanding scholars of India, having been a master of the sciences of medicine and astrology, and was the author of a work entitled
+                            <hi rend="italic">The Large Book on Nativities</hi>
+                            (
+                            <hi rend="italic">Kitāb al-mawālīd al-kabīr</hi>
+                            ).
+                        </p>
+                        <p>
+                            Ṣanjahal was followed in India by a group of scholars, including Bākahr, Rāḥah, Ṣakih, Dāhir, Ankar, Zankal, Jabhar, Andī and Jārī,
+                            <note n="2" type="footnote">
+                                <p>The reading and interpretation of these Indian names remains uncertain. See the discussion of some of them by H.H. Wilson in his addendum to Cureton, ‘Extract’, 115–119.</p>
+                            </note>
+                            all of whom composed many well-known works on the art of medicine and other sciences. They rank amongst the great learned men of India: they were skilled in the art of medicine, and they elucidated the rules governing the science of astrology. The scholars of India study and imitate their works, transmitting them from generation to generation. Many of those works have been translated into Arabic:
+                            <note n="3" type="footnote">
+                                <p>
+                                    This section on translation relies on Ibn al-Nadīm’s
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Flügel, 270–271 and 303; Tajaddud, 330 and 360; Sayyid, ii:223–224 and 315–316).
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            I have found that al-Rāzī,
+                            <note n="4" type="footnote">
+                                <p>
+                                    For the biography of Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī (d. 313/925), see Ch. 11.5. For al-Rāzī’s quotations from Caraka, see Kahl,
+                                    <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                    , 86–129.
+                                </p>
+                            </note>
+                            in his
+                            <hi rend="italic">Comprehensive Book</hi>
+                            [
+                            <hi rend="italic">on Medicine</hi>
+                            ] and other works, drew upon a number of works by Indian scholars, such as:
+                        </p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Compendium of Caraka</hi>
+                                ,
+                                <note n="5" type="footnote">
+                                    <p>
+                                        This is the
+                                        <hi rend="italic">Carakasaṃhitā</hi>
+                                        , a medical compendium written by the Indian physician Caraka. The author’s name was rendered into Arabic as Sharak (al-Rāzī,
+                                        <hi rend="italic">Ḥāwī</hi>
+                                        ,
+                                        <hi rend="italic">passim</hi>
+                                        ), Sīrk (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303, Tajaddud, 360, Sayyid, ii:315) or Jarak (ʿAlī ibn Sahl Rabban al-Ṭabarī,
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        , 578; al-Bīrūnī,
+                                        <hi rend="italic">Alberuni’s India</hi>
+                                        , 123). For the
+                                        <hi rend="italic">Compendium of Caraka</hi>
+                                        , see Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 105–115; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 39–103; Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 18–20; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 198; and Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 104.
+                                    </p>
+                                </note>
+                                a work that ʿAbd Allāh ibn ʿAlī
+                                <note n="6" type="footnote">
+                                    <p>
+                                        An otherwise unrecorded translator; see Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 104.
+                                    </p>
+                                </note>
+                                translated from Persian into Arabic after it had first been translated from Sanskrit into Persian
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Compendium of Suśruta</hi>
+                                ,
+                                <note n="7" type="footnote">
+                                    <p>
+                                        This work is the
+                                        <hi rend="italic">Suśruta-Saṃhitā</hi>
+                                        (
+                                        <hi rend="italic">K. Susrud</hi>
+                                        in Arabic), the medical compendium of the Indian physician Suśruta (6th c.
+                                        <hi rend="smallcaps">BC</hi>
+                                        ), considered the oldest attempt at systematizing Ayurvedic medicine. See Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 333–357; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 104–194; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        :197–198, 200–201; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 106; Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 14–18, 72–85 (for the quotations in al-Rāzī’s
+                                        <hi rend="italic">Comprehensive Book</hi>
+                                        ).
+                                    </p>
+                                </note>
+                                which discusses the symptoms of diseases, methods of treatment, and remedies. it is divided into ten chapters, and was translated into Arabic at the order of Yaḥyā ibn Khālid.
+                                <note n="8" type="footnote">
+                                    <p>This work was translated by Mankah (whose biography is given below at Ch. 12.5). Yaḥyā ibn Khālid ibn Barmak was a member of the celebrated Barmakid family, who, serving as viziers to various caliphs, essentially controlled most aspects of government until 187/803, when Yaḥyā was removed from authority and imprisoned. For further information on him, see Ch. 8.2n.</p>
+                                </note>
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Book of Nidān</hi>
+                                ,
+                                <note n="9" type="footnote">
+                                    <p>
+                                        The Arabic
+                                        <hi rend="italic">K. al-Nidān</hi>
+                                        is the Sanskrit
+                                        <hi rend="italic">Nidāna</hi>
+                                        (‘pathology’), alternatively known as
+                                        <hi rend="italic">Rogaviniścaya</hi>
+                                        (‘diagnosing disease’). This work, also called
+                                        <hi rend="italic">Mādhavanidāna</hi>
+                                        , was composed by Mādhava in about 700 
+                                        <hi rend="smallcaps">AD</hi>
+                                        and is essentially a compilation of earlier Indian medical treatises. The
+                                        <hi rend="italic">Nidāna</hi>
+                                        is quoted by ʿAlī ibn Sahl Rabban al-Ṭabarī (
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        (ed. al-Ṣiddīqī), 563, 578) and was probably translated during the caliphate of Hārūn al-Rashīd, see Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 105; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 14–15. Al-Rāzī quotes only a small fragment from this work; see Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 26–27, 152–153 (for the quotations in al-Rāzī’s
+                                        <hi rend="italic">Comprehensive Book</hi>
+                                        ).
+                                    </p>
+                                </note>
+                                which discusses the symptoms and diagnosis of 404 ailments, but does not deal with treatments.
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Book of Sindhashār</hi>
+                                , whose title means
+                                <hi rend="italic">The Book of the Quintessence of Success</hi>
+                                (
+                                <hi rend="italic">K. Ṣafwat al-nujḥ</hi>
+                                ).
+                                <note n="10" type="footnote">
+                                    <p>
+                                        This is the
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        , (‘Quintessence [of Medicine])’, written by Ravigupta (fl. ca. 650 
+                                        <hi rend="smallcaps">AD</hi>
+                                        ). This work bears the title
+                                        <hi rend="italic">K. Sindhashār</hi>
+                                        in Arabic sources and was glossed as
+                                        <hi rend="italic">ṣafwat al-nujḥ</hi>
+                                        , i.e. ‘the quintessence of success’ (wrongly copied in all the manuscripts of
+                                        <hi rend="smallcaps">IAU</hi>
+                                        ’s
+                                        <hi rend="italic">ʿUyūn al-anbāʾ</hi>
+                                        as
+                                        <hi rend="italic">ṣūrat al-nujḥ</hi>
+                                        , ‘the image of success’). The
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        was translated by Ibn Dahn (or Ibn Dhan) the Indian (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303; Tajaddud, 360; Sayyid, ii:315–316); see also Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199–200 (under Vŗnda); Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        105; and Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 22–26, 134–152 (for the quotations from this book in al-Rāzī’s
+                                        <hi rend="italic">Ḥāwī</hi>
+                                        ). On the title
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        , see Emmerick, ‘Rapigupta’s
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        in Arabic’.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>5.</label>
+                            <item>Differences in the views held by the Indians and the Greeks concerning heat and cold, the effectiveness of various medicines and the division of the year.</item>
+                            <label>6.</label>
+                            <item>
+                                On the interpretation of the names of drugs (
+                                <hi rend="italic">K. tafsīr asmāʾ al-ʿaqqār</hi>
+                                ), in ten different languages.
+                                <note n="11" type="footnote">
+                                    <p>
+                                        This might be the book entitled
+                                        <hi rend="italic">Names of Indian Medicines</hi>
+                                        (
+                                        <hi rend="italic">Asmāʾ ʿaqāqīr al-Hind</hi>
+                                        ) translated by Mankah for Isḥāq ibn Sulaymān (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303, Tajaddud, 360, Sayyid, ii:315).
+                                    </p>
+                                </note>
+                            </item>
+                            <label>7.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Astāngar</hi>
+                                , a compendium.
+                                <note n="12" type="footnote">
+                                    <p>
+                                        Vāgbhaṭa’s
+                                        <hi rend="italic">Aṣṭāṅgahṛdaya</hi>
+                                        -
+                                        <hi rend="italic">Saṃhitā</hi>
+                                        , rendered into Arabic as
+                                        <hi rend="italic">K. Astānkar (or Astāngar)</hi>
+                                        <hi rend="italic">al-jāmiʿ</hi>
+                                        . For Vāgbhaṭa’s treatise
+                                        <hi rend="italic">Aṣṭāṅgahŗdaya</hi>
+                                        , or
+                                        <hi rend="italic">Heart of Medicine</hi>
+                                        , see Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 597–656; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 236–301; and Hilgenberg &amp; Kirfel,
+                                        <hi rend="italic">Vāgbhaṭa’s Aṣṭāṅgahṛdayasaṃhitā</hi>
+                                        . Current scholarship places Vāgbhaṭa’s compositions at around
+                                        <hi rend="smallcaps">AD</hi>
+                                         600. This work was translated by Ibn Dahn (or Ibn Dhan), said by Ibn al-Nadīm to be ‘the director of the hospital (
+                                        <hi rend="italic">ṣāḥib al-bīmāristān</hi>
+                                        )’, probably the hospital in Baghdad founded by the Barmakids (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303, Tajaddud, 360, Sayyid, ii:315–316), The translator’s name appears to be a truncated Indian name, possibly indicating a descendant of Dhanapatī; see Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 37; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199 (Sezgin is incorrect in associating him with Gondēshāpūr); Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 105; van Bladel, ‘Bactrian Background of the Barmakids,’ 76.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>8.</label>
+                            <item>
+                                On the treatment of pregnant women in India (
+                                <hi rend="italic">K. ʿilājāt al-ḥabālā lil-Hind</hi>
+                                ).
+                            </item>
+                            <label>9.</label>
+                            <item>
+                                A compendium on drugs used by the Indians (
+                                <hi rend="italic">K. mukhtaṣar fī l-ʿaqāqīr lil-Hind</hi>
+                                ).
+                                <note n="13" type="footnote">
+                                    <p>
+                                        This work is also listed by Ibn al-Nadīm with the same title; see
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>10.</label>
+                            <item>
+                                <hi rend="italic">The Book of Nūfashal</hi>
+                                ,
+                                <note n="14" type="footnote">
+                                    <p>
+                                        This is presumably the name of an author who has not been identified. A marginal note in
+                                        <hi rend="smallcaps">MS</hi>
+                                        A provides the variant Nāfashal, while Ibn al-Nadīm gives
+                                        <hi rend="italic">T-w-q-sh-t-l</hi>
+                                        (
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316) and Taha reads Tūqashtal (Taha,
+                                        <hi rend="italic">Compilation of Pharmacological Ideas</hi>
+                                        , 40). Siddiqi tentatively suggests the interpretation Tugashtal (Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 41); Cureton, 108, reads Fūfasal.
+                                    </p>
+                                </note>
+                                which discusses one hundred ailments and one hundred remedies.
+                            </item>
+                            <label>11.</label>
+                            <item>
+                                On the treatment of women, by an Indian woman named Rūsā,
+                                <note n="15" type="footnote">
+                                    <p>
+                                        This female Indian author on women’s conditions has not been identified. The name in Arabic is written in a number of ways, most commonly as Rūsā, but Rūshī and Zūsī occur as well. ʿAlī ibn Sahl Rabban al-Ṭabarī has some quotations from the books of ‘an Indian woman’ on the treatment of women’s diseases; see ʿAlī ibn Sahl Rabban al-Ṭabarī,
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        (ed. al-Ṣiddīqī), 591–594.
+                                    </p>
+                                </note>
+                                (
+                                <hi rend="italic">K. Rūsā</hi>
+                                [?]
+                                <hi rend="italic">al-hindiyyah fī ʿilājāt al-nisāʾ</hi>
+                                ).
+                            </item>
+                            <label>12.</label>
+                            <item>
+                                On sugar in India (
+                                <hi rend="italic">K. al-sukkar lil-Hind</hi>
+                                or
+                                <hi rend="italic">K. al-sukr lil-Hind</hi>
+                                ).
+                                <note n="16" type="footnote">
+                                    <p>
+                                        Or, ‘On intoxication in India’, following Ibn al-Nadīm (Sayyid, ii:316) who vowels it as
+                                        <hi rend="italic">al-sukr</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </item>
+                            <label>13.</label>
+                            <item>
+                                On the view of Nāqil the Indian on various species of snakes and their venom (
+                                <hi rend="italic">
+                                    K. raʾy al-Hindī
+                                    <note n="17" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Raʾy al-Hindī</hi>
+                                            , meaning ‘the view of the Indian’, is further explained in the margin of
+                                            <hi rend="smallcaps">MS</hi>
+                                            A where there is a correction supplying a name between
+                                            <hi rend="italic">raʾy</hi>
+                                            and
+                                            <hi rend="italic">al-Hindī</hi>
+                                            , which looks like
+                                            <hi rend="italic">Nāqil</hi>
+                                            . The name (together with the title) is given as Nāqil in Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Flügel, 317, Sayyid, ii:353).
+                                        </p>
+                                    </note>
+                                    fī ajnās al-ḥayyāt wa-sumūmihā
+                                </hi>
+                                ).
+                            </item>
+                            <label>14.</label>
+                            <item>
+                                On delusion concerning diseases and maladies (
+                                <hi rend="italic">K. al-tawahhum fī l-amrāḍ wa-l-ʿilal</hi>
+                                ), by the Indian author Abū Qubayl.
+                                <note n="18" type="footnote">
+                                    <p>
+                                        An author named Abū Qubayl al-Hindī is unidentified. The name has probably become corrupted in the manuscript tradition. Ibn al-Nadīm gives the same title credited to one T-w-q-sh-t-l al-Hindī, suggesting the author was the same as the one who composed title no. 10 in this list above (
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316).
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="textpart" subtype="biography" n="3">
+                        <p>
+                            <hi rend="bold">
+                                12.3 Shānāq
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in Version 2 and Version 3 of the book, but is missing from Version 
+                                        <hi rend="smallcaps">I</hi>
+                                        . Cāṇakya is the name of a legendary Indian sage (also referred to as Kauṭilya) as well as the minister of Candragupta Maurya (r. 321–298 
+                                        <hi rend="smallcaps">BC</hi>
+                                        ), the founder of the Mauryan Empire; he is a well-known author on moral and political subjects, famous for a book of government entitled
+                                        <hi rend="italic">Asthaśāstra</hi>
+                                        , for which some textual parallels can be found in the Arabic
+                                        <hi rend="italic">K. al-Sumūm</hi>
+                                        (see Strauss, ‘Giftbuch des Šānāq’, 8–12). For bibliographic information about Shānāq (Cāṇakya), see the introduction to Strauss, ‘Giftbuch des Šānāq’; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 193 (where the name is spelled Cānakya); and Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 324–326.
+                                    </p>
+                                </note>
+                                (Cāṇakya)
+                            </hi>
+                        </p>
+                        <p>
+                            Another celebrated Indian physician, the possessor of many treatments and much experience in the art of medicine and a master of various sciences and wisdom, as well as having been proficient in astrology. He was also an eloquent speaker, and stood high in the estimation of Indian kings. The following is an example of his eloquence, taken from a work of his entitled
+                            <hi rend="italic">Sifted Jewels</hi>
+                            :
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>O Prince, beware the pitfalls of time, and fear the mastery of days and the anguish of inevitable death. Know that actions earn recompense, and therefore fear the consequences of time and days, for they are uncertain. Beware then of them. Fate is unknowable. Time is inconstant: fear then its change. It may return with adversity: fear then its assault. It is swift to surprise, and there is no security against its reversal. Know that the man who does not treat himself for the sickness of misdeeds committed during the days of his life will be further than ever from recovery in that abode wherein there are no remedies. The man who in time past has subdued and abased his senses for the betterment of his soul has clearly shown his excellence and made plain his nobility of nature. He who does not control his soul, of which there is only one, will not control his senses, of which there are five, and if he does not control his senses, which are few and tractable, it will be difficult for him to control his advisors, who are numerous and formidable, and then the masses of the people in the outlying regions of the country and the distant parts of the kingdom will be very far from any control.</p>
+                            </quote>
+                        </cit>
+                        <p>Shānāq was the author of several books, notably:</p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                On poisons, in five parts.
+                                <note n="2" type="footnote">
+                                    <p>
+                                        For a translation and study of this work,
+                                        <hi rend="italic">Kitāb al-sumūm</hi>
+                                        , see Strauss, ‘Giftbuch der Šānāq’. The description of the translation process given immediately below is a literal quotation from the introduction to Shānāq’s book on poisons; see Strauss, ‘Giftbuch der Šānāq’, 3–4; and van Bladel, ‘Bactrian Background of the Barmakids’, 78–79.
+                                    </p>
+                                </note>
+                                Mankah al-Hindī
+                                <note n="3" type="footnote">
+                                    <p>His biography is given below in Ch. 12.5.</p>
+                                </note>
+                                translated it from Sanskrit into Persian, and a man by the name of Abū Ḥātim al-Balkhī
+                                <note n="4" type="footnote">
+                                    <p>Abū Ḥātim of Balkh is an otherwise unidentified translator. It is likely that he was not simply transliterating the Sanskrit into a Persian script, but actually translating it, and the language into which he was likely translating was Bactrian, a local variant; see van Bladel, ‘Bactrian Background of the Barmakids’, 79. It is unclear who made the translation into Arabic that was produced for Yaḥyā ibn Khālid ibn Barmak.</p>
+                                </note>
+                                was assigned the task of transcribing it in Persian writing; he then expounded upon it to Yaḥyā ibn Khālid ibn Barmak. The work was subsequently translated [into Arabic] for the caliph al-Maʾmūn
+                                <note n="5" type="footnote">
+                                    <p>The seventh Abbasid caliph, r. 196–218/813–833.</p>
+                                </note>
+                                by his client, al-ʿAbbās ibn Saʿīd al-Jawharī.
+                                <note n="6" type="footnote">
+                                    <p>
+                                        Al-ʿAbbās ibn Saʿīd al-Jawharī was one of the astronomers in the service of the Abbasid caliph al-Maʾmūn. He conducted astronomical observations in Baghdad in 214/829–830 and in Damascus in 217/832–833, and he also provided the earliest extant proof of the Euclidean postulate written in Arabic. For al-Jawharī, see
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">DSB</hi>
+                                        </hi>
+                                        art. ‘Al-Jawharī’ (A.I. Sabra); and
+                                        <hi rend="italic">Biographical Encyclopedia of Astronomers</hi>
+                                        art. ‘al-Jawharī, al-ʿAbbās ibn Saʿīd’ (M. Bolt).
+                                    </p>
+                                </note>
+                                The latter was also assigned the task of reading it aloud to al-Ma’mūn. Other works by Shānāq include:
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                On veterinary medicine (
+                                <hi rend="italic">K. al-bayṭarah</hi>
+                                )
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                On astrology (
+                                <hi rend="italic">K. fī ʿilm al-nujūm</hi>
+                                )
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                <hi rend="italic">Sifted Jewels</hi>
+                                (
+                                <hi rend="italic">K. Muntakhal al-jawhar</hi>
+                                ), which he wrote for an Indian king of that age whose name was Ibn Qamāniṣ al-Hindī.
+                                <note n="7" type="footnote">
+                                    <p>This Indian king has not been identified.</p>
+                                </note>
+                            </item>
+                        </list>
+                    </div>
+                    <div type="textpart" subtype="biography" n="4">
+                        <p>
+                            <hi rend="bold">
+                                12.4 Jawdar
+                                <note n="1" type="footnote">
+                                    <p>
+                                        In Version 3 of the book, the following biography is inserted after the biography of Shānāq; in
+                                        <hi rend="smallcaps">MS</hi>
+                                        A, it is written in the margin. Jawdar (or Jawdhar) is an otherwise unrecorded Indian authority. Neither Sezgin nor Ullmann provides bibliographic information about Jawdar.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            A distinguished figure among the scholars and learned men of India, who was highly regarded by his contemporaries, particularly as an authority on medicine. Jawdar is the author of scholarly works on various subjects, including
+                            <hi rend="italic">On Nativities</hi>
+                            (
+                            <hi rend="italic">K. al-mawālīd</hi>
+                            ), which has been translated into Arabic.
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="biography" n="5">
+                        <p>
+                            <hi rend="bold">
+                                12.5 Mankah al-Hindī
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in Version 2 and Version 3 of the book, but is missing in Version 
+                                        <hi rend="smallcaps">I</hi>
+                                        . For bibliographic information about Mankah al-Hindī (or Māṇikya), see Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 200–201; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 106; Bürgel,
+                                        <hi rend="italic">Ärtzliches Leben</hi>
+                                        , 296n, 356; Shefer-Mossensohn &amp; Hershkovitzh, ‘Early Muslim Medicine’, 288. Mankah is also mentioned by al-Jāḥiẓ, where he is said to be
+                                        <hi rend="italic">ṣaḥīḥ al-Islām</hi>
+                                        (al-Jāḥiẓ,
+                                        <hi rend="italic">Ḥayawān</hi>
+                                        , vii:213); Tzvi Langermann suggests that Mankah is to be identified with the Indian physician Amqat, whom the physician Masīḥ ibn Ḥakam met at the court of Hārūn al-Rashīd and accompanied back to India (Langermann, ‘Babylonian and Indian Wisdoms’).
+                                    </p>
+                                </note>
+                                (Māṇikya)
+                            </hi>
+                        </p>
+                        <p>
+                            Mankah al-Hindī was knowledgeable about the art of medicine, skilled in treating disease, and moderate in his methods; a philosopher of the previously mentioned group in the Indian sciences. He was also conversant with the Sanskrit and Persian languages: it was he who translated Shānāq’s
+                            <hi rend="italic">On poisons</hi>
+                            from Sanskrit to Persian. Mankah was a contemporary of Hārūn al-Rashīd, and during the latter’s caliphate he travelled from India to Iraq, where he met with the caliph and treated him.
+                        </p>
+                        <p>
+                            I have read somewhere that Mankah al-Hindī was in the entourage of Isḥāq ibn Sulaymān ibn ʿAlī al-Hāshimī,
+                            <note n="2" type="footnote">
+                                <p>
+                                    Isḥāq ibn Sulaymān ibn ʿAlī al-Hāshimī served as governor of various regions, including Egypt, under the caliphs Hārūn al-Rashīd and al-Amīn, and is mentioned several times in al-Ṭabarī and various other works, although with few details and without a year of death; see al-Khaṭīb al-Baghdādī,
+                                    <hi rend="italic">Tārīkh Baghdād</hi>
+                                    , viii:340.
+                                </p>
+                            </note>
+                            and translated from Sanskrit into Persian and Arabic.
+                            <note n="3" type="footnote">
+                                <p>
+                                    According to Ibn al-Nadīm, Mankah translated a work entitled
+                                    <hi rend="italic">Names of Indian Medicines</hi>
+                                    (
+                                    <hi rend="italic">Asmāʾ ʿaqāqīr al-Hind</hi>
+                                    ) for Isḥāq ibn Sulaymān; see Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Flügel, 303; Tajaddud, 360; Sayyid, ii:315).
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            The following account is taken from a copy of
+                            <hi rend="italic">The History of the Caliphs and the Barmakids</hi>
+                            :
+                            <note n="4" type="footnote">
+                                <p>
+                                    The work referred to by
+                                    <hi rend="smallcaps">IAU</hi>
+                                    is Abū Ḥafṣ al-Kirmānī’s
+                                    <hi rend="italic">Akhbār al-Barāmikah</hi>
+                                    , which has survived only in quotations. One of the authors who quotes from him is al-Ṭabarī, and this anecdote can be also found in al-Ṭabarī,
+                                    <hi rend="italic">Taʾrīkh</hi>
+                                    (ed. de Goeje), iii:
+                                    <hi rend="smallcaps">III</hi>
+                                    , ii:747–748.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>Hārūn al-Rashīd once fell gravely ill. He was treated by a number of physicians, but did not recover. Abū ʿAmr al-Aʿjamī said to him, ‘O Commander of the Faithful, there is a physician in India by the name of Mankah; he is a pious man in their religion and one of their philosophers. If you were to send for him, it may be that God would bring about your recovery at his hands.’ Al-Rashīd thereupon dispatched a person to bring him to Baghdad, with a gift to persuade him to undertake the journey. Mankah went to Baghdad and attended the caliph, with the result that Hārūn al-Rashīd was restored to health; he rewarded the physician handsomely and granted him a generous pension.</p>
+                                <p>
+                                    One day while Mankah was walking in the Khuld palace
+                                    <note n="5" type="footnote">
+                                        <p>
+                                            A palace built by the caliph al-Manṣūr on the west bank of the Tigris. It was used by Hārūn al-Rashīd as his residence. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="superscript">2</hi>
+                                            art. ‘Al-K̲h̲uld’ (C.E. Bosworth). By ‘in’ the palace we may perhaps understand ‘in its grounds’.
+                                        </p>
+                                    </note>
+                                    he saw a huckster who had spread out his cloak on the ground and placed upon it a large and varied array of drugs. The man began to describe a medicinal paste that he had concocted. ‘This medicine,’ he said, ‘is good for a constant fever, a quartan ague, a tertian ague, pain in the back, pain in the knees, abnormal phlegm,
+                                    <note n="6" type="footnote">
+                                        <p>
+                                            Ibn Sīnā lists
+                                            <hi rend="italic">al-khām</hi>
+                                            as one of the abnormal or ‘non-natural (
+                                            <hi rend="italic">ghayr al-ṭabīʿī</hi>
+                                            )’ forms of phlegm (
+                                            <hi rend="italic">balgham</hi>
+                                            ), a particularly mucoid form; see
+                                            <hi rend="italic">al-Qānūn</hi>
+                                            ,
+                                            <hi rend="italic">kitāb</hi>
+                                            1,
+                                            <hi rend="italic">fann</hi>
+                                            1,
+                                            <hi rend="italic">taʿlīm</hi>
+                                            4,
+                                            <hi rend="italic">faṣl</hi>
+                                            1. Phlegm, one of the four humours, was thought to be found in all parts of the body, not only in the respiratory organs. When a non-natural form of phlegm occurred, various ailments resulted.
+                                            <hi rend="italic">Khām</hi>
+                                            was often associated with pain in the joints. In the list of uses for individual medicaments given by Ibn Sīnā in
+                                            <hi rend="italic">Kitāb</hi>
+                                            2 of the
+                                            <hi rend="italic">Qānūn</hi>
+                                            , there are several designated as useful for
+                                            <hi rend="italic">al-khām</hi>
+                                            ; for example
+                                            <hi rend="italic">anzarūt</hi>
+                                            (sarcocol) is said to be useful, amongst other things, for easing
+                                            <hi rend="italic">al-khām</hi>
+                                            and thick phlegm (
+                                            <hi rend="italic">al-balgham al-ghalīẓ</hi>
+                                            ) especially in the hips and joints. The word appears to be from the root
+                                            <hi rend="italic">kh-y-m</hi>
+                                            , which in a medical context Dozy translated as ‘Flegme cru’; Dozy,
+                                            <hi rend="italic">Supplément</hi>
+                                            , i:419. However, Oliver Kahl, when editing and translating the medical formulary of Ibn al-Tilmīdh, interpreted the word as
+                                            <hi rend="italic">al-khāmm</hi>
+                                            , generally meaning decaying flesh, and in a recipe called ‘The Bishop’s Stomachic’ said it was useful against ‘foul smells’ (
+                                            <hi rend="italic">al-khāmm</hi>
+                                            ) as well as flatulence (
+                                            <hi rend="italic">riyāḥ</hi>
+                                            ) and the winds of hemorrhoids (
+                                            <hi rend="italic">arwāḥ al-bawāsīr</hi>
+                                            ).
+                                        </p>
+                                    </note>
+                                    haemorrhoids, flatulence, pain in the joints, pain in the eyes, pain in the belly, headache, migraine, dribbling of urine, paralysis, the palsy …’. Not a single bodily ailment did he omit; his medicine, he said, was a sovereign remedy for every one of them. ‘What is that fellow saying?’ Mankah asked his interpreter, and the interpreter told him. Mankah smiled. ‘One way or the other, the king of the Arabs must be an ignorant man,’ he said. ‘If the matter is as this fellow said, why has he brought me from my country, separated me from my family, and incurred the expense of my keep, when he has this wonder-worker right here, under his very nose? If the matter is not as this fellow says, why does the king not have him put to death? The law permits the execution of this fellow and anyone like him, for if that is done, only one person will have died, and by his death many will have remained alive, whereas if he is allowed to live, which would be foolishness, he will kill a person a day – indeed, he will kill two, or three, or four individuals every day, as like as not, and that would be to corrupt religion and weaken the kingdom.’
+                                </p>
+                            </quote>
+                        </cit>
+                    </div>
+                    <div type="textpart" subtype="biography" n="6">
+                        <p>
+                            <hi rend="bold">
+                                12.6 Ṣāliḥ ibn Bahlah al-Hindī
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in all three versions of the book. The name Ṣāliḥ ibn Bahlah may be an Arabized and truncated form of an Indian name suggesting that he was a descendant of Bhela, whose ancient medical compendium (
+                                        <hi rend="italic">Saṃhitā</hi>
+                                        ) survives today in a single palm-leaf manuscript; see Krishnamurthy,
+                                        <hi rend="italic">Bhela-Saṃhitā</hi>
+                                        . For bibliographic information on Ṣāliḥ ibn Bahlah al-Hindī, see Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 201; Shefer-Mossensohn &amp; Hershkovitzh, ‘Early Muslim Medicine’, 280.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>Ṣāliḥ ibn Bahlah al-Hindī was one of the most distinguished of the learned men of India. He was skilled in Indian methods of treatment, and was influential and far-sighted in the advancement of knowledge. Ṣāliḥ ibn Bahlah al-Hindī was in Iraq in the time of the caliph Hārūn al-Rashīd.</p>
+                        <p>
+                            Abu l-Ḥasan Yūsuf ibn Ibrāhīm the astrologer, known as Ibn al-Dāyah,
+                            <note n="2" type="footnote">
+                                <p>
+                                    For Ibn al-Dāyah, see above Ch. 8.3.6 n. 15. This anecdote has also been transmitted by Ibn al-Qifṭī, with almost the same wording; see Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾrīkh al</hi>
+                                    -
+                                    <hi rend="italic">ḥukamāʾ</hi>
+                                    , 215–217.
+                                </p>
+                            </note>
+                            relates an account that he says he heard first-hand from the secretary Aḥmad ibn Rashīd, who was the client of Sallām al-Abrash
+                            <note n="3" type="footnote">
+                                <p>
+                                    Abū Salamah Sallām al-Abrash is mentioned in the
+                                    <hi rend="italic">Fihrist</hi>
+                                    as one of the early translators at the time of the Barmak family, ca. 750–803 (Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    , Flügel
+                                    <hi rend="italic">244</hi>
+                                    ; Tajaddud, 303; Sayyid, 145). Sallām al-Abrash was the author of an early translation of Aristotle’s
+                                    <hi rend="italic">Physics</hi>
+                                    ; see Gutas,
+                                    <hi rend="italic">Greek Thought</hi>
+                                    , 71–72.
+                                </p>
+                            </note>
+                            and had had the story from his patron: One day (so Ibn al-Dāyah’s account runs) the tables were set for al-Rashīd’s supper, but Jibrīl ibn Bukhtīshūʿ
+                            <note n="4" type="footnote">
+                                <p>
+                                    Personal physician to Hārūn al-Rashīd. See
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    <hi rend="superscript">2</hi>
+                                    art. Buk̲h̲tis̲h̲ūʿ (D. Sourdel). His biography is at Ch. 8.3.
+                                </p>
+                            </note>
+                            was not present. To tell the tale in Aḥmad’s own words:
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Abū Salamah (meaning his patron, Sallām al-Abrash) told me that the Commander of the Faithful had ordered him to go and find Jibrīl and bid him attend the caliph at the meal, as was the regular practice. He had done so, asking for the missing physician at every suite of apartments where Jibrīl was wont to attend members of the family, but had found no trace of him. Returning, he had informed the caliph of this, whereupon al-Rashīd had burst into a torrent of curses and abuse against Jibrīl. In the midst of this, in walked Jibrīl himself. ‘It would be seemlier,’ he said, ‘for the Commander of the Faithful to refrain from abusing me in this fashion and instead to weep for his cousin, Ibrāhīm ibn Ṣāliḥ’.
+                                    <note n="5" type="footnote">
+                                        <p>
+                                            Ibrāhīm ibn Ṣāliḥ ibn ʿAlī was a cousin of the caliphs al-Saffāḥ and al-Manṣūr. His father, Ṣāliḥ, had been the first Abbasid governor of Egypt. The family was a powerful clan of the Abbasids during the early years of the Abbasid caliphate; see
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘ʿAbd al-Malik b. Ṣāliḥ’ (K.V. Zetterstéen).
+                                        </p>
+                                    </note>
+                                    The caliph asked him what had happened to Ibrāhīm, and Jibrīl informed him that he had left him near death, and that he would have expired by the time of the night-prayer. Al-Rashīd was greatly affected at this news: he began to weep, and ordered the tables cleared. Such was his grief that all those who were present were moved to pity for him.
+                                </p>
+                                <p>
+                                    Then Jaʿfar ibn Yaḥyā
+                                    <note n="6" type="footnote">
+                                        <p>
+                                            Ibn Khālid ibn Barmak. On the role of the Barmakids as sponsors of Indian sciences see Van Bladel, ‘The Bactrian Background of the Barmakids’, 74–86;
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="italic">
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘al-Barāmika’ (D. Sourdel).
+                                        </p>
+                                    </note>
+                                    said, ‘O Commander of the Faithful, Jibril’s medicine is Greek medicine. Ṣāliḥ ibn Bahlah al-Hindī is no less learned in the art of medicine according to the doctrines of the Indians than is Jibril in the teachings of the Greeks. If the Commander of the Faithful thinks it advisable, he could have the Indian physician brought here and sent to attend Ibrāhīm ibn Ṣāliḥ. We should then hear his opinion in the case, as we have heard that of Jibril.’ Al-Rashīd took this suggestion at once, ordering Jaʿfar to go in search of Ṣāliḥ ibn Bahlah al-Hindī, bring him to the palace, accompany him to Ibrāhīm’s sickbed, and then return with him afterward. Jaʿfar obeyed, and the physician went to Ibrāhīm’s chamber, where he saw the sick man and felt his pulse. He then returned to Jaʿfar, who asked him what he had determined, but Ṣāliḥ replied, ‘I will tell no one but the Commander of the Faithful himself.’ Jaʿfar tried his utmost to make the physician divulge the information, but he steadfastly refused, and finally Jaʿfar went to see Hārūn al-Rashīd and told him that the Indian physician had come and had seen Ibrāhīm, but was refusing to say what he had learned from his examination. ‘Show him in,’ said al-Rashīd.
+                                </p>
+                                <p>Ṣāliḥ entered and said to the caliph, ‘O Commander of the Faithful, you are the Imam and the master of judicial decisions; no ruling of yours may be overturned by any judge. I call upon you to witness, O Commander of the Faithful, and all present here, that if Ibrāhīm ibn Ṣāliḥ dies this night, or from this illness, every slave belonging to Ṣāliḥ ibn Bahlah shall be free unconditionally, every beast of burden belonging to him shall be dedicated to charitable purposes, all his property shall be distributed to the poor, and all his wives shall be trebly divorced.’ Al-Rashīd replied, ‘That was a rash promise to make, O Ṣāliḥ, in a matter that must ever be hidden from mortal man.’ ‘Not at all, O Commander of the Faithful,’ rejoined Ṣāliḥ, ‘for a matter is hidden from mortal man only if no one has knowledge of it and indications of it are lacking. I said what I said on the strength of clear knowledge and unmistakable indications.’</p>
+                            </quote>
+                        </cit>
+                        <p>Aḥmad ibn Rashīd’s report of the account of Abū Salamah Sallām al-Abrash continues thus:</p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Hārūn al-Rashīd was greatly cheered at this. He began to eat, and drink was also served to him. But at the time of the night-prayer, a letter arrived for al-Rashīd from the postmaster
+                                    <note n="7" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Ṣāḥib al-barīd</hi>
+                                            . For an account of the postal service and the functions of postmasters under the early Abbasids, see
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="superscript">2</hi>
+                                            art. ‘Barīd’ (D. Sourdel);
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                                Three
+                                            </hi>
+                                            art. ‘Barīd’ (A. Silverstein); and Silverstein,
+                                            <hi rend="italic">Postal Systems</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    in Baghdad, with the news that Ibrāhīm ibn Ṣāliḥ was dead. ‘ « 
+                                    <hi rend="italic">Truly, we belong to God, and to Him we shall return</hi>
+                                     »,’
+                                    <note n="8" type="footnote">
+                                        <p>Q al-Baqarah 2:156.</p>
+                                    </note>
+                                    exclaimed al-Rashīd, and he began to berate Ja‘far ibn Yaḥyā for advising him to call in Ṣāliḥ ibn Bahlah, and to revile the Indians and all their medical lore. ‘Oh, the shame before God,’ he cried, ‘that as my cousin lay on his death-bed, I was here drinking wine!’
+                                    <note n="9" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Nabīdh</hi>
+                                            is properly date-wine, but it may also denote any kind of intoxicating or fermented drink, including wine made from grapes (Dozy,
+                                            <hi rend="italic">Supplement</hi>
+                                            , ii:642–643; Lane,
+                                            <hi rend="italic">Lexicon</hi>
+                                            , 2757).
+                                        </p>
+                                    </note>
+                                    and he called for a measure
+                                    <note n="10" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Raṭl</hi>
+                                            is a unit of weight, but is also frequently used as a unit of volume, especially in a context of wine-drinking.
+                                        </p>
+                                    </note>
+                                    of wine, which he mixed with water and then added some salt. He then began to drink it and quickly vomited, throwing up all the food and drink that he had had in his stomach.
+                                </p>
+                                <p>
+                                    The next morning, al-Rashīd went to Ibrāhīm’s house, where the servants met him and conducted him to a chamber next to some of Ibrāhīm’s sitting-rooms. In the chamber, a carpet had been spread out on the left and another on the right, set with chairs, hassocks and cushions, while between the two carpets the floor was strewn with pillows. Al-Rashīd stood leaning on his sword and said, ‘It is not fitting, in a house of mourning, to sit with the bereaved family on anything more elaborate than mats. Take away these carpets and pillows!’ The carpets were removed by the chamberlains, and Hārūn al-Rashīd sat on the mats on the floor. This was the regular practice of the Abbasids
+                                    <note n="11" type="footnote">
+                                        <p>Literally, Banū l-ʿAbbās, referring not only to the Abbasid caliphs but also to the many relatives, governors and generals or just privileged members of the ruling dynasty.</p>
+                                    </note>
+                                    from that day forward, in contrast to their previous custom.
+                                </p>
+                                <p>
+                                    Ṣāliḥ ibn Bahlah stood before al-Rashīd, and no one spoke a word to him. Finally, when the company could smell the scent of incense from the braziers, Ṣāliḥ shouted, ‘O God! O God! that the Commander of the Faithful should condemn me to divorce my wife, that he should take her from me and marry her to another, when I am her legitimate husband
+                                    <note n="12" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Rabb al-farj</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    and entitled to her favours, and that she should become the wife of a man for whom she is not lawful! O God! O God! that the Commander of the Faithful should deprive me of my happiness, when no sin attaches to me! O God! O God! that he should bury his cousin alive! for by God, O Commander of the Faithful, he has not died. Only allow me to go in and see him.’ Again and again he repeated these frantic words, and finally the caliph granted him permission to go alone into the room where Ibrāhīm lay.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    We began to hear a sound as of a body being slapped with the open hand. Then the sound ceased, and we heard a cry of ‘God is most great!’ Ṣāliḥ emerged into our midst, repeating ‘God is most great!’ and then he turned to the caliph and said, ‘Come, O Commander of the Faithful, and I will show you something that will astonish you.’ Hārūn al-Rashīd, accompanied by Masrūr al-Kabīr,
+                                    <note n="13" type="footnote">
+                                        <p>
+                                            This is Masrūr al-Khādim al-Kabīr, the eunuch. Masrūr is often quoted as transmitter of reports in
+                                            <hi rend="italic">adab</hi>
+                                            works, notabl‮‭y‬‬‎ in al-Iṣbahānī’s
+                                            <hi rend="italic">K. al-Aghānī</hi>
+                                            . He is also a recurrent character in the
+                                            <hi rend="italic">One Thousand and One Nights</hi>
+                                            , where he appears as Hārūn al-Rashīd’s companion and factotum, and also as the protagonist of the story entitled ‘Masrūr the Eunuch and Ibn al-Qāribī’. On Masrūr, see Crone,
+                                            <hi rend="italic">Slaves on Horses</hi>
+                                            , 192 n. 34; al-Ṭabari,
+                                            <hi rend="italic">Tārīkh</hi>
+                                            (Bosworth), 303.
+                                        </p>
+                                    </note>
+                                    Abū Sulaym
+                                    <note n="14" type="footnote">
+                                        <p>
+                                            This is the Turkish eunuch Abū Sulaym Faraj,
+                                            <hi rend="italic">mawlā</hi>
+                                            of Hārūn al-Rashīd. He was civil governor of the Cilician frontier (
+                                            <hi rend="italic">al-thughūr</hi>
+                                            ) with al-Rashīd and al-Amīn, see Crone,
+                                            <hi rend="italic">Slaves on Horses</hi>
+                                            , 190 n. 22.
+                                        </p>
+                                    </note>
+                                    and myself, followed him into the room where Ibrāhīm lay. Ṣāliḥ then took out a needle that he had with him and stuck it into Ibrāhīm’s left hand, between the thumbnail and the flesh, whereupon Ibrāhīm ibn Ṣāliḥ withdrew his hand and brought it close to his body. ‘O Commander of the Faithful,’ said Ṣāliḥ, ‘does a dead body feel pain?’ ‘No,’ replied the caliph. ‘If it should be the wish of the Commander of the Faithful that his cousin should speak to him at once,’ said Ṣāliḥ, ‘he shall do so.’ ‘Pray proceed,’ said the caliph. ‘O Commander of the Faithful,’ said Ṣāliḥ, ‘I fear that if I were to treat him and he recovered consciousness to find himself wrapped in a burial shroud smelling of aromatic substances,
+                                    <note n="15" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Ḥanūṭ</hi>
+                                            designates a perfume or scented unguent associated with preparations for burial. It was compounded of a number of ingredients, the most important being camphor but could also include musk, sweet rush and sandalwood and other items. It was could be applied to the body and beard as well as to the grave-clothes. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            art. ‘Ḥināṭa’ (A.S. Tritton).
+                                        </p>
+                                    </note>
+                                    his heart would fail him and he would truly die; I should have no means of reviving him. But let the Commander of the Faithful order the shroud removed and Ibrāhīm ibn Ṣāliḥ taken and washed again until the smell of the aromatic substances is gone, and then dressed in clothes like those he wore when he was in good health and during his illness, perfumed with his usual scent, and finally carried to a bed such as he was accustomed to sit upon and sleep in, I shall treat him in the presence of the Commander of the Faithful, and he will speak to you then and there.’
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Hārūn al-Rashīd ordered me to do as Ṣāliḥ ibn Bahlah had suggested, and I obeyed. The caliph, accompanied by Masrūr, Abū Sulaym, Ṣāliḥ and myself, then went to the place where Ibrāhīm lay. Ṣāliḥ called for some sneezewort
+                                    <note n="16" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Kundus</hi>
+                                            , a plant apparently unknown to Greek physicians, has been identified in different ways by modern scholars. Some have aligned it with Struthium or ‘soapwort’ (
+                                            <hi rend="italic">Saponaria officinalis</hi>
+                                            L., or related species or
+                                            <hi rend="italic">Gypsophila strythium</hi>
+                                            L., commonly known as ‘baby’s breath’); see Levey,
+                                            <hi rend="italic">Medical Formulary</hi>
+                                            , 328 no. 268; Lev &amp; Amar,
+                                            <hi rend="italic">Materia Medica</hi>
+                                            , 489; Ibn al-Tilmīdh,
+                                            <hi rend="italic">Dispensatory</hi>
+                                            , 313. However, Ibn al-Bayṭār states that
+                                            <hi rend="italic">kundus</hi>
+                                            is not
+                                            <hi rend="italic">strūthiyūn</hi>
+                                            and was not used to wash wool. Here it is clearly a sternutatory – that is, a medicine that when applied to the mucous membranes of the nose increases natural secretions and produces sneezing – and hence ‘sneezewort’ (
+                                            <hi rend="italic">Achillea ptarmica</hi>
+                                            L.); see Tibi,
+                                            <hi rend="italic">Medicinal Use of Opium</hi>
+                                            , 198 for pertinent references.
+                                        </p>
+                                    </note>
+                                    and a bellows from the pharmacy,
+                                    <note n="17" type="footnote">
+                                        <p>
+                                            Dozy (
+                                            <hi rend="italic">Supplement</hi>
+                                            , i:369) defines
+                                            <hi rend="italic">khizānat al-ṭibb wa-l-ḥikmah</hi>
+                                            as ‘pharmacie, magasin de médicaments’, and
+                                            <hi rend="italic">khidmat khizānat al-ṭibb wa-l-ḥikmah</hi>
+                                            as ‘parmi les emplois de la cour’.
+                                        </p>
+                                    </note>
+                                    and proceeded to blow some of the sneezewort into his nose. After he had been doing this for the sixth part of an hour, the body stirred, and then Ibrāhīm sneezed and sat up before Hārūn al-Rashīd and kissed his hand. The caliph asked him what had happened, and he answered that he had had such a sleep as he did not recall ever having had before. It had been a refreshing sleep, he said, only he had dreamed that a dog had come rushing at him, and when he had attempted to fend it off with his hand, it had bitten him on the left thumb. He had then awoken, but could still feel the pain, and he showed al-Rashīd the place where Ṣāliḥ had pricked him with the needle.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            Ibrāhīm lived for a long time after this adventure. He married al-ʿAbbāsah,
+                            <note n="18" type="footnote">
+                                <p>Al-ʿAbbāsah bint al-Mahdī ibn Abī Jaʿfar al-Manṣūr was the sister of Hārūn al-Rashīd and wife of Jaʿfar ibn Yaḥyā ibn Khālid ibn Barmak and, after his execution, Ibrāhīm ibn Ṣāliḥ ibn ʿAlī.</p>
+                            </note>
+                            the daughter of al-Mahdī,
+                            <note n="19" type="footnote">
+                                <p>The third Abbasid caliph (r. 158–169/775–785) and father of Hārūn al-Rashīd and al-ʿAbbāsah.</p>
+                            </note>
+                            and became governor of Egypt and Palestine. He died in Egypt, and his grave is located there.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

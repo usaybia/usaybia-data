@@ -1,0 +1,1341 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xml:id="arabicLit.textgroup.work.H01" py:pytype="TREE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 2</title>
+				<title xml:lang="en" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+				<author xml:lang="en" ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿah</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal ref="#ngibson">Nathan P. Gibson</principal>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<respStmt>
+					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				</respStmt>				
+				<!-- <respStmt>
+					<resp>Edited by</resp>
+					<name type="person">Insert other names of people who edit this document </name>
+				</respStmt> -->
+			</titleStmt>
+           <publicationStmt>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
+           </publicationStmt>
+           <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">2</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-08-28" who="#ngibson">Added header to downloaded text.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="translation" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1" xml:lang="en-Latn">
+                <div type="textpart" subtype="chapter" n="2">
+                    <div type="textpart" subtype="biography" n="1">
+                        <head>Chapter 2 Physicians Who Perceived the Rudiments of the Art of Medicine and Initiated the Practice of That Art</head>
+                        <head>Bruce Inksetter and Simon Swain</head>
+                        <p>
+                            <hi rend="bold">
+                                2.1 Asclepius
+                                <note n="1" type="footnote">
+                                    <p>
+                                        God of medicine in ancient Greek mythology, son of Apollo. The rod of Asclepius, a snake-entwined staff, remains a symbol of medicine to this day. This biography is found in all three Versions Ibn al-Qifṭī gives a long biography of Asclepius (
+                                        <hi rend="italic">Tārīkh al-ḥukamāʾ</hi>
+                                        , 8), as does Ibn Juljul (
+                                        <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                        , 11).
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            <hi rend="bold">[2.1.1]</hi>
+                        </p>
+                        <p>Among the philosophers and physicians of antiquity, there is a wide measure of agreement that, as we have seen, Asclepius was the first known physician. He is credited with having been the first to discuss some aspects of medicine according to the empirical method.</p>
+                        <p>
+                            Asclepius was Greek (
+                            <hi rend="italic">Yūnānī</hi>
+                            ), and the Arabic term for ‘Greeks’ is related to
+                            <hi rend="italic">Yūnān</hi>
+                            , which is the name of a peninsula
+                            <note n="2" type="footnote">
+                                <p>Or ‘island’.</p>
+                            </note>
+                            much frequented by the wise men of the Romans.
+                            <note n="3" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">Yūnān</hi>
+                                    is derived from Ἰωνία, i.e. for the ancient Greeks the central littoral of western Anatolia including the islands of Samos and Chios inhabited by the Ionians, descendants of the mythological hero Iōn.
+                                </p>
+                            </note>
+                            But Abū Maʿshar,
+                            <note n="4" type="footnote">
+                                <p>
+                                    Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī, a ‮‭3‬‬‎rd/‮‭9‬‬‎th c. astronomer and astrologer in Baghdad, known in the Latin West as Albumasar (172/787–272/886). There is a biography of him in Ibn Khallikān’s
+                                    <hi rend="italic">Wafayāt al-aʿyān</hi>
+                                    . His important book survives as excerpts and summaries (see Pingree,
+                                    <hi rend="italic">Thousands</hi>
+                                    ).
+                                </p>
+                            </note>
+                            in the second volume of his
+                            <hi rend="italic">Book of Thousands</hi>
+                            , informs us:
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    long ago there was a city in the west named Argos,
+                                    <note n="5" type="footnote">
+                                        <p>In the Peloponnese region of southern Greece.</p>
+                                    </note>
+                                    whose inhabitants were known as ‘Argives’; this city, according to the historian, later came to be named Ionia, and its inhabitants were thenceforth known as
+                                    <hi rend="italic">Yūnānīyūn</hi>
+                                    from the name of their native place. The ruler of Ionia was one of the petty kings
+                                    <note n="6" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Mulūk al-ṭawāʾif</hi>
+                                            is the term used by the Muslim historians to denote the regional rulers of the Parthian (or Arsacid) period, extending from the mid-3rd cent.
+                                            <hi rend="smallcaps">BC</hi>
+                                            to the end of the first quarter of the 3rd cent.
+                                            <hi rend="smallcaps">AD</hi>
+                                            . See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="italic">
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            , art. ‘Mulūk al-ṭawāʾif’ (M. Morony).
+                                        </p>
+                                    </note>
+                                    of that time. Our sources say that the first Greek king to rule the city of Ionia was one Julius, known as the Dictator.
+                                    <note n="7" type="footnote">
+                                        <p>
+                                            Arabic
+                                            <hi rend="italic">Iyūliyūs</hi>
+                                            , i.e. Julius Caesar. The Arabic Orosius (see below) e.g. transliterates the term
+                                            <hi rend="italic">dictator</hi>
+                                            in relation to Caesar (Badawī,
+                                            <hi rend="italic">Orosius</hi>
+                                            , 410).
+                                        </p>
+                                    </note>
+                                    His reign is said to have lasted for eighteen years, during which time he promulgated a multitude of laws to govern the lives of the Greeks.
+                                    <note n="8" type="footnote">
+                                        <p>
+                                            This reference to
+                                            <hi rend="italic">Iyūliyūs</hi>
+                                            is confused. Pingree interpreted it as a proof that Abū Maʿshar wrote a piece of fictional, astrological history (‘Abū Maʿshar’s astrological history must have been hilariously inaccurate’; see
+                                            <hi rend="italic">Thousands</hi>
+                                            , 18 n. 3). Van Bladel argues, on the contrary, that the reference to the length of rule of Julius Caesar proves that Abū Maʿshar’s source was a chronicle and that the author was trying to establish a historical basis for his astronomical theories (
+                                            <hi rend="italic">The Arabic Hermes</hi>
+                                            , 152). The reference to the Argives is key here, for they and their early kings are part of the scenery of the Christian chronical tradition on which later sources depended. But the reference to Julius Caesar and the period of 18 years for his rule has no historical basis. Neither Pingree nor Van Bladel discuss the possibility of a misinterpretation or a scribal mistake. Owing to the similarity of
+                                            <hi rend="italic">Iyūliyūs</hi>
+                                            with
+                                            <hi rend="italic">Iyūniyā</hi>
+                                            , an alternative explanation would be that the name was based on that of the hero Ἴων turned into Arabic *
+                                            <hi rend="italic">Iyūniyūs</hi>
+                                            , which was later corrupted into the more familiar figure of Julius Caesar the Dictator.
+                                        </p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            We read in the
+                            <hi rend="italic">Annotations</hi>
+                            of the eminent scholar, Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī al-Manṭiqī:
+                            <note n="9" type="footnote">
+                                <p>
+                                    Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī (d. 375/985). Also called al-Manṭiqī (the logician). His name refers to his origins in the Sijistān or Sīstān province in present-day Iran. He became the leading philosopher of Islamic humanism in the Baghdad of his time.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    refers to al-Sijistānī’s work as either
+                                    <hi rend="italic">al-Taʿāliq</hi>
+                                    or
+                                    <hi rend="italic">al-Nawādir</hi>
+                                    (cf. 11.7 title no. 4); the content he quotes is close to the kind of information found in the abridgement of his
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    . Although none of the quotations in
+                                    <hi rend="smallcaps">IAU</hi>
+                                    match the text preserved in the
+                                    <hi rend="italic">Muntakḥab Ṣiwān al-ḥikmah</hi>
+                                    , one should not discard the possibility that they are different versions of the same; for further discussion, see Vol. 1, pp. 86–87. On al-Sijistānī, see Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , xiv, xxv; Kraemer,
+                                    <hi rend="italic">Philosophy</hi>
+                                    119–123. As Kraemer points out, the
+                                    <hi rend="italic">Ṣiwān</hi>
+                                    is from the ‘school’ of al-Sijistānī; see also al-Qāḍī, ‘
+                                    <hi rend="italic">Kitāb Ṣiwān al-ḥikma</hi>
+                                    ’ (authorship by Abū l-Qāsim al-Kirmānī, a member of his circle).
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Asclepius, son of Zeus, was said to have been of supernatural birth.
+                                    <note n="10" type="footnote">
+                                        <p>
+                                            There are various accounts of Asclepius’ birth: see
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , art. ‘Asclepius’ (Graf, F.).
+                                        </p>
+                                    </note>
+                                    He was the founder of the art of medicine and the father of most philosophers. Euclid was descended from him, as were Plato, Aristotle, Hippocrates, and most of the Greeks.
+                                </p>
+                                <p>Al-Sijistānī continues, ‘Hippocrates was the sixteenth of his children, that is, a sixteenth-generation offspring from his line.’</p>
+                                <p>
+                                    According to the same author, ‘Solon, the father of lawgivers,
+                                    <note n="11" type="footnote">
+                                        <p>
+                                            I.e., the famous Athenian statesman of the late 6th/early 5th cent.
+                                            <hi rend="smallcaps">BC</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    was a brother of Asclepius.’
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.2]</hi>
+                        </p>
+                        <p>
+                            I (Ibn Abī Uṣaybiʿah) add here: The Arabic translation of the name Asclepius is ‘prevention of dryness’, but some have asserted that the name is derived from Greek words meaning ‘beauty’ and ‘light’.
+                            <note n="12" type="footnote">
+                                <p>
+                                    The origin of the name Asclepius is uncertain. Ancient etymologies concentrate on the second element, deriving it from the word
+                                    <hi rend="italic">ēpios</hi>
+                                    (in this context = ‘soothed’) and give e.g. ‘making dry things feel soothed’ (
+                                    <hi rend="italic">ta sklēra ēpia</hi>
+                                    ) (
+                                    <hi rend="italic">Etymologicum Gudianum</hi>
+                                    s.v.) or ‘make dry sorts of diseases feel soothed’ (
+                                    <hi rend="italic">ta askelē … ēpia</hi>
+                                    ) (
+                                    <hi rend="italic">Etymologicum Magnum</hi>
+                                    s.v. Ἀσκελές). But there was an alternative designed to dignify the great cult of Asclepius at Epidaurus, which has Apollo name his son after his mother Aeglē (Isyllus,
+                                    <hi rend="italic">Paean</hi>
+                                    55, cf. Hesychius s.v. αἰγλάηρ); αἴγλη signifies brightness or splendour. For the etymologies, cf. Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                    , 9 (not the source); see Rosenthal, ‘An Ancient Commentary’ 64 fr. 2 d. (suggesting an origin in the commentary on the Hippocratic
+                                    <hi rend="italic">Oath</hi>
+                                    ascribed to Galen), further Rosenthal, ‘A Short Treatise’. See also below Ch. 2.1.6.1–2.
+                                </p>
+                            </note>
+                            As far as can be determined from the Syriac work entitled
+                            <hi rend="italic">History of the Tyrants</hi>
+                            ,
+                            <note n="13" type="footnote">
+                                <p>
+                                    <hi rend="italic">Akhbār al-jabābirah</hi>
+                                    . Nothing is known of this work.
+                                </p>
+                            </note>
+                            Asclepius was gifted, quick of understanding, deeply interested in the art of medicine, and assiduous in pursuit of it.
+                        </p>
+                        <p>
+                            In addition, there were a number of occasions when good luck helped him on his way to mastery of his art, and he obtained insight into various methods of treatment thanks to inspiration from God, mighty and exalted is He. Asclepius is said to have discovered the science of medicine in one of their temples in Rome, known as the Temple of Apollo,
+                            <note n="14" type="footnote">
+                                <p>
+                                    Our
+                                    <hi rend="smallcaps">MSS</hi>
+                                    have
+                                    <hi rend="italic">Aylaq</hi>
+                                    or similar; Ibn al-Qifṭī and Ibn Juljul read
+                                    <hi rend="italic">Abullun</hi>
+                                    . See Ch. 2.2.
+                                </p>
+                            </note>
+                            which was dedicated to the sun. According to some accounts, it was Asclepius himself who had that temple built, and it was known as the Temple of Asclepius. Confirmation of this is to be found in Galen’s
+                            <hi rend="italic">Pinax</hi>
+                            , where the author says, ‘When God (Mighty is his Name!) released me from a lethal abscess
+                            <note n="15" type="footnote">
+                                <p>
+                                    The Arabic name of the disease is
+                                    <hi rend="italic">dubaylah</hi>
+                                    . A marginal gloss refers to al-Fīrūzabādī’s
+                                    <hi rend="italic">Qāmūs</hi>
+                                    : ‘this means affection of the stomach and calamity’.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    states that the Andalusians used the term
+                                    <hi rend="italic">naghlah</hi>
+                                    to refer to this affliction instead of
+                                    <hi rend="italic">dubaylah</hi>
+                                    ; Abū Marwān ibn Zuhr died from an abscess of this kind, see Ch. 13.62.2.
+                                </p>
+                            </note>
+                            that was affecting me, I made a pilgrimage to His House called the Temple of Asclepius’.
+                            <note n="16" type="footnote">
+                                <p>
+                                    I.e.
+                                    <hi rend="italic">On My Own Books</hi>
+                                    . Fichtner,
+                                    <hi rend="italic">Corpus Galenicum</hi>
+                                    , no. 114; title no. 1 in the list of Galenic works at Ch. 5.1.37. The quotation (3.5 in the Greek ed. Boudon-Millot,
+                                    <hi rend="italic">Galien</hi>
+                                    ) is found at Ch. 5.1.9 with slight differences.
+                                </p>
+                            </note>
+                            Furthermore, Galen states toward the beginning of his
+                            <hi rend="italic">Method of Healing</hi>
+                            <note n="17" type="footnote">
+                                <p>
+                                    Fichtner,
+                                    <hi rend="italic">Corpus Galenicum</hi>
+                                    , 69; title no. 20 in the list of works at Ch. 5.1.37.
+                                </p>
+                            </note>
+                            that ordinary people become convinced of the advantages of medicine when they see what medicine of divine origin has wrought there in the Temple of Asclepius.
+                            <note n="18" type="footnote">
+                                <p>
+                                    <hi rend="smallcaps">IAU</hi>
+                                    takes this from Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 11 (cf. Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                    , 9–10); Ibn Juljul is unreliable in his citations of Galen and the reference is obscure. Cf. Rosenthal, ‘An Ancient Commentary’ p. 60 fr. 1c (= above, Ch. 1.6), and below here.
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            I – Ibn Abī Uṣaybiʿah – may add that according to Orosius the author of the
+                            <hi rend="italic">Histories</hi>
+                            <note n="19" type="footnote">
+                                <p>
+                                    Paulus Orosius, a late 4th–early 5th cent. Spanish priest and Apologist historian. The
+                                    <hi rend="italic">Historiarum adversum paganos libri vii</hi>
+                                    was the most important of his works. See Fear,
+                                    <hi rend="italic">Seven Books of History</hi>
+                                    . Asclepius’ statue is mentioned in Ch. 3.22.5 (Badawī,
+                                    <hi rend="italic">Orosius</hi>
+                                    , 242 = Orosius, ed. Penelas, 191 § 118), but the passage cited here is not found. The information is in fact taken from Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 11–12 (cf. Ibn al-Qifṭī). It is doubtful that
+                                    <hi rend="smallcaps">IAU</hi>
+                                    knew Orosius himself. The Arabic Orosius translates
+                                    <hi rend="italic">gentiles</hi>
+                                    and
+                                    <hi rend="italic">pagani</hi>
+                                    as
+                                    <hi rend="italic">majūs</hi>
+                                    , translated here as ‘pagans’. Ibn Juljul correctly places pagan worship
+                                    <hi rend="italic">before</hi>
+                                    Christianity: either
+                                    <hi rend="smallcaps">IAU</hi>
+                                    had a faulty copy or a faulty memory.
+                                </p>
+                            </note>
+                            the Temple of Asclepius was a shrine in the city of Rome in which there was an image that answered questions put to it by petitioners. The image was reputed to have been the work of Asclepius at some time in remote antiquity. The pagans of Rome held that the fashioning of the image had been determined by the motions of the stars, and that the spirit of one of the seven planets dwelt within it. Christianity had preceded star-worship in ancient Rome. Thus far Orosius.
+                        </p>
+                        <p>
+                            In addition, there are numerous passages in the works of Galen in which he states that the art of medicine as practised by Asclepius was divine in nature. ‘It was as far superior to our own medicine,’ he says, ‘as ours is to that of the remedies you find in the streets’.
+                            <note n="20" type="footnote">
+                                <p>
+                                    Quoted from Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 12 and corresponding to no particular statement in Galen.
+                                </p>
+                            </note>
+                            Again with reference to Asclepius, Galen remarks, in his
+                            <hi rend="italic">Exhortation to Study the Art</hi>
+                            ,
+                            <note n="21" type="footnote">
+                                <p>
+                                    <hi rend="italic">Adhortatio ad artes addiscendas</hi>
+                                    (
+                                    <hi rend="italic">Protrepticus</hi>
+                                    ), Fichtner,
+                                    <hi rend="italic">Corpus Galenicum</hi>
+                                    , no. 1, title no. 110 in the list of Galen’s works in Ch. 5.1.37.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    quotes from Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 12, dimly recalling
+                                    <hi rend="italic">Protrepticus</hi>
+                                    9.6 ed. Boudon,
+                                    <hi rend="italic">Galien, Exhortation</hi>
+                                    .
+                                </p>
+                            </note>
+                            that God, exalted is He, intimated to him in person that it was more fitting to call him an angel than a man. Hippocrates tells us that when God, exalted is He, took Asclepius to Himself, He caused him to ascend into the air in a shaft of light.
+                            <note n="22" type="footnote">
+                                <p>
+                                    Cf. Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                    , 9.
+                                </p>
+                            </note>
+                            Other authorities have asserted that Asclepius enjoyed such esteem among the Greeks that people afflicted with illness would visit his grave in the hope of being restored to health. Some have claimed that on his grave a thousand lamps were lighted nightly. There were kings among his posterity, and he has sometimes been ranked among the prophets.
+                        </p>
+                        <p>
+                            Plato refers to Asclepius in a number of passages in his work known as
+                            <hi rend="italic">The Laws</hi>
+                            .
+                            <note n="23" type="footnote">
+                                <p>
+                                    In fact Ps.-Plato
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    . This passage is a partial quotation from the account of Ibn Juljul’s
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 12, where he later refers to the story of the king Martinus, the protagonist of an allegory in the
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    that
+                                    <hi rend="smallcaps">IAU</hi>
+                                    quotes
+                                    <hi rend="italic">in extenso</hi>
+                                    in Ch. 7.2.2. Cf.
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    , in Badawī,
+                                    <hi rend="italic">Platon</hi>
+                                    (
+                                    <hi rend="italic">Aflāṭūn fī l-Islām</hi>
+                                    ), 207–208. The
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    quoted by
+                                    <hi rend="smallcaps">IAU</hi>
+                                    is a Ps-Platonic work focused on the relationship between knowledge and prophecy (see Pines, ‘On the Pseudo-Platonic Quotation’). There are, however, four other works that bore the Arabic title
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    , or versions of it. Three of these treatises are directly related to the Platonic corpus: (1) the actual
+                                    <hi rend="italic">Laws</hi>
+                                    written by Plato and translated by Ḥunayn ibn Isḥāq (and maybe also by Yaḥyā ibn ʿAdī), and of which only some quotations in Arabic have come down to us. (2) Galen’s epitome of Plato’s
+                                    <hi rend="italic">Laws</hi>
+                                    . (3) al-Fārābī’s synopsis of Plato’s
+                                    <hi rend="italic">Laws</hi>
+                                    (or of Galen’s epitome) entitled
+                                    <hi rend="italic">Jawāmiʿ K. al-Nawāmīs</hi>
+                                    . On the relationship between these three treatises, see Gutas, ‘Galen’s Synopsis of Plato’s Laws’. And (4) a Ps-Platonic magical treatise entitled
+                                    <hi rend="italic">K. al-Nawāmīs</hi>
+                                    ; only fragments of this text have survived in Arabic, but it was translated into Latin and known as
+                                    <hi rend="italic">Liber Vaccae</hi>
+                                    or
+                                    <hi rend="italic">Liber Aneguemis</hi>
+                                    ; on this last work see Hasse, ‘Plato arabico-latinus’, 52–58.
+                                </p>
+                            </note>
+                            Among other things, he asserts that Asclepius spoke about things of the invisible world and issued amazing prophecies with the aid of divine inspiration; moreover, the people saw those prophecies come to pass just as he had said. Plato also states, in the third book of
+                            <hi rend="italic">The Republic</hi>
+                            , that Asclepius and his sons were knowledgeable about the art of government, and that his sons were stout in battle and skilled in the art of medicine. He adds that Asclepius was willing to treat anyone with an ailment that could be cured. In a case of a fatal disorder, however, he would not prolong a life that was of no use either to the patient himself or to others; in a word, Asclepius would not treat such a patient.
+                            <note n="24" type="footnote">
+                                <p>
+                                    Asclepius appears at
+                                    <hi rend="italic">Republic</hi>
+                                    , Bk. 3, 405e–408b, with similarities to
+                                    <hi rend="smallcaps">IAU</hi>
+                                    ’s reports (cf. 407e for the ‘political’ Asclepius).
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            <hi rend="bold">[2.1.3]</hi>
+                        </p>
+                        <p>
+                            In the
+                            <hi rend="italic">Choicest Maxims and Best Sayings</hi>
+                            <note n="25" type="footnote">
+                                <p>
+                                    <hi rend="italic">Kitāb mukhtār al-ḥikam wa-maḥāsin al-kalim</hi>
+                                    . See Badawī,
+                                    <hi rend="italic">Al-Mubashshir ibn Fātik</hi>
+                                    , 28. See Rosenthal, ‘Prolegomena to an Abortive Edition’, and
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    <hi rend="italic">
+                                        <hi rend="superscript">2</hi>
+                                    </hi>
+                                    art. ‘Al-Mubas̲h̲s̲h̲ir b. Fātik’ (F. Rosenthal). On this passage and al-Mubashshir’s interest in Hermes as the author of religion, see van Bladel,
+                                    <hi rend="italic">The Arabic Hermes</hi>
+                                    , 184–196.
+                                </p>
+                            </note>
+                            of the Emir Abū l-Wafāʾ al-Mubashshir ibn Fātik
+                            <note n="26" type="footnote">
+                                <p>A 5th/1th cent. scholar and writer, originally from Damascus but spent most of his life in Egypt. His biography will be found at Ch. 14.23.</p>
+                            </note>
+                            we read:
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>This Asclepius was a pupil of Hermes, and travelled with his master. Leaving India, they went to Persia. There, in Babylon, Hermes left his pupil with instructions to issue a code of laws for the people.</p>
+                            </quote>
+                        </cit>
+                        <p>The same author writes,</p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    This Hermes was Hermes the First. The initial letter of the name is not pronounced; it is thus ‘Ermes’, which is the name of Mercury. Among the Greeks he was known as Trismegistus,
+                                    <note n="27" type="footnote">
+                                        <p>
+                                            <hi rend="italic">Aṭrasmīn</hi>
+                                            , cf. al-Mubashshir
+                                            <hi rend="italic">Ṭarmīs</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    the Arabs know him as Idrīs,
+                                    <note n="28" type="footnote">
+                                        <p>
+                                            Mentioned at Q
+                                            <hi rend="italic">Maryam</hi>
+                                            19:56–57 as having been a man of truth and a prophet. Regularly identified, as here, with the biblical Enoch.
+                                        </p>
+                                    </note>
+                                    while to the Hebrews he is Enoch, son of Jared son of Mahalalel son of Kenan son of Enos son of Seth son of Adam, peace be upon them all.
+                                    <note n="29" type="footnote">
+                                        <p>Al-Mubashshir ibn Fātik, 7.</p>
+                                    </note>
+                                    He was born in Egypt, in the city of Memphis, and (al-Mubashshir adds) he lived here on earth for eighty-two years.
+                                    <note n="30" type="footnote">
+                                        <p>Al-Mubashshir 7, 10. Memphis was capital of the Egyptian Old Kingdom, situated on the west bank of the Nile, opposite modern Ḥulwān.</p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            Some authorities assert that he lived for three hundred and sixty-five years. Mubashshir ibn Fātik’s account has it that,
+                            <note n="31" type="footnote">
+                                <p>Al-Mubashshir, 10.</p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Hermes, peace be upon him, had a dark complexion. He was tall, bald, handsome, thick-bearded, a well-made man, with long arms and broad shoulders; he was heavy-boned, carrying no spare flesh, and had flashing black eyes. His speech was slow and infrequent. He was controlled in his movements, and tended to look at the ground when he walked. He was often pensive. At the same time, he could be short-tempered, with a frowning demeanour, and would shake his forefinger when talking.
+                                    <note n="32" type="footnote">
+                                        <p>Al-Mubashshir, 10.</p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            Elsewhere al-Mubashshir tells us that,
+                            <note n="33" type="footnote">
+                                <p>Al-Mubashshir, 8.</p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Asclepius was a man of the antediluvian age, and that he was a pupil of Agathodaemon the Egyptian. Agathodaemon figured among the Greek and Egyptian prophets. The name means ‘the fortunate’.
+                                    <note n="34" type="footnote">
+                                        <p>
+                                            A Greco-Egyptian god who is represented in Arabic tradition as one of the ancient Egyptian sages. On his importance as an authority in the occult sciences, see
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="italic">
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘Ag̲h̲āt̲h̲ūd̲h̲īmūn’ (M. Plessner).
+                                        </p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>It was this Asclepius who first brought the art of medicine to the Greeks. He instructed his sons in it, but told them that they were never to teach it to foreigners.</p>
+                        <p>
+                            Reverting to the
+                            <hi rend="italic">Book of Thousands</hi>
+                            by Abū Maʿshar al-Balkhī the astrologer, we read that,
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>This Asclepius was not the first practitioner of the art of medicine to be deified. Furthermore, he was not the originator of that art: he learned it from his predecessors, walking the path that they had trodden.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.4]</hi>
+                        </p>
+                        <p>
+                            Abū Maʿshar
+                            <note n="35" type="footnote">
+                                <p>
+                                    Cf. Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 5–6; and see van Bladel,
+                                    <hi rend="italic">The Arabic Hermes</hi>
+                                    ch. 4, for the role of the three Hermes in Abū Maʿshar’s historical astrology, esp. pp. 123–132 for an edition and translation of this section.
+                                </p>
+                            </note>
+                            tells us that he was a pupil of the Egyptian Hermes. He then goes on to explain that there were three (individuals called) Hermes:
+                            <note n="36" type="footnote">
+                                <p>
+                                    At this point, there is a marginal note in
+                                    <hi rend="smallcaps">MS</hi>
+                                    A, incorporated into the text in Gc, reading as follows: ‘Note. The following account is taken from the summary of the Chaldaean
+                                    <hi rend="italic">Book of Diseases</hi>
+                                    prepared by the learned scholar Muwaffaq al-Dīn Asʿad ibn Ilyās ibn al-Muṭrān. “The reason why Hermes is known as ‘the thrice blessed’ is that he was not only a king whose realm included most of the inhabited parts of the earth, but also a prophet mentioned by God, exalted is He, namely Idrīs, peace be upon him, whom the Jews know as Enoch, and in addition a philosopher and sage who was the author of many works that are widely read to this day, including
+                                    <hi rend="italic">The Inclusive Book</hi>
+                                    ,
+                                    <hi rend="italic">The Book of Presentation</hi>
+                                    ,
+                                    <hi rend="italic">The Golden Rod</hi>
+                                    , and a work in which he sets forth his views on the locations where starlight falls and on the rotation of the houses of the zodiac. These are the three blessings that were united in him, and in him alone; the annals of history afford no other example. Moreover, God took him to Himself in a shaft of light. However, the Ḥarrānians allege that he was carried upward in a fire sent by God, and it is for that reason that they cremate their dead. Indeed, some of them consent to be burned before death, the sooner to draw near to God, and as an act of piety”.’ On God’s summons of Asclepius in a shaft of light, see Ibn al-Qifṭī
+                                    <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                    , 9, ‘in a column of fire’, cf. Rosenthal, ‘An Ancient Commentary’ 64, fr. 2d, and above at Ch. 2.1.2.
+                                </p>
+                                <p>
+                                    For Ibn al-Muṭrān, the personal physician of Saladin and already flagged as important by
+                                    <hi rend="smallcaps">IAU</hi>
+                                    in Ch. 1, see Ch. 15.24.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    Hermes the First, known as ‘the thrice blessed’, lived in the antediluvian age. Hermes is not a name, but an epithet, analogous to ‘Caesar’ or ‘Kisrā’.
+                                    <note n="37" type="footnote">
+                                        <p>The Arabic version of Chosroes, the title borne by the Persian kings before the advent of Islam. See the biography of al-Ḥārith ibn Kaladah (Ch. 7.01) for a conversation on medical matters between al-Ḥārith, the first Arab physician, and the Persian monarch Kisrā Anūshirwān.</p>
+                                    </note>
+                                    In the Persian annals, he is called ‘Wīwanjhān’,
+                                    <note n="38" type="footnote">
+                                        <p>
+                                            The manuscripts of
+                                            <hi rend="smallcaps">IAU</hi>
+                                            read
+                                            <hi rend="italic">l-j-h-d</hi>
+                                            , but we follow the text of Ibn Juljul and the
+                                            <hi rend="italic">Muntakhab Ṣiwān al-ḥikmah</hi>
+                                            :
+                                            <hi rend="italic">ʾ-b-n-j-h-dh</hi>
+                                            , i.e. Wiwanjhān (Ibn Nawbakht, cf. van Bladel,
+                                            <hi rend="italic">The Arabic Hermes</hi>
+                                            125; in Persian, Vīuuaŋᵛhant), the father of the mythological Iranian king, Jamshīd (Jamšid); on this name see Pingree,
+                                            <hi rend="italic">The Thousands of Abū Maʿshar</hi>
+                                            , 14–15, Van Bladel,
+                                            <hi rend="italic">The Arabic Hermes</hi>
+                                            , 125 n. 14. Gayōmart is the first king in Iranian mythology.
+                                        </p>
+                                    </note>
+                                    which means ‘the just one’. The Ḥarrānians
+                                    <note n="39" type="footnote">
+                                        <p>
+                                            The Sabians of Ḥarrān in northern Mesopotamia (ruins in what is now south-eastern Turkey), who were a community following an old Semitic polytheistic religion but with a strongly Hellenized elite, one of the last outposts of late-antique paganism. They adopted the Qur’anic name Ṣābiʾah during the 3rd/9th cent. in order to be able to claim the status of
+                                            <hi rend="italic">ahl al-kitāb</hi>
+                                            and thus avoid persecution.
+                                        </p>
+                                    </note>
+                                    refer to him as having been a prophet.
+                                    <note n="40" type="footnote">
+                                        <p>
+                                            Cf. Ibn Juljul,
+                                            <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                            , 5: ‘the one to whose wisdom (
+                                            <hi rend="italic">ḥikmah</hi>
+                                            ) the Ḥarrānians adhere’.
+                                        </p>
+                                    </note>
+                                    The Persians, for their part, allege that his grandfather was Gayōmart, that is, Adam. To the Hebrews he is Enoch, who is known in Arabic as Idrīs.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>Abū Maʿshar’s account continues:</p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    He was the first to discuss celestial matters, including in particular the motions of the stars. It was his grandfather Gayōmart (that is, Adam) who taught him the hours of night and day. Furthermore, this Hermes was the first to build temples to the glory of God, and he was also the first to investigate and discuss the art of medicine. For the benefit of his countrymen, he composed numerous books, in metre and rhyme and written in their own language,
+                                    <note n="41" type="footnote">
+                                        <p>Ibn Juljul omits the detail ‘in their own language’.</p>
+                                    </note>
+                                    expounding matters relating to the earth and the heavens. He was the first to warn the people that the flood was imminent, having realized that a divine tribulation was about to strike the earth with water and fire. Having elected domicile in Upper Egypt, he there built the pyramids and mud-brick cities. Concerned lest the flood should result in the loss of all knowledge, he built the temples known as
+                                    <hi rend="italic">al-barābī</hi>
+                                    <note n="42" type="footnote">
+                                        <p>
+                                            Ancient Egyptian temples, or ruins from Egyptian antiquity, celebrated well into Islamic times: see the description in Ibn Jubayr,
+                                            <hi rend="italic">Riḥlah</hi>
+                                            , 60 ff.
+                                        </p>
+                                    </note>
+                                    (the name is taken from al-Birbāʾ, located in the hills near Akhmīm),
+                                    <note n="43" type="footnote">
+                                        <p>In Upper Egypt, on the right bank of the Nile, opposite Sohag; the ancient Panopolis.</p>
+                                    </note>
+                                    and within them carved images of all the arts, complete with depictions of the various artisans and their tools. Wishing to ensure that knowledge of the various sciences would survive, he also carved descriptions of them on the walls of these temples for the benefit of those who would come after him, for he was afraid that otherwise that knowledge might be forever lost from the earth. According to the traditional account which has come down to us from our forebears, Idrīs was the first to peruse books and investigate various fields of learning, and God sent down thirty sheets to him. He was the first to sew and wear clothing. God raised him to a lofty station.
+                                    <note n="44" type="footnote">
+                                        <p>
+                                            Q
+                                            <hi rend="italic">Maryam</hi>
+                                            19:57. At this point there is a marginal note in
+                                            <hi rend="smallcaps">MS</hi>
+                                            A incorporated into the text in Gc: ‘Note. According to an account related by Wahb ibn Munabbih, Idrīs was the first to write with a pen, and the first to sew and wear clothing; previously, people had worn animal hides. When Idrīs was taken up to heaven, he was three hundred and sixty-five years of age.’ Wahb ibn Munabbih was a 1st/7th cent. author, translator, and transmitter of biblical traditions: see Khoury,
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="italic">
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘Wahb b. Munabbih’.
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>
+                                    Hermes the Second,
+                                    <note n="45" type="footnote">
+                                        <p>
+                                            Ibn Juljul,
+                                            <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                            , 8.
+                                        </p>
+                                    </note>
+                                    for his part, was a native of the city of the Chaldaeans, that is, Babylon. He lived in the age following the Flood, having been a contemporary of Ninus son of Belus,
+                                    <note n="46" type="footnote">
+                                        <p>
+                                            The mythical founder of Niniveh; see
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , art. ‘Ninus’ (E. Frahm). We take the reading from Orosius Arabus.
+                                        </p>
+                                    </note>
+                                    who first founded the city of Babylon, after the time of Nimrod son of Cush.
+                                    <note n="47" type="footnote">
+                                        <p>Genesis 10:8.</p>
+                                    </note>
+                                    Hermes the Second possessed great knowledge of the sciences of medicine and philosophy and understood the workings of numbers. Pythagoras the arithmetician was a pupil of his. This Hermes restored the sciences of medicine, philosophy and numbers in Babylon, after the city had been swept bare of them by the Flood. Babylon, the capital of the Chaldaeans, was the city of philosophers from the east. They were the first to establish penalties and codify laws.
+                                </p>
+                                <p>Hermes the Third, who lived in the city of Egypt during the age following the Flood, was a physician and philosopher. He was knowledgeable about lethal drugs and harmful animals: he composed a work devoted exclusively to venomous animals. He liked to travel in the various regions of the country, and he came to know his way around the various cities and became familiar with their features, as well as the natures of the people who lived there. He is the author of a number of excellent aphorisms on the art of alchemy, and they are also relevant for many other arts, such as glassblowing, the piercing of beads, ceramics, and the like. Hermes the Third had a pupil named Asclepius, who lived in the land of Syria.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.5]</hi>
+                        </p>
+                        <p>
+                            Returning now to the subject of Asclepius: he is said to have been able to cure patients who had been despaired of. So impressive were his feats that the people came to think that he could raise the dead. He was celebrated in the works of the Greek poets, who asserted confidently that he could restore the dead to life, bringing any person who had died back to the world of the living.
+                            <note n="48" type="footnote">
+                                <p>
+                                    The Greek poets tell how Asclepius was blasted by a thunderbolt for restoring a man due to die: e.g. Pindar,
+                                    <hi rend="italic">Pythians</hi>
+                                    3.54–59, cf. Apollodorus,
+                                    <hi rend="italic">Library</hi>
+                                    3.121.
+                                </p>
+                            </note>
+                            They claimed that God, exalted is He, had taken Asclepius up to Himself as a means of exalting and honouring him, and had made him one of the heavenly host. It is said that he is Idrīs, peace be upon him.
+                        </p>
+                        <p>
+                            Yaḥyā al-Naḥwī
+                            <note n="49" type="footnote">
+                                <p>
+                                    Cf. Rosenthal, ‘Isḥāq b. Ḥunayn’ 65–66/76, Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    15, and see esp. Ch. 6.1–2, also Ch. 3.3 and Ch. 3.5.
+                                </p>
+                            </note>
+                            states that Asclepius’ life lasted for ninety years, fifty as a youth and before the divine power was disclosed to him, while the final forty were devoted to learning and teaching. He was survived by two sons, both of whom were expert in the art of medicine. He forbade them to teach medicine to anyone apart from their own offspring and other relatives; they were not to initiate any outsider into that art. His successors were to be subject to the same restrictions. Specifically, he left instructions that they were to go to live in the midst of the populated regions of the land of the Greeks (by which he meant three islands, one of them being Kos, the island where Hippocrates was born), and furthermore they were not to reveal knowledge of the art of medicine to outsiders, but rather, fathers should teach it to their sons. Both Asclepius’ sons were with Agamemnon when he sailed to conquer Troy.
+                            <note n="50" type="footnote">
+                                <p>
+                                    The
+                                    <hi rend="smallcaps">MSS</hi>
+                                    have Ṭarābulus (Tripoli in the Lebanon or Libya). The sons are Machaon and Podalirus; see
+                                    <hi rend="italic">Iliad</hi>
+                                    2.729–733 et al.
+                                </p>
+                            </note>
+                            Owing to their extensive learning, he held them in high regard and showed them great honour.
+                        </p>
+                        <p>
+                            We read in a work by Thābit ibn Qurrah al-Ḥarrānī,
+                            <note n="51" type="footnote">
+                                <p>
+                                    A 3rd/9th cent. mathematician and translator. See Rashed,
+                                    <hi rend="italic">Thābit ibn Qurra</hi>
+                                    . His biography will be found at Ch. 10.03.
+                                </p>
+                            </note>
+                            in a passage dealing with the several individuals called Hippocrates:
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    It is said that there were pupils of Asclepius in every region of the world, numbering twelve thousand in all, and that Asclepius taught the art of medicine exclusively through the spoken word, and that men of his line inherited their knowledge of it through successive generations, down to the time of Hippocrates, until degeneration set in. Hippocrates perceived that his family and clan had become reduced in numbers, and there could be no certainty that that knowledge would not be lost forever. Accordingly, he began to set it down in written form, concisely expressed.
+                                    <note n="52" type="footnote">
+                                        <p>
+                                            <hi rend="smallcaps">IAU</hi>
+                                            quotes from Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Flügel) 294, (Sayyid) 289 ‘from an autograph of Thābit on the
+                                            <hi rend="italic">Baqāriṭah</hi>
+                                            ’ (i.e. the individuals called Hippocrates).
+                                        </p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.6.1]</hi>
+                        </p>
+                        <p>
+                            The following remarks are taken from Galen’s
+                            <hi rend="italic">Commentary on the Oath of Hippocrates</hi>
+                            :
+                            <note n="53" type="footnote">
+                                <p>
+                                    The long extract here is translated with commentary in Rosenthal, ‘An Ancient Commentary’ 64–76, fr. 2e. Like Ḥunayn,
+                                    <hi rend="smallcaps">IAU</hi>
+                                    had no doubt that the commentary was written by Galen. For further comments, see Vol. 1, pp. 149–150.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    There are two traditional accounts of the life of Asclepius, one allegorical and the other literal. According to the former, Asclepius was one of the powers of God, blessed and exalted is He, and he was given the name Asclepius because of the action of that power, which was the prevention of dryness.
+                                    <note n="54" type="footnote">
+                                        <p>For the etymology, see above Ch. 2.1.2.</p>
+                                    </note>
+                                </p>
+                                <p>(Ḥunayn) An individual dies only when there is a preponderance of dryness and cold, for it is those two factors that desiccate the mortal body. It is for that reason that the art which preserves the heat and moisture of human bodies, and thereby enables them to continue to live, has a name indicating an absence of dryness.</p>
+                                <p>
+                                    (Galen) It is said that Asclepius was the son of Apollo and the son of Phlegyas and of Coronis his bride,
+                                    <note n="55" type="footnote">
+                                        <p>
+                                            Arabic
+                                            <hi rend="italic">Q-ū-r-ū-n-s</hi>
+                                            , which ought to be Coronis (Κορωνίς), who in Greek mythology was the mother of Asclepius by the god Apollo. Her father was Phlegyas (Φλεγύας), king of the Lapiths. (Asclepius’ mother’s name was also given as Aeglē, above, n. 12, and other names; see Roscher,
+                                            <hi rend="italic">Lexicon</hi>
+                                            s.vv. ‘Askelpios’ and ‘Koronis’). The word in the text after Coronis is not easy to interpret. We adopt Müller’s ‘stopgap’ (cf. ‘Lesarten’) reading of
+                                            <hi rend="italic">mahdiyyathu</hi>
+                                            , meaning ‘one guided by’, specifically with reference to a newly wedded woman, i.e. Coronis as the lover of Apollo. Rosenthal suggested pointing the
+                                            <hi rend="italic">rasm</hi>
+                                            and emending to read
+                                            <hi rend="italic">muhadhdhibayhi</hi>
+                                            , referring to Phlegyas and Coronis and meaning ‘his two improvers’ (= foster-parents), but was quick to dismiss the idea. Building on this and on the reading of
+                                            <hi rend="smallcaps">MS</hi>
+                                            R,
+                                            <hi rend="italic">m-h-d-n-h</hi>
+                                            , we might suggest a form meaning ‘those who calm him’ (and perhaps again something like foster-parents). A further explanation would entail reading not Coronis but the name of the Greek god Cronos (Κρόνος, the Roman Saturn). This could help explain the fact that Asclepius is said to be the son of Phlegyas as well as Apollo (cf. again in text below). If Asclepius is ‘a compound of mortal and immortal’, there may be an attempt to dignify him as a saviour deity recalling Jesus (for the continuing importance of his cult in later antiquity, see e.g. Trombley,
+                                            <hi rend="italic">Hellenic Religion</hi>
+                                            i:308–310 on Proclus at Athens, Bowersock,
+                                            <hi rend="italic">Hellenism</hi>
+                                            index s.v.). Christianizing saviour roles for Dionysus and Heracles, who are connected to our Asclepius below in the text, are well known. Further evidence in favour of Cronos is provided by al-Bīrūnī,
+                                            <hi rend="italic">History of India</hi>
+                                            , quoted by Rosenthal, ‘An Ancient Commentary’, p. 63, fr. 1c, where (‘according to Galen’, i.e. in his commentary on the Hippocratic
+                                            <hi rend="italic">Oath</hi>
+                                            ) Asclepius is ‘son of Apollo, and son of Phlegyas, and son of
+                                            <hi rend="italic">Q-r-ū-n-s</hi>
+                                            who is the planet Saturn – all this on account of the power of the Trinity (
+                                            <hi rend="italic">al-tathlīth</hi>
+                                            )’. Here the female Κορωνίς of mythology has become the male Κρόνος, i.e. Saturn (Arabic
+                                            <hi rend="italic">Zuḥal</hi>
+                                            ), in an astrological, philosophizing reading. No other attempts to translate Coronis into the universalizing Cronos are known and this interpretation depends on the veracity of al-Bīrūnī’s record of the commentary; it is quite possible of course that it was he who equated the
+                                            <hi rend="italic">rasm Q-ū-r-ū-n-s</hi>
+                                            with the Greek god Κρόνος, and he might also have introduced the notion of a ‘trinity’.
+                                        </p>
+                                    </note>
+                                    and that he was a compound of mortal and immortal. According to that view, he was concerned for humanity because he was himself human, while at the same time he had a nature that was immortal and thus superior to that of ordinary human beings. According to the poet, the name ‘Asclepius’ is ascribed to him solely because of his medical exploits.
+                                </p>
+                                <p>
+                                    Regarding the information that he was the son of Phlegyas, we may point to the fact that this name comes from the word for ‘flame’,
+                                    <note n="56" type="footnote">
+                                        <p>
+                                            Cf. Greek root
+                                            <hi rend="italic">phleg</hi>
+                                            -,
+                                            <hi rend="italic">phlog</hi>
+                                            -.
+                                        </p>
+                                    </note>
+                                    as much to say that he was the son of the heat-generating animal faculty.
+                                </p>
+                                <p>(Ḥunayn) He was given that name because life depends on the preservation of the natural heat that is in the heart and the liver, and for that reason a name for it was derived from the word for ‘flame’, which is of the genus of fire.</p>
+                                <p>
+                                    (Galen) Regarding the information that Asclepius was the son of Coronis,
+                                    <note n="57" type="footnote">
+                                        <p>Or perhaps Cronos; see previous note.</p>
+                                    </note>
+                                    we may point to the fact that this name is derived from a word meaning ‘sufficiency’ or ‘acquisition of health’.
+                                    <note n="58" type="footnote">
+                                        <p>Coronis/Cronos is derived here from the verb κορέννυμι, ‘satiate’. The alternative etymology is unclear.</p>
+                                    </note>
+                                </p>
+                                <p>(Ḥunayn) He was given that name because it shows that in the course of the process of digestion, a person can become really sated with food and drink only by means of the art of medicine, for it is only through that art that good health can be preserved, or restored once it has been lost.</p>
+                                <p>(Galen) Those who hold that Asclepius was the son of Apollo reason that a physician should possess something of the ability of the diviner, as no physician can be deemed competent if he lacks knowledge of forthcoming events.</p>
+                                <p>(Ḥunayn) This is a reference to medical prognosis.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.6.2]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    (Galen) We shall now turn to a discussion of pictorial representations of Asclepius, his manner of dressing, and his influence. The written accounts that have come down to us, according to which he was transfigured into a god, are not factual, but are mere fanciful inventions. As is well known, he was taken up to the angels in a column of fire, like Dionysus,
+                                    <note n="59" type="footnote">
+                                        <p>In Greek mythology, the god of the grape harvest, winemaking and wine; the Roman Bacchus. On his and Heracles’ roles as saviour gods in late antiquity, see above.</p>
+                                    </note>
+                                    Heracles and other dedicated benefactors of the human race of whom legend tells us. To put the matter briefly, we may say that God, blessed and exalted is He, took Asclepius (like the others) to Himself in this fashion to destroy his mortal or earthly part by fire and then attracting to himself his immortal part and to transport his soul up to heaven.
+                                </p>
+                                <p>
+                                    (Ḥunayn) Galen’s purpose in this passage is to show us how man can become assimilated to God, blessed and exalted is He.
+                                    <note n="60" type="footnote">
+                                        <p>
+                                            ‘Assimilation to God’, Greek ὁμοίωσις θεῷ, as outlined in Plato’s
+                                            <hi rend="italic">Theaetetus</hi>
+                                            , was an important concept in late-antique Christian and pagan thought.
+                                        </p>
+                                    </note>
+                                    By extirpating his base corporeal impulses (those are what Galen means by the expression ‘his mortal or earthly part’) through the fire of discipline and self-denial and bedecking his rational soul with meritorious actions after having overcome those impulses (that is what he means by being ‘transported up to heaven’), man becomes similar to God, blessed and exalted is He.
+                                </p>
+                                <p>(Galen) As far as pictorial representations of him are concerned, Asclepius was shown as bearded, and his appearance was enhanced by the presence of a thick fringe of hair covering the front part of his head.</p>
+                                <p>There is some doubt about the reason why statues of him show him as being bearded, whereas statues of his father represent a clean-shaven figure. It has been said that those statues were carved or cast as they were because that was how he looked when God took him up to Himself.</p>
+                                <p>A second explanation that has been offered is that Asclepius’ art was one for which modesty and maturity were essential, while a third is that his skill in the art of medicine was such that he had become greater than his father.</p>
+                                <p>
+                                    Contemplating one of these statues, you will see Asclepius standing with his garments tucked up, as if to show that every that every physician must always be a philosopher.
+                                    <note n="61" type="footnote">
+                                        <p>
+                                            Cf. Galen’s
+                                            <hi rend="italic">Quod optimus medicus sit quoque philosophus</hi>
+                                            (Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 3). The Mamluk scholar Ibn Nubātah (d. 768/1366), who also quotes from this commentary of the Hippocratic Oath, reads: ‘as if to show that every physician must always be ready’; see
+                                            <hi rend="italic">Sarḥ al-ʿUyūn</hi>
+                                            , 207.
+                                        </p>
+                                    </note>
+                                    Those parts that must be covered for modesty’s sake are shown covered, while the limbs that are used for the practice of the art of medicine are revealed. In his hand he holds a crooked, branched staff, and this is to show that by resorting to the art of medicine, an individual may live to be so old that he will need a staff for support. Alternatively, it may indicate that where God, blessed and exalted is He, grants a man benefits from His bounty, He deems him worthy of bearing a staff as well, as in the case of Hephaestus,
+                                    <note n="62" type="footnote">
+                                        <p>In Greek mythology, the god of blacksmiths, craftsmen, artisans, sculptors, metals, metallurgy, fire and volcanoes; identified with the Roman Vulcan. Ancient statues of him do often show him with a stick, not so much as a mark of divine favour as because he was lame.</p>
+                                    </note>
+                                    Zeus, and Hermes.
+                                </p>
+                                <p>
+                                    We find that ‘Zeus cheers the hearts of those whom he loves by means of this staff, and that he also awakens sleepers with it’.
+                                    <note n="63" type="footnote">
+                                        <p>
+                                            The Greek original quoted
+                                            <hi rend="italic">Iliad</hi>
+                                            24.343–344.
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>
+                                    The reason why the staff in question is shown as being from the marshmallow bush is that marshmallow puts every illness to rout and drives it away.
+                                    <note n="64" type="footnote">
+                                        <p>
+                                            The leaves, flowers and root of the marshmallow (
+                                            <hi rend="italic">Althaea officinalis</hi>
+                                            ) have long been known to have medicinal properties (cf. ἀλθαίνω, ‘cure’).
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>
+                                    (Ḥunayn) The marshmallow plant has warming properties in some degree. Accordingly, it can be used for medicinal purposes, for it affords many therapeutic benefits, both when administered alone and when mixed with other ingredients having warming properties that may be either more or less pronounced than its own. This is a matter that has been elucidated by Dioscorides
+                                    <note n="65" type="footnote">
+                                        <p>
+                                            A Roman physician of Greek origin of the 1st cent.
+                                            <hi rend="smallcaps">AD</hi>
+                                            , author of the celebrated
+                                            <hi rend="italic">De materia medica</hi>
+                                            , an encyclopedia and pharmacopoeia of herbs and the medicines that can be obtained from them. The reference is to 3.146. Cf. Ch. 4.11.
+                                        </p>
+                                    </note>
+                                    and other authorities. It is thus not surprising to learn that the name of the marshmallow in Greek is derived from the word meaning ‘to cure’, and is thus evocative of the numerous advantages of the plant.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.6.3]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    (Galen) Asclepius’ staff is crooked and branched to denote the several disciplines and subdivisions found within the art of medicine. Moreover, the sculptors of antiquity did not leave the staff bare of decoration and ornamentation: they carved upon it the shape of an animal noted for its longevity, namely a serpent, twining about it. The serpent is a creature that has a number of affinities with Asclepius: its vision is keen, and it is constantly awake, never sleeping for an instant. Now, he who pursues the study of the art of medicine should not allow himself to be distracted from his goal by falling asleep; he must be incessantly alert if he is to advance in his studies and thus be in a position to identify an existing condition and announce what is likely to befall. You will find that Hippocrates says as much.
+                                    <note n="66" type="footnote">
+                                        <p>
+                                            At the start of the
+                                            <hi rend="italic">Prognosticon</hi>
+                                            (Fichtner,
+                                            <hi rend="italic">Corpus Hippocraticum</hi>
+                                            , 3).
+                                        </p>
+                                    </note>
+                                    In his own words, ‘In my view, a physician cannot do better than to have foresight. With foreknowledge and anticipation he can inform his patients of what ails them at present, what did in the past, and what will in the future’.
+                                </p>
+                                <p>Others have alleged that the reason why a serpent has traditionally been portrayed twining around the staff that Asclepius holds is that the serpent is very long-lived, to such an extent that it has been said to live forever.</p>
+                                <p>
+                                    This is to suggest that those who resort to the art of medicine may also live to a venerable age. Democritus, for one, and Herodicus,
+                                    <note n="67" type="footnote">
+                                        <p>
+                                            For the longevity of the great atomist philosopher and intellectual Democritus, cf. Lucian,
+                                            <hi rend="italic">Long-Livers</hi>
+                                            18; for the trainer Herodicus and the self-treatment that made him linger into a miserable old age, see Plato,
+                                            <hi rend="italic">Republic</hi>
+                                            406a–b.
+                                        </p>
+                                    </note>
+                                    for another, both lived very long lives, thanks to their compliance with the recommendations of the art of medicine. For even as the serpent sheds its skin (the Greek word for this means ‘old age’),
+                                    <note n="68" type="footnote">
+                                        <p>Greek γῆρας, ‘old age’, is also used for the ‘slough’ of a snake and other animals.</p>
+                                    </note>
+                                    in the same way, human beings, if they achieve good health, as it were shed the old age to which they would otherwise be condemned by illness.
+                                </p>
+                                <p>
+                                    Statues of Asclepius show him with a crown upon his head, made of leaves of the laurel tree, and the reason for that is that the laurel dispels sorrow. Hermes, too, in his persona of ‘the venerable’
+                                    <note n="69" type="footnote">
+                                        <p>
+                                            The Arabic is
+                                            <hi rend="italic">muhīb</hi>
+                                            , which means not only ‘venerable’, ‘solemn’, ‘dignified’ but also ‘awe-inspiring’. None of these sound much like the lively and youthful Hermes.
+                                        </p>
+                                    </note>
+                                    wears just such a crown. It is the function of physicians to dispel sorrow, and it is for that reason that Asclepius is represented wearing a sorrow-dispelling crown.
+                                </p>
+                                <p>Alternatively, the reason may have been that since both the art of medicine and the art of divination were symbolized by a laurel wreath, it seemed appropriate for both physicians and soothsayers to wear one.</p>
+                                <p>
+                                    Yet another possible explanation may be that the laurel tree possesses curative properties. By way of illustration, you find that wherever one is planted, any venomous creatures that may have infested the site will soon go elsewhere (the laurel tree is similar to the plant named
+                                    <hi rend="italic">qūnūrā</hi>
+                                    <note n="70" type="footnote">
+                                        <p>Greek κόνυζα ‘fleabane’; see Dioscorides 3.121.</p>
+                                    </note>
+                                    in that respect). The fruit of that tree, which is known as laurel seed, exerts an action like that of castoreum
+                                    <note n="71" type="footnote">
+                                        <p>
+                                            <hi rend="italic">jundabīdastar</hi>
+                                            . See Levey,
+                                            <hi rend="italic">Medical Formulary</hi>
+                                            , no. 66.
+                                        </p>
+                                    </note>
+                                    when used as an embrocation.
+                                </p>
+                                <p>
+                                    Besides the likeness of the serpent, the sculptors of antiquity put an egg in Asclepius’ hand.
+                                    <note n="72" type="footnote">
+                                        <p>Cf. Rosenthal, ‘An Ancient Commentary’, 72 n. 86 on the text here.</p>
+                                    </note>
+                                    Since the egg represents the universe, this suggests that the whole world needs the art of medicine.
+                                    <note n="73" type="footnote">
+                                        <p>On the symbolism of the egg, see Strohmeier, ‘Asklepios und das Ei’.</p>
+                                    </note>
+                                </p>
+                                <p>It may be appropriate at this point to discuss, in addition, the animals that are killed in Asclepius’ name as sacrifices to achieve closeness to God, blessed and exalted is He. It appears that no-one has ever offered up a goat for that purpose, because goat hair is harder to spin than wool, and because frequent consumption of goat meat may cause epilepsy, as poor chyme is generated from it. Moreover, it has a desiccant effect, is coarse in texture and acrid upon the palate, and fosters melancholic blood.</p>
+                                <p>
+                                    (Galen)
+                                    <note n="74" type="footnote">
+                                        <p>By marking ‘Galen’ again, the text suggests that the remarks before this are one of Ḥunayn’s annotations, though the content and argument suggest otherwise.</p>
+                                    </note>
+                                    We find that what are usually sacrificed to God, blessed and exalted is He, are cocks rather than goats. Indeed, there is a tradition that the divine Socrates did precisely that,
+                                    <note n="75" type="footnote">
+                                        <p>
+                                            Socrates’ last words, as reported at Plato’s
+                                            <hi rend="italic">Phaedo</hi>
+                                            118a, were, ‘Crito, we should offer a cock to Asclepius. Pay and don’t forget.’
+                                        </p>
+                                    </note>
+                                    and thereby taught us that the art of medicine was a lasting benefit for humanity, and one far more useful than the inventions of Dionysus and Demeter.
+                                    <note n="76" type="footnote">
+                                        <p>For Dionysus, see n. 59 above. Demeter was the goddess of harvests, who presided over crops and fertility; the Roman goddess Ceres came to be identified with her.</p>
+                                    </note>
+                                </p>
+                                <p>(Ḥunayn) The expression ‘the invention of Dionysus’ refers to wine. According to the Greek tradition, Dionysus was the first to press wine from grapes, and the poets use his name to allude, not only to the power that alters the juice in grapes in preparation for its conversion into wine, but also to the happiness that is generated from the drinking of the wine.</p>
+                                <p>The ‘invention of Demeter’ means bread and the grains that are used to prepare it. Thus we find that her name is used to denote cereals, and the poets may use it as a metaphor for the soil in which they grow.</p>
+                                <p>By the ‘invention of Asclepius’, he means health, which is the indispensable prerequisite of everything beneficial or enjoyable in life.</p>
+                                <p>(Galen) I say this because the inventions of those two cannot serve any useful purpose in the absence of Asclepius’ invention.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.6.4]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    The seat on which Asclepius is seated is a representation of the potent power by means of which health is obtained. As one poet has put it, it is ‘the most sublime of all powers’.
+                                    <note n="77" type="footnote">
+                                        <p>
+                                            Plato,
+                                            <hi rend="italic">Gorgias</hi>
+                                            451e ὑγιαίνειν μὲν ἄριστον, ‘having health is best’, a drinking song attributed variously to the 6th cent.
+                                            <hi rend="smallcaps">BC</hi>
+                                            poets Simonides or Epicharmus (see Dodds,
+                                            <hi rend="italic">Gorgias</hi>
+                                            , ad loc.).
+                                        </p>
+                                    </note>
+                                    Indeed, we find that all the poets praise that power unstintingly. One of them declares that,
+                                </p>
+                                <cit>
+                                    <quote>
+                                        <lg>
+                                            <l>It exceeds in sublimity all the host of the just.</l>
+                                            <l>
+                                                May I be in thy favour for the rest of my life!
+                                                <note n="78" type="footnote">
+                                                    <p>
+                                                        Translation of the first two lines of the hymn to Hygieia, daughter of Asclepius and goddess or personification of health, composed by the lyric poet Ariphron of Sicyon (turn of 4th cent.
+                                                        <hi rend="smallcaps">BC</hi>
+                                                        ) probably in connection with the cult of Asclepius at Epidaurus:
+                                                    </p>
+                                                    <cit>
+                                                        <quote>
+                                                            <p>Ὑγίεια, βροτοῖσι πρεσβίστα μακάρων, μετὰ σεῦ / ναίοιμι τὸ λειπόμενον βιοτᾶς, σὺ δέ μοι πρόφρων ξυνείης</p>
+                                                        </quote>
+                                                    </cit>
+                                                    <cit>
+                                                        <quote>
+                                                            <p>
+                                                                ‘Health, most sublime of the blessed ones for mortals, with you / May I dwell for the rest of my life, and may you be favourable to me’ (Page,
+                                                                <hi rend="italic">Poetae Melici Graeci</hi>
+                                                                , 1962, 422–423).
+                                                            </p>
+                                                        </quote>
+                                                    </cit>
+                                                </note>
+                                            </l>
+                                        </lg>
+                                    </quote>
+                                </cit>
+                                <p>Another poet says,</p>
+                                <cit>
+                                    <quote>
+                                        <lg>
+                                            <l>It exceeds in sublimity all the host of the just.</l>
+                                            <l>
+                                                I beseech thee, let me be deemed fit to obtain all good things.
+                                                <note n="79" type="footnote">
+                                                    <p>Unknown fragment using the first line of Ariphron.</p>
+                                                </note>
+                                            </l>
+                                        </lg>
+                                    </quote>
+                                </cit>
+                                <p>
+                                    The
+                                    <note n="80" type="footnote">
+                                        <p>The following section reads like hack oratory of the Roman era, developing from the poetry of Ariphron.</p>
+                                    </note>
+                                    argument goes that all good things, wealth, for example, or children, or royal authority, are generally deemed to be of much the same value, considered as benefits.
+                                    <note n="81" type="footnote">
+                                        <p>A paraphrase of ll. 3–4 of Ariphron apparently misreading the genitive ἰσοδαίμονος, ‘equal to the gods’ (applying to kingship), as ?a nominative ἰσοδύναμος, ‘equal in value’.</p>
+                                    </note>
+                                    Are not all such benefits useful and enjoyable only in so far as they are accompanied by health? Assuredly, health is something that is well worthy of the name of blessing, for it is unequivocally good, not something that stands somewhere between what is good and what is evil, nor a secondary good, as some philosophers, namely the Peripatetics and the Stoics,
+                                    <note n="82" type="footnote">
+                                        <p>
+                                            I.e. the schools of philosophy founded by Aristotle, who is said to have walked about as he taught, and by the followers of Zeno of Citium (late 4th/early 3rd cent.
+                                            <hi rend="smallcaps">BC</hi>
+                                            ), who taught in a covered colonnade in the Agora of Athens (hence ‘men of the shelter’,
+                                            <hi rend="italic">aṣḥāb al-miẓallah</hi>
+                                            , as here). As Rosenthal remarks, the focusses of these philosophies (and also of Neoplatonism) were on matters higher than bodily health.
+                                        </p>
+                                    </note>
+                                    have held. On the contrary, the excellent qualities which people pursue so assiduously throughout their lives are worth pursuing only on condition of good health.
+                                </p>
+                                <p>
+                                    We find, for example, that a man who seeks to display valour and energy in fighting against enemies, defending his friends by repulsing their foes, will be able to do so only by means of physical strength. Similarly, one who wishes to act justly, giving others their deserts, performing all his duties, keeping the laws, and taking pains to ensure that he is correct in all his actions and the views he holds, will be unable to live up to his aspirations if he does not possess good health. Good health is even the condition of salvation,
+                                    <note n="83" type="footnote">
+                                        <p>
+                                            Arabic
+                                            <hi rend="italic">khalāṣ</hi>
+                                            representing σωτηρία, ‘safety’, ‘salvation’, possibly in a soteriological register.
+                                        </p>
+                                    </note>
+                                    which cannot be complete otherwise, being as it were born from health. In a word, then, anyone who alleged that he was not concerned to have good health would certainly be talking nonsense, perhaps because of some opinion that he held, or in an effort to propagate some false doctrine. At any rate, if he were truthful, he would acknowledge that health is really the greatest of benefits. Mankind thus considered that power suitable to become a seat for the originator of the art of medicine. Moreover, its name fits its nature, for in Greek the word for health is derived from a word meaning moisture,
+                                    <note n="84" type="footnote">
+                                        <p>
+                                            <hi rend="italic">hugrotes</hi>
+                                            (ὑγρότης) –
+                                            <hi rend="italic">hugieia</hi>
+                                            (ὑγίεια);
+                                            <hi rend="italic">hugros</hi>
+                                            is often used of one of the primary qualities of man.
+                                        </p>
+                                    </note>
+                                    and, indeed, we have health only if we are adequately hydrated. One of the poets points to this in a passage where he speaks of ‘the wet man’.
+                                    <note n="85" type="footnote">
+                                        <p>
+                                            Perhaps
+                                            <hi rend="italic">Odyssey</hi>
+                                            6.201 οὐκ ἔσθ᾽ οὗτος
+                                            <hi rend="italic">ἀνὴρ διερὸς</hi>
+                                            βρότος, ‘there is no wet mortal man’ (Nausicaa of Odysseus).
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>When you look at a statue of Asclepius, you observe that he is represented as being seated, with other men around him upon whom he leans. This is an essential point, indicating that he is firmly in place in the midst of humanity. In addition, he has a serpent twining about him. This feature has been discussed previously.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[2.1.7]</hi>
+                        </p>
+                        <p>
+                            The following are a number of aphorisms and sage remarks uttered by Asclepius. They are preserved by the Emir Abū l-Wafāʾ al-Mubashshir ibn Fātik, in his work
+                            <hi rend="italic">Choicest Maxims and Best Sayings</hi>
+                            :
+                            <note n="86" type="footnote">
+                                <p>See n. 25.</p>
+                            </note>
+                        </p>
+                        <list>
+                            <label>1.</label>
+                            <item>One who understands the uncertainty of life will not fail to be prepared.</item>
+                            <label>2.</label>
+                            <item>You stand between the benefits of your Creator and the sinfulness of your acts, and you cannot do better than praise the Giver of benefits and ask His forgiveness for your sins.</item>
+                            <label>3.</label>
+                            <item>Have you not been known to curse your current situation, then, in altered circumstances, look back on your former state with regret? Many an event may enrage you when it befalls, yet leave you weeping once it is past.</item>
+                            <label>4.</label>
+                            <item>A man who observes religious rituals without understanding is like the donkey that turns the millstone, walking round and round endlessly without knowing what it is doing.</item>
+                            <label>5.</label>
+                            <item>It is better to do without something than to try to obtain it from the wrong person.</item>
+                            <label>6.</label>
+                            <item>To reward immorality is to encourage it; generosity toward an ungrateful recipient is wasted; to instruct a fool is to increase his folly; and to beg from a miser is to know humiliation.</item>
+                            <label>7.</label>
+                            <item>It is surprising to me that a man who will refrain from eating rotten food from fear of being made ill will yet not refrain from sinful behaviour for fear of the life to come.</item>
+                            <label>8.</label>
+                            <item>Refrain from speech, and you will avoid odium; speak the truth, and your words will be golden.</item>
+                            <label>9.</label>
+                            <item>
+                                Asclepius was once asked to describe the world of human existence. ‘Yesterday is past and gone,’ he said, ‘today is the time for action, and tomorrow holds out hope’.
+                                <note n="87" type="footnote">
+                                    <p>
+                                        Unfortunately, this rendering does not convey the concision or the triple assonance of the Arabic original, with its
+                                        <hi rend="italic">ajal</hi>
+                                        ,
+                                        <hi rend="italic">ʿamal</hi>
+                                        and
+                                        <hi rend="italic">amal</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </item>
+                            <label>10.</label>
+                            <item>The man who pities you is showing you that he does not think much of you; the man who belittles you is showing you that he is angry with you; and the man who hates you is unlikely to give you sincere advice.</item>
+                            <label>11.</label>
+                            <item>It becomes a man of religion and virtue to expend effort and resources for the sake of his friend, to display a cheerful countenance and amiability toward a person with whom he is acquainted, to act justly toward his enemy, and to refrain always from unseemly behaviour of any kind.</item>
+                        </list>
+                    </div>
+                    <div type="textpart" subtype="biography" n="2">
+                        <p>
+                            <hi rend="bold">
+                                2.2 Apollo
+                                <note n="1" type="footnote">
+                                    <p>
+                                        We follow Ibn Juljul,
+                                        <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                        , p. 15. The
+                                        <hi rend="smallcaps">MSS</hi>
+                                        of
+                                        <hi rend="smallcaps">IAU</hi>
+                                        have
+                                        <hi rend="italic">Aylaq</hi>
+                                        . Cf. above n. 14.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            The name also occurs as
+                            <hi rend="italic">Abulluh</hi>
+                            .
+                            <note n="2" type="footnote">
+                                <p>
+                                    We follow again Ibn Juljul ed. Sayyid. The
+                                    <hi rend="smallcaps">MSS</hi>
+                                    of
+                                    <hi rend="smallcaps">IAU</hi>
+                                    once more give
+                                    <hi rend="italic">Aylaq</hi>
+                                    .
+                                </p>
+                            </note>
+                            The following account is taken from the
+                            <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                            , by Sulaymān ibn Ḥassān, known as Ibn Juljul.
+                            <note n="3" type="footnote">
+                                <p>
+                                    Ibn Juljul,
+                                    <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>
+                                    , 15.
+                                </p>
+                            </note>
+                            ‘He was a learned man who was the first in the lands of the Romans and Persians
+                            <note n="4" type="footnote">
+                                <p>Ibn Juljul: ‘Greeks’.</p>
+                            </note>
+                            to speak about the art of medicine. He is also credited with having devised
+                            <note n="5" type="footnote">
+                                <p>Ibn Juljul inserts ‘the letters of’.</p>
+                            </note>
+                            Greek writing, at the instance of King Amenophis. Not only did he speak about the art of medicine, he also subjected it to reasoning and practised it. He lived after the time of Moses, peace be upon him, having been a contemporary of Barak the Judge.
+                            <note n="6" type="footnote">
+                                <p>
+                                    The story of Barak the Judge and his campaigning against the Canaanites with Deborah is told at
+                                    <hi rend="italic">Judges</hi>
+                                    4–5.
+                                </p>
+                            </note>
+                            He is the subject of anecdotes and accounts both creditable and discreditable, but as a wonder-worker he is considered the equal of Asclepius.’
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
