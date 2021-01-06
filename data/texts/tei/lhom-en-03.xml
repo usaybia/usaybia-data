@@ -1,0 +1,1168 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xml:id="arabicLit.textgroup.work.H01" py:pytype="TREE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 3</title>
+				<title xml:lang="en" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+				<author xml:lang="en" ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿah</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal ref="#ngibson">Nathan P. Gibson</principal>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<respStmt>
+					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				</respStmt>				
+				<!-- <respStmt>
+					<resp>Edited by</resp>
+					<name type="person">Insert other names of people who edit this document </name>
+				</respStmt> -->
+			</titleStmt>
+           <publicationStmt>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
+           </publicationStmt>
+           <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">3</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-08-28" who="#ngibson">Added header to downloaded text.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="translation" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1" xml:lang="en-Latn">
+                <div type="textpart" subtype="chapter" n="3">
+                    <div type="textpart" subtype="biography" n="1">
+                        <head>Chapter 3 Greek Physicians Descended from Asclepius</head>
+                        <head>Bruce Inksetter, Simon Swain and Ignacio Sánchez</head>
+                        <p>
+                            <hi rend="bold">3.1 Pupils of Asclepius</hi>
+                        </p>
+                        <p>
+                            Asclepius, as we have seen, had learned the art of medicine through practical experience
+                            <note n="1" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">tajribah</hi>
+                                    in reference to empiricist medicine (cf.
+                                    <hi rend="italic">aṣḥāb al-tajribah</hi>
+                                    = Empiricists).
+                                </p>
+                            </note>
+                            and in that way had acquired a thorough knowledge of it. He passed that knowledge on to his sons and other kinsmen, but enjoined them not to teach it to any but their own offspring or other persons descended from himself.
+                        </p>
+                        <p>
+                            There were, in all, six of those sons and kinsmen who had been Asclepius’ pupils:
+                            <hi rend="italic">M-ā-gh-y-n-s</hi>
+                            ,
+                            <note n="2" type="footnote">
+                                <p>
+                                    Possibly a transcription of Greek Μέγιλλος; in Ch. 4, however, the name is transcribed
+                                    <hi rend="italic">m-ā-gh-y-ā-l-w-s</hi>
+                                    , see Ch. 4.3.6.2. The Greek names in this chapter are notoriously difficult and our suggestions of what the form might be are offered with due caution and inevitably show inconsistencies. In many cases we have simply given in transcription the Arabic letters designating consonants or long vowels. For the main subjects of the chapter, we have chosen to vocalize (e.g. Ghūrus, Mēnas), even though these are not, as they stand, real Greek names. Where we have some confidence, we have read the Greek name or part of it in the Arabic and English. Our transcription of Greek forms follows the Classicist’s inconsistency in the marking of long vowels and in usually preferring Latinized forms (Megill
+                                    <hi rend="italic">us</hi>
+                                    rather than Megill
+                                    <hi rend="italic">os</hi>
+                                    ), which are traditional in English.
+                                </p>
+                            </note>
+                            <hi rend="italic">S-q-r-ā-ṭ-w-n</hi>
+                            ,
+                            <note n="3" type="footnote">
+                                <p>
+                                    Possibly representing a Greek name in -
+                                    <hi rend="italic">kratiōn</hi>
+                                    , which has been associated with the familiar name Socrates.
+                                </p>
+                            </note>
+                            <hi rend="italic">Kh-r-w-s-y-s</hi>
+                            <note n="4" type="footnote">
+                                <p>
+                                    If we assume that the
+                                    <hi rend="italic">yāʾ</hi>
+                                    is most likely a mistake for
+                                    <hi rend="italic">bāʾ</hi>
+                                    this might correspond to Chrysippus, which we read in the Arabic text. For the 4th cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    physician of this name from Cnidus, the teacher of Erasistratus, see
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , art. “Chrysippus [3]” (V. Nutton).
+                                </p>
+                            </note>
+                            the physician,
+                            <hi rend="italic">M-h-r-ā-r-y-s</hi>
+                            <note n="5" type="footnote">
+                                <p>
+                                    Possibly Μακάριος (cf. Dunlop in App. 
+                                    <hi rend="smallcaps">I</hi>
+                                    of his edition of the
+                                    <hi rend="italic">Ṣiwān</hi>
+                                    ). There is a saying attributed to
+                                    <hi rend="italic">M-h-r-ā-r-y-s</hi>
+                                    in
+                                    <hi rend="italic">Ṣiwān</hi>
+                                    , p. 83.
+                                </p>
+                            </note>
+                            who is incorrectly stated by ancient authors to have been related to Solomon son of David, but this is the merest fable, inasmuch as the one lived thousands of years before the other,
+                            <hi rend="italic">M-w-r-y-d-s</hi>
+                            ,
+                            <note n="6" type="footnote">
+                                <p>
+                                    Manuscript R has the variant
+                                    <hi rend="italic">H-w-r-y-d-w-s</hi>
+                                    . Cf. also Ibn al-Qifṭī, 13:
+                                    <hi rend="italic">Ṣ-w-r-y-dh-w-s</hi>
+                                    ; and
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 15:
+                                    <hi rend="italic">Ṣ-w-r-m-d-w-s</hi>
+                                    . The reading in
+                                    <hi rend="smallcaps">IAU</hi>
+                                    (
+                                    <hi rend="italic">M-w-r-y-d-s</hi>
+                                    ) might be a transcription of the uncommon Greek personal name Μάραθος.
+                                </p>
+                            </note>
+                            and
+                            <hi rend="italic">M-y-s-ā-w-s</hi>
+                            .
+                            <note n="7" type="footnote">
+                                <p>
+                                    If we assume that the
+                                    <hi rend="italic">yāʾ</hi>
+                                    should be read
+                                    <hi rend="italic">nūn</hi>
+                                    (
+                                    <hi rend="italic">M-n-s-ā-w-s</hi>
+                                    ) this name might be a faulty transcription of Μνησίθεος. For the 4th cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    Empiricist physician of this name, see
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , art. ‘Mnesitheus’ (V. Nutton).
+                                </p>
+                            </note>
+                            Every one of these followed the system of his master, Asclepius, namely the empirical system, and put it to practical use, for it was through practical experience that Asclepius had come to understand the art of medicine. In that way, the art was transmitted by those pupils to their kinsmen, down to the time of Ghūrus.
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="biography" n="2">
+                        <p>
+                            <hi rend="bold">
+                                3.2 Ghūrus
+                                <note n="1" type="footnote">
+                                    <p>
+                                        According to Dunlop this could be Diagoras; see
+                                        <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                        , index s.v.
+                                        <hi rend="italic">Ghūrūs</hi>
+                                        . Rosenthal suggests ‘Cyros’, see ‘Isḥāq b. Ḥunayn’, 75 n. 2. Cyrus was the more common name, see the indexes of
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">LGPN</hi>
+                                        </hi>
+                                        . But given the lack of historical sense in this chapter, the Presocratic philosopher Anaxa
+                                        <hi rend="italic">goras</hi>
+                                        , known to Arabic scholarship as one of the
+                                        <hi rend="italic">falāsifah</hi>
+                                        , is another possibility; cf. below on Anaxi
+                                        <hi rend="italic">menes</hi>
+                                        /Mēnas, and Parmenides and Plato the Physician. The form
+                                        <hi rend="italic">gh-w-r-s</hi>
+                                        recurs at Ch. 4.1.10.1 where we have chosen to read (Praxa)goras.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            Ghūrus was the second of the celebrated great physicians of antiquity, after Asclepius. So at any rate we read in the account by John the Grammarian,
+                            <note n="2" type="footnote">
+                                <p>
+                                    Yaḥyā al-Naḥwī, the name in Arabic sources for Johannes Philoponus (Grammaticus) (ca. 490–575), the Alexandrian Christian philosopher and commentator on Aristotle. The sources amalgamated Philoponus with a medical John, to whom they attributed commentaries on Galen and a medical chronology (perhaps by a third John), which is preserved through a work of Isḥāq ibn Ḥunayn. The work is preserved in part independently (ed. Rosenthal) and partially in the
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    (ed. Dunlop). Fiction combined with details of Philoponus’ life to produce a biographical account of the medical John, as we see it in the account of him and his writings in ch. 6.1–2. In what follows there are a number of direct correspondences with the text of the
+                                    <hi rend="italic">Ṣiwān</hi>
+                                    as indicated by references in the notes to the English and Arabic to Dunlop’s edition.
+                                </p>
+                            </note>
+                            which runs as follows:
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    According to the tradition that has come down to us, there were, in all, eight famous physicians among the Greeks whose example was followed in the practice of the art of medicine. These were Asclepius the First, Ghūrus, Mēnas,
+                                    <note n="3" type="footnote">
+                                        <p>
+                                            The manuscripts read:
+                                            <hi rend="italic">M-y-n-s</hi>
+                                            . Rosenthal suggests Menippos, ‘Isḥāq ibn Ḥunayn’s Taʾrīkh’, 75 n. 2; Dunlop, who reads
+                                            <hi rend="italic">M-n-y-s-y</hi>
+                                            , suggests Mnaseas (see Index in
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            , cf. app. crit. to l. ‘300 etc.’; on Mnaseas the Empiricist, see below, § 3.5). The most obvious transcription is Mēnas (Μηνᾶς) but as with Anaxagoras we may here be dealing with a corruption of Anaxi
+                                            <hi rend="italic">menes</hi>
+                                            , another prominent Presocratic. The biography of Mēnas will be found at Ch. 3.3.
+                                        </p>
+                                    </note>
+                                    Parmenides,
+                                    <note n="4" type="footnote">
+                                        <p>
+                                            A Presocratic philosopher of the 5th cent.
+                                            <hi rend="smallcaps">AD</hi>
+                                            . His biography will be found later in this chapter (3.4).
+                                        </p>
+                                    </note>
+                                    Plato the Physician,
+                                    <note n="5" type="footnote">
+                                        <p>
+                                            Ibn al-Qifṭī has a brief entry for an Aflāṭūn who is said to have been one of Galen’s masters (
+                                            <hi rend="italic">Tārīkh al-ḥukamāʾ</hi>
+                                            , 55). His biography will be found later in this chapter (3.5).
+                                        </p>
+                                    </note>
+                                    Asclepius the Second,
+                                    <note n="6" type="footnote">
+                                        <p>His biography will be found later in this chapter (3.6).</p>
+                                    </note>
+                                    Hippocrates and Galen.
+                                    <note n="7" type="footnote">
+                                        <p>
+                                            This list of names, with a few variants, occurs in the
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            (14 ed. Dunlop).
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>Ghūrus lived to the age of forty-seven. His time as a child and a student occupied his first seventeen years, while during the remaining thirty years he was a man of learning and a teacher.</p>
+                                <p>
+                                    A period of eight hundred and fifty years intervened between the date of Asclepius’ death and the birth of Ghūrus. During that time, a number of physicians of note flourished, including
+                                    <hi rend="italic">S-w-r-n-d-w-s</hi>
+                                    ,
+                                    <note n="8" type="footnote">
+                                        <p>This might be a faulty transcription of the Roman name Secundus.</p>
+                                    </note>
+                                    <hi rend="italic">M-ā-n-y-w-s</hi>
+                                    ,
+                                    <note n="9" type="footnote">
+                                        <p>This is close to a transcription of the Greco-Roman name Manius.</p>
+                                    </note>
+                                    <hi rend="italic">S-ā-w-th-ā-s</hi>
+                                    ,
+                                    <hi rend="italic">M-s-ī-s-ā-n-d-s</hi>
+                                    ,
+                                    <note n="10" type="footnote">
+                                        <p>
+                                            Cf.
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            , 16:
+                                            <hi rend="italic">m-s-y-n-ā-r-w-s</hi>
+                                            ; and Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Sayyid), 2/1:269:
+                                            <hi rend="italic">m-s-n-y-ā-s</hi>
+                                            . A Greek name ending in -
+                                            <hi rend="italic">andros</hi>
+                                            is likely.
+                                        </p>
+                                    </note>
+                                    Dioscorides the First,
+                                    <note n="11" type="footnote">
+                                        <p>
+                                            Transcribed in the Arabic as
+                                            <hi rend="italic">s-q-w-r-y-d-w-s</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">S-y-q-ṭ-w-s</hi>
+                                    ,
+                                    <note n="12" type="footnote">
+                                        <p>
+                                            The manuscripts also give
+                                            <hi rend="italic">s-q-l-w-s</hi>
+                                            ,
+                                            <hi rend="italic">s-q-ṭ-w-s</hi>
+                                            ; cf. also Dunlop,
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            , 16:
+                                            <hi rend="italic">s-q-l-m-w-s</hi>
+                                            ; Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Sayyid), 2/1:269:
+                                            <hi rend="italic">ʾ-s-f-l-w-s</hi>
+                                            . This might be a transcription of the name Sextus.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">S-m-r-y-ā-s</hi>
+                                    , Antimachus,
+                                    <note n="13" type="footnote">
+                                        <p>
+                                            The manuscripts read:
+                                            <hi rend="italic">ʾ-q-ṭ-y-m-ā-kh-s</hi>
+                                            ; cf. also Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Sayyid), 2/1:269:
+                                            <hi rend="italic">ʾ-f-ṭ-y-m-y-ā-kh-s</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Q-l-gh-y-m-w-s</hi>
+                                    ,
+                                    <note n="14" type="footnote">
+                                        <p>
+                                            Cf. Dunlop,
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            , 16:
+                                            <hi rend="italic">q-d-f-y-m-w-n</hi>
+                                            ; Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Sayyid), 2/1:269:
+                                            <hi rend="italic">ʾ-f-l-ṭ-y-m-w-n</hi>
+                                            . This might be a deformation of Philinus.
+                                        </p>
+                                    </note>
+                                    Agathinus,
+                                    <note n="15" type="footnote">
+                                        <p>
+                                            The manuscrips read:
+                                            <hi rend="italic">ʾ-gh-ā-n-y-s</hi>
+                                            . This might be Agathinus; for the 1st cent.
+                                            <hi rend="smallcaps">AD</hi>
+                                            physician of this name, see
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , art. ‘Agathinus’ (V. Nutton). Cf. below, Ch. 3.5 for a like suggestion.
+                                        </p>
+                                    </note>
+                                    Heracleides,
+                                    <note n="16" type="footnote">
+                                        <p>
+                                            The manuscripts read
+                                            <hi rend="italic">ʾ-b-r-ā-q-l-s</hi>
+                                            , but the
+                                            <hi rend="italic">bāʾ</hi>
+                                            is most likely a mistake for
+                                            <hi rend="italic">yāʾ</hi>
+                                            , which we read in-text. This might correspond to Heracl(e)ides, the name of Hippocrates’ father and two important physicians of the 1st cent.
+                                            <hi rend="smallcaps">AD</hi>
+                                            :
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , s.v.
+                                        </p>
+                                    </note>
+                                    and Asterius the physician.
+                                    <note n="17" type="footnote">
+                                        <p>
+                                            The manuscripts read
+                                            <hi rend="italic">ʾ-s-ṭ-w-r-s</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>
+                                    Ghūrus relied on the empirical approach to medicine, with the potential benefit it afforded. He was succeeded by seven pupils, some of them his own offspring and the remainder other kinsmen. Their names were Marcus, Gorgias, Modestus,
+                                    <note n="18" type="footnote">
+                                        <p>
+                                            The manuscripts read
+                                            <hi rend="italic">m-ā-l-s-ṭ-s</hi>
+                                            , with exception of R, which has
+                                            <hi rend="italic">m-ā-r-s-ṭ-s</hi>
+                                            ; Dunlop,
+                                            <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                            , 16:
+                                            <hi rend="italic">m-ā-s-ṭ-s</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    Paulus,
+                                    <hi rend="italic">M-ā-h-ā-l-s</hi>
+                                    , Erasistratus the First,
+                                    <note n="19" type="footnote">
+                                        <p>
+                                            On the famous Hellenistic physician, Erasistratus, see
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , art. ‘Erasistratus’ (V. Nutton).
+                                        </p>
+                                    </note>
+                                    and
+                                    <hi rend="italic">S-q-y-r-w-s</hi>
+                                    .
+                                    <note n="20" type="footnote">
+                                        <p>Possibly Satyrus (for example, Galen’s teacher; cf. Ch. 5.1.25).</p>
+                                    </note>
+                                    Each of these followed the system of his master, namely the empirical system, and in this way the art of medicine continued to be transmitted from them to their own pupils, who were their offspring or other kinsmen, down to the time of Mēnas.
+                                </p>
+                            </quote>
+                        </cit>
+                    </div>
+                    <div type="textpart" subtype="biography" n="3">
+                        <p>
+                            <hi rend="bold">
+                                3.3 Mēnas
+                                <note n="1" type="footnote">
+                                    <p>
+                                        The biography is included in all three versions of the treatise. Much of this biography corresponds to the
+                                        <hi rend="italic">Ṣiwān</hi>
+                                        (see notes to text).
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            Mēnas was the third of the eight celebrated physicians whose names have been listed above.
+                            <note n="2" type="footnote">
+                                <p>In the biography of Ghūrus (Ch. 3.2).</p>
+                            </note>
+                            Mēnas lived to the age of eighty-four. His time as a child and a student occupied his first sixty-four years, while during the remaining twenty years he was a man of learning and a teacher.
+                            <note n="3" type="footnote">
+                                <p>The tradition is united on this order of Mēnas’ career.</p>
+                            </note>
+                            A period of five hundred and sixty years intervened between the date of Ghūrus’ death and the birth of Mēnas. During that time, a number of physicians of note flourished, including Epicurus,
+                            <note n="4" type="footnote">
+                                <p>
+                                    In Arabic
+                                    <hi rend="italic">ʾ-n-y-q-w-r-s</hi>
+                                    . If
+                                    <hi rend="italic">bāʾ</hi>
+                                    were read instead of
+                                    <hi rend="italic">nūn</hi>
+                                    , we would have Epicurus. Cf. the variants
+                                    <hi rend="italic">ʾ-q-s-w-r-w-s</hi>
+                                    in
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 16; and
+                                    <hi rend="italic">ʾ-f-y-n-w-r-s</hi>
+                                    in Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:269.
+                                </p>
+                            </note>
+                            Dioscorides the Second,
+                            <note n="5" type="footnote">
+                                <p>
+                                    The Arabic transcription is
+                                    <hi rend="italic">s-q-w-r-y-d-w-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Antiphon,
+                            <note n="6" type="footnote">
+                                <p>
+                                    In Arabic
+                                    <hi rend="italic">ʾ-kh-ṭ-y-q/f-w-n</hi>
+                                    , ?Antiphon.
+                                </p>
+                            </note>
+                            <hi rend="italic">ʾ-s-q-w-r-y-s</hi>
+                            ,
+                            <hi rend="italic">R-ā-w-s</hi>
+                            ,
+                            <note n="7" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 16:
+                                    <hi rend="italic">b-ā-r-y-s</hi>
+                                    , which could be a transcription of Paris; but note the Nebrōs who is listed as an ancestor of Hippocrates in Tzetzes’
+                                    <hi rend="italic">Chilades</hi>
+                                    7.(155).948; and cf. Nebrus the Asclepiad at Stephanus Byz.,
+                                    <hi rend="italic">Ethnica</hi>
+                                    Bk 10, lemma 315 Κῶς. Cf. also Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 284, where a certain
+                                    <hi rend="italic">ʾ-w-ā-r-s</hi>
+                                    , author of a
+                                    <hi rend="italic">K. al-ʿilal al-muhlikah</hi>
+                                    , is listed among the physicians who lived between Asclepius and Ghūrus.
+                                </p>
+                            </note>
+                            Sophocles,
+                            <note n="8" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">ʾ-s-q-f-l-s</hi>
+                                    ; if we were to re-dot to
+                                    <hi rend="italic">ʾ-s-f-q-l-s</hi>
+                                    the transcription would give Sophocles. Cf. also Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:269:
+                                    <hi rend="italic">ʾ-s-q-ṭ-y-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">M-w-ṭ-y-m-s</hi>
+                            ,
+                            <note n="9" type="footnote">
+                                <p>
+                                    Possibly a Greek name ending in -
+                                    <hi rend="italic">dēmos</hi>
+                                    .
+                                </p>
+                            </note>
+                            Plato the First the Physician, and Hippocrates the First son of Gnosidicus.
+                            <note n="10" type="footnote">
+                                <p>
+                                    Cf. Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:269:
+                                    <hi rend="italic">ʾ-gh-n-w-s-w-d-y-q-w-s</hi>
+                                    .
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            Mēnas studied the pronouncements of earlier physicians and concluded that the empirical system was erroneous and should be supplemented with analogy.
+                            <note n="11" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">qiyās</hi>
+                                    , ‘comparison’, ‘analogy’, ‘logic’ The
+                                    <hi rend="italic">aṣḥāb al-qiyās</hi>
+                                    are the Dogmatists or Rationalists in the Greek schools of medicine. They held that while sense and experience were undoubtedly the principle of all the sciences and arts, they must be subject to the instruments of thought. The rules of medicine, and of the other arts, must be derived through logic and unknown things determined through things that were known.
+                                </p>
+                            </note>
+                            ‘It is hazardous to proceed empirically only,’ he said, ‘for analogy is necessary as well.’
+                        </p>
+                        <p>
+                            At his death, Mēnas left four pupils:
+                            <hi rend="italic">Q-ṭ-r-ṭ-s</hi>
+                            ,
+                            <note n="12" type="footnote">
+                                <p>Perhaps Quadratus.</p>
+                            </note>
+                            Ammonius,
+                            <note n="13" type="footnote">
+                                <p>
+                                    Or Ameinias? Arabic
+                                    <hi rend="italic">ʾ-m-y-n-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Soranus
+                            <note n="14" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">s-w-r-ā-n-s</hi>
+                                    . Soranus (
+                                    <hi rend="italic">Sūrānūs</hi>
+                                    in Chs 4, 5), the famous Methodist predecessor of Galen, is an obvious suggestion; alternatively Serenus the author of a poetical collection of therapeutic recipes from the 2nd–4th cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    , see
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , art. ‘Serenus [1]’ (A. Touwaide).
+                                </p>
+                            </note>
+                            and Matthaeus the Elder.
+                            <note n="15" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">m-th-y-n-ā-w-s</hi>
+                                    . Cf. below the transcription
+                                    <hi rend="italic">m-t-y-th-ā-w-s</hi>
+                                    for Matthaeus the Younger (Ch. 3.4).
+                                </p>
+                            </note>
+                            All of these followed the empirical system supplemented with analogy. In this way, the art of medicine continued to be transmitted from them to those whom they taught, until the time of Parmenides.
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="biography" n="4">
+                        <p>
+                            <hi rend="bold">
+                                3.4 Parmenides
+                                <note n="1" type="footnote">
+                                    <p>
+                                        The name is secure and undoubtedly refers to the famous Presocratic philosopher. Parmenides was in fact associated with medicine and cult at Elea in southern Italy: see Nutton,
+                                        <hi rend="italic">Medicine</hi>
+                                        , 108, 258, index s.v.; it is possible that knowledge of this has informed the choice of name. This biography is included in all three versions of the treatise. There is again much overlap with the text of John presented here and in the
+                                        <hi rend="italic">Ṣiwān</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            Parmenides was the fourth of the eight celebrated physicians whose names have been listed above.
+                            <note n="2" type="footnote">
+                                <p>In the biography of Ghūrus (3.1).</p>
+                            </note>
+                            Parmenides lived to the age of forty. His time as a child and a student occupied his first twenty-five years, while during the remaining fifteen years he was an accomplished man of learning and teacher. A period of seven hundred and fifteen years intervened between the date of Mēnas’ death and the birth of Parmenides. During that time, a number of physicians of note flourished, including
+                            <hi rend="italic">S-m-ā-n-w-s</hi>
+                            ,
+                            <hi rend="italic">Gh-w-r-ā-n-s</hi>
+                            , Epicurus, Stephanus,
+                            <hi rend="italic">ʾ-n-y-q-w-l-s</hi>
+                            ,
+                            <note n="3" type="footnote">
+                                <p>
+                                    Perhaps Nicolaus; cf. Ch. 6.1
+                                    <hi rend="italic">Anqīlāwus</hi>
+                                    (
+                                    <hi rend="italic">ʾ-n-q-y-l-ā-w-s</hi>
+                                    ), one of the Alexandrians of late antiquity (historical dates meaning very little in Ch. 3).
+                                </p>
+                            </note>
+                            Severus,
+                            <hi rend="italic">W-r-ā-ṭ-y-m-s</hi>
+                            , Paulus,
+                            <hi rend="italic">S-w-ā-n-y-d-y-q-w-s</hi>
+                            , Simus,
+                            <note n="4" type="footnote">
+                                <p>
+                                    Or e.g. Samius. Arabic
+                                    <hi rend="italic">s-ā-m-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Matthaeus the Younger,
+                            <note n="5" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">m-t-y-th-ā-w-s</hi>
+                                    ; cf. above
+                                    <hi rend="italic">m-th-y-n-ā-w-s</hi>
+                                    (Ch. 3.3).
+                                </p>
+                            </note>
+                            <hi rend="italic">ʾ-f-y-ṭ-ā-q-l-w-n</hi>
+                            , Symmachus,
+                            <note n="6" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">s-w-n-ā-kh-s</hi>
+                                    . Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 17:
+                                    <hi rend="italic">s-w-th-ā-kh-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">S-w-y-ā-z-y-w-s</hi>
+                            ,
+                            <note n="7" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 17:
+                                    <hi rend="italic">s-r-y-ā-r-y-w-s</hi>
+                                    ; Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">s-w-n-ā-n-w-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            and
+                            <hi rend="italic">M-ā-m-ā-l-s</hi>
+                            .
+                            <note n="8" type="footnote">
+                                <p>
+                                    Cf. Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:27:
+                                    <hi rend="italic">f-ā-m-ā-n-kh-s</hi>
+                                    .
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            Parmenides held that the empirical method was erroneous, whether applied alone or in conjunction with analogy. Accordingly, he abandoned the empirical method and relied exclusively on analogy. At his death, Parmenides left three pupils: Thessalus, Acron, and Diocles.
+                            <note n="9" type="footnote">
+                                <p>
+                                    Thessalus of Tralles, was founder of the Methodist school in the middle of the 1st cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    , the great bugbear of Galen and Galenism. Acron of Acragas (Agrigento) was an older contemporary of Hippocrates and was taken up as the hero of the Empiricists in the doxographic tradition. Diocles of Carystus (4th cent.
+                                    <hi rend="smallcaps">BC</hi>
+                                    ), whose writings are preserved in fragments only despite his importance in antiquity, was regarded as one of the leading proponents of Dogmatism (Rationalism).
+                                </p>
+                            </note>
+                            They were unable to agree and quarrelled, ultimately founding three distinct schools of medicine. Acron held that the empirical method alone was the proper way, Diocles argued in favour of analogy alone, while Thessalus maintained that only the means to the end
+                            <note n="10" type="footnote">
+                                <p>
+                                    The word
+                                    <hi rend="italic">ḥīlah</hi>
+                                    could also be translated ‘procedure’, ‘method’, ‘stratagem’, ‘trick’.
+                                </p>
+                            </note>
+                            were of importance, ‘What, after all,’ he would say, ‘is the art of medicine itself but a means to an end?’ They held to these several views until the time of Plato.
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="biography" n="5">
+                        <p>
+                            <hi rend="bold">
+                                3.5 Plato the Physician
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography, corresponding closely to the account in the
+                                        <hi rend="italic">Ṣiwān</hi>
+                                        , is included in all three versions of the treatise. Marginal note in A: ‘I think he is the author of
+                                        <hi rend="italic">On Cautery</hi>
+                                        .’ Ibn al-Qifṭī has a brief entry on this Aflāṭūn who is credited with the
+                                        <hi rend="italic">On Cautery</hi>
+                                        (
+                                        <hi rend="italic">K. al-kayy</hi>
+                                        ) (
+                                        <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                        , 55). Cf. Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Sayyid), 2/1, 284.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>Plato the Physician was the fifth of the eight celebrated physicians whose names have been listed above. He lived to the age of sixty. His time as a child and a student occupied his first forty years, while during the remaining twenty years he was an accomplished man of learning and teacher.</p>
+                        <p>
+                            A period of seven hundred and thirty-five years intervened between the date of Parmenides’ death and the birth of Plato. During that time, there were three separate schools of medicine to which prominent physicians belonged. The first of these was the Empiricist school, which was that of Acron of Agrigento,
+                            <note n="2" type="footnote">
+                                <p>See above.</p>
+                            </note>
+                            Pantacles,
+                            <note n="3" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">b-n-t-kh-l-s</hi>
+                                    ,
+                                    <hi rend="italic">n-t-n-ḥ-l-s</hi>
+                                    , and
+                                    <hi rend="italic">b-n-t-kh-n-s</hi>
+                                    ; cf. also Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 17:
+                                    <hi rend="italic">s-ḥ-s</hi>
+                                    ; and Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">s-kh-l-s</hi>
+                                    . Perhaps Pantacles.
+                                </p>
+                            </note>
+                            Anchialus,
+                            <note n="4" type="footnote">
+                                <p>
+                                    Or e.g. Nicolaos. Arabic
+                                    <hi rend="italic">ʾ-n-q-l-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Philinus,
+                            <note n="5" type="footnote">
+                                <p>
+                                    Philinus of Cos (mid-3rd cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    ) was another known founder of the Empiricist School. He was used by Galen on pharmacology. See
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , ‘Philinus [4]’ (V. Nutton).
+                                </p>
+                            </note>
+                            <hi rend="italic">Gh-ā-f-w-ṭ-y-m-s</hi>
+                            ,
+                            <note n="6" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18, Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">ʾ-gh-ā-f-y-ṭ-y-m-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">ʾ-l-ḥ-s-d-r-w-s</hi>
+                            ,
+                            <note n="7" type="footnote">
+                                <p>
+                                    The manuscripts also present
+                                    <hi rend="italic">ʾ-l-kh-s-n-d-r-w-s</hi>
+                                    ; cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">ʾ-l-ḥ-d-r-w-s</hi>
+                                    ; Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">ʾ-k-s-y-d-w-s</hi>
+                                    . ?Alexandros or Kassandros.
+                                </p>
+                            </note>
+                            and Melissus. The second was the Methodist school, which was followed by Menemachus, Mnaseas,
+                            <note n="8" type="footnote">
+                                <p>
+                                    Menemachus (Arabic
+                                    <hi rend="italic">M-ā-n-ā-kh-s</hi>
+                                    ) and Mnaseas (
+                                    <hi rend="italic">M-ā-s-ā-w-s</hi>
+                                    ) are known Methodists, the latter active under Nero. See the list in the
+                                    <hi rend="italic">Medicus sive Introductio</hi>
+                                    , 4.3 ed. Petit.
+                                </p>
+                            </note>
+                            <hi rend="italic">Gh-r-y-ā-n-s</hi>
+                            , Gregorius,
+                            <note n="9" type="footnote">
+                                <p>
+                                    In Arabic:
+                                    <hi rend="italic">gh-r-gh-w-r-y-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            and
+                            <hi rend="italic">Q-w-n-y-s</hi>
+                            .
+                            <note n="10" type="footnote">
+                                <p>Cf. the rare Greek name Chionēs.</p>
+                            </note>
+                            The third was the Dogmatist school, whose leading adherents were Anaxagoras,
+                            <note n="11" type="footnote">
+                                <p>
+                                    A Presocratic philosopher of the 5th cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    . Probably a mistake for the Dogmatist Praxagoras, the teacher of the great Hellenistic physician, Herophilus.
+                                </p>
+                            </note>
+                            Philotimus,
+                            <hi rend="italic">M-ā-kh-ā-kh-s</hi>
+                            ,
+                            <note n="12" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">m-ā-kh-ā-kh-y-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Siculus,
+                            <note n="13" type="footnote">
+                                <p>
+                                    All manuscripts read
+                                    <hi rend="italic">s-q-w-l-w-s</hi>
+                                    . Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">m-n-q-l-w-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            and Sophus.
+                            <note n="14" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">s-w-f-s</hi>
+                                    . Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">s-w-n-f-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Plato considered their pronouncements and concluded that the Empiricist system, used alone, was deficient and hazardous, while the Dogmatic system, used alone, was unreliable. Accordingly, he advocated the use of both systems simultaneously.
+                        </p>
+                        <p>
+                            The account of John the Grammarian runs as follows:
+                            <note n="15" type="footnote">
+                                <p>Cf. Rosenthal, Isḥāq b. Ḥunayn, 77.</p>
+                            </note>
+                            ‘Plato burned all the works that had been composed by Thessalus
+                            <note n="16" type="footnote">
+                                <p>Cf. above.</p>
+                            </note>
+                            and his followers, and those by every advocate of either empiricism or analogy exclusively, while leaving untouched those ancient works that recommended the use of both systems together.’
+                        </p>
+                        <p>I – Ibn Abī Uṣaybiʿah – say: John the Grammarian’s account of these works, assuming it is accurate and that they really were composed as he asserts, is a refutation of those who allege that Hippocrates was the first to consign the art of medicine to written works, because the individuals who composed them were much earlier than Hippocrates.</p>
+                        <p>
+                            At his death, Plato left six pupils, all of them his sons or other kinsmen of his:
+                            <hi rend="italic">M-y-r-w-n-s</hi>
+                            , to whom Plato had taught, in particular, skill in the assessment of disorders, Furnus,
+                            <note n="17" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">f-w-r-y-w-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            to whom he had taught the art of regimen, Furius,
+                            <note n="18" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">f-w-r-l-s</hi>
+                                    and
+                                    <hi rend="italic">q-w-r-b-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            to whom he had taught skill in bleeding and cautery,
+                            <hi rend="italic">Th-ā-f-r-w-r-s</hi>
+                            ,
+                            <note n="19" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">th-ā-f-r-w-r-s</hi>
+                                    , which might transcribe a theophoric Greek name beginning with Theophr-; cf. also Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 18:
+                                    <hi rend="italic">th-ā-f-r-w-d-w-s</hi>
+                                    ;
+                                    <hi rend="italic">Mukhtār</hi>
+                                    , 46:
+                                    <hi rend="italic">n-ā-f-r-w-n</hi>
+                                    .
+                                </p>
+                            </note>
+                            to whom he had taught skill in the treatment of wounds, Sergius, to whom had had taught the art of treating disorders of the eye, and Phanias, to whom he had taught the skills of setting broken bones and reducing luxations. The art of medicine thus continued to be correctly practised by these men and those who followed them, until the time of Asclepius the Second.
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="biography" n="6">
+                        <p>
+                            <hi rend="bold">
+                                3.6 Asclepius the Second
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This biography is included in all three versions of the treatise. The text is found in
+                                        <hi rend="smallcaps">MSS</hi>
+                                        A, Gc and R. Cf.
+                                        <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                        (ed. Dunlop), 19–20.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>Asclepius the Second was the sixth of the eight celebrated physicians whose names have been listed above.</p>
+                        <p>Asclepius the Second lived to the age of one hundred and ten. His time as a child and a student occupied his first fifteen years, while during the remaining ninety-five years he was an accomplished man of learning and teacher, although for five years of that time he was paralysed. A period of one thousand, four hundred and twenty years intervened between the date of Plato’s death and the birth of Asclepius the Second.</p>
+                        <p>
+                            During that time, a number of physicians of note flourished, including Milo of Agrigento, Themistius the physician, Agathinus,
+                            <note n="2" type="footnote">
+                                <p>
+                                    The Arabic reads
+                                    <hi rend="italic">ʾ-q-n-ī-n-w-s</hi>
+                                    ; this
+                                    <hi rend="italic">rasm</hi>
+                                    could easily be read
+                                    <hi rend="italic">ʾ-gh-th-y-n-w-s</hi>
+                                    . On Agathinus, see above Ch. 3.2.
+                                </p>
+                            </note>
+                            <hi rend="italic">F-r-d-y-q-l-w-s</hi>
+                            , Andromachus the Elder,
+                            <note n="3" type="footnote">
+                                <p>
+                                    Personal physician of Nero (mid-1st cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    ) and creator of a celebrated theriac, see
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , art. ‘Andromachus [4]’ (V. Nutton).
+                                </p>
+                            </note>
+                            who lived to the age of forty and was the first to create a theriac, Heracleides the First,
+                            <note n="4" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">ʾ-b-r-q-l-ī-d-s</hi>
+                                    , which is certainly (reading
+                                    <hi rend="italic">yāʾ</hi>
+                                    for
+                                    <hi rend="italic">bāʾ</hi>
+                                    ) Greek Heracl(e)ides, perhaps Heracleides of Cos, the father of Hippocrates, cf. below; or the real and important Heracleides of Tarentum of the 1st cent.
+                                    <hi rend="smallcaps">AD</hi>
+                                    :
+                                    <hi rend="italic">Brill’s New Pauly</hi>
+                                    , art. ‘Heraclides [27]’ (V. Nutton).
+                                </p>
+                            </note>
+                            who lived to the age of sixty, Philagrius,
+                            <note n="5" type="footnote">
+                                <p>
+                                    Arabic
+                                    <hi rend="italic">ʾ-f-l-ā-gh-w-r-s</hi>
+                                    , undoubtedly a reference to the 3rd/4th cent. author of over 70 medical treatises. Cf. Ch. 5.2.2.
+                                </p>
+                            </note>
+                            who lived to the age of thirty-five, Maximinus,
+                            <note n="6" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">m-ā-kh-m-y-n-s</hi>
+                                    ,
+                                    <hi rend="italic">m-ā-kh-m-s-y-s</hi>
+                                    , and
+                                    <hi rend="italic">m-ā-kh-y-n-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">B-s-ṭ-s</hi>
+                            ,
+                            <note n="7" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">b-s-ṭ-s</hi>
+                                    ; if we dot the first letter to read the
+                                    <hi rend="italic">yāʾ</hi>
+                                    , this could be a transliteration of Justus. Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 19:
+                                    <hi rend="italic">s-ṭ-s</hi>
+                                    ; Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">n-s-ṭ-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">S-y-q-w-r-s</hi>
+                            ,
+                            <note n="8" type="footnote">
+                                <p>
+                                    Cf. Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">m-n-y-f-w-r-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Gallus,
+                            <hi rend="italic">M-ā-b-ā-ṭ-y-ā-s</hi>
+                            ,
+                            <note n="9" type="footnote">
+                                <p>
+                                    Cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 19:
+                                    <hi rend="italic">m-l-y-ā-ṭ-s</hi>
+                                    ; Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">m-ā-r-ā-ṭ-n-ā-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Heraclas
+                            <note n="10" type="footnote">
+                                <p>
+                                    The manuscripts present
+                                    <hi rend="italic">ʾ-b-r-q-l-s</hi>
+                                    ; the
+                                    <hi rend="italic">bāʾ</hi>
+                                    is easily changed to
+                                    <hi rend="italic">yāʾ</hi>
+                                    suggesting Ἡράκλειος or Ἡρακλᾶς or Ἡρακλείδης.
+                                </p>
+                            </note>
+                            the physician, who lived to the age of a hundred,
+                            <hi rend="italic">M-ā-n-ā-ṭ-ī-s</hi>
+                            , Pythagoras the physician, who lived to the age of seventy,
+                            <hi rend="italic">M-ā-kh-m-y-s</hi>
+                            ,
+                            <note n="11" type="footnote">
+                                <p>
+                                    Cf. Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid), 2/1:270:
+                                    <hi rend="italic">m-ā-kh-ī-n-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            Gallus,
+                            <note n="12" type="footnote">
+                                <p>Ghālūs makes a second appearance.</p>
+                            </note>
+                            and Marinus, who lived to the age of a hundred.
+                        </p>
+                        <p>
+                            Asclepius the Second, having subjected the reasoning of the ancients to critical scrutiny, decided that Plato’s doctrine was correct and should be followed. At his death, Asclepius the Second left three pupils, all of them members of his own family, with no outsiders among them. They were the only physicians of the age, and their names were Hippocrates, son of Heracleides,
+                            <note n="13" type="footnote">
+                                <p>
+                                    The manuscripts read
+                                    <hi rend="italic">ʾ-b-r-q-l-s</hi>
+                                    as above (where Heraclas has been suggested). But since the father of Hippocrates is meant, the interpretation is clear.
+                                </p>
+                            </note>
+                            Macarius,
+                            <note n="14" type="footnote">
+                                <p>
+                                    The manuscripts read:
+                                    <hi rend="italic">m-ā-gh-ā-r-ī-n-s</hi>
+                                    ; cf. Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , 19:
+                                    <hi rend="italic">m-ā-gh-ā-r-ī-s</hi>
+                                    .
+                                </p>
+                            </note>
+                            and
+                            <hi rend="italic">w-ā-r-kh-s</hi>
+                            .
+                            <note n="15" type="footnote">
+                                <p>?Argeius.</p>
+                            </note>
+                            No more than a few months after the death of Asclepius, Macarius died in his turn, followed shortly after by
+                            <hi rend="italic">w-ā-r-kh-s</hi>
+                            .
+                        </p>
+                        <p>Consequently, Hippocrates remained as the only physician of his time. His virtues were such that his name became a byword for the ideal physician and philosopher. Ultimately, he was even revered as an object of worship. He it was who strengthened Dogmatism and Empiricism to such a remarkable extent that they could not be demolished or destroyed by any adversary. Moreover, he taught outsiders the art of medicine on the same footing as his own offspring. This he did because he was afraid that otherwise the art of medicine might vanish and be forever lost to the world. This is a matter that we shall consider in the next chapter.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

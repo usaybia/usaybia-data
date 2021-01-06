@@ -1,0 +1,1880 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:py="http://codespeak.net/lxml/objectify/pytype" xml:id="arabicLit.textgroup.work.H01" py:pytype="TREE">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 6</title>
+				<title xml:lang="en" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+				<author xml:lang="en" ref="https://usaybia.net/person/1">Ibn Abī Uṣaybiʿah</author>
+				<sponsor ref="https://www.uni-muenchen.de">
+					<orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				<sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					<orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				<funder ref="https://www.bmbf.de/">
+					<orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				<principal ref="#ngibson">Nathan P. Gibson</principal>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<respStmt>
+					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				</respStmt>				
+				<!-- <respStmt>
+					<resp>Edited by</resp>
+					<name type="person">Insert other names of people who edit this document </name>
+				</respStmt> -->
+			</titleStmt>
+           <publicationStmt>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
+           </publicationStmt>
+           <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">6</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2020-08-28" who="#ngibson">Added header to downloaded text.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="translation" n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1" xml:lang="en-Latn">
+                <div type="textpart" subtype="chapter" n="6">
+                    <div type="textpart" subtype="biography" n="1">
+                        <head>Chapter 6 Alexandrian Physicians and Their Christian and Other Contemporaries</head>
+                        <head>Bruce Inksetter and Simon Swain</head>
+                        <p>
+                            <hi rend="bold">
+                                [6.1.1]
+                                <note n="1" type="footnote">
+                                    <p>
+                                        This chapter is included in all three versions of the
+                                        <hi rend="italic">Classes of Physicians</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p>
+                            According to an account by al-Mukhtār ibn Ḥasan ibn Buṭlān,
+                            <note n="2" type="footnote">
+                                <p>
+                                    The 5th/11th cent. Christian physician of Baghdad, best known for his
+                                    <hi rend="italic">Taqwīm al-ṣiḥḥah</hi>
+                                    (
+                                    <hi rend="italic">Tabulation of Health</hi>
+                                    ), ‘a synopsis of hygiene and macrobiotics’ (Schacht,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    <hi rend="superscript">2</hi>
+                                    s.v.) arranged in the form of tables; see Elkhadem,
+                                    <hi rend="italic">Tacuini sanitatis</hi>
+                                    . There is a biography of him at Ch. 10.38.
+                                </p>
+                            </note>
+                            the Alexandrians who summarized Galen’s Sixteen Books
+                            <note n="3" type="footnote">
+                                <p>A selection of treatises intended for beginners which comprised the core of the medical curriculum taught in Alexandria in late Antiquity. See Vol. 1, pp. 173–176.</p>
+                            </note>
+                            and composed commentaries upon them were seven in number:
+                            <note n="4" type="footnote">
+                                <p>
+                                    On the names here see Walbridge,
+                                    <hi rend="italic">Epitomes</hi>
+                                    , pp. xxxiii–xlii. As he notes, Ibn Buṭlān (Schacht &amp; Meyerhof,
+                                    <hi rend="italic">Medico-Philosophical Controversy</hi>
+                                    , 59–60, trans. 93–94) gives the list as ‘Stephanus, Persius (
+                                    <hi rend="italic">B-ā-r-s-y-s</hi>
+                                    ;
+                                    <hi rend="italic">Bārsīyus</hi>
+                                    , see n. 5 below), Gessius,
+                                    <hi rend="italic">ʾ-r-k-ī-l-ā-w-s</hi>
+                                    (
+                                    <hi rend="italic">Arkīlāwus</hi>
+                                    ; see n. below),
+                                    <hi rend="italic">ʾn-q-ī-l-ā-w-s</hi>
+                                    (
+                                    <hi rend="italic">Anqīlāwus</hi>
+                                    ; see n. below), Palladius, and John the Grammarian’. See further Ch. 5.2.1 notes.
+                                </p>
+                            </note>
+                            Stephanus, Gessius, Theodosius,
+                            <note n="5" type="footnote">
+                                <p>
+                                    In place of Theodosius (
+                                    <hi rend="italic">Th-ā-dh-w-s-y-s</hi>
+                                    ;
+                                    <hi rend="italic">Thādhūsīyus</hi>
+                                    ) Ibn Buṭlān offers
+                                    <hi rend="italic">Bārsīyus</hi>
+                                    (cf. above). There is no need to change this to
+                                    <hi rend="italic">Mārīnūs</hi>
+                                    as Schacht &amp; Meyerhof do with an eye on Yaḥyā al-Naḥwī (Rosenthal, ‘Isḥāq b. Ḥunayn’, 69,
+                                    <hi rend="smallcaps">MS</hi>
+                                    <hi rend="italic">Māyinūs</hi>
+                                    , corrected to
+                                    <hi rend="italic">Mārinīyus</hi>
+                                    ), Dunlop,
+                                    <hi rend="italic">Ṣiwān al-ḥikmah</hi>
+                                    , p. 25 l. 381, Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾīkh al-ḥukamāʾ</hi>
+                                    , 356;
+                                    <hi rend="smallcaps">IAU</hi>
+                                    Ch. 5.2.1
+                                    <hi rend="italic">Mārīnūs</hi>
+                                    . The
+                                    <hi rend="italic">rasm</hi>
+                                    of
+                                    <hi rend="italic">Bārsīyus</hi>
+                                    is easily changed into
+                                    <hi rend="italic">Thādhūsīyus</hi>
+                                    .
+                                </p>
+                            </note>
+                            Archelaus,
+                            <note n="6" type="footnote">
+                                <p>
+                                    The
+                                    <hi rend="smallcaps">MSS</hi>
+                                    of
+                                    <hi rend="smallcaps">IAU</hi>
+                                    present
+                                    <hi rend="italic">A-k-ī-l-ā-w-s</hi>
+                                    ; but the text of Ibn Buṭlān has
+                                    <hi rend="italic">Arkīlāwus</hi>
+                                    , which we follow. Schacht and Meyerhof 93 n. 9 rightly take this as Archelaus. An Archelaus who commented on Galen is known from late antiquity: Irvine &amp; Temkin, ‘Akīlāōs’, esp. 18–19.
+                                </p>
+                            </note>
+                            Nicolaus,
+                            <note n="7" type="footnote">
+                                <p>
+                                    <hi rend="italic">Anqīlāwus</hi>
+                                    (so also Ibn Buṭlān). Nicolaus is speculative, but cf. Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾīkh al-ḥukamāʾ</hi>
+                                    , 356.18, gives an alternative form
+                                    <hi rend="italic">Nīqulāʾus</hi>
+                                    (see 5.2.1 n. 2), and at least this is a common Greek name (which of course may have misled Ibn al-Qifṭī). Cf. Ch. 4.1.11.3.
+                                </p>
+                            </note>
+                            Palladius, and John the Grammarian,
+                            <note n="8" type="footnote">
+                                <p>
+                                    Marginal note in A: ‘Note. Yuwānīs, that is, Yaḥyā in Greek (
+                                    <hi rend="italic">bi-l-Rūmī</hi>
+                                    )’. Confusion reigns about the identity or identities of John the Grammarian (Yaḥyā al-Naḥwī).
+                                    <hi rend="smallcaps">IAU</hi>
+                                    includes substantial biographical material about him in what follows, much of which draws on the career of the distinguished Christian philosopher John Philoponus (also known as John the Grammarian), who was known in Arabic but did not write medical works. See notes below and Ch. 3.2 n. 2.
+                                </p>
+                            </note>
+                            all of whom followed the way of the Messiah. Nicolaus the Alexandrian is said to have been foremost among them, and to have been primarily responsible for editing the Sixteen Books.
+                        </p>
+                        <p>
+                            I – Ibn Abī Uṣaybiʿah – say that the Alexandrians read only the Sixteen Books of Galen at the academy where the art of medicine was taught in Alexandria.
+                            <note n="9" type="footnote">
+                                <p>
+                                    ‘Alexandria in Late Antiquity could draw on the legacy of nearly a thousand years, and it attracted promising students and proficient masters of the medical art. The Library of Alexandria no longer existed, but there were numerous
+                                    <hi rend="italic">akadēmia</hi>
+                                    s (‘academies’) and
+                                    <hi rend="italic">museion</hi>
+                                    s (literally ‘museums’), medico-philosophical schools-cum-libraries where both medicine and philosophy were taught side by side.’ Pormann &amp; Savage-Smith,
+                                    <hi rend="italic">Medieval Islamic Medicine</hi>
+                                    , 13.
+                                </p>
+                            </note>
+                            This was done systematically: each day, the masters would agree on a particular passage, and it was that passage that would be read and explicated that day. Subsequently, however, they made summaries and abridgements of the books so they were easily committed to memory and readily understandable. At a still later date, each of the seven Alexandrians composed his own commentary on the Sixteen Books.
+                        </p>
+                        <p>
+                            Of these commentaries, I have found that of Gessius to be superior to those of his fellows for its focus on the significant and informative aspects of the works. One of these Alexandrians, namely John the Grammarian al-Askalānī,
+                            <note n="10" type="footnote">
+                                <p>
+                                    The ancient Palestinian city of Ascalon (Ἀσκάλων), Arabic
+                                    <hi rend="italic">ʿAsqalān</hi>
+                                    , modern Ashkelon. The town flourished in late antiquity and had its own bishop. See Vol. 1, p. 154 n. 40.
+                                </p>
+                            </note>
+                            was granted such a long life that he was still living at the time of the advent of Islam.
+                        </p>
+                        <p>
+                            <hi rend="bold">[6.1.2]</hi>
+                        </p>
+                        <p>
+                            The following account is from the
+                            <hi rend="italic">Fihrist</hi>
+                            of Muḥammad ibn Isḥāq al-Nadīm al-Baghdādī:
+                            <note n="11" type="footnote">
+                                <p>
+                                    Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid) 2/1:178–179, (Flügel) 254–255.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    John the Grammarian was a pupil of Severus,
+                                    <note n="12" type="footnote">
+                                        <p>
+                                            I.e. the anti-Chalcedonian patriarch of Antioch 512–518, thereafter in exile; see below. Some of the details here recall the life of the philosopher John Philoponus, who was sympathetic to the thought of Severus (e.g. Lang,
+                                            <hi rend="italic">John Philoponus</hi>
+                                            ), though he also wrote an
+                                            <hi rend="italic">Against Severus</hi>
+                                            (Suda ι 464 s.v. Ἰωάννης). Philoponus was not however himself a bishop and he died around 575 so the John the Grammarian who was alive at the time of the conquest of Egypt by ʿAmr ibn al-ʿĀṣ is a different figure, whose chronology was falsely aligned with that of Philoponus (see below).
+                                        </p>
+                                    </note>
+                                    and at the beginning of his career acted as bishop over several Egyptian churches, adhering in belief to the Jacobite sect.
+                                    <note n="13" type="footnote">
+                                        <p>
+                                            The adherents of the ‘miaphysite’ (i.e. accepting a single nature for Christ) Syrian orthodox church were later known as Jacobites by the adherents of the ‘Chalcedonian’ orthodoxy adopted by the Byzantine state (Council of Chalcedon 451; see below) after the 6th cent. bishop of Edessa, Jacob Baradaeus, who was instrumental in ordaining clergy in Egypt and Syria and complemented the theological miaphysitism developed by Severus of Antioch. The modern historical literature tends to speak of
+                                            <hi rend="italic">monophysite</hi>
+                                            (e.g. Frend,
+                                            <hi rend="italic">Monophysite Movement</hi>
+                                            ) but (the equally modern term)
+                                            <hi rend="italic">miaphysite</hi>
+                                            better reflects the orthodox doctrine of the eastern churches that was ultimately based on Cyril of Alexandria’s creed of Christ’s ‘one nature enfleshed’ (μία φύσις σεσαρκωμένη), while
+                                            <hi rend="italic">monophysite</hi>
+                                            may be retained for battles within the western churches (as below here on Eutyches et al.).
+                                        </p>
+                                    </note>
+                                    But then he turned against the belief in the Trinity professed by Christians, and as a result a conclave of bishops was convened to examine him. So ably did he argue his case, however, that his accusers were quite won over: they sought to conciliate him, asking him in respectful terms to renounce the position he had adopted and to desist from proclaiming it. In vain: he stood his ground, and in the end he was removed from his office.
+                                </p>
+                                <p>
+                                    When Egypt was conquered by the army of ʿAmr ibn al-ʿĀṣ, the victorious general called on John the Grammarian to pay his respects and acknowledge his eminence.
+                                    <note n="14" type="footnote">
+                                        <p>Alexandria fell in 642.</p>
+                                    </note>
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            The following account is taken from the
+                            <hi rend="italic">Annotations</hi>
+                            of the learned Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī:
+                            <note n="15" type="footnote">
+                                <p>
+                                    Also called al-Manṭiqī (the logician), one of the leading philosophers of the 10th cent. (d. 375/985), and best known for the ascription to him of the
+                                    <hi rend="italic">Cabinet of Wisdom</hi>
+                                    . See Kraemer,
+                                    <hi rend="italic">Philosophy</hi>
+                                    . His
+                                    <hi rend="italic">Notes on Philosophy</hi>
+                                    (
+                                    <hi rend="italic">Taʿālīq ḥikmiyyah</hi>
+                                    ) survive in quotations: id., 91, cf. 25. Cf. Vol. 1, p. 87
+                                </p>
+                            </note>
+                            ‘John the Grammarian was a contemporary of ʿAmr ibn al-ʿĀṣ, who called on him’.
+                            <note n="16" type="footnote">
+                                <p>
+                                    The source of the chronological error placing Philoponus this late is the date given by Philoponus in his commentary and attack on Aristotle’s
+                                    <hi rend="italic">Physics</hi>
+                                    (title no. 5 at § 6.2), ‘the 10th day of the month
+                                    <hi rend="italic">Pachōn</hi>
+                                    in year 233 of the era of Diocletian’ (=
+                                    <hi rend="smallcaps">AD</hi>
+                                     517/18) (218a11–14). This was corrupted in the transmission and is reported in Ibn al-Nadīm’s
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid 2/1:180) as 343 (=
+                                    <hi rend="smallcaps">AD</hi>
+                                     627/28).
+                                </p>
+                            </note>
+                            The same author tells us, ‘John the Grammarian was a Christian of Alexandria. He had studied under Ammonius,
+                            <note n="17" type="footnote">
+                                <p>
+                                    The comments about John here continue to recall the career of John Philoponus, but with plenty of fiction/confusion with a John who wrote on medicine. Philoponus (ca. 490–575), was a pupil of Ammonius (see here below) and was sometimes known as ‘the Grammarian’ (cf. e.g.
+                                    <hi rend="italic">Suda</hi>
+                                    ι 464). Three works on grammar and language survive but he is known principally for a number of important and surviving Aristotelian commentaries. He also wrote theology from a monophysite perspective and was later condemned for his interpretation of the Trinity (cf.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    ’s report above). No medical works are known.
+                                </p>
+                                <p>
+                                    The Neoplatonist Proclus lived 412–485. His
+                                    <hi rend="italic">De aeternitate mundi</hi>
+                                    is largely preserved in Philoponus’
+                                    <hi rend="italic">De aeternitate mundi contra Proclum</hi>
+                                    (written 529; no doubt the source of the supposed contemporaneity of the two men). This was well known in Arabic philosophy and survives in two different, incomplete versions: Wakelnig, ‘Other Arabic Version’,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    <hi rend="superscript">2</hi>
+                                    art., ‘Buruqlus’ 2.
+                                    <hi rend="italic">a</hi>
+                                    (Walzer); cf. title nos. 27, 34 below at Ch. 6.2.
+                                </p>
+                                <p>
+                                    The Neoplatonist Ammonius taught in Alexandria in the first quarter of the sixth cent. and had studied with Proclus in Athens. The comment in the text about Proclus suits him better. For Ammonius’ legacy in Islam, see
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                        Three
+                                    </hi>
+                                    art. ‘Ammonius (Ps.) son of Hermias’ (U. Rudolph).
+                                </p>
+                            </note>
+                            who had himself studied under Proclus. John himself tells us that Proclus was still alive in his own day, but that he was so elderly as no longer to be competent as an authority.’
+                        </p>
+                        <p>
+                            <hi rend="bold">[6.1.3]</hi>
+                        </p>
+                        <p>
+                            The following account is taken from
+                            <hi rend="italic">The Merits of Physicians</hi>
+                            <note n="18" type="footnote">
+                                <p>
+                                    <hi rend="italic">Manāqib al-aṭibbāʾ</hi>
+                                    . For the following cf. Ibn al-Qifṭī,
+                                    <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                    , 356–357.
+                                </p>
+                            </note>
+                            by ʿUbayd Allāh ibn Jibrīl:
+                            <note n="19" type="footnote">
+                                <p>Abū Saʿīd ʿUbayd Allāh ibn Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ, an eminent 5th/11th cent. physician and a distinguished member of the Bukhtīshūʿ family. His biography is found at Ch. 8.6. He is cited at length in Ch. 5.1 on the chronology of Galen; see 5.1.7–5.1.13. The account here, especially the events of the Christian Councils of Ephesus and Chalcedon, is a farrago of fact and fiction.</p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>John the Grammarian was skilled in the sciences of grammar, logic and philosophy. In addition, he composed commentaries on many works dealing with the art of medicine. He was known primarily as a philosopher, owing to his mastery in that domain, for he ranked among the foremost philosophers of the age.</p>
+                                <p>
+                                    He acquired his skill in philosophy as a result of something that happened to him when he was young and earning his living as a wherryman. He had a great love of knowledge even then, however, and one day, when his passengers chanced to be a group from the Museum,
+                                    <note n="20" type="footnote">
+                                        <p>
+                                            Literally ‘House of Knowledge’. According to Arabic sources the House came to exist in Alexandria as a result of Alexander’s provision for the city: Barhebraeus, ed. Ṣālḥānī,
+                                            <hi rend="italic">Nations</hi>
+                                            , 34 and Abū l-Ṣalt Umayyah,
+                                            <hi rend="italic">al-Risālah al-Miṣriyyah</hi>
+                                            , i:29. The real Museum at Alexandria, a foundation of Ptolemy 
+                                            <hi rend="smallcaps">I</hi>
+                                            , was one of the most famous institutions of learning in antiquity:
+                                            <hi rend="italic">Brill’s New Pauly</hi>
+                                            , art. ‘Mouseion’ (Glock). Cf. above for the ‘academy where the art of medicine was taught’ (
+                                            <hi rend="italic">mawḍiʿ taʿlīm al-ṭibb</hi>
+                                            ).
+                                        </p>
+                                    </note>
+                                    including a master who taught on the island where Alexandria stands,
+                                    <note n="21" type="footnote">
+                                        <p>Pharos, now the Raʾs al-Tīn quarter of the city of Alexandria and the Citadel of Qaitbay.</p>
+                                    </note>
+                                    he overheard them discussing and arguing about the theories that they had been investigating. He was captivated at once, and began to look into the domain of learning. Once he realized what it entailed, he reflected, ‘Here I am, over forty years old, with no skill of any kind. All I know how to do is pilot this wherry. How can I possibly hope to succeed at any aspect of learning?’ As these thoughts were running through his mind, what should he see but an ant that was trying to carry a date pit up a slope. It lost its grip on its burden repeatedly and saw it roll back down, but it persisted indefatigably, and by degrees got the pit higher and higher up the slope. The struggle continued all day long as John watched in fascination, and in the end the insect succeeded in dragging the date pit up to where it wanted it. At this, John the Grammarian said to himself, ‘If a tiny creature as feeble as this can attain its goal through persistent effort, surely I can do as well, or better.’ He sold his wherry forthwith, entered the Museum, and embarked on the study of grammar, language and logic, in all of which he proved to be outstandingly brilliant. He was dubbed ‘the Grammarian’ (
+                                    <hi rend="italic">al-naḥwī</hi>
+                                    ) because he had begun with the subject of grammar, and, indeed, he was particularly renowned for his accomplishments in that domain, on which he composed a number of works, including both commentaries and original studies.
+                                </p>
+                                <p>
+                                    I
+                                    <note n="22" type="footnote">
+                                        <p>
+                                            Ibn al-Qifṭī does not include the following information on John’s role in two famous 5th cent. church councils but
+                                            <hi rend="smallcaps">IAU</hi>
+                                            continues to draw on ʿUbayd Allāh, who had good access to Christian sources. The account is notable for its favourable presentation of Eutyches. While Eutyches’ theological position (cf. below) would not have suited the Nestorian Bukhtīshūʿ family to which ʿUbayd Allāh belonged, his opposition to the Byzantine state’s Chalcedonian orthodoxy – he ‘never accepted Melkite doctrine’ (below) – would have been congenial.
+                                        </p>
+                                    </note>
+                                    have read in a history of the Christians that John the Grammarian was present at the Fourth Council held in a city named Chalcedon.
+                                    <note n="23" type="footnote">
+                                        <p>
+                                            An ancient town in Asia Minor, located across the Bosporus from Byzantium, now the Kadıköy district of Istanbul. The Fourth Ecumenical Council was convened there in
+                                            <hi rend="smallcaps">AD</hi>
+                                             451 by the Byzantine Emperor Marcian (r. 450–457), with the approval of the Roman Pope Leo the Great (r. 440–461). The Council determined that Christ was ‘made known in two natures … the property of each nature being preserved and coalescing in one
+                                            <hi rend="italic">prosopon</hi>
+                                            and one
+                                            <hi rend="italic">hypostasis</hi>
+                                            ’ (
+                                            <hi rend="italic">Acta conciliorum oecumenicorum</hi>
+                                            <hi rend="smallcaps">II</hi>
+                                            , 1, 2, pp. 126–130; trans. Kelly,
+                                            <hi rend="italic">Creeds</hi>
+                                            , 340). The Oriental orthodox group of churches (including the Coptic Church, the Armenian Orthodox Church and the Syrian Orthodox Church) rejected the conclusions of the Council. For Chalcedon and the background alluded to here, see Chadwick,
+                                            <hi rend="italic">Church</hi>
+                                            , chs 52–53.
+                                        </p>
+                                    </note>
+                                    The Council comprised six hundred and thirty bishops, who sat in judgement on Eutyches (that is, John the Grammarian – the name Eutyches means ‘Abū Saʿīd’ in Arabic) and his colleagues.
+                                    <note n="24" type="footnote">
+                                        <p>
+                                            Eutyches, a Constantinopolitan archimandrite with monophysite beliefs, played a key role in the Christological battles of the first half of the 5th cent. before the death of his protector, Theodosius 
+                                            <hi rend="smallcaps">II</hi>
+                                            , in 450. His enemy, Eusebius bishop of Dorylaeum, had him denounced by the Patriarch of Constantinople, Flavian (448). However within a few months Eutyches was able to have himself restored to communion and intrigued to secure the deposition of Flavian at the ‘Robber’ Council of Ephesus (449) under the presidency of the archbishop of Alexandria, Dioscorus. After Theodosius’ death, however, the late emperor’s sister Pulcheria and her consort Marcian rejected the monophysite leanings of the previous regime, confined and then banished (
+                                            <hi rend="italic">pace</hi>
+                                            ʿUbayd Allāh) the disgraced Eutyches, and condemned and exiled Dioscorus at Chalcedon for disloyalty to Constantinopolitan patriarchy.
+                                        </p>
+                                    </note>
+                                    Eutyches was a physician and sage.
+                                    <note n="25" type="footnote">
+                                        <p>The identification of Eutyches, who was neither a physician nor a philosopher, and John Philoponus is puzzling. The explanation of Eutyches’ name in Arabic was of course obvious to Abū Saʿīd ʿUbayd Allāh; and though he would not have approved of Eutyches’ monophysite inclination, this may have been the basis for the assumed identity with Philoponus.</p>
+                                    </note>
+                                    Although he was pronounced anathema, he was not banished, in contrast to others who had been so condemned, for he was skilled in the art of medicine, and his colleagues needed his ability. Accordingly, he remained in Constantinople and lived there unmolested until the Emperor Marcian died.
+                                </p>
+                                <p>John the Grammarian, who is also known by the Greek name ‘Philoponus’ (that is, ‘lover of toil’), was one of the seven learned men who prepared summaries of the Sixteen Books and other works in Alexandria. He also composed many treatises on medical and other matters.</p>
+                                <p>
+                                    Thanks to his learning, his virtue, and his skill in the art of medicine, then, he was allowed to go on living in Constantinople. The successor of the Emperor Marcian was the Emperor
+                                    <hi rend="italic">Asṭīriyūs</hi>
+                                    ,
+                                    <note n="26" type="footnote">
+                                        <p>
+                                            Marcian’s successor on the throne of Constantinople was actually Leo 
+                                            <hi rend="smallcaps">I</hi>
+                                            (r. 457–474). ʿUbayd Allāh may be referring in his confusion to the later emperor Anastasius (who was sympathetic to monophysite tendencies and appointed Severus to Antioch) or the earlier Arcadius (
+                                            <hi rend="italic">kāf</hi>
+                                            and
+                                            <hi rend="italic">ṭāʾ</hi>
+                                            may be confused by scribes, as also
+                                            <hi rend="italic">dāl</hi>
+                                            and
+                                            <hi rend="italic">rāʾ</hi>
+                                            , giving ‮أسطيريوس‬‎ for an assumed ‮أركيديوس‬‎). In any case the events related refer to Marcian’s
+                                            <hi rend="italic">predecessor</hi>
+                                            , Theodosius 
+                                            <hi rend="smallcaps">II</hi>
+                                            , and the temporary restoration of Eutyches at the Council of Ephesus, as explained above.
+                                        </p>
+                                    </note>
+                                    who, as it happened, became gravely ill two years after Eutyches had been pronounced anathema, as we have seen. The physician was consulted in the case, examined the Emperor, and treated him, and in due course he recovered from his illness. ‘Ask for what you will,’ said the grateful Emperor. ‘Imperial Majesty,’ replied Eutyches, ‘there is indeed something that you can do for me. The Bishop of Dorylaeum and I have become enemies. He has treated me unjustly, having encouraged the Patriarch of Constantinople, Archbishop Flavian,
+                                    <note n="27" type="footnote">
+                                        <p>Archbishop of Constantinople, 446–449.</p>
+                                    </note>
+                                    to convene a ‘synod’ (that is, a council) which out of enmity wrongfully pronounced me anathema. I should be most grateful, Sire, if you would convene another council to review the matter.’ ‘I shall be happy to do so, if God, exalted is He, so wills,’ replied the Emperor.
+                                </p>
+                                <p>
+                                    The Emperor was as good as his word. He wrote to Dioscorus, the Patriarch of Alexandria, and to John, the Patriarch of Antioch, ordering them to come to Constantinople. Dioscorus obeyed, with thirteen bishops in his train, but the Patriarch of Antioch procrastinated and in the end did not appear.
+                                    <note n="28" type="footnote">
+                                        <p>John of Antioch died 441. His delaying is a reference to his involvement with the Council of Ephesus in 431.</p>
+                                    </note>
+                                    The Emperor therefore instructed Dioscorus to examine Eutyches’ case and withdraw the pronunciation of anathema unconditionally. ‘If you withdraw the pronunciation of anathema,’ said the Emperor to him menacingly, ‘I shall reward you generously and abundantly, and if you do not I shall have you put to death painfully.’ The Patriarch, having decided that being rewarded was preferable to being put to death, convened a conclave consisting of himself and his thirteen bishops, together with the other prelates who had accompanied them. Taking a lenient view of the matter, they declared the pronunciation of anathema withdrawn. At that, the bishop of Dorylaeum and his colleagues walked out and left Constantinople.
+                                    <note n="29" type="footnote">
+                                        <p>Eusebius, having been deposed, took shelter in Rome, soon to return under the new regime and to achieve the removal of Eutyches himself.</p>
+                                    </note>
+                                    They had created confusion in the matter of Church doctrine, and it was for that reason that Dioscorus had taken such a favourable view of Eutyches’ case. Eutyches, as we have seen, came to be known as John the Grammarian. He remained a staunch Jacobite to the day of his death, who never accepted Melkite
+                                    <note n="30" type="footnote">
+                                        <p>I.e. the Chalcedonian doctrine practised by eastern supporters of the Byzantine emperor.</p>
+                                    </note>
+                                    doctrine.
+                                </p>
+                            </quote>
+                        </cit>
+                    </div>
+                    <div type="textpart" subtype="biography" n="2">
+                        <p>
+                            <hi rend="bold">[6.2]</hi>
+                        </p>
+                        <p>
+                            John the Grammarian was the author of the following works:
+                            <note n="31" type="footnote">
+                                <p>
+                                    For bibliographical information on John the Grammarian/Yaḥyā al-Naḥwī, see Sezgin,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">GAS</hi>
+                                    </hi>
+                                    <hi rend="smallcaps">III</hi>
+                                    , 157 ff.; Ullmann,
+                                    <hi rend="italic">Die Medizin im Islam</hi>
+                                    , 89 ff. For Philoponus’ works in the Arabic biographical sources, see
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    <hi rend="italic">
+                                        <hi rend="superscript">2</hi>
+                                    </hi>
+                                    art. ‘Yaḥyā al-Naḥwī’ (R. Wisnovsky).
+                                    <hi rend="smallcaps">IAU</hi>
+                                    may still be drawing on ʿUbayd Allāh here, since the list is different from those in our other sources, though he may have extracted information on the Aristotle commentaries from the listings in Ibn al-Nadīm (
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid) 2/1:161–163, 166, 169). Ibn al-Nadīm promises (
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid) 2/1:180) but does not in fact list John’s commentaries on Galen. The books of John’s refutations (titles 27–32) could also be drawn from the
+                                    <hi rend="italic">Fihrist</hi>
+                                    ; see Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid) 2/1:179–180, omitting the work that is a commentary on rather than a refutation of
+                                    <hi rend="italic">Problems</hi>
+                                    (for which see title 7 here).
+                                    <hi rend="smallcaps">IAU</hi>
+                                    seems to have coordinated the order and wording of titles 8–23 with that of the main books studied by pupils in the seven stages of the study of Galen as outlined below from Ibn Riḍwān (title 24 is filed by Ibn Riḍwān as subordinate to
+                                    <hi rend="italic">Natural Faculties</hi>
+                                    , titles 25–26 are not mentioned). Note the omission of John’s
+                                    <hi rend="italic">Taʾrīkh</hi>
+                                    (so also
+                                    <hi rend="italic">Fihrist</hi>
+                                    ; cf. Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Sayyid) 2/1:269) and his commentary on
+                                    <hi rend="italic">De antidotis</hi>
+                                    (Ch. 5.1.4 with n. 10).
+                                </p>
+                            </note>
+                        </p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Categories</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. qāṭīghūriyās li-Arisṭūṭālīs</hi>
+                                ).
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Prior Analytics</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. anūlīṭīqā l-ūlā li-Arisṭūṭālīs</hi>
+                                ); John’s commentary extends only as far as the discussion of the syllogistic figures.
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Posterior Analytics</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. anūlīṭīqā l-thāniyah li-Arisṭūṭālīs</hi>
+                                ).
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Topics</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. ṭūbīqā li-Arisṭūṭālīs</hi>
+                                ).
+                            </item>
+                            <label>5.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Physics</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-samāʿ al-ṭabīʿī li-Arisṭūṭālīs</hi>
+                                ).
+                            </item>
+                            <label>6.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">On Generation and Corruption</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-kawn wa-l-fasād li-Arisṭū</hi>
+                                ).
+                            </item>
+                            <label>7.</label>
+                            <item>
+                                Commentary on Aristotle’s
+                                <hi rend="italic">Problems</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. mā bāl li-Arisṭū</hi>
+                                ).
+                                <note n="32" type="footnote">
+                                    <p>
+                                        For the title, cf. Greek διὰ τί, and see Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , p. 93, Iskandar,
+                                        <hi rend="italic">Descripive List</hi>
+                                        , 53.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>8.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">The Sects</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-firaq li-Jālīnūs</hi>
+                                ).
+                                <note n="33" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 4; title no. 3 in the list of Galen’s works at Ch. 5.1.37.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>9.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">The Small Art</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-ṣināʿah al-ṣaghīrah li-Jālīnūs</hi>
+                                ).
+                                <note n="34" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 7; title no. 4 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>10.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Small Book of the Pulse</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-nabḍ al-ṣaghīr li-Jālīnūs</hi>
+                                ).
+                                <note n="35" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no.,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 61; title no. 5 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>11.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">To Glaucon</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. Ighlawqun li-Jālīnūs</hi>
+                                ).
+                                <note n="36" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no.,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 70; title no. 6 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>12.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Elements</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-usṭuqussāt li-Jālīnūs</hi>
+                                ).
+                                <note n="37" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no.,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 8; title no. 11 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>13.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Mixtures</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-mizāj li-Jālīnūs</hi>
+                                ).
+                                <note n="38" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 9; title no. 12 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>14.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Natural Faculties</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-quwā l-ṭabīʿiyyah li-Jālīnūs</hi>
+                                ).
+                                <note n="39" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 10; title no. 13 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>15.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Small Book of Anatomy</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-tashrīḥ al-ṣaghīr li-Jālīnūs</hi>
+                                ).
+                                <note n="40" type="footnote">
+                                    <p>
+                                        The
+                                        <hi rend="italic">Small Book of Anatomy</hi>
+                                        is the compilation made in late antiquity called
+                                        <hi rend="italic">On Anatomy, To Beginners</hi>
+                                        , which combined five introductory Galenic volumes in one; cf. title no. 8 in the list of Galenic works. Galen’s major work called
+                                        <hi rend="italic">Anatomical Procedures</hi>
+                                        was sometimes known in contrast as the
+                                        <hi rend="italic">Great Book of Anatomy</hi>
+                                        (
+                                        <hi rend="italic">K. al-tashrīḥ al-kabīr</hi>
+                                        ).
+                                    </p>
+                                </note>
+                            </item>
+                            <label>16.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Causes and Symptoms</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-ʿilal wa-l-aʿrāḍ li-Jālīnūs</hi>
+                                ).
+                                <note n="41" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 45; title no. 14 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>17.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Classification of the Diseases of the Internal Parts</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. taʿrruf ʿilal al-aʿḍāʾ al-bāṭinah li-Jālīnūs</hi>
+                                ).
+                                <note n="42" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 60; title no. 15 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>18.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Great Book of the Pulse</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-nabḍ al-kabīr li-Jālīnūs</hi>
+                                ).
+                                <note n="43" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , nos. 62–65; title no. 16 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>19.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Fevers</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-ḥummayāt li-Jālīnūs</hi>
+                                ).
+                                <note n="44" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 48; title no. 17 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>20.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Crises</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. al-buḥrān li-Jālīnūs</hi>
+                                ).
+                                <note n="45" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 67; title no. 18 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>21.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Critical Days</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. ayyām al-buḥrān li-Jālīnūs</hi>
+                                ).
+                                <note n="46" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 68; title no. 19 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>22.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Method of Healing</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. ḥīlat al-burʾ li-Jālīnūs</hi>
+                                ).
+                                <note n="47" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 69; title no. 20 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>23.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Regimen for Healthy People</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. tadbīr al-aṣiḥḥāʾ li-Jālīnūs</hi>
+                                ).
+                                <note n="48" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 37; title no. 84 (cf. 85) in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>24.</label>
+                            <item>
+                                Commentary on Galen’s
+                                <hi rend="italic">Uses of the Parts</hi>
+                                (
+                                <hi rend="italic">Tafsīr K. manāfiʿ al-aʿḍāʾ li-Jālīnūs</hi>
+                                ).
+                                <note n="49" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 17, 18; title no. 49 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>25.</label>
+                            <item>
+                                Summary of Galen’s
+                                <hi rend="italic">On Theriac</hi>
+                                (
+                                <hi rend="italic">Jawāmiʿ K. al-tiryāq li-Jālīnūs</hi>
+                                ).
+                                <note n="50" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , no. 84; title no. 83 (cf. 82) in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>26.</label>
+                            <item>
+                                Summary of Galen’s
+                                <hi rend="italic">Phlebotomy</hi>
+                                (
+                                <hi rend="italic">Jawāmiʿ K. al-faṣd li-Jālīnūs</hi>
+                                ).
+                                <note n="51" type="footnote">
+                                    <p>
+                                        Fichtner,
+                                        <hi rend="italic">Corpus Galenicum</hi>
+                                        , nos. 71, 72, 73; title no. 71 in the list of Galen’s works.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>27.</label>
+                            <item>
+                                Refutation of Proclus in eighteen treatises (
+                                <hi rend="italic">al-radd ʿalā Buruqlus, thamānī ʿashrata maqālah</hi>
+                                ).
+                                <note n="52" type="footnote">
+                                    <p>Presumably the same work as title 34 (see next note).</p>
+                                </note>
+                            </item>
+                            <label>28.</label>
+                            <item>
+                                On the proposition that every body is finite and its force also finite, in one volume (
+                                <hi rend="italic">
+                                    K. fī anna kull jism mutanāh
+                                    <hi rend="superscript">in</hi>
+                                    wa-quwwatuhū mutanāhiyah, maqālah
+                                </hi>
+                                ).
+                            </item>
+                            <label>29.</label>
+                            <item>
+                                Refutation of Aristotle, in six volumes (
+                                <hi rend="italic">al-radd ʿalā Arisṭūṭālīs, sitt maqālāt</hi>
+                                ).
+                            </item>
+                            <label>30.</label>
+                            <item>
+                                Treatise on the refutation of Nestorius (
+                                <hi rend="italic">M. fī l-radd ʿalā Nisṭūrus</hi>
+                                ).
+                            </item>
+                            <label>31.</label>
+                            <item>
+                                On the refutation of people who do not know, in two volumes (
+                                <hi rend="italic">K. yuradd fīhi ʿalā qawm la yaʿrifūna, maqālatān</hi>
+                                ).
+                            </item>
+                            <label>32.</label>
+                            <item>
+                                another volume on the refutation of another category of people (
+                                <hi rend="italic">M. ukhrā yuradd fīhā ʿalā qawm ukhar</hi>
+                                ).
+                            </item>
+                            <label>33.</label>
+                            <item>
+                                On the pulse (
+                                <hi rend="italic">M. fī l-nabḍ</hi>
+                                ).
+                            </item>
+                            <label>34.</label>
+                            <item>
+                                Rebuttal (
+                                <hi rend="italic">naqḍuhu</hi>
+                                ) of the Eighteen Questions of the Diadochus,
+                                <note n="53" type="footnote">
+                                    <p>
+                                        Ms R
+                                        <hi rend="italic">l-dīrūkhus</hi>
+                                        represents the closest to the true form, to which we correct the text (
+                                        <hi rend="italic">l-dīdūkhūs</hi>
+                                        or
+                                        <hi rend="italic">l-diyadūkhūs</hi>
+                                        ); the letters
+                                        <hi rend="italic">rāʾ</hi>
+                                        and
+                                        <hi rend="italic">dāl</hi>
+                                        are often confused and Steinschneider pointed out long ago (cf. Müller, ‘Lesarten’, 16) that this is διάδοχος (‘successor’) with reference to the Neoplatonist philosopher, Proclus (Arabic
+                                        <hi rend="italic">Buruqlus</hi>
+                                        ), who was official Successor in the school of Athens ca. 438–485. His father was Patricius and ‘Mulus’ cannot be explained. The 18 questions were his arguments for the eternity of the world, which John Philoponus set out to refute, thereby preserving them following the loss of Proclus’ original: see n. 17 above.
+                                    </p>
+                                </note>
+                                son of Mulus, the Platonist.
+                            </item>
+                            <label>35.</label>
+                            <item>
+                                Commentary on Porphyry’s
+                                <hi rend="italic">Isagōgē</hi>
+                                .
+                            </item>
+                        </list>
+                    </div>
+                    <div type="textpart" subtype="biography" n="3">
+                        <p>
+                            <hi rend="bold">[6.3.1]</hi>
+                        </p>
+                        <p>
+                            The following account is from the
+                            <hi rend="italic">Useful Book on How to Study the Art of Medicine</hi>
+                            ,
+                            <note n="54" type="footnote">
+                                <p>
+                                    We cite Chester Beatty
+                                    <hi rend="smallcaps">MS</hi>
+                                    No. 4025 rather than Ibn Riḍwān,
+                                    <hi rend="italic">Kitāb al-Nāfiʾ</hi>
+                                    (Sāmarrāʾī), which contains errors.
+                                </p>
+                            </note>
+                            by Abū l-Ḥasan ʿAlī ibn Riḍwān.
+                            <note n="55" type="footnote">
+                                <p>
+                                    Ibn Riḍwān died 460/1068. He was an Egyptian physician at the court of the Fatimid caliph al-Mustanṣir, well known for his vituperative correspondence with Ibn Buṭlān (Schacht &amp; Meyerhof,
+                                    <hi rend="italic">Medico-Philosophical Controversy</hi>
+                                    ). See Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 158–159. (For his biography, see Ch. 14.25). The material that follows is from ch. 8, pp. 8–12, of the Chester Beatty
+                                    <hi rend="smallcaps">MS</hi>
+                                    . The relationship between the text preserved in the
+                                    <hi rend="smallcaps">MS</hi>
+                                    and
+                                    <hi rend="smallcaps">IAU</hi>
+                                    ’s own is not clear.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    begins by paraphrasing but is relatively close to the
+                                    <hi rend="smallcaps">MS</hi>
+                                    from ‘At this level, only four of the books were used’ to ‘the approach adopted by the Alexandrians was well calculated’. However he shows omissions and additions, and it may be that the Chester Beatty represents a slightly different recension of a work that is of considerable importance for its personal details and reports of teaching practices in Fatimid Cairo.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>The reason why, out of all Galen’s works, the Alexandrians used only the Sixteen Books for teaching purposes was that any student who applied himself to those books, if he was genuinely talented, truly interested in the subject, and ambitious, would be so inspired by the evidence of Galen’s mastery of the field of medicine as he found it in them that he would study the rest of Galen’s works of his own accord.</p>
+                                <p>
+                                    There were seven successive levels in the Alexandrians’ employment of the Sixteen Books.
+                                    <note n="56" type="footnote">
+                                        <p>Bibliographical information: for the main works studied by students at the various stages, see titles 8–23 of the Galenic works commented on by John the Grammarian, in the same ordering and wording. For other titles mentioned by Ibn Riḍwān, bibliographical information is given as necessary.</p>
+                                    </note>
+                                </p>
+                                <p>
+                                    For the first level, they would use the books as an introduction to the art of medicine. Following attainment of that level, the novice would be ready to perform simple medical procedures. If he had the time and was sufficiently motivated, he could pursue his studies further. Even if he did not, he could hardly fail to be aware of the advantages he had in terms of treating diseases.
+                                    <note n="57" type="footnote">
+                                        <p>
+                                            Ibn Riḍwān (p. 8a of the Chester Beatty
+                                            <hi rend="smallcaps">MS</hi>
+                                            ) adds ‘and if he was poor, he would have the opportunity to meet his need of money by practising according to the understanding he has derived from these materials’, referring perhaps to the work of cuppers, oculists, suturers, and cutters, whom he considers the less able practitioners of medicine in his
+                                            <hi rend="italic">K. Sharaf al-Ṭibb</hi>
+                                            (
+                                            <hi rend="smallcaps">MS</hi>
+                                            Hekimoǧlu Ali Paşa 691, fol. 117a).
+                                        </p>
+                                    </note>
+                                    At this level, only four of the books were used. The first of these was
+                                    <hi rend="italic">The Sects</hi>
+                                    , a single volume, which sets forth the principles governing treatment followed by the Empiricists and those followed by the Dogmatists. After all, people learn about all matters relating to the various arts either from experience or reason. Where the outcome of those approaches is the same, the answer must be correct; where the outcome is not the same, further investigation is required. Dogmatists and Empiricists will apply their respective methods to that end.
+                                </p>
+                                <p>
+                                    The second of the Sixteen Books used at the first level was
+                                    <hi rend="italic">The Small Art</hi>
+                                    , a single volume setting forth the whole art of medicine, in theory and in practice, in summary form.
+                                </p>
+                                <p>
+                                    The third book was the
+                                    <hi rend="italic">Small Book of the Pulse</hi>
+                                    , again a single volume, setting forth all the useful information that the student could obtain about various diseases by taking the patient’s pulse.
+                                </p>
+                                <p>
+                                    The fourth was the work entitled
+                                    <hi rend="italic">To Glaucon</hi>
+                                    , consisting of two volumes, setting forth instructions on how to proceed in curing diseases.
+                                </p>
+                                <p>
+                                    Every fledgling physician performing simple procedures must necessarily possess some knowledge of the potential actions of the foods and medications that he needs, and must be able to perform such procedures with his own hands. Accordingly, it is incumbent upon him to look into such of the works listed at the end of Galen’s
+                                    <hi rend="italic">Small Art</hi>
+                                    , or else acquire the knowledge from his teachers and through his own observation.
+                                </p>
+                                <p>These four books comprising the first level, then, provided an adequate instruction in the art of medicine for the student. For the expert physician, on the other hand, they were a repository of information that he could consult to refresh his knowledge of that art.</p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[6.3.2]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    At the second level, again, four of Galen’s Sixteen Books were used. The first of these was
+                                    <hi rend="italic">Elements</hi>
+                                    , a single volume, which explains that the human body and everything within it that it requires are subject to sudden change and alteration. This is an observation that is applicable to the primary elements of the body, that is, the homoeomerous parts: the bones, the nerves, the arteries and veins, the membranes, the flesh, the fat, and so on.
+                                    <note n="58" type="footnote">
+                                        <p>For ‘homoeomerous’, see n. 261 to Ch. 5.1.37.</p>
+                                    </note>
+                                    The elements of these limbs and parts are the humours: blood, yellow bile, black bile and phlegm. The elements of the humours, for their part, are fire, air, water and earth, for all matter consists originally of them and ultimately disintegrates back into them. These elements are subject to change and alteration.
+                                    <hi rend="italic">Elements</hi>
+                                    is the ideal introduction to the art of medicine for one who seeks to perfect his instruction in the art.
+                                </p>
+                                <p>
+                                    The second of these four books was
+                                    <hi rend="italic">Mixtures</hi>
+                                    , in three volumes, setting forth descriptions of the several kinds of mixtures, what each of them consists of, and how each of them can be identified when it is encountered.
+                                </p>
+                                <p>
+                                    The third of the four is
+                                    <hi rend="italic">Natural Faculties</hi>
+                                    , also in three volumes, providing information about the faculties that regulate the nature of the body and their causes, together with the signs by which they may be known.
+                                </p>
+                                <p>
+                                    The fourth book is the
+                                    <hi rend="italic">Small Book of Anatomy</hi>
+                                    , in five volumes. Galen had originally composed these as separate works, but the Alexandrians combined them into a single one. This book sets forth descriptions of the homoeomerous parts of the body, their number, and all their requirements.
+                                </p>
+                                <p>These works that were used at the second level contain information about the natural factors by which the body subsists. Every keen student who reads them will undoubtedly want to study all other works relating to the nature of the human body.</p>
+                                <p>
+                                    From
+                                    <hi rend="italic">On Mixtures</hi>
+                                    the student may go on to study Galen’s treatises on
+                                    <hi rend="italic">Bodily Vigour</hi>
+                                    ,
+                                    <note n="59" type="footnote">
+                                        <p>
+                                            <hi rend="italic">M. fī khiṣb al-badan</hi>
+                                            (
+                                            <hi rend="italic">De bono habitu</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 26, title no. 51 in the list of Galen’s works at Ch. 5.1.37.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">The Best Constitution</hi>
+                                    ,
+                                    <note n="60" type="footnote">
+                                        <p>
+                                            <hi rend="italic">M. fī l-hayʾah al-fāḍilah</hi>
+                                            (
+                                            <hi rend="italic">De optima corporis nostri constitutione</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 25, title no. 50 in the list of Galen’s works (under the alternative title,
+                                            <hi rend="italic">M. fī afḍal hayʾat al-badan</hi>
+                                            ).
+                                        </p>
+                                    </note>
+                                    and
+                                    <hi rend="italic">Uneven Bad Mixture</hi>
+                                    ,
+                                    <note n="61" type="footnote">
+                                        <p>
+                                            <hi rend="italic">M. fī sūʾ al-mizāj al-mukhtalif</hi>
+                                            (
+                                            <hi rend="italic">De inaequali intemperie</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 58, title no. 52 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    his
+                                    <hi rend="italic">On Simple Drugs</hi>
+                                    ,
+                                    <note n="62" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. al-adwiyah al-mufradah</hi>
+                                            (
+                                            <hi rend="italic">De simplicium medicamentorum temperamentis et facultatibus</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 78–79, title no. 53 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    and similar works.
+                                </p>
+                                <p>
+                                    <hi rend="italic">Natural Faculties</hi>
+                                    , for its part, will stimulate the student to look at
+                                    <hi rend="italic">Sperm</hi>
+                                    ,
+                                    <note n="63" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī-l-manī</hi>
+                                            (
+                                            <hi rend="italic">De Semine</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 22, title no. 62 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Opinions of Hippocrates and Plato</hi>
+                                    ,
+                                    <note n="64" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī ārāʾ Abuqrāṭ wa-Aflāṭūn</hi>
+                                            (
+                                            <hi rend="italic">De Placitis Hippocratis et Platonis</hi>
+                                            ), Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 33, title no. 46 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Uses of the Parts</hi>
+                                    ,
+                                    <note n="65" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī manāfiʿ al-aʿḍāʾ</hi>
+                                            (
+                                            <hi rend="italic">De usu partium</hi>
+                                            ), Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 17–18, title no. 49 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    and Galen’s other works on faculties, (types of)
+                                    <hi rend="italic">pneuma</hi>
+                                    , and functions.
+                                </p>
+                                <p>
+                                    The
+                                    <hi rend="italic">Small Book of Anatomy</hi>
+                                    will encourage the student to study
+                                    <hi rend="italic">Anatomical Procedures</hi>
+                                    and the like.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[6.3.3]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    At the third level, only a single work was used:
+                                    <hi rend="italic">Causes and Symptoms</hi>
+                                    , consisting of six treatises. Galen had originally composed those treatises as separate works, but the Alexandrians combined them into a single book. It explains diseases, their causes, and the symptoms characteristic of various disorders. This is an immensely informative work on the art of medicine in accordance with the Dogmatic doctrine. It is indispensable, and anyone who has mastered its contents and understood it is familiar with every aspect of that art.
+                                </p>
+                                <p>
+                                    At the fourth level, two works were used. The first of these was the
+                                    <hi rend="italic">Classification of the Diseases of the Internal Parts</hi>
+                                    , in six volumes, which explains the various disorders affecting the parts inside the body. Such disorders are not perceptible to the sight, being concealed from view, they can be detected only by symptoms, each of which must be assessed by the physician. Where these are present, he can be certain that a particular part is harbouring a specific disorder. Pleurisy, by way of illustration, is a hot swelling affecting the pleura, the membrane underlying the ribs. The symptoms that can be assessed are shortness of breath, stabbing pain, fever, and cough. Where all these are present, the physician may conclude that there is a hot swelling affecting the pleura.
+                                </p>
+                                <p>Galen never composed a work on disorders affecting external parts of the body, for the simple reason that such disorders are plainly visible. The fledgling physician can thus diagnose them through observation in the presence of his masters.</p>
+                                <p>
+                                    The second of the Sixteen Books that was used at the fourth level was the
+                                    <hi rend="italic">Great Book of the Pulse</hi>
+                                    . This work is divided into four parts, each of them consisting of four volumes. Part one sets forth information about the various kinds of pulse, with detailed descriptions of each kind. Part two explains how to identify the several kinds, part three provides information about the causes of each, and part four describes the utility of each. This is a highly useful means of identifying disorders and discovering whether the patient’s body has sufficient strength to withstand his particular disorder.
+                                </p>
+                                <p>
+                                    At the fifth level, three works were used. The first of these was
+                                    <hi rend="italic">Fevers</hi>
+                                    , in two volumes. From this work, the student acquired knowledge of the natures of the several types of fevers and the symptoms characteristic of each type.
+                                </p>
+                                <p>
+                                    The second work used at this level was
+                                    <hi rend="italic">Crises</hi>
+                                    , in three volumes. From it the student learned about the times of diseases, and was thus enabled to administer treatment that was appropriate at every time. He also learned to recognize, for every disorder, the tendency of the patient’s condition, that is, whether he was likely to recover or not, and how and through what means. The third work was
+                                    <hi rend="italic">Critical Days</hi>
+                                    , also in three volumes. From this work, the student acquired knowledge of the times of the crisis, the days on which it would occur, and its causes and symptoms.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p>
+                            <hi rend="bold">[6.3.4]</hi>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>
+                                    At the sixth level, a single work was used,
+                                    <hi rend="italic">Method of Healing</hi>
+                                    , in fourteen volumes, which set forth the rules governing the treatment of every disorder in accordance with the Dogmatic doctrine. Every student who immersed himself in this work would inevitably go on to read
+                                    <hi rend="italic">Simple Drugs</hi>
+                                    and Galen’s works on compound drugs, i.e. the
+                                    <hi rend="italic">Qāṭājānis</hi>
+                                    ,
+                                    <note n="66" type="footnote">
+                                        <p>
+                                            <hi rend="italic">De compositione medicamentorum per genera</hi>
+                                            , named after part of the Greek title (κατὰ γένος). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 82, title no. 79 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    the
+                                    <hi rend="italic">Mayāmir</hi>
+                                    ,
+                                    <note n="67" type="footnote">
+                                        <p>
+                                            <hi rend="italic">De compositione medicamentorum per locos</hi>
+                                            , known by its Syriac name. Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 81, title no. 79 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Medicinal Pastes</hi>
+                                    ,
+                                    <note n="68" type="footnote">
+                                        <p>
+                                            Probably
+                                            <hi rend="italic">De antidotis</hi>
+                                            , which covers ‘theriac … all other medicinal pastes’ (Ch. 5.1.37, title no. 81).
+                                        </p>
+                                    </note>
+                                    and so on.
+                                </p>
+                                <p>
+                                    At the seventh level, again, only a single work was used,
+                                    <hi rend="italic">Regimen for Healthy People</hi>
+                                    , in six volumes, which explains how the health of every human body can be maintained. Every student of this work will inevitably go on to read
+                                    <hi rend="italic">Foods</hi>
+                                    ,
+                                    <hi rend="italic">Good and Bad Juices</hi>
+                                    ,
+                                    <note n="69" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī jūdat al-kaymūs wa-radāʾatihī</hi>
+                                            (
+                                            <hi rend="italic">De bonis malisque sucis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 39; title no. 76 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">The Thinning Diet</hi>
+                                    ,
+                                    <note n="70" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī l-tadbīr al-mulaṭṭif</hi>
+                                            (
+                                            <hi rend="italic">De victu attenuante</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 349; title no. 75 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Requirements for Exercise</hi>
+                                    ,
+                                    <note n="71" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī sharāʾiṭ al-riyāḍah</hi>
+                                            (
+                                            <hi rend="italic">Thrasybulus</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 34; title no. 85 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    a subject which is also addressed in Galen’s work
+                                    <hi rend="italic">Exercise with a Small Ball</hi>
+                                    ,
+                                    <note n="72" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī l-riyāḍah bi-l-kurah al-ṣaghīrah</hi>
+                                            (
+                                            <hi rend="italic">De parvae pilae exercitio</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 35; title no. 86 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    and similar works.
+                                </p>
+                                <p>
+                                    It is clear, then, that while the Alexandrians relied exclusively on the Sixteen Books in teaching the art of medicine, these books would lead the student on to read all of Galen’s works, which encompass that art in its entirety.
+                                    <hi rend="italic">The Organ of Smell</hi>
+                                    ,
+                                    <note n="73" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī ālat al-shamm</hi>
+                                            (
+                                            <hi rend="italic">De instrumento odoratus</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 15; title no. 48 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    for instance, is relevant for study at the second level, and so is
+                                    <hi rend="italic">Causes of Breathing</hi>
+                                    ,
+                                    <note n="74" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. ʿilal al-tanaffus</hi>
+                                            (
+                                            <hi rend="italic">De causis respirationis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 20; title no. 37 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    while
+                                    <hi rend="italic">Poor Breathing</hi>
+                                    ,
+                                    <note n="75" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī sūʾ al-tanaffus</hi>
+                                            (
+                                            <hi rend="italic">De difficultate respiratonis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 59; title no. 68 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">The Use of Breathing</hi>
+                                    ,
+                                    <note n="76" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī manfaʿat al-tanaffus</hi>
+                                            (
+                                            <hi rend="italic">De utilitate respirationis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 21; title no. 42 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">The Use of the Pulse</hi>
+                                    ,
+                                    <note n="77" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī manfaʿat al-nabḍ</hi>
+                                            (
+                                            <hi rend="italic">De usu pulsuum</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 32; title no. 41 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Movement of the Chest and Lungs</hi>
+                                    ,
+                                    <note n="78" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī ḥarakat al-ṣadr wa-l-riʾah</hi>
+                                            (
+                                            <hi rend="italic">De motu thoracis et pulmonis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 280; title no. 36 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">The Voice</hi>
+                                    ,
+                                    <note n="79" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī l-ṣawt</hi>
+                                            (
+                                            <hi rend="italic">De voce</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 358; title no. 38 in the list of Galen’s works. Ibn Riḍwān adds here: ‘
+                                            <hi rend="italic">Movement of the Muscles</hi>
+                                            ’ (
+                                            <hi rend="italic">K. fī ḥarakat al-ʿaḍal; De motu musculorum</hi>
+                                            , Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 9, title no. 39 in the list of Galen’s works).
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Problematical Movements</hi>
+                                    ,
+                                    <note n="80" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī l-ḥarakāt al-muʿtāṣah</hi>
+                                            (
+                                            <hi rend="italic">De motibus dubiis</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 279; title no. 47 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Periods of Fevers</hi>
+                                    ,
+                                    <note n="81" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī adwār al-ḥummayāt</hi>
+                                            (
+                                            <hi rend="italic">Adversus eos qui de typis scripserunt</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 52; title no. 65 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    <hi rend="italic">Times in Diseases</hi>
+                                    ,
+                                    <note n="82" type="footnote">
+                                        <p>
+                                            <hi rend="italic">K. fī awqāt al-amrāḍ</hi>
+                                            (
+                                            <hi rend="italic">De morborum temporibus</hi>
+                                            ). Fichtner,
+                                            <hi rend="italic">Corpus Galenicum</hi>
+                                            , no. 49; title no. 55 in the list of Galen’s works.
+                                        </p>
+                                    </note>
+                                    and Galen’s various other books, treatises and epistles, every one of which is relevant for one or more of the seven levels of instruction and consequently must be perused by the student.
+                                </p>
+                                <p>It is thus clear that the approach adopted by the Alexandrians was well calculated to motivate learners, stimulate their interest in the art of medicine, and impel them to study all of Galen’s works.</p>
+                            </quote>
+                        </cit>
+                    </div>
+                    <div type="textpart" subtype="biography" n="4">
+                        <p>
+                            <hi rend="bold">[6.4]</hi>
+                        </p>
+                        <p>
+                            The following is from the
+                            <hi rend="italic">Key to Medicine and Guide for Students</hi>
+                            ,
+                            <note n="83" type="footnote">
+                                <p>
+                                    <hi rend="italic">Miftāḥ al-ṭibb wa-minhāj al-ṭullāb</hi>
+                                    ch. 9, see Ibn Hindū,
+                                    <hi rend="italic">Miftāḥ</hi>
+                                    (Mohaghegh), 63–65; Ibn Hindū,
+                                    <hi rend="italic">Miftāḥ</hi>
+                                    (Tibi), 41–42. The direct quotation runs from ‘alleging that’ to ‘is accounted folly’.
+                                    <hi rend="smallcaps">IAU</hi>
+                                    ’s text is virtually identical with that transmitted.
+                                </p>
+                            </note>
+                            by Abū l-Faraj Ibn Hindū.
+                            <note n="84" type="footnote">
+                                <p>
+                                    A native of Rayy, near the modern Tehran. He flourished in the second half of the 4th/5th cent. Ibn Hindū was a well-known medical scholar and a skilful calligrapher and poet, and was also a secretary of the chancery in the administration of the Buwayhid prince ʿAḍud al-Dawlah. See further Tibi’s introduction, and
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                        Three
+                                    </hi>
+                                    art. ‘Ibn Hindū’ (H. Biesterfeldt). His biography will be found at Ch. 11.9.
+                                </p>
+                            </note>
+                        </p>
+                        <cit>
+                            <quote>
+                                <p>The Alexandrians selected these works by Galen and made summaries of them, alleging that those would serve satisfactorily instead of the full texts and saved one from the inconvenience of material that was repetitive or superfluous.</p>
+                                <p>
+                                    Abū l-Khayr ibn al-Khammār,
+                                    <note n="85" type="footnote">
+                                        <p>
+                                            Ibn al-Khammār’s biography will be found at Ch. 11.8. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                                Three
+                                            </hi>
+                                            art. ‘Ibn al-Khammār’ (O.L. Lizzini).
+                                        </p>
+                                    </note>
+                                    who was Ibn Hindū’s teacher, commented as follows:
+                                </p>
+                                <cit>
+                                    <quote>
+                                        <p>‘I consider that the Alexandrians fell short of the goal to which they had aspired, inasmuch as they neglected material on foods, airs, and medicines. Furthermore, their order of progression was defective, for Galen himself began with the subject of anatomy and went on from there to discuss properties and functions before proceeding to the elements.’</p>
+                                    </quote>
+                                </cit>
+                                <p>(Continuing the words of Abū l-Faraj) I myself consider that the reason why the Alexandrians limited their curriculum to Galen’s Sixteen Books was not that they regarded their content as sufficient for an understanding of the art of medicine and an adequate means to that end but rather because those books require a teacher and commentator. No student could possibly grasp their finer points and underlying meanings if he did not have the benefit of interaction with his master, including discussion, repetition and investigation.</p>
+                                <p>
+                                    To be sure, every physician must be familiar with the works mentioned by my learned master, Abū l-Khayr ibn al-Khammār, in addition to those listed above. However, he will be able to understand them and master their contents unaided, owing to his knowledge of the Sixteen Books, which will serve as a foundation on which to build and a ladder by which to ascend to the others. And should you ask me about the Alexandrians’ reasons for teaching the Sixteen Books in a particular order, I answer that in some cases a work was given priority because of its inherent value, such as
+                                    <hi rend="italic">The Sects</hi>
+                                    , which was placed ahead of the others because it served to dispel from the student’s mind any doubts about the fallacies of the Empiricists and the Methodists while simultaneously showing him the truth of the Dogmatist doctrine and explaining why he should follow that doctrine. Similarly,
+                                    <hi rend="italic">The Small Art of Medicine</hi>
+                                    contains the essential sparks of the medical art, and consequently it was rightly placed after
+                                    <hi rend="italic">The Sects</hi>
+                                    and made an introduction to that art.
+                                </p>
+                                <p>
+                                    In some cases, the Alexandrians placed the works where they did in the curriculum because they were closely related to other works.
+                                    <hi rend="italic">The Small Book of the Pulse</hi>
+                                    , for example, came after
+                                    <hi rend="italic">The Small Art of Medicine</hi>
+                                    because Galen discusses the pulse in that work as well, in the passage dealing with the temperament of the heart.
+                                    <note n="86" type="footnote">
+                                        <p>
+                                            Cf.
+                                            <hi rend="italic">Ars medica</hi>
+                                            10–11, pp. 301–309 ed. Boudon,
+                                            <hi rend="italic">Galien, Exhortation</hi>
+                                            , on the
+                                            <hi rend="italic">krāsis</hi>
+                                            or ‘mixture’ (
+                                            <hi rend="italic">mizāj</hi>
+                                            ) of the heart.
+                                        </p>
+                                    </note>
+                                    But it also had to come before Galen’s
+                                    <hi rend="italic">To Glaucon</hi>
+                                    because here in his discussion of fevers the pulse is the primary indicator of the topic of fevers.
+                                    <note n="87" type="footnote">
+                                        <p>
+                                            The pulse is one of a number of factors for determining fever in the
+                                            <hi rend="italic">To Glaucon</hi>
+                                            ; Ibn Hindū may be thinking of a case like that of the young man detailed at xi.28 Kühn (‘an extremely clear sign of the fever … in the pulse, etc.’).
+                                        </p>
+                                    </note>
+                                </p>
+                                <p>On the other hand, the order of works which my learned master Abū l-Khayr says was originally indicated by Galen is, by my life, the order appropriate to the art itself, for every man who sets out to master an art must proceed by degrees from what is evident to what is recondite, and from final outcomes to first principles. Now, anatomy is knowledge of the body and its parts, and while those are what first strike our attention when we observe a human being, they are the last stage of Nature’s work. Nature begins with elements, which she mixes into humours; only then does she fashion faculties and limbs. In seeking to learn about the art of medicine, we ought to retrace Nature’s course in reverse. In practice, we do not follow this procedure as we should do, but rather settle for the programme of study laid down by the Alexandrians. After all, the student acquires knowledge in any case, and to disregard the consensus of the sages of antiquity is accounted folly.</p>
+                            </quote>
+                        </cit>
+                    </div>
+                    <div type="textpart" subtype="biography" n="5">
+                        <p>
+                            <hi rend="bold">[6.5.1]</hi>
+                        </p>
+                        <p>I – Ibn Abī Uṣaybiʿah – say that the Alexandrians produced numerous summaries of philosophical and medical science, including in particular summaries of Galen’s works and their commentaries on the works of Hippocrates.</p>
+                        <p>
+                            The ranks of the Christian and other physicians who were contemporaries of these Alexandrians or lived not long after them include
+                            <note n="88" type="footnote">
+                                <p>
+                                    For the following names, note
+                                    <hi rend="smallcaps">IAU</hi>
+                                    ’s comment at the end of this chapter about his use of al-Rāzī.
+                                </p>
+                            </note>
+                            the monk Simeon of Taybūthā and Ahrun the Priest, the author of a
+                            <hi rend="italic">Compendium</hi>
+                            , which he composed in Syriac and which was translated into Arabic by Māsarjīs.
+                            <note n="89" type="footnote">
+                                <p>
+                                    A brief notice on the shadowy Māsarjīs (also known as Māsarjawayh) will be found in Ch. 9. He is there said to have been ‘A translator from Syriac into Arabic, and renowned for his knowledge of the art of medicine’; two titles are given; his dates are unknown (?7th/8th cent.; Sezgin,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">GAS</hi>
+                                    </hi>
+                                    <hi rend="smallcaps">III</hi>
+                                    , 206–207, Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    23–24). Nothing certain is known about Ahrun (?first half of the 7th cent. at Alexandria): Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 87–89. For Simeon (end of the 8th cent.), see Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 100–101, 324.
+                                </p>
+                            </note>
+                            The original work comprised thirty volumes, to which Māsarjīs added two more of his own composition.
+                        </p>
+                        <p>
+                            Another was Yūḥannā ibn Sarābiyūn,
+                            <note n="90" type="footnote">
+                                <p>
+                                    For bibliographic information about the Syriac physician Yūḥannā ibn Sarābiyūn, see Sezgin,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">GAS</hi>
+                                    </hi>
+                                    <hi rend="smallcaps">III</hi>
+                                    , 240, Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 102–103, Pormann &amp; Savage-Smith,
+                                    <hi rend="italic">Medieval Islamic Medicine</hi>
+                                    , 35, Pormann, ‘Yūhannā ibn Sarābiyūn’. His ‘brother’ Dāwūd ibn Sarābiyūn was one of the caliph al-Hādī’s personal physicians; see the biography of Bukhtīshū’ ibn Jūrjis (Ch. 8.2). However, Yūḥannā lived in the 9th cent., Dāwūd in the 8th: Ullmann, ‘Yūḥannā ibn Sarābiyūn’, 279.
+                                </p>
+                            </note>
+                            who composed all his works in Syriac. His father, Sarābiyūn, was a physician from the people of Beth Garmai.
+                            <note n="91" type="footnote">
+                                <p>
+                                    Beth Garmai (Arabic
+                                    <hi rend="italic">Bājarmā</hi>
+                                    ) is a region around the city of Kirkuk in what is now northern Iraq.
+                                </p>
+                            </note>
+                            He and his wife produced two distinguished physicians, Yūḥannā and Dāwūd. Yūḥannā ibn Sarābiyūn was the author of:
+                        </p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                the
+                                <hi rend="italic">Large Compendium</hi>
+                                , in twelve volumes;
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                the better-known
+                                <hi rend="italic">Small Compendium</hi>
+                                , in seven volumes. This was translated by the secretary al-Ḥadīthī
+                                <note n="92" type="footnote">
+                                    <p>Mūsā ibn Ibrāhīm al-Ḥadīthī: Pormann, ‘Yūḥannā ibn Sarābiyūn’, 240.</p>
+                                </note>
+                                in the year 318 (=
+                                <hi rend="smallcaps">AH</hi>
+                                 930), the translation having been commissioned by the physician, Abū l-Ḥasan ibn Nafīs.
+                                <note n="93" type="footnote">
+                                    <p>
+                                        Abū l-Ḥasan Ibn Nafīs (fl. 3rd/9th cent.) was a Christian physician from Baghdad, teacher of Ibrāhīm ibn Baks (brief listing at Ch. 9.37); see ʿAbd al-Jabbār,
+                                        <hi rend="italic">Tathbīt</hi>
+                                        , 2:619.
+                                    </p>
+                                </note>
+                                A less readable Arabic version of the same work was made by al-Ḥasan ibn al-Bahlūl al-Awānī l-Ṭīrhānī,
+                                <note n="94" type="footnote">
+                                    <p>
+                                        The famous Bar Bahlūl from Awana in the diocese of Tirhan, the author of the great Syriac lexicon (ed. Duval) and translator of Theophrastus’
+                                        <hi rend="italic">Meteorology</hi>
+                                        from Syriac to Arabic (Daiber, ‘
+                                        <hi rend="italic">Meteorology</hi>
+                                        ’). The translation of Ibn Sarābiyūn appears to be extant: see Pormann, ‘Yuḥannā ibn Sarābiyūn’.
+                                    </p>
+                                </note>
+                                and another was made by Abū l-Bishr Mattā.
+                                <note n="95" type="footnote">
+                                    <p>
+                                        A 4th/10th cent. Nestorian Christian translator of and commentator on Aristotle. Among other works he translated the
+                                        <hi rend="italic">Poetics</hi>
+                                        . See
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">EI</hi>
+                                        </hi>
+                                        <hi rend="italic">
+                                            <hi rend="superscript">2</hi>
+                                        </hi>
+                                        art. ‘Mattā b. Yūnus’ (G. Endress).
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                        <p>
+                            <hi rend="bold">[6.5.2]</hi>
+                        </p>
+                        <p>
+                            Other physicians of that period included Antyllus,
+                            <note n="96" type="footnote">
+                                <p>
+                                    The Greek physician Antyllus (cf. Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 78) lived in the 2nd cent.
+                                </p>
+                            </note>
+                            <hi rend="italic">Barṭalāwus</hi>
+                            ,
+                            <note n="97" type="footnote">
+                                <p>
+                                    Unidentified: the underlying Greek form could be Πρωτόλαος (or Πειθόλαος/Πυθόλαος/ Πυθίλαος); he is quoted in the
+                                    <hi rend="italic">Ḥāwī</hi>
+                                    .
+                                </p>
+                            </note>
+                            <hi rend="italic">Sindihshār</hi>
+                            ,
+                            <note n="98" type="footnote">
+                                <p>
+                                    Unidentified; often quoted in the
+                                    <hi rend="italic">Ḥāwī</hi>
+                                    , where he is once called al-Hindī (al-Rāzī,
+                                    <hi rend="italic">al-Ḥāwī</hi>
+                                    (Beirut), 6:78).
+                                </p>
+                            </note>
+                            <hi rend="italic">al-Quhlumān</hi>
+                            ,
+                            <note n="99" type="footnote">
+                                <p>
+                                    Unidentified; often quoted in the
+                                    <hi rend="italic">Ḥāwī</hi>
+                                    and other sources under this name or ?Qulhumān: Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 107. Meyerhof was right,
+                                    <hi rend="italic">pace</hi>
+                                    Ullmann, to allege an Indian origin: cf. al-Ḥuṣrī,
+                                    <hi rend="italic">Jamʿ al-jawāhir</hi>
+                                    , 89 where al-Qulhumān is ‘one of the sages of India and the philosopher among their physicians’ in a conversation about medicine with a king called Yākahthar ibn Shabrām(?).
+                                </p>
+                            </note>
+                            the monk Abū Jurayj,
+                            <note n="100" type="footnote">
+                                <p>
+                                    See Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 91–92.
+                                </p>
+                            </note>
+                            <hi rend="italic">Awwarās</hi>
+                            ,
+                            <note n="101" type="footnote">
+                                <p>
+                                    For unconvincing suggestions, see Sezgin,
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">GAS</hi>
+                                    </hi>
+                                    <hi rend="smallcaps">III</hi>
+                                    , 150–151 s.v. ‘Aretaios’.
+                                </p>
+                            </note>
+                            <hi rend="italic">Būniyūs</hi>
+                            of Beirut,
+                            <hi rend="italic">Siyūrikhanā</hi>
+                            ,
+                            <note n="102" type="footnote">
+                                <p>
+                                    Unidentifiable. The Arabic letters perhaps hide a Greek name beginning with
+                                    <hi rend="italic">peri</hi>
+                                    -.
+                                </p>
+                            </note>
+                            Philagrius,
+                            <note n="103" type="footnote">
+                                <p>For Philagrius, see Ch. 5.2.2, cf. Ch. 3.6.</p>
+                            </note>
+                            and ʿĪsā ibn Qusṭanṭīn, surnamed Abū Mūsā, who was a distinguished physician and the author of:
+                        </p>
+                        <list>
+                            <label>1.</label>
+                            <item>
+                                <hi rend="italic">On Simple Drugs</hi>
+                                and
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                <hi rend="italic">Causes and Treatment of Haemorrhoids</hi>
+                                .
+                                <note n="104" type="footnote">
+                                    <p>
+                                        There is a brief entry for this physician at Ibn al-Qifṭī,
+                                        <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                        , 247.
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                        <p>
+                            The list also includes
+                            <hi rend="italic">Arus</hi>
+                            <note n="105" type="footnote">
+                                <p>Unidentifiable. Perhaps Arius.</p>
+                            </note>
+                            and Sergius of Raʾs al-ʿAyn, who was reputedly the first to produce Syriac translations of works of the Greeks. He was an eminent scholar, and was the author of numerous works on medicine and philosophy.
+                            <note n="106" type="footnote">
+                                <p>
+                                    Sergius of Rēsh ʿAynā (d. 536), as he in normally known in English, was the most important translator of Greek medical works into Syriac. For an account of his life and works, see Pormann &amp; Savage-Smith,
+                                    <hi rend="italic">Medieval Islamic Medicine</hi>
+                                    , 18–19. He is mentioned several times in the biography of Ḥunayn ibn Isḥāq in Ch. 8.29. There is a brief and somewhat unflattering notice on Sergius at Ch. 9.24 (‘some of his works were revised by Ḥunayn, and those are excellent, whereas those works that Ḥunayn did not revise are of indifferent quality’).
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            Lastly, there were Aetius of Amida,
+                            <note n="107" type="footnote">
+                                <p>
+                                    Aetius of Amida, author of a medical encyclopaedia (the
+                                    <hi rend="italic">Iatrika</hi>
+                                    ) in the Justinianic period (ca. 530–560) in 16 books, called the
+                                    <hi rend="italic">Tetrabiblon</hi>
+                                    from its arrangement. He was not well known in the Arabic world: Ullmann,
+                                    <hi rend="italic">Medizin</hi>
+                                    , 84–85.
+                                    <hi rend="italic">Baqūqūyā</hi>
+                                    is obscure.
+                                </p>
+                            </note>
+                            who composed the compendium known as
+                            <hi rend="italic">Baqūqūyā</hi>
+                            , and Gregory, who was also the author of a compendium.
+                            <note n="108" type="footnote">
+                                <p>
+                                    The reference is to
+                                    <hi rend="italic">On the Nature of Man</hi>
+                                    by Nemesius of Emesa, a work of great influence in the middle ages. It contains a good deal of medical material, and was often known as the
+                                    <hi rend="italic">K. al-abwāb</hi>
+                                    in Arabic. The eastern tradition, and some Greek
+                                    <hi rend="smallcaps">MSS</hi>
+                                    too, attributed it to the 4th cent. Greek churchman, Gregory of Nyssa, who was well known in Syriac and Arabic translation (cf. Graf,
+                                    <hi rend="italic">Geschichte</hi>
+                                    , i:330).
+                                </p>
+                            </note>
+                        </p>
+                        <p>
+                            Most of the works of these scholars are extant. Extensive passages from them are reproduced in the great compendium entitled
+                            <hi rend="italic">al-Ḥāwī</hi>
+                            , by al-Rāzī.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

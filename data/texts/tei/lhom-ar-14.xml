@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../../../usaybia-tools/tools/xslt/align-lhom-en-ar.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -2297,8 +2301,8 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">رُبَّ ميْتٍ قد صار بالعلم حيّاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ومبقًّى قد مات جهْلاً وغَـيّا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رُبَّ ميْتٍ قد صار بالعلم حيّاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ومبقًّى قد مات جهْلاً وغَـيّا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -3198,16 +3202,12 @@
 							<hi rend="bold">‭[14.23.1]‬</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو الأمير محمود الدولة أبو الوفاء المبشر بن فاتك الآمري <note n="2" type="footnote">
-                                <p>L: الاميرى</p>
-                            </note>
-							من أعيان أمراء مصر وأفاضل علمائها دائم الاشتغال محب للفضائل والاجتماع بأهلها ومباحثتهم والانتفاع بما يقتبسه من جهتهم وكان ممن اجتمع به منهم وأخذ عنه كثيراً من علوم الهيئة والعلوم ‭[ii,99]‬ الرياضية أبو علي <note n="3" type="footnote">
-                                <p>AGc: om. علي</p>
-                            </note>
-							محمد بن الحسن بن الهيثم وكذلك أيضاً اجتمع بالشيخ أبي الحسين المعروف بابن <note n="4" type="footnote">
-                                <p>A: بالامدي, above the line: بن</p>
-                            </note>
-							الآمدي وأخذ عنه كثيراً من العلوم الحكمية واشتغل أيضاً بصناعة الطب ولازم أبا الحسن علي بن رضوان الطبيب وللمبشر بن فاتك تصانيف جليلة في المنطق وغيره من أجزاء الحكمة وهي مشهورة فيما بين الحكماء وكان كثير الكتابة وقد وجدت بخطه كتباً كثيرة من تصانيف المتقدمين وكان المبشر بن فاتك قد اقتنى كتباً كثيرة جداً وكثير منها يوجد وقد تغيرت ألوان الورق الذي له بغرق أصابه.‬‎
+							هو الأمير محمود الدولة أبو الوفاء المبشر بن فاتك الآمري <note n="2" type="footnote"><p>L: الاميرى</p></note>
+							من أعيان أمراء مصر وأفاضل علمائها دائم الاشتغال محب للفضائل والاجتماع بأهلها ومباحثتهم والانتفاع بما يقتبسه من جهتهم وكان ممن اجتمع به منهم وأخذ عنه كثيراً من علوم الهيئة والعلوم ‭[ii,99]‬ الرياضية أبو علي <note n="3" type="footnote"><p>AGc: om. علي</p></note>
+							محمد بن الحسن بن الهيثم وكذلك أيضاً اجتمع بالشيخ أبي الحسين المعروف بابن <note n="4" type="footnote"><p>A: بالامدي, above the line: بن</p></note>
+							الآمدي وأخذ عنه كثيراً من العلوم الحكمية واشتغل أيضاً بصناعة الطب ولازم <persName ref="https://usaybia.net/person/1093">
+								أبا الحسن علي بن رضوان
+							</persName> الطبيب وللمبشر بن فاتك تصانيف جليلة في المنطق وغيره من أجزاء الحكمة وهي مشهورة فيما بين الحكماء وكان كثير الكتابة وقد وجدت بخطه كتباً كثيرة من تصانيف المتقدمين وكان المبشر بن فاتك قد اقتنى كتباً كثيرة جداً وكثير منها يوجد وقد تغيرت ألوان الورق الذي له بغرق أصابه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.23.2‬]</hi>
@@ -3283,9 +3283,9 @@
 							<hi rend="bold">[‭14.25.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو الحسن علي بن رضوان بن علي بن جعفر وكان مولده ومنشؤه بمصر وبها تعلم الطب وقد ذكر علي بن رضوان في سيرته من كيفية تعلمه صناعة الطب وأحواله <note n="2" type="footnote">
-                                <p>A: adds وأحواله over line</p>
-                            </note>
+						   هو<persName ref="https://usaybia.net/person/1093"> أبو الحسن علي بن رضوان بن علي بن جعفر</persName> وكان مولده ومنشؤه<placeName ref="http://usaybia.net/place/Egypt"> بمصر</placeName> وبها تعلم الطب وقد ذكر <persName ref="https://usaybia.net/person/1093">
+							   علي بن رضوان
+						   </persName> في سيرته من كيفية تعلمه صناعة الطب وأحواله <note n="2" type="footnote"><p>A: adds وأحواله over line</p></note>
 							ما هذا نصه:‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3295,21 +3295,11 @@
 							أمري كله.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ولدت بأرض مصر في عرض ثلاثين درجة وطول خمس وخمسين درجة والطالع بزيج يحيى بن أبي منصور الحمل ه لو <note n="4" type="footnote">
-                                <p>Gc: كو</p>
-                            </note>
-							وعاشرة الجدي ه كح ومواضع الكواكب الشمس بالدلو ه لب <note n="5" type="footnote">
-                                <p>ABL, Müller: ا ‭٥‬ لب‬‎; Gc: ه كب</p>
-                            </note>
-							والقمر بالعقرب ح يه وعرضه جنوب ح يز وزحل <note n="6" type="footnote">
-                                <p>LH: وزجل</p>
-                            </note>
-							بالقوس كط والمشتري بالجدي ه كح والمريخ بالدلو كا مح والزهرة بالقوس كد ك وعطارد بالدلو يط وسهم السعادة بالجدي د ه وجزء الاستقبال المتقدم بالسرطان كب ي والجوزهر <note n="7" type="footnote">
-                                <p>L: الجوهر</p>
-                            </note>
-							بالقوس يز يا والذنب بالجوزاء يز ما <note n="8" type="footnote">
-                                <p>A: يا, above the line ما</p>
-                            </note>
+						   ولدت بأرض مصر في عرض ثلاثين درجة وطول خمس وخمسين درجة والطالع بزيج <persName ref="https://usaybia.net/person/2298">يحيى بن أبي منصور</persName>الحمل ه لو <note n="4" type="footnote"><p>Gc: كو</p></note>
+							وعاشرة الجدي ه كح ومواضع الكواكب الشمس بالدلو ه لب <note n="5" type="footnote"><p>ABL, Müller: ا ‭٥‬ لب‬‎; Gc: ه كب</p></note>
+							والقمر بالعقرب ح يه وعرضه جنوب ح يز وزحل <note n="6" type="footnote"><p>LH: وزجل</p></note>
+							بالقوس كط والمشتري بالجدي ه كح والمريخ بالدلو كا مح والزهرة بالقوس كد ك وعطارد بالدلو يط وسهم السعادة بالجدي د ه وجزء الاستقبال المتقدم بالسرطان كب ي والجوزهر <note n="7" type="footnote"><p>L: الجوهر</p></note>
+							بالقوس يز يا والذنب بالجوزاء يز ما <note n="8" type="footnote"><p>A: يا, above the line ما</p></note>
 							والنسر الواقع بالجدي ا كب والشعرى العبور بالسرطان ه يب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -3377,63 +3367,87 @@
 							<hi rend="bold">[‭14.25.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							قال وأما الأشياء التي أتنزه فيها فلأني فرضت نزهتي ذكر الله عز وجل وتمجيده بالنظر في ملكوت السماء والأرض وكان قد كتب العلماء والقدماء <note n="25" type="footnote">
-                                <p>LBH: القدماء والعارفون</p>
-                            </note>
-							في ذلك كتباً كثيرة رأيت أن أقتصر منها على ما أنصه من ذلك خمسة كتب من كتب الأدب وعشرة كتب من كتب الشرع وكتب أبقراط وجالينوس في صناعة الطب وما جانسها مثل كتاب الحشائش لديسقوريدس وكتب روفس وأريباسيوس وبولس ‭[ii,101]‬ وكتاب الحاوي للرازي ومن كتب الفلاحة والصيدلة أربعة كتب ومن كتب التعاليم المجسطي ومداخله وما أنتفع به فيه والمربعة لبطلميوس ومن كتب العارفين كتب أفلاطن وأرسطوطاليس والإسكندر وثامسطيوس ومحمد الفارابي وما أنتفع به فيها وما سوى ذلك إما <note n="26" type="footnote">
-                                <p>LH: om. إما</p>
-                            </note>
+							قال وأما الأشياء التي أتنزه فيها فلأني فرضت نزهتي ذكر الله عز وجل وتمجيده بالنظر في ملكوت السماء والأرض وكان قد كتب العلماء والقدماء <note n="25" type="footnote"><p>LBH: القدماء والعارفون</p></note>
+							في ذلك كتباً كثيرة رأيت أن أقتصر منها على ما أنصه من ذلك خمسة كتب من كتب الأدب وعشرة كتب من كتب الشرع وكتب <persName ref="https://usaybia.net/person/887">
+								أبقراط
+							</persName> و<persName ref="https://usaybia.net/person/786">
+								جالينوس
+							</persName> في صناعة الطب وما جانسها مثل كتاب الحشائش لديسقوريدس وكتب <persName ref="https://usaybia.net/person/1926">
+								روفس
+							</persName> و<persName ref="https://usaybia.net/person/1791">
+								أريباسيوس
+							</persName> و<persName ref="https://usaybia.net/person/1801">
+								بولس
+							</persName> ‭[ii,101]‬ وكتاب الحاوي للرازي ومن كتب الفلاحة والصيدلة أربعة كتب ومن كتب التعاليم المجسطي ومداخله وما أنتفع به فيه والمربعة لبطلميوس ومن كتب العارفين كتب <persName ref="https://usaybia.net/person/1829">
+								أفلاطن
+							</persName> و<persName ref="https://usaybia.net/person/565">
+								أرسطوطاليس
+							</persName> و<persName ref="https://usaybia.net/person/453">
+								الإسكندر
+							</persName> و<persName ref="https://usaybia.net/person/2205">
+								ثامسطيوس
+							</persName> و<persName ref="https://usaybia.net/person/765">
+								محمد الفارابي
+							</persName> وما أنتفع به فيها وما سوى ذلك إما <note n="26" type="footnote"><p>LH: om. إما</p></note>
 							أبيعه بأي ثمن اتفق وإما أن أخزنه في صناديق وبيعه أجود من خزنه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول هذا جملة ما ذكره من سيرته <note n="27" type="footnote">
-                                <p>Above the line in A, Gc om.: هذا جملة ما ذكره من سيرته صح</p>
-                            </note>
-							وكان مولده في ديار <note n="28" type="footnote">
-                                <p>A: بديار</p>
-                            </note>
-							مصر بالجيزة ونشأ بمدينة مصر وكان أبوه فراناً ولم يزل ملازماً للاشتغال والنظر في العلم إلى أن تميز وصار له الذكر الحسن والسمعة العظيمة وخدم الحاكم وجعله رئيساً على سائر المتطببين وكانت دار ابن رضوان بمدينة مصر في قصر الشمع <note n="29" type="footnote">
-                                <p>A: الجمع</p>
-                            </note>
-							وهي إلى الآن تعرف به وقد تهدمت ولم يتبين إلا بقايا <note n="30" type="footnote">
-                                <p>AGc: اثار</p>
-                            </note>
-							يسيرة من آثارها وحدث في الزمان الذي كان فيه <note n="31" type="footnote">
-                                <p>L: به</p>
-                            </note>
-							ابن رضوان بديار مصر الغلاء العظيم والجلاء الفادح الذي هلك به أكثر أهلها.‬‎
+							<rs ref="https://usaybia.net/person/926">
+								أقول
+							</rs> هذا جملة ما ذكره من سيرته <note n="27" type="footnote"><p>Above the line in A, Gc om.: هذا جملة ما ذكره من سيرته صح</p></note>
+							وكان مولده في ديار <note n="28" type="footnote"><p>A: بديار</p></note>
+						   مصر <placeName ref="https://usaybia.net/place/Giza">بالجيزة</placeName> ونشأ بمدينة مصر وكان أبوه فراناً ولم يزل ملازماً للاشتغال والنظر في العلم إلى أن تميز وصار له الذكر الحسن والسمعة العظيمة وخدم الحاكم وجعله رئيساً على سائر المتطببين وكانت دار <persName ref="https://usaybia.net/person/1093">
+							   ابن رضوان
+						   </persName> بمدينة مصر في قصر الشمع <note n="29" type="footnote"><p>A: الجمع</p></note>
+							وهي إلى الآن تعرف به وقد تهدمت ولم يتبين إلا بقايا <note n="30" type="footnote"><p>AGc: اثار</p></note> 
+							يسيرة من آثارها وحدث في الزمان الذي كان فيه <note n="31" type="footnote"><p>L: به</p></note>
+							<persName ref="https://usaybia.net/person/1093">
+								ابن رضوان
+							</persName> بديار مصر الغلاء العظيم والجلاء الفادح الذي هلك به أكثر أهلها.‬‎
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">ونقلت من خط المختار بن الحسن بن بطلان أن الغلاء عرض بمصر في سنة خمس وأربعين وأربعمائة قال ونقص النيل في السنة التي تليها وتزايد الغلاء وتبعه وباء عظيم واشتد وعظم في سنة سبع وأربعين وأربعمائة وحكي أن السلطان كفن من ماله ثمانين ألف نفس وأنه فقد ثمانمائة قائد وحصل للسلطان من المواريث مال جزيل.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">ونقلت من خط <persName ref="https://usaybia.net/person/961">
+							المختار بن الحسن بن بطلان
+						</persName> أن الغلاء عرض <placeName ref="https://usaybia.net/place/Egypt">
+							بمصر
+						</placeName> في سنة خمس وأربعين وأربعمائة قال ونقص النيل في السنة التي تليها وتزايد الغلاء وتبعه وباء عظيم واشتد وعظم في سنة سبع وأربعين وأربعمائة وحكي أن السلطان كفن من ماله ثمانين ألف نفس وأنه فقد ثمانمائة قائد وحصل للسلطان من المواريث مال جزيل.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحدثني أبو عبد الله محمد المالقي الناسخ أن ابن رضوان تغير عقله في آخر عمره وكان السبب في ذلك أنه في ذلك الغلاء كان قد أخذ يتيمة رباها وكبرت عنده <note n="32" type="footnote">
-                                <p>A: كان اخذ يتيمة ورباها عنده وكبرت; Gc: عنده اخذ يتيمه رباها وكبرت</p>
-                            </note>
-							فلما كان في بعض الأيام خلا لها الموضع وكان قد ادخر أشياء نفيسة ومن الذهب نحو <note n="33" type="footnote">
-                                <p>L: om نجو</p>
-                            </note>
+							<persName ref="https://usaybia.net/person/926">
+								وحدثني 
+							</persName>
+							<persName ref="https://usaybia.net/person/al-malaqiy_the_scribe">
+								أبو عبد الله محمد المالقي
+							</persName> الناسخ أن <persName ref="https://usaybia.net/person/1093">
+								ابن رضوان
+							</persName> تغير عقله في آخر عمره وكان السبب في ذلك أنه في ذلك الغلاء كان قد أخذ يتيمة رباها وكبرت عنده <note n="32" type="footnote"><p>A: كان اخذ يتيمة ورباها عنده وكبرت; Gc: عنده اخذ يتيمه رباها وكبرت</p></note>
+							فلما كان في بعض الأيام خلا لها الموضع وكان قد ادخر أشياء نفيسة ومن الذهب نحو <note n="33" type="footnote"><p>L: om نجو</p></note>
 							عشرين ألف دينار فأخذت الجميع وهربت ولم يظهر منها على خبر ولا عرف أين توجهت فتغيرت أحواله من حينئذ.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.5‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول وكان ابن رضوان كثير الرد على من كان معاصره من الأطباء وغيرهم وكذلك على كثير ممن تقدمه وكانت عنده سفاهة في بحثه وتشنيع على من يريد مناقشته وأكثر ذلك يوجد عندما كان يرد على
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٥‬ب‬‎"/>
-							حنين بن إسحق وعلى أبي الفرج بن الطيب وكذلك أيضاً على أبي بكر محمد بن زكريا <note n="34" type="footnote">
-                                <p>AGc: om. ابى بكر محمد بن زكريا</p>
-                            </note>
-							الرازي.‬‎
+							أقول وكان <persName ref="https://usaybia.net/person/1093">
+								ابن رضوان
+							</persName> كثير الرد على من كان معاصره من الأطباء وغيرهم وكذلك على كثير ممن تقدمه وكانت عنده سفاهة في بحثه وتشنيع على من يريد مناقشته وأكثر ذلك يوجد عندما كان يرد على
+							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٥‬ب‬‎" />
+						   <persName ref="https://usaybia.net/person/899">حنين بن إسحق</persName> وعلى <persName ref="https://usaybia.net/person/1136">أبي الفرج بن الطيب</persName>
+						   وكذلك أيضاً <persName ref="https://usaybia.net/person/1919">
+							  الرازي على أبي بكر محمد بن زكريا
+						   </persName> <note n="34" type="footnote"><p>AGc: om. ابى بكر محمد بن زكريا</p></note>
+							.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ولم يكن لابن رضوان في صناعة الطب معلم ينسب إليه وله كتاب في ذلك يتضمن أن تحصيل الصناعة من الكتب أوفق من المعلمين وقد رد عليه ابن بطلان هذا الرأي وغيره في كتاب مفرد وذكر فصلاً في العلل التي لأجلها صار المتعلم من أفواه الرجال <note n="35" type="footnote">
-                                <p>A: المعلمين, in margin الرجال</p>
-                            </note>
+							ولم يكن ل<persName ref="https://usaybia.net/person/1093">
+								ابن رضوان
+							</persName> في صناعة الطب معلم ينسب إليه وله كتاب في ذلك يتضمن أن تحصيل الصناعة من الكتب أوفق من المعلمين وقد رد عليه <persName ref="https://usaybia.net/person/961">
+								ابن بطلان
+							</persName> هذا الرأي وغيره في كتاب مفرد وذكر فصلاً في العلل التي لأجلها صار المتعلم من أفواه الرجال <note n="35" type="footnote"><p>A: المعلمين, in margin الرجال</p></note>
 							أفضل من المتعلم من الصحف إذا كان قبولهما واحداً وأورد عدة علل.‬‎
 						</p>
 						<list>
@@ -3534,30 +3548,30 @@
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/1890" n="14.25.5no7" change="#change-1" cert="low">
-								قال وأنا آتيك ببيان سابع أظنه مصدقاً عندك وهو ما قاله المفسرون في الاعتياض عن السالبة البسيطة بالموجبة المعدولة فإنهم مجمعون على أن هذا الفصل لو لم يسمعه من أرسطوطاليس تلميذاه ثاؤفرسطس وأوذيموس لما فهم قط من كتاب وإذا كان الأمر على هذا فالفهم من المعلم أفضل من الفهم من الكتاب وبحسب هذا يجب على كل محب للعلم أن لا يقطع بظن فربما خفي الصواب وإذا خفي الصواب علم <note n="55" type="footnote">
-                                    <p>A: على, in margin علم خ</p>
-                                </note>
-								الأشياء علماً رديئاً فثار عليه بحسب اعتقاده في الحق أنه مجال <note n="56" type="footnote">
-                                    <p>Ed. em. A: محالٌ شكوك with <hi rend="italic">ḥ</hi> having a <hi rend="italic">muhmal</hi> sign, which it also has in L: مُحال; Gc: محال وشكوك; H, Müller: محال شكوك; Schacht &amp; Meyerhof, <hi rend="italic">Medico-Philosophical Controversy</hi>, 53: محال</p>
-                                </note>
+								<title ref="https://usaybia.net/work/1890" n="14.25.5no7" change="#change-1" cert="low">
+								<rs ref="https://usaybia.net/person/961">
+									قال
+								</rs> وأنا آتيك ببيان سابع أظنه مصدقاً عندك وهو ما قاله المفسرون في الاعتياض عن السالبة البسيطة بالموجبة المعدولة فإنهم مجمعون على أن هذا الفصل لو لم يسمعه من أرسطوطاليس تلميذاه ثاؤفرسطس وأوذيموس لما فهم قط من كتاب وإذا كان الأمر على هذا فالفهم من المعلم أفضل من الفهم من الكتاب وبحسب هذا يجب على كل محب للعلم أن لا يقطع بظن فربما خفي الصواب وإذا خفي الصواب علم <note n="55" type="footnote"><p>A: على, in margin علم خ</p></note>
+								الأشياء علماً رديئاً فثار عليه بحسب اعتقاده في الحق أنه مجال <note n="56" type="footnote"><p>Ed. em. A: محالٌ شكوك with <hi rend="italic">ḥ</hi> having a <hi rend="italic">muhmal</hi> sign, which it also has in L: مُحال; Gc: محال وشكوك; H, Müller: محال شكوك; Schacht &amp; Meyerhof, <hi rend="italic">Medico-Philosophical Controversy</hi>, 53: محال</p></note>
 								شكوك يعسر حلّها.
-							</title>
+								</title>
                             </item>
 						</list>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكانت وفاة علي بن رضوان رحمه الله <note n="57" type="footnote">
-                                <p>A: add. بمصر crossed out</p>
-                            </note>
-							في سنة ثلاث وخمسين وأربعمائة بمصر وذلك في خلافة المستنصر بالله أبي تميم معد بن الظاهر لإعزاز دين الله بن الحاكم. <note n="58" type="footnote">
-                                <p>In margin of A: لإعزاز دين الله بن الحاكم صح</p>
-                            </note>
+							وكانت وفاة <persName ref="https://usaybia.net/person/1093">
+								علي بن رضوان
+							</persName> رحمه الله <note n="57" type="footnote"><p>A: add. بمصر crossed out</p></note>
+							في سنة ثلاث وخمسين وأربعمائة بمصر وذلك في خلافة <persName ref="https://usaybia.net/person/al-Hakim">
+								المستنصر بالله أبي تميم معد بن الظاهر لإعزاز دين الله بن الحاكم
+							</persName>. <note n="58" type="footnote"><p>In margin of A: لإعزاز دين الله بن الحاكم صح</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.6‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">ومن كلام علي بن رضوان قال إذا كانت للإنسان صناعة ترتاض بها أعضاؤه ويمدحه بها الناس ويكسب بها كفايته في بعض يومه فأفضل ما ينبغي له في باقي يومه أن يصرفه في طاعة ربه وأفضل الطاعات النظر في الملكوت وتمجيد المالك لها سبحانه ومن رزق ذلك فقد رزق خير الدنيا والآخرة وطوبى له وحسن مآب.‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">ومن كلام <persName ref="https://usaybia.net/person/1093">
+							علي بن رضوان
+						</persName> قال إذا كانت للإنسان صناعة ترتاض بها أعضاؤه ويمدحه بها الناس ويكسب بها كفايته في بعض يومه فأفضل ما ينبغي له في باقي يومه أن يصرفه في طاعة ربه وأفضل الطاعات النظر في الملكوت وتمجيد المالك لها سبحانه ومن رزق ذلك فقد رزق خير الدنيا والآخرة وطوبى له وحسن مآب.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.7‬]</hi>
 						</p>
@@ -3641,7 +3655,6 @@
                                         <p>AGc: om. تفقد</p>
                                     </note>
 									كل واحد من الأعضاء والأخلاق.‬‎
-								</p>
 								<p style="direction:rtl; unicode-bidi:embed">
 									أما فيما يمكن ظهوره للحس فلا تقنع فيه حتى تشاهده بالحس وأما فيما يتعرف بالاستدلال ما يستدل عليه بالعلامات الخاصية وأما فيما يتعرف بالمسألة فابحث عنه بالمسألة حتى تعتبر كل واحد من العيوب فتعرف هل <note n="73" type="footnote">
                                         <p>L: كل</p>
@@ -3658,7 +3671,9 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.25.9‬]</hi>
 						</p>
-						<p style="direction:rtl; unicode-bidi:embed">ولعلي بن رضوان من الكتب:‬‎</p>
+						<p style="direction:rtl; unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/1093">
+							علي بن رضوان
+						</persName> من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -3906,13 +3921,13 @@
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">‭42‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/1936" n="14.25.9no42" change="#change-1" cert="low">
-								نسخة الدستور الذي أنفذه أبو العسكر الحسين بن معدان ملك مكران في حال علة الفالج في شقّه <note n="92" type="footnote">
-                                    <p>L: سقه</p>
-                                </note>
-								الأيسر وجواب ابن رضوان له
-							</title>
-                            </item>
+								<title ref="https://usaybia.net/work/1936" n="14.25.9no42" change="#change-1" cert="low">
+								نسخة الدستور الذي أنفذه أبو العسكر الحسين بن معدان ملك مكران في حال علة الفالج في شقّه <note n="92" type="footnote"><p>L: سقه</p></note>
+								الأيسر وجواب <persName ref="https://usaybia.net/person/1093">
+									ابن رضوان
+								</persName> له
+								</title>
+							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭43‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1937" n="14.25.9no43" change="#change-1" cert="low">فوائد علقها من كتاب حيلة البرء لجالينوس</title>
@@ -4276,12 +4291,10 @@
 							<hi rend="bold">[‭14.26.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							هو ابو كثير أفرائيم بن الحسن بن إسحق بن إبراهيم بن يعقوب إسرائيلي المذهب وهو من الأطباء المشهورين بديار مصر وخدم الخلفاء الذين كانوا في زمانه <note n="2" type="footnote">
-                                <p>BL: كان في زمانهم; GcH: كانوا في زمانهم; Müller: كان في زمانهم</p>
-                            </note>
-							وحصل من جهتهم من الأموال والنعم شيئاً كثيراً جداً وكان قد قرأ صناعة الطب على أبي الحسن علي بن رضوان وهو من أجل تلامذته وكانت له همة عالية <note n="3" type="footnote">
-                                <p>A: عظيمة, in margin عالية</p>
-                            </note>
+							هو ابو كثير أفرائيم بن الحسن بن إسحق بن إبراهيم بن يعقوب إسرائيلي المذهب وهو من الأطباء المشهورين بديار مصر وخدم الخلفاء الذين كانوا في زمانه <note n="2" type="footnote"><p>BL: كان في زمانهم; GcH: كانوا في زمانهم; Müller: كان في زمانهم</p></note>
+							وحصل من جهتهم من الأموال والنعم شيئاً كثيراً جداً وكان قد قرأ صناعة <persName ref="https://usaybia.net/person/1093">
+								الطب على أبي الحسن علي بن رضوان
+							</persName> وهو من أجل تلامذته وكانت له همة عالية <note n="3" type="footnote"><p>A: عظيمة, in margin عالية</p></note>
 							في تحصيل الكتب وفي استنساخها حتى كانت عنده خزائن كثيرة من الكتب الطبية وغيرها وكان أبداً عنده النساخ يكتبون ولهم ما يقوم بكفايتهم منه ومن جملتهم محمد بن سعيد بن هشام الحجري
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٨‬أ‬‎"/>
 							وهو المعروف بابن ملساقة ووجدت بخط هذا عدة كتب قد كتبها لأفرائيم <note n="4" type="footnote">
@@ -4386,15 +4399,11 @@
 							قال:‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وأشبه من رأيته منهم وأدخلهم في عدد الأطباء رجل من اليهود يدعي أبا الخير سلامة بن رحمون فإنه لقي أبا الوفاء المبشر بن فاتك فأخذ عنه شيئاً من صناعة المنطق تخصص بها وتميز عن أضرابه وأدرك أبا كثير بن الزفان تلميذ أبي الحسن ابن رضوان فقرأ عليه بعض كتب جالينوس ثم نصب نفسه لتدريس جميع كتب المنطق وجميع كتب الفلسفة الطبيعية <note n="5" type="footnote">
-                                <p>L: الطبيعة</p>
-                            </note>
-							والإلهية وشرح بزعمه وفسر ولخص ولم يكن هناك في تحصيله <note n="6" type="footnote">
-                                <p>Abū l-Ṣalt Umayyah, <hi rend="italic">al-Risālah al-Miṣriyyah</hi>, 35; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>: تحصيله; ABGcHL: تلخيصه; see also Müller, ‘Lesarten’, 48.</p>
-                            </note>
-							وتحقيقه واستقصائه عن لطيف العلم ودقيقه بل كان يكثر كلامه فيضل ويسرع جوابه فيزل ولقد سألته أول لقائي له واجتماعي به عن مسائل استفتحت مباحثته بها مما يمكن أن يفهمها من لم يكن <note n="7" type="footnote">
-                                <p>Above the line in A: يكن</p>
-                            </note>
+							وأشبه من رأيته منهم وأدخلهم في عدد الأطباء رجل من اليهود يدعي أبا الخير سلامة بن رحمون فإنه لقي أبا الوفاء المبشر بن فاتك فأخذ عنه شيئاً من صناعة المنطق تخصص بها وتميز عن أضرابه وأدرك أبا كثير بن الزفان تلميذ <persName ref="https://usaybia.net/person/1093">
+								أبي الحسن ابن رضوان
+							</persName> فقرأ عليه بعض كتب جالينوس ثم نصب نفسه لتدريس جميع كتب المنطق وجميع كتب الفلسفة الطبيعية <note n="5" type="footnote"><p>L: الطبيعة</p></note>
+							والإلهية وشرح بزعمه وفسر ولخص ولم يكن هناك في تحصيله <note n="6" type="footnote"><p>Abū l-Ṣalt Umayyah, <hi rend="italic">al-Risālah al-Miṣriyyah</hi>, 35; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>: تحصيله; ABGcHL: تلخيصه; see also Müller, ‘Lesarten’, 48.</p></note>
+							وتحقيقه واستقصائه عن لطيف العلم ودقيقه بل كان يكثر كلامه فيضل ويسرع جوابه فيزل ولقد سألته أول لقائي له واجتماعي به عن مسائل استفتحت مباحثته بها مما يمكن أن يفهمها من لم يكن <note n="7" type="footnote"><p>Above the line in A: يكن</p></note>
 							يمتد في العلم باعه ولم يكثر
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٨‬ب‬‎"/>
 							تبحره واتساعه فأجاب عنها بما أبان عن تقصيره ونطق بعجزه وأعرب عن سوء تصوره وفهمه وكان مثله في عظم دعاويه <note n="8" type="footnote">
@@ -4404,15 +4413,15 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">يشمِّر لِلُّـجّ عـن سـاقِـهِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">يشمِّر لِلُّـجّ عـن سـاقِـهِ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ويغْمُره الموجُ في الساحلِ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">أو كما قال الآخر:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">تَمَنَّيْتـُمُ مـائتـيْ فـارسٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فردَّكُـمُ فـارسٌ واحـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">تَمَنَّيْتـُمُ مـائتـيْ فـارسٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فردَّكُـمُ فـارسٌ واحـدُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -4444,17 +4453,17 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ثلاثةٌ تدخُل فـي دُفْـعةٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">طَلْعتُهُ والنَّعْش والغاسلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">طَلْعتُهُ والنَّعْش والغاسلُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">ولبعضهم:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لأبي الخير في العِلا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">جِ يدٌ ما تُقـصِّـرُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">جِ يدٌ ما تُقـصِّـرُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كلُّ مَن يستطـبُّـهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كلُّ مَن يستطـبُّـهُ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">بعد يوميْنِ يُقْـبَـرُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -4466,11 +4475,11 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">جنونُ أبي الخير الجُنونُ بـعـينِـهِ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وكلُّ جنونٍ عنده غـايةُ الـعـقْـلِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وكلُّ جنونٍ عنده غـايةُ الـعـقْـلِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">خُذُوه فغُـلُّـوه فـشُـدُّو وِثـاقَـهُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فما عاقلٌ مَن يستهين بـمـخـتـلِّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خُذُوه فغُـلُّـوه فـشُـدُّو وِثـاقَـهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فما عاقلٌ مَن يستهين بـمـخـتـلِّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وقد كان يؤْذي الناسَ بالقول وحْـدَه‬‎</l>
@@ -4718,7 +4727,7 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وقالوا الطبيعةُ معلومنـا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ونحن نبيِّن ما حَـدَّهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونحن نبيِّن ما حَـدَّهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولم يعرفوا الآن ما قبْلها‬‎</l>
@@ -5020,7 +5029,7 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أيا مَن حَقُّ نِعـمـتِـهِ قـديمٌ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أيا مَن حَقُّ نِعـمـتِـهِ قـديمٌ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									على المرؤوس منّا والرئيسِ <note n="71" type="footnote">
                                         <p>A: على الرئيس منا والمرؤوس, which is unmetrical.</p>
@@ -5038,7 +5047,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">وكم عنّا نضوْتَ لباسَ بـوسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ويا مَن نفسُه أعلـى مَـحَـلًّا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويا مَن نفسُه أعلـى مَـحَـلًّا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">من المنفوس يُعْدَمُ والنفـيسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5054,7 +5063,7 @@
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							فعايِنْ ما عَراكَ بنُور تـقْـوى‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">خلائقك التي هي كالشُّمـوسِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خلائقك التي هي كالشُّمـوسِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">مُصابُك بالذي أضحى ثـَوابـاً‬‎</l>
@@ -5089,7 +5098,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
-							وكلُّ حوادثِ الـدنـيا يسـيرٌ‬‎
+							وكلُّ حوادثِ الـدنـيا يسـيرٌ‬‎
 						</l>
 								<l style="direction:rtl; unicode-bidi:embed">إذا بقِيَتْ حُشاشاتُ النـفـوسِ‬‎</l>
 							</lg>
@@ -5097,12 +5106,12 @@
 						<p style="direction:rtl; unicode-bidi:embed">ونقلت أيضاً من خطه مما نظمه في مآثر القاضي السديد مجيزاً لبيتين عُملا فيه وهما:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولكلِّ عافِيَةٍ عَفَتْ وقـتٌ فـإنْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكلِّ عافِيَةٍ عَفَتْ وقـتٌ فـإنْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">عُدتَ المريضَ فأنت من أوقاتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فاسلَمْ ليسْلَمَ مَن تُعَلِّـلـهُ فـقـدْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">صحَّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فاسلَمْ ليسْلَمَ مَن تُعَلِّـلـهُ فـقـدْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">صحَّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5163,16 +5172,16 @@
 								<l style="direction:rtl; unicode-bidi:embed">ونُهًى تُجِير النفس َمن آفـاتِـهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كمْ مِثلِ مُهْجتِيَ اخْتلسْتَ من الرَّدَى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فرددتَّ عنها وهْيَ في سَكَراتِهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كمْ مِثلِ مُهْجتِيَ اخْتلسْتَ من الرَّدَى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فرددتَّ عنها وهْيَ في سَكَراتِهـا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وغمرْتَها بِرًّا وبُرءاً بـعـدمـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وغمرْتَها بِرًّا وبُرءاً بـعـدمـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">قذفتْ بها الأمراض في غَمَراتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ونزعْتَ عنها النَّزْعَ وهْو مُدافِعٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لنسيمِ رَوْحِ الرُّوح عن لَهَواتِها‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونزعْتَ عنها النَّزْعَ وهْو مُدافِعٌ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لنسيمِ رَوْحِ الرُّوح عن لَهَواتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
@@ -5235,7 +5244,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">عُدتَ المريضَ فأنت من أوقاتِها‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فاسْلَمْ ليسْلمَ مَن تُعلَّـلُـهُ فـقـد‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فاسْلَمْ ليسْلمَ مَن تُعلَّـلُـهُ فـقـد‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">صحّتْ بك الدنيا على عِلّاتِهـا‬‎</l>
 							</lg>
 						</lg>
@@ -5255,7 +5264,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">أعودُ إلى هذا الوجود ولا هـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">هو السيِّد القاضي السديد الذي به‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">هو السيِّد القاضي السديد الذي به‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">أُفاخر أربابَ العُلا وأُبـاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5272,7 +5281,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">تُريه خفايا الغائباتِ كما هـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">زِمام العوافي والسَّقام بكـفّـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">زِمام العوافي والسَّقام بكـفّـه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">له آمرٌ في الفِرْقتين ونـاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5280,7 +5289,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">ببَهْجتك الدنيا ولستَ بـزاهـي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">تَجِلّ عن الماء الزُّلال وجَلّ أن‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">تَجِلّ عن الماء الزُّلال وجَلّ أن‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">يُقاسَ هواءٌ مُنْـعِـشٌ بـمِـياهِ‬‎</l>
 							</lg>
 						</lg>
@@ -5337,19 +5346,13 @@
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وكنت يوماً عند الصاحب جمال الدين يحيى بن مطروح في داره بدمشق <note n="10" type="footnote">
-                                <p>R: جمال الدين بن مطروح</p>
-                            </note>
-							وكان ذلك في أيام الملك الصالح نجم الدين أيوب صاحب البلاد المصرية والشامية والصاحب جمال الدين يومئذ وزيره في سائر البلاد وهو صاحب السيف والقلم وفي خدمته مائتا فارس وتجارينا الحديث وتفضل <note n="11" type="footnote">
-                                <p>A: om. وتفضل</p>
-                            </note>
-							وقال لي ما سبقك إلى تأليف مثل كتابك في طبقات الأطباء أحد ثم قال لي وذكرت أصحابنا الأطباء المصريين فقلت له <note n="12" type="footnote">
-                                <p>Above the line in A, GbGc om.: له</p>
-                            </note>
-							نعم فقال وكأني بك قد <note n="13" type="footnote">
-                                <p>A: وقد</p>
-                            </note>
-							أشرت إلى أن ما في الأطباء المتقدمين منهم مثل ابن رضوان وفي المتأخرين مثل ابن جميع فقلت له صحيح يا مولانا.‬‎
+							وكنت يوماً عند الصاحب جمال الدين يحيى بن مطروح في داره بدمشق <note n="10" type="footnote"><p>R: جمال الدين بن مطروح</p></note>
+							وكان ذلك في أيام الملك الصالح نجم الدين أيوب صاحب البلاد المصرية والشامية والصاحب جمال الدين يومئذ وزيره في سائر البلاد وهو صاحب السيف والقلم وفي خدمته مائتا فارس وتجارينا الحديث وتفضل <note n="11" type="footnote"><p>A: om. وتفضل</p></note>
+							وقال لي ما سبقك إلى تأليف مثل كتابك في طبقات الأطباء أحد ثم قال لي وذكرت أصحابنا الأطباء المصريين فقلت له <note n="12" type="footnote"><p>Above the line in A, GbGc om.: له</p></note>
+							نعم فقال وكأني بك قد <note n="13" type="footnote"><p>A: وقد</p></note>
+							أشرت إلى أن ما في الأطباء المتقدمين منهم مثل <persName ref="https://usaybia.net/person/1093">
+								ابن رضوان
+							</persName> وفي المتأخرين مثل ابن جميع فقلت له صحيح يا مولانا.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭14.32.3‬]</hi>
@@ -5395,10 +5398,10 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لابن جُميعٍ في طبّـه حُـمُـقٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">يُسَبّ طِبُّ المسيح من سَبَـبِـهْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">يُسَبّ طِبُّ المسيح من سَبَـبِـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وليس يدري ما في الزُّجاجة من‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وليس يدري ما في الزُّجاجة من‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">بوْلِ مريضٍ ولو تَمضمضَ بِـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5419,7 +5422,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فما هـو إلا رقـيعٌ أتـى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وإنْ حلَّ في بَلَدٍ أنحـسَـهْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وإنْ حلَّ في بَلَدٍ أنحـسَـهْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5438,7 +5441,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">وله أيضاً فيه:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كذبتَ وصحَّفتَ فيما ادّعيْتَ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كذبتَ وصحَّفتَ فيما ادّعيْتَ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وقلتَ أبوك جُمَيْعُ اليهودي‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5468,8 +5471,8 @@
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فحُقَّ بأن تُذْري على فَقْدِ سيّدٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فقدْنا به فضلَ العُلَى والـتـكـرُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فحُقَّ بأن تُذْري على فَقْدِ سيّدٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقدْنا به فضلَ العُلَى والـتـكـرُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5487,7 +5490,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأهداهُمُ بالرأي والأمر مُبْهَمٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأعلمهمْ بالغـيْب عِـلْـمَ تـفـهُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأعلمهمْ بالغـيْب عِـلْـمَ تـفـهُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
@@ -5497,11 +5500,11 @@
                                     </note>
 									ومنزلاً‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كمثلِ الصبح عند التـبـسُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كمثلِ الصبح عند التـبـسُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأنْجد مَن يمّمْـتُـه لمُـلِـمّة‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأنـجـد مَـن أمّـلـتُـهُ لـتـألُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأنـجـد مَـن أمّـلـتُـهُ لـتـألُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو كان يُفْدى من حِمامٍ فديْـتُهُ‬‎</l>
@@ -5509,17 +5512,17 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وبطْش أسُودٍ كالأَساود ترتمي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">بهَـزّةِ هـنْـديٍّ وعِـزّةِ لَـهْـذَمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">بهَـزّةِ هـنْـديٍّ وعِـزّةِ لَـهْـذَمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولكنْ قضاءُ اللّٰه في الخَلق نافذٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فلا دافعٌ للآمر الـمـتـحـكِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فلا دافعٌ للآمر الـمـتـحـكِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
-							وما ردَّ بُقراطاً عن الموت طِبُّهُ‬‎
+							وما ردَّ بُقراطاً عن الموت طِبُّهُ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">وقد كان من أعيانه في التـقـدُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كان من أعيانه في التـقـدُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5528,11 +5531,11 @@
                                     </note>
 									‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">فسلَّم ما أعياه للـمـتـسـلّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فسلَّم ما أعياه للـمـتـسـلّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">لا كسر كِسْرى ثمّ تابعَ تُـبَّعاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وعاد بـعـادٍ ثـم جـرَّ بـجُـرْهُـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لا كسر كِسْرى ثمّ تابعَ تُـبَّعاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وعاد بـعـادٍ ثـم جـرَّ بـجُـرْهُـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فقُلْ مُعْلِناً للشامتين بيومه‬‎</l>
@@ -5559,11 +5562,11 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فلا فَرَحٌ إلا ويعْقبه الأسى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولا غايةُ البـنْـيان غـيرُ الـتـهـدُّمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولا غايةُ البـنْـيان غـيرُ الـتـهـدُّمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فقُبحاً لدهرٍ ردَّنا بعد فقْده‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">حَيارى بلا هـادٍ حـلـيف الـتـيتُّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقُبحاً لدهرٍ ردَّنا بعد فقْده‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حَيارى بلا هـادٍ حـلـيف الـتـيتُّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">أما عَجَبٌ إذ غاله الحتْفُ رامياً‬‎</l>
@@ -5579,7 +5582,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وأرفع بيتاً في القبيل مكارماً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">كما لاح بدرُ التِّمِّ مـا بـين أنـجُـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كما لاح بدرُ التِّمِّ مـا بـين أنـجُـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5588,15 +5591,15 @@
                                     </note>
 									‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">رأيناه من دُرّ الكـلام الـمـنـظَّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رأيناه من دُرّ الكـلام الـمـنـظَّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وما غالَ ذاك النُّطقَ أفصحَ مِقْوَلٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وما غالَ ذاك النُّطقَ أفصحَ مِقْوَلٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">يُنِير دُجى ليلٍ من الشكّ مُظْلِـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وما أخمدَ الحِسَّ الذكيَّ توقُّداً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وقد كان يَهدي كـلَّ سـارٍ مـيمَّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وما أخمدَ الحِسَّ الذكيَّ توقُّداً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كان يَهدي كـلَّ سـارٍ مـيمَّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭25‬">
@@ -5606,7 +5609,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولا كلّ من أجرى المَدامعَ ثاكلٌ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وأين جميلٌ في الأسى من متمِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وأين جميلٌ في الأسى من متمِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5617,10 +5620,10 @@
                                     </note>
 									تأسُّفاً‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">فقدْرُ عظيمِ الحُزن قدْرُ المـعـظِّـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فقدْرُ عظيمِ الحُزن قدْرُ المـعـظِّـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وواللّٰه ما وفّيتُ واجبَ حقِّه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وواللّٰه ما وفّيتُ واجبَ حقِّه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ولو أنّ جسمي كلّ عـين بـمـرْزمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -5636,7 +5639,7 @@
 								<l style="direction:rtl; unicode-bidi:embed" n="‭30‬">
 							فويْح المنايا ما درتْ كُنْه حادثٍ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">رمتْ سيّداً يحيا به كلُّ مـنْـعـمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">رمتْ سيّداً يحيا به كلُّ مـنْـعـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ثوى بين أحجار الثرى ولقد غدا‬‎</l>
@@ -5652,8 +5655,8 @@
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وقد كنتُ أهْديه الثناءَ مبـجِّـلاً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فها أنا أهديه الرِّثا جهْدَ مُعْـدِمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وقد كنتُ أهْديه الثناءَ مبـجِّـلاً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فها أنا أهديه الرِّثا جهْدَ مُعْـدِمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فيا قبرَه الوضّاح لم يدْر ما حوى‬‎</l>
@@ -5661,7 +5664,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭35‬">
-							سقاك من الوَسْميّ كلُّ سحـابةٍ‬‎
+							سقاك من الوَسْميّ كلُّ سحـابةٍ‬‎
 						</l>
 								<l style="direction:rtl; unicode-bidi:embed">
 									تُجيل <note n="37" type="footnote">
@@ -5947,11 +5950,11 @@
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">يا أيها المدّعي طِـبّـاً وهـنـدسةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">أوضحتَ يا ابنَ جُميعٍ واضحَ الزُّورِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أوضحتَ يا ابنَ جُميعٍ واضحَ الزُّورِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إن كنتَ بالطبّ ذا علم فلِمْ عجـزتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">قُواك عن طبِّ داءٍ فيك مسـتـورِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">قُواك عن طبِّ داءٍ فيك مسـتـورِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -5985,7 +5988,7 @@
 								</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">مجسَّم أُسْطـوانـيّ عـلـى أُكَـرٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">مجسَّم أُسْطـوانـيّ عـلـى أُكَـرٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">تألفتْ بـين مـخـروط وتـدويرِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -6015,7 +6018,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وباح نَشْرُ خُزاماها بما كتـمـتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وناحَ قُمْريُّها شَجْواً بمـا يَجِـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وناحَ قُمْريُّها شَجْواً بمـا يَجِـدُ‬‎</l>
 							</lg>
 						</lg>
 					</div>
@@ -6108,16 +6111,16 @@
 						<p style="direction:rtl; unicode-bidi:embed">وقال القاضي السعيد بن سناء الملك يمدح الرئيس موسى:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أرى طِبَّ جالينوسَ للجسم وحْدَهُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">وطبُّ أبي عِمْران للعقل والجِسْمِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أرى طِبَّ جالينوسَ للجسم وحْدَهُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وطبُّ أبي عِمْران للعقل والجِسْمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فلو أنه طبَّ الزمانَ بعِـلْـمـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فلو أنه طبَّ الزمانَ بعِـلْـمـه‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">لأبراه من داء الجَهالة بالعـلْـمِ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولو كان بدْرُ التِّمّ مَن يستطـبّـه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لَتَمّ له ما يدّعـيه مـن الـتّـمِّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولو كان بدْرُ التِّمّ مَن يستطـبّـه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لَتَمّ له ما يدّعـيه مـن الـتّـمِّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وداواه يومَ التمّ من كَـلَـفٍ بـه‬‎</l>
@@ -6527,8 +6530,8 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وَرِثَ المكارمَ عن أبيه وجَدِّه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">كالرُّمح أُنبوباً على أنبـوبِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وَرِثَ المكارمَ عن أبيه وجَدِّه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كالرُّمح أُنبوباً على أنبـوبِ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -6647,7 +6650,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">فيا أيها الحَبْر الـذي جـاء آخـرا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فحلَّ لنـا مـا لـم تـحـلّ الأوائلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فحلَّ لنـا مـا لـم تـحـلّ الأوائلُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">
@@ -6706,11 +6709,11 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وما كنتُ أدْري أنّ للشمس في الثرى‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">أُفولاً وأنّ البدرَ في التُّـرب نـازلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أُفولاً وأنّ البدرَ في التُّـرب نـازلُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">إلى أن رأينـاه وقـد حـلَّ قـبـرَه‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">قضيْنا بأنّ البدرَ في اللَّحْد حاصـلُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">إلى أن رأينـاه وقـد حـلَّ قـبـرَه‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">قضيْنا بأنّ البدرَ في اللَّحْد حاصـلُ‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -7443,9 +7446,9 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تُشْرِق منهمْ في سماء الـعُـلا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">نجومُ سَعْدٍ قَـطُّ لـم تـغْـرُبِ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">نجومُ سَعْدٍ قَـطُّ لـم تـغْـرُبِ‬‎</l>
 							</lg>
-							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
+ 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">قومٌ ترى أقدارَهم في الـوَرى‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">بالعلم تسْمو رُتبةَ الكـوكـبِ‬‎</l>
 							</lg>
@@ -7507,7 +7510,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ومُجالِسي القَمَرُ المُنير تـنـزّهـتْ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فيه الحَواسُّ باسمها وكنـاتِـهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فيه الحَواسُّ باسمها وكنـاتِـهـا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -7518,15 +7521,15 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">أَحِنُّ إلى ذكر التواصل يا سـعْـدُ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">حنينَ النِّياق العِيسِ عَنَّ لها الوِرْدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">أَحِنُّ إلى ذكر التواصل يا سـعْـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حنينَ النِّياق العِيسِ عَنَّ لها الوِرْدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">فسُعْدى على قلبي ألذُّ من المُنـى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فسُعْدى على قلبي ألذُّ من المُنـى‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وقُرْبي لها عند اللقاء هو القَصْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">حوَتْ مَبْسِماً كالدُّرّ أضحى منظَّماً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حوَتْ مَبْسِماً كالدُّرّ أضحى منظَّماً‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وثغْراً كمثل الأُقْحُوان به شُـهْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -7536,24 +7539,24 @@
                                     </note>
 									عاشـقٍ‬‎
 								</l>
-								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كضوء الصبح هذا لِذا ضِدُّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ووجهاً كضوء الصبح هذا لِذا ضِدُّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							أقول لها عند الـوَداع وبـينـنـا‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">حديثٌ كنشر المِسْك خالَطَـه نَـدُّ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حديثٌ كنشر المِسْك خالَطَـه نَـدُّ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تُرى نلتقي بعد الفِراق بمَـنـزلٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ويظفَر مشتاقٌ أضرَّ به البُـعْـدُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويظفَر مشتاقٌ أضرَّ به البُـعْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">تمُرّ اللـيالـي لـيلةً بـعـد لـيلةٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وذكْركُمُ بـاقٍ يجـدّده الـعَـهْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">ولكنّ خوفَ الصَّبّ أن طال هجْركمْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكنّ خوفَ الصَّبّ أن طال هجْركمْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">فيقضي ولا يُقْضى له منكُمُ وعْـدُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -7596,20 +7599,20 @@
 						</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">خليلَيَّ إنّي قد بقِيتُ مسـهَّـدا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">من الحبّ مأسورَ الفؤادِ مقيَّدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">خليلَيَّ إنّي قد بقِيتُ مسـهَّـدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">من الحبّ مأسورَ الفؤادِ مقيَّدا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">بحبّ فتاةٍ يُخْجِل البدرَ وجهُهـا‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولا سيَّما في ليلِ شَعرٍ إذا بدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولا سيَّما في ليلِ شَعرٍ إذا بدا‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ضَلَلْتُ بها وهْي الهِلال مَلاحةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فوا عجباً منه أَضلَّ وما هدى‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فوا عجباً منه أَضلَّ وما هدى‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">لها مَبْسِمٌ كالدُّرّ أضحى منظَّماً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ونُطْقٌ كمثل الدّرّ أمسى مبدَّدا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لها مَبْسِمٌ كالدُّرّ أضحى منظَّماً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ونُطْقٌ كمثل الدّرّ أمسى مبدَّدا‬‎</l>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -7790,7 +7793,7 @@
 								<l style="direction:rtl; unicode-bidi:embed">وفيه المَعاني وهْي كالشمس تُشْرِقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">كتابُ كـريمٍ أرْيَحـيٍّ مـمـجَّـدٍ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">كتابُ كـريمٍ أرْيَحـيٍّ مـمـجَّـدٍ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">صبيحِ المُـحَـيّا نُـورُهُ يتـألّـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -7798,14 +7801,14 @@
 								<l style="direction:rtl; unicode-bidi:embed">به قد زها في العلم غَرْبٌ ومشرقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">حكيمٌ حوى كلَّ العلوم بـأسْـرهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">حكيمٌ حوى كلَّ العلوم بـأسْـرهـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">وما عنه بابٌ للمَـكـارم يُغْـلَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭5‬">
 							كريمٌ لأنواع المَحـامـد جـامـعٌ‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">ولكنه للـمـال جُـوداً مـفـرِّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ولكنه للـمـال جُـوداً مـفـرِّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إذا ذُكرتْ أوصافُه في مَـحـافـلٍ‬‎</l>
@@ -7820,12 +7823,12 @@
 								<l style="direction:rtl; unicode-bidi:embed">ومن رام تشبيهاً به ليس يَلْـحَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">إذا قال بَـذَّ الـقـائلـين بـلاغةً‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">ويصمُت قُسٌّ عنده حين يَنْـطِـقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">إذا قال بَـذَّ الـقـائلـين بـلاغةً‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">ويصمُت قُسٌّ عنده حين يَنْـطِـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو أنّ جالينوسَ كـان لـوقْـتِـهِ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">لقال بهذا في التـطـبُّـب يُوثَـقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لقال بهذا في التـطـبُّـب يُوثَـقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭10‬">
@@ -7840,7 +7843,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">إذا قلتُ مدْحاً في مَعالي محـمـدٍ‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">فكلُّ امرئٍ فيمـا أقـولُ يصـدِّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">فكلُّ امرئٍ فيمـا أقـولُ يصـدِّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولو رُمْتُ أُحْصي ما حواه من العُلى‬‎</l>
@@ -7848,7 +7851,7 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">ولا غَرْوَ في أَبْنا حُلـيقةَ أنّـنـي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">بصِدْق الوَلا في قَبْضة الرِّقِّ مُوثَقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">بصِدْق الوَلا في قَبْضة الرِّقِّ مُوثَقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لوالـدهـمْ عـنـدي أَيادٍ قـديمةٌ‬‎</l>
@@ -7856,9 +7859,9 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed" n="‭15‬">
-							وكلٌّ ففي العَلْـياء سـامٍ وسِـيَّمـا‬‎
+							وكلٌّ ففي العَلْـياء سـامٍ وسِـيَّمـا‬‎
 						</l>
-								<l style="direction:rtl; unicode-bidi:embed">لَمَن قال لي إذ جَدَّ فيه التـشـوُّقُ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">لَمَن قال لي إذ جَدَّ فيه التـشـوُّقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وإني امرؤ أحببتكم لـمـحـاسـنٍ‬‎</l>
@@ -8048,14 +8051,14 @@
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">قد كان نجْـم الـدين أيّوبُ الـذي‬‎</l>
-								<l style="direction:rtl; unicode-bidi:embed">مَلَكَ البريّةَ واستطال على الدُّوَلْ‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">مَلَكَ البريّةَ واستطال على الدُّوَلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">في صحّةٍ بسعوده حتـى عَـثـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">في جسمه داءٌ فأعْيتْه الـحِـيَلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
-								<l style="direction:rtl; unicode-bidi:embed">وصَفَتْ له الدنيا وظنَّ بأنّهـا‬‎</l>
+								<l style="direction:rtl; unicode-bidi:embed">وصَفَتْ له الدنيا وظنَّ بأنّهـا‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">تبقى له أبداً ففاجأه الأَجَـلْ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
