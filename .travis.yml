@@ -15,7 +15,7 @@ install:
   - ant
 
 before_script:
-  - docker cp ./build/*-dev.xar exist-ci:exist/autodeploy
+  - docker cp ./build/*.xar exist-ci:exist/autodeploy
   - docker start exist-ci
   # exist needs time
   - sleep 60
