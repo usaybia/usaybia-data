@@ -38,7 +38,7 @@ jobs:
         id: get-version
         uses: actions/github-script@v3        
         with:
-          script: ${{ steps.create_release.outputs.tag_name }}.replace("^v", "");
+          script: return ${{ steps.create_release.outputs.tag_name }}.replace("^v", "");
           result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
