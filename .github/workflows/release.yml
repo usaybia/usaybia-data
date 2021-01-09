@@ -34,6 +34,12 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get Version
+        id: get-version
+        uses: actions/github-script@v3        
+        with:
+          script: ${{ steps.create_release.outputs.tag_name }}.replace("^v", "");
+          result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
@@ -48,6 +54,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./build/${{ steps.create_release.outputs.tag_name }}.xar # TO DO: Grab this as a variable
-          asset_name: ${{ steps.create_release.outputs.upload_url }}.xar # TO DO: Grab this as a variable
+          asset_path: ./build/${{steps.get-version.outputs.result}}.xar
+          asset_name: ${{steps.get-version.outputs.result}}.xar
           asset_content_type: application/x-xar
