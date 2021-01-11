@@ -2,7 +2,7 @@ name: Create docker package from release
 
 on:  
   release:
-    types: edited #change to published when ready for production
+    types: created, edited #change to published when ready for production
 
 jobs:
   Test_Github_API:
