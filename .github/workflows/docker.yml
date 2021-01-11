@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           result-encoding: string
-          script: return ${{steps.fetch_api_data.outputs.assets_url}}
+          script: return ${{FETCH_API_DATA}}.assets_url
       - name: Print Assets URL
         run: echo "${{steps.get_assets_url.outputs}}"
 #  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
