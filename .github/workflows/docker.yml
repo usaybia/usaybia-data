@@ -14,18 +14,11 @@ jobs:
       - name: Github Ref
         id: github_ref
         run: echo "${GITHUB_REF}"
-      - name: Release Matching Tag
-        id: release_matching_tag
-        uses: actions/github-script@v3
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@releases/v1
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            return fetch('https://api.github.com/orgs/nodejs')
-            .then(response => response.json())
-            .then(data => {
-            console.log(data)
-            })
-            .catch(error => console.error(error))
+          ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta
+          CONFIGURATION: '{ "method": "GET"}'
 #  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
 #    runs-on: ubuntu-latest
 #    name: Docker Build from Ant relase asset, Tag, Push
