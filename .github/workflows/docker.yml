@@ -20,15 +20,10 @@ jobs:
         with:
           ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta
           CONFIGURATION: '{ "method": "GET"}'      
-      - name: Get Assets URL
-        id: get_assets_url
+      - name: View context attributes
         uses: actions/github-script@v3
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          result-encoding: string
-          script: return ${FETCH_API_DATA}.assets_url
-      - name: Print Assets URL
-        run: echo "${{steps.get_assets_url.outputs}}"
+          script: console.log(context)
 #  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
 #    runs-on: ubuntu-latest
 #    name: Docker Build from Ant relase asset, Tag, Push
