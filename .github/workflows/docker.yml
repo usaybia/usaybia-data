@@ -20,7 +20,7 @@ jobs:
           ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta
           CONFIGURATION: '{ "method": "GET"}'
       - name: Get Assets URL
-        run: echo "${FETCH_API_DATA.assets_url}"
+        run: echo "${{${FETCH_API_DATA}.assets_url}}"
 #  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
 #    runs-on: ubuntu-latest
 #    name: Docker Build from Ant relase asset, Tag, Push
