@@ -24,8 +24,8 @@ jobs:
         uses: actions/github-script@v3
         with:
           script: |
-            const data = process.env.FETCH_API_DATA;
-            console.log(data[0]);
+            const data = JSON.parse(process.env.FETCH_API_DATA);
+            console.log(data.assets_url);
           result-encoding: string
       - name: View context attributes
         uses: actions/github-script@v3
