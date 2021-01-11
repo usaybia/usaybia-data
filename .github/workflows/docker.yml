@@ -23,7 +23,7 @@ jobs:
       - name: View API Data
         uses: actions/github-script@v3
         with:
-          script: console.log(process.env.FETCH_API_DATA)
+          script: console.log(process.env.FETCH_API_DATA.assets_url)
       - name: View context attributes
         uses: actions/github-script@v3
         with:
