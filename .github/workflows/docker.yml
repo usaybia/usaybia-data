@@ -25,7 +25,7 @@ jobs:
         with:
           script: |
             const data = process.env.FETCH_API_DATA;
-            console.log(data[0].assets_url);
+            console.log(data[0]);
           result-encoding: string
       - name: View context attributes
         uses: actions/github-script@v3
