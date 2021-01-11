@@ -1,7 +1,7 @@
 name: Create docker package from release
 
 on: 
-  release:
+  [release]
 #  release:
 #    types: published
 
