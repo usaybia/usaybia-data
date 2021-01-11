@@ -1,28 +1,38 @@
 name: Create docker package from release
 
 on: 
-  release:
-    types: published
+  push:    
+#  release:
+#    types: published
 
 jobs:
-  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
+  Test_Github_API:
     runs-on: ubuntu-latest
-    name: Docker Build from Ant relase asset, Tag, Push
-
+    name: Test Github API values
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Download
-      uses: actions/download-artifact@master
-      with: 
-        name: webpack artifacts
-        path: build
-    - name: Build container image
-      uses: docker/build-push-action@v1
-      with:
-        username: ${{github.actor}}
-        password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com
-        repository: usaybia/srophe-exist-app/usaybia-srophe
-        tag_with_sha: true
-        tags: v0.5
+      - name: Github Ref
+        id: github_ref
+        run: echo "${GITHUB_REF}"
+#  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
+#    runs-on: ubuntu-latest
+#    name: Docker Build from Ant relase asset, Tag, Push
+
+#    steps:
+#    - uses: actions/upload-artifact@v2
+#      with:
+#        name: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/${GITHUB_REF}
+#        path: path/**/[abc]rtifac?/*
+#    - name: Download
+#      uses: actions/download-artifact@master
+#      with: 
+#        name: webpack artifacts
+#        path: build
+#    - name: Build container image
+#      uses: docker/build-push-action@v1
+#      with:
+#        username: ${{github.actor}}
+#        password: ${{secrets.GITHUB_TOKEN}}
+#        registry: docker.pkg.github.com
+#        repository: usaybia/srophe-exist-app/usaybia-srophe
+#        tag_with_sha: true
+ #       tags: v0.5
