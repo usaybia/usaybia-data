@@ -25,6 +25,7 @@ jobs:
         uses: actions/github-script@v3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
+          result-encoding: string
           script: return ${{steps.fetch_api_data.outputs.assets_url}}
       - name: Print Assets URL
         run: echo "${{steps.get_assets_url.outputs}}"
