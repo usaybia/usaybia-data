@@ -24,6 +24,7 @@ jobs:
         uses: actions/github-script@v3
         with:
           script: console.log(process.env.FETCH_API_DATA.assets_url)
+          result-encoding: string
       - name: View context attributes
         uses: actions/github-script@v3
         with:
