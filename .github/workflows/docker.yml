@@ -14,7 +14,7 @@ jobs:
       - name: Github Ref
         id: github_ref
         run: echo "${GITHUB_REF}"
-      - name: Fetch API Data 📦 # Could probably skip this step by using the Github Script context object
+      - name: Fetch API Data 📦 # Could probably skip this step by getting it from the Github Script context object on a release event and then loading it into an environment variable using core.exportVariable('envVar', 'Val');
         id: fetch_api_data
         uses: JamesIves/fetch-api-data-action@releases/v1
         with:
