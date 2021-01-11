@@ -20,6 +20,10 @@ jobs:
         with:
           ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta
           CONFIGURATION: '{ "method": "GET"}'      
+      - name: View API Data
+        uses: actions/github-script@v3
+        with:
+          script: console.log(process.env.FETCH_API_DATA)
       - name: View context attributes
         uses: actions/github-script@v3
         with:
