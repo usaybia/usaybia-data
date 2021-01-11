@@ -20,8 +20,12 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            $.getJSON('https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta', function(data) {
-            });
+            return fetch('https://api.github.com/orgs/nodejs')
+            .then(response => response.json())
+            .then(data => {
+            console.log(data)
+            })
+            .catch(error => console.error(error))
 #  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
 #    runs-on: ubuntu-latest
 #    name: Docker Build from Ant relase asset, Tag, Push
