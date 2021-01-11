@@ -1,1 +1,28 @@
+name: Create docker package from release
 
+on: 
+  release:
+    types: published
+
+jobs:
+  Build-and-Push-Docker-Image: # Change the below to use the ${GITHUB_REF} environment variable to get the release tag, see https://www.aaron-powell.com/posts/2021-01-11-using-environments-for-approval-workflows-with-github/
+    runs-on: ubuntu-latest
+    name: Docker Build from Ant relase asset, Tag, Push
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Download
+      uses: actions/download-artifact@master
+      with: 
+        name: webpack artifacts
+        path: build
+    - name: Build container image
+      uses: docker/build-push-action@v1
+      with:
+        username: ${{github.actor}}
+        password: ${{secrets.GITHUB_TOKEN}}
+        registry: docker.pkg.github.com
+        repository: usaybia/srophe-exist-app/usaybia-srophe
+        tag_with_sha: true
+        tags: v0.5
