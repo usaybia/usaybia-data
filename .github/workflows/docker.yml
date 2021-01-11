@@ -14,11 +14,11 @@ jobs:
       - name: Github Ref
         id: github_ref
         run: echo "${GITHUB_REF}"
-      - name: Fetch API Data 📦
+      - name: Fetch API Data 📦 # Could probably skip this step by using the Github Script context object
         id: fetch_api_data
         uses: JamesIves/fetch-api-data-action@releases/v1
         with:
-          ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta
+          ENDPOINT: https://api.github.com/repos/usaybia/usaybia-data/releases/tags/v0.4-beta # Next try turning tag into variable
           CONFIGURATION: '{ "method": "GET"}'      
       - name: View API Data
         uses: actions/github-script@v3
