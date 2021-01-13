@@ -81,4 +81,8 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
         repository: usaybia/usaybia-data/usaybia-data
-        tags: ${{env.RELEASE_TAG}}, latest, release, dev
+        tags: |
+          ${{env.RELEASE_TAG}}
+          latest
+          release
+          dev
