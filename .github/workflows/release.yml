@@ -36,14 +36,18 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Get Version
-        id: get-version
-        uses: actions/github-script@v3        
-        with:
-          script: |
-            var str = "${{ steps.create_release.outputs.tag_name }}";
-            return str.replace("v", "");
-          result-encoding: string
+      - name: Set release version variables
+        run: |
+          echo "RELEASE_TAG=${{ steps.create_release.outputs.tag_name }}" >> $GITHUB_ENV
+          echo "RELEASE_VERSION=${{steps.create_release.outputs.tag_name##*/v}}" >> $GITHUB_ENV
+      # - name: Get Version
+        # id: get-version
+        # uses: actions/github-script@v3        
+        # with:
+        #  script: |
+        #    var str = "${{ steps.create_release.outputs.tag_name }}";
+        #    return str.replace("v", "");
+        #  result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
@@ -58,8 +62,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-          asset_path: ./build/usaybia-data-${{steps.get-version.outputs.result}}.xar
-          asset_name: usaybia-data-${{steps.get-version.outputs.result}}.xar
+          asset_path: ./build/usaybia-data-${RELEASE_VERSION}.xar
+          asset_name: usaybia-data-${RELEASE_VERSION}.xar
           asset_content_type: application/x-xar
   build_and_push_docker_image:
     runs-on: ubuntu-latest
@@ -81,4 +85,4 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
         repository: usaybia/usaybia-data/usaybia-data
-        tags: ${{ steps.create_release.outputs.tag_name }}
+        tags: ${RELEASE_TAG}, latest, release, dev
