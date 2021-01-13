@@ -1,7 +1,7 @@
 name: Create Release, Build and Push Docker Image
 
 on:
-  # push:
+   push:
     # branches to consider in the event; optional, defaults to all
     branches:
       - master
