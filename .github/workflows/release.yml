@@ -36,10 +36,10 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       - name: Set Version Variables
-         id: set-version-variables
-         uses: actions/github-script@v3        
-         with:
+      - name: Set Version Variables
+        id: set-version-variables
+        uses: actions/github-script@v3        
+        with:
           script: |            
             var str = "${{ steps.create_release.outputs.tag_name }}";
             core.exportVariable('RELEASE_TAG', str);
