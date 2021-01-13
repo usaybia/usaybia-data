@@ -75,7 +75,7 @@ jobs:
         name: build-artifact
         path: build
     - name: Build container image
-      uses: docker/build-push-action@v1
+      uses: docker/build-push-action@v1 # Need to update to latest version of action
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
