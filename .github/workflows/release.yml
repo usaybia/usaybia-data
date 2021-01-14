@@ -45,7 +45,7 @@ jobs:
             core.exportVariable('RELEASE_TAG', str);
             core.exportVariable('RELEASE_VERSION', str.replace("v", ""));
             core.exportVariable('RELEASE_ID', ${{ steps.create_release.outputs.id }});
-            console.log(${{env.RELEASE_TAG}});
+            console.log("${{env.RELEASE_TAG}}");
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
