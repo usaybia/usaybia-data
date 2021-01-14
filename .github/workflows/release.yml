@@ -112,4 +112,4 @@ jobs:
           usaybia/usaybia-data:latest
           usaybia/usaybia-data:${{env.RELEASE_TAG}}
           ghcr.io/usaybia/usaybia-data:latest
-          usaybia/usaybia-data:${{env.RELEASE_TAG}}
+          ghcr.io/usaybia/usaybia-data:${{env.RELEASE_TAG}}
