@@ -44,6 +44,7 @@ jobs:
             var str = "${{ steps.create_release.outputs.tag_name }}";
             core.exportVariable('RELEASE_TAG', str);
             core.exportVariable('RELEASE_VERSION', str.replace("v", ""));
+            core.exportVariable('RELEASE_ID', ${{ steps.create_release.outputs.id }});
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
@@ -51,7 +52,7 @@ jobs:
         with: 
           name: build-artifact
           path: build
-      - name: Upload release asset # Will fail if build.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release
+      - name: Upload release asset # Will fail if build.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release. Could address this by adding a step to delete any assets of the same name already attached to release.
         id: upload-release-asset 
         uses: actions/upload-release-asset@v1
         env:
