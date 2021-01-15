@@ -11,6 +11,9 @@ categories:
   - title: '📐 Changes to Schema, Standards, or Data Model'
     labels:
       - 'changelog: schema changes'
+  - title: '💡 Metadata or App Enhancements'
+    labels:
+      - 'changelog: metadata/app enhancements'
   - title: '🐛 Metadata and Application Fixes'
     labels:
       - 'changelog: metadata/app fixes'
@@ -25,6 +28,7 @@ version-resolver:
     labels:
       - 'changelog: schema changes'
       - 'changelog: new content'
+      - 'changelog: metadata/app enhancements'
   patch:
     labels:
       - 'changelog: metadata/app fixes'
