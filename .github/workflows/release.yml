@@ -38,14 +38,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set version variables
         id: set-version-variables
-        uses: actions/github-script@v3        
-        with:
-          script: |            
-            var str = "${{ steps.create_release.outputs.tag_name }}";
-            core.exportVariable('RELEASE_TAG', str);
-            core.exportVariable('RELEASE_VERSION', str.replace("v", ""));
-            core.exportVariable('RELEASE_ID', ${{ steps.create_release.outputs.id }});
-            console.log("${{env.RELEASE_TAG}}");
+        # uses: actions/github-script@v3        
+        # with:
+          # script: |            
+            # var str = "${{ steps.create_release.outputs.tag_name }}";
+            # core.exportVariable('RELEASE_TAG', str);
+            # core.exportVariable('RELEASE_VERSION', str.replace("v", ""));
+            # core.exportVariable('RELEASE_ID', ${{ steps.create_release.outputs.id }});
+            # console.log("${{env.RELEASE_TAG}}");
+        run: | 
+          echo "RELEASE_TAG=${{ steps.create_release.outputs.tag_name }}"" >> $GITHUB_ENV
+          echo "RELEASE_VERSION=${{steps.create_release.outputs.tag_name##*/v}}" >> $GITHUB_ENV
+          echo "RELEASE_ID=${{ steps.create_release.outputs.id }}" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
