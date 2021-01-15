@@ -19,7 +19,7 @@ categories:
       - 'changelog: metadata/app fixes'
 change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
-prerelease: true # This can also be specified in the workflow file to allow differences between branches 
+prerelease: true # This can also be specified in the workflow file to allow differences between branches
 version-resolver:
   major:
     labels:
