@@ -4,9 +4,9 @@ on:
    push:
     # branches to consider in the event; optional, defaults to all
     # Although the workflow runs on each push to the following branches, the draft release it creates the description from pull requests to these branches.
-    # The target of the draft release is the default branch.
+    # The target of the draft release is the default branch and must be changed manually before publishing the release.
     branches:
-      - master
+      - development
 
 jobs:
   build_ant_package:
@@ -42,7 +42,7 @@ jobs:
         id: create_release
         uses: release-drafter/release-drafter@v5
         with:
-          config-name: release-drafter.yml # NB: Uses the version of the file on the master branch
+          config-name: release-drafter-dev.yml # NB: Uses the version of the file on the master branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set version variables
