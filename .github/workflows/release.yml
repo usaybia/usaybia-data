@@ -34,7 +34,7 @@ jobs:
       release_version: ${{ steps.set-version-variables.outputs.result }}
       release_id: ${{ steps.create_release.outputs.id }}
     steps:
-      # Drafts your next Release notes as Pull Requests are merged into "master"
+      # Drafts your next Release notes as Pull Requests are merged into "master" 
       - name: Create release
         id: create_release
         uses: release-drafter/release-drafter@v5
