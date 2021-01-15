@@ -36,8 +36,8 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Set version variables
-        id: set-version-variables
+      - name: Set tag variables
+        id: set-tag-variables
         # uses: actions/github-script@v3        
         # with:
           # script: |            
@@ -48,8 +48,10 @@ jobs:
             # console.log("${{env.RELEASE_TAG}}");
         run: | 
           echo "RELEASE_TAG=${{ steps.create_release.outputs.tag_name }}" >> $GITHUB_ENV
-          echo RELEASE_TAG
           echo "RELEASE_ID=${{ steps.create_release.outputs.id }}" >> $GITHUB_ENV
+      - name: Set version variables
+        id: set-version-variables
+        run: echo "RELEASE_VERSION=${RELEASE_TAG#v}" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
