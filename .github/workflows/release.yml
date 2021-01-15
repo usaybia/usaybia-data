@@ -1,9 +1,4 @@
 name: Create release with Ant package, build and push Docker image
-env: 
-   RELEASE_TAG: test
-   RELEASE_VERSION: test
-   RELEASE_ID: test
-
 
 on:
    push:
@@ -34,6 +29,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build_ant_package
     name: Create/update release based on pull request
+    outputs:
+      release_tag: ${{ steps.create_release.outputs.tag_name }}
+      release_version: ${{ steps.set-version-variables.outputs.result }}
+      release_id: ${{ steps.create_release.outputs.id }}
     steps:
       # Drafts your next Release notes as Pull Requests are merged into "master"
       - name: Create release
@@ -41,22 +40,14 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Set tag variables
-        id: set-tag-variables
-        # uses: actions/github-script@v3        
-        # with:
-          # script: |            
-            # var str = "${{ steps.create_release.outputs.tag_name }}";
-            # core.exportVariable('RELEASE_TAG', str);
-            # core.exportVariable('RELEASE_VERSION', str.replace("v", ""));
-            # core.exportVariable('RELEASE_ID', ${{ steps.create_release.outputs.id }});
-            # console.log("${{env.RELEASE_TAG}}");
-        run: | 
-          echo "RELEASE_TAG=${{ steps.create_release.outputs.tag_name }}" >> $GITHUB_ENV
-          echo "RELEASE_ID=${{ steps.create_release.outputs.id }}" >> $GITHUB_ENV
       - name: Set version variables
         id: set-version-variables
-        run: echo "RELEASE_VERSION=${RELEASE_TAG#v}" >> $GITHUB_ENV
+        uses: actions/github-script@v3        
+        with:
+          script: |            
+            var str = "${{ steps.create_release.outputs.tag_name }}";
+            return str.replace("v", ""));
+          result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Download
@@ -71,8 +62,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./build/usaybia-data-${{env.RELEASE_VERSION}}.xar
-          asset_name: usaybia-data-${{env.RELEASE_VERSION}}.xar
+          asset_path: ./build/usaybia-data-${{ steps.set-version-variables.outputs.result }}.xar
+          asset_name: usaybia-data-${{ steps.set-version-variables.outputs.result }}.xar
           asset_content_type: application/x-xar
       - name: Report failure
         if: ${{ failure() }}
@@ -86,8 +77,6 @@ jobs:
     name: Build and push Docker image
 
     steps:
-    - name: Test environment variables
-      run: echo "RELEASE_TAG"
     - name: Download
       uses: actions/download-artifact@master
       with: 
@@ -123,6 +112,6 @@ jobs:
         # cache-to: type=inline
         tags: |
           usaybia/usaybia-data:latest
-          usaybia/usaybia-data:${{env.RELEASE_TAG}}
+          usaybia/usaybia-data:${{needs.update_release_draft.outputs.release_tag}}
           ghcr.io/usaybia/usaybia-data:latest
-          ghcr.io/usaybia/usaybia-data:${{env.RELEASE_TAG}}
+          ghcr.io/usaybia/usaybia-data:${{needs.update_release_draft.outputs.release_tag}}
