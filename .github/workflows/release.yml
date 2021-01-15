@@ -50,7 +50,7 @@ jobs:
         id: set-version-variables
         uses: actions/github-script@v3        
         with:
-          # Grabs the version number from the release tag, minus the "v" on the beginning
+          # Grabs the version number from the release tag, minus the "v" on the beginning 
           script: |            
             var str = "${{ steps.create_release.outputs.tag_name }}";
             return str.replace("v", "");
