@@ -2,30 +2,33 @@ name-template: 'Pre-release version $RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 version-template: '$MAJOR.$MINOR.$PATCH' # Different config files could be referenced by workflows in different branches to allow 'alpha' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
-  - title: '🚀 Features'
+  - title: '📚 New Content'
     labels:
-      - 'feature'
-      - 'enhancement'
-  - title: '🐛 Bug Fixes'
+      - 'changelog: new content'
+  - title: '📝 Corrected Content'
     labels:
-      - 'fix'
-      - 'bugfix'
-      - 'bug'
-  - title: '🧰 Maintenance'
-    label: 'chore'
+      - 'changelog: corrected content'
+  - title: '📐 Changes to Schema, Standards, or Data Model'
+    labels:
+      - 'changelog: schema changes'
+  - title: '🐛 Metadata and Application Fixes'
+    labels:
+      - 'changelog: metadata/app fixes'
 change-template: '- $TITLE (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 prerelease: true # This can also be specified in the workflow file to allow differences between branches
 version-resolver:
   major:
     labels:
-      - 'major'
+      - 'changelog: major release'
   minor:
     labels:
-      - 'minor'
+      - 'changelog: schema changes'
+      - 'changelog: new content'
   patch:
     labels:
-      - 'patch'
+      - 'changelog: metadata/app fixes'
+      - 'changelog: corrected content'
   default: patch
 template: |
   This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website. 
