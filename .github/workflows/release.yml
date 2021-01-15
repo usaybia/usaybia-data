@@ -1,4 +1,9 @@
 name: Create release with Ant package, build and push Docker image
+env: 
+   RELEASE_TAG: test
+   RELEASE_VERSION: test
+   RELEASE_ID: test
+
 
 on:
    push:
