@@ -76,7 +76,7 @@ jobs:
         uses: actions/github-script@v3        
         with: 
           script: |
-            const message = 'FAILED -- The version number in build.xml should be ' + ${{ steps.set-version-variables.outputs.result }} + ' and no .xar asset with the same name should already exist on the draft release.');
+            const message = 'FAILED -- The version number in build.xml should be ${{ steps.set-version-variables.outputs.result }} and no .xar asset with the same name should already exist on the draft release.');
             console.log(message);
   build_and_push_docker_image:
     runs-on: ubuntu-latest
