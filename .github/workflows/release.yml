@@ -60,6 +60,11 @@ jobs:
         with: 
           name: build-artifact
           path: build
+      - name: Get existing asset
+        run: |
+          echo 'RELEASE_ASSETS<<EOF' >> $GITHUB_ENV
+          curl https://api.github.com/repos/usaybia/usaybia-data/releases/${{ steps.create_release.outputs.id }}/assets >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
       - name: Upload release asset # Will fail if build.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release. Could address this by adding a step to delete any assets of the same name already attached to release.
         # Uploads the Ant .xar build to the release draft.
         id: upload-release-asset 
