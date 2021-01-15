@@ -48,7 +48,7 @@ jobs:
             # console.log("${{env.RELEASE_TAG}}");
         run: | 
           echo "RELEASE_TAG=${{ steps.create_release.outputs.tag_name }}" >> $GITHUB_ENV
-          echo "RELEASE_VERSION=${RELEASE_TAG##*/v}" >> $GITHUB_ENV
+          echo "RELEASE_VERSION=${RELEASE_TAG#v}" >> $GITHUB_ENV
           echo "RELEASE_ID=${{ steps.create_release.outputs.id }}" >> $GITHUB_ENV
       - name: Checkout code
         uses: actions/checkout@v2
