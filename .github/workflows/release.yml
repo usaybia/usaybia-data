@@ -46,7 +46,7 @@ jobs:
         with:
           script: |            
             var str = "${{ steps.create_release.outputs.tag_name }}";
-            return str.replace("v", ""));
+            return str.replace("v", "");
           result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
