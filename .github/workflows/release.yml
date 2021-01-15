@@ -86,6 +86,8 @@ jobs:
     name: Build and push Docker image
 
     steps:
+    - name: Test environment variables
+      run: echo "RELEASE_TAG"
     - name: Download
       uses: actions/download-artifact@master
       with: 
