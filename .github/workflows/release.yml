@@ -42,6 +42,8 @@ jobs:
       - name: Create release
         id: create_release
         uses: release-drafter/release-drafter@v5
+        with:
+          config-name: release-drafter-dev.yml # DON'T merge this change into the master branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Set version variables
