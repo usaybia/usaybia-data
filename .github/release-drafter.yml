@@ -1,6 +1,6 @@
 name-template: 'Pre-release version $RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
-version-template: '$MAJOR.$MINOR.$PATCH-dev' # Different config files could be referenced by workflows in different branches to allow 'alpha' to be prepended only to development releases. See input: config-name in workflow file.
+version-template: '$MAJOR.$MINOR.$PATCH' # Different config files could be referenced by workflows in different branches to allow 'alpha' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
   - title: '🚀 Features'
     labels:
