@@ -1,0 +1,8 @@
+{
+  "xml": {
+    "snippets": {
+      "relm": "ab[type='factoid' subtype='relation' xml:id='factoid-${1}' resp='#${2}']>idno[type='URI']{https://usaybia.net/factoid/${3}}+(listRelation>relation[ref='${4}' mutual='${5}']>desc{${6}})+bibl[type='urn']>ptr[target='urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:${7}']+citedRange[unit='part']{${8}}",
+      "pn": "persName[ref='${1}']"
+    }
+  }
+}
