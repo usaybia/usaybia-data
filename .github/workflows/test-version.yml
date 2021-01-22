@@ -24,7 +24,7 @@ jobs:
         with:
           script: |            
             var str = ${{ steps.xml2json.outputs.data }};
-            return str.result['package'];
+            return str.result['package'].$.version;
           result-encoding: string
       - name: Print version number
         run: echo "${{ steps.get-version-number.outputs.data }}" 
