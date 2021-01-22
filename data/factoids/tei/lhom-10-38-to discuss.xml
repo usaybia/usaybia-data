@@ -157,9 +157,11 @@
                 xml:id="factoid-2" 
                 resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/10-38-2</idno>
-                <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/961 https://usaybia.net/person/211">
-                    Ibn Buṭlān also kept the company of the physician Abū l-Ḥasan Thābit ibn Ibrāhīm ibn Zahrūn al-Ḥarrānī</relation>
-                    </listRelation>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/professional-relationship" mutual="https://usaybia.net/person/961 https://usaybia.net/person/211">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> also kept the company of the physician <persName ref="https://usaybia.net/person/211">Abū l-Ḥasan Thābit ibn Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>.</desc>
+                    </relation>
+                </listRelation>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
                     <citedRange unit="part">1</citedRange>
