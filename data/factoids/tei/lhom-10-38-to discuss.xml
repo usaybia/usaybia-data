@@ -142,9 +142,11 @@
                 xml:id="factoid-1" 
                 resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/10-38-1</idno>
-                <relation ref="usaybia:student-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/161">
-                    Ibn Buṭlān had become associated with Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib and became one of his students</relation>
-                    </listRelation>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/961" passive="https://usaybia.net/person/161">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> had become associated with <persName ref="https://usaybia.net/person/161">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</persName> and became one of his students.</desc>
+                    </relation>
+                </listRelation>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
                     <citedRange unit="part">1</citedRange>
