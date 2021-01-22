@@ -8,16 +8,16 @@ jobs:
     name: Test build version data
 
     steps:
-    - name: Convert XML to JSON
-      uses: actions/checkout@v1
-      uses: fabasoad/yaml-json-xml-converter-action@v1.0.7
-      id: xml2json
-      with:
-        path: 'expath-package.xml'
-        from: 'xml'
-        to: 'json'
-    - name: Print xml2json result
-      run: echo "${{ steps.xml2json.outputs.data }}"
+      # Convert XML to JSON
+      - uses: actions/checkout@v1
+      - uses: fabasoad/yaml-json-xml-converter-action@v1.0.7
+        id: xml2json
+        with:
+          path: 'expath-package.xml'
+          from: 'xml'
+          to: 'json'
+      - name: Print xml2json result
+        run: echo "${{ steps.xml2json.outputs.data }}"
       # See https://github.com/marketplace/actions/yaml-json-xml-converter-action for inputs and examples
       # We want to take the version number stored in our repository in the /expath-pkg.xml file (XPath for the version number is /package/@version) and print this version number to the console, e.g., using run: echo ... or Github script with console.log()
       # Once this is working we'll integrate it into our release workflow to test that the version number is correct when the release is triggered.
