@@ -205,21 +205,43 @@
                 <idno type="URI">https://usaybia.net/factoid/10-38-5</idno>
                 <listEvent>
                     <event>
-                        <desc> Ibn Buṭlān travelled from <placeName ref="https://usaybia.net/place/77">Baghdad</placeName> to Egypt intending to see <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>
-                            and meet with him in the year 
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> travelled from <placeName ref="https://usaybia.net/place/77">Baghdad</placeName> to <placeName ref="https://usaybia.net/place/184">Egypt</placeName>,
+                            departing in the year
                             <choice>
                                 <reg><date notBefore="1047" notAfter="1048" calendar="#gregorian">1047/48</date></reg>
-                                <orig><date when="0439" datingMethod="#hijri">439</date></orig>
+                                <orig><date when="0439" calendar="#hijri">439</date></orig>
+                            </choice>.
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">2</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-8" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-8</idno>
+                <listEvent>
+                    <event>
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> arrived in <placeName ref="https://usaybia.net/place/209">Fustat</placeName>
+                            to meet with <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>
+                            in
+                            <choice>
+                                <reg><date when="1049-11" calendar="#gregorian">November 1049</date></reg>
+                                <orig><date when="0441-06" calendar="#hijri">Jumādā II in the year 441</date></orig>
                             </choice>.
                         <listRelation>
-                            <relation type="person-place" ref="usaybia:journey-to" active="https://usaybia.net/person/926" passive="https://usaybia.net/place/184"/>
+                            <relation type="person" ref="http://syriaca.org/keyword/serious-intimate-relationship-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093"/>
                         </listRelation>
                         </desc>
                     </event>
                 </listEvent>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                    <citedRange unit="part">1</citedRange>
+                    <citedRange unit="part">3</citedRange>
                 </bibl>
             </ab>
             <ab 
@@ -228,8 +250,8 @@
                 resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/10-38-6</idno>
                 <listRelation>
-                    <relation ref="usaybia:acquaintance-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1655">
-                        <desc>He was treated kindly and greatly honoured by Muʿizz al-Dawlah Thimāl ibn Ṣāliḥ in <place ref="https://usaybia.net/place/77">Baghdad</place></desc>
+                    <relation type="person" ref="http://syriaca.org/keyword/alliance-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1655">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> was treated kindly and greatly honoured by <persName ref="https://usaybia.net/person/1655">Muʿizz al-Dawlah Thimāl ibn Ṣāliḥ</persName> in <placeName ref="https://usaybia.net/place/17">Aleppo</placeName>.</desc>
                     </relation>
                 </listRelation>
                 <bibl type="urn">
@@ -242,13 +264,21 @@
                 xml:id="factoid-7" 
                 resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/10-38-7</idno>
-                <listevent>
-                    <event ref="usaybia:journey-to" <!-- preliminary vocabulary --> active="https://usaybia.net/person/926" passive="https://usaybia.net/place/140">
-                        <desc> Ibn Buṭlān journeyed from <placeName ref="https://usaybia.net/place/184">Egypt</placeName> to Constantinople where he remained for a year. <reg><date when="1051-2" calendar="Gregorian">in the year 439 [1047–1048] </date></reg>
-                            <orig><date when="0444" datingMethod="Hijri"> 444 </date></orig> 
-                            because: Ibn Buṭlān entered Fustat (Old Cairo) at the beginning of Jumādā II in the year 441 [November 1049] and remained there for three years.</desc>
-                             </event>
-                </listevent>
+                <listEvent>
+                    <event ana="http://syriaca.org/keyword/travel">
+                        <desc>
+                            <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> journeyed from <placeName ref="https://usaybia.net/place/184">Egypt</placeName> to <placeName ref="https://usaybia.net/place/140">Constantinople</placeName> where he remained for a year
+                            (<choice>
+                                <reg>
+                                    <date from="1052" to="1053" calendar="#gregorian">1052–1053</date>
+                                </reg>
+                                <orig>
+                                    <date from="0444" to="0445" calendar="#hijri">444–445</date>
+                                </orig>
+                            </choice>).
+                        </desc>
+                    </event>
+                </listEvent>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
                     <citedRange unit="part">4</citedRange>
