@@ -1,8 +1,12 @@
 {
   "xml": {
     "snippets": {
+      "fact": "ab[type='factoid' subtype='${1}' xml:id='factoid-${2:enumerate}' resp='#${3}']>idno[type='URI']{https://usaybia.net/factoid/${2}}+bibl[type='urn']>ptr[target='urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:${4}']+citedRange[unit='part']{${5}}",
+      "lrm": "listRelation>relation[type='person' ref='http://syriaca.org/keyword/${1}' mutual='https://usaybia.net/person/${2} https://usaybia.net/person/${3}']>desc{${4}}",
       "relm": "ab[type='factoid' subtype='relation' xml:id='factoid-${1}' resp='#${2}']>idno[type='URI']{https://usaybia.net/factoid/${3}}+(listRelation>relation[type='person' ref='http://syriaca.org/keyword/${4}' mutual='https://usaybia.net/person/${5} https://usaybia.net/person/${6}']>desc{${7}})+bibl[type='urn']>ptr[target='urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:${8}']+citedRange[unit='part']{${9}}",
-      "pn": "persName[ref='${1}']"
+      "dt": "choice>(reg>date[notBefore='${1}' notAfter='${2}' calendar='#gregorian']{${3}})+orig>date[when='${4}' calendar='#hijri']{${5}}",
+      "pn": "persName[ref='${1}']",
+      "lp": "listPerson>pn"
     }
   }
 }
