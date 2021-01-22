@@ -24,7 +24,7 @@ jobs:
         with:
           script: |            
             var str = "${{ steps.xml2json.outputs.data }}";
-            return str.package.version; # You might need to adapt this depending on how the data object is structured
+            return str.package.version;
           result-encoding: string
       # See https://github.com/marketplace/actions/yaml-json-xml-converter-action for inputs and examples
       # We want to take the version number stored in our repository in the /expath-pkg.xml file (XPath for the version number is /package/@version) and print this version number to the console, e.g., using run: echo ... or Github script with console.log()
