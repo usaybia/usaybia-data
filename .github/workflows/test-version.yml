@@ -13,7 +13,7 @@ jobs:
       - uses: fabasoad/yaml-json-xml-converter-action@v1.0.7
         id: xml2json
         with:
-          path: 'expath-package.xml'
+          path: 'expath-pkg.xml'
           from: 'xml'
           to: 'json'
       - name: Print xml2json result
