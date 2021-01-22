@@ -18,14 +18,16 @@ jobs:
           to: 'json'
       - name: Print xml2json result
         run: echo "${{ steps.xml2json.outputs.data }}"
-      - name: Print Version Number
+      - name: Get Version Number
         id: get-version-number
         uses: actions/github-script@v3        
         with:
           script: |            
             var str = "${{ steps.xml2json.outputs.data }}";
-            console.log(Object.values(version));
+            return str.package.version;
           result-encoding: string
-      # See https://github.com/marketplace/actions/yaml-json-xml-converter-action for inputs and examples
+      - name: Print version number
+        run: echo "${{ steps.get-version-number.outputs.data }}" 
+        # See https://github.com/marketplace/actions/yaml-json-xml-converter-action for inputs and examples
       # We want to take the version number stored in our repository in the /expath-pkg.xml file (XPath for the version number is /package/@version) and print this version number to the console, e.g., using run: echo ... or Github script with console.log()
       # Once this is working we'll integrate it into our release workflow to test that the version number is correct when the release is triggered.
