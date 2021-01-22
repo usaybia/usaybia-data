@@ -173,14 +173,14 @@
               resp="#nloehr">
               <idno type="URI">https://usaybia.net/factoid/10-38-3</idno>
               <listRelation>
-                  <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093">
+                  <relation type="person" ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093">
                       <desc>Neither of them would compose a book nor form any opinion without the other 
                           responding to it and exposing the folly of his opinion</desc>
                  </relation>
               </listRelation>
               <bibl type="urn">
                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                 <citedRange unit="part">1</citedRange>
+                 <citedRange unit="part">2</citedRange>
               </bibl>
            </ab>
             <ab 
@@ -189,13 +189,13 @@
                 resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/10-38-4</idno>
                 <listRelation>
-                    <relation ref="usaybia:reader-of" <!-- preliminary vocabulary --> active="https://usaybia.net/person/926" passive="https://usaybia.net/person/961 https://usaybia.net/person/1093">
-                        <desc>I – Ibn Abī Uṣaybiʿah – have seen examples of their correspondence and their criticisms of one another (</desc>
+                    <relation type="person" ref="http://syriaca.org/keyword/reader-of" active="https://usaybia.net/person/926" passive="https://usaybia.net/person/961 https://usaybia.net/person/1093">
+                        <desc>Ibn Abī Uṣaybiʿah saw examples of <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName>'s and <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>'s correspondence and their criticisms of one another.</desc>
                     </relation>
                 </listRelation>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                    <citedRange unit="part">1</citedRange>
+                    <citedRange unit="part">2</citedRange>
                 </bibl>
             </ab>
             <ab 
