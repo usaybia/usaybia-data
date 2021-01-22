@@ -23,7 +23,7 @@ jobs:
         uses: actions/github-script@v3        
         with:
           script: |            
-            return ${{ steps.xml2json.outputs.data }}.package;
+            return ${{ steps.xml2json.outputs.data }}.package.$.version;
           result-encoding: string
       - name: Print version number
         run: echo "${{ steps.get-version-number.outputs.result }}" 
