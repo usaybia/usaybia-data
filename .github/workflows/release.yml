@@ -7,7 +7,6 @@ on:
     # The target of the draft release is the default branch.
     branches:
       - master
-      - issue-82-test-version
 
 jobs:
   build_ant_package:
