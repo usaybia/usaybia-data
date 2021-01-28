@@ -1,4 +1,4 @@
-name-template: 'Pre-release version $RESOLVED_VERSION'
+name-template: 'Usaybia.net data pre-release version $RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 version-template: '$MAJOR.$MINOR.$PATCH' # Different config files could be referenced by workflows in different branches to allow 'alpha' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
@@ -34,8 +34,10 @@ version-resolver:
       - 'changelog: metadata/app fixes'
       - 'changelog: corrected content'
   default: patch
+exclude-labels:
+  - 'changelog: ignore'
 template: |
-  This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website. 
+  This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website for the project _Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybia’s History of the Physicians_ (_Wissensgemeinschaften: interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte_).
 
   It includes person records, place records, bibliography records, some marked-up Arabic text, and some factoids.
 
