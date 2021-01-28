@@ -72,6 +72,9 @@ jobs:
           script: |            
             return ${{ steps.xml2json.outputs.data }}.package.$.version;
           result-encoding: string
+      - name: error message wrong version
+        if: ${{ steps.get-version-number.outputs.result != steps.set-version-variables.outputs.result }}
+        run: echo "Please change the version number in expath-pckg.xml to ${{ steps.get-version-number.outputs.result }}
       - name: Download build
         uses: actions/download-artifact@master
         with: 
