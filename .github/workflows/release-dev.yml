@@ -82,7 +82,8 @@ jobs:
           path: build
       - name: Upload release asset # Will fail if expath-pkg.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release. Could address this by adding a step to delete any assets of the same name already attached to release.
         # Uploads the Ant .xar build to the release draft.
-        id: upload-release-asset 
+        id: upload-release-asset
+        if: ${{ steps.get-version-number.outputs.result == steps.set-version-variables.outputs.result }} 
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
