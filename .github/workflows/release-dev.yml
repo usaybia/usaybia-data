@@ -56,6 +56,22 @@ jobs:
           result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
+      - uses: actions/checkout@v1
+      - uses: fabasoad/yaml-json-xml-converter-action@v1.0.7
+        id: xml2json
+        with:
+          path: 'expath-pkg.xml'
+          from: 'xml'
+          to: 'json'
+      - name: Print xml2json result
+        run: echo "${{ steps.xml2json.outputs.data }}"
+      - name: Get Version Number
+        id: get-version-number
+        uses: actions/github-script@v3        
+        with:
+          script: |            
+            return ${{ steps.xml2json.outputs.data }}.package.$.version;
+          result-encoding: string
       - name: Download build
         uses: actions/download-artifact@master
         with: 
