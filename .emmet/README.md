@@ -11,7 +11,7 @@ These custom snippets for our project make it really easy to add pieces of code 
 3. Use the TAB key to step through the parts of the snippet that need editing.
 
 ## Reference
-Below are some of the most common snippets.
+Below are some of our most common custom snippets. For all our custom snippets, look at the `.emmet/snippets.json` file. Also see the [VS Code Emmet documentation](https://code.visualstudio.com/docs/editor/emmet) and the [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/).
 
 | Item | Abbreviation |
 | :------------- | :----------: |
