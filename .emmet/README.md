@@ -18,7 +18,7 @@ Below are some of our most common custom snippets. For all our custom snippets, 
 | *this list of common snippets* | *help* |
 | date | dt |
 | factoid with birth place | factbp |
-| factoid with citizenship | citizenship |
+| factoid with citizenship | factcn |
 | factoid with death place | factdp |
 | factoid with education | facted |
 | factoid with event | facte |
