@@ -56,6 +56,22 @@ jobs:
           result-encoding: string
       - name: Checkout code
         uses: actions/checkout@v2
+      - uses: fabasoad/yaml-json-xml-converter-action@v1.0.7
+        id: xml2json
+        with:
+          path: 'expath-pkg.xml'
+          from: 'xml'
+          to: 'json'
+      - name: Get Version Number
+        id: get-version-number
+        uses: actions/github-script@v3        
+        with:
+          script: |            
+            return ${{ steps.xml2json.outputs.data }}.package.$.version;
+          result-encoding: string
+      - name: Output error message if wrong version number
+        if: ${{ steps.get-version-number.outputs.result != steps.set-version-variables.outputs.result }}
+        run: echo "Please change the version number in expath-pkg.xml to ${{ steps.get-version-number.outputs.result }}"
       - name: Download build
         uses: actions/download-artifact@master
         with: 
@@ -63,7 +79,8 @@ jobs:
           path: build
       - name: Upload release asset # Will fail if expath-pkg.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release. Could address this by adding a step to delete any assets of the same name already attached to release.
         # Uploads the Ant .xar build to the release draft.
-        id: upload-release-asset 
+        id: upload-release-asset
+        if: ${{ steps.get-version-number.outputs.result == steps.set-version-variables.outputs.result }} 
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
