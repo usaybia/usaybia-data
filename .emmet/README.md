@@ -2,7 +2,7 @@
 These custom snippets for our project make it really easy to add pieces of code we use frequently, like various types of factoids. 
 
 ## Installing
-1. You must have this repository cloned (downloaded) to your computer. If you don't, [download GitHub Desktop](https://desktop.github.com/) and then [click here to open this repo in it](x-github-client://openRepo/https://github.com/usaybia/usaybia-data).
+1. You must have this repository cloned (downloaded) to your computer. If you don't, [download GitHub Desktop](https://desktop.github.com/) and then add this repo by cloning it from `https://github.com/usaybia/usaybia-data.git`.
 2. [Download and install Visual Studio Code](https://code.visualstudio.com/Download) if you haven't already.
 
 ## Using
