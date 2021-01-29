@@ -1,0 +1,111 @@
+name: Create release with Ant package, build and push Docker image
+
+on:
+   push:
+    # branches to consider in the event; optional, defaults to all
+    # Although the workflow runs on each push to the following branches, the draft release it creates the description from pull requests to these branches.
+    # The target of the draft release is the default branch.
+    branches:
+      - master
+
+jobs:
+  build_ant_package:
+    runs-on: ubuntu-latest
+    name: Build Ant package
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Build with Ant
+      # Your expath-pkg.xml version number must match the version Release Drafter will create
+      run: ant -noinput -buildfile build.xml
+    - uses: actions/upload-artifact@master
+      # Uploads the built .xar as an arftifact available to other jobs.
+      with:
+        name: build-artifact
+        path: build/
+  update_release_draft:
+    runs-on: ubuntu-latest
+    needs: build_ant_package
+    name: Create/update release based on pull request
+    # Outputs make the release info available to the build_and_push_docker_image job
+    outputs:
+      release_tag: ${{ steps.create_release.outputs.tag_name }}
+      release_version: ${{ steps.set-version-variables.outputs.result }}
+      release_id: ${{ steps.create_release.outputs.id }}
+    steps:
+      # Drafts your next Release notes as Pull Requests are merged into above-mentioned branches
+      - name: Create release
+        id: create_release
+        uses: release-drafter/release-drafter@v5
+        with:
+          config-name: release-drafter.yml # NB: Uses the version of the file on the master branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set version variables
+        id: set-version-variables
+        uses: actions/github-script@v3        
+        with:
+          # Grabs the version number from the release tag, minus the "v" on the beginning 
+          script: |            
+            var str = "${{ steps.create_release.outputs.tag_name }}";
+            return str.replace("v", "");
+          result-encoding: string
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Download build
+        uses: actions/download-artifact@master
+        with: 
+          name: build-artifact
+          path: build
+      - name: Upload release asset # Will fail if expath-pkg.xml version info doesn't match Release Drafter's version incrementer. Will also fail if a .xar with the same name is already attached to the same draft release. Could address this by adding a step to delete any assets of the same name already attached to release.
+        # Uploads the Ant .xar build to the release draft.
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          asset_path: ./build/usaybia-data-${{ steps.set-version-variables.outputs.result }}.xar
+          asset_name: usaybia-data-${{ steps.set-version-variables.outputs.result }}.xar
+          asset_content_type: application/x-xar
+      - name: Report failure
+        if: ${{ failure() }}
+        uses: actions/github-script@v3        
+        with: 
+          script: |
+            const message = 'FAILED -- The version number in expath-pkg.xml should be ${{ steps.set-version-variables.outputs.result }} and no .xar asset with the same name should already exist on the draft release.';
+            console.log(message);
+  build_and_push_docker_image:
+    runs-on: ubuntu-latest
+    needs: [update_release_draft]
+    name: Build and push Docker image
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Download
+      uses: actions/download-artifact@master
+      with: 
+        name: build-artifact
+        path: build
+    - name: Set up Docker buildx
+      uses: docker/setup-buildx-action@v1
+    - name: Login to Github Container Registry
+      uses: docker/login-action@v1
+      with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.PACKAGE_TOKEN }}
+    - name: Build and push
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        file: ./Dockerfile
+        pull: true
+        push: true
+        tags: |
+          ghcr.io/usaybia/usaybia-data:latest
+          ghcr.io/usaybia/usaybia-data:${{needs.update_release_draft.outputs.release_tag}}
