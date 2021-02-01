@@ -93,7 +93,16 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
+                1. Switched attribute order on notes.
+                2. Switched attribute order on milestones.
+                3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
+                4. Changed span elements to placeName.
+            </change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -116,13 +125,13 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            حكيم بارع من متقدمي حكماء الهند وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
+                            حكيم بارع من متقدمي حكماء ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
                                 <p>Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
                             </note>
                             (‭١٩١‬أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال أبو معشر جعفر بن محمد ابن عمر البلخي في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote">
                                 <p>Gc: المتقدم</p>
                             </note>
-                            في علم النجوم عند جميع العلماء من الهند في سالف الدهر.‬‎
+                            في علم النجوم عند جميع العلماء من ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> في سالف الدهر.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وله <note n="5" type="footnote">
@@ -174,7 +183,7 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان من علماء الهند وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote">
+                            كان من علماء ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote">
                                 <p>R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote">
@@ -189,7 +198,7 @@
                             الهندي جماعة في <note n="5" type="footnote">
                                 <p>Gc: من</p>
                             </note>
-                            بلاد الهند ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
+                            بلاد ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
                                 <p>BGc: وفي غيرها</p>
                             </note>
                             من العلوم مثل باكهر <note n="7" type="footnote">
@@ -267,7 +276,7 @@
                                 وكتاب فيما اختلفت <note n="21" type="footnote">
                                     <p>B: اختلف</p>
                                 </note>
-                                فيه الهند والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                                فيه ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
@@ -287,7 +296,7 @@
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/215" n="12.2no8" change="#change-1" cert="low">وكتاب علاجات الحبالى للهند</title>
+                                <title ref="https://usaybia.net/work/215" n="12.2no8" change="#change-1" cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName></title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -321,7 +330,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/219" n="12.2no12" change="#change-1" cert="low">
-                                وكتاب السكر للهند
+                                وكتاب السكر لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
@@ -352,7 +361,7 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ومن المشهورين أيضاً من أطباء الهند شاناق <note n="2" type="footnote">
+                            ومن المشهورين أيضاً من أطباء ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> شاناق <note n="2" type="footnote">
                                 <p>B: شناق</p>
                             </note>
                             وكانت له معالجات وتجارب كثيرة في صناعة الطب وتفنن في العلوم وفي الحكمة <note n="3" type="footnote">
@@ -444,7 +453,7 @@
                                 </note>
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء الهند وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى العربي.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء ا<placeName ref="https://usaybia.net/place/260" resp="#mtolay">لهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى العربي.‬‎</p>
                     </div>
                     <div type="textpart" subtype="biography" n="5">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -455,13 +464,13 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم الهند متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
                             في السموم من اللغة الهندية إلى الفارسي <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
-                            وكان في أيام الرشيد هارون وسافر من الهند إلى العراق في أيامه واجتمع به وداواه.‬‎
+                            وكان في أيام الرشيد هارون وسافر من الهند إلى ال<placeName ref="https://usaybia.net/place/263" resp="#mtolay">عراق</placeName> في أيامه واجتمع به وداواه.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ووجدت في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote">
@@ -473,10 +482,10 @@
                             ونقلت من كتاب أخبار الخلفاء والبرامكة أن الرشيد اعتل علة صعبة فعالجه جميع <note n="5" type="footnote">
                                 <p>GcH: om. جميع</p>
                             </note>
-                            الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي بالهند طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote">
+                            الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي بال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote">
                                 <p>Gc: بينما</p>
                             </note>
-                            منكة ماراً في الخلد إذا <note n="7" type="footnote">
+                            منكة ماراً في ال<placeName ref="https://usaybia.net/place/600" resp="#mtolay">خلد</placeName> إذا <note n="7" type="footnote">
                                 <p>Gc: إذ</p>
                             </note>
                             هو برجل من المائنين <note n="8" type="footnote">
@@ -522,7 +531,7 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            متميز من علماء الهند وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان بالعراق في أيام الرشيد هارون. <note n="2" type="footnote">
+                            متميز من علماء ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان بال<placeName ref="https://usaybia.net/place/263" resp="#mtolay">عراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote">
                                 <p>B: هرون الرشيد</p>
                             </note>
                             ‬‎
@@ -564,7 +573,7 @@
                             فقال جعفر بن يحيى يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة الهندي في العلم بطريقة أهل <note n="14" type="footnote">
                                 <p>Above the line in A: أهل</p>
                             </note>
-                            الهند في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
+                            ال<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
                                 <p>A: عنه</p>
                             </note>
                             ما يقول مثل ما <note n="16" type="footnote">
@@ -789,7 +798,7 @@
                             بعد ذلك دهراً ثم تزوج العباسة بنت المهدي <note n="86" type="footnote">
                                 <p>Gc: الرشيد</p>
                             </note>
-                            وولي مصر وفلسطين وتوفي بمصر وقبره بها.‬‎
+                            وولي <placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> و<placeName ref="https://usaybia.net/place/432" resp="#mtolay">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> وقبره بها.‬‎
                         </p>
                     </div>
                 </div>
