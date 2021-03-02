@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Malik al-Qāhir Muḥammad ibn Shīrkūh I Asad al-Dīn ibn Shādhī</title>
+            <title level="a" xml:lang="en">al-Malik al-Qāhir Muḥammad ibn Shīrkūh I Asad al-Dīn ibn Shādhī, Naṣīr al-Dīn</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,12 +184,18 @@
                <persName xml:id="name1491-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1491-1">al-Malik al-Qāhir Muḥammad ibn Shīrkūh I Asad al-Dīn ibn Shādhī</persName>
+                         source="#bib1491-1">al-Malik al-Qāhir Muḥammad ibn Shīrkūh I Asad al-Dīn ibn Shādhī, Naṣīr al-Dīn</persName>
                <note xml:id="abstract-en-1491"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1491-1">al-Malik al-Qāhir Muḥammad ibn Shīrkūh I Asad al-Dīn ibn Shādhī, Naṣīr al-Dīn (also known as Asad al-Dīn Shīrkūh), lord of Homs (`reg.` 574–581/1178–1186)</note>
                <idno type="URI">https://usaybia.net/person/1491</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib1491-1">
+                  <desc>ruler</desc>
+               </state>
                <bibl xml:id="bib1491-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -194,6 +195,12 @@
                       role="traditionalist"
                       source="#bib1519-1">
                   <desc>traditionalist</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ascetic"
+                      source="#bib1519-1">
+                  <desc>ascetic</desc>
                </state>
                <bibl xml:id="bib1519-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
