@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -189,10 +190,7 @@
                      type="abstract"
                      source="#bib1894-1">Rabīʿah al-Raqqī, poet under Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/1894</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="poet"
-                      source="#bib1894-1">
+               <state xml:lang="en" type="occupation" role="poet" source="#bib1894-1">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1894-1">

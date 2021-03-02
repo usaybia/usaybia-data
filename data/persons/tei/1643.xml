@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -189,6 +190,18 @@
                      type="abstract"
                      source="#bib1643-1">Muḥammad al-Sāʿātī, clockmaker and chronometrist, father of Fakhr al-Dīn Riḍwān al-Sāʿātī</note>
                <idno type="URI">https://usaybia.net/person/1643</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="clockmaker"
+                      source="#bib1643-1">
+                  <desc>clockmaker</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="chronometrist"
+                      source="#bib1643-1">
+                  <desc>chronometrist</desc>
+               </state>
                <bibl xml:id="bib1643-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

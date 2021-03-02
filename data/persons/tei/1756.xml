@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,18 +184,23 @@
                <persName xml:id="name1756-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Naṣr al-Dawlah Aḥmad ibn Marwān</persName>
+                         source="#bib1756-1">Naṣr al-Dawlah Aḥmad ibn Marwān</persName>
                <note xml:id="abstract-en-1756"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Naṣr al-Dawlah Aḥmad ibn Marwān, Marwānid ruler of Mayyāfāriqīn and Diyār Bakr (`reg.` 401–453/1010–1060–1) 10.38.6 no. 10; 10.41; 10.54.1; 10.54.2; 10.70 mo. 1</note>
+                     source="#bib1756-1">Naṣr al-Dawlah Aḥmad ibn Marwān, Marwānid ruler of Mayyāfāriqīn and Diyār Bakr (`reg.` 401–453/1010–1060–1)</note>
                <idno type="URI">https://usaybia.net/person/1756</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#">
+                      source="#bib1756-1">
                   <desc>ruler</desc>
                </state>
+               <bibl xml:id="bib1756-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">10.38.6 no. 10; 10.41; 10.54.1; 10.54.2; 10.70 mo. 1 (`see also` Naṣīr al-Dawlah)</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

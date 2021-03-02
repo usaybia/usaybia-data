@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -187,18 +188,12 @@
                <note xml:id="abstract-en-1782"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1782-1">Nizār ibn Maʿadd ibn ʿAdnān, legendary ancestor of one of the main branches of the ‘Northern Arabs’ 8.10.4n; 15.8.5(p) Nuʿaym, perhaps Abū ʿAbd Allāh Nuʿaym ibn Hammad ibn Muʿāwiyah al-Khuzāʿī al-Marwazī, 3rd/10th-c. Hadith scholar</note>
+                     source="#bib1782-1">Nizār ibn Maʿadd ibn ʿAdnān, legendary ancestor of one of the main branches of the ‘Northern Arabs’</note>
                <idno type="URI">https://usaybia.net/person/1782</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="Hadith scholar"
-                      source="#bib1782-1">
-                  <desc>Hadith scholar</desc>
-               </state>
                <bibl xml:id="bib1782-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">7.3</citedRange>
+                  <citedRange unit="section">8.10.4n; 15.8.5(p)</citedRange>
                </bibl>
             </person>
          </listPerson>

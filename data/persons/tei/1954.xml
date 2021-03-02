@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -195,10 +196,7 @@
                       source="#bib1954-1">
                   <desc>orator</desc>
                </state>
-                  <state xml:lang="en"
-                      type="occupation"
-                      role="poet"
-                      source="#bib1954-1">
+               <state xml:lang="en" type="occupation" role="poet" source="#bib1954-1">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1954-1">

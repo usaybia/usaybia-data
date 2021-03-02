@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -189,10 +190,7 @@
                      type="abstract"
                      source="#bib2015-1">Sayf al-Dawlah Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī, Ḥamdānid emir (`reg.` 333–356/944–67)</note>
                <idno type="URI">https://usaybia.net/person/2015</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="emir"
-                      source="#bib2015-1">
+               <state xml:lang="en" type="occupation" role="emir" source="#bib2015-1">
                   <desc>emir</desc>
                </state>
                <bibl xml:id="bib2015-1">

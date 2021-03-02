@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,12 +184,17 @@
                <persName xml:id="name1822-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Philip Arrhidaeus</persName>
+                         source="#bib1822-1">Philip Arrhidaeus</persName>
                <note xml:id="abstract-en-1822"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Philip Arrhidaeus, half-brother of Alexander the Great 5.1.8.1n (era of)</note>
+                     source="#bib1822-1">Philip Arrhidaeus, half-brother of Alexander the Great</note>
                <idno type="URI">https://usaybia.net/person/1822</idno>
+               <bibl xml:id="bib1822-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">5.1.8.1n (era of)</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

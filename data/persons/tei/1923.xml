@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -187,12 +188,12 @@
                <note xml:id="abstract-en-1923"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1923-1">Riḍwān, guardian angel of Paradise; name of unidentified person 10.64.19.11(p) Risālah, a slave-girl of Slavic origin</note>
+                     source="#bib1923-1">Riḍwān, guardian angel of Paradise</note>
                <idno type="URI">https://usaybia.net/person/1923</idno>
                <bibl xml:id="bib1923-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">8.25.8; 8.26.9; 8.29.3</citedRange>
+                  <citedRange unit="section">10.64.19.11(p)</citedRange>
                </bibl>
             </person>
          </listPerson>

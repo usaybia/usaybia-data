@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Muhtadī bi-Allāh</title>
+            <title level="a" xml:lang="en">al-Muhtadī bi-Allāh, Abū ʿAbd Allāh Muḥammad ibn al-Wāthiq</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,12 +184,18 @@
                <persName xml:id="name1646-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1646-1">al-Muhtadī bi-Allāh</persName>
+                         source="#bib1646-1">al-Muhtadī bi-Allāh, Abū ʿAbd Allāh Muḥammad ibn al-Wāthiq</persName>
                <note xml:id="abstract-en-1646"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1646-1">al-Muhtadī bi-Allāh, Abū ʿAbd Allāh Muḥammad ibn al-Wāthiq, son and successor to al-Wāthiq (`reg.` 255–256/869–70)</note>
                <idno type="URI">https://usaybia.net/person/1646</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="caliph"
+                      source="#bib1646-1">
+                  <desc>caliph</desc>
+               </state>
                <bibl xml:id="bib1646-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

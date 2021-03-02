@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -187,12 +188,18 @@
                <note xml:id="abstract-en-1800"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1800-1">Paul, apostle 5.1.5 (nephew of Galen);</note>
+                     source="#bib1800-1">Paul, apostle</note>
                <idno type="URI">https://usaybia.net/person/1800</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="apostle"
+                      source="#bib1800-1">
+                  <desc>apostle</desc>
+               </state>
                <bibl xml:id="bib1800-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">5.1.8.1; 5.1.25n</citedRange>
+                  <citedRange unit="section">5.1.5 (nephew of Galen); 5.1.8.1; 5.1.25n</citedRange>
                </bibl>
             </person>
          </listPerson>

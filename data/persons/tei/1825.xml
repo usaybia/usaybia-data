@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -189,6 +190,12 @@
                      type="abstract"
                      source="#bib1825-1">Philocles, 5th-c. BC tragedian</note>
                <idno type="URI">https://usaybia.net/person/1825</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="tragedian"
+                      source="#bib1825-1">
+                  <desc>tragedian</desc>
+               </state>
                <bibl xml:id="bib1825-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

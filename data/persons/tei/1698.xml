@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Mutanabbī</title>
+            <title level="a" xml:lang="en">al-Mutanabbī, Abū l-Ṭayyib Aḥmad ibn al-Ḥusayn al-Juʿfī</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,22 +184,19 @@
                <persName xml:id="name1698-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1698-1">al-Mutanabbī</persName>
+                         source="#bib1698-1">al-Mutanabbī, Abū l-Ṭayyib Aḥmad ibn al-Ḥusayn al-Juʿfī</persName>
                <note xml:id="abstract-en-1698"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1698-1">al-Mutanabbī, Abū l-Ṭayyib Aḥmad ibn al-Ḥusayn al-Juʿfī, poet (d. 354/965) 14.27.2n; 15.8.2n; 15.8.15n; 15.17n; 15.31.1n; 15.37.4n; 15.40.2; 15.40.4n; 15.46.3.6n; 15.49n (ＭＳ B);</note>
+                     source="#bib1698-1">al-Mutanabbī, Abū l-Ṭayyib Aḥmad ibn al-Ḥusayn al-Juʿfī, poet (d. 354/965)</note>
                <idno type="URI">https://usaybia.net/person/1698</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="poet"
-                      source="#bib1698-1">
+               <state xml:lang="en" type="occupation" role="poet" source="#bib1698-1">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1698-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">15.52.1.2n; 15.54n</citedRange>
+                  <citedRange unit="section">14.27.2n; 15.8.2n; 15.8.15n; 15.17n; 15.31.1n; 15.37.4n; 15.40.2; 15.40.4n; 15.46.3.6n; 15.49n (ＭＳ B); 15.52.1.2n; 15.54n</citedRange>
                </bibl>
             </person>
          </listPerson>

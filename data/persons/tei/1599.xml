@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -188,15 +189,21 @@
                <note xml:id="abstract-en-1599"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1599-1">Muḥammad, Prophet, Messenger of God 7.1.5; 10.1.2; 10.2.2.1; 10.2.2.2; 10.68.2.4(p) (‘Aḥmad’);</note>
+                     source="#bib1599-1">Muḥammad, Prophet, Messenger of God</note>
                <idno type="URI">https://usaybia.net/person/1599</idno>
                <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF</idno>
                <idno type="URI">https://viaf.org/viaf/97245226</idno>
                <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0780</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="prophet"
+                      source="#bib1599-1">
+                  <desc>prophet</desc>
+               </state>
                <bibl xml:id="bib1599-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">10.81.3; 11.19.6.2(p); 11.19.7 no. 11; 14.22.5.1 no. 7; 14.25.9 no. 80; 14.31.8n; 15.1.5 no. 62; 15.18.2(p); 15.31.2(p); 15.31.4(p); 15.46.2; 15.46.3 .10(p); 15.51.7</citedRange>
+                  <citedRange unit="section">7.1.5; 10.1.2; 10.2.2.1; 10.2.2.2; 10.68.2.4(p) (‘Aḥmad’); 10.81.3; 11.19.6.2(p); 11.19.7 no. 11; 14.22.5.1 no. 7; 14.25.9 no. 80; 14.31.8n; 15.1.5 no. 62; 15.18.2(p); 15.31.2(p); 15.31.4(p); 15.46.2; 15.46.3 .10(p); 15.51.7</citedRange>
                </bibl>
             </person>
          </listPerson>
