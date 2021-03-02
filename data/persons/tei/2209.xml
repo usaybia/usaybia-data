@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Usquf Theodore the Syncellus (Tadharus</title>
+            <title level="a" xml:lang="en">al-Usquf Theodore the Syncellus</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,7 +184,7 @@
                <persName xml:id="name2209-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2209-1">al-Usquf Theodore the Syncellus (Tadharus</persName>
+                         source="#bib2209-1">al-Usquf Theodore the Syncellus</persName>
                <persName xml:id="name2209-2" xml:lang="en-x-lhom" source="#bib2209-1">Theodore the Syncellus</persName>
                <persName xml:id="name2209-3" xml:lang="ar" source="#bib2209-1">تذرس السنقل</persName>
                <note xml:id="abstract-en-2209"
@@ -198,6 +199,12 @@
                       role="translator"
                       source="#bib2209-1">
                   <desc>translator</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="syncellus"
+                      source="#bib2209-1">
+                  <desc>syncellus</desc>
                </state>
                <bibl xml:id="bib2209-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

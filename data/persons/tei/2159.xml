@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Ṣūlī</title>
+            <title level="a" xml:lang="en">al-Ṣūlī, Abū Bakr Muḥammad ibn Yaḥyā</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,7 +184,7 @@
                <persName xml:id="name2159-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2159-1">al-Ṣūlī</persName>
+                         source="#bib2159-1">al-Ṣūlī, Abū Bakr Muḥammad ibn Yaḥyā</persName>
                <note xml:id="abstract-en-2159"
                      xml:lang="en"
                      type="abstract"
@@ -191,23 +192,17 @@
                <idno type="URI">https://usaybia.net/person/2159</idno>
                <state xml:lang="en"
                       type="occupation"
-                      role="caliph"
+                      role="poetry expert"
                       source="#bib2159-1">
-                  <desc>caliph</desc>
+                  <desc>poetry expert</desc>
                </state>
-                  <state xml:lang="en"
+               <state xml:lang="en"
                       type="occupation"
-                      role="expert "
+                      role="chess expert"
                       source="#bib2159-1">
-                  <desc>expert </desc>
+                  <desc>chess expert</desc>
                </state>
-                  <state xml:lang="en"
-                      type="occupation"
-                      role="poet"
-                      source="#bib2159-1">
-                  <desc>poet</desc>
-               </state>
-                  <state xml:lang="en"
+               <state xml:lang="en"
                       type="occupation"
                       role="author"
                       source="#bib2159-1">

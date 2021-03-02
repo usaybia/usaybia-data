@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -187,12 +188,9 @@
                <note xml:id="abstract-en-2219"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Theophrastus of Eresos, philosopher and successor to Aristotle (d. ca. 287BC) 4.1.11.3; 4.6.3.4; 4.6.3.5; 4.6.6.1; 4.6.13.1n; 4.7; 14.25.5 no. 7; 15.1.2 Treatises: 9.37n (`Causes of Plants` and `On Sense Perception`)</note>
+                     source="#">Theophrastus of Eresos, philosopher and successor to Aristotle (d. ca. 287BC)</note>
                <idno type="URI">https://usaybia.net/person/2219</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="philosopher"
-                      source="#">
+               <state xml:lang="en" type="occupation" role="philosopher" source="#">
                   <desc>philosopher</desc>
                </state>
             </person>

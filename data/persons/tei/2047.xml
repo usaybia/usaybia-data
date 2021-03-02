@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -189,17 +190,14 @@
                      type="abstract"
                      source="#bib2047-1">Shams al-ʿArab al-Baghdādī ʿAbd al-ʿAzīz ibn al-Nafīs ibn Hibat Allāh ibn Wahbān, poet and `muḥaddith` (d. 622/1225)</note>
                <idno type="URI">https://usaybia.net/person/2047</idno>
+               <state xml:lang="en" type="occupation" role="poet" source="#bib2047-1">
+                  <desc>poet</desc>
+               </state>
                <state xml:lang="en"
                       type="occupation"
-                      role="poet "
+                      role="hadith scholar"
                       source="#bib2047-1">
-                  <desc>poet </desc>
-               </state>
-                  <state xml:lang="en"
-                      type="occupation"
-                      role="muḥaddith"
-                      source="#bib2047-1">
-                  <desc>muḥaddith</desc>
+                  <desc>hadith scholar</desc>
                </state>
                <bibl xml:id="bib2047-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

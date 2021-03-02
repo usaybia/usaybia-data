@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Sharīf al-Kaḥḥāl</title>
+            <title level="a" xml:lang="en">al-Sharīf al-Kaḥḥāl, Burhān al-Dīn Abū l-Faḍl Sulaymān</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,9 +184,10 @@
                <persName xml:id="name2075-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2075-1 #bib2075-1">al-Sharīf al-Kaḥḥāl</persName>
+                         source="#bib2075-1">al-Sharīf al-Kaḥḥāl, Burhān al-Dīn Abū l-Faḍl Sulaymān</persName>
                <persName xml:id="name2075-2" xml:lang="ar" source="#">شريف الدين الكحال برهان الدين أبو الفضل سليمان</persName>
-               <persName xml:id="name2075-3" xml:lang="ar" source="#bib2075-1">الشريف الكحال</persName>
+               <persName xml:id="name2075-3" xml:lang="en-x-lhom" source="#bib2075-1">al-Sharīf al-Kaḥḥāl</persName>
+               <persName xml:id="name2075-4" xml:lang="ar" source="#bib2075-1">الشريف الكحال</persName>
                <note xml:id="abstract-en-2075"
                      xml:lang="en"
                      type="abstract"

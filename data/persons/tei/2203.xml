@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -189,10 +190,7 @@
                      type="abstract"
                      source="#bib2203-1">Theano, king of Pytho</note>
                <idno type="URI">https://usaybia.net/person/2203</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="king"
-                      source="#bib2203-1">
+               <state xml:lang="en" type="occupation" role="king" source="#bib2203-1">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib2203-1">

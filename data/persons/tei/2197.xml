@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -191,7 +192,6 @@
                      type="abstract"
                      source="#bib2197-1">Thābit ibn Sinān ibn Thābit ibn Qurrah, physician and historian</note>
                <idno type="URI">https://usaybia.net/person/2197</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/11861</idno>
                <idno type="URI">https://ar.wikipedia.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%D8%A8%D9%86_%D8%B3%D9%86%D8%A7%D9%86</idno>
                <idno type="URI">https://viaf.org/viaf/41684380</idno>
                <state xml:lang="en"
@@ -200,7 +200,7 @@
                       source="#bib2197-1">
                   <desc>physician</desc>
                </state>
-                  <state xml:lang="en"
+               <state xml:lang="en"
                       type="occupation"
                       role="historian"
                       source="#bib2197-1">

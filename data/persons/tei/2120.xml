@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Ṣiqillī</title>
+            <title level="a" xml:lang="en">al-Ṣiqillī, Abū Bakr</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,15 +184,21 @@
                <persName xml:id="name2120-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2120-1">al-Ṣiqillī</persName>
+                         source="#bib2120-1">al-Ṣiqillī, Abū Bakr</persName>
                <persName xml:id="name2120-2" xml:lang="ar" source="#">ابو بكر الصقلى</persName>
                <note xml:id="abstract-en-2120"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2120-1">al-Ṣiqillī, Abū Bakr, director of a kacnaoag</note>
+                     source="#bib2120-1">al-Ṣiqillī, Abū Bakr, director of a `madrasah`</note>
                <idno type="URI">https://usaybia.net/person/2120</idno>
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9682</idno>
                <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D8%A7%D8%A8%D9%82_%D8%A7%D9%84%D8%B5%D9%82%D9%84%D9%8A</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="`madrasah` director"
+                      source="#bib2120-1">
+                  <desc>`madrasah` director</desc>
+               </state>
                <bibl xml:id="bib2120-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

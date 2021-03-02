@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -189,12 +190,6 @@
                      type="abstract"
                      source="#bib2224-1">Thrasybulus, dedicatee of Galen</note>
                <idno type="URI">https://usaybia.net/person/2224</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="dedicatee"
-                      source="#bib2224-1">
-                  <desc>dedicatee</desc>
-               </state>
                <bibl xml:id="bib2224-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

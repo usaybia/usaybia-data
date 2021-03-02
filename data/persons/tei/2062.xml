@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -191,11 +192,14 @@
                      type="abstract"
                      source="#bib2062-1">Shānāq, legendary Indian sage Cāṇakya (also referred to as Kauṭilya) and minister of Candragupta Maurya (`reg.` 321–298BC)</note>
                <idno type="URI">https://usaybia.net/person/2062</idno>
+               <state xml:lang="en" type="occupation" role="sage" source="#bib2062-1">
+                  <desc>sage</desc>
+               </state>
                <state xml:lang="en"
                       type="occupation"
-                      role="sage"
+                      role="minister"
                       source="#bib2062-1">
-                  <desc>sage</desc>
+                  <desc>minister</desc>
                </state>
                <bibl xml:id="bib2062-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
