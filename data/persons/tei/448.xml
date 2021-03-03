@@ -184,18 +184,20 @@
                <persName xml:id="name448-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">ʿAlāʾ al-Dīn Muḥammad ibn Tekish Khwārazm Shāh</persName>
+                         source="#bib448-1">ʿAlāʾ al-Dīn Muḥammad ibn Tekish Khwārazm Shāh</persName>
                <note xml:id="abstract-en-448"
                      xml:lang="en"
                      type="abstract"
-                     source="#">ʿAlāʾ al-Dīn Muḥammad ibn Tekish Khwārazm Shāh, ruler of the Khwārazm-Shāh dynasty (`reg.` 596–617/1200–1229) 11.19.6.2 (incorrectly as ʿAlāʾ al-Dīn ʿAlī Khwārazm Shāh);</note>
+                     source="#bib448-1">ʿAlāʾ al-Dīn Muḥammad ibn Tekish Khwārazm Shāh, ruler of the Khwārazm-Shāh dynasty (`reg.` 596–617/1200–1229)</note>
                <idno type="URI">https://usaybia.net/person/448</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="ruler"
-                      source="#">
+               <state xml:lang="en" type="occupation" role="ruler" source="#bib448-1">
                   <desc>ruler</desc>
                </state>
+               <bibl xml:id="bib448-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">11.19.6.2 (incorrectly as ʿAlāʾ al-Dīn ʿAlī Khwārazm Shāh)</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>
