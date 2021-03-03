@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -187,19 +188,13 @@
                <note xml:id="abstract-en-2328"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2328-1">Yūḥannā ibn Sarābiyūn, medical author probably later 3rd/9th c. (ⅠＡＵ wrongly making him brother of Dāwūd ibn Sarābiyūn, q.v.) 6.5.1; 9.37n (`al-Kunnāsh al-ṣaghīr`);</note>
+                     source="#bib2328-1">Yūḥannā ibn Sarābiyūn, medical author probably later 3rd/9th c.</note>
                <idno type="URI">https://usaybia.net/person/2328</idno>
                <state xml:lang="en"
                       type="occupation"
-                      role="medical author "
+                      role="medical author"
                       source="#bib2328-1">
-                  <desc>medical author </desc>
-               </state>
-                  <state xml:lang="en"
-                      type="occupation"
-                      role="king"
-                      source="#bib2328-1">
-                  <desc>king</desc>
+                  <desc>medical author</desc>
                </state>
                <bibl xml:id="bib2328-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

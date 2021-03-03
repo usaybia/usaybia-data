@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Yūsuf al-Isrāʾīlī</title>
+            <title level="a" xml:lang="en">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,13 +184,13 @@
                <persName xml:id="name2342-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2342-1">Yūsuf al-Isrāʾīlī</persName>
+                         source="#bib2342-1">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī</persName>
                <persName xml:id="name2342-2" xml:lang="ar" source="# #bib2342-1">أبو الحجاج يوسف الإسرائيلي</persName>
                <persName xml:id="name2342-3" xml:lang="en-x-lhom" source="#bib2342-1">Abū l-Ḥajjāj Yūsuf al-Isrāʾīlī</persName>
                <note xml:id="abstract-en-2342"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2342-1">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī, Jewish physician often known as Ibn Shamʿūn (d. 1227) 14.22.3.2 (quoted as source under name Yūsuf al-Fāsī al-Isrāʾīlī);</note>
+                     source="#bib2342-1">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī, Jewish physician often known as Ibn Shamʿūn (d. 1227)</note>
                <idno type="URI">https://usaybia.net/person/2342</idno>
                <state xml:lang="en"
                       type="occupation"
@@ -200,7 +201,7 @@
                <bibl xml:id="bib2342-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">15.40.7n; 15.41, 15.50.7 no. 7</citedRange>
+                  <citedRange unit="section">14.22.3.2 (quoted as source under name Yūsuf al-Fāsī al-Isrāʾīlī); 15.40.7n; 15.41, 15.50.7 no. 7</citedRange>
                   <citedRange unit="section">15.41</citedRange>
                </bibl>
             </person>
