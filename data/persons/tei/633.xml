@@ -192,9 +192,21 @@
                <idno type="URI">https://usaybia.net/person/633</idno>
                <state xml:lang="en"
                       type="occupation"
-                      role="#ERROR!"
+                      role="author"
                       source="#bib633-1">
-                  <desc>#ERROR!</desc>
+                  <desc>author</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="lexicographer"
+                      source="#bib633-1">
+                  <desc>lexicographer</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="translator"
+                      source="#bib633-1">
+                  <desc>translator</desc>
                </state>
                <bibl xml:id="bib633-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
