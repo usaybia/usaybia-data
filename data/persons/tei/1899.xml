@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Rafīʿ al-Dīn al-Jīlī</title>
+            <title level="a" xml:lang="en">Rafīʿ al-Dīn al-Jīlī, Abū Ḥāmid ʿAbd al-ʿAzīz ibn ʿAbd al-Wāḥid ibn Ismaʿīl ibn ʿAbd al-Hādī</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,10 +184,11 @@
                <persName xml:id="name1899-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1899-1 #bib1899-1">Rafīʿ al-Dīn al-Jīlī</persName>
+                         source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī, Abū Ḥāmid ʿAbd al-ʿAzīz ibn ʿAbd al-Wāḥid ibn Ismaʿīl ibn ʿAbd al-Hādī</persName>
                <persName xml:id="name1899-2" xml:lang="ar" source="#">رفيع الدين الجيلي أبو حامد عبد العزيز بنالواحد</persName>
-               <persName xml:id="name1899-3" xml:lang="ar" source="#bib1899-1">رفيع الدين الجيلي</persName>
-               <persName xml:id="name1899-4" xml:lang="ar" source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī, Abū Ḥāmid ʿAbd al-ʿAzīz ibn ʿAbd al-Wāḥid ibn Ismaʿīl ibn ʿAbd al-Hādī, chief justice of Damascus (d. 641/1243) 15.20; 15.49.2; 15.49.6</persName>
+               <persName xml:id="name1899-3" xml:lang="en-x-lhom" source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī</persName>
+               <persName xml:id="name1899-4" xml:lang="ar" source="#bib1899-1">رفيع الدين الجيلي</persName>
+               <persName xml:id="name1899-5" xml:lang="ar" source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī, Abū Ḥāmid ʿAbd al-ʿAzīz ibn ʿAbd al-Wāḥid ibn Ismaʿīl ibn ʿAbd al-Hādī, chief justice of Damascus (d. 641/1243) 15.20; 15.49.2; 15.49.6</persName>
                <note xml:id="abstract-en-1899"
                      xml:lang="en"
                      type="abstract"
@@ -195,9 +197,9 @@
                <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/250148</idno>
                <state xml:lang="en"
                       type="occupation"
-                      role="chief"
+                      role="chief qadi"
                       source="#bib1899-1">
-                  <desc>chief</desc>
+                  <desc>chief qadi</desc>
                </state>
                <bibl xml:id="bib1899-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

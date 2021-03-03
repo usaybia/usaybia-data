@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -187,7 +188,7 @@
                <note xml:id="abstract-en-1801"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1801-1">Paul of Aegina, 7th-c. physician and author of `Collectiones medicae` 4.1.11.3; 5.2.1 (works);</note>
+                     source="#bib1801-1">Paul of Aegina, 7th-c. physician and author of `Collectiones medicae`</note>
                <idno type="URI">https://usaybia.net/person/1801</idno>
                <state xml:lang="en"
                       type="occupation"
@@ -195,7 +196,7 @@
                       source="#bib1801-1">
                   <desc>physician</desc>
                </state>
-                  <state xml:lang="en"
+               <state xml:lang="en"
                       type="occupation"
                       role="author"
                       source="#bib1801-1">
@@ -204,7 +205,7 @@
                <bibl xml:id="bib1801-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">14.25.2</citedRange>
+                  <citedRange unit="section">4.1.11.3; 5.2.1 (works); 14.25.2</citedRange>
                </bibl>
             </person>
          </listPerson>

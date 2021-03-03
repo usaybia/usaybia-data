@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Manṣūr ibn Ṭalḥah ibn Ṭāhir ibn al-Ḥusayn (active 3rd/9th c.)</title>
+            <title level="a" xml:lang="en">Manṣūr ibn Ṭalḥah ibn Ṭāhir ibn al-Ḥusayn</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -76,7 +76,8 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
@@ -183,7 +184,7 @@
                <persName xml:id="name1507-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1507-1">Manṣūr ibn Ṭalḥah ibn Ṭāhir ibn al-Ḥusayn (active 3rd/9th c.)</persName>
+                         source="#bib1507-1">Manṣūr ibn Ṭalḥah ibn Ṭāhir ibn al-Ḥusayn</persName>
                <note xml:id="abstract-en-1507"
                      xml:lang="en"
                      type="abstract"
@@ -191,9 +192,15 @@
                <idno type="URI">https://usaybia.net/person/1507</idno>
                <state xml:lang="en"
                       type="occupation"
-                      role="philosopher. govenor"
+                      role="philosopher"
                       source="#bib1507-1">
-                  <desc>philosopher. govenor</desc>
+                  <desc>philosopher</desc>
+               </state>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="governor"
+                      source="#bib1507-1">
+                  <desc>governor</desc>
                </state>
                <bibl xml:id="bib1507-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

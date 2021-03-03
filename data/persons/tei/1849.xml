@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -187,7 +188,7 @@
                <note xml:id="abstract-en-1849"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1849-1">Proxenus, executor of Nichomachus 4.6.2.1 (Pseudo-)Elias the Neoplatonist, (ca. 6th c.), commentator on Porphyry and Aristotle</note>
+                     source="#bib1849-1">Proxenus, executor of Nichomachus</note>
                <idno type="URI">https://usaybia.net/person/1849</idno>
                <state xml:lang="en"
                       type="occupation"
@@ -198,7 +199,7 @@
                <bibl xml:id="bib1849-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">11.8.6 no. 15</citedRange>
+                  <citedRange unit="section">4.6.2.1</citedRange>
                </bibl>
             </person>
          </listPerson>

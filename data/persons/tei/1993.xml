@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -198,12 +199,6 @@
                       role="physician"
                       source="#bib1993-1">
                   <desc>physician</desc>
-               </state>
-                  <state xml:lang="en"
-                      type="occupation"
-                      role="orator"
-                      source="#bib1993-1">
-                  <desc>orator</desc>
                </state>
                <bibl xml:id="bib1993-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

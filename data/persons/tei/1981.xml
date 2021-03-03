@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Ṣalāḥ al-Dīn/Saladin</title>
+            <title level="a" xml:lang="en">Ṣalāḥ al-Dīn/Saladin, Yūsuf ibn Ayyūb, al-Malik al-Nāṣir</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,13 +184,19 @@
                <persName xml:id="name1981-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1981-1">Ṣalāḥ al-Dīn/Saladin</persName>
+                         source="#bib1981-1">Ṣalāḥ al-Dīn/Saladin, Yūsuf ibn Ayyūb, al-Malik al-Nāṣir</persName>
                <persName xml:id="name1981-2" xml:lang="ar" source="#">الملك الناصر صلاح الدين يوسف بن محمد بن غازي</persName>
                <note xml:id="abstract-en-1981"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1981-1">Ṣalāḥ al-Dīn/Saladin, Yūsuf ibn Ayyūb, al-Malik al-Nāṣir, Ayyubid monarch (532–589/1138–1193) 10.63.2; 13.79n; 14.31.6; 14.32.1; 14.32.5n; 14.32.5 no. 8n; 14.33.1; 14.33.3; 14.34.2n; 14.36.1; 14.36.2n; 14.37n; 14.38.1; 14.39.1; 14.39.4 no. 3; 14.40.1n; 14.43.2n; 14.44.2n; 14.47.2n; 14.49.2–4;</note>
+                     source="#bib1981-1">Ṣalāḥ al-Dīn/Saladin, Yūsuf ibn Ayyūb, al-Malik al-Nāṣir, Ayyubid monarch (532–589/1138–1193)</note>
                <idno type="URI">https://usaybia.net/person/1981</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib1981-1">
+                  <desc>ruler</desc>
+               </state>
                <bibl xml:id="bib1981-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
