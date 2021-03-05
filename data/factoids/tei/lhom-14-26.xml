@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+            <title level="m">Wissensgemeinschaften</title>
+            <sponsor ref="https://www.uni-muenchen.de">
+               <orgName>Ludwig Maximilian University of Munich</orgName>
+               (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+            </sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+               <orgName>Institute of Near and Middle Eastern Studies</orgName>
+               (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+            </sponsor>
+            <funder ref="https://www.bmbf.de/">
+               <orgName>German Federal Ministry of Education and Research</orgName>
+               (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+            </funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <respStmt>
+               <resp>Data entry and encoding by</resp>
+               <name xml:id="nloehr" 
+                  ref="https://usaybia.net/documentation/editors.xml#nloehr
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                  >Nadine Löhr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture by</resp>
+               <name xml:id="dschwartz" 
+                  ref="https://syriaca.org/documentation/editors.xml#dschwartz">
+                  Daniel Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Usaybia.net</authority>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                     License.</p>
+               </licence>
+            </availability>
+            <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Sources for the Data in this Born Digital Prosopography</head>
+               <bibl type="primary">
+                  <editor>
+                     <forename>Emilie</forename>
+                     <surname>Savage-Smith</surname>
+                  </editor>
+                  <editor>
+                     <forename>Simon</forename>
+                     <surname>Swain</surname>
+                  </editor>
+                  <editor>
+                     <forename>G. J. H. van</forename>
+                     <surname>Gelder</surname>
+                  </editor>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Ignacio Javier</forename>
+                     <surname>Sánchez Rojo</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>N. Peter</forename>
+                     <surname>Joosse</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Alasdair</forename>
+                     <surname>Watson</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Bruce</forename>
+                     <surname>Inksetter</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Franak</forename>
+                     <surname>Hilloowala</surname>
+                  </respStmt>
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <idno type="Zotero">WVSJMDSV</idno>
+                  <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
+                  <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
+                  <imprint>
+                     <pubPlace>Leiden</pubPlace>
+                     <publisher>Brill</publisher>
+                     <date>2020</date>
+                  </imprint>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
+               <bibl type="urn">
+                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>The prosopographical data in this document was encoded from 
+               <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                  Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                  A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                  of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="calculated">
+                  <catDesc> Used to denote a date calculated by the editor from a regnal year
+                     given in the text. </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <revisionDesc>
+         <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- Here is how the factoid URI and number might work. -->
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-22" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-1</idno>
+            <listRelation>
+               <relation ref="snap:student-of" active="https://usaybia.net/person/1215"
+                  passive="https://usaybia.net/person/1093">
+                  <desc><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> was an outstanding student of 
+                     <persName ref="https://usaybia.net/person/1093">Abū l-Ḥasan ʿAlī ibn Riḍwān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-23" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-2</idno>
+            <listRelation>
+               <relation ref="snap:patron-of" active="https://usaybia.net/person/1215"
+                  passive="https://usaybia.net/person/1057">
+                  <desc><persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName> 
+                     was working for 
+                     <persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </div>
+         <div type="factoid" subtype="occupation" xml:id="factoid-24" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-3</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/1057"/>
+                  <occupation ana="https://usaybia.net/keyword/copyists">
+                     <note>
+                        <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>
+                        was a well paid copiyist
+                     </note> 
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-25" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-4</idno>
+            <listRelation>
+               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1057">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>saw some of the manuscripts 
+                     copied by <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-26" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-5</idno>
+            <listRelation>
+               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/1215"
+                  passive="https://usaybia.net/person/1057">
+                  <desc><!--Ibn Abī Uṣaybiʿa saw that --><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName>annotated some of the manuscripts 
+                     copied by <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-27" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-6</idno>
+            <listRelation>
+               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/408"
+                  passive="https://usaybia.net/person/1215">
+                  <desc><!--Ibn Abī Uṣaybiʿa's father related that --><persName ref="https://usaybia.net/person/408">al-Afḍal ibn Amīr al-Juyūsh</persName> bought the manuscripts 
+                     owned by <persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> and added his ownership statements.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-28" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-7</idno>
+            <listRelation>
+               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1057">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>found an autograph of 
+                     <title ref="https://usaybia.net/work/1998" n="14.26.3no1" change="#change-1" cert="low">Taʿālīq wa-mujarrabāt jaʿalahā ʿalā jihat al-kunnāsh</title>.</desc>
+                      
+        
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">3</citedRange>
+            </bibl>
+         </div>
+         <div 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-29" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-8</idno>
+            <listRelation>
+               <relation ref="usaybia:addressee-of" active="https://usaybia.net/person/992"
+                  passive="https://usaybia.net/person/1215">
+                  <desc><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> composed a book for 
+                     <persName ref="https://usaybia.net/person/992">Naṣīr al-Dawlah Abū ʿAlī l-Ḥusayn ibn Abī ʿAlī al-Ḥasan ibn Ḥamdān</persName> 
+                    .</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">3</citedRange>
+            </bibl>
+         </div>
+       
+      </body>
+   </text>
+</TEI>
+<!-- <back>            
+            <listBibl>
+                <head>Works Cited</head>
+                <bibl type="primary" xml:id="bibl798-1">
+                    <title>Lives of the Eastern Saints I</title>
+                    <title>Paul the Mourner</title>
+                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                    <editor><persName ref="http://syriaca.org/person/403">E. W. Brooks</persName></editor>
+                    <ptr target="http://syriaca.org/bibl/1409"/>
+                </bibl>
+                <bibl type="primary" xml:id="bibl798-2">
+                    <title>Paul the Mourner</title>
+                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
+                    <ptr target="http://syriaca.org/work/798"/>
+                </bibl>
+            </listBibl>
+        </back>
+    </text>
+</TEI>
+-->
