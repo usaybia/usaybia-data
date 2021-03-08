@@ -184,15 +184,20 @@
                <persName xml:id="name970-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Ibn Diḥyah</persName>
+                         source="#bib970-1">Ibn Diḥyah</persName>
                <note xml:id="abstract-en-970"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Ibn Diḥyah (d. 633/1235), Andalusian poet and anthologist</note>
+                     source="#bib970-1">Ibn Diḥyah (d. 633/1235), Andalusian poet and anthologist</note>
                <idno type="URI">https://usaybia.net/person/970</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#">
+               <state xml:lang="en" type="occupation" role="poet" source="#bib970-1">
                   <desc>poet</desc>
                </state>
+               <bibl xml:id="bib970-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">ＡⅠⅠ.10</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

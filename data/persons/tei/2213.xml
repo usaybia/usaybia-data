@@ -184,15 +184,23 @@
                <persName xml:id="name2213-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Theodosius</persName>
+                         source="#bib2213-1">Theodosius</persName>
                <note xml:id="abstract-en-2213"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Theodosius, late-antique physicia</note>
+                     source="#bib2213-1">Theodosius, late-antique physician</note>
                <idno type="URI">https://usaybia.net/person/2213</idno>
-               <state xml:lang="en" type="occupation" role="physician" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="physician"
+                      source="#bib2213-1">
                   <desc>physician</desc>
                </state>
+               <bibl xml:id="bib2213-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">6.1.1; 10.1.14 no. 223; 14.25.2n; 15.31.6n (Treatise on `Spherics`)</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

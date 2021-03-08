@@ -184,15 +184,23 @@
                <persName xml:id="name2125-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Socrates</persName>
+                         source="#bib2125-1">Socrates</persName>
                <note xml:id="abstract-en-2125"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Socrates, Greek philosopher</note>
+                     source="#bib2125-1">Socrates, Greek philosopher</note>
                <idno type="URI">https://usaybia.net/person/2125</idno>
-               <state xml:lang="en" type="occupation" role="philosopher" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="philosopher"
+                      source="#bib2125-1">
                   <desc>philosopher</desc>
                </state>
+               <bibl xml:id="bib2125-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">4.1.10.5; 4.1.11.3; 4.1.11.4; 4.4; 5.1.32; 10.1.14 nos. 203– 206</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>

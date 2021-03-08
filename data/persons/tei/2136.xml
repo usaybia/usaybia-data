@@ -184,18 +184,29 @@
                <persName xml:id="name2136-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">al-Subkī, Tāj al-Dīn</persName>
+                         source="#bib2136-1">al-Subkī, Tāj al-Dīn</persName>
                <note xml:id="abstract-en-2136"
                      xml:lang="en"
                      type="abstract"
-                     source="#">al-Subkī, Tāj al-Dīn (d. 771/1370), Shāfiʿī jurist and historian</note>
+                     source="#bib2136-1">al-Subkī, Tāj al-Dīn (d. 771/1370), Shāfiʿī jurist and historian</note>
                <idno type="URI">https://usaybia.net/person/2136</idno>
-               <state xml:lang="en" type="occupation" role="jurist" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="jurist"
+                      source="#bib2136-1">
                   <desc>jurist</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="historian" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="historian"
+                      source="#bib2136-1">
                   <desc>historian</desc>
                </state>
+               <bibl xml:id="bib2136-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange unit="section">ＡⅠ.1; ＡⅠ.2</citedRange>
+               </bibl>
             </person>
          </listPerson>
       </body>
