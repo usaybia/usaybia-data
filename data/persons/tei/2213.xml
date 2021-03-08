@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -187,12 +188,9 @@
                <note xml:id="abstract-en-2213"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Theodosius, late-antique physician 6.1.1; 10.1.14 no. 223; 14.25.2n; 15.31.6n (Treatise on `Spherics`)</note>
+                     source="#">Theodosius, late-antique physicia</note>
                <idno type="URI">https://usaybia.net/person/2213</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="physician"
-                      source="#">
+               <state xml:lang="en" type="occupation" role="physician" source="#">
                   <desc>physician</desc>
                </state>
             </person>

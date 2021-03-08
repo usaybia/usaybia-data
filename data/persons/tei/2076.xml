@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</title>
+            <title level="a" xml:lang="en">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -72,7 +72,8 @@
             </respStmt>
             <respStmt>
                <resp>Relational descriptors, English and Arabic name entry, 
-                            matching with external records by</resp>
+                            matching with external records, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
@@ -183,9 +184,10 @@
                <persName xml:id="name2076-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2076-1 #bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
-               <persName xml:id="name2076-2" xml:lang="ar" source="#bib2076-1">الشريف محمد بن محمد الحسني</persName>
-               <persName xml:id="name2076-3" xml:lang="ar" source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician 13.55</persName>
+                         source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</persName>
+               <persName xml:id="name2076-2" xml:lang="en-x-lhom" source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
+               <persName xml:id="name2076-3" xml:lang="ar" source="#bib2076-1">الشريف محمد بن محمد الحسني</persName>
+               <persName xml:id="name2076-4" xml:lang="ar" source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician 13.55</persName>
                <note xml:id="abstract-en-2076"
                      xml:lang="en"
                      type="abstract"
