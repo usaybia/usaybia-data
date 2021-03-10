@@ -207,6 +207,13 @@
                <state xml:lang="en" type="occupation" role="sultan" source="#">
                   <desc>sultan</desc>
                </state>
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      resp="#ngibson"
+                      evidence="occupation"
+                      cert="high">
+                  <label>Muslim</label>
+               </state>
             </person>
          </listPerson>
       </body>

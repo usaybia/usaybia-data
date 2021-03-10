@@ -215,9 +215,16 @@
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
+                      resp="#ngibson"
+                      evidence="ancestor-name"
+                      cert="low">
+                  <label>Jewish</label>
+               </state>
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high"
-                      resp="#ngibson">
+                      cert="high">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1104-1">
