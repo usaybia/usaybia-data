@@ -170,19 +170,20 @@
            </sourceDesc>
       </fileDesc>
       <revisionDesc>
-            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
-            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
-            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
-            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
+         <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>
+         <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+         <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+         <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
                 1. Switched attribute order on notes.
                 2. Switched attribute order on milestones.
                 3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
                 4. Changed span elements to placeName.
             </change>
-            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
-            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
-            <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
-        </revisionDesc>
+         <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+         <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+         <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
+         <change xml:id="change-7" who="#ngibson" when="2021-03-16">Split chapter text file into individual biography files.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
