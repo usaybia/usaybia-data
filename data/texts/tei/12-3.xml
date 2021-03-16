@@ -1,172 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <fileDesc>
-            <titleStmt>
-                <title xml:lang="en" level="a">Chapter 12</title>
-                <title xml:lang="ar"
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar-Arab" level="a">[‭12.3‬] شاناق </title>
+            <title xml:lang="en-Latn" level="a">12.3 Shānāq (Cāṇakya)</title>
+            <title xml:lang="ar-Arab" level="a">الباب الثاني عشر في طبقات الأطباء الذين كانوا من الهند ‬‎</title>
+            <title xml:lang="en-Latn" level="a">Chapter 12 Physicians of India</title>
+            <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xml:lang="ar"
                    level="m"
                    ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
-                <title xml:lang="en"
+            <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xml:lang="en"
                    level="m"
                    ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
-                <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
-                <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
-				        <sponsor ref="https://www.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
-				</sponsor>
-				        <sponsor ref="http://www.naher-osten.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
-				</sponsor>
-				        <funder ref="https://www.bmbf.de/">
-					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
-				</funder>
-				        <principal ref="#ngibson">Nathan P. Gibson</principal>
-				        <editor xml:id="ngibson"
-                    role="editor"
-                    ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
-				        <respStmt>
-					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
-                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
-				        </respStmt>				
-				        <respStmt>
-					          <resp>Place names tagged by</resp>
-					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
-                </respStmt>
-                <respStmt>
-					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
-				        </respStmt>
-			      </titleStmt>
-           <publicationStmt>
-                <distributor>
-                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
-                        Munich, Germany</placeName>
-                </distributor>
-                <authority>Usaybia.net</authority>
-                <idno type="URI">https://usaybia.net/text/12</idno>
-                <availability default="false">
-                    <p part="N"/>
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
-                    </licence>
-                </availability>
-                <date instant="false">2020</date>
-           </publicationStmt>
-           <sourceDesc default="false">
-               <biblStruct default="false" status="draft">
-                <monogr>
-                    <title>Arabic Edition</title>
-                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
-                    <author>Ibn Abī Uṣaybiʿa</author>
-                    <editor>Emilie Savage-Smith</editor>
-                    <editor>Simon Swain</editor>
-                    <editor>Geert Jan van Gelder</editor>
-                    <editor role="contributor">Ignacio Sánchez</editor>
-                    <editor role="contributor">N. Peter Joosse</editor>
-                    <editor role="contributor">Alasdair Watson</editor>
-                    <editor role="contributor">Bruce Inksetter</editor>
-                    <editor role="contributor">Franak Hilloowala</editor>
-                    <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
-                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
-                    </availability>
-                    <imprint>
-                        <pubPlace>Leiden</pubPlace>
-                        <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
-                    </imprint>
-                    <biblScope unit="chapter">12</biblScope>
-                </monogr>
-                <monogr>
-                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
-                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
-                    <author>Ibn Abī Uṣaybiʿa</author>
-                    <editor>Emilie Savage-Smith</editor>
-                    <editor>Simon Swain</editor>
-                    <editor>Geert Jan van Gelder</editor>
-                    <editor role="contributor">Ignacio Sánchez</editor>
-                    <editor role="contributor">N. Peter Joosse</editor>
-                    <editor role="contributor">Alasdair Watson</editor>
-                    <editor role="contributor">Bruce Inksetter</editor>
-                    <editor role="contributor">Franak Hilloowala</editor>
-                    <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
-                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
-                    </availability>
-                    <imprint>
-                        <pubPlace>Leiden</pubPlace>
-                        <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
-                    </imprint>
-                    <biblScope unit="volume">2</biblScope>
-                </monogr>
-               </biblStruct>
-               <biblStruct default="false" status="draft">
-                <monogr>
-                    <title>Annotated English Translation</title>
-                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
-                    <author>Ibn Abī Uṣaybiʿa</author>
-                    <editor>Emilie Savage-Smith</editor>
-                    <editor>Simon Swain</editor>
-                    <editor>Geert Jan van Gelder</editor>
-                    <editor role="contributor">Ignacio Sánchez</editor>
-                    <editor role="contributor">N. Peter Joosse</editor>
-                    <editor role="contributor">Alasdair Watson</editor>
-                    <editor role="contributor">Bruce Inksetter</editor>
-                    <editor role="contributor">Franak Hilloowala</editor>
-                    <textLang mainLang="en">English</textLang>
-                    <availability default="false">
-                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
-                    </availability>
-                    <imprint>
-                        <pubPlace>Leiden</pubPlace>
-                        <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
-                    </imprint>
-                    <biblScope unit="chapter">12</biblScope>
-                </monogr>
-                <monogr>
-                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
-                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
-                    <author>Ibn Abī Uṣaybiʿa</author>
-                    <editor>Emilie Savage-Smith</editor>
-                    <editor>Simon Swain</editor>
-                    <editor>Geert Jan van Gelder</editor>
-                    <editor role="contributor">Ignacio Sánchez</editor>
-                    <editor role="contributor">N. Peter Joosse</editor>
-                    <editor role="contributor">Alasdair Watson</editor>
-                    <editor role="contributor">Bruce Inksetter</editor>
-                    <editor role="contributor">Franak Hilloowala</editor>
-                    <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
-                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
-                    </availability>
-                    <imprint>
-                        <pubPlace>Leiden</pubPlace>
-                        <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
-                    </imprint>
-                    <biblScope unit="volume">3</biblScope>
-                </monogr>
-               </biblStruct>
-           </sourceDesc>
-        </fileDesc>
-        <revisionDesc status="draft">
+         </titleStmt>
+      </fileDesc>
+      <revisionDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="draft">
             <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
             <change xml:id="change-1"
                  who="#ngibson"
@@ -198,7 +50,7 @@
                  when="2021-02-03"
                  status="draft">Aligned English and Arabic texts</change>
         </revisionDesc>
-    </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <div type="edition"
