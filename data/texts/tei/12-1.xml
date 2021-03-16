@@ -17,16 +17,16 @@
             <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
             <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
             <sponsor ref="https://www.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
 				</sponsor>
             <sponsor ref="http://www.naher-osten.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
 				</sponsor>
             <funder ref="https://www.bmbf.de/">
-					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
             <editor xml:id="ngibson"
@@ -43,35 +43,35 @@
             <respStmt>
 					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
             <respStmt>
 					          <resp>Place names tagged by</resp>
-					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
                 </respStmt>
             <respStmt>
 					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
          </titleStmt>
          <publicationStmt>
                 <distributor>
-                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
+                    <placeName>Ludwig-Maximilians-Universität,
                         Munich, Germany</placeName>
                 </distributor>
                 <authority>Usaybia.net</authority>
                 <idno type="URI">https://usaybia.net/text/12</idno>
-                <availability default="false">
-                    <p part="N"/>
+                <availability>
+                    <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
                 </availability>
-                <date instant="false">2020</date>
+                <date>2020</date>
            </publicationStmt>
-         <sourceDesc default="false">
-               <biblStruct default="false" status="draft">
+         <sourceDesc>
+               <biblStruct>
                 <monogr>
                     <title>Arabic Edition</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
@@ -85,13 +85,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -108,18 +108,18 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">2</biblScope>
                 </monogr>
                </biblStruct>
-               <biblStruct default="false" status="draft">
+               <biblStruct>
                 <monogr>
                     <title>Annotated English Translation</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
@@ -133,13 +133,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="en">English</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -156,50 +156,32 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">3</biblScope>
                 </monogr>
                </biblStruct>
            </sourceDesc>
       </fileDesc>
-      <revisionDesc status="draft">
-            <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
-            <change xml:id="change-1"
-                 who="#ngibson"
-                 when="2020-06-04"
-                 status="draft">Added title elements with iterating URIs to list items.</change>
-            <change xml:id="change-2"
-                 who="#mtolay"
-                 when="2020-08-26"
-                 status="draft">Tagged place names in Recogito.</change>
-            <change xml:id="change-3"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Reformatted after downloading from Recogito: 
+      <revisionDesc>
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
                 1. Switched attribute order on notes.
                 2. Switched attribute order on milestones.
                 3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
                 4. Changed span elements to placeName.
             </change>
-            <change xml:id="change-4"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Added URI for item with no URI.</change>
-            <change xml:id="change-5"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Edited placeName tags to include definite article.</change>
-            <change xml:id="change-6"
-                 who="#ngibson"
-                 when="2021-02-03"
-                 status="draft">Aligned English and Arabic texts</change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+            <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
         </revisionDesc>
    </teiHeader>
    <text>
@@ -209,36 +191,28 @@
               n="12"
               xml:id="chapter-div"
               next="https://usaybia.net/text/12-2#chapter-div">
-            <div type="textpart"
-                 subtype="biography"
-                 n="1"
-                 part="N"
-                 org="uniform"
-                 sample="complete">
+            <div type="textpart" subtype="biography" n="1">
                         <head xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             الباب الثاني عشر في طبقات الأطباء الذين كانوا من الهند
-                            <note n="1" type="footnote" anchored="true">
-                                <p part="N">The edition of this chapter is based on MSS ABGcHR.</p>
+                            <note n="1" type="footnote">
+                                <p>The edition of this chapter is based on MSS ABGcHR.</p>
                             </note>
                             ‬‎
                         </head>
                         <head xml:lang="en-Latn">Chapter 12 Physicians of India</head>
                         <head xml:lang="en-Latn">Bruce Inksetter and Emilie Savage-Smith</head>
-                        <p n="1"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.1]‬ كنكة الهندي <note n="2" type="footnote" anchored="true">
-                                    <p part="N">This biography is present in all three versions of the work. B: om. الهندي</p>
+                                ‭[12.1]‬ كنكة الهندي <note n="2" type="footnote">
+                                    <p>This biography is present in all three versions of the work. B: om. الهندي</p>
                                 </note>
                             </hi>
                         </p>
-                        <p n="1" xml:lang="en-Latn" part="N">
+                        <p n="1" xml:lang="en-Latn">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.1 Kankah al-Hindi
-                                <note n="1" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This biography is included in all three versions of the book. There has been considerable confusion over the identity of this Kankah (or Kanakah) al-Hindī amongst early Arab historians as well as modern historians. David Pingree has convincingly argued that two and sometimes three different persons were combined together in the various preserved accounts, including this entry by
                                         <hi rend="smallcaps">IAU</hi>
                                         . Here,
@@ -291,42 +265,33 @@
                                 </note>
                             </hi>
                         </p>
-                        <p n="2"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            حكيم بارع من متقدمي حكماء <placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">الهند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote" anchored="true">
-                                <p part="N">Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            حكيم بارع من متقدمي حكماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
+                                <p>Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
                             </note>
-                            (‭١٩١‬أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال أبو معشر جعفر بن محمد ابن عمر البلخي في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote" anchored="true">
-                                <p part="N">Gc: المتقدم</p>
+                            (‭١٩١‬أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال أبو معشر جعفر بن محمد ابن عمر البلخي في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote">
+                                <p>Gc: المتقدم</p>
                             </note>
-                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">الهند</placeName> في سالف الدهر.‬‎
+                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في سالف الدهر.‬‎
                         </p>
-                        <p n="2" xml:lang="en-Latn" part="N">
+                        <p n="2" xml:lang="en-Latn">
                             He was a prominent figure among the great scholars of India. Kankah al-Hindī knew much about the art of medicine, the effects of remedies, the characteristics of naturally generated things and the occult properties of substances,
-                            <note n="2" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="2" type="footnote">
+                                <p xml:lang="en-Latn">
                                     <hi rend="italic">Khawāṣṣ al-mawjūdāt</hi>
                                     is a common designation of hidden or occult properties in substances of potential medical or magical use.
                                 </p>
                             </note>
                             and was one of the most learned of men regarding the configuration of the universe,
-                            <note n="3" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="3" type="footnote">
+                                <p xml:lang="en-Latn">
                                     <hi rend="italic">Ḥayʾat al-ʿālam</hi>
                                     usually designates a largely non-mathematical form of astronomy, or cosmology, and was the title of a popular treatise on the topic attributed to Ibn al-Haytham (see Ch. 14.22.4.3 title no. 10).
                                 </p>
                             </note>
                             the arrangement of the spheres, and the movements of the stars. Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī
-                            <note n="4" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="4" type="footnote">
+                                <p xml:lang="en-Latn">
                                     For this influential Baghdadi astrologer (d. 272/886), see
                                     <hi rend="italic">
                                         <hi rend="smallcaps">EI</hi>
@@ -340,8 +305,8 @@
                             </note>
                             says in his
                             <hi rend="italic">Book of Thousands</hi>
-                            <note n="5" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="5" type="footnote">
+                                <p xml:lang="en-Latn">
                                     <hi rend="italic">K. al-ulūf</hi>
                                     ; see Pingree,
                                     <hi rend="italic">Thousands</hi>
@@ -349,8 +314,8 @@
                                 </p>
                             </note>
                             that Kankah was universally regarded by the ancient scholars of India as having been second to none in the science of astrology.
-                            <note n="6" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="6" type="footnote">
+                                <p xml:lang="en-Latn">
                                     Rather than directly from Abū Maʿshar, this last sentence seems to be taken from Ṣāʿid al-Andalusī, who refers to Abū Maʿshar’s appreciation of Kankah in exactly the same words (Ṣāʿid al-Andalusī,
                                     <hi rend="italic">Ṭabaqāt</hi>
                                     (Cheikho), 14–15). Abū Maʿshar’s description of Kankah as foremost amongst scholars of India ‘in ancient times’ (
@@ -359,16 +324,13 @@
                                 </p>
                             </note>
                         </p>
-                        <p n="3"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            وله <note n="5" type="footnote" anchored="true">
-                                <p part="N">BR: ولكنكه</p>
+                        <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            وله <note n="5" type="footnote">
+                                <p>BR: ولكنكه</p>
                             </note>
                             من الكتب:‬‎
                         </p>
-                        <p n="3" xml:lang="en-Latn" part="N">Kankah is the author of a number of books, including:</p>
+                        <p n="3" xml:lang="en-Latn">Kankah is the author of a number of books, including:</p>
                         <list n="4" xml:lang="ar-Arab">
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -411,8 +373,8 @@
                             n="12.1no6"
                             change="#change-1"
                             cert="low">
-                                كتاب في التوهم <note n="6" type="footnote" anchored="true">
-                                    <p part="N">R: الوهم</p>
+                                كتاب في التوهم <note n="6" type="footnote">
+                                    <p>R: الوهم</p>
                                 </note>
                             </title>
                             </item>
@@ -429,8 +391,8 @@
                             <item>
                                 On the
                                 <hi rend="italic">namūdār</hi>
-                                <note n="7" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="7" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         A
                                         <hi rend="italic">namūdār</hi>
                                         is a method of setting up a birth-horoscope when the date of birth is not known. For an extensive discussion of this technique, see Qabīṣī,
@@ -459,8 +421,8 @@
                                 The small book on planetary conjunctions (
                                 <hi rend="italic">K. al-qirānāt al-ṣaghīr</hi>
                                 )
-                                <note n="8" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="8" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         Ibn al-Nadīm and Ibn al-Qifṭī list only titles 1–4 in their entry on Kankah; see Ibn al-Nadīm,
                                         <hi rend="italic">Fihrist</hi>
                                         (Flügel, 270; Tajaddud, 330; Sayyid, ii:223); Ibn al-Qifṭī,
@@ -488,8 +450,8 @@
                                 On the creation of the universe and the periodic nature of planetary conjunctions (
                                 <hi rend="italic">K. fī iḥdāth al-ʿālam wa-l-dawr fī l-qirān</hi>
                                 ).
-                                <note n="9" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="9" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         These last three titles occur only in
                                         <hi rend="smallcaps">IAU</hi>
                                         ’s

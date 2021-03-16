@@ -17,16 +17,16 @@
             <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
             <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
             <sponsor ref="https://www.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
 				</sponsor>
             <sponsor ref="http://www.naher-osten.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
 				</sponsor>
             <funder ref="https://www.bmbf.de/">
-					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
             <editor xml:id="ngibson"
@@ -43,35 +43,35 @@
             <respStmt>
 					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
             <respStmt>
 					          <resp>Place names tagged by</resp>
-					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
                 </respStmt>
             <respStmt>
 					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
          </titleStmt>
          <publicationStmt>
                 <distributor>
-                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
+                    <placeName>Ludwig-Maximilians-Universität,
                         Munich, Germany</placeName>
                 </distributor>
                 <authority>Usaybia.net</authority>
                 <idno type="URI">https://usaybia.net/text/12</idno>
-                <availability default="false">
-                    <p part="N"/>
+                <availability>
+                    <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
                 </availability>
-                <date instant="false">2020</date>
+                <date>2020</date>
            </publicationStmt>
-         <sourceDesc default="false">
-               <biblStruct default="false" status="draft">
+         <sourceDesc>
+               <biblStruct>
                 <monogr>
                     <title>Arabic Edition</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
@@ -85,13 +85,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -108,18 +108,18 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">2</biblScope>
                 </monogr>
                </biblStruct>
-               <biblStruct default="false" status="draft">
+               <biblStruct>
                 <monogr>
                     <title>Annotated English Translation</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
@@ -133,13 +133,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="en">English</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -156,50 +156,32 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">3</biblScope>
                 </monogr>
                </biblStruct>
            </sourceDesc>
       </fileDesc>
-      <revisionDesc status="draft">
-            <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
-            <change xml:id="change-1"
-                 who="#ngibson"
-                 when="2020-06-04"
-                 status="draft">Added title elements with iterating URIs to list items.</change>
-            <change xml:id="change-2"
-                 who="#mtolay"
-                 when="2020-08-26"
-                 status="draft">Tagged place names in Recogito.</change>
-            <change xml:id="change-3"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Reformatted after downloading from Recogito: 
+      <revisionDesc>
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
                 1. Switched attribute order on notes.
                 2. Switched attribute order on milestones.
                 3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
                 4. Changed span elements to placeName.
             </change>
-            <change xml:id="change-4"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Added URI for item with no URI.</change>
-            <change xml:id="change-5"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Edited placeName tags to include definite article.</change>
-            <change xml:id="change-6"
-                 who="#ngibson"
-                 when="2021-02-03"
-                 status="draft">Aligned English and Arabic texts</change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+            <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
         </revisionDesc>
    </teiHeader>
    <text>
@@ -210,27 +192,19 @@
               xml:id="chapter-div"
               prev="https://usaybia.net/text/12-3#chapter-div"
               next="https://usaybia.net/text/12-5#chapter-div">
-            <div type="textpart"
-                 subtype="biography"
-                 n="4"
-                 part="N"
-                 org="uniform"
-                 sample="complete">
-                        <p n="1"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
+            <div type="textpart" subtype="biography" n="4">
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.4]‬ جودر <note n="1" type="footnote" anchored="true">
-                                    <p part="N">This biography is present in Version 3 only; copied in margin of A, om. in GcH.</p>
+                                ‭[12.4]‬ جودر <note n="1" type="footnote">
+                                    <p>This biography is present in Version 3 only; copied in margin of A, om. in GcH.</p>
                                 </note>
                             </hi>
                         </p>
-                        <p n="1" xml:lang="en-Latn" part="N">
+                        <p n="1" xml:lang="en-Latn">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.4 Jawdar
-                                <note n="1" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         In Version 3 of the book, the following biography is inserted after the biography of Shānāq; in
                                         <hi rend="smallcaps">MS</hi>
                                         A, it is written in the margin. Jawdar (or Jawdhar) is an otherwise unrecorded Indian authority. Neither Sezgin nor Ullmann provides bibliographic information about Jawdar.
@@ -238,14 +212,8 @@
                                 </note>
                             </hi>
                         </p>
-                        <p n="2"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">جودر حكيم فاضل من حكماء ا<placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">لهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى العربي.‬‎</p>
-                        <p n="2" xml:lang="en-Latn" part="N">
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء ا<placeName ref="https://usaybia.net/place/260" resp="#mtolay">لهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى العربي.‬‎</p>
+                        <p n="2" xml:lang="en-Latn">
                             A distinguished figure among the scholars and learned men of India, who was highly regarded by his contemporaries, particularly as an authority on medicine. Jawdar is the author of scholarly works on various subjects, including
                             <hi rend="italic">On Nativities</hi>
                             (

@@ -17,16 +17,16 @@
             <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
             <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
             <sponsor ref="https://www.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
 				</sponsor>
             <sponsor ref="http://www.naher-osten.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
 				</sponsor>
             <funder ref="https://www.bmbf.de/">
-					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
             <editor xml:id="ngibson"
@@ -43,35 +43,35 @@
             <respStmt>
 					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
             <respStmt>
 					          <resp>Place names tagged by</resp>
-					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
                 </respStmt>
             <respStmt>
 					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
          </titleStmt>
          <publicationStmt>
                 <distributor>
-                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
+                    <placeName>Ludwig-Maximilians-Universität,
                         Munich, Germany</placeName>
                 </distributor>
                 <authority>Usaybia.net</authority>
                 <idno type="URI">https://usaybia.net/text/12</idno>
-                <availability default="false">
-                    <p part="N"/>
+                <availability>
+                    <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
                 </availability>
-                <date instant="false">2020</date>
+                <date>2020</date>
            </publicationStmt>
-         <sourceDesc default="false">
-               <biblStruct default="false" status="draft">
+         <sourceDesc>
+               <biblStruct>
                 <monogr>
                     <title>Arabic Edition</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
@@ -85,13 +85,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -108,18 +108,18 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">2</biblScope>
                 </monogr>
                </biblStruct>
-               <biblStruct default="false" status="draft">
+               <biblStruct>
                 <monogr>
                     <title>Annotated English Translation</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
@@ -133,13 +133,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="en">English</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -156,50 +156,32 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">3</biblScope>
                 </monogr>
                </biblStruct>
            </sourceDesc>
       </fileDesc>
-      <revisionDesc status="draft">
-            <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
-            <change xml:id="change-1"
-                 who="#ngibson"
-                 when="2020-06-04"
-                 status="draft">Added title elements with iterating URIs to list items.</change>
-            <change xml:id="change-2"
-                 who="#mtolay"
-                 when="2020-08-26"
-                 status="draft">Tagged place names in Recogito.</change>
-            <change xml:id="change-3"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Reformatted after downloading from Recogito: 
+      <revisionDesc>
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
                 1. Switched attribute order on notes.
                 2. Switched attribute order on milestones.
                 3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
                 4. Changed span elements to placeName.
             </change>
-            <change xml:id="change-4"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Added URI for item with no URI.</change>
-            <change xml:id="change-5"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Edited placeName tags to include definite article.</change>
-            <change xml:id="change-6"
-                 who="#ngibson"
-                 when="2021-02-03"
-                 status="draft">Aligned English and Arabic texts</change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+            <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
         </revisionDesc>
    </teiHeader>
    <text>
@@ -210,27 +192,19 @@
               xml:id="chapter-div"
               prev="https://usaybia.net/text/12-1#chapter-div"
               next="https://usaybia.net/text/12-3#chapter-div">
-            <div type="textpart"
-                 subtype="biography"
-                 n="2"
-                 part="N"
-                 org="uniform"
-                 sample="complete">
-                        <p n="1"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
+            <div type="textpart" subtype="biography" n="2">
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.2]‬ صنجهل <note n="1" type="footnote" anchored="true">
-                                    <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
+                                ‭[12.2]‬ صنجهل <note n="1" type="footnote">
+                                    <p>This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
                                 </note>
                             </hi>
                         </p>
-                        <p n="1" xml:lang="en-Latn" part="N">
+                        <p n="1" xml:lang="en-Latn">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.2 Ṣanjahal
-                                <note n="1" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This biography is included in Version 2 and Version 3 of the book, but is missing from Version 
                                         <hi rend="smallcaps">I</hi>
                                         . Ṣanjahal is an otherwise unknown Indian physician and astrologer whose dates are unknown. He is not mentioned either in Sezgin,
@@ -245,94 +219,79 @@
                                 </note>
                             </hi>
                         </p>
-                        <p n="2"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            كان من علماء <placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
-                                <p part="N">R: ولصنجهل</p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            كان من علماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote">
+                                <p>R: ولصنجهل</p>
                             </note>
-                            من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote" anchored="true">
-                                <p part="N">B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير‬‎</p>
+                            من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote">
+                                <p>B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير‬‎</p>
                             </note>
                             ‬‎
                         </p>
-                        <p n="2" xml:lang="en-Latn" part="N">
+                        <p n="2" xml:lang="en-Latn">
                             Ṣanjahal was one of the most learned and outstanding scholars of India, having been a master of the sciences of medicine and astrology, and was the author of a work entitled
                             <hi rend="italic">The Large Book on Nativities</hi>
                             (
                             <hi rend="italic">Kitāb al-mawālīd al-kabīr</hi>
                             ).
                         </p>
-                        <p n="3"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            وكان من بعد صنجهل <note n="4" type="footnote" anchored="true">
-                                <p part="N">B: كنكه</p>
+                        <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            وكان من بعد صنجهل <note n="4" type="footnote">
+                                <p>B: كنكه</p>
                             </note>
-                            الهندي جماعة في <note n="5" type="footnote" anchored="true">
-                                <p part="N">Gc: من</p>
+                            الهندي جماعة في <note n="5" type="footnote">
+                                <p>Gc: من</p>
                             </note>
-                            بلاد <placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
-                                <p part="N">BGc: وفي غيرها</p>
+                            بلاد <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
+                                <p>BGc: وفي غيرها</p>
                             </note>
-                            من العلوم مثل باكهر <note n="7" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: باكهر; Tajaddud, 330: راكهر; Sayyid 2/1, 224: راكهّر</p>
+                            من العلوم مثل باكهر <note n="7" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: باكهر; Tajaddud, 330: راكهر; Sayyid 2/1, 224: راكهّر</p>
                             </note>
-                            راحه <note n="8" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: راحه; Tajaddud, 330; Sayyid 2/1, 224: راجه</p>
+                            راحه <note n="8" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: راحه; Tajaddud, 330; Sayyid 2/1, 224: راجه</p>
                             </note>
-                            صكه داهر انكر <note n="9" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: آنكو; Tajaddud, 330: انكر (app. crit. انكو); Sayyid, 2/1:224: آنكُر</p>
+                            صكه داهر انكر <note n="9" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: آنكو; Tajaddud, 330: انكر (app. crit. انكو); Sayyid, 2/1:224: آنكُر</p>
                             </note>
-                            زنكل <note n="10" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: زنكل; Tajaddud, 330; Sayyid 2/1, 224: رتكل</p>
+                            زنكل <note n="10" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: زنكل; Tajaddud, 330; Sayyid 2/1, 224: رتكل</p>
                             </note>
-                            جبهر <note n="11" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جنهر</p>
+                            جبهر <note n="11" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جنهر</p>
                             </note>
-                            اندي <note n="12" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: اندو; Tajaddud, 330: ابدى (app. crit. اندو); Sayyid, 2/1:224: أندى</p>
+                            اندي <note n="12" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 271: اندو; Tajaddud, 330: ابدى (app. crit. اندو); Sayyid, 2/1:224: أندى</p>
                             </note>
-                            جاري <note n="13" type="footnote" anchored="true">
-                                <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جبارى; R: باكهر داهرجبهر راحه انكراندى حىكه زنكل جارى</p>
+                            جاري <note n="13" type="footnote">
+                                <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جبارى; R: باكهر داهرجبهر راحه انكراندى حىكه زنكل جارى</p>
                             </note>
                             كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة العربية.‬‎
                         </p>
-                        <p n="3" xml:lang="en-Latn" part="N">
+                        <p n="3" xml:lang="en-Latn">
                             Ṣanjahal was followed in India by a group of scholars, including Bākahr, Rāḥah, Ṣakih, Dāhir, Ankar, Zankal, Jabhar, Andī and Jārī,
-                            <note n="2" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">The reading and interpretation of these Indian names remains uncertain. See the discussion of some of them by H.H. Wilson in his addendum to Cureton, ‘Extract’, 115–119.</p>
+                            <note n="2" type="footnote">
+                                <p xml:lang="en-Latn">The reading and interpretation of these Indian names remains uncertain. See the discussion of some of them by H.H. Wilson in his addendum to Cureton, ‘Extract’, 115–119.</p>
                             </note>
                             all of whom composed many well-known works on the art of medicine and other sciences. They rank amongst the great learned men of India: they were skilled in the art of medicine, and they elucidated the rules governing the science of astrology. The scholars of India study and imitate their works, transmitting them from generation to generation. Many of those works have been translated into Arabic:
-                            <note n="3" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="3" type="footnote">
+                                <p xml:lang="en-Latn">
                                     This section on translation relies on Ibn al-Nadīm’s
                                     <hi rend="italic">Fihrist</hi>
                                     (Flügel, 270–271 and 303; Tajaddud, 330 and 360; Sayyid, ii:223–224 and 315–316).
                                 </p>
                             </note>
                         </p>
-                        <p n="4"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            ووجدت الرازي <note n="14" type="footnote" anchored="true">
-                                <p part="N">B: add. أيضاً</p>
+                        <p n="4" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            ووجدت الرازي <note n="14" type="footnote">
+                                <p>B: add. أيضاً</p>
                             </note>
                             قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:‬‎
                         </p>
-                        <p n="4" xml:lang="en-Latn" part="N">
+                        <p n="4" xml:lang="en-Latn">
                             I have found that al-Rāzī,
-                            <note n="4" type="footnote" anchored="true">
-                                <p xml:lang="en-Latn" part="N">
+                            <note n="4" type="footnote">
+                                <p xml:lang="en-Latn">
                                     For the biography of Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī (d. 313/925), see Ch. 11.5. For al-Rāzī’s quotations from Caraka, see Kahl,
                                     <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
                                     , 86–129.
@@ -351,11 +310,11 @@
                             n="12.2no1"
                             change="#change-1"
                             cert="low">
-                                كتاب سيرك <note n="15" type="footnote" anchored="true">
-                                    <p part="N">B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
+                                كتاب سيرك <note n="15" type="footnote">
+                                    <p>B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
                                 </note>
-                                الهندي وهذا الكتاب فسره عبد الله بن علي من الفارسي إلى العربي لأنه نقل أولاً <note n="16" type="footnote" anchored="true">
-                                    <p part="N">BGc: أولاً نقل</p>
+                                الهندي وهذا الكتاب فسره عبد الله بن علي من الفارسي إلى العربي لأنه نقل أولاً <note n="16" type="footnote">
+                                    <p>BGc: أولاً نقل</p>
                                 </note>
                                 من الهندي إلى الفارسي
                             </title>
@@ -373,8 +332,8 @@
                             n="12.2no3"
                             change="#change-1"
                             cert="low">
-                                كتاب ندان <note n="17" type="footnote" anchored="true">
-                                    <p part="N">ABGc: بدان; R: يدان</p>
+                                كتاب ندان <note n="17" type="footnote">
+                                    <p>ABGc: بدان; R: يدان</p>
                                 </note>
                                 في علامات أربعمائة وأربعة أدواء ومعرفتها بغير علاج
                             </title>
@@ -385,14 +344,14 @@
                             n="12.2no4"
                             change="#change-1"
                             cert="low">
-                                وكتاب سندهشار <note n="18" type="footnote" anchored="true">
-                                    <p part="N">ABGc: سندهشان; R: سندهيشان; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سندستاق</p>
+                                وكتاب سندهشار <note n="18" type="footnote">
+                                    <p>ABGc: سندهشان; R: سندهيشان; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سندستاق</p>
                                 </note>
-                                وتفسيره كتاب صفوة <note n="19" type="footnote" anchored="true">
-                                    <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: صفوة; ABGcR: صورة</p>
+                                وتفسيره كتاب صفوة <note n="19" type="footnote">
+                                    <p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: صفوة; ABGcR: صورة</p>
                                 </note>
-                                النجح <note n="20" type="footnote" anchored="true">
-                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1:316: add. تفسير ابن دهن صاحب البيمارستان</p>
+                                النجح <note n="20" type="footnote">
+                                    <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1:316: add. تفسير ابن دهن صاحب البيمارستان</p>
                                 </note>
                             </title>
                             </item>
@@ -402,13 +361,10 @@
                             n="12.2no5"
                             change="#change-1"
                             cert="low">
-                                وكتاب فيما اختلفت <note n="21" type="footnote" anchored="true">
-                                    <p part="N">B: اختلف</p>
+                                وكتاب فيما اختلفت <note n="21" type="footnote">
+                                    <p>B: اختلف</p>
                                 </note>
-                                فيه <placeName ref="https://usaybia.net/place/260"
-                                   resp="#mtolay"
-                                   instant="false"
-                                   full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                                فيه <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
@@ -424,11 +380,11 @@
                             n="12.2no7"
                             change="#change-1"
                             cert="low">
-                                وكتاب استانكر <note n="22" type="footnote" anchored="true">
-                                    <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: استانكر; ABR: اسانكر; Gc: اسما بكر</p>
+                                وكتاب استانكر <note n="22" type="footnote">
+                                    <p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: استانكر; ABR: اسانكر; Gc: اسما بكر</p>
                                 </note>
-                                الجامع <note n="23" type="footnote" anchored="true">
-                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:315: add. تفسير ابن دهن</p>
+                                الجامع <note n="23" type="footnote">
+                                    <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:315: add. تفسير ابن دهن</p>
                                 </note>
                             </title>
                             </item>
@@ -437,10 +393,7 @@
                                 <title ref="https://usaybia.net/work/215"
                             n="12.2no8"
                             change="#change-1"
-                            cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
-                                   resp="#mtolay"
-                                   instant="false"
-                                   full="yes">هند</placeName>
+                            cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName>
                      </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
@@ -449,8 +402,8 @@
                             n="12.2no9"
                             change="#change-1"
                             cert="low">
-                                وكتاب مختصر في العقاقير للهند <note n="24" type="footnote" anchored="true">
-                                    <p part="N">Gc: om. للهند</p>
+                                وكتاب مختصر في العقاقير للهند <note n="24" type="footnote">
+                                    <p>Gc: om. للهند</p>
                                 </note>
                             </title>
                             </item>
@@ -460,11 +413,11 @@
                             n="12.2no10"
                             change="#change-1"
                             cert="low">
-                                وكتاب نوفشل <note n="25" type="footnote" anchored="true">
-                                    <p part="N">In margin of A: خ نافشل; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: توقشتل الهندي</p>
+                                وكتاب نوفشل <note n="25" type="footnote">
+                                    <p>In margin of A: خ نافشل; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: توقشتل الهندي</p>
                                 </note>
-                                فيه مائة داء ومائة <note n="26" type="footnote" anchored="true">
-                                    <p part="N">Gc: om. داء ومائة</p>
+                                فيه مائة داء ومائة <note n="26" type="footnote">
+                                    <p>Gc: om. داء ومائة</p>
                                 </note>
                                 دواء
                             </title>
@@ -475,8 +428,8 @@
                             n="12.2no11"
                             change="#change-1"
                             cert="low">
-                                وكتاب زوسي الهندية <note n="27" type="footnote" anchored="true">
-                                    <p part="N">A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
+                                وكتاب زوسي الهندية <note n="27" type="footnote">
+                                    <p>A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
                                 </note>
                                 في علاجات النساء
                             </title>
@@ -487,10 +440,7 @@
                             n="12.2no12"
                             change="#change-1"
                             cert="low">
-                                وكتاب السكر لل<placeName ref="https://usaybia.net/place/260"
-                                   resp="#mtolay"
-                                   instant="false"
-                                   full="yes">هند</placeName>
+                                وكتاب السكر لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
@@ -499,8 +449,8 @@
                             n="12.2no13"
                             change="#change-1"
                             cert="low">
-                                وكتاب رأي الهندي <note n="28" type="footnote" anchored="true">
-                                    <p part="N">Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
+                                وكتاب رأي الهندي <note n="28" type="footnote">
+                                    <p>Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
                                 </note>
                                 في أجناس الحيات وسمومها
                             </title>
@@ -511,8 +461,8 @@
                             n="12.2no14"
                             change="#change-1"
                             cert="low">
-                                وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote" anchored="true">
-                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
+                                وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote">
+                                    <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
                                 </note>
                             </title>
                             </item>
@@ -523,8 +473,8 @@
                                 The
                                 <hi rend="italic">Compendium of Caraka</hi>
                                 ,
-                                <note n="5" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="5" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This is the
                                         <hi rend="italic">Carakasaṃhitā</hi>
                                         , a medical compendium written by the Indian physician Caraka. The author’s name was rendered into Arabic as Sharak (al-Rāzī,
@@ -556,8 +506,8 @@
                                     </p>
                                 </note>
                                 a work that ʿAbd Allāh ibn ʿAlī
-                                <note n="6" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="6" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         An otherwise unrecorded translator; see Ullmann,
                                         <hi rend="italic">Medizin</hi>
                                         , 104.
@@ -570,8 +520,8 @@
                                 The
                                 <hi rend="italic">Compendium of Suśruta</hi>
                                 ,
-                                <note n="7" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="7" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This work is the
                                         <hi rend="italic">Suśruta-Saṃhitā</hi>
                                         (
@@ -597,8 +547,8 @@
                                     </p>
                                 </note>
                                 which discusses the symptoms of diseases, methods of treatment, and remedies. it is divided into ten chapters, and was translated into Arabic at the order of Yaḥyā ibn Khālid.
-                                <note n="8" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">This work was translated by Mankah (whose biography is given below at Ch. 12.5). Yaḥyā ibn Khālid ibn Barmak was a member of the celebrated Barmakid family, who, serving as viziers to various caliphs, essentially controlled most aspects of government until 187/803, when Yaḥyā was removed from authority and imprisoned. For further information on him, see Ch. 8.2n.</p>
+                                <note n="8" type="footnote">
+                                    <p xml:lang="en-Latn">This work was translated by Mankah (whose biography is given below at Ch. 12.5). Yaḥyā ibn Khālid ibn Barmak was a member of the celebrated Barmakid family, who, serving as viziers to various caliphs, essentially controlled most aspects of government until 187/803, when Yaḥyā was removed from authority and imprisoned. For further information on him, see Ch. 8.2n.</p>
                                 </note>
                             </item>
                             <label>3.</label>
@@ -606,8 +556,8 @@
                                 The
                                 <hi rend="italic">Book of Nidān</hi>
                                 ,
-                                <note n="9" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="9" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         The Arabic
                                         <hi rend="italic">K. al-Nidān</hi>
                                         is the Sanskrit
@@ -649,8 +599,8 @@
                                 (
                                 <hi rend="italic">K. Ṣafwat al-nujḥ</hi>
                                 ).
-                                <note n="10" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="10" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This is the
                                         <hi rend="italic">Siddhasāra</hi>
                                         , (‘Quintessence [of Medicine])’, written by Ravigupta (fl. ca. 650 
@@ -695,8 +645,8 @@
                                 On the interpretation of the names of drugs (
                                 <hi rend="italic">K. tafsīr asmāʾ al-ʿaqqār</hi>
                                 ), in ten different languages.
-                                <note n="11" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="11" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This might be the book entitled
                                         <hi rend="italic">Names of Indian Medicines</hi>
                                         (
@@ -712,8 +662,8 @@
                                 The
                                 <hi rend="italic">Astāngar</hi>
                                 , a compendium.
-                                <note n="12" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="12" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         Vāgbhaṭa’s
                                         <hi rend="italic">Aṣṭāṅgahṛdaya</hi>
                                         -
@@ -761,8 +711,8 @@
                                 A compendium on drugs used by the Indians (
                                 <hi rend="italic">K. mukhtaṣar fī l-ʿaqāqīr lil-Hind</hi>
                                 ).
-                                <note n="13" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="13" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This work is also listed by Ibn al-Nadīm with the same title; see
                                         <hi rend="italic">Fihrist</hi>
                                         , Flügel, 303; Tajaddud, 360; Sayyid, ii:316.
@@ -773,8 +723,8 @@
                             <item>
                                 <hi rend="italic">The Book of Nūfashal</hi>
                                 ,
-                                <note n="14" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="14" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This is presumably the name of an author who has not been identified. A marginal note in
                                         <hi rend="smallcaps">MS</hi>
                                         A provides the variant Nāfashal, while Ibn al-Nadīm gives
@@ -793,8 +743,8 @@
                             <label>11.</label>
                             <item>
                                 On the treatment of women, by an Indian woman named Rūsā,
-                                <note n="15" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="15" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This female Indian author on women’s conditions has not been identified. The name in Arabic is written in a number of ways, most commonly as Rūsā, but Rūshī and Zūsī occur as well. ʿAlī ibn Sahl Rabban al-Ṭabarī has some quotations from the books of ‘an Indian woman’ on the treatment of women’s diseases; see ʿAlī ibn Sahl Rabban al-Ṭabarī,
                                         <hi rend="italic">Firdaws al-ḥikmah</hi>
                                         (ed. al-Ṣiddīqī), 591–594.
@@ -813,8 +763,8 @@
                                 or
                                 <hi rend="italic">K. al-sukr lil-Hind</hi>
                                 ).
-                                <note n="16" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="16" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         Or, ‘On intoxication in India’, following Ibn al-Nadīm (Sayyid, ii:316) who vowels it as
                                         <hi rend="italic">al-sukr</hi>
                                         .
@@ -826,8 +776,8 @@
                                 On the view of Nāqil the Indian on various species of snakes and their venom (
                                 <hi rend="italic">
                                     K. raʾy al-Hindī
-                                    <note n="17" type="footnote" anchored="true">
-                                        <p xml:lang="en-Latn" part="N">
+                                    <note n="17" type="footnote">
+                                        <p xml:lang="en-Latn">
                                             <hi rend="italic">Raʾy al-Hindī</hi>
                                             , meaning ‘the view of the Indian’, is further explained in the margin of
                                             <hi rend="smallcaps">MS</hi>
@@ -851,8 +801,8 @@
                                 On delusion concerning diseases and maladies (
                                 <hi rend="italic">K. al-tawahhum fī l-amrāḍ wa-l-ʿilal</hi>
                                 ), by the Indian author Abū Qubayl.
-                                <note n="18" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="18" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         An author named Abū Qubayl al-Hindī is unidentified. The name has probably become corrupted in the manuscript tradition. Ibn al-Nadīm gives the same title credited to one T-w-q-sh-t-l al-Hindī, suggesting the author was the same as the one who composed title no. 10 in this list above (
                                         <hi rend="italic">Fihrist</hi>
                                         , Flügel, 303; Tajaddud, 360; Sayyid, ii:316).

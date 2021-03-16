@@ -17,16 +17,16 @@
             <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
             <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
             <sponsor ref="https://www.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
 				</sponsor>
             <sponsor ref="http://www.naher-osten.uni-muenchen.de">
-					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
 				</sponsor>
             <funder ref="https://www.bmbf.de/">
-					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
-					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
             <editor xml:id="ngibson"
@@ -43,35 +43,35 @@
             <respStmt>
 					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
             <respStmt>
 					          <resp>Place names tagged by</resp>
-					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
                 </respStmt>
             <respStmt>
 					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
-					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				        </respStmt>
          </titleStmt>
          <publicationStmt>
                 <distributor>
-                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
+                    <placeName>Ludwig-Maximilians-Universität,
                         Munich, Germany</placeName>
                 </distributor>
                 <authority>Usaybia.net</authority>
                 <idno type="URI">https://usaybia.net/text/12</idno>
-                <availability default="false">
-                    <p part="N"/>
+                <availability>
+                    <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
-                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
                 </availability>
-                <date instant="false">2020</date>
+                <date>2020</date>
            </publicationStmt>
-         <sourceDesc default="false">
-               <biblStruct default="false" status="draft">
+         <sourceDesc>
+               <biblStruct>
                 <monogr>
                     <title>Arabic Edition</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
@@ -85,13 +85,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -108,18 +108,18 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">2</biblScope>
                 </monogr>
                </biblStruct>
-               <biblStruct default="false" status="draft">
+               <biblStruct>
                 <monogr>
                     <title>Annotated English Translation</title>
                     <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
@@ -133,13 +133,13 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="en">English</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="chapter">12</biblScope>
                 </monogr>
@@ -156,50 +156,32 @@
                     <editor role="contributor">Bruce Inksetter</editor>
                     <editor role="contributor">Franak Hilloowala</editor>
                     <textLang mainLang="ar">Arabic</textLang>
-                    <availability default="false">
+                    <availability>
                         <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
                     </availability>
                     <imprint>
                         <pubPlace>Leiden</pubPlace>
                         <publisher>Brill</publisher>
-                        <date instant="false">2020</date>
+                        <date>2020</date>
                     </imprint>
                     <biblScope unit="volume">3</biblScope>
                 </monogr>
                </biblStruct>
            </sourceDesc>
       </fileDesc>
-      <revisionDesc status="draft">
-            <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
-            <change xml:id="change-1"
-                 who="#ngibson"
-                 when="2020-06-04"
-                 status="draft">Added title elements with iterating URIs to list items.</change>
-            <change xml:id="change-2"
-                 who="#mtolay"
-                 when="2020-08-26"
-                 status="draft">Tagged place names in Recogito.</change>
-            <change xml:id="change-3"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Reformatted after downloading from Recogito: 
+      <revisionDesc>
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
                 1. Switched attribute order on notes.
                 2. Switched attribute order on milestones.
                 3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
                 4. Changed span elements to placeName.
             </change>
-            <change xml:id="change-4"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Added URI for item with no URI.</change>
-            <change xml:id="change-5"
-                 who="#ngibson"
-                 when="2021-02-01"
-                 status="draft">Edited placeName tags to include definite article.</change>
-            <change xml:id="change-6"
-                 who="#ngibson"
-                 when="2021-02-03"
-                 status="draft">Aligned English and Arabic texts</change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+            <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
         </revisionDesc>
    </teiHeader>
    <text>
@@ -210,27 +192,19 @@
               xml:id="chapter-div"
               prev="https://usaybia.net/text/12-2#chapter-div"
               next="https://usaybia.net/text/12-4#chapter-div">
-            <div type="textpart"
-                 subtype="biography"
-                 n="3"
-                 part="N"
-                 org="uniform"
-                 sample="complete">
-                        <p n="1"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
+            <div type="textpart" subtype="biography" n="3">
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭12.3‬] شاناق <note n="1" type="footnote" anchored="true">
-                                    <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
+                                [‭12.3‬] شاناق <note n="1" type="footnote">
+                                    <p>This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
                                 </note>
                             </hi>
                         </p>
-                        <p n="1" xml:lang="en-Latn" part="N">
+                        <p n="1" xml:lang="en-Latn">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.3 Shānāq
-                                <note n="1" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         This biography is included in Version 2 and Version 3 of the book, but is missing from Version 
                                         <hi rend="smallcaps">I</hi>
                                         . Cāṇakya is the name of a legendary Indian sage (also referred to as Kauṭilya) as well as the minister of Candragupta Maurya (r. 321–298 
@@ -252,71 +226,62 @@
                                 (Cāṇakya)
                             </hi>
                         </p>
-                        <p n="2"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            ومن المشهورين أيضاً من أطباء <placeName ref="https://usaybia.net/place/260"
-                             resp="#mtolay"
-                             instant="false"
-                             full="yes">الهند</placeName> شاناق <note n="2" type="footnote" anchored="true">
-                                <p part="N">B: شناق</p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            ومن المشهورين أيضاً من أطباء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> شاناق <note n="2" type="footnote">
+                                <p>B: شناق</p>
                             </note>
-                            وكانت له معالجات وتجارب كثيرة في صناعة الطب وتفنن في العلوم وفي الحكمة <note n="3" type="footnote" anchored="true">
-                                <p part="N">Gc: في علوم الحكمية وغيرها</p>
+                            وكانت له معالجات وتجارب كثيرة في صناعة الطب وتفنن في العلوم وفي الحكمة <note n="3" type="footnote">
+                                <p>Gc: في علوم الحكمية وغيرها</p>
                             </note>
-                            وكان بارعاً في علم النجوم حسن الكلام متقدماً عند ملوك الهند ومن كلامه <note n="4" type="footnote" anchored="true">
-                                <p part="N">GcR: كلام شاناق</p>
+                            وكان بارعاً في علم النجوم حسن الكلام متقدماً عند ملوك الهند ومن كلامه <note n="4" type="footnote">
+                                <p>GcR: كلام شاناق</p>
                             </note>
-                            قال في كتابه الذي سماه منتخل الجوهر يا أيها ‭[ii,33]‬ الوالي اتق عثرات الزمان واخش (‭١٩١‬ب) تسلط الأيام ولوعة غلبة الدهر واعلم أن للأعمال <note n="5" type="footnote" anchored="true">
-                                <p part="N">Gc: الأعمال</p>
+                            قال في كتابه الذي سماه منتخل الجوهر يا أيها ‭[ii,33]‬ الوالي اتق عثرات الزمان واخش (‭١٩١‬ب) تسلط الأيام ولوعة غلبة الدهر واعلم أن للأعمال <note n="5" type="footnote">
+                                <p>Gc: الأعمال</p>
                             </note>
-                            جزاء فاتق عواقب الدهر <note n="6" type="footnote" anchored="true">
-                                <p part="N">Gc: om. الدهر</p>
+                            جزاء فاتق عواقب الدهر <note n="6" type="footnote">
+                                <p>Gc: om. الدهر</p>
                             </note>
-                            والأيام فإن لها غدرات فكن منها على حذر والأقدار مغيبات فاستعد لها <note n="7" type="footnote" anchored="true">
-                                <p part="N">A: فكن منها على حذر crossed out, in margin: فاستعد لها</p>
+                            والأيام فإن لها غدرات فكن منها على حذر والأقدار مغيبات فاستعد لها <note n="7" type="footnote">
+                                <p>A: فكن منها على حذر crossed out, in margin: فاستعد لها</p>
                             </note>
-                            والزمان منقلب فاحذر دولته لئيم الكرة فخف سطوته سريع الغرة فلا تأمن دولته واعلم أن من لم يداو <note n="8" type="footnote" anchored="true">
-                                <p part="N">Gc: يداوى; R: يدارى</p>
+                            والزمان منقلب فاحذر دولته لئيم الكرة فخف سطوته سريع الغرة فلا تأمن دولته واعلم أن من لم يداو <note n="8" type="footnote">
+                                <p>Gc: يداوى; R: يدارى</p>
                             </note>
-                            نفسه من سقام الآثام <note n="9" type="footnote" anchored="true">
-                                <p part="N">GcR: الأيام</p>
+                            نفسه من سقام الآثام <note n="9" type="footnote">
+                                <p>GcR: الأيام</p>
                             </note>
-                            في أيام حياته فما أبعده من الشفاء في دار لا دواء <note n="10" type="footnote" anchored="true">
-                                <p part="N">Gc: دوام</p>
+                            في أيام حياته فما أبعده من الشفاء في دار لا دواء <note n="10" type="footnote">
+                                <p>Gc: دوام</p>
                             </note>
-                            لها ومن أذل حواسه واستعبدها فيما تقدم من خير لنفسه بان <note n="11" type="footnote" anchored="true">
-                                <p part="N">GcR: أبان</p>
+                            لها ومن أذل حواسه واستعبدها فيما تقدم من خير لنفسه بان <note n="11" type="footnote">
+                                <p>GcR: أبان</p>
                             </note>
-                            فضله وظهر نبله ومن لم يضبط نفسه وهي واحدة لم يضبط حواسه وهي <note n="12" type="footnote" anchored="true">
-                                <p part="N">A: وهن</p>
+                            فضله وظهر نبله ومن لم يضبط نفسه وهي واحدة لم يضبط حواسه وهي <note n="12" type="footnote">
+                                <p>A: وهن</p>
                             </note>
-                            خمس فإذا لم يضبط حواسه مع قلتها وذلتها صعب عليه ضبط الأعوان مع كثرتهم وخشونة جانبهم فكانت عامة الرعية في أقاصي البلاد وأطراف المملكة أبعد من الضبط. <note n="13" type="footnote" anchored="true">
-                                <p part="N">B: om. وتفنن في العلوم … أبعد من الضبط‬‎</p>
+                            خمس فإذا لم يضبط حواسه مع قلتها وذلتها صعب عليه ضبط الأعوان مع كثرتهم وخشونة جانبهم فكانت عامة الرعية في أقاصي البلاد وأطراف المملكة أبعد من الضبط. <note n="13" type="footnote">
+                                <p>B: om. وتفنن في العلوم … أبعد من الضبط‬‎</p>
                             </note>
                             ‬‎
                         </p>
-                        <p n="2" xml:lang="en-Latn" part="N">
+                        <p n="2" xml:lang="en-Latn">
                             Another celebrated Indian physician, the possessor of many treatments and much experience in the art of medicine and a master of various sciences and wisdom, as well as having been proficient in astrology. He was also an eloquent speaker, and stood high in the estimation of Indian kings. The following is an example of his eloquence, taken from a work of his entitled
                             <hi rend="italic">Sifted Jewels</hi>
                             :
                         </p>
                         <cit n="2" xml:lang="en-Latn">
                             <quote>
-                                <p xml:lang="en-Latn" part="N">O Prince, beware the pitfalls of time, and fear the mastery of days and the anguish of inevitable death. Know that actions earn recompense, and therefore fear the consequences of time and days, for they are uncertain. Beware then of them. Fate is unknowable. Time is inconstant: fear then its change. It may return with adversity: fear then its assault. It is swift to surprise, and there is no security against its reversal. Know that the man who does not treat himself for the sickness of misdeeds committed during the days of his life will be further than ever from recovery in that abode wherein there are no remedies. The man who in time past has subdued and abased his senses for the betterment of his soul has clearly shown his excellence and made plain his nobility of nature. He who does not control his soul, of which there is only one, will not control his senses, of which there are five, and if he does not control his senses, which are few and tractable, it will be difficult for him to control his advisors, who are numerous and formidable, and then the masses of the people in the outlying regions of the country and the distant parts of the kingdom will be very far from any control.</p>
+                                <p xml:lang="en-Latn">O Prince, beware the pitfalls of time, and fear the mastery of days and the anguish of inevitable death. Know that actions earn recompense, and therefore fear the consequences of time and days, for they are uncertain. Beware then of them. Fate is unknowable. Time is inconstant: fear then its change. It may return with adversity: fear then its assault. It is swift to surprise, and there is no security against its reversal. Know that the man who does not treat himself for the sickness of misdeeds committed during the days of his life will be further than ever from recovery in that abode wherein there are no remedies. The man who in time past has subdued and abased his senses for the betterment of his soul has clearly shown his excellence and made plain his nobility of nature. He who does not control his soul, of which there is only one, will not control his senses, of which there are five, and if he does not control his senses, which are few and tractable, it will be difficult for him to control his advisors, who are numerous and formidable, and then the masses of the people in the outlying regions of the country and the distant parts of the kingdom will be very far from any control.</p>
                             </quote>
                         </cit>
-                        <p n="3"
-                  xml:lang="ar-Arab"
-                  style="direction:rtl; unicode-bidi:embed"
-                  part="N">
-                            ولشاناق <note n="14" type="footnote" anchored="true">
-                                <p part="N">B: وله</p>
+                        <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            ولشاناق <note n="14" type="footnote">
+                                <p>B: وله</p>
                             </note>
                             من الكتب:‬‎
                         </p>
-                        <p n="3" xml:lang="en-Latn" part="N">Shānāq was the author of several books, notably:</p>
+                        <p n="3" xml:lang="en-Latn">Shānāq was the author of several books, notably:</p>
                         <list n="4" xml:lang="ar-Arab">
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -324,11 +289,11 @@
                             n="12.3no1"
                             change="#change-1"
                             cert="low">
-                                كتاب السموم خمس مقالات فسره من اللسان الهندي إلى اللسان الفارسي منكة <note n="15" type="footnote" anchored="true">
-                                    <p part="N">Gc: كنكه</p>
+                                كتاب السموم خمس مقالات فسره من اللسان الهندي إلى اللسان الفارسي منكة <note n="15" type="footnote">
+                                    <p>Gc: كنكه</p>
                                 </note>
-                                الهندي وكان المتولي لنقله بالخط الفارسي <note n="16" type="footnote" anchored="true">
-                                    <p part="N">Beginning of <hi rend="smallcaps">MS</hi> H.</p>
+                                الهندي وكان المتولي لنقله بالخط الفارسي <note n="16" type="footnote">
+                                    <p>Beginning of <hi rend="smallcaps">MS</hi> H.</p>
                                 </note>
                                 رجل يعرف بأبي حاتم البلخي فسره ليحيى بن خالد بن برمك ثم نقل للمأمون على يد العباس بن سعيد الجوهري مولاه وكان المتولي قراءته على المأمون
                             </title>
@@ -353,17 +318,17 @@
                             n="12.3no4"
                             change="#change-1"
                             cert="low">
-                                كتاب منتخل الجوهر <note n="17" type="footnote" anchored="true">
-                                    <p part="N">Gc: الجواهر</p>
+                                كتاب منتخل الجوهر <note n="17" type="footnote">
+                                    <p>Gc: الجواهر</p>
                                 </note>
-                                ألفه <note n="18" type="footnote" anchored="true">
-                                    <p part="N">Gc: وألفه</p>
+                                ألفه <note n="18" type="footnote">
+                                    <p>Gc: وألفه</p>
                                 </note>
-                                لبعض ملوك زمانه وكان يقال له <note n="19" type="footnote" anchored="true">
-                                    <p part="N">R: لذلك الملك</p>
+                                لبعض ملوك زمانه وكان يقال له <note n="19" type="footnote">
+                                    <p>R: لذلك الملك</p>
                                 </note>
-                                ابن قمانص الهندي. <note n="20" type="footnote" anchored="true">
-                                    <p part="N">B: om. كتاب في علم النجوم … قمانص الهندي‬‎</p>
+                                ابن قمانص الهندي. <note n="20" type="footnote">
+                                    <p>B: om. كتاب في علم النجوم … قمانص الهندي‬‎</p>
                                 </note>
                             </title>
                             </item>
@@ -372,28 +337,28 @@
                             <label>1.</label>
                             <item>
                                 On poisons, in five parts.
-                                <note n="2" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="2" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         For a translation and study of this work,
                                         <hi rend="italic">Kitāb al-sumūm</hi>
                                         , see Strauss, ‘Giftbuch der Šānāq’. The description of the translation process given immediately below is a literal quotation from the introduction to Shānāq’s book on poisons; see Strauss, ‘Giftbuch der Šānāq’, 3–4; and van Bladel, ‘Bactrian Background of the Barmakids’, 78–79.
                                     </p>
                                 </note>
                                 Mankah al-Hindī
-                                <note n="3" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">His biography is given below in Ch. 12.5.</p>
+                                <note n="3" type="footnote">
+                                    <p xml:lang="en-Latn">His biography is given below in Ch. 12.5.</p>
                                 </note>
                                 translated it from Sanskrit into Persian, and a man by the name of Abū Ḥātim al-Balkhī
-                                <note n="4" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">Abū Ḥātim of Balkh is an otherwise unidentified translator. It is likely that he was not simply transliterating the Sanskrit into a Persian script, but actually translating it, and the language into which he was likely translating was Bactrian, a local variant; see van Bladel, ‘Bactrian Background of the Barmakids’, 79. It is unclear who made the translation into Arabic that was produced for Yaḥyā ibn Khālid ibn Barmak.</p>
+                                <note n="4" type="footnote">
+                                    <p xml:lang="en-Latn">Abū Ḥātim of Balkh is an otherwise unidentified translator. It is likely that he was not simply transliterating the Sanskrit into a Persian script, but actually translating it, and the language into which he was likely translating was Bactrian, a local variant; see van Bladel, ‘Bactrian Background of the Barmakids’, 79. It is unclear who made the translation into Arabic that was produced for Yaḥyā ibn Khālid ibn Barmak.</p>
                                 </note>
                                 was assigned the task of transcribing it in Persian writing; he then expounded upon it to Yaḥyā ibn Khālid ibn Barmak. The work was subsequently translated [into Arabic] for the caliph al-Maʾmūn
-                                <note n="5" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">The seventh Abbasid caliph, r. 196–218/813–833.</p>
+                                <note n="5" type="footnote">
+                                    <p xml:lang="en-Latn">The seventh Abbasid caliph, r. 196–218/813–833.</p>
                                 </note>
                                 by his client, al-ʿAbbās ibn Saʿīd al-Jawharī.
-                                <note n="6" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">
+                                <note n="6" type="footnote">
+                                    <p xml:lang="en-Latn">
                                         Al-ʿAbbās ibn Saʿīd al-Jawharī was one of the astronomers in the service of the Abbasid caliph al-Maʾmūn. He conducted astronomical observations in Baghdad in 214/829–830 and in Damascus in 217/832–833, and he also provided the earliest extant proof of the Euclidean postulate written in Arabic. For al-Jawharī, see
                                         <hi rend="italic">
                                             <hi rend="smallcaps">DSB</hi>
@@ -423,8 +388,8 @@
                                 (
                                 <hi rend="italic">K. Muntakhal al-jawhar</hi>
                                 ), which he wrote for an Indian king of that age whose name was Ibn Qamāniṣ al-Hindī.
-                                <note n="7" type="footnote" anchored="true">
-                                    <p xml:lang="en-Latn" part="N">This Indian king has not been identified.</p>
+                                <note n="7" type="footnote">
+                                    <p xml:lang="en-Latn">This Indian king has not been identified.</p>
                                 </note>
                             </item>
                         </list>
