@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <div xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
      type="textpart"
-     subtype="biography"
-     n="2"
-     part="N"
-     org="uniform"
-     sample="complete">
+     subtype="chapter"
+     n="12"
+     xml:id="chapter-div"
+     prev="https://usaybia.net/text/12-1#chapter-div"
+     next="https://usaybia.net/text/12-3#chapter-div">
+   <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        type="textpart"
+        subtype="biography"
+        n="2"
+        part="N"
+        org="uniform"
+        sample="complete">
                         <p n="1"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             <hi rend="bold">
                                 ‭[12.2]‬ صنجهل <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
@@ -38,13 +45,13 @@
                             </hi>
                         </p>
                         <p n="2"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             كان من علماء <placeName ref="https://usaybia.net/place/260"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
                                 <p part="N">R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote" anchored="true">
@@ -60,9 +67,9 @@
                             ).
                         </p>
                         <p n="3"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             وكان من بعد صنجهل <note n="4" type="footnote" anchored="true">
                                 <p part="N">B: كنكه</p>
                             </note>
@@ -70,9 +77,9 @@
                                 <p part="N">Gc: من</p>
                             </note>
                             بلاد <placeName ref="https://usaybia.net/place/260"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
                                 <p part="N">BGc: وفي غيرها</p>
                             </note>
                             من العلوم مثل باكهر <note n="7" type="footnote" anchored="true">
@@ -113,9 +120,9 @@
                             </note>
                         </p>
                         <p n="4"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             ووجدت الرازي <note n="14" type="footnote" anchored="true">
                                 <p part="N">B: add. أيضاً</p>
                             </note>
@@ -140,9 +147,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/208"
-                n="12.2no1"
-                change="#change-1"
-                cert="low">
+                   n="12.2no1"
+                   change="#change-1"
+                   cert="low">
                                 كتاب سيرك <note n="15" type="footnote" anchored="true">
                                     <p part="N">B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
                                 </note>
@@ -155,16 +162,16 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/209"
-                n="12.2no2"
-                change="#change-1"
-                cert="low">وعن كتاب سسرد وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر يحيى بن خالد بتفسير</title>
+                   n="12.2no2"
+                   change="#change-1"
+                   cert="low">وعن كتاب سسرد وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر يحيى بن خالد بتفسير</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/210"
-                n="12.2no3"
-                change="#change-1"
-                cert="low">
+                   n="12.2no3"
+                   change="#change-1"
+                   cert="low">
                                 كتاب ندان <note n="17" type="footnote" anchored="true">
                                     <p part="N">ABGc: بدان; R: يدان</p>
                                 </note>
@@ -174,9 +181,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/211"
-                n="12.2no4"
-                change="#change-1"
-                cert="low">
+                   n="12.2no4"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب سندهشار <note n="18" type="footnote" anchored="true">
                                     <p part="N">ABGc: سندهشان; R: سندهيشان; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سندستاق</p>
                                 </note>
@@ -191,31 +198,31 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/212"
-                n="12.2no5"
-                change="#change-1"
-                cert="low">
+                   n="12.2no5"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب فيما اختلفت <note n="21" type="footnote" anchored="true">
                                     <p part="N">B: اختلف</p>
                                 </note>
                                 فيه <placeName ref="https://usaybia.net/place/260"
-                       resp="#mtolay"
-                       instant="false"
-                       full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                          resp="#mtolay"
+                          instant="false"
+                          full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/213"
-                n="12.2no6"
-                change="#change-1"
-                cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
+                   n="12.2no6"
+                   change="#change-1"
+                   cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/214"
-                n="12.2no7"
-                change="#change-1"
-                cert="low">
+                   n="12.2no7"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب استانكر <note n="22" type="footnote" anchored="true">
                                     <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: استانكر; ABR: اسانكر; Gc: اسما بكر</p>
                                 </note>
@@ -227,20 +234,20 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/215"
-                n="12.2no8"
-                change="#change-1"
-                cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
-                       resp="#mtolay"
-                       instant="false"
-                       full="yes">هند</placeName>
-         </title>
+                   n="12.2no8"
+                   change="#change-1"
+                   cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
+                          resp="#mtolay"
+                          instant="false"
+                          full="yes">هند</placeName>
+            </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/216"
-                n="12.2no9"
-                change="#change-1"
-                cert="low">
+                   n="12.2no9"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب مختصر في العقاقير للهند <note n="24" type="footnote" anchored="true">
                                     <p part="N">Gc: om. للهند</p>
                                 </note>
@@ -249,9 +256,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/217"
-                n="12.2no10"
-                change="#change-1"
-                cert="low">
+                   n="12.2no10"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب نوفشل <note n="25" type="footnote" anchored="true">
                                     <p part="N">In margin of A: خ نافشل; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: توقشتل الهندي</p>
                                 </note>
@@ -264,9 +271,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/218"
-                n="12.2no11"
-                change="#change-1"
-                cert="low">
+                   n="12.2no11"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب زوسي الهندية <note n="27" type="footnote" anchored="true">
                                     <p part="N">A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
                                 </note>
@@ -276,21 +283,21 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/219"
-                n="12.2no12"
-                change="#change-1"
-                cert="low">
+                   n="12.2no12"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب السكر لل<placeName ref="https://usaybia.net/place/260"
-                       resp="#mtolay"
-                       instant="false"
-                       full="yes">هند</placeName>
+                          resp="#mtolay"
+                          instant="false"
+                          full="yes">هند</placeName>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/220"
-                n="12.2no13"
-                change="#change-1"
-                cert="low">
+                   n="12.2no13"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب رأي الهندي <note n="28" type="footnote" anchored="true">
                                     <p part="N">Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
                                 </note>
@@ -300,9 +307,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/221"
-                n="12.2no14"
-                change="#change-1"
-                cert="low">
+                   n="12.2no14"
+                   change="#change-1"
+                   cert="low">
                                 وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote" anchored="true">
                                     <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
                                 </note>
@@ -653,3 +660,4 @@
                             </item>
                         </list>
                     </div>
+</div>

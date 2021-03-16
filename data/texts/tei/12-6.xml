@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <div xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
      type="textpart"
-     subtype="biography"
-     n="6"
-     part="N"
-     org="uniform"
-     sample="complete">
+     subtype="chapter"
+     n="12"
+     xml:id="chapter-div"
+     prev="https://usaybia.net/text/12-5#chapter-div">
+   <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        type="textpart"
+        subtype="biography"
+        n="6"
+        part="N"
+        org="uniform"
+        sample="complete">
                         <p n="1"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             <hi rend="bold">
                                 ‭[12.6]‬ صالح بن بهلة الهندي <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in all three versions of the work.</p>
@@ -38,25 +44,25 @@
                             </hi>
                         </p>
                         <p n="2"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             متميز من علماء <placeName ref="https://usaybia.net/place/260"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">الهند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان ب<placeName ref="https://usaybia.net/place/263"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">العراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote" anchored="true">
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">الهند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان ب<placeName ref="https://usaybia.net/place/263"
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">العراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote" anchored="true">
                                 <p part="N">B: هرون الرشيد</p>
                             </note>
                             ‬‎
                         </p>
                         <p n="2" xml:lang="en-Latn" part="N">Ṣāliḥ ibn Bahlah al-Hindī was one of the most distinguished of the learned men of India. He was skilled in Indian methods of treatment, and was influential and far-sighted in the advancement of knowledge. Ṣāliḥ ibn Bahlah al-Hindī was in Iraq in the time of the caliph Hārūn al-Rashīd.</p>
                         <p n="3"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             قال أبو الحسن يوسف بن إبراهيم الحاسب المعروف بابن الداية حدثني أحمد بن رشيد الكاتب مولى سلام الأبرش أن <note n="3" type="footnote" anchored="true">
                                 <p part="N">B: om. أن</p>
                             </note>
@@ -94,9 +100,9 @@
                                 <p part="N">Above the line in A: أهل</p>
                             </note>
                             <placeName ref="https://usaybia.net/place/260"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote" anchored="true">
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote" anchored="true">
                                 <p part="N">A: عنه</p>
                             </note>
                             ما يقول مثل ما <note n="16" type="footnote" anchored="true">
@@ -228,9 +234,9 @@
                             </quote>
                         </cit>
                         <p n="4"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             قال أحمد بن رشيد قال لي أبو <note n="33" type="footnote" anchored="true">
                                 <p part="N">A: ابن, above the line أبو صح; B: ابن; Gc: بن</p>
                             </note>
@@ -371,9 +377,9 @@
                             </quote>
                         </cit>
                         <p n="5"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             قال أحمد قال لي أبو <note n="56" type="footnote" anchored="true">
                                 <p part="N">Gc: ابن</p>
                             </note>
@@ -475,9 +481,9 @@
                             </quote>
                         </cit>
                         <p n="6"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             قال أحمد قال لي أبو سلمة فوكّلني الرشيد بالعمل بما حدّه <note n="73" type="footnote" anchored="true">
                                 <p part="N">Gc: حدثه</p>
                             </note>
@@ -562,9 +568,9 @@
                             </quote>
                         </cit>
                         <p n="7"
-      xml:lang="ar-Arab"
-      style="direction:rtl; unicode-bidi:embed"
-      part="N">
+         xml:lang="ar-Arab"
+         style="direction:rtl; unicode-bidi:embed"
+         part="N">
                             وعاش إبراهيم <note n="85" type="footnote" anchored="true">
                                 <p part="N">Gc: om. إبراهيم</p>
                             </note>
@@ -572,15 +578,15 @@
                                 <p part="N">Gc: الرشيد</p>
                             </note>
                             وولي <placeName ref="https://usaybia.net/place/184"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">مصر</placeName> و<placeName ref="https://usaybia.net/place/432"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184"
-                 resp="#mtolay"
-                 instant="false"
-                 full="yes">مصر</placeName> وقبره بها.‬‎
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">مصر</placeName> و<placeName ref="https://usaybia.net/place/432"
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184"
+                    resp="#mtolay"
+                    instant="false"
+                    full="yes">مصر</placeName> وقبره بها.‬‎
                         </p>
                         <p n="7" xml:lang="en-Latn" part="N">
                             Ibrāhīm lived for a long time after this adventure. He married al-ʿAbbāsah,
@@ -594,3 +600,4 @@
                             and became governor of Egypt and Palestine. He died in Egypt, and his grave is located there.
                         </p>
                     </div>
+</div>
