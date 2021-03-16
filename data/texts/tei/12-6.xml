@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     type="textpart"
+     subtype="biography"
+     n="6"
+     part="N"
+     org="uniform"
+     sample="complete">
+                        <p n="1"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             <hi rend="bold">
                                 ‭[12.6]‬ صالح بن بهلة الهندي <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in all three versions of the work.</p>
                                 </note>
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="1" xml:lang="en-Latn" part="N">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.6 Ṣāliḥ ibn Bahlah al-Hindī
                                 <note n="1" type="footnote" anchored="true">
@@ -35,34 +37,26 @@
                                 </note>
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="2"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             متميز من علماء <placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان ب<placeName ref="https://usaybia.net/place/263"
-              resp="#mtolay"
-              instant="false"
-              full="yes">العراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان ب<placeName ref="https://usaybia.net/place/263"
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">العراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote" anchored="true">
                                 <p part="N">B: هرون الرشيد</p>
                             </note>
                             ‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="en-Latn"
-   part="N">Ṣāliḥ ibn Bahlah al-Hindī was one of the most distinguished of the learned men of India. He was skilled in Indian methods of treatment, and was influential and far-sighted in the advancement of knowledge. Ṣāliḥ ibn Bahlah al-Hindī was in Iraq in the time of the caliph Hārūn al-Rashīd.</p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="2" xml:lang="en-Latn" part="N">Ṣāliḥ ibn Bahlah al-Hindī was one of the most distinguished of the learned men of India. He was skilled in Indian methods of treatment, and was influential and far-sighted in the advancement of knowledge. Ṣāliḥ ibn Bahlah al-Hindī was in Iraq in the time of the caliph Hārūn al-Rashīd.</p>
+                        <p n="3"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             قال أبو الحسن يوسف بن إبراهيم الحاسب المعروف بابن الداية حدثني أحمد بن رشيد الكاتب مولى سلام الأبرش أن <note n="3" type="footnote" anchored="true">
                                 <p part="N">B: om. أن</p>
                             </note>
@@ -100,9 +94,9 @@
                                 <p part="N">Above the line in A: أهل</p>
                             </note>
                             <placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote" anchored="true">
                                 <p part="N">A: عنه</p>
                             </note>
                             ما يقول مثل ما <note n="16" type="footnote" anchored="true">
@@ -158,11 +152,7 @@
                             </note>
                             عليه ولم أقل ما قلت إلا بعلم واضح ودلائل بينة.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="3" xml:lang="en-Latn" part="N">
                             Abu l-Ḥasan Yūsuf ibn Ibrāhīm the astrologer, known as Ibn al-Dāyah,
                             <note n="2" type="footnote" anchored="true">
                                 <p xml:lang="en-Latn" part="N">
@@ -202,12 +192,45 @@
                             </note>
                             was not present. To tell the tale in Aḥmad’s own words:
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <cit n="3" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn" part="N">
+                                    Abū Salamah (meaning his patron, Sallām al-Abrash) told me that the Commander of the Faithful had ordered him to go and find Jibrīl and bid him attend the caliph at the meal, as was the regular practice. He had done so, asking for the missing physician at every suite of apartments where Jibrīl was wont to attend members of the family, but had found no trace of him. Returning, he had informed the caliph of this, whereupon al-Rashīd had burst into a torrent of curses and abuse against Jibrīl. In the midst of this, in walked Jibrīl himself. ‘It would be seemlier,’ he said, ‘for the Commander of the Faithful to refrain from abusing me in this fashion and instead to weep for his cousin, Ibrāhīm ibn Ṣāliḥ’.
+                                    <note n="5" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            Ibrāhīm ibn Ṣāliḥ ibn ʿAlī was a cousin of the caliphs al-Saffāḥ and al-Manṣūr. His father, Ṣāliḥ, had been the first Abbasid governor of Egypt. The family was a powerful clan of the Abbasids during the early years of the Abbasid caliphate; see
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘ʿAbd al-Malik b. Ṣāliḥ’ (K.V. Zetterstéen).
+                                        </p>
+                                    </note>
+                                    The caliph asked him what had happened to Ibrāhīm, and Jibrīl informed him that he had left him near death, and that he would have expired by the time of the night-prayer. Al-Rashīd was greatly affected at this news: he began to weep, and ordered the tables cleared. Such was his grief that all those who were present were moved to pity for him.
+                                </p>
+                                <p xml:lang="en-Latn" part="N">
+                                    Then Jaʿfar ibn Yaḥyā
+                                    <note n="6" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            Ibn Khālid ibn Barmak. On the role of the Barmakids as sponsors of Indian sciences see Van Bladel, ‘The Bactrian Background of the Barmakids’, 74–86;
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="italic">
+                                                <hi rend="superscript">2</hi>
+                                            </hi>
+                                            art. ‘al-Barāmika’ (D. Sourdel).
+                                        </p>
+                                    </note>
+                                    said, ‘O Commander of the Faithful, Jibril’s medicine is Greek medicine. Ṣāliḥ ibn Bahlah al-Hindī is no less learned in the art of medicine according to the doctrines of the Indians than is Jibril in the teachings of the Greeks. If the Commander of the Faithful thinks it advisable, he could have the Indian physician brought here and sent to attend Ibrāhīm ibn Ṣāliḥ. We should then hear his opinion in the case, as we have heard that of Jibril.’ Al-Rashīd took this suggestion at once, ordering Jaʿfar to go in search of Ṣāliḥ ibn Bahlah al-Hindī, bring him to the palace, accompany him to Ibrāhīm’s sickbed, and then return with him afterward. Jaʿfar obeyed, and the physician went to Ibrāhīm’s chamber, where he saw the sick man and felt his pulse. He then returned to Jaʿfar, who asked him what he had determined, but Ṣāliḥ replied, ‘I will tell no one but the Commander of the Faithful himself.’ Jaʿfar tried his utmost to make the physician divulge the information, but he steadfastly refused, and finally Jaʿfar went to see Hārūn al-Rashīd and told him that the Indian physician had come and had seen Ibrāhīm, but was refusing to say what he had learned from his examination. ‘Show him in,’ said al-Rashīd.
+                                </p>
+                                <p xml:lang="en-Latn" part="N">Ṣāliḥ entered and said to the caliph, ‘O Commander of the Faithful, you are the Imam and the master of judicial decisions; no ruling of yours may be overturned by any judge. I call upon you to witness, O Commander of the Faithful, and all present here, that if Ibrāhīm ibn Ṣāliḥ dies this night, or from this illness, every slave belonging to Ṣāliḥ ibn Bahlah shall be free unconditionally, every beast of burden belonging to him shall be dedicated to charitable purposes, all his property shall be distributed to the poor, and all his wives shall be trebly divorced.’ Al-Rashīd replied, ‘That was a rash promise to make, O Ṣāliḥ, in a matter that must ever be hidden from mortal man.’ ‘Not at all, O Commander of the Faithful,’ rejoined Ṣāliḥ, ‘for a matter is hidden from mortal man only if no one has knowledge of it and indications of it are lacking. I said what I said on the strength of clear knowledge and unmistakable indications.’</p>
+                            </quote>
+                        </cit>
+                        <p n="4"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             قال أحمد بن رشيد قال لي أبو <note n="33" type="footnote" anchored="true">
                                 <p part="N">A: ابن, above the line أبو صح; B: ابن; Gc: بن</p>
                             </note>
@@ -279,17 +302,78 @@
                             </note>
                             إبراهيم وحده. (‭١٩٣‬أ)‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="en-Latn"
-   part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah Sallām al-Abrash continues thus:</p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="5"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="4" xml:lang="en-Latn" part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah Sallām al-Abrash continues thus:</p>
+                        <cit n="4" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn" part="N">
+                                    Hārūn al-Rashīd was greatly cheered at this. He began to eat, and drink was also served to him. But at the time of the night-prayer, a letter arrived for al-Rashīd from the postmaster
+                                    <note n="7" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Ṣāḥib al-barīd</hi>
+                                            . For an account of the postal service and the functions of postmasters under the early Abbasids, see
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="superscript">2</hi>
+                                            art. ‘Barīd’ (D. Sourdel);
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                                Three
+                                            </hi>
+                                            art. ‘Barīd’ (A. Silverstein); and Silverstein,
+                                            <hi rend="italic">Postal Systems</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    in Baghdad, with the news that Ibrāhīm ibn Ṣāliḥ was dead. ‘ « 
+                                    <hi rend="italic">Truly, we belong to God, and to Him we shall return</hi>
+                                     »,’
+                                    <note n="8" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">Q al-Baqarah 2:156.</p>
+                                    </note>
+                                    exclaimed al-Rashīd, and he began to berate Ja‘far ibn Yaḥyā for advising him to call in Ṣāliḥ ibn Bahlah, and to revile the Indians and all their medical lore. ‘Oh, the shame before God,’ he cried, ‘that as my cousin lay on his death-bed, I was here drinking wine!’
+                                    <note n="9" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Nabīdh</hi>
+                                            is properly date-wine, but it may also denote any kind of intoxicating or fermented drink, including wine made from grapes (Dozy,
+                                            <hi rend="italic">Supplement</hi>
+                                            , ii:642–643; Lane,
+                                            <hi rend="italic">Lexicon</hi>
+                                            , 2757).
+                                        </p>
+                                    </note>
+                                    and he called for a measure
+                                    <note n="10" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Raṭl</hi>
+                                            is a unit of weight, but is also frequently used as a unit of volume, especially in a context of wine-drinking.
+                                        </p>
+                                    </note>
+                                    of wine, which he mixed with water and then added some salt. He then began to drink it and quickly vomited, throwing up all the food and drink that he had had in his stomach.
+                                </p>
+                                <p xml:lang="en-Latn" part="N">
+                                    The next morning, al-Rashīd went to Ibrāhīm’s house, where the servants met him and conducted him to a chamber next to some of Ibrāhīm’s sitting-rooms. In the chamber, a carpet had been spread out on the left and another on the right, set with chairs, hassocks and cushions, while between the two carpets the floor was strewn with pillows. Al-Rashīd stood leaning on his sword and said, ‘It is not fitting, in a house of mourning, to sit with the bereaved family on anything more elaborate than mats. Take away these carpets and pillows!’ The carpets were removed by the chamberlains, and Hārūn al-Rashīd sat on the mats on the floor. This was the regular practice of the Abbasids
+                                    <note n="11" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">Literally, Banū l-ʿAbbās, referring not only to the Abbasid caliphs but also to the many relatives, governors and generals or just privileged members of the ruling dynasty.</p>
+                                    </note>
+                                    from that day forward, in contrast to their previous custom.
+                                </p>
+                                <p xml:lang="en-Latn" part="N">
+                                    Ṣāliḥ ibn Bahlah stood before al-Rashīd, and no one spoke a word to him. Finally, when the company could smell the scent of incense from the braziers, Ṣāliḥ shouted, ‘O God! O God! that the Commander of the Faithful should condemn me to divorce my wife, that he should take her from me and marry her to another, when I am her legitimate husband
+                                    <note n="12" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Rabb al-farj</hi>
+                                            .
+                                        </p>
+                                    </note>
+                                    and entitled to her favours, and that she should become the wife of a man for whom she is not lawful! O God! O God! that the Commander of the Faithful should deprive me of my happiness, when no sin attaches to me! O God! O God! that he should bury his cousin alive! for by God, O Commander of the Faithful, he has not died. Only allow me to go in and see him.’ Again and again he repeated these frantic words, and finally the caliph granted him permission to go alone into the room where Ibrāhīm lay.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p n="5"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             قال أحمد قال لي أبو <note n="56" type="footnote" anchored="true">
                                 <p part="N">Gc: ابن</p>
                             </note>
@@ -343,17 +427,57 @@
                             </note>
                             من ساعته 
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="5"
-   xml:lang="en-Latn"
-   part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="6"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="5" xml:lang="en-Latn" part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
+                        <cit n="5" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn" part="N">
+                                    We began to hear a sound as of a body being slapped with the open hand. Then the sound ceased, and we heard a cry of ‘God is most great!’ Ṣāliḥ emerged into our midst, repeating ‘God is most great!’ and then he turned to the caliph and said, ‘Come, O Commander of the Faithful, and I will show you something that will astonish you.’ Hārūn al-Rashīd, accompanied by Masrūr al-Kabīr,
+                                    <note n="13" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            This is Masrūr al-Khādim al-Kabīr, the eunuch. Masrūr is often quoted as transmitter of reports in
+                                            <hi rend="italic">adab</hi>
+                                            works, notabl‮‭y‬‬‎ in al-Iṣbahānī’s
+                                            <hi rend="italic">K. al-Aghānī</hi>
+                                            . He is also a recurrent character in the
+                                            <hi rend="italic">One Thousand and One Nights</hi>
+                                            , where he appears as Hārūn al-Rashīd’s companion and factotum, and also as the protagonist of the story entitled ‘Masrūr the Eunuch and Ibn al-Qāribī’. On Masrūr, see Crone,
+                                            <hi rend="italic">Slaves on Horses</hi>
+                                            , 192 n. 34; al-Ṭabari,
+                                            <hi rend="italic">Tārīkh</hi>
+                                            (Bosworth), 303.
+                                        </p>
+                                    </note>
+                                    Abū Sulaym
+                                    <note n="14" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            This is the Turkish eunuch Abū Sulaym Faraj,
+                                            <hi rend="italic">mawlā</hi>
+                                            of Hārūn al-Rashīd. He was civil governor of the Cilician frontier (
+                                            <hi rend="italic">al-thughūr</hi>
+                                            ) with al-Rashīd and al-Amīn, see Crone,
+                                            <hi rend="italic">Slaves on Horses</hi>
+                                            , 190 n. 22.
+                                        </p>
+                                    </note>
+                                    and myself, followed him into the room where Ibrāhīm lay. Ṣāliḥ then took out a needle that he had with him and stuck it into Ibrāhīm’s left hand, between the thumbnail and the flesh, whereupon Ibrāhīm ibn Ṣāliḥ withdrew his hand and brought it close to his body. ‘O Commander of the Faithful,’ said Ṣāliḥ, ‘does a dead body feel pain?’ ‘No,’ replied the caliph. ‘If it should be the wish of the Commander of the Faithful that his cousin should speak to him at once,’ said Ṣāliḥ, ‘he shall do so.’ ‘Pray proceed,’ said the caliph. ‘O Commander of the Faithful,’ said Ṣāliḥ, ‘I fear that if I were to treat him and he recovered consciousness to find himself wrapped in a burial shroud smelling of aromatic substances,
+                                    <note n="15" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Ḥanūṭ</hi>
+                                            designates a perfume or scented unguent associated with preparations for burial. It was compounded of a number of ingredients, the most important being camphor but could also include musk, sweet rush and sandalwood and other items. It was could be applied to the body and beard as well as to the grave-clothes. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            art. ‘Ḥināṭa’ (A.S. Tritton).
+                                        </p>
+                                    </note>
+                                    his heart would fail him and he would truly die; I should have no means of reviving him. But let the Commander of the Faithful order the shroud removed and Ibrāhīm ibn Ṣāliḥ taken and washed again until the smell of the aromatic substances is gone, and then dressed in clothes like those he wore when he was in good health and during his illness, perfumed with his usual scent, and finally carried to a bed such as he was accustomed to sit upon and sleep in, I shall treat him in the presence of the Commander of the Faithful, and he will speak to you then and there.’
+                                </p>
+                            </quote>
+                        </cit>
+                        <p n="6"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             قال أحمد قال لي أبو سلمة فوكّلني الرشيد بالعمل بما حدّه <note n="73" type="footnote" anchored="true">
                                 <p part="N">Gc: حدثه</p>
                             </note>
@@ -392,17 +516,55 @@
                             </note>
                             الإبرة.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="6"
-   xml:lang="en-Latn"
-   part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="7"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="6" xml:lang="en-Latn" part="N">Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
+                        <cit n="6" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn" part="N">
+                                    Hārūn al-Rashīd ordered me to do as Ṣāliḥ ibn Bahlah had suggested, and I obeyed. The caliph, accompanied by Masrūr, Abū Sulaym, Ṣāliḥ and myself, then went to the place where Ibrāhīm lay. Ṣāliḥ called for some sneezewort
+                                    <note n="16" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Kundus</hi>
+                                            , a plant apparently unknown to Greek physicians, has been identified in different ways by modern scholars. Some have aligned it with Struthium or ‘soapwort’ (
+                                            <hi rend="italic">Saponaria officinalis</hi>
+                                            L., or related species or
+                                            <hi rend="italic">Gypsophila strythium</hi>
+                                            L., commonly known as ‘baby’s breath’); see Levey,
+                                            <hi rend="italic">Medical Formulary</hi>
+                                            , 328 no. 268; Lev &amp; Amar,
+                                            <hi rend="italic">Materia Medica</hi>
+                                            , 489; Ibn al-Tilmīdh,
+                                            <hi rend="italic">Dispensatory</hi>
+                                            , 313. However, Ibn al-Bayṭār states that
+                                            <hi rend="italic">kundus</hi>
+                                            is not
+                                            <hi rend="italic">strūthiyūn</hi>
+                                            and was not used to wash wool. Here it is clearly a sternutatory – that is, a medicine that when applied to the mucous membranes of the nose increases natural secretions and produces sneezing – and hence ‘sneezewort’ (
+                                            <hi rend="italic">Achillea ptarmica</hi>
+                                            L.); see Tibi,
+                                            <hi rend="italic">Medicinal Use of Opium</hi>
+                                            , 198 for pertinent references.
+                                        </p>
+                                    </note>
+                                    and a bellows from the pharmacy,
+                                    <note n="17" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            Dozy (
+                                            <hi rend="italic">Supplement</hi>
+                                            , i:369) defines
+                                            <hi rend="italic">khizānat al-ṭibb wa-l-ḥikmah</hi>
+                                            as ‘pharmacie, magasin de médicaments’, and
+                                            <hi rend="italic">khidmat khizānat al-ṭibb wa-l-ḥikmah</hi>
+                                            as ‘parmi les emplois de la cour’.
+                                        </p>
+                                    </note>
+                                    and proceeded to blow some of the sneezewort into his nose. After he had been doing this for the sixth part of an hour, the body stirred, and then Ibrāhīm sneezed and sat up before Hārūn al-Rashīd and kissed his hand. The caliph asked him what had happened, and he answered that he had had such a sleep as he did not recall ever having had before. It had been a refreshing sleep, he said, only he had dreamed that a dog had come rushing at him, and when he had attempted to fend it off with his hand, it had bitten him on the left thumb. He had then awoken, but could still feel the pain, and he showed al-Rashīd the place where Ṣāliḥ had pricked him with the needle.
+                                </p>
+                            </quote>
+                        </cit>
+                        <p n="7"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             وعاش إبراهيم <note n="85" type="footnote" anchored="true">
                                 <p part="N">Gc: om. إبراهيم</p>
                             </note>
@@ -410,21 +572,17 @@
                                 <p part="N">Gc: الرشيد</p>
                             </note>
                             وولي <placeName ref="https://usaybia.net/place/184"
-              resp="#mtolay"
-              instant="false"
-              full="yes">مصر</placeName> و<placeName ref="https://usaybia.net/place/432"
-              resp="#mtolay"
-              instant="false"
-              full="yes">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184"
-              resp="#mtolay"
-              instant="false"
-              full="yes">مصر</placeName> وقبره بها.‬‎
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">مصر</placeName> و<placeName ref="https://usaybia.net/place/432"
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184"
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">مصر</placeName> وقبره بها.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="7"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="7" xml:lang="en-Latn" part="N">
                             Ibrāhīm lived for a long time after this adventure. He married al-ʿAbbāsah,
                             <note n="18" type="footnote" anchored="true">
                                 <p xml:lang="en-Latn" part="N">Al-ʿAbbāsah bint al-Mahdī ibn Abī Jaʿfar al-Manṣūr was the sister of Hārūn al-Rashīd and wife of Jaʿfar ibn Yaḥyā ibn Khālid ibn Barmak and, after his execution, Ibrāhīm ibn Ṣāliḥ ibn ʿAlī.</p>
@@ -435,3 +593,4 @@
                             </note>
                             and became governor of Egypt and Palestine. He died in Egypt, and his grave is located there.
                         </p>
+                    </div>

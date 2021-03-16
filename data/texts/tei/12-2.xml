@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     type="textpart"
+     subtype="biography"
+     n="2"
+     part="N"
+     org="uniform"
+     sample="complete">
+                        <p n="1"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             <hi rend="bold">
                                 ‭[12.2]‬ صنجهل <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
                                 </note>
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="1" xml:lang="en-Latn" part="N">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.2 Ṣanjahal
                                 <note n="1" type="footnote" anchored="true">
@@ -35,16 +37,14 @@
                                 </note>
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="2"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             كان من علماء <placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
                                 <p part="N">R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote" anchored="true">
@@ -52,23 +52,17 @@
                             </note>
                             ‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="2" xml:lang="en-Latn" part="N">
                             Ṣanjahal was one of the most learned and outstanding scholars of India, having been a master of the sciences of medicine and astrology, and was the author of a work entitled
                             <hi rend="italic">The Large Book on Nativities</hi>
                             (
                             <hi rend="italic">Kitāb al-mawālīd al-kabīr</hi>
                             ).
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="3"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             وكان من بعد صنجهل <note n="4" type="footnote" anchored="true">
                                 <p part="N">B: كنكه</p>
                             </note>
@@ -76,9 +70,9 @@
                                 <p part="N">Gc: من</p>
                             </note>
                             بلاد <placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
                                 <p part="N">BGc: وفي غيرها</p>
                             </note>
                             من العلوم مثل باكهر <note n="7" type="footnote" anchored="true">
@@ -104,11 +98,7 @@
                             </note>
                             كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة العربية.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="3" xml:lang="en-Latn" part="N">
                             Ṣanjahal was followed in India by a group of scholars, including Bākahr, Rāḥah, Ṣakih, Dāhir, Ankar, Zankal, Jabhar, Andī and Jārī,
                             <note n="2" type="footnote" anchored="true">
                                 <p xml:lang="en-Latn" part="N">The reading and interpretation of these Indian names remains uncertain. See the discussion of some of them by H.H. Wilson in his addendum to Cureton, ‘Extract’, 115–119.</p>
@@ -122,22 +112,16 @@
                                 </p>
                             </note>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="4"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             ووجدت الرازي <note n="14" type="footnote" anchored="true">
                                 <p part="N">B: add. أيضاً</p>
                             </note>
                             قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="4" xml:lang="en-Latn" part="N">
                             I have found that al-Rāzī,
                             <note n="4" type="footnote" anchored="true">
                                 <p xml:lang="en-Latn" part="N">
@@ -152,3 +136,520 @@
                             <hi rend="italic">on Medicine</hi>
                             ] and other works, drew upon a number of works by Indian scholars, such as:
                         </p>
+                        <list n="5" xml:lang="ar-Arab">
+                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/208"
+                n="12.2no1"
+                change="#change-1"
+                cert="low">
+                                كتاب سيرك <note n="15" type="footnote" anchored="true">
+                                    <p part="N">B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
+                                </note>
+                                الهندي وهذا الكتاب فسره عبد الله بن علي من الفارسي إلى العربي لأنه نقل أولاً <note n="16" type="footnote" anchored="true">
+                                    <p part="N">BGc: أولاً نقل</p>
+                                </note>
+                                من الهندي إلى الفارسي
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/209"
+                n="12.2no2"
+                change="#change-1"
+                cert="low">وعن كتاب سسرد وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر يحيى بن خالد بتفسير</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/210"
+                n="12.2no3"
+                change="#change-1"
+                cert="low">
+                                كتاب ندان <note n="17" type="footnote" anchored="true">
+                                    <p part="N">ABGc: بدان; R: يدان</p>
+                                </note>
+                                في علامات أربعمائة وأربعة أدواء ومعرفتها بغير علاج
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/211"
+                n="12.2no4"
+                change="#change-1"
+                cert="low">
+                                وكتاب سندهشار <note n="18" type="footnote" anchored="true">
+                                    <p part="N">ABGc: سندهشان; R: سندهيشان; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سندستاق</p>
+                                </note>
+                                وتفسيره كتاب صفوة <note n="19" type="footnote" anchored="true">
+                                    <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: صفوة; ABGcR: صورة</p>
+                                </note>
+                                النجح <note n="20" type="footnote" anchored="true">
+                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1:316: add. تفسير ابن دهن صاحب البيمارستان</p>
+                                </note>
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/212"
+                n="12.2no5"
+                change="#change-1"
+                cert="low">
+                                وكتاب فيما اختلفت <note n="21" type="footnote" anchored="true">
+                                    <p part="N">B: اختلف</p>
+                                </note>
+                                فيه <placeName ref="https://usaybia.net/place/260"
+                       resp="#mtolay"
+                       instant="false"
+                       full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/213"
+                n="12.2no6"
+                change="#change-1"
+                cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/214"
+                n="12.2no7"
+                change="#change-1"
+                cert="low">
+                                وكتاب استانكر <note n="22" type="footnote" anchored="true">
+                                    <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: استانكر; ABR: اسانكر; Gc: اسما بكر</p>
+                                </note>
+                                الجامع <note n="23" type="footnote" anchored="true">
+                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:315: add. تفسير ابن دهن</p>
+                                </note>
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/215"
+                n="12.2no8"
+                change="#change-1"
+                cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
+                       resp="#mtolay"
+                       instant="false"
+                       full="yes">هند</placeName>
+         </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/216"
+                n="12.2no9"
+                change="#change-1"
+                cert="low">
+                                وكتاب مختصر في العقاقير للهند <note n="24" type="footnote" anchored="true">
+                                    <p part="N">Gc: om. للهند</p>
+                                </note>
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/217"
+                n="12.2no10"
+                change="#change-1"
+                cert="low">
+                                وكتاب نوفشل <note n="25" type="footnote" anchored="true">
+                                    <p part="N">In margin of A: خ نافشل; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: توقشتل الهندي</p>
+                                </note>
+                                فيه مائة داء ومائة <note n="26" type="footnote" anchored="true">
+                                    <p part="N">Gc: om. داء ومائة</p>
+                                </note>
+                                دواء
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/218"
+                n="12.2no11"
+                change="#change-1"
+                cert="low">
+                                وكتاب زوسي الهندية <note n="27" type="footnote" anchored="true">
+                                    <p part="N">A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
+                                </note>
+                                في علاجات النساء
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/219"
+                n="12.2no12"
+                change="#change-1"
+                cert="low">
+                                وكتاب السكر لل<placeName ref="https://usaybia.net/place/260"
+                       resp="#mtolay"
+                       instant="false"
+                       full="yes">هند</placeName>
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/220"
+                n="12.2no13"
+                change="#change-1"
+                cert="low">
+                                وكتاب رأي الهندي <note n="28" type="footnote" anchored="true">
+                                    <p part="N">Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
+                                </note>
+                                في أجناس الحيات وسمومها
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/221"
+                n="12.2no14"
+                change="#change-1"
+                cert="low">
+                                وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote" anchored="true">
+                                    <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
+                                </note>
+                            </title>
+                            </item>
+                        </list>
+                        <list n="5" xml:lang="en-Latn">
+                            <label>1.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Compendium of Caraka</hi>
+                                ,
+                                <note n="5" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This is the
+                                        <hi rend="italic">Carakasaṃhitā</hi>
+                                        , a medical compendium written by the Indian physician Caraka. The author’s name was rendered into Arabic as Sharak (al-Rāzī,
+                                        <hi rend="italic">Ḥāwī</hi>
+                                        ,
+                                        <hi rend="italic">passim</hi>
+                                        ), Sīrk (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303, Tajaddud, 360, Sayyid, ii:315) or Jarak (ʿAlī ibn Sahl Rabban al-Ṭabarī,
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        , 578; al-Bīrūnī,
+                                        <hi rend="italic">Alberuni’s India</hi>
+                                        , 123). For the
+                                        <hi rend="italic">Compendium of Caraka</hi>
+                                        , see Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 105–115; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 39–103; Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 18–20; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 198; and Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 104.
+                                    </p>
+                                </note>
+                                a work that ʿAbd Allāh ibn ʿAlī
+                                <note n="6" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        An otherwise unrecorded translator; see Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 104.
+                                    </p>
+                                </note>
+                                translated from Persian into Arabic after it had first been translated from Sanskrit into Persian
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Compendium of Suśruta</hi>
+                                ,
+                                <note n="7" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This work is the
+                                        <hi rend="italic">Suśruta-Saṃhitā</hi>
+                                        (
+                                        <hi rend="italic">K. Susrud</hi>
+                                        in Arabic), the medical compendium of the Indian physician Suśruta (6th c.
+                                        <hi rend="smallcaps">BC</hi>
+                                        ), considered the oldest attempt at systematizing Ayurvedic medicine. See Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 333–357; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 104–194; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        :197–198, 200–201; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 106; Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 14–18, 72–85 (for the quotations in al-Rāzī’s
+                                        <hi rend="italic">Comprehensive Book</hi>
+                                        ).
+                                    </p>
+                                </note>
+                                which discusses the symptoms of diseases, methods of treatment, and remedies. it is divided into ten chapters, and was translated into Arabic at the order of Yaḥyā ibn Khālid.
+                                <note n="8" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">This work was translated by Mankah (whose biography is given below at Ch. 12.5). Yaḥyā ibn Khālid ibn Barmak was a member of the celebrated Barmakid family, who, serving as viziers to various caliphs, essentially controlled most aspects of government until 187/803, when Yaḥyā was removed from authority and imprisoned. For further information on him, see Ch. 8.2n.</p>
+                                </note>
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Book of Nidān</hi>
+                                ,
+                                <note n="9" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        The Arabic
+                                        <hi rend="italic">K. al-Nidān</hi>
+                                        is the Sanskrit
+                                        <hi rend="italic">Nidāna</hi>
+                                        (‘pathology’), alternatively known as
+                                        <hi rend="italic">Rogaviniścaya</hi>
+                                        (‘diagnosing disease’). This work, also called
+                                        <hi rend="italic">Mādhavanidāna</hi>
+                                        , was composed by Mādhava in about 700 
+                                        <hi rend="smallcaps">AD</hi>
+                                        and is essentially a compilation of earlier Indian medical treatises. The
+                                        <hi rend="italic">Nidāna</hi>
+                                        is quoted by ʿAlī ibn Sahl Rabban al-Ṭabarī (
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        (ed. al-Ṣiddīqī), 563, 578) and was probably translated during the caliphate of Hārūn al-Rashīd, see Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 105; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 14–15. Al-Rāzī quotes only a small fragment from this work; see Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 26–27, 152–153 (for the quotations in al-Rāzī’s
+                                        <hi rend="italic">Comprehensive Book</hi>
+                                        ).
+                                    </p>
+                                </note>
+                                which discusses the symptoms and diagnosis of 404 ailments, but does not deal with treatments.
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Book of Sindhashār</hi>
+                                , whose title means
+                                <hi rend="italic">The Book of the Quintessence of Success</hi>
+                                (
+                                <hi rend="italic">K. Ṣafwat al-nujḥ</hi>
+                                ).
+                                <note n="10" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This is the
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        , (‘Quintessence [of Medicine])’, written by Ravigupta (fl. ca. 650 
+                                        <hi rend="smallcaps">AD</hi>
+                                        ). This work bears the title
+                                        <hi rend="italic">K. Sindhashār</hi>
+                                        in Arabic sources and was glossed as
+                                        <hi rend="italic">ṣafwat al-nujḥ</hi>
+                                        , i.e. ‘the quintessence of success’ (wrongly copied in all the manuscripts of
+                                        <hi rend="smallcaps">IAU</hi>
+                                        ’s
+                                        <hi rend="italic">ʿUyūn al-anbāʾ</hi>
+                                        as
+                                        <hi rend="italic">ṣūrat al-nujḥ</hi>
+                                        , ‘the image of success’). The
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        was translated by Ibn Dahn (or Ibn Dhan) the Indian (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303; Tajaddud, 360; Sayyid, ii:315–316); see also Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199–200 (under Vŗnda); Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        105; and Kahl,
+                                        <hi rend="italic">Sanskrit, Syriac and Persian Sources</hi>
+                                        , 22–26, 134–152 (for the quotations from this book in al-Rāzī’s
+                                        <hi rend="italic">Ḥāwī</hi>
+                                        ). On the title
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        , see Emmerick, ‘Rapigupta’s
+                                        <hi rend="italic">Siddhasāra</hi>
+                                        in Arabic’.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>5.</label>
+                            <item>Differences in the views held by the Indians and the Greeks concerning heat and cold, the effectiveness of various medicines and the division of the year.</item>
+                            <label>6.</label>
+                            <item>
+                                On the interpretation of the names of drugs (
+                                <hi rend="italic">K. tafsīr asmāʾ al-ʿaqqār</hi>
+                                ), in ten different languages.
+                                <note n="11" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This might be the book entitled
+                                        <hi rend="italic">Names of Indian Medicines</hi>
+                                        (
+                                        <hi rend="italic">Asmāʾ ʿaqāqīr al-Hind</hi>
+                                        ) translated by Mankah for Isḥāq ibn Sulaymān (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303, Tajaddud, 360, Sayyid, ii:315).
+                                    </p>
+                                </note>
+                            </item>
+                            <label>7.</label>
+                            <item>
+                                The
+                                <hi rend="italic">Astāngar</hi>
+                                , a compendium.
+                                <note n="12" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        Vāgbhaṭa’s
+                                        <hi rend="italic">Aṣṭāṅgahṛdaya</hi>
+                                        -
+                                        <hi rend="italic">Saṃhitā</hi>
+                                        , rendered into Arabic as
+                                        <hi rend="italic">K. Astānkar (or Astāngar)</hi>
+                                        <hi rend="italic">al-jāmiʿ</hi>
+                                        . For Vāgbhaṭa’s treatise
+                                        <hi rend="italic">Aṣṭāṅgahŗdaya</hi>
+                                        , or
+                                        <hi rend="italic">Heart of Medicine</hi>
+                                        , see Meulenbeld,
+                                        <hi rend="italic">History of Indian Medical Literature</hi>
+                                        , 597–656; Wujastyk,
+                                        <hi rend="italic">Roots of Ayurveda</hi>
+                                        , 236–301; and Hilgenberg &amp; Kirfel,
+                                        <hi rend="italic">Vāgbhaṭa’s Aṣṭāṅgahṛdayasaṃhitā</hi>
+                                        . Current scholarship places Vāgbhaṭa’s compositions at around
+                                        <hi rend="smallcaps">AD</hi>
+                                         600. This work was translated by Ibn Dahn (or Ibn Dhan), said by Ibn al-Nadīm to be ‘the director of the hospital (
+                                        <hi rend="italic">ṣāḥib al-bīmāristān</hi>
+                                        )’, probably the hospital in Baghdad founded by the Barmakids (Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel 303, Tajaddud, 360, Sayyid, ii:315–316), The translator’s name appears to be a truncated Indian name, possibly indicating a descendant of Dhanapatī; see Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 37; Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 199 (Sezgin is incorrect in associating him with Gondēshāpūr); Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 105; van Bladel, ‘Bactrian Background of the Barmakids,’ 76.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>8.</label>
+                            <item>
+                                On the treatment of pregnant women in India (
+                                <hi rend="italic">K. ʿilājāt al-ḥabālā lil-Hind</hi>
+                                ).
+                            </item>
+                            <label>9.</label>
+                            <item>
+                                A compendium on drugs used by the Indians (
+                                <hi rend="italic">K. mukhtaṣar fī l-ʿaqāqīr lil-Hind</hi>
+                                ).
+                                <note n="13" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This work is also listed by Ibn al-Nadīm with the same title; see
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>10.</label>
+                            <item>
+                                <hi rend="italic">The Book of Nūfashal</hi>
+                                ,
+                                <note n="14" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This is presumably the name of an author who has not been identified. A marginal note in
+                                        <hi rend="smallcaps">MS</hi>
+                                        A provides the variant Nāfashal, while Ibn al-Nadīm gives
+                                        <hi rend="italic">T-w-q-sh-t-l</hi>
+                                        (
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316) and Taha reads Tūqashtal (Taha,
+                                        <hi rend="italic">Compilation of Pharmacological Ideas</hi>
+                                        , 40). Siddiqi tentatively suggests the interpretation Tugashtal (Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 41); Cureton, 108, reads Fūfasal.
+                                    </p>
+                                </note>
+                                which discusses one hundred ailments and one hundred remedies.
+                            </item>
+                            <label>11.</label>
+                            <item>
+                                On the treatment of women, by an Indian woman named Rūsā,
+                                <note n="15" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        This female Indian author on women’s conditions has not been identified. The name in Arabic is written in a number of ways, most commonly as Rūsā, but Rūshī and Zūsī occur as well. ʿAlī ibn Sahl Rabban al-Ṭabarī has some quotations from the books of ‘an Indian woman’ on the treatment of women’s diseases; see ʿAlī ibn Sahl Rabban al-Ṭabarī,
+                                        <hi rend="italic">Firdaws al-ḥikmah</hi>
+                                        (ed. al-Ṣiddīqī), 591–594.
+                                    </p>
+                                </note>
+                                (
+                                <hi rend="italic">K. Rūsā</hi>
+                                [?]
+                                <hi rend="italic">al-hindiyyah fī ʿilājāt al-nisāʾ</hi>
+                                ).
+                            </item>
+                            <label>12.</label>
+                            <item>
+                                On sugar in India (
+                                <hi rend="italic">K. al-sukkar lil-Hind</hi>
+                                or
+                                <hi rend="italic">K. al-sukr lil-Hind</hi>
+                                ).
+                                <note n="16" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        Or, ‘On intoxication in India’, following Ibn al-Nadīm (Sayyid, ii:316) who vowels it as
+                                        <hi rend="italic">al-sukr</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </item>
+                            <label>13.</label>
+                            <item>
+                                On the view of Nāqil the Indian on various species of snakes and their venom (
+                                <hi rend="italic">
+                                    K. raʾy al-Hindī
+                                    <note n="17" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            <hi rend="italic">Raʾy al-Hindī</hi>
+                                            , meaning ‘the view of the Indian’, is further explained in the margin of
+                                            <hi rend="smallcaps">MS</hi>
+                                            A where there is a correction supplying a name between
+                                            <hi rend="italic">raʾy</hi>
+                                            and
+                                            <hi rend="italic">al-Hindī</hi>
+                                            , which looks like
+                                            <hi rend="italic">Nāqil</hi>
+                                            . The name (together with the title) is given as Nāqil in Ibn al-Nadīm,
+                                            <hi rend="italic">Fihrist</hi>
+                                            (Flügel, 317, Sayyid, ii:353).
+                                        </p>
+                                    </note>
+                                    fī ajnās al-ḥayyāt wa-sumūmihā
+                                </hi>
+                                ).
+                            </item>
+                            <label>14.</label>
+                            <item>
+                                On delusion concerning diseases and maladies (
+                                <hi rend="italic">K. al-tawahhum fī l-amrāḍ wa-l-ʿilal</hi>
+                                ), by the Indian author Abū Qubayl.
+                                <note n="18" type="footnote" anchored="true">
+                                    <p xml:lang="en-Latn" part="N">
+                                        An author named Abū Qubayl al-Hindī is unidentified. The name has probably become corrupted in the manuscript tradition. Ibn al-Nadīm gives the same title credited to one T-w-q-sh-t-l al-Hindī, suggesting the author was the same as the one who composed title no. 10 in this list above (
+                                        <hi rend="italic">Fihrist</hi>
+                                        , Flügel, 303; Tajaddud, 360; Sayyid, ii:316).
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                    </div>

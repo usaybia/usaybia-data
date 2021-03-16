@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     type="textpart"
+     subtype="biography"
+     n="5"
+     part="N"
+     org="uniform"
+     sample="complete">
+                        <p n="1"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             <hi rend="bold">
                                 ‭[12.5]‬ منكة الهندي <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing in Version <hi rend="smallcaps">I</hi>.</p>
                                 </note>
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="1"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="1" xml:lang="en-Latn" part="N">
                             <hi xml:lang="en-Latn" rend="bold">
                                 12.5 Mankah al-Hindī
                                 <note n="1" type="footnote" anchored="true">
@@ -42,51 +44,39 @@
                                 (Māṇikya)
                             </hi>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="2"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب شاناق <note n="2" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب شاناق <note n="2" type="footnote" anchored="true">
                                 <p part="N">GcH: add. الهندي</p>
                             </note>
                             في السموم من اللغة الهندية إلى الفارسي <note n="3" type="footnote" anchored="true">
                                 <p part="N">Gc: الفارسية</p>
                             </note>
                             وكان في أيام الرشيد هارون وسافر من الهند إلى <placeName ref="https://usaybia.net/place/263"
-              resp="#mtolay"
-              instant="false"
-              full="yes">العراق</placeName> في أيامه واجتمع به وداواه.‬‎
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">العراق</placeName> في أيامه واجتمع به وداواه.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="2"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="2" xml:lang="en-Latn" part="N">
                             Mankah al-Hindī was knowledgeable about the art of medicine, skilled in treating disease, and moderate in his methods; a philosopher of the previously mentioned group in the Indian sciences. He was also conversant with the Sanskrit and Persian languages: it was he who translated Shānāq’s
                             <hi rend="italic">On poisons</hi>
                             from Sanskrit to Persian. Mankah was a contemporary of Hārūn al-Rashīd, and during the latter’s caliphate he travelled from India to Iraq, where he met with the caliph and treated him.
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="3"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             ووجدت في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote" anchored="true">
                                 <p part="N">H: add. تلامذة</p>
                             </note>
                             جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من اللغة الهندية إلى اللغة الفارسية والعربية.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="3"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="3" xml:lang="en-Latn" part="N">
                             I have read somewhere that Mankah al-Hindī was in the entourage of Isḥāq ibn Sulaymān ibn ʿAlī al-Hāshimī,
                             <note n="2" type="footnote" anchored="true">
                                 <p xml:lang="en-Latn" part="N">
@@ -108,25 +98,23 @@
                                 </p>
                             </note>
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="ar-Arab"
-   style="direction:rtl; unicode-bidi:embed"
-   part="N">
+                        <p n="4"
+      xml:lang="ar-Arab"
+      style="direction:rtl; unicode-bidi:embed"
+      part="N">
                             ونقلت من كتاب أخبار الخلفاء والبرامكة أن الرشيد اعتل علة صعبة فعالجه جميع <note n="5" type="footnote" anchored="true">
                                 <p part="N">GcH: om. جميع</p>
                             </note>
                             الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي ب<placeName ref="https://usaybia.net/place/260"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الهند</placeName> طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الهند</placeName> طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote" anchored="true">
                                 <p part="N">Gc: بينما</p>
                             </note>
                             منكة ماراً في <placeName ref="https://usaybia.net/place/600"
-              resp="#mtolay"
-              instant="false"
-              full="yes">الخلد</placeName> إذا <note n="7" type="footnote" anchored="true">
+                 resp="#mtolay"
+                 instant="false"
+                 full="yes">الخلد</placeName> إذا <note n="7" type="footnote" anchored="true">
                                 <p part="N">Gc: إذ</p>
                             </note>
                             هو برجل من المائنين <note n="8" type="footnote" anchored="true">
@@ -162,11 +150,7 @@
                             </note>
                             كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.‬‎
                         </p>
-<p xmlns="http://www.tei-c.org/ns/1.0"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   n="4"
-   xml:lang="en-Latn"
-   part="N">
+                        <p n="4" xml:lang="en-Latn" part="N">
                             The following account is taken from a copy of
                             <hi rend="italic">The History of the Caliphs and the Barmakids</hi>
                             :
@@ -184,3 +168,71 @@
                                 </p>
                             </note>
                         </p>
+                        <cit n="4" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn" part="N">Hārūn al-Rashīd once fell gravely ill. He was treated by a number of physicians, but did not recover. Abū ʿAmr al-Aʿjamī said to him, ‘O Commander of the Faithful, there is a physician in India by the name of Mankah; he is a pious man in their religion and one of their philosophers. If you were to send for him, it may be that God would bring about your recovery at his hands.’ Al-Rashīd thereupon dispatched a person to bring him to Baghdad, with a gift to persuade him to undertake the journey. Mankah went to Baghdad and attended the caliph, with the result that Hārūn al-Rashīd was restored to health; he rewarded the physician handsomely and granted him a generous pension.</p>
+                                <p xml:lang="en-Latn" part="N">
+                                    One day while Mankah was walking in the Khuld palace
+                                    <note n="5" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            A palace built by the caliph al-Manṣūr on the west bank of the Tigris. It was used by Hārūn al-Rashīd as his residence. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="superscript">2</hi>
+                                            art. ‘Al-K̲h̲uld’ (C.E. Bosworth). By ‘in’ the palace we may perhaps understand ‘in its grounds’.
+                                        </p>
+                                    </note>
+                                    he saw a huckster who had spread out his cloak on the ground and placed upon it a large and varied array of drugs. The man began to describe a medicinal paste that he had concocted. ‘This medicine,’ he said, ‘is good for a constant fever, a quartan ague, a tertian ague, pain in the back, pain in the knees, abnormal phlegm,
+                                    <note n="6" type="footnote" anchored="true">
+                                        <p xml:lang="en-Latn" part="N">
+                                            Ibn Sīnā lists
+                                            <hi rend="italic">al-khām</hi>
+                                            as one of the abnormal or ‘non-natural (
+                                            <hi rend="italic">ghayr al-ṭabīʿī</hi>
+                                            )’ forms of phlegm (
+                                            <hi rend="italic">balgham</hi>
+                                            ), a particularly mucoid form; see
+                                            <hi rend="italic">al-Qānūn</hi>
+                                            ,
+                                            <hi rend="italic">kitāb</hi>
+                                            1,
+                                            <hi rend="italic">fann</hi>
+                                            1,
+                                            <hi rend="italic">taʿlīm</hi>
+                                            4,
+                                            <hi rend="italic">faṣl</hi>
+                                            1. Phlegm, one of the four humours, was thought to be found in all parts of the body, not only in the respiratory organs. When a non-natural form of phlegm occurred, various ailments resulted.
+                                            <hi rend="italic">Khām</hi>
+                                            was often associated with pain in the joints. In the list of uses for individual medicaments given by Ibn Sīnā in
+                                            <hi rend="italic">Kitāb</hi>
+                                            2 of the
+                                            <hi rend="italic">Qānūn</hi>
+                                            , there are several designated as useful for
+                                            <hi rend="italic">al-khām</hi>
+                                            ; for example
+                                            <hi rend="italic">anzarūt</hi>
+                                            (sarcocol) is said to be useful, amongst other things, for easing
+                                            <hi rend="italic">al-khām</hi>
+                                            and thick phlegm (
+                                            <hi rend="italic">al-balgham al-ghalīẓ</hi>
+                                            ) especially in the hips and joints. The word appears to be from the root
+                                            <hi rend="italic">kh-y-m</hi>
+                                            , which in a medical context Dozy translated as ‘Flegme cru’; Dozy,
+                                            <hi rend="italic">Supplément</hi>
+                                            , i:419. However, Oliver Kahl, when editing and translating the medical formulary of Ibn al-Tilmīdh, interpreted the word as
+                                            <hi rend="italic">al-khāmm</hi>
+                                            , generally meaning decaying flesh, and in a recipe called ‘The Bishop’s Stomachic’ said it was useful against ‘foul smells’ (
+                                            <hi rend="italic">al-khāmm</hi>
+                                            ) as well as flatulence (
+                                            <hi rend="italic">riyāḥ</hi>
+                                            ) and the winds of hemorrhoids (
+                                            <hi rend="italic">arwāḥ al-bawāsīr</hi>
+                                            ).
+                                        </p>
+                                    </note>
+                                    haemorrhoids, flatulence, pain in the joints, pain in the eyes, pain in the belly, headache, migraine, dribbling of urine, paralysis, the palsy …’. Not a single bodily ailment did he omit; his medicine, he said, was a sovereign remedy for every one of them. ‘What is that fellow saying?’ Mankah asked his interpreter, and the interpreter told him. Mankah smiled. ‘One way or the other, the king of the Arabs must be an ignorant man,’ he said. ‘If the matter is as this fellow said, why has he brought me from my country, separated me from my family, and incurred the expense of my keep, when he has this wonder-worker right here, under his very nose? If the matter is not as this fellow says, why does the king not have him put to death? The law permits the execution of this fellow and anyone like him, for if that is done, only one person will have died, and by his death many will have remained alive, whereas if he is allowed to live, which would be foolishness, he will kill a person a day – indeed, he will kill two, or three, or four individuals every day, as like as not, and that would be to corrupt religion and weaken the kingdom.’
+                                </p>
+                            </quote>
+                        </cit>
+                    </div>
