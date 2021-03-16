@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar-Arab" level="a">‭[12.1]‬  </title>
+            <title xml:lang="en-Latn" level="a">12.1  </title>
+            <title xml:lang="ar-Arab" level="a">الباب الثاني عشر في طبقات الأطباء الذين كانوا من الهند ‬‎</title>
+            <title xml:lang="en-Latn" level="a">Chapter 12 Physicians of India</title>
+            <title xml:lang="ar"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+            <title xml:lang="en"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+            <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
+            <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
+            <sponsor ref="https://www.uni-muenchen.de">
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+            <funder ref="https://www.bmbf.de/">
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor xml:id="ngibson"
+                    role="editor"
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <respStmt>
+					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				        </respStmt>
+            <respStmt>
+					          <resp>Place names tagged by</resp>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
+                </respStmt>
+            <respStmt>
+					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				        </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="URI">https://usaybia.net/text/12-1</idno>
+         </publicationStmt>
+         <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Arabic Edition</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">2</biblScope>
+                </monogr>
+               </biblStruct>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>
+         <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+         <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+         <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
+                1. Switched attribute order on notes.
+                2. Switched attribute order on milestones.
+                3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
+                4. Changed span elements to placeName.
+            </change>
+         <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+         <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+         <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
+         <change xml:id="change-7" who="#ngibson" when="2021-03-16">Split chapter text file into individual biography files.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="textpart"
+              subtype="chapter"
+              n="12"
+              xml:id="chapter-div"
+              next="https://usaybia.net/text/12-2#chapter-div">
+            <div type="textpart" subtype="biography" n="1">
+                        <head xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            الباب الثاني عشر في طبقات الأطباء الذين كانوا من الهند
+                            <note n="1" type="footnote">
+                                <p>The edition of this chapter is based on MSS ABGcHR.</p>
+                            </note>
+                            ‬‎
+                        </head>
+                        <head xml:lang="en-Latn">Chapter 12 Physicians of India</head>
+                        <head xml:lang="en-Latn">Bruce Inksetter and Emilie Savage-Smith</head>
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            <hi rend="bold">
+                                ‭[12.1]‬ 
+                                <persName ref="https://usaybia.net/person/1364">كنكة الهندي </persName>
+                                <note n="2" type="footnote">
+                                    <p>This biography is present in all three versions of the work. B: om. الهندي</p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p n="1" xml:lang="en-Latn">
+                            <hi xml:lang="en-Latn" rend="bold">
+                                12.1 
+                                <persName ref="https://usaybia.net/person/1364">Kankah al-Hindi</persName>
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
+                                        This biography is included in all three versions of the book. There has been considerable confusion over the identity of this Kankah (or Kanakah) al-Hindī amongst early Arab historians as well as modern historians. David Pingree has convincingly argued that two and sometimes three different persons were combined together in the various preserved accounts, including this entry by
+                                        <hi rend="smallcaps">IAU</hi>
+                                        . Here,
+                                        <hi rend="smallcaps">IAU</hi>
+                                        has combined elements from the life of the physician Mankah al-Hindī, who is alleged to have travelled from India to Iraq and to have undertaken translations, with others from that of the astrologer Kankah al-Hindī (fl. ca. 775–800) who was also supposedly at the court of Hārūn al-Rashīd and an associate of the astrologer Māshāʾ Allāh and worked more in the tradition of Sasanian astrology than Indian astrology. Yet
+                                        <hi rend="smallcaps">IAU</hi>
+                                        did not realize he was making this error, for he devoted a separate later entry (Ch. 12.5) to Mankah al-Hindī. Because of this conflation of two people in whatever source
+                                        <hi rend="smallcaps">IAU</hi>
+                                        was using, medical works have been incorrectly attributed to the astrologer Kankah al-Hindī. Eduard Sachau has also pointed out the closeness of the name Kankah with that of the ancient Indian physician Kaṅkāyana, which might also have contributed to the misidentification of this author (al-Bīrūnī,
+                                        <hi rend="italic">Alberuni’s India</hi>
+                                        , i:xxxii). A further confusion arose with the development of stories in the alchemical literature about a completely fictitious Kankah al-Hindī, who was a wondrous alchemist, the inventor of an Indian amulet and founder of a city full of mechanical devices. For a discussion of these confusions, see
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">DSB</hi>
+                                        </hi>
+                                        art. ‘Kanaka’ (D. Pingree); Pingree,
+                                        <hi rend="italic">Astral Omens to Astrology</hi>
+                                        , 51–62; and Pingree,
+                                        <hi rend="italic">Census of the Exact Sciences in Sanskrit</hi>
+                                        , i:19. Confusions continue in the modern literature: Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 202,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">VII</hi>
+                                        , 95–96; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 13; Shefer-Mossensohn &amp; Hershkovitzh, ‘Early Muslim Medicine’. Ibn al-Qifṭī has an entry for Kankah (
+                                        <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>
+                                        , 265–267), but does not mention Mankah; Ibn al-Nadīm mentions both: Kankah in
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel 270; Tajaddud 330; Sayyid ii:223) and Mankah in
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel 303; Tajaddud 260; Sayyid ii:315). For a general discussion of Indian sources for Arabic and Persian medicine, see Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 187–202; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 103–107; Siddiqi,
+                                        <hi rend="italic">Medical Literature</hi>
+                                        , 30–45; Taha,
+                                        <hi rend="italic">Compilation of Pharmacological Ideas</hi>
+                                        , 38–43.
+                                    </p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            حكيم بارع من متقدمي حكماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
+                                <p>Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
+                            </note>
+                            (‭١٩١‬أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال 
+<persName ref="https://usaybia.net/person/275">أبو معشر جعفر بن محمد ابن عمر البلخي</persName>                             
+في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote">
+                                <p>Gc: المتقدم</p>
+                            </note>
+                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في سالف الدهر.‬‎
+                        </p>
+                        <p n="2" xml:lang="en-Latn">
+                            He was a prominent figure among the great scholars of India. Kankah al-Hindī knew much about the art of medicine, the effects of remedies, the characteristics of naturally generated things and the occult properties of substances,
+                            <note n="2" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    <hi rend="italic">Khawāṣṣ al-mawjūdāt</hi>
+                                    is a common designation of hidden or occult properties in substances of potential medical or magical use.
+                                </p>
+                            </note>
+                            and was one of the most learned of men regarding the configuration of the universe,
+                            <note n="3" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    <hi rend="italic">Ḥayʾat al-ʿālam</hi>
+                                    usually designates a largely non-mathematical form of astronomy, or cosmology, and was the title of a popular treatise on the topic attributed to 
+                                    Ibn al-Haytham
+                                     (see Ch. 14.22.4.3 title no. 10).
+                                </p>
+                            </note>
+                            the arrangement of the spheres, and the movements of the stars. 
+                            <persName ref="https://usaybia.net/person/275">Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī</persName>
+                            <note n="4" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    For this influential Baghdadi astrologer (d. 272/886), see
+                                    <hi rend="italic">
+                                        <hi rend="smallcaps">EI</hi>
+                                    </hi>
+                                    Three art. ‘Abū Maʿshar’ (C. Burnett); Abū Maʿshar,
+                                    <hi rend="italic">Kitāb al-Mudkhal al-kabīr</hi>
+                                    (Lemay); Abū Maʿshar,
+                                    <hi rend="italic">On Historical Astrology</hi>
+                                    .
+                                </p>
+                            </note>
+                            says in his
+                            <hi rend="italic">Book of Thousands</hi>
+                            <note n="5" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    <hi rend="italic">K. al-ulūf</hi>
+                                    ; see Pingree,
+                                    <hi rend="italic">Thousands</hi>
+                                    , 16.
+                                </p>
+                            </note>
+                            that Kankah was universally regarded by the ancient scholars of India as having been second to none in the science of astrology.
+                            <note n="6" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    Rather than directly from Abū Maʿshar, this last sentence seems to be taken from Ṣāʿid al-Andalusī, who refers to 
+                                    Abū Maʿshar’s appreciation of Kankah in exactly the same words (Ṣāʿid al-Andalusī,
+                                    <hi rend="italic">Ṭabaqāt</hi>
+                                    (Cheikho), 14–15). Abū Maʿshar’s description of Kankah as foremost amongst scholars of India ‘in ancient times’ (
+                                    <hi rend="italic">fī sālif al-dahr</hi>
+                                    ) again demonstrates the early confusion regarding this figure and the frequent unreliability of Abū Maʿshar, who would have been writing only a generation or two after the astrologer Kankah.
+                                </p>
+                            </note>
+                        </p>
+                        <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            وله <note n="5" type="footnote">
+                                <p>BR: ولكنكه</p>
+                            </note>
+                            من الكتب:‬‎
+                        </p>
+                        <p n="3" xml:lang="en-Latn">Kankah is the author of a number of books, including:</p>
+                        <list n="4" xml:lang="ar-Arab">
+                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/201"
+                            n="12.1no1"
+                            change="#change-1"
+                            cert="low">كتاب النمودار في الأعمار</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/202"
+                            n="12.1no2"
+                            change="#change-1"
+                            cert="low">كتاب أسرار المواليد</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/203"
+                            n="12.1no3"
+                            change="#change-1"
+                            cert="low">كتاب القرانات الكبير</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/204"
+                            n="12.1no4"
+                            change="#change-1"
+                            cert="low">كتاب القرانات الصغير</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/205"
+                            n="12.1no5"
+                            change="#change-1"
+                            cert="low">كتاب الطب وهو يجري مجري كناش</title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/206"
+                            n="12.1no6"
+                            change="#change-1"
+                            cert="low">
+                                كتاب في التوهم <note n="6" type="footnote">
+                                    <p>R: الوهم</p>
+                                </note>
+                            </title>
+                            </item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/207"
+                            n="12.1no7"
+                            change="#change-1"
+                            cert="low">كتاب في أحداث العالم والدور في القران.</title>
+                            </item>
+                        </list>
+                        <list n="4" xml:lang="en-Latn">
+                            <label>1.</label>
+                            <item>
+                                On the
+                                <hi rend="italic">namūdār</hi>
+                                <note n="7" type="footnote">
+                                    <p xml:lang="en-Latn">
+                                        A
+                                        <hi rend="italic">namūdār</hi>
+                                        is a method of setting up a birth-horoscope when the date of birth is not known. For an extensive discussion of this technique, see Qabīṣī,
+                                        <hi rend="italic">Introduction to Astrology</hi>
+                                        , 109–111.
+                                    </p>
+                                </note>
+                                for [determining the lengths of] lives (
+                                <hi rend="italic">K. al-namūdār fī l-aʿmār</hi>
+                                )
+                            </item>
+                            <label>2.</label>
+                            <item>
+                                The secrets of nativities (
+                                <hi rend="italic">K. asrār al-mawālīd</hi>
+                                )
+                            </item>
+                            <label>3.</label>
+                            <item>
+                                The large book on planetary conjunctions (
+                                <hi rend="italic">K. al-qirānāt al-kabīr</hi>
+                                )
+                            </item>
+                            <label>4.</label>
+                            <item>
+                                The small book on planetary conjunctions (
+                                <hi rend="italic">K. al-qirānāt al-ṣaghīr</hi>
+                                )
+                                <note n="8" type="footnote">
+                                    <p xml:lang="en-Latn">
+                                        Ibn al-Nadīm and Ibn al-Qifṭī list only titles 1–4 in their entry on Kankah; see Ibn al-Nadīm,
+                                        <hi rend="italic">Fihrist</hi>
+                                        (Flügel, 270; Tajaddud, 330; Sayyid, ii:223); Ibn al-Qifṭī,
+                                        <hi rend="italic">Taʾrīkh al</hi>
+                                        -
+                                        <hi rend="italic">ḥukamāʾ</hi>
+                                        , 267.
+                                    </p>
+                                </note>
+                            </item>
+                            <label>5.</label>
+                            <item>
+                                On medicine (
+                                <hi rend="italic">K. fī l-ṭibb</hi>
+                                ). This work is in the format of a compendium.
+                            </item>
+                            <label>6.</label>
+                            <item>
+                                On delusion (
+                                <hi rend="italic">K. fī l-tawahhum</hi>
+                                )
+                            </item>
+                            <label>7.</label>
+                            <item>
+                                On the creation of the universe and the periodic nature of planetary conjunctions (
+                                <hi rend="italic">K. fī iḥdāth al-ʿālam wa-l-dawr fī l-qirān</hi>
+                                ).
+                                <note n="9" type="footnote">
+                                    <p xml:lang="en-Latn">
+                                        These last three titles occur only in
+                                        <hi rend="smallcaps">IAU</hi>
+                                        ’s
+                                        <hi rend="italic">ʿUyūn al-anbāʾ</hi>
+                                        .
+                                    </p>
+                                </note>
+                            </item>
+                        </list>
+                    </div>
+         </div>
+      </body>
+   </text>
+</TEI>

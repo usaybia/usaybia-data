@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ar-Arab" level="a">‭[12.5]‬ منكة الهندي </title>
+            <title xml:lang="en-Latn" level="a">12.5 Mankah al-Hindī (Māṇikya)</title>
+            <title xml:lang="ar-Arab" level="a">الباب الثاني عشر في طبقات الأطباء الذين كانوا من الهند ‬‎</title>
+            <title xml:lang="en-Latn" level="a">Chapter 12 Physicians of India</title>
+            <title xml:lang="ar"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+            <title xml:lang="en"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+            <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
+            <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
+            <sponsor ref="https://www.uni-muenchen.de">
+					          <orgName>Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					          <orgName>Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+            <funder ref="https://www.bmbf.de/">
+					          <orgName>German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor xml:id="ngibson"
+                    role="editor"
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <respStmt>
+					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				        </respStmt>
+            <respStmt>
+					          <resp>Place names tagged by</resp>
+					          <name type="person" ref="#mtolay">Malinda Tolay</name>
+                </respStmt>
+            <respStmt>
+					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
+					          <name type="person" ref="#ngibson">Nathan P. Gibson</name>
+				        </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="URI">https://usaybia.net/text/12-5</idno>
+         </publicationStmt>
+         <sourceDesc>
+               <biblStruct>
+                <monogr>
+                    <title>Arabic Edition</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">2</biblScope>
+                </monogr>
+               </biblStruct>
+               <biblStruct>
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date>2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>
+         <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
+         <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+         <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
+                1. Switched attribute order on notes.
+                2. Switched attribute order on milestones.
+                3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
+                4. Changed span elements to placeName.
+            </change>
+         <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+         <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
+         <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
+         <change xml:id="change-7" who="#ngibson" when="2021-03-16">Split chapter text file into individual biography files.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="textpart"
+              subtype="chapter"
+              n="12"
+              xml:id="chapter-div"
+              prev="https://usaybia.net/text/12-4#chapter-div"
+              next="https://usaybia.net/text/12-6#chapter-div">
+            <div type="textpart" subtype="biography" n="5">
+                        <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            <hi rend="bold">
+                                ‭[12.5]‬ منكة الهندي <note n="1" type="footnote">
+                                    <p>This biography is included in Version 2 and Version 3 of the work, but is missing in Version <hi rend="smallcaps">I</hi>.</p>
+                                </note>
+                            </hi>
+                        </p>
+                        <p n="1" xml:lang="en-Latn">
+                            <hi xml:lang="en-Latn" rend="bold">
+                                12.5 Mankah al-Hindī
+                                <note n="1" type="footnote">
+                                    <p xml:lang="en-Latn">
+                                        This biography is included in Version 2 and Version 3 of the book, but is missing in Version 
+                                        <hi rend="smallcaps">I</hi>
+                                        . For bibliographic information about Mankah al-Hindī (or Māṇikya), see Sezgin,
+                                        <hi rend="italic">
+                                            <hi rend="smallcaps">GAS</hi>
+                                        </hi>
+                                        <hi rend="smallcaps">III</hi>
+                                        , 200–201; Ullmann,
+                                        <hi rend="italic">Medizin</hi>
+                                        , 106; Bürgel,
+                                        <hi rend="italic">Ärtzliches Leben</hi>
+                                        , 296n, 356; Shefer-Mossensohn &amp; Hershkovitzh, ‘Early Muslim Medicine’, 288. Mankah is also mentioned by al-Jāḥiẓ, where he is said to be
+                                        <hi rend="italic">ṣaḥīḥ al-Islām</hi>
+                                        (al-Jāḥiẓ,
+                                        <hi rend="italic">Ḥayawān</hi>
+                                        , vii:213); Tzvi Langermann suggests that Mankah is to be identified with the Indian physician Amqat, whom the physician Masīḥ ibn Ḥakam met at the court of Hārūn al-Rashīd and accompanied back to India (Langermann, ‘Babylonian and Indian Wisdoms’).
+                                    </p>
+                                </note>
+                                (Māṇikya)
+                            </hi>
+                        </p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
+                                <p>GcH: add. الهندي</p>
+                            </note>
+                            في السموم من اللغة الهندية إلى الفارسي <note n="3" type="footnote">
+                                <p>Gc: الفارسية</p>
+                            </note>
+                            وكان في أيام الرشيد هارون وسافر من الهند إلى <placeName ref="https://usaybia.net/place/263" resp="#mtolay">العراق</placeName> في أيامه واجتمع به وداواه.‬‎
+                        </p>
+                        <p n="2" xml:lang="en-Latn">
+                            Mankah al-Hindī was knowledgeable about the art of medicine, skilled in treating disease, and moderate in his methods; a philosopher of the previously mentioned group in the Indian sciences. He was also conversant with the Sanskrit and Persian languages: it was he who translated Shānāq’s
+                            <hi rend="italic">On poisons</hi>
+                            from Sanskrit to Persian. Mankah was a contemporary of Hārūn al-Rashīd, and during the latter’s caliphate he travelled from India to Iraq, where he met with the caliph and treated him.
+                        </p>
+                        <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            ووجدت في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote">
+                                <p>H: add. تلامذة</p>
+                            </note>
+                            جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من اللغة الهندية إلى اللغة الفارسية والعربية.‬‎
+                        </p>
+                        <p n="3" xml:lang="en-Latn">
+                            I have read somewhere that Mankah al-Hindī was in the entourage of Isḥāq ibn Sulaymān ibn ʿAlī al-Hāshimī,
+                            <note n="2" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    Isḥāq ibn Sulaymān ibn ʿAlī al-Hāshimī served as governor of various regions, including Egypt, under the caliphs Hārūn al-Rashīd and al-Amīn, and is mentioned several times in al-Ṭabarī and various other works, although with few details and without a year of death; see al-Khaṭīb al-Baghdādī,
+                                    <hi rend="italic">Tārīkh Baghdād</hi>
+                                    , viii:340.
+                                </p>
+                            </note>
+                            and translated from Sanskrit into Persian and Arabic.
+                            <note n="3" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    According to Ibn al-Nadīm, Mankah translated a work entitled
+                                    <hi rend="italic">Names of Indian Medicines</hi>
+                                    (
+                                    <hi rend="italic">Asmāʾ ʿaqāqīr al-Hind</hi>
+                                    ) for Isḥāq ibn Sulaymān; see Ibn al-Nadīm,
+                                    <hi rend="italic">Fihrist</hi>
+                                    (Flügel, 303; Tajaddud, 360; Sayyid, ii:315).
+                                </p>
+                            </note>
+                        </p>
+                        <p n="4" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
+                            ونقلت من كتاب أخبار الخلفاء والبرامكة أن الرشيد اعتل علة صعبة فعالجه جميع <note n="5" type="footnote">
+                                <p>GcH: om. جميع</p>
+                            </note>
+                            الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي ب<placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote">
+                                <p>Gc: بينما</p>
+                            </note>
+                            منكة ماراً في <placeName ref="https://usaybia.net/place/600" resp="#mtolay">الخلد</placeName> إذا <note n="7" type="footnote">
+                                <p>Gc: إذ</p>
+                            </note>
+                            هو برجل من المائنين <note n="8" type="footnote">
+                                <p>Gc: المانين</p>
+                            </note>
+                            قد بسط كساءه وألقى عليه عقاقير كثيرة وقام يصف دواء عنده <note n="9" type="footnote">
+                                <p>Gc: om. عنده</p>
+                            </note>
+                            معجوناً فقال في صفته هذا دواء للحمى الدائمة وحمى الربع وحمى الغب <note n="10" type="footnote">
+                                <p>Gc: om. وحمى الغب; R: وحمى الغب وحمى الربع</p>
+                            </note>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٩٢‬أ‬‎"/>
+                            ولوجع الظهر والركبتين والخام والبواسير والرياح ووجع المفاصل ووجع العينين ولوجع البطن والصداع والشقيقة ولتقطير البول والفالج والارتعاش ولم يدع علة <note n="11" type="footnote">
+                                <p>Gc: بدعة</p>
+                            </note>
+                            في البدن إلا ذكر أن <note n="12" type="footnote">
+                                <p>Gc: om. أن</p>
+                            </note>
+                            ذلك الدواء شفاؤها فقال منكة لترجمانه ما يقول هذا فترجم له ما سمع فتبسم منكة وقال على كل حال ملك العرب جاهل وذلك أنه إن كان الأمر على ما قال هذا فلم حملني من بلدي وقطعني عن أهلي وتكلف <note n="13" type="footnote">
+                                <p>A: وتحمل</p>
+                            </note>
+                            الغليظ من مؤونتي وهو يجد هذا نصب عينه <note n="14" type="footnote">
+                                <p>Gc: عينيه</p>
+                            </note>
+                            وبإزائه وإن كان الأمر ليس كما يقول هذا فلم لا يقتله فإن الشريعة قد أباحت دم هذا ومن <note n="15" type="footnote">
+                                <p>Gc: وما</p>
+                            </note>
+                            أشبهه لأنه إن قُتل ما هي إلا نفسٌ <note n="16" type="footnote">
+                                <p>R: om. نفس</p>
+                            </note>
+                            تحيا بفنائها أنفسُ خلقٍ كثير وإن تُرك ‭[ii,34]‬ وهذا الجهل قتَلَ في <note n="17" type="footnote">
+                                <p>Gc: om. في</p>
+                            </note>
+                            كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.‬‎
+                        </p>
+                        <p n="4" xml:lang="en-Latn">
+                            The following account is taken from a copy of
+                            <hi rend="italic">The History of the Caliphs and the Barmakids</hi>
+                            :
+                            <note n="4" type="footnote">
+                                <p xml:lang="en-Latn">
+                                    The work referred to by
+                                    <hi rend="smallcaps">IAU</hi>
+                                    is Abū Ḥafṣ al-Kirmānī’s
+                                    <hi rend="italic">Akhbār al-Barāmikah</hi>
+                                    , which has survived only in quotations. One of the authors who quotes from him is al-Ṭabarī, and this anecdote can be also found in al-Ṭabarī,
+                                    <hi rend="italic">Taʾrīkh</hi>
+                                    (ed. de Goeje), iii:
+                                    <hi rend="smallcaps">III</hi>
+                                    , ii:747–748.
+                                </p>
+                            </note>
+                        </p>
+                        <cit n="4" xml:lang="en-Latn">
+                            <quote>
+                                <p xml:lang="en-Latn">Hārūn al-Rashīd once fell gravely ill. He was treated by a number of physicians, but did not recover. Abū ʿAmr al-Aʿjamī said to him, ‘O Commander of the Faithful, there is a physician in India by the name of Mankah; he is a pious man in their religion and one of their philosophers. If you were to send for him, it may be that God would bring about your recovery at his hands.’ Al-Rashīd thereupon dispatched a person to bring him to Baghdad, with a gift to persuade him to undertake the journey. Mankah went to Baghdad and attended the caliph, with the result that Hārūn al-Rashīd was restored to health; he rewarded the physician handsomely and granted him a generous pension.</p>
+                                <p xml:lang="en-Latn">
+                                    One day while Mankah was walking in the Khuld palace
+                                    <note n="5" type="footnote">
+                                        <p xml:lang="en-Latn">
+                                            A palace built by the caliph al-Manṣūr on the west bank of the Tigris. It was used by Hārūn al-Rashīd as his residence. See
+                                            <hi rend="italic">
+                                                <hi rend="smallcaps">EI</hi>
+                                            </hi>
+                                            <hi rend="superscript">2</hi>
+                                            art. ‘Al-K̲h̲uld’ (C.E. Bosworth). By ‘in’ the palace we may perhaps understand ‘in its grounds’.
+                                        </p>
+                                    </note>
+                                    he saw a huckster who had spread out his cloak on the ground and placed upon it a large and varied array of drugs. The man began to describe a medicinal paste that he had concocted. ‘This medicine,’ he said, ‘is good for a constant fever, a quartan ague, a tertian ague, pain in the back, pain in the knees, abnormal phlegm,
+                                    <note n="6" type="footnote">
+                                        <p xml:lang="en-Latn">
+                                            Ibn Sīnā lists
+                                            <hi rend="italic">al-khām</hi>
+                                            as one of the abnormal or ‘non-natural (
+                                            <hi rend="italic">ghayr al-ṭabīʿī</hi>
+                                            )’ forms of phlegm (
+                                            <hi rend="italic">balgham</hi>
+                                            ), a particularly mucoid form; see
+                                            <hi rend="italic">al-Qānūn</hi>
+                                            ,
+                                            <hi rend="italic">kitāb</hi>
+                                            1,
+                                            <hi rend="italic">fann</hi>
+                                            1,
+                                            <hi rend="italic">taʿlīm</hi>
+                                            4,
+                                            <hi rend="italic">faṣl</hi>
+                                            1. Phlegm, one of the four humours, was thought to be found in all parts of the body, not only in the respiratory organs. When a non-natural form of phlegm occurred, various ailments resulted.
+                                            <hi rend="italic">Khām</hi>
+                                            was often associated with pain in the joints. In the list of uses for individual medicaments given by Ibn Sīnā in
+                                            <hi rend="italic">Kitāb</hi>
+                                            2 of the
+                                            <hi rend="italic">Qānūn</hi>
+                                            , there are several designated as useful for
+                                            <hi rend="italic">al-khām</hi>
+                                            ; for example
+                                            <hi rend="italic">anzarūt</hi>
+                                            (sarcocol) is said to be useful, amongst other things, for easing
+                                            <hi rend="italic">al-khām</hi>
+                                            and thick phlegm (
+                                            <hi rend="italic">al-balgham al-ghalīẓ</hi>
+                                            ) especially in the hips and joints. The word appears to be from the root
+                                            <hi rend="italic">kh-y-m</hi>
+                                            , which in a medical context Dozy translated as ‘Flegme cru’; Dozy,
+                                            <hi rend="italic">Supplément</hi>
+                                            , i:419. However, Oliver Kahl, when editing and translating the medical formulary of Ibn al-Tilmīdh, interpreted the word as
+                                            <hi rend="italic">al-khāmm</hi>
+                                            , generally meaning decaying flesh, and in a recipe called ‘The Bishop’s Stomachic’ said it was useful against ‘foul smells’ (
+                                            <hi rend="italic">al-khāmm</hi>
+                                            ) as well as flatulence (
+                                            <hi rend="italic">riyāḥ</hi>
+                                            ) and the winds of hemorrhoids (
+                                            <hi rend="italic">arwāḥ al-bawāsīr</hi>
+                                            ).
+                                        </p>
+                                    </note>
+                                    haemorrhoids, flatulence, pain in the joints, pain in the eyes, pain in the belly, headache, migraine, dribbling of urine, paralysis, the palsy …’. Not a single bodily ailment did he omit; his medicine, he said, was a sovereign remedy for every one of them. ‘What is that fellow saying?’ Mankah asked his interpreter, and the interpreter told him. Mankah smiled. ‘One way or the other, the king of the Arabs must be an ignorant man,’ he said. ‘If the matter is as this fellow said, why has he brought me from my country, separated me from my family, and incurred the expense of my keep, when he has this wonder-worker right here, under his very nose? If the matter is not as this fellow says, why does the king not have him put to death? The law permits the execution of this fellow and anyone like him, for if that is done, only one person will have died, and by his death many will have remained alive, whereas if he is allowed to live, which would be foolishness, he will kill a person a day – indeed, he will kill two, or three, or four individuals every day, as like as not, and that would be to corrupt religion and weaken the kingdom.’
+                                </p>
+                            </quote>
+                        </cit>
+                    </div>
+         </div>
+      </body>
+   </text>
+</TEI>
