@@ -218,26 +218,23 @@
    </teiHeader>
    <text>
       <body>
-         <div type="edition"
-              n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"
-              xml:lang="ar-Arab">
-            <div type="textpart"
-                 subtype="chapter"
-                 n="12"
-                 xml:id="chapter-div"
-                 prev="https://usaybia.net/text/12-2#chapter-div"
-                 next="https://usaybia.net/text/12-4#chapter-div">
-               <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    type="textpart"
-                    subtype="biography"
-                    n="3"
-                    part="N"
-                    org="uniform"
-                    sample="complete">
+         <div type="textpart"
+              subtype="chapter"
+              n="12"
+              xml:id="chapter-div"
+              prev="https://usaybia.net/text/12-2#chapter-div"
+              next="https://usaybia.net/text/12-4#chapter-div">
+            <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 type="textpart"
+                 subtype="biography"
+                 n="3"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
                         <p n="1"
-                     xml:lang="ar-Arab"
-                     style="direction:rtl; unicode-bidi:embed"
-                     part="N">
+                  xml:lang="ar-Arab"
+                  style="direction:rtl; unicode-bidi:embed"
+                  part="N">
                             <hi rend="bold">
                                 [‭12.3‬] شاناق <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
@@ -271,13 +268,13 @@
                             </hi>
                         </p>
                         <p n="2"
-                     xml:lang="ar-Arab"
-                     style="direction:rtl; unicode-bidi:embed"
-                     part="N">
+                  xml:lang="ar-Arab"
+                  style="direction:rtl; unicode-bidi:embed"
+                  part="N">
                             ومن المشهورين أيضاً من أطباء <placeName ref="https://usaybia.net/place/260"
-                                resp="#mtolay"
-                                instant="false"
-                                full="yes">الهند</placeName> شاناق <note n="2" type="footnote" anchored="true">
+                             resp="#mtolay"
+                             instant="false"
+                             full="yes">الهند</placeName> شاناق <note n="2" type="footnote" anchored="true">
                                 <p part="N">B: شناق</p>
                             </note>
                             وكانت له معالجات وتجارب كثيرة في صناعة الطب وتفنن في العلوم وفي الحكمة <note n="3" type="footnote" anchored="true">
@@ -326,9 +323,9 @@
                             </quote>
                         </cit>
                         <p n="3"
-                     xml:lang="ar-Arab"
-                     style="direction:rtl; unicode-bidi:embed"
-                     part="N">
+                  xml:lang="ar-Arab"
+                  style="direction:rtl; unicode-bidi:embed"
+                  part="N">
                             ولشاناق <note n="14" type="footnote" anchored="true">
                                 <p part="N">B: وله</p>
                             </note>
@@ -339,9 +336,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/222"
-                               n="12.3no1"
-                               change="#change-1"
-                               cert="low">
+                            n="12.3no1"
+                            change="#change-1"
+                            cert="low">
                                 كتاب السموم خمس مقالات فسره من اللسان الهندي إلى اللسان الفارسي منكة <note n="15" type="footnote" anchored="true">
                                     <p part="N">Gc: كنكه</p>
                                 </note>
@@ -354,23 +351,23 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/223"
-                               n="12.3no2"
-                               change="#change-1"
-                               cert="low">كتاب البيطرة</title>
+                            n="12.3no2"
+                            change="#change-1"
+                            cert="low">كتاب البيطرة</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/224"
-                               n="12.3no3"
-                               change="#change-1"
-                               cert="low">كتاب في علم النجوم</title>
+                            n="12.3no3"
+                            change="#change-1"
+                            cert="low">كتاب في علم النجوم</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/225"
-                               n="12.3no4"
-                               change="#change-1"
-                               cert="low">
+                            n="12.3no4"
+                            change="#change-1"
+                            cert="low">
                                 كتاب منتخل الجوهر <note n="17" type="footnote" anchored="true">
                                     <p part="N">Gc: الجواهر</p>
                                 </note>
@@ -447,7 +444,6 @@
                             </item>
                         </list>
                     </div>
-            </div>
          </div>
       </body>
    </text>
