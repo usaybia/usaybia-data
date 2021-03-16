@@ -1,24 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<div xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     type="textpart"
-     subtype="chapter"
-     n="12"
-     xml:id="chapter-div"
-     prev="https://usaybia.net/text/12-1#chapter-div"
-     next="https://usaybia.net/text/12-3#chapter-div">
-   <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        type="textpart"
-        subtype="biography"
-        n="2"
-        part="N"
-        org="uniform"
-        sample="complete">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Chapter 12</title>
+                <title xml:lang="ar"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
+                <title xml:lang="en"
+                   level="m"
+                   ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">The Best Accounts of the Classes of Physicians</title>
+                <author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
+                <author xml:lang="en" ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</author>
+				        <sponsor ref="https://www.uni-muenchen.de">
+					          <orgName instant="false" full="yes">Ludwig Maximilian University of Munich</orgName>
+					(<orgName xml:lang="de" instant="false" full="yes">Ludwig-Maximilians-Universität München</orgName>)
+				</sponsor>
+				        <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+					          <orgName instant="false" full="yes">Institute of Near and Middle Eastern Studies</orgName>
+					(<orgName xml:lang="de" instant="false" full="yes">Institut für den Nahen und Mittleren Osten</orgName>)
+				</sponsor>
+				        <funder ref="https://www.bmbf.de/">
+					          <orgName instant="false" full="yes">German Federal Ministry of Education and Research</orgName>
+					(<orgName xml:lang="de" instant="false" full="yes">Bundesministerium für Bildung und Forschung</orgName>)
+				</funder>
+				        <principal ref="#ngibson">Nathan P. Gibson</principal>
+				        <editor xml:id="ngibson"
+                    role="editor"
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				        <respStmt>
+					          <resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                        A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
+					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+				        </respStmt>				
+				        <respStmt>
+					          <resp>Place names tagged by</resp>
+					          <name type="person" ref="#mtolay" full="yes" instant="false">Malinda Tolay</name>
+                </respStmt>
+                <respStmt>
+					          <resp>Place name tagging checked, English-Arabic alignment by</resp>
+					          <name type="person" ref="#ngibson" full="yes" instant="false">Nathan P. Gibson</name>
+				        </respStmt>
+			      </titleStmt>
+           <publicationStmt>
+                <distributor>
+                    <placeName instant="false" full="yes">Ludwig-Maximilians-Universität,
+                        Munich, Germany</placeName>
+                </distributor>
+                <authority>Usaybia.net</authority>
+                <idno type="URI">https://usaybia.net/text/12</idno>
+                <availability default="false">
+                    <p part="N"/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p part="N">Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p part="N">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date instant="false">2020</date>
+           </publicationStmt>
+           <sourceDesc default="false">
+               <biblStruct default="false" status="draft">
+                <monogr>
+                    <title>Arabic Edition</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability default="false">
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date instant="false">2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability default="false">
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date instant="false">2020</date>
+                    </imprint>
+                    <biblScope unit="volume">2</biblScope>
+                </monogr>
+               </biblStruct>
+               <biblStruct default="false" status="draft">
+                <monogr>
+                    <title>Annotated English Translation</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-tr-eng1/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="en">English</textLang>
+                    <availability default="false">
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date instant="false">2020</date>
+                    </imprint>
+                    <biblScope unit="chapter">12</biblScope>
+                </monogr>
+                <monogr>
+                    <title level="m">A Literary History of Medicine - The ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ of Ibn Abī Uṣaybiʿah Online</title>
+                    <idno type="URI">https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/</idno>
+                    <author>Ibn Abī Uṣaybiʿa</author>
+                    <editor>Emilie Savage-Smith</editor>
+                    <editor>Simon Swain</editor>
+                    <editor>Geert Jan van Gelder</editor>
+                    <editor role="contributor">Ignacio Sánchez</editor>
+                    <editor role="contributor">N. Peter Joosse</editor>
+                    <editor role="contributor">Alasdair Watson</editor>
+                    <editor role="contributor">Bruce Inksetter</editor>
+                    <editor role="contributor">Franak Hilloowala</editor>
+                    <textLang mainLang="ar">Arabic</textLang>
+                    <availability default="false">
+                        <licence target="https://creativecommons.org/licenses/by-nc/4.0">Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</licence>
+                    </availability>
+                    <imprint>
+                        <pubPlace>Leiden</pubPlace>
+                        <publisher>Brill</publisher>
+                        <date instant="false">2020</date>
+                    </imprint>
+                    <biblScope unit="volume">3</biblScope>
+                </monogr>
+               </biblStruct>
+           </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <change who="#ngibson" when="2020-02-19" status="draft">Added header to downloaded text.</change>             
+            <change xml:id="change-1"
+                 who="#ngibson"
+                 when="2020-06-04"
+                 status="draft">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2"
+                 who="#mtolay"
+                 when="2020-08-26"
+                 status="draft">Tagged place names in Recogito.</change>
+            <change xml:id="change-3"
+                 who="#ngibson"
+                 when="2021-02-01"
+                 status="draft">Reformatted after downloading from Recogito: 
+                1. Switched attribute order on notes.
+                2. Switched attribute order on milestones.
+                3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
+                4. Changed span elements to placeName.
+            </change>
+            <change xml:id="change-4"
+                 who="#ngibson"
+                 when="2021-02-01"
+                 status="draft">Added URI for item with no URI.</change>
+            <change xml:id="change-5"
+                 who="#ngibson"
+                 when="2021-02-01"
+                 status="draft">Edited placeName tags to include definite article.</change>
+            <change xml:id="change-6"
+                 who="#ngibson"
+                 when="2021-02-03"
+                 status="draft">Aligned English and Arabic texts</change>
+        </revisionDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              n="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"
+              xml:lang="ar-Arab">
+            <div type="textpart"
+                 subtype="chapter"
+                 n="12"
+                 xml:id="chapter-div"
+                 prev="https://usaybia.net/text/12-1#chapter-div"
+                 next="https://usaybia.net/text/12-3#chapter-div">
+               <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    type="textpart"
+                    subtype="biography"
+                    n="2"
+                    part="N"
+                    org="uniform"
+                    sample="complete">
                         <p n="1"
-         xml:lang="ar-Arab"
-         style="direction:rtl; unicode-bidi:embed"
-         part="N">
+                     xml:lang="ar-Arab"
+                     style="direction:rtl; unicode-bidi:embed"
+                     part="N">
                             <hi rend="bold">
                                 ‭[12.2]‬ صنجهل <note n="1" type="footnote" anchored="true">
                                     <p part="N">This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
@@ -45,13 +247,13 @@
                             </hi>
                         </p>
                         <p n="2"
-         xml:lang="ar-Arab"
-         style="direction:rtl; unicode-bidi:embed"
-         part="N">
+                     xml:lang="ar-Arab"
+                     style="direction:rtl; unicode-bidi:embed"
+                     part="N">
                             كان من علماء <placeName ref="https://usaybia.net/place/260"
-                    resp="#mtolay"
-                    instant="false"
-                    full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
+                                resp="#mtolay"
+                                instant="false"
+                                full="yes">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote" anchored="true">
                                 <p part="N">R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote" anchored="true">
@@ -67,9 +269,9 @@
                             ).
                         </p>
                         <p n="3"
-         xml:lang="ar-Arab"
-         style="direction:rtl; unicode-bidi:embed"
-         part="N">
+                     xml:lang="ar-Arab"
+                     style="direction:rtl; unicode-bidi:embed"
+                     part="N">
                             وكان من بعد صنجهل <note n="4" type="footnote" anchored="true">
                                 <p part="N">B: كنكه</p>
                             </note>
@@ -77,9 +279,9 @@
                                 <p part="N">Gc: من</p>
                             </note>
                             بلاد <placeName ref="https://usaybia.net/place/260"
-                    resp="#mtolay"
-                    instant="false"
-                    full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
+                                resp="#mtolay"
+                                instant="false"
+                                full="yes">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote" anchored="true">
                                 <p part="N">BGc: وفي غيرها</p>
                             </note>
                             من العلوم مثل باكهر <note n="7" type="footnote" anchored="true">
@@ -120,9 +322,9 @@
                             </note>
                         </p>
                         <p n="4"
-         xml:lang="ar-Arab"
-         style="direction:rtl; unicode-bidi:embed"
-         part="N">
+                     xml:lang="ar-Arab"
+                     style="direction:rtl; unicode-bidi:embed"
+                     part="N">
                             ووجدت الرازي <note n="14" type="footnote" anchored="true">
                                 <p part="N">B: add. أيضاً</p>
                             </note>
@@ -147,9 +349,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/208"
-                   n="12.2no1"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no1"
+                               change="#change-1"
+                               cert="low">
                                 كتاب سيرك <note n="15" type="footnote" anchored="true">
                                     <p part="N">B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
                                 </note>
@@ -162,16 +364,16 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/209"
-                   n="12.2no2"
-                   change="#change-1"
-                   cert="low">وعن كتاب سسرد وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر يحيى بن خالد بتفسير</title>
+                               n="12.2no2"
+                               change="#change-1"
+                               cert="low">وعن كتاب سسرد وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر يحيى بن خالد بتفسير</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/210"
-                   n="12.2no3"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no3"
+                               change="#change-1"
+                               cert="low">
                                 كتاب ندان <note n="17" type="footnote" anchored="true">
                                     <p part="N">ABGc: بدان; R: يدان</p>
                                 </note>
@@ -181,9 +383,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/211"
-                   n="12.2no4"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no4"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب سندهشار <note n="18" type="footnote" anchored="true">
                                     <p part="N">ABGc: سندهشان; R: سندهيشان; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سندستاق</p>
                                 </note>
@@ -198,31 +400,31 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/212"
-                   n="12.2no5"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no5"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب فيما اختلفت <note n="21" type="footnote" anchored="true">
                                     <p part="N">B: اختلف</p>
                                 </note>
                                 فيه <placeName ref="https://usaybia.net/place/260"
-                          resp="#mtolay"
-                          instant="false"
-                          full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                                      resp="#mtolay"
+                                      instant="false"
+                                      full="yes">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/213"
-                   n="12.2no6"
-                   change="#change-1"
-                   cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
+                               n="12.2no6"
+                               change="#change-1"
+                               cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/214"
-                   n="12.2no7"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no7"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب استانكر <note n="22" type="footnote" anchored="true">
                                     <p part="N">Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: استانكر; ABR: اسانكر; Gc: اسما بكر</p>
                                 </note>
@@ -234,20 +436,20 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/215"
-                   n="12.2no8"
-                   change="#change-1"
-                   cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
-                          resp="#mtolay"
-                          instant="false"
-                          full="yes">هند</placeName>
-            </title>
+                               n="12.2no8"
+                               change="#change-1"
+                               cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260"
+                                      resp="#mtolay"
+                                      instant="false"
+                                      full="yes">هند</placeName>
+                        </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/216"
-                   n="12.2no9"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no9"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب مختصر في العقاقير للهند <note n="24" type="footnote" anchored="true">
                                     <p part="N">Gc: om. للهند</p>
                                 </note>
@@ -256,9 +458,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/217"
-                   n="12.2no10"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no10"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب نوفشل <note n="25" type="footnote" anchored="true">
                                     <p part="N">In margin of A: خ نافشل; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: توقشتل الهندي</p>
                                 </note>
@@ -271,9 +473,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/218"
-                   n="12.2no11"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no11"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب زوسي الهندية <note n="27" type="footnote" anchored="true">
                                     <p part="N">A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
                                 </note>
@@ -283,21 +485,21 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/219"
-                   n="12.2no12"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no12"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب السكر لل<placeName ref="https://usaybia.net/place/260"
-                          resp="#mtolay"
-                          instant="false"
-                          full="yes">هند</placeName>
+                                      resp="#mtolay"
+                                      instant="false"
+                                      full="yes">هند</placeName>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/220"
-                   n="12.2no13"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no13"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب رأي الهندي <note n="28" type="footnote" anchored="true">
                                     <p part="N">Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
                                 </note>
@@ -307,9 +509,9 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/221"
-                   n="12.2no14"
-                   change="#change-1"
-                   cert="low">
+                               n="12.2no14"
+                               change="#change-1"
+                               cert="low">
                                 وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote" anchored="true">
                                     <p part="N">Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
                                 </note>
@@ -660,4 +862,8 @@
                             </item>
                         </list>
                     </div>
-</div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
