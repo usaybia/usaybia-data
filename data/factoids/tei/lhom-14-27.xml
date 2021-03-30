@@ -136,7 +136,6 @@
    </teiHeader>
    <text>
       <body>
-         <!-- Here is how the factoid URI and number might work. -->
          <ab 
             type="factoid" subtype="relation" 
             xml:id="factoid-1" 
@@ -210,7 +209,7 @@
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of" active="https://usaybia.net/person/1983"
                   passive="https://usaybia.net/person/786">
-                  <desc><persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName> read writings of 
+                  <desc><persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName> read some writings of 
                      <persName ref="https://usaybia.net/person/786">Galen</persName>.</desc>
                </relation>
             </listRelation>
@@ -228,7 +227,7 @@
                <relation type="person" ref="http://syriaca.org/keyword/cited-negatively" active="https://usaybia.net/person/346"
                   passive="https://usaybia.net/person/1983">
                   <desc><persName ref="https://usaybia.net/person/346">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī</persName> 
-                    mentions that <persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName> was incompetent and comitted many errors when taking
+                    mentions that <persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName> was incompetent and comitted many errors when talking
                     .</desc>
                </relation>
             </listRelation>
@@ -242,7 +241,7 @@
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/enmity-for" active="https://usaybia.net/person/1342" passive="https://usaybia.net/person/1983">
                   <desc><persName ref="https://usaybia.net/person/1342">Jirjis</persName> made fun of
-                     <persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName> .</desc>
+                     <persName ref="https://usaybia.net/person/1983">Abū l-Khayr Salāmah</persName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
