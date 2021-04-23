@@ -141,9 +141,11 @@
                <listPerson>
                   <person>
                      <persName ref="https://usaybia.net/person/1028"/>
-                     <education ana="http://usaybia.net/education/philosophy"><note type="desc"> 
+                     <education ana="https://syriaca.org/keyword/education https://syriaca.org/keyword/philosophy">
+                        <note type="desc"> 
                         Ibn al-Khammār studied philosophy in <placeName ref="https://usaybia.net/place/77">Baghdad</placeName>.
-                     </note></education>
+                        </note>
+                     </education>
                   </person>
                </listPerson>
                <bibl type="urn">
@@ -175,15 +177,11 @@
                   <persName ref="https://usaybia.net/person/1028"/>
                   <death>
                      <choice>
-                        <reg><date when="0991-05" calendar="#julian">May/June 991</date></reg> <!-- two months-->
+                        <reg><date notBefore="0991-05" notAfter="0991-06" calendar="#julian">May/June 991</date></reg>
                         <orig><date when="0381-03" datingMethod="#hijri">Rabīʿ I 381</date></orig>
                      </choice>
                      <note type="desc">
-                        <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName> was born Rabīʿ I 381.
-                        <certainty target="#ESX" locus="name"
-                           assertedValue="deathDate" cert="low">
-                           <desc>contradicting dates.</desc>
-                        </certainty>
+                        <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName> was born in Rabīʿ I 381.                        
                      </note>
                   </death>
                </person>
@@ -192,6 +190,11 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.8"/>
                <citedRange unit="part">2</citedRange>
             </bibl>
+            <note type="dubia">According to the statement of 
+               <persName ref="https://usaybia.net/person/254">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib</persName>,
+               <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan ibn al-Khammār</persName> was already alive 
+               in 942. See factoid <rs ref="https://usaybia.net/factoid/11-8-4">11-8-4</rs>.
+            </note>
          </ab>
          <ab 
             type="factoid" subtype="relation" 
@@ -199,31 +202,14 @@
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/11-8-4</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/cited" active="https://usaybia.net/person/1028"
-                  passive="https://usaybia.net/person/254">
+               <relation type="person" ref="http://syriaca.org/keyword/written-informant-about" active="https://usaybia.net/person/254"
+                  passive="https://usaybia.net/person/1028">
                   <desc><persName ref="https://usaybia.net/person/254">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib</persName> states that
                      <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName>was alive in
                      <choice>
                         <reg><date when="0942" calendar="#julian">942</date></reg> 
                         <orig><date when="0330" datingMethod="#hijri">330</date></orig>
                      </choice>.</desc>
-               </relation>
-            </listRelation>
-            <bibl type="urn">
-               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.8"/>
-               <citedRange unit="part">3</citedRange>
-            </bibl>
-         </ab>
-         <ab 
-            type="factoid" subtype="relation" 
-            xml:id="factoid-5" 
-            resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/11-8-5</idno>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of" active="https://usaybia.net/person/926"
-                  passive="https://usaybia.net/person/254">
-                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read and cited
-                     <title ref="<!--missing see ch. 10.60-->"></title>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -240,7 +226,7 @@
                <relation type="person" ref="http://syriaca.org/keyword/cited" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/254">
                   <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read and cited
-                     <title ref="<!--missing see ch. 10.60-->"></title>.</desc>
+                     <rs ref="https://usaybia.net/work/5000"><!--insert title - see ch. 10.60--></rs>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -254,11 +240,11 @@
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/11-8-7</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/cited-positively" active="https://usaybia.net/person/1028"
-                  passive="https://usaybia.net/person/1093">
+               <relation type="person" ref="http://syriaca.org/keyword/cited-positively" active="https://usaybia.net/person/1093"
+                  passive="https://usaybia.net/person/1028">
                   <desc> <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName> mentions the outstanding intellect of
                      <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName>
-                     in <title ref="https://usaybia.net/work/1945">K. Ḥall shukūk al-Rāzī ʿalā Jālīnūs</title>.</desc>
+                     in <rs ref="https://usaybia.net/work/1945">K. Ḥall shukūk al-Rāzī ʿalā Jālīnūs</rs>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -272,8 +258,7 @@
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/11-8-8</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" active="https://usaybia.net/person/1439"
-                  passive="https://usaybia.net/person/1028">
+               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1439 https://usaybia.net/person/1028">
                   <desc><persName ref="https://usaybia.net/person/1439">Maḥmūd ibn Sebüktigin, Sultan of Ghaznah</persName> 
                      kissed the ground praising the knowledge of <persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName>.</desc>
                </relation>
@@ -295,23 +280,6 @@
                </relation>
             </listRelation>
             <bibl type="urn">
-               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-               <citedRange unit="part">5</citedRange>
-            </bibl>
-         </ab>
-         <ab 
-            type="factoid" subtype="relation" 
-            xml:id="factoid-10" 
-            resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/11-8-10</idno>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of" active="https://usaybia.net/person/926"
-                  passive="https://usaybia.net/person/1000">
-                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read and cited
-                     <title ref="https://usaybia.net/work/3720">K. Miftāḥ al-ṭibb</title>.</desc>
-               </relation>
-            </listRelation>
-            <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.8"/>
                <citedRange unit="part">5</citedRange>
             </bibl>
@@ -325,7 +293,7 @@
                <relation type="person" ref="http://syriaca.org/keyword/cited" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/1000">
                   <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read and cited
-                     <title ref="https://usaybia.net/work/3720">K. Miftāḥ al-ṭibb</title>.</desc>
+                     <rs ref="https://usaybia.net/work/3720">K. Miftāḥ al-ṭibb</rs>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -339,10 +307,10 @@
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/11-8-12</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/926"
+               <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/1404"
                   passive="https://usaybia.net/person/1028">
                   <desc><persName ref="https://usaybia.net/person/1028">Abū l-Khayr al-Ḥasan</persName> composed the work 
-                     <title ref="https://usaybia.net/work/3714">M. fī imtiḥān al-aṭibbāʾ</title>
+                     <rs ref="https://usaybia.net/work/3714">M. fī imtiḥān al-aṭibbāʾ</rs>
                      for <persName ref="https://usaybia.net/person/1404">Khwārazmshāh Abū l-ʿAbbās Maʾmūn ibn Maʾmūn</persName>.</desc>
                </relation>
             </listRelation>
@@ -360,7 +328,7 @@
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/1028">
                   <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read and copied an autograph of 
-                     <title ref="https://usaybia.net/work/3719">Taqāsīm Īsāghūjī wa-Qāṭīghūriyās li-Ālīnūs al-Iskandarānī</title>.</desc>
+                     <rs ref="https://usaybia.net/work/3719">Taqāsīm Īsāghūjī wa-Qāṭīghūriyās li-Ālīnūs al-Iskandarānī</rs>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
