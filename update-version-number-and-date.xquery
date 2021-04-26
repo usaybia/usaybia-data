@@ -12,6 +12,7 @@ let $currentdate := <date>
 
 let $coll := collection("/db/apps/usaybia-data/data/")
 
+(: if this xQuery is used for the first time it might be necessary to change @version in line 16 to @n. After the first use the attribute name will be updated to @version :)
 let $oldver := $coll/TEI/teiHeader/fileDesc/editionStmt/edition/@version
 let $olddate := $coll/TEI/teiHeader/fileDesc/publicationStmt/date
 
