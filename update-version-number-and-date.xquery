@@ -3,18 +3,19 @@ declare default element namespace 'http://www.tei-c.org/ns/1.0';
 declare namespace pkg="http://expath.org/ns/pkg";
 
 let $pkgdoc := doc("/db/apps/usaybia-data/expath-pkg.xml")
-let $corver := $pkgdoc/pkg:package/@version
+(: This should be a string which gets put into the @n of the edition. 
+ It needs to be @n not @ value to be TEI-compliant. :)
+let $current-version := string($pkgdoc/pkg:package/@version)
+(: changed the this to a string value as well :)
+let $current-date := string(current-date())
 
-let $currentdate := <date>
-{current-date()
-}
-</date>
-
+(: removed /persons/ to include all subfolders  :)
 let $coll := collection("/db/apps/usaybia-data/data/")
 
-(: if this xQuery is used for the first time it might be necessary to change @version in line 16 to @n. After the first use the attribute name will be updated to @version :)
-let $oldver := $coll/TEI/teiHeader/fileDesc/editionStmt/edition/@version
-let $olddate := $coll/TEI/teiHeader/fileDesc/publicationStmt/date
+(: $coll/ works, $coll// does not :)
+let $old-editions := $coll/TEI/teiHeader/fileDesc/editionStmt/edition/@n
+let $old-dates := $coll/TEI/teiHeader/fileDesc/publicationStmt/date
 
-return 
-    (update insert $corver following $oldver, update delete $oldver,update insert $currentdate following $olddate, update delete $olddate)
+(: this works for me as well, I hope for you as well :)
+return
+    (update value $old-editions with $current-version, update value $old-dates with $current-date)
