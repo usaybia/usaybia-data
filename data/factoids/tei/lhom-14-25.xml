@@ -244,8 +244,7 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <state type="mental" ana="http://syriaca.org/keyword/mental-states">
-                            <note type="desc"><persName ref="https://usaybia.net/person/926"
-                                >His</persName> mental faculties deteriorated <date>after the period of famine
+                            <note type="desc"><persName ref="https://usaybia.net/person/1093">His</persName> mental faculties deteriorated <date>after the period of famine
                                     (<reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053–1061</date></reg></date>).</note>
                         </state>
                     </person>
@@ -322,14 +321,16 @@
                 <idno type="URI">https://usaybia.net/factoid/14-25-10</idno>
                 <listPerson>
                     <person>
-                        <persName ref="https://usaybia.net/person/1093"> Ibn Riḍwān</persName> died
+                        <persName ref="https://usaybia.net/person/1093"/>
                         <death>
                             <choice>
                                 <reg><date when="1061" calendar="Gregorian">in the year 1061</date></reg>
                                 <orig><date when="0453" datingMethod="Hijri"> 453 </date></orig>
-                                <note type="desc">during the caliphate of al-Mustanṣir bi-Allāh Abū Tamīm Maʿadd ibn al-Ẓāhir li-Iʿzāz al-Dīn al-Ḥākim
-                                    <persName ref="https://usaybia.net/person/1688"></persName></note>
                             </choice>
+                            <note type="desc"><persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName> died 
+                                during the caliphate of 
+                                <persName ref="https://usaybia.net/person/1688">al-Mustanṣir bi-Allāh Abū Tamīm Maʿadd ibn al-Ẓāhir li-Iʿzāz al-Dīn al-Ḥākim</persName>.
+                                </note>
                         </death>
                     </person>
                 </listPerson>
