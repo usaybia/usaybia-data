@@ -177,8 +177,9 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <birth><placeName ref="https://usaybia.net/place/217"/><note type="desc"
-                            >born in "Old Cairo" <!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
-                            <!-- Do we want a seperate place ID for these exact coordinates? Do we need one? -->.</note></birth>
+                            >born in <placeName ref="https://usaybia.net/place/121">"Old Cairo"</placeName><!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
+                            <!-- Do we want a seperate place ID for these exact coordinates? Do we need one? 
+                                NL: no don't think so, let's just keep this here as a note for myself -->.</note></birth>
                     </person>
                 </listPerson>
                 <bibl type="urn">
@@ -192,8 +193,8 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <education ana="http://usaybia.net/education/medicine"><note type="desc"
-                            > when I reached the age of 14 I moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
-                            I undertook the study of medicine</note></education>
+                            > whenʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
+                             and studied medicine</note></education>
                     </person>
                 </listPerson>
                 <bibl type="urn">
@@ -207,8 +208,8 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <education ana="http://usaybia.net/education/philosophy"><note type="desc"
-                            > when I reached the age of 14 I moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
-                            I undertook the study of medicine and philosophy</note></education>
+                            > when ʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
+                            and studied philosophy</note></education>
                     </person>
                 </listPerson>
                 <bibl type="urn">
@@ -244,8 +245,9 @@
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <state type="mental" ana="http://syriaca.org/keyword/mental-states">
-                            <note type="desc"><persName ref="https://usaybia.net/person/1093">His</persName> mental faculties deteriorated <date>after the period of famine
-                                    (<reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053–1061</date></reg></date>).</note>
+                            <note type="desc"><persName ref="https://usaybia.net/person/926"
+                                >His</persName> mental faculties deteriorated <date>after the period of famine
+                                    (<reg><date notBefore="1053" notAfter="1061" calendar="julian">1053–1061</date></reg></date>).</note>
                         </state>
                     </person>
                 </listPerson>
@@ -262,15 +264,15 @@
                         <desc> <persName ref="https://usaybia.net/person/1093"> Ibn Riḍwān</persName> 
                             transcriped from a Manuscript in the hand of <persName ref="https://usaybia.net/person/961"> Ibn Butlan:
                             </persName> In <choice>
-                            <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                            <reg><date when="1053" calendar="julian">1053</date></reg>
                             <orig><date when-custom="445"
-                                datingMethod="Hijri">445</date></orig>
+                                datingMethod="hijri">445</date></orig>
                         </choice>, <persName ref="https://usaybia.net/person/961"> Ibn Butlan
                         </persName> a shortage of supplies occured in <placeName ref="https://usaybia.net/place/184">Egypt,</placeName>
                             the level of the Nile fell and the shortage of food increased, followed by a great pestilence in
-                            <reg><date when="1055" calendar="Gregorian">1055</date></reg>
+                            <reg><date when="1055" calendar="julian">1055</date></reg>
                             <orig><date when-custom="447"
-                                datingMethod="Hijri">447</date></orig>
+                                datingMethod="hijri">447</date></orig>
                             <!-- is this too much input for one factoid? -->
                         </desc>
                     </event>
@@ -285,9 +287,9 @@
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crime">
                         <desc> In <choice>
-                            <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian"
+                            <reg><date notBefore="1053" notAfter="1061" calendar="julian"
                                 srophe:computed-start="1053" srophe:computed-end="1061">1053–1061</date></reg>
-                            <orig><date notBefore="0445" notAfter="0453" calendar="Hijri"
+                            <orig><date notBefore="0445" notAfter="0453" calendar="hijri"
                                 srophe:computed-start="0445"
                                 srophe:computed-end="0453">445–453</date></orig>
                         </choice>, <persName ref="https://usaybia.net/person/2457">an orphan girl
@@ -324,8 +326,8 @@
                         <persName ref="https://usaybia.net/person/1093"/>
                         <death>
                             <choice>
-                                <reg><date when="1061" calendar="Gregorian">in the year 1061</date></reg>
-                                <orig><date when="0453" datingMethod="Hijri"> 453 </date></orig>
+                                <reg><date when="1061" calendar="julian">in the year 1061</date></reg>
+                                <orig><date when="0453" datingMethod="hijri"> 453 </date></orig>
                             </choice>
                             <note type="desc"><persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName> died 
                                 during the caliphate of 
@@ -421,6 +423,22 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
+                <ab 
+                    type="factoid" subtype="relation" 
+                    xml:id="factoid-17" 
+                    resp="#nloehr">
+                    <idno type="URI">https://usaybia.net/factoid/14-25-17</idno>
+                    <listRelation>
+                        <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1093  https://usaybia.net/person/1097">
+                            <desc><persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName> 
+                                exchanged letters with <persName ref=" https://usaybia.net/person/1097">Abū Zakariyyā Yahūdā ibn Saʿādah</persName>.</desc>
+                        </relation>
+                    </listRelation>
+                    <bibl type="urn">
+                        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                        <citedRange unit="part">9</citedRange>
+                    </bibl>
+                </ab>
             </ab>
             
         </body>
