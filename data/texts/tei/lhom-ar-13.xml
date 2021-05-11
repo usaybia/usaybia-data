@@ -122,7 +122,7 @@
 				15	المعروف(\s+)ب	المعروف$1ب	Eliminating shuhra indicator before searching for definite nouns
 				16	</addName>(\s+)(ا?ل[\u0620-\u065F]+)	</addName>$1<addName>$2</addName>	Definite noun after name
 				17	</?temp>		Removing temp tag
-				18	((<(addName|forename).+?</(addName|forename)>\s*)+)	<persName ref="">$1</persName>	Combining name parts inside persName
+				18	((<(addName|forename).+?</(addName|forename)>\s*)+)	<persName ref="https://usaybia.net/person/placeholder">$1</persName>	Combining name parts inside persName
 				19	<addName>(عبد.+?)</addName>	<forename>$1</forename>	Converting ʿAbd compounds to forenames when not part of genealogy or kunya
 				20	(\s+)(أبا\s+[\u0620-\u065F]+)	$1<addName>$2</addName>	Combine with 3-4 above.
 
@@ -177,7 +177,7 @@
 المعروف 
 ب<persName ref="https://usaybia.net/person/1016">ابن جلجل</persName>
 إن 
-<persName ref=" ">إسحاق بن عمران </persName>
+<persName ref="https://usaybia.net/person/placeholder">إسحاق بن عمران </persName>
 مسلم النحلة وكان بغدادي الأصل ودخل إفريقية <note n="4" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 84: القيروان</p></note>
 							في دولة 
 <persName ref='https://usaybia.net/person/2377'>زيادة الله بن الأغلب التميمي</persName>
@@ -195,19 +195,19 @@
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ودارت له مع زيادة الله 
-<persName ref="'https://usaybia.net/person/2377'"><addName type="shuhra">ابن الأغلب</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName type="shuhra">ابن الأغلب</addName> </persName>
 محنة أوجبت الوحشة بينهما حتى صلبه 
-<persName ref="'https://usaybia.net/person/2377'"><addName type="shuhra">ابن الأغلب</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName type="shuhra">ابن الأغلب</addName> </persName>
 وكان إسحاق قد استأذنه في الانصراف إلى بغداد فلم يأذن له <note n="8" type="footnote"><p>H: om. وكان إسحاق … فلم يأذن له‬‎</p></note>
 							وكان إسحاق يشاهد أكل 
-<persName ref="'https://usaybia.net/person/2377'"><addName type="shuhra">ابن الأغلب</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName type="shuhra">ابن الأغلب</addName> </persName>
 فيقول له كل هذا ودع هذا حتى ورد على 
-<persName ref="'https://usaybia.net/person/2377'"><addName type="shuhra">ابن الأغلب</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName type="shuhra">ابن الأغلب</addName> </persName>
 حدث 
 <persName ref="https://usaybia.net/person/2565"> يهودي أندلسي</persName>
  فاستقربه وخف عليه وأشهده أكله فكان إسحاق إذا قال له اترك هذا لا تأكله قال الإسرائيلي يصعبه عليك <note n="9" type="footnote"><p>Gc: إذا قال كل هذا قال الإسرائيلي كل غيره وإذا قال إسحاق لا يأكل هذا قال الإسرائيلي يصعبه عليك</p></note>
 							وكان 
-ب<persName ref="'https://usaybia.net/person/2377'"><addName type="shuhra">ابن الأغلب</addName> </persName>
+ب<persName ref="https://usaybia.net/person/2377"><addName type="shuhra">ابن الأغلب</addName> </persName>
 علة النسمة وهي ضيق النفس فقدم بين يديه لبناً مريّباً <note n="10" type="footnote"><p>A: لينا مريبا; R: رايباً; Gc: om. مريّباً</p></note>
 							فهمّ بأكله فنهاه إسحق وسهل عليه الإسرائيلي فوافقه بالأكل فعرض له في الليل ضيق النفس حتى أشرف على الهلاك فأرسل إلى إسحاق وقيل له هل عندك من علاج <note n="11" type="footnote"><p>Gc: عندك فرج</p></note>
 							فقال قد <note n="12" type="footnote"><p>Above the line in A, GcH om.: قد</p></note>
@@ -223,12 +223,12 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							فلما قطع عنه الرزق خرج إلى موضع فسيح من رحاب القيروان ووضع هنالك <note n="16" type="footnote"><p>ABGc: هناك</p></note>
 							كرسياً ودواة وقراطيس فكان يكتب الصفات كل يوم بدنانير فقيل 
-<persName ref="'https://usaybia.net/person/2377'"><addName>لزيادة الله</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName>لزيادة الله</addName> </persName>
 عرضت إسحاق <note n="17" type="footnote"><p>AH: بإسحاق</p></note>
 							للغنى <note n="18" type="footnote"><p>ABH: إسحاق الغني, above the line in A إسحاق للغنى</p></note>
 							فأمر بضمه إلى السجن <note n="19" type="footnote"><p>Gc: فأمر بسجنه</p></note>
 							فتبعه الناس هنالك ثم أخرجه بالليل إلى نفسه وكانت له معه حكايات ومعاتبات أحنقته عليه لفرط جوره وسخف رأيه فأمر بفصده في ذراعيه جميعاً وسال دمه حتى مات ثم أمر به فصلب ومكث مصلوباً زماناً طويلاً حتى عشش في جوفه طائر وكان مما قال 
-<persName ref="'https://usaybia.net/person/2377'"><addName>لزيادة الله</addName> </persName>
+<persName ref="https://usaybia.net/person/2377"><addName>لزيادة الله</addName> </persName>
 في تلك الليلة والله إنك لتدعى بسيد العرب وما أنت لها بسيد ولقد سقيتك منذ دهر دواء ليفعلنّ في عقلك وكان زيادة الله مجنوناً فتملخن <note n="20" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 86: فتملخن; ABH: فتمخل; R: تمتخل</p></note>
 							ومات.‬‎
 						</p>
@@ -236,7 +236,7 @@
 							<hi rend="bold">[‭13.1.3‬]</hi>
 						</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
 من الكت:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -305,7 +305,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>إسحاق</forename> <addNam
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								‭[13.2]‬ 
-<persName ref="'https://usaybia.net/person/1272'"><forename>إسحاق</forename> <addName>بن سليمان</addName> <addName>الإسرائيلي</addName> </persName>
+<persName ref="https://usaybia.net/person/1272"><forename>إسحاق</forename> <addName>بن سليمان</addName> <addName>الإسرائيلي</addName> </persName>
 <note n="1" type="footnote"><p>This biography is included in all three versions of the work.</p></note>
 							</hi>
 						</p>
@@ -314,18 +314,18 @@ unicode-bidi:embed">ول<persName ref=""><forename>إسحاق</forename> <addNam
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							كان طبيباً فاضلاً بليغاً عالماً مشهوراً بالحذق والمعرفة جيد التصنيف عالي الهمة ويكنى 
-<persName ref="'https://usaybia.net/person/1272'"><addName type="kunya">أبا يعقوب</addName></persName> وهو الذي شاع ذكره وانتشرت معرفته [‭37‬,‭ii‬] 
+<persName ref="https://usaybia.net/person/1272"><addName type="kunya">أبا يعقوب</addName></persName> وهو الذي شاع ذكره وانتشرت معرفته [‭37‬,‭ii‬] 
 ب
-<persName ref="'https://usaybia.net/person/1272'">الإسرائيلي</persName>
+<persName ref="https://usaybia.net/person/1272">الإسرائيلي</persName>
  وهو من أهل مصر وكان يكحل من أوليته ثم سكن القيروان ولازم 
-<persName ref="'https://usaybia.net/person/1263'"><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
+<persName ref="https://usaybia.net/person/1263"><forename>إسحاق</forename> <addName>بن عمران</addName> </persName>
 وتتلمذ له وخدم الإمام 
-<persName ref="'https://usaybia.net/person/28'"><addName type="kunya">أبا محمد</addName> <forename>عبد الله</forename> <addName>المهدي</addName> </persName>
+<persName ref="https://usaybia.net/person/28"><addName type="kunya">أبا محمد</addName> <forename>عبد الله</forename> <addName>المهدي</addName> </persName>
 <note n="2" type="footnote"><p>B: وخدم عبيد الله المهدي</p></note>
 							صاحب إفريقية بصناعة الطب وكان 
-<persName ref="'https://usaybia.net/person/1272'"><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
+<persName ref="https://usaybia.net/person/1272"><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
 مع فضله في صناعة الطب بصيراً بالمنطق متصرفاً في ضروب المعارف. <note n="3" type="footnote"><p>In margin of A, BGcH om.: وكان 
-<persName ref="'https://usaybia.net/person/1272'"><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
+<persName ref="https://usaybia.net/person/1272"><forename>إسحاق</forename> <addName>بن سليمان</addName> </persName>
 … في ضروب المعارف‬‎</p></note>
 							‬‎
 						</p>
@@ -338,15 +338,15 @@ unicode-bidi:embed">ول<persName ref=""><forename>إسحاق</forename> <addNam
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال 
-<persName ref="'https://usaybia.net/person/1013'"><forename>أحمد</forename> <addName>بن إبراهيم</addName> <addName>بن أبي خالد</addName> </persName>
+<persName ref="https://usaybia.net/person/1013"><forename>أحمد</forename> <addName>بن إبراهيم</addName> <addName>بن أبي خالد</addName> </persName>
 المعروف 
-ب<persName ref="'https://usaybia.net/person/1013'"><addName type="shuhra">ابن الجزار</addName> </persName>
+ب<persName ref="https://usaybia.net/person/1013"><addName type="shuhra">ابن الجزار</addName> </persName>
 في كتاب أخبار الدولة يعني <note n="5" type="footnote"><p>A: أعني</p></note>
 							ابتداء دولة الإمام 
-<persName ref="'https://usaybia.net/person/28'"><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>المهدي</addName> </persName>
+<persName ref="https://usaybia.net/person/28"><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>المهدي</addName> </persName>
 الذي ظهر من المغرب 
-<rs ref='https://usaybia.net/person/926'>ني<rs> حدث  
-<persName ref="'https://usaybia.net/person/1272'"><forename>إسحاق</forename> <addName>بن سليمان</addName> <addName>المتطبب</addName> </persName>
+<rs ref='https://usaybia.net/person/926'>ني</rs> حدث  
+<persName ref="https://usaybia.net/person/1272"><forename>إسحاق</forename> <addName>بن سليمان</addName> <addName>المتطبب</addName> </persName>
 قال لما قدمت من مصر على 
 <persName ref="https://usaybia.net/person/2377"><forename>زيادة الله</forename> <addName>بن الأغلب</addName> </persName>
 وجدته مقيماً بالجيوش في الأريس فرحلت إليه فلما بلغه قدومي وقد كان بعث في طلبي وأرسل إلي بخمسمائة دينار وتقويتُ بها على السفر فأدخلت عليه ساعة وصولي فسلمت بالإمرة وفعلت ما يجب أن يفعل للملوك من التعبد فرأيت مجلسه قليل الوقار والغالب عليه حب اللهو وكل ما حرك الضحك فابتدأني بالكلام 
@@ -450,7 +450,7 @@ unicode-bidi:embed">ول
 ويعرف 
 ب<persName ref="https://usaybia.net/person/1013"><addName type="shuhra">ابن الجزار</addName> </persName>
 من أهل [‭38‬,‭ii‬] القيروان طبيب 
-<persName ref=""><addName type="shuhra">ابن طبيب</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن طبيب</addName> </persName>
 وعمه 
 <persName ref="https://usaybia.net/person/2566"><addName type="kunya">أبو بكر</addName> </persName>
 طبيب وكان ممن لقي 
@@ -511,7 +511,7 @@ unicode-bidi:embed">ول
 							<hi rend="bold">[‭13.3.2.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							<rs ref= <persName ref='https://usaybia.net/person/1016'> قال</rs>
+							<rs ref='https://usaybia.net/person/1016'> قال</rs>
 							 قال الذي  
 	<rs ref='https://usaybia.net/person/926'>ني</rs> حدث
 							فكنت عنده ضحوة نهار إذ أقبل 
@@ -568,7 +568,7 @@ unicode-bidi:embed">ول
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">سأحمَد أفعالاً 
-								<persName ref='https://usaybia.net/person/1013'>لأحمد</persNAme>
+								<persName ref='https://usaybia.net/person/1013'>لأحمد</persName>
 								 لـم تـزلْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">مَواقعُها عند الكـرام كِـرامـا‬‎</l>
 							</lg>
@@ -663,7 +663,7 @@ unicode-bidi:embed">ول
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
 								ومن أطباء الأندلس <note n="1" type="footnote"><p>Marginal note in A [cf. ʿAbd al-Wāḥid al-Marrākushī, <hi rend="italic">Muʿjib</hi>, 5–6]:</p><p style="direction:rtl; unicode-bidi:embed">حاشية حد الأندلس الجنوبي منها الخليج الرومي الخارج مما يقابل طنجة في موضع يعرف بالزقاق سعته اثنا عشر ميلاً ثم ينتهي إلى مدينة صور من مدائن الشام وحدها الشمالي والغربي البحر الأعظم المسمى أوقيانس المعروف 
-ب<persName ref=""><addName type="shuhra">بحر</addName> <addName>الظلمة</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">بحر</addName> <addName>الظلمة</addName> </persName>
 وحدها الشرقي الجبل الذي فيه هيكل الزهرة الواصل ما بين البحرين البحر الروم والبحر الأعظم ومسافة ما بين البحرين في هذا الجبل ثلاثة مراحل وهو الحد الأصغر من حدود الأندلس وحداها الأكبران الجنوبي والشمالي ومسافة كل واحد منهما نحوى من ثلاثين مرحلة ومسافة حدها الغربي نحوى من عشرين مرحلة‭.‬‬‎</p></note>
 							</hi>
 						</p>
@@ -752,7 +752,7 @@ unicode-bidi:embed">ول
 							هو 
 <persName ref="https://usaybia.net/person/1112"><addName type="kunya">أبو القاسم</addName> <forename>أصبغ</forename> <addName>بن محمد</addName> <addName>بن السمح</addName> <addName>المهندس الغرناطي </addName> </persName>
  وكان في زمن 
- <persName ref='https://usaybia.net/person/814'>الحكم</persname>
+ <persName ref='https://usaybia.net/person/814'>الحكم</persName>
   قال
    <persName ref='https://usaybia.net/person/1960'>القاضي صاعد</persName>
     إن 
@@ -822,7 +822,7 @@ unicode-bidi:embed">ول
 							<item style="direction:rtl; unicode-bidi:embed">كتاب العمل بالأسطرلاب والتعريف بجوامع ثمرته</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">زيج على أحد مذاهب الهند المعروف 
-ب<persName ref=""><addName type="shuhra">السند</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">السند</addName> </persName>
 هند وهو كتاب كبير مقسم على جزئين أحدهما في الجداول والآخر في رسائل الجداول.</item>
 						</list>
 					</div>
@@ -929,7 +929,7 @@ unicode-bidi:embed">ول
 							عنه بذلك 
 
 <note n="7" type="footnote"><p>Above the line in A: 
-<persName ref=""><addName type="kunya">أبو الفضل</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو الفضل</addName></persName>
 </p></note>
 <persName ref='https://usaybia.net/person/861'>أبو الفضل حسداي ابن يوسف بن حسداي الإسرائيلي</persName>
 وكان خبيراً به ومحله من العلوم النظرية المحل الذي لا يجارى فيه عندنا بالأندلس وتوفي 
@@ -950,10 +950,10 @@ unicode-bidi:embed">ول
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو 
 <note n="2" type="footnote"><p>Gc: 
-<persName ref=""><addName type="kunya">أبو سلمه</addName> <forename>مسلم</forename> <addName>بن عمر</addName> <addName>بن أحمد</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو سلمه</addName> <forename>مسلم</forename> <addName>بن عمر</addName> <addName>بن أحمد</addName></persName>
 ; H: om. 
-<persName ref=""><addName>بن أحمد
-</p></note>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن أحمد
+</addName></persName></p></note>
 <persName ref=" https://usaybia.net/person/2425">أبو مسلم عمر بن أحمد بن خلدون الحضرمي</persName>
 من أشراف أهل إشبيلية <note n="3" type="footnote"><p>A: أهل الأندلس</p></note>
 							ومن جملة تلامذة 
@@ -961,17 +961,17 @@ unicode-bidi:embed">ول
 أيضاً وكان متصرفاً في علوم الفلسفة مشهوراً بعلم الهندسة والنجوم والطب مشبهاً <note n="4" type="footnote"><p>A: متشبهاً</p></note>
 							بالفلاسفة في إصلاح <note n="5" type="footnote"><p>H: اصطلاح</p></note>
 							أخلاقه وتعديل سيرته وتقويم طريقته وتوفي في بلده سنة تسع وأربعين وأربعمائة وكان من أشهر تلامذة 
-<persName ref=""><addName type="kunya">أبي مسلم</addName> <addName>بن خلدون</addName> <addName type="kunya">
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مسلم</addName> <addName>بن خلدون</addName></persName>
 <persName ref="https://usaybia.net/person/1103">أبو جعفر أحمد بن عبد الله</persName>
 المعروف 
 ب<persName ref="https://usaybia.net/person/1103"><addName type="shuhra">ابن الصفار</addName> <addName>المتطبب</addName></persName>
 
 . <note n="6" type="footnote"><p>Cf. Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 71:</p><p style="direction:rtl; unicode-bidi:embed">من أشهر تلامذة 
-<persName ref=""><addName type="kunya">أبي القسم</addName> <forename>أحمد</forename> <addName>بن عبد الله</addName> <addName>بن الصفار</addName> <addName type="shuhra">ابن البرغوث</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي القسم</addName> <forename>أحمد</forename> <addName>بن عبد الله</addName> <addName>بن الصفار</addName> <addName type="shuhra">ابن البرغوث</addName> </persName>
 والواسطي 
-و<persName ref=""><addName type="shuhra">ابن شهر</addName> </persName>
+و<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن شهر</addName> </persName>
 والقرشي والأفطش المرواني 
-و<persName ref=""><addName type="shuhra">ابن العطار</addName></persName>
+و<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن العطار</addName></persName>
 ‬‎</p></note>
 							‬‎
 						</p>
@@ -982,9 +982,9 @@ unicode-bidi:embed">ول
 								‭[13.11]‬ 
 <persName ref="https://usaybia.net/person/973"><addName type="kunya">أبو جعفر</addName> <forename>أحمد</forename> <addName>بن خميس</addName> <addName>بن عامر</addName> <addName>بن دُمِنْجُ</addName> </persName>
 <note n="1" type="footnote"><p>This biography is missing in Version 2. In margin of A: 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> </persName>
 أحمد … 
-<persName ref=""><forename>أحمد</forename> <addName>بن هشام</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>أحمد</forename> <addName>بن هشام</addName></persName>
 ‬‎</p></note>
 							</hi>
 						</p>
@@ -1093,7 +1093,7 @@ unicode-bidi:embed">ول
 						<p style="direction:rtl; unicode-bidi:embed">كان طبيباً نبيلاً خدم الأمير 
 <persName ref="https://usaybia.net/person/43"><forename>عبد الرحمن</forename> </persName>
 بالطب وهو الذي ألف له حب الأنيسون وكان عالماً فهماً 
-ول<persName ref=""><forename>عمران</forename> <addName>بن أبي عمرو</addName> </persName>
+ول<persName ref="https://usaybia.net/person/placeholder"><forename>عمران</forename> <addName>بن أبي عمرو</addName> </persName>
 من الكتب كناش.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="17">
@@ -1232,7 +1232,7 @@ unicode-bidi:embed">ول
 							قال 
 <persName ref="https://usaybia.net/person/1016"><addName type="shuhra">ابن جلجل</addName> </persName>
 <note n="10" type="footnote"><p>AGc: om. قال 
-<persName ref=""><addName type="shuhra">ابن جلج</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن جلج</addName></persName>
 </p></note>
 							ورأيت له 
 							 
@@ -1242,7 +1242,7 @@ unicode-bidi:embed">ول
 							 للأشربة صناعين للمعجونات بين يديه <note n="12" type="footnote"><p>Above the line in A, BGc om.: بين يديه</p></note>
 							وكان قد 
 							<persName ref='https://usaybia.net/person/814'>استأذن أمير المؤمنين المستنصر</persName> 
-								note n="13" type="footnote"><p>Above the line in A, BGc om.: المستنصر</p></note>
+								<note n="13" type="footnote"><p>Above the line in A, BGc om.: المستنصر</p></note>
 							أن يعطي منها ما احتاج من المساكين والمرضى فأباح له ذلك وكان يداوي العين مداواة نفيسة وله بقرطبة آثار في ذلك وكان يواسي بعلمه صديقه وجاره والمساكين والضعفاء وولاه  
 <persName ref="https://usaybia.net/person/890"><addName>المؤيد بالله</addName> هشام </persName>
 خُطّة الشرطة وخُطّة السوق ومات بحمى الربع وعلة الإسهال وخلف عما قيمته أزيد من مائة ألف دينار. <note n="14" type="footnote"><p>Above the line in A, BGc om.: وخلف عما قيمته أزيد من مائة ألف دينار صح</p></note>
@@ -1333,7 +1333,7 @@ unicode-bidi:embed">ول
 							حاراً كما يسفح وبرأ وهذا بحث عجيب واستقصاء ودؤوب على التعليم.‬‎
 						</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>بن إسحاق</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>يحيى</forename> <addName>بن إسحاق</addName> </persName>
 من الكتب كتاب كبير في الطب.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="22">
@@ -1420,16 +1420,16 @@ unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>
 <persName ref="https://usaybia.net/person/913"><forename>أحمد</forename> <addName>بن محمدربه </addName> <addName>بن عبد</addName> أبي عمرو</persName>
 
  الشاعر صاحب كتاب العقد وكانت وفاة عمه هذا 
-<persName ref=""><forename>أحمد</forename> <addName>بن محمد</addName> <addName>بن عبد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>أحمد</forename> <addName>بن محمد</addName> <addName>بن عبد</addName> </persName>
 ربه في شهر <note n="6" type="footnote"><p>A: om. شهر</p></note>
 							جمادى الأولى من سنة ثمان وعشرين وثلاثمائة ومولده في سنة ست وأربعين ومائتين لعشر خلون من شهر رمضان. <note n="7" type="footnote"><p>B: om. وكانت وفاة … شهر رمضان‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان سعيد 
-<persName ref=""><addName type="shuhra">ابن عبد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن عبد</addName> </persName>
 ربه <note n="8" type="footnote"><p>B: om. سعيد 
-<persName ref=""><addName type="shuhra">ابن عبد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن عبد</addName> </persName>
 ربه</p></note>
 							طبيباً فاضلاً وشاعراً محسناً وله في الطب رجز جليل محتو على جملة حسنة منه دل به على تمكنه من العلم وتحققه لمذاهب القدماء وكان له مع ذلك بصر بحركات الكواكب وطبائعها ومهاب الرياح وتغير الأهوية <note n="9" type="footnote"><p>In margin of A, BGcH om.: وكان له مع ذلك … الرياح وتغير الأهوية‬‎</p></note>
 							وكان مذهبه في مداواة الحميات أن يخلط بالمبردات شيئاً من [الحوار] <note n="10" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 104: الحوار. Blank space in ABR; Gc: من المبردات شيئاً; H: ذلك</p></note>
@@ -1450,9 +1450,9 @@ unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>
 ناهض إلى صاحب المدينة 
 <persName ref="https://usaybia.net/person/429"><forename>أحمد</forename> <addName>بن عيسى</addName> </persName>
 فقام إليه وقضى واجب حقه بالسلام عليه وسأله عن علتي واستخبر 
-<persName ref=""><addName type="kunya">أبي عما</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي عما</addName> </persName>
 عولجت به فسفه علاج من عالجني وبعث إلى 
-<persName ref=""><addName type="kunya">أبي بثمان</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي بثمان</addName> </persName>
 عشرة حبة من حبوب مدورة وأمر أن أشرب منها كل يوم حبة فما استوعبتها حتى أقلعت الحمى وبرئت برؤأ تاماً.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وعمي سعيد رحمه الله في آخر أيامه. <note n="12" type="footnote"><p>In margin of A, BGcH om.: وعمي سعيد رحمه الله في آخر أيامه</p></note>
@@ -1463,7 +1463,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ومن شعر 
-<persName ref=""><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
 ربه أنه افتصد يوماً فبعث إلى 
 عمه <note n="13" type="footnote"><p>A: add. الى crossed out.</p></note>
 							
@@ -1513,7 +1513,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>
 							</lg>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">وقال 
-<persName ref=""><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
 ربه أيضاً في آخر عمره وكان جميل المذهب منقبضاً عن الملوك:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -1549,7 +1549,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يحيى</forename> <addName>
 							<hi rend="bold">[‭13.24.4‬]</hi>
 						</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>سعيد</forename> <addName>بن عبد</addName> </persName>
 ربه من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -1576,7 +1576,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>سعيد</forename> <addName>
  وكان لزمه 
 <persName ref="https://usaybia.net/person/1739"><forename>نجم</forename> <addName>بن طرفة</addName> </persName>
 صاحب البيازرة قد استخلصه لنفسه وقام به وأغناه وشاركه في كل دنياه ولم يطل عمره. <note n="2" type="footnote"><p>In margin of A: 
-<persName ref=""><forename>عمر</forename> <addName>بن حفص</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>عمر</forename> <addName>بن حفص</addName> </persName>
 … يطل عمره‬‎</p></note>
 							‬‎
 						</p>
@@ -1628,7 +1628,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>سعيد</forename> <addName>
 							 في سنة ثمان وخمسين وثلاثمائة.‬‎
 						</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>بن تمليخ</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>محمد</forename> <addName>بن تمليخ</addName> </persName>
 من الكتب كتاب في الطب.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="28">
@@ -1688,7 +1688,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 							 
 							 <rs ref='https://usaybia.net/person/926'>ني</rs>
 							 عنه الوزير 
-<persName ref=""><addName type="kunya">أبو المطرف</addName> <forename>عبد الرحمن</forename> <addName>بن محمد</addName> <addName>بن عبد الكبير</addName> <addName>بن وافد</addName> <addName>اللخمي</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو المطرف</addName> <forename>عبد الرحمن</forename> <addName>بن محمد</addName> <addName>بن عبد الكبير</addName> <addName>بن وافد</addName> <addName>اللخمي</addName> </persName>
 إنه كان دقيق الذهن ذكي الخاطر جيد الفهم حسن التوليد والتنتيج <note n="3" type="footnote"><p>Ṣāʿid al-Andalusī, <hi rend="italic">Ṭabaqāt</hi> (Cheikho), 82: والتنتيج; R: والتسيح; AHB: والتسبيح</p></note>
 							وكان ذا ثروة وغنى واسع وتوفي قريباً من سنة عشرين وأربعمائة وهو قد قارب ثمانين سنة قال وقرأت في بعض تآليفه أنه أخذ صناعة المنطق عن 
 <persName ref="https://usaybia.net/person/1607"><forename>محمد</forename> <addName>بن عبدون</addName> <addName>الجبلي</addName> </persName>
@@ -1740,7 +1740,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 						<p style="direction:rtl; unicode-bidi:embed">
 							كان طبيباً عالماً جيد القريحة حسن الفطنة دقيق النظر بصيراً بالمنطق مشرفاً على كثير من علوم الفلسفة وكان متصلاً 
 							ب
-							<persName ref='https://usaybia.net/person/1300'>الحاجب جعفر الصقلي<</persName> 
+							<persName ref='https://usaybia.net/person/1300'>الحاجب جعفر الصقل</persName> 
 							ومستولياً على خاصته فأوصله بالحكم 
 <persName ref="https://usaybia.net/person/814"><addName>المستنصر بالله</addName> <addName>الأموي</addName> </persName>
 المستولي على جزيرة الأندلس <note n="2" type="footnote"><p>BH: om. لأموي المستولي على جزيرة الأندلس</p></note>
@@ -1830,10 +1830,10 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 						أخبرني 
 <persName ref="https://usaybia.net/person/942"><addName type="kunya">أبو عثمان</addName> <forename>سعيد</forename> <addName>بن محمد</addName> <addName>بن البغونش</addName> <addName>الطليطلي</addName> </persName>
 أنه لم يلق في قرطبة أيام طلبه فيها من يلحق 
-ب<persName ref=""><forename>محمد</forename> <addName>بن عبدون</addName> <addName>الجبلي</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><forename>محمد</forename> <addName>بن عبدون</addName> <addName>الجبلي</addName> </persName>
 في صناعة الطب ولا يجاريه في ضبطها وحسن دربته فيها وإحكامه لغوامضها.‬‎</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>بن عبدون</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>محمد</forename> <addName>بن عبدون</addName> </persName>
 من الكتب كتاب في التكسير.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="35">
@@ -1860,9 +1860,9 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب الاكتفاء بالدواء من خواص الأشياء صنفه للحاجب القائد 
-<persName ref="https://usaybia.net/person/1503'"><addName type="kunya">أبي عامر</addName> <forename>محمد</forename> <addName>بن أبي عامر</addName> </persName>
+<persName ref="https://usaybia.net/person/1503"><addName type="kunya">أبي عامر</addName> <forename>محمد</forename> <addName>بن أبي عامر</addName> </persName>
 <note n="3" type="footnote"><p>In margin of A, Gc om.: صنفه للحاجب … 
-<persName ref=""><addName>بن أبي عامر</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن أبي عامر</addName></persName>
 ‬‎</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
@@ -2025,7 +2025,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							
-ول<persName ref=""><addName type="shuhra">ابن جلجل</addName> </persName>
+ول<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن جلجل</addName> </persName>
 من الكتب: <note n="23" type="footnote"><p>A: وله من الكتب</p></note>
 							‬‎
 						</p>
@@ -2041,7 +2041,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 							<item style="direction:rtl; unicode-bidi:embed">
 								مقالة <note n="24" type="footnote"><p>A: add. له</p></note>
 								في ذكر الأدوية التي لم يذكرها ديسقوريدس في كتابه مما يستعمل في صناعة الطب وينتفع به وما لا يستعمل لكيلا يغفل ذكره وقال 
-<persName ref=""><addName type="shuhra">ابن جلجل</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن جلجل</addName> </persName>
 إن 
 <persName ref='https://usaybia.net/person/720'>ديسقوريدس</persName> 
 أغفل ذلك ولم يذكره إما لأنه لم يره ولم يشاهده عياناً وإما لأن ذلك كان غير مستعمل في دهره وأبناء جنسه
@@ -2184,7 +2184,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							
-ول<persName ref=""><addName type="shuhra">ابن وافد</addName> </persName>
+ول<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن وافد</addName> </persName>
 من الكتب: <note n="7" type="footnote"><p>A: وله من الكتب</p></note>
 							‬‎
 						</p>
@@ -2327,11 +2327,11 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 <p>Marginal note in A referring to the interleaf after f. 200: تلوه في الأصل 
 
 
-<persName ref=""><forename>منجم</forename> <addName>بن الفوال</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>منجم</forename> <addName>بن الفوال</addName> </persName>
 وتلو 
 <persName ref="https://usaybia.net/person/1522"><forename>مروان</forename> <addName>بن جناح</addName> <addName>الوارد</addName> </persName>
 الأصل بهده وقبل 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> <addName>الوارد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> <addName>الوارد</addName> </persName>
 الأصل أيضاً</p></note>
 							‬‎
 						</p>
@@ -2409,7 +2409,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 من أحبار اليهود متقدماً في علم شريعتهم وهو أول من فتح لأهل (‭٢٠٠‬*ب) الأندلس منهم باب علمهم من الفقه والتأريخ وغير ذلك وكانوا قبل يضطرون في فقه دينهم وسني تأريخهم ومواقيت أعيادهم إلى 
 <persName ref="https://usaybia.net/person/2571">يهود بغداد</persName>
  فيستجلبون من عندهم حساب عدة من السنين يتعرفون به مداخل تأريخهم ومبادئ سنيهم فلما اتصل حسداي بالحكم ونال عنده نهاية الحظوة توصل به إلى استجلاب ما شاء من تآليف اليهود بالمشرق فعلم حينئذ
- <persName ref="https://usaybia.net/person/2572" يهود الأندلس></persName>
+ <persName ref="https://usaybia.net/person/2572"> يهود الأندلس</persName>
   ما كانوا قبل يجهلونه واستغنوا عما كانوا يتجشمون الكلفة فيه.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="50">
@@ -2427,7 +2427,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 							عليه السلام عني بالعلوم على مراتبها وتناول المعارف من طرقها فأحكم علم لسان العرب ونال حظاً جزيلاً من صناعة الشعر والبلاغة وبرع في علم العدد وعلم الهندسة وعلم النجوم <note n="4" type="footnote"><p>A: في علم العدد والهندسة والنجوم</p></note>
 							وفهم صناعة الموسيقى وحاول عملها وأتقن علم المنطق وتمرن <note n="5" type="footnote"><p>H: وتمرس</p></note>
 							بطرق البحث والنظر واشتغل أيضاً بالعلم الطبيعي وكان له نظر في الطب وكان في سنة ثمان وخمسين وأربعمائة في الحياة وهو في سن الشبيبة. <note n="6" type="footnote"><p>Marginal note in A: يتلوه مما ورد الأصل 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> <forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName></persName>
 </p></note>
 							‬‎
 						</p>
@@ -2520,7 +2520,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>محمد</forename> <addName>
 							<hi rend="bold">[‭13.51.4‬]</hi>
 						</p>
 						<p style="direction:rtl; 
-unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> </persName>
+unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><forename>يوسف</forename> <addName>بن أحمد</addName> <addName>بن حسداي</addName> </persName>
 من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -2532,7 +2532,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 إلى الأطباء صنفه للمأمون 
 <persName ref="https://usaybia.net/person/83"><addName type="kunya">أبي عبد الله محمد الآمري </addName> </persName>
  <note n="11" type="footnote"><p>In margin of A, Gc om.: صنفه للمأمون 
-<persName ref=""><addName type="kunya">أبي عبد الله</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي عبد الله</addName> </persName>
 محمد الأمري</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
@@ -2543,11 +2543,11 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 							تعاليق
-							 <rs ref=" https://usaybia.net/person/926">وجدت</persName>
+							 <rs ref="https://usaybia.net/person/926">وجدت</rs>
 							 بخطه كتبها عند وروده على الإسكندرية من الأندلس</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">فوائد مستخرجة استخرجها وهذبها من شرح 
-<persName ref=" https://usaybia.net/person/1093"><forename>علي</forename> <addName>بن رضوان</addName> <addName>
+<persName ref=" https://usaybia.net/person/1093"><forename>علي</forename> <addName>بن رضوان</addName></persName> 
 لكتاب
 
 <persName ref='https://usaybia.net/person/786'>جالينوس</persName>
@@ -2584,12 +2584,12 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
  الحاجب
  <persName ref="https://usaybia.net/person/1503"><addName type="kunya"> محمد ابن أبي عامر المنصور </addName> </persName>
 <note n="2" type="footnote"><p>In margin of A, Gc om.: وقال 
-<persName ref=""><addName type="kunya">أبو يحيى</addName> <addName>اليسع</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو يحيى</addName> <addName>اليسع</addName> </persName>
 … محمد ابن 
-<persName ref=""><addName type="kunya">أبي عامر</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي عامر</addName></persName>
 ‬‎</p></note>
 							أقول وكانت وفاة 
-<persName ref=""><forename>محمد</forename> <addName>بن أبي عامر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>محمد</forename> <addName>بن أبي عامر</addName> </persName>
 في سنة اثنتين وتسعين وثلاثمائة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولابن سمجون من الكتب:‬‎</p>
@@ -2752,13 +2752,13 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ولقد تلطف 
-<persName ref=""><addName type="kunya">أبو الصلت</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو الصلت</addName> </persName>
 جداً فيما صنعه وفي التحيل إلى رفع المركب إلا أن القدر لم يساعده وحنق عليه
 <rs ref="https://usaybia.net/person/1455"> الملك</rs> 
 لما غرمه من الآلات وكونها مرت ضائعة وأمر بحبسه وأن يستوجب ذلك وبقي في الاعتقال مدة إلى أن شفع فيه بعض الأعيان وأطلق وكان ذلك في خلافة
  <persName ref='https://usaybia.net/person/499'>الآمر بأحكام الله</persName>
   ووزارة الملك 
-<persName ref="https://usaybia.net/person/1455'"><forename>الأفضل</forename> <addName>بن أمير</addName> <addName>الجيوش</addName></persName>
+<persName ref="https://usaybia.net/person/1455"><forename>الأفضل</forename> <addName>بن أمير</addName> <addName>الجيوش</addName></persName>
 . <note n="17" type="footnote"><p>B: om. وكان … أمير الجيوش‬‎</p></note>
 							‬‎
 						</p>
@@ -2782,7 +2782,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 المعروف
 رجع</p></note>
 							في ما هذا مثاله قال وردتني رقعة من الشيخ 
-<persName ref=""><addName type="kunya">أبي الصلت</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي الصلت</addName> </persName>
 وكان معتقلاً وفي آخرها نسخة قصيدتين خدم بهما المجلس 
 <persName ref='https://usaybia.net/person/1455'>الأفضلي</persName>
 .‬‎
@@ -2805,7 +2805,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.58.3.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-						<rs ref"https://usaybia.net/person/320">فكتبت </rs>
+						<rs ref="https://usaybia.net/person/320">فكتبت </rs>
 						إليه:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -2865,7 +2865,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							وأما <note n="25" type="footnote"><p>The extant Ch. 13 in <hi rend="smallcaps">MS</hi> Ga begins here.</p></note>
 							ما أشار إليه من أن الذي مُني به تمحيص أوزار سبقت وتنقيص ذنوب اتفقت فقد حاشاه الله من الدنايا وبرأه من الآثام والخطايا بل ذاك <note n="26" type="footnote"><p>A: ذلك, above the line ذاك</p></note>
 							اختبار لتوكله وثقته وابتلاء لصبره وسريرته كما يبتلى المؤمنون الاتقياء ويمتحن الصالحون والأولياء والله تعالى يدبره بحسن تدبيره ويقضي له بما الحظ في تسهيله وتيسيره
-							 <rs ref"Der Sultan">بكرمه </rs>
+							 <rs ref="Der Sultan">بكرمه </rs>
 							 <note n="27" type="footnote"><p>Gc: ويقضي إليه بتسهيله كل صعب عسير</p></note>
 							وقد اجتمعت بفلان فأعلمني أنه تحت وعد أدّاه الاجتهاد إلى تحصيله وإحرازه ووثق من المكارم الفائضة بالوفاء به وإنجازه وأنه ينتظر فرصة في التذكار ينتهزها ويغتنمها ويرتقب فرجة للخطاب يتولجها ويقتحمها والله تعالى يعينه على ما يضمر من ذلك وينويه ويوفقه فيما يحاوله ويبغيه.‬‎
 						</p>
@@ -2879,7 +2879,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.58.4.1‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							<rs ref"https://usaybia.net/person/926">أقول</persName> 
+							<rs ref="https://usaybia.net/person/926">أقول</rs> 
 						وكانت وفاة 
 <persName ref="https://usaybia.net/person/346"><addName type="kunya">أبي الصلت</addName> </persName>
 رحمه الله يوم الاثنين مستهل المحرم سنة تسع وعشرين وخمسمائة بالمهدية ودفن في المنستير وقال عند موته أبياتاً وأمر أن تنقش على قبره وهي:‬‎</p>
@@ -2912,11 +2912,11 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.58.4.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولما كان 
-<persName ref=""><addName type="kunya">أبو الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
 قد توجه إلى الأندلس قال 
 <persName ref='https://usaybia.net/person/2348'>ظافر الحداد الإسكندري</persName>
  وأنفذها إلى المهدية إلى الشيخ 
-<persName ref=""><addName type="kunya">أبي الصلت</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي الصلت</addName> </persName>
 من مصر يذكر شوقه إليه وأيام اجتماعهما بالإسكندرية:‬‎</p>
 						<lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -2958,7 +2958,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">لقد ضاءلتْني يا 
-<persName ref=""><addName type="kunya">أبا الصلْت</addName></persName> مُـذْ نـأتْ‬‎</l>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا الصلْت</addName></persName> مُـذْ نـأتْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">ديارُك عن داري هـمـومٌ وأشـواقُ‬‎</l>
 							</lg>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
@@ -3115,7 +3115,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.58.4.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ومن شعر 
-<persName ref=""><addName type="kunya">أبي الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي الصلت</addName> <forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
 قال يمدح 
 <persName ref="https://usaybia.net/person/361"><addName type="kunya">أبا الطاهر</addName> <forename>يحيى</forename> <addName>بن تميم</addName> <addName>بن معز</addName> <addName>بن باديس</addName> </persName>
 ويذكر وصول 
@@ -3505,7 +3505,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال في الموضع المعروف 
-ب<persName ref=""><addName type="shuhra">بركة</addName> <addName>الحبش</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">بركة</addName> <addName>الحبش</addName> </persName>
 بمصر: <note n="75" type="footnote"><p>A: بمصر; in margin of L: بمصر; H: بمدينة مصر</p></note>
 							‬‎
 						</p>
@@ -3704,7 +3704,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<lg style="direction:rtl; unicode-bidi:embed" type="halfverse">
 								<l style="direction:rtl; unicode-bidi:embed">وها أنا بين عِدًى كلُّـهـمْ‬‎</l>
 								<l style="direction:rtl; unicode-bidi:embed">عليَّ فكنْ 
-ب<persName ref=""><addName type="kunya">أبي أنت</addName> <addName>لي</addName></persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي أنت</addName> <addName>لي</addName></persName>
 ‬‎</l>
 							</lg>
 						</lg>
@@ -4206,7 +4206,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.58.5‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولأبي الصلت 
-<persName ref=""><forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>أمية</forename> <addName>بن عبد العزيز</addName> </persName>
 من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -4283,7 +4283,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 في صدر المجموع الذي نقله من أقاويل 
 <persName ref="https://usaybia.net/person/943"><addName type="kunya">أبي بكر</addName> <forename>محمد</forename> <addName>بن الصائغ</addName> <addName>بن باجة</addName> </persName>
 ما هذا مثاله هذا مجموع ما قيد من أقوال 
-<persName ref=""><addName type="kunya">أبي بكر</addName> <addName>بن الصائغ</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي بكر</addName> <addName>بن الصائغ</addName> </persName>
 رحمه الله في العلوم الفلسفية وكان في ثقابة الذهن ولطف الغوص على تلك المعاني الجليلة الشريفة الدقيقة أعجوبة دهره ونادرة الفلك في زمانه فإن هذه الكتب الفلسفية كانت متداولة بالأندلس من زمان 
 <persName ref='https://usaybia.net/person/814'>الحكم</persName>
  مستجلبها <note n="4" type="footnote"><p>Cf. al-Maʿṣūmī, ‘Ibn al-Imām’, 103: مستجليها</p></note>
@@ -4349,16 +4349,16 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.59.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-					<rs ref"https://usaybia.net/person/926">=أقول</persName>
+					<rs ref="https://usaybia.net/person/926">أقول</rs>
 							وكان هذا 
 <persName ref="https://usaybia.net/person/1005"><addName type="kunya">أبو الحسن</addName> <forename>علي</forename> <addName>بن الإمام</addName> </persName>
 من غرناطة وكان كاتباً فاضلاً متميزاً في العلوم وصحب 
-<persName ref="https://usaybia.net/person/943"><addName type="kunya">أبا بكر</forename> <addName>بن باجة</addName> </persName>
+<persName ref="https://usaybia.net/person/943"><addName type="kunya">أبا بكر</addName> <addName>بن باجة</addName> </persName>
 مدة واشتغل عليه وسافر 
 <persName ref="https://usaybia.net/person/1005"><addName type="kunya">أبو الحسن</addName> <forename>علي</forename> <addName>بن الإمام</addName> </persName>
 من المغرب <note n="24" type="footnote"><p>AGcR: الغرب</p></note>
 							وتوفي بقوص وكان من جملة تلاميذ 
-<persName ref=""><addName type="shuhra">ابن باجة</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن باجة</addName> </persName>
 أيضاً القاضي 
 <persName ref="https://usaybia.net/person/1096"><addName type="kunya"> أبو الوليد محمد ابن رشد</addName> </persName>
  <note n="25" type="footnote"><p>Above the line in A: محمد</p></note>
@@ -4376,7 +4376,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ومن كلام 
-<persName ref=""><addName type="shuhra">ابن باجة</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن باجة</addName> </persName>
 قال الأشياء التي <note n="28" type="footnote"><p>A: الذي</p></note>
 							ينفع تعلمها بعد زمان طويل لا يضيع تذكرها وقال حسن عملك تفز بخير من الله سبحانه.‬‎
 						</p>
@@ -4449,7 +4449,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 بن أحمد
 </p></note>
 								
-<persName ref=""><addName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>
 </addName> </persName>
 بعد قدومه إلى مصر
 							</item>
@@ -4467,7 +4467,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 <persName ref="https://usaybia.net/person/1162"><addName type="shuhra">ابن وافد</addName> </persName>
 <note n="34" type="footnote"><p>A: وافدي</p></note>
 								واشترك في تأليف هذا الكتاب 
-<persName ref=""><addName type="kunya">أبو بكر</addName> <addName>بن باجة</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> <addName>بن باجة</addName> </persName>
 و
 <persName ref='https://usaybia.net/person/210'>أبو الحسن سفيان</persName>
 							</item>
@@ -4508,16 +4508,16 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو 
-<persName ref=""><addName type="kunya">
-أبو مروان عبد الملك بن 
-<persName ref='https://usaybia.net/person/1625'>الفقيه محمد بن مروان بن زهر الإيادي الإشبيلي</persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">
+أبو مروان عبد الملك بن </addName></persName>
+	<persName ref='https://usaybia.net/person/1625'>الفقيه محمد بن مروان بن زهر الإيادي الإشبيلي</persName>
  
  كان فاضلاً في صناعة الطب خبيراً بأعمالها مشهوراً بالحذق
  <note n="2" type="footnote"><p>Gc: بأعمالها وبحاذقا في أمرها</p></note>
 							وكان والده الفقيه محمد <note n="3" type="footnote"><p>A: add. 
 <persName ref="https://usaybia.net/person/1172"><addName type="shuhra">ابن زهر</addName></persName>
 ; Gc: add. 
-<persName ref=""><addName>بن مروان</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن مروان</addName></persName>
 </p></note>
 							من جملة الفقهاء والمتميزين في علم الحديث بإشبيلية.‬‎
 						</p>
@@ -4535,7 +4535,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							  فلما وصل 
 <persName ref=" https://usaybia.net/person/1172"><addName type="kunya">أبو مروان</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 <note n="5" type="footnote"><p>In margin of A: 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 صح</p></note>
 							إليه أكرمه إكراماً كثيراً وأمره أن يقيم عنده ففعل وحظي في أيامه واشتهر في دانية بالتقدم في صناعة الطب وطار ذكره منها إلى أقطار الأندلس. <note n="6" type="footnote"><p>Gc: وتساع ذكره منها في الأقطار</p></note>
 							‬‎
@@ -4586,17 +4586,17 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 في كتاب التصريح بالمكنون في تنقيح القانون إن
 							<persName ref="https://usaybia.net/person/2530">رجلاً من التجار</persName>
   جلب من العراق إلى الأندلس نسخة من هذا الكتاب وقد بولغ في تحسينها فاتحف بها 
-ل<persName ref=""><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
+ل<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
 تقرباً إليه ولم يكن هذا الكتاب وقع إليه قبل ذلك فلما تأمله ذمه واطرح ولم يدخله خزانة كتبه وجعل يقطع من طرره ما يكتب فيه نسخ الأدوية لمن يستفتيه من المرضى.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.61.2.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وقال 
-<persName ref="https://usaybia.net/person/1167"><addName type="kunya"> أبو يحيى اليسع بن  بن عيسى حزم بن اليسع</persName>
+<persName ref="https://usaybia.net/person/1167"><addName type="kunya"> أبو يحيى اليسع بن  بن عيسى حزم بن اليسع</addName></persName>
 <note n="4" type="footnote"><p>L: اليسنع</p></note>
 في كتاب المعرب عن محاسن أهل المغرب إن 
-<persName ref=""><addName type="kunya">أبا العلاء</addName> <addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا العلاء</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 كان مع صغر سنه تصرخ النجابة بذكره وتخطب المعارف بشكره ولم يزل يطالع كتب الأوائل متفهماً ويلقى الشيوخ مستعلماً والسعد ينهج له مناهج التيسير والقدر لا يرضى له من الوجاهة باليسير <note n="5" type="footnote"><p>Gc: om. والقدر لا يرضى له من الوجاهة باليسير</p></note>
 							حتى برز في الطب إلى غاية عجز <note n="6" type="footnote"><p>A: برز, in margin عجز</p></note>
 							الطب عن مرامها وضعف الفهم عن إبرامها وخرجت عن <note n="7" type="footnote"><p>L: من</p></note>
@@ -4610,13 +4610,13 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							و
-							<rs ref="https://usaybia.net/person/926"نقلت</rs>
+							<rs ref="https://usaybia.net/person/926">نقلت</rs>
 							 من خط 
 <persName ref="https://usaybia.net/person/1612"><forename>محمد</forename> <addName>بن أحمد</addName> <addName>بن صالح</addName> <addName>العبدي</addName> </persName>
 وهو من أهل المغرب وله نظر وعناية بصناعة الطب قال 
 <persName ref="https://usaybia.net/person/117"><addName type="kunya">أبو العيناء</addName> <addName>المصري</addName> </persName>
 وهو شيخ 
-<persName ref=""><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
 ومن قبله انصرف من بغداد وحكايته معه طويلة قال أخبرني بهذا الشيخ الطبيب 
 <persName ref="https://usaybia.net/person/1105"><addName type="kunya">أبو القاسم هشام ابن إسماعيل بن محمد بن صاحب الصلاة</addName> </persName>
 <note n="11" type="footnote"><p>L: القسم</p></note>
@@ -4624,7 +4624,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من جملة تلاميذ 
-<persName ref=""><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
 في الطب 
 <persName ref="https://usaybia.net/person/107"><addName type="kunya">أبو عامر</addName> <addName>بن ينق</addName> <addName>الشاطبي</addName> </persName>
 الشاعر.‬‎</p>
@@ -4633,10 +4633,10 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وتوفي 
-<persName ref=""><addName type="kunya">أبو العلاء</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو العلاء</addName> <addName>بن زهر</addName> </persName>
 في سنة […] <note n="13" type="footnote"><p>Blank space in all Mss.</p></note>
 							ودفن بإشبيلية خارج باب الفتح ومن شعر 
-<persName ref=""><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي العلاء</addName> <addName>بن زهر</addName> </persName>
 قال في التغزل:‬‎
 						</p>
 						<lg>
@@ -4677,7 +4677,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 قاضي قضاة <note n="15" type="footnote"><p>L: om. قضاء</p></note>
 							إشبيلية وقد <note n="16" type="footnote"><p>GaL: om. وقد.</p></note>
 							وصله عنه إنه قال أيمرض 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 على جهة الاستهزاء:‬‎
 						</p>
 						<lg>
@@ -4731,7 +4731,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<hi rend="bold">[‭13.61.4‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولأبي 
-<persName ref=""><forename>العلاء</forename> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>العلاء</forename> <addName>بن زهر</addName> </persName>
 من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -4757,14 +4757,14 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في الرد على 
 <persName ref=" https://usaybia.net/person/1125"><addName type="kunya">أبي علي</addName> <addName type="shuhra">ابن سينا</addName> </persName>
 في مواضع من كتابه في الأدوية المفردة ألفها لابنه 
-<persName ref=""><addName type="kunya">أبي مروان</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName></persName>
 </item>
 							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب النكت الطبية كتب بها إلى ابنه 
-<persName ref=""><addName type="kunya">أبي مروان</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName> </persName>
 <note n="21" type="footnote"><p>In margin of A, Gc om.: كتبها إلى ابنه 
-<persName ref=""><addName type="kunya">أبي مروان</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName></persName>
 </p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
@@ -4776,7 +4776,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 								ومجربات أمر بجمعها 
 <persName ref="https://usaybia.net/person/484"><forename>علي</forename> <addName>بن يوسف</addName> <addName>بن تاشفين</addName> </persName>
 بعد وفاة 
-<persName ref=""><addName type="kunya">أبي العلاء</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي العلاء</addName> </persName>
 فجمعت بمراكش وبسائر بلاد العدوة والأندلس وانتسخت في جمادى الآخرة سنة ست وعشرين وخمسمائة <note n="22" type="footnote"><p>In margin of A, Gc om.: انتسخت في …‬‎ وعشرين وخمسمائة; <hi rend="smallcaps">MS</hi> Ga ends here.</p></note>
 							</item>
 						</list>
@@ -4824,7 +4824,7 @@ unicode-bidi:embed">ول<persName ref=""><forename>يوسف</forename> <addName>
 							في تأتيه إلى أن نال الملك وصفا له الأمر معروفة مشهورة ولما استقل 
 <persName ref="https://usaybia.net/person/36"><forename>عبد المؤمن</forename> </persName>
 بالمملكة وعرف بأمير المؤمنين واستولى على خزائن المغرب بذل الأموال وأظهر العدل وقرب أهل العلم وأكرمهم ووالى إحسانه إليهم واختص <note n="9" type="footnote"><p>A: add. 
-<persName ref=""><forename>عبد الملك</forename> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>عبد الملك</forename> </persName>
 crossed out.</p></note>
 							
 <persName ref="https://usaybia.net/person/1173"><addName type="kunya">أبا مروان</addName> <forename>عبد الملك</forename> <addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
@@ -4867,7 +4867,7 @@ crossed out.</p></note>
 <note n="14" type="footnote"><p>H: add. محمد</p></note>
 بن ‭[ii,67]‬ العربي <note n="15" type="footnote"><p>Above the line in A: 
 ; Gc: 
-<persName ref=""><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن علي</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن علي</addName></persName>
 </p></note>
 							 <note n="16" type="footnote"><p>Above the line in A, Gc om.: الحاتمي</p></note>
 							من أهل مرسية أن 
@@ -4882,7 +4882,7 @@ crossed out.</p></note>
  به سوء قتبه 
 <note n="17" type="footnote"><p>A: قنية; B: فىيه; H: فيىه; P: قنىه; R: قنيه</p></note>
 							وقد كبر جوفه واصفر لونه فكان أبداً يشكوا إليه حاله ويسأله النظر في أمره فلما كان في بعض الأيام سأله مثل ذلك فوقف 
-<persName ref=""><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
 عنده ونظر إليه فوجد عند رأسه إبريقاً عتيقاً يشرب منه الماء فقال اكسر هذا الإبريق فإنه سبب مرضك فقال 
 لا بالله
 يا سيدي فإني ما لي غيره فأمر بعض خدمه بكسره فكسره <note n="18" type="footnote"><p>HL: om. فكسره</p></note>
@@ -4905,25 +4905,25 @@ crossed out.</p></note>
 							كان باشبيلية حكيم فاضل في صناعة الطب يعرف
 							 <persName ref='https://usaybia.net/person/1578'>بالفار</persName>
 							  وله كتاب جيد في الأودية المفردة سفران وكان 
-<persName ref=""><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
 كثيراً ما يأكل التين الأخضر ويميل إليه وكان الطبيب المعروف 
-ب<persName ref=""><addName type="shuhra">الفار</addName> <addName>لا</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">الفار</addName> <addName>لا</addName> </persName>
 يغتذي منه بشيء وإن أخذ منه شيئاً فيكون واحدة في السنة فكان يقول هذا 
-ل<persName ref=""><addName type="kunya">أبي مروان</addName> <addName>بن زهر</addName> </persName>
+ل<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName> <addName>بن زهر</addName> </persName>
 أنه لا بد أن تعرض لك <note n="21" type="footnote"><p>B: له</p></note>
 							نغلة صعبة بمداومتك أكل التين <note n="22" type="footnote"><p>H: om. أكل التين</p></note>
 							والنغلة هي الدبيلة بلغتهم وكان 
-<persName ref=""><addName type="kunya">أبو مروان</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> </persName>
 يقول له لا بد لكثرة حميتك وكونك لم تأكل شيئاً من التين أن يصيبك الشناج.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							قال فلم يمت المعروف 
-ب<persName ref=""><addName type="shuhra">الفار</addName> </persName>
+ب<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">الفار</addName> </persName>
 إلا بعلة التشنج وكذلك أيضاً عرض 
-ل<persName ref=""><addName type="kunya">أبي مروان</addName> <addName>بن زهر</addName> </persName>
+ل<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName> <addName>بن زهر</addName> </persName>
 دبيلة في جنبه وتوفي بها وهذا من أبلغ ما يكون من <note n="23" type="footnote"><p>H: om. من</p></note>
 							تقدمة الإنذار قال ولما عرض 
-ل<persName ref=""><addName type="kunya">أبي مروان</addName> </persName>
+ل<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي مروان</addName> </persName>
 هذه العلة كان يعالجها ويصنع لها مراهم وأدوية ولم تؤثر نفعاً يعتد به فكان يقول له ابنه 
 <persName ref=" https://usaybia.net/person/1175"><addName type="kunya">أبو بكر</addName> </persName>
 يا أبي لو
@@ -4936,7 +4936,7 @@ crossed out.</p></note>
 							<hi rend="bold">[‭13.62.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-						<rs ref=" https://usaybia.net/person/926"أقول></rs>
+						<rs ref=" https://usaybia.net/person/926">أقول</rs>
 							 وكان من أجل تلاميذ 
 <persName ref=" https://usaybia.net/person/1173"><addName type="kunya">أبي مروان</addName> <forename>عبد الملك</forename> <addName>بن أبي العلاء</addName> <addName>بن زهر</addName> </persName>
 في صناعة الطب والآخذين عنه 
@@ -5007,7 +5007,7 @@ crossed out.</p></note>
 <rs ref='https://usaybia.net/person/1173'>أبي</rs>ه
  وباشر أعمالها وكان معتدل القامة صحيح البنية قوي الأعضاء وصار في سن الشيخوخة ‭[ii,68]‬ ونضارة لونه وقوة حركاته لم يتبين فيها تغير وإنما عرض له في أواخر عمره ثقل في السمع وكان حافظاً للقرآن وسمع الحديث واشتغل بعلم الأدب والعربية ولم يكن في زمانه أعلم منه بمعرفة اللغة ويوصف بأنه قد أكمل صناعة الطب والأدب وعانى عمل الشعر <note n="2" type="footnote"><p>B: om. الشعر</p></note>
 							وأجاد فيه وله موشحات مشهورة ويغني بها وهي من أجود ما قيل في ذلك وكان ملازماً للأمور الشرعية 
-<persName ref=""><addName>متين الدين</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>متين الدين</addName> </persName>
 قوي النفس محباً للخير <note n="3" type="footnote"><p>Repeated in the margin of A: وكان ملازماً … محباً للخير‬‎</p></note>
 							وكان مهوياً <note n="4" type="footnote"><p>A: مهاباً, in margin مهوباً صح; H: مهيباً</p></note>
 							وله جرأة في الكلام ولم يكن في زمانه أعلم منه بصناعة الطب وذكره قد شاع واشتهر في أقطار الأندلس وغيرها من البلاد.‬‎
@@ -5022,7 +5022,7 @@ crossed out.</p></note>
 <persName ref="https://usaybia.net/person/274"><addName type="kunya">أبو مروان</addName> <forename>محمد</forename> <addName>بن أحمد</addName> <addName>بن عبد الملك</addName> <addName>الباجي</addName> </persName>
 من أهل إشبيلية قال قال لي الشيخ <note n="5" type="footnote"><p>Above the line in A: الشيخ</p></note>
 							الوزير الحكيم 
-<persName ref=""><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
 أنه لازم لجدي 
 <persName ref="https://usaybia.net/person/33"><forename>عبد الملك</forename> <addName>الباجي</addName> </persName>
 سبع سنين يشتغل عليه وقرأ عليه كتاب المدونة 
@@ -5085,9 +5085,9 @@ crossed out.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							قال وكان 
-<persName ref=""><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
 صائب الرأي حسن المعالجة جيد التدبير وقد عرف هذا منه حتى أنه يوماً كان قد كتب والده 
-<persName ref=""><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> <addName>بن زهر</addName> </persName>
 نسخة دواء مسهل لعبد المؤمن الخليفة فلما رآه 
 <persName ref="https://usaybia.net/person/1175"><addName type="kunya">أبو بكر</addName> </persName>
 بعد ذلك وكان في حال شبيبته قال يجب <note n="14" type="footnote"><p>A: ينبغي, above the line يجب</p></note>
@@ -5096,7 +5096,7 @@ crossed out.</p></note>
 <persName ref="https://usaybia.net/person/36"><forename>عبد المؤمن</forename> </persName>
 ذلك الدواء ولما <note n="16" type="footnote"><p>A: فلما, above the line ولما</p></note>
 							رآه أبوه قال يا أمير المؤمنين إن الصواب في قوله وبدل ذلك الدواء المفرد بغيره فأثر نفعاً بيناً وألف 
-<persName ref=""><addName type="kunya">أبو بكر</addName> <addName type="shuhra">ابن زهر</addName> <addName>الترياق</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> <addName type="shuhra">ابن زهر</addName> <addName>الترياق</addName> </persName>
 <note n="17" type="footnote"><p>Gc: add. السبعيني</p></note>
 							الخمسيني للمنصور 
 <persName ref="https://usaybia.net/person/1508"><addName type="kunya">أبي يوسف يعقوب</addName> </persName>
@@ -5114,24 +5114,24 @@ crossed out.</p></note>
 							   كان صديقاً للحفيد 
 <persName ref="https://usaybia.net/person/1175"><addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
 وكان يجالسه كثيراً ويلعب معه بالشطرنج وأنه كان عند الحفيد 
-<persName ref=""><addName type="kunya">أبي بكر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي بكر</addName> </persName>
 يوماً وهما يلعبان بالشطرنج فرآه الحفيد على غير ما يعهده به <note n="18" type="footnote"><p>A: om. به</p></note>
 							من الانبساط فقال له ما لخاطرك كأنه مشتغل بشيء عرفني ما هو فقال نعم إن لي بنتاً زوجتها لرجل وهو يطلبها وقد احتجت إلى ثلاثمائة دينار فقال له العب وما عليك فإن عندي في وقتنا هذا ثلاثمائة دينار إلا خمسة دنانير تأخذها فلعب معه ساعة ثم استدعى بالذهب وأعطاه إياه فلما كان عن قريب <note n="19" type="footnote"><p>AR: قرب</p></note>
 							أتاه صاحبه وترك بين يديه ثلاثمائة دينار إلا خمسة فقال له 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 ما هذا فقال إنني أبعت زيتوناً لي بسبعمائة دينار وقد أتيت منها بثلاثمائة دينار إلا خمسة عوض الذي تفضلتَ به علي وأقرضتني إياه وقد بقي عندي حاصلاً أربعمائة دينار فقال <note n="20" type="footnote"><p>H: add. فقال</p></note>
 							له 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 ارفع هذا عندك وانتفع به فإني ما دفعت لك الذهب على أني أعود <note n="21" type="footnote"><p>A: om. أعود</p></note>
 							آخذه أبداً فأبى الرجل وقال إني <note n="22" type="footnote"><p>L: إنني</p></note>
 							بحمد الله بحال سعة ولا لي حاجة إلى <note n="23" type="footnote"><p>A: om. إلى</p></note>
 							أن آخذ هذا ولا غيره ‭[ii,69]‬ من أحد أصلاً وتفاوضا <note n="24" type="footnote"><p>A: فنقاوضا, above the line وتعاوضا</p></note>
 							في ذلك فقال له 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 يا هذا أنت صديقي أو عدوي فقال له بل صديقك وأحب الناس فيك فقال له <note n="25" type="footnote"><p>L: om. له</p></note>
 							إن الصديقين ما لهما شيء واحد فمتى احتاج أحدهما الى شيء منه تناوله فلم يقبل الرجل فقال له <note n="26" type="footnote"><p>B: إن الصديقين … الرجل فقال له‬‎</p></note>
 							
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 والله لئن لم تأخذه لأعادينك بسببه ولا أعود أكلمك أبداً فأخذه منه وشكره على فعله.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5147,7 +5147,7 @@ crossed out.</p></note>
 							لا يترك شيئاً من كتب المنطق والحكمة باقياً في بلاده وأباد كثيراً منها
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٠٩‬ب‬‎" />
 							بإحراقها بالنار وشدد في أن لا يبقى أحد يشتغل بشيء منها وأنه متى وجد أحد ينظر في هذا العلم أو وجد عنده شيء من الكتب المصنفة فيه فإنه يلحقه ضرر عظيم ولما شرع في ذلك جعل أمره مفوضاً إلى الحفيد 
-<persName ref=""><addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
 وأنه الذي ينظر فيه وأراد الخليفة <note n="28" type="footnote"><p>A: add. بذلك</p></note>
 							أنه إن كان عند ابن <note n="29" type="footnote"><p>R: أبي, above the line بن</p></note>
 							زهر شيء من كتب <note n="30" type="footnote"><p>Above the line in R: كتب</p></note>
@@ -5157,13 +5157,13 @@ crossed out.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							ولما نظر 
-<persName ref=""><addName type="shuhra">ا��ن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ا��ن زهر</addName> </persName>
 في ذلك وامتثل أمر المنصور في جمع <note n="33" type="footnote"><p>L: جميع</p></note>
 							الكتب من عند الكتبيين وغيرهم وأن لا يبقى شيء منها وأهانة المشتغلين بها وكان بإشبيلية
 							<rs ref="https://usaybia.net/person/2534">رجل</rs>
-<persName ref=""><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
 ويحسده وعنده شر فعمل محضراً في أن 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 <note n="34" type="footnote"><p>B: add. إنه</p></note>
 							دائم الاشتغال بهذا الفن والنظر فيه وأن عنده في داره <note n="35" type="footnote"><p>Gc: om. في داره</p></note>
 							شيئاً كثيراً من كتبه وجمع فيه شهادات عدة وبعث به إلى
@@ -5175,11 +5175,11 @@ crossed out.</p></note>
 							السجن ففعل به ذلك وانهزم <note n="38" type="footnote"><p>H: om. يقبض على …‬‎ ذلك وانهزم</p></note>
 							جميع الشهود الذين <note n="39" type="footnote"><p>L: الذي</p></note>
 							وضعوا خطوطهم فيه ثم قال المنصور إنني لم أول 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 في هذا إلا حتى لا ينسبه أحد إلى شيء منه ولا يقال عنه ووالله لو أن جميع أهل الأندلس وقفوا قدامي وشهدوا على 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 بما في هذا المحضر لم أقبل قولهم لما أعرفه في 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 من متانة دينه وعقله.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -5191,10 +5191,10 @@ crossed out.</p></note>
 							<rs ref="https://usaybia.net/person/926">ني</rs>
 <persName ref="https://usaybia.net/person/1095"><addName type="kunya">أبو العباس</addName> <forename>أحمد</forename> <addName>بن محمد</addName> <addName>بن أحمدالإشبيلي</addName> </persName>
 <note n="40" type="footnote"><p>A: om. 
-<persName ref=""><addName>بن أحمد</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن أحمد</addName></persName>
 </p></note>
 							 قال كان الحفيد 
-<persName ref=""><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> </persName>
 قد <note n="41" type="footnote"><p>In margin of A: قد صح</p></note>
 							أتى إليه من
 							 <rs ref="https://usaybia.net/person/2535">الطلبة اثنان</rs> 
@@ -5205,7 +5205,7 @@ crossed out.</p></note>
 المعروف 
 ب<persName ref="https://usaybia.net/person/1532"><addName type="shuhra">المصدوم</addName> </persName>
 وكان غرضهم أن يشتغلوا فيه فلما نظر 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 إلى ذلك الكتاب قال ما هذا ثم أخذه ينظر فيه فلما وجده في علم المنطق رمى به ناحية ثم نهض إليهم حافياً ليضربهم وانهزموا قدامه وتبعهم يعدو على حالته تلك وهو يبالغ في شتمهم وهم يتعادون <note n="44" type="footnote"><p>R: يتعادوان</p></note>
 							قدامه إلى أن رجع عنهم عن <note n="45" type="footnote"><p>A: من</p></note>
 							مسافة بعيدة فبقوا منقطعين عنه أياماً لا يجسرون أن يأتوا إليه <note n="46" type="footnote"><p>R: om. لا يجسرون أن يأتوا إليه</p></note>
@@ -5236,14 +5236,14 @@ crossed out.</p></note>
  <persName ref='https://usaybia.net/person/1508'>المنصور</persName>
   يعادي
    الحفيد 
-<persName ref=""><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن زهر</addName> </persName>
 ويحسده لما يرى من عظم حاله وعلو منزلته وعلمه فاحتال عليه في سم صيره مع أحد من <note n="53" type="footnote"><p>A: ممن</p></note>
 							كان عند الحفيد 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 فقدمه إلى الحفيد 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 <note n="54" type="footnote"><p>Gc: om. 
-<persName ref=""><addName type="shuhra">ابن زهر</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName></persName>
 </p></note>
 							في بيض وكانت مع الحفيد أيضاً
 							<rs ref="https://usaybia.net/person/2536">بنت أخت</rs>
@@ -5266,14 +5266,14 @@ crossed out.</p></note>
 							ولم ينفع فيهما علاج قال ولم يمت 
 <persName ref="https://usaybia.net/person/390"><addName type="kunya">أبو زيد</addName> <forename>عبد الرحمن</forename> </persName>
 <note n="62" type="footnote"><p>A: om. 
-<persName ref=""><forename>عبد الرحمن</forename></persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>عبد الرحمن</forename></persName>
 </p></note>
 							
 <persName ref="https://usaybia.net/person/390"><addName>بن يوجان</addName> </persName>
 إلا مقتولاً قتله بعض أقاربه.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">أقول وكان من أجل تلامذة الحفيد 
-<persName ref=""><addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
 في صناعة الطب والآخذين عنه 
 <persName ref="https://usaybia.net/person/241"><addName type="kunya">أبو جعفر</addName> <addName>بن الغزال</addName></persName>
 .‬‎</p>
@@ -5287,18 +5287,18 @@ crossed out.</p></note>
 <rs ref="https://usaybia.net/person/926">ني</rs>
 <persName ref="https://usaybia.net/person/935"><addName>محيي الدين</addName> <addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن علي</addName> </persName>
 <note n="63" type="footnote"><p>AL: repeat 
-<persName ref=""><addName>بن علي</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن علي</addName></persName>
 </p></note>
 							
 <persName ref="https://usaybia.net/person/935"><addName>بن محمد</addName> <addName>بن العربي</addName> <addName>الحاتمي</addName> </persName>
 قال أنشدني الحفيد 
 <persName ref="https://usaybia.net/person/1175"><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
 <note n="64" type="footnote"><p>In margin of A, Gc om.: أنشدني محيي … 
-<persName ref=""><addName>بن زهر</addName> <addName>لنفسه</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن زهر</addName> <addName>لنفسه</addName></persName>
 ‬‎</p></note>
 							يتشوق إلى 
-							<persName ref='https://usaybia.net/person/1174'>ولد
-							ه
+							<rs ref='https://usaybia.net/person/1174'>ولد
+							ه</rs>
 							:‬‎
 						</p>
 						<lg>
@@ -5330,7 +5330,7 @@ crossed out.</p></note>
 المرتلي القاطن بإشبيلية قال أنشدني الخفيد 
 <persName ref="https://usaybia.net/person/1175"><addName type="kunya">أبو بكر</addName> <addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
 في آخر عمره: <note n="66" type="footnote"><p>AGc: وقال أيضاً في آخر عمره, A add. in margin وأنشدني القاضي … 
-<persName ref=""><addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName>بن زهر</addName> <addName>لنفسه</addName> </persName>
 صح‬‎</p></note>
 							‬‎
 						</p>
@@ -5365,16 +5365,16 @@ crossed out.</p></note>
 						</lg>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وأنشدني أيضاً القاضي 
-<persName ref=""><addName type="kunya">أبو مروان</addName> <addName>الباجي</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> <addName>الباجي</addName> </persName>
 عن 
-<persName ref=""><forename>الحفيد</forename> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>الحفيد</forename> <addName>بن زهر</addName> </persName>
 <note n="68" type="footnote"><p>B: om. عن 
-<persName ref=""><forename>الحفيد</forename> <addName>بن زهر</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>الحفيد</forename> <addName>بن زهر</addName></persName>
 </p></note>
 							له من أبيات: <note n="69" type="footnote"><p>AGc: وقال من أبيات, A add. in margin وأنشدني أيضاً القاضي 
-<persName ref=""><addName type="kunya">أبو مروان</addName> <addName>الباجي</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو مروان</addName> <addName>الباجي</addName> </persName>
 عن 
-<persName ref=""><forename>الحفيد</forename> <addName>بن زهر</addName> <addName>له</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>الحفيد</forename> <addName>بن زهر</addName> <addName>له</addName> </persName>
 من أبيات</p></note>
 							‬‎
 						</p>
@@ -5475,18 +5475,18 @@ crossed out.</p></note>
  سبط 
 <persName ref="https://usaybia.net/person/1174?"><addName type="kunya">الحكيم أبي محمد</addName> <forename>عبد الله</forename> <addName type="shuhra">ابن الحفيد</addName> <addName type="kunya">أبي بكر</addName> <addName type="shuhra">ابن زهر</addName> </persName>
 وكان والد هذا المذكور 
-<persName ref=""><addName type="kunya">أبي عبد الله</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي عبد الله</addName> </persName>
 وهو 
-<persName ref="https://usaybia.net/person/273"><addName type="kunya">أبو مروان</addName> <forename>أحمد</persName>
+<persName ref="https://usaybia.net/person/273"><addName type="kunya">أبو مروان</addName> <forename>أحمد</forename></persName>
 بن 
 <persName ref="https://usaybia.net/person/274">القاضي أبي عبد الله محمد ابن أحمد بن عبد الملك الباجي </persName>
 قد تزوج
  <rs ref='https://usaybia.net/person/274'>ببنت</rs> 
-<persName ref=""><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>بن الحفيد</addName> <addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>بن الحفيد</addName> <addName type="kunya">أبي بكر</addName> <addName>بن زهر</addName> </persName>
 ورزق منها أبا 
 <persName ref="https://usaybia.net/person/77"><forename>عبد الله</forename> </persName>
 محمد وكان أعني 
-<persName ref=""><addName type="kunya">أبا مروان</addName></persName> أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله 
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا مروان</addName></persName> أحمد قد ملك إشبيلية وبقيت في يده تسعة أشهر ثم قتله 
 <persName ref="https://usaybia.net/person/932"><addName type="shuhra">ابن الأحمر</addName> </persName>
 غدراً في سنة ثلاثين وستمائة وكان عمره إذ ذاك سبعاً وثلاثين سنة فمن ذلك <note n="74" type="footnote"><p>BR: om. وكان والد هذا … سنة فمن ذلك‬‎</p></note>
 							قال وهي من أول قوله‭: <note n="75" type="footnote"><p>In margin of A, Gc om.: مما أنشدني … من أول قوله‬‎</p></note>
@@ -6014,7 +6014,7 @@ crossed out.</p></note>
  <rs ref="https://usaybia.net/person/1175">أبي</rs>
  ه
  واتقن معرفته وكان الخليفة 
-<persName ref=""><addName type="kunya">أبو عبد الله محمدالناصر بن المنصور أبي يعقوب
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو عبد الله محمدالناصر بن المنصور أبي يعقوب
 </addName> </persName> 
 يرى له كثيراً ويحترمه ويعرف مقدار علمه وبيتوتته.‬‎
 						</p>
@@ -6050,7 +6050,7 @@ crossed out.</p></note>
 							الخليفة الناصر 
 <persName ref=" https://usaybia.net/person/79">الخطيب أبو عبد الله محمد بن أبي علي الحسن بن أبي يوسف حجاج القاضي</persName>
 <note n="11" type="footnote"><p>BH: 
-<persName ref=""><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن الحسين</addName> <addName>بن أبي علي</addName> <addName>بن أبي يوسف</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن الحسين</addName> <addName>بن أبي علي</addName> <addName>بن أبي يوسف</addName> </persName>
 حجاج القاضي</p></note>
 							وكان يجلس تلوه
 							<persName ref="https://usaybia.net/person/71"><addName type="kunya">القاضي الشريف أبو عبد الله</addName> <addName>الحسيني</addName> </persName>
@@ -6060,7 +6060,7 @@ crossed out.</p></note>
 وكان يجلس إلى جانبه 
 <persName ref="https://usaybia.net/person/1335"><addName type="kunya">أبو موسى</addName> <forename>عيسى</forename> <addName>بن عبد العزيزالجزولي</addName> </persName>
 <note n="13" type="footnote"><p>AGcHL: om. 
-<persName ref=""><forename>عبد العزيز</forename></persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>عبد العزيز</forename></persName>
 </p></note>
 	
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٢‬أ‬‎" />
@@ -6073,7 +6073,7 @@ crossed out.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان مولد 
-<persName ref=""><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>بن الحفيد</addName> <addName type="kunya">أبي بكر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي محمد</addName> <forename>عبد الله</forename> <addName>بن الحفيد</addName> <addName type="kunya">أبي بكر</addName> </persName>
 في سنة سبع وسبعين وخمسمائة بمدينة إشبيلية وتوفي رحمه الله مسموماً في سنة اثنتين وستمائة في مدينة سلا في الجهة المسماة برباط الفتح ودفن بها وكان متوجهاً إلى مراكش فاخترمه الأجل دونها ثم حمل من الموضع الذي دفن فيه إلى إشبيلية ودفن عند ‭[ii,75]‬ آبائه بإشبيلية <note n="15" type="footnote"><p>A: بها</p></note>
 							خارج باب الفتح فكانت مدة حياته خمساً وعشرين سنة.‬‎
 						</p>
@@ -6111,7 +6111,7 @@ crossed out.</p></note>
 							
 <persName ref="https://usaybia.net/person/2542"><addName type="kunya">أبا مروان</addName> <forename>عبد الملك</forename> </persName>
 <note n="27" type="footnote"><p>H: om. 
-<persName ref=""><forename>عبد الملك</forename></persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>عبد الملك</forename></persName>
 </p></note>
 							والآخر 
 <persName ref="https://usaybia.net/person/2543">أبا العلاء محمد</persName>
@@ -6145,7 +6145,7 @@ crossed out.</p></note>
 <persName ref="https://usaybia.net/person/126"><addName type="kunya">أبي بكر</addName> <addName>بن العربي</addName> <addName>لازمه</addName> </persName>
 مدة واشتغل عليه بعلم الحديث <note n="2" type="footnote"><p>H: om. بعلم الحديث</p></note>
 							وكان 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> <addName>بن هارون</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> <addName>بن هارون</addName> </persName>
 يروي الحديث وهو شيخ 
 <persName ref="https://usaybia.net/person/1096"><addName type="kunya">أبي الوليد</addName> <addName type="shuhra">ابن رشد</addName> </persName>
 في التعاليم والطب وأصله من ترجالة من ثغور الأندلس وهي التي أصابها 
@@ -6155,7 +6155,7 @@ crossed out.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> <addName>بن هارون</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> <addName>بن هارون</addName> </persName>
 أيضاً عالماً بصناعة الكحل وله آثار فاضلة في المداواة
  حدثني 
 القاضي 
@@ -6163,7 +6163,7 @@ crossed out.</p></note>
 ثم الباجي 
 <note n="3" type="footnote"><p>In margin of A: ثم الباجي; B: الملك الباجي</p></note>
 							أن أخاه القاضي أبا 
-<persName ref="https://usaybia.net/person/76"><forename>عبد الله</forename> <forename>محمد</forename> <addName>بن أحمد</persName>
+<persName ref="https://usaybia.net/person/76"><forename>عبد الله</forename> <forename>محمد</forename> <addName>بن أحمد</addName></persName>
 لما
 كان صغيراً أصاب عينه عود وأخترق <note n="4" type="footnote"><p>HR: أخرق</p></note>
 							السواد
@@ -6206,7 +6206,7 @@ crossed out.</p></note>
 							وكان بينه وبين 
 <persName ref=" https://usaybia.net/person/1173"><addName type="kunya">أبي مروان</addName> <addName>بن زهر</addName> </persName>
 مودة ولما ألف كتابه هذا في الأمور الكلية قصد من 
-<persName ref=""><addName type="shuhra">ابن زهر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن زهر</addName> </persName>
 أن يؤلف كتاباً في الأمور الجزئية لتكون جملة كتابيهما ككتاب كامل في صناعة الطب.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
@@ -6262,12 +6262,12 @@ crossed out.</p></note>
 							  وذلك في عام أحد وتسعين وخمسمائة استدعى أبا 
 <persName ref="https://usaybia.net/person/1096"><forename>الوليد</forename> <addName>بن رشد</addName> </persName>
 فلما حضر عنده احترمه احتراماً كثيراً وقربه إليه حتى تعدى به الموضع الذي كان يجلس فيه 
-<persName ref="https://usaybia.net/person/278"><addName type="kunya">أبو محمد</addName> <forename>عبد الواحد بن </persName>
+<persName ref="https://usaybia.net/person/278"><addName type="kunya">أبو محمد</addName> <forename>عبد الواحد بن</forename> </persName>
 <persName ref="https://usaybia.net/person/181">الشيخ أبي حفص الهنتاتي</persName>
 صاحب 
 <persName ref="https://usaybia.net/person/36"><forename>عبد المؤمن</forename> </persName>
 وهو الثالث أو الرابع من العشرة وكان هذا 
-<persName ref=""><addName type="kunya">أبو محمد</addName> <forename>عبد الواحد</forename> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو محمد</addName> <forename>عبد الواحد</forename> </persName>
 قد صاهره
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢١٣‬أ‬‎" />
 							المنصور وزوجه ب
@@ -6289,7 +6289,7 @@ crossed out.</p></note>
 							وكان جماعة من
 							 <rs ref="https://usaybia.net/person/2547">أعدائه</rs>
 							 قد شنعوا بأن أمير المؤمنين قد أمر بقتله فلما خرج سالماً أمر بعض
-							  <rs ref="https://usaybia.net/person/2548">خدمه<rs>
+							  <rs ref="https://usaybia.net/person/2548">خدمه</rs>
 							  أن يمضي إلى بيته ويقول لهم أن يصنعوا له قطا وفراخ <note n="22" type="footnote"><p>A: وإفراخ</p></note>
 							حمام مسلوقة <note n="23" type="footnote"><p>AGc: مصلوقة</p></note>
 							إلى متى <note n="24" type="footnote"><p>A: إلى أن</p></note>
@@ -6311,7 +6311,7 @@ crossed out.</p></note>
 و
 <persName ref="https://usaybia.net/person/245">أبو جعفر الذهبي 
 والفقيه </persName>
-<persName ref=""><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن إبراهيم</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو عبد الله</addName> <forename>محمد</forename> <addName>بن إبراهيم</addName> </persName>
 قاضي بجاية
  <note n="31" type="footnote"><p>H: ىحايه</p></note>
 							و
@@ -6337,15 +6337,15 @@ crossed out.</p></note>
  من 
 <persName ref="https://usaybia.net/person/1096"><addName type="shuhra">ابن رشد</addName> </persName>
 إنه كان متى حضر مجلس المنصور <note n="34" type="footnote"><p>H: add. ومن 
-<persName ref=""><addName type="shuhra">ابن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن رشد</addName> </persName>
 crossed out.</p></note>
 							وتكلم معه أو بحث عنده في شيء من العلم يخاطب المنصور بأن يقول تسمع يا أخي وأيضاً فإن 
-<persName ref=""><addName type="shuhra">ابن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن رشد</addName> </persName>
 كان قد صنف كتاباً في الحيوان وذكر فيه أنواع الحيوان ونعت كل واحد منها فلما ذكر الزرافة وصفها ثم قال وقد رأيت الزرافة عند ملك البربر يعني المنصور فلما بلغ ذلك المنصور صعب عليه وكان أحد الأسباب الموجبة في أنه نقم على 
-<persName ref=""><addName type="shuhra">ابن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن رشد</addName> </persName>
 وأبعده ويقال إنه مما اعتذر به <note n="35" type="footnote"><p>H: om. به</p></note>
 							
-<persName ref=""><addName type="shuhra">ابن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن رشد</addName> </persName>
 أنه قال إنما قلت ملك البرّين وإنما تصحفت على القارئ فقال ملك البربر. <note n="36" type="footnote"><p>H: om. وإنما تصحفت … ملك البربر‬‎</p></note>
 							‬‎
 						</p>
@@ -6370,9 +6370,9 @@ crossed out.</p></note>
 							<hi rend="bold">[‭13.66.6‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ومن كلام 
-<persName ref=""><addName type="kunya">أبي الوليد</addName> <addName>بن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي الوليد</addName> <addName>بن رشد</addName> </persName>
 قال من اشتغل بعلم التشريح ازداد إيماناً بالله ولأبي 
-<persName ref=""><forename>الوليد</forename> <addName>بن رشد</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>الوليد</forename> <addName>بن رشد</addName> </persName>
 من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -6592,7 +6592,7 @@ crossed out.</p></note>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو 
-<persName ref=""><addName type="kunya">أبو محمد</addName> <forename>عبد الله</forename> <addName>بن أبي</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو محمد</addName> <forename>عبد الله</forename> <addName>بن أبي</addName> </persName>
 <note n="2" type="footnote"><p>Above the line in R: أبي</p></note>
 							الوليد 
 <persName ref="https://usaybia.net/person/277"><forename>محمد</forename> <addName>بن أحمد</addName> <addName>بن محمد</addName> <addName type="shuhra">ابن رشد</addName> </persName>
@@ -6667,7 +6667,7 @@ crossed out.</p></note>
 							فعمل 
 <persName ref="https://usaybia.net/person/183"><addName type="shuhra">ابن موراطير</addName></persName>
 : <note n="7" type="footnote"><p>In margin of A: فعمل 
-<persName ref=""><addName type="shuhra">ابن موراطير</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن موراطير</addName></persName>
 </p></note>
 							‬‎
 						</p>
@@ -6716,7 +6716,7 @@ crossed out.</p></note>
 وكان 
 <persName ref="https://usaybia.net/person/183"><addName type="kunya">أبو الحجاج</addName> <addName>بن موراطير</addName> </persName>
 قد عمر عمراً طويلاً وكان حظياً عند المنصور مكيناً عنده رفيع المنزلة وكان يدخل مجلس الخاصة مع الأشياخ للمذاكرة في العربية وغيرها <note n="11" type="footnote"><p>In margin of A, Gc om.: وكان 
-<persName ref=""><addName type="kunya">أبو الحجاج</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو الحجاج</addName> </persName>
 … في العربية وغيرها‬‎</p></note>
 							ومات بالنقرس في مراكش في دولة المستنصر. <note n="12" type="footnote"><p>Gc: om ومات بالنقرس في مراكش في دولة المستنصر; marginal note in A: يتلوه ما في الورقة المخرجة; the interleaf containing biographies 13.69–77 has not come down to us.</p></note>
 							‬‎
@@ -6793,7 +6793,7 @@ crossed out.</p></note>
 والد المنصور.‬‎</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							وتوفي 
-<persName ref=""><addName type="kunya">أبو يحيى</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو يحيى</addName> </persName>
 في مراكش في دولة 
 <persName ref='https://usaybia.net/person/2334'>المستنصر</persName> 
 وكان له ولد فجعل موضعه في الخزانة عوضاً عن أبيه. <note n="2" type="footnote"><p>In margin of R: وتوفي … عن أبيه‬‎</p></note>
@@ -6812,10 +6812,10 @@ crossed out.</p></note>
 							مولده ومنشؤه بإشبيلية وكان أديباً شاعراً حسن الشعر متميزاً في صناعة الطب محمود الطريقة وكان مفنناً وخدم بصناعة الطب 
 							<persName ref='https://usaybia.net/person/1508'>المنصور</persName>
 							<note n="2" type="footnote"><p>In margin of R: 
-<persName ref=""><addName type="kunya">أبو العلاء</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو العلاء</addName> </persName>
 … الطب المنصور‬‎</p></note>
 							وكان مكيناً عنده وجيهاً في دولته وكان المنصور في عام ثمانين وخمسمائة حمله معه لما ولي الخلافة وكان 
-<persName ref=""><addName type="shuhra">ابن غلندو</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="shuhra">ابن غلندو</addName> </persName>
 صاحب كتب كثيرة ويكتب خطين أندلسيين وتوفي بمراكش ودفن بها.‬‎
 						</p>
 					</div>
@@ -6839,7 +6839,7 @@ crossed out.</p></note>
 						<p style="direction:rtl; unicode-bidi:embed">وتوفي 
 <persName ref="https://usaybia.net/person/239"><addName type="kunya">أبو جعفر</addName> <addName>بن حسان</addName> </persName>
 بمدينة فاس ولأبي 
-<persName ref=""><forename>جعفر</forename> <addName>بن حسان</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>جعفر</forename> <addName>بن حسان</addName> </persName>
 من الكتب كتاب تدبير الصحة ألفه للمنصور.‬‎</p>
 					</div>
 					<div type="textpart" subtype="biography" n="75">
@@ -6984,7 +6984,7 @@ crossed out.</p></note>
 							 القاضي 
 <persName ref="https://usaybia.net/person/274"><addName type="kunya">أبو مروان</addName> <addName>الباجي</addName> </persName>
 قال سألت القاضي 
-<persName ref=""><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن أبي الحسن</addName> <addName>الزهري</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبا ب</addName><forename>كر</forename> <addName>بن أبي الحسن</addName> <addName>الزهري</addName> </persName>
 عن سبب تعلمه صناعة الطب فقال لي إنني كنت كثير اللعب بالشطرنج ولم يكد <note n="5" type="footnote"><p>A: يكن</p></note>
 							يوجد من يلعب مثلي به في إشبيلية إلا القليل فكانوا يقولون 
 <persName ref="https://usaybia.net/person/120"><addName type="kunya">أبو بكر</addName> <addName>الزهري</addName> </persName>
@@ -7000,7 +7000,7 @@ crossed out.</p></note>
 خمساً وثمانين سنة وتوفي في دولة
  <persName ref='https://usaybia.net/person/2334'>المستنصر </persName>
  ودفن بإشبيلية. <note n="8" type="footnote"><p>In margin of A: وعاش 
-<persName ref=""><addName type="kunya">أبو بكر</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو بكر</addName> </persName>
 … ودفن بإشبيلية‬‎; Gc: om. وتوفي في دولة المستنصر ودفن بإشبيلية; H: add. بمدينة إشبيلية</p></note>
 							‬‎
 						</p>
@@ -7011,7 +7011,7 @@ crossed out.</p></note>
 								[‭13.81‬] 
 <persName ref="https://usaybia.net/person/85"><addName type="kunya">أبو عبد الله</addName> <addName>الندرومي</addName> </persName>
 <note n="1" type="footnote"><p>This biography is present in Version 1 and Version 3, but lacking in Version 2. Biographies 13. 81–85 are written in the margin in A. Marginal note in A: قبل 
-<persName ref=""><addName type="kunya">أبو العباس</addName></persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو العباس</addName></persName>
 </p></note>
 							</hi>
 						</p>
@@ -7045,7 +7045,7 @@ crossed out.</p></note>
 							 في آخر دولته بصناعة الطب وخدم بعده لولده 
 							 <persName ref='https://usaybia.net/person/2334'>المستنصر</persName>
 							  وأقام بإشبيلية وخدم بعد ذلك 
-ل<persName ref=""><addName type="kunya">أبي النجاء</addName> <forename>سالم</forename> <addName>بن هود</addName> </persName>
+ل<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبي النجاء</addName> <forename>سالم</forename> <addName>بن هود</addName> </persName>
 ولأخيه 
 <persName ref="https://usaybia.net/person/294"><addName type="kunya">أبي عبد الله</addName> <addName type="shuhra">ابن هود</addName> </persName>
 صاحب الأندلس ولأبي 
@@ -7118,7 +7118,7 @@ crossed out.</p></note>
 							 بالطب وكذلك أيضاً خدم بعده 
 							 <persName ref='https://usaybia.net/person/1746'>الناصر</persName>
 							  ولده كان يحضر مجلس المذاكرة في الأدب وتوفي 
-<persName ref=""><addName type="kunya">أبو جعفر</addName> <addName>الذهبي</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو جعفر</addName> <addName>الذهبي</addName> </persName>
 بتلمسان عند غزوة 
 <persName ref='https://usaybia.net/person/1746'>الناصر</persName>
  إلى إفريقية سنة <note n="4" type="footnote"><p>ABH: عام</p></note>
@@ -7169,7 +7169,7 @@ crossed out.</p></note>
 							<hi rend="bold">[‭13.86.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولأبي 
-<persName ref=""><forename>العباس</forename> <addName>بن الرومية</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><forename>العباس</forename> <addName>بن الرومية</addName> </persName>
 من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
@@ -7244,7 +7244,7 @@ crossed out.</p></note>
 							قطع وهو يأمره بكثرة القيء حتى تنظفت <note n="10" type="footnote"><p>AL: تنضفت</p></note>
 							معدته وخرجت بقايا الحية فقال له طب نفساً فقد تعافيت وذهب الرجل مطمئناً صحيحاً بعد أن كان في حالة <note n="11" type="footnote"><p>H: حال</p></note>
 							الموت. <note n="12" type="footnote"><p>B: om. وحدثني 
-<persName ref=""><addName type="kunya">أبو عبد الله</addName> </persName>
+<persName ref="https://usaybia.net/person/placeholder"><addName type="kunya">أبو عبد الله</addName> </persName>
 … في حالة الموت‬‎</p></note>
 							‬‎
 						</p>
