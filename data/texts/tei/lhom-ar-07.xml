@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -424,8 +424,8 @@
 							في كتاب النواميس في أن النبي <note n="17" type="footnote"><p>Sa: add. صلعم</p></note>
 							وما يأتي به لا يصل إليه الحكيم بحكمته <note n="18" type="footnote"><p>Gc: om. بحكمته</p></note>
 							ولا العالم بعلمه قال أفلاطون وقد كان مارينوس <note n="19" type="footnote"><p>Sa: مارينون</p></note>
-							ملك اليونانيين الذي يذكر أوميرس الشاعر بأسه <note n="20" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: بالثناء</p></note>
-							وجبروته وما تهيأ لليونانيين <note n="21" type="footnote"><p>Sa: om. الذي ذكر أوميرس … تهيأ لليونانيين‬‎</p></note>
+							ملك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالذي يذكر أوميرس الشاعر بأسه <note n="20" type="footnote"><p>Cf. <hi rend="italic">K. al-Nawāmīs</hi>, in Badawī, <hi rend="italic">Platon</hi> (<hi rend="italic">Aflāṭūn fī l-Islām</hi>), 201: بالثناء</p></note>
+							وجبروته وما تهيأ لل<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين<note n="21" type="footnote"><p>Sa: om. الذي ذكر أوميرس … تهيأ لليونانيين‬‎</p></note>
 							في سلطانه
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٦‬ب‬‎" />
 							رمي بشدائد في زمانه وخوارج في سلطانه ‭[i,114]‬ ففزع إلى فلاسفة عصره فتأملوا مصادر أموره ومواردها <note n="22" type="footnote"><p>Sa: مصادرها ومواردها</p></note>

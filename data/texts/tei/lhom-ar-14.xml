@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -1019,7 +1019,7 @@
 								السبعة المنطقية
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">رسالة في صناعة الشعر ممتزجة من اليوناني والعربي</item>
+							<item style="direction:rtl; unicode-bidi:embed">رسالة في صناعة الشعر ممتزجة من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>والعربي</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								تلخيص كتاب النفس لأرسطوطاليس وإن <note n="111" type="footnote"><p>Lacuna in <hi rend="smallcaps">MS</hi> R from this point to 14.31.5.</p></note>
@@ -1950,7 +1950,7 @@
 								والسادسة هكذا يوجد في الكتاب أشياء تصد عن العلم قد عدمت في تعليم المعلم وهي التصحيف العارض من اشتباه الحروف مع عدم اللفظ والغلط بروغان
 								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٢٦‬أ‬‎" />
 								البصر وقلة الخبرة بالإعراب أو عدم وجوده مع الخبرة به أو فساد الموجود منه واصطلاح الكُتّاب <note n="53" type="footnote"><p>Gc: add. كتابة</p></note>
-								ما لا يقرأ وقراءة ما لا يكتب ونحو التعليم ونمط الكلام ومذهب صاحب الكتاب وسقم النسخ ورداءة النقل وادماج القارئ مواضع المقاطع وخلط مبادئ التعاليم وذكر ألفاظ مصطلح عليها في تلك الصناعة وألفاظ يونانية لم يخرجها الناقل من اللغة كالثوروس وهذه كلها معوقة عن العلم وقد استراح المتعلم من تكلفها عند قراءته على المعلم وإذا كان الأمر على هذا فالقراءة على العلماء أفضل وأجدى <note n="54" type="footnote"><p>A: اجدى وانفع, above the line افضل</p></note>
+								ما لا يقرأ وقراءة ما لا يكتب ونحو التعليم ونمط الكلام ومذهب صاحب الكتاب وسقم النسخ ورداءة النقل وادماج القارئ مواضع المقاطع وخلط مبادئ التعاليم وذكر ألفاظ مصطلح عليها في تلك الصناعة وألفاظ <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةلم يخرجها الناقل من اللغة كالثوروس وهذه كلها معوقة عن العلم وقد استراح المتعلم من تكلفها عند قراءته على المعلم وإذا كان الأمر على هذا فالقراءة على العلماء أفضل وأجدى <note n="54" type="footnote"><p>A: اجدى وانفع, above the line افضل</p></note>
 								من قراءة الإنسان لنفسه وهو ما أردنا بيانه.
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
@@ -5034,7 +5034,7 @@
 							عليه أيضاً <note n="15" type="footnote"><p>A: أيضاً عليه</p></note>
 							تفسيره لأسماء أدوية كتاب ديسقوريدس فكنت أجد <note n="16" type="footnote"><p>Gb2Gc: أخذ</p></note>
 							من غزارة علمه ودرايته وفهمه شيئاً كثيراً جداً <note n="17" type="footnote"><p>Gb2: جداً</p></note>
-							وكنت أحضر لدينا عدة من الكتب المؤلفة في الأدوية المفردة مثل كتاب ديسقوريدس وجالينوس والغافقي وأمثالها من الكتب الجليلة في هذا الفن فكان يذكر أولا ما قاله ديسقوريدس في كتابه باللفظ اليوناني على ما قد صححه في بلاد الروم ثم يذكر جمل ما قاله ديسقوريدس <note n="18" type="footnote"><p>In margin of A, Gb2Gc om.: في كتابه باللفظ … ما قاله ديسقوريدس صح‬‎</p></note>
+							وكنت أحضر لدينا عدة من الكتب المؤلفة في الأدوية المفردة مثل كتاب ديسقوريدس وجالينوس والغافقي وأمثالها من الكتب الجليلة في هذا الفن فكان يذكر أولا ما قاله ديسقوريدس في كتابه باللفظ ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>على ما قد صححه في بلاد الروم ثم يذكر جمل ما قاله ديسقوريدس <note n="18" type="footnote"><p>In margin of A, Gb2Gc om.: في كتابه باللفظ … ما قاله ديسقوريدس صح‬‎</p></note>
 							من نعته وصفته وأفعاله ويذكر أيضاً ما قاله جالينوس فيه من نعته <note n="19" type="footnote"><p>R: من نفسه</p></note>
 							ومزاجه وأفعاله <note n="20" type="footnote"><p>AGb2Gc: وأفعاله ومزاجه</p></note>
 							وما يتعلق بذلك <note n="21" type="footnote"><p>Gc: adds أيضاً</p></note>

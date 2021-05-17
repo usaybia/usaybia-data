@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -201,7 +201,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ووجدت تأريخاً مختصراً لهارون بن عزوز الراهب ذكر فيه أنه اعتبر التواريخ وعوّل على صحتها ورأيته قد كشف بعض اختلافها وعلل ذلك بعلل مقنعة <note n="33" type="footnote"><p>Gc: متفقة</p></note>
-                            وأورد شواهد على صحتها وذكر هذا الراهب في تأريخه أن جميع السنين من آدم إلى ملك دارا ابن سام وهو أول ظهور الإسكندر ذي القرنين خمسة آلاف ومائة وثمانون سنة وعشرة أشهر على موجب التأريخ الذي عند اليونانيين وهو تأريخ التوراة المنقولة إلى اليونانيين <note n="34" type="footnote"><p>Ga: om. وهو تأريخ التوراة المنقولة إلى اليونانيين</p></note>
+                            وأورد شواهد على صحتها وذكر هذا الراهب في تأريخه أن جميع السنين من آدم إلى ملك دارا ابن سام وهو أول ظهور الإسكندر ذي القرنين خمسة آلاف ومائة وثمانون سنة وعشرة أشهر على موجب التأريخ الذي عند ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوهو تأريخ التوراة المنقولة إلى ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين<note n="34" type="footnote"><p>Ga: om. وهو تأريخ التوراة المنقولة إلى اليونانيين</p></note>
                             قبل ظهور المسيح <note n="35" type="footnote"><p>Gc: om. المسيح</p></note>
                             بمائتي سنة وثمان وسبعين سنة وذلك في زمان فيلدلفوس <note n="36" type="footnote"><p>Müller; BGaGc: قليدلقوس; A: فليدلقوس; R: قليدالقوس</p></note>
                             الملك لأنه كان حمل إلى اليهود هدايا حسنة لما سمع أن عندهم كتباً منزلة من عند <note n="37" type="footnote"><p>AR: om. عند</p></note>
@@ -225,15 +225,15 @@
                             وإنما شك فيما نقله منها فأحب تصحيحه قال عبيد الله بن جبريل <note n="44" type="footnote"><p>R: جبرئيل</p></note>
                             وهذا مما يشهد به العقل لأن فيلدلفوس <note n="45" type="footnote"><p>Müller; ABGaGcR: اقليدلقوس</p></note>
                             الملك لولا يشك في نقله لما احتاط هذا الاحتياط المذكور وحرص هذا الحرص على حفظ النقل <note n="46" type="footnote"><p>BGaGc: هذا</p></note>
-                            ولولا اتهامه لنقله لما كان هنا ما يوجب هذا الاحتياط لأن من قلدهم في الأول كان أحرى أن يقلدهم في الثاني ولما أحب أن يمتحن ما فسره فعل ما فعل وقابل عليه وصححه ومن هاهنا وجب أن تأريخ اليونانيين أصح التواريخ أعني تأريخ التوراة <note n="47" type="footnote"><p>R: التورٰية</p></note>
+                            ولولا اتهامه لنقله لما كان هنا ما يوجب هذا الاحتياط لأن من قلدهم في الأول كان أحرى أن يقلدهم في الثاني ولما أحب أن يمتحن ما فسره فعل ما فعل وقابل عليه وصححه ومن هاهنا وجب أن تأريخ ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينأصح التواريخ أعني تأريخ التوراة <note n="47" type="footnote"><p>R: التورٰية</p></note>
                             والأنبياء التي <note n="48" type="footnote"><p>BR; AGc: الذين; Ga: الذي</p></note>
                             عندهم.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكانت مدة هذا الملك فيلدلفوس <note n="49" type="footnote"><p>Müller; BGaGcR: لقيدالقوس; A: اقليدلقوس</p></note>
                             في المملكة ثماني وثلاثين سنة وهو الملك الثالث من الإسكندر على أن تأريخ الإسكندر منذ قتله دارا وهو أن مدة ملكه تكون ست سنين ومنه يؤخذ تواريخ <note n="50" type="footnote"><p>Gc: تأريخ</p></note>
-                            اليونانيين فتكون <note n="51" type="footnote"><p>R: يكون</p></note>
-                            مدة ملك اليونانيين <note n="52" type="footnote"><p>BGaGc: om. فتكون مدة ملك اليونانيين</p></note>
+                            ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينفتكون <note n="51" type="footnote"><p>R: يكون</p></note>
+                            مدة ملك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين<note n="52" type="footnote"><p>BGaGc: om. فتكون مدة ملك اليونانيين</p></note>
                             من الإسكندر وإلى <note n="53" type="footnote"><p>B: إلى</p></note>
                             أول ملك الروم الذين لقبهم قيصر مائتين واثنتين وسبعين سنة وأول <note n="54" type="footnote"><p>BGa: وهو أول</p></note>
                             ملوك الروم الذين لقبهم قيصر يوليوس جايوس <note n="55" type="footnote"><p>Müller; ABGaGcR: بولوس جاريوس</p></note>
@@ -503,7 +503,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال سليمان بن حسان المعروف بابن جلجل وكان جالينوس من <note n="215" type="footnote"><p>In margin of Ga: من</p></note>
-                            الحكماء اليونانيين الذين كانوا في الدولة القيصرية بعد بنيان رومية ومولده ومنشأه <note n="216" type="footnote"><p>Müller: ومنشؤه</p></note>
+                            الحكماء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالذين كانوا في الدولة القيصرية بعد بنيان رومية ومولده ومنشأه <note n="216" type="footnote"><p>Müller: ومنشؤه</p></note>
                             بفرغامس وهي مدينة صغيرة من جملة مدائن آسيا سوس من <note n="217" type="footnote"><p>Müller: آسيا شرقي; cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 41: أسيا شرق من</p></note>
                             قسطنطينية وهي جزيرة في بحر قسطنطينية وهم روم غريقيون يونانيون ومن تلك الناحية <note n="218" type="footnote"><p>A repeats: ومن تلك الناحية</p></note>
                             اندفع الجيش <note n="219" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 41: الجنس</p></note>
@@ -712,7 +712,7 @@
                             ليرى القلقطار في معدنه وكذلك شخص إلى جزيرة كيوس <note n="306" type="footnote"><p>Müller: لمنوس</p></note>
                             ليرى عمل الطين المختوم فباشر كل ذلك بنفسه وصححه برؤيته وسافر أيضاً إلى مصر وأقام بها مدة فنظر عقاقيرها ولا سيما الأفيون في بلد <note n="307" type="footnote"><p>Gc: نار</p></note>
                             أسيوط من أعمال صعيدها ثم خرج متوجهاً منها نحو بلاد الشام راجعاً إلى بلده فمرض في طريقه ومات بالفرما وهي مدينة على البحر الأخضر في <note n="308" type="footnote"><p>A: om. في</p></note>
-                            آخر أعمال مصر وقال المسعودي في كتاب المسالك والممالك إن الفرما على شط بحيرة تنيس وهي مدينة حصينة وبها قبر جالينوس اليوناني. <note n="309" type="footnote"><p>Gc: اليوناني</p></note>
+                            آخر أعمال مصر وقال المسعودي في كتاب المسالك والممالك إن الفرما على شط بحيرة تنيس وهي مدينة حصينة وبها قبر جالينوس ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs> <note n="309" type="footnote"><p>Gc: اليوناني</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -976,13 +976,13 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وذكروا <note n="447" type="footnote"><p>In the margin of R: مطلب لغت يونان</p></note>
                             أن الأصل كان في اسم جالينوس غالينوس ومعناه الساكن أو الهادئ وقيل إن ترجمة اسم جالينوس معناه <note n="448" type="footnote"><p>R: om. معناه</p></note>
-                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الفاضل وقال أبو بكر محمد بن زكريا الرازي في كتاب الحاوي إنه ينطلق في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> أن ينطق بالجيم غيناً وكافاً فيقال مثلاً جالينوس غالينوس وكالينوس وكل ذلك جائز وقد تجعل الألف واللام لاماً مشددة فيكون ذلك أصح في اليونانية.‬‎
+                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الفاضل وقال أبو بكر محمد بن زكريا الرازي في كتاب الحاوي إنه ينطلق في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> أن ينطق بالجيم غيناً وكافاً فيقال مثلاً جالينوس غالينوس وكالينوس وكل ذلك جائز وقد تجعل الألف واللام لاماً مشددة فيكون ذلك أصح في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أقول <note n="449" type="footnote"><p>B: om. أقول وهذالكنها في شفاء الداء أطوادُ – to end § 33</p></note>
                             وهذه فائدة تتعلق بهذا المعنى وهي <note n="450" type="footnote"><p>Gc: om. وهي</p></note>
                             حدثني القاضي نجم الدين عمر بن محمد بن الكريدي قال حدثني ابنا <note n="451" type="footnote"><p>Müller, <hi rend="italic">Lesarten</hi> 14 انبا</p></note>
-                            غاثون المطران بالشوبك وكان أعلم أهل زمانه بمعرفة لغة الروم القديمة وهي اليونانية أن في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونان</rs> كل ما كان من الأسماء الموضوعة من أسماء الناس وغيرهم فآخرها <note n="452" type="footnote"><p>Ga: واخرها</p></note>
+                            غاثون المطران بالشوبك وكان أعلم أهل زمانه بمعرفة لغة الروم القديمة وهي ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةأن في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونان</rs> كل ما كان من الأسماء الموضوعة من أسماء الناس وغيرهم فآخرها <note n="452" type="footnote"><p>Ga: واخرها</p></note>
                             سين مثل جالينوس وديسقوريدس <note n="453" type="footnote"><p>Ga: دسقوريدس</p></note>
                             وأنكساغورس <note n="454" type="footnote"><p>Ga: وانكساعورس</p></note>
                             وأرسطوطاليس وديوجانس وأريباسيوس وغير ذلك وكذلك <note n="455" type="footnote"><p>Ga: om. وكذلك</p></note>
@@ -990,7 +990,7 @@
                             ومثل أسطوخودس <note n="457" type="footnote"><p>R: ارسطوخودس</p></note>
                             وأناغالس فإن السين التي في آخر كل كلمة حكمها في لغة
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٥٨‬ب‬‎" />
-                            اليونانيين مثل التنوين في <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> <note n="458" type="footnote"><p>Gc: om. العرب</p></note>
+                            ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينمثل التنوين في <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> <note n="458" type="footnote"><p>Gc: om. العرب</p></note>
                             الذي هو في آخر الكلمة <note n="459" type="footnote"><p>Ga: om. حكمهافي آخر الكلمة</p></note>
                             مثل قولك زيدٌ وعمرٌو وخالدٌ وبكرٌ <note n="460" type="footnote"><p>Gc: وبدر</p></note>
                             وكتابٌ وشجرٌ فتكون النون التي تتبين في آخر التنوين مثل السين في لغة أولئك.‬‎
@@ -1335,7 +1335,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 كتاب إلى اغلوقن <note n="580" type="footnote"><p>B: اعلوقن</p></note>
-                                في التأتي لشفاء الأمراض ومعنى اغلوقن باليونانية <note n="581" type="footnote"><p>Gc: في اليونانية</p></note>
+                                في التأتي لشفاء الأمراض ومعنى اغلوقن بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="581" type="footnote"><p>Gc: في اليونانية</p></note>
                                 الأزرق وكان فيلسوفاً وعندما رأى من آثار جالينوس في الطب ما أعجبه سأله أن يكتب له ذلك الكتاب <note n="582" type="footnote"><p>Gc: add.</p><p style="direction:rtl; unicode-bidi:embed">قال حنين هذا الكتاب عنونه جالينوس للمتعلمين ولم يعنونه الى المتعلمين لأن بين قوله عنده الى المتعلمين وبين قوله للمتعلمين فرقا وذلك انه اذا عنون الى المتعلمين دل على أنه ينحوا في تعليمه ما يعلمه نحو مبلغ قوة المتعلمين وان له تعليما من وراء هذا التعليم فى ذلك الفن للمستكملين وإذا عنون كتابه للمستغلين دل على ان كتابه يحيط بجميع العلم بذلك الفن الا ان تعليمه انما هو للمتعلمين‬‎</p></note>
                                 ولما كان لا يصل المداوي <note n="583" type="footnote"><p>A: كان المداوي لا يصل; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 7; Lam, 15): كان لا يصل المداوي</p></note>
                                 إلى مداواة الأمراض دون تعرفها قدم قبل مداواتها دلائلها التي تعرف بها ووصف في المقالة الأولى دلائل الحميات ومداواتها ولم يذكرها كلها لكنه اقتصر منها على ذكر ما يعرض كثيراً وهذه المقالة تنقسم قسمين ويصف في القسم الأول من هذه المقالة الحميات التي تخلو من الأعراض الغريبة ويصف في القسم الثاني الحميات التي معها أعراض غريبة ويصف في المقالة <note n="584" type="footnote"><p>In the margin of A: المقالة</p></note>
@@ -1482,7 +1482,7 @@
                                 بعد موت الحيوان وما دام حياً وأما في الثامنة فوصف ما يظهر في <note n="672" type="footnote"><p>R: من</p></note>
                                 التشريح في جميع الصدر وأفرد المقالة التاسعة بأسرها بصفة <note n="673" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 19; Lam, 43): لصفة</p></note>
                                 تشريح الدماغ والنخاع ووصف في المقالة العاشرة تشريح العينين واللسان والمريء وما يتصل بهذه من الأعضاء ووصف في الحادية عشرة <note n="674" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 20; Lam, 43): add. ما في</p></note>
-                                الحنجرة والعظم الذي يشبه اللام في حروف اليونانيين <note n="675" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 20; Lam, 43): تشّبه اليونانية باللام من أحرفهم وهو هذا ‭Λ‬</p></note>
+                                الحنجرة والعظم الذي يشبه اللام في حروف ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين<note n="675" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 20; Lam, 43): تشّبه اليونانية باللام من أحرفهم وهو هذا ‭Λ‬</p></note>
                                 وما يتصل بذلك من العصب الذي يأتي هذه المواضع <note n="676" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 20: هذا الموضع; Lam, 43: هذه المواضع</p></note>
                                 ووصف في الثانية عشرة تشريح أعضاء التوليد وفي الثالثة عشرة تشريح العروق الضوارب وغير الضوارب وفي الرابعة عشرة تشريح العصب الذي ينبت من الدماغ وفي الخامسة عشرة تشريح العصب الذي ينبت من النخاع قال جالينوس وهذا الكتاب هو المضطر إليه من علم التشريح وقد وضعت كتباً أخر ليست بمضطر إليها لكنها نافعة في علم التشريح <note n="677" type="footnote"><p>Gc: om. وذكر أنه قد جمع في علم التشريخ</p></note>
                             </item>
@@ -1768,7 +1768,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭66‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 اختصار كتابه المعروف بالنبض الكبير مقالة واحدة ذكر جالينوس <note n="819" type="footnote"><p>Gc: وذكر</p></note>
-                                أنه كمل فيها النبض قال حنين وأما أنا فقد رأيت باليونانية مقالة ينحى بها هذا النحو ولست <note n="820" type="footnote"><p>R: وليست</p></note>
+                                أنه كمل فيها النبض قال حنين وأما أنا فقد رأيت بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةمقالة ينحى بها هذا النحو ولست <note n="820" type="footnote"><p>R: وليست</p></note>
                                 أصدق أن جالينوس الواضع لتلك المقالة لأنها لا تحيط بكل <note n="821" type="footnote"><p>B: كل</p></note>
                                 ما يحتاج إليه من أمر النبض وليست بحسنة التأليف أيضاً وقد يجوز أن يكون جالينوس قد وعد أن يضع تلك المقالة فلم يتهيأ له وضعها فلما وجده بعض الكذابين قد وعد ولم يف تخرص وضع تلك <note n="822" type="footnote"><p>Ga: om. تلك</p></note>
                                 المقالة وأثبت ذكرها في الفهرست كيما يصدق فيها ويجوز أن يكون جالينوس أيضاً قد وضع مقالة في ذلك غير تلك وقد <note n="823" type="footnote"><p>A: قد; Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 33: قد</p></note>
@@ -1984,7 +1984,7 @@
                                 وإنما الصحيح منه الجزء الثاني وقد فسر هذا الجزء جاسيوس الإسكندراني وقد وجدنا لجميع الثلاثة الأجزاء تفسيرين أحدهما سرياني موسم <note n="913" type="footnote"><p>R: موسى; Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 44: موسوم; Lam, 107: موسوماً لجالينوس</p></note>
                                 بأنه لجالينوس قد <note n="914" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 44; Lam, 107): وقد</p></note>
                                 كان ترجمه سرجس فلما فحصنا عنه علمنا أنه لبالبس <note n="915" type="footnote"><p>A: لتاليس; Ga: لثاليس; BR: لىاليس; Müller ثالث; Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 44: لبالبس (app. crit. لىالىس); Lam, 107: لبالبس (app. crit. لثالىىس)</p></note>
-                                والآخر يوناني فلما فحصنا عنه <note n="916" type="footnote"><p>R: عنده</p></note>
+                                والآخر <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>فلما فحصنا عنه <note n="916" type="footnote"><p>R: عنده</p></note>
                                 وجدناه لسورانوس الذي من شيعة الموثوذيقوا <note n="917" type="footnote"><p>Müller المثوذيقون but cf. Ḥunayn, Berg 44 and Lam, 107: الموقوذوقوا</p></note>
                                 وترجم <note n="918" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 44: ترجم</p></note>
                                 حنين فص هذا الكتاب إلا قليلاً منه إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> في خلافة المعتز بالله <note n="919" type="footnote"><p>Gc: om. وقد فسر هذا المعتز بالله; Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 44: om. بالله</p></note>
@@ -2026,8 +2026,8 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭107‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 كتاب في ألفاظ أبقراط <note n="935" type="footnote"><p>GaR: بقراط</p></note>
-                                قال حنين هذا الكتاب أيضاً مقالة واحدة وغرضه فيه أن يفسر غريب ألفاظ بقراط في جميع كتبه وهو نافع لمن يقرأ باليونانية فأما <note n="936" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 45: وأمّا; Lam, 111: om. فأما</p></note>
-                                من يقرأ بغير اليونانية فليس يحتاج إليه ولا يمكن أيضاً أن يترجم أصلاً <note n="937" type="footnote"><p>Gc: كتاب في ألفاظ بقراط مقالة</p></note>
+                                قال حنين هذا الكتاب أيضاً مقالة واحدة وغرضه فيه أن يفسر غريب ألفاظ بقراط في جميع كتبه وهو نافع لمن يقرأ بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةفأما <note n="936" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 45: وأمّا; Lam, 111: om. فأما</p></note>
+                                من يقرأ بغير ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةفليس يحتاج إليه ولا يمكن أيضاً أن يترجم أصلاً <note n="937" type="footnote"><p>Gc: كتاب في ألفاظ بقراط مقالة</p></note>
                                 <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٦٧‬أ‬‎" />
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭108‬.</label>
@@ -2070,7 +2070,7 @@
                                 أن يبين كيف الطريق في تبيين ما يتبين <note n="951" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 46: يبيَّن; Lam, 117: تبين</p></note>
                                 ضرورةً وذلك كان غرض أرسطوطاليس <note n="952" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 46: ارسطوطالس; Lam, 117: ارسطاطالس</p></note>
                                 في كتابه الرابع من المنطق قال حنين ولم يقع إلى هذه الغاية إلى أحد من أهل دهرنا لكتاب <note n="953" type="footnote"><p>Gc: بالكتاب</p></note>
-                                البرهان نسخة تامة باليونانية على أن جبريل <note n="954" type="footnote"><p>R: جبرئيل</p></note>
+                                البرهان نسخة تامة بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةعلى أن جبريل <note n="954" type="footnote"><p>R: جبرئيل</p></note>
                                 قد كان <note n="955" type="footnote"><p>Gc: om. كان</p></note>
                                 عني بطلبه عناية شديدة وطلبته أنا أيضاً بغاية <note n="956" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, Berg, 46: وطلبته أنا غاية</p></note>
                                 الطلب وجلت في طلبه بلاد الجزيرة والشام كلها <note n="957" type="footnote"><p>A: جميعا, above the line كلها</p></note>
@@ -2092,7 +2092,7 @@
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭117‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                كتاب في قوام الصناعات قال حنين إنه لم يجد من هذا الكتاب باليونانية <note n="969" type="footnote"><p>Gc: om. باليونانية</p></note>
+                                كتاب في قوام الصناعات قال حنين إنه لم يجد من هذا الكتاب بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="969" type="footnote"><p>Gc: om. باليونانية</p></note>
                                 إلا نتفاً <note n="970" type="footnote"><p>R: منغا</p></note>
                                 منه <note n="971" type="footnote"><p>A: add. كتاب في قوام الصناعات</p></note>
                                 <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٦٧‬ب‬‎" />
@@ -2101,7 +2101,7 @@
                             <item style="direction:rtl; unicode-bidi:embed">
                                 كتاب في <note n="972" type="footnote"><p>Gc: om. في</p></note>
                                 تعرف الإنسان عيوب نفسه مقالتان <note n="973" type="footnote"><p>Gc: om. مقالتان</p></note>
-                                وقال حنين إنه لم يجد منه باليونانية <note n="974" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 48; Lam, 121): om. باليونانية</p></note>
+                                وقال حنين إنه لم يجد منه بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="974" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> (Berg, 48; Lam, 121): om. باليونانية</p></note>
                                 إلا مقالة واحدة ناقصة
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭119‬.</label>

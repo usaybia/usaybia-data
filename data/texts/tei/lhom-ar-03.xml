@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -110,7 +110,7 @@
                 <div type="textpart" subtype="chapter" n="3">
                     <div type="textpart" subtype="biography" n="1">
                         <head style="direction:rtl; unicode-bidi:embed">
-                            الباب الثالث في طبقات الأطباء اليونانيين الذين هم من نسل أسقليبيوس
+                            الباب الثالث في طبقات الأطباء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالذين هم من نسل أسقليبيوس
                             <note n="1" type="footnote"><p>The edition of this chapter is based on manuscripts ABGcR.</p></note>
                             ‬‎
                         </head>
@@ -150,7 +150,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وغورس هو الثاني من الأطباء الحذاق المشهورين الذين أولهم أسقليبيوس <note n="1" type="footnote"><p>Müller: أسقليبيوس; A: أسقلنبيوس; RB: أسقلىىىوس أولهم; G: أسقلنبيوس أولهم</p></note>
                             على ما ذكره يحيى النحوي وذلك أنه قال <note n="2" type="footnote"><p>Gc: om. قال</p></note>
-                            الأطباء المشهورين الذين كان يقتدى بهم في صناعة الطب من اليونانيين على ما تناهى إلينا <note n="3" type="footnote"><p>Gc: om. على ما تناهى إلينا</p></note>
+                            الأطباء المشهورين الذين كان يقتدى بهم في صناعة الطب من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينعلى ما تناهى إلينا <note n="3" type="footnote"><p>Gc: om. على ما تناهى إلينا</p></note>
                             ثمانية وهم أسقليبيوس <note n="4" type="footnote"><p>Müller: أسقليبيوس; ABGcR: أسقلنبيوس</p></note>
                             الأول <note n="5" type="footnote"><p>Gc: الثاني crossed out.</p></note>
                             وغورس <note n="6" type="footnote"><p>A: om. وغورس; cf. Dunlop, <hi rend="italic">Ṣiwān al-ḥikmah</hi>, 14, Isḥāq ibn Ḥunayn, <hi rend="italic">Taʾrīkh</hi>, 65; <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:269: غوروس</p></note>

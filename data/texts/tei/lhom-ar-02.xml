@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -127,15 +127,15 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان يونانياً واليونانيون منسوبون إلى يونان وهي جزيرة كانت الحكماء من الروم ينزلونها وقال أبو معشر في المقالة الثانية من كتاب الألوف إن بلدة من المغرب كانت تسمى في قديم الدهر أرغس وكان أهلها يسمون ارغيوا <note n="4" type="footnote"><p>Müller: ارغيوا; AGcR: ارغيزا; B: ارغيرا</p></note>
                             وسميت تلك المدينة بعد ذلك أيونيا <note n="5" type="footnote"><p>Müller: أيونيا; ABGcR: انونيا</p></note>
-                            وسموا أهلها يونانيين باسم بلدهم وكان <note n="6" type="footnote"><p>Gc: فكان</p></note>
+                            وسموا أهلها <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينباسم بلدهم وكان <note n="6" type="footnote"><p>Gc: فكان</p></note>
                             ملكها أحد ملوك الطوائف ويقال إن أول من اجتمع له ملك مدينة أيونيا <note n="7" type="footnote"><p>Müller: أيونيا; ABGcR: انونيا</p></note>
-                            من ملوك اليونانيين كان اسمه أيوليوس <note n="8" type="footnote"><p>Müller: أيوليوس; AGcR: انوليوس; B: ابوليوس</p></note>
+                            من ملوك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينكان اسمه أيوليوس <note n="8" type="footnote"><p>Müller: أيوليوس; AGcR: انوليوس; B: ابوليوس</p></note>
                             وكان لقبه دقطاطر ملكهم <note n="9" type="footnote"><p>Gc: om. ملكهم</p></note>
-                            ثماني عشرة سنة ووضع لليونانيين سنناً كثيرة مستعلمة عندهم.‬‎
+                            ثماني عشرة سنة ووضع لل<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينسنناً كثيرة مستعلمة عندهم.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال الشيخ الجليل أبو سليمان محمد بن طاهر بن بهرام السجستاني المنطقي في تعاليقه إن أسقليبيوس <note n="10" type="footnote"><p>Müller: أسقليبيوس; ABGc: اسقلنبيوس; R: اسقلينيوس</p></note>
-                            بن زيوس قالوا مولده روحاني وهو إمام الطب وأبو أكثر الفلاسفة قال واقليدس ينسب إليه وأفلاطون وأرسطوطاليس وبقراط وأكثر اليونانية قال وبقراط كان السادس عشر من أولاده يعني البطن <note n="11" type="footnote"><p>Gc: om. البطن</p></note>
+                            بن زيوس قالوا مولده روحاني وهو إمام الطب وأبو أكثر الفلاسفة قال واقليدس ينسب إليه وأفلاطون وأرسطوطاليس وبقراط وأكثر ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةقال وبقراط كان السادس عشر من أولاده يعني البطن <note n="11" type="footnote"><p>Gc: om. البطن</p></note>
                             السادس عشر من أولاده وقال سولن أخو أسقليبيوس <note n="12" type="footnote"><p>Müller: أسقليبيوس; ABGc: اسقلنبيوس; R: اسقلينيوس</p></note>
                             وهو أبو واضعي <note n="13" type="footnote"><p>B: واضع</p></note>
                             النواميس.‬‎
@@ -177,7 +177,7 @@
                             إلى أن [‭16‬‭i,‬] أسميك ملأكاً أقرب منك <note n="33" type="footnote"><p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 9: مني</p></note>
                             إلى أن أسميك إنساناً وقال أبقراط <note n="34" type="footnote"><p>A: بقراط</p></note>
                             إن الله رفعه إليه في الهواء في عمود من نور وقال غيره إن أسقليبيوس <note n="35" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنىيوس</p></note>
-                            كان معظماً عند اليونانيين وكانوا يستشفون بقبره ويقال إنه كان يسرج على قبره كل ليلة ألف قنديل وكان الملوك من نسله تدعي له النبوة.‬‎
+                            كان معظماً عند ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوكانوا يستشفون بقبره ويقال إنه كان يسرج على قبره كل ليلة ألف قنديل وكان الملوك من نسله تدعي له النبوة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وذكر أفلاطون في كتابه <note n="36" type="footnote"><p>R: كتبه</p></note>
@@ -193,7 +193,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال الأمير أبو الوفاء المبشر بن فاتك في كتاب مختار الحكم ومحاسن الكلم إن أسقليبيوس <note n="42" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنيىوس; cf. Ibn Nubātah, <hi rend="italic">Sarḥ al-ʿuyūn</hi>, 206: بلينوس</p></note>
-                            هذا كان تلميذ هرمس وكان يسافر معه فلما خرجا من بلاد الهند وجاءا إلى فارس خلفه ببابل ليضبط الشرع فيهم قال وأما هرمس هذا فهو هرمس الأول ولفظه أرمس هو اسم عطارد ويسمى عند اليونانيين أطرسمين <note n="43" type="footnote"><p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 7; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 2: طرميس</p></note>
+                            هذا كان تلميذ هرمس وكان يسافر معه فلما خرجا من بلاد الهند وجاءا إلى فارس خلفه ببابل ليضبط الشرع فيهم قال وأما هرمس هذا فهو هرمس الأول ولفظه أرمس هو اسم عطارد ويسمى عند ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينأطرسمين <note n="43" type="footnote"><p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 7; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 2: طرميس</p></note>
                             وعند العرب إدريس وعند العبرانيين
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٠‬ب‬‎" />
                             أخنوخ وهو ابن يارد <note n="44" type="footnote"><p>Gc: نادر</p></note>
@@ -201,11 +201,11 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال غيره ثلاثمائة وخمساً وستين سنة قال المبشر بن فاتك وكان عليه السلام رجلاً آدم اللون تام القامة اجلح حسن الوجه كث اللحية مليح التخاطيط تام الباع عريض المنكبين ضخم العظام قليل اللحم براق العين أكحل متأنياً في كلامه كثير الصمت ساكن الأعضاء إذا مشى أكثر نظره إلى الأرض كثير الفكرة به حدة وعبسة يحرك إذا تكلم سبابته وقال غيره إن أسقليبيوس <note n="45" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلينبوس</p></note>
-                            كان قبل الطوفان الكبير وهو تلميذ أغاثاذيمون المصري وكان أغاثاذيمون أحد أنبياء اليونانيين والمصريين وتفسير أغاثاذيمون السعيد الجد.‬‎
+                            كان قبل الطوفان الكبير وهو تلميذ أغاثاذيمون المصري وكان أغاثاذيمون أحد أنبياء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوالمصريين وتفسير أغاثاذيمون السعيد الجد.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان أسقليبيوس <note n="46" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلينبوس</p></note>
-                            هذا هو البادئ بصناعة الطب في اليونانيين علمها بنيه وحظر عليهم أن يعلموها الغرباء.‬‎
+                            هذا هو البادئ بصناعة الطب في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينعلمها بنيه وحظر عليهم أن يعلموها الغرباء.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأما أبو معشر البلخي المنجم فإنه ذكر في كتاب الألوف أن أسقليبيوس <note n="47" type="footnote"><p>Müller: أسقليبيوس; ABGc: اسقلنبيوس; R: اسقلينىوس</p></note>
@@ -254,14 +254,14 @@
                             وبلغ من أمر أسقليبيوس <note n="67" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس</p></note>
                             أن أبرأ المرضى الذين <note n="68" type="footnote"><p>AGcR: الذي</p></note>
                             يئس الناس من برئهم ولما شاهده الناس من أفعاله ظن العامة أنه يحيي <note n="69" type="footnote"><p>A: يبرئ, in margin يحيي صح</p></note>
-                            الموتى وأنشد فيه شعراء اليونانيين الأشعار العجيبة وضمنوها أنه يحيي الموتى <note n="70" type="footnote"><p>A: om. وأنشد فيه … يحيي الموتى‬‎</p></note>
+                            الموتى وأنشد فيه شعراء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالأشعار العجيبة وضمنوها أنه يحيي الموتى <note n="70" type="footnote"><p>A: om. وأنشد فيه … يحيي الموتى‬‎</p></note>
                             ويرد كل من مات إلى الدنيا وزعموا أن الله رفعه إليه تكرمة له وإجلالاً وصيره في عديد <note n="71" type="footnote"><p>R: عديل</p></note>
                             الملائكة ويقال إنه إدريس عليه السلام.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال يحيى النحوي إن أسقليبيوس <note n="72" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنىيوس</p></note>
                             عاش تسعين سنة منها صبي وقبل أن تفتتح له القوة الإلهية خمسين سنة وعالم معلم أربعين سنة وخلف ابنين ماهرين في صناعة الطب وعهد إليهما ألا يعلما الطب إلا لأولادهما وأهل بيته وألا يدخلا في صناعة الطب غريباً وعهد إلى من يأتي <note n="73" type="footnote"><p>R: add. من</p></note>
-                            بعده كذلك وأمرهم بأمرين أحدهما أن يسكنوا وسط المعمور من أرض اليونانيين وذلك في ثلاث جزائر منها قو جزيرة أبقراط والثاني ألا تخرج صناعة الطب <note n="74" type="footnote"><p>Gc: om. الطب</p></note>
+                            بعده كذلك وأمرهم بأمرين أحدهما أن يسكنوا وسط المعمور من أرض ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوذلك في ثلاث جزائر منها قو جزيرة أبقراط والثاني ألا تخرج صناعة الطب <note n="74" type="footnote"><p>Gc: om. الطب</p></note>
                             إلى الغرباء بل يعلمها الآباء الأبناء وكان أبناء أسقليبيوس <note n="75" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنىيوس</p></note>
                             مع أغاممنون لما سار لفتح اطرابلس وكان يكرمهما <note n="76" type="footnote"><p>R: مكرمهما</p></note>
                             غاية الكرامة ويشرفهما لعلو محلهما في العلم.‬‎
@@ -383,7 +383,7 @@
                             إلى الله تبارك وتعالى باسم أسقليبيوس <note n="135" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنىيوس</p></note>
                             ديكة ويرون أيضاً أن سقراط قرب له هذه الذبيحة فبهذه الحال علم هذا الرجل الإلاهي الناس <note n="136" type="footnote"><p>R: om. الناس</p></note>
                             صناعة الطب قنية ثابتة أفضل كثيراً من الأشياء التي استخرجها ديونوسس <note n="137" type="footnote"><p>R: ديونوس</p></note>
-                            وديميطر قال حنين يعني باستخراج ديونوسس الخمر وذلك أن اليونانيين يرون أن أول من استخرج الخمر ديونوسس ويومئ الشعراء بهذا الاسم إلى القوة التي إذا غيرت الماء في الكرمة أعدته لكون الخمرة والسرور المتولد عنها في شرابها وأما استخراج ديميطر فالخبز وسائر الحبوب التي <note n="138" type="footnote"><p>B: التي</p></note>
+                            وديميطر قال حنين يعني باستخراج ديونوسس الخمر وذلك أن ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينيرون أن أول من استخرج الخمر ديونوسس ويومئ الشعراء بهذا الاسم إلى القوة التي إذا غيرت الماء في الكرمة أعدته لكون الخمرة والسرور المتولد عنها في شرابها وأما استخراج ديميطر فالخبز وسائر الحبوب التي <note n="138" type="footnote"><p>B: التي</p></note>
                             يتخذ منها ولهذا نجدهم يسمون هذه الحبوب بهذا الاسم وقد يسمي الشعراء بهذا الاسم أيضاً الأرض المخرجة للحبوب وأما استخراج أسقليبيوس <note n="139" type="footnote"><p>Müller: أسقليبيوس; AGcR: اسقلنبيوس; B: اسقلنىيوس</p></note>
                             فيعني به الصحة وهي التي لا يمكن دونها أن يقتنى شيء من الأشياء التي ينتفع بها أو يلتذ قال جالينوس وذلك أن ما استخرجه هذان لا ينتفع به ما لم يكن استخراج أسقليبيوس <note n="140" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلنيبوس</p></note>
                             موجوداً.‬‎

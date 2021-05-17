@@ -110,7 +110,7 @@
                  who="#ngibson"
                  xml:id="change-1"
                  status="draft">Added title elements with iterating URIs to list items.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
    <text>
       <body>
@@ -5576,7 +5576,7 @@
                                 <title ref="https://usaybia.net/work/1695"
                                n="14.22.4.3no3"
                                change="#change-1"
-                               cert="low">رسالة في صناعة الشعر ممتزجة من اليوناني والعربي</title>
+                               cert="low">رسالة في صناعة الشعر ممتزجة من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>والعربي</title>
                             </item>
 							              <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							              <item style="direction:rtl; unicode-bidi:embed">
@@ -9722,7 +9722,7 @@
 								البصر وقلة الخبرة بالإعراب أو عدم وجوده مع الخبرة به أو فساد الموجود منه واصطلاح الكُتّاب <note n="53" type="footnote" anchored="true">
                                     <p part="N">Gc: add. كتابة</p>
                                 </note>
-								ما لا يقرأ وقراءة ما لا يكتب ونحو التعليم ونمط الكلام ومذهب صاحب الكتاب وسقم النسخ ورداءة النقل وادماج القارئ مواضع المقاطع وخلط مبادئ التعاليم وذكر ألفاظ مصطلح عليها في تلك الصناعة وألفاظ يونانية لم يخرجها الناقل من اللغة كالثوروس وهذه كلها معوقة عن العلم وقد استراح المتعلم من تكلفها عند قراءته على المعلم وإذا كان الأمر على هذا فالقراءة على العلماء أفضل وأجدى <note n="54" type="footnote" anchored="true">
+								ما لا يقرأ وقراءة ما لا يكتب ونحو التعليم ونمط الكلام ومذهب صاحب الكتاب وسقم النسخ ورداءة النقل وادماج القارئ مواضع المقاطع وخلط مبادئ التعاليم وذكر ألفاظ مصطلح عليها في تلك الصناعة وألفاظ <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةلم يخرجها الناقل من اللغة كالثوروس وهذه كلها معوقة عن العلم وقد استراح المتعلم من تكلفها عند قراءته على المعلم وإذا كان الأمر على هذا فالقراءة على العلماء أفضل وأجدى <note n="54" type="footnote" anchored="true">
                                     <p part="N">A: اجدى وانفع, above the line افضل</p>
                                 </note>
 								من قراءة الإنسان لنفسه وهو ما أردنا بيانه.
@@ -22735,7 +22735,7 @@
 							من غزارة علمه ودرايته وفهمه شيئاً كثيراً جداً <note n="17" type="footnote" anchored="true">
                                 <p part="N">Gb2: جداً</p>
                             </note>
-							وكنت أحضر لدينا عدة من الكتب المؤلفة في الأدوية المفردة مثل كتاب ديسقوريدس وجالينوس والغافقي وأمثالها من الكتب الجليلة في هذا الفن فكان يذكر أولا ما قاله ديسقوريدس في كتابه باللفظ اليوناني على ما قد صححه في بلاد الروم ثم يذكر جمل ما قاله ديسقوريدس <note n="18" type="footnote" anchored="true">
+							وكنت أحضر لدينا عدة من الكتب المؤلفة في الأدوية المفردة مثل كتاب ديسقوريدس وجالينوس والغافقي وأمثالها من الكتب الجليلة في هذا الفن فكان يذكر أولا ما قاله ديسقوريدس في كتابه باللفظ ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>على ما قد صححه في بلاد الروم ثم يذكر جمل ما قاله ديسقوريدس <note n="18" type="footnote" anchored="true">
                                 <p part="N">In margin of A, Gb2Gc om.: في كتابه باللفظ … ما قاله ديسقوريدس صح‬‎</p>
                             </note>
 							من نعته وصفته وأفعاله ويذكر أيضاً ما قاله جالينوس فيه من نعته <note n="19" type="footnote" anchored="true">

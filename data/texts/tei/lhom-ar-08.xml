@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -128,7 +128,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             كانت <note n="4" type="footnote"><p>Sb: كان</p></note>
-                            له خبرة بصناعة الطب ومعرفة بالمداواة وأنواع العلاج وخدم بصناعة الطب المنصور وكان حظياً عنده رفيع المنزلة ونال من جهته أموالاً جزيلة وقد نقل للمنصور كتباً كثيرة من كتب اليونانيين إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>.‬‎
+                            له خبرة بصناعة الطب ومعرفة بالمداواة وأنواع العلاج وخدم بصناعة الطب المنصور وكان حظياً عنده رفيع المنزلة ونال من جهته أموالاً جزيلة وقد نقل للمنصور كتباً كثيرة من كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال فثيون <note n="5" type="footnote"><p>ABGaRSb: قينون; Gc: قتنون</p></note>
@@ -2367,7 +2367,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             كان له نظر في صناعة الطب ومعرفة بالنقل وقد نقل كتباً <note n="2" type="footnote"><p>PSb: كثيراً</p></note>
-                            من مصنفات اليونانيين إلى السرياني وإلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو متوسط النقل وما نقله في أواخر عمره فهو أجود مما نقله قبل ذلك. <note n="3" type="footnote"><p>GaP: أجود من الأول</p></note>
+                            من مصنفات ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى السرياني وإلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو متوسط النقل وما نقله في أواخر عمره فهو أجود مما نقله قبل ذلك. <note n="3" type="footnote"><p>GaP: أجود من الأول</p></note>
                             ‬‎
                         </p>
                     </div>
@@ -3144,7 +3144,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ولما رأى المأمون المنام الذي أخبر به أنه رأى في منامه وكان شيخاً بهي الشكل جالس على منبر وهو يخطب ويقول أنا أرسطوطاليس انتبه من منامه وسأل عن أرسطوطاليس <note n="38" type="footnote"><p>A: ارسطو</p></note>
-                            فقيل له رجل حكيم من اليونانيين فأحضر حنين بن إسحاق إذ لم يجد من يضاهيه في نقله وسأله نقل كتب الحكماء اليونانيين إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وبذل له من الأموال والعطايا شيئاً كثيراً.‬‎
+                            فقيل له رجل حكيم من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينفأحضر حنين بن إسحاق إذ لم يجد من يضاهيه في نقله وسأله نقل كتب الحكماء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وبذل له من الأموال والعطايا شيئاً كثيراً.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ونقلت من خط الحسن بن العباس المعروف بالصناديقي رحمه الله قال قال أبو سليمان سمعت يحيى بن عدي يقول قال المأمون رأيت فيما يرى النائم كأن رجلاً على كرسي جالساً في المجلس الذي أجلس فيه فتعاظمته وتهيبته وسألت عنه فقيل هو أرسطوطاليس فقلت أسأله عن شيء فسألته فقلت <note n="39" type="footnote"><p>Sb: om. فقلت</p></note>
@@ -3159,7 +3159,7 @@
                             إلى بلد الروم.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وأحضر المأمون أيضاً حنين بن إسحاق وكان فتي السن وأمره بنقل ما يقدر عليه من كتب الحكماء اليونانيين إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وإصلاح ما ينقله غيره فامتثل أمره ومما يحكى عنه أن المأمون كان يعطيه من الذهب زنة ما <note n="45" type="footnote"><p>Sb: مما</p></note>
+                            وأحضر المأمون أيضاً حنين بن إسحاق وكان فتي السن وأمره بنقل ما يقدر عليه من كتب الحكماء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وإصلاح ما ينقله غيره فامتثل أمره ومما يحكى عنه أن المأمون كان يعطيه من الذهب زنة ما <note n="45" type="footnote"><p>Sb: مما</p></note>
                             ينقله من الكتب إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> <note n="46" type="footnote"><p>R: om. وإصلاح ما … إلى العربي‬‎</p></note>
                             مثلاً بمثل.‬‎
                         </p>
@@ -3183,7 +3183,7 @@
                             والكلدانيين وقد أقرتهم الروم على مذاهبهم وتأخذ منهم الجزية.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            أقول وكان كاتب حنين رجل يعرف بالأزرق وقد رأيت أشياء كثيرة من كتب جالينوس وغيره بخطه وبعضها عليه تنكيت بخط حنين بن إسحاق باليوناني <note n="54" type="footnote"><p>In margin of A: بالرومي</p></note>
+                            أقول وكان كاتب حنين رجل يعرف بالأزرق وقد رأيت أشياء كثيرة من كتب جالينوس وغيره بخطه وبعضها عليه تنكيت بخط حنين بن إسحاق بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs><note n="54" type="footnote"><p>In margin of A: بالرومي</p></note>
                             وعلى تلك الكتب علامة المأمون.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3225,7 +3225,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أقول وكان لحنين ولدان داؤد وإسحاق واشتغلا بصناعة الطب <note n="78" type="footnote"><p>BPSb: om. واشتغلا بصناعة الطب</p></note>
-                            وصنف لهما كتباً طبية للمبادئ للتعليم ونقل لهما كتباً كثيرة من كتب جالينوس فأما داؤد فإني لم أجد له شهرة بنفسه بين الأطباء ولا يوجد له من الكتب ما يدل على براعته وعلمه وإن كان الذي يوجد له إنما هو كناش واحد وأما إسحاق فإنه اشتهر وتميز في صناعة الطب وله تصانيف كثيرة ونقل إسحاق من الكتب اليونانية إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتباً كثيرة إلا أن جل عنايته كانت مصروفة إلى نقل الكتب الحكمية مثل كتب أرسطوطاليس وغيره من الحكماء. <note n="79" type="footnote"><p>In margin of A: غيره من الحكماء … أقول وكان</p></note>
+                            وصنف لهما كتباً طبية للمبادئ للتعليم ونقل لهما كتباً كثيرة من كتب جالينوس فأما داؤد فإني لم أجد له شهرة بنفسه بين الأطباء ولا يوجد له من الكتب ما يدل على براعته وعلمه وإن كان الذي يوجد له إنما هو كناش واحد وأما إسحاق فإنه اشتهر وتميز في صناعة الطب وله تصانيف كثيرة ونقل إسحاق من الكتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةإلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتباً كثيرة إلا أن جل عنايته كانت مصروفة إلى نقل الكتب الحكمية مثل كتب أرسطوطاليس وغيره من الحكماء. <note n="79" type="footnote"><p>In margin of A: غيره من الحكماء … أقول وكان</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3846,7 +3846,7 @@
                                 عما سأله من ترجمة مقالة جالينوس في العادات
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭80‬.</label>
-                            <item style="direction:rtl; unicode-bidi:embed">كتاب في أحكام الإعراب على مذهب اليونانيين مقالتان</item>
+                            <item style="direction:rtl; unicode-bidi:embed">كتاب في أحكام الإعراب على مذهب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينمقالتان</item>
                             <label style="direction:rtl; unicode-bidi:embed">‭81‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">مقالة في السبب الذي من أجله صارت مياه البحر مالحة</item>
                             <label style="direction:rtl; unicode-bidi:embed">‭82‬.</label>
@@ -3901,7 +3901,7 @@
                             <item style="direction:rtl; unicode-bidi:embed">مقالة في قوس قزح</item>
                             <label style="direction:rtl; unicode-bidi:embed">‭97‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                كتاب تاريخ العالم والمبدأ والأنبياء والملوك والأمم والخلفاء والملوك في الإسلام وابتدأ فيه من آدم ومن أتى من بعده وذكر ملوك بني إسرائيل وملوك اليونانيين والروم وذكر ابتداء الإسلام وملوك بني أمية وملوك بني هاشم إلى <note n="306" type="footnote"><p>Sb: add. آخر</p></note>
+                                كتاب تاريخ العالم والمبدأ والأنبياء والملوك والأمم والخلفاء والملوك في الإسلام وابتدأ فيه من آدم ومن أتى من بعده وذكر ملوك بني إسرائيل وملوك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوالروم وذكر ابتداء الإسلام وملوك بني أمية وملوك بني هاشم إلى <note n="306" type="footnote"><p>Sb: add. آخر</p></note>
                                 الوقت الذي كان فيه حنين بن إسحاق وهو زمان المتوكل على الله <note n="307" type="footnote"><p>B: om. وابتدأ فيه … المتوكل على الله‬‎</p></note>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭98‬.</label>
@@ -3921,7 +3921,7 @@
                             <item style="direction:rtl; unicode-bidi:embed">مقالة في كون الجنين مما جمع من أقاويل جالينوس وبقراط</item>
                             <label style="direction:rtl; unicode-bidi:embed">‭103‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                جوامع تفسير القدماء اليونانيين لكتاب أرسطوطاليس <note n="310" type="footnote"><p>A: أرسطو</p></note>
+                                جوامع تفسير القدماء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينلكتاب أرسطوطاليس <note n="310" type="footnote"><p>A: أرسطو</p></note>
                                 في السماء والعالم
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭104‬.</label>
@@ -4159,7 +4159,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭8.32.1‬]</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان طبيباً متميزاً خبيراً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> والسريانية ونقل من اليوناني إلى السرياني كتباً كثيرة وخدم بصناعة الطب الموفق بالله طلحة بن جعفر المتوكل وكان يعتمد عليه كثيراً ويسميه مفرج كربي.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان طبيباً متميزاً خبيراً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> والسريانية ونقل من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>إلى السرياني كتباً كثيرة وخدم بصناعة الطب الموفق بالله طلحة بن جعفر المتوكل وكان يعتمد عليه كثيراً ويسميه مفرج كربي.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭8.32.2‬]</hi>
                         </p>

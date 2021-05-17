@@ -138,7 +138,7 @@
 				Ibn as age (e.g. الن ست)
 			-->
 			</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -1909,8 +1909,8 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 الترجمان
 <persName ref="https://usaybia.net/person/1287"><addName>بن بسيل</addName> <addName></addName> </persName>
 … فما علم إصطفن‬‎</p></note>
-							من تلك الأسماء اليونانية في وقته <note n="3" type="footnote"><p>Gc: add. فما</p></note>
-							له اسماً في اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> فسره بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وما لم يعلم له في اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> اسماً تركه في الكتاب على اسمه اليوناني اتكالاً منه على أن يبعث الله تعالى بعده من يعرف ذلك ويفسره باللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> إذ التسمية لا تكون إلا بالتواطئ من أهل كل بلد على أعيان الأدوية بما رأوا أن يسموا ذلك إما باشتقاق وإما بغير ذلك من تواطئهم على التسمية فاتكل إصطفن على شخوص يأتون بعده ممن قد عرف أعيان الأدوية التي لم يعرف هو لها اسماً في وقته فيسميها على قدر ما سمع في ذلك الوقت فيخرج إلى المعرفة.‬‎
+							من تلك الأسماء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةفي وقته <note n="3" type="footnote"><p>Gc: add. فما</p></note>
+							له اسماً في اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> فسره بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وما لم يعلم له في اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> اسماً تركه في الكتاب على اسمه ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>اتكالاً منه على أن يبعث الله تعالى بعده من يعرف ذلك ويفسره باللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> إذ التسمية لا تكون إلا بالتواطئ من أهل كل بلد على أعيان الأدوية بما رأوا أن يسموا ذلك إما باشتقاق وإما بغير ذلك من تواطئهم على التسمية فاتكل إصطفن على شخوص يأتون بعده ممن قد عرف أعيان الأدوية التي لم يعرف هو لها اسماً في وقته فيسميها على قدر ما سمع في ذلك الوقت فيخرج إلى المعرفة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.2.2‬]</hi>
@@ -1930,7 +1930,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 							<persName ref='https://usaybia.net/person/720'>دسقوريدس</persName>
 							 مصور الحشائش <note n="5" type="footnote"><p>B: الحشيش</p></note>
 							بالتصوير الرومي 
-							العجيب وكان الكتاب مكتوباً بالإغريقي الذي هو اليوناني وبعث معه كتاب 
+							العجيب وكان الكتاب مكتوباً بالإغريقي الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>وبعث معه كتاب 
 							<persName ref='https://usaybia.net/person/1792'>هروسيس</persName>
 							 <note n="6" type="footnote"><p>ABH: هروشيش</p></note>
 							صاحب القصص وهو تأريخ للروم عجيب فيه أخبار الدهور وقصص الملوك الأول وفوائد عظيمة
@@ -1957,7 +1957,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 <persName ref="https://usaybia.net/person/1016"><addName type="shuhra">ابن جلجل</addName> </persName>
 ولم يكن يومئذ بقرطبة <note n="11" type="footnote"><p>A: بقرطبة يومئذ</p></note>
 							من نصارى الأندلس من يقرأ اللسان <note n="12" type="footnote"><p>Gc: om. اللسان</p></note>
-							الإغريقي الذي هو اليوناني القديم فبقي كتاب 
+							الإغريقي الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>القديم فبقي كتاب 
 							<persName ref="https://usaybia.net/person/720">ديسقوريدس</persName>
 							 في خزانة 
 <persName ref="https://usaybia.net/person/43"><forename>عبد الرحمن</forename> <addName>الناصر</addName> </persName>
@@ -2001,7 +2001,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 و
  
 <persName ref="https://usaybia.net/person/88"><forename> أبو عبد الله </forename> <addName>الصقلي</addName> </persName>
-وكان يتكلم باليونانية ويعرف أشخاص الأدوية.‬‎
+وكان يتكلم بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةويعرف أشخاص الأدوية.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[‭13.36.2.4‬]</hi>

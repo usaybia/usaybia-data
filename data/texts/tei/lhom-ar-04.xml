@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -110,7 +110,7 @@
                 <div type="textpart" subtype="chapter" n="4">
                     <div type="textpart" subtype="biography" n="1">
                         <head style="direction:rtl; unicode-bidi:embed">
-                            الباب الرابع في طبقات الأطباء اليونانيين الذين أذاع أبقراط فيهم صناعة الطب
+                            الباب الرابع في طبقات الأطباء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالذين أذاع أبقراط فيهم صناعة الطب
                             <note n="1" type="footnote"><p>The edition of this chapter is based on manuscripts ABGaGcR.</p></note>
                             ‬‎
                         </head>
@@ -121,7 +121,7 @@
                             <hi rend="bold">[‭4.1.1‬]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ولنبتدئ أولاً بذكر شيء من أخبار أبقراط على حيالها وما كان عليه من التأييد الإلهي ونذكر بعد ذلك جملاً من أمر الأطباء اليونانيين الذين أذاع أبقراط فيهم هذه الصناعة وإن لم يكونوا من نسل أسقليبيوس <note n="2" type="footnote"><p>Müller: أسقليبيوس; AR: اسقلبنيوس; B: اسقلىىيوس; Ga: اسقلىىيوس; Gc: اسقلنبيوس</p></note>
+                            ولنبتدئ أولاً بذكر شيء من أخبار أبقراط على حيالها وما كان عليه من التأييد الإلهي ونذكر بعد ذلك جملاً من أمر الأطباء ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينالذين أذاع أبقراط فيهم هذه الصناعة وإن لم يكونوا من نسل أسقليبيوس <note n="2" type="footnote"><p>Müller: أسقليبيوس; AR: اسقلبنيوس; B: اسقلىىيوس; Ga: اسقلىىيوس; Gc: اسقلنبيوس</p></note>
                             فنقول إن أبقراط على ما تقدم ذكره هو السابع من الأطباء المذكورين الذين <note n="3" type="footnote"><p>A: add. أولهم crossed out.</p></note>
                             أسقليبيوس <note n="4" type="footnote"><p>Müller: أسقليبيوس; A: اسقلبنيوس; B: اسقلىىيوس; Ga: اسقلىىيوس; Gc: اسقلنبيوس; R: اسقلنبيوس</p></note>
                             أولهم.‬‎
@@ -129,7 +129,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأبقراط هو من أشرف <note n="5" type="footnote"><p>BGa: أشراف</p></note>
                             أهل بيته وأعلاهم نسباً وذلك على ما وجدته <note n="6" type="footnote"><p>R: وجد</p></note>
-                            في بعض المواضع المنقولة من اليوناني أنه أبقراط بن إيراقليدس <note n="7" type="footnote"><p>Müller: أيراقليدس; A: ابرقليدُس, in margin ابراقلس; B: ابزعلياس; Ga: ايراقلندس; Gc: ابرقلىىدس; R: ابرقليدس</p></note>
+                            في بعض المواضع المنقولة من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>أنه أبقراط بن إيراقليدس <note n="7" type="footnote"><p>Müller: أيراقليدس; A: ابرقليدُس, in margin ابراقلس; B: ابزعلياس; Ga: ايراقلندس; Gc: ابرقلىىدس; R: ابرقليدس</p></note>
                             بن أبقراط <note n="8" type="footnote"><p>AGaR: بقراط</p></note>
                             بن غنوسيديقوس <note n="9" type="footnote"><p>Müller: غنوسيديقوس; A: غيشيديفوس; BGaGc: غيوشيديفوس; R: غيوشدىفوس</p></note>
                             بن نبروس <note n="10" type="footnote"><p>Müller: نبروس; A: همروس; Ga: عروس; BGc: هروس; R: هروش</p></note>
@@ -190,7 +190,7 @@
                             الحال فهو أول من علم صناعة الطب ونسب المتعلم الأول <note n="48" type="footnote"><p>GaGc: om. الأول</p></note>
                             إليه على عادة القدماء في تسمية المعلم أبا للمتعلم وتناسل من المتعلم <note n="49" type="footnote"><p>B: المعلم</p></note>
                             الأول أهل هذا البيت المنسوبون إلى أسقليبيوس <note n="50" type="footnote"><p>Müller: أسقليبيوس; ABR: اسقلبنيوس; GaGc: اسقلنبيوس</p></note>
-                            وكان ملوك اليونانيين والعظماء منهم ولم يكونوا يمكنوا غيرهم من تعليم صناعة الطب بل كانت الصناعة فيهم خاصة يعلم الرجل منهم ولده أو ولد ولده <note n="51" type="footnote"><p>Ga: om. أو ولد ولده</p></note>
+                            وكان ملوك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوالعظماء منهم ولم يكونوا يمكنوا غيرهم من تعليم صناعة الطب بل كانت الصناعة فيهم خاصة يعلم الرجل منهم ولده أو ولد ولده <note n="51" type="footnote"><p>Ga: om. أو ولد ولده</p></note>
                             فقط.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -320,23 +320,23 @@
                             ومن ذلك قال <note n="110" type="footnote"><p>Marginal note in A: حاشية القنطار عند مائة وعشرون رطلاً والرطل تسعون مثقالاً فيكون الجميع الف الف وثمانين الف مثقال‬‎</p></note>
                             جالينوس <note n="111" type="footnote"><p>Marginal note in R: وأبقراط كان يسكن مدينة حمس ويتردد إلى مدينة دمشق ويأوي إلى بستان كان له فيها في واد هناك يعرف بالنيرب من تواريخ أبو الفرج</p></note>
                             إن أبقراط لم يجب أحد <note n="112" type="footnote"><p>Gc: add. من</p></note>
-                            ملوك الفرس العظيم الشأن المعروف عند اليونانيين بأرطخششت <note n="113" type="footnote"><p>Müller: بأرطخششت; A: بانطحشست; GaBR: بانطحسشت; Gc: باىلحسىت</p></note>
+                            ملوك الفرس العظيم الشأن المعروف عند ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينبأرطخششت <note n="113" type="footnote"><p>Müller: بأرطخششت; A: بانطحشست; GaBR: بانطحسشت; Gc: باىلحسىت</p></note>
                             وهو أردشير الفارسي جد دارا بن دارا <note n="114" type="footnote"><p>B: دارني بن دارني</p></note>
                             فإنه عرض في أيام هذا الملك <note n="115" type="footnote"><p>Ga: add. الفا crossed out.</p></note>
                             للفرس وباء فوجه إلى عامله بمدينة قارنون <note n="116" type="footnote"><p>Bachmann, <hi rend="italic">Galens Abhandlung</hi>, 20: قارنون; ABGaGcR: فاوان</p></note>
                             أن يحمل إلى أبقراط مائة قنطار ذهباً ويحمله بكرامة عظيمة وإجلال وأن يكون هذا المال تقدمة له ويضمن له إقطاعاً بمثلها.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكتب إلى ملك اليونانيين يستعين به على إخراجه إليه وضمن له مهادنة سبع سنين متى أخرج أبقرط إليه فلم يجب أبقراط إلى الخروج
+                            وكتب إلى ملك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينيستعين به على إخراجه إليه وضمن له مهادنة سبع سنين متى أخرج أبقرط إليه فلم يجب أبقراط إلى الخروج
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٨‬أ‬‎" />
                             عن بلده إلى الفرس فلما ألح عليه <note n="117" type="footnote"><p>Ga: add. كله crossed out.</p></note>
-                            ملك اليونانيين في الخروج قال له أبقراط لست أبذل <note n="118" type="footnote"><p>AGaGc: أبدل; B: أبذل; above the line in R: أبذل</p></note>
+                            ملك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينفي الخروج قال له أبقراط لست أبذل <note n="118" type="footnote"><p>AGaGc: أبدل; B: أبذل; above the line in R: أبذل</p></note>
                             الفضيلة بالمال.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ولما علل <note n="119" type="footnote"><p>R: عطل</p></note>
                             بارديقس <note n="120" type="footnote"><p>Bachmann, <hi rend="italic">Galens Abhandlung</hi>, 20: بارذيقس; ABGaGcR: اردافس</p></note>
-                            الملك من أمراض مرضها لم يقم عنده دهره كله وانصرف إلى علاج المساكين والفقراء الذين كانوا في بلدته وفي مدن أخر وإن صغرت ودار هو بنفسه جميع مدن اليونانيين حتى وضع لهم كتاباً في الأهوية والبلدان قال جالينوس ومن هذه حاله ليس إنما يستخف بالغني فقط بل بالخفض <note n="121" type="footnote"><p>BGaGc: وبالخفض</p></note>
+                            الملك من أمراض مرضها لم يقم عنده دهره كله وانصرف إلى علاج المساكين والفقراء الذين كانوا في بلدته وفي مدن أخر وإن صغرت ودار هو بنفسه جميع مدن ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينحتى وضع لهم كتاباً في الأهوية والبلدان قال جالينوس ومن هذه حاله ليس إنما يستخف بالغني فقط بل بالخفض <note n="121" type="footnote"><p>BGaGc: وبالخفض</p></note>
                             والدعة ويؤثر التعب والنصب عليها في جنب الفضيلة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -362,7 +362,7 @@
                             وملكه لنفسه ورياضته لها بالفضيلة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            أقول وقد تنسب هذه الحكاية أيضاً إلى سقراط الفيلسوف وتلامذته فأما تفسير اسم أبقراط فإن معناه ضابط الخيل وقيل معناه ماسك الصحة وقيل ماسك الأرواح وأصل اسمه باليونانية ايفوقراطيس <note n="135" type="footnote"><p>Gc: ابقوقراطيس</p></note>
+                            أقول وقد تنسب هذه الحكاية أيضاً إلى سقراط الفيلسوف وتلامذته فأما تفسير اسم أبقراط فإن معناه ضابط الخيل وقيل معناه ماسك الصحة وقيل ماسك الأرواح وأصل اسمه بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةايفوقراطيس <note n="135" type="footnote"><p>Gc: ابقوقراطيس</p></note>
                             ويقال هو بقراطيس وإنما العرب عادتها تخفيف الأسماء واختصار المعاني فخففت هذا الاسم فقالوا أبقراط وبقراط أيضاً وقد جرى ذلك كثيراً في الشعر ويقال أيضاً بالتاء أبقرات <note n="136" type="footnote"><p>A: أبقراط crossed out, above the line أبقرات</p></note>
                             وبقرات.‬‎
                         </p>
@@ -1170,9 +1170,9 @@
                         <p style="direction:rtl; unicode-bidi:embed">وهو رأس كل دواء مفرد وعنه أخذ جميع من جاء بعده ومنه يقفوا على سائر ما يحتاجون إليه من الأدوية المفردة وطوبى لتلك النفس الطيبة التي قد شقيت بالتعب من محبتها لإيصال الخيرات إلى الناس كلهم.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال حنين بن اسحق إن دياسقوريدس كان اسمه عند قومه أزدش نياذيش ومعناه بلغتهم الخارج عنا قال حنين وذلك أنه كان معتزلاً عن قومه متعلقاً بالجبال ومواضع النبات مقيماً بها في كل الأزمنة لا يدخل إلى قومه في طاعة ولا مشورة ولا حكم فلما كان ذلك سماه قومه بهذا الاسم ومعنى دياسقوري <note n="348" type="footnote"><p>GcR: دياسقوريديس</p></note>
-                            باليونانية <note n="349" type="footnote"><p>Gc: om. باليونانية</p></note>
+                            بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="349" type="footnote"><p>Gc: om. باليونانية</p></note>
                             أشجار <note n="350" type="footnote"><p>GcR: شجار</p></note>
-                            ودوس باليونانية الله ومعناه أي ملهمه الله للشجر والحشائش.‬‎
+                            ودوس بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالله ومعناه أي ملهمه الله للشجر والحشائش.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أقول ومما يؤيد أن دياسقوريدس كان متنقلاً في البلدان لمعرفة الحشائش والنظر إليها وفي منابتها قوله في صدر كتابه يخاطب الذي ألف الكتاب له وأما نحن فإنه كانت لنا كما علمت في الصغر شهوة لا تقدر في
@@ -1291,9 +1291,9 @@
                             <hi rend="bold">[‭4.1.11.4‬]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وقال القاضي أبو القاسم صاعد بن أحمد بن صاعد في كتاب طبقات الأمم إن فلاسفة اليونانيين من أرفع الناس طبقة وأجل أهل العلم منزلة لما ظهر منهم من الاعتناء
+                            وقال القاضي أبو القاسم صاعد بن أحمد بن صاعد في كتاب طبقات الأمم إن فلاسفة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينمن أرفع الناس طبقة وأجل أهل العلم منزلة لما ظهر منهم من الاعتناء
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٢٥‬أ‬‎" />
-                            الصحيح بفنون الحكمة من العلوم الرياضية والمنطقية والمعارف الطبيعية والإلهية والسياسات المنزلية والمدنية قال وأعظم هؤلاء الفلاسفة قدراً عند اليونانيين خمسة فأولهم زماناً بندقليس ثم فيثاغورس ثم سقراط ثم أفلاطون ثم أرسطوطاليس بن نيقوماخس.‬‎
+                            الصحيح بفنون الحكمة من العلوم الرياضية والمنطقية والمعارف الطبيعية والإلهية والسياسات المنزلية والمدنية قال وأعظم هؤلاء الفلاسفة قدراً عند ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينخمسة فأولهم زماناً بندقليس ثم فيثاغورس ثم سقراط ثم أفلاطون ثم أرسطوطاليس بن نيقوماخس.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">أقول وسنذكر جملاً من أحوال هؤلاء الخمسة وغيرهم إن شاء الله تعالى.‬‎</p>
                     </div>
@@ -1305,7 +1305,7 @@
                             قال القاضي صاعد إن بندقليس كان في زمن <note n="2" type="footnote"><p>BGc: زمان</p></note>
                             داود النبي عليه السلام <note n="3" type="footnote"><p>Ga: الصلاة والسلام</p></note>
                             على ما ذكره العلماء بتواريخ الأمم وكان أخذ الحكمة من <note n="4" type="footnote"><p>AGc: عن</p></note>
-                            لقمان الحكيم بالشام ثم انصرف إلى بلاد اليونانيين فتكلم في خلقة العالم بأشياء يقدح ظاهرها في أمر المعاد فهجره لذلك بعضهم وطائفة من الباطنية تنتمي إلى حكمته وتزعم أن له رموزاً قلما يوقف عليها.‬‎
+                            لقمان الحكيم بالشام ثم انصرف إلى بلاد ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينفتكلم في خلقة العالم بأشياء يقدح ظاهرها في أمر المعاد فهجره لذلك بعضهم وطائفة من الباطنية تنتمي إلى حكمته وتزعم أن له رموزاً قلما يوقف عليها.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال [‭i,37‬] وكان محمد بن عبد الله بن مسرّة الجبلي الباطني من أهل قرطبة كلفاً بفلسفته دؤوباً على دراستها قال <note n="5" type="footnote"><p>Ga: repeats قال</p></note>
@@ -1447,7 +1447,7 @@
                             بما أراد فورد على أهل مدينة الشمس وهي المعروفة في زماننا بعين شمس بكتب ملكهم فقبلوه قبولاً كريهاً وأخذوا في امتحانه زماناً فلم يجدوا عليه نقصاً ولا تقصيراً فوجهوا به إلى كهنة منف كي <note n="71" type="footnote"><p>R: لي</p></note>
                             يبالغوا في امتحانه فقبلوه قبولاً على كراهية واستقصوا امتحانه <note n="72" type="footnote"><p>R: om. فقبلوه قبولاً على كراهية واستقصوا امتحانه</p></note>
                             فلم يجدوا عليه معيباً ولا أصابوا له عثرة فبعثوا به إلى أهل ديوسبولس <note n="73" type="footnote"><p>Ga: ديسلن crossed out, above the line ديوشولن</p></note>
-                            ليمتحنوه فلم يجدوا عليه طريقاً ولا إلى أدحاضه سبيلاً لعناية ملكهم به فعرضوا عليه فرائض صعبة مخالفة لفرائض اليونانيين <note n="74" type="footnote"><p>Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 56: فرائض صعبة مخالفة لفرائض اليونانيين; ABGaGcR: om. مخالفة لفرائض اليونانيين</p></note>
+                            ليمتحنوه فلم يجدوا عليه طريقاً ولا إلى أدحاضه سبيلاً لعناية ملكهم به فعرضوا عليه فرائض صعبة مخالفة لفرائض ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين<note n="74" type="footnote"><p>Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 56: فرائض صعبة مخالفة لفرائض اليونانيين; ABGaGcR: om. مخالفة لفرائض اليونانيين</p></note>
                             كيما يمتنع من قبولها فيدحضوه ويحرموه طلبه <note n="75" type="footnote"><p>ABGaGcR: add. مخالفة لفرائض اليونانيين</p></note>
                             فقبل ذلك وقام به فاشتد أعجابهم منه وفشا بمصر ورعه حتى بلغ ذكره إلى أماسيس فأعطاه سلطاناً على الضحايا للرب تعالى وعلى سائر قرابينهم <note n="76" type="footnote"><p>B: قوابينهم</p></note>
                             ولم يعط <note n="77" type="footnote"><p>R: يعطهم</p></note>
@@ -1794,7 +1794,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال القاضي صاعد في طبقات الأمم إن سقراط كان من تلاميذ فيثاغورس واقتص من الفلسفة <note n="2" type="footnote"><p>R: واقتصر الفلسفة</p></note>
-                            على العلوم الإلهية وأعرض عن ملاذ الدنيا ورفضها وأعلن بمخالفة اليونانيين في عبادتهم الأصنام وقابل رؤسائهم بالحجاج والأدلة فثوروا <note n="3" type="footnote"><p>A: فوروا</p></note>
+                            على العلوم الإلهية وأعرض عن ملاذ الدنيا ورفضها وأعلن بمخالفة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينفي عبادتهم الأصنام وقابل رؤسائهم بالحجاج والأدلة فثوروا <note n="3" type="footnote"><p>A: فوروا</p></note>
                             العامة عليه <note n="4" type="footnote"><p>R: عليهم</p></note>
                             واضطروا ملكهم إلى <note n="5" type="footnote"><p>Gc: على</p></note>
                             قتله فأودعه الملك الحبس تحمداً إليهم <note n="6" type="footnote"><p>R: اللميم</p></note>
@@ -1807,7 +1807,7 @@
                             <hi rend="bold">[‭4.4.2.1‬]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وقال الأمير المبشر بن فاتك في كتاب مختار الحكم ومحاسن الكلم معنى سقراطيس باليونانية المعتصم بالعدل وهو ابن سفرونسقس <note n="10" type="footnote"><p>R: سفرولغيقس</p></note>
+                            وقال الأمير المبشر بن فاتك في كتاب مختار الحكم ومحاسن الكلم معنى سقراطيس بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالمعتصم بالعدل وهو ابن سفرونسقس <note n="10" type="footnote"><p>R: سفرولغيقس</p></note>
                             ومولده <note n="11" type="footnote"><p>Gc: repeats ومولده</p></note>
                             ومنشأه ومنبته بأثينية وخلف من الولد ثلاثة ذكور ولما ألزم التزويج على عاداتهم الجارية في إلزام الأفاضل بالتزويج ليبقى نسله بينهم طلب تزويج المرأة السفيهة التي لم يكن في بلده أسلط منها ليعتاد جهلها والصبر على سوء خلقها ليقدر أن يحتمل <note n="12" type="footnote"><p>R: يحمل</p></note>
                             جهل العامة والخاصة.‬‎
@@ -1826,7 +1826,7 @@
                             وكان سقراط زاهداً <note n="17" type="footnote"><p>Gc: هذا</p></note>
                             في الدنيا قليل المبالاة
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٣٠‬أ‬‎" />
-                            بها وكان من رسوم ملوك اليونانيين إذا حاربوا أخرجوا حكماءهم معهم في أسفارهم فأخرج الملك سقراط معه في سفرة خرج فيها لبعض مهماته فكان سقراط يأوي في عسكر ذلك الملك إلى [‭i,44‬] زير مكسور يستكنّ فيه من البرد وإذا <note n="18" type="footnote"><p>Ga: فإذا</p></note>
+                            بها وكان من رسوم ملوك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإذا حاربوا أخرجوا حكماءهم معهم في أسفارهم فأخرج الملك سقراط معه في سفرة خرج فيها لبعض مهماته فكان سقراط يأوي في عسكر ذلك الملك إلى [‭i,44‬] زير مكسور يستكنّ فيه من البرد وإذا <note n="18" type="footnote"><p>Ga: فإذا</p></note>
                             طلعت الشمس خرج منه فجلس عليه يستدفئ بالشمس ولأجل ذلك سمي سقراط الحب فمر به الملك يوماً وهو على ذلك الزير فوقف عليه وقال ما لنا لا نراك يا سقراط وما يمنعك من المصير إلينا فقال الشغل أيها الملك فقال بماذا قال بما يقيم <note n="19" type="footnote"><p>Ga: repeats يقيم crossed out.</p></note>
                             الحياة قال فصر إلينا فإن هذا لك عندنا مُعدّاً أبداً قال لو علمت أيها الملك أني أجد ذلك <note n="20" type="footnote"><p>A: هذا</p></note>
                             عندك لم أدعه قال بلغني أنك تقول إن عبادة الأصنام ضارة قال لم أقل هكذا قال فكيف قلت قال إنما قلت إن عبادة الأصنام نافعة للملك ضارة لسقراط لأن الملك يصلح <note n="21" type="footnote"><p>Gc: يملك</p></note>
@@ -2385,7 +2385,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال سليمان <note n="2" type="footnote"><p>Marginal note in Ga: ترجمة افلاطون عليه السلام</p></note>
                             بن حسان المعروف بابن جلجل في كتابه أفلاطن الحكيم من أهل مدينة أثينيا رومي فيلسوفي <note n="3" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 23: فلسوف</p></note>
-                            يوناني طبي عالم بالهندسة وطبائع الأعداد وله <note n="4" type="footnote"><p>Ga: له</p></note>
+                            <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>طبي عالم بالهندسة وطبائع الأعداد وله <note n="4" type="footnote"><p>Ga: له</p></note>
                             في الطب كتاب بعثه إلى طيماوس تلميذه وله في الفلسفة كتب وأشعار وله في التأليف كلام لم يسبقه أحد إليه استنبط به صنعة <note n="5" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 23: صناعة</p></note>
                             الديباج وهو [‭i,50‬] الكلام المنسوب إلى الخمس النسب التأليفية التي لا سبيل إلى وجود غيرها في جميع الموجودات المؤتلفات.‬‎
                         </p>
@@ -2404,13 +2404,13 @@
                             في دولة دارايطو <note n="14" type="footnote"><p>Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 24: دارا نطو</p></note>
                             وهو والد دارا الذي قتله الإسكندر فكان بعد بقراط في دولة والد الإسكندر فيليبس <note n="15" type="footnote"><p>R: فيليس; Cf. Badawī, <hi rend="italic">al-Mubashshir ibn Fātik</hi>, 24: فلبس</p></note>
                             وكانت الفرس يومئذ <note n="16" type="footnote"><p>Gc: om. يومئذ</p></note>
-                            تملك الروم واليونانيين.‬‎
+                            تملك الروم وال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ين‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭4.5.2‬]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وقال المبشر بن فاتك في كتاب مختار الحكم ومحاسن الكلم معنى أفلاطون وتفسيره في لغتهم العميم الواسع وكان اسم أبيه أرسطن وكان أبواه من أشراف اليونانيين من ولد أسقليبيوس <note n="17" type="footnote"><p>Müller: أسقليبيوس; AR: أسقليبوس; B: أسقلىىيوس; Ga: أسقلنبوس; Gc: أسقلنيبوس</p></note>
+                            وقال المبشر بن فاتك في كتاب مختار الحكم ومحاسن الكلم معنى أفلاطون وتفسيره في لغتهم العميم الواسع وكان اسم أبيه أرسطن وكان أبواه من أشراف ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينمن ولد أسقليبيوس <note n="17" type="footnote"><p>Müller: أسقليبيوس; AR: أسقليبوس; B: أسقلىىيوس; Ga: أسقلنبوس; Gc: أسقلنيبوس</p></note>
                             جميعاً وكانت أمه خاصة <note n="18" type="footnote"><p>Gc: om. خاصة</p></note>
                             من نسل أسولون صاحب الشرائع وكان قد أخذ في أول أمره في تعلم علم <note n="19" type="footnote"><p>Ga: om. علم</p></note>
                             الشعر
@@ -3050,7 +3050,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال المسعودي في كتاب المسالك والممالك إن المدينة الكبرى التي تسمى بَلرم <note n="81" type="footnote"><p>AGa: بالرم; Gc: قلرم</p></note>
-                            من جزيرة صقلية فيها مسجد الجامع الأكبر وكان بيعة للروم فيه هيكل عظيم قال وسمعت بعض المِنطقيين يقول إن حكيم يونان يعني أرسطوطاليس في خشبة معلق في هذا الهيكل الذي قد اتخذه المسلمون مسجداً وإن النصارى كانت تعظم قدره وتستشفي به لما شاهدت اليونانية [‭i,57‬] عليه من إكباره وإعظامه وإن السبب في
+                            من جزيرة صقلية فيها مسجد الجامع الأكبر وكان بيعة للروم فيه هيكل عظيم قال وسمعت بعض المِنطقيين يقول إن حكيم يونان يعني أرسطوطاليس في خشبة معلق في هذا الهيكل الذي قد اتخذه المسلمون مسجداً وإن النصارى كانت تعظم قدره وتستشفي به لما شاهدت ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة[‭i,57‬] عليه من إكباره وإعظامه وإن السبب في
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٣٩‬أ‬‎" />
                             تعليقه بين السماء والأرض <note n="82" type="footnote"><p>Ga: add. والأرض crossed out.</p></note>
                             ما كان الناس يلاقونه عند الاستشفاء والاستسقاء والأمور المهمة التي توجب الفزع إلى الله تعالى والتقرب إليه في حين الشدة والهلكة وعند وطئ بعضهم لبعض قال المسعودي وقد رأيت هناك خشبة عظيمة يوشك أن يكون القبر فيها.‬‎
@@ -3088,7 +3088,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وقال القاضي أبو القاسم <note n="93" type="footnote"><p>Ga:‬‎ om. أبو القاسم</p></note>
-                            صاعد بن أحمد بن صاعد في كتاب التعريف بطبقات الأمم أن أرسطوطاليس انتهت إليه فلسفة اليونانيين وهو خاتم حكمائهم وسيد علمائهم وهو أول من خلص صناعة البرهان من سائر الصناعات المنطقية وصورها بالأشكال الثلاثة وجعلها
+                            صاعد بن أحمد بن صاعد في كتاب التعريف بطبقات الأمم أن أرسطوطاليس انتهت إليه فلسفة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوهو خاتم حكمائهم وسيد علمائهم وهو أول من خلص صناعة البرهان من سائر الصناعات المنطقية وصورها بالأشكال الثلاثة وجعلها
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٣٩‬ب‬‎" />
                             آلة للعلوم النظرية حتى لقب بصاحب المنطق وله في جميع العلوم الفلسفية كتب شريفة كلية وجزئية فالجزئية رسائله التي يتعلم منها معنى واحد فقط والكلية بعضها تذاكر يتذكر بقراءتها ما قد علم من علمه وهي السبعون كتاباً التي وضعها لأوفارس وبعضها تعاليم يتعلم منها ثلاثة أشياء أحدها علوم الفلسفة والثاني أعمال الفلسفة والثالث الآلة المستعملة في علم الفلسفة وغيره من العلوم.‬‎
                         </p>
@@ -3135,7 +3135,7 @@
                             قوانين المفردات من المعقولات والألفاظ <note n="113" type="footnote"><p>A: الألفاظ</p></note>
                             الدالة عليها وهي <note n="114" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: وهو</p></note>
                             في الكتاب الملقب في ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> بالمقولات <note n="115" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: أما العربية فالمقولات</p></note>
-                            وباليونانية القاطاغورياس. <note n="116" type="footnote"><p>R: القاطي غورياس, corr. in margin to: قاطيغورياس; cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: قاطيغورياس</p></note>
+                            وبال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالقاطاغورياس. <note n="116" type="footnote"><p>R: القاطي غورياس, corr. in margin to: قاطيغورياس; cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: قاطيغورياس</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3146,27 +3146,27 @@
                             من لفظتين <note n="121" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: من لفظين لفظين</p></note>
                             وهي <note n="122" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: وهو</p></note>
                             في الكتاب الملقب في ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> بالعبارة <note n="123" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: أما العربية فالعبارة</p></note>
-                            وباليونانية باريمينياس. <note n="124" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: باري أرمينياس</p></note>
+                            وبال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةباريمينياس. <note n="124" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: باري أرمينياس</p></note>
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثالث فيه <note n="125" type="footnote"><p>A: في</p></note>
                             الأقاويل التي تميز <note n="126" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: تسبر</p></note>
                             بها القياسات المشتركة للصنائع الخمس وهي في الكتاب الملقب في ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> بالقياس <note n="127" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: أما العربية فالقياس</p></note>
-                            وباليونانية أنالوطيقيا <note n="128" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: أنولوطيقا</p></note>
+                            وبال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةأنالوطيقيا <note n="128" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: أنولوطيقا</p></note>
                             الأولى.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والرابع فيه <note n="129" type="footnote"><p>A: في</p></note>
                             القوانين التي تمتحن بها الأقاويل البرهانية وقوانين الأمور التي تلتئم بها الفلسفة وكل ما يصير بها <note n="130" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 80: به</p></note>
-                            أفعالها أتم وأفضل وأكمل وهو بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتاب البرهان وباليونانية أنالوطيقيا <note n="131" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: أنولوطيقا</p></note>
+                            أفعالها أتم وأفضل وأكمل وهو بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتاب البرهان وبال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةأنالوطيقيا <note n="131" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: أنولوطيقا</p></note>
                             الثانية.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والخامس فيه <note n="132" type="footnote"><p>A: في</p></note>
                             القوانين <note n="133" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: فيه الأقاويل</p></note>
                             التي تمتحن بها الأقاويل الجدلية <note n="134" type="footnote"><p>ABGa: om. الجدلية; Gc: الأقاويل البرهانية وقوانين الأمور. Corr. <hi rend="italic">apud</hi> al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81.</p></note>
-                            وكيفية السؤال الجدلي والجواب الجدلي وبالجملة قوانين الأمور التي تلتئم بها صناعة الجدل وتصير بها أفعالها أكمل وأفضل وأنفذ وهو بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتاب المواضع الجدلية وباليونانية طوبيقا.‬‎
+                            وكيفية السؤال الجدلي والجواب الجدلي وبالجملة قوانين الأمور التي تلتئم بها صناعة الجدل وتصير بها أفعالها أكمل وأفضل وأنفذ وهو بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> كتاب المواضع الجدلية وبال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةطوبيقا.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والسادس في <note n="135" type="footnote"><p>B: فيه; cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: فيه أولاً</p></note>
@@ -3179,7 +3179,7 @@
                             والمموّه وكيف تفسخ <note n="141" type="footnote"><p>AB: يفتتح</p></note>
                             وبأي الأشياء توقع وكيف يتحرز الإنسان ومن أن <note n="142" type="footnote"><p>ABGaGcR: أين; corr. <hi rend="italic">apud</hi> al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81.</p></note>
                             يغلط في مطلوباته <note n="143" type="footnote"><p>Al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: add. او يغالط</p></note>
-                            وهذا الكتاب يسمى باليونانية سوفسطيقا ومعناه الحكمة المموهة.‬‎
+                            وهذا الكتاب يسمى بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةسوفسطيقا ومعناه الحكمة المموهة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والسابع فيه <note n="144" type="footnote"><p>A: في</p></note>
@@ -3188,7 +3188,7 @@
                             هل هي على مذهب الخطابة أم لا ويحصي فيها جميع الأمور التي بها تلتئم <note n="147" type="footnote"><p>Al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 81: add. فيها</p></note>
                             صناعة الخطابة ويعرف كيف <note n="148" type="footnote"><p>R: كيفية</p></note>
                             صنعة الأقاويل الخطبية والخطب في فن فن من الأمور وبأي الأشياء تصير أجود وأكمل وتكون أفعالها أنفع <note n="149" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: أنفذ</p></note>
-                            وأبلغ وهذا الكتاب يسمى باليونانية الريطورية <note n="150" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: ريطوريقا</p></note>
+                            وأبلغ وهذا الكتاب يسمى بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالريطورية <note n="150" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: ريطوريقا</p></note>
                             وهي الخطابة.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3200,7 +3200,7 @@
                             الأشياء تعمل وبأي الأشياء تلتئم وتصير أجود وأفهم <note n="156" type="footnote"><p>R: om. أفهم; cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: أفخم</p></note>
                             وأبهى وألذ <note n="157" type="footnote"><p>ABGaGcR: آلة; corr. <hi rend="italic">apud</hi> al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82.</p></note>
                             وبأي الأحوال ينبغي أن تكون حتى تصير أبلغ وأبعد <note n="158" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: أنفذ</p></note>
-                            وهذا الكتاب يسمي باليونانية فويطيقا <note n="159" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: بويوطيقا</p></note>
+                            وهذا الكتاب يسمي بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةفويطيقا <note n="159" type="footnote"><p>Cf. al-Fārābī, <hi rend="italic">Iḥṣāʾ</hi>, 82: بويوطيقا</p></note>
                             وهو كتاب الشعر.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3348,7 +3348,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال حنين بن إسحق في كتاب نوادر الفلاسفة <note n="256" type="footnote"><p>Gc: om. في كتاب نوادر الفلاسفة</p></note>
                             أصل اجتماعات <note n="257" type="footnote"><p>Gc: اجتماع</p></note>
-                            الفلاسفة أنه كانت الملوك من اليونانية وغيرها تعلم أولادها الحكمة والفلسفة وتؤدبهم بأصناف الآداب وتتخذ لهم بيوت الذهب المصورة بأصناف الصور وإنما جعلت الصور <note n="258" type="footnote"><p>Ga: وإنما جعلت الصور</p></note>
+                            الفلاسفة أنه كانت الملوك من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوغيرها تعلم أولادها الحكمة والفلسفة وتؤدبهم بأصناف الآداب وتتخذ لهم بيوت الذهب المصورة بأصناف الصور وإنما جعلت الصور <note n="258" type="footnote"><p>Ga: وإنما جعلت الصور</p></note>
                             لارتياح القلوب إليها واشتياق النظر إلى رؤيتها فكان الصبيان يلازمون بيوت الصور للتأديب بسبب الصور التي فيها وكذلك نقشت اليهود <note n="259" type="footnote"><p>B: الهود</p></note>
                             هياكلها وصورت <note n="260" type="footnote"><p>A: صرت</p></note>
                             النصارى كنائسها وبيعها <note n="261" type="footnote"><p>Cf Ḥunayn ibn Isḥāq, <hi rend="italic">Ādāb al-falāsifah</hi>, 51: بيعها وكنائسها</p></note>
@@ -3477,7 +3477,7 @@
                             وهذا الصنف من الآداب <note n="339" type="footnote"><p>Ḥunayn ibn Isḥāq, <hi rend="italic">Ādāb al-falāsifah</hi>, 55: om. من الآداب</p></note>
                             أول ما يعلمه <note n="340" type="footnote"><p>Ga: يعلم corrected in the margin to يعلمه صح</p></note>
                             الحكيم للتلميذ <note n="341" type="footnote"><p>Cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Ādāb al-falāsifah</hi>, 55: التلميذ</p></note>
-                            في أول سنة مع الخط اليوناني ثم يرفعه من ذلك إلى الشعر والنحو ثم إلى الحساب ثم إلى الهندسة ثم إلى النجوم <note n="342" type="footnote"><p>Ga: om. ثم إلى النجوم</p></note>
+                            في أول سنة مع الخط ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>ثم يرفعه من ذلك إلى الشعر والنحو ثم إلى الحساب ثم إلى الهندسة ثم إلى النجوم <note n="342" type="footnote"><p>Ga: om. ثم إلى النجوم</p></note>
                             ثم إلى الطب ثم إلى الموسيقى ثم بعد ذلك يرتقي إلى المنطق ثم الفلسفة وهي علوم الآثار العلوية فهذه عشرة علوم يتعلمها <note n="343" type="footnote"><p>GcR: يتعلم</p></note>
                             المتعلم <note n="344" type="footnote"><p>Ga: علوم يتعلم</p></note>
                             في عشر سنين.‬‎

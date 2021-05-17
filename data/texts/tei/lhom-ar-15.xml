@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -162,13 +162,13 @@
 							<hi rend="bold">[‭15.1.2‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ونقلت من كلام ل<persName resp="#rschmahl" ref='https://usaybia.net/person/765'>أبي نصر الفارابي</persName> في معنى اسم الفلسفة قال اسم الفلسفة يوناني وهو دخيل في ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وهو على مذهب لسانهم <note n="12" type="footnote"><p>Gc: add. المركب من فيلا ومن</p></note>
+							ونقلت من كلام ل<persName resp="#rschmahl" ref='https://usaybia.net/person/765'>أبي نصر الفارابي</persName> في معنى اسم الفلسفة قال اسم الفلسفة <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>وهو دخيل في ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وهو على مذهب لسانهم <note n="12" type="footnote"><p>Gc: add. المركب من فيلا ومن</p></note>
 							فيلسوفيا ومعناه إيثار الحكمة وهو في لسانهم <note n="13" type="footnote"><p>H: om. فيلسوفيا ومعناه إيثار الحكمة وهو في لسانهم</p></note>
 							مركب من فيلا ومن سوفيا ففيلا الإيثار وسوفيا الحكمة والفيلسوف مشتق من الفلسفة وهو على مذهب لسانهم فيلسوفوس فإن هذا التغيير هو تغيير كثير من الاشتقاقات عندهم ومعناه المؤثر للحكمة والمؤثر للحكمة <note n="14" type="footnote"><p>Gb: om. والمؤثر للحكمة</p></note>
 							عندهم هو الذي يجعل الوكد من حياته وغرضه من عمره الحكمة.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							وحكى <persName resp="#rschmahl" ref='https://usaybia.net/person/765'>أبو نصر الفارابي</persName> في ظهور الفلسفة ما هذا نصه قال إن أمر الفلسفة اشتهر في أيام ملوك اليونانيين وبعد وفاة <persName resp="#rschmahl" ref='https://usaybia.net/person/565'>أرسطوطاليس</persName> <note n="15" type="footnote"><p>A: أرسطو</p></note>
+							وحكى <persName resp="#rschmahl" ref='https://usaybia.net/person/765'>أبو نصر الفارابي</persName> في ظهور الفلسفة ما هذا نصه قال إن أمر الفلسفة اشتهر في أيام ملوك ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينوبعد وفاة <persName resp="#rschmahl" ref='https://usaybia.net/person/565'>أرسطوطاليس</persName> <note n="15" type="footnote"><p>A: أرسطو</p></note>
 							بالإسكندرية إلى آخر أيام المرأة وإنه لما توفي بقي التعليم بحاله فيها إلى أن [‭135‬,‭ii‬] ملك ثلاثة عشر ملكاً وتوالى في مدة ملكهم من معلمي الفلسفة اثنا عشر معلماً أحدهم المعروف ب<persName resp="#rschmahl" ref='https://usaybia.net/person/528'>أندرونيقوس</persName>.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">

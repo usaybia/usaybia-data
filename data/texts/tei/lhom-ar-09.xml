@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -124,7 +124,7 @@
                             <hi rend="bold">‭[9.2]‬ حنين بن إسحاق</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً باللغات الأربع غريبها ومستعملها ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> والسريانية واليونانية <note n="2" type="footnote"><p>R: om. واليونانية</p></note>
+                            كان عالماً باللغات الأربع غريبها ومستعملها ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> والسريانية وال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="2" type="footnote"><p>R: om. واليونانية</p></note>
                             والفارسية ونقله في الغاية من الجودة. <note n="3" type="footnote"><p>AP: om. ونقله في الغاية من الجودة; P: permutation of biographies 9.1 and 9.2 (noted by the copyist).</p></note>
                             ‬‎
                         </p>
@@ -393,7 +393,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭9.32‬] يحيى بن البطريق</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان في جملة الحسن بن سهل وكان لا يعرف ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> حق معرفتها ولا اليونانية وإنما كان لطينياً يعرف لغة الروم اليوم وكتابتها وهي الحروف المتصلة لا المنفصلة اليونانية القديمة.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان في جملة الحسن بن سهل وكان لا يعرف ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> حق معرفتها ولا ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوإنما كان لطينياً يعرف لغة الروم اليوم وكتابتها وهي الحروف المتصلة لا المنفصلة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالقديمة.‬‎</p>
                     </div>
                     <div type="textpart" subtype="biography" n="33">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -506,7 +506,7 @@
                                 ‭[9.44]‬ ومنهم عيسى بن يونس الكاتب الحاسب <note n="48" type="footnote"><p>P: om. الحاسب</p></note>
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">من جملة الفضلاء بالعراق وكان كثير العناية بتحصيل الكتب القديمة والعلوم اليونانية.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">من جملة الفضلاء بالعراق وكان كثير العناية بتحصيل الكتب القديمة والعلوم ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة‬‎</p>
                     </div>
                     <div type="textpart" subtype="biography" n="45">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -530,7 +530,7 @@
                                 الكاتب
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وكان حريصاً على نقل كتب اليونانيين إلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ومشتملاً على أهل العلم والفضل وعلى النقلة خاصة.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وكان حريصاً على نقل كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ومشتملاً على أهل العلم والفضل وعلى النقلة خاصة.‬‎</p>
                     </div>
                     <div type="textpart" subtype="biography" n="48">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -548,7 +548,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان يقارب عطاؤه للنقلة والعلماء والنساخ في كل شهر ألفي دينار ونقل باسمه كتب‭ <note n="52" type="footnote"><p>Sb: كتباً‬‎</p></note>
                             <hi rend="superscript">,</hi> <note n="53" type="footnote"><p>A: add. كثيرة‬‎</p></note>
-                            ‬ عدة وكان أيضاً ممن نقلت له الكتب اليونانية وترجمت باسمه جماعة من أكابر الأطباء مثل يوحنا بن ماسويه وجبريل بن بختيشوع وبختيشوع بن جبريل بن بختيشوع وداؤد بن سرابيون وسلمويه بن بيان واليسع وإسرائيل بن زكريا بن الطيفوري وحبيش بن الحسن.‬‎
+                            ‬ عدة وكان أيضاً ممن نقلت له الكتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوترجمت باسمه جماعة من أكابر الأطباء مثل يوحنا بن ماسويه وجبريل بن بختيشوع وبختيشوع بن جبريل بن بختيشوع وداؤد بن سرابيون وسلمويه بن بيان واليسع وإسرائيل بن زكريا بن الطيفوري وحبيش بن الحسن.‬‎
                         </p>
                     </div>
                 </div>
