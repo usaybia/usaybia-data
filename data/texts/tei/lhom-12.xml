@@ -159,7 +159,7 @@
             <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
             <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
             <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -579,10 +579,10 @@
                                 </note>
                                 الهندي وهذا الكتاب فسره 
 <persName ref="https://usaybia.net/person/14">عبد الله بن علي</persName>                                 
-من الفارسي إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> لأنه نقل أولاً <note n="16" type="footnote">
+من ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> لأنه نقل أولاً <note n="16" type="footnote">
                                     <p>BGc: أولاً نقل</p>
                                 </note>
-                                من الهندي إلى الفارسي
+                                من الهندي إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
@@ -1151,10 +1151,10 @@
                                 <title ref="https://usaybia.net/work/222" n="12.3no1" change="#change-1" cert="low">
                                 كتاب السموم خمس مقالات فسره من اللسان 
                                 <persName ref="https://usaybia.net/person/1364">الهندي</persName>
-                                 إلى اللسان الفارسي منكة <note n="15" type="footnote">
+                                 إلى اللسان ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> منكة <note n="15" type="footnote">
                                     <p>Gc: كنكه</p>
                                 </note>
-                                الهندي وكان المتولي لنقله بالخط الفارسي <note n="16" type="footnote">
+                                الهندي وكان المتولي لنقله بالخط ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="16" type="footnote">
                                     <p>Beginning of <hi rend="smallcaps">MS</hi> H.</p>
                                 </note>
                                 رجل يعرف بأبي حاتم البلخي فسره ليحيى بن خالد بن برمك ثم نقل للمأمون على يد العباس بن سعيد الجوهري مولاه وكان المتولي قراءته على المأمون
@@ -1323,7 +1323,7 @@
                             <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
-                            في السموم من اللغة الهندية إلى الفارسي <note n="3" type="footnote">
+                            في السموم من اللغة الهندية إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
                             وكان في أيام 
@@ -1348,7 +1348,7 @@
                             </note>
                             جملة
 <persName ref="https://usaybia.net/person/1271">إسحاق بن سليمان بن علي الهاشمي
-</persName>                              وكان ينقل من اللغة الهندية إلى اللغة الفارسية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
+</persName>                              وكان ينقل من اللغة الهندية إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
                         </p>
                         <p n="3" xml:lang="en-Latn">
                             <rs ref="https://usaybia.net/person/926">I</rs>

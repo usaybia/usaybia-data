@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -141,7 +141,7 @@
 							متميزاً في زمانه فاضلاً في علوم الفرس والهند وإنه هو الذي جلب كتاب كليلة ودمنة من الهند إلى أنوشروان <note n="3" type="footnote"><p>Gc: نوشروان; R: انوشيروان</p></note>
 							بن قباذ بن فيروز
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٦٧‬ب‬‎" />
-							ملك الفرس وترجمه له من اللغة الهندية إلى الفارسية ثم ترجمه في الإسلام عبد الله بن المقفع الخطيب من اللغة الفارسية إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
+							ملك الفرس وترجمه له من اللغة الهندية إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> ثم ترجمه في الإسلام عبد الله بن المقفع الخطيب من اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							أقول وهذا كتاب كما قد عظمت شهرته إنه في إصلاح الأخلاق تهذيب النفوس لا نظير له في معناه وكان عبد الله بن المقفع الخطيب فارسياً أيضاً وكان كاتب أبي جعفر المنصور وترجم أيضاً من كتب أرسطوطاليس كتاب قاطيغورياس وكتاب باريمينياس وكتاب أنالوطيقيا <note n="4" type="footnote"><p>A: انولوطيقيا</p></note>
@@ -918,7 +918,7 @@
 									القسم الخامس في صيدلية الطب فيه صفة الأدوية وألوانها وطعومها وروائحها ومعادنها وجيدها ورديها ونحو ذلك من علل الصيدلة <note n="234" type="footnote"><p>In margin of A, Gc om.: وألوانها وطعومها … من علل الصيدلة صح‬‎</p></note>
 									القسم السادس في الأبدال <note n="235" type="footnote"><p>Gc: add. الأدوية</p></note>
 									يذكر فيه ما ينوب عن كل دواء أو غذاء إذا لم يوجد <note n="236" type="footnote"><p>In margin of A, Gc om.: يذكر فيه … يوجد صح‬‎</p></note>
-									القسم السابع في تفسير الأسماء والأوزان والمكاييل التي للعقاقير وتسمية الأعضاء والأدواء بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> والفارسية والهندية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> على سبيل الكتب المسماة بشقشماهي <note n="237" type="footnote"><p>In margin of A, Gc om.: والمكاييل التي … المسماة بشقشماهي‬‎</p></note>
+									القسم السابع في تفسير الأسماء والأوزان والمكاييل التي للعقاقير وتسمية الأعضاء والأدواء بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> وال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> والهندية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> على سبيل الكتب المسماة بشقشماهي <note n="237" type="footnote"><p>In margin of A, Gc om.: والمكاييل التي … المسماة بشقشماهي‬‎</p></note>
 									القسم الثامن في التشريح ومنافع الأعضاء <note n="238" type="footnote"><p>In margin of A, Gc om.: ومنافع الأعضاء; B: ومنافع اطب</p></note>
 									القسم التاسع في الأسباب الطبيعية من صناعة الطب غرضه فيه أن يبين <note n="239" type="footnote"><p>AGc: في الأسباب الطبيعية بين فيه</p></note>
 									أسباب العلل بالأمر الطبيعي القسم العاشر في المدخل إلى صناعة الطب وهو مقالتان الأولى منهما في الأشياء الطبيعية والثانية في أوائل الطب <note n="240" type="footnote"><p>In margin of A, Gc om.: وهو مقالتان … أوائل الطب‬‎</p></note>
@@ -1493,7 +1493,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							أبو الخير الحسن بن سوار بن بابا <note n="2" type="footnote"><p>ABR: يايا</p></note>
 							بن <note n="3" type="footnote"><p>Gc: om. بن</p></note>
-							بهنام المعروف بابن الخمّار وبهنام لفظة فارسية مركبة من كلمتين وهما <note n="4" type="footnote"><p>AGc: وهي</p></note>
+							بهنام المعروف بابن الخمّار وبهنام لفظة <rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> مركبة من كلمتين وهما <note n="4" type="footnote"><p>AGc: وهي</p></note>
 							به خير ونام اسم أي اسم الخير. <note n="5" type="footnote"><p>BR: om. وبهنام … اسم الخير‬‎</p></note>
 							‬‎
 						</p>
@@ -4395,7 +4395,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب المبدأ والمعاد في النفس صنفه له أيضاً <note n="437" type="footnote"><p>Gc: ايضاً له</p></note>
 								بجرجان <note n="438" type="footnote"><p>R: om. كتاب المبدأ … أيضاً بجرجان‬‎</p></note>
-								ووجدت في أول هذا الكتاب أنه صنفه للشيخ أبي أحمد محمد بن إبراهيم الفارسي <note n="439" type="footnote"><p>Gc, Gohlman: om. ووجدت في … إبراهيم الفارسيك‬‎</p></note>
+								ووجدت في أول هذا الكتاب أنه صنفه للشيخ أبي أحمد محمد بن إبراهيم ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="439" type="footnote"><p>Gc, Gohlman: om. ووجدت في … إبراهيم الفارسيك‬‎</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -4411,7 +4411,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب دانش نامه <note n="443" type="footnote"><p>Gohlman, <hi rend="italic">The Life of Ibn Sina</hi>, 94: نامه; AGcR: مايه; B: ماية</p></note>
-								العلائي بالفارسية صنفه لعلاء الدولة بن كالويه <note n="444" type="footnote"><p>Gc: om. بن كالويه</p></note>
+								العلائي بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> صنفه لعلاء الدولة بن كالويه <note n="444" type="footnote"><p>Gc: om. بن كالويه</p></note>
 								بإصفهان
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
@@ -4617,7 +4617,7 @@
 								عشر قصائد وأشعار في الزهد وغيره يصف فيها أحواله <note n="489" type="footnote"><p>Gc: اشعار وقصائد فى الزهد تضيف فيها احواله; cf. Gohlman, <hi rend="italic">The Life of Ibn Sina</hi>, 106: عدة قصائد وأشعار فى الزهد</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭68‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">رسائل بالفارسية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> ومخاطبات ومكاتبات وهزليات</item>
+							<item style="direction:rtl; unicode-bidi:embed">رسائل بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> ومخاطبات ومكاتبات وهزليات</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭69‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">تعاليق مسائل حنين في الطب</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭70‬.</label>
@@ -5102,7 +5102,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							هو الإمام فخر الدين أبو عبد الله محمد بن عمر بن الحسين الرازي أفضل المتأخرين وسيد الحكماء المحدثين قد شاعت سيادته وانتشرت في الآفاق مصنفاته وتلامذته وكان إذا ركب يمشي حوله نحو ثلاثمائة تلميذ فقهاء وغيرهم وكان خوارزم شاه يأتي إليه وكان ابن الخطيب شديد الحرص جداً <note n="2" type="footnote"><p>Gc: أيضا</p></note>
 							في سائر <note n="3" type="footnote"><p>A: om. سائر</p></note>
-							العلوم الشرعية والحكمية جيد الفطرة حاد الذهن حسن العبارة كثير البراعة قوي النظر في صناعة الطب ومباحثها عارفاً بالأدب وله شعر بالفارسي وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وكان عبل البدن ربع القامة كبير اللحية وكان في صوته فخامة وكان يخطب ببلده الري وفي غيرها من البلاد ويتكلم على المنبر بأنواع من الحكمة وكان الناس يقصدونه من البلاد ويهاجرون إليه من كل ناحية على اختلاف مطالبهم في العلوم وتفننهم فيما يشتغلون به
+							العلوم الشرعية والحكمية جيد الفطرة حاد الذهن حسن العبارة كثير البراعة قوي النظر في صناعة الطب ومباحثها عارفاً بالأدب وله شعر بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وكان عبل البدن ربع القامة كبير اللحية وكان في صوته فخامة وكان يخطب ببلده الري وفي غيرها من البلاد ويتكلم على المنبر بأنواع من الحكمة وكان الناس يقصدونه من البلاد ويهاجرون إليه من كل ناحية على اختلاف مطالبهم في العلوم وتفننهم فيما يشتغلون به
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٨٦‬ب‬‎" />
 							فكان كل منهم يجد عنده النهاية القصوى <note n="4" type="footnote"><p>A: القصيا, above the line القصوى</p></note>
 							فيما يرومه منه وكان الإمام فخر الدين قد قرأ الحكمة على مجد الدين الجيلي بمراغة وكان مجد الدين هذا من الأفاضل العظماء <note n="5" type="footnote"><p>A: العلماء</p></note>
@@ -5351,7 +5351,7 @@
 							يكون أعلم مني وكانت النجابة تتبين فيه من الصغر ولما توفي الإمام فخر الدين بقيت أولاده مقيمين في هراة ولقب ولده الصغير بعد ذلك فخر الدين بلقب أبيه <note n="53" type="footnote"><p>Gc: والده</p></note>
 							وكان الوزير علاء الملك <note n="54" type="footnote"><p>R: الدين</p></note>
 							العلوي متقلداً الوزارة للسلطان خوارزم شاه وكان علاء الملك <note n="55" type="footnote"><p>Gc: add. عالماً</p></note>
-							فاضلاً متقناً لعلوم والأدب ويشعر بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> والفارسية وكان قد تزوج بابنة الشيخ فخر الدين ولما جرى أن جنكل خان ملك التتر قهر خوارزم شاه وكسره وقتل أكثر عسكره وفقد خوارزم شاه توجه علاء الملك <note n="56" type="footnote"><p>A: الدولة, above the line الملك</p></note>
+							فاضلاً متقناً لعلوم والأدب ويشعر بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وكان قد تزوج بابنة الشيخ فخر الدين ولما جرى أن جنكل خان ملك التتر قهر خوارزم شاه وكسره وقتل أكثر عسكره وفقد خوارزم شاه توجه علاء الملك <note n="56" type="footnote"><p>A: الدولة, above the line الملك</p></note>
 							قاصداً إلى جنكل خان ومعتصماً به فلما وصل إليه أكرمه وجعله عنده من جملة خواصه وعندما استولى <note n="57" type="footnote"><p>A: استولت</p></note>
 							التتر على بلاد العجم وخربوا قلاعها ومدنها وكانوا يقتلون في كل مدينة جميع من بها ولم يبقوا على أحد تقدم علاء الملك إلى جنكل خان وقد توجهت فرقة من عساكره إلى مدينة هراة ليخربوها ويقتلوا من بها فسأله أن يعطيه أماناً لأولاد الشيخ فخر الدين بن خطيب الري وأن يجيئوا بهم <note n="58" type="footnote"><p>B: يحىيوهم</p></note>
 							مكرمين إليه <note n="59" type="footnote"><p>B: إلى عنده</p></note>
@@ -5576,7 +5576,7 @@
 							<hi rend="bold">[‭11.19.7‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول وللشيخ فخر الدين أيضاً أشعاراً كثيرة بالفارسي ودوبيت. <note n="99" type="footnote"><p>In margin of A, BGc om.: أقول وللشيخ … بالفارسي ودوبيت‬‎</p></note>
+							أقول وللشيخ فخر الدين أيضاً أشعاراً كثيرة بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> ودوبيت. <note n="99" type="footnote"><p>In margin of A, BGc om.: أقول وللشيخ … بالفارسي ودوبيت‬‎</p></note>
 							‬‎
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولفخر الدين بن الخطيب من الكتب:‬‎</p>
@@ -5676,7 +5676,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">شرح كتاب عيون الحكمة</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭37‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								الرسالة الكمالية في الحقائق الإلهية ألفها بالفارسية لكمال الدين محمد بن ميكائيل <note n="109" type="footnote"><p>Above the line in A, Gc om.: لكمال الدين محمد بن ميكائيل</p></note>
+								الرسالة الكمالية في الحقائق الإلهية ألفها بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> لكمال الدين محمد بن ميكائيل <note n="109" type="footnote"><p>Above the line in A, Gc om.: لكمال الدين محمد بن ميكائيل</p></note>
 								ووجدت شيخنا الإمام العالم تاج الدين محمد <note n="110" type="footnote"><p>A: om. محمد</p></note>
 								الأرموي قد نقلها إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> في سنة خمس وعشرين وستمائة بدمشق <note n="111" type="footnote"><p>B: om. لكمال الدين … وستمائة بدمشق‬‎</p></note>
 								<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٩٠‬أ‬‎" />
@@ -5890,17 +5890,17 @@
 						<p style="direction:rtl; unicode-bidi:embed">وله من الكتب:‬‎</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">كتاب الذخيرة الخوارزم شاهية في الطب بالفارسي اثنا عشر مجلداً</item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب الذخيرة الخوارزم شاهية في الطب بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> اثنا عشر مجلداً</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب الخفي <note n="3" type="footnote"><p>Gc: الخفا</p></note>
-								العلائي في الطب بالفارسي مجلدان صغيران
+								العلائي في الطب بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> مجلدان صغيران
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
-							<item style="direction:rtl; unicode-bidi:embed">كتاب الأعراض في الطب بالفارسي مجلدان</item>
+							<item style="direction:rtl; unicode-bidi:embed">كتاب الأعراض في الطب بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> مجلدان</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								كتاب يادكار في الطب بالفارسي مجلد ألفه لخوارزم شاه. <note n="4" type="footnote"><p>Gc: مجلد واحد</p></note>
+								كتاب يادكار في الطب بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> مجلد ألفه لخوارزم شاه. <note n="4" type="footnote"><p>Gc: مجلد واحد</p></note>
 							</item>
 						</list>
 					</div>
