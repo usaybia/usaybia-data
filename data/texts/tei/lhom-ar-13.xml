@@ -138,7 +138,7 @@
 				Ibn as age (e.g. الن ست)
 			-->
 			</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-15">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (إغريق[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-15" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -1930,7 +1930,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 							<persName ref='https://usaybia.net/person/720'>دسقوريدس</persName>
 							 مصور الحشائش <note n="5" type="footnote"><p>B: الحشيش</p></note>
 							بالتصوير الرومي 
-							العجيب وكان الكتاب مكتوباً بالإغريقي الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>وبعث معه كتاب 
+							العجيب وكان الكتاب مكتوباً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-15" cert="low">إغريقي</rs> الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>وبعث معه كتاب 
 							<persName ref='https://usaybia.net/person/1792'>هروسيس</persName>
 							 <note n="6" type="footnote"><p>ABH: هروشيش</p></note>
 							صاحب القصص وهو تأريخ للروم عجيب فيه أخبار الدهور وقصص الملوك الأول وفوائد عظيمة
@@ -1957,16 +1957,16 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 <persName ref="https://usaybia.net/person/1016"><addName type="shuhra">ابن جلجل</addName> </persName>
 ولم يكن يومئذ بقرطبة <note n="11" type="footnote"><p>A: بقرطبة يومئذ</p></note>
 							من نصارى الأندلس من يقرأ اللسان <note n="12" type="footnote"><p>Gc: om. اللسان</p></note>
-							الإغريقي الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>القديم فبقي كتاب 
+							ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-15" cert="low">إغريقي</rs> الذي هو ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs>القديم فبقي كتاب 
 							<persName ref="https://usaybia.net/person/720">ديسقوريدس</persName>
 							 في خزانة 
 <persName ref="https://usaybia.net/person/43"><forename>عبد الرحمن</forename> <addName>الناصر</addName> </persName>
-باللسان الإغريقي ولم يترجم إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وبقي الكتاب بالأندلس والذي بين أيدي الناس بترجمة
+باللسان ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-15" cert="low">إغريقي</rs> ولم يترجم إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وبقي الكتاب بالأندلس والذي بين أيدي الناس بترجمة
  <persName ref='https://usaybia.net/person/1287'>إسطفن</persName>
  الواردة من مدينة السلام بغداد فلما جاوب الناصر 
  <persName ref='https://usaybia.net/person/1924'>أرمانيوس</persName>
   <note n="13" type="footnote"><p>Müller: أرمانيوس; ABGcHR: مارينوس</p></note>
-							الملك سأله أن يبعث إليه برجل يتكلم بالإغريقي واللطيني ليعلم له عبيداً يكونون مترجمين فبعث أرمانيوس <note n="14" type="footnote"><p>AR: مارينوس</p></note>
+							الملك سأله أن يبعث إليه برجل يتكلم بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-15" cert="low">إغريقي</rs> واللطيني ليعلم له عبيداً يكونون مترجمين فبعث أرمانيوس <note n="14" type="footnote"><p>AR: مارينوس</p></note>
 							الملك الناصر براهب كان يسمى
 							<persName ref='https://usaybia.net/person/1778'> نقولا</persName>
 							  فوصل إلى قرطبة سنة أربعين وثلاثمائة.‬‎
