@@ -159,7 +159,7 @@
             <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
             <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
             <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-22">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: (هندية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note) and not(ancestor-or-self::persName) and not(ancestor::rs[@ref="http://syriaca.org/keyword/sanskrit-language"])]/text()</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -474,7 +474,7 @@
                             وكان من بعد صنجهل <note n="4" type="footnote">
                                 <p>B: كنكه</p>
                             </note>
-                            الهندي جماعة في <note n="5" type="footnote">
+                            ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> جماعة في <note n="5" type="footnote">
                                 <p>Gc: من</p>
                             </note>
                             بلاد <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
@@ -577,12 +577,12 @@
                                 كتاب سيرك <note n="15" type="footnote">
                                     <p>B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
                                 </note>
-                                الهندي وهذا الكتاب فسره 
+                                ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> وهذا الكتاب فسره 
 <persName ref="https://usaybia.net/person/14">عبد الله بن علي</persName>                                 
 من ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> لأنه نقل أولاً <note n="16" type="footnote">
                                     <p>BGc: أولاً نقل</p>
                                 </note>
-                                من الهندي إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs>
+                                من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
@@ -669,7 +669,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/218" n="12.2no11" change="#change-1" cert="low">
-                                وكتاب زوسي الهندية <note n="27" type="footnote">
+                                وكتاب زوسي ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندية</rs> <note n="27" type="footnote">
                                     <p>A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
                                 </note>
                                 في علاجات النساء
@@ -684,7 +684,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/220" n="12.2no13" change="#change-1" cert="low">
-                                وكتاب رأي الهندي <note n="28" type="footnote">
+                                وكتاب رأي ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> <note n="28" type="footnote">
                                     <p>Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
                                 </note>
                                 في أجناس الحيات وسمومها
@@ -693,7 +693,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/221" n="12.2no14" change="#change-1" cert="low">
-                                وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote">
+                                وكتاب التوهم في الأمراض والعلل لأبي قبيل ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs>. <note n="29" type="footnote">
                                     <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
                                 </note>
                             </title>
@@ -1154,7 +1154,7 @@
                                  إلى اللسان ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> منكة <note n="15" type="footnote">
                                     <p>Gc: كنكه</p>
                                 </note>
-                                الهندي وكان المتولي لنقله بالخط ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="16" type="footnote">
+                                ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> وكان المتولي لنقله بالخط ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="16" type="footnote">
                                     <p>Beginning of <hi rend="smallcaps">MS</hi> H.</p>
                                 </note>
                                 رجل يعرف بأبي حاتم البلخي فسره ليحيى بن خالد بن برمك ثم نقل للمأمون على يد العباس بن سعيد الجوهري مولاه وكان المتولي قراءته على المأمون
@@ -1343,7 +1343,7 @@
                         <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             و
                             <rs ref="https://usaybia.net/person/926">وجدت</rs>
-                             في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote">
+                             في بعض الكتب أن منكة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> كان في <note n="4" type="footnote">
                                 <p>H: add. تلامذة</p>
                             </note>
                             جملة
@@ -1623,7 +1623,7 @@
                             فقال 
 <persName ref="https://usaybia.net/person/1304">جعفر بن يحيى
 </persName>                             
-يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة الهندي في العلم بطريقة أهل <note n="14" type="footnote">
+يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> في العلم بطريقة أهل <note n="14" type="footnote">
                                 <p>Above the line in A: أهل</p>
                             </note>
                             <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
