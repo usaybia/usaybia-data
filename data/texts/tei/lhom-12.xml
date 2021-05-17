@@ -159,7 +159,7 @@
             <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
             <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
             <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -1318,12 +1318,12 @@
                             </hi>
                         </p>
                         <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً للغة الهند و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب 
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً ل<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهند</rs> و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب 
                             <persName ref="https://usaybia.net/person/2062">شاناق</persName> 
                             <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
-                            في السموم من اللغة الهندية إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
+                            في السموم من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
                             وكان في أيام 
@@ -1348,7 +1348,7 @@
                             </note>
                             جملة
 <persName ref="https://usaybia.net/person/1271">إسحاق بن سليمان بن علي الهاشمي
-</persName>                              وكان ينقل من اللغة الهندية إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
+</persName>                              وكان ينقل من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
                         </p>
                         <p n="3" xml:lang="en-Latn">
                             <rs ref="https://usaybia.net/person/926">I</rs>

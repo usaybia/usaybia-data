@@ -94,7 +94,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -402,7 +402,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/222" n="12.3no1" change="#change-1" cert="low">
-                                كتاب السموم خمس مقالات فسره من اللسان الهندي إلى اللسان ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> منكة <note n="15" type="footnote">
+                                كتاب السموم خمس مقالات فسره من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لسان الهندي</rs> إلى اللسان ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> منكة <note n="15" type="footnote">
                                     <p>Gc: كنكه</p>
                                 </note>
                                 الهندي وكان المتولي لنقله بالخط ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="16" type="footnote">
@@ -457,10 +457,10 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم الهند متقناً للغة الهند و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم الهند متقناً ل<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهند</rs> و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
-                            في السموم من اللغة الهندية إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
+                            في السموم من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
                             وكان في أيام الرشيد هارون وسافر من الهند إلى العراق في أيامه واجتمع به وداواه.‬‎
@@ -469,7 +469,7 @@
                             ووجدت في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote">
                                 <p>H: add. تلامذة</p>
                             </note>
-                            جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من اللغة الهندية إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
+                            جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ونقلت من كتاب أخبار الخلفاء والبرامكة أن الرشيد اعتل علة صعبة فعالجه جميع <note n="5" type="footnote">
