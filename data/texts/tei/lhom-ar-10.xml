@@ -94,7 +94,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -7677,7 +7677,7 @@
 							كان بارعاً في علوم كثيرة منها الطب والفلسفة والهندسة والأعداد والموسيقي لا مطعن <note n="5" type="footnote">
                                 <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:293: يطعن</p>
                             </note>
-							عليه فصيحاً في اللغة اليونانية جيد العبارة بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وتوفي بأرمينية عند بعض ملوكها ومن ثم أجاب أبا عيسى بن المنجم عن رسالته في نبوة محمد صلى ﷲ عليه وسلم <note n="6" type="footnote">
+							عليه فصيحاً في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> جيد العبارة بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وتوفي بأرمينية عند بعض ملوكها ومن ثم أجاب أبا عيسى بن المنجم عن رسالته في نبوة محمد صلى ﷲ عليه وسلم <note n="6" type="footnote">
                                 <p>ASb: صلعم; PR: صلى ﷲ عليه</p>
                             </note>
 							وثم <note n="7" type="footnote">
@@ -7692,7 +7692,7 @@
 							<hi rend="bold">[‭10.44.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول ونقل قسطا كتباً كثيرة من كتب اليونانيين إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وكان جيد النقل فصيحاً باللسان اليوناني والسرياني وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وأصلح نقولاً كثيرة وأصله يوناني <note n="9" type="footnote">
+							أقول ونقل قسطا كتباً كثيرة من كتب اليونانيين إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وكان جيد النقل فصيحاً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> والسرياني وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وأصلح نقولاً كثيرة وأصله يوناني <note n="9" type="footnote">
                                 <p>Ga: om. والسرياني والعربي وأصلح نقولاً كثيرة وأصله يوناني</p>
                             </note>
 							وله رسائل وكتب كثيرة <note n="10" type="footnote">

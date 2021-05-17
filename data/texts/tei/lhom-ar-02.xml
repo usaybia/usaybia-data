@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -145,7 +145,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أقول وترجمة أسقليبيوس <note n="14" type="footnote"><p>Müller: أسقليبيوس; A: اسقلىىىوس; GcR: اسقلنبيوس</p></note>
-                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> منع اليبس وقيل إن أصل هذا الاسم في لسان اليونانيين مشتق من البهاء والنور وكان أسقليبيوس <note n="15" type="footnote"><p>Müller: أسقليبيوس; A: اسقلىيىوس; R: اسقلينيوس</p></note>
+                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> منع اليبس وقيل إن أصل هذا الاسم في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليونانيين</rs> مشتق من البهاء والنور وكان أسقليبيوس <note n="15" type="footnote"><p>Müller: أسقليبيوس; A: اسقلىيىوس; R: اسقلينيوس</p></note>
                             على ما وجد في أخبار الجبابرة بالسريانية ذكي الطبع قوي الفهم حريصاً مجتهداً في علم صناعة الطب.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -331,7 +331,7 @@
                             وهرمس وبهذه العصا نجد زوس يقر أعين من يحب من الناس فينبه بها أيضاً النيام وأما تصويرهم تلك <note n="106" type="footnote"><p>B: ذلك</p></note>
                             العصا من شجرة الخطمي فلأنه يطرد وينفي كل مرض.‬‎
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">قال حنين نبات الخطمي لما كان دواء يسخن إسخاناً معتدلاً تهيأ فيه أن يكون علاجاً كثير المنافع إذا استعمل مفرداً وحده وإذا خلط بمواد أخر إما أسخن منه وإما أبرد كما بين ذلك ديسقوريدس وسائر من تكلم فيه ولهذا السبب نجد اسمه في اللسان اليوناني مشتقاً من اسم العلاجات وذلك أنهم يدلون بهذا الاسم على أن الخطمي فيه منافع كثيرة.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">قال حنين نبات الخطمي لما كان دواء يسخن إسخاناً معتدلاً تهيأ فيه أن يكون علاجاً كثير المنافع إذا استعمل مفرداً وحده وإذا خلط بمواد أخر إما أسخن منه وإما أبرد كما بين ذلك ديسقوريدس وسائر من تكلم فيه ولهذا السبب نجد اسمه في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> مشتقاً من اسم العلاجات وذلك أنهم يدلون بهذا الاسم على أن الخطمي فيه منافع كثيرة.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭2.1.6.3‬]</hi>
                         </p>
@@ -403,7 +403,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             من ذلك أنا نجد من رام أن يبين شجاعة وشدة ومحاربة للأعداء ودفعهم عن الأولياء وجهاداً دونهم إنما يفعل ذلك باستعماله قوة البدن واستعمال الإنسان العدل بأن يعطي كل ذي حق حقه ويفعل كل ما يجب أن يفعل ويحفظ النواميس ويصحح في كل ما يراه ويفعله لا يمكن أن يتم خلواً
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٣‬ب‬‎" />
-                            من الصحة وسبب الخلاص أيضاً إنما يرى أن تمامه إنما يكون بالصحة وذلك أنه بمنزلة المولود عنها وبالجملة فأي الناس رام أن يقول بسبب اعتقاد رأي من الآراء وإقناع باطل مموه أن قصده ليس هو اقتناء الصحة [‭i,21‬] فإنما ذلك القول منه بلسانه فقط فإذا أقر بالحق قال إن الصحة بالحقيقة هي الخير الذي في غاية التمام فهذه القوة أهلها الناس أن تكون كرسياً للإنسان المدبر لصناعة الطب واسم هذه القوة أيضاً مشتق على الحقيقة وذلك أن اسمها في اللسان اليونان مشتق من اسم الرطوبة <note n="147" type="footnote"><p>Gc: اسمها مشتق من اسم الرطوبة في اللسان اليونان</p></note>
+                            من الصحة وسبب الخلاص أيضاً إنما يرى أن تمامه إنما يكون بالصحة وذلك أنه بمنزلة المولود عنها وبالجملة فأي الناس رام أن يقول بسبب اعتقاد رأي من الآراء وإقناع باطل مموه أن قصده ليس هو اقتناء الصحة [‭i,21‬] فإنما ذلك القول منه بلسانه فقط فإذا أقر بالحق قال إن الصحة بالحقيقة هي الخير الذي في غاية التمام فهذه القوة أهلها الناس أن تكون كرسياً للإنسان المدبر لصناعة الطب واسم هذه القوة أيضاً مشتق على الحقيقة وذلك أن اسمها في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليونان</rs> مشتق من اسم الرطوبة <note n="147" type="footnote"><p>Gc: اسمها مشتق من اسم الرطوبة في اللسان اليونان</p></note>
                             لأن الصحة إنما تتم لنا بالرطوبة كما دل على ذلك في بعض المواضع أحد الشعراء في قوله الإنسان الرطب.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">

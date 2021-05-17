@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -3097,14 +3097,14 @@
                             من تزوجها وتأديبه <note n="20" type="footnote"><p>PSb: وبتأديبه</p></note>
                             فتعرف سلام الخبر حتى وقع على الزوج فلم يكلمه حين ظفر به حتى خصاه
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١١٥‬أ‬‎" />
-                            فبلي بالخصاء بعد أن علقت الجارية منه وولدت الجارية عند مخرج الرشيد إلى طوس وكانت وفاة الرشيد بعد ذلك فتبنت خرشى ذلك الغلام وأدبته بآداب الروم وقراءة كتبهم فتعلم اللسان اليوناني علماً كانت له فيه رياسة وهو إسحاق المعروف بابن الخصي.‬‎
+                            فبلي بالخصاء بعد أن علقت الجارية منه وولدت الجارية عند مخرج الرشيد إلى طوس وكانت وفاة الرشيد بعد ذلك فتبنت خرشى ذلك الغلام وأدبته بآداب الروم وقراءة كتبهم فتعلم ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> علماً كانت له فيه رياسة وهو إسحاق المعروف بابن الخصي.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭8.29.3‬]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فكنا نجتمع في مجالس أهل الأدب كثيراً فوجب لذلك حقه وذمامه واعتل إسحاق بن الخصي علة فأتيته عائداً فإني لفي منزله إذ بصرت بإنسان له شعرة قد جللته وقد ستر وجهه عني ببعضها وهو يتردد وينشد شعراً بالرومية لأوميرس <note n="21" type="footnote"><p>Sb: لأميروس</p></note>
-                            رئيس شعراء الروم فشبهت نغمته بنغمة حنين وكان العهد بحنين قبل ذلك الوقت بأكثر من سنتين فقلت لإسحاق بن الخصي هذا حنين فأنكر ذلك إنكاراً يشبه الإقرار فهتفت بحنين فاستجاب لي وقال ذكر ابن رسالة الفاعلة أنه من المحال أن يتعلم الطب عبادي وهو بريء من دين النصرانية إنه رضي أن يتعلم الطب حتى يحكم اللسان اليوناني إحكاماً لا يكون في دهره من يحكمه إحكامه وما اطلع علي أحد غير أخي هذا ولو علمت أنك تفهمني لاستترت عنك لكني عملت على أن حليتي قد تغيرت في عينك وأنا أسألك أن تستر أمري.‬‎
+                            رئيس شعراء الروم فشبهت نغمته بنغمة حنين وكان العهد بحنين قبل ذلك الوقت بأكثر من سنتين فقلت لإسحاق بن الخصي هذا حنين فأنكر ذلك إنكاراً يشبه الإقرار فهتفت بحنين فاستجاب لي وقال ذكر ابن رسالة الفاعلة أنه من المحال أن يتعلم الطب عبادي وهو بريء من دين النصرانية إنه رضي أن يتعلم الطب حتى يحكم ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> إحكاماً لا يكون في دهره من يحكمه إحكامه وما اطلع علي أحد غير أخي هذا ولو علمت أنك تفهمني لاستترت عنك لكني عملت على أن حليتي قد تغيرت في عينك وأنا أسألك أن تستر أمري.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فبقيت أكثر من ثلاث سنين <note n="22" type="footnote"><p>Sb: فبقيت ثلاث سنين وأكثر</p></note>
@@ -3136,7 +3136,7 @@
                             ‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان حنين أعلم أهل زمانه باللغة اليونانية والسريانية والفارسية والدراية <note n="37" type="footnote"><p>B: والدياره</p></note>
+                            وكان حنين أعلم أهل زمانه بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> والسريانية والفارسية والدراية <note n="37" type="footnote"><p>B: والدياره</p></note>
                             فيهم مما لم يعرفه غيره من النقلة الذين كانوا في زمانه مع ما دأب أيضاً في إتقان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> والاشتغال بها حتى صار من جملة المتميزين فيها.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -3262,7 +3262,7 @@
                             خالد الترجمان.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            قال وخدم حنين بالطب المتوكل على الله وحظي في أيامه وكان يلبس زناراً وتعلم لسان اليونانيين بالإسكندرية وكان جليلاً في ترجمته وهو أوضح معاني كتب بقراط <note n="95" type="footnote"><p>PSb: أبقراط</p></note>
+                            قال وخدم حنين بالطب المتوكل على الله وحظي في أيامه وكان يلبس زناراً وتعلم <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليونانيين</rs> بالإسكندرية وكان جليلاً في ترجمته وهو أوضح معاني كتب بقراط <note n="95" type="footnote"><p>PSb: أبقراط</p></note>
                             وجالينوس ولخصها أحسن تلخيص وكشف ما استغلق منها وأوضح مشكلها وله تآليف نافعة مثقفة <note n="96" type="footnote"><p>RSb: متفقة; cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt</hi>, 69: متقنة</p></note>
                             بارعة <note n="97" type="footnote"><p>AP: بالغة, in margin بارعة</p></note>
                             وعمد إلى كتب جالينوس فاحتذى فيها حذو الإسكندرانيين وصنعها على سبيل <note n="98" type="footnote"><p>A: طريق, above the line سبيل بخطه</p></note>
@@ -4159,7 +4159,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭8.32.1‬]</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان طبيباً متميزاً خبيراً باللغة اليونانية والسريانية ونقل من اليوناني إلى السرياني كتباً كثيرة وخدم بصناعة الطب الموفق بالله طلحة بن جعفر المتوكل وكان يعتمد عليه كثيراً ويسميه مفرج كربي.‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان طبيباً متميزاً خبيراً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> والسريانية ونقل من اليوناني إلى السرياني كتباً كثيرة وخدم بصناعة الطب الموفق بالله طلحة بن جعفر المتوكل وكان يعتمد عليه كثيراً ويسميه مفرج كربي.‬‎</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[‭8.32.2‬]</hi>
                         </p>

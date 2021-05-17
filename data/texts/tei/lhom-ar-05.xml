@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -976,13 +976,13 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وذكروا <note n="447" type="footnote"><p>In the margin of R: مطلب لغت يونان</p></note>
                             أن الأصل كان في اسم جالينوس غالينوس ومعناه الساكن أو الهادئ وقيل إن ترجمة اسم جالينوس معناه <note n="448" type="footnote"><p>R: om. معناه</p></note>
-                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الفاضل وقال أبو بكر محمد بن زكريا الرازي في كتاب الحاوي إنه ينطلق في اللغة اليونانية أن ينطق بالجيم غيناً وكافاً فيقال مثلاً جالينوس غالينوس وكالينوس وكل ذلك جائز وقد تجعل الألف واللام لاماً مشددة فيكون ذلك أصح في اليونانية.‬‎
+                            بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الفاضل وقال أبو بكر محمد بن زكريا الرازي في كتاب الحاوي إنه ينطلق في ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانية</rs> أن ينطق بالجيم غيناً وكافاً فيقال مثلاً جالينوس غالينوس وكالينوس وكل ذلك جائز وقد تجعل الألف واللام لاماً مشددة فيكون ذلك أصح في اليونانية.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أقول <note n="449" type="footnote"><p>B: om. أقول وهذالكنها في شفاء الداء أطوادُ – to end § 33</p></note>
                             وهذه فائدة تتعلق بهذا المعنى وهي <note n="450" type="footnote"><p>Gc: om. وهي</p></note>
                             حدثني القاضي نجم الدين عمر بن محمد بن الكريدي قال حدثني ابنا <note n="451" type="footnote"><p>Müller, <hi rend="italic">Lesarten</hi> 14 انبا</p></note>
-                            غاثون المطران بالشوبك وكان أعلم أهل زمانه بمعرفة لغة الروم القديمة وهي اليونانية أن في لغة اليونان كل ما كان من الأسماء الموضوعة من أسماء الناس وغيرهم فآخرها <note n="452" type="footnote"><p>Ga: واخرها</p></note>
+                            غاثون المطران بالشوبك وكان أعلم أهل زمانه بمعرفة لغة الروم القديمة وهي اليونانية أن في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونان</rs> كل ما كان من الأسماء الموضوعة من أسماء الناس وغيرهم فآخرها <note n="452" type="footnote"><p>Ga: واخرها</p></note>
                             سين مثل جالينوس وديسقوريدس <note n="453" type="footnote"><p>Ga: دسقوريدس</p></note>
                             وأنكساغورس <note n="454" type="footnote"><p>Ga: وانكساعورس</p></note>
                             وأرسطوطاليس وديوجانس وأريباسيوس وغير ذلك وكذلك <note n="455" type="footnote"><p>Ga: om. وكذلك</p></note>
@@ -996,11 +996,11 @@
                             وكتابٌ وشجرٌ فتكون النون التي تتبين في آخر التنوين مثل السين في لغة أولئك.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            أقول ويقع لي أن من الألفاظ التي في لغة اليونانيين وهي قلائل ما لا يكون في آخره سين مثل سقراط وأفلاطن وأغاثاذيمون <note n="461" type="footnote"><p>AGaGc: واغاثاديمون: R: واغاتاذيمون</p></note>
+                            أقول ويقع لي أن من الألفاظ التي في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانيين</rs> وهي قلائل ما لا يكون في آخره سين مثل سقراط وأفلاطن وأغاثاذيمون <note n="461" type="footnote"><p>AGaGc: واغاثاديمون: R: واغاتاذيمون</p></note>
                             وأغلوقن وتامور وياغات وكذلك من غير أسماء الناس مثل أنالوطيقيا <note n="462" type="footnote"><p>Cf. 4.6.13.1 no. 32 انولوطيقا</p></note>
                             ونيقوماخيا والريطورية <note n="463" type="footnote"><p>Cf. 4.6.13.1 no. 39: صناعة الريطوري; Müller: صناعة الريطورى</p></note>
                             ومثل جند بيدستر وترياق <note n="464" type="footnote"><p>Ga: وىَاترياق; R: وزياق</p></note>
-                            فإن هذه الأسماء تكون في لغة اليونانيين لا يجوز عندهم تنوينها فتكون بلا سين وذلك مثل ما عندنا في <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> أن من الأسماء ما لا ينون وهي الأسماء التي لا تنصرف مثل إسماعيلُ وإبراهيمُ [‭i,88‬] وأحمدُ ومساجدُ ودنانيرُ فتكون هذه كتلك <note n="465" type="footnote"><p>R: لذلك</p></note>
+                            فإن هذه الأسماء تكون في <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لغة اليونانيين</rs> لا يجوز عندهم تنوينها فتكون بلا سين وذلك مثل ما عندنا في <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> أن من الأسماء ما لا ينون وهي الأسماء التي لا تنصرف مثل إسماعيلُ وإبراهيمُ [‭i,88‬] وأحمدُ ومساجدُ ودنانيرُ فتكون هذه كتلك <note n="465" type="footnote"><p>R: لذلك</p></note>
                             والله أعلم.‬‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">

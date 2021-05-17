@@ -138,7 +138,7 @@
 				Ibn as age (e.g. الن ست)
 			-->
 			</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-10">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لسان(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-10" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -1903,7 +1903,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 							   وكان المترجم له 
 							   الترجمان
 <persName ref="https://usaybia.net/person/1287"><forename>إصطفن</forename> <addName>بن بسيل</addName> <addName></addName> </persName>
-من اللسان اليوناني إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وتصفح ذلك 
+من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وتصفح ذلك 
 <persName ref="https://usaybia.net/person/899"><forename>حنين</forename> <addName>بن إسحاق</addName> </persName>
 [‭47‬,‭ii‬] المترجم فصحح الترجمة وأجازها فما علم إصطفن <note n="2" type="footnote"><p>In margin of A, GcH om.: 
 الترجمان
@@ -1941,7 +1941,7 @@ unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/placeholder"><
 							 <persName ref='https://usaybia.net/person/43'>الناص</persName>
 							  أن كتاب
 							   دسقوريدس
-							   لا تجتنى فائدتة إلا برجل يحسن العبارة باللسان اليوناني ويعرف أشخاص تلك الأدوية فإن كان في بلدك <note n="7" type="footnote"><p>H: تلك بلدك</p></note>
+							   لا تجتنى فائدتة إلا برجل يحسن العبارة بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> ويعرف أشخاص تلك الأدوية فإن كان في بلدك <note n="7" type="footnote"><p>H: تلك بلدك</p></note>
 							من يحسن <note n="8" type="footnote"><p>A: يعرف, above the line يحسن</p></note>
 							ذلك فزتَ أيها الملك بفائدة الكتاب وأما كتاب 
 							هروسيس 
