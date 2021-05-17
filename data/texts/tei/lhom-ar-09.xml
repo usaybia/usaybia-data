@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الروم[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-13" cert="low"&gt;$1/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الروم[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-13" cert="low"&gt;$1/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -124,7 +124,7 @@
                             <hi rend="bold">‭[9.2]‬ حنين بن إسحاق</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً باللغات الأربع غريبها ومستعملها ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> والسريانية وال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="2" type="footnote"><p>R: om. واليونانية</p></note>
+                            كان عالماً باللغات الأربع غريبها ومستعملها ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> وال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="2" type="footnote"><p>R: om. واليونانية</p></note>
                             والفارسية ونقله في الغاية من الجودة. <note n="3" type="footnote"><p>AP: om. ونقله في الغاية من الجودة; P: permutation of biographies 9.1 and 9.2 (noted by the copyist).</p></note>
                             ‬‎
                         </p>
@@ -174,7 +174,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">‭[9.8]‬ ماسرجيس</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان ناقلاً من السرياني إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومشهوراً بالطب وله من الكتب:‬‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان ناقلاً من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومشهوراً بالطب وله من الكتب:‬‎</p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -216,7 +216,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             كان مثل أبيه في النقل ثم إنه في <note n="13" type="footnote"><p>Sb: om. في</p></note>
-                            آخر عمره فاق أباه ولم يزل متوسطاً وكان ينقل من السرياني إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومن نقله: كتاب الأجنة لأبقراط. <note n="14" type="footnote"><p>R: add. سرجس الرأسي من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط</p></note>
+                            آخر عمره فاق أباه ولم يزل متوسطاً وكان ينقل من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومن نقله: كتاب الأجنة لأبقراط. <note n="14" type="footnote"><p>R: add. سرجس الرأسي من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط</p></note>
                             ‬‎
                         </p>
                     </div>
@@ -332,7 +332,7 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ليس أيوب الأبرش المذكور أولاً ناقل جيد عالم باللغات إلا أنه بالسريانية خير <note n="26" type="footnote"><p>R: غير</p></note>
+                            ليس أيوب الأبرش المذكور أولاً ناقل جيد عالم باللغات إلا أنه بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> خير <note n="26" type="footnote"><p>R: غير</p></note>
                             منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
                         </p>
                     </div>
@@ -376,7 +376,7 @@
                             <hi rend="bold">[‭9.30‬] يوحنا بن بختيشوع</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            نقل كتباً كثيرة إلى السرياني فأما إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> فما عرف بنقله شيء منها. <note n="30" type="footnote"><p>P: om. شيء منها</p></note>
+                            نقل كتباً كثيرة إلى ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> فأما إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> فما عرف بنقله شيء منها. <note n="30" type="footnote"><p>P: om. شيء منها</p></note>
                             ‬‎
                         </p>
                     </div>
@@ -412,7 +412,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             طبقته في النقل مثل توما <note n="34" type="footnote"><p>ABPR: قيضا; Sb: قيصا</p></note>
-                            الرهاوي وكان بالسريانية أقوى منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
+                            الرهاوي وكان بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> أقوى منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="35">
@@ -457,7 +457,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             من أهل جنديسابور <note n="41" type="footnote"><p>A: om. من أهل جنديسابور</p></note>
-                            وكان لا يزال يبر النقلة ويهدي إليهم ويتقرب إلى تحصيل الكتب منهم بما يمكنه من المال وكان يريد السرياني أكثر من ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو أحد الخوز.‬‎
+                            وكان لا يزال يبر النقلة ويهدي إليهم ويتقرب إلى تحصيل الكتب منهم بما يمكنه من المال وكان يريد ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> أكثر من ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو أحد الخوز.‬‎
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="40">

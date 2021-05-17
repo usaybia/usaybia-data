@@ -102,7 +102,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -918,7 +918,7 @@
 									القسم الخامس في صيدلية الطب فيه صفة الأدوية وألوانها وطعومها وروائحها ومعادنها وجيدها ورديها ونحو ذلك من علل الصيدلة <note n="234" type="footnote"><p>In margin of A, Gc om.: وألوانها وطعومها … من علل الصيدلة صح‬‎</p></note>
 									القسم السادس في الأبدال <note n="235" type="footnote"><p>Gc: add. الأدوية</p></note>
 									يذكر فيه ما ينوب عن كل دواء أو غذاء إذا لم يوجد <note n="236" type="footnote"><p>In margin of A, Gc om.: يذكر فيه … يوجد صح‬‎</p></note>
-									القسم السابع في تفسير الأسماء والأوزان والمكاييل التي للعقاقير وتسمية الأعضاء والأدواء بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوالسريانية والفارسية والهندية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> على سبيل الكتب المسماة بشقشماهي <note n="237" type="footnote"><p>In margin of A, Gc om.: والمكاييل التي … المسماة بشقشماهي‬‎</p></note>
+									القسم السابع في تفسير الأسماء والأوزان والمكاييل التي للعقاقير وتسمية الأعضاء والأدواء بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> والفارسية والهندية وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> على سبيل الكتب المسماة بشقشماهي <note n="237" type="footnote"><p>In margin of A, Gc om.: والمكاييل التي … المسماة بشقشماهي‬‎</p></note>
 									القسم الثامن في التشريح ومنافع الأعضاء <note n="238" type="footnote"><p>In margin of A, Gc om.: ومنافع الأعضاء; B: ومنافع اطب</p></note>
 									القسم التاسع في الأسباب الطبيعية من صناعة الطب غرضه فيه أن يبين <note n="239" type="footnote"><p>AGc: في الأسباب الطبيعية بين فيه</p></note>
 									أسباب العلل بالأمر الطبيعي القسم العاشر في المدخل إلى صناعة الطب وهو مقالتان الأولى منهما في الأشياء الطبيعية والثانية في أوائل الطب <note n="240" type="footnote"><p>In margin of A, Gc om.: وهو مقالتان … أوائل الطب‬‎</p></note>
@@ -1503,7 +1503,7 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							وكان هذا <note n="6" type="footnote"><p>Above the line in A: هذا</p></note>
 							أبو الخير الحسن نصرانياً <note n="7" type="footnote"><p>B: وكان نصرانيا; R: add. وكان</p></note>
-							عالماً بأصول صناعة الطب وفروعها خبيراً بغوامضها كثير الدراية لها ماهراً في العلوم الحكمية وله مصنفات جليلة في صناعة الطب وغيرها وكان خبيراً بالنقل وقد نقل كتباً كثيرة من السرياني إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ووجدت بخطه شيئاً <note n="8" type="footnote"><p>A: أشياء</p></note>
+							عالماً بأصول صناعة الطب وفروعها خبيراً بغوامضها كثير الدراية لها ماهراً في العلوم الحكمية وله مصنفات جليلة في صناعة الطب وغيرها وكان خبيراً بالنقل وقد نقل كتباً كثيرة من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ووجدت بخطه شيئاً <note n="8" type="footnote"><p>A: أشياء</p></note>
 							من ذلك وقد أجاد فيها <note n="9" type="footnote"><p>B: فيه</p></note>
 							وقرأ الحكمة على يحيى بن عدي ببغداد <note n="10" type="footnote"><p>Above the line in A, BGc om.: ببغداد</p></note>
 							وكان في نهاية الذكاء والفطنة ومولده في شهر ربيع الأول سنة إحدى وثمانين وثلاثمائة. <note n="11" type="footnote"><p>Gc: احد وثمانين وثلثمايه</p></note>
@@ -1588,7 +1588,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
 								كتاب تدبير المشايخ <note n="32" type="footnote"><p>AGc: add. على طريق المسئلة والجواب ستة وعشرون باباً crossed out in A.</p></note>
-								وقد ذكر في أوله أن حنين ابن إسحاق كان قد ألف ذلك بالسرياني وجمع من كلام جالينوس وروفس في تدبير المشايخ ما الحاجة داعية إلى معرفته مع زيادات ذكر أنه زادها من عنده وصنف <note n="33" type="footnote"><p>A: وصير</p></note>
+								وقد ذكر في أوله أن حنين ابن إسحاق كان قد ألف ذلك بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> وجمع من كلام جالينوس وروفس في تدبير المشايخ ما الحاجة داعية إلى معرفته مع زيادات ذكر أنه زادها من عنده وصنف <note n="33" type="footnote"><p>A: وصير</p></note>
 								ذلك على طريق المسألة والجواب وأن أبا الخير بسط القول وأوضحه من غير مسألة وجواب وجعله ستة وعشرين باباً <note n="34" type="footnote"><p>In margin of A, BGc om.: وقد ذكر في أوله … ستة وعشرين باباً‬‎</p></note>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
@@ -1603,7 +1603,7 @@
 							<item style="direction:rtl; unicode-bidi:embed">مقالة في المرض المعروف بالكاهني وهو الصرع</item>
 							<label style="direction:rtl; unicode-bidi:embed">‭15‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-								تقاسيم إيساغوجي وقاطيغورياس لألينوس الإسكندراني مما نقله من السرياني إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الحسن بن سوار بن بابا <note n="37" type="footnote"><p>AR: ٮايا</p></note>
+								تقاسيم إيساغوجي وقاطيغورياس لألينوس الإسكندراني مما نقله من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> الحسن بن سوار بن بابا <note n="37" type="footnote"><p>AR: ٮايا</p></note>
 								وشرحه على طريق الحواشي نقلت ذلك من الدستور الأصل <note n="38" type="footnote"><p>R: om. الأصل</p></note>
 								من خط الحسن بن سوار <note n="39" type="footnote"><p>In margin of A, Gc om.: الحسن بن سوار … الحسن بن سوار‬‎; B: om. titles 14 and 15.</p></note>
 							</item>

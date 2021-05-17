@@ -94,7 +94,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
-                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-16">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+السرياني[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-16" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
+                    <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-9">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (لغة(s+)العرب[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-16">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+السرياني[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-16" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>                     <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>         </revisionDesc>
     </teiHeader>
 	<text>
 		<body>
@@ -3616,7 +3616,7 @@
 							 <note n="63" type="footnote">
                                 <p>B: الأنصاري</p>
                             </note>
-							وكان ثابت يقدمه ويفضله وقد نقل عيسى بن أسيد من السرياني إلى <note n="64" type="footnote">
+							وكان ثابت يقدمه ويفضله وقد نقل عيسى بن أسيد من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى <note n="64" type="footnote">
                                 <p>R: om. الى</p>
                             </note>
 							ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> بحضرة ثابت ويوجد له كتاب جوابات ثابت لمسائل عيسى <note n="65" type="footnote">
@@ -4468,7 +4468,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭129‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/2526" n="10.3.14no129" change="#change-1" cert="low">
-								كتب عدة له في الأرصاد <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وسرياني <note n="130" type="footnote">
+								كتب عدة له في الأرصاد <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> و<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> <note n="130" type="footnote">
                                     <p>Title in margin of A, P om.</p>
                                 </note>
 							</title>
@@ -4498,14 +4498,14 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭133‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/2530" n="10.3.14no133" change="#change-1" cert="low">
-								كتاب في أجناس ما توزن به الأدوية بالسرياني <note n="134" type="footnote">
+								كتاب في أجناس ما توزن به الأدوية بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> <note n="134" type="footnote">
                                     <p>Titles 131–133 in margin of A, P om.</p>
                                 </note>
 							</title>
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">‭134‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/2531" n="10.3.14no134" change="#change-1" cert="low">كتاب في هجاء السرياني وإعرابه</title>
+                                <title ref="https://usaybia.net/work/2531" n="10.3.14no134" change="#change-1" cert="low">كتاب في هجاء ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> وإعرابه</title>
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">‭135‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -4574,7 +4574,7 @@
                             </item>
 						</list>
 						<p style="direction:rtl; unicode-bidi:embed">
-							ومما وجد لثابت بن قرة الحراني الصابئ بالسريانية <note n="141" type="footnote">
+							ومما وجد لثابت بن قرة الحراني الصابئ بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> <note n="141" type="footnote">
                                 <p>Above the line A, P om.: بالسريانية</p>
                             </note>
 							فيما يتعلق بمذهبه:‬‎
@@ -5064,7 +5064,7 @@
 							<label style="direction:rtl; unicode-bidi:embed">‭19‬.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/2569" n="10.4.9no19" change="#change-1" cert="low">
-								إصلاحه وتهذيبه لشيء نقله من كتاب يوسف القس من السرياني إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> من كتاب أرشميدس في المثلثات. <note n="86" type="footnote">
+								إصلاحه وتهذيبه لشيء نقله من كتاب يوسف القس من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> من كتاب أرشميدس في المثلثات. <note n="86" type="footnote">
                                     <p>AP: إصلاح في المثلثات, in margin of A: إصلاحه وتهذيبه … في المثلثات‬‎</p>
                                 </note>
 							</title>
@@ -6125,7 +6125,7 @@
 							بن يونان وكان فاضلاً ولكنه كان سريانياً وجميع ما له <note n="3" type="footnote">
                                 <p>BSb: ما قاله, in margin of Sb ما له</p>
                             </note>
-							من الكتب في المنطق وغيره بالسريانية.‬‎
+							من الكتب في المنطق وغيره بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs>.‬‎
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="21">
@@ -6155,7 +6155,7 @@
 							ويحيى المروزي <note n="7" type="footnote">
                                 <p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:201; Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 323: om. ويحيى المروزي</p>
                             </note>
-							وعلى أبي أحمد بن كرنيب وله تفسير من السرياني
+							وعلى أبي أحمد بن كرنيب وله تفسير من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs>
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٤١‬أ‬‎"/>
 							إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وإليه انتهت رئاسة المنطقيين <note n="8" type="footnote">
                                 <p>Sb: المنطيفيين</p>
@@ -7692,7 +7692,7 @@
 							<hi rend="bold">[‭10.44.3‬]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-							أقول ونقل قسطا كتباً كثيرة من كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وكان جيد النقل فصيحاً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> والسرياني وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وأصلح نقولاً كثيرة وأصله <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs><note n="9" type="footnote">
+							أقول ونقل قسطا كتباً كثيرة من كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وكان جيد النقل فصيحاً بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> وال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وأصلح نقولاً كثيرة وأصله <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يوناني</rs><note n="9" type="footnote">
                                 <p>Ga: om. والسرياني والعربي وأصلح نقولاً كثيرة وأصله يوناني</p>
                             </note>
 							وله رسائل وكتب كثيرة <note n="10" type="footnote">
