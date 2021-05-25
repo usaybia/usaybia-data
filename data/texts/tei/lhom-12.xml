@@ -147,7 +147,7 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>             
+            <change who="#ngibson" when="2020-02-19">Added header to downloaded text.</change>
             <change xml:id="change-1" who="#ngibson" when="2020-06-04">Added title elements with iterating URIs to list items.</change>
             <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
             <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
@@ -159,6 +159,12 @@
             <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
             <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
             <change xml:id="change-6" who="#ngibson" when="2021-02-03">Aligned English and Arabic texts</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-05-17" who="#ngibson" xml:id="change-22">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: (هندية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note) and not(ancestor-or-self::persName) and not(ancestor::rs[@ref="http://syriaca.org/keyword/sanskrit-language"])]/text()</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -171,13 +177,13 @@
                             <note n="1" type="footnote">
                                 <p>The edition of this chapter is based on MSS ABGcHR.</p>
                             </note>
-                            ‬‎
+                            ‎
                         </head>
                         <head xml:lang="en-Latn">Chapter 12 Physicians of India</head>
                         <head xml:lang="en-Latn">Bruce Inksetter and Emilie Savage-Smith</head>
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.1]‬ 
+                                [12.1] 
                                 <persName ref="https://usaybia.net/person/1364">كنكة الهندي </persName>
                                 <note n="2" type="footnote">
                                     <p>This biography is present in all three versions of the work. B: om. الهندي</p>
@@ -246,12 +252,12 @@
                             حكيم بارع من متقدمي حكماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
                                 <p>Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
                             </note>
-                            (‭١٩١‬أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال 
+                            (١٩١أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال 
 <persName ref="https://usaybia.net/person/275">أبو معشر جعفر بن محمد ابن عمر البلخي</persName>                             
 في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote">
                                 <p>Gc: المتقدم</p>
                             </note>
-                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في سالف الدهر.‬‎
+                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في سالف الدهر.‎
                         </p>
                         <p n="2" xml:lang="en-Latn">
                             He was a prominent figure among the great scholars of India. Kankah al-Hindī knew much about the art of medicine, the effects of remedies, the characteristics of naturally generated things and the occult properties of substances,
@@ -311,31 +317,31 @@
                             وله <note n="5" type="footnote">
                                 <p>BR: ولكنكه</p>
                             </note>
-                            من الكتب:‬‎
+                            من الكتب:‎
                         </p>
                         <p n="3" xml:lang="en-Latn">Kankah is the author of a number of books, including:</p>
                         <list n="4" xml:lang="ar-Arab">
-                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/201" n="12.1no1" change="#change-1" cert="low">كتاب النمودار في الأعمار</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/202" n="12.1no2" change="#change-1" cert="low">كتاب أسرار المواليد</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">3.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/203" n="12.1no3" change="#change-1" cert="low">كتاب القرانات الكبير</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">4.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/204" n="12.1no4" change="#change-1" cert="low">كتاب القرانات الصغير</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">5.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/205" n="12.1no5" change="#change-1" cert="low">كتاب الطب وهو يجري مجري كناش</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">6.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/206" n="12.1no6" change="#change-1" cert="low">
                                 كتاب في التوهم <note n="6" type="footnote">
@@ -343,7 +349,7 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">7.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/207" n="12.1no7" change="#change-1" cert="low">كتاب في أحداث العالم والدور في القران.</title>
                             </item>
@@ -427,7 +433,7 @@
                     <div type="textpart" subtype="biography" n="2">
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.2]‬ 
+                                [12.2] 
                                 <persName ref="https://usaybia.net/person/2005">صنجهل</persName>
                                  <note n="1" type="footnote">
                                     <p>This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
@@ -459,9 +465,9 @@
                                 <p>R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote">
-                                <p>B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير‬‎</p>
+                                <p>B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير‎</p>
                             </note>
-                            ‬‎
+                            ‎
                         </p>
                         <p n="2" xml:lang="en-Latn">
                             Ṣanjahal was one of the most learned and outstanding scholars of India, having been a master of the sciences of medicine and astrology, and was the author of a work entitled
@@ -474,7 +480,7 @@
                             وكان من بعد صنجهل <note n="4" type="footnote">
                                 <p>B: كنكه</p>
                             </note>
-                            الهندي جماعة في <note n="5" type="footnote">
+                            ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> جماعة في <note n="5" type="footnote">
                                 <p>Gc: من</p>
                             </note>
                             بلاد <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
@@ -511,7 +517,7 @@
                             <note n="13" type="footnote">
                                 <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جبارى; R: باكهر داهرجبهر راحه انكراندى حىكه زنكل جارى</p>
                             </note>
-                            كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة العربية.‬‎
+                            كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
                         </p>
                         <p n="3" xml:lang="en-Latn">
                             Ṣanjahal was followed in India by a group of scholars, including 
@@ -551,7 +557,7 @@
                              <note n="14" type="footnote">
                                 <p>B: add. أيضاً</p>
                             </note>
-                            قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:‬‎
+                            قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:‎
                         </p>
                         <p n="4" xml:lang="en-Latn">
                             I have found that 
@@ -571,21 +577,21 @@
                             ] and other works, drew upon a number of works by Indian scholars, such as:
                         </p>
                         <list n="5" xml:lang="ar-Arab">
-                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/208" n="12.2no1" change="#change-1" cert="low">
                                 كتاب سيرك <note n="15" type="footnote">
                                     <p>B: شيرك; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303; Tajaddud, 360; F. Sayyid, 2/1:315: سيرك; ʿAlī ibn Rabban al-Ṭabarī, <hi rend="italic">Firdaws</hi>, 578; al-Bīrūnī, <hi rend="italic">Tāʾrīkh al-Hind</hi>, 123: جرك; al-Rāzī, <hi rend="italic">K. al-Ḥawī</hi>, <hi rend="italic">passim</hi>: شرك</p>
                                 </note>
-                                الهندي وهذا الكتاب فسره 
+                                ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> وهذا الكتاب فسره 
 <persName ref="https://usaybia.net/person/14">عبد الله بن علي</persName>                                 
-من الفارسي إلى العربي لأنه نقل أولاً <note n="16" type="footnote">
+من ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> لأنه نقل أولاً <note n="16" type="footnote">
                                     <p>BGc: أولاً نقل</p>
                                 </note>
-                                من الهندي إلى الفارسي
+                                من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/209" n="12.2no2" change="#change-1" cert="low">وعن كتاب <persName ref="https://usaybia.net/person/2163">سسرد</persName>
                                      وفيه علامات الأدواء ومعرفة علاجها وأدويتها وهو عشر مقالات أمر 
@@ -593,7 +599,7 @@
                                       بتفسير
                                     </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">3.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/210" n="12.2no3" change="#change-1" cert="low">
                                 كتاب 
@@ -604,7 +610,7 @@
                                 في علامات أربعمائة وأربعة أدواء ومعرفتها بغير علاج
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">4.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/211" n="12.2no4" change="#change-1" cert="low">
                                 وكتاب سندهشار <note n="18" type="footnote">
@@ -618,7 +624,7 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">5.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/212" n="12.2no5" change="#change-1" cert="low">
                                 وكتاب فيما اختلفت <note n="21" type="footnote">
@@ -627,11 +633,11 @@
                                 فيه <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">6.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/213" n="12.2no6" change="#change-1" cert="low">كتاب تفسير أسماء العقار بأسماء عشرة</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭7‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">7.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/214" n="12.2no7" change="#change-1" cert="low">
                                 وكتاب استانكر <note n="22" type="footnote">
@@ -642,11 +648,11 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">8.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/215" n="12.2no8" change="#change-1" cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName></title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">9.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/216" n="12.2no9" change="#change-1" cert="low">
                                 وكتاب مختصر في العقاقير للهند <note n="24" type="footnote">
@@ -654,7 +660,7 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">10.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/217" n="12.2no10" change="#change-1" cert="low">
                                 وكتاب نوفشل <note n="25" type="footnote">
@@ -666,34 +672,34 @@
                                 دواء
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">11.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/218" n="12.2no11" change="#change-1" cert="low">
-                                وكتاب زوسي الهندية <note n="27" type="footnote">
+                                وكتاب زوسي ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندية</rs> <note n="27" type="footnote">
                                     <p>A: زوسي; Gc: روشى; R: روسا الهندية; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: روسا; Tajaddud, 360; Sayyid, 2/1, 315: دويني</p>
                                 </note>
                                 في علاجات النساء
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">12.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/219" n="12.2no12" change="#change-1" cert="low">
                                 وكتاب السكر لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">13.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/220" n="12.2no13" change="#change-1" cert="low">
-                                وكتاب رأي الهندي <note n="28" type="footnote">
+                                وكتاب رأي ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> <note n="28" type="footnote">
                                     <p>Gc: الهند; cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, ed. Flügel, 303: راى; Tajaddud, 360: باىى الهندي; Sayyid, 2/1, 316: بابي الهندي</p>
                                 </note>
                                 في أجناس الحيات وسمومها
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">14.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/221" n="12.2no14" change="#change-1" cert="low">
-                                وكتاب التوهم في الأمراض والعلل لأبي قبيل الهندي. <note n="29" type="footnote">
+                                وكتاب التوهم في الأمراض والعلل لأبي قبيل ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs>. <note n="29" type="footnote">
                                     <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>, Flügel, 303; Tajaddud, 360; Sayyid, 2/1, 316: لتوقشتل الهندي</p>
                                 </note>
                             </title>
@@ -1054,7 +1060,7 @@
                     <div type="textpart" subtype="biography" n="3">
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭12.3‬] 
+                                [12.3] 
                                 <persName ref="https://usaybia.net/person/2062" >شاناق </persName>
                                 <note n="1" type="footnote">
                                     <p>This biography is included in Version 2 and Version 3 of the work, but is missing from Version 1.</p>
@@ -1099,7 +1105,7 @@
                             وكان بارعاً في علم النجوم حسن الكلام متقدماً عند ملوك الهند ومن كلامه <note n="4" type="footnote">
                                 <p>GcR: كلام شاناق</p>
                             </note>
-                            قال في كتابه الذي سماه منتخل الجوهر يا أيها ‭[ii,33]‬ الوالي اتق عثرات الزمان واخش (‭١٩١‬ب) تسلط الأيام ولوعة غلبة الدهر واعلم أن للأعمال <note n="5" type="footnote">
+                            قال في كتابه الذي سماه منتخل الجوهر يا أيها [ii,33] الوالي اتق عثرات الزمان واخش (١٩١ب) تسلط الأيام ولوعة غلبة الدهر واعلم أن للأعمال <note n="5" type="footnote">
                                 <p>Gc: الأعمال</p>
                             </note>
                             جزاء فاتق عواقب الدهر <note n="6" type="footnote">
@@ -1124,9 +1130,9 @@
                                 <p>A: وهن</p>
                             </note>
                             خمس فإذا لم يضبط حواسه مع قلتها وذلتها صعب عليه ضبط الأعوان مع كثرتهم وخشونة جانبهم فكانت عامة الرعية في أقاصي البلاد وأطراف المملكة أبعد من الضبط. <note n="13" type="footnote">
-                                <p>B: om. وتفنن في العلوم … أبعد من الضبط‬‎</p>
+                                <p>B: om. وتفنن في العلوم … أبعد من الضبط‎</p>
                             </note>
-                            ‬‎
+                            ‎
                         </p>
                         <p n="2" xml:lang="en-Latn">
                             Another celebrated Indian physician, the possessor of many treatments and much experience in the art of medicine and a master of various sciences and wisdom, as well as having been proficient in astrology. He was also an eloquent speaker, and stood high in the estimation of Indian kings. The following is an example of his eloquence, taken from a work of his entitled
@@ -1142,33 +1148,33 @@
                             ولشاناق <note n="14" type="footnote">
                                 <p>B: وله</p>
                             </note>
-                            من الكتب:‬‎
+                            من الكتب:‎
                         </p>
                         <p n="3" xml:lang="en-Latn">Shānāq was the author of several books, notably:</p>
                         <list n="4" xml:lang="ar-Arab">
-                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/222" n="12.3no1" change="#change-1" cert="low">
                                 كتاب السموم خمس مقالات فسره من اللسان 
                                 <persName ref="https://usaybia.net/person/1364">الهندي</persName>
-                                 إلى اللسان الفارسي منكة <note n="15" type="footnote">
+                                 إلى اللسان ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> منكة <note n="15" type="footnote">
                                     <p>Gc: كنكه</p>
                                 </note>
-                                الهندي وكان المتولي لنقله بالخط الفارسي <note n="16" type="footnote">
+                                ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> وكان المتولي لنقله بالخط ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="16" type="footnote">
                                     <p>Beginning of <hi rend="smallcaps">MS</hi> H.</p>
                                 </note>
                                 رجل يعرف بأبي حاتم البلخي فسره ليحيى بن خالد بن برمك ثم نقل للمأمون على يد العباس بن سعيد الجوهري مولاه وكان المتولي قراءته على المأمون
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/223" n="12.3no2" change="#change-1" cert="low">كتاب البيطرة</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭3‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">3.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/224" n="12.3no3" change="#change-1" cert="low">كتاب في علم النجوم</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">4.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/225" n="12.3no4" change="#change-1" cert="low">
                                 كتاب منتخل الجوهر <note n="17" type="footnote">
@@ -1182,7 +1188,7 @@
                                 </note>
 <persName ref="https://usaybia.net/person/1080">ابن قمانص الهندي
 </persName>                                . <note n="20" type="footnote">
-                                    <p>B: om. كتاب في علم النجوم … قمانص الهندي‬‎</p>
+                                    <p>B: om. كتاب في علم النجوم … قمانص الهندي‎</p>
                                 </note>
                             </title>
                             </item>
@@ -1251,7 +1257,7 @@
                     <div type="textpart" subtype="biography" n="4">
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.4]‬ 
+                                [12.4] 
                                 <persName ref="https://usaybia.net/person/1331">جودر</persName> 
                                 <note n="1" type="footnote">
                                     <p>This biography is present in Version 3 only; copied in margin of A, om. in GcH.</p>
@@ -1271,7 +1277,7 @@
                                 </note>
                             </hi>
                         </p>
-                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء ا<placeName ref="https://usaybia.net/place/260" resp="#mtolay">لهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى العربي.‬‎</p>
+                        <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء ا<placeName ref="https://usaybia.net/place/260" resp="#mtolay">لهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>.‎</p>
                         <p n="2" xml:lang="en-Latn">
                             A distinguished figure among the scholars and learned men of India, who was highly regarded by his contemporaries, particularly as an authority on medicine. Jawdar is the author of scholarly works on various subjects, including
                             <hi rend="italic">On Nativities</hi>
@@ -1283,7 +1289,7 @@
                     <div type="textpart" subtype="biography" n="5">
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.5]‬ 
+                                [12.5] 
 <persName ref="https://usaybia.net/person/1501">منكة الهندي
 </persName>                                 <note n="1" type="footnote">
                                     <p>This biography is included in Version 2 and Version 3 of the work, but is missing in Version <hi rend="smallcaps">I</hi>.</p>
@@ -1318,17 +1324,17 @@
                             </hi>
                         </p>
                         <p n="2" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً للغة الهند ولغة الفرس وهو الذي نقل كتاب 
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً ل<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهند</rs> و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب 
                             <persName ref="https://usaybia.net/person/2062">شاناق</persName> 
                             <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
-                            في السموم من اللغة الهندية إلى الفارسي <note n="3" type="footnote">
+                            في السموم من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
                             وكان في أيام 
 <persName ref="https://usaybia.net/person/841">الرشيد هارون
-</persName>                             وسافر من الهند إلى <placeName ref="https://usaybia.net/place/263" resp="#mtolay">العراق</placeName> في أيامه واجتمع به وداواه.‬‎
+</persName>                             وسافر من الهند إلى <placeName ref="https://usaybia.net/place/263" resp="#mtolay">العراق</placeName> في أيامه واجتمع به وداواه.‎
                         </p>
                         <p n="2" xml:lang="en-Latn">
                             Mankah al-Hindī was knowledgeable about the art of medicine, skilled in treating disease, and moderate in his methods; a philosopher of the previously mentioned group in the Indian sciences. He was also conversant with the Sanskrit and Persian languages: it was he who translated 
@@ -1343,12 +1349,12 @@
                         <p n="3" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             و
                             <rs ref="https://usaybia.net/person/926">وجدت</rs>
-                             في بعض الكتب أن منكة الهندي كان في <note n="4" type="footnote">
+                             في بعض الكتب أن منكة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> كان في <note n="4" type="footnote">
                                 <p>H: add. تلامذة</p>
                             </note>
                             جملة
 <persName ref="https://usaybia.net/person/1271">إسحاق بن سليمان بن علي الهاشمي
-</persName>                              وكان ينقل من اللغة الهندية إلى اللغة الفارسية والعربية.‬‎
+</persName>                              وكان ينقل من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
                         </p>
                         <p n="3" xml:lang="en-Latn">
                             <rs ref="https://usaybia.net/person/926">I</rs>
@@ -1401,7 +1407,7 @@
                             معجوناً فقال في صفته هذا دواء للحمى الدائمة وحمى الربع وحمى الغب <note n="10" type="footnote">
                                 <p>Gc: om. وحمى الغب; R: وحمى الغب وحمى الربع</p>
                             </note>
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٩٢‬أ‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٩٢أ‎"/>
                             ولوجع الظهر والركبتين والخام والبواسير والرياح ووجع المفاصل ووجع العينين ولوجع البطن والصداع والشقيقة ولتقطير البول والفالج والارتعاش ولم يدع علة <note n="11" type="footnote">
                                 <p>Gc: بدعة</p>
                             </note>
@@ -1420,10 +1426,10 @@
                             أشبهه لأنه إن قُتل ما هي إلا نفسٌ <note n="16" type="footnote">
                                 <p>R: om. نفس</p>
                             </note>
-                            تحيا بفنائها أنفسُ خلقٍ كثير وإن تُرك ‭[ii,34]‬ وهذا الجهل قتَلَ في <note n="17" type="footnote">
+                            تحيا بفنائها أنفسُ خلقٍ كثير وإن تُرك [ii,34] وهذا الجهل قتَلَ في <note n="17" type="footnote">
                                 <p>Gc: om. في</p>
                             </note>
-                            كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.‬‎
+                            كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.‎
                         </p>
                         <p n="4" xml:lang="en-Latn">
                             The following account is taken from a copy of
@@ -1519,7 +1525,7 @@
                     <div type="textpart" subtype="biography" n="6">
                         <p n="1" xml:lang="ar-Arab" style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[12.6]‬ 
+                                [12.6] 
 <persName ref="https://usaybia.net/person/1984">صالح بن بهلة الهندي 
 </persName>                                <note n="1" type="footnote">
                                     <p>This biography is included in all three versions of the work.</p>
@@ -1552,7 +1558,7 @@
 </persName>                            . <note n="2" type="footnote">
                                 <p>B: هرون الرشيد</p>
                             </note>
-                            ‬‎
+                            ‎
                         </p>
                         <p n="2" xml:lang="en-Latn">Ṣāliḥ ibn Bahlah al-Hindī was one of the most distinguished of the learned men of India. He was skilled in Indian methods of treatment, and was influential and far-sighted in the advancement of knowledge. Ṣāliḥ ibn Bahlah al-Hindī was in Iraq in the time of the caliph 
                         <persName ref="https://usaybia.net/person/841">Hārūn al-Rashīd</persName>
@@ -1623,7 +1629,7 @@
                             فقال 
 <persName ref="https://usaybia.net/person/1304">جعفر بن يحيى
 </persName>                             
-يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة الهندي في العلم بطريقة أهل <note n="14" type="footnote">
+يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> في العلم بطريقة أهل <note n="14" type="footnote">
                                 <p>Above the line in A: أهل</p>
                             </note>
                             <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
@@ -1635,7 +1641,7 @@
                             فهمنا عن جبريل فعل <note n="17" type="footnote">
                                 <p>Gc: om. فعل; H: add. أمير المؤمنين</p>
                             </note>
-                            فأمر الرشيد جعفراً بإحضاره وتوجيهه والمصير به إليه ورده بعد منصرفه من عنده ففعل ذلك جعفر (‭١٩٢‬ب) ومضى صالح <note n="18" type="footnote">
+                            فأمر الرشيد جعفراً بإحضاره وتوجيهه والمصير به إليه ورده بعد منصرفه من عنده ففعل ذلك جعفر (١٩٢ب) ومضى صالح <note n="18" type="footnote">
                                 <p>B: add. بن بهلة</p>
                             </note>
                             إلى إبراهيم حتى عاينه وجس عرقه وصار إلى جعفر وسأله ما عنده من العلم <note n="19" type="footnote">
@@ -1680,7 +1686,7 @@
                             يا صالح على غيب فقال صالح كلا يا أمير المؤمنين إنما الغيب ما لا علم لأحد به ولا دليل له <note n="32" type="footnote">
                                 <p>Above the line in A: له; Gc: om. له</p>
                             </note>
-                            عليه ولم أقل ما قلت إلا بعلم واضح ودلائل بينة.‬‎
+                            عليه ولم أقل ما قلت إلا بعلم واضح ودلائل بينة.‎
                         </p>
                         <p n="3" xml:lang="en-Latn">
                             <persName ref="https://usaybia.net/person/212">Abu l-Ḥasan Yūsuf ibn Ibrāhīm</persName>
@@ -1794,7 +1800,7 @@
                                 <p>A: add. الرشيد</p>
                             </note>
                             وأقبل على جعفر بن يحيى باللوم في إرشاده إياه إلى صالح بن بهلة وأقبل <note n="37" type="footnote">
-                                <p>Gc: om. على جعفر بن … صالح بن بهلة وأقبل‬‎</p>
+                                <p>Gc: om. على جعفر بن … صالح بن بهلة وأقبل‎</p>
                             </note>
                             يلعن الهند وطبهم <note n="38" type="footnote">
                                 <p>Gc: بعلن الطب من الهند</p>
@@ -1817,7 +1823,7 @@
                             في جوفه <note n="44" type="footnote">
                                 <p>A: بطنه, in margin جوفه صح</p>
                             </note>
-                            من طعام وشراب وبكر ‭[ii,35]‬ إلى دار إبراهيم فقصد خدمه بالرشيد <note n="45" type="footnote">
+                            من طعام وشراب وبكر [ii,35] إلى دار إبراهيم فقصد خدمه بالرشيد <note n="45" type="footnote">
                                 <p>Gc: نحو الرشيد</p>
                             </note>
                             إلى رواق على مجالس لإبراهيم على يمين الرواق ويساره فراشان بكراسيهما ومتّكئاتهما <note n="46" type="footnote">
@@ -1850,7 +1856,7 @@
                             بهذا القول مرات فإذن له بالدخول على <note n="55" type="footnote">
                                 <p>A: إلى, in margin على صح</p>
                             </note>
-                            إبراهيم وحده. (‭١٩٣‬أ)‬‎
+                            إبراهيم وحده. (١٩٣أ)‎
                         </p>
                         <p n="4" xml:lang="en-Latn">Aḥmad ibn Rashīd’s report of the account of Abū Salamah Sallām al-Abrash continues thus:</p>
                         <cit n="4" xml:lang="en-Latn">
@@ -1994,7 +2000,7 @@
                                         <p xml:lang="en-Latn">
                                             This is Masrūr al-Khādim al-Kabīr, the eunuch. Masrūr is often quoted as transmitter of reports in
                                             <hi rend="italic">adab</hi>
-                                            works, notabl‮‭y‬‬‎ in al-Iṣbahānī’s
+                                            works, notabl‮y‎ in al-Iṣbahānī’s
                                             <hi rend="italic">K. al-Aghānī</hi>
                                             . He is also a recurrent character in the
                                             <hi rend="italic">One Thousand and One Nights</hi>
@@ -2069,7 +2075,7 @@
                             كان صالح أدخل فيها <note n="84" type="footnote">
                                 <p>Gc: فيه</p>
                             </note>
-                            الإبرة.‬‎
+                            الإبرة.‎
                         </p>
                         <p n="6" xml:lang="en-Latn">Aḥmad ibn Rashīd’s report of the account of Abū Salamah continues thus:</p>
                         <cit n="6" xml:lang="en-Latn">
@@ -2136,7 +2142,7 @@
                              <note n="86" type="footnote">
                                 <p>Gc: الرشيد</p>
                             </note>
-                            وولي <placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> و<placeName ref="https://usaybia.net/place/432" resp="#mtolay">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> وقبره بها.‬‎
+                            وولي <placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> و<placeName ref="https://usaybia.net/place/432" resp="#mtolay">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> وقبره بها.‎
                         </p>
                         <p n="7" xml:lang="en-Latn">
                             <persName ref="https://usaybia.net/person/1204">Ibrāhīm</persName>
