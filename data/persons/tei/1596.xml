@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -189,6 +193,10 @@
                  n="0.6.0-dev"
                  xml:id="change-3"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -203,6 +211,7 @@
                <persName xml:id="name1596-3" xml:lang="en-x-lhom" source="#bib1596-1">Muhadhdhab al-Dīn ibn al-Naqqāsh</persName>
                <persName xml:id="name1596-4" xml:lang="ar" source="#bib1596-1">مهذب الدين بن النقاش</persName>
                <persName xml:id="name1596-5" xml:lang="ar" source="#bib1596-1">Muhadhdhab al-Dīn ibn al-Naqqāsh (Abū l-Ḥasan ʿAlī ibn Abī ʿAbd Allāh ʿĪsā ibn Hibat Allāh al-Naqqāsh al-Baghdādī), Damascus physician 10.64.19.1n; 14.31.5; 14.44.2; 15.13; 15.14; 15.23.1; 15.24; 15.36.1; 15.48</persName>
+               <persName xml:id="name1596-6" xml:lang="ar">مهذب الدين بن النقاش (أبو الحسن علي بن أبي عبد الله عيسى بن هبة الله النقاش البغدادي)</persName>
                <note xml:id="abstract-en-1596"
                      xml:lang="en"
                      type="abstract"

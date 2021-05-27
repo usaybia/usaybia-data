@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -193,6 +197,10 @@
                  n="0.6.0-dev"
                  xml:id="change-5"
                  when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -206,6 +214,7 @@
                <persName xml:id="name765-2" xml:lang="ar" source="#">ابو نصر الفارابي محمد</persName>
                <persName xml:id="name765-3" xml:lang="en-x-lhom" source="#bib765-1">Abū Naṣr al-Fārābī</persName>
                <persName xml:id="name765-4" xml:lang="ar" source="#bib765-1">أبو نصر الفارابيأبو نصر الفارابي</persName>
+               <persName xml:id="name765-5" xml:lang="ar">الفارابي أبو نصر محمد بن أزلوغ بن طرخان</persName>
                <note xml:id="abstract-en-765"
                      xml:lang="en"
                      type="abstract"

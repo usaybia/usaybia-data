@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -189,6 +193,10 @@
                  n="0.6.0-dev"
                  xml:id="change-3"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -199,6 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2031-1">Severus</persName>
+               <persName xml:id="name2031-2" xml:lang="ar">ساواري</persName>
                <note xml:id="abstract-en-2031"
                      xml:lang="en"
                      type="abstract"

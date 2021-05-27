@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -189,6 +193,10 @@
                  n="0.6.0-dev"
                  xml:id="change-3"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -203,6 +211,7 @@
                <persName xml:id="name1899-3" xml:lang="en-x-lhom" source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī</persName>
                <persName xml:id="name1899-4" xml:lang="ar" source="#bib1899-1">رفيع الدين الجيلي</persName>
                <persName xml:id="name1899-5" xml:lang="ar" source="#bib1899-1">Rafīʿ al-Dīn al-Jīlī, Abū Ḥāmid ʿAbd al-ʿAzīz ibn ʿAbd al-Wāḥid ibn Ismaʿīl ibn ʿAbd al-Hādī, chief justice of Damascus (d. 641/1243) 15.20; 15.49.2; 15.49.6</persName>
+               <persName xml:id="name1899-6" xml:lang="ar">رفيع الدين الجيلي أبو حميد عبد العزيز بن عبد الواحد بن إسمئيل بن عبد الهادي</persName>
                <note xml:id="abstract-en-1899"
                      xml:lang="en"
                      type="abstract"

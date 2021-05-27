@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -184,6 +188,10 @@
                  n="0.6.0-dev"
                  xml:id="change-5"
                  when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -198,6 +206,7 @@
                <persName xml:id="name2053-3" xml:lang="en-x-lhom" source="#bib2053-1">Shams al-Dīn al-Khuwayyī</persName>
                <persName xml:id="name2053-4" xml:lang="ar" source="#bib2053-1">شمس الدين الخُوييّ</persName>
                <persName xml:id="name2053-5" xml:lang="ar" source="#bib2053-1">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā, jurist under al-Malik al-Muʿaẓẓam ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ 11.19.1; 15.19; 15.20; 15.50.6</persName>
+               <persName xml:id="name2053-6" xml:lang="ar">شمس الدين الخويي، أبو العباس أحمد بن الخليل بن سعادة بن جعفر بن عيسى</persName>
                <note xml:id="abstract-en-2053"
                      xml:lang="en"
                      type="abstract"

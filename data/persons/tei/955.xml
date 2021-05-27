@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -193,6 +197,10 @@
                  n="0.6.0-dev"
                  xml:id="change-5"
                  when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -205,6 +213,7 @@
                          source="#bib955-1">Ibn al-Bayṭār, Ḍiyāʾ al-Dīn Abū Muḥammad ʿAbd Allāh ibn Aḥmad al-Mālaqī al-Nabātī</persName>
                <persName xml:id="name955-2" xml:lang="en-x-lhom" source="#bib955-1">Ḍiyāʾ al-Dīn ibn al-Bayṭār</persName>
                <persName xml:id="name955-3" xml:lang="ar" source="#bib955-1">ضياء الدين بن البيطار</persName>
+               <persName xml:id="name955-4" xml:lang="ar">ابن البيطار ضياء الدين أبو محمد عبد الله ابن أحمد الملاقي النباتي</persName>
                <note xml:id="abstract-en-955"
                      xml:lang="en"
                      type="abstract"

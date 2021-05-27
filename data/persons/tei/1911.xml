@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -189,6 +193,10 @@
                  n="0.6.0-dev"
                  xml:id="change-3"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -203,6 +211,7 @@
                <persName xml:id="name1911-3" xml:lang="en-x-lhom" source="#bib1911-1">Rashīd al-Dīn Abū Ḥulayqah</persName>
                <persName xml:id="name1911-4" xml:lang="ar" source="#bib1911-1">رشيد الدين أبو حليقة</persName>
                <persName xml:id="name1911-5" xml:lang="ar" source="#bib1911-1">Rashīd al-Dīn Abū Ḥulayqah ibn al-Fāris (Rashīd al-Dīn Abū l-Waḥsh ibn al-Fāris Abī l-Khayr ibn Abī Sulaymān Dāwūd ibn Abī l-Manā ibn Abī Fānah), Egyptian physician known as Abū Ḥulayqah 14.49.2; 14.51.1n; 14.54; 14.55.2(p);14.55.3; 14.56.2</persName>
+               <persName xml:id="name1911-6" xml:lang="ar">رشيد الدين أبو حليقة بن الفارس رشيد الدين أبو الوحش بن الفارس أبي الخير بن أبي سليمان داود بن أبي المنا بن أبي فانة</persName>
                <note xml:id="abstract-en-1911"
                      xml:lang="en"
                      type="abstract"

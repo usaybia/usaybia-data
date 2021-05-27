@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -189,6 +193,10 @@
                  n="0.6.0-dev"
                  xml:id="change-3"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -203,6 +211,7 @@
                <persName xml:id="name1735-3" xml:lang="en-x-lhom" source="#bib1735-1">Najm al-Dīn ibn al-Minfākh</persName>
                <persName xml:id="name1735-4" xml:lang="ar" source="#bib1735-1">نجم الدين بن المنفاخ</persName>
                <persName xml:id="name1735-5" xml:lang="ar" source="#bib1735-1">Najm al-Dīn ibn al-Minfākh, Abū l-ʿAbbās Aḥmad ibn Abī l-Fāḍl Asʿad ibn Ḥulwān nicknamed ‘the son of the singer’, physician teacher of Ibn al-Quff 15.56; 15.59 no. 2; 15.60.1</persName>
+               <persName xml:id="name1735-6" xml:lang="ar">نجم الدين بن المنفاخ أبو العباس أحمد بن أبي الفضل أسعد بن حلوان</persName>
                <note xml:id="abstract-en-1735"
                      xml:lang="en"
                      type="abstract"

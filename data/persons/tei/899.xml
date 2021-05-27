@@ -89,6 +89,10 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
@@ -193,6 +197,10 @@
                  n="0.6.0-dev"
                  xml:id="change-5"
                  when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 xml:id="change-6"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -206,6 +214,7 @@
                <persName xml:id="name899-2" xml:lang="en-x-lhom" source="#bib899-1">Ḥunayn ibn Isḥāq</persName>
                <persName xml:id="name899-3" xml:lang="ar" source="#bib899-1">حنين بن إسحاق</persName>
                <persName xml:id="name899-4" xml:lang="ar" source="#bib899-1">Ḥunayn ibn Isḥāq, Abū Zayd Ḥunayn ibn Isḥāq al-ʿIbādī, Christian physician and translator (192– 260/808–873) 4.1.8.1n; 4.1.9.1n; 4.3.5n; 4.4.3; 4.4.4n; 4.5.2; 4.5.4n; 4.6.3.5; 4.6.7.1; 4.6.7.2; 4.6.8; 4.6.9; 4.6.13.3n; 5.1.37; 5.1.37 nos. 7, 34, 35, 65, 66, 115 (his searches for manuscripts), 117, 118, 124, 129; 5.1.38; 5.1.39; 7.8.3n; 8.1.2; 8.3.7n; 8.4.1; 8.20.3n; 8.29; 8.30; 8.31; 8.35; 9.2; 9.3; 9.4; 9.5; 9.7; 9.10n; 9.12n; 9.19; 9.20; 9.24; 9.26n; 9.27n; 9.28n; 9.30n; 9.31; 9.33; 9.34n; 9.40; 9.41n; 9.42n; 9.44n; 9.45n; 9.46n; 9.47n; 9.48n; 9.49n; 10.1.5; 10.2.4 no. 17; 10.17; 10.34 no. 1; 10.37.5 no. 31; 10.53 no. 1; 10.55 no. 2; 11.3; 11.5.25 no. 92; 11.8.6 no. 12; 14.22.4.3 no. 44.30; 14.22.4.1n; 14.25.2n 14.25.5; 14.25.9 no. 12 Treatises specified: 8.16 no. 3; 9.30n; 9.41n; 9.49n; 11.8.6 no. 11; 13.36.2.1 (translation of `De Materia Medica`); 10.56 no. 1; 10.64.20 no. 9; 10.74; 11.17 nos. 1, 2; 13.58.5 no. 3 (`Masāʾil`); 13.61.4 no. 3 (`K. al-mudhkal ilā l-ṭibb`); 14.25.9 no. 12; 15.30 no. 5; 15.31.6 no. 2; 15.36.2 no. 2; 15.37 no. 3; 15.39 no. 9; 15.46.4 no. 1; 15.50.7 no. 6; 15.60.1 `Adāb al-falāsafah` 5.1.34</persName>
+               <persName xml:id="name899-5" xml:lang="ar">حنين بن إسحاق أبو زيد حنين بن إسحاق العبادي</persName>
                <note xml:id="abstract-en-899"
                      xml:lang="en"
                      type="abstract"
