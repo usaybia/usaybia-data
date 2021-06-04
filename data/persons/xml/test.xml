@@ -3,47 +3,698 @@
 <root>
     <row>
         <New_URI>***lookup column</New_URI>
-        <Source_1_element_bibl></Source_1_element_bibl>
-        <Source_1_att_xml--id></Source_1_att_xml--id>
-        <child_Source_1_Title_element_title></child_Source_1_Title_element_title>
-        <child_Source_1_Title_att_level></child_Source_1_Title_att_level>
-        <child_Source_1_URI_element_ptr></child_Source_1_URI_element_ptr>
-        <child_Source_1_URI_att_target>77</child_Source_1_URI_att_target>
         <LHOM_Name_element_persName>5</LHOM_Name_element_persName>
         <LHOM_Name_att_xml--id></LHOM_Name_att_xml--id>
         <LHOM_Name_att_xml--lang></LHOM_Name_att_xml--lang>
         <LHOM_Name_att_srophe-tags></LHOM_Name_att_srophe-tags>
         <LHOM_Name_att_source></LHOM_Name_att_source>
         <LHOM_Name_att_resp>10</LHOM_Name_att_resp>
+        <LHOM_Entry_element_note>6</LHOM_Entry_element_note>
+        <LHOM_Entry_att_xml--id></LHOM_Entry_att_xml--id>
+        <LHOM_Entry_att_xml--lang></LHOM_Entry_att_xml--lang>
+        <LHOM_Entry_att_type></LHOM_Entry_att_type>
+        <LHOM_Entry_att_source></LHOM_Entry_att_source>
+        <LHOM_Entry_att_resp>10</LHOM_Entry_att_resp>
+        <child_Source_1_LHOM_Section_element_citedRange>9</child_Source_1_LHOM_Section_element_citedRange>
+        <child_Source_1_LHOM_Section_att_unit></child_Source_1_LHOM_Section_att_unit>
+        <Occupation_1_element_state></Occupation_1_element_state>
+        <Occupation_1_att_xml--lang></Occupation_1_att_xml--lang>
+        <Occupation_1_att_type></Occupation_1_att_type>
+        <Occupation_1_att_role>23</Occupation_1_att_role>
+        <Occupation_1_att_source></Occupation_1_att_source>
+        <Occupation_1_att_resp></Occupation_1_att_resp>
+        <child_Occupation_1_element_desc>23</child_Occupation_1_element_desc>
+        <Occupation_2_element_state></Occupation_2_element_state>
+        <Occupation_2_att_xml--lang></Occupation_2_att_xml--lang>
+        <Occupation_2_att_type></Occupation_2_att_type>
+        <Occupation_2_att_role>24</Occupation_2_att_role>
+        <Occupation_2_att_source></Occupation_2_att_source>
+        <Occupation_2_att_resp></Occupation_2_att_resp>
+        <child_Occupation_2_element_desc>24</child_Occupation_2_element_desc>
+        <Occupation_3_element_state></Occupation_3_element_state>
+        <Occupation_3_att_xml--lang></Occupation_3_att_xml--lang>
+        <Occupation_3_att_type></Occupation_3_att_type>
+        <Occupation_3_att_role>25</Occupation_3_att_role>
+        <Occupation_3_att_source></Occupation_3_att_source>
+        <Occupation_3_att_resp></Occupation_3_att_resp>
+        <child_Occupation_3_element_desc>25</child_Occupation_3_element_desc>
+        <Occupation_4_element_state></Occupation_4_element_state>
+        <Occupation_4_att_xml--lang></Occupation_4_att_xml--lang>
+        <Occupation_4_att_type></Occupation_4_att_type>
+        <Occupation_4_att_role>26</Occupation_4_att_role>
+        <Occupation_4_att_source></Occupation_4_att_source>
+        <Occupation_4_att_resp></Occupation_4_att_resp>
+        <child_Occupation_4_element_desc>26</child_Occupation_4_element_desc>
+        <Affiliation_signaled_by_occupation_element_state></Affiliation_signaled_by_occupation_element_state>
+        <Affiliation_signaled_by_occupation_att_xml--lang></Affiliation_signaled_by_occupation_att_xml--lang>
+        <Affiliation_signaled_by_occupation_att_type></Affiliation_signaled_by_occupation_att_type>
+        <Affiliation_signaled_by_occupation_att_resp></Affiliation_signaled_by_occupation_att_resp>
+        <Affiliation_signaled_by_occupation_att_evidence></Affiliation_signaled_by_occupation_att_evidence>
+        <Affiliation_signaled_by_occupation_att_cert></Affiliation_signaled_by_occupation_att_cert>
+        <child_Affiliation_signaled_by_occupation_element_label>27</child_Affiliation_signaled_by_occupation_element_label>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_element_state></Affiliation_signaled_by_descendant_s_name_or_kunya_element_state>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang></Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_type></Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp></Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence></Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert></Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>
+        <child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label>28</child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label>
+        <Affiliation_signaled_by_ancestor_s_name_element_state></Affiliation_signaled_by_ancestor_s_name_element_state>
+        <Affiliation_signaled_by_ancestor_s_name_att_xml--lang></Affiliation_signaled_by_ancestor_s_name_att_xml--lang>
+        <Affiliation_signaled_by_ancestor_s_name_att_type></Affiliation_signaled_by_ancestor_s_name_att_type>
+        <Affiliation_signaled_by_ancestor_s_name_att_resp></Affiliation_signaled_by_ancestor_s_name_att_resp>
+        <Affiliation_signaled_by_ancestor_s_name_att_evidence></Affiliation_signaled_by_ancestor_s_name_att_evidence>
+        <Affiliation_signaled_by_ancestor_s_name_att_cert></Affiliation_signaled_by_ancestor_s_name_att_cert>
+        <child_Affiliation_signaled_by_ancestor_s_name_element_label>29</child_Affiliation_signaled_by_ancestor_s_name_element_label>
+        <Affiliation_signaled_by_given_name_element_state></Affiliation_signaled_by_given_name_element_state>
+        <Affiliation_signaled_by_given_name_att_xml--lang></Affiliation_signaled_by_given_name_att_xml--lang>
+        <Affiliation_signaled_by_given_name_att_type></Affiliation_signaled_by_given_name_att_type>
+        <Affiliation_signaled_by_given_name_att_resp></Affiliation_signaled_by_given_name_att_resp>
+        <Affiliation_signaled_by_given_name_att_evidence></Affiliation_signaled_by_given_name_att_evidence>
+        <Affiliation_signaled_by_given_name_att_cert></Affiliation_signaled_by_given_name_att_cert>
+        <child_Affiliation_signaled_by_given_name_element_label>30</child_Affiliation_signaled_by_given_name_element_label>
+        <Affiliation_in_nisba_element_state></Affiliation_in_nisba_element_state>
+        <Affiliation_in_nisba_att_xml--lang></Affiliation_in_nisba_att_xml--lang>
+        <Affiliation_in_nisba_att_type></Affiliation_in_nisba_att_type>
+        <Affiliation_in_nisba_att_resp></Affiliation_in_nisba_att_resp>
+        <Affiliation_in_nisba_att_evidence></Affiliation_in_nisba_att_evidence>
+        <Affiliation_in_nisba_att_cert></Affiliation_in_nisba_att_cert>
+        <child_Affiliation_in_nisba_element_label>31</child_Affiliation_in_nisba_element_label>
+        <Suggested_Affiliation_Keywords_element_state></Suggested_Affiliation_Keywords_element_state>
+        <Suggested_Affiliation_Keywords_att_xml--lang></Suggested_Affiliation_Keywords_att_xml--lang>
+        <Suggested_Affiliation_Keywords_att_type></Suggested_Affiliation_Keywords_att_type>
+        <Suggested_Affiliation_Keywords_att_resp></Suggested_Affiliation_Keywords_att_resp>
+        <Suggested_Affiliation_Keywords_att_source></Suggested_Affiliation_Keywords_att_source>
+        <child_Suggested_Affiliation_Keywords_element_label>32</child_Suggested_Affiliation_Keywords_element_label>
+        <Name__complete__Arabic__from_Mueller_index__element_persName>40</Name__complete__Arabic__from_Mueller_index__element_persName>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--id></Name__complete__Arabic__from_Mueller_index__att_xml--id>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--lang></Name__complete__Arabic__from_Mueller_index__att_xml--lang>
+        <Name__complete__Arabic__from_Mueller_index__att_source></Name__complete__Arabic__from_Mueller_index__att_source>
+        <Name__complete__Arabic__from_Mueller_index__att_resp></Name__complete__Arabic__from_Mueller_index__att_resp>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__element_persName>41</Name__complete__EI3_transcription_based_on_Mueller_index__element_persName>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id></Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang></Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_source></Name__complete__EI3_transcription_based_on_Mueller_index__att_source>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_resp></Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>
+        <child_Source_1_LHOM_Section_Number_1_element_citedRange>42</child_Source_1_LHOM_Section_Number_1_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_1_att_unit></child_Source_1_LHOM_Section_Number_1_att_unit>
+        <LHOM_Name_1__transcription__element_persName>43</LHOM_Name_1__transcription__element_persName>
+        <LHOM_Name_1__transcription__att_xml--id></LHOM_Name_1__transcription__att_xml--id>
+        <LHOM_Name_1__transcription__att_xml--lang></LHOM_Name_1__transcription__att_xml--lang>
+        <LHOM_Name_1__transcription__att_source></LHOM_Name_1__transcription__att_source>
+        <LHOM_Name_1__transcription__att_resp></LHOM_Name_1__transcription__att_resp>
+        <LHOM_Name_1__Arabic__element_persName>44</LHOM_Name_1__Arabic__element_persName>
+        <LHOM_Name_1__Arabic__att_xml--id></LHOM_Name_1__Arabic__att_xml--id>
+        <LHOM_Name_1__Arabic__att_xml--lang></LHOM_Name_1__Arabic__att_xml--lang>
+        <LHOM_Name_1__Arabic__att_srophe-tags></LHOM_Name_1__Arabic__att_srophe-tags>
+        <LHOM_Name_1__Arabic__att_source></LHOM_Name_1__Arabic__att_source>
+        <LHOM_Name_1__Arabic__att_resp></LHOM_Name_1__Arabic__att_resp>
+        <child_Source_1_LHOM_Section_Number_2_element_citedRange>45</child_Source_1_LHOM_Section_Number_2_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_2_att_unit></child_Source_1_LHOM_Section_Number_2_att_unit>
+        <LHOM_Name_2_transcription__element_persName>46</LHOM_Name_2_transcription__element_persName>
+        <LHOM_Name_2_transcription__att_xml--id></LHOM_Name_2_transcription__att_xml--id>
+        <LHOM_Name_2_transcription__att_xml--lang></LHOM_Name_2_transcription__att_xml--lang>
+        <LHOM_Name_2_transcription__att_source></LHOM_Name_2_transcription__att_source>
+        <LHOM_Name_2_transcription__att_resp></LHOM_Name_2_transcription__att_resp>
+        <LHOM_Name_2__Arabic__element_persName>47</LHOM_Name_2__Arabic__element_persName>
+        <LHOM_Name_2__Arabic__att_xml--id></LHOM_Name_2__Arabic__att_xml--id>
+        <LHOM_Name_2__Arabic__att_xml--lang></LHOM_Name_2__Arabic__att_xml--lang>
+        <LHOM_Name_2__Arabic__att_srophe-tags></LHOM_Name_2__Arabic__att_srophe-tags>
+        <LHOM_Name_2__Arabic__att_source></LHOM_Name_2__Arabic__att_source>
+        <LHOM_Name_2__Arabic__att_resp></LHOM_Name_2__Arabic__att_resp>
+        <URI_1_element_idno>50</URI_1_element_idno>
+        <URI_1_att_type></URI_1_att_type>
+        <URI_1_att_resp></URI_1_att_resp>
+        <URI_2_element_idno>51</URI_2_element_idno>
+        <URI_2_att_type></URI_2_att_type>
+        <URI_2_att_resp></URI_2_att_resp>
+        <URI_3_element_idno>52</URI_3_element_idno>
+        <URI_3_att_type></URI_3_att_type>
+        <URI_3_att_resp></URI_3_att_resp>
+        <URI_4_element_idno>53</URI_4_element_idno>
+        <URI_4_att_type></URI_4_att_type>
+        <URI_4_att_resp></URI_4_att_resp>
+        <URI_5_element_idno>54</URI_5_element_idno>
+        <URI_5_att_type></URI_5_att_type>
+        <URI_5_att_resp></URI_5_att_resp>
+        <URI_6_element_idno>55</URI_6_element_idno>
+        <URI_6_att_type></URI_6_att_type>
+        <URI_6_att_resp></URI_6_att_resp>
+        <URI_7_element_idno>56</URI_7_element_idno>
+        <URI_7_att_type></URI_7_att_type>
+        <URI_7_att_resp></URI_7_att_resp>
+        <URI_8_element_idno>57</URI_8_element_idno>
+        <URI_8_att_type></URI_8_att_type>
+        <URI_8_att_resp></URI_8_att_resp>
+        <Name_2_element_persName>60</Name_2_element_persName>
+        <Name_2_att_xml--id></Name_2_att_xml--id>
+        <Name_2_att_xml--lang></Name_2_att_xml--lang>
+        <Name_2_att_source></Name_2_att_source>
+        <Name_2_att_resp></Name_2_att_resp>
+        <Name_3_element_persName>61</Name_3_element_persName>
+        <Name_3_att_xml--id></Name_3_att_xml--id>
+        <Name_3_att_xml--lang></Name_3_att_xml--lang>
+        <Name_3_att_source></Name_3_att_source>
+        <Name_3_att_resp></Name_3_att_resp>
+        <Created_Arabic_Names_element_persName>83</Created_Arabic_Names_element_persName>
+        <Created_Arabic_Names_att_xml--id></Created_Arabic_Names_att_xml--id>
+        <Created_Arabic_Names_att_xml--lang></Created_Arabic_Names_att_xml--lang>
+        <Created_Arabic_Names_att_srophe-tags></Created_Arabic_Names_att_srophe-tags>
+        <Created_Arabic_Names_att_resp>82</Created_Arabic_Names_att_resp>
+        <Source_1_element_bibl></Source_1_element_bibl>
+        <Source_1_att_xml--id></Source_1_att_xml--id>
+        <child_Source_1_Title_element_title></child_Source_1_Title_element_title>
+        <child_Source_1_Title_att_level></child_Source_1_Title_att_level>
+        <child_Source_1_URI_element_ptr></child_Source_1_URI_element_ptr>
+        <child_Source_1_URI_att_target>77</child_Source_1_URI_att_target>
+        <Source_2_element_bibl></Source_2_element_bibl>
+        <Source_2_att_xml--id></Source_2_att_xml--id>
+        <child_Source_2_Title_element_title></child_Source_2_Title_element_title>
+        <child_Source_2_Title_att_xml--lang></child_Source_2_Title_att_xml--lang>
+        <child_Source_2_Title_att_level></child_Source_2_Title_att_level>
+        <child_Source_2_URI_element_ptr></child_Source_2_URI_element_ptr>
+        <child_Source_2_URI_att_target>78</child_Source_2_URI_att_target>
     </row>
     <row>
         <New_URI>***default values</New_URI>
-        <Source_1_element_bibl>_</Source_1_element_bibl>
-        <Source_1_att_xml--id></Source_1_att_xml--id>
-        <child_Source_1_Title_element_title>A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</child_Source_1_Title_element_title>
-        <child_Source_1_Title_att_level>m</child_Source_1_Title_att_level>
-        <child_Source_1_URI_element_ptr></child_Source_1_URI_element_ptr>
-        <child_Source_1_URI_att_target></child_Source_1_URI_att_target>
         <LHOM_Name_element_persName></LHOM_Name_element_persName>
         <LHOM_Name_att_xml--id></LHOM_Name_att_xml--id>
         <LHOM_Name_att_xml--lang>en-x-lhom</LHOM_Name_att_xml--lang>
         <LHOM_Name_att_srophe-tags></LHOM_Name_att_srophe-tags>
         <LHOM_Name_att_source></LHOM_Name_att_source>
         <LHOM_Name_att_resp></LHOM_Name_att_resp>
+        <LHOM_Entry_element_note></LHOM_Entry_element_note>
+        <LHOM_Entry_att_xml--id></LHOM_Entry_att_xml--id>
+        <LHOM_Entry_att_xml--lang>en</LHOM_Entry_att_xml--lang>
+        <LHOM_Entry_att_type>abstract</LHOM_Entry_att_type>
+        <LHOM_Entry_att_source></LHOM_Entry_att_source>
+        <LHOM_Entry_att_resp></LHOM_Entry_att_resp>
+        <child_Source_1_LHOM_Section_element_citedRange></child_Source_1_LHOM_Section_element_citedRange>
+        <child_Source_1_LHOM_Section_att_unit>section</child_Source_1_LHOM_Section_att_unit>
+        <Occupation_1_element_state>_</Occupation_1_element_state>
+        <Occupation_1_att_xml--lang>en</Occupation_1_att_xml--lang>
+        <Occupation_1_att_type>occupation</Occupation_1_att_type>
+        <Occupation_1_att_role></Occupation_1_att_role>
+        <Occupation_1_att_source></Occupation_1_att_source>
+        <Occupation_1_att_resp>#vbirkhahn #ngibson</Occupation_1_att_resp>
+        <child_Occupation_1_element_desc></child_Occupation_1_element_desc>
+        <Occupation_2_element_state>_</Occupation_2_element_state>
+        <Occupation_2_att_xml--lang>en</Occupation_2_att_xml--lang>
+        <Occupation_2_att_type>occupation</Occupation_2_att_type>
+        <Occupation_2_att_role></Occupation_2_att_role>
+        <Occupation_2_att_source></Occupation_2_att_source>
+        <Occupation_2_att_resp>#vbirkhahn #ngibson</Occupation_2_att_resp>
+        <child_Occupation_2_element_desc></child_Occupation_2_element_desc>
+        <Occupation_3_element_state>_</Occupation_3_element_state>
+        <Occupation_3_att_xml--lang>en</Occupation_3_att_xml--lang>
+        <Occupation_3_att_type>occupation</Occupation_3_att_type>
+        <Occupation_3_att_role></Occupation_3_att_role>
+        <Occupation_3_att_source></Occupation_3_att_source>
+        <Occupation_3_att_resp>#vbirkhahn #ngibson</Occupation_3_att_resp>
+        <child_Occupation_3_element_desc></child_Occupation_3_element_desc>
+        <Occupation_4_element_state>_</Occupation_4_element_state>
+        <Occupation_4_att_xml--lang>en</Occupation_4_att_xml--lang>
+        <Occupation_4_att_type>occupation</Occupation_4_att_type>
+        <Occupation_4_att_role></Occupation_4_att_role>
+        <Occupation_4_att_source></Occupation_4_att_source>
+        <Occupation_4_att_resp>#vbirkhahn #ngibson</Occupation_4_att_resp>
+        <child_Occupation_4_element_desc></child_Occupation_4_element_desc>
+        <Affiliation_signaled_by_occupation_element_state>_</Affiliation_signaled_by_occupation_element_state>
+        <Affiliation_signaled_by_occupation_att_xml--lang>en</Affiliation_signaled_by_occupation_att_xml--lang>
+        <Affiliation_signaled_by_occupation_att_type>religious-affiliation</Affiliation_signaled_by_occupation_att_type>
+        <Affiliation_signaled_by_occupation_att_resp>#ngibson</Affiliation_signaled_by_occupation_att_resp>
+        <Affiliation_signaled_by_occupation_att_evidence>occupation</Affiliation_signaled_by_occupation_att_evidence>
+        <Affiliation_signaled_by_occupation_att_cert>high</Affiliation_signaled_by_occupation_att_cert>
+        <child_Affiliation_signaled_by_occupation_element_label></child_Affiliation_signaled_by_occupation_element_label>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_element_state>_</Affiliation_signaled_by_descendant_s_name_or_kunya_element_state>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>en</Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>religious-affiliation</Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>#ngibson</Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>descendant-name</Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>low</Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>
+        <child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label></child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label>
+        <Affiliation_signaled_by_ancestor_s_name_element_state>_</Affiliation_signaled_by_ancestor_s_name_element_state>
+        <Affiliation_signaled_by_ancestor_s_name_att_xml--lang>en</Affiliation_signaled_by_ancestor_s_name_att_xml--lang>
+        <Affiliation_signaled_by_ancestor_s_name_att_type>religious-affiliation</Affiliation_signaled_by_ancestor_s_name_att_type>
+        <Affiliation_signaled_by_ancestor_s_name_att_resp>#ngibson</Affiliation_signaled_by_ancestor_s_name_att_resp>
+        <Affiliation_signaled_by_ancestor_s_name_att_evidence>ancestor-name</Affiliation_signaled_by_ancestor_s_name_att_evidence>
+        <Affiliation_signaled_by_ancestor_s_name_att_cert>low</Affiliation_signaled_by_ancestor_s_name_att_cert>
+        <child_Affiliation_signaled_by_ancestor_s_name_element_label></child_Affiliation_signaled_by_ancestor_s_name_element_label>
+        <Affiliation_signaled_by_given_name_element_state>_</Affiliation_signaled_by_given_name_element_state>
+        <Affiliation_signaled_by_given_name_att_xml--lang>en</Affiliation_signaled_by_given_name_att_xml--lang>
+        <Affiliation_signaled_by_given_name_att_type>religious-affiliation</Affiliation_signaled_by_given_name_att_type>
+        <Affiliation_signaled_by_given_name_att_resp>#ngibson</Affiliation_signaled_by_given_name_att_resp>
+        <Affiliation_signaled_by_given_name_att_evidence>given-name</Affiliation_signaled_by_given_name_att_evidence>
+        <Affiliation_signaled_by_given_name_att_cert>low</Affiliation_signaled_by_given_name_att_cert>
+        <child_Affiliation_signaled_by_given_name_element_label></child_Affiliation_signaled_by_given_name_element_label>
+        <Affiliation_in_nisba_element_state>_</Affiliation_in_nisba_element_state>
+        <Affiliation_in_nisba_att_xml--lang>en</Affiliation_in_nisba_att_xml--lang>
+        <Affiliation_in_nisba_att_type>religious-affiliation</Affiliation_in_nisba_att_type>
+        <Affiliation_in_nisba_att_resp>#ngibson</Affiliation_in_nisba_att_resp>
+        <Affiliation_in_nisba_att_evidence>nisba</Affiliation_in_nisba_att_evidence>
+        <Affiliation_in_nisba_att_cert>high</Affiliation_in_nisba_att_cert>
+        <child_Affiliation_in_nisba_element_label></child_Affiliation_in_nisba_element_label>
+        <Suggested_Affiliation_Keywords_element_state>_</Suggested_Affiliation_Keywords_element_state>
+        <Suggested_Affiliation_Keywords_att_xml--lang>en</Suggested_Affiliation_Keywords_att_xml--lang>
+        <Suggested_Affiliation_Keywords_att_type>religious-affiliation</Suggested_Affiliation_Keywords_att_type>
+        <Suggested_Affiliation_Keywords_att_resp>#vbirkhahn #ngibson</Suggested_Affiliation_Keywords_att_resp>
+        <Suggested_Affiliation_Keywords_att_source></Suggested_Affiliation_Keywords_att_source>
+        <child_Suggested_Affiliation_Keywords_element_label></child_Suggested_Affiliation_Keywords_element_label>
+        <Name__complete__Arabic__from_Mueller_index__element_persName></Name__complete__Arabic__from_Mueller_index__element_persName>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--id></Name__complete__Arabic__from_Mueller_index__att_xml--id>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--lang>ar</Name__complete__Arabic__from_Mueller_index__att_xml--lang>
+        <Name__complete__Arabic__from_Mueller_index__att_source></Name__complete__Arabic__from_Mueller_index__att_source>
+        <Name__complete__Arabic__from_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__Arabic__from_Mueller_index__att_resp>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__element_persName></Name__complete__EI3_transcription_based_on_Mueller_index__element_persName>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id></Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>en-x-ei3</Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_source></Name__complete__EI3_transcription_based_on_Mueller_index__att_source>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>
+        <child_Source_1_LHOM_Section_Number_1_element_citedRange></child_Source_1_LHOM_Section_Number_1_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_1_att_unit>section</child_Source_1_LHOM_Section_Number_1_att_unit>
+        <LHOM_Name_1__transcription__element_persName></LHOM_Name_1__transcription__element_persName>
+        <LHOM_Name_1__transcription__att_xml--id></LHOM_Name_1__transcription__att_xml--id>
+        <LHOM_Name_1__transcription__att_xml--lang>en-x-lhom</LHOM_Name_1__transcription__att_xml--lang>
+        <LHOM_Name_1__transcription__att_source></LHOM_Name_1__transcription__att_source>
+        <LHOM_Name_1__transcription__att_resp>#rschmahl #mtolay</LHOM_Name_1__transcription__att_resp>
+        <LHOM_Name_1__Arabic__element_persName></LHOM_Name_1__Arabic__element_persName>
+        <LHOM_Name_1__Arabic__att_xml--id></LHOM_Name_1__Arabic__att_xml--id>
+        <LHOM_Name_1__Arabic__att_xml--lang>ar</LHOM_Name_1__Arabic__att_xml--lang>
+        <LHOM_Name_1__Arabic__att_srophe-tags></LHOM_Name_1__Arabic__att_srophe-tags>
+        <LHOM_Name_1__Arabic__att_source></LHOM_Name_1__Arabic__att_source>
+        <LHOM_Name_1__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_1__Arabic__att_resp>
+        <child_Source_1_LHOM_Section_Number_2_element_citedRange></child_Source_1_LHOM_Section_Number_2_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_2_att_unit>section</child_Source_1_LHOM_Section_Number_2_att_unit>
+        <LHOM_Name_2_transcription__element_persName></LHOM_Name_2_transcription__element_persName>
+        <LHOM_Name_2_transcription__att_xml--id></LHOM_Name_2_transcription__att_xml--id>
+        <LHOM_Name_2_transcription__att_xml--lang>en-x-lhom</LHOM_Name_2_transcription__att_xml--lang>
+        <LHOM_Name_2_transcription__att_source></LHOM_Name_2_transcription__att_source>
+        <LHOM_Name_2_transcription__att_resp>#rschmahl #mtolay</LHOM_Name_2_transcription__att_resp>
+        <LHOM_Name_2__Arabic__element_persName></LHOM_Name_2__Arabic__element_persName>
+        <LHOM_Name_2__Arabic__att_xml--id></LHOM_Name_2__Arabic__att_xml--id>
+        <LHOM_Name_2__Arabic__att_xml--lang>ar</LHOM_Name_2__Arabic__att_xml--lang>
+        <LHOM_Name_2__Arabic__att_srophe-tags></LHOM_Name_2__Arabic__att_srophe-tags>
+        <LHOM_Name_2__Arabic__att_source></LHOM_Name_2__Arabic__att_source>
+        <LHOM_Name_2__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_2__Arabic__att_resp>
+        <URI_1_element_idno></URI_1_element_idno>
+        <URI_1_att_type>URI</URI_1_att_type>
+        <URI_1_att_resp>#rschmahl #mtolay</URI_1_att_resp>
+        <URI_2_element_idno></URI_2_element_idno>
+        <URI_2_att_type>URI</URI_2_att_type>
+        <URI_2_att_resp>#rschmahl #mtolay</URI_2_att_resp>
+        <URI_3_element_idno></URI_3_element_idno>
+        <URI_3_att_type>URI</URI_3_att_type>
+        <URI_3_att_resp>#rschmahl #mtolay</URI_3_att_resp>
+        <URI_4_element_idno></URI_4_element_idno>
+        <URI_4_att_type>URI</URI_4_att_type>
+        <URI_4_att_resp>#rschmahl #mtolay</URI_4_att_resp>
+        <URI_5_element_idno></URI_5_element_idno>
+        <URI_5_att_type>URI</URI_5_att_type>
+        <URI_5_att_resp>#rschmahl #mtolay</URI_5_att_resp>
+        <URI_6_element_idno></URI_6_element_idno>
+        <URI_6_att_type>URI</URI_6_att_type>
+        <URI_6_att_resp>#rschmahl #mtolay</URI_6_att_resp>
+        <URI_7_element_idno></URI_7_element_idno>
+        <URI_7_att_type>URI</URI_7_att_type>
+        <URI_7_att_resp>#rschmahl #mtolay</URI_7_att_resp>
+        <URI_8_element_idno></URI_8_element_idno>
+        <URI_8_att_type>URI</URI_8_att_type>
+        <URI_8_att_resp>#rschmahl #mtolay</URI_8_att_resp>
+        <Name_2_element_persName></Name_2_element_persName>
+        <Name_2_att_xml--id></Name_2_att_xml--id>
+        <Name_2_att_xml--lang>en-x-lhom</Name_2_att_xml--lang>
+        <Name_2_att_source></Name_2_att_source>
+        <Name_2_att_resp>#rschmahl #mtolay</Name_2_att_resp>
+        <Name_3_element_persName></Name_3_element_persName>
+        <Name_3_att_xml--id></Name_3_att_xml--id>
+        <Name_3_att_xml--lang>en-x-lhom</Name_3_att_xml--lang>
+        <Name_3_att_source></Name_3_att_source>
+        <Name_3_att_resp>#rschmahl #mtolay</Name_3_att_resp>
+        <Created_Arabic_Names_element_persName></Created_Arabic_Names_element_persName>
+        <Created_Arabic_Names_att_xml--id></Created_Arabic_Names_att_xml--id>
+        <Created_Arabic_Names_att_xml--lang>ar</Created_Arabic_Names_att_xml--lang>
+        <Created_Arabic_Names_att_srophe-tags></Created_Arabic_Names_att_srophe-tags>
+        <Created_Arabic_Names_att_resp></Created_Arabic_Names_att_resp>
+        <Source_1_element_bibl>_</Source_1_element_bibl>
+        <Source_1_att_xml--id></Source_1_att_xml--id>
+        <child_Source_1_Title_element_title>A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</child_Source_1_Title_element_title>
+        <child_Source_1_Title_att_level>m</child_Source_1_Title_att_level>
+        <child_Source_1_URI_element_ptr></child_Source_1_URI_element_ptr>
+        <child_Source_1_URI_att_target></child_Source_1_URI_att_target>
+        <Source_2_element_bibl>_</Source_2_element_bibl>
+        <Source_2_att_xml--id></Source_2_att_xml--id>
+        <child_Source_2_Title_element_title>عيون الأنباء في طبقات الأطباء</child_Source_2_Title_element_title>
+        <child_Source_2_Title_att_xml--lang>ar</child_Source_2_Title_att_xml--lang>
+        <child_Source_2_Title_att_level>m</child_Source_2_Title_att_level>
+        <child_Source_2_URI_element_ptr></child_Source_2_URI_element_ptr>
+        <child_Source_2_URI_att_target></child_Source_2_URI_att_target>
     </row>
     <row>
         <New_URI>1</New_URI>
-        <Source_1_element_bibl>_</Source_1_element_bibl>
-        <Source_1_att_xml--id>bib1-1</Source_1_att_xml--id>
-        <child_Source_1_Title_element_title>A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</child_Source_1_Title_element_title>
-        <child_Source_1_Title_att_level>m</child_Source_1_Title_att_level>
-        <child_Source_1_URI_element_ptr>_</child_Source_1_URI_element_ptr>
-        <child_Source_1_URI_att_target>https://usaybia.net/bibl/WVSJMDSV</child_Source_1_URI_att_target>
         <LHOM_Name_element_persName>ʿAbbād ibn ʿAbbās</LHOM_Name_element_persName>
         <LHOM_Name_att_xml--id>name1-1</LHOM_Name_att_xml--id>
         <LHOM_Name_att_xml--lang>en-x-lhom</LHOM_Name_att_xml--lang>
         <LHOM_Name_att_srophe-tags>#syriaca-headword</LHOM_Name_att_srophe-tags>
         <LHOM_Name_att_source>#bib1-1</LHOM_Name_att_source>
         <LHOM_Name_att_resp>#fioppolo</LHOM_Name_att_resp>
+        <LHOM_Entry_element_note>ʿAbbād ibn ʿAbbās, unidentified physician, addressee of Ibn Mandawayh al-Iṣfahānī </LHOM_Entry_element_note>
+        <LHOM_Entry_att_xml--id>abstract-en-1</LHOM_Entry_att_xml--id>
+        <LHOM_Entry_att_xml--lang>en</LHOM_Entry_att_xml--lang>
+        <LHOM_Entry_att_type>abstract</LHOM_Entry_att_type>
+        <LHOM_Entry_att_source>#bib1-1</LHOM_Entry_att_source>
+        <LHOM_Entry_att_resp>#fioppolo</LHOM_Entry_att_resp>
+        <child_Source_1_LHOM_Section_element_citedRange>11.16.1.2.7</child_Source_1_LHOM_Section_element_citedRange>
+        <child_Source_1_LHOM_Section_att_unit>section</child_Source_1_LHOM_Section_att_unit>
+        <Occupation_1_element_state>_</Occupation_1_element_state>
+        <Occupation_1_att_xml--lang>en</Occupation_1_att_xml--lang>
+        <Occupation_1_att_type>occupation</Occupation_1_att_type>
+        <Occupation_1_att_role>physician</Occupation_1_att_role>
+        <Occupation_1_att_source>#bib1-1</Occupation_1_att_source>
+        <Occupation_1_att_resp>#vbirkhahn #ngibson</Occupation_1_att_resp>
+        <child_Occupation_1_element_desc>physician</child_Occupation_1_element_desc>
+        <Occupation_2_element_state></Occupation_2_element_state>
+        <Occupation_2_att_xml--lang>en</Occupation_2_att_xml--lang>
+        <Occupation_2_att_type>occupation</Occupation_2_att_type>
+        <Occupation_2_att_role></Occupation_2_att_role>
+        <Occupation_2_att_source></Occupation_2_att_source>
+        <Occupation_2_att_resp>#vbirkhahn #ngibson</Occupation_2_att_resp>
+        <child_Occupation_2_element_desc></child_Occupation_2_element_desc>
+        <Occupation_3_element_state></Occupation_3_element_state>
+        <Occupation_3_att_xml--lang>en</Occupation_3_att_xml--lang>
+        <Occupation_3_att_type>occupation</Occupation_3_att_type>
+        <Occupation_3_att_role></Occupation_3_att_role>
+        <Occupation_3_att_source></Occupation_3_att_source>
+        <Occupation_3_att_resp>#vbirkhahn #ngibson</Occupation_3_att_resp>
+        <child_Occupation_3_element_desc></child_Occupation_3_element_desc>
+        <Occupation_4_element_state></Occupation_4_element_state>
+        <Occupation_4_att_xml--lang>en</Occupation_4_att_xml--lang>
+        <Occupation_4_att_type>occupation</Occupation_4_att_type>
+        <Occupation_4_att_role></Occupation_4_att_role>
+        <Occupation_4_att_source></Occupation_4_att_source>
+        <Occupation_4_att_resp>#vbirkhahn #ngibson</Occupation_4_att_resp>
+        <child_Occupation_4_element_desc></child_Occupation_4_element_desc>
+        <Affiliation_signaled_by_occupation_element_state></Affiliation_signaled_by_occupation_element_state>
+        <Affiliation_signaled_by_occupation_att_xml--lang>en</Affiliation_signaled_by_occupation_att_xml--lang>
+        <Affiliation_signaled_by_occupation_att_type>religious-affiliation</Affiliation_signaled_by_occupation_att_type>
+        <Affiliation_signaled_by_occupation_att_resp>#ngibson</Affiliation_signaled_by_occupation_att_resp>
+        <Affiliation_signaled_by_occupation_att_evidence>occupation</Affiliation_signaled_by_occupation_att_evidence>
+        <Affiliation_signaled_by_occupation_att_cert>high</Affiliation_signaled_by_occupation_att_cert>
+        <child_Affiliation_signaled_by_occupation_element_label></child_Affiliation_signaled_by_occupation_element_label>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_element_state></Affiliation_signaled_by_descendant_s_name_or_kunya_element_state>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>en</Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>religious-affiliation</Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>#ngibson</Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>descendant-name</Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>low</Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>
+        <child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label></child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label>
+        <Affiliation_signaled_by_ancestor_s_name_element_state></Affiliation_signaled_by_ancestor_s_name_element_state>
+        <Affiliation_signaled_by_ancestor_s_name_att_xml--lang>en</Affiliation_signaled_by_ancestor_s_name_att_xml--lang>
+        <Affiliation_signaled_by_ancestor_s_name_att_type>religious-affiliation</Affiliation_signaled_by_ancestor_s_name_att_type>
+        <Affiliation_signaled_by_ancestor_s_name_att_resp>#ngibson</Affiliation_signaled_by_ancestor_s_name_att_resp>
+        <Affiliation_signaled_by_ancestor_s_name_att_evidence>ancestor-name</Affiliation_signaled_by_ancestor_s_name_att_evidence>
+        <Affiliation_signaled_by_ancestor_s_name_att_cert>low</Affiliation_signaled_by_ancestor_s_name_att_cert>
+        <child_Affiliation_signaled_by_ancestor_s_name_element_label></child_Affiliation_signaled_by_ancestor_s_name_element_label>
+        <Affiliation_signaled_by_given_name_element_state></Affiliation_signaled_by_given_name_element_state>
+        <Affiliation_signaled_by_given_name_att_xml--lang>en</Affiliation_signaled_by_given_name_att_xml--lang>
+        <Affiliation_signaled_by_given_name_att_type>religious-affiliation</Affiliation_signaled_by_given_name_att_type>
+        <Affiliation_signaled_by_given_name_att_resp>#ngibson</Affiliation_signaled_by_given_name_att_resp>
+        <Affiliation_signaled_by_given_name_att_evidence>given-name</Affiliation_signaled_by_given_name_att_evidence>
+        <Affiliation_signaled_by_given_name_att_cert>low</Affiliation_signaled_by_given_name_att_cert>
+        <child_Affiliation_signaled_by_given_name_element_label></child_Affiliation_signaled_by_given_name_element_label>
+        <Affiliation_in_nisba_element_state></Affiliation_in_nisba_element_state>
+        <Affiliation_in_nisba_att_xml--lang>en</Affiliation_in_nisba_att_xml--lang>
+        <Affiliation_in_nisba_att_type>religious-affiliation</Affiliation_in_nisba_att_type>
+        <Affiliation_in_nisba_att_resp>#ngibson</Affiliation_in_nisba_att_resp>
+        <Affiliation_in_nisba_att_evidence>nisba</Affiliation_in_nisba_att_evidence>
+        <Affiliation_in_nisba_att_cert>high</Affiliation_in_nisba_att_cert>
+        <child_Affiliation_in_nisba_element_label></child_Affiliation_in_nisba_element_label>
+        <Suggested_Affiliation_Keywords_element_state></Suggested_Affiliation_Keywords_element_state>
+        <Suggested_Affiliation_Keywords_att_xml--lang>en</Suggested_Affiliation_Keywords_att_xml--lang>
+        <Suggested_Affiliation_Keywords_att_type>religious-affiliation</Suggested_Affiliation_Keywords_att_type>
+        <Suggested_Affiliation_Keywords_att_resp>#vbirkhahn #ngibson</Suggested_Affiliation_Keywords_att_resp>
+        <Suggested_Affiliation_Keywords_att_source></Suggested_Affiliation_Keywords_att_source>
+        <child_Suggested_Affiliation_Keywords_element_label></child_Suggested_Affiliation_Keywords_element_label>
+        <Name__complete__Arabic__from_Mueller_index__element_persName></Name__complete__Arabic__from_Mueller_index__element_persName>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--id></Name__complete__Arabic__from_Mueller_index__att_xml--id>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--lang>ar</Name__complete__Arabic__from_Mueller_index__att_xml--lang>
+        <Name__complete__Arabic__from_Mueller_index__att_source></Name__complete__Arabic__from_Mueller_index__att_source>
+        <Name__complete__Arabic__from_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__Arabic__from_Mueller_index__att_resp>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__element_persName></Name__complete__EI3_transcription_based_on_Mueller_index__element_persName>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id></Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>en-x-ei3</Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_source></Name__complete__EI3_transcription_based_on_Mueller_index__att_source>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>
+        <child_Source_1_LHOM_Section_Number_1_element_citedRange></child_Source_1_LHOM_Section_Number_1_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_1_att_unit>section</child_Source_1_LHOM_Section_Number_1_att_unit>
+        <LHOM_Name_1__transcription__element_persName></LHOM_Name_1__transcription__element_persName>
+        <LHOM_Name_1__transcription__att_xml--id></LHOM_Name_1__transcription__att_xml--id>
+        <LHOM_Name_1__transcription__att_xml--lang>en-x-lhom</LHOM_Name_1__transcription__att_xml--lang>
+        <LHOM_Name_1__transcription__att_source></LHOM_Name_1__transcription__att_source>
+        <LHOM_Name_1__transcription__att_resp>#rschmahl #mtolay</LHOM_Name_1__transcription__att_resp>
+        <LHOM_Name_1__Arabic__element_persName></LHOM_Name_1__Arabic__element_persName>
+        <LHOM_Name_1__Arabic__att_xml--id></LHOM_Name_1__Arabic__att_xml--id>
+        <LHOM_Name_1__Arabic__att_xml--lang>ar</LHOM_Name_1__Arabic__att_xml--lang>
+        <LHOM_Name_1__Arabic__att_srophe-tags></LHOM_Name_1__Arabic__att_srophe-tags>
+        <LHOM_Name_1__Arabic__att_source></LHOM_Name_1__Arabic__att_source>
+        <LHOM_Name_1__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_1__Arabic__att_resp>
+        <child_Source_1_LHOM_Section_Number_2_element_citedRange></child_Source_1_LHOM_Section_Number_2_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_2_att_unit>section</child_Source_1_LHOM_Section_Number_2_att_unit>
+        <LHOM_Name_2_transcription__element_persName></LHOM_Name_2_transcription__element_persName>
+        <LHOM_Name_2_transcription__att_xml--id></LHOM_Name_2_transcription__att_xml--id>
+        <LHOM_Name_2_transcription__att_xml--lang>en-x-lhom</LHOM_Name_2_transcription__att_xml--lang>
+        <LHOM_Name_2_transcription__att_source></LHOM_Name_2_transcription__att_source>
+        <LHOM_Name_2_transcription__att_resp>#rschmahl #mtolay</LHOM_Name_2_transcription__att_resp>
+        <LHOM_Name_2__Arabic__element_persName></LHOM_Name_2__Arabic__element_persName>
+        <LHOM_Name_2__Arabic__att_xml--id></LHOM_Name_2__Arabic__att_xml--id>
+        <LHOM_Name_2__Arabic__att_xml--lang>ar</LHOM_Name_2__Arabic__att_xml--lang>
+        <LHOM_Name_2__Arabic__att_srophe-tags></LHOM_Name_2__Arabic__att_srophe-tags>
+        <LHOM_Name_2__Arabic__att_source></LHOM_Name_2__Arabic__att_source>
+        <LHOM_Name_2__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_2__Arabic__att_resp>
+        <URI_1_element_idno></URI_1_element_idno>
+        <URI_1_att_type>URI</URI_1_att_type>
+        <URI_1_att_resp>#rschmahl #mtolay</URI_1_att_resp>
+        <URI_2_element_idno></URI_2_element_idno>
+        <URI_2_att_type>URI</URI_2_att_type>
+        <URI_2_att_resp>#rschmahl #mtolay</URI_2_att_resp>
+        <URI_3_element_idno></URI_3_element_idno>
+        <URI_3_att_type>URI</URI_3_att_type>
+        <URI_3_att_resp>#rschmahl #mtolay</URI_3_att_resp>
+        <URI_4_element_idno></URI_4_element_idno>
+        <URI_4_att_type>URI</URI_4_att_type>
+        <URI_4_att_resp>#rschmahl #mtolay</URI_4_att_resp>
+        <URI_5_element_idno></URI_5_element_idno>
+        <URI_5_att_type>URI</URI_5_att_type>
+        <URI_5_att_resp>#rschmahl #mtolay</URI_5_att_resp>
+        <URI_6_element_idno></URI_6_element_idno>
+        <URI_6_att_type>URI</URI_6_att_type>
+        <URI_6_att_resp>#rschmahl #mtolay</URI_6_att_resp>
+        <URI_7_element_idno></URI_7_element_idno>
+        <URI_7_att_type>URI</URI_7_att_type>
+        <URI_7_att_resp>#rschmahl #mtolay</URI_7_att_resp>
+        <URI_8_element_idno></URI_8_element_idno>
+        <URI_8_att_type>URI</URI_8_att_type>
+        <URI_8_att_resp>#rschmahl #mtolay</URI_8_att_resp>
+        <Name_2_element_persName></Name_2_element_persName>
+        <Name_2_att_xml--id></Name_2_att_xml--id>
+        <Name_2_att_xml--lang>en-x-lhom</Name_2_att_xml--lang>
+        <Name_2_att_source></Name_2_att_source>
+        <Name_2_att_resp>#rschmahl #mtolay</Name_2_att_resp>
+        <Name_3_element_persName></Name_3_element_persName>
+        <Name_3_att_xml--id></Name_3_att_xml--id>
+        <Name_3_att_xml--lang>en-x-lhom</Name_3_att_xml--lang>
+        <Name_3_att_source></Name_3_att_source>
+        <Name_3_att_resp>#rschmahl #mtolay</Name_3_att_resp>
+        <Created_Arabic_Names_element_persName>عباد بن عباس</Created_Arabic_Names_element_persName>
+        <Created_Arabic_Names_att_xml--id>name1-2</Created_Arabic_Names_att_xml--id>
+        <Created_Arabic_Names_att_xml--lang>ar</Created_Arabic_Names_att_xml--lang>
+        <Created_Arabic_Names_att_srophe-tags>#syriaca-headword</Created_Arabic_Names_att_srophe-tags>
+        <Created_Arabic_Names_att_resp>#hfriedel</Created_Arabic_Names_att_resp>
+        <Source_1_element_bibl>_</Source_1_element_bibl>
+        <Source_1_att_xml--id>bib1-1</Source_1_att_xml--id>
+        <child_Source_1_Title_element_title>A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</child_Source_1_Title_element_title>
+        <child_Source_1_Title_att_level>m</child_Source_1_Title_att_level>
+        <child_Source_1_URI_element_ptr>_</child_Source_1_URI_element_ptr>
+        <child_Source_1_URI_att_target>https://usaybia.net/bibl/WVSJMDSV</child_Source_1_URI_att_target>
+        <Source_2_element_bibl></Source_2_element_bibl>
+        <Source_2_att_xml--id>bib1-2</Source_2_att_xml--id>
+        <child_Source_2_Title_element_title>عيون الأنباء في طبقات الأطباء</child_Source_2_Title_element_title>
+        <child_Source_2_Title_att_xml--lang>ar</child_Source_2_Title_att_xml--lang>
+        <child_Source_2_Title_att_level>m</child_Source_2_Title_att_level>
+        <child_Source_2_URI_element_ptr>_</child_Source_2_URI_element_ptr>
+        <child_Source_2_URI_att_target>https://usaybia.net/bibl/6RJQF8FK</child_Source_2_URI_att_target>
+    </row>
+    <row>
+        <New_URI>12</New_URI>
+        <LHOM_Name_element_persName>ʿAbd Allāh al-Ṭayfūrī</LHOM_Name_element_persName>
+        <LHOM_Name_att_xml--id>name12-1</LHOM_Name_att_xml--id>
+        <LHOM_Name_att_xml--lang>en-x-lhom</LHOM_Name_att_xml--lang>
+        <LHOM_Name_att_srophe-tags>#syriaca-headword</LHOM_Name_att_srophe-tags>
+        <LHOM_Name_att_source>#bib12-1</LHOM_Name_att_source>
+        <LHOM_Name_att_resp>#fioppolo</LHOM_Name_att_resp>
+        <LHOM_Entry_element_note>ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī </LHOM_Entry_element_note>
+        <LHOM_Entry_att_xml--id>abstract-en-12</LHOM_Entry_att_xml--id>
+        <LHOM_Entry_att_xml--lang>en</LHOM_Entry_att_xml--lang>
+        <LHOM_Entry_att_type>abstract</LHOM_Entry_att_type>
+        <LHOM_Entry_att_source>#bib12-1</LHOM_Entry_att_source>
+        <LHOM_Entry_att_resp>#fioppolo</LHOM_Entry_att_resp>
+        <child_Source_1_LHOM_Section_element_citedRange>8.2; 8.10</child_Source_1_LHOM_Section_element_citedRange>
+        <child_Source_1_LHOM_Section_att_unit>section</child_Source_1_LHOM_Section_att_unit>
+        <Occupation_1_element_state>_</Occupation_1_element_state>
+        <Occupation_1_att_xml--lang>en</Occupation_1_att_xml--lang>
+        <Occupation_1_att_type>occupation</Occupation_1_att_type>
+        <Occupation_1_att_role>physician</Occupation_1_att_role>
+        <Occupation_1_att_source>#bib12-1</Occupation_1_att_source>
+        <Occupation_1_att_resp>#vbirkhahn #ngibson</Occupation_1_att_resp>
+        <child_Occupation_1_element_desc>physician</child_Occupation_1_element_desc>
+        <Occupation_2_element_state></Occupation_2_element_state>
+        <Occupation_2_att_xml--lang>en</Occupation_2_att_xml--lang>
+        <Occupation_2_att_type>occupation</Occupation_2_att_type>
+        <Occupation_2_att_role></Occupation_2_att_role>
+        <Occupation_2_att_source></Occupation_2_att_source>
+        <Occupation_2_att_resp>#vbirkhahn #ngibson</Occupation_2_att_resp>
+        <child_Occupation_2_element_desc></child_Occupation_2_element_desc>
+        <Occupation_3_element_state></Occupation_3_element_state>
+        <Occupation_3_att_xml--lang>en</Occupation_3_att_xml--lang>
+        <Occupation_3_att_type>occupation</Occupation_3_att_type>
+        <Occupation_3_att_role></Occupation_3_att_role>
+        <Occupation_3_att_source></Occupation_3_att_source>
+        <Occupation_3_att_resp>#vbirkhahn #ngibson</Occupation_3_att_resp>
+        <child_Occupation_3_element_desc></child_Occupation_3_element_desc>
+        <Occupation_4_element_state></Occupation_4_element_state>
+        <Occupation_4_att_xml--lang>en</Occupation_4_att_xml--lang>
+        <Occupation_4_att_type>occupation</Occupation_4_att_type>
+        <Occupation_4_att_role></Occupation_4_att_role>
+        <Occupation_4_att_source></Occupation_4_att_source>
+        <Occupation_4_att_resp>#vbirkhahn #ngibson</Occupation_4_att_resp>
+        <child_Occupation_4_element_desc></child_Occupation_4_element_desc>
+        <Affiliation_signaled_by_occupation_element_state></Affiliation_signaled_by_occupation_element_state>
+        <Affiliation_signaled_by_occupation_att_xml--lang>en</Affiliation_signaled_by_occupation_att_xml--lang>
+        <Affiliation_signaled_by_occupation_att_type>religious-affiliation</Affiliation_signaled_by_occupation_att_type>
+        <Affiliation_signaled_by_occupation_att_resp>#ngibson</Affiliation_signaled_by_occupation_att_resp>
+        <Affiliation_signaled_by_occupation_att_evidence>occupation</Affiliation_signaled_by_occupation_att_evidence>
+        <Affiliation_signaled_by_occupation_att_cert>high</Affiliation_signaled_by_occupation_att_cert>
+        <child_Affiliation_signaled_by_occupation_element_label></child_Affiliation_signaled_by_occupation_element_label>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_element_state></Affiliation_signaled_by_descendant_s_name_or_kunya_element_state>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>en</Affiliation_signaled_by_descendant_s_name_or_kunya_att_xml--lang>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>religious-affiliation</Affiliation_signaled_by_descendant_s_name_or_kunya_att_type>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>#ngibson</Affiliation_signaled_by_descendant_s_name_or_kunya_att_resp>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>descendant-name</Affiliation_signaled_by_descendant_s_name_or_kunya_att_evidence>
+        <Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>low</Affiliation_signaled_by_descendant_s_name_or_kunya_att_cert>
+        <child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label></child_Affiliation_signaled_by_descendant_s_name_or_kunya_element_label>
+        <Affiliation_signaled_by_ancestor_s_name_element_state></Affiliation_signaled_by_ancestor_s_name_element_state>
+        <Affiliation_signaled_by_ancestor_s_name_att_xml--lang>en</Affiliation_signaled_by_ancestor_s_name_att_xml--lang>
+        <Affiliation_signaled_by_ancestor_s_name_att_type>religious-affiliation</Affiliation_signaled_by_ancestor_s_name_att_type>
+        <Affiliation_signaled_by_ancestor_s_name_att_resp>#ngibson</Affiliation_signaled_by_ancestor_s_name_att_resp>
+        <Affiliation_signaled_by_ancestor_s_name_att_evidence>ancestor-name</Affiliation_signaled_by_ancestor_s_name_att_evidence>
+        <Affiliation_signaled_by_ancestor_s_name_att_cert>low</Affiliation_signaled_by_ancestor_s_name_att_cert>
+        <child_Affiliation_signaled_by_ancestor_s_name_element_label></child_Affiliation_signaled_by_ancestor_s_name_element_label>
+        <Affiliation_signaled_by_given_name_element_state></Affiliation_signaled_by_given_name_element_state>
+        <Affiliation_signaled_by_given_name_att_xml--lang>en</Affiliation_signaled_by_given_name_att_xml--lang>
+        <Affiliation_signaled_by_given_name_att_type>religious-affiliation</Affiliation_signaled_by_given_name_att_type>
+        <Affiliation_signaled_by_given_name_att_resp>#ngibson</Affiliation_signaled_by_given_name_att_resp>
+        <Affiliation_signaled_by_given_name_att_evidence>given-name</Affiliation_signaled_by_given_name_att_evidence>
+        <Affiliation_signaled_by_given_name_att_cert>low</Affiliation_signaled_by_given_name_att_cert>
+        <child_Affiliation_signaled_by_given_name_element_label></child_Affiliation_signaled_by_given_name_element_label>
+        <Affiliation_in_nisba_element_state></Affiliation_in_nisba_element_state>
+        <Affiliation_in_nisba_att_xml--lang>en</Affiliation_in_nisba_att_xml--lang>
+        <Affiliation_in_nisba_att_type>religious-affiliation</Affiliation_in_nisba_att_type>
+        <Affiliation_in_nisba_att_resp>#ngibson</Affiliation_in_nisba_att_resp>
+        <Affiliation_in_nisba_att_evidence>nisba</Affiliation_in_nisba_att_evidence>
+        <Affiliation_in_nisba_att_cert>high</Affiliation_in_nisba_att_cert>
+        <child_Affiliation_in_nisba_element_label></child_Affiliation_in_nisba_element_label>
+        <Suggested_Affiliation_Keywords_element_state>_</Suggested_Affiliation_Keywords_element_state>
+        <Suggested_Affiliation_Keywords_att_xml--lang>en</Suggested_Affiliation_Keywords_att_xml--lang>
+        <Suggested_Affiliation_Keywords_att_type>religious-affiliation</Suggested_Affiliation_Keywords_att_type>
+        <Suggested_Affiliation_Keywords_att_resp>#vbirkhahn #ngibson</Suggested_Affiliation_Keywords_att_resp>
+        <Suggested_Affiliation_Keywords_att_source>#bib12-1</Suggested_Affiliation_Keywords_att_source>
+        <child_Suggested_Affiliation_Keywords_element_label>Christian</child_Suggested_Affiliation_Keywords_element_label>
+        <Name__complete__Arabic__from_Mueller_index__element_persName>عبد الله الطيفورى</Name__complete__Arabic__from_Mueller_index__element_persName>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--id>name12-2</Name__complete__Arabic__from_Mueller_index__att_xml--id>
+        <Name__complete__Arabic__from_Mueller_index__att_xml--lang>ar</Name__complete__Arabic__from_Mueller_index__att_xml--lang>
+        <Name__complete__Arabic__from_Mueller_index__att_source>#bib12-2</Name__complete__Arabic__from_Mueller_index__att_source>
+        <Name__complete__Arabic__from_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__Arabic__from_Mueller_index__att_resp>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__element_persName></Name__complete__EI3_transcription_based_on_Mueller_index__element_persName>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id></Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--id>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>en-x-ei3</Name__complete__EI3_transcription_based_on_Mueller_index__att_xml--lang>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_source></Name__complete__EI3_transcription_based_on_Mueller_index__att_source>
+        <Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>#rschmahl #mtolay</Name__complete__EI3_transcription_based_on_Mueller_index__att_resp>
+        <child_Source_1_LHOM_Section_Number_1_element_citedRange>8.10</child_Source_1_LHOM_Section_Number_1_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_1_att_unit>section</child_Source_1_LHOM_Section_Number_1_att_unit>
+        <LHOM_Name_1__transcription__element_persName>ʿAbd Allāh al-Ṭayfūrī</LHOM_Name_1__transcription__element_persName>
+        <LHOM_Name_1__transcription__att_xml--id>name12-3</LHOM_Name_1__transcription__att_xml--id>
+        <LHOM_Name_1__transcription__att_xml--lang>en-x-lhom</LHOM_Name_1__transcription__att_xml--lang>
+        <LHOM_Name_1__transcription__att_source>#bib12-1</LHOM_Name_1__transcription__att_source>
+        <LHOM_Name_1__transcription__att_resp>#rschmahl #mtolay</LHOM_Name_1__transcription__att_resp>
+        <LHOM_Name_1__Arabic__element_persName>عبد الله الطيفوري</LHOM_Name_1__Arabic__element_persName>
+        <LHOM_Name_1__Arabic__att_xml--id>name12-4</LHOM_Name_1__Arabic__att_xml--id>
+        <LHOM_Name_1__Arabic__att_xml--lang>ar</LHOM_Name_1__Arabic__att_xml--lang>
+        <LHOM_Name_1__Arabic__att_srophe-tags>#syriaca-headword</LHOM_Name_1__Arabic__att_srophe-tags>
+        <LHOM_Name_1__Arabic__att_source>#bib12-1</LHOM_Name_1__Arabic__att_source>
+        <LHOM_Name_1__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_1__Arabic__att_resp>
+        <child_Source_1_LHOM_Section_Number_2_element_citedRange></child_Source_1_LHOM_Section_Number_2_element_citedRange>
+        <child_Source_1_LHOM_Section_Number_2_att_unit>section</child_Source_1_LHOM_Section_Number_2_att_unit>
+        <LHOM_Name_2_transcription__element_persName></LHOM_Name_2_transcription__element_persName>
+        <LHOM_Name_2_transcription__att_xml--id></LHOM_Name_2_transcription__att_xml--id>
+        <LHOM_Name_2_transcription__att_xml--lang>en-x-lhom</LHOM_Name_2_transcription__att_xml--lang>
+        <LHOM_Name_2_transcription__att_source></LHOM_Name_2_transcription__att_source>
+        <LHOM_Name_2_transcription__att_resp>#rschmahl #mtolay</LHOM_Name_2_transcription__att_resp>
+        <LHOM_Name_2__Arabic__element_persName>ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī 8.2; 8.10</LHOM_Name_2__Arabic__element_persName>
+        <LHOM_Name_2__Arabic__att_xml--id>name12-5</LHOM_Name_2__Arabic__att_xml--id>
+        <LHOM_Name_2__Arabic__att_xml--lang>ar</LHOM_Name_2__Arabic__att_xml--lang>
+        <LHOM_Name_2__Arabic__att_srophe-tags></LHOM_Name_2__Arabic__att_srophe-tags>
+        <LHOM_Name_2__Arabic__att_source>#bib12-1</LHOM_Name_2__Arabic__att_source>
+        <LHOM_Name_2__Arabic__att_resp>#rschmahl #mtolay</LHOM_Name_2__Arabic__att_resp>
+        <URI_1_element_idno>https://onomasticon.irht.cnrs.fr/en/entry/id/4116</URI_1_element_idno>
+        <URI_1_att_type>URI</URI_1_att_type>
+        <URI_1_att_resp>#rschmahl #mtolay</URI_1_att_resp>
+        <URI_2_element_idno></URI_2_element_idno>
+        <URI_2_att_type>URI</URI_2_att_type>
+        <URI_2_att_resp>#rschmahl #mtolay</URI_2_att_resp>
+        <URI_3_element_idno></URI_3_element_idno>
+        <URI_3_att_type>URI</URI_3_att_type>
+        <URI_3_att_resp>#rschmahl #mtolay</URI_3_att_resp>
+        <URI_4_element_idno></URI_4_element_idno>
+        <URI_4_att_type>URI</URI_4_att_type>
+        <URI_4_att_resp>#rschmahl #mtolay</URI_4_att_resp>
+        <URI_5_element_idno></URI_5_element_idno>
+        <URI_5_att_type>URI</URI_5_att_type>
+        <URI_5_att_resp>#rschmahl #mtolay</URI_5_att_resp>
+        <URI_6_element_idno></URI_6_element_idno>
+        <URI_6_att_type>URI</URI_6_att_type>
+        <URI_6_att_resp>#rschmahl #mtolay</URI_6_att_resp>
+        <URI_7_element_idno></URI_7_element_idno>
+        <URI_7_att_type>URI</URI_7_att_type>
+        <URI_7_att_resp>#rschmahl #mtolay</URI_7_att_resp>
+        <URI_8_element_idno></URI_8_element_idno>
+        <URI_8_att_type>URI</URI_8_att_type>
+        <URI_8_att_resp>#rschmahl #mtolay</URI_8_att_resp>
+        <Name_2_element_persName></Name_2_element_persName>
+        <Name_2_att_xml--id></Name_2_att_xml--id>
+        <Name_2_att_xml--lang>en-x-lhom</Name_2_att_xml--lang>
+        <Name_2_att_source></Name_2_att_source>
+        <Name_2_att_resp>#rschmahl #mtolay</Name_2_att_resp>
+        <Name_3_element_persName></Name_3_element_persName>
+        <Name_3_att_xml--id></Name_3_att_xml--id>
+        <Name_3_att_xml--lang>en-x-lhom</Name_3_att_xml--lang>
+        <Name_3_att_source></Name_3_att_source>
+        <Name_3_att_resp>#rschmahl #mtolay</Name_3_att_resp>
+        <Created_Arabic_Names_element_persName>عبد الله الطيفوري</Created_Arabic_Names_element_persName>
+        <Created_Arabic_Names_att_xml--id>name12-6</Created_Arabic_Names_att_xml--id>
+        <Created_Arabic_Names_att_xml--lang>ar</Created_Arabic_Names_att_xml--lang>
+        <Created_Arabic_Names_att_srophe-tags></Created_Arabic_Names_att_srophe-tags>
+        <Created_Arabic_Names_att_resp>#hfriedel</Created_Arabic_Names_att_resp>
+        <Source_1_element_bibl>_</Source_1_element_bibl>
+        <Source_1_att_xml--id>bib12-1</Source_1_att_xml--id>
+        <child_Source_1_Title_element_title>A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</child_Source_1_Title_element_title>
+        <child_Source_1_Title_att_level>m</child_Source_1_Title_att_level>
+        <child_Source_1_URI_element_ptr>_</child_Source_1_URI_element_ptr>
+        <child_Source_1_URI_att_target>https://usaybia.net/bibl/WVSJMDSV</child_Source_1_URI_att_target>
+        <Source_2_element_bibl>_</Source_2_element_bibl>
+        <Source_2_att_xml--id>bib12-2</Source_2_att_xml--id>
+        <child_Source_2_Title_element_title>عيون الأنباء في طبقات الأطباء</child_Source_2_Title_element_title>
+        <child_Source_2_Title_att_xml--lang>ar</child_Source_2_Title_att_xml--lang>
+        <child_Source_2_Title_att_level>m</child_Source_2_Title_att_level>
+        <child_Source_2_URI_element_ptr>_</child_Source_2_URI_element_ptr>
+        <child_Source_2_URI_att_target>https://usaybia.net/bibl/6RJQF8FK</child_Source_2_URI_att_target>
     </row>
 </root>
