@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2139-1">al-Suhrawardī, Shihāb al-Dīn</persName>
-               <persName xml:id="name2139-2" xml:lang="ar" source="#">السهروردي شهاب الدين أبو حفص عمر</persName>
+               <persName xml:id="name2139-2" xml:lang="ar" source="#bib2139-2">السهروردي شهاب الدين أبو حفص عمر</persName>
                <persName xml:id="name2139-3" xml:lang="en-x-lhom" source="#bib2139-1">Shihāb al-Dīn al-Suhrawardī</persName>
                <persName xml:id="name2139-4"
                          xml:lang="ar"
@@ -233,6 +233,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.18; 15.20; 15.40.3</citedRange>
                   <citedRange unit="section">15.18</citedRange>
+               </bibl>
+               <bibl xml:id="bib2139-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

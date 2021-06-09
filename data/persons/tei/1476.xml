@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1476-1">al-Malik al-Masʿūd</persName>
-               <persName xml:id="name1476-2" xml:lang="ar" source="#">الملك المسعود اقسيس بن الملك الكامل صاحب آمد</persName>
+               <persName xml:id="name1476-2" xml:lang="ar" source="#bib1476-2">الملك المسعود اقسيس بن الملك الكامل صاحب آمد</persName>
                <persName xml:id="name1476-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك المسعود</persName>
                <note xml:id="abstract-en-1476"
                      xml:lang="en"
@@ -224,6 +224,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.56.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib1476-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1678-1">Mūsā ibn Maymūn, Moses Maimonides, Abū ʿImrān al-Qurṭubī</persName>
-               <persName xml:id="name1678-2" xml:lang="ar" source="#">الرئيس موسى بن ميمون القرطبي</persName>
+               <persName xml:id="name1678-2" xml:lang="ar" source="#bib1678-2">الرئيس موسى بن ميمون القرطبي</persName>
                <persName xml:id="name1678-3" xml:lang="en-x-lhom" source="#bib1678-1">al-Raʾīs Mūsā ibn Maymūn (Maimonides)</persName>
                <persName xml:id="name1678-4"
                          xml:lang="ar"
@@ -253,6 +253,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">14.38.1n; 14.39; 14.40.1n; 15.40.3; 15.51.1</citedRange>
                   <citedRange unit="section">14.39</citedRange>
+               </bibl>
+               <bibl xml:id="bib1678-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

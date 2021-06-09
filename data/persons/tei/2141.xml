@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2141-1">al-Sukkarī, Jābir ibn Manṣūr</persName>
-               <persName xml:id="name2141-2" xml:lang="ar" source="#">جابر بن منصور السكرى</persName>
+               <persName xml:id="name2141-2" xml:lang="ar" source="#bib2141-2">جابر بن منصور السكرى</persName>
                <persName xml:id="name2141-3" xml:lang="en-x-lhom" source="#bib2141-1">Jābir ibn Manṣūr al-Sukkarī</persName>
                <persName xml:id="name2141-4"
                          xml:lang="ar"
@@ -231,6 +231,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.4</citedRange>
                   <citedRange unit="section">15.4</citedRange>
+               </bibl>
+               <bibl xml:id="bib2141-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

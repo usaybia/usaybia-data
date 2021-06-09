@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1722-1">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī</persName>
-               <persName xml:id="name1722-2" xml:lang="ar" source="#">النضر بن الحرث</persName>
+               <persName xml:id="name1722-2" xml:lang="ar" source="#bib1722-2">النضر بن الحرث</persName>
                <persName xml:id="name1722-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -226,6 +226,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">7.2; 7.5.2n</citedRange>
                   <citedRange unit="section">7.2</citedRange>
+               </bibl>
+               <bibl xml:id="bib1722-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

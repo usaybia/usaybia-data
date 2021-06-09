@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2085-1">Shihāb al-Dīn ibn al-ʿĀlimah</persName>
-               <persName xml:id="name2085-2" xml:lang="ar" source="#">شهاب الدين بن العالمة القاضي</persName>
+               <persName xml:id="name2085-2" xml:lang="ar" source="#bib2085-2">شهاب الدين بن العالمة القاضي</persName>
                <persName xml:id="name2085-3" xml:lang="ar" srophe-tags="#syriaca-headword">شهاب الدين بن العالمة</persName>
                <note xml:id="abstract-en-2085"
                      xml:lang="en"
@@ -235,6 +235,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.56.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib2085-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

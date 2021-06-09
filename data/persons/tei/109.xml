@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib109-1">Abū ʿAmr al-Zajjājī</persName>
-               <persName xml:id="name109-2" xml:lang="ar" source="#">ابو عمرو الزجاجي</persName>
+               <persName xml:id="name109-2" xml:lang="ar" source="#bib109-2">ابو عمرو الزجاجي</persName>
                <persName xml:id="name109-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عمر الزجاجي</persName>
                <note xml:id="abstract-en-109"
                      xml:lang="en"
@@ -225,6 +225,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib109-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

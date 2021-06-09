@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1286-1">Isrāʾīl ibn Zakariyyā ibn al-Ṭayfūrī</persName>
-               <persName xml:id="name1286-2" xml:lang="ar" source="#">اسرائيل بن زكريا بن الطيفورى</persName>
+               <persName xml:id="name1286-2" xml:lang="ar" source="#bib1286-2">اسرائيل بن زكريا بن الطيفورى</persName>
                <persName xml:id="name1286-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -237,6 +237,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">8.12; 8.26.12; 9.49</citedRange>
                   <citedRange unit="section">8.12</citedRange>
+               </bibl>
+               <bibl xml:id="bib1286-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

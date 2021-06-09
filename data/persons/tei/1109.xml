@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1109-1">Ibn al-Ṣalāḥ</persName>
-               <persName xml:id="name1109-2" xml:lang="ar" source="#">ابن الصلاح نجم الدين أبو الفتوح أحمد بن محمد بن السري</persName>
+               <persName xml:id="name1109-2" xml:lang="ar" source="#bib1109-2">ابن الصلاح نجم الدين أبو الفتوح أحمد بن محمد بن السري</persName>
                <persName xml:id="name1109-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -242,6 +242,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.75.1; 15.17</citedRange>
                   <citedRange unit="section">15.17</citedRange>
+               </bibl>
+               <bibl xml:id="bib1109-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

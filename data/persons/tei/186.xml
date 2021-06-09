@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib186-1">Abū l-Ḥakam ʿUbayd Allāh ibn al-Muẓaffar ibn ʿAbd Allāh</persName>
-               <persName xml:id="name186-2" xml:lang="ar" source="#">أبو الحكم عبيد الله بن المظفر بن عبد الله الباهلى الأندلسى المرسى</persName>
+               <persName xml:id="name186-2" xml:lang="ar" source="#bib186-2">أبو الحكم عبيد الله بن المظفر بن عبد الله الباهلى الأندلسى المرسى</persName>
                <persName xml:id="name186-3" xml:lang="en-x-lhom" source="#bib186-1">Abū l-Ḥakam</persName>
                <persName xml:id="name186-4"
                          xml:lang="ar"
@@ -234,6 +234,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.8; 15.17</citedRange>
                   <citedRange unit="section">15.8</citedRange>
+               </bibl>
+               <bibl xml:id="bib186-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

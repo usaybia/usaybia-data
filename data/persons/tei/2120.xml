@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2120-1">al-Ṣiqillī, Abū Bakr</persName>
-               <persName xml:id="name2120-2" xml:lang="ar" source="#">ابو بكر الصقلى</persName>
+               <persName xml:id="name2120-2" xml:lang="ar" source="#bib2120-2">ابو بكر الصقلى</persName>
                <persName xml:id="name2120-3" xml:lang="ar" srophe-tags="#syriaca-headword">الصقلي أبو بكر</persName>
                <note xml:id="abstract-en-2120"
                      xml:lang="en"
@@ -226,6 +226,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.57.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib2120-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

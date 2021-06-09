@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1129-1">Ibn al-Suwaydī</persName>
-               <persName xml:id="name1129-2" xml:lang="ar" source="#">عز الدين ابو اسحق ابرهيم بن هحهد ابن السويدي</persName>
+               <persName xml:id="name1129-2" xml:lang="ar" source="#bib1129-2">عز الدين ابو اسحق ابرهيم بن هحهد ابن السويدي</persName>
                <persName xml:id="name1129-3" xml:lang="en-x-lhom" source="#bib1129-1">ʿIzz al-Dīn ibn al-Suwaydī</persName>
                <persName xml:id="name1129-4"
                          xml:lang="ar"
@@ -234,6 +234,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.23.3; 15.57</citedRange>
                   <citedRange unit="section">15.57</citedRange>
+               </bibl>
+               <bibl xml:id="bib1129-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

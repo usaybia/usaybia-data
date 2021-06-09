@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib153-1">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis</persName>
-               <persName xml:id="name153-2" xml:lang="ar" source="#">مؤيد الدين أبو فضل محمد بن عبد الكريم بن عبد الرحمن المهندس</persName>
+               <persName xml:id="name153-2" xml:lang="ar" source="#bib153-2">مؤيد الدين أبو فضل محمد بن عبد الكريم بن عبد الرحمن المهندس</persName>
                <persName xml:id="name153-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -235,6 +235,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.33</citedRange>
                   <citedRange unit="section">15.33</citedRange>
+               </bibl>
+               <bibl xml:id="bib153-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

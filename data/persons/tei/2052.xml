@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā</persName>
-               <persName xml:id="name2052-2" xml:lang="ar" source="#">شمس الدين عبد الحميد بن عيسى الخشروشاهي</persName>
+               <persName xml:id="name2052-2" xml:lang="ar" source="#bib2052-2">شمس الدين عبد الحميد بن عيسى الخشروشاهي</persName>
                <persName xml:id="name2052-3" xml:lang="en-x-lhom" source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī</persName>
                <persName xml:id="name2052-4"
                          xml:lang="ar"
@@ -231,6 +231,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">11.11; 15.44; 15.21; 15.60.1</citedRange>
                   <citedRange unit="section">15.21</citedRange>
+               </bibl>
+               <bibl xml:id="bib2052-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

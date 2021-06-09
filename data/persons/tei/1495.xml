@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1495-1">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf</persName>
-               <persName xml:id="name1495-2" xml:lang="ar" source="#">الملك الظاهر غازي ابن صلاح الدين</persName>
+               <persName xml:id="name1495-2" xml:lang="ar" source="#bib1495-2">الملك الظاهر غازي ابن صلاح الدين</persName>
                <persName xml:id="name1495-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الظاهر غازي بن يوسف</persName>
                <note xml:id="abstract-en-1495"
                      xml:lang="en"
@@ -237,6 +237,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.75.2; 15.18.1; 15.18.1.3; 15.23.2.1; 15.30; 15.40; 15.50.6</citedRange>
+               </bibl>
+               <bibl xml:id="bib1495-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

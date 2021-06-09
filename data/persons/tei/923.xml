@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib923-1">Ibn Abī Ṣādiq al-Nīsābūrī</persName>
-               <persName xml:id="name923-2" xml:lang="ar" source="#">ابو القاسم عبد الرحمن بن علي بن احمد بن ابي صادق النيسابوري</persName>
+               <persName xml:id="name923-2" xml:lang="ar" source="#bib923-2">ابو القاسم عبد الرحمن بن علي بن احمد بن ابي صادق النيسابوري</persName>
                <persName xml:id="name923-3" xml:lang="en-x-lhom" source="#bib923-1">Ibn Abī Ṣādiq</persName>
                <persName xml:id="name923-4"
                          xml:lang="ar"
@@ -234,6 +234,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">8.29.22; 11.17; 15.37.6 no. 3; 15.50 no. 6; 15.57.1</citedRange>
                   <citedRange unit="section">11.17</citedRange>
+               </bibl>
+               <bibl xml:id="bib923-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

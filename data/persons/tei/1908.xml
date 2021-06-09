@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1908-1">al-Raqqī al-Tiflīsī, Abū l-Qāsim ʿĪsā</persName>
-               <persName xml:id="name1908-2" xml:lang="ar" source="#">عيسى الرقي المعروف التفليسي</persName>
+               <persName xml:id="name1908-2" xml:lang="ar" source="#bib1908-2">عيسى الرقي المعروف التفليسي</persName>
                <persName xml:id="name1908-3" xml:lang="en-x-lhom" source="#bib1908-1">ʿĪsā al-Raqqī</persName>
                <persName xml:id="name1908-4"
                          xml:lang="ar"
@@ -237,6 +237,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.2</citedRange>
                   <citedRange unit="section">15.2</citedRange>
+               </bibl>
+               <bibl xml:id="bib1908-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -207,8 +207,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib645-1">al-Bīrūnī, Abū l-Rayḥān</persName>
-               <persName xml:id="name645-2" xml:lang="ar" source="#">أبو الريحان محمد بن أحمد البيروني</persName>
-               <persName xml:id="name645-3" xml:lang="en-x-ei3" source="#">Abū r-Raiḥān Muḥammad ibn Aḥmad al-Bīrūnī</persName>
+               <persName xml:id="name645-2" xml:lang="ar" source="#bib645-2">أبو الريحان محمد بن أحمد البيروني</persName>
+               <persName xml:id="name645-3" xml:lang="en-x-ei3" source="#bib645-2">Abū r-Raiḥān Muḥammad ibn Aḥmad al-Bīrūnī</persName>
                <persName xml:id="name645-4" xml:lang="en-x-lhom" source="#bib645-1">Abū l-Rayḥān al-Bīrūnī</persName>
                <persName xml:id="name645-5"
                          xml:lang="ar"
@@ -237,6 +237,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">4.1.2n; 4.3.4.3n; 4.5.1n; 8.4.11; 11.13.8 nos. 42, 42; 11.15</citedRange>
                   <citedRange unit="section">11.15</citedRange>
+               </bibl>
+               <bibl xml:id="bib645-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

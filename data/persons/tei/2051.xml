@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2051-1">Shams al-Dīn ibn al-Lubūdī</persName>
-               <persName xml:id="name2051-2" xml:lang="ar" source="#">شمس الدين اللبودى أبو عبد الله محمد بن عبدان</persName>
+               <persName xml:id="name2051-2" xml:lang="ar" source="#bib2051-2">شمس الدين اللبودى أبو عبد الله محمد بن عبدان</persName>
                <persName xml:id="name2051-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -230,6 +230,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.30; 15.31.1</citedRange>
                   <citedRange unit="section">15.30</citedRange>
+               </bibl>
+               <bibl xml:id="bib2051-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

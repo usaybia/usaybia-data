@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1904-1">al-Raḥbī, Sharaf al-Dīn ibn</persName>
-               <persName xml:id="name1904-2" xml:lang="ar" source="#">شرف الدين ابو الحسن على ابن يوسف الرحبي</persName>
+               <persName xml:id="name1904-2" xml:lang="ar" source="#bib1904-2">شرف الدين ابو الحسن على ابن يوسف الرحبي</persName>
                <persName xml:id="name1904-3" xml:lang="en-x-lhom" source="#bib1904-1">Sharaf al-Dīn ibn al-Raḥbī</persName>
                <persName xml:id="name1904-4"
                          xml:lang="ar"
@@ -232,6 +232,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.36.1.4; 15.37; 15.50.6</citedRange>
                   <citedRange unit="section">15.37</citedRange>
+               </bibl>
+               <bibl xml:id="bib1904-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

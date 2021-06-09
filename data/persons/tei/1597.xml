@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1597-1">Muhadhdhab al-Dīn Yūsuf ibn Abī Saʿīd al-Sāmirī</persName>
-               <persName xml:id="name1597-2" xml:lang="ar" source="#">مهذب الدين يوسف بن أبي سعيد بن خلف السامري الوزير</persName>
+               <persName xml:id="name1597-2" xml:lang="ar" source="#bib1597-2">مهذب الدين يوسف بن أبي سعيد بن خلف السامري الوزير</persName>
                <persName xml:id="name1597-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -250,6 +250,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.48; 15.49.1</citedRange>
                   <citedRange unit="section">15.48</citedRange>
+               </bibl>
+               <bibl xml:id="bib1597-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

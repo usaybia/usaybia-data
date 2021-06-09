@@ -206,7 +206,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1339-1">al-Jilyānī</persName>
-               <persName xml:id="name1339-2" xml:lang="ar" source="#">حكيم الزمان أبو الفضل عبد المنعم بن عمر الجلياني</persName>
+               <persName xml:id="name1339-2" xml:lang="ar" source="#bib1339-2">حكيم الزمان أبو الفضل عبد المنعم بن عمر الجلياني</persName>
                <persName xml:id="name1339-3" xml:lang="en-x-lhom" source="#bib1339-1">Ḥakīm al-Zamān ʿAbd al-Munʿim al-Jilyānī</persName>
                <persName xml:id="name1339-4"
                          xml:lang="ar"
@@ -238,6 +238,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.11; ＡⅠⅠ13; ＡⅠⅠ.14</citedRange>
                   <citedRange unit="section">15.11</citedRange>
+               </bibl>
+               <bibl xml:id="bib1339-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

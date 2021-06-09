@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1318-1">Jamāl al-Dīn ʿUthmān</persName>
-               <persName xml:id="name1318-2" xml:lang="ar" source="#">جمال الدين عثمان بن يوسف بن حيدرة الرحبي</persName>
+               <persName xml:id="name1318-2" xml:lang="ar" source="#bib1318-2">جمال الدين عثمان بن يوسف بن حيدرة الرحبي</persName>
                <persName xml:id="name1318-3" xml:lang="en-x-lhom" source="#bib1318-1">Jamāl al-Dīn ibn al-Raḥbī</persName>
                <persName xml:id="name1318-4"
                          xml:lang="ar"
@@ -232,6 +232,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.37.3</citedRange>
                   <citedRange unit="section">15.38</citedRange>
+               </bibl>
+               <bibl xml:id="bib1318-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

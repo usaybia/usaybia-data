@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1914-1">Rashīd al-Dīn ibn al-Ṣūrī</persName>
-               <persName xml:id="name1914-2" xml:lang="ar" source="#">رشيد الدين ابن الصوري ابي المنصور ابي الفضل ابن على</persName>
+               <persName xml:id="name1914-2" xml:lang="ar" source="#bib1914-2">رشيد الدين ابن الصوري ابي المنصور ابي الفضل ابن على</persName>
                <persName xml:id="name1914-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -244,6 +244,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.45; 15.50</citedRange>
                   <citedRange unit="section">15.45</citedRange>
+               </bibl>
+               <bibl xml:id="bib1914-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

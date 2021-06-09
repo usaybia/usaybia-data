@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1221-1">ʿImād al-Dīn al-Dunaysirī</persName>
-               <persName xml:id="name1221-2" xml:lang="ar" source="#">عماد الدين الدنيسري ابو عبد الله محمد ابن عباس بن احمد</persName>
+               <persName xml:id="name1221-2" xml:lang="ar" source="#bib1221-2">عماد الدين الدنيسري ابو عبد الله محمد ابن عباس بن احمد</persName>
                <persName xml:id="name1221-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -237,6 +237,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.58</citedRange>
                   <citedRange unit="section">15.58</citedRange>
+               </bibl>
+               <bibl xml:id="bib1221-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

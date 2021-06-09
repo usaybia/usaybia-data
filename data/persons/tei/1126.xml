@@ -215,7 +215,7 @@
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1126-2 #bib1126-1">موفق الدين يعقوب بن سقلاب</persName>
-               <persName xml:id="name1126-3" xml:lang="en-x-ei3" source="#">Muwaffaq al-Dīn Yaʿqūb Ibn Siqlāb</persName>
+               <persName xml:id="name1126-3" xml:lang="en-x-ei3" source="#bib1126-2">Muwaffaq al-Dīn Yaʿqūb Ibn Siqlāb</persName>
                <persName xml:id="name1126-4" xml:lang="en-x-lhom" source="#bib1126-1">Muwaffaq al-Dīn Yaʿqūb ibn Ṣiqlāb</persName>
                <persName xml:id="name1126-6" xml:lang="ar">ابن سقلاب</persName>
                <note xml:id="abstract-en-1126"
@@ -239,6 +239,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15. 23.2.2; 15.43; 15.44</citedRange>
                   <citedRange unit="section">15.43</citedRange>
+               </bibl>
+               <bibl xml:id="bib1126-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

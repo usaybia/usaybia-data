@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib285-1">Abū Muḥammad ibn al-Jaʿdī</persName>
-               <persName xml:id="name285-2" xml:lang="ar" source="#">ابو محمد بن الجعدي</persName>
+               <persName xml:id="name285-2" xml:lang="ar" source="#bib285-2">ابو محمد بن الجعدي</persName>
                <persName xml:id="name285-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو محمد بن الجعدي</persName>
                <note xml:id="abstract-en-285"
                      xml:lang="en"
@@ -235,6 +235,10 @@
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib285-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

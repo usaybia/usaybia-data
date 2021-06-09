@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2144-1">al-Sukkarī, Ẓāfir ibn Jābir, Abū Ḥakīm</persName>
-               <persName xml:id="name2144-2" xml:lang="ar" source="#">ظافر بن جابر السكرى</persName>
+               <persName xml:id="name2144-2" xml:lang="ar" source="#bib2144-2">ظافر بن جابر السكرى</persName>
                <persName xml:id="name2144-3" xml:lang="en-x-lhom" source="#bib2144-1">Ẓāfir ibn Jābir al-Sukkarī</persName>
                <persName xml:id="name2144-4"
                          xml:lang="ar"
@@ -231,6 +231,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.37.5 no. 40; 15.5</citedRange>
                   <citedRange unit="section">15.5</citedRange>
+               </bibl>
+               <bibl xml:id="bib2144-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

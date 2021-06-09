@@ -211,7 +211,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib409-1">ʿAfīf ibn Sukkarah</persName>
-               <persName xml:id="name409-2" xml:lang="ar" source="#">عفيف بن عبد القاهر بن سكرة</persName>
+               <persName xml:id="name409-2" xml:lang="ar" source="#bib409-2">عفيف بن عبد القاهر بن سكرة</persName>
                <persName xml:id="name409-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -236,6 +236,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.16</citedRange>
                   <citedRange unit="section">15.16</citedRange>
+               </bibl>
+               <bibl xml:id="bib409-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -207,7 +207,7 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1946-1">Sadīd al-Dīn Abū Manṣūr</persName>
-               <persName xml:id="name1946-2" xml:lang="ar" source="#">سديد الدين أبو منصور بن موفق الدين يعقوب بن سقلاب</persName>
+               <persName xml:id="name1946-2" xml:lang="ar" source="#bib1946-2">سديد الدين أبو منصور بن موفق الدين يعقوب بن سقلاب</persName>
                <persName xml:id="name1946-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -223,6 +223,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.44</citedRange>
                   <citedRange unit="section">15.44</citedRange>
+               </bibl>
+               <bibl xml:id="bib1946-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>
