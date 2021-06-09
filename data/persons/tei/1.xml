@@ -3,6 +3,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:tei="http://www.tei-c.org/ns/1.0"
      xmlns:srophe="https://srophe.app"
+     xmlns:saxon="http://saxon.sf.net/"
      xmlns:functx="http://www.functx.com"
      xml:lang="en">
    <teiHeader>
@@ -83,8 +84,13 @@
                <name type="person" ref="#mtolay">Malinda Tolay</name>
             </respStmt>
             <respStmt>
-               <resp>Relational descriptors by</resp>
+               <resp>Relational descriptors, checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
+            </respStmt>
+            <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
             </respStmt>
             <respStmt>
                <resp>Bibliography editing by</resp>
