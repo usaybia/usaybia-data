@@ -1,50 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<persName xml:id="name12-1"
-          srophe-tags="#syriaca-headword"
-          source="#bib12-1"
-          resp="#fioppolo #rschmahl #mtolay"
-          xml:lang="en-x-lhom">ʿAbd Allāh al-Ṭayfūrī</persName>
-<persName xml:id="name12-2"
-          source="#bib12-2"
-          resp="#rschmahl #mtolay"
-          xml:lang="ar">عبد الله الطيفورى</persName>
-<persName xml:id="name12-4"
-          srophe-tags="#syriaca-headword"
-          source="#bib12-1"
-          resp="#rschmahl #mtolay #hfriedel"
-          xml:lang="ar">عبد الله الطيفوري</persName>
-<persName xml:id="name12-5"
-          source="#bib12-1"
-          resp="#rschmahl #mtolay"
-          xml:lang="ar">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī 8.2; 8.10</persName>
-<note xml:id="abstract-en-12"
-      source="#bib12-1"
-      resp="#fioppolo"
-      xml:lang="en"
-      type="abstract">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī </note>
-<idno type="URI">https://usaybia.net/person/12</idno>
-<idno resp="#rschmahl #mtolay" type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4116</idno>
-<state source="#bib12-1"
-       resp="#vbirkhahn #ngibson"
-       xml:lang="en"
-       type="occupation"
-       role="physician">
-   <desc>physician</desc>
-</state>
-<state source="#bib12-1"
-       resp="#vbirkhahn #ngibson"
-       xml:lang="en"
-       type="religious-affiliation">
-   <label>Christian</label>
-</state>
-<bibl xml:id="bib12-1">
-   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
-   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-   <citedRange unit="section">8.2; 8.10</citedRange>
-   <citedRange unit="section">8.10</citedRange>
-</bibl>
-<bibl xml:id="bib12-2">
-   <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
-   <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
-</bibl>
+<text xmlns:tei="http://www.tei-c.org/ns/1.0"
+      xmlns:srophe="https://srophe.app"
+      xmlns:functx="http://www.functx.com">
+   <body>
+      <listPerson>
+         <person xml:id="person-12">
+            <persName xml:id="name12-1"
+                      srophe-tags="#syriaca-headword"
+                      source="#bib12-1"
+                      resp="#fioppolo #rschmahl #mtolay"
+                      xml:lang="en-x-lhom">ʿAbd Allāh al-Ṭayfūrī</persName>
+            <persName xml:id="name12-2"
+                      source="#bib12-2"
+                      resp="#rschmahl #mtolay"
+                      xml:lang="ar">عبد الله الطيفورى</persName>
+            <persName xml:id="name12-4"
+                      srophe-tags="#syriaca-headword"
+                      source="#bib12-1"
+                      resp="#rschmahl #mtolay #hfriedel"
+                      xml:lang="ar">عبد الله الطيفوري</persName>
+            <persName xml:id="name12-5"
+                      source="#bib12-1"
+                      resp="#rschmahl #mtolay"
+                      xml:lang="ar">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī 8.2; 8.10</persName>
+            <note xml:id="abstract-en-12"
+                  source="#bib12-1"
+                  resp="#fioppolo"
+                  xml:lang="en"
+                  type="abstract">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī </note>
+            <idno type="URI">https://usaybia.net/person/12</idno>
+            <idno resp="#rschmahl #mtolay" type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4116</idno>
+            <state source="#bib12-1"
+                   resp="#vbirkhahn #ngibson"
+                   xml:lang="en"
+                   type="occupation"
+                   role="physician">
+               <desc>physician</desc>
+            </state>
+            <state source="#bib12-1"
+                   resp="#vbirkhahn #ngibson"
+                   xml:lang="en"
+                   type="religious-affiliation">
+               <label>Christian</label>
+            </state>
+            <bibl xml:id="bib12-1">
+               <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+               <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               <citedRange unit="section">8.2; 8.10</citedRange>
+               <citedRange unit="section">8.10</citedRange>
+            </bibl>
+            <bibl xml:id="bib12-2">
+               <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+               <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
+            </bibl>
+         </person>
+      </listPerson>
+   </body>
+</text>
