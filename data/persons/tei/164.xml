@@ -206,22 +206,29 @@
                <persName xml:id="name164-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib164-1 #bib164-1">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī</persName>
-               <persName xml:id="name164-2"
+                         source="#bib164-1"
+                         resp="#rschmahl #rschmahl #mtolay">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī</persName>
+               <persName xml:id="name164-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib164-1">أبو الفرج بن أبي سعيد اليمامي</persName>
-               <persName xml:id="name164-3" xml:lang="ar" source="#bib164-1">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī, physician of Hamadan 10.35; 11.13.8 no. 88</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib164-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو الفرج بن أبي سعيد اليمامي</persName>
+               <persName xml:id="name164-4"
+                         xml:lang="ar"
+                         source="#bib164-1"
+                         resp="#rschmahl #mtolay">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī, physician of Hamadan 10.35; 11.13.8 no. 88</persName>
                <note xml:id="abstract-en-164"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib164-1">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī, physician of Hamadan</note>
+                     source="#bib164-1"
+                     resp="#rschmahl">Abū l-Faraj ibn Abī Saʿīd al-Yamāmī, physician of Hamadan</note>
                <idno type="URI">https://usaybia.net/person/164</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4216</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4216</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib164-1">
+                      source="#bib164-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib164-1">

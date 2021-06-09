@@ -206,24 +206,31 @@
                <persName xml:id="name305-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib305-1">Abū Naṣr Saʿīd ibn Abī l-Khayr ibn ʿĪsā ibn al-Masīḥī</persName>
-               <persName xml:id="name305-2" xml:lang="en-x-lhom" source="#bib305-1">Abū Naṣr ibn al-Masīḥī</persName>
+                         source="#bib305-1"
+                         resp="#mtolay">Abū Naṣr Saʿīd ibn Abī l-Khayr ibn ʿĪsā ibn al-Masīḥī</persName>
+               <persName xml:id="name305-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib305-1"
+                         resp="#rschmahl #mtolay">Abū Naṣr ibn al-Masīḥī</persName>
                <persName xml:id="name305-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib305-1">أبو نصر بن المسيحي</persName>
-               <persName xml:id="name305-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو نصر سعيد بن أبي الخير بن عيسى بن المسيحي</persName>
+                         source="#bib305-1"
+                         resp="#rschmahl #mtolay">أبو نصر بن المسيحي</persName>
+               <persName xml:id="name305-4" xml:lang="ar" resp="#hfriedel">أبو نصر سعيد بن أبي الخير بن عيسى بن المسيحي</persName>
                <note xml:id="abstract-en-305"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib305-1">Abū Naṣr Saʿīd ibn Abī l-Khayr ibn ʿĪsā ibn al-Masīḥī, physician</note>
+                     source="#bib305-1"
+                     resp="#mtolay">Abū Naṣr Saʿīd ibn Abī l-Khayr ibn ʿĪsā ibn al-Masīḥī, physician</note>
                <idno type="URI">https://usaybia.net/person/305</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4255</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4256</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4255</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4256</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib305-1">
+                      source="#bib305-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib305-1">

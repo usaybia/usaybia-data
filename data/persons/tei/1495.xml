@@ -210,33 +210,46 @@
                <persName xml:id="name1495-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1495-1">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf</persName>
-               <persName xml:id="name1495-2" xml:lang="ar" source="#">الملك الظاهر غازي ابن صلاح الدين</persName>
-               <persName xml:id="name1495-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الظاهر غازي بن يوسف</persName>
+                         source="#bib1495-1"
+                         resp="#fioppolo">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf</persName>
+               <persName xml:id="name1495-2"
+                         xml:lang="ar"
+                         source="#bib1495-2"
+                         resp="#rschmahl #mtolay">الملك الظاهر غازي ابن صلاح الدين</persName>
+               <persName xml:id="name1495-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الظاهر غازي بن يوسف</persName>
                <note xml:id="abstract-en-1495"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1495-1">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf, Ayyubid ruler of Aleppo (d. 613/1216)</note>
+                     source="#bib1495-1"
+                     resp="#fioppolo">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf, Ayyubid ruler of Aleppo (d. 613/1216)</note>
                <idno type="URI">https://usaybia.net/person/1495</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1_%D8%BA%D8%A7%D8%B2%D9%8A</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8081</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B8%D8%A7%D9%87%D8%B1_%D8%BA%D8%A7%D8%B2%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8081</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1495-1">
+                      source="#bib1495-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1495-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.75.2; 15.18.1; 15.18.1.3; 15.23.2.1; 15.30; 15.40; 15.50.6</citedRange>
+               </bibl>
+               <bibl xml:id="bib1495-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

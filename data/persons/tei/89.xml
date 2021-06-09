@@ -210,28 +210,37 @@
                <persName xml:id="name89-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib89-1">Abū Aḥmad Muḥammad ibn Ibrāhīm al-Fārisī</persName>
-               <persName xml:id="name89-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو أحمد محمد بن إبراهيم الفارسي</persName>
+                         source="#bib89-1"
+                         resp="#rschmahl">Abū Aḥmad Muḥammad ibn Ibrāhīm al-Fārisī</persName>
+               <persName xml:id="name89-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو أحمد محمد بن إبراهيم الفارسي</persName>
                <note xml:id="abstract-en-89"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib89-1">Abū Aḥmad Muḥammad ibn Ibrāhīm al-Fārisī, patron of Ibn Sīnā</note>
+                     source="#bib89-1"
+                     resp="#rschmahl">Abū Aḥmad Muḥammad ibn Ibrāhīm al-Fārisī, patron of Ibn Sīnā</note>
                <idno type="URI">https://usaybia.net/person/89</idno>
-               <state xml:lang="en" type="occupation" role="patron" source="#bib89-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="patron"
+                      source="#bib89-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patron</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib89-1">

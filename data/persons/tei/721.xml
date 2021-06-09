@@ -206,17 +206,23 @@
                <persName xml:id="name721-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib721-1">Dioscorides the Oculist</persName>
-               <persName xml:id="name721-2" xml:lang="ar" srophe-tags="#syriaca-headword">دياسقوريدس الكحال</persName>
+                         source="#bib721-1"
+                         resp="#fioppolo">Dioscorides the Oculist</persName>
+               <persName xml:id="name721-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">دياسقوريدس الكحال</persName>
                <note xml:id="abstract-en-721"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib721-1">Dioscorides the Oculist, late-antique physician</note>
+                     source="#bib721-1"
+                     resp="#fioppolo">Dioscorides the Oculist, late-antique physician</note>
                <idno type="URI">https://usaybia.net/person/721</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib721-1">
+                      source="#bib721-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib721-1">

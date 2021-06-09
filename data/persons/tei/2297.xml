@@ -206,23 +206,30 @@
                <persName xml:id="name2297-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2297-1">Yaḥyā ibn Abī Ḥakīm al-Ḥallājī</persName>
-               <persName xml:id="name2297-2" xml:lang="en-x-lhom" source="#bib2297-1">al-Ḥallājī</persName>
+                         source="#bib2297-1"
+                         resp="#mtolay">Yaḥyā ibn Abī Ḥakīm al-Ḥallājī</persName>
+               <persName xml:id="name2297-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2297-1"
+                         resp="#rschmahl #mtolay">al-Ḥallājī</persName>
                <persName xml:id="name2297-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2297-1">الحلاجي</persName>
-               <persName xml:id="name2297-4" xml:lang="ar" srophe-tags="#syriaca-headword">يحيى بن أبي حكيم الحلاجي</persName>
+                         source="#bib2297-1"
+                         resp="#rschmahl #mtolay">الحلاجي</persName>
+               <persName xml:id="name2297-4" xml:lang="ar" resp="#hfriedel">يحيى بن أبي حكيم الحلاجي</persName>
                <note xml:id="abstract-en-2297"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2297-1">Yaḥyā ibn Abī Ḥakīm al-Ḥallājī, personal physician of the caliph al-Muʿtaḍid</note>
+                     source="#bib2297-1"
+                     resp="#mtolay">Yaḥyā ibn Abī Ḥakīm al-Ḥallājī, personal physician of the caliph al-Muʿtaḍid</note>
                <idno type="URI">https://usaybia.net/person/2297</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4137</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4137</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2297-1">
+                      source="#bib2297-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2297-1">

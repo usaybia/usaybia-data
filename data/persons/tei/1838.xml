@@ -210,33 +210,38 @@
                <persName xml:id="name1838-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1838-1 #bib1838-1">Politianus (Balīṭīyān)</persName>
-               <persName xml:id="name1838-2"
+                         source="#bib1838-1"
+                         resp="#fioppolo #rschmahl #mtolay">Politianus (Balīṭīyān)</persName>
+               <persName xml:id="name1838-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1838-1">بليطيان</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1838-1"
+                         resp="#rschmahl #mtolay #hfriedel">بليطيان</persName>
                <note xml:id="abstract-en-1838"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1838-1">Politianus (Balīṭīyān), patriarch of Alexandria and physician</note>
+                     source="#bib1838-1"
+                     resp="#fioppolo">Politianus (Balīṭīyān), patriarch of Alexandria and physician</note>
                <idno type="URI">https://usaybia.net/person/1838</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="patriarch"
-                      source="#bib1838-1">
+                      source="#bib1838-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patriarch</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1838-1">
+                      source="#bib1838-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1838-1">

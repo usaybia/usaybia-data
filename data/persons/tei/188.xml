@@ -206,26 +206,39 @@
                <persName xml:id="name188-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib188-1">Abū Ḥanīfah al-Dīnawarī</persName>
-               <persName xml:id="name188-2" xml:lang="ar" source="#">ابو حنيفة الدينوري</persName>
-               <persName xml:id="name188-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو حنيفة الدينوري</persName>
+                         source="#bib188-1"
+                         resp="#rschmahl">Abū Ḥanīfah al-Dīnawarī</persName>
+               <persName xml:id="name188-2"
+                         xml:lang="ar"
+                         source="#bib188-2"
+                         resp="#rschmahl #mtolay">ابو حنيفة الدينوري</persName>
+               <persName xml:id="name188-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو حنيفة الدينوري</persName>
                <note xml:id="abstract-en-188"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib188-1">Abū Ḥanīfah al-Dīnawarī (d. 282–283/896), author of `K. al-Nabāt`</note>
+                     source="#bib188-1"
+                     resp="#rschmahl">Abū Ḥanīfah al-Dīnawarī (d. 282–283/896), author of `K. al-Nabāt`</note>
                <idno type="URI">https://usaybia.net/person/188</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%AD%D9%86%D9%8A%D9%81%D8%A9_%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%88%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90061323</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%AD%D9%86%D9%8A%D9%81%D8%A9_%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%88%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90061323</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib188-1">
+                      source="#bib188-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib188-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">13.64.1; 15.40.9 no. 34; 15.50.5</citedRange>
+               </bibl>
+               <bibl xml:id="bib188-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

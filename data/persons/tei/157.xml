@@ -210,32 +210,45 @@
                <persName xml:id="name157-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib157-1">Abū l-Faḍl al-Isrāʾīlī</persName>
-               <persName xml:id="name157-2" xml:lang="ar" source="#">ابو الفضل الاسرائيلي المنجم</persName>
-               <persName xml:id="name157-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الفضل الإسرائيلي</persName>
+                         source="#bib157-1"
+                         resp="#rschmahl">Abū l-Faḍl al-Isrāʾīlī</persName>
+               <persName xml:id="name157-2"
+                         xml:lang="ar"
+                         source="#bib157-2"
+                         resp="#rschmahl #mtolay">ابو الفضل الاسرائيلي المنجم</persName>
+               <persName xml:id="name157-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الفضل الإسرائيلي</persName>
                <note xml:id="abstract-en-157"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib157-1">Abū l-Faḍl al-Isrāʾīlī, teacher of Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</note>
+                     source="#bib157-1"
+                     resp="#rschmahl">Abū l-Faḍl al-Isrāʾīlī, teacher of Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</note>
                <idno type="URI">https://usaybia.net/person/157</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50071</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50071</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib157-1">
+                      source="#bib157-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib157-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.50.5</citedRange>
+               </bibl>
+               <bibl xml:id="bib157-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

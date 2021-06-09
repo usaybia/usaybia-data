@@ -206,17 +206,23 @@
                <persName xml:id="name1359-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1359-1">al-Kalbī</persName>
-               <persName xml:id="name1359-2" xml:lang="ar" srophe-tags="#syriaca-headword">الكلبي</persName>
+                         source="#bib1359-1"
+                         resp="#rschmahl">al-Kalbī</persName>
+               <persName xml:id="name1359-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الكلبي</persName>
                <note xml:id="abstract-en-1359"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1359-1">al-Kalbī, Hishām, historian</note>
+                     source="#bib1359-1"
+                     resp="#rschmahl">al-Kalbī, Hishām, historian</note>
                <idno type="URI">https://usaybia.net/person/1359</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib1359-1">
+                      source="#bib1359-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <bibl xml:id="bib1359-1">

@@ -210,21 +210,30 @@
                <persName xml:id="name265-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib265-1">Abū Manṣūr Buwayh (`or` Būyah) ibn Bahāʾ al-Dawlah</persName>
-               <persName xml:id="name265-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو منصور بويه / بوية بن بهاء الدولة</persName>
+                         source="#bib265-1"
+                         resp="#mtolay">Abū Manṣūr Buwayh (`or` Būyah) ibn Bahāʾ al-Dawlah</persName>
+               <persName xml:id="name265-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو منصور بويه / بوية بن بهاء الدولة</persName>
                <note xml:id="abstract-en-265"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib265-1">Abū Manṣūr Buwayh (`or` Būyah) ibn Bahāʾ al-Dawlah, emir of emirs, Būyid dynasty</note>
+                     source="#bib265-1"
+                     resp="#mtolay">Abū Manṣūr Buwayh (`or` Būyah) ibn Bahāʾ al-Dawlah, emir of emirs, Būyid dynasty</note>
                <idno type="URI">https://usaybia.net/person/265</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib265-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib265-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib265-1">

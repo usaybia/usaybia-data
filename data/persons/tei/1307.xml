@@ -206,26 +206,37 @@
                <persName xml:id="name1307-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1307-1">Jaḥẓah</persName>
-               <persName xml:id="name1307-2" xml:lang="ar" srophe-tags="#syriaca-headword">جحظة</persName>
+                         source="#bib1307-1"
+                         resp="#rschmahl">Jaḥẓah</persName>
+               <persName xml:id="name1307-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جحظة</persName>
                <note xml:id="abstract-en-1307"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1307-1">Jaḥẓah, Aḥmad ibn Jaʿfar al-Barmakī, courtier, man of letters, poet (d. 324/936)</note>
+                     source="#bib1307-1"
+                     resp="#rschmahl">Jaḥẓah, Aḥmad ibn Jaʿfar al-Barmakī, courtier, man of letters, poet (d. 324/936)</note>
                <idno type="URI">https://usaybia.net/person/1307</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="courtier"
-                      source="#bib1307-1">
+                      source="#bib1307-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>courtier</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="littérateur"
-                      source="#bib1307-1">
+                      source="#bib1307-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>littérateur</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1307-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1307-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1307-1">

@@ -206,23 +206,33 @@
                <persName xml:id="name2188-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2188-1 #bib2188-1">Tayādhūq</persName>
+                         source="#bib2188-1"
+                         resp="#mtolay #rschmahl #mtolay">Tayādhūq</persName>
                <persName xml:id="name2188-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="# #bib2188-1">تياذوق</persName>
-               <persName xml:id="name2188-3" xml:lang="ar" source="#bib2188-1">Tayādhūq 7.9; 8.18.4</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2188-2 #bib2188-1"
+                         resp="#rschmahl #mtolay #hfriedel">تياذوق</persName>
+               <persName xml:id="name2188-5"
+                         xml:lang="ar"
+                         source="#bib2188-1"
+                         resp="#rschmahl #mtolay">Tayādhūq 7.9; 8.18.4</persName>
                <note xml:id="abstract-en-2188"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2188-1">Tayādhūq</note>
+                     source="#bib2188-1"
+                     resp="#mtolay">Tayādhūq</note>
                <idno type="URI">https://usaybia.net/person/2188</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4106</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4106</idno>
                <bibl xml:id="bib2188-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">7.9; 8.18.4</citedRange>
                   <citedRange unit="section">7.9</citedRange>
+               </bibl>
+               <bibl xml:id="bib2188-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,24 +206,31 @@
                <persName xml:id="name1028-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1028-1">Ibn al-Khammār</persName>
-               <persName xml:id="name1028-2" xml:lang="en-x-lhom" source="#bib1028-1">Abū l-Khayr al-Ḥasan ibn Suwār, known as Ibn al-Khammār</persName>
+                         source="#bib1028-1"
+                         resp="#rschmahl">Ibn al-Khammār</persName>
+               <persName xml:id="name1028-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1028-1"
+                         resp="#rschmahl #mtolay">Abū l-Khayr al-Ḥasan ibn Suwār, known as Ibn al-Khammār</persName>
                <persName xml:id="name1028-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1028-1">بو الخير الحسن بن سوار</persName>
-               <persName xml:id="name1028-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الخمار</persName>
+                         source="#bib1028-1"
+                         resp="#rschmahl #mtolay">بو الخير الحسن بن سوار</persName>
+               <persName xml:id="name1028-4" xml:lang="ar" resp="#hfriedel">ابن الخمار</persName>
                <note xml:id="abstract-en-1028"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1028-1">Ibn al-Khammār, Abū l-Khayr al-Ḥasan ibn Suwār ibn Bābā ibn Bihrām (Bihnām), teacher of Ibn al-Ṭayyib and Ibn Hindū</note>
+                     source="#bib1028-1"
+                     resp="#rschmahl">Ibn al-Khammār, Abū l-Khayr al-Ḥasan ibn Suwār ibn Bābā ibn Bihrām (Bihnām), teacher of Ibn al-Ṭayyib and Ibn Hindū</note>
                <idno type="URI">https://usaybia.net/person/1028</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4270</idno>
-               <idno type="URI">https://viaf.org/viaf/3706014</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4270</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/3706014</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1028-1">
+                      source="#bib1028-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1028-1">

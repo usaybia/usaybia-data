@@ -210,31 +210,42 @@
                <persName xml:id="name1676-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1676-1">Mūsā ibn Jaʿfar, al-Kāẓim</persName>
+                         source="#bib1676-1"
+                         resp="#fioppolo">Mūsā ibn Jaʿfar, al-Kāẓim</persName>
                <persName xml:id="name1676-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#">موسى بن جعفر الكاظم</persName>
+                         source="#bib1676-2"
+                         resp="#rschmahl #mtolay #hfriedel">موسى بن جعفر الكاظم</persName>
                <note xml:id="abstract-en-1676"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1676-1">Mūsā ibn Jaʿfar, al-Kāẓim, seventh Imam of the Twelver Shi’is</note>
+                     source="#bib1676-1"
+                     resp="#fioppolo">Mūsā ibn Jaʿfar, al-Kāẓim, seventh Imam of the Twelver Shi’is</note>
                <idno type="URI">https://usaybia.net/person/1676</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%89_%D8%A7%D9%84%D9%83%D8%A7%D8%B8%D9%85</idno>
-               <idno type="URI">https://viaf.org/viaf/62993534</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%89_%D8%A7%D9%84%D9%83%D8%A7%D8%B8%D9%85</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/62993534</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="Shi’i imam"
-                      source="#bib1676-1">
+                      source="#bib1676-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>Shi’i imam</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1676-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1676-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Muslim, Shi’ite, Twelver Shi’ite</label>
                </state>
                <bibl xml:id="bib1676-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib1676-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

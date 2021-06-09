@@ -206,24 +206,37 @@
                <persName xml:id="name1461-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1461-1">al-Malik al-Ashraf</persName>
-               <persName xml:id="name1461-2" xml:lang="ar" source="#">الملك الاشرف ابن الملك المنصور صاحب حمص</persName>
-               <persName xml:id="name1461-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الأشرف</persName>
+                         source="#bib1461-1"
+                         resp="#fioppolo">al-Malik al-Ashraf</persName>
+               <persName xml:id="name1461-2"
+                         xml:lang="ar"
+                         source="#bib1461-2"
+                         resp="#rschmahl #mtolay">الملك الاشرف ابن الملك المنصور صاحب حمص</persName>
+               <persName xml:id="name1461-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الأشرف</persName>
                <note xml:id="abstract-en-1461"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1461-1">al-Malik al-Ashraf, the son of al-Malik al-Manṣūr, the ruler of Homs</note>
+                     source="#bib1461-1"
+                     resp="#fioppolo">al-Malik al-Ashraf, the son of al-Malik al-Manṣūr, the ruler of Homs</note>
                <idno type="URI">https://usaybia.net/person/1461</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1461-1">
+                      source="#bib1461-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <bibl xml:id="bib1461-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.56.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib1461-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

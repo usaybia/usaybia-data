@@ -206,17 +206,23 @@
                <persName xml:id="name455-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib455-1">Alexander of Damascus</persName>
-               <persName xml:id="name455-2" xml:lang="ar" srophe-tags="#syriaca-headword">ألاسكندر الدمشقي</persName>
+                         source="#bib455-1"
+                         resp="#mtolay">Alexander of Damascus</persName>
+               <persName xml:id="name455-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ألاسكندر الدمشقي</persName>
                <note xml:id="abstract-en-455"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib455-1">Alexander of Damascus, Aristotelian philosopher</note>
+                     source="#bib455-1"
+                     resp="#mtolay">Alexander of Damascus, Aristotelian philosopher</note>
                <idno type="URI">https://usaybia.net/person/455</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib455-1">
+                      source="#bib455-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib455-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name331-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib331-1">Abū l-Rāzī Muḥammad ibn ʿAbd al-Ḥamīd</persName>
-               <persName xml:id="name331-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الرازي محمد بن عبد الحميد</persName>
+                         source="#bib331-1"
+                         resp="#mtolay">Abū l-Rāzī Muḥammad ibn ʿAbd al-Ḥamīd</persName>
+               <persName xml:id="name331-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الرازي محمد بن عبد الحميد</persName>
                <note xml:id="abstract-en-331"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib331-1">Abū l-Rāzī Muḥammad ibn ʿAbd al-Ḥamīd, prefect of al-Baṣrah during governorship of Hārūn al-Rashīd</note>
+                     source="#bib331-1"
+                     resp="#mtolay">Abū l-Rāzī Muḥammad ibn ʿAbd al-Ḥamīd, prefect of al-Baṣrah during governorship of Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/331</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prefect"
-                      source="#bib331-1">
+                      source="#bib331-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prefect</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib331-1">

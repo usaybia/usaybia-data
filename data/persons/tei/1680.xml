@@ -206,23 +206,30 @@
                <persName xml:id="name1680-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1680-1">Mūsā ibn Yūsuf ibn Sayyār, Abū Māhir</persName>
-               <persName xml:id="name1680-2" xml:lang="en-x-lhom" source="#bib1680-1">Mūsā ibn Sayyār</persName>
+                         source="#bib1680-1"
+                         resp="#fioppolo">Mūsā ibn Yūsuf ibn Sayyār, Abū Māhir</persName>
+               <persName xml:id="name1680-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1680-1"
+                         resp="#rschmahl #mtolay">Mūsā ibn Sayyār</persName>
                <persName xml:id="name1680-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1680-1">موسى بن سيّار</persName>
-               <persName xml:id="name1680-4" xml:lang="ar" srophe-tags="#syriaca-headword">موسى بن يوسف بن سيّار أبو ماهر</persName>
+                         source="#bib1680-1"
+                         resp="#rschmahl #mtolay">موسى بن سيّار</persName>
+               <persName xml:id="name1680-4" xml:lang="ar" resp="#hfriedel">موسى بن يوسف بن سيّار أبو ماهر</persName>
                <note xml:id="abstract-en-1680"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1680-1">Mūsā ibn Yūsuf ibn Sayyār, Abū Māhir, physician</note>
+                     source="#bib1680-1"
+                     resp="#fioppolo">Mūsā ibn Yūsuf ibn Sayyār, Abū Māhir, physician</note>
                <idno type="URI">https://usaybia.net/person/1680</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4205</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4205</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1680-1">
+                      source="#bib1680-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1680-1">

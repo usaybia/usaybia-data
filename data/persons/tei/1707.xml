@@ -210,24 +210,30 @@
                <persName xml:id="name1707-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1707-1">al-Muttaqī</persName>
-               <persName xml:id="name1707-2" xml:lang="ar" srophe-tags="#syriaca-headword">المتقي</persName>
+                         source="#bib1707-1"
+                         resp="#fioppolo">al-Muttaqī</persName>
+               <persName xml:id="name1707-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المتقي</persName>
                <note xml:id="abstract-en-1707"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1707-1">al-Muttaqī, Abbasid caliph (`reg.` 329– 333/940–44)</note>
+                     source="#bib1707-1"
+                     resp="#fioppolo">al-Muttaqī, Abbasid caliph (`reg.` 329– 333/940–44)</note>
                <idno type="URI">https://usaybia.net/person/1707</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1707-1">
+                      source="#bib1707-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1707-1">

@@ -210,33 +210,46 @@
                <persName xml:id="name1479-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1479-1">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</persName>
-               <persName xml:id="name1479-2" xml:lang="ar" source="#">المالك المعظم عيسى ابن المالك العادل</persName>
-               <persName xml:id="name1479-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك المعظم شرف الدين عيسى بن الملك العادل الواحد</persName>
+                         source="#bib1479-1"
+                         resp="#fioppolo">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</persName>
+               <persName xml:id="name1479-2"
+                         xml:lang="ar"
+                         source="#bib1479-2"
+                         resp="#rschmahl #mtolay">المالك المعظم عيسى ابن المالك العادل</persName>
+               <persName xml:id="name1479-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك المعظم شرف الدين عيسى بن الملك العادل الواحد</persName>
                <note xml:id="abstract-en-1479"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1479-1">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid ruler of Damascus (576–624/1180–1227)</note>
+                     source="#bib1479-1"
+                     resp="#fioppolo">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid ruler of Damascus (576–624/1180–1227)</note>
                <idno type="URI">https://usaybia.net/person/1479</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85_%D8%B9%D9%8A%D8%B3%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%84</idno>
-               <idno type="URI">https://viaf.org/viaf/1634149844942602960006</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85_%D8%B9%D9%8A%D8%B3%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/1634149844942602960006</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1479-1">
+                      source="#bib1479-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1479-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">14.50; 14.53; 14.56.1; 15.19; 15.22; 15.29; 15.36.1; 15.43.1; 15.43.3; 15.45.2; 15.45.3 no. 1; 15.50.3; 15.51</citedRange>
+               </bibl>
+               <bibl xml:id="bib1479-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

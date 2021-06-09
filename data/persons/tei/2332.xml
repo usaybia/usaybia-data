@@ -206,29 +206,37 @@
                <persName xml:id="name2332-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2332-1">Yūsuf known as al-Sāhir</persName>
-               <persName xml:id="name2332-2" xml:lang="en-x-lhom" source="#bib2332-1">al-Sāhir</persName>
+                         source="#bib2332-1"
+                         resp="#mtolay ">Yūsuf known as al-Sāhir</persName>
+               <persName xml:id="name2332-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2332-1"
+                         resp="#rschmahl #mtolay">al-Sāhir</persName>
                <persName xml:id="name2332-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2332-1">الساهر</persName>
-               <persName xml:id="name2332-4" xml:lang="ar" srophe-tags="#syriaca-headword">يوسف (الساهر)</persName>
+                         source="#bib2332-1"
+                         resp="#rschmahl #mtolay">الساهر</persName>
+               <persName xml:id="name2332-4" xml:lang="ar" resp="#hfriedel">يوسف (الساهر)</persName>
                <note xml:id="abstract-en-2332"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2332-1">Yūsuf known as al-Sāhir, physician in the time of the caliph al-Muktafī</note>
+                     source="#bib2332-1"
+                     resp="#mtolay ">Yūsuf known as al-Sāhir, physician in the time of the caliph al-Muktafī</note>
                <idno type="URI">https://usaybia.net/person/2332</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4140</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4140</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2332-1">
+                      source="#bib2332-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib2332-1">
+                      source="#bib2332-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <bibl xml:id="bib2332-1">

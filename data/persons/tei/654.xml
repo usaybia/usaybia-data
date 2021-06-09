@@ -206,13 +206,22 @@
                <persName xml:id="name654-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">al-Buḥturī</persName>
-               <persName xml:id="name654-2" xml:lang="ar" srophe-tags="#syriaca-headword">البحتري</persName>
+                         source="#bib654-1"
+                         resp="#fioppolo">al-Buḥturī</persName>
+               <persName xml:id="name654-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">البحتري</persName>
                <note xml:id="abstract-en-654"
                      xml:lang="en"
                      type="abstract"
-                     source="#">al-Buḥturī</note>
+                     source="#bib654-1"
+                     resp="#fioppolo">al-Buḥturī</note>
                <idno type="URI">https://usaybia.net/person/654</idno>
+               <bibl xml:id="bib654-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>

@@ -210,24 +210,30 @@
                <persName xml:id="name919-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib919-1">Ibn Abī Duʾād</persName>
-               <persName xml:id="name919-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أبي دؤاد</persName>
+                         source="#bib919-1"
+                         resp="#mtolay">Ibn Abī Duʾād</persName>
+               <persName xml:id="name919-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن أبي دؤاد</persName>
                <note xml:id="abstract-en-919"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib919-1">Ibn Abī Duʾād, chief qadi under al-Muʿtaṣim</note>
+                     source="#bib919-1"
+                     resp="#mtolay">Ibn Abī Duʾād, chief qadi under al-Muʿtaṣim</note>
                <idno type="URI">https://usaybia.net/person/919</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="chief qadi"
-                      source="#bib919-1">
+                      source="#bib919-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chief qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib919-1">

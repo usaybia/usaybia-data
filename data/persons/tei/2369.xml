@@ -206,31 +206,44 @@
                <persName xml:id="name2369-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2369-1">Zayn al-Dīn ibn Muʿṭī</persName>
-               <persName xml:id="name2369-2" xml:lang="ar" source="#">زين الدين بن المعطي</persName>
-               <persName xml:id="name2369-3" xml:lang="ar" srophe-tags="#syriaca-headword">زين الدين بن معطي</persName>
+                         source="#bib2369-1"
+                         resp="#mtolay">Zayn al-Dīn ibn Muʿṭī</persName>
+               <persName xml:id="name2369-2"
+                         xml:lang="ar"
+                         source="#bib2369-2"
+                         resp="#rschmahl #mtolay">زين الدين بن المعطي</persName>
+               <persName xml:id="name2369-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">زين الدين بن معطي</persName>
                <note xml:id="abstract-en-2369"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2369-1">Zayn al-Dīn ibn Muʿṭī, grammarian (d. 628/ 1231)</note>
+                     source="#bib2369-1"
+                     resp="#mtolay">Zayn al-Dīn ibn Muʿṭī, grammarian (d. 628/ 1231)</note>
                <idno type="URI">https://usaybia.net/person/2369</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/14814</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/20273</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30800</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/32273</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D9%85%D8%B9%D8%B7%D9%8A_%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D9%88%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/59070557</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3313</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14814</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/20273</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30800</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/32273</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D9%85%D8%B9%D8%B7%D9%8A_%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D9%88%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/59070557</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3313</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib2369-1">
+                      source="#bib2369-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib2369-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.2</citedRange>
+               </bibl>
+               <bibl xml:id="bib2369-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,17 +206,23 @@
                <persName xml:id="name1398-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1398-1">al-Khāzinī</persName>
-               <persName xml:id="name1398-2" xml:lang="ar" srophe-tags="#syriaca-headword">الخازني</persName>
+                         source="#bib1398-1"
+                         resp="#rschmahl">al-Khāzinī</persName>
+               <persName xml:id="name1398-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الخازني</persName>
                <note xml:id="abstract-en-1398"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1398-1">al-Khāzinī, 6th/12th-c. astronomer</note>
+                     source="#bib1398-1"
+                     resp="#rschmahl">al-Khāzinī, 6th/12th-c. astronomer</note>
                <idno type="URI">https://usaybia.net/person/1398</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib1398-1">
+                      source="#bib1398-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib1398-1">

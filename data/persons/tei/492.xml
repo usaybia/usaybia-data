@@ -206,17 +206,23 @@
                <persName xml:id="name492-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib492-1">al-ʿAmīd</persName>
-               <persName xml:id="name492-2" xml:lang="ar" srophe-tags="#syriaca-headword">العميد</persName>
+                         source="#bib492-1"
+                         resp="#fioppolo">al-ʿAmīd</persName>
+               <persName xml:id="name492-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">العميد</persName>
                <note xml:id="abstract-en-492"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib492-1">al-ʿAmīd, vizier</note>
+                     source="#bib492-1"
+                     resp="#fioppolo">al-ʿAmīd, vizier</note>
                <idno type="URI">https://usaybia.net/person/492</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib492-1">
+                      source="#bib492-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib492-1">

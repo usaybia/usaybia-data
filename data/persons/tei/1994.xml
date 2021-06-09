@@ -210,21 +210,30 @@
                <persName xml:id="name1994-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1994-1">Samāʾ al-Dawlah, Abū l-Ḥasan ibn Shams al-Dawlah</persName>
-               <persName xml:id="name1994-2" xml:lang="ar" srophe-tags="#syriaca-headword">سماء الدولة أبو الحسن بن شمس الدولة</persName>
+                         source="#bib1994-1"
+                         resp="#mtolay #ngibson">Samāʾ al-Dawlah, Abū l-Ḥasan ibn Shams al-Dawlah</persName>
+               <persName xml:id="name1994-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سماء الدولة أبو الحسن بن شمس الدولة</persName>
                <note xml:id="abstract-en-1994"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1994-1">Samāʾ al-Dawlah, Abū l-Ḥasan ibn Shams al-Dawlah, Būyid emir of Hamadan (`reg.` 412–414/1020–1023)</note>
+                     source="#bib1994-1"
+                     resp="#mtolay #ngibson">Samāʾ al-Dawlah, Abū l-Ḥasan ibn Shams al-Dawlah, Būyid emir of Hamadan (`reg.` 412–414/1020–1023)</note>
                <idno type="URI">https://usaybia.net/person/1994</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib1994-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib1994-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1994-1">

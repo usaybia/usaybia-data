@@ -210,32 +210,39 @@
                <persName xml:id="name192-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib192-1 #bib192-1">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī</persName>
-               <persName xml:id="name192-2"
+                         source="#bib192-1"
+                         resp="#rschmahl #rschmahl #mtolay">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī</persName>
+               <persName xml:id="name192-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib192-1">أبو الحسن أحمد بن محمد الطبري</persName>
-               <persName xml:id="name192-3" xml:lang="ar" source="#bib192-1">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician 11.6</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib192-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو الحسن أحمد بن محمد الطبري</persName>
+               <persName xml:id="name192-4"
+                         xml:lang="ar"
+                         source="#bib192-1"
+                         resp="#rschmahl #mtolay">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician 11.6</persName>
                <note xml:id="abstract-en-192"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib192-1">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician</note>
+                     source="#bib192-1"
+                     resp="#rschmahl">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/192</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4268</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/2857341</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0078</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4268</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/2857341</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0078</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib192-1">
+                      source="#bib192-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib192-1">

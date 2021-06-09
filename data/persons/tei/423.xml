@@ -206,17 +206,23 @@
                <persName xml:id="name423-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib423-1">Aḥmad ibn Abī Yaʿqūb</persName>
-               <persName xml:id="name423-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن أبي يعقوب</persName>
+                         source="#bib423-1"
+                         resp="#mtolay">Aḥmad ibn Abī Yaʿqūb</persName>
+               <persName xml:id="name423-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن أبي يعقوب</persName>
                <note xml:id="abstract-en-423"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib423-1">Aḥmad ibn Abī Yaʿqūb, Abbasid client</note>
+                     source="#bib423-1"
+                     resp="#mtolay">Aḥmad ibn Abī Yaʿqūb, Abbasid client</note>
                <idno type="URI">https://usaybia.net/person/423</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="client"
-                      source="#bib423-1">
+                      source="#bib423-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>client</desc>
                </state>
                <bibl xml:id="bib423-1">

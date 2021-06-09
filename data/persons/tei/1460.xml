@@ -206,19 +206,31 @@
                <persName xml:id="name1460-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1460-1">al-Malik al-Ashraf Shāh Arman Mūsā</persName>
-               <persName xml:id="name1460-2" xml:lang="ar" source="#">الملك الاشرف شاه ارمن ابو الفتح موسى بن الملك العادل</persName>
-               <persName xml:id="name1460-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الأشرف شاه أرمن موسى</persName>
+                         source="#bib1460-1"
+                         resp="#fioppolo">al-Malik al-Ashraf Shāh Arman Mūsā</persName>
+               <persName xml:id="name1460-2"
+                         xml:lang="ar"
+                         source="#bib1460-2"
+                         resp="#rschmahl #mtolay">الملك الاشرف شاه ارمن ابو الفتح موسى بن الملك العادل</persName>
+               <persName xml:id="name1460-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الأشرف شاه أرمن موسى</persName>
                <note xml:id="abstract-en-1460"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1460-1">al-Malik al-Ashraf Shāh Arman Mūsā, the son of al-Malik al-ʿĀdil Abū Bakr ibn Ayyūb (?identical with al-Malik al-Ashraf Abū al-Fatḥ Mūsā)</note>
+                     source="#bib1460-1"
+                     resp="#fioppolo">al-Malik al-Ashraf Shāh Arman Mūsā, the son of al-Malik al-ʿĀdil Abū Bakr ibn Ayyūb (?identical with al-Malik al-Ashraf Abū al-Fatḥ Mūsā)</note>
                <idno type="URI">https://usaybia.net/person/1460</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81_%D9%85%D9%88%D8%B3%D9%89</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%B4%D8%B1%D9%81_%D9%85%D9%88%D8%B3%D9%89</idno>
                <bibl xml:id="bib1460-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.46.4 no. 3; 15.52</citedRange>
+               </bibl>
+               <bibl xml:id="bib1460-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

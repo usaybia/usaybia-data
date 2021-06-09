@@ -206,23 +206,30 @@
                <persName xml:id="name523-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib523-1">Andī</persName>
-               <persName xml:id="name523-2" xml:lang="ar" srophe-tags="#syriaca-headword">اندي</persName>
+                         source="#bib523-1"
+                         resp="#fioppolo">Andī</persName>
+               <persName xml:id="name523-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">اندي</persName>
                <note xml:id="abstract-en-523"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib523-1">Andī, otherwise unknown Indian physician and scholar</note>
+                     source="#bib523-1"
+                     resp="#fioppolo">Andī, otherwise unknown Indian physician and scholar</note>
                <idno type="URI">https://usaybia.net/person/523</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib523-1">
+                      source="#bib523-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib523-1">
+                      source="#bib523-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib523-1">

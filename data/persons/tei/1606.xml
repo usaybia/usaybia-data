@@ -210,21 +210,30 @@
                <persName xml:id="name1606-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1606-1">Muḥammad ibn ʿAbd al-Bāqī al-Bazzār</persName>
-               <persName xml:id="name1606-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن عبد الباقي البزار</persName>
+                         source="#bib1606-1"
+                         resp="#fioppolo">Muḥammad ibn ʿAbd al-Bāqī al-Bazzār</persName>
+               <persName xml:id="name1606-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمد بن عبد الباقي البزار</persName>
                <note xml:id="abstract-en-1606"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1606-1">Muḥammad ibn ʿAbd al-Bāqī al-Bazzār, poet</note>
+                     source="#bib1606-1"
+                     resp="#fioppolo">Muḥammad ibn ʿAbd al-Bāqī al-Bazzār, poet</note>
                <idno type="URI">https://usaybia.net/person/1606</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1606-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1606-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1606-1">

@@ -210,36 +210,43 @@
                <persName xml:id="name657-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib657-1 #bib657-1">Bukhtīshūʿ ibn Jūrjis</persName>
+                         source="#bib657-1"
+                         resp="#fioppolo #rschmahl #mtolay">Bukhtīshūʿ ibn Jūrjis</persName>
                <persName xml:id="name657-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="# #bib657-1">بختيشوع بن جورجس</persName>
-               <persName xml:id="name657-3" xml:lang="ar" source="#bib657-1">Bukhtīshūʿ ibn Jūrjis, physician to Hārūn al-Rashīd 5.1.16.5; 8.2; 8.3.2n</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib657-2 #bib657-1"
+                         resp="#rschmahl #mtolay #hfriedel">بختيشوع بن جورجس</persName>
+               <persName xml:id="name657-5"
+                         xml:lang="ar"
+                         source="#bib657-1"
+                         resp="#rschmahl #mtolay">Bukhtīshūʿ ibn Jūrjis, physician to Hārūn al-Rashīd 5.1.16.5; 8.2; 8.3.2n</persName>
                <note xml:id="abstract-en-657"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib657-1">Bukhtīshūʿ ibn Jūrjis, physician to Hārūn al-Rashīd</note>
+                     source="#bib657-1"
+                     resp="#fioppolo">Bukhtīshūʿ ibn Jūrjis, physician to Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/657</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4109</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4109</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib657-1">
+                      source="#bib657-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib657-1">
@@ -247,6 +254,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">5.1.16.5; 8.2; 8.3.2n</citedRange>
                   <citedRange unit="section">8.2</citedRange>
+               </bibl>
+               <bibl xml:id="bib657-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

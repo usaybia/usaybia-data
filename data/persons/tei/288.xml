@@ -210,29 +210,36 @@
                <persName xml:id="name288-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib288-1 #bib288-1">Abū Muḥammad al-Shadhūnī</persName>
-               <persName xml:id="name288-2"
+                         source="#bib288-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū Muḥammad al-Shadhūnī</persName>
+               <persName xml:id="name288-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib288-1">أبو محمد الشذوني</persName>
-               <persName xml:id="name288-3" xml:lang="ar" source="#bib288-1">Abū Muḥammad al-Shadhūnī, Andalusian physician 13.62.3; 13.76</persName>
-               <persName xml:id="name288-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو محمد الشوني</persName>
+                         source="#bib288-1"
+                         resp="#rschmahl #mtolay">أبو محمد الشذوني</persName>
+               <persName xml:id="name288-4"
+                         xml:lang="ar"
+                         source="#bib288-1"
+                         resp="#rschmahl #mtolay">Abū Muḥammad al-Shadhūnī, Andalusian physician 13.62.3; 13.76</persName>
+               <persName xml:id="name288-5" xml:lang="ar" resp="#hfriedel">أبو محمد الشوني</persName>
                <note xml:id="abstract-en-288"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib288-1">Abū Muḥammad al-Shadhūnī, Andalusian physician</note>
+                     source="#bib288-1"
+                     resp="#mtolay">Abū Muḥammad al-Shadhūnī, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/288</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib288-1">
+                      source="#bib288-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib288-1">

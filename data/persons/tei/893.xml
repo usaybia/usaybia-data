@@ -205,17 +205,23 @@
                <persName xml:id="name893-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib893-1">Hūd</persName>
-               <persName xml:id="name893-2" xml:lang="ar" srophe-tags="#syriaca-headword">هود</persName>
+                         source="#bib893-1"
+                         resp="#ngibson">Hūd</persName>
+               <persName xml:id="name893-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">هود</persName>
                <note xml:id="abstract-en-893"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib893-1">Hūd, pre-Islamic Arab prophet</note>
+                     source="#bib893-1"
+                     resp="#ngibson">Hūd, pre-Islamic Arab prophet</note>
                <idno type="URI">https://usaybia.net/person/893</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prophet"
-                      source="#bib893-1">
+                      source="#bib893-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prophet</desc>
                </state>
                <bibl xml:id="bib893-1">

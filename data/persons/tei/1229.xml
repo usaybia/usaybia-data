@@ -206,14 +206,23 @@
                <persName xml:id="name1229-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1229-1">al-Irbilī</persName>
-               <persName xml:id="name1229-2" xml:lang="ar" srophe-tags="#syriaca-headword">الإربلي</persName>
+                         source="#bib1229-1"
+                         resp="#rschmahl">al-Irbilī</persName>
+               <persName xml:id="name1229-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الإربلي</persName>
                <note xml:id="abstract-en-1229"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1229-1">al-Irbilī, ʿIzz al-Dīn Muḥammad ibn Ḥasan [= al-Ḥasan ibn Muḥammad] al-Ghanawī al-Ḍarīr, poet (d. 660/1262)</note>
+                     source="#bib1229-1"
+                     resp="#rschmahl">al-Irbilī, ʿIzz al-Dīn Muḥammad ibn Ḥasan [= al-Ḥasan ibn Muḥammad] al-Ghanawī al-Ḍarīr, poet (d. 660/1262)</note>
                <idno type="URI">https://usaybia.net/person/1229</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1229-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1229-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1229-1">

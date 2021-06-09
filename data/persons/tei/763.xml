@@ -210,35 +210,45 @@
                <persName xml:id="name763-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib763-1">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī</persName>
-               <persName xml:id="name763-2" xml:lang="ar" source="#">فخر الدين بن الساعاتي رضوان بن محمد</persName>
-               <persName xml:id="name763-3" xml:lang="en-x-lhom" source="#bib763-1">Fakhr al-Dīn [Riḍwān] ibn al-Sāʿātī</persName>
+                         source="#bib763-1"
+                         resp="#fioppolo">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī</persName>
+               <persName xml:id="name763-2"
+                         xml:lang="ar"
+                         source="#bib763-2"
+                         resp="#rschmahl #mtolay">فخر الدين بن الساعاتي رضوان بن محمد</persName>
+               <persName xml:id="name763-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib763-1"
+                         resp="#rschmahl #mtolay">Fakhr al-Dīn [Riḍwān] ibn al-Sāʿātī</persName>
                <persName xml:id="name763-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib763-1">فخر الدين بن الساعاتي</persName>
-               <persName xml:id="name763-5" xml:lang="ar" srophe-tags="#syriaca-headword">قخر الدين رضوان بن محمد بن علي بن رستم الخراساني الساعاتي</persName>
+                         source="#bib763-1"
+                         resp="#rschmahl #mtolay">فخر الدين بن الساعاتي</persName>
+               <persName xml:id="name763-5" xml:lang="ar" resp="#hfriedel">قخر الدين رضوان بن محمد بن علي بن رستم الخراساني الساعاتي</persName>
                <note xml:id="abstract-en-763"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib763-1">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī, physician, clock-maker and littérateur</note>
+                     source="#bib763-1"
+                     resp="#fioppolo">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī, physician, clock-maker and littérateur</note>
                <idno type="URI">https://usaybia.net/person/763</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30478</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/14513</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B1%D8%B6%D9%88%D8%A7%D9%86_%D8%A8%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90083213</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32199</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30478</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14513</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B1%D8%B6%D9%88%D8%A7%D9%86_%D8%A8%D9%86_%D9%85%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90083213</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32199</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib763-1">
+                      source="#bib763-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib763-1">
@@ -246,6 +256,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.29</citedRange>
                   <citedRange unit="section">15.29</citedRange>
+               </bibl>
+               <bibl xml:id="bib763-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

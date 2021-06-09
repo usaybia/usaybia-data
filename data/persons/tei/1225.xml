@@ -210,32 +210,45 @@
                <persName xml:id="name1225-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1225-1 #bib1225-1">ʿImrān al-Isrāʾīlī</persName>
-               <persName xml:id="name1225-2" xml:lang="ar" source="#">اوحد الدين عمران بن صدقة الاسرائيل</persName>
-               <persName xml:id="name1225-3"
+                         source="#bib1225-1"
+                         resp="#rschmahl #rschmahl #mtolay">ʿImrān al-Isrāʾīlī</persName>
+               <persName xml:id="name1225-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1225-1">عمران الإسرائيلي</persName>
-               <persName xml:id="name1225-4" xml:lang="ar" source="#bib1225-1">ʿImrān al-Isrāʾīlī, Awḥad al-Dīn ibn Ṣadaqah, Jewish physician student of Raḍī al-Dīn al-Raḥbī (d. 637/1240) 15.23.4.1; 15.36.1.1; 15.42</persName>
+                         source="#bib1225-2"
+                         resp="#rschmahl #mtolay">اوحد الدين عمران بن صدقة الاسرائيل</persName>
+               <persName xml:id="name1225-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1225-1"
+                         resp="#rschmahl #mtolay #hfriedel">عمران الإسرائيلي</persName>
+               <persName xml:id="name1225-5"
+                         xml:lang="ar"
+                         source="#bib1225-1"
+                         resp="#rschmahl #mtolay">ʿImrān al-Isrāʾīlī, Awḥad al-Dīn ibn Ṣadaqah, Jewish physician student of Raḍī al-Dīn al-Raḥbī (d. 637/1240) 15.23.4.1; 15.36.1.1; 15.42</persName>
                <note xml:id="abstract-en-1225"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1225-1">ʿImrān al-Isrāʾīlī, Awḥad al-Dīn ibn Ṣadaqah, Jewish physician student of Raḍī al-Dīn al-Raḥbī (d. 637/1240)</note>
+                     source="#bib1225-1"
+                     resp="#rschmahl">ʿImrān al-Isrāʾīlī, Awḥad al-Dīn ibn Ṣadaqah, Jewish physician student of Raḍī al-Dīn al-Raḥbī (d. 637/1240)</note>
                <idno type="URI">https://usaybia.net/person/1225</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1225-1">
+                      source="#bib1225-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1225-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1225-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1225-1">
@@ -243,6 +256,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.23.4.1; 15.36.1.1; 15.42</citedRange>
                   <citedRange unit="section">15.42</citedRange>
+               </bibl>
+               <bibl xml:id="bib1225-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

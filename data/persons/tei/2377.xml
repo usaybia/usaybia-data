@@ -210,21 +210,30 @@
                <persName xml:id="name2377-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2377-1">Ziyādat Allāh ibn al-Aghlab al-Tamīmī</persName>
-               <persName xml:id="name2377-2" xml:lang="ar" srophe-tags="#syriaca-headword">الله بن الأغلب التميمي</persName>
+                         source="#bib2377-1"
+                         resp="#mtolay">Ziyādat Allāh ibn al-Aghlab al-Tamīmī</persName>
+               <persName xml:id="name2377-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الله بن الأغلب التميمي</persName>
                <note xml:id="abstract-en-2377"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2377-1">Ziyādat Allāh ibn al-Aghlab al-Tamīmī, last Aghlabid emir in Ifrīqiyah (`reg.` 290– 296/903–907)</note>
+                     source="#bib2377-1"
+                     resp="#mtolay">Ziyādat Allāh ibn al-Aghlab al-Tamīmī, last Aghlabid emir in Ifrīqiyah (`reg.` 290– 296/903–907)</note>
                <idno type="URI">https://usaybia.net/person/2377</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib2377-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib2377-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2377-1">

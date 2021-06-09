@@ -206,23 +206,30 @@
                <persName xml:id="name693-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib693-1 #bib693-1">Dāniyāl the Physician</persName>
-               <persName xml:id="name693-2"
+                         source="#bib693-1"
+                         resp="#fioppolo #rschmahl #mtolay">Dāniyāl the Physician</persName>
+               <persName xml:id="name693-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib693-1">دانيال المتطبب</persName>
-               <persName xml:id="name693-3" xml:lang="ar" source="#bib693-1">Dāniyāl the Physician, physician in service of Muʿīzz al-Dawlah 10.27</persName>
-               <persName xml:id="name693-4" xml:lang="ar" srophe-tags="#syriaca-headword">دانيل الطبيب</persName>
+                         source="#bib693-1"
+                         resp="#rschmahl #mtolay">دانيال المتطبب</persName>
+               <persName xml:id="name693-4"
+                         xml:lang="ar"
+                         source="#bib693-1"
+                         resp="#rschmahl #mtolay">Dāniyāl the Physician, physician in service of Muʿīzz al-Dawlah 10.27</persName>
+               <persName xml:id="name693-5" xml:lang="ar" resp="#hfriedel">دانيل الطبيب</persName>
                <note xml:id="abstract-en-693"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib693-1">Dāniyāl the Physician, physician in service of Muʿīzz al-Dawlah</note>
+                     source="#bib693-1"
+                     resp="#fioppolo">Dāniyāl the Physician, physician in service of Muʿīzz al-Dawlah</note>
                <idno type="URI">https://usaybia.net/person/693</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4208</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4208</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib693-1">
+                      source="#bib693-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib693-1">

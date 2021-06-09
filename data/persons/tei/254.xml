@@ -210,38 +210,48 @@
                <persName xml:id="name254-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib254-1">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib</persName>
-               <persName xml:id="name254-2" xml:lang="en-x-lhom" source="#bib254-1">Abū l-Khaṭṭāb</persName>
+                         source="#bib254-1"
+                         resp="#mtolay ">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib</persName>
+               <persName xml:id="name254-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib254-1"
+                         resp="#rschmahl #mtolay">Abū l-Khaṭṭāb</persName>
                <persName xml:id="name254-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib254-1">أبو الخطاب</persName>
-               <persName xml:id="name254-4" xml:lang="ar" source="#bib254-1">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib, Iraqi physician 10.37.4; 10.58.2; 10.60; 11.8.3</persName>
-               <persName xml:id="name254-5" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الخطاب محمد بن محمد بن أبي طالب</persName>
+                         source="#bib254-1"
+                         resp="#rschmahl #mtolay">أبو الخطاب</persName>
+               <persName xml:id="name254-4"
+                         xml:lang="ar"
+                         source="#bib254-1"
+                         resp="#rschmahl #mtolay">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib, Iraqi physician 10.37.4; 10.58.2; 10.60; 11.8.3</persName>
+               <persName xml:id="name254-5" xml:lang="ar" resp="#hfriedel">أبو الخطاب محمد بن محمد بن أبي طالب</persName>
                <note xml:id="abstract-en-254"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib254-1">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib, Iraqi physician</note>
+                     source="#bib254-1"
+                     resp="#mtolay ">Abū l-Khaṭṭāb Muḥammad ibn Muḥammad ibn Abī Ṭālib, Iraqi physician</note>
                <idno type="URI">https://usaybia.net/person/254</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4240</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4240</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib254-1">
+                      source="#bib254-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib254-1">

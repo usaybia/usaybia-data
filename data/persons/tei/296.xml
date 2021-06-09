@@ -210,27 +210,36 @@
                <persName xml:id="name296-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib296-1">Abū l-Najm (al-Naṣrānī), ibn Abī Ghālib ibn Fahd ibn Manṣūr ibn Wahb ibn Qays ibn Mālik</persName>
-               <persName xml:id="name296-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو النجم النصراني بن أبي غالب بن فهد بن منصور بن وهب بن قيس بن مالك</persName>
+                         source="#bib296-1"
+                         resp="#mtolay">Abū l-Najm (al-Naṣrānī), ibn Abī Ghālib ibn Fahd ibn Manṣūr ibn Wahb ibn Qays ibn Mālik</persName>
+               <persName xml:id="name296-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو النجم النصراني بن أبي غالب بن فهد بن منصور بن وهب بن قيس بن مالك</persName>
                <note xml:id="abstract-en-296"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib296-1">Abū l-Najm (al-Naṣrānī), ibn Abī Ghālib ibn Fahd ibn Manṣūr ibn Wahb ibn Qays ibn Mālik, Christian physician in Damascus</note>
+                     source="#bib296-1"
+                     resp="#mtolay">Abū l-Najm (al-Naṣrānī), ibn Abī Ghālib ibn Fahd ibn Manṣūr ibn Wahb ibn Qays ibn Mālik, Christian physician in Damascus</note>
                <idno type="URI">https://usaybia.net/person/296</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib296-1">
+                      source="#bib296-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib296-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib296-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib296-1">

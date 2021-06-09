@@ -210,24 +210,30 @@
                <persName xml:id="name1960-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1960-1">Ṣāʿid al-Andalusī (al-Qāḍī Ṣāʿid), Abū l-Qāsim Ṣāʿid ibn Aḥmad ibn ʿAbd al-Raḥmān al-Taghlibī al-Andalusī</persName>
-               <persName xml:id="name1960-2" xml:lang="ar" srophe-tags="#syriaca-headword">صاعد الأندلسي القاضي صاعد أبو القاسم صاعد بن أحمد بن عبد الرحمن التغلبي الأندلسي</persName>
+                         source="#bib1960-1"
+                         resp="#mtolay">Ṣāʿid al-Andalusī (al-Qāḍī Ṣāʿid), Abū l-Qāsim Ṣāʿid ibn Aḥmad ibn ʿAbd al-Raḥmān al-Taghlibī al-Andalusī</persName>
+               <persName xml:id="name1960-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صاعد الأندلسي القاضي صاعد أبو القاسم صاعد بن أحمد بن عبد الرحمن التغلبي الأندلسي</persName>
                <note xml:id="abstract-en-1960"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1960-1">Ṣāʿid al-Andalusī (al-Qāḍī Ṣāʿid), Abū l-Qāsim Ṣāʿid ibn Aḥmad ibn ʿAbd al-Raḥmān al-Taghlibī al-Andalusī, author of `Ṭabaqāt al-umam` (d. 462/1070)</note>
+                     source="#bib1960-1"
+                     resp="#mtolay">Ṣāʿid al-Andalusī (al-Qāḍī Ṣāʿid), Abū l-Qāsim Ṣāʿid ibn Aḥmad ibn ʿAbd al-Raḥmān al-Taghlibī al-Andalusī, author of `Ṭabaqāt al-umam` (d. 462/1070)</note>
                <idno type="URI">https://usaybia.net/person/1960</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1960-1">
+                      source="#bib1960-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1960-1">

@@ -206,21 +206,28 @@
                <persName xml:id="name1929-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1929-1 #bib1929-1">al-Rumaylī</persName>
-               <persName xml:id="name1929-2"
+                         source="#bib1929-1"
+                         resp="#mtolay #rschmahl #mtolay">al-Rumaylī</persName>
+               <persName xml:id="name1929-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1929-1">الرميلي</persName>
-               <persName xml:id="name1929-3" xml:lang="ar" source="#bib1929-1">al-Rumaylī, 5th/11th-c. Andalusian physician 13.40</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1929-1"
+                         resp="#rschmahl #mtolay #hfriedel">الرميلي</persName>
+               <persName xml:id="name1929-4"
+                         xml:lang="ar"
+                         source="#bib1929-1"
+                         resp="#rschmahl #mtolay">al-Rumaylī, 5th/11th-c. Andalusian physician 13.40</persName>
                <note xml:id="abstract-en-1929"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1929-1">al-Rumaylī, 5th/11th-c. Andalusian physician</note>
+                     source="#bib1929-1"
+                     resp="#mtolay">al-Rumaylī, 5th/11th-c. Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/1929</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1929-1">
+                      source="#bib1929-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1929-1">

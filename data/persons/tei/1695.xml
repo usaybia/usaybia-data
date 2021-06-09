@@ -206,17 +206,23 @@
                <persName xml:id="name1695-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1695-1">al-Muʿtamid</persName>
-               <persName xml:id="name1695-2" xml:lang="ar" srophe-tags="#syriaca-headword">المعتمد</persName>
+                         source="#bib1695-1"
+                         resp="#fioppolo">al-Muʿtamid</persName>
+               <persName xml:id="name1695-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المعتمد</persName>
                <note xml:id="abstract-en-1695"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1695-1">al-Muʿtamid, governor of Damascus</note>
+                     source="#bib1695-1"
+                     resp="#fioppolo">al-Muʿtamid, governor of Damascus</note>
                <idno type="URI">https://usaybia.net/person/1695</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib1695-1">
+                      source="#bib1695-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <bibl xml:id="bib1695-1">

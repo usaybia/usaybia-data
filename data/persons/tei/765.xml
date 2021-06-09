@@ -210,44 +210,54 @@
                <persName xml:id="name765-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib765-1">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān</persName>
-               <persName xml:id="name765-2" xml:lang="ar" source="#">ابو نصر الفارابي محمد</persName>
-               <persName xml:id="name765-3" xml:lang="en-x-lhom" source="#bib765-1">Abū Naṣr al-Fārābī</persName>
+                         source="#bib765-1"
+                         resp="#fioppolo">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān</persName>
+               <persName xml:id="name765-2"
+                         xml:lang="ar"
+                         source="#bib765-2"
+                         resp="#rschmahl #mtolay">ابو نصر الفارابي محمد</persName>
+               <persName xml:id="name765-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib765-1"
+                         resp="#rschmahl #mtolay">Abū Naṣr al-Fārābī</persName>
                <persName xml:id="name765-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib765-1">أبو نصر الفارابيأبو نصر الفارابي</persName>
-               <persName xml:id="name765-5" xml:lang="ar" srophe-tags="#syriaca-headword">الفارابي أبو نصر محمد بن أزلوغ بن طرخان</persName>
+                         source="#bib765-1"
+                         resp="#rschmahl #mtolay">أبو نصر الفارابيأبو نصر الفارابي</persName>
+               <persName xml:id="name765-5" xml:lang="ar" resp="#hfriedel">الفارابي أبو نصر محمد بن أزلوغ بن طرخان</persName>
                <note xml:id="abstract-en-765"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib765-1">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān, philosopher and scholar of music (ca. 256–338/870–950)</note>
+                     source="#bib765-1"
+                     resp="#fioppolo">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān, philosopher and scholar of music (ca. 256–338/870–950)</note>
                <idno type="URI">https://usaybia.net/person/765</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/12304</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30706</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50115</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%A7%D8%B1%D8%A7%D8%A8%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/105133145</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0212</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0212</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/al-farabi/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/12304</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30706</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50115</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%81%D8%A7%D8%B1%D8%A7%D8%A8%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/105133145</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_0212</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/al-farabi/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib765-1">
+                      source="#bib765-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="musicologist"
-                      source="#bib765-1">
+                      source="#bib765-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>musicologist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib765-1">
@@ -255,6 +265,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">4.6.5.1; 4.6.13.1n; 10.22.1.2; 11.13.2.8; 13.59.2.3; 13.59.4 no. 14; 13.66.6 nos. 33, 46 14.22.4.1n; 14.25.2; 14.29.4 no. 3; 15.1; 15.17(p); 15.40.3; 15.40.9 no. 98, 119n; 141; 142; 15.51.4</citedRange>
                   <citedRange unit="section">15.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib765-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

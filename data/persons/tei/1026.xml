@@ -206,22 +206,29 @@
                <persName xml:id="name1026-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1026-1 #bib1026-1">Ibn Khaldūn</persName>
-               <persName xml:id="name1026-2"
+                         source="#bib1026-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Khaldūn</persName>
+               <persName xml:id="name1026-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1026-1">ابن خلدون</persName>
-               <persName xml:id="name1026-3" xml:lang="ar" source="#bib1026-1">Ibn Khaldūn al-Ḥaḍramī, Abū Muslim ʿUmar ibn Aḥmad (d. 449/1057) 13.5.1; 13.10</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1026-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن خلدون</persName>
+               <persName xml:id="name1026-4"
+                         xml:lang="ar"
+                         source="#bib1026-1"
+                         resp="#rschmahl #mtolay">Ibn Khaldūn al-Ḥaḍramī, Abū Muslim ʿUmar ibn Aḥmad (d. 449/1057) 13.5.1; 13.10</persName>
                <note xml:id="abstract-en-1026"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1026-1">Ibn Khaldūn, historian (d. 808/1406)</note>
+                     source="#bib1026-1"
+                     resp="#rschmahl">Ibn Khaldūn, historian (d. 808/1406)</note>
                <idno type="URI">https://usaybia.net/person/1026</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50145</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50145</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib1026-1">
+                      source="#bib1026-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <bibl xml:id="bib1026-1">

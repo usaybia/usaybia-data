@@ -206,14 +206,23 @@
                <persName xml:id="name1083-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1083-1">Ibn al-Qaysarānī</persName>
-               <persName xml:id="name1083-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن القيسراني</persName>
+                         source="#bib1083-1"
+                         resp="#rschmahl">Ibn al-Qaysarānī</persName>
+               <persName xml:id="name1083-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن القيسراني</persName>
                <note xml:id="abstract-en-1083"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1083-1">Ibn al-Qaysarānī, Muḥammad ibn Naṣr ibn Dāghir, poet (d. 548/1154)</note>
+                     source="#bib1083-1"
+                     resp="#rschmahl">Ibn al-Qaysarānī, Muḥammad ibn Naṣr ibn Dāghir, poet (d. 548/1154)</note>
                <idno type="URI">https://usaybia.net/person/1083</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1083-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1083-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1083-1">

@@ -206,24 +206,37 @@
                <persName xml:id="name2052-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā</persName>
-               <persName xml:id="name2052-2" xml:lang="ar" source="#">شمس الدين عبد الحميد بن عيسى الخشروشاهي</persName>
-               <persName xml:id="name2052-3" xml:lang="en-x-lhom" source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī</persName>
+                         source="#bib2052-1"
+                         resp="#mtolay">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā</persName>
+               <persName xml:id="name2052-2"
+                         xml:lang="ar"
+                         source="#bib2052-2"
+                         resp="#rschmahl #mtolay">شمس الدين عبد الحميد بن عيسى الخشروشاهي</persName>
+               <persName xml:id="name2052-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib2052-1"
+                         resp="#rschmahl #mtolay">Shams al-Dīn al-Khusrawshāhī</persName>
                <persName xml:id="name2052-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2052-1">شمس الدين الخسروشاهي</persName>
-               <persName xml:id="name2052-5" xml:lang="ar" source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā, physician, student of Fakhr al-Dīn al-Rāzī, 11.11; 15.44; 15.21; 15.60.1</persName>
-               <persName xml:id="name2052-6" xml:lang="ar" srophe-tags="#syriaca-headword">شمس الدين الخسروشاهي، عبد الحميد بن عيسى</persName>
+                         source="#bib2052-1"
+                         resp="#rschmahl #mtolay">شمس الدين الخسروشاهي</persName>
+               <persName xml:id="name2052-5"
+                         xml:lang="ar"
+                         source="#bib2052-1"
+                         resp="#rschmahl #mtolay">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā, physician, student of Fakhr al-Dīn al-Rāzī, 11.11; 15.44; 15.21; 15.60.1</persName>
+               <persName xml:id="name2052-6" xml:lang="ar" resp="#hfriedel">شمس الدين الخسروشاهي، عبد الحميد بن عيسى</persName>
                <note xml:id="abstract-en-2052"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2052-1">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā, physician, student of Fakhr al-Dīn al-Rāzī,</note>
+                     source="#bib2052-1"
+                     resp="#mtolay">Shams al-Dīn al-Khusrawshāhī, ʿAbd al- Ḥamīd ibn ʿĪsā, physician, student of Fakhr al-Dīn al-Rāzī,</note>
                <idno type="URI">https://usaybia.net/person/2052</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2052-1">
+                      source="#bib2052-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2052-1">
@@ -231,6 +244,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">11.11; 15.44; 15.21; 15.60.1</citedRange>
                   <citedRange unit="section">15.21</citedRange>
+               </bibl>
+               <bibl xml:id="bib2052-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

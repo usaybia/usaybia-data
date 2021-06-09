@@ -206,17 +206,23 @@
                <persName xml:id="name2167-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2167-1">Symmachus</persName>
-               <persName xml:id="name2167-2" xml:lang="ar" srophe-tags="#syriaca-headword">سوناخس</persName>
+                         source="#bib2167-1"
+                         resp="#mtolay">Symmachus</persName>
+               <persName xml:id="name2167-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سوناخس</persName>
                <note xml:id="abstract-en-2167"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2167-1">Symmachus, physician of antiquity</note>
+                     source="#bib2167-1"
+                     resp="#mtolay">Symmachus, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/2167</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2167-1">
+                      source="#bib2167-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2167-1">

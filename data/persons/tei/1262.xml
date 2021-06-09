@@ -210,34 +210,47 @@
                <persName xml:id="name1262-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1262-1">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj)</persName>
-               <persName xml:id="name1262-2" xml:lang="en-x-lhom" source="#bib1262-1">Isḥāq ibn Ibrāhīm ibn Nasṭās</persName>
+                         source="#bib1262-1"
+                         resp="#rschmahl">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj)</persName>
+               <persName xml:id="name1262-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1262-1"
+                         resp="#rschmahl #mtolay">Isḥāq ibn Ibrāhīm ibn Nasṭās</persName>
                <persName xml:id="name1262-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1262-1">إسحق بن إبراهيم بن نسطاس</persName>
-               <persName xml:id="name1262-4" xml:lang="ar" source="#bib1262-1">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj), Christian physician in service of al-Ḥākim 14.7; 14.16</persName>
-               <persName xml:id="name1262-5" xml:lang="ar" srophe-tags="#syriaca-headword">إسحاق بن إبراهيم بن نسطاس (أبو يعقوب إسحاق بن إبراهيم بن نسطاس بن جريج)</persName>
+                         source="#bib1262-1"
+                         resp="#rschmahl #mtolay">إسحق بن إبراهيم بن نسطاس</persName>
+               <persName xml:id="name1262-4"
+                         xml:lang="ar"
+                         source="#bib1262-1"
+                         resp="#rschmahl #mtolay">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj), Christian physician in service of al-Ḥākim 14.7; 14.16</persName>
+               <persName xml:id="name1262-5" xml:lang="ar" resp="#hfriedel">إسحاق بن إبراهيم بن نسطاس (أبو يعقوب إسحاق بن إبراهيم بن نسطاس بن جريج)</persName>
                <note xml:id="abstract-en-1262"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1262-1">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj), Christian physician in service of al-Ḥākim</note>
+                     source="#bib1262-1"
+                     resp="#rschmahl">Isḥāq ibn Ibrāhīm ibn Nasṭās (Abū Yaʿqūb Isḥāq ibn Ibrāhīm ibn Nasṭās ibn Jurayj), Christian physician in service of al-Ḥākim</note>
                <idno type="URI">https://usaybia.net/person/1262</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AD%D8%A7%D9%82_%D8%A8%D9%86_%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85_%D8%A8%D9%86_%D9%86%D8%B3%D8%B7%D8%A7%D8%B3</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AD%D8%A7%D9%82_%D8%A8%D9%86_%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85_%D8%A8%D9%86_%D9%86%D8%B3%D8%B7%D8%A7%D8%B3</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1262-1">
+                      source="#bib1262-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1262-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1262-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1262-1">

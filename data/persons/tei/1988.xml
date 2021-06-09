@@ -206,17 +206,23 @@
                <persName xml:id="name1988-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1988-1">Sālim</persName>
-               <persName xml:id="name1988-2" xml:lang="ar" srophe-tags="#syriaca-headword">سالم</persName>
+                         source="#bib1988-1"
+                         resp="#mtolay">Sālim</persName>
+               <persName xml:id="name1988-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سالم</persName>
                <note xml:id="abstract-en-1988"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1988-1">Sālim, eunuch `mawlā` of Hārūn al-Rashīd</note>
+                     source="#bib1988-1"
+                     resp="#mtolay">Sālim, eunuch `mawlā` of Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/1988</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="eunuch"
-                      source="#bib1988-1">
+                      source="#bib1988-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>eunuch</desc>
                </state>
                <bibl xml:id="bib1988-1">

@@ -206,24 +206,34 @@
                <persName xml:id="name55-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib55-1">ʿAbdūs the Physician</persName>
+                         source="#bib55-1"
+                         resp="#rschmahl">ʿAbdūs the Physician</persName>
                <persName xml:id="name55-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="# #bib55-1">عبدوس</persName>
-               <persName xml:id="name55-3" xml:lang="en-x-lhom" source="#bib55-1">ʿAbdūs</persName>
-               <persName xml:id="name55-4" xml:lang="ar" source="#bib55-1">ʿAbdūs the Physician 10.12</persName>
-               <persName xml:id="name55-5" xml:lang="ar" srophe-tags="#syriaca-headword">عبدوس الطبيب</persName>
+                         source="#bib55-2 #bib55-1"
+                         resp="#rschmahl #mtolay">عبدوس</persName>
+               <persName xml:id="name55-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib55-1"
+                         resp="#rschmahl #mtolay">ʿAbdūs</persName>
+               <persName xml:id="name55-5"
+                         xml:lang="ar"
+                         source="#bib55-1"
+                         resp="#rschmahl #mtolay">ʿAbdūs the Physician 10.12</persName>
+               <persName xml:id="name55-6" xml:lang="ar" resp="#hfriedel">عبدوس الطبيب</persName>
                <note xml:id="abstract-en-55"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib55-1">ʿAbdūs the Physician</note>
+                     source="#bib55-1"
+                     resp="#rschmahl">ʿAbdūs the Physician</note>
                <idno type="URI">https://usaybia.net/person/55</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4120</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4120</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib55-1">
+                      source="#bib55-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib55-1">
@@ -231,6 +241,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.12</citedRange>
                   <citedRange unit="section">10.12</citedRange>
+               </bibl>
+               <bibl xml:id="bib55-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

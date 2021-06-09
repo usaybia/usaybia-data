@@ -206,22 +206,29 @@
                <persName xml:id="name243-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib243-1 #bib243-1">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī</persName>
-               <persName xml:id="name243-2"
+                         source="#bib243-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī</persName>
+               <persName xml:id="name243-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib243-1">أبو جعفر بن خميس الطليطلي</persName>
-               <persName xml:id="name243-3" xml:lang="ar" source="#bib243-1">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī, Andalusian physician 13.43</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib243-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو جعفر بن خميس الطليطلي</persName>
+               <persName xml:id="name243-4"
+                         xml:lang="ar"
+                         source="#bib243-1"
+                         resp="#rschmahl #mtolay">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī, Andalusian physician 13.43</persName>
                <note xml:id="abstract-en-243"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib243-1">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī, Andalusian physician</note>
+                     source="#bib243-1"
+                     resp="#mtolay">Abū Jaʿfar ibn Khamīs al-Ṭulayṭulī, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/243</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50024</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50024</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib243-1">
+                      source="#bib243-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib243-1">

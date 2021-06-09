@@ -210,42 +210,57 @@
                <persName xml:id="name1529-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1529-1 #bib1529-1">Māsarjawayh</persName>
+                         source="#bib1529-1"
+                         resp="#fioppolo #rschmahl #mtolay">Māsarjawayh</persName>
                <persName xml:id="name1529-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="# #bib1529-1">ماسرجويه</persName>
-               <persName xml:id="name1529-3" xml:lang="ar" source="#bib1529-1">Māsarjawayh (also Māsarjīs, Persian Māsargōye), Jewish Umayyad physician and translator 6.5.1; 8.19; 9.8</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1529-2 #bib1529-1"
+                         resp="#rschmahl #mtolay #hfriedel">ماسرجويه</persName>
+               <persName xml:id="name1529-5"
+                         xml:lang="ar"
+                         source="#bib1529-1"
+                         resp="#rschmahl #mtolay">Māsarjawayh (also Māsarjīs, Persian Māsargōye), Jewish Umayyad physician and translator 6.5.1; 8.19; 9.8</persName>
                <note xml:id="abstract-en-1529"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1529-1">Māsarjawayh (also Māsarjīs, Persian Māsargōye), Jewish Umayyad physician and translator</note>
+                     source="#bib1529-1"
+                     resp="#fioppolo">Māsarjawayh (also Māsarjīs, Persian Māsargōye), Jewish Umayyad physician and translator</note>
                <idno type="URI">https://usaybia.net/person/1529</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50096</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4143</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B3%D8%B1%D8%AC%D9%88%D9%8A%D9%87</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_4996</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50096</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4143</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B3%D8%B1%D8%AC%D9%88%D9%8A%D9%87</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_4996</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1529-1">
+                      source="#bib1529-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1529-1">
+                      source="#bib1529-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1529-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1529-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1529-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">6.5.1; 8.19; 9.8</citedRange>
-                  <citedRange unit="section">8.19</citedRange>
                   <citedRange unit="section">9.8</citedRange>
+                  <citedRange unit="section">8.19</citedRange>
+               </bibl>
+               <bibl xml:id="bib1529-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

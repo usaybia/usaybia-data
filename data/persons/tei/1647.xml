@@ -210,39 +210,52 @@
                <persName xml:id="name1647-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1647-1">Muḥyī l-Dīn, Abū l-Maʿālī Muḥammad ibn al-qāḍīʿAlī Zakī al-Dīn</persName>
-               <persName xml:id="name1647-2" xml:lang="ar" source="#">محي الدين بن زكي الدين قاضى القضاة</persName>
-               <persName xml:id="name1647-3" xml:lang="ar" srophe-tags="#syriaca-headword">محيي الدين أبو المعالي محمد بن القاضي علي زكي الدين</persName>
+                         source="#bib1647-1"
+                         resp="#fioppolo">Muḥyī l-Dīn, Abū l-Maʿālī Muḥammad ibn al-qāḍīʿAlī Zakī al-Dīn</persName>
+               <persName xml:id="name1647-2"
+                         xml:lang="ar"
+                         source="#bib1647-2"
+                         resp="#rschmahl #mtolay">محي الدين بن زكي الدين قاضى القضاة</persName>
+               <persName xml:id="name1647-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محيي الدين أبو المعالي محمد بن القاضي علي زكي الدين</persName>
                <note xml:id="abstract-en-1647"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1647-1">Muḥyī l-Dīn, Abū l-Maʿālī Muḥammad ibn al-qāḍīʿAlī Zakī al-Dīn (d. 598/1202), chief judge of Damascus</note>
+                     source="#bib1647-1"
+                     resp="#fioppolo">Muḥyī l-Dīn, Abū l-Maʿālī Muḥammad ibn al-qāḍīʿAlī Zakī al-Dīn (d. 598/1202), chief judge of Damascus</note>
                <idno type="URI">https://usaybia.net/person/1647</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/14438</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14438</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="chief qadi"
-                      source="#bib1647-1">
+                      source="#bib1647-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chief qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1647-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.50; 15.33</citedRange>
+               </bibl>
+               <bibl xml:id="bib1647-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

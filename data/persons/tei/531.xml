@@ -206,23 +206,30 @@
                <persName xml:id="name531-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib531-1">Ankar</persName>
-               <persName xml:id="name531-2" xml:lang="ar" srophe-tags="#syriaca-headword">انكر</persName>
+                         source="#bib531-1"
+                         resp="#fioppolo">Ankar</persName>
+               <persName xml:id="name531-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">انكر</persName>
                <note xml:id="abstract-en-531"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib531-1">Ankar, otherwise unknown Indian physician and scholar</note>
+                     source="#bib531-1"
+                     resp="#fioppolo">Ankar, otherwise unknown Indian physician and scholar</note>
                <idno type="URI">https://usaybia.net/person/531</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib531-1">
+                      source="#bib531-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib531-1">
+                      source="#bib531-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib531-1">

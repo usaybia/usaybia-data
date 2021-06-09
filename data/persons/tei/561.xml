@@ -206,17 +206,23 @@
                <persName xml:id="name561-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib561-1">Aristippus the Elder</persName>
-               <persName xml:id="name561-2" xml:lang="ar" srophe-tags="#syriaca-headword">أرسطيلوس القديم</persName>
+                         source="#bib561-1"
+                         resp="#fioppolo">Aristippus the Elder</persName>
+               <persName xml:id="name561-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أرسطيلوس القديم</persName>
                <note xml:id="abstract-en-561"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib561-1">Aristippus the Elder, student of Socrates and founder of the Cyrenaic school of philosophy</note>
+                     source="#bib561-1"
+                     resp="#fioppolo">Aristippus the Elder, student of Socrates and founder of the Cyrenaic school of philosophy</note>
                <idno type="URI">https://usaybia.net/person/561</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib561-1">
+                      source="#bib561-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib561-1">

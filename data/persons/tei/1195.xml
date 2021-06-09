@@ -206,22 +206,29 @@
                <persName xml:id="name1195-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1195-1">Ibrāhīm ibn Hilāl al-Ṣābiʾ Ibrāhīm ibn ʿĪsā</persName>
-               <persName xml:id="name1195-2" xml:lang="en-x-lhom" source="#bib1195-1">Ibrāhīm ibn ʿĪsā</persName>
+                         source="#bib1195-1"
+                         resp="#rschmahl">Ibrāhīm ibn Hilāl al-Ṣābiʾ Ibrāhīm ibn ʿĪsā</persName>
+               <persName xml:id="name1195-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1195-1"
+                         resp="#rschmahl #mtolay">Ibrāhīm ibn ʿĪsā</persName>
                <persName xml:id="name1195-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1195-1">إبراهيم بن عيسى</persName>
-               <persName xml:id="name1195-4" xml:lang="ar" srophe-tags="#syriaca-headword">إبراهيم بن هلال الصابئ إبراهيم بن عيسى</persName>
+                         source="#bib1195-1"
+                         resp="#rschmahl #mtolay">إبراهيم بن عيسى</persName>
+               <persName xml:id="name1195-4" xml:lang="ar" resp="#hfriedel">إبراهيم بن هلال الصابئ إبراهيم بن عيسى</persName>
                <note xml:id="abstract-en-1195"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1195-1">Ibrāhīm ibn Hilāl al-Ṣābiʾ Ibrāhīm ibn ʿĪsā, Baghdadi physician and companion of Yūḥannā ibn Māsawayh</note>
+                     source="#bib1195-1"
+                     resp="#rschmahl">Ibrāhīm ibn Hilāl al-Ṣābiʾ Ibrāhīm ibn ʿĪsā, Baghdadi physician and companion of Yūḥannā ibn Māsawayh</note>
                <idno type="URI">https://usaybia.net/person/1195</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1195-1">
+                      source="#bib1195-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1195-1">

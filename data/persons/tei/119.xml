@@ -210,24 +210,30 @@
                <persName xml:id="name119-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib119-1">Abū Bakr</persName>
-               <persName xml:id="name119-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر</persName>
+                         source="#bib119-1"
+                         resp="#rschmahl">Abū Bakr</persName>
+               <persName xml:id="name119-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر</persName>
                <note xml:id="abstract-en-119"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib119-1">Abū Bakr, the first caliph after Muḥammad’s death</note>
+                     source="#bib119-1"
+                     resp="#rschmahl">Abū Bakr, the first caliph after Muḥammad’s death</note>
                <idno type="URI">https://usaybia.net/person/119</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib119-1">
+                      source="#bib119-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib119-1">

@@ -210,21 +210,30 @@
                <persName xml:id="name2093-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2093-1">Shīrzīl ibn Rukn al-Dawlah</persName>
-               <persName xml:id="name2093-2" xml:lang="ar" srophe-tags="#syriaca-headword">شيرزيل بن ركن الدولة</persName>
+                         source="#bib2093-1"
+                         resp="#mtolay">Shīrzīl ibn Rukn al-Dawlah</persName>
+               <persName xml:id="name2093-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شيرزيل بن ركن الدولة</persName>
                <note xml:id="abstract-en-2093"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2093-1">Shīrzīl ibn Rukn al-Dawlah, emir (?of Iṣfahān)</note>
+                     source="#bib2093-1"
+                     resp="#mtolay">Shīrzīl ibn Rukn al-Dawlah, emir (?of Iṣfahān)</note>
                <idno type="URI">https://usaybia.net/person/2093</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib2093-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib2093-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2093-1">

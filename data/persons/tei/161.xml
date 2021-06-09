@@ -206,13 +206,22 @@
                <persName xml:id="name161-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</persName>
-               <persName xml:id="name161-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الفرج عبد الله بن الطيب</persName>
+                         source="#bib161-1"
+                         resp="#rschmahl">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</persName>
+               <persName xml:id="name161-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الفرج عبد الله بن الطيب</persName>
                <note xml:id="abstract-en-161"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</note>
+                     source="#bib161-1"
+                     resp="#rschmahl">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</note>
                <idno type="URI">https://usaybia.net/person/161</idno>
+               <bibl xml:id="bib161-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>

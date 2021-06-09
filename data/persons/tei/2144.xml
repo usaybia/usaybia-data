@@ -206,24 +206,34 @@
                <persName xml:id="name2144-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2144-1">al-Sukkarī, Ẓāfir ibn Jābir, Abū Ḥakīm</persName>
-               <persName xml:id="name2144-2" xml:lang="ar" source="#">ظافر بن جابر السكرى</persName>
-               <persName xml:id="name2144-3" xml:lang="en-x-lhom" source="#bib2144-1">Ẓāfir ibn Jābir al-Sukkarī</persName>
+                         source="#bib2144-1"
+                         resp="#mtolay">al-Sukkarī, Ẓāfir ibn Jābir, Abū Ḥakīm</persName>
+               <persName xml:id="name2144-2"
+                         xml:lang="ar"
+                         source="#bib2144-2"
+                         resp="#rschmahl #mtolay">ظافر بن جابر السكرى</persName>
+               <persName xml:id="name2144-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib2144-1"
+                         resp="#rschmahl #mtolay">Ẓāfir ibn Jābir al-Sukkarī</persName>
                <persName xml:id="name2144-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2144-1">ظافر بن جابر السكري</persName>
-               <persName xml:id="name2144-5" xml:lang="ar" srophe-tags="#syriaca-headword">السكري ظافر بن جابر أبو حكيم</persName>
+                         source="#bib2144-1"
+                         resp="#rschmahl #mtolay">ظافر بن جابر السكري</persName>
+               <persName xml:id="name2144-5" xml:lang="ar" resp="#hfriedel">السكري ظافر بن جابر أبو حكيم</persName>
                <note xml:id="abstract-en-2144"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2144-1">al-Sukkarī, Ẓāfir ibn Jābir, Abū Ḥakīm, physician son of Jābir ibn Manṣūr</note>
+                     source="#bib2144-1"
+                     resp="#mtolay">al-Sukkarī, Ẓāfir ibn Jābir, Abū Ḥakīm, physician son of Jābir ibn Manṣūr</note>
                <idno type="URI">https://usaybia.net/person/2144</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B8%D8%A7%D9%81%D8%B1_%D8%A8%D9%86_%D8%AC%D8%A7%D8%A8%D8%B1_%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B8%D8%A7%D9%81%D8%B1_%D8%A8%D9%86_%D8%AC%D8%A7%D8%A8%D8%B1_%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2144-1">
+                      source="#bib2144-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2144-1">
@@ -231,6 +241,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.37.5 no. 40; 15.5</citedRange>
                   <citedRange unit="section">15.5</citedRange>
+               </bibl>
+               <bibl xml:id="bib2144-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

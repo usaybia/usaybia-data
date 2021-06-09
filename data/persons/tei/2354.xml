@@ -210,24 +210,30 @@
                <persName xml:id="name2354-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2354-1">al-Zajjāj, Abū Isḥāq Ibrāhīm ibn Muḥammad al-Sarī</persName>
-               <persName xml:id="name2354-2" xml:lang="ar" srophe-tags="#syriaca-headword">الزجاج أبو إسحاق إبراهيم بن محمد السري</persName>
+                         source="#bib2354-1"
+                         resp="#mtolay">al-Zajjāj, Abū Isḥāq Ibrāhīm ibn Muḥammad al-Sarī</persName>
+               <persName xml:id="name2354-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الزجاج أبو إسحاق إبراهيم بن محمد السري</persName>
                <note xml:id="abstract-en-2354"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2354-1">al-Zajjāj, Abū Isḥāq Ibrāhīm ibn Muḥammad al-Sarī, grammarian (d. 310/922)</note>
+                     source="#bib2354-1"
+                     resp="#mtolay">al-Zajjāj, Abū Isḥāq Ibrāhīm ibn Muḥammad al-Sarī, grammarian (d. 310/922)</note>
                <idno type="URI">https://usaybia.net/person/2354</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib2354-1">
+                      source="#bib2354-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2354-1">

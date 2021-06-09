@@ -206,17 +206,23 @@
                <persName xml:id="name1720-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1720-1">Myrmex</persName>
-               <persName xml:id="name1720-2" xml:lang="ar" srophe-tags="#syriaca-headword">مرمقس</persName>
+                         source="#bib1720-1"
+                         resp="#fioppolo">Myrmex</persName>
+               <persName xml:id="name1720-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مرمقس</persName>
                <note xml:id="abstract-en-1720"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1720-1">Myrmex, servant of Aristotle</note>
+                     source="#bib1720-1"
+                     resp="#fioppolo">Myrmex, servant of Aristotle</note>
                <idno type="URI">https://usaybia.net/person/1720</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib1720-1">
+                      source="#bib1720-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib1720-1">

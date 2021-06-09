@@ -206,29 +206,37 @@
                <persName xml:id="name633-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib633-1">Bar Bahlūl</persName>
-               <persName xml:id="name633-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحسن بن بهلول</persName>
+                         source="#bib633-1"
+                         resp="#fioppolo">Bar Bahlūl</persName>
+               <persName xml:id="name633-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحسن بن بهلول</persName>
                <note xml:id="abstract-en-633"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib633-1">Bar Bahlūl, author of Syriac lexicon and translator</note>
+                     source="#bib633-1"
+                     resp="#fioppolo">Bar Bahlūl, author of Syriac lexicon and translator</note>
                <idno type="URI">https://usaybia.net/person/633</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib633-1">
+                      source="#bib633-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="lexicographer"
-                      source="#bib633-1">
+                      source="#bib633-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>lexicographer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib633-1">
+                      source="#bib633-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib633-1">

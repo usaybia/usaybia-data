@@ -206,17 +206,23 @@
                <persName xml:id="name354-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib354-1">Abū Suhayl</persName>
-               <persName xml:id="name354-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو سهيل</persName>
+                         source="#bib354-1"
+                         resp="#mtolay">Abū Suhayl</persName>
+               <persName xml:id="name354-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو سهيل</persName>
                <note xml:id="abstract-en-354"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib354-1">Abū Suhayl, transmitter</note>
+                     source="#bib354-1"
+                     resp="#mtolay">Abū Suhayl, transmitter</note>
                <idno type="URI">https://usaybia.net/person/354</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib354-1">
+                      source="#bib354-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib354-1">

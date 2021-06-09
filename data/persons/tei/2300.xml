@@ -206,31 +206,39 @@
                <persName xml:id="name2300-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2300-1 #bib2300-1">Yaḥyā ibn al-Biṭrīq</persName>
-               <persName xml:id="name2300-2"
+                         source="#bib2300-1"
+                         resp="#mtolay #rschmahl #mtolay">Yaḥyā ibn al-Biṭrīq</persName>
+               <persName xml:id="name2300-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib2300-1">يحيى بن البطريق</persName>
-               <persName xml:id="name2300-3" xml:lang="ar" source="#bib2300-1">Yaḥyā ibn al-Biṭrīq, translator of philosophical works and medical author (d. ca. 200/815) 9.32</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2300-1"
+                         resp="#rschmahl #mtolay #hfriedel">يحيى بن البطريق</persName>
+               <persName xml:id="name2300-4"
+                         xml:lang="ar"
+                         source="#bib2300-1"
+                         resp="#rschmahl #mtolay">Yaḥyā ibn al-Biṭrīq, translator of philosophical works and medical author (d. ca. 200/815) 9.32</persName>
                <note xml:id="abstract-en-2300"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2300-1">Yaḥyā ibn al-Biṭrīq, translator of philosophical works and medical author (d. ca. 200/815)</note>
+                     source="#bib2300-1"
+                     resp="#mtolay">Yaḥyā ibn al-Biṭrīq, translator of philosophical works and medical author (d. ca. 200/815)</note>
                <idno type="URI">https://usaybia.net/person/2300</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4164</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%8A%D8%AD%D9%8A%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B7%D8%B1%D9%8A%D9%82</idno>
-               <idno type="URI">https://viaf.org/viaf/103373918</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_7951</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4164</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%8A%D8%AD%D9%8A%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B7%D8%B1%D9%8A%D9%82</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/103373918</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_7951</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib2300-1">
+                      source="#bib2300-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="medical author"
-                      source="#bib2300-1">
+                      source="#bib2300-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>medical author</desc>
                </state>
                <bibl xml:id="bib2300-1">

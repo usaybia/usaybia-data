@@ -210,44 +210,61 @@
                <persName xml:id="name1191-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1191-1">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?)</persName>
-               <persName xml:id="name1191-2" xml:lang="en-x-lhom" source="#bib1191-1">Ibrāhīm ibn Baks (Bakūs)</persName>
+                         source="#bib1191-1"
+                         resp="#rschmahl">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?)</persName>
+               <persName xml:id="name1191-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1191-1"
+                         resp="#rschmahl #mtolay">Ibrāhīm ibn Baks (Bakūs)</persName>
                <persName xml:id="name1191-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1191-1">إبراهيم بن بكس</persName>
-               <persName xml:id="name1191-4" xml:lang="en-x-lhom" source="#bib1191-1">Abū Isḥāq Ibrāhīm ibn Baks</persName>
-               <persName xml:id="name1191-5" xml:lang="ar" source="#bib1191-1">أبو إسحاق إبراهيم بن بكس</persName>
-               <persName xml:id="name1191-6" xml:lang="ar" srophe-tags="#syriaca-headword">إبراهيم بن بكس/بكوس/بكوش العشاري</persName>
+                         source="#bib1191-1"
+                         resp="#rschmahl #mtolay">إبراهيم بن بكس</persName>
+               <persName xml:id="name1191-4"
+                         xml:lang="en-x-lhom"
+                         source="#bib1191-1"
+                         resp="#rschmahl #mtolay">Abū Isḥāq Ibrāhīm ibn Baks</persName>
+               <persName xml:id="name1191-5"
+                         xml:lang="ar"
+                         source="#bib1191-1"
+                         resp="#rschmahl #mtolay">أبو إسحاق إبراهيم بن بكس</persName>
+               <persName xml:id="name1191-6" xml:lang="ar" resp="#hfriedel">إبراهيم بن بكس/بكوس/بكوش العشاري</persName>
                <note xml:id="abstract-en-1191"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1191-1">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?), Abū Isḥāq, 4th/10th-c. Christian physician and translator active in Baghdad</note>
+                     source="#bib1191-1"
+                     resp="#rschmahl">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?), Abū Isḥāq, 4th/10th-c. Christian physician and translator active in Baghdad</note>
                <idno type="URI">https://usaybia.net/person/1191</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4169</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4223</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D9%83%D8%B3</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4169</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4223</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D9%83%D8%B3</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1191-1">
+                      source="#bib1191-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1191-1">
+                      source="#bib1191-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1191-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1191-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1191-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">4.7n; 8.29.8; 9.37; 9.38; 10.23.2; 10.42; 11.8.6 no. 13</citedRange>
-                  <citedRange unit="section">10.42</citedRange>
                   <citedRange unit="section">9.37</citedRange>
+                  <citedRange unit="section">10.42</citedRange>
                </bibl>
             </person>
          </listPerson>

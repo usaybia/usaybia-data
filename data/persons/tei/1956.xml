@@ -206,17 +206,23 @@
                <persName xml:id="name1956-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1956-1">Sahl ibn Jubayr</persName>
-               <persName xml:id="name1956-2" xml:lang="ar" srophe-tags="#syriaca-headword">سهل بن جبير</persName>
+                         source="#bib1956-1"
+                         resp="#mtolay">Sahl ibn Jubayr</persName>
+               <persName xml:id="name1956-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سهل بن جبير</persName>
                <note xml:id="abstract-en-1956"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1956-1">Sahl ibn Jubayr, early 3rd/9th-c. physician</note>
+                     source="#bib1956-1"
+                     resp="#mtolay">Sahl ibn Jubayr, early 3rd/9th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/1956</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1956-1">
+                      source="#bib1956-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1956-1">

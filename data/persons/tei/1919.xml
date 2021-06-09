@@ -210,41 +210,52 @@
                <persName xml:id="name1919-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1919-1">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā</persName>
-               <persName xml:id="name1919-2" xml:lang="ar" source="#">ابو بكر محمد بن زكريا الرا زى جالينوس العرب</persName>
-               <persName xml:id="name1919-3" xml:lang="en-x-lhom" source="#bib1919-1">Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī</persName>
+                         source="#bib1919-1"
+                         resp="#mtolay">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā</persName>
+               <persName xml:id="name1919-2"
+                         xml:lang="ar"
+                         source="#bib1919-2"
+                         resp="#rschmahl #mtolay">ابو بكر محمد بن زكريا الرا زى جالينوس العرب</persName>
+               <persName xml:id="name1919-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1919-1"
+                         resp="#rschmahl #mtolay">Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī</persName>
                <persName xml:id="name1919-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1919-1">أبو بكر محمد بن زكريا الرازي</persName>
-               <persName xml:id="name1919-5" xml:lang="ar" srophe-tags="#syriaca-headword">الرازي أبو بكر محمد بن زكريا</persName>
+                         source="#bib1919-1"
+                         resp="#rschmahl #mtolay">أبو بكر محمد بن زكريا الرازي</persName>
+               <persName xml:id="name1919-5" xml:lang="ar" resp="#hfriedel">الرازي أبو بكر محمد بن زكريا</persName>
                <note xml:id="abstract-en-1919"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1919-1">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā, physician and philosopher (ca. 250– 313/854–925)</note>
+                     source="#bib1919-1"
+                     resp="#mtolay">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā, physician and philosopher (ca. 250– 313/854–925)</note>
                <idno type="URI">https://usaybia.net/person/1919</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4267</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/12062</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A8%D9%83%D8%B1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/95154093</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6267</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4267</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/12062</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A8%D9%83%D8%B1_%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/95154093</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6267</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1919-1">
+                      source="#bib1919-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1919-1">
+                      source="#bib1919-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1919-1">
@@ -252,6 +263,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">1.10; 4.1.10.5n; 5.1.32; 6.5.2 (source on late-antique medicine); 7.9.1n; 8.15.1n; 8.19.1; 8.19.6n; 9.15n; 10.56 no. 2; 11.4; 11.5; 11.8.4; 11.17 no. 6; 12.2; 13.59.4 no. 22; 13.61.4 no. 4; 14.21n; 14.22.5.1 no. 4; 14.25.2; 14.25.5; 14.25.9 nos. 51, 91; 14.56.4 no. 2; 15.1.5 no. 44; 15.36.1.1; 15.36.1.2; 15.60.1 Works `al-Kitāb al-Ḥāwī fī l-ṭibb` 10.64.20 no. 4; 12.2; 14.21 no. 1; 15.39 no. 4; 15.50.7 no. 1 `Doubts on Galen` 15.40.9 no. 101 `Taʿālīq ʿalā K. al-Ḥāwī`: 14.56.4 no. 4</citedRange>
                   <citedRange unit="section">11.5</citedRange>
+               </bibl>
+               <bibl xml:id="bib1919-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

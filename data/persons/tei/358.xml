@@ -210,24 +210,30 @@
                <persName xml:id="name358-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib358-1">Abū Ṭāhir Aḥmad ibn Muḥammad ibn Aḥmad ibn Muḥammad ibn Ibrāhīm al-Silafī al-Iṣfahānī</persName>
-               <persName xml:id="name358-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو طاهر أحمد بن محمد بن أحمد بن محمد بن إبراهيم السلفي الإصفهاني</persName>
+                         source="#bib358-1"
+                         resp="#mtolay">Abū Ṭāhir Aḥmad ibn Muḥammad ibn Aḥmad ibn Muḥammad ibn Ibrāhīm al-Silafī al-Iṣfahānī</persName>
+               <persName xml:id="name358-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو طاهر أحمد بن محمد بن أحمد بن محمد بن إبراهيم السلفي الإصفهاني</persName>
                <note xml:id="abstract-en-358"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib358-1">Abū Ṭāhir Aḥmad ibn Muḥammad ibn Aḥmad ibn Muḥammad ibn Ibrāhīm al-Silafī al-Iṣfahānī, teacher of Hadith</note>
+                     source="#bib358-1"
+                     resp="#mtolay">Abū Ṭāhir Aḥmad ibn Muḥammad ibn Aḥmad ibn Muḥammad ibn Ibrāhīm al-Silafī al-Iṣfahānī, teacher of Hadith</note>
                <idno type="URI">https://usaybia.net/person/358</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib358-1">
+                      source="#bib358-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib358-1">

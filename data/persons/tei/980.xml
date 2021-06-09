@@ -206,19 +206,25 @@
                <persName xml:id="name980-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib980-1">Ibn Fatḥ Ṭamlūn</persName>
-               <persName xml:id="name980-2" xml:lang="en-x-lhom" source="#bib980-1">Muḥammad ibn Fatḥ Ṭumlūn</persName>
+                         source="#bib980-1"
+                         resp="#rschmahl">Ibn Fatḥ Ṭamlūn</persName>
+               <persName xml:id="name980-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib980-1"
+                         resp="#rschmahl #mtolay">Muḥammad ibn Fatḥ Ṭumlūn</persName>
                <persName xml:id="name980-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib980-1">محمد بن فتح طملون</persName>
-               <persName xml:id="name980-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن فتح طملون</persName>
+                         source="#bib980-1"
+                         resp="#rschmahl #mtolay">محمد بن فتح طملون</persName>
+               <persName xml:id="name980-4" xml:lang="ar" resp="#hfriedel">ابن فتح طملون</persName>
                <note xml:id="abstract-en-980"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib980-1">Ibn Fatḥ Ṭamlūn, Muḥammad</note>
+                     source="#bib980-1"
+                     resp="#rschmahl">Ibn Fatḥ Ṭamlūn, Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/980</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50104</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50104</idno>
                <bibl xml:id="bib980-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

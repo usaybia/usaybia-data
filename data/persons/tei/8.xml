@@ -206,14 +206,23 @@
                <persName xml:id="name8-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib8-1">ʿAbd Allāh</persName>
-               <persName xml:id="name8-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله</persName>
+                         source="#bib8-1"
+                         resp="#fioppolo">ʿAbd Allāh</persName>
+               <persName xml:id="name8-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الله</persName>
                <note xml:id="abstract-en-8"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib8-1">ʿAbd Allāh, advisor to al-Muntaṣir</note>
+                     source="#bib8-1"
+                     resp="#fioppolo">ʿAbd Allāh, advisor to al-Muntaṣir</note>
                <idno type="URI">https://usaybia.net/person/8</idno>
-               <state xml:lang="en" type="occupation" role="advisor" source="#bib8-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="advisor"
+                      source="#bib8-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>advisor</desc>
                </state>
                <bibl xml:id="bib8-1">

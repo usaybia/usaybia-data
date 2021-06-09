@@ -206,17 +206,23 @@
                <persName xml:id="name2027-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2027-1">Sergius</persName>
-               <persName xml:id="name2027-2" xml:lang="ar" srophe-tags="#syriaca-headword">سرجس</persName>
+                         source="#bib2027-1"
+                         resp="#mtolay">Sergius</persName>
+               <persName xml:id="name2027-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سرجس</persName>
                <note xml:id="abstract-en-2027"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2027-1">Sergius, physician of antiquity, pupil of Plato the Physician</note>
+                     source="#bib2027-1"
+                     resp="#mtolay">Sergius, physician of antiquity, pupil of Plato the Physician</note>
                <idno type="URI">https://usaybia.net/person/2027</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2027-1">
+                      source="#bib2027-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2027-1">

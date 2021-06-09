@@ -210,21 +210,30 @@
                <persName xml:id="name2172-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2172-1">Ṭāhir ibn al-Ḥusayn ibn Yaḥyā al-Makhzūmī al-Baṣrī, Abū Muḥammad</persName>
-               <persName xml:id="name2172-2" xml:lang="ar" srophe-tags="#syriaca-headword">طاهر بن الحسين بن يحيى المخزومي البصري أبو محمد</persName>
+                         source="#bib2172-1"
+                         resp="#mtolay">Ṭāhir ibn al-Ḥusayn ibn Yaḥyā al-Makhzūmī al-Baṣrī, Abū Muḥammad</persName>
+               <persName xml:id="name2172-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">طاهر بن الحسين بن يحيى المخزومي البصري أبو محمد</persName>
                <note xml:id="abstract-en-2172"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2172-1">Ṭāhir ibn al-Ḥusayn ibn Yaḥyā al-Makhzūmī al-Baṣrī, Abū Muḥammad, late 4th/10th or early 5th/11th-c. poet</note>
+                     source="#bib2172-1"
+                     resp="#mtolay">Ṭāhir ibn al-Ḥusayn ibn Yaḥyā al-Makhzūmī al-Baṣrī, Abū Muḥammad, late 4th/10th or early 5th/11th-c. poet</note>
                <idno type="URI">https://usaybia.net/person/2172</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2172-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2172-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2172-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1915-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1915-1">Rashīq</persName>
-               <persName xml:id="name1915-2" xml:lang="ar" srophe-tags="#syriaca-headword">رشيق</persName>
+                         source="#bib1915-1"
+                         resp="#mtolay">Rashīq</persName>
+               <persName xml:id="name1915-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">رشيق</persName>
                <note xml:id="abstract-en-1915"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1915-1">Rashīq, servant of Ibn al-Jazzār</note>
+                     source="#bib1915-1"
+                     resp="#mtolay">Rashīq, servant of Ibn al-Jazzār</note>
                <idno type="URI">https://usaybia.net/person/1915</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib1915-1">
+                      source="#bib1915-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib1915-1">

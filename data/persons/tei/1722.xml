@@ -206,26 +206,39 @@
                <persName xml:id="name1722-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1722-1 #bib1722-1">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī</persName>
-               <persName xml:id="name1722-2" xml:lang="ar" source="#">النضر بن الحرث</persName>
-               <persName xml:id="name1722-3"
+                         source="#bib1722-1"
+                         resp="#fioppolo #rschmahl #mtolay">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī</persName>
+               <persName xml:id="name1722-2"
+                         xml:lang="ar"
+                         source="#bib1722-2"
+                         resp="#rschmahl #mtolay">النضر بن الحرث</persName>
+               <persName xml:id="name1722-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1722-1">النضر بن الحرث بن كلدة الثقفي</persName>
-               <persName xml:id="name1722-4" xml:lang="ar" source="#bib1722-1">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī, opponent of the Prophet Muḥammad 7.2; 7.5.2n</persName>
-               <persName xml:id="name1722-5" xml:lang="ar" srophe-tags="#syriaca-headword">النضر بن الحارث بن كلدة الثقفي</persName>
+                         source="#bib1722-1"
+                         resp="#rschmahl #mtolay">النضر بن الحرث بن كلدة الثقفي</persName>
+               <persName xml:id="name1722-5"
+                         xml:lang="ar"
+                         source="#bib1722-1"
+                         resp="#rschmahl #mtolay">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī, opponent of the Prophet Muḥammad 7.2; 7.5.2n</persName>
+               <persName xml:id="name1722-6" xml:lang="ar" resp="#hfriedel">النضر بن الحارث بن كلدة الثقفي</persName>
                <note xml:id="abstract-en-1722"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1722-1">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī, opponent of the Prophet Muḥammad</note>
+                     source="#bib1722-1"
+                     resp="#fioppolo">al-Naḍr ibn al-Ḥārith ibn Kaladah al-Thaqafī, opponent of the Prophet Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/1722</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4102</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D8%B6%D8%B1_%D8%A8%D9%86_%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4102</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D8%B6%D8%B1_%D8%A8%D9%86_%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB</idno>
                <bibl xml:id="bib1722-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">7.2; 7.5.2n</citedRange>
                   <citedRange unit="section">7.2</citedRange>
+               </bibl>
+               <bibl xml:id="bib1722-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,25 +206,38 @@
                <persName xml:id="name378-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib378-1">Abū ʿUthmān al-Maghribī</persName>
-               <persName xml:id="name378-2" xml:lang="ar" source="#">ابو عثمان المغربي</persName>
-               <persName xml:id="name378-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عثمان المغربي</persName>
+                         source="#bib378-1"
+                         resp="#mtolay">Abū ʿUthmān al-Maghribī</persName>
+               <persName xml:id="name378-2"
+                         xml:lang="ar"
+                         source="#bib378-2"
+                         resp="#rschmahl #mtolay">ابو عثمان المغربي</persName>
+               <persName xml:id="name378-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عثمان المغربي</persName>
                <note xml:id="abstract-en-378"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib378-1">Abū ʿUthmān al-Maghribī, transmitter</note>
+                     source="#bib378-1"
+                     resp="#mtolay">Abū ʿUthmān al-Maghribī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/378</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B9%D8%AB%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib378-1">
+                      source="#bib378-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib378-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib378-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

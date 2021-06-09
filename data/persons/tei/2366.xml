@@ -206,24 +206,37 @@
                <persName xml:id="name2366-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2366-1">Zayn al-Dīn</persName>
-               <persName xml:id="name2366-2" xml:lang="ar" source="#">على زين الدين الاعمى</persName>
-               <persName xml:id="name2366-3" xml:lang="ar" srophe-tags="#syriaca-headword">زين الدين</persName>
+                         source="#bib2366-1"
+                         resp="#mtolay">Zayn al-Dīn</persName>
+               <persName xml:id="name2366-2"
+                         xml:lang="ar"
+                         source="#bib2366-2"
+                         resp="#rschmahl #mtolay">على زين الدين الاعمى</persName>
+               <persName xml:id="name2366-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">زين الدين</persName>
                <note xml:id="abstract-en-2366"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2366-1">Zayn al-Dīn, the blind, philosopher</note>
+                     source="#bib2366-1"
+                     resp="#mtolay">Zayn al-Dīn, the blind, philosopher</note>
                <idno type="URI">https://usaybia.net/person/2366</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2366-1">
+                      source="#bib2366-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2366-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.52.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib2366-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

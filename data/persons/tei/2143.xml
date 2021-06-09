@@ -206,24 +206,34 @@
                <persName xml:id="name2143-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2143-1">al-Sukkarī, Mawhūb ibn Ẓāfir ibn Jābir, Abū l-Faḍl</persName>
+                         source="#bib2143-1"
+                         resp="#mtolay ">al-Sukkarī, Mawhūb ibn Ẓāfir ibn Jābir, Abū l-Faḍl</persName>
                <persName xml:id="name2143-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="# #bib2143-1">موهوب بن ظافر</persName>
-               <persName xml:id="name2143-3" xml:lang="en-x-lhom" source="#bib2143-1">Mawhūb ibn Ẓāfir</persName>
-               <persName xml:id="name2143-4" xml:lang="ar" srophe-tags="#syriaca-headword">السكري موهوب بن ظافر بن جابر أبو الفضل</persName>
+                         source="#bib2143-2 #bib2143-1"
+                         resp="#rschmahl #mtolay">موهوب بن ظافر</persName>
+               <persName xml:id="name2143-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib2143-1"
+                         resp="#rschmahl #mtolay">Mawhūb ibn Ẓāfir</persName>
+               <persName xml:id="name2143-5" xml:lang="ar" resp="#hfriedel">السكري موهوب بن ظافر بن جابر أبو الفضل</persName>
                <note xml:id="abstract-en-2143"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2143-1">al-Sukkarī, Mawhūb ibn Ẓāfir ibn Jābir, Abū l-Faḍl, physician son of Ẓāfir ibn Jābir</note>
+                     source="#bib2143-1"
+                     resp="#mtolay ">al-Sukkarī, Mawhūb ibn Ẓāfir ibn Jābir, Abū l-Faḍl, physician son of Ẓāfir ibn Jābir</note>
                <idno type="URI">https://usaybia.net/person/2143</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D9%87%D9%88%D8%A8_%D8%A8%D9%86_%D8%B8%D8%A7%D9%81%D8%B1_%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D9%87%D9%88%D8%A8_%D8%A8%D9%86_%D8%B8%D8%A7%D9%81%D8%B1_%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A</idno>
                <bibl xml:id="bib2143-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.6</citedRange>
                   <citedRange unit="section">15.6</citedRange>
+               </bibl>
+               <bibl xml:id="bib2143-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

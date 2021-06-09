@@ -206,30 +206,41 @@
                <persName xml:id="name1221-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1221-1 #bib1221-1">ʿImād al-Dīn al-Dunaysirī</persName>
-               <persName xml:id="name1221-2" xml:lang="ar" source="#">عماد الدين الدنيسري ابو عبد الله محمد ابن عباس بن احمد</persName>
-               <persName xml:id="name1221-3"
+                         source="#bib1221-1"
+                         resp="#rschmahl #rschmahl #mtolay">ʿImād al-Dīn al-Dunaysirī</persName>
+               <persName xml:id="name1221-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1221-1">عماد الدين الدنيسري</persName>
-               <persName xml:id="name1221-4" xml:lang="ar" source="#bib1221-1">ʿImād al-Dīn al-Dunaysirī, physician and literary scholar 15.58</persName>
+                         source="#bib1221-2"
+                         resp="#rschmahl #mtolay">عماد الدين الدنيسري ابو عبد الله محمد ابن عباس بن احمد</persName>
+               <persName xml:id="name1221-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1221-1"
+                         resp="#rschmahl #mtolay #hfriedel">عماد الدين الدنيسري</persName>
+               <persName xml:id="name1221-5"
+                         xml:lang="ar"
+                         source="#bib1221-1"
+                         resp="#rschmahl #mtolay">ʿImād al-Dīn al-Dunaysirī, physician and literary scholar 15.58</persName>
                <note xml:id="abstract-en-1221"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1221-1">ʿImād al-Dīn al-Dunaysirī, physician and literary scholar</note>
+                     source="#bib1221-1"
+                     resp="#rschmahl">ʿImād al-Dīn al-Dunaysirī, physician and literary scholar</note>
                <idno type="URI">https://usaybia.net/person/1221</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/250676</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B9%D8%A8%D8%A7%D8%B3_%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%B3%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/250676</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B9%D8%A8%D8%A7%D8%B3_%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%B3%D8%B1%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1221-1">
+                      source="#bib1221-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="littérateur"
-                      source="#bib1221-1">
+                      source="#bib1221-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>littérateur</desc>
                </state>
                <bibl xml:id="bib1221-1">
@@ -237,6 +248,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.58</citedRange>
                   <citedRange unit="section">15.58</citedRange>
+               </bibl>
+               <bibl xml:id="bib1221-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

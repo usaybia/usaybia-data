@@ -206,14 +206,23 @@
                <persName xml:id="name364-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib364-1">Abū Tammām</persName>
-               <persName xml:id="name364-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو تمام</persName>
+                         source="#bib364-1"
+                         resp="#mtolay">Abū Tammām</persName>
+               <persName xml:id="name364-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو تمام</persName>
                <note xml:id="abstract-en-364"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib364-1">Abū Tammām, poet (d. ca. 231/845)</note>
+                     source="#bib364-1"
+                     resp="#mtolay">Abū Tammām, poet (d. ca. 231/845)</note>
                <idno type="URI">https://usaybia.net/person/364</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib364-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib364-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib364-1">

@@ -206,23 +206,30 @@
                <persName xml:id="name983-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib983-1">Ibn Habal (`or` Hubal)</persName>
-               <persName xml:id="name983-2" xml:lang="en-x-lhom" source="#bib983-1">Shams al-Dīn [ibn Muhadhdhab al-Dīn] ibn Habal</persName>
+                         source="#bib983-1"
+                         resp="#rschmahl">Ibn Habal (`or` Hubal)</persName>
+               <persName xml:id="name983-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib983-1"
+                         resp="#rschmahl #mtolay">Shams al-Dīn [ibn Muhadhdhab al-Dīn] ibn Habal</persName>
                <persName xml:id="name983-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib983-1">شمس الدين بن هَبَل</persName>
-               <persName xml:id="name983-4" xml:lang="ar" srophe-tags="#syriaca-headword">HF</persName>
+                         source="#bib983-1"
+                         resp="#rschmahl #mtolay">شمس الدين بن هَبَل</persName>
+               <persName xml:id="name983-4" xml:lang="ar" resp="#hfriedel">HF</persName>
                <note xml:id="abstract-en-983"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib983-1">Ibn Habal (`or` Hubal), Shams al-Dīn Abū l-ʿAbbās Aḥmad ibn Muhadhdhab al-Dīn Abī l-Ḥasan ʿAlī ibn Aḥmad ibn ʿAlī, physician (b. 548/1153)</note>
+                     source="#bib983-1"
+                     resp="#rschmahl">Ibn Habal (`or` Hubal), Shams al-Dīn Abū l-ʿAbbās Aḥmad ibn Muhadhdhab al-Dīn Abī l-Ḥasan ʿAlī ibn Aḥmad ibn ʿAlī, physician (b. 548/1153)</note>
                <idno type="URI">https://usaybia.net/person/983</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4261</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4261</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib983-1">
+                      source="#bib983-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib983-1">

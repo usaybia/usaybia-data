@@ -206,27 +206,44 @@
                <persName xml:id="name1030-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1030-1">Ibn Kharūf</persName>
-               <persName xml:id="name1030-2" xml:lang="ar" source="#">ابن خروف المغربي الشاعر</persName>
-               <persName xml:id="name1030-3" xml:lang="ar" srophe-tags="#syriaca-headword">ابن خروف</persName>
+                         source="#bib1030-1"
+                         resp="#rschmahl">Ibn Kharūf</persName>
+               <persName xml:id="name1030-2"
+                         xml:lang="ar"
+                         source="#bib1030-2"
+                         resp="#rschmahl #mtolay">ابن خروف المغربي الشاعر</persName>
+               <persName xml:id="name1030-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن خروف</persName>
                <note xml:id="abstract-en-1030"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1030-1">Ibn Kharūf, ʿAlī ibn Muḥammad ibn ʿAlī ibn Kharūf, poet, grammarian (d. ca. 609/1212)</note>
+                     source="#bib1030-1"
+                     resp="#rschmahl">Ibn Kharūf, ʿAlī ibn Muḥammad ibn ʿAlī ibn Kharūf, poet, grammarian (d. ca. 609/1212)</note>
                <idno type="URI">https://usaybia.net/person/1030</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1030-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1030-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib1030-1">
+                      source="#bib1030-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib1030-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.50.6</citedRange>
+               </bibl>
+               <bibl xml:id="bib1030-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

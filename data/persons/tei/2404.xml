@@ -206,17 +206,23 @@
                <persName xml:id="name2404-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2404-1">Abū Ṭālib al-ʿAlawī</persName>
-               <persName xml:id="name2404-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو طالب العلوي</persName>
+                         source="#bib2404-1"
+                         resp="#mtolay">Abū Ṭālib al-ʿAlawī</persName>
+               <persName xml:id="name2404-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو طالب العلوي</persName>
                <note xml:id="abstract-en-2404"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2404-1">Abū Ṭālib al-ʿAlawī, `al-wazīr`, unidentified vizier</note>
+                     source="#bib2404-1"
+                     resp="#mtolay">Abū Ṭālib al-ʿAlawī, `al-wazīr`, unidentified vizier</note>
                <idno type="URI">https://usaybia.net/person/2404</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib2404-1">
+                      source="#bib2404-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib2404-1">

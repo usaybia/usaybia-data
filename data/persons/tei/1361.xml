@@ -206,24 +206,37 @@
                <persName xml:id="name1361-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1361-1 #bib1361-1">Kamāl al-Dīn al-Ḥimṣī</persName>
-               <persName xml:id="name1361-2" xml:lang="ar" source="#">كمال الدين الحمصي أبو منصور المظفر بن على بن ناصر</persName>
-               <persName xml:id="name1361-3"
+                         source="#bib1361-1"
+                         resp="#rschmahl #rschmahl #mtolay">Kamāl al-Dīn al-Ḥimṣī</persName>
+               <persName xml:id="name1361-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1361-1">كمال الدين الحمصي</persName>
-               <persName xml:id="name1361-4" xml:lang="ar" source="#bib1361-1">Kamāl al-Dīn al-Ḥimṣī, pupil of Raḍī al-Dīn al-Raḥbī 15.39</persName>
+                         source="#bib1361-2"
+                         resp="#rschmahl #mtolay">كمال الدين الحمصي أبو منصور المظفر بن على بن ناصر</persName>
+               <persName xml:id="name1361-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1361-1"
+                         resp="#rschmahl #mtolay #hfriedel">كمال الدين الحمصي</persName>
+               <persName xml:id="name1361-5"
+                         xml:lang="ar"
+                         source="#bib1361-1"
+                         resp="#rschmahl #mtolay">Kamāl al-Dīn al-Ḥimṣī, pupil of Raḍī al-Dīn al-Raḥbī 15.39</persName>
                <note xml:id="abstract-en-1361"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1361-1">Kamāl al-Dīn al-Ḥimṣī, pupil of Raḍī al-Dīn al-Raḥbī</note>
+                     source="#bib1361-1"
+                     resp="#rschmahl">Kamāl al-Dīn al-Ḥimṣī, pupil of Raḍī al-Dīn al-Raḥbī</note>
                <idno type="URI">https://usaybia.net/person/1361</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%83%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%AD%D9%85%D8%B5%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%83%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%AD%D9%85%D8%B5%D9%8A</idno>
                <bibl xml:id="bib1361-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.39</citedRange>
                   <citedRange unit="section">15.39</citedRange>
+               </bibl>
+               <bibl xml:id="bib1361-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,14 +206,23 @@
                <persName xml:id="name698-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib698-1">David</persName>
-               <persName xml:id="name698-2" xml:lang="ar" srophe-tags="#syriaca-headword">داود</persName>
+                         source="#bib698-1"
+                         resp="#fioppolo">David</persName>
+               <persName xml:id="name698-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">داود</persName>
                <note xml:id="abstract-en-698"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib698-1">David, King, father of Solomon</note>
+                     source="#bib698-1"
+                     resp="#fioppolo">David, King, father of Solomon</note>
                <idno type="URI">https://usaybia.net/person/698</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib698-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib698-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib698-1">

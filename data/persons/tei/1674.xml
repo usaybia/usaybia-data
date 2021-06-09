@@ -210,28 +210,35 @@
                <persName xml:id="name1674-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1674-1 #bib1674-1">Mūsā ibn al-ʿĀzār al-Isrāʾīlī</persName>
-               <persName xml:id="name1674-2"
+                         source="#bib1674-1"
+                         resp="#fioppolo #rschmahl #mtolay">Mūsā ibn al-ʿĀzār al-Isrāʾīlī</persName>
+               <persName xml:id="name1674-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1674-1">موسى بن العازار الإسرائيلي</persName>
-               <persName xml:id="name1674-3" xml:lang="ar" source="#bib1674-1">Mūsā ibn al-ʿĀzār al-Isrāʾīlī, physician in the service of al-Muʿizz li-Dīn Allāh 14.9</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1674-1"
+                         resp="#rschmahl #mtolay #hfriedel">موسى بن العازار الإسرائيلي</persName>
+               <persName xml:id="name1674-4"
+                         xml:lang="ar"
+                         source="#bib1674-1"
+                         resp="#rschmahl #mtolay">Mūsā ibn al-ʿĀzār al-Isrāʾīlī, physician in the service of al-Muʿizz li-Dīn Allāh 14.9</persName>
                <note xml:id="abstract-en-1674"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1674-1">Mūsā ibn al-ʿĀzār al-Isrāʾīlī, physician in the service of al-Muʿizz li-Dīn Allāh</note>
+                     source="#bib1674-1"
+                     resp="#fioppolo">Mūsā ibn al-ʿĀzār al-Isrāʾīlī, physician in the service of al-Muʿizz li-Dīn Allāh</note>
                <idno type="URI">https://usaybia.net/person/1674</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1674-1">
+                      source="#bib1674-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1674-1">

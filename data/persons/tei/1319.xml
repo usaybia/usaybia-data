@@ -210,18 +210,23 @@
                <persName xml:id="name1319-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1319-1">Jamāl al-Dīn ʿUthmān ibn Aḥmad</persName>
-               <persName xml:id="name1319-2" xml:lang="ar" srophe-tags="#syriaca-headword">جمال الدين عثمان بن أحمد</persName>
+                         source="#bib1319-1"
+                         resp="#rschmahl">Jamāl al-Dīn ʿUthmān ibn Aḥmad</persName>
+               <persName xml:id="name1319-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جمال الدين عثمان بن أحمد</persName>
                <note xml:id="abstract-en-1319"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1319-1">Jamāl al-Dīn ʿUthmān ibn Aḥmad, grandson of physician Jamāl al-Dīn ibn Abī l-Ḥawāfir</note>
+                     source="#bib1319-1"
+                     resp="#rschmahl">Jamāl al-Dīn ʿUthmān ibn Aḥmad, grandson of physician Jamāl al-Dīn ibn Abī l-Ḥawāfir</note>
                <idno type="URI">https://usaybia.net/person/1319</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1319-1">

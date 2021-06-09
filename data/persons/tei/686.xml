@@ -206,17 +206,23 @@
                <persName xml:id="name686-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib686-1">Cyrus</persName>
-               <persName xml:id="name686-2" xml:lang="ar" srophe-tags="#syriaca-headword">كورس</persName>
+                         source="#bib686-1"
+                         resp="#fioppolo">Cyrus</persName>
+               <persName xml:id="name686-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كورس</persName>
                <note xml:id="abstract-en-686"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib686-1">Cyrus, founder of the Persian Empire</note>
+                     source="#bib686-1"
+                     resp="#fioppolo">Cyrus, founder of the Persian Empire</note>
                <idno type="URI">https://usaybia.net/person/686</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="founder"
-                      source="#bib686-1">
+                      source="#bib686-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>founder</desc>
                </state>
                <bibl xml:id="bib686-1">

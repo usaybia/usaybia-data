@@ -210,24 +210,30 @@
                <persName xml:id="name121-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib121-1">Abū Bakr Aḥmad ibn ʿAlī al-Rāzī</persName>
-               <persName xml:id="name121-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر أحمد بن علي الرازي</persName>
+                         source="#bib121-1"
+                         resp="#rschmahl">Abū Bakr Aḥmad ibn ʿAlī al-Rāzī</persName>
+               <persName xml:id="name121-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر أحمد بن علي الرازي</persName>
                <note xml:id="abstract-en-121"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib121-1">Abū Bakr Aḥmad ibn ʿAlī al-Rāzī, jurist</note>
+                     source="#bib121-1"
+                     resp="#rschmahl">Abū Bakr Aḥmad ibn ʿAlī al-Rāzī, jurist</note>
                <idno type="URI">https://usaybia.net/person/121</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib121-1">
+                      source="#bib121-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib121-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name248-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib248-1">Abū Jaʿfar Muḥammad ibn al-Qāsim al-Karkhī</persName>
-               <persName xml:id="name248-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو جعفر محمد بن القاسم الكرخي</persName>
+                         source="#bib248-1"
+                         resp="#mtolay">Abū Jaʿfar Muḥammad ibn al-Qāsim al-Karkhī</persName>
+               <persName xml:id="name248-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو جعفر محمد بن القاسم الكرخي</persName>
                <note xml:id="abstract-en-248"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib248-1">Abū Jaʿfar Muḥammad ibn al-Qāsim al-Karkhī, vizier</note>
+                     source="#bib248-1"
+                     resp="#mtolay">Abū Jaʿfar Muḥammad ibn al-Qāsim al-Karkhī, vizier</note>
                <idno type="URI">https://usaybia.net/person/248</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib248-1">
+                      source="#bib248-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib248-1">

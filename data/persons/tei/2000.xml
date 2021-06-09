@@ -206,24 +206,31 @@
                <persName xml:id="name2000-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2000-1">al-Samawʾal ibn Yaḥyā ibn ʿAbbās al-Maghribī</persName>
-               <persName xml:id="name2000-2" xml:lang="en-x-lhom" source="#bib2000-1">al-Samawʾal</persName>
+                         source="#bib2000-1"
+                         resp="#mtolay">al-Samawʾal ibn Yaḥyā ibn ʿAbbās al-Maghribī</persName>
+               <persName xml:id="name2000-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2000-1"
+                         resp="#rschmahl #mtolay">al-Samawʾal</persName>
                <persName xml:id="name2000-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib2000-1">السموأل بن يحيى بن عباس المغربي</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2000-1"
+                         resp="#rschmahl #mtolay #hfriedel">السموأل بن يحيى بن عباس المغربي</persName>
                <note xml:id="abstract-en-2000"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2000-1">al-Samawʾal ibn Yaḥyā ibn ʿAbbās al-Maghribī, mathematician (d. 570/1174)</note>
+                     source="#bib2000-1"
+                     resp="#mtolay">al-Samawʾal ibn Yaḥyā ibn ʿAbbās al-Maghribī, mathematician (d. 570/1174)</note>
                <idno type="URI">https://usaybia.net/person/2000</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D9%85%D9%88%D8%A3%D9%84_%D8%A8%D9%86_%D9%8A%D8%AD%D9%8A%D9%89_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/93799625</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8881</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B3%D9%85%D9%88%D8%A3%D9%84_%D8%A8%D9%86_%D9%8A%D8%AD%D9%8A%D9%89_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/93799625</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8881</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib2000-1">
+                      source="#bib2000-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <bibl xml:id="bib2000-1">

@@ -210,25 +210,35 @@
                <persName xml:id="name349-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib349-1 #bib349-1">Abū Shākir ibn Abī Sulaymān</persName>
-               <persName xml:id="name349-2"
+                         source="#bib349-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū Shākir ibn Abī Sulaymān</persName>
+               <persName xml:id="name349-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib349-1">أبو شاكر بن أبي سليمان</persName>
-               <persName xml:id="name349-3" xml:lang="ar" source="#bib349-1">Abū Shākir ibn Abī Sulaymān, Christian physician of Egypt (d. 613/1216) 14.51; 14.54.3; 14.54.4; 14.54.13</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib349-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو شاكر بن أبي سليمان</persName>
+               <persName xml:id="name349-4"
+                         xml:lang="ar"
+                         source="#bib349-1"
+                         resp="#rschmahl #mtolay">Abū Shākir ibn Abī Sulaymān, Christian physician of Egypt (d. 613/1216) 14.51; 14.54.3; 14.54.4; 14.54.13</persName>
                <note xml:id="abstract-en-349"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib349-1">Abū Shākir ibn Abī Sulaymān, Christian physician of Egypt (d. 613/1216)</note>
+                     source="#bib349-1"
+                     resp="#mtolay">Abū Shākir ibn Abī Sulaymān, Christian physician of Egypt (d. 613/1216)</note>
                <idno type="URI">https://usaybia.net/person/349</idno>
-               <idno type="URI">https://viaf.org/viaf/2719151595768105470008</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/2719151595768105470008</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib349-1">
+                      source="#bib349-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib349-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib349-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib349-1">

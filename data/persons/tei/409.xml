@@ -210,25 +210,38 @@
                <persName xml:id="name409-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib409-1 #bib409-1">ʿAfīf ibn Sukkarah</persName>
-               <persName xml:id="name409-2" xml:lang="ar" source="#">عفيف بن عبد القاهر بن سكرة</persName>
-               <persName xml:id="name409-3"
+                         source="#bib409-1"
+                         resp="#mtolay #rschmahl #mtolay">ʿAfīf ibn Sukkarah</persName>
+               <persName xml:id="name409-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib409-1">عفيف بن سكرة</persName>
-               <persName xml:id="name409-4" xml:lang="ar" source="#bib409-1">ʿAfīf ibn Sukkarah, Jewish physician from Aleppo (active 584/1188) 15.16</persName>
+                         source="#bib409-2"
+                         resp="#rschmahl #mtolay">عفيف بن عبد القاهر بن سكرة</persName>
+               <persName xml:id="name409-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib409-1"
+                         resp="#rschmahl #mtolay #hfriedel">عفيف بن سكرة</persName>
+               <persName xml:id="name409-5"
+                         xml:lang="ar"
+                         source="#bib409-1"
+                         resp="#rschmahl #mtolay">ʿAfīf ibn Sukkarah, Jewish physician from Aleppo (active 584/1188) 15.16</persName>
                <note xml:id="abstract-en-409"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib409-1">ʿAfīf ibn Sukkarah, Jewish physician from Aleppo (active 584/1188)</note>
+                     source="#bib409-1"
+                     resp="#mtolay">ʿAfīf ibn Sukkarah, Jewish physician from Aleppo (active 584/1188)</note>
                <idno type="URI">https://usaybia.net/person/409</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib409-1">
+                      source="#bib409-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib409-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib409-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib409-1">
@@ -236,6 +249,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.16</citedRange>
                   <citedRange unit="section">15.16</citedRange>
+               </bibl>
+               <bibl xml:id="bib409-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -210,24 +210,30 @@
                <persName xml:id="name1369-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1369-1">Kaykāʾūs ibn Kaykhusraw</persName>
-               <persName xml:id="name1369-2" xml:lang="ar" srophe-tags="#syriaca-headword">كيكاؤوس بن كيخسرو</persName>
+                         source="#bib1369-1"
+                         resp="#rschmahl">Kaykāʾūs ibn Kaykhusraw</persName>
+               <persName xml:id="name1369-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كيكاؤوس بن كيخسرو</persName>
                <note xml:id="abstract-en-1369"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1369-1">Kaykāʾūs ibn Kaykhusraw, al-Malik al-Ghālib, Seljuqid ruler of al-Rūm (Anatolia) (`reg.` 608–618/1211–1220)</note>
+                     source="#bib1369-1"
+                     resp="#rschmahl">Kaykāʾūs ibn Kaykhusraw, al-Malik al-Ghālib, Seljuqid ruler of al-Rūm (Anatolia) (`reg.` 608–618/1211–1220)</note>
                <idno type="URI">https://usaybia.net/person/1369</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1369-1">
+                      source="#bib1369-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1369-1">

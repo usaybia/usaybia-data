@@ -206,24 +206,30 @@
                <persName xml:id="name2008-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2008-1">al-Sarakhsī, Aḥmad ibn al-Ṭayyib</persName>
-               <persName xml:id="name2008-2" xml:lang="en-x-lhom" source="#bib2008-1">Aḥmad ibn al-Ṭayyib al-Sarakhsī</persName>
+                         source="#bib2008-1"
+                         resp="#mtolay">al-Sarakhsī, Aḥmad ibn al-Ṭayyib</persName>
+               <persName xml:id="name2008-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2008-1"
+                         resp="#rschmahl #mtolay">Aḥmad ibn al-Ṭayyib al-Sarakhsī</persName>
                <persName xml:id="name2008-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2008-1">أحمد بن الطيب السرخسي</persName>
-               <persName xml:id="name2008-4" xml:lang="ar" srophe-tags="#syriaca-headword">السرخسي أحمد بن الطيب</persName>
+                         source="#bib2008-1"
+                         resp="#rschmahl #mtolay">أحمد بن الطيب السرخسي</persName>
+               <persName xml:id="name2008-4" xml:lang="ar" resp="#hfriedel">السرخسي أحمد بن الطيب</persName>
                <note xml:id="abstract-en-2008"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2008-1">al-Sarakhsī, Aḥmad ibn al-Ṭayyib</note>
+                     source="#bib2008-1"
+                     resp="#mtolay">al-Sarakhsī, Aḥmad ibn al-Ṭayyib</note>
                <idno type="URI">https://usaybia.net/person/2008</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4184</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50031</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8_%D8%A7%D9%84%D8%B3%D8%B1%D8%AE%D8%B3%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/14145425</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6619</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0228</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4184</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50031</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8_%D8%A7%D9%84%D8%B3%D8%B1%D8%AE%D8%B3%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/14145425</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6619</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0228</idno>
                <bibl xml:id="bib2008-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

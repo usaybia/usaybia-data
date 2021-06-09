@@ -210,24 +210,30 @@
                <persName xml:id="name308-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib308-1">Abū l-Qāsim ʿAbd al-Raḥmān ibn al-Ḥusayn ibn ʿAlī ibn Abī l-ʿAqib</persName>
-               <persName xml:id="name308-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو القاسم عبد الرحمن بن الحسين بن علي بن أبي العقب</persName>
+                         source="#bib308-1"
+                         resp="#mtolay">Abū l-Qāsim ʿAbd al-Raḥmān ibn al-Ḥusayn ibn ʿAlī ibn Abī l-ʿAqib</persName>
+               <persName xml:id="name308-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو القاسم عبد الرحمن بن الحسين بن علي بن أبي العقب</persName>
                <note xml:id="abstract-en-308"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib308-1">Abū l-Qāsim ʿAbd al-Raḥmān ibn al-Ḥusayn ibn ʿAlī ibn Abī l-ʿAqib, transmitter</note>
+                     source="#bib308-1"
+                     resp="#mtolay">Abū l-Qāsim ʿAbd al-Raḥmān ibn al-Ḥusayn ibn ʿAlī ibn Abī l-ʿAqib, transmitter</note>
                <idno type="URI">https://usaybia.net/person/308</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib308-1">
+                      source="#bib308-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib308-1">

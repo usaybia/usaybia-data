@@ -210,24 +210,30 @@
                <persName xml:id="name1436-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1436-1">al-Mahdī</persName>
-               <persName xml:id="name1436-2" xml:lang="ar" srophe-tags="#syriaca-headword">المهدي</persName>
+                         source="#bib1436-1"
+                         resp="#fioppolo">al-Mahdī</persName>
+               <persName xml:id="name1436-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المهدي</persName>
                <note xml:id="abstract-en-1436"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1436-1">al-Mahdī, third Abbasid caliph (`reg.` 158– 169/775–85)</note>
+                     source="#bib1436-1"
+                     resp="#fioppolo">al-Mahdī, third Abbasid caliph (`reg.` 158– 169/775–85)</note>
                <idno type="URI">https://usaybia.net/person/1436</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1436-1">
+                      source="#bib1436-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1436-1">

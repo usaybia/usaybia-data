@@ -210,18 +210,23 @@
                <persName xml:id="name78-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib78-1">Abū ʿAbd Allāh Muḥammad</persName>
-               <persName xml:id="name78-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عبد الله محمد</persName>
+                         source="#bib78-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh Muḥammad</persName>
+               <persName xml:id="name78-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عبد الله محمد</persName>
                <note xml:id="abstract-en-78"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib78-1">Abū ʿAbd Allāh Muḥammad, son of Abū Isḥāq Ibrāhīm al-Dānī</note>
+                     source="#bib78-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh Muḥammad, son of Abū Isḥāq Ibrāhīm al-Dānī</note>
                <idno type="URI">https://usaybia.net/person/78</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib78-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name146-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib146-1">Abū Dhiʾb</persName>
-               <persName xml:id="name146-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو ذئب</persName>
+                         source="#bib146-1"
+                         resp="#rschmahl">Abū Dhiʾb</persName>
+               <persName xml:id="name146-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو ذئب</persName>
                <note xml:id="abstract-en-146"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib146-1">Abū Dhiʾb, transmitter</note>
+                     source="#bib146-1"
+                     resp="#rschmahl">Abū Dhiʾb, transmitter</note>
                <idno type="URI">https://usaybia.net/person/146</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib146-1">
+                      source="#bib146-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib146-1">

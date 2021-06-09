@@ -206,17 +206,23 @@
                <persName xml:id="name700-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib700-1">Dāwūd ibn Ḥunayn</persName>
-               <persName xml:id="name700-2" xml:lang="ar" srophe-tags="#syriaca-headword">داود بن حنين</persName>
+                         source="#bib700-1"
+                         resp="#fioppolo">Dāwūd ibn Ḥunayn</persName>
+               <persName xml:id="name700-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">داود بن حنين</persName>
                <note xml:id="abstract-en-700"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib700-1">Dāwūd ibn Ḥunayn, physician son of Ḥunayn ibn Isḥāq</note>
+                     source="#bib700-1"
+                     resp="#fioppolo">Dāwūd ibn Ḥunayn, physician son of Ḥunayn ibn Isḥāq</note>
                <idno type="URI">https://usaybia.net/person/700</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib700-1">
+                      source="#bib700-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib700-1">

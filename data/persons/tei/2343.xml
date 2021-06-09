@@ -206,23 +206,30 @@
                <persName xml:id="name2343-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2343-1">Yūsuf al-Khūrī `or` al-Qass, Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā</persName>
-               <persName xml:id="name2343-2" xml:lang="en-x-lhom" source="#bib2343-1">Yūsuf the Translator</persName>
+                         source="#bib2343-1"
+                         resp="#mtolay">Yūsuf al-Khūrī `or` al-Qass, Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā</persName>
+               <persName xml:id="name2343-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2343-1"
+                         resp="#rschmahl #mtolay">Yūsuf the Translator</persName>
                <persName xml:id="name2343-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2343-1">يوسف الناقل</persName>
-               <persName xml:id="name2343-4" xml:lang="ar" srophe-tags="#syriaca-headword">يوسف الخوري / القس، أبو يعقوب بن يوسف بن عيسى</persName>
+                         source="#bib2343-1"
+                         resp="#rschmahl #mtolay">يوسف الناقل</persName>
+               <persName xml:id="name2343-4" xml:lang="ar" resp="#hfriedel">يوسف الخوري / القس، أبو يعقوب بن يوسف بن عيسى</persName>
                <note xml:id="abstract-en-2343"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2343-1">Yūsuf al-Khūrī `or` al-Qass (the priest), Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā known as Yūsuf the Translator, the Physician, and the Sleepless, physician under al-Muktafī</note>
+                     source="#bib2343-1"
+                     resp="#mtolay">Yūsuf al-Khūrī `or` al-Qass (the priest), Abū Yaʿqūb ibn Yūsuf ibn ʿĪsā known as Yūsuf the Translator, the Physician, and the Sleepless, physician under al-Muktafī</note>
                <idno type="URI">https://usaybia.net/person/2343</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4161</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4161</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2343-1">
+                      source="#bib2343-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2343-1">

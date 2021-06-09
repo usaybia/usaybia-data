@@ -206,17 +206,23 @@
                <persName xml:id="name1063-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1063-1">Ibn Munqidh</persName>
-               <persName xml:id="name1063-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن منقذ</persName>
+                         source="#bib1063-1"
+                         resp="#rschmahl">Ibn Munqidh</persName>
+               <persName xml:id="name1063-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن منقذ</persName>
                <note xml:id="abstract-en-1063"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1063-1">Ibn Munqidh, al-Mubārak ibn Kāmil ibn ʿAlī, high official under Saladin</note>
+                     source="#bib1063-1"
+                     resp="#rschmahl">Ibn Munqidh, al-Mubārak ibn Kāmil ibn ʿAlī, high official under Saladin</note>
                <idno type="URI">https://usaybia.net/person/1063</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="official"
-                      source="#bib1063-1">
+                      source="#bib1063-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>official</desc>
                </state>
                <bibl xml:id="bib1063-1">

@@ -206,20 +206,30 @@
                <persName xml:id="name57-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib57-1">al-Ābī</persName>
-               <persName xml:id="name57-2" xml:lang="ar" srophe-tags="#syriaca-headword">الآبي</persName>
+                         source="#bib57-1"
+                         resp="#rschmahl">al-Ābī</persName>
+               <persName xml:id="name57-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الآبي</persName>
                <note xml:id="abstract-en-57"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib57-1">al-Ābī, Abū Saʿd (`or` Saʿīd) Manṣūr ibn al-Ḥusayn, man of letters and vizier</note>
+                     source="#bib57-1"
+                     resp="#rschmahl">al-Ābī, Abū Saʿd (`or` Saʿīd) Manṣūr ibn al-Ḥusayn, man of letters and vizier</note>
                <idno type="URI">https://usaybia.net/person/57</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="man of letters"
-                      source="#bib57-1">
+                      source="#bib57-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>man of letters</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="vizier" source="#bib57-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="vizier"
+                      source="#bib57-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib57-1">

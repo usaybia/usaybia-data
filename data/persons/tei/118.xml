@@ -210,18 +210,23 @@
                <persName xml:id="name118-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib118-1">Abū Ayyūb Muḥammad ibn al-Rashīd</persName>
-               <persName xml:id="name118-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو أيوب محمد بن الرشيد</persName>
+                         source="#bib118-1"
+                         resp="#rschmahl">Abū Ayyūb Muḥammad ibn al-Rashīd</persName>
+               <persName xml:id="name118-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو أيوب محمد بن الرشيد</persName>
                <note xml:id="abstract-en-118"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib118-1">Abū Ayyūb Muḥammad ibn al-Rashīd, a son of the caliph Hārūn al-Rashīd</note>
+                     source="#bib118-1"
+                     resp="#rschmahl">Abū Ayyūb Muḥammad ibn al-Rashīd, a son of the caliph Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/118</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib118-1">

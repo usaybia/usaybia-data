@@ -206,19 +206,25 @@
                <persName xml:id="name1964-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1964-1 #bib1964-1">Ṣāʿid ibn Bishr ibn ʿAbdūs</persName>
-               <persName xml:id="name1964-2"
+                         source="#bib1964-1"
+                         resp="#mtolay #rschmahl #mtolay">Ṣāʿid ibn Bishr ibn ʿAbdūs</persName>
+               <persName xml:id="name1964-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1964-1">صاعد بن بشر بن عبدوس</persName>
-               <persName xml:id="name1964-3" xml:lang="ar" source="#bib1964-1">Ṣāʿid ibn Bishr ibn ʿAbdūs 10.13; 10.23.2; 10.38.4</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1964-1"
+                         resp="#rschmahl #mtolay #hfriedel">صاعد بن بشر بن عبدوس</persName>
+               <persName xml:id="name1964-4"
+                         xml:lang="ar"
+                         source="#bib1964-1"
+                         resp="#rschmahl #mtolay">Ṣāʿid ibn Bishr ibn ʿAbdūs 10.13; 10.23.2; 10.38.4</persName>
                <note xml:id="abstract-en-1964"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1964-1">Ṣāʿid ibn Bishr ibn ʿAbdūs</note>
+                     source="#bib1964-1"
+                     resp="#mtolay">Ṣāʿid ibn Bishr ibn ʿAbdūs</note>
                <idno type="URI">https://usaybia.net/person/1964</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4195</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF%D9%88%D8%B3</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4195</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF%D9%88%D8%B3</idno>
                <bibl xml:id="bib1964-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -210,18 +210,23 @@
                <persName xml:id="name420-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib420-1">Aḥmad ibn ʿAbd Allāh ibn Aḥmad ibn Ibrāhīm al-Bakhtārī</persName>
-               <persName xml:id="name420-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن عبد الله بن أحمد بن إبراهيم البختاري</persName>
+                         source="#bib420-1"
+                         resp="#mtolay">Aḥmad ibn ʿAbd Allāh ibn Aḥmad ibn Ibrāhīm al-Bakhtārī</persName>
+               <persName xml:id="name420-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن عبد الله بن أحمد بن إبراهيم البختاري</persName>
                <note xml:id="abstract-en-420"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib420-1">Aḥmad ibn ʿAbd Allāh ibn Aḥmad ibn Ibrāhīm al-Bakhtārī, great-grandson of Ibn al-Bakhtārī</note>
+                     source="#bib420-1"
+                     resp="#mtolay">Aḥmad ibn ʿAbd Allāh ibn Aḥmad ibn Ibrāhīm al-Bakhtārī, great-grandson of Ibn al-Bakhtārī</note>
                <idno type="URI">https://usaybia.net/person/420</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib420-1">

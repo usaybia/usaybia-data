@@ -210,38 +210,45 @@
                <persName xml:id="name861-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib861-1">Ḥasdāy ibn Yūsuf ibn Ḥasdāy, Abū l-Faḍl</persName>
-               <persName xml:id="name861-2" xml:lang="en-x-lhom" source="#bib861-1">Abū l-Faḍl Ḥasdāy ibn Yūsuf ibn Ḥasdāy</persName>
+                         source="#bib861-1"
+                         resp="#fioppolo">Ḥasdāy ibn Yūsuf ibn Ḥasdāy, Abū l-Faḍl</persName>
+               <persName xml:id="name861-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib861-1"
+                         resp="#rschmahl #mtolay">Abū l-Faḍl Ḥasdāy ibn Yūsuf ibn Ḥasdāy</persName>
                <persName xml:id="name861-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib861-1">أبو الفضل حسداي بن يوسف بن حسداي</persName>
-               <persName xml:id="name861-4" xml:lang="ar" srophe-tags="#syriaca-headword">حسداي بن يوسف بن حسداي أبو الفضل</persName>
+                         source="#bib861-1"
+                         resp="#rschmahl #mtolay">أبو الفضل حسداي بن يوسف بن حسداي</persName>
+               <persName xml:id="name861-4" xml:lang="ar" resp="#hfriedel">حسداي بن يوسف بن حسداي أبو الفضل</persName>
                <note xml:id="abstract-en-861"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib861-1">Ḥasdāy ibn Yūsuf ibn Ḥasdāy, Abū l-Faḍl, Andalusian physician</note>
+                     source="#bib861-1"
+                     resp="#fioppolo">Ḥasdāy ibn Yūsuf ibn Ḥasdāy, Abū l-Faḍl, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/861</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50071</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_33076</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50071</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_33076</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib861-1">
+                      source="#bib861-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib861-1">

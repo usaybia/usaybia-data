@@ -210,27 +210,37 @@
                <persName xml:id="name1778-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1778-1">Niqūlā</persName>
-               <persName xml:id="name1778-2" xml:lang="ar" srophe-tags="#syriaca-headword">نقولى</persName>
+                         source="#bib1778-1"
+                         resp="#fioppolo">Niqūlā</persName>
+               <persName xml:id="name1778-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">نقولى</persName>
                <note xml:id="abstract-en-1778"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1778-1">Niqūlā, Byzantine monk collaborator in the Andalusī translation of `De Materia Medica`</note>
+                     source="#bib1778-1"
+                     resp="#fioppolo">Niqūlā, Byzantine monk collaborator in the Andalusī translation of `De Materia Medica`</note>
                <idno type="URI">https://usaybia.net/person/1778</idno>
-               <state xml:lang="en" type="occupation" role="monk" source="#bib1778-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="monk"
+                      source="#bib1778-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>monk</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="orator"
-                      source="#bib1778-1">
+                      source="#bib1778-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>orator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1778-1">

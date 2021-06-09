@@ -210,18 +210,23 @@
                <persName xml:id="name6-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib6-1">al-ʿAbbās ibn Muḥammad</persName>
-               <persName xml:id="name6-2" xml:lang="ar" srophe-tags="#syriaca-headword">العباس بن محمد</persName>
+                         source="#bib6-1"
+                         resp="#fioppolo">al-ʿAbbās ibn Muḥammad</persName>
+               <persName xml:id="name6-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">العباس بن محمد</persName>
                <note xml:id="abstract-en-6"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib6-1">al-ʿAbbās ibn Muḥammad, brother of al-Manṣūr</note>
+                     source="#bib6-1"
+                     resp="#fioppolo">al-ʿAbbās ibn Muḥammad, brother of al-Manṣūr</note>
                <idno type="URI">https://usaybia.net/person/6</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib6-1">

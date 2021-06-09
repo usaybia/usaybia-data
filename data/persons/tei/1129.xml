@@ -206,27 +206,37 @@
                <persName xml:id="name1129-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1129-1">Ibn al-Suwaydī</persName>
-               <persName xml:id="name1129-2" xml:lang="ar" source="#">عز الدين ابو اسحق ابرهيم بن هحهد ابن السويدي</persName>
-               <persName xml:id="name1129-3" xml:lang="en-x-lhom" source="#bib1129-1">ʿIzz al-Dīn ibn al-Suwaydī</persName>
+                         source="#bib1129-1"
+                         resp="#rschmahl">Ibn al-Suwaydī</persName>
+               <persName xml:id="name1129-2"
+                         xml:lang="ar"
+                         source="#bib1129-2"
+                         resp="#rschmahl #mtolay">عز الدين ابو اسحق ابرهيم بن هحهد ابن السويدي</persName>
+               <persName xml:id="name1129-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1129-1"
+                         resp="#rschmahl #mtolay">ʿIzz al-Dīn ibn al-Suwaydī</persName>
                <persName xml:id="name1129-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1129-1">عز الدين بن السويدي</persName>
-               <persName xml:id="name1129-5" xml:lang="ar" srophe-tags="#syriaca-headword">ابن السويدي</persName>
+                         source="#bib1129-1"
+                         resp="#rschmahl #mtolay">عز الدين بن السويدي</persName>
+               <persName xml:id="name1129-5" xml:lang="ar" resp="#hfriedel">ابن السويدي</persName>
                <note xml:id="abstract-en-1129"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1129-1">Ibn al-Suwaydī, ʿIzz al-Dīn Abū Isḥāq Ibrāhīm ibn Muḥammad, Damascene physician (d. 690/1291)</note>
+                     source="#bib1129-1"
+                     resp="#rschmahl">Ibn al-Suwaydī, ʿIzz al-Dīn Abū Isḥāq Ibrāhīm ibn Muḥammad, Damascene physician (d. 690/1291)</note>
                <idno type="URI">https://usaybia.net/person/1129</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/250717</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D8%B2_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90055164</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_1129</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/250717</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D8%B2_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90055164</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_1129</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1129-1">
+                      source="#bib1129-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1129-1">
@@ -234,6 +244,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.23.3; 15.57</citedRange>
                   <citedRange unit="section">15.57</citedRange>
+               </bibl>
+               <bibl xml:id="bib1129-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

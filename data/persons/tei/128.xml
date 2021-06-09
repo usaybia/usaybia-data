@@ -206,20 +206,30 @@
                <persName xml:id="name128-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib128-1">Abū Bakr al-Khālidī</persName>
-               <persName xml:id="name128-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر الخالدي</persName>
+                         source="#bib128-1"
+                         resp="#rschmahl">Abū Bakr al-Khālidī</persName>
+               <persName xml:id="name128-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر الخالدي</persName>
                <note xml:id="abstract-en-128"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib128-1">Abū Bakr al-Khālidī, 4th/10th-c. poet and man of letters, brother of Abū ʿUthmān al-Khālidī</note>
+                     source="#bib128-1"
+                     resp="#rschmahl">Abū Bakr al-Khālidī, 4th/10th-c. poet and man of letters, brother of Abū ʿUthmān al-Khālidī</note>
                <idno type="URI">https://usaybia.net/person/128</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib128-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib128-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="littérateur"
-                      source="#bib128-1">
+                      source="#bib128-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>littérateur</desc>
                </state>
                <bibl xml:id="bib128-1">

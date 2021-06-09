@@ -210,24 +210,30 @@
                <persName xml:id="name515-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib515-1">Anas ibn Mālik</persName>
-               <persName xml:id="name515-2" xml:lang="ar" srophe-tags="#syriaca-headword">أنس بن مالك</persName>
+                         source="#bib515-1"
+                         resp="#fioppolo">Anas ibn Mālik</persName>
+               <persName xml:id="name515-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أنس بن مالك</persName>
                <note xml:id="abstract-en-515"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib515-1">Anas ibn Mālik, Companion of the Prophet, traditionist</note>
+                     source="#bib515-1"
+                     resp="#fioppolo">Anas ibn Mālik, Companion of the Prophet, traditionist</note>
                <idno type="URI">https://usaybia.net/person/515</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="traditionist"
-                      source="#bib515-1">
+                      source="#bib515-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>traditionist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib515-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name2169-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2169-1">al-Ṭabarī</persName>
-               <persName xml:id="name2169-2" xml:lang="ar" srophe-tags="#syriaca-headword">الطبري</persName>
+                         source="#bib2169-1"
+                         resp="#mtolay">al-Ṭabarī</persName>
+               <persName xml:id="name2169-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الطبري</persName>
                <note xml:id="abstract-en-2169"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2169-1">al-Ṭabarī, astrologer favoured by Ghaḍīḍ</note>
+                     source="#bib2169-1"
+                     resp="#mtolay">al-Ṭabarī, astrologer favoured by Ghaḍīḍ</note>
                <idno type="URI">https://usaybia.net/person/2169</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astrologer"
-                      source="#bib2169-1">
+                      source="#bib2169-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astrologer</desc>
                </state>
                <bibl xml:id="bib2169-1">

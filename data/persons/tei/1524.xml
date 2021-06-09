@@ -210,18 +210,23 @@
                <persName xml:id="name1524-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1524-1">Maryam bint Bukhtīshūʿ</persName>
-               <persName xml:id="name1524-2" xml:lang="ar" srophe-tags="#syriaca-headword">مريم بنت بختيشوع</persName>
+                         source="#bib1524-1"
+                         resp="#fioppolo">Maryam bint Bukhtīshūʿ</persName>
+               <persName xml:id="name1524-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مريم بنت بختيشوع</persName>
                <note xml:id="abstract-en-1524"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1524-1">Maryam bint Bukhtīshūʿ, sister of Jibrīl ibn Bukhtīshūʿ, mother of Jūrjis ibn Mīkhāʾīl</note>
+                     source="#bib1524-1"
+                     resp="#fioppolo">Maryam bint Bukhtīshūʿ, sister of Jibrīl ibn Bukhtīshūʿ, mother of Jūrjis ibn Mīkhāʾīl</note>
                <idno type="URI">https://usaybia.net/person/1524</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1524-1">

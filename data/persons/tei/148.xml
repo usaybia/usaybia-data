@@ -206,26 +206,37 @@
                <persName xml:id="name148-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib148-1">Abū Dulaf al-Qāsim ibn ʿĪsā ibn Idrīs</persName>
-               <persName xml:id="name148-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو دلف القاسم بن عيسى بن إدريس</persName>
+                         source="#bib148-1"
+                         resp="#rschmahl">Abū Dulaf al-Qāsim ibn ʿĪsā ibn Idrīs</persName>
+               <persName xml:id="name148-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو دلف القاسم بن عيسى بن إدريس</persName>
                <note xml:id="abstract-en-148"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib148-1">Abū Dulaf al-Qāsim ibn ʿĪsā ibn Idrīs, 2nd– 3rd/8th–9th-c. commander, poet and musician</note>
+                     source="#bib148-1"
+                     resp="#rschmahl">Abū Dulaf al-Qāsim ibn ʿĪsā ibn Idrīs, 2nd– 3rd/8th–9th-c. commander, poet and musician</note>
                <idno type="URI">https://usaybia.net/person/148</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="commander"
-                      source="#bib148-1">
+                      source="#bib148-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>commander</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib148-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib148-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="musician"
-                      source="#bib148-1">
+                      source="#bib148-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>musician</desc>
                </state>
                <bibl xml:id="bib148-1">

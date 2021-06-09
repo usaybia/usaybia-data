@@ -210,24 +210,30 @@
                <persName xml:id="name854-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib854-1">al-Ḥasan ibn Muḥammad al-Ṭūsī al-Tamīmī</persName>
-               <persName xml:id="name854-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحسن بن محمد الطوسي التميمي</persName>
+                         source="#bib854-1"
+                         resp="#fioppolo">al-Ḥasan ibn Muḥammad al-Ṭūsī al-Tamīmī</persName>
+               <persName xml:id="name854-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحسن بن محمد الطوسي التميمي</persName>
                <note xml:id="abstract-en-854"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib854-1">al-Ḥasan ibn Muḥammad al-Ṭūsī al-Tamīmī, known as `al-Abaḥh` (‘the hoarse’), astrologer favoured by Ghaḍīḍ</note>
+                     source="#bib854-1"
+                     resp="#fioppolo">al-Ḥasan ibn Muḥammad al-Ṭūsī al-Tamīmī, known as `al-Abaḥh` (‘the hoarse’), astrologer favoured by Ghaḍīḍ</note>
                <idno type="URI">https://usaybia.net/person/854</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astrologer"
-                      source="#bib854-1">
+                      source="#bib854-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astrologer</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib854-1">

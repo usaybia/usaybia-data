@@ -210,21 +210,30 @@
                <persName xml:id="name484-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib484-1">ʿAlī ibn Yūsuf ibn Tāshufīn</persName>
-               <persName xml:id="name484-2" xml:lang="ar" srophe-tags="#syriaca-headword">علي بن يوسف بن تاشفين</persName>
+                         source="#bib484-1"
+                         resp="#fioppolo">ʿAlī ibn Yūsuf ibn Tāshufīn</persName>
+               <persName xml:id="name484-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">علي بن يوسف بن تاشفين</persName>
                <note xml:id="abstract-en-484"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib484-1">ʿAlī ibn Yūsuf ibn Tāshufīn, Almoravid ruler (reg. 500–537/1107–1142)</note>
+                     source="#bib484-1"
+                     resp="#fioppolo">ʿAlī ibn Yūsuf ibn Tāshufīn, Almoravid ruler (reg. 500–537/1107–1142)</note>
                <idno type="URI">https://usaybia.net/person/484</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib484-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib484-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib484-1">

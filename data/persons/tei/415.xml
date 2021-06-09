@@ -206,17 +206,23 @@
                <persName xml:id="name415-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib415-1">Agathinus</persName>
-               <persName xml:id="name415-2" xml:lang="ar" srophe-tags="#syriaca-headword">اقنينوس</persName>
+                         source="#bib415-1"
+                         resp="#mtolay">Agathinus</persName>
+               <persName xml:id="name415-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">اقنينوس</persName>
                <note xml:id="abstract-en-415"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib415-1">Agathinus, 1st-c. physician</note>
+                     source="#bib415-1"
+                     resp="#mtolay">Agathinus, 1st-c. physician</note>
                <idno type="URI">https://usaybia.net/person/415</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib415-1">
+                      source="#bib415-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib415-1">

@@ -206,23 +206,30 @@
                <persName xml:id="name1275-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1275-1">Isidore of Seville</persName>
-               <persName xml:id="name1275-2" xml:lang="ar" srophe-tags="#syriaca-headword">إشيذر الإشبيلي</persName>
+                         source="#bib1275-1"
+                         resp="#rschmahl">Isidore of Seville</persName>
+               <persName xml:id="name1275-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إشيذر الإشبيلي</persName>
                <note xml:id="abstract-en-1275"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1275-1">Isidore of Seville, encyclopaedist author of `Etymologies` (d. 636)</note>
+                     source="#bib1275-1"
+                     resp="#rschmahl">Isidore of Seville, encyclopaedist author of `Etymologies` (d. 636)</note>
                <idno type="URI">https://usaybia.net/person/1275</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="encyclopedist"
-                      source="#bib1275-1">
+                      source="#bib1275-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>encyclopedist</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1275-1">
+                      source="#bib1275-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1275-1">

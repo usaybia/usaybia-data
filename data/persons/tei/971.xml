@@ -206,22 +206,29 @@
                <persName xml:id="name971-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib971-1 #bib971-1">Ibn Dīnār</persName>
-               <persName xml:id="name971-2"
+                         source="#bib971-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Dīnār</persName>
+               <persName xml:id="name971-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib971-1">ابن دينار</persName>
-               <persName xml:id="name971-3" xml:lang="ar" source="#bib971-1">Ibn Dīnār, 5th/11th-c. physician in Mayyāfāriqīn 10.41</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib971-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن دينار</persName>
+               <persName xml:id="name971-4"
+                         xml:lang="ar"
+                         source="#bib971-1"
+                         resp="#rschmahl #mtolay">Ibn Dīnār, 5th/11th-c. physician in Mayyāfāriqīn 10.41</persName>
                <note xml:id="abstract-en-971"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib971-1">Ibn Dīnār, 5th/11th-c. physician in Mayyāfāriqīn</note>
+                     source="#bib971-1"
+                     resp="#rschmahl">Ibn Dīnār, 5th/11th-c. physician in Mayyāfāriqīn</note>
                <idno type="URI">https://usaybia.net/person/971</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4222</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4222</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib971-1">
+                      source="#bib971-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib971-1">

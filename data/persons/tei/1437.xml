@@ -210,31 +210,37 @@
                <persName xml:id="name1437-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1437-1">Maḥmūd ibn Muḥammad Ghiyāth al-Dīn al-Ghūrī</persName>
-               <persName xml:id="name1437-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمود بن محمد غياث الدين الغوري</persName>
+                         source="#bib1437-1"
+                         resp="#fioppolo">Maḥmūd ibn Muḥammad Ghiyāth al-Dīn al-Ghūrī</persName>
+               <persName xml:id="name1437-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمود بن محمد غياث الدين الغوري</persName>
                <note xml:id="abstract-en-1437"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1437-1">Maḥmūd ibn Muḥammad Ghiyāth al-Dīn al-Ghūrī (`reg.` 602–609/1206–1212), Ghūrid ruler</note>
+                     source="#bib1437-1"
+                     resp="#fioppolo">Maḥmūd ibn Muḥammad Ghiyāth al-Dīn al-Ghūrī (`reg.` 602–609/1206–1212), Ghūrid ruler</note>
                <idno type="URI">https://usaybia.net/person/1437</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1437-1">
+                      source="#bib1437-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1437-1">

@@ -206,13 +206,22 @@
                <persName xml:id="name2140-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">al-Suhrawardī</persName>
-               <persName xml:id="name2140-2" xml:lang="ar" srophe-tags="#syriaca-headword">السهروردي</persName>
+                         source="#bib2140-1"
+                         resp="#mtolay">al-Suhrawardī</persName>
+               <persName xml:id="name2140-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">السهروردي</persName>
                <note xml:id="abstract-en-2140"
                      xml:lang="en"
                      type="abstract"
-                     source="#">al-Suhrawardī</note>
+                     source="#bib2140-1"
+                     resp="#mtolay">al-Suhrawardī</note>
                <idno type="URI">https://usaybia.net/person/2140</idno>
+               <bibl xml:id="bib2140-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>

@@ -206,17 +206,23 @@
                <persName xml:id="name739-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib739-1">Epicurus</persName>
-               <persName xml:id="name739-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابيقورس</persName>
+                         source="#bib739-1"
+                         resp="#fioppolo">Epicurus</persName>
+               <persName xml:id="name739-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابيقورس</persName>
                <note xml:id="abstract-en-739"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib739-1">Epicurus, physician of antiquity</note>
+                     source="#bib739-1"
+                     resp="#fioppolo">Epicurus, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/739</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib739-1">
+                      source="#bib739-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib739-1">

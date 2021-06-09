@@ -206,21 +206,37 @@
                <persName xml:id="name2041-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2041-1">al-Shāghūrī, Shihāb al-Dīn Fityān ibn ʿAlī</persName>
-               <persName xml:id="name2041-2" xml:lang="ar" source="#">شهاب الدين فتيان بن علي الشاغوري</persName>
-               <persName xml:id="name2041-3" xml:lang="ar" srophe-tags="#syriaca-headword">الشاغوري، شهاب الدين فتيان بن علي</persName>
+                         source="#bib2041-1"
+                         resp="#mtolay">al-Shāghūrī, Shihāb al-Dīn Fityān ibn ʿAlī</persName>
+               <persName xml:id="name2041-2"
+                         xml:lang="ar"
+                         source="#bib2041-2"
+                         resp="#rschmahl #mtolay">شهاب الدين فتيان بن علي الشاغوري</persName>
+               <persName xml:id="name2041-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الشاغوري، شهاب الدين فتيان بن علي</persName>
                <note xml:id="abstract-en-2041"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2041-1">al-Shāghūrī, Shihāb al-Dīn Fityān ibn ʿAlī, poet (d. 615/1218)</note>
+                     source="#bib2041-1"
+                     resp="#mtolay">al-Shāghūrī, Shihāb al-Dīn Fityān ibn ʿAlī, poet (d. 615/1218)</note>
                <idno type="URI">https://usaybia.net/person/2041</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2041-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2041-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib2041-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.48; 15.50.6</citedRange>
+               </bibl>
+               <bibl xml:id="bib2041-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

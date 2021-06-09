@@ -206,17 +206,23 @@
                <persName xml:id="name840-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib840-1">Hārūn</persName>
-               <persName xml:id="name840-2" xml:lang="ar" srophe-tags="#syriaca-headword">هارون</persName>
+                         source="#bib840-1"
+                         resp="#fioppolo">Hārūn</persName>
+               <persName xml:id="name840-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">هارون</persName>
                <note xml:id="abstract-en-840"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib840-1">Hārūn, a minor physician of Baghdad</note>
+                     source="#bib840-1"
+                     resp="#fioppolo">Hārūn, a minor physician of Baghdad</note>
                <idno type="URI">https://usaybia.net/person/840</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib840-1">
+                      source="#bib840-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib840-1">

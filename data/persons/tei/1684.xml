@@ -210,24 +210,30 @@
                <persName xml:id="name1684-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1684-1">al-Mustaʿīn</persName>
-               <persName xml:id="name1684-2" xml:lang="ar" srophe-tags="#syriaca-headword">المستعين</persName>
+                         source="#bib1684-1"
+                         resp="#fioppolo">al-Mustaʿīn</persName>
+               <persName xml:id="name1684-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المستعين</persName>
                <note xml:id="abstract-en-1684"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1684-1">al-Mustaʿīn, Abbasid caliph (`reg.` 248– 252/862–66)</note>
+                     source="#bib1684-1"
+                     resp="#fioppolo">al-Mustaʿīn, Abbasid caliph (`reg.` 248– 252/862–66)</note>
                <idno type="URI">https://usaybia.net/person/1684</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1684-1">
+                      source="#bib1684-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1684-1">

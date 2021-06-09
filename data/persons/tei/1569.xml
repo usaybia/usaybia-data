@@ -206,17 +206,23 @@
                <persName xml:id="name1569-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1569-1">Milo of Croton</persName>
-               <persName xml:id="name1569-2" xml:lang="ar" srophe-tags="#syriaca-headword">ميلون</persName>
+                         source="#bib1569-1"
+                         resp="#fioppolo">Milo of Croton</persName>
+               <persName xml:id="name1569-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ميلون</persName>
                <note xml:id="abstract-en-1569"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1569-1">Milo of Croton, Greek athlete</note>
+                     source="#bib1569-1"
+                     resp="#fioppolo">Milo of Croton, Greek athlete</note>
                <idno type="URI">https://usaybia.net/person/1569</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="athlete"
-                      source="#bib1569-1">
+                      source="#bib1569-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>athlete</desc>
                </state>
                <bibl xml:id="bib1569-1">

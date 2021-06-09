@@ -210,32 +210,42 @@
                <persName xml:id="name1758-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1758-1 #bib1758-1">Nasṭās ibn Jurayj</persName>
-               <persName xml:id="name1758-2"
+                         source="#bib1758-1"
+                         resp="#fioppolo #rschmahl #mtolay">Nasṭās ibn Jurayj</persName>
+               <persName xml:id="name1758-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1758-1">نسطاس بن جريج</persName>
-               <persName xml:id="name1758-3" xml:lang="ar" source="#bib1758-1">Nasṭās ibn Jurayj – Christian physician practised during the reign of al-Ikhshīd ibn Ṭughj 13.14; 14.6; 14.7</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1758-1"
+                         resp="#rschmahl #mtolay #hfriedel">نسطاس بن جريج</persName>
+               <persName xml:id="name1758-4"
+                         xml:lang="ar"
+                         source="#bib1758-1"
+                         resp="#rschmahl #mtolay">Nasṭās ibn Jurayj – Christian physician practised during the reign of al-Ikhshīd ibn Ṭughj 13.14; 14.6; 14.7</persName>
                <note xml:id="abstract-en-1758"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1758-1">Nasṭās ibn Jurayj – Christian physician practised during the reign of al-Ikhshīd ibn Ṭughj</note>
+                     source="#bib1758-1"
+                     resp="#fioppolo">Nasṭās ibn Jurayj – Christian physician practised during the reign of al-Ikhshīd ibn Ṭughj</note>
                <idno type="URI">https://usaybia.net/person/1758</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%86%D8%B3%D8%B7%D8%A7%D8%B3_%D8%A8%D9%86_%D8%AC%D8%B1%D9%8A%D8%AC</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%86%D8%B3%D8%B7%D8%A7%D8%B3_%D8%A8%D9%86_%D8%AC%D8%B1%D9%8A%D8%AC</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1758-1">
+                      source="#bib1758-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1758-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1758-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1758-1">

@@ -206,25 +206,35 @@
                <persName xml:id="name828-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib828-1 #bib828-1">al-Ḥārith ibn Kaladah al-Thaqafī</persName>
-               <persName xml:id="name828-2" xml:lang="ar" source="#">الحارث بن كلدة</persName>
-               <persName xml:id="name828-3"
+                         source="#bib828-1"
+                         resp="#fioppolo #rschmahl #mtolay">al-Ḥārith ibn Kaladah al-Thaqafī</persName>
+               <persName xml:id="name828-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib828-1">الحارث بن كلدة الثقفي</persName>
-               <persName xml:id="name828-4" xml:lang="ar" source="#bib828-1">al-Ḥārith ibn Kaladah al-Thaqafī, legendary Arab physician, contemporary of the prophet Muḥammad 7.1; 15.46.6n</persName>
+                         source="#bib828-2"
+                         resp="#rschmahl #mtolay">الحارث بن كلدة</persName>
+               <persName xml:id="name828-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib828-1"
+                         resp="#rschmahl #mtolay #hfriedel">الحارث بن كلدة الثقفي</persName>
+               <persName xml:id="name828-5"
+                         xml:lang="ar"
+                         source="#bib828-1"
+                         resp="#rschmahl #mtolay">al-Ḥārith ibn Kaladah al-Thaqafī, legendary Arab physician, contemporary of the prophet Muḥammad 7.1; 15.46.6n</persName>
                <note xml:id="abstract-en-828"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib828-1">al-Ḥārith ibn Kaladah al-Thaqafī, legendary Arab physician, contemporary of the prophet Muḥammad</note>
+                     source="#bib828-1"
+                     resp="#fioppolo">al-Ḥārith ibn Kaladah al-Thaqafī, legendary Arab physician, contemporary of the prophet Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/828</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB_%D8%A8%D9%86_%D9%83%D9%84%D8%AF%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/90084613/#الحارث_بن_كلدة،_ت._حو._50_هـ.</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30329</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%A7%D8%B1%D8%AB_%D8%A8%D9%86_%D9%83%D9%84%D8%AF%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90084613/#الحارث_بن_كلدة،_ت._حو._50_هـ.</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30329</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib828-1">
+                      source="#bib828-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib828-1">
@@ -232,6 +242,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">7.1; 15.46.6n</citedRange>
                   <citedRange unit="section">7.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib828-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

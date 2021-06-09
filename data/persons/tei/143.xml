@@ -206,22 +206,29 @@
                <persName xml:id="name143-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib143-1">Abū Bishr</persName>
-               <persName xml:id="name143-2" xml:lang="en-x-lhom" source="#bib143-1">Abū Bishr, ‘the Physician to Rulers’</persName>
+                         source="#bib143-1"
+                         resp="#rschmahl">Abū Bishr</persName>
+               <persName xml:id="name143-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib143-1"
+                         resp="#rschmahl #mtolay">Abū Bishr, ‘the Physician to Rulers’</persName>
                <persName xml:id="name143-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib143-1">أبو بشر طبيب العظيمية</persName>
-               <persName xml:id="name143-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بشر</persName>
+                         source="#bib143-1"
+                         resp="#rschmahl #mtolay">أبو بشر طبيب العظيمية</persName>
+               <persName xml:id="name143-4" xml:lang="ar" resp="#hfriedel">أبو بشر</persName>
                <note xml:id="abstract-en-143"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib143-1">Abū Bishr, `ṭabīb al-ʿaẓīmiyyah`, physician in Egypt under al-Ḥākim</note>
+                     source="#bib143-1"
+                     resp="#rschmahl">Abū Bishr, `ṭabīb al-ʿaẓīmiyyah`, physician in Egypt under al-Ḥākim</note>
                <idno type="URI">https://usaybia.net/person/143</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib143-1">
+                      source="#bib143-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib143-1">

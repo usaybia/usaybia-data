@@ -206,28 +206,38 @@
                <persName xml:id="name1076-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1076-1">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī)</persName>
-               <persName xml:id="name1076-2" xml:lang="en-x-lhom" source="#bib1076-1">Ibn Nāʿimah</persName>
+                         source="#bib1076-1"
+                         resp="#rschmahl">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī)</persName>
+               <persName xml:id="name1076-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1076-1"
+                         resp="#rschmahl #mtolay">Ibn Nāʿimah</persName>
                <persName xml:id="name1076-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1076-1">ابن ناعمة</persName>
-               <persName xml:id="name1076-4" xml:lang="ar" source="#bib1076-1">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī), translator of Greek philosophy 9.13; 9.37n</persName>
-               <persName xml:id="name1076-5" xml:lang="ar" srophe-tags="#syriaca-headword">ابن ناعمة (عبد المسيح ابن عبد الله الحمصي الناعمة)</persName>
+                         source="#bib1076-1"
+                         resp="#rschmahl #mtolay">ابن ناعمة</persName>
+               <persName xml:id="name1076-4"
+                         xml:lang="ar"
+                         source="#bib1076-1"
+                         resp="#rschmahl #mtolay">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī), translator of Greek philosophy 9.13; 9.37n</persName>
+               <persName xml:id="name1076-5" xml:lang="ar" resp="#hfriedel">ابن ناعمة (عبد المسيح ابن عبد الله الحمصي الناعمة)</persName>
                <note xml:id="abstract-en-1076"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1076-1">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī), translator of Greek philosophy</note>
+                     source="#bib1076-1"
+                     resp="#rschmahl">Ibn Nāʿimah (ʿAbd al-Masīḥ ibn ʿAbd Allāh al-Ḥimṣī al-Nāʿimī), translator of Greek philosophy</note>
                <idno type="URI">https://usaybia.net/person/1076</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4148</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D9%86%D8%A7%D8%B9%D9%85%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/29460203</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30905</idno>
-               <idno type="URI">http://syriaca.org/person/1002</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4148</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D9%86%D8%A7%D8%B9%D9%85%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/29460203</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30905</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/1002</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1076-1">
+                      source="#bib1076-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib1076-1">

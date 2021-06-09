@@ -210,21 +210,30 @@
                <persName xml:id="name2001-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2001-1">al-Ṣanawbarī, Abū Bakr Aḥmad ibn Muḥammad</persName>
-               <persName xml:id="name2001-2" xml:lang="ar" srophe-tags="#syriaca-headword">الصنوبري أبو بكر أحمد بن محمد</persName>
+                         source="#bib2001-1"
+                         resp="#mtolay">al-Ṣanawbarī, Abū Bakr Aḥmad ibn Muḥammad</persName>
+               <persName xml:id="name2001-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الصنوبري أبو بكر أحمد بن محمد</persName>
                <note xml:id="abstract-en-2001"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2001-1">al-Ṣanawbarī, Abū Bakr Aḥmad ibn Muḥammad, poet (d. 334/945)</note>
+                     source="#bib2001-1"
+                     resp="#mtolay">al-Ṣanawbarī, Abū Bakr Aḥmad ibn Muḥammad, poet (d. 334/945)</note>
                <idno type="URI">https://usaybia.net/person/2001</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2001-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2001-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2001-1">

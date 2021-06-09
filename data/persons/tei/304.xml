@@ -206,14 +206,23 @@
                <persName xml:id="name304-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib304-1">Abū Naṣr al-Saʿdī</persName>
-               <persName xml:id="name304-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو نصر السعدي</persName>
+                         source="#bib304-1"
+                         resp="#mtolay">Abū Naṣr al-Saʿdī</persName>
+               <persName xml:id="name304-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو نصر السعدي</persName>
                <note xml:id="abstract-en-304"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib304-1">Abū Naṣr al-Saʿdī, poet</note>
+                     source="#bib304-1"
+                     resp="#mtolay">Abū Naṣr al-Saʿdī, poet</note>
                <idno type="URI">https://usaybia.net/person/304</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib304-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib304-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib304-1">

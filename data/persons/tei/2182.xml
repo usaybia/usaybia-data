@@ -210,24 +210,30 @@
                <persName xml:id="name2182-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2182-1">al-Tanūkhī, Abū ʿAlī al-Muḥassin ibn ʿAlī al-Tanūkhī</persName>
-               <persName xml:id="name2182-2" xml:lang="ar" srophe-tags="#syriaca-headword">التنوخي أبو علي المحسن بن علي التنوخي</persName>
+                         source="#bib2182-1"
+                         resp="#mtolay">al-Tanūkhī, Abū ʿAlī al-Muḥassin ibn ʿAlī al-Tanūkhī</persName>
+               <persName xml:id="name2182-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">التنوخي أبو علي المحسن بن علي التنوخي</persName>
                <note xml:id="abstract-en-2182"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2182-1">al-Tanūkhī, Abū ʿAlī al-Muḥassin ibn ʿAlī al-Tanūkhī (d. 384/994), judge and prose writer</note>
+                     source="#bib2182-1"
+                     resp="#mtolay">al-Tanūkhī, Abū ʿAlī al-Muḥassin ibn ʿAlī al-Tanūkhī (d. 384/994), judge and prose writer</note>
                <idno type="URI">https://usaybia.net/person/2182</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="judge"
-                      source="#bib2182-1">
+                      source="#bib2182-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>judge</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2182-1">

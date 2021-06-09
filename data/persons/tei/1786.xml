@@ -210,24 +210,30 @@
                <persName xml:id="name1786-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1786-1">Nūr al-Dīn ibn Jamāl al-Dīn ibn Artaq `or` Artuq</persName>
-               <persName xml:id="name1786-2" xml:lang="ar" srophe-tags="#syriaca-headword">نور الدين بن جمال الدين بن أرتق</persName>
+                         source="#bib1786-1"
+                         resp="#fioppolo">Nūr al-Dīn ibn Jamāl al-Dīn ibn Artaq `or` Artuq</persName>
+               <persName xml:id="name1786-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">نور الدين بن جمال الدين بن أرتق</persName>
                <note xml:id="abstract-en-1786"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1786-1">Nūr al-Dīn ibn Jamāl al-Dīn ibn Artaq `or` Artuq, ruler of Ḥīnī</note>
+                     source="#bib1786-1"
+                     resp="#fioppolo">Nūr al-Dīn ibn Jamāl al-Dīn ibn Artaq `or` Artuq, ruler of Ḥīnī</note>
                <idno type="URI">https://usaybia.net/person/1786</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1786-1">
+                      source="#bib1786-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1786-1">

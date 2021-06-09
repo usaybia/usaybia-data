@@ -201,33 +201,46 @@
                <persName xml:id="name2053-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2053-1">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā</persName>
-               <persName xml:id="name2053-2" xml:lang="ar" source="#">شمس الدين ابو العباس احمد ابن خليل ابن سعادة ابن جعفر ابن عيسى الخويى</persName>
-               <persName xml:id="name2053-3" xml:lang="en-x-lhom" source="#bib2053-1">Shams al-Dīn al-Khuwayyī</persName>
+                         source="#bib2053-1"
+                         resp="#mtolay">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā</persName>
+               <persName xml:id="name2053-2"
+                         xml:lang="ar"
+                         source="#bib2053-2"
+                         resp="#rschmahl #mtolay">شمس الدين ابو العباس احمد ابن خليل ابن سعادة ابن جعفر ابن عيسى الخويى</persName>
+               <persName xml:id="name2053-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib2053-1"
+                         resp="#rschmahl #mtolay">Shams al-Dīn al-Khuwayyī</persName>
                <persName xml:id="name2053-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2053-1">شمس الدين الخُوييّ</persName>
-               <persName xml:id="name2053-5" xml:lang="ar" source="#bib2053-1">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā, jurist under al-Malik al-Muʿaẓẓam ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ 11.19.1; 15.19; 15.20; 15.50.6</persName>
-               <persName xml:id="name2053-6" xml:lang="ar" srophe-tags="#syriaca-headword">شمس الدين الخويي، أبو العباس أحمد بن الخليل بن سعادة بن جعفر بن عيسى</persName>
+                         source="#bib2053-1"
+                         resp="#rschmahl #mtolay">شمس الدين الخُوييّ</persName>
+               <persName xml:id="name2053-5"
+                         xml:lang="ar"
+                         source="#bib2053-1"
+                         resp="#rschmahl #mtolay">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā, jurist under al-Malik al-Muʿaẓẓam ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ 11.19.1; 15.19; 15.20; 15.50.6</persName>
+               <persName xml:id="name2053-6" xml:lang="ar" resp="#hfriedel">شمس الدين الخويي، أبو العباس أحمد بن الخليل بن سعادة بن جعفر بن عيسى</persName>
                <note xml:id="abstract-en-2053"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2053-1">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā, jurist under al-Malik al-Muʿaẓẓam ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</note>
+                     source="#bib2053-1"
+                     resp="#mtolay">Shams al-Dīn al-Khuwayyī, Abū l-ʿAbbās Aḥmad ibn al-Khalīl ibn Saʿādah ibn Jaʿfar ibn ʿĪsā, jurist under al-Malik al-Muʿaẓẓam ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</note>
                <idno type="URI">https://usaybia.net/person/2053</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%AE%D9%84%D9%8A%D9%84_%D8%A7%D9%84%D8%AE%D9%88%D9%8A%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90078986</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%AE%D9%84%D9%8A%D9%84_%D8%A7%D9%84%D8%AE%D9%88%D9%8A%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90078986</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib2053-1">
+                      source="#bib2053-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2053-1">
@@ -235,6 +248,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">11.19.1; 15.19; 15.20; 15.50.6</citedRange>
                   <citedRange unit="section">15.19</citedRange>
+               </bibl>
+               <bibl xml:id="bib2053-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

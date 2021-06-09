@@ -206,17 +206,23 @@
                <persName xml:id="name1823-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1823-1">Philo</persName>
-               <persName xml:id="name1823-2" xml:lang="ar" srophe-tags="#syriaca-headword">فيلون</persName>
+                         source="#bib1823-1"
+                         resp="#fioppolo">Philo</persName>
+               <persName xml:id="name1823-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فيلون</persName>
                <note xml:id="abstract-en-1823"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1823-1">Philo, slave belonging to Aristotle</note>
+                     source="#bib1823-1"
+                     resp="#fioppolo">Philo, slave belonging to Aristotle</note>
                <idno type="URI">https://usaybia.net/person/1823</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="slave"
-                      source="#bib1823-1">
+                      source="#bib1823-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>slave</desc>
                </state>
                <bibl xml:id="bib1823-1">

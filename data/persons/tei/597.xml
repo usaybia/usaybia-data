@@ -210,31 +210,37 @@
                <persName xml:id="name597-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib597-1">al-Azdī, Muḥammad ibn Aḥmad Abū l-Muṭahhar</persName>
-               <persName xml:id="name597-2" xml:lang="ar" srophe-tags="#syriaca-headword">الأزدي محمد بن أحمد أبو المطهر</persName>
+                         source="#bib597-1"
+                         resp="#fioppolo">al-Azdī, Muḥammad ibn Aḥmad Abū l-Muṭahhar</persName>
+               <persName xml:id="name597-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الأزدي محمد بن أحمد أبو المطهر</persName>
                <note xml:id="abstract-en-597"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib597-1">al-Azdī, Muḥammad ibn Aḥmad Abū l-Muṭahhar, 4th–5th/10th–11th-c. author</note>
+                     source="#bib597-1"
+                     resp="#fioppolo">al-Azdī, Muḥammad ibn Aḥmad Abū l-Muṭahhar, 4th–5th/10th–11th-c. author</note>
                <idno type="URI">https://usaybia.net/person/597</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib597-1">
+                      source="#bib597-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib597-1">

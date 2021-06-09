@@ -210,23 +210,29 @@
                <persName xml:id="name832-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib832-1">al-Ḥarrānī, ʿUmar ibn Yūnus ibn Aḥmad</persName>
-               <persName xml:id="name832-2" xml:lang="en-x-lhom" source="#bib832-1">Aḥmad and ʿUmar, the Sons of Yūnus ibn Aḥmad al-Ḥarrānī</persName>
+                         source="#bib832-1"
+                         resp="#fioppolo">al-Ḥarrānī, ʿUmar ibn Yūnus ibn Aḥmad</persName>
+               <persName xml:id="name832-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib832-1"
+                         resp="#rschmahl #mtolay">Aḥmad and ʿUmar, the Sons of Yūnus ibn Aḥmad al-Ḥarrānī</persName>
                <persName xml:id="name832-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib832-1">أحمد وعمر ابنا يونس بن أحمد الحراني</persName>
-               <persName xml:id="name832-4" xml:lang="ar" srophe-tags="#syriaca-headword">الحرّاني عمر بن يونس بن أحمد</persName>
+                         source="#bib832-1"
+                         resp="#rschmahl #mtolay">أحمد وعمر ابنا يونس بن أحمد الحراني</persName>
+               <persName xml:id="name832-4" xml:lang="ar" resp="#hfriedel">الحرّاني عمر بن يونس بن أحمد</persName>
                <note xml:id="abstract-en-832"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib832-1">al-Ḥarrānī, ʿUmar ibn Yūnus ibn Aḥmad</note>
+                     source="#bib832-1"
+                     resp="#fioppolo">al-Ḥarrānī, ʿUmar ibn Yūnus ibn Aḥmad</note>
                <idno type="URI">https://usaybia.net/person/832</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib832-1">

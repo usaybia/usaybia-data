@@ -206,17 +206,23 @@
                <persName xml:id="name1830-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1830-1">Plato the Physician</persName>
-               <persName xml:id="name1830-2" xml:lang="ar" srophe-tags="#syriaca-headword">أفلاطن الطبيب</persName>
+                         source="#bib1830-1"
+                         resp="#fioppolo">Plato the Physician</persName>
+               <persName xml:id="name1830-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أفلاطن الطبيب</persName>
                <note xml:id="abstract-en-1830"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1830-1">Plato the Physician, legendary ancient Greek physician</note>
+                     source="#bib1830-1"
+                     resp="#fioppolo">Plato the Physician, legendary ancient Greek physician</note>
                <idno type="URI">https://usaybia.net/person/1830</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1830-1">
+                      source="#bib1830-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1830-1">

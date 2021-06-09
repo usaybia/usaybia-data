@@ -197,17 +197,23 @@
                <persName xml:id="name2506-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2506-1">Hipparchus</persName>
-               <persName xml:id="name2506-2" xml:lang="ar" srophe-tags="#syriaca-headword">إبفرخس</persName>
+                         source="#bib2506-1"
+                         resp="#mtolay #ngibson">Hipparchus</persName>
+               <persName xml:id="name2506-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إبفرخس</persName>
                <note xml:id="abstract-en-2506"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2506-1">Hipparchus, student of Aristotle</note>
+                     source="#bib2506-1"
+                     resp="#mtolay #ngibson">Hipparchus, student of Aristotle</note>
                <idno type="URI">https://usaybia.net/person/2506</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib2506-1">
+                      source="#bib2506-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib2506-1">

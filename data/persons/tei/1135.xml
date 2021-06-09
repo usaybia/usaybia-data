@@ -206,17 +206,23 @@
                <persName xml:id="name1135-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1135-1">Ibn Tātalī</persName>
-               <persName xml:id="name1135-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن تاتلي</persName>
+                         source="#bib1135-1"
+                         resp="#rschmahl">Ibn Tātalī</persName>
+               <persName xml:id="name1135-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن تاتلي</persName>
                <note xml:id="abstract-en-1135"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1135-1">Ibn Tātalī, itinerant scholar</note>
+                     source="#bib1135-1"
+                     resp="#rschmahl">Ibn Tātalī, itinerant scholar</note>
                <idno type="URI">https://usaybia.net/person/1135</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1135-1">
+                      source="#bib1135-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib1135-1">

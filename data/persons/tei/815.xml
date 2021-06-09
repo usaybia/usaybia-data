@@ -210,24 +210,30 @@
                <persName xml:id="name815-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib815-1">al-Ḥākim</persName>
-               <persName xml:id="name815-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحاكم</persName>
+                         source="#bib815-1"
+                         resp="#fioppolo">al-Ḥākim</persName>
+               <persName xml:id="name815-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحاكم</persName>
                <note xml:id="abstract-en-815"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib815-1">al-Ḥākim, sixth Fatimid caliph (`reg.` 385– 411/996–1021)</note>
+                     source="#bib815-1"
+                     resp="#fioppolo">al-Ḥākim, sixth Fatimid caliph (`reg.` 385– 411/996–1021)</note>
                <idno type="URI">https://usaybia.net/person/815</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib815-1">
+                      source="#bib815-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib815-1">

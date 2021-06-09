@@ -206,17 +206,23 @@
                <persName xml:id="name1985-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1985-1">Ṣāliḥ ibn al-Rashīd</persName>
-               <persName xml:id="name1985-2" xml:lang="ar" srophe-tags="#syriaca-headword">صالح بن الرشيد</persName>
+                         source="#bib1985-1"
+                         resp="#mtolay">Ṣāliḥ ibn al-Rashīd</persName>
+               <persName xml:id="name1985-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صالح بن الرشيد</persName>
                <note xml:id="abstract-en-1985"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1985-1">Ṣāliḥ ibn al-Rashīd, son of Hārūn al-Rashīd, governor of al-Baṣrah</note>
+                     source="#bib1985-1"
+                     resp="#mtolay">Ṣāliḥ ibn al-Rashīd, son of Hārūn al-Rashīd, governor of al-Baṣrah</note>
                <idno type="URI">https://usaybia.net/person/1985</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib1985-1">
+                      source="#bib1985-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <bibl xml:id="bib1985-1">

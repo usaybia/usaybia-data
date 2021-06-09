@@ -206,23 +206,30 @@
                <persName xml:id="name813-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib813-1 #bib813-1">Ḥakam al-Dimashqī</persName>
+                         source="#bib813-1"
+                         resp="#fioppolo #rschmahl #mtolay">Ḥakam al-Dimashqī</persName>
                <persName xml:id="name813-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="# #bib813-1">حكم الدمشقي</persName>
-               <persName xml:id="name813-3" xml:lang="ar" source="#bib813-1">Ḥakam al-Dimashqī, personal physician to Muʿāwiyah 7.7</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib813-2 #bib813-1"
+                         resp="#rschmahl #mtolay #hfriedel">حكم الدمشقي</persName>
+               <persName xml:id="name813-5"
+                         xml:lang="ar"
+                         source="#bib813-1"
+                         resp="#rschmahl #mtolay">Ḥakam al-Dimashqī, personal physician to Muʿāwiyah 7.7</persName>
                <note xml:id="abstract-en-813"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib813-1">Ḥakam al-Dimashqī, personal physician to Muʿāwiyah</note>
+                     source="#bib813-1"
+                     resp="#fioppolo">Ḥakam al-Dimashqī, personal physician to Muʿāwiyah</note>
                <idno type="URI">https://usaybia.net/person/813</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4104</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D8%A7%D9%84%D8%AF%D9%85%D8%B4%D9%82%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4104</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%AD%D9%83%D9%85_%D8%A7%D9%84%D8%AF%D9%85%D8%B4%D9%82%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib813-1">
+                      source="#bib813-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib813-1">
@@ -230,6 +237,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">7.7</citedRange>
                   <citedRange unit="section">7.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib813-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,23 +206,30 @@
                <persName xml:id="name1444-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1444-1">Majd al-Dīn al-Jīlī</persName>
-               <persName xml:id="name1444-2" xml:lang="ar" srophe-tags="#syriaca-headword">مجد الدين الجيلي</persName>
+                         source="#bib1444-1"
+                         resp="#fioppolo">Majd al-Dīn al-Jīlī</persName>
+               <persName xml:id="name1444-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مجد الدين الجيلي</persName>
                <note xml:id="abstract-en-1444"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1444-1">Majd al-Dīn al-Jīlī, scholar, teacher of Fakhr al-Dīn al-Rāzī</note>
+                     source="#bib1444-1"
+                     resp="#fioppolo">Majd al-Dīn al-Jīlī, scholar, teacher of Fakhr al-Dīn al-Rāzī</note>
                <idno type="URI">https://usaybia.net/person/1444</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1444-1">
+                      source="#bib1444-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1444-1">
+                      source="#bib1444-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1444-1">

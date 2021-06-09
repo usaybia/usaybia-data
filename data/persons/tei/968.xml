@@ -206,24 +206,37 @@
                <persName xml:id="name968-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib968-1">Ibn al-Dayjūr</persName>
-               <persName xml:id="name968-2" xml:lang="ar" source="#">ابن الديجور المصري</persName>
-               <persName xml:id="name968-3" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الديجور</persName>
+                         source="#bib968-1"
+                         resp="#rschmahl">Ibn al-Dayjūr</persName>
+               <persName xml:id="name968-2"
+                         xml:lang="ar"
+                         source="#bib968-2"
+                         resp="#rschmahl #mtolay">ابن الديجور المصري</persName>
+               <persName xml:id="name968-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الديجور</persName>
                <note xml:id="abstract-en-968"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib968-1">Ibn al-Dayjūr, Egyptian teacher of music</note>
+                     source="#bib968-1"
+                     resp="#rschmahl">Ibn al-Dayjūr, Egyptian teacher of music</note>
                <idno type="URI">https://usaybia.net/person/968</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib968-1">
+                      source="#bib968-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib968-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib968-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

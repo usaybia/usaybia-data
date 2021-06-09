@@ -210,24 +210,30 @@
                <persName xml:id="name279-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib279-1">Abū Muḥammad ʿAbd al-ʿAzīz ibn Aḥmad ibn Muḥammad al-Kinānī</persName>
-               <persName xml:id="name279-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو محمد عبد العزيز بن أحمد بن محمد الكناني</persName>
+                         source="#bib279-1"
+                         resp="#mtolay">Abū Muḥammad ʿAbd al-ʿAzīz ibn Aḥmad ibn Muḥammad al-Kinānī</persName>
+               <persName xml:id="name279-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو محمد عبد العزيز بن أحمد بن محمد الكناني</persName>
                <note xml:id="abstract-en-279"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib279-1">Abū Muḥammad ʿAbd al-ʿAzīz ibn Aḥmad ibn Muḥammad al-Kinānī, transmitter</note>
+                     source="#bib279-1"
+                     resp="#mtolay">Abū Muḥammad ʿAbd al-ʿAzīz ibn Aḥmad ibn Muḥammad al-Kinānī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/279</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib279-1">
+                      source="#bib279-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib279-1">

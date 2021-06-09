@@ -206,26 +206,34 @@
                <persName xml:id="name2087-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2087-1">Shihāb al-Dīn al-Naqjawānī</persName>
+                         source="#bib2087-1"
+                         resp="#mtolay">Shihāb al-Dīn al-Naqjawānī</persName>
                <persName xml:id="name2087-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#">شهاب الدين النقجواني</persName>
+                         source="#bib2087-2"
+                         resp="#rschmahl #mtolay #hfriedel">شهاب الدين النقجواني</persName>
                <note xml:id="abstract-en-2087"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2087-1">Shihāb al-Dīn al-Naqjawānī, musician</note>
+                     source="#bib2087-1"
+                     resp="#mtolay">Shihāb al-Dīn al-Naqjawānī, musician</note>
                <idno type="URI">https://usaybia.net/person/2087</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="musician"
-                      source="#bib2087-1">
+                      source="#bib2087-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>musician</desc>
                </state>
                <bibl xml:id="bib2087-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib2087-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

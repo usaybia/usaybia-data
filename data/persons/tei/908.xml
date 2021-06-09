@@ -206,23 +206,30 @@
                <persName xml:id="name908-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib908-1">Hypsicles</persName>
-               <persName xml:id="name908-2" xml:lang="ar" srophe-tags="#syriaca-headword">اسقلاوس</persName>
+                         source="#bib908-1"
+                         resp="#mtolay">Hypsicles</persName>
+               <persName xml:id="name908-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">اسقلاوس</persName>
                <note xml:id="abstract-en-908"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib908-1">Hypsicles, Greek mathematician and astronomer (d. 120BC)</note>
+                     source="#bib908-1"
+                     resp="#mtolay">Hypsicles, Greek mathematician and astronomer (d. 120BC)</note>
                <idno type="URI">https://usaybia.net/person/908</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib908-1">
+                      source="#bib908-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib908-1">
+                      source="#bib908-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib908-1">

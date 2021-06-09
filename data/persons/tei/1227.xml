@@ -206,14 +206,23 @@
                <persName xml:id="name1227-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1227-1">Imruʾ al-Qays</persName>
-               <persName xml:id="name1227-2" xml:lang="ar" srophe-tags="#syriaca-headword">امرؤ القيس</persName>
+                         source="#bib1227-1"
+                         resp="#rschmahl">Imruʾ al-Qays</persName>
+               <persName xml:id="name1227-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">امرؤ القيس</persName>
                <note xml:id="abstract-en-1227"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1227-1">Imruʾ al-Qays, a Bedouin (not the homonymous poet)</note>
+                     source="#bib1227-1"
+                     resp="#rschmahl">Imruʾ al-Qays, a Bedouin (not the homonymous poet)</note>
                <idno type="URI">https://usaybia.net/person/1227</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1227-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1227-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1227-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name974-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib974-1">Ibn Durayd</persName>
-               <persName xml:id="name974-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن دريد</persName>
+                         source="#bib974-1"
+                         resp="#rschmahl">Ibn Durayd</persName>
+               <persName xml:id="name974-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن دريد</persName>
                <note xml:id="abstract-en-974"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib974-1">Ibn Durayd, grammarian (d. 321/933)</note>
+                     source="#bib974-1"
+                     resp="#rschmahl">Ibn Durayd, grammarian (d. 321/933)</note>
                <idno type="URI">https://usaybia.net/person/974</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib974-1">
+                      source="#bib974-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib974-1">

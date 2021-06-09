@@ -206,23 +206,30 @@
                <persName xml:id="name688-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib688-1">Dāhir</persName>
-               <persName xml:id="name688-2" xml:lang="ar" srophe-tags="#syriaca-headword">داهر</persName>
+                         source="#bib688-1"
+                         resp="#fioppolo">Dāhir</persName>
+               <persName xml:id="name688-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">داهر</persName>
                <note xml:id="abstract-en-688"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib688-1">Dāhir, otherwise unknown Indian physician and scholar</note>
+                     source="#bib688-1"
+                     resp="#fioppolo">Dāhir, otherwise unknown Indian physician and scholar</note>
                <idno type="URI">https://usaybia.net/person/688</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib688-1">
+                      source="#bib688-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib688-1">
+                      source="#bib688-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib688-1">

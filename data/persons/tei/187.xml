@@ -210,24 +210,30 @@
                <persName xml:id="name187-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib187-1">Abū l-Ḥākim Isḥāq ibn Yūḥannā</persName>
-               <persName xml:id="name187-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحاكم إسحاق بن يوحنا</persName>
+                         source="#bib187-1"
+                         resp="#rschmahl">Abū l-Ḥākim Isḥāq ibn Yūḥannā</persName>
+               <persName xml:id="name187-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحاكم إسحاق بن يوحنا</persName>
                <note xml:id="abstract-en-187"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib187-1">Abū l-Ḥākim Isḥāq ibn Yūḥannā, physician from Ahwāz,</note>
+                     source="#bib187-1"
+                     resp="#rschmahl">Abū l-Ḥākim Isḥāq ibn Yūḥannā, physician from Ahwāz,</note>
                <idno type="URI">https://usaybia.net/person/187</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib187-1">
+                      source="#bib187-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib187-1">

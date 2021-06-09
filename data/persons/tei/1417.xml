@@ -206,20 +206,30 @@
                <persName xml:id="name1417-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1417-1">Kushājim, Abū l-Fatḥ Maḥmūd ibn al-Ḥusayn</persName>
-               <persName xml:id="name1417-2" xml:lang="ar" srophe-tags="#syriaca-headword">كشاجم، أبو الفتح محمود بن الحسين</persName>
+                         source="#bib1417-1"
+                         resp="#fioppolo">Kushājim, Abū l-Fatḥ Maḥmūd ibn al-Ḥusayn</persName>
+               <persName xml:id="name1417-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كشاجم، أبو الفتح محمود بن الحسين</persName>
                <note xml:id="abstract-en-1417"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1417-1">Kushājim, Abū l-Fatḥ Maḥmūd ibn al-Ḥusayn, poet and prose writer (d. ca. 360/970)</note>
+                     source="#bib1417-1"
+                     resp="#fioppolo">Kushājim, Abū l-Fatḥ Maḥmūd ibn al-Ḥusayn, poet and prose writer (d. ca. 360/970)</note>
                <idno type="URI">https://usaybia.net/person/1417</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1417-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1417-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="prose writer"
-                      source="#bib1417-1">
+                      source="#bib1417-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prose writer</desc>
                </state>
                <bibl xml:id="bib1417-1">

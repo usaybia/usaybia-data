@@ -210,27 +210,36 @@
                <persName xml:id="name2389-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2389-1">al-Naẓẓām</persName>
-               <persName xml:id="name2389-2" xml:lang="ar" srophe-tags="#syriaca-headword">النظام</persName>
+                         source="#bib2389-1"
+                         resp="#fioppolo">al-Naẓẓām</persName>
+               <persName xml:id="name2389-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">النظام</persName>
                <note xml:id="abstract-en-2389"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2389-1">al-Naẓẓām, Muʿtazilite theologian, (d. between 220/835 and 230/845)</note>
+                     source="#bib2389-1"
+                     resp="#fioppolo">al-Naẓẓām, Muʿtazilite theologian, (d. between 220/835 and 230/845)</note>
                <idno type="URI">https://usaybia.net/person/2389</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
-                      source="#bib2389-1">
+                      source="#bib2389-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>theologian</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2389-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2389-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Muslim, Muʿtazilite</label>
                </state>
                <bibl xml:id="bib2389-1">

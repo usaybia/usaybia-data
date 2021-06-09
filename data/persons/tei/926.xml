@@ -206,37 +206,55 @@
                <persName xml:id="name926-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib926-1">Ibn Abī Uṣaybiʿah, Muwaffaq al-Dīn Abū l-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfah</persName>
-               <persName xml:id="name926-2" xml:lang="ar" source="#">موفق الدين ابو العباص احمد بن القاسم بن خليفة بن ابي اصيبعة</persName>
-               <persName xml:id="name926-3" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أبي أصيبعة موفق الدين أبو العباس أحمد ابن القاسم ابن خليفة</persName>
+                         source="#bib926-1"
+                         resp="#mtolay">Ibn Abī Uṣaybiʿah, Muwaffaq al-Dīn Abū l-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfah</persName>
+               <persName xml:id="name926-2"
+                         xml:lang="ar"
+                         source="#bib926-2"
+                         resp="#rschmahl #mtolay">موفق الدين ابو العباص احمد بن القاسم بن خليفة بن ابي اصيبعة</persName>
+               <persName xml:id="name926-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن أبي أصيبعة موفق الدين أبو العباس أحمد ابن القاسم ابن خليفة</persName>
                <note xml:id="abstract-en-926"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib926-1">Ibn Abī Uṣaybiʿah, Muwaffaq al-Dīn Abū l-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfah , the author of the present book `passim` treatises specified</note>
+                     source="#bib926-1"
+                     resp="#mtolay">Ibn Abī Uṣaybiʿah, Muwaffaq al-Dīn Abū l-ʿAbbās Aḥmad ibn al-Qāsim ibn Khalīfah , the author of the present book `passim` treatises specified</note>
                <idno type="URI">https://usaybia.net/person/926</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/250369</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%A3%D8%B5%D9%8A%D8%A8%D8%B9%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/272709554</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3058</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/250369</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%A3%D8%B5%D9%8A%D8%A8%D8%B9%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/272709554</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3058</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib926-1">
+                      source="#bib926-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib926-1">
+                      source="#bib926-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib926-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib926-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib926-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">`passim` treatises specified: Preface `K. Maʿālim al-umam wa-akhbār dhawī li-ḥikam (The Outstanding Personalities of All Nations`); 5.1.27 (intention to write a monograph on Galen); 10.67.3 `Iṣābāt al-munajjimīn` (`The Predictions of the Astrologers`); 11.5.13 `Ḥikāyāt al-aṭibbāʾ fī ʿilājāt al-adwāʾ` (`Anecdotes of Physicians on the Treatment of Illnesses`); 15.42 `K. al-tajārib wa-l-fawāʾid` (`Experiences and Useful Lessons`) poetry by ⅠＡＵ: 15.20; 15.32; 15.37.4; 15.45.3; 15.49.6.1; 15.52.1.1; 15.52.1.2; 15.54</citedRange>
+               </bibl>
+               <bibl xml:id="bib926-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

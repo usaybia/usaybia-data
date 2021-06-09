@@ -210,24 +210,30 @@
                <persName xml:id="name660-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib660-1">Būlus ibn Ḥanūn</persName>
-               <persName xml:id="name660-2" xml:lang="ar" srophe-tags="#syriaca-headword">بولس بن حنون</persName>
+                         source="#bib660-1"
+                         resp="#fioppolo">Būlus ibn Ḥanūn</persName>
+               <persName xml:id="name660-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بولس بن حنون</persName>
                <note xml:id="abstract-en-660"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib660-1">Būlus ibn Ḥanūn, physician in entourage of Abū Dulaf</note>
+                     source="#bib660-1"
+                     resp="#fioppolo">Būlus ibn Ḥanūn, physician in entourage of Abū Dulaf</note>
                <idno type="URI">https://usaybia.net/person/660</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib660-1">
+                      source="#bib660-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib660-1">

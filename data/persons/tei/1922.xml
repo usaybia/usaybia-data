@@ -206,17 +206,23 @@
                <persName xml:id="name1922-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1922-1">al-Riḍā</persName>
-               <persName xml:id="name1922-2" xml:lang="ar" srophe-tags="#syriaca-headword">الرضا</persName>
+                         source="#bib1922-1"
+                         resp="#mtolay">al-Riḍā</persName>
+               <persName xml:id="name1922-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الرضا</persName>
                <note xml:id="abstract-en-1922"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1922-1">al-Riḍā (al-Raḍī?), vizier of al-Jazīrah</note>
+                     source="#bib1922-1"
+                     resp="#mtolay">al-Riḍā (al-Raḍī?), vizier of al-Jazīrah</note>
                <idno type="URI">https://usaybia.net/person/1922</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1922-1">
+                      source="#bib1922-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib1922-1">

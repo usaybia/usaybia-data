@@ -210,24 +210,30 @@
                <persName xml:id="name444-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib444-1">Akhū l-Sayyidah</persName>
-               <persName xml:id="name444-2" xml:lang="ar" srophe-tags="#syriaca-headword">أخو السيدة</persName>
+                         source="#bib444-1"
+                         resp="#mtolay">Akhū l-Sayyidah</persName>
+               <persName xml:id="name444-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أخو السيدة</persName>
                <note xml:id="abstract-en-444"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib444-1">Akhū l-Sayyidah, metropolitan (`al-muṭrān`) in Cairo 380/991 [Arsenius, later Patriarch of Alexandria; d. 400/1000]</note>
+                     source="#bib444-1"
+                     resp="#mtolay">Akhū l-Sayyidah, metropolitan (`al-muṭrān`) in Cairo 380/991 [Arsenius, later Patriarch of Alexandria; d. 400/1000]</note>
                <idno type="URI">https://usaybia.net/person/444</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="metropolitan"
-                      source="#bib444-1">
+                      source="#bib444-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>metropolitan</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib444-1">

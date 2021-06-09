@@ -210,24 +210,30 @@
                <persName xml:id="name900-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib900-1">Ḥusām al-Dawlah</persName>
-               <persName xml:id="name900-2" xml:lang="ar" srophe-tags="#syriaca-headword">حسام الدولة</persName>
+                         source="#bib900-1"
+                         resp="#mtolay">Ḥusām al-Dawlah</persName>
+               <persName xml:id="name900-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">حسام الدولة</persName>
                <note xml:id="abstract-en-900"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib900-1">Ḥusām al-Dawlah, Ḥamdanid prince ruling Mosul, 4th/10th-c.</note>
+                     source="#bib900-1"
+                     resp="#mtolay">Ḥusām al-Dawlah, Ḥamdanid prince ruling Mosul, 4th/10th-c.</note>
                <idno type="URI">https://usaybia.net/person/900</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib900-1">
+                      source="#bib900-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib900-1">

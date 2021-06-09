@@ -206,14 +206,23 @@
                <persName xml:id="name1517-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1517-1">Marinus</persName>
-               <persName xml:id="name1517-2" xml:lang="ar" srophe-tags="#syriaca-headword">مارينوس</persName>
+                         source="#bib1517-1"
+                         resp="#fioppolo">Marinus</persName>
+               <persName xml:id="name1517-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مارينوس</persName>
                <note xml:id="abstract-en-1517"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1517-1">Marinus, a king of the Greeks, perhaps to be identified with the mythological hero Minos</note>
+                     source="#bib1517-1"
+                     resp="#fioppolo">Marinus, a king of the Greeks, perhaps to be identified with the mythological hero Minos</note>
                <idno type="URI">https://usaybia.net/person/1517</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib1517-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib1517-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib1517-1">

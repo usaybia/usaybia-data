@@ -206,23 +206,30 @@
                <persName xml:id="name620-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib620-1">Bākahr</persName>
-               <persName xml:id="name620-2" xml:lang="ar" srophe-tags="#syriaca-headword">باكهر</persName>
+                         source="#bib620-1"
+                         resp="#fioppolo">Bākahr</persName>
+               <persName xml:id="name620-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">باكهر</persName>
                <note xml:id="abstract-en-620"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib620-1">Bākahr, an otherwise unrecorded Indian physician and scholar</note>
+                     source="#bib620-1"
+                     resp="#fioppolo">Bākahr, an otherwise unrecorded Indian physician and scholar</note>
                <idno type="URI">https://usaybia.net/person/620</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib620-1">
+                      source="#bib620-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib620-1">
+                      source="#bib620-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib620-1">

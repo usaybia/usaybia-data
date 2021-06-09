@@ -210,22 +210,28 @@
                <persName xml:id="name1058-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1058-1 #bib1058-1">Ibn Mulūkah al-Naṣrānī</persName>
-               <persName xml:id="name1058-2"
+                         source="#bib1058-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Mulūkah al-Naṣrānī</persName>
+               <persName xml:id="name1058-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1058-1">ابن ملوكة النصراني</persName>
-               <persName xml:id="name1058-3" xml:lang="ar" source="#bib1058-1">Ibn Mulūkah al-Naṣrānī 13.15</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1058-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن ملوكة النصراني</persName>
+               <persName xml:id="name1058-4"
+                         xml:lang="ar"
+                         source="#bib1058-1"
+                         resp="#rschmahl #mtolay">Ibn Mulūkah al-Naṣrānī 13.15</persName>
                <note xml:id="abstract-en-1058"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1058-1">Ibn Mulūkah al-Naṣrānī</note>
+                     source="#bib1058-1"
+                     resp="#rschmahl">Ibn Mulūkah al-Naṣrānī</note>
                <idno type="URI">https://usaybia.net/person/1058</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1058-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name1944-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1944-1">Ṣadaqah ibn Manṣūr ibn Dubays al-Asadī, Sayf al-Dawlah</persName>
-               <persName xml:id="name1944-2" xml:lang="ar" srophe-tags="#syriaca-headword">صدقة بن منصور بن دبيس الأسدي سيف الدولة</persName>
+                         source="#bib1944-1"
+                         resp="#mtolay">Ṣadaqah ibn Manṣūr ibn Dubays al-Asadī, Sayf al-Dawlah</persName>
+               <persName xml:id="name1944-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صدقة بن منصور بن دبيس الأسدي سيف الدولة</persName>
                <note xml:id="abstract-en-1944"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1944-1">Ṣadaqah ibn Manṣūr ibn Dubays al-Asadī, Sayf al-Dawlah, Mazyadid ruler of al-Ḥillah (`reg.` 479–501/1086–1108)</note>
+                     source="#bib1944-1"
+                     resp="#mtolay">Ṣadaqah ibn Manṣūr ibn Dubays al-Asadī, Sayf al-Dawlah, Mazyadid ruler of al-Ḥillah (`reg.` 479–501/1086–1108)</note>
                <idno type="URI">https://usaybia.net/person/1944</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1944-1">
+                      source="#bib1944-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1944-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name252-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib252-1">Abū l-Karam</persName>
-               <persName xml:id="name252-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الكرم</persName>
+                         source="#bib252-1"
+                         resp="#mtolay">Abū l-Karam</persName>
+               <persName xml:id="name252-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الكرم</persName>
                <note xml:id="abstract-en-252"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib252-1">Abū l-Karam, physician</note>
+                     source="#bib252-1"
+                     resp="#mtolay">Abū l-Karam, physician</note>
                <idno type="URI">https://usaybia.net/person/252</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib252-1">
+                      source="#bib252-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib252-1">

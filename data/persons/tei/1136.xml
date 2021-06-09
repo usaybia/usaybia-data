@@ -210,37 +210,48 @@
                <persName xml:id="name1136-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1136-1">Ibn al-Ṭayyib</persName>
-               <persName xml:id="name1136-2" xml:lang="en-x-lhom" source="#bib1136-1">Abū l-Faraj ibn al-Ṭayyib</persName>
+                         source="#bib1136-1"
+                         resp="#rschmahl">Ibn al-Ṭayyib</persName>
+               <persName xml:id="name1136-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1136-1"
+                         resp="#rschmahl #mtolay">Abū l-Faraj ibn al-Ṭayyib</persName>
                <persName xml:id="name1136-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1136-1">أبو الفرج بن الطيب</persName>
-               <persName xml:id="name1136-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الطيب</persName>
+                         source="#bib1136-1"
+                         resp="#rschmahl #mtolay">أبو الفرج بن الطيب</persName>
+               <persName xml:id="name1136-4" xml:lang="ar" resp="#hfriedel">ابن الطيب</persName>
                <note xml:id="abstract-en-1136"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1136-1">Ibn al-Ṭayyib, Abū l-Faraj ʿAbd Allāh, Christian physician and philosopher (d. 435/1043)</note>
+                     source="#bib1136-1"
+                     resp="#rschmahl">Ibn al-Ṭayyib, Abū l-Faraj ʿAbd Allāh, Christian physician and philosopher (d. 435/1043)</note>
                <idno type="URI">https://usaybia.net/person/1136</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4218</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%81%D8%B1%D8%AC_%D8%A8%D9%86_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8</idno>
-               <idno type="URI">https://viaf.org/viaf/96981261</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3389</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_SIM_0130</idno>
-               <idno type="URI">http://syriaca.org/person/543</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4218</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%81%D8%B1%D8%AC_%D8%A8%D9%86_%D8%A7%D9%84%D8%B7%D9%8A%D8%A8</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/96981261</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3389</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_SIM_0130</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/543</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1136-1">
+                      source="#bib1136-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1136-1">
+                      source="#bib1136-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1136-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1136-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1136-1">

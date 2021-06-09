@@ -210,46 +210,53 @@
                <persName xml:id="name53-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib53-1">al-ʿAbdī ʿAbdishoʿ bar Bahrīz (ʿAbdīshūʿ ibn Bahrīz)</persName>
-               <persName xml:id="name53-2" source="#">عبد يسوع بن بهريز</persName>
-               <persName xml:id="name53-3" xml:lang="en-x-lhom" source="#bib53-1">ʿAbdīshūʿ ibn Bahrīz (ʿAbdishoʿ bar Bahrīz)</persName>
+                         source="#bib53-1"
+                         resp="#rschmahl">al-ʿAbdī ʿAbdishoʿ bar Bahrīz (ʿAbdīshūʿ ibn Bahrīz)</persName>
                <persName xml:id="name53-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib53-1">عبد يسوع بن بهريز</persName>
-               <persName xml:id="name53-5" xml:lang="ar" srophe-tags="#syriaca-headword">عبد يشوع بن بهريز</persName>
+                         source="#bib53-2 #bib53-1"
+                         resp="#rschmahl #mtolay">عبد يسوع بن بهريز</persName>
+               <persName xml:id="name53-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib53-1"
+                         resp="#rschmahl #mtolay">ʿAbdīshūʿ ibn Bahrīz (ʿAbdishoʿ bar Bahrīz)</persName>
+               <persName xml:id="name53-5" xml:lang="ar" resp="#hfriedel">عبد يشوع بن بهريز</persName>
                <note xml:id="abstract-en-53"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib53-1">al-ʿAbdī ʿAbdishoʿ bar Bahrīz (ʿAbdīshūʿ ibn Bahrīz), metropolitan and translator</note>
+                     source="#bib53-1"
+                     resp="#rschmahl">al-ʿAbdī ʿAbdishoʿ bar Bahrīz (ʿAbdīshūʿ ibn Bahrīz), metropolitan and translator</note>
                <idno type="URI">https://usaybia.net/person/53</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4167</idno>
-               <idno type="URI">https://viaf.org/viaf/116145542625296641660</idno>
-               <idno type="URI">http://syriaca.org/person/309</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4167</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/116145542625296641660</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/309</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="metropolitan"
-                      source="#bib53-1">
+                      source="#bib53-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>metropolitan</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib53-1">
+                      source="#bib53-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib53-1">
@@ -257,6 +264,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">9.35</citedRange>
                   <citedRange unit="section">9.35</citedRange>
+               </bibl>
+               <bibl xml:id="bib53-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

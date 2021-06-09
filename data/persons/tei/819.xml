@@ -206,24 +206,37 @@
                <persName xml:id="name819-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib819-1">Ḥāmid ibn ʿAlī</persName>
-               <persName xml:id="name819-2" xml:lang="ar" source="#">حامد بن على بن حامد الكحال</persName>
-               <persName xml:id="name819-3" xml:lang="ar" srophe-tags="#syriaca-headword">حميد بن علي</persName>
+                         source="#bib819-1"
+                         resp="#fioppolo">Ḥāmid ibn ʿAlī</persName>
+               <persName xml:id="name819-2"
+                         xml:lang="ar"
+                         source="#bib819-2"
+                         resp="#rschmahl #mtolay">حامد بن على بن حامد الكحال</persName>
+               <persName xml:id="name819-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">حميد بن علي</persName>
                <note xml:id="abstract-en-819"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib819-1">Ḥāmid ibn ʿAlī. Oculist. Brother of the famous physician Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</note>
+                     source="#bib819-1"
+                     resp="#fioppolo">Ḥāmid ibn ʿAlī. Oculist. Brother of the famous physician Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</note>
                <idno type="URI">https://usaybia.net/person/819</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib819-1">
+                      source="#bib819-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib819-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.50.1</citedRange>
+               </bibl>
+               <bibl xml:id="bib819-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,17 +206,23 @@
                <persName xml:id="name2402-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2402-1">Abū l-Qāsim al-Sharīʿī</persName>
-               <persName xml:id="name2402-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو القاسم الشريعي</persName>
+                         source="#bib2402-1"
+                         resp="#mtolay">Abū l-Qāsim al-Sharīʿī</persName>
+               <persName xml:id="name2402-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو القاسم الشريعي</persName>
                <note xml:id="abstract-en-2402"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2402-1">Abū l-Qāsim al-Sharīʿī, unidentified philosopher</note>
+                     source="#bib2402-1"
+                     resp="#mtolay">Abū l-Qāsim al-Sharīʿī, unidentified philosopher</note>
                <idno type="URI">https://usaybia.net/person/2402</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2402-1">
+                      source="#bib2402-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2402-1">

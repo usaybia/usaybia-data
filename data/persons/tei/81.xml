@@ -206,14 +206,23 @@
                <persName xml:id="name81-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib81-1">Abū ʿAbd Allāh Muḥammad ibn Ibrāhīm al-Mahrī al-Uṣūlī</persName>
-               <persName xml:id="name81-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عبد الله محمد بن إبراهيم المهري الأصولي</persName>
+                         source="#bib81-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Ibrāhīm al-Mahrī al-Uṣūlī</persName>
+               <persName xml:id="name81-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عبد الله محمد بن إبراهيم المهري الأصولي</persName>
                <note xml:id="abstract-en-81"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib81-1">Abū ʿAbd Allāh Muḥammad ibn Ibrāhīm al-Mahrī al-Uṣūlī, qadi in Bougie</note>
+                     source="#bib81-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Ibrāhīm al-Mahrī al-Uṣūlī, qadi in Bougie</note>
                <idno type="URI">https://usaybia.net/person/81</idno>
-               <state xml:lang="en" type="occupation" role="qadi" source="#bib81-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="qadi"
+                      source="#bib81-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>qadi</desc>
                </state>
                <bibl xml:id="bib81-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name130-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib130-1">Abū Bakr Muḥammad ibn ʿAbd al-Malik al-Sarrāj</persName>
-               <persName xml:id="name130-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر محمد بن عبد الملك السراج</persName>
+                         source="#bib130-1"
+                         resp="#rschmahl">Abū Bakr Muḥammad ibn ʿAbd al-Malik al-Sarrāj</persName>
+               <persName xml:id="name130-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر محمد بن عبد الملك السراج</persName>
                <note xml:id="abstract-en-130"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib130-1">Abū Bakr Muḥammad ibn ʿAbd al-Malik al-Sarrāj, grammarian (d. ca. 330/942)</note>
+                     source="#bib130-1"
+                     resp="#rschmahl">Abū Bakr Muḥammad ibn ʿAbd al-Malik al-Sarrāj, grammarian (d. ca. 330/942)</note>
                <idno type="URI">https://usaybia.net/person/130</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib130-1">
+                      source="#bib130-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib130-1">

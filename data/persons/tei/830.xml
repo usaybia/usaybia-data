@@ -206,14 +206,23 @@
                <persName xml:id="name830-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib830-1">al-Ḥārithī</persName>
-               <persName xml:id="name830-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحارثي</persName>
+                         source="#bib830-1"
+                         resp="#fioppolo">al-Ḥārithī</persName>
+               <persName xml:id="name830-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحارثي</persName>
                <note xml:id="abstract-en-830"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib830-1">al-Ḥārithī, unidentified poet</note>
+                     source="#bib830-1"
+                     resp="#fioppolo">al-Ḥārithī, unidentified poet</note>
                <idno type="URI">https://usaybia.net/person/830</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib830-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib830-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib830-1">

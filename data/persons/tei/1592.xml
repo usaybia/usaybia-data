@@ -210,20 +210,29 @@
                <persName xml:id="name1592-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1592-1">al-Mufashkil</persName>
-               <persName xml:id="name1592-2" xml:lang="ar" srophe-tags="#syriaca-headword">المفشكل</persName>
+                         source="#bib1592-1"
+                         resp="#fioppolo">al-Mufashkil</persName>
+               <persName xml:id="name1592-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المفشكل</persName>
                <note xml:id="abstract-en-1592"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1592-1">al-Mufashkil, unidentified Jewish physician lampooned by Abū l-Ḥakam al-Maghribī</note>
+                     source="#bib1592-1"
+                     resp="#fioppolo">al-Mufashkil, unidentified Jewish physician lampooned by Abū l-Ḥakam al-Maghribī</note>
                <idno type="URI">https://usaybia.net/person/1592</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1592-1">
+                      source="#bib1592-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1592-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1592-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1592-1">

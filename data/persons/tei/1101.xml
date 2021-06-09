@@ -206,22 +206,29 @@
                <persName xml:id="name1101-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1101-1 #bib1101-1">Ibn Sadīr</persName>
-               <persName xml:id="name1101-2"
+                         source="#bib1101-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Sadīr</persName>
+               <persName xml:id="name1101-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1101-1">ابن سدير</persName>
-               <persName xml:id="name1101-3" xml:lang="ar" source="#bib1101-1">Ibn Sadīr, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn ʿAbd Allāh, physician (d. 6060/1210) 10.80</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1101-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن سدير</persName>
+               <persName xml:id="name1101-4"
+                         xml:lang="ar"
+                         source="#bib1101-1"
+                         resp="#rschmahl #mtolay">Ibn Sadīr, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn ʿAbd Allāh, physician (d. 6060/1210) 10.80</persName>
                <note xml:id="abstract-en-1101"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1101-1">Ibn Sadīr, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn ʿAbd Allāh, physician (d. 6060/1210)</note>
+                     source="#bib1101-1"
+                     resp="#rschmahl">Ibn Sadīr, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn ʿAbd Allāh, physician (d. 6060/1210)</note>
                <idno type="URI">https://usaybia.net/person/1101</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4260</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4260</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1101-1">
+                      source="#bib1101-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1101-1">

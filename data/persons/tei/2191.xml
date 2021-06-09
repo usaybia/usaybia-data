@@ -206,17 +206,23 @@
                <persName xml:id="name2191-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2191-1">al-Ṭayfūrī</persName>
-               <persName xml:id="name2191-2" xml:lang="ar" srophe-tags="#syriaca-headword">الطيفوري</persName>
+                         source="#bib2191-1"
+                         resp="#mtolay">al-Ṭayfūrī</persName>
+               <persName xml:id="name2191-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الطيفوري</persName>
                <note xml:id="abstract-en-2191"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2191-1">al-Ṭayfūrī, father-in-law of the physician Yūḥannā ibn Māsawayh</note>
+                     source="#bib2191-1"
+                     resp="#mtolay">al-Ṭayfūrī, father-in-law of the physician Yūḥannā ibn Māsawayh</note>
                <idno type="URI">https://usaybia.net/person/2191</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2191-1">
+                      source="#bib2191-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2191-1">

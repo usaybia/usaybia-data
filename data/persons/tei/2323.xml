@@ -210,41 +210,51 @@
                <persName xml:id="name2323-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2323-1 #bib2323-1">Yūḥannā ibn Bukhtīshūʿ</persName>
-               <persName xml:id="name2323-2"
+                         source="#bib2323-1"
+                         resp="#mtolay  #rschmahl #mtolay">Yūḥannā ibn Bukhtīshūʿ</persName>
+               <persName xml:id="name2323-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib2323-1">يوحنا بن بختيشوع</persName>
-               <persName xml:id="name2323-3" xml:lang="ar" source="#bib2323-1">Yūḥannā ibn Bukhtīshūʿ, Christian physician, collaborator of Ḥunayn ibn Isḥāq (d. ca. 912) 8.32; 9.30</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2323-1"
+                         resp="#rschmahl #mtolay #hfriedel">يوحنا بن بختيشوع</persName>
+               <persName xml:id="name2323-4"
+                         xml:lang="ar"
+                         source="#bib2323-1"
+                         resp="#rschmahl #mtolay">Yūḥannā ibn Bukhtīshūʿ, Christian physician, collaborator of Ḥunayn ibn Isḥāq (d. ca. 912) 8.32; 9.30</persName>
                <note xml:id="abstract-en-2323"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2323-1">Yūḥannā ibn Bukhtīshūʿ, Christian physician, collaborator of Ḥunayn ibn Isḥāq (d. ca. 912)</note>
+                     source="#bib2323-1"
+                     resp="#mtolay ">Yūḥannā ibn Bukhtīshūʿ, Christian physician, collaborator of Ḥunayn ibn Isḥāq (d. ca. 912)</note>
                <idno type="URI">https://usaybia.net/person/2323</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4133</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%AD%D9%86%D8%A7_%D8%A8%D9%86_%D8%A8%D8%AE%D8%AA%D9%8A%D8%B4%D9%88%D8%B9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4133</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%AD%D9%86%D8%A7_%D8%A8%D9%86_%D8%A8%D8%AE%D8%AA%D9%8A%D8%B4%D9%88%D8%B9</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2323-1">
+                      source="#bib2323-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2323-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2323-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2323-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">8.32; 9.30</citedRange>
-                  <citedRange unit="section">8.32</citedRange>
                   <citedRange unit="section">9.30</citedRange>
+                  <citedRange unit="section">8.32</citedRange>
                </bibl>
             </person>
          </listPerson>

@@ -206,24 +206,34 @@
                <persName xml:id="name2424-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2424-1">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā</persName>
-               <persName xml:id="name2424-2" xml:lang="en-x-lhom" source="#bib2424-1">Ibn Bakhtawayh</persName>
+                         source="#bib2424-1"
+                         resp="#mtolay">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā</persName>
+               <persName xml:id="name2424-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2424-1"
+                         resp="#rschmahl #mtolay">Ibn Bakhtawayh</persName>
                <persName xml:id="name2424-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2424-1">ابن بختويه</persName>
-               <persName xml:id="name2424-4" xml:lang="ar" source="#bib2424-1">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā, 11th c. physician from Wāsiṭ, active ca. 420/1030 5.1.22; 10.1.12; 10.52</persName>
-               <persName xml:id="name2424-5" xml:lang="ar" srophe-tags="#syriaca-headword">ابن بختويه أبو الحسن عبد الله ابن عيسى</persName>
+                         source="#bib2424-1"
+                         resp="#rschmahl #mtolay">ابن بختويه</persName>
+               <persName xml:id="name2424-4"
+                         xml:lang="ar"
+                         source="#bib2424-1"
+                         resp="#rschmahl #mtolay">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā, 11th c. physician from Wāsiṭ, active ca. 420/1030 5.1.22; 10.1.12; 10.52</persName>
+               <persName xml:id="name2424-5" xml:lang="ar" resp="#hfriedel">ابن بختويه أبو الحسن عبد الله ابن عيسى</persName>
                <note xml:id="abstract-en-2424"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2424-1">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā, 11th c. physician from Wāsiṭ, active ca. 420/1030</note>
+                     source="#bib2424-1"
+                     resp="#mtolay">Ibn Bakhtawayh, Abū l-Ḥasan ʿAbd Allāh ibn ʿĪsā, 11th c. physician from Wāsiṭ, active ca. 420/1030</note>
                <idno type="URI">https://usaybia.net/person/2424</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4232</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4232</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2424-1">
+                      source="#bib2424-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2424-1">

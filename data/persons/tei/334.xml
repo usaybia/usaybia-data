@@ -210,29 +210,39 @@
                <persName xml:id="name334-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib334-1 #bib334-1">Abū Sahl al-Masīḥī</persName>
-               <persName xml:id="name334-2"
+                         source="#bib334-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū Sahl al-Masīḥī</persName>
+               <persName xml:id="name334-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib334-1">أبو سهل المسيحي</persName>
-               <persName xml:id="name334-3" xml:lang="ar" source="#bib334-1">Abū Sahl al-Masīḥī, Christian physician (d. 401/1010) 10.64.20 nos. 13, 17; 11.12; 11.13.8 no. 22; 11.20</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib334-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو سهل المسيحي</persName>
+               <persName xml:id="name334-4"
+                         xml:lang="ar"
+                         source="#bib334-1"
+                         resp="#rschmahl #mtolay">Abū Sahl al-Masīḥī, Christian physician (d. 401/1010) 10.64.20 nos. 13, 17; 11.12; 11.13.8 no. 22; 11.20</persName>
                <note xml:id="abstract-en-334"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib334-1">Abū Sahl al-Masīḥī, Christian physician (d. 401/1010)</note>
+                     source="#bib334-1"
+                     resp="#mtolay">Abū Sahl al-Masīḥī, Christian physician (d. 401/1010)</note>
                <idno type="URI">https://usaybia.net/person/334</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4273</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B3%D9%87%D9%84_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/66647020</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5013</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0129</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4273</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B3%D9%87%D9%84_%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%AD%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/66647020</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5013</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0129</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib334-1">
+                      source="#bib334-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib334-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib334-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib334-1">

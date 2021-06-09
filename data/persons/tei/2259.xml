@@ -206,23 +206,30 @@
                <persName xml:id="name2259-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2259-1">ʿUmar ibn Ḥafs ibn Barīq</persName>
-               <persName xml:id="name2259-2" xml:lang="en-x-lhom" source="#bib2259-1">ʿUmar Ibn Ḥafṣ ibn Barīq</persName>
+                         source="#bib2259-1"
+                         resp="#mtolay">ʿUmar ibn Ḥafs ibn Barīq</persName>
+               <persName xml:id="name2259-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2259-1"
+                         resp="#rschmahl #mtolay">ʿUmar Ibn Ḥafṣ ibn Barīq</persName>
                <persName xml:id="name2259-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2259-1">عمر بن حفص بن بريق</persName>
-               <persName xml:id="name2259-4" xml:lang="ar" srophe-tags="#syriaca-headword">عمر بن حفس بن بريق</persName>
+                         source="#bib2259-1"
+                         resp="#rschmahl #mtolay">عمر بن حفص بن بريق</persName>
+               <persName xml:id="name2259-4" xml:lang="ar" resp="#hfriedel">عمر بن حفس بن بريق</persName>
                <note xml:id="abstract-en-2259"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2259-1">ʿUmar ibn Ḥafs ibn Barīq, Andalusian physician</note>
+                     source="#bib2259-1"
+                     resp="#mtolay">ʿUmar ibn Ḥafs ibn Barīq, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/2259</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50146</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50146</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2259-1">
+                      source="#bib2259-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2259-1">

@@ -210,42 +210,57 @@
                <persName xml:id="name1678-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1678-1">Mūsā ibn Maymūn, Moses Maimonides, Abū ʿImrān al-Qurṭubī</persName>
-               <persName xml:id="name1678-2" xml:lang="ar" source="#">الرئيس موسى بن ميمون القرطبي</persName>
-               <persName xml:id="name1678-3" xml:lang="en-x-lhom" source="#bib1678-1">al-Raʾīs Mūsā ibn Maymūn (Maimonides)</persName>
+                         source="#bib1678-1"
+                         resp="#fioppolo">Mūsā ibn Maymūn, Moses Maimonides, Abū ʿImrān al-Qurṭubī</persName>
+               <persName xml:id="name1678-2"
+                         xml:lang="ar"
+                         source="#bib1678-2"
+                         resp="#rschmahl #mtolay">الرئيس موسى بن ميمون القرطبي</persName>
+               <persName xml:id="name1678-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1678-1"
+                         resp="#rschmahl #mtolay">al-Raʾīs Mūsā ibn Maymūn (Maimonides)</persName>
                <persName xml:id="name1678-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1678-1">الرئيس موسى</persName>
-               <persName xml:id="name1678-5" xml:lang="ar" srophe-tags="#syriaca-headword">موسى بن ميمون أبو عمران القرطبي</persName>
+                         source="#bib1678-1"
+                         resp="#rschmahl #mtolay">الرئيس موسى</persName>
+               <persName xml:id="name1678-5" xml:lang="ar" resp="#hfriedel">موسى بن ميمون أبو عمران القرطبي</persName>
                <note xml:id="abstract-en-1678"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1678-1">Mūsā ibn Maymūn, Moses Maimonides, Abū ʿImrān al-Qurṭubī (527–606/1135–1208) Jewish theologian, philosopher and physician</note>
+                     source="#bib1678-1"
+                     resp="#fioppolo">Mūsā ibn Maymūn, Moses Maimonides, Abū ʿImrān al-Qurṭubī (527–606/1135–1208) Jewish theologian, philosopher and physician</note>
                <idno type="URI">https://usaybia.net/person/1678</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%89_%D8%A8%D9%86_%D9%85%D9%8A%D9%85%D9%88%D9%86</idno>
-               <idno type="URI">https://viaf.org/viaf/100185495</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3293</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/maimonides/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%89_%D8%A8%D9%86_%D9%85%D9%8A%D9%85%D9%88%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/100185495</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3293</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/maimonides/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
-                      source="#bib1678-1">
+                      source="#bib1678-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>theologian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1678-1">
+                      source="#bib1678-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1678-1">
+                      source="#bib1678-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1678-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1678-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1678-1">
@@ -253,6 +268,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">14.38.1n; 14.39; 14.40.1n; 15.40.3; 15.51.1</citedRange>
                   <citedRange unit="section">14.39</citedRange>
+               </bibl>
+               <bibl xml:id="bib1678-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

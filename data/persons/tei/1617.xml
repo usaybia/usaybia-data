@@ -210,18 +210,23 @@
                <persName xml:id="name1617-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1617-1">Muḥammad ibn al-Ḥajjāj ibn Yūsuf</persName>
-               <persName xml:id="name1617-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن الحجاج بن يوسف</persName>
+                         source="#bib1617-1"
+                         resp="#fioppolo">Muḥammad ibn al-Ḥajjāj ibn Yūsuf</persName>
+               <persName xml:id="name1617-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمد بن الحجاج بن يوسف</persName>
                <note xml:id="abstract-en-1617"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1617-1">Muḥammad ibn al-Ḥajjāj ibn Yūsuf</note>
+                     source="#bib1617-1"
+                     resp="#fioppolo">Muḥammad ibn al-Ḥajjāj ibn Yūsuf</note>
                <idno type="URI">https://usaybia.net/person/1617</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1617-1">

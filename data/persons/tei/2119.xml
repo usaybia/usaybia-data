@@ -206,22 +206,29 @@
                <persName xml:id="name2119-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2119-1">al-Sinjārī, Ṭāhir ibn Ibrāhīm</persName>
-               <persName xml:id="name2119-2" xml:lang="en-x-lhom" source="#bib2119-1">Ṭāhir ibn Ibrāhīm al-Sinjarī</persName>
+                         source="#bib2119-1"
+                         resp="#mtolay">al-Sinjārī, Ṭāhir ibn Ibrāhīm</persName>
+               <persName xml:id="name2119-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2119-1"
+                         resp="#rschmahl #mtolay">Ṭāhir ibn Ibrāhīm al-Sinjarī</persName>
                <persName xml:id="name2119-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2119-1">طاهر بن إبراهيم السنجري</persName>
-               <persName xml:id="name2119-4" xml:lang="ar" srophe-tags="#syriaca-headword">السنجاري، طاهر بن إبراهيم</persName>
+                         source="#bib2119-1"
+                         resp="#rschmahl #mtolay">طاهر بن إبراهيم السنجري</persName>
+               <persName xml:id="name2119-4" xml:lang="ar" resp="#hfriedel">السنجاري، طاهر بن إبراهيم</persName>
                <note xml:id="abstract-en-2119"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2119-1">al-Sinjārī, Ṭāhir ibn Ibrāhīm, physician</note>
+                     source="#bib2119-1"
+                     resp="#mtolay">al-Sinjārī, Ṭāhir ibn Ibrāhīm, physician</note>
                <idno type="URI">https://usaybia.net/person/2119</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2119-1">
+                      source="#bib2119-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2119-1">

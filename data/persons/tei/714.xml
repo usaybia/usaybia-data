@@ -206,23 +206,30 @@
                <persName xml:id="name714-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib714-1">Diocles</persName>
-               <persName xml:id="name714-2" xml:lang="ar" srophe-tags="#syriaca-headword">ديوقيلس</persName>
+                         source="#bib714-1"
+                         resp="#fioppolo">Diocles</persName>
+               <persName xml:id="name714-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ديوقيلس</persName>
                <note xml:id="abstract-en-714"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib714-1">Diocles, 3rd–2nd-c. BC mathematician and geometer</note>
+                     source="#bib714-1"
+                     resp="#fioppolo">Diocles, 3rd–2nd-c. BC mathematician and geometer</note>
                <idno type="URI">https://usaybia.net/person/714</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib714-1">
+                      source="#bib714-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="geometer"
-                      source="#bib714-1">
+                      source="#bib714-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geometer</desc>
                </state>
                <bibl xml:id="bib714-1">

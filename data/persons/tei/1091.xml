@@ -206,17 +206,23 @@
                <persName xml:id="name1091-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1091-1">Ibn Rashīq</persName>
-               <persName xml:id="name1091-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن رشيق</persName>
+                         source="#bib1091-1"
+                         resp="#rschmahl">Ibn Rashīq</persName>
+               <persName xml:id="name1091-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن رشيق</persName>
                <note xml:id="abstract-en-1091"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1091-1">Ibn Rashīq, author of the `K. al-ʿumdah`</note>
+                     source="#bib1091-1"
+                     resp="#rschmahl">Ibn Rashīq, author of the `K. al-ʿumdah`</note>
                <idno type="URI">https://usaybia.net/person/1091</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1091-1">
+                      source="#bib1091-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1091-1">

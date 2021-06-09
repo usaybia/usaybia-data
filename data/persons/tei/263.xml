@@ -206,35 +206,47 @@
                <persName xml:id="name263-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib263-1 #bib263-1">Abū l-Majd ibn Abī l-Ḥakam</persName>
-               <persName xml:id="name263-2" xml:lang="ar" source="#">أبو المجد بن أبى الحكم أفضل الدولة محمد</persName>
-               <persName xml:id="name263-3"
+                         source="#bib263-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū l-Majd ibn Abī l-Ḥakam</persName>
+               <persName xml:id="name263-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib263-1">أبو المجد بن أبي الحكم</persName>
-               <persName xml:id="name263-4" xml:lang="ar" source="#bib263-1">Abū l-Majd ibn Abī l-Ḥakam, physician, astronomer, geometrician 15.8.4, 15.8.15; 15.9; 15.33</persName>
+                         source="#bib263-2"
+                         resp="#rschmahl #mtolay">أبو المجد بن أبى الحكم أفضل الدولة محمد</persName>
+               <persName xml:id="name263-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib263-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو المجد بن أبي الحكم</persName>
+               <persName xml:id="name263-5"
+                         xml:lang="ar"
+                         source="#bib263-1"
+                         resp="#rschmahl #mtolay">Abū l-Majd ibn Abī l-Ḥakam, physician, astronomer, geometrician 15.8.4, 15.8.15; 15.9; 15.33</persName>
                <note xml:id="abstract-en-263"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib263-1">Abū l-Majd ibn Abī l-Ḥakam, physician, astronomer, geometrician</note>
+                     source="#bib263-1"
+                     resp="#mtolay">Abū l-Majd ibn Abī l-Ḥakam, physician, astronomer, geometrician</note>
                <idno type="URI">https://usaybia.net/person/263</idno>
-               <idno type="URI">https://en.wikipedia.org/wiki/Abu_al-Majd_ibn_Abi_al-Hakam</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://en.wikipedia.org/wiki/Abu_al-Majd_ibn_Abi_al-Hakam</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib263-1">
+                      source="#bib263-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib263-1">
+                      source="#bib263-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="geometer"
-                      source="#bib263-1">
+                      source="#bib263-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geometer</desc>
                </state>
                <bibl xml:id="bib263-1">
@@ -242,6 +254,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.8.4, 15.8.15; 15.9; 15.33</citedRange>
                   <citedRange unit="section">15.9</citedRange>
+               </bibl>
+               <bibl xml:id="bib263-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

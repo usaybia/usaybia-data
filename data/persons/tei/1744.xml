@@ -206,17 +206,23 @@
                <persName xml:id="name1744-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1744-1">Nasīm</persName>
-               <persName xml:id="name1744-2" xml:lang="ar" srophe-tags="#syriaca-headword">نسيم</persName>
+                         source="#bib1744-1"
+                         resp="#fioppolo">Nasīm</persName>
+               <persName xml:id="name1744-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">نسيم</persName>
                <note xml:id="abstract-en-1744"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1744-1">Nasīm, servant of Aḥmad ibn Ṭūlūn</note>
+                     source="#bib1744-1"
+                     resp="#fioppolo">Nasīm, servant of Aḥmad ibn Ṭūlūn</note>
                <idno type="URI">https://usaybia.net/person/1744</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib1744-1">
+                      source="#bib1744-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib1744-1">

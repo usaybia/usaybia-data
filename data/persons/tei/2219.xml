@@ -198,15 +198,25 @@
                <persName xml:id="name2219-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Theophrastus of Eresos</persName>
+                         source="#bib2219-1"
+                         resp="#mtolay">Theophrastus of Eresos</persName>
                <note xml:id="abstract-en-2219"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Theophrastus of Eresos, philosopher and successor to Aristotle (d. ca. 287BC)</note>
+                     source="#bib2219-1"
+                     resp="#mtolay">Theophrastus of Eresos, philosopher and successor to Aristotle (d. ca. 287BC)</note>
                <idno type="URI">https://usaybia.net/person/2219</idno>
-               <state xml:lang="en" type="occupation" role="philosopher" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="philosopher"
+                      source="#bib2219-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
+               <bibl xml:id="bib2219-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>

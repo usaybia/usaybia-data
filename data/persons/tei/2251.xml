@@ -210,18 +210,23 @@
                <persName xml:id="name2251-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2251-1">ʿUbayd Allāh ibn Bukhtīshūʿ</persName>
-               <persName xml:id="name2251-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبيد الله بن بختيشوع</persName>
+                         source="#bib2251-1"
+                         resp="#mtolay">ʿUbayd Allāh ibn Bukhtīshūʿ</persName>
+               <persName xml:id="name2251-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبيد الله بن بختيشوع</persName>
                <note xml:id="abstract-en-2251"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2251-1">ʿUbayd Allāh ibn Bukhtīshūʿ</note>
+                     source="#bib2251-1"
+                     resp="#mtolay">ʿUbayd Allāh ibn Bukhtīshūʿ</note>
                <idno type="URI">https://usaybia.net/person/2251</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2251-1">

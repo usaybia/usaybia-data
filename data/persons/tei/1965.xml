@@ -210,48 +210,55 @@
                <persName xml:id="name1965-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1965-1 #bib1965-1">Saʿīd ibn al-Biṭrīq (Eutychius)</persName>
-               <persName xml:id="name1965-2"
+                         source="#bib1965-1"
+                         resp="#mtolay #rschmahl #mtolay">Saʿīd ibn al-Biṭrīq (Eutychius)</persName>
+               <persName xml:id="name1965-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1965-1">سعيد بن البطريق</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1965-1"
+                         resp="#rschmahl #mtolay #hfriedel">سعيد بن البطريق</persName>
                <note xml:id="abstract-en-1965"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1965-1">Saʿīd ibn al-Biṭrīq (Eutychius), physician, patriarch of Alexandria, historian author of `K. al-tārīkh al-majmūʿ alā-l-taḥqīq wa-l-taṣdīq` (`Naẓm al-jawhar`) (263– 328/877–940)</note>
+                     source="#bib1965-1"
+                     resp="#mtolay">Saʿīd ibn al-Biṭrīq (Eutychius), physician, patriarch of Alexandria, historian author of `K. al-tārīkh al-majmūʿ alā-l-taḥqīq wa-l-taṣdīq` (`Naẓm al-jawhar`) (263– 328/877–940)</note>
                <idno type="URI">https://usaybia.net/person/1965</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B7%D8%B1%D9%8A%D9%82</idno>
-               <idno type="URI">https://viaf.org/viaf/73841503</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0975</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A8%D9%86_%D8%A7%D9%84%D8%A8%D8%B7%D8%B1%D9%8A%D9%82</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/73841503</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_0975</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1965-1">
+                      source="#bib1965-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="patriarch"
-                      source="#bib1965-1">
+                      source="#bib1965-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patriarch</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib1965-1">
+                      source="#bib1965-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1965-1">
+                      source="#bib1965-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1965-1">

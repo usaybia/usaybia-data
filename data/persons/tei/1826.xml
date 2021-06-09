@@ -206,17 +206,23 @@
                <persName xml:id="name1826-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1826-1">Philotimus</persName>
-               <persName xml:id="name1826-2" xml:lang="ar" srophe-tags="#syriaca-headword">فولوطيمس</persName>
+                         source="#bib1826-1"
+                         resp="#fioppolo">Philotimus</persName>
+               <persName xml:id="name1826-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فولوطيمس</persName>
                <note xml:id="abstract-en-1826"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1826-1">Philotimus, Dogmatist physician of antiquity</note>
+                     source="#bib1826-1"
+                     resp="#fioppolo">Philotimus, Dogmatist physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/1826</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1826-1">
+                      source="#bib1826-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1826-1">

@@ -206,13 +206,20 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1339-1">al-Jilyānī</persName>
-               <persName xml:id="name1339-2" xml:lang="ar" source="#">حكيم الزمان أبو الفضل عبد المنعم بن عمر الجلياني</persName>
-               <persName xml:id="name1339-3" xml:lang="en-x-lhom" source="#bib1339-1">Ḥakīm al-Zamān ʿAbd al-Munʿim al-Jilyānī</persName>
+               <persName xml:id="name1339-2"
+                         xml:lang="ar"
+                         source="#bib1339-2"
+                         resp="#rschmahl #mtolay">حكيم الزمان أبو الفضل عبد المنعم بن عمر الجلياني</persName>
+               <persName xml:id="name1339-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1339-1"
+                         resp="#rschmahl #mtolay">Ḥakīm al-Zamān ʿAbd al-Munʿim al-Jilyānī</persName>
                <persName xml:id="name1339-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1339-1">حكيم الزمان عبد المنعم الجلياني</persName>
-               <persName xml:id="name1339-5" xml:lang="ar" srophe-tags="#syriaca-headword">الجلياني</persName>
+                         source="#bib1339-1"
+                         resp="#rschmahl #mtolay">حكيم الزمان عبد المنعم الجلياني</persName>
+               <persName xml:id="name1339-5" xml:lang="ar" resp="#hfriedel">الجلياني</persName>
                <note xml:id="abstract-en-1339"
                      xml:lang="en"
                      type="abstract"
@@ -221,16 +228,22 @@
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1339-1">
+                      source="#bib1339-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1339-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1339-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="ophthalmologist"
-                      source="#bib1339-1">
+                      source="#bib1339-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ophthalmologist</desc>
                </state>
                <bibl xml:id="bib1339-1">
@@ -238,6 +251,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.11; ＡⅠⅠ13; ＡⅠⅠ.14</citedRange>
                   <citedRange unit="section">15.11</citedRange>
+               </bibl>
+               <bibl xml:id="bib1339-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

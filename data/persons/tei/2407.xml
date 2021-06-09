@@ -210,21 +210,30 @@
                <persName xml:id="name2407-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2407-1">Anbā Zakhariyyā ibn Thawābah</persName>
-               <persName xml:id="name2407-2" xml:lang="ar" srophe-tags="#syriaca-headword">أنبا زخريا بن ثوابة</persName>
+                         source="#bib2407-1"
+                         resp="#fioppolo">Anbā Zakhariyyā ibn Thawābah</persName>
+               <persName xml:id="name2407-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أنبا زخريا بن ثوابة</persName>
                <note xml:id="abstract-en-2407"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2407-1">Anbā Zakhariyyā ibn Thawābah, unidentified monk in Jerusalem in the 900s</note>
+                     source="#bib2407-1"
+                     resp="#fioppolo">Anbā Zakhariyyā ibn Thawābah, unidentified monk in Jerusalem in the 900s</note>
                <idno type="URI">https://usaybia.net/person/2407</idno>
-               <state xml:lang="en" type="occupation" role="monk" source="#bib2407-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="monk"
+                      source="#bib2407-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>monk</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2407-1">

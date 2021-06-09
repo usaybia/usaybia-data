@@ -210,47 +210,59 @@
                <persName xml:id="name762-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib762-1">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy</persName>
-               <persName xml:id="name762-2" xml:lang="ar" source="#">فخر الدين بن خطيب الري (ابو عبد الله محمد ابن عمر بن الحسين الرازي)</persName>
-               <persName xml:id="name762-3" xml:lang="en-x-lhom" source="#bib762-1">Ibn Khaṭīb al-Rayy (Fakhr al-Dīn al-Rāzī)</persName>
+                         source="#bib762-1"
+                         resp="#fioppolo">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy</persName>
+               <persName xml:id="name762-2"
+                         xml:lang="ar"
+                         source="#bib762-2"
+                         resp="#rschmahl #mtolay">فخر الدين بن خطيب الري (ابو عبد الله محمد ابن عمر بن الحسين الرازي)</persName>
+               <persName xml:id="name762-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib762-1"
+                         resp="#rschmahl #mtolay">Ibn Khaṭīb al-Rayy (Fakhr al-Dīn al-Rāzī)</persName>
                <persName xml:id="name762-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib762-1">ابن خطيب الري</persName>
-               <persName xml:id="name762-5" xml:lang="ar" srophe-tags="#syriaca-headword">قخر الدين الرازي ابن خطيب الري</persName>
+                         source="#bib762-1"
+                         resp="#rschmahl #mtolay">ابن خطيب الري</persName>
+               <persName xml:id="name762-5" xml:lang="ar" resp="#hfriedel">قخر الدين الرازي ابن خطيب الري</persName>
                <note xml:id="abstract-en-762"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib762-1">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy (‘The Son of the Preacher of Rayy’), philosopher and theologian, author of the monumental Qurʾanic commentary `Mafātīḥ al-ghayb`</note>
+                     source="#bib762-1"
+                     resp="#fioppolo">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy (‘The Son of the Preacher of Rayy’), philosopher and theologian, author of the monumental Qurʾanic commentary `Mafātīḥ al-ghayb`</note>
                <idno type="URI">https://usaybia.net/person/762</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/14533</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30600</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%81%D8%AE%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90042555</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0206</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14533</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30600</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%81%D8%AE%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90042555</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_0206</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib762-1">
+                      source="#bib762-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
-                      source="#bib762-1">
+                      source="#bib762-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>theologian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib762-1">
+                      source="#bib762-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib762-1">
@@ -258,6 +270,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">11.11 no. 1; 11.19; 11.20; 11.23; 15.1 no. 44; 15.19; 15.21; 15.30 no. 2; 15.31.6 nos. 5, 19; 15.40.9 nos. 19, 85; 15.52.1.1; 15.59 no. 1</citedRange>
                   <citedRange unit="section">11.19</citedRange>
+               </bibl>
+               <bibl xml:id="bib762-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

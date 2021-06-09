@@ -206,28 +206,39 @@
                <persName xml:id="name153-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib153-1 #bib153-1">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis</persName>
-               <persName xml:id="name153-2" xml:lang="ar" source="#">مؤيد الدين أبو فضل محمد بن عبد الكريم بن عبد الرحمن المهندس</persName>
-               <persName xml:id="name153-3"
+                         source="#bib153-1"
+                         resp="#rschmahl #rschmahl #mtolay">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis</persName>
+               <persName xml:id="name153-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib153-1">أبو الفضل بن عبد الكريم المهندس</persName>
-               <persName xml:id="name153-4" xml:lang="ar" source="#bib153-1">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis, geometrician and physician 15.33</persName>
+                         source="#bib153-2"
+                         resp="#rschmahl #mtolay">مؤيد الدين أبو فضل محمد بن عبد الكريم بن عبد الرحمن المهندس</persName>
+               <persName xml:id="name153-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib153-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو الفضل بن عبد الكريم المهندس</persName>
+               <persName xml:id="name153-5"
+                         xml:lang="ar"
+                         source="#bib153-1"
+                         resp="#rschmahl #mtolay">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis, geometrician and physician 15.33</persName>
                <note xml:id="abstract-en-153"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib153-1">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis, geometrician and physician</note>
+                     source="#bib153-1"
+                     resp="#rschmahl">Abū l-Faḍl ibn ʿAbd al-Karīm al-Muhandis, geometrician and physician</note>
                <idno type="URI">https://usaybia.net/person/153</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="geometer"
-                      source="#bib153-1">
+                      source="#bib153-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geometer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib153-1">
+                      source="#bib153-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib153-1">
@@ -235,6 +246,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.33</citedRange>
                   <citedRange unit="section">15.33</citedRange>
+               </bibl>
+               <bibl xml:id="bib153-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

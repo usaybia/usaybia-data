@@ -210,30 +210,37 @@
                <persName xml:id="name2321-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2321-1 #bib2321-1">Yazīd ibn Yūḥannā ibn Abī Khālid</persName>
-               <persName xml:id="name2321-2"
+                         source="#bib2321-1"
+                         resp="#mtolay #rschmahl #mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid</persName>
+               <persName xml:id="name2321-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2321-1">يزيد بن يوحنا بن أبي خالد</persName>
-               <persName xml:id="name2321-3" xml:lang="ar" source="#bib2321-1">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī 8.13</persName>
-               <persName xml:id="name2321-4" xml:lang="ar" srophe-tags="#syriaca-headword">يريد بن يوحنا بن أبي خالد</persName>
+                         source="#bib2321-1"
+                         resp="#rschmahl #mtolay">يزيد بن يوحنا بن أبي خالد</persName>
+               <persName xml:id="name2321-4"
+                         xml:lang="ar"
+                         source="#bib2321-1"
+                         resp="#rschmahl #mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī 8.13</persName>
+               <persName xml:id="name2321-5" xml:lang="ar" resp="#hfriedel">يريد بن يوحنا بن أبي خالد</persName>
                <note xml:id="abstract-en-2321"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2321-1">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī</note>
+                     source="#bib2321-1"
+                     resp="#mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī</note>
                <idno type="URI">https://usaybia.net/person/2321</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4119</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4119</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2321-1">
+                      source="#bib2321-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2321-1">

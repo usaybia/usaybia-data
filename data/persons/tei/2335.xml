@@ -210,30 +210,37 @@
                <persName xml:id="name2335-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2335-1">Yūsuf ibn Aḥmad ibn Ḥasdāy</persName>
-               <persName xml:id="name2335-2" xml:lang="en-x-lhom" source="#bib2335-1">Abū Jaʿfar Yūsuf ibn Aḥmad ibn Ḥasdāy</persName>
+                         source="#bib2335-1"
+                         resp="#mtolay">Yūsuf ibn Aḥmad ibn Ḥasdāy</persName>
+               <persName xml:id="name2335-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2335-1"
+                         resp="#rschmahl #mtolay">Abū Jaʿfar Yūsuf ibn Aḥmad ibn Ḥasdāy</persName>
                <persName xml:id="name2335-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2335-1">أبو جعفر يوسف بن أحمد بن حسداي</persName>
-               <persName xml:id="name2335-4" xml:lang="ar" srophe-tags="#syriaca-headword">يوسف بن أحمد بن حسداي</persName>
+                         source="#bib2335-1"
+                         resp="#rschmahl #mtolay">أبو جعفر يوسف بن أحمد بن حسداي</persName>
+               <persName xml:id="name2335-4" xml:lang="ar" resp="#hfriedel">يوسف بن أحمد بن حسداي</persName>
                <note xml:id="abstract-en-2335"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2335-1">Yūsuf ibn Aḥmad ibn Ḥasdāy, Abū Jaʿfar, Andalusian physician</note>
+                     source="#bib2335-1"
+                     resp="#mtolay">Yūsuf ibn Aḥmad ibn Ḥasdāy, Abū Jaʿfar, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/2335</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32138</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32138</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2335-1">
+                      source="#bib2335-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Jewish, Muslim</label>
                </state>
                <bibl xml:id="bib2335-1">

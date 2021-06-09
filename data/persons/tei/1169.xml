@@ -206,22 +206,29 @@
                <persName xml:id="name1169-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1169-1">Ibn Zīrak</persName>
-               <persName xml:id="name1169-2" xml:lang="en-x-lhom" source="#bib1169-1">al-Ḥasan ibn Zīrak</persName>
+                         source="#bib1169-1"
+                         resp="#rschmahl">Ibn Zīrak</persName>
+               <persName xml:id="name1169-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1169-1"
+                         resp="#rschmahl #mtolay">al-Ḥasan ibn Zīrak</persName>
                <persName xml:id="name1169-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1169-1">الحسن بن زيرك</persName>
-               <persName xml:id="name1169-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن زيرك</persName>
+                         source="#bib1169-1"
+                         resp="#rschmahl #mtolay">الحسن بن زيرك</persName>
+               <persName xml:id="name1169-4" xml:lang="ar" resp="#hfriedel">ابن زيرك</persName>
                <note xml:id="abstract-en-1169"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1169-1">Ibn Zīrak, al-Ḥasan, Egyptian physician during governorship of Aḥmad ibn Ṭūlūn</note>
+                     source="#bib1169-1"
+                     resp="#rschmahl">Ibn Zīrak, al-Ḥasan, Egyptian physician during governorship of Aḥmad ibn Ṭūlūn</note>
                <idno type="URI">https://usaybia.net/person/1169</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1169-1">
+                      source="#bib1169-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1169-1">

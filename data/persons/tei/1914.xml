@@ -206,37 +206,49 @@
                <persName xml:id="name1914-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1914-1 #bib1914-1">Rashīd al-Dīn ibn al-Ṣūrī</persName>
-               <persName xml:id="name1914-2" xml:lang="ar" source="#">رشيد الدين ابن الصوري ابي المنصور ابي الفضل ابن على</persName>
-               <persName xml:id="name1914-3"
+                         source="#bib1914-1"
+                         resp="#mtolay #rschmahl #mtolay">Rashīd al-Dīn ibn al-Ṣūrī</persName>
+               <persName xml:id="name1914-2"
+                         xml:lang="ar"
+                         source="#bib1914-2"
+                         resp="#rschmahl #mtolay">رشيد الدين ابن الصوري ابي المنصور ابي الفضل ابن على</persName>
+               <persName xml:id="name1914-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1914-1">رشيد الدين ابن الصوري</persName>
-               <persName xml:id="name1914-4" xml:lang="ar" source="#bib1914-1">Rashīd al-Dīn ibn al-Ṣūrī, physician, botanist and pharmacologist, student of ʿAbd al-Laṭīf al-Baghdādi (573–639/1177–1242) 15.45; 15.50</persName>
-               <persName xml:id="name1914-5" xml:lang="ar" srophe-tags="#syriaca-headword">رشيد الدين بن الصوري</persName>
+                         source="#bib1914-1"
+                         resp="#rschmahl #mtolay">رشيد الدين ابن الصوري</persName>
+               <persName xml:id="name1914-5"
+                         xml:lang="ar"
+                         source="#bib1914-1"
+                         resp="#rschmahl #mtolay">Rashīd al-Dīn ibn al-Ṣūrī, physician, botanist and pharmacologist, student of ʿAbd al-Laṭīf al-Baghdādi (573–639/1177–1242) 15.45; 15.50</persName>
+               <persName xml:id="name1914-6" xml:lang="ar" resp="#hfriedel">رشيد الدين بن الصوري</persName>
                <note xml:id="abstract-en-1914"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1914-1">Rashīd al-Dīn ibn al-Ṣūrī, physician, botanist and pharmacologist, student of ʿAbd al-Laṭīf al-Baghdādi (573–639/1177–1242)</note>
+                     source="#bib1914-1"
+                     resp="#mtolay">Rashīd al-Dīn ibn al-Ṣūrī, physician, botanist and pharmacologist, student of ʿAbd al-Laṭīf al-Baghdādi (573–639/1177–1242)</note>
                <idno type="URI">https://usaybia.net/person/1914</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90075446</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90075446</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1914-1">
+                      source="#bib1914-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="botanist"
-                      source="#bib1914-1">
+                      source="#bib1914-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>botanist</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="pharmacologist"
-                      source="#bib1914-1">
+                      source="#bib1914-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>pharmacologist</desc>
                </state>
                <bibl xml:id="bib1914-1">
@@ -244,6 +256,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.45; 15.50</citedRange>
                   <citedRange unit="section">15.45</citedRange>
+               </bibl>
+               <bibl xml:id="bib1914-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

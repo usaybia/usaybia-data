@@ -206,17 +206,23 @@
                <persName xml:id="name102-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib102-1">Abū ʿAlī ibn Mawṣilāyā</persName>
-               <persName xml:id="name102-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو علي بن موصلايى</persName>
+                         source="#bib102-1"
+                         resp="#rschmahl">Abū ʿAlī ibn Mawṣilāyā</persName>
+               <persName xml:id="name102-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو علي بن موصلايى</persName>
                <note xml:id="abstract-en-102"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib102-1">Abū ʿAlī ibn Mawṣilāyā, secretary of Abū l-Qāsim al-Maghribī</note>
+                     source="#bib102-1"
+                     resp="#rschmahl">Abū ʿAlī ibn Mawṣilāyā, secretary of Abū l-Qāsim al-Maghribī</note>
                <idno type="URI">https://usaybia.net/person/102</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="secretary"
-                      source="#bib102-1">
+                      source="#bib102-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>secretary</desc>
                </state>
                <bibl xml:id="bib102-1">

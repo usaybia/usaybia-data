@@ -206,17 +206,23 @@
                <persName xml:id="name1780-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1780-1">(al-)Niẓām</persName>
-               <persName xml:id="name1780-2" xml:lang="ar" srophe-tags="#syriaca-headword">النظام</persName>
+                         source="#bib1780-1"
+                         resp="#fioppolo">(al-)Niẓām</persName>
+               <persName xml:id="name1780-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">النظام</persName>
                <note xml:id="abstract-en-1780"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1780-1">(al-)Niẓām, possibly the famous Seljuq statesman Niẓām al-Mulk (d. 485/1092)</note>
+                     source="#bib1780-1"
+                     resp="#fioppolo">(al-)Niẓām, possibly the famous Seljuq statesman Niẓām al-Mulk (d. 485/1092)</note>
                <idno type="URI">https://usaybia.net/person/1780</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="statesman"
-                      source="#bib1780-1">
+                      source="#bib1780-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>statesman</desc>
                </state>
                <bibl xml:id="bib1780-1">

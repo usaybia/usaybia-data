@@ -206,22 +206,29 @@
                <persName xml:id="name704-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib704-1 #bib704-1">Daylam</persName>
-               <persName xml:id="name704-2"
+                         source="#bib704-1"
+                         resp="#fioppolo #rschmahl #mtolay">Daylam</persName>
+               <persName xml:id="name704-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib704-1">ديلم</persName>
-               <persName xml:id="name704-3" xml:lang="ar" source="#bib704-1">Daylam, physician 10.14</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib704-1"
+                         resp="#rschmahl #mtolay #hfriedel">ديلم</persName>
+               <persName xml:id="name704-4"
+                         xml:lang="ar"
+                         source="#bib704-1"
+                         resp="#rschmahl #mtolay">Daylam, physician 10.14</persName>
                <note xml:id="abstract-en-704"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib704-1">Daylam, physician</note>
+                     source="#bib704-1"
+                     resp="#fioppolo">Daylam, physician</note>
                <idno type="URI">https://usaybia.net/person/704</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4196</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4196</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib704-1">
+                      source="#bib704-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib704-1">

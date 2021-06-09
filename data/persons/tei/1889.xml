@@ -206,23 +206,30 @@
                <persName xml:id="name1889-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1889-1">Quṭuz Quwayrī</persName>
-               <persName xml:id="name1889-2" xml:lang="en-x-lhom" source="#bib1889-1">Quwayrā</persName>
+                         source="#bib1889-1"
+                         resp="#mtolay">Quṭuz Quwayrī</persName>
+               <persName xml:id="name1889-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1889-1"
+                         resp="#rschmahl #mtolay">Quwayrā</persName>
                <persName xml:id="name1889-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1889-1">قويرى</persName>
-               <persName xml:id="name1889-4" xml:lang="ar" srophe-tags="#syriaca-headword">قطز قويري</persName>
+                         source="#bib1889-1"
+                         resp="#rschmahl #mtolay">قويرى</persName>
+               <persName xml:id="name1889-4" xml:lang="ar" resp="#hfriedel">قطز قويري</persName>
                <note xml:id="abstract-en-1889"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1889-1">Quṭuz Quwayrī (sometimes spelled Fūthirī `or` Fūtirī), Abū Isḥāq Ibrāhīm, teacher of philosophy in Baghdad</note>
+                     source="#bib1889-1"
+                     resp="#mtolay">Quṭuz Quwayrī (sometimes spelled Fūthirī `or` Fūtirī), Abū Isḥāq Ibrāhīm, teacher of philosophy in Baghdad</note>
                <idno type="URI">https://usaybia.net/person/1889</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4169</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4169</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1889-1">
+                      source="#bib1889-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1889-1">

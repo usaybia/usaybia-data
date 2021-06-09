@@ -206,17 +206,23 @@
                <persName xml:id="name887-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib887-1">Hippocrates of Gerasa</persName>
-               <persName xml:id="name887-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابقراطس الجهراسني</persName>
+                         source="#bib887-1"
+                         resp="#mtolay">Hippocrates of Gerasa</persName>
+               <persName xml:id="name887-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابقراطس الجهراسني</persName>
                <note xml:id="abstract-en-887"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib887-1">Hippocrates of Gerasa, physician of antiquity</note>
+                     source="#bib887-1"
+                     resp="#mtolay">Hippocrates of Gerasa, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/887</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib887-1">
+                      source="#bib887-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib887-1">

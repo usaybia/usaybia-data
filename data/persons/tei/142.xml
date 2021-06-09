@@ -210,24 +210,34 @@
                <persName xml:id="name142-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib142-1 #bib142-1">Abū l-Bayān ibn al-Mudawwar</persName>
-               <persName xml:id="name142-2"
+                         source="#bib142-1"
+                         resp="#rschmahl #rschmahl #mtolay">Abū l-Bayān ibn al-Mudawwar</persName>
+               <persName xml:id="name142-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib142-1">أبو البيان بن المدور</persName>
-               <persName xml:id="name142-3" xml:lang="ar" source="#bib142-1">Abū l-Bayān ibn al-Mudawwar, Karaite Jewish physician of Egypt with the honorific name of al-Sadīd (the Well-Guided) 14.33</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib142-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو البيان بن المدور</persName>
+               <persName xml:id="name142-4"
+                         xml:lang="ar"
+                         source="#bib142-1"
+                         resp="#rschmahl #mtolay">Abū l-Bayān ibn al-Mudawwar, Karaite Jewish physician of Egypt with the honorific name of al-Sadīd (the Well-Guided) 14.33</persName>
                <note xml:id="abstract-en-142"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib142-1">Abū l-Bayān ibn al-Mudawwar, Karaite Jewish physician of Egypt with the honorific name of al-Sadīd (the Well-Guided)</note>
+                     source="#bib142-1"
+                     resp="#rschmahl">Abū l-Bayān ibn al-Mudawwar, Karaite Jewish physician of Egypt with the honorific name of al-Sadīd (the Well-Guided)</note>
                <idno type="URI">https://usaybia.net/person/142</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib142-1">
+                      source="#bib142-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib142-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib142-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish, Karaite</label>
                </state>
                <bibl xml:id="bib142-1">

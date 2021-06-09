@@ -206,14 +206,23 @@
                <persName xml:id="name790-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib790-1">Genghis Khan</persName>
-               <persName xml:id="name790-2" xml:lang="ar" srophe-tags="#syriaca-headword">جنكل خان</persName>
+                         source="#bib790-1"
+                         resp="#fioppolo">Genghis Khan</persName>
+               <persName xml:id="name790-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جنكل خان</persName>
                <note xml:id="abstract-en-790"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib790-1">Genghis Khan, Mongol ruler</note>
+                     source="#bib790-1"
+                     resp="#fioppolo">Genghis Khan, Mongol ruler</note>
                <idno type="URI">https://usaybia.net/person/790</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib790-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib790-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <bibl xml:id="bib790-1">

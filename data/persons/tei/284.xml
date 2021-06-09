@@ -210,31 +210,37 @@
                <persName xml:id="name284-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib284-1">Abū Muḥammad al-Ḥasan ibn Muḥammad</persName>
-               <persName xml:id="name284-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو محمد الحسن بن محمد</persName>
+                         source="#bib284-1"
+                         resp="#mtolay">Abū Muḥammad al-Ḥasan ibn Muḥammad</persName>
+               <persName xml:id="name284-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو محمد الحسن بن محمد</persName>
                <note xml:id="abstract-en-284"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib284-1">Abū Muḥammad al-Ḥasan ibn Muḥammad, Chief Judge</note>
+                     source="#bib284-1"
+                     resp="#mtolay">Abū Muḥammad al-Ḥasan ibn Muḥammad, Chief Judge</note>
                <idno type="URI">https://usaybia.net/person/284</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="chief qadi"
-                      source="#bib284-1">
+                      source="#bib284-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chief qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib284-1">

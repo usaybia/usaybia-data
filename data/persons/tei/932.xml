@@ -206,14 +206,23 @@
                <persName xml:id="name932-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib932-1">Ibn al-Aḥmar</persName>
-               <persName xml:id="name932-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الأحمر</persName>
+                         source="#bib932-1"
+                         resp="#mtolay">Ibn al-Aḥmar</persName>
+               <persName xml:id="name932-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الأحمر</persName>
                <note xml:id="abstract-en-932"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib932-1">Ibn al-Aḥmar, poet from the 1st/7th c.</note>
+                     source="#bib932-1"
+                     resp="#mtolay">Ibn al-Aḥmar, poet from the 1st/7th c.</note>
                <idno type="URI">https://usaybia.net/person/932</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib932-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib932-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib932-1">

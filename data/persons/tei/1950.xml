@@ -210,24 +210,30 @@
                <persName xml:id="name1950-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1950-1">al-Saffāḥ</persName>
-               <persName xml:id="name1950-2" xml:lang="ar" srophe-tags="#syriaca-headword">السفاح</persName>
+                         source="#bib1950-1"
+                         resp="#mtolay">al-Saffāḥ</persName>
+               <persName xml:id="name1950-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">السفاح</persName>
                <note xml:id="abstract-en-1950"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1950-1">al-Saffāḥ, first Abbasid caliph (`reg.` 132– 136/749–54)</note>
+                     source="#bib1950-1"
+                     resp="#mtolay">al-Saffāḥ, first Abbasid caliph (`reg.` 132– 136/749–54)</note>
                <idno type="URI">https://usaybia.net/person/1950</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1950-1">
+                      source="#bib1950-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1950-1">

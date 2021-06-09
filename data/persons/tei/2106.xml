@@ -206,17 +206,23 @@
                <persName xml:id="name2106-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2106-1">Siculus</persName>
-               <persName xml:id="name2106-2" xml:lang="ar" srophe-tags="#syriaca-headword">سقولوس</persName>
+                         source="#bib2106-1"
+                         resp="#mtolay">Siculus</persName>
+               <persName xml:id="name2106-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سقولوس</persName>
                <note xml:id="abstract-en-2106"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2106-1">Siculus, Dogmatist physician of antiquity</note>
+                     source="#bib2106-1"
+                     resp="#mtolay">Siculus, Dogmatist physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/2106</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2106-1">
+                      source="#bib2106-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2106-1">

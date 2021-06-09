@@ -210,36 +210,44 @@
                <persName xml:id="name132-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib132-1">Abū Bakr Muḥammad ibn al-Khalīl al-Raqqī</persName>
-               <persName xml:id="name132-2" xml:lang="en-x-lhom" source="#bib132-1">al-Raqqī</persName>
+                         source="#bib132-1"
+                         resp="#rschmahl">Abū Bakr Muḥammad ibn al-Khalīl al-Raqqī</persName>
+               <persName xml:id="name132-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib132-1"
+                         resp="#rschmahl #mtolay">al-Raqqī</persName>
                <persName xml:id="name132-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib132-1">لرقّي</persName>
-               <persName xml:id="name132-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر محمد بن الخليل الرقي</persName>
+                         source="#bib132-1"
+                         resp="#rschmahl #mtolay">لرقّي</persName>
+               <persName xml:id="name132-4" xml:lang="ar" resp="#hfriedel">أبو بكر محمد بن الخليل الرقي</persName>
                <note xml:id="abstract-en-132"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib132-1">Abū Bakr Muḥammad ibn al-Khalīl al-Raqqī, physician, commentator on Ḥunayn ibn Isḥāq</note>
+                     source="#bib132-1"
+                     resp="#rschmahl">Abū Bakr Muḥammad ibn al-Khalīl al-Raqqī, physician, commentator on Ḥunayn ibn Isḥāq</note>
                <idno type="URI">https://usaybia.net/person/132</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4199</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4199</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib132-1">
+                      source="#bib132-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="commentator"
-                      source="#bib132-1">
+                      source="#bib132-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>commentator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib132-1">

@@ -206,28 +206,39 @@
                <persName xml:id="name1710-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1710-1 #bib1710-1">Muwaffaq al-Dīn ʿAbd al-Salām</persName>
-               <persName xml:id="name1710-2" xml:lang="ar" source="#">موفق الدين بن الصرف (موفق الدين عبد السلام)</persName>
-               <persName xml:id="name1710-3"
+                         source="#bib1710-1"
+                         resp="#fioppolo #rschmahl #mtolay">Muwaffaq al-Dīn ʿAbd al-Salām</persName>
+               <persName xml:id="name1710-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1710-1">موفق الدين عبد السلام</persName>
-               <persName xml:id="name1710-4" xml:lang="ar" source="#bib1710-1">Muwaffaq al-Dīn ʿAbd al-Salām, physician and philosopher 15.54</persName>
+                         source="#bib1710-2"
+                         resp="#rschmahl #mtolay">موفق الدين بن الصرف (موفق الدين عبد السلام)</persName>
+               <persName xml:id="name1710-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1710-1"
+                         resp="#rschmahl #mtolay #hfriedel">موفق الدين عبد السلام</persName>
+               <persName xml:id="name1710-5"
+                         xml:lang="ar"
+                         source="#bib1710-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn ʿAbd al-Salām, physician and philosopher 15.54</persName>
                <note xml:id="abstract-en-1710"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1710-1">Muwaffaq al-Dīn ʿAbd al-Salām, physician and philosopher</note>
+                     source="#bib1710-1"
+                     resp="#fioppolo">Muwaffaq al-Dīn ʿAbd al-Salām, physician and philosopher</note>
                <idno type="URI">https://usaybia.net/person/1710</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1710-1">
+                      source="#bib1710-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1710-1">
+                      source="#bib1710-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib1710-1">
@@ -235,6 +246,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.54</citedRange>
                   <citedRange unit="section">15.54</citedRange>
+               </bibl>
+               <bibl xml:id="bib1710-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,17 +206,23 @@
                <persName xml:id="name1119-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1119-1">Ibn al-Shanāʿah</persName>
-               <persName xml:id="name1119-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الشناعة</persName>
+                         source="#bib1119-1"
+                         resp="#rschmahl">Ibn al-Shanāʿah</persName>
+               <persName xml:id="name1119-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الشناعة</persName>
                <note xml:id="abstract-en-1119"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1119-1">Ibn al-Shanāʿah, unidentified Andalusī mathematician</note>
+                     source="#bib1119-1"
+                     resp="#rschmahl">Ibn al-Shanāʿah, unidentified Andalusī mathematician</note>
                <idno type="URI">https://usaybia.net/person/1119</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib1119-1">
+                      source="#bib1119-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <bibl xml:id="bib1119-1">

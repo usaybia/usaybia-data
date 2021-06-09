@@ -206,7 +206,10 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib565-1">Aristotle</persName>
-               <persName xml:id="name565-2" xml:lang="ar" srophe-tags="#syriaca-headword">أرسطوطاليس</persName>
+               <persName xml:id="name565-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أرسطوطاليس</persName>
                <note xml:id="abstract-en-565"
                      xml:lang="en"
                      type="abstract"
@@ -215,7 +218,8 @@
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib565-1">
+                      source="#bib565-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib565-1">

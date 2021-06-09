@@ -210,37 +210,44 @@
                <persName xml:id="name2084-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2084-1">Shihāb al-Dīn al-Ghūrī (Muḥammad ibn Sām Ⅰ, Shihāb al-Dīn, Muʿizz al-Dīn al-Ghūrī)</persName>
-               <persName xml:id="name2084-2" xml:lang="ar" srophe-tags="#syriaca-headword">شهاب الدين الغوري (محمد بن سام، شهاب الدين، معز الدين الغوري)</persName>
+                         source="#bib2084-1"
+                         resp="#mtolay">Shihāb al-Dīn al-Ghūrī (Muḥammad ibn Sām Ⅰ, Shihāb al-Dīn, Muʿizz al-Dīn al-Ghūrī)</persName>
+               <persName xml:id="name2084-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شهاب الدين الغوري (محمد بن سام، شهاب الدين، معز الدين الغوري)</persName>
                <note xml:id="abstract-en-2084"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2084-1">Shihāb al-Dīn al-Ghūrī (Muḥammad ibn Sām Ⅰ, Shihāb al-Dīn, Muʿizz al-Dīn al-Ghūrī), sultan of Ghūrid empire with his brother Ghiyāth al-Dīn Muḥammad (569–599/1173–1203), sole ruler (599– 602/1203–1206)</note>
+                     source="#bib2084-1"
+                     resp="#mtolay">Shihāb al-Dīn al-Ghūrī (Muḥammad ibn Sām Ⅰ, Shihāb al-Dīn, Muʿizz al-Dīn al-Ghūrī), sultan of Ghūrid empire with his brother Ghiyāth al-Dīn Muḥammad (569–599/1173–1203), sole ruler (599– 602/1203–1206)</note>
                <idno type="URI">https://usaybia.net/person/2084</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="sultan"
-                      source="#bib2084-1">
+                      source="#bib2084-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>sultan</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib2084-1">
+                      source="#bib2084-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2084-1">

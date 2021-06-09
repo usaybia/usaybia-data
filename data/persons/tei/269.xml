@@ -210,32 +210,45 @@
                <persName xml:id="name269-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib269-1 #bib269-1">Abū Manṣūr al-Naṣrānī</persName>
-               <persName xml:id="name269-2" xml:lang="ar" source="#">أبو منصور النصراني الطبيب</persName>
-               <persName xml:id="name269-3"
+                         source="#bib269-1"
+                         resp="#mtolay #rschmahl #mtolay">Abū Manṣūr al-Naṣrānī</persName>
+               <persName xml:id="name269-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib269-1">أبو منصور النصراني</persName>
-               <persName xml:id="name269-4" xml:lang="ar" source="#bib269-1">Abū Manṣūr al-Naṣrānī, Christian physician under Ṣalāḥ al-Dīn 5.26; 15.26; 15.43.2</persName>
+                         source="#bib269-2"
+                         resp="#rschmahl #mtolay">أبو منصور النصراني الطبيب</persName>
+               <persName xml:id="name269-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib269-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو منصور النصراني</persName>
+               <persName xml:id="name269-5"
+                         xml:lang="ar"
+                         source="#bib269-1"
+                         resp="#rschmahl #mtolay">Abū Manṣūr al-Naṣrānī, Christian physician under Ṣalāḥ al-Dīn 5.26; 15.26; 15.43.2</persName>
                <note xml:id="abstract-en-269"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib269-1">Abū Manṣūr al-Naṣrānī, Christian physician under Ṣalāḥ al-Dīn</note>
+                     source="#bib269-1"
+                     resp="#mtolay">Abū Manṣūr al-Naṣrānī, Christian physician under Ṣalāḥ al-Dīn</note>
                <idno type="URI">https://usaybia.net/person/269</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib269-1">
+                      source="#bib269-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib269-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib269-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib269-1">
@@ -243,6 +256,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">5.26; 15.26; 15.43.2</citedRange>
                   <citedRange unit="section">15.26</citedRange>
+               </bibl>
+               <bibl xml:id="bib269-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

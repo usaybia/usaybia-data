@@ -206,23 +206,30 @@
                <persName xml:id="name341-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib341-1">Abū Saʿīd ʿUthmān al-Dimashqī</persName>
-               <persName xml:id="name341-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو سعيد عثمان الدمشقي</persName>
+                         source="#bib341-1"
+                         resp="#mtolay">Abū Saʿīd ʿUthmān al-Dimashqī</persName>
+               <persName xml:id="name341-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو سعيد عثمان الدمشقي</persName>
                <note xml:id="abstract-en-341"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib341-1">Abū Saʿīd ʿUthmān al-Dimashqī, translator; perhaps identical with Abū ʿUthmān Saʿīd ibn Yaʿqūb al-Dimashqī Abū Saʿīd Wahb ibn Ibrāhīm, secretary to al-Muṭīʿ li-Allāh</note>
+                     source="#bib341-1"
+                     resp="#mtolay">Abū Saʿīd ʿUthmān al-Dimashqī, translator; perhaps identical with Abū ʿUthmān Saʿīd ibn Yaʿqūb al-Dimashqī Abū Saʿīd Wahb ibn Ibrāhīm, secretary to al-Muṭīʿ li-Allāh</note>
                <idno type="URI">https://usaybia.net/person/341</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib341-1">
+                      source="#bib341-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="secretary"
-                      source="#bib341-1">
+                      source="#bib341-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>secretary</desc>
                </state>
                <bibl xml:id="bib341-1">

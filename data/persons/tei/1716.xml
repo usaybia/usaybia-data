@@ -210,41 +210,58 @@
                <persName xml:id="name1716-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1716-1">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim)</persName>
-               <persName xml:id="name1716-2" xml:lang="ar" source="#">موفق الدين يعقوب السامري ابو يوسف بن غنائم</persName>
-               <persName xml:id="name1716-3" xml:lang="en-x-lhom" source="#bib1716-1">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī</persName>
+                         source="#bib1716-1"
+                         resp="#fioppolo">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim)</persName>
+               <persName xml:id="name1716-2"
+                         xml:lang="ar"
+                         source="#bib1716-2"
+                         resp="#rschmahl #mtolay">موفق الدين يعقوب السامري ابو يوسف بن غنائم</persName>
+               <persName xml:id="name1716-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1716-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī</persName>
                <persName xml:id="name1716-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1716-1">موفق الدين يعقوب السامري</persName>
-               <persName xml:id="name1716-5" xml:lang="ar" source="#bib1716-1">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim), Samaritan physician and philosopher 15.59; 15.60.1</persName>
-               <persName xml:id="name1716-6" xml:lang="ar" srophe-tags="#syriaca-headword">موفق الدين يعقوب السامري أبو يوسف يعقوب بن غنائم</persName>
+                         source="#bib1716-1"
+                         resp="#rschmahl #mtolay">موفق الدين يعقوب السامري</persName>
+               <persName xml:id="name1716-5"
+                         xml:lang="ar"
+                         source="#bib1716-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim), Samaritan physician and philosopher 15.59; 15.60.1</persName>
+               <persName xml:id="name1716-6" xml:lang="ar" resp="#hfriedel">موفق الدين يعقوب السامري أبو يوسف يعقوب بن غنائم</persName>
                <note xml:id="abstract-en-1716"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1716-1">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim), Samaritan physician and philosopher</note>
+                     source="#bib1716-1"
+                     resp="#fioppolo">Muwaffaq al-Dīn Yaʿqūb al-Sāmirī (Abū Yūsuf Yaʿqūb ibn Ghanāʾim), Samaritan physician and philosopher</note>
                <idno type="URI">https://usaybia.net/person/1716</idno>
-               <idno type="URI">https://viaf.org/viaf/88345355</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/88345355</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1716-1">
+                      source="#bib1716-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1716-1">
+                      source="#bib1716-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Samaritan</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1716-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1716-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Samaritan</label>
                </state>
                <bibl xml:id="bib1716-1">
@@ -252,6 +269,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.59; 15.60.1</citedRange>
                   <citedRange unit="section">15.59</citedRange>
+               </bibl>
+               <bibl xml:id="bib1716-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

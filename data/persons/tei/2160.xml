@@ -206,17 +206,23 @@
                <persName xml:id="name2160-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2160-1">Sumayyah</persName>
-               <persName xml:id="name2160-2" xml:lang="ar" srophe-tags="#syriaca-headword">سمية</persName>
+                         source="#bib2160-1"
+                         resp="#mtolay">Sumayyah</persName>
+               <persName xml:id="name2160-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سمية</persName>
                <note xml:id="abstract-en-2160"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2160-1">Sumayyah, mother (possibly by Abū Sufyān, father of Muʿāwiyah) of Ziyād ibn Abīhī, governor of Iraq</note>
+                     source="#bib2160-1"
+                     resp="#mtolay">Sumayyah, mother (possibly by Abū Sufyān, father of Muʿāwiyah) of Ziyād ibn Abīhī, governor of Iraq</note>
                <idno type="URI">https://usaybia.net/person/2160</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib2160-1">
+                      source="#bib2160-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <bibl xml:id="bib2160-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name1505-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1505-1">Manṣūr ibn Dubays, Bahāʾ al-Dawlah</persName>
-               <persName xml:id="name1505-2" xml:lang="ar" srophe-tags="#syriaca-headword">منصور بن دبيس بهاء الدولة</persName>
+                         source="#bib1505-1"
+                         resp="#fioppolo">Manṣūr ibn Dubays, Bahāʾ al-Dawlah</persName>
+               <persName xml:id="name1505-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">منصور بن دبيس بهاء الدولة</persName>
                <note xml:id="abstract-en-1505"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1505-1">Manṣūr ibn Dubays, Bahāʾ al-Dawlah, Mazyadid ruler (`reg.` 474–479/1082–1086)</note>
+                     source="#bib1505-1"
+                     resp="#fioppolo">Manṣūr ibn Dubays, Bahāʾ al-Dawlah, Mazyadid ruler (`reg.` 474–479/1082–1086)</note>
                <idno type="URI">https://usaybia.net/person/1505</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1505-1">
+                      source="#bib1505-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1505-1">

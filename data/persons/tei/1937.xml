@@ -206,17 +206,23 @@
                <persName xml:id="name1937-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1937-1">Saʿd al-Dīn ibn Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī</persName>
-               <persName xml:id="name1937-2" xml:lang="ar" srophe-tags="#syriaca-headword">سعد الدين بن موفق الدين عبد العزيز السلمي</persName>
+                         source="#bib1937-1"
+                         resp="#mtolay">Saʿd al-Dīn ibn Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī</persName>
+               <persName xml:id="name1937-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعد الدين بن موفق الدين عبد العزيز السلمي</persName>
                <note xml:id="abstract-en-1937"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1937-1">Saʿd al-Dīn ibn Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī, Damascus physician</note>
+                     source="#bib1937-1"
+                     resp="#mtolay">Saʿd al-Dīn ibn Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī, Damascus physician</note>
                <idno type="URI">https://usaybia.net/person/1937</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1937-1">
+                      source="#bib1937-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1937-1">

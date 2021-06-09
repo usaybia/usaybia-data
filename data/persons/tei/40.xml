@@ -210,18 +210,23 @@
                <persName xml:id="name40-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib40-1">ʿAbd al-Raḥmān ibn al-Ashʿath</persName>
-               <persName xml:id="name40-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الرحمن بن الأشعث</persName>
+                         source="#bib40-1"
+                         resp="#fioppolo">ʿAbd al-Raḥmān ibn al-Ashʿath</persName>
+               <persName xml:id="name40-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الرحمن بن الأشعث</persName>
                <note xml:id="abstract-en-40"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib40-1">ʿAbd al-Raḥmān ibn al-Ashʿath, leader of a revolt against the Umayyad governor, al-Ḥajjāj ibn Yūsuf</note>
+                     source="#bib40-1"
+                     resp="#fioppolo">ʿAbd al-Raḥmān ibn al-Ashʿath, leader of a revolt against the Umayyad governor, al-Ḥajjāj ibn Yūsuf</note>
                <idno type="URI">https://usaybia.net/person/40</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib40-1">

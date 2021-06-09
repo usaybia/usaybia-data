@@ -206,17 +206,23 @@
                <persName xml:id="name1014-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1014-1">Ibn Jinnī</persName>
-               <persName xml:id="name1014-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن جني</persName>
+                         source="#bib1014-1"
+                         resp="#rschmahl">Ibn Jinnī</persName>
+               <persName xml:id="name1014-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن جني</persName>
                <note xml:id="abstract-en-1014"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1014-1">Ibn Jinnī, Abū l-Fatḥ ʿUthmān al-Mawṣilī, grammarian (d. 392/1002)</note>
+                     source="#bib1014-1"
+                     resp="#rschmahl">Ibn Jinnī, Abū l-Fatḥ ʿUthmān al-Mawṣilī, grammarian (d. 392/1002)</note>
                <idno type="URI">https://usaybia.net/person/1014</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib1014-1">
+                      source="#bib1014-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib1014-1">

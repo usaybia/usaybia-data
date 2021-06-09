@@ -210,20 +210,29 @@
                <persName xml:id="name781-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib781-1">Furāt ibn Shaḥāthā</persName>
-               <persName xml:id="name781-2" xml:lang="ar" srophe-tags="#syriaca-headword">فرات بن شحاثى</persName>
+                         source="#bib781-1"
+                         resp="#fioppolo">Furāt ibn Shaḥāthā</persName>
+               <persName xml:id="name781-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فرات بن شحاثى</persName>
                <note xml:id="abstract-en-781"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib781-1">Furāt ibn Shaḥāthā, Jewish physician serving ʿĪsā ibn Mūsā ibn Muḥammad</note>
+                     source="#bib781-1"
+                     resp="#fioppolo">Furāt ibn Shaḥāthā, Jewish physician serving ʿĪsā ibn Mūsā ibn Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/781</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib781-1">
+                      source="#bib781-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib781-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib781-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib781-1">

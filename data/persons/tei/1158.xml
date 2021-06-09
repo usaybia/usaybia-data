@@ -206,23 +206,30 @@
                <persName xml:id="name1158-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1158-1">Ibn Uthrudī</persName>
-               <persName xml:id="name1158-2" xml:lang="en-x-lhom" source="#bib1158-1">ʿAlī ibn Hibat Allāh ibn Uthrudī</persName>
+                         source="#bib1158-1"
+                         resp="#rschmahl">Ibn Uthrudī</persName>
+               <persName xml:id="name1158-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1158-1"
+                         resp="#rschmahl #mtolay">ʿAlī ibn Hibat Allāh ibn Uthrudī</persName>
                <persName xml:id="name1158-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1158-1">علي بن هبة ﷲ بن أثردي</persName>
-               <persName xml:id="name1158-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أثردي</persName>
+                         source="#bib1158-1"
+                         resp="#rschmahl #mtolay">علي بن هبة ﷲ بن أثردي</persName>
+               <persName xml:id="name1158-4" xml:lang="ar" resp="#hfriedel">ابن أثردي</persName>
                <note xml:id="abstract-en-1158"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1158-1">Ibn Uthrudī, Abū l-Ḥasan ʿAlī ibn Hibat Allāh ibn ʿAlī, physician</note>
+                     source="#bib1158-1"
+                     resp="#rschmahl">Ibn Uthrudī, Abū l-Ḥasan ʿAlī ibn Hibat Allāh ibn ʿAlī, physician</note>
                <idno type="URI">https://usaybia.net/person/1158</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4250</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4250</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1158-1">
+                      source="#bib1158-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1158-1">

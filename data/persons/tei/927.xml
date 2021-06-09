@@ -206,17 +206,23 @@
                <persName xml:id="name927-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib927-1">Ibn Abī Uways</persName>
-               <persName xml:id="name927-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أبي أويس</persName>
+                         source="#bib927-1"
+                         resp="#mtolay">Ibn Abī Uways</persName>
+               <persName xml:id="name927-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن أبي أويس</persName>
                <note xml:id="abstract-en-927"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib927-1">Ibn Abī Uways, Ismāʿīl, transmitter</note>
+                     source="#bib927-1"
+                     resp="#mtolay">Ibn Abī Uways, Ismāʿīl, transmitter</note>
                <idno type="URI">https://usaybia.net/person/927</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib927-1">
+                      source="#bib927-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib927-1">

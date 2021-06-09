@@ -210,24 +210,30 @@
                <persName xml:id="name779-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib779-1">Flavian</persName>
-               <persName xml:id="name779-2" xml:lang="ar" srophe-tags="#syriaca-headword">أفلابيانوس</persName>
+                         source="#bib779-1"
+                         resp="#fioppolo">Flavian</persName>
+               <persName xml:id="name779-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أفلابيانوس</persName>
                <note xml:id="abstract-en-779"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib779-1">Flavian, archbishop of Constantinople 446– 449</note>
+                     source="#bib779-1"
+                     resp="#fioppolo">Flavian, archbishop of Constantinople 446– 449</note>
                <idno type="URI">https://usaybia.net/person/779</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="bishop"
-                      source="#bib779-1">
+                      source="#bib779-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>bishop</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib779-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1989-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1989-1">Sallām al-Abrash, Abū Salamah</persName>
-               <persName xml:id="name1989-2" xml:lang="ar" srophe-tags="#syriaca-headword">سلام الأبراش أبو سلمة</persName>
+                         source="#bib1989-1"
+                         resp="#mtolay">Sallām al-Abrash, Abū Salamah</persName>
+               <persName xml:id="name1989-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سلام الأبراش أبو سلمة</persName>
                <note xml:id="abstract-en-1989"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1989-1">Sallām al-Abrash, Abū Salamah, early translator and member of Hārūn al-Rashīd’s household</note>
+                     source="#bib1989-1"
+                     resp="#mtolay">Sallām al-Abrash, Abū Salamah, early translator and member of Hārūn al-Rashīd’s household</note>
                <idno type="URI">https://usaybia.net/person/1989</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1989-1">
+                      source="#bib1989-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib1989-1">

@@ -206,20 +206,30 @@
                <persName xml:id="name376-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib376-1">Abū ʿUthmān al-Khālidī</persName>
-               <persName xml:id="name376-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عثمان الخالدي</persName>
+                         source="#bib376-1"
+                         resp="#mtolay">Abū ʿUthmān al-Khālidī</persName>
+               <persName xml:id="name376-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عثمان الخالدي</persName>
                <note xml:id="abstract-en-376"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib376-1">Abū ʿUthmān al-Khālidī, 4th/10th-c. poet and man of letters, brother of Abū Bakr al-Khālidī</note>
+                     source="#bib376-1"
+                     resp="#mtolay">Abū ʿUthmān al-Khālidī, 4th/10th-c. poet and man of letters, brother of Abū Bakr al-Khālidī</note>
                <idno type="URI">https://usaybia.net/person/376</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib376-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib376-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="littérateur"
-                      source="#bib376-1">
+                      source="#bib376-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>littérateur</desc>
                </state>
                <bibl xml:id="bib376-1">

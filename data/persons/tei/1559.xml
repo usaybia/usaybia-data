@@ -206,17 +206,23 @@
                <persName xml:id="name1559-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1559-1">Menemachus</persName>
-               <persName xml:id="name1559-2" xml:lang="ar" srophe-tags="#syriaca-headword">ماناخس</persName>
+                         source="#bib1559-1"
+                         resp="#fioppolo">Menemachus</persName>
+               <persName xml:id="name1559-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ماناخس</persName>
                <note xml:id="abstract-en-1559"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1559-1">Menemachus, Methodist physician of antiquity</note>
+                     source="#bib1559-1"
+                     resp="#fioppolo">Menemachus, Methodist physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/1559</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1559-1">
+                      source="#bib1559-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1559-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name394-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib394-1">Abū Zurʿah Ṭāhir ibn Muḥammad ibn Ṭāhir al-Maqdisī al-Hamadhānī</persName>
-               <persName xml:id="name394-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو زرعة طاهر بن محمد بن طاهر المقدسي الهمذاني</persName>
+                         source="#bib394-1"
+                         resp="#mtolay ">Abū Zurʿah Ṭāhir ibn Muḥammad ibn Ṭāhir al-Maqdisī al-Hamadhānī</persName>
+               <persName xml:id="name394-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو زرعة طاهر بن محمد بن طاهر المقدسي الهمذاني</persName>
                <note xml:id="abstract-en-394"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib394-1">Abū Zurʿah Ṭāhir ibn Muḥammad ibn Ṭāhir al-Maqdisī al-Hamadhānī, scholar of Hadith (481/1088–566/1170)</note>
+                     source="#bib394-1"
+                     resp="#mtolay ">Abū Zurʿah Ṭāhir ibn Muḥammad ibn Ṭāhir al-Maqdisī al-Hamadhānī, scholar of Hadith (481/1088–566/1170)</note>
                <idno type="URI">https://usaybia.net/person/394</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib394-1">
+                      source="#bib394-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib394-1">

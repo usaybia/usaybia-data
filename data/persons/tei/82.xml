@@ -210,21 +210,30 @@
                <persName xml:id="name82-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib82-1">Abū ʿAbd Allāh Muḥammad ibn Masʿūd al-Bajjānī</persName>
-               <persName xml:id="name82-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عبد الله محمد بن مسعود البجاني</persName>
+                         source="#bib82-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Masʿūd al-Bajjānī</persName>
+               <persName xml:id="name82-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عبد الله محمد بن مسعود البجاني</persName>
                <note xml:id="abstract-en-82"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib82-1">Abū ʿAbd Allāh Muḥammad ibn Masʿūd al-Bajjānī, poet who lived in Cordova (d. ca. 400/1009–1010)</note>
+                     source="#bib82-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Masʿūd al-Bajjānī, poet who lived in Cordova (d. ca. 400/1009–1010)</note>
                <idno type="URI">https://usaybia.net/person/82</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib82-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib82-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib82-1">

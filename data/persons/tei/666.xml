@@ -206,17 +206,23 @@
                <persName xml:id="name666-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib666-1">Buskhunnar</persName>
-               <persName xml:id="name666-2" xml:lang="ar" srophe-tags="#syriaca-headword">بسخنر</persName>
+                         source="#bib666-1"
+                         resp="#fioppolo">Buskhunnar</persName>
+               <persName xml:id="name666-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بسخنر</persName>
                <note xml:id="abstract-en-666"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib666-1">Buskhunnar, Khorasanian chieftain and rebel (active 141/758–759)</note>
+                     source="#bib666-1"
+                     resp="#fioppolo">Buskhunnar, Khorasanian chieftain and rebel (active 141/758–759)</note>
                <idno type="URI">https://usaybia.net/person/666</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="tribal leader"
-                      source="#bib666-1">
+                      source="#bib666-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>tribal leader</desc>
                </state>
                <bibl xml:id="bib666-1">

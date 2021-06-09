@@ -210,24 +210,30 @@
                <persName xml:id="name2292-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2292-1">al-Wāthiq bi-Allāh</persName>
-               <persName xml:id="name2292-2" xml:lang="ar" srophe-tags="#syriaca-headword">الواثق بالله</persName>
+                         source="#bib2292-1"
+                         resp="#mtolay">al-Wāthiq bi-Allāh</persName>
+               <persName xml:id="name2292-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الواثق بالله</persName>
                <note xml:id="abstract-en-2292"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2292-1">al-Wāthiq bi-Allāh, ninth Abbasid caliph (`reg.` 227–232/842–47)</note>
+                     source="#bib2292-1"
+                     resp="#mtolay">al-Wāthiq bi-Allāh, ninth Abbasid caliph (`reg.` 227–232/842–47)</note>
                <idno type="URI">https://usaybia.net/person/2292</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib2292-1">
+                      source="#bib2292-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2292-1">

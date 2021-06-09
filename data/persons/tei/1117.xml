@@ -206,23 +206,30 @@
                <persName xml:id="name1117-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1117-1">Ibn al-Shajarī</persName>
-               <persName xml:id="name1117-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الشجري</persName>
+                         source="#bib1117-1"
+                         resp="#rschmahl">Ibn al-Shajarī</persName>
+               <persName xml:id="name1117-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الشجري</persName>
                <note xml:id="abstract-en-1117"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1117-1">Ibn al-Shajarī, scholar, teacher of al-Khaṭīb al-Tibrīzī</note>
+                     source="#bib1117-1"
+                     resp="#rschmahl">Ibn al-Shajarī, scholar, teacher of al-Khaṭīb al-Tibrīzī</note>
                <idno type="URI">https://usaybia.net/person/1117</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1117-1">
+                      source="#bib1117-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1117-1">
+                      source="#bib1117-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1117-1">

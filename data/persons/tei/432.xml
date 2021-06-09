@@ -210,25 +210,31 @@
                <persName xml:id="name432-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib432-1">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</persName>
-               <persName xml:id="name432-2" xml:lang="en-x-lhom" source="#bib432-1">Aḥmad ibn Muḥammad al-Baladī</persName>
+                         source="#bib432-1"
+                         resp="#mtolay">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</persName>
+               <persName xml:id="name432-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib432-1"
+                         resp="#rschmahl #mtolay">Aḥmad ibn Muḥammad al-Baladī</persName>
                <persName xml:id="name432-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib432-1">أحمد بن محمد البلدي</persName>
-               <persName xml:id="name432-4" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن محمد بن يحيى البلدي أبو العباس</persName>
+                         source="#bib432-1"
+                         resp="#rschmahl #mtolay">أحمد بن محمد البلدي</persName>
+               <persName xml:id="name432-4" xml:lang="ar" resp="#hfriedel">أحمد بن محمد بن يحيى البلدي أبو العباس</persName>
                <note xml:id="abstract-en-432"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib432-1">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</note>
+                     source="#bib432-1"
+                     resp="#mtolay">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</note>
                <idno type="URI">https://usaybia.net/person/432</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4228</idno>
-               <idno type="URI">https://viaf.org/viaf/305410345</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4228</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/305410345</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib432-1">

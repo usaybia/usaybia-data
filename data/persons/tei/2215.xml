@@ -210,24 +210,30 @@
                <persName xml:id="name2215-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2215-1">Theodosius</persName>
-               <persName xml:id="name2215-2" xml:lang="ar" srophe-tags="#syriaca-headword">ثاوذسيوس</persName>
+                         source="#bib2215-1"
+                         resp="#mtolay">Theodosius</persName>
+               <persName xml:id="name2215-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ثاوذسيوس</persName>
                <note xml:id="abstract-en-2215"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2215-1">Theodosius, catholicos in the time of al-Mutawakkil</note>
+                     source="#bib2215-1"
+                     resp="#mtolay">Theodosius, catholicos in the time of al-Mutawakkil</note>
                <idno type="URI">https://usaybia.net/person/2215</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="catholicos"
-                      source="#bib2215-1">
+                      source="#bib2215-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>catholicos</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian, East Syriac</label>
                </state>
                <bibl xml:id="bib2215-1">

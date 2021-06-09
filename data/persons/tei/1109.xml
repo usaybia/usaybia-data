@@ -206,35 +206,44 @@
                <persName xml:id="name1109-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1109-1 #bib1109-1">Ibn al-Ṣalāḥ</persName>
-               <persName xml:id="name1109-2" xml:lang="ar" source="#">ابن الصلاح نجم الدين أبو الفتوح أحمد بن محمد بن السري</persName>
-               <persName xml:id="name1109-3"
+                         source="#bib1109-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn al-Ṣalāḥ</persName>
+               <persName xml:id="name1109-2"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1109-1">ابن الصلاح</persName>
+                         source="#bib1109-2"
+                         resp="#rschmahl #mtolay">ابن الصلاح نجم الدين أبو الفتوح أحمد بن محمد بن السري</persName>
+               <persName xml:id="name1109-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1109-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن الصلاح</persName>
                <note xml:id="abstract-en-1109"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1109-1">Ibn al-Ṣalāḥ, Najm al-Dīn Abū l-Futūḥ Aḥmad ibn Muḥammad ibn al-Sarī, philosopher, astronomer, physician (d. 540/1145 `or` 548/1153)</note>
+                     source="#bib1109-1"
+                     resp="#rschmahl">Ibn al-Ṣalāḥ, Najm al-Dīn Abū l-Futūḥ Aḥmad ibn Muḥammad ibn al-Sarī, philosopher, astronomer, physician (d. 540/1145 `or` 548/1153)</note>
                <idno type="URI">https://usaybia.net/person/1109</idno>
-               <idno type="URI">https://viaf.org/viaf/163503142</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32214</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/163503142</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32214</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1109-1">
+                      source="#bib1109-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib1109-1">
+                      source="#bib1109-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1109-1">
+                      source="#bib1109-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1109-1">
@@ -242,6 +251,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.75.1; 15.17</citedRange>
                   <citedRange unit="section">15.17</citedRange>
+               </bibl>
+               <bibl xml:id="bib1109-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

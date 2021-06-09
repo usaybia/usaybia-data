@@ -198,25 +198,35 @@
                <persName xml:id="name1093-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1093-1">Ibn Riḍwān, Abū l-Ḥasan ʿAlī</persName>
-               <persName xml:id="name1093-2" xml:lang="ar" source="#">Abū al-Ḥasan ʿAlī b. Riḍwān</persName>
-               <persName xml:id="name1093-3" xml:lang="en-x-lhom" source="#bib1093-1">ʿAlī ibn Riḍwān</persName>
+                         source="#bib1093-1"
+                         resp="#rschmahl">Ibn Riḍwān, Abū l-Ḥasan ʿAlī</persName>
+               <persName xml:id="name1093-2"
+                         xml:lang="ar"
+                         source="#bib1093-2"
+                         resp="#rschmahl #mtolay">Abū al-Ḥasan ʿAlī b. Riḍwān</persName>
+               <persName xml:id="name1093-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1093-1"
+                         resp="#rschmahl #mtolay">ʿAlī ibn Riḍwān</persName>
                <persName xml:id="name1093-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1093-1">علي بن رضوان</persName>
+                         source="#bib1093-1"
+                         resp="#rschmahl #mtolay">علي بن رضوان</persName>
                <note xml:id="abstract-en-1093"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1093-1">Ibn Riḍwān, Abū l-Ḥasan ʿAlī, Egyptian physician at court of Fāṭimid caliph al-Mustanṣir (d. 453/1061 `or` 460/1068)</note>
+                     source="#bib1093-1"
+                     resp="#rschmahl">Ibn Riḍwān, Abū l-Ḥasan ʿAlī, Egyptian physician at court of Fāṭimid caliph al-Mustanṣir (d. 453/1061 `or` 460/1068)</note>
                <idno type="URI">https://usaybia.net/person/1093</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%B1%D8%B6%D9%88%D8%A7%D9%86</idno>
-               <idno type="URI">https://viaf.org/viaf/100198249</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3335</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%B1%D8%B6%D9%88%D8%A7%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/100198249</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3335</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1093-1">
+                      source="#bib1093-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1093-1">
@@ -224,6 +234,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">1.5; 4.1.2; 4.1.8.1n; 4.1.9.1n; 5.1.4n (Galen’s dates); 6.3.1–4 (account of the Alexandrian medical curriculum); 8.26.9n; 10.38.2; 10.38.3; 10.38.6 no. 6; 11.5.25 no. 166; 11.8.4; 14.7; 13.2.3 no. 1; 13.51.4 no. 4; 13.58.5 no. 3; 13.61.4 no. 3; 14.14.8n; 14.22.4.3 no. 44n; 14.23.1; 14.25; 14.26.1; 14.27.2; 14.32.2; 15.3.1.2; 15.40.9 no. 88 Specific treatises `Resolution al-Rāzī's Doubts regarding Galen` 11.8.4 `Useful Book` 6.3.1–4</citedRange>
                   <citedRange unit="section">14.25</citedRange>
+               </bibl>
+               <bibl xml:id="bib1093-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

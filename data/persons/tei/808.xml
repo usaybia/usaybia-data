@@ -206,17 +206,23 @@
                <persName xml:id="name808-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib808-1">Hadrian</persName>
-               <persName xml:id="name808-2" xml:lang="ar" srophe-tags="#syriaca-headword">أدريانوس</persName>
+                         source="#bib808-1"
+                         resp="#fioppolo">Hadrian</persName>
+               <persName xml:id="name808-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أدريانوس</persName>
                <note xml:id="abstract-en-808"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib808-1">Hadrian, 2nd-c. Roman emperor</note>
+                     source="#bib808-1"
+                     resp="#fioppolo">Hadrian, 2nd-c. Roman emperor</note>
                <idno type="URI">https://usaybia.net/person/808</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib808-1">
+                      source="#bib808-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib808-1">

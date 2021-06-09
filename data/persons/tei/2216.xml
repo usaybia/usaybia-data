@@ -206,17 +206,23 @@
                <persName xml:id="name2216-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2216-1">Theodotus</persName>
-               <persName xml:id="name2216-2" xml:lang="ar" srophe-tags="#syriaca-headword">بنادريطوس / ثيادريطوس</persName>
+                         source="#bib2216-1"
+                         resp="#mtolay">Theodotus</persName>
+               <persName xml:id="name2216-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بنادريطوس / ثيادريطوس</persName>
                <note xml:id="abstract-en-2216"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2216-1">Theodotus, physician of antiquity</note>
+                     source="#bib2216-1"
+                     resp="#mtolay">Theodotus, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/2216</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2216-1">
+                      source="#bib2216-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2216-1">

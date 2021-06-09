@@ -210,33 +210,40 @@
                <persName xml:id="name357-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib357-1">Muḥammad ibn Ṭāhir Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī, known as al-Manṭiqī</persName>
-               <persName xml:id="name357-2" xml:lang="en-x-lhom" source="#bib357-1">Abū Sulaymān al-Sijistānī</persName>
+                         source="#bib357-1"
+                         resp="#mtolay">Muḥammad ibn Ṭāhir Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī, known as al-Manṭiqī</persName>
+               <persName xml:id="name357-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib357-1"
+                         resp="#rschmahl #mtolay">Abū Sulaymān al-Sijistānī</persName>
                <persName xml:id="name357-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib357-1">أبو سليمان السجستاني</persName>
-               <persName xml:id="name357-4" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن طاهر أبو سليمان محمد بن طاهر بن بهرام السجستاني (المنطقي)</persName>
+                         source="#bib357-1"
+                         resp="#rschmahl #mtolay">أبو سليمان السجستاني</persName>
+               <persName xml:id="name357-4" xml:lang="ar" resp="#hfriedel">محمد بن طاهر أبو سليمان محمد بن طاهر بن بهرام السجستاني (المنطقي)</persName>
                <note xml:id="abstract-en-357"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib357-1">Muḥammad ibn Ṭāhir Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī, known as al-Manṭiqī, philosopher</note>
+                     source="#bib357-1"
+                     resp="#mtolay">Muḥammad ibn Ṭāhir Abū Sulaymān Muḥammad ibn Ṭāhir ibn Bahrām al-Sijistānī, known as al-Manṭiqī, philosopher</note>
                <idno type="URI">https://usaybia.net/person/357</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4269</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%B3%D8%AC%D8%B3%D8%AA%D8%A7%D9%86%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/48068341</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0141</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4269</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%B3%D8%AC%D8%B3%D8%AA%D8%A7%D9%86%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/48068341</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0141</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib357-1">
+                      source="#bib357-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib357-1">

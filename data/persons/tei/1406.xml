@@ -206,17 +206,23 @@
                <persName xml:id="name1406-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1406-1">Shāh al-Khwārizmī</persName>
-               <persName xml:id="name1406-2" xml:lang="ar" srophe-tags="#syriaca-headword">شاه الخوارزمي</persName>
+                         source="#bib1406-1"
+                         resp="#rschmahl">Shāh al-Khwārizmī</persName>
+               <persName xml:id="name1406-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شاه الخوارزمي</persName>
                <note xml:id="abstract-en-1406"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1406-1">Shāh al-Khwārizmī, Muḥammad ibn Mūsā, 4th/10th-c. encyclopedist</note>
+                     source="#bib1406-1"
+                     resp="#rschmahl">Shāh al-Khwārizmī, Muḥammad ibn Mūsā, 4th/10th-c. encyclopedist</note>
                <idno type="URI">https://usaybia.net/person/1406</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="encylopedist"
-                      source="#bib1406-1">
+                      source="#bib1406-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>encylopedist</desc>
                </state>
                <bibl xml:id="bib1406-1">

@@ -206,22 +206,29 @@
                <persName xml:id="name985-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib985-1">Ibn al-Ḥājib</persName>
+                         source="#bib985-1"
+                         resp="#rschmahl">Ibn al-Ḥājib</persName>
                <persName xml:id="name985-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="# #bib985-1">مهذب الدين أحمد بن الحاجب</persName>
-               <persName xml:id="name985-3" xml:lang="en-x-lhom" source="#bib985-1">Muhadhdhab al-Dīn Aḥmad ibn al-Ḥājib</persName>
-               <persName xml:id="name985-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الحاجب</persName>
+                         source="#bib985-2 #bib985-1"
+                         resp="#rschmahl #mtolay">مهذب الدين أحمد بن الحاجب</persName>
+               <persName xml:id="name985-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib985-1"
+                         resp="#rschmahl #mtolay">Muhadhdhab al-Dīn Aḥmad ibn al-Ḥājib</persName>
+               <persName xml:id="name985-5" xml:lang="ar" resp="#hfriedel">ابن الحاجب</persName>
                <note xml:id="abstract-en-985"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib985-1">Ibn al-Ḥājib, Muhadhdhab al-Dīn Aḥmad, Damascene physician</note>
+                     source="#bib985-1"
+                     resp="#rschmahl">Ibn al-Ḥājib, Muhadhdhab al-Dīn Aḥmad, Damascene physician</note>
                <idno type="URI">https://usaybia.net/person/985</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib985-1">
+                      source="#bib985-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib985-1">
@@ -229,6 +236,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.24</citedRange>
                   <citedRange unit="section">15.24</citedRange>
+               </bibl>
+               <bibl xml:id="bib985-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

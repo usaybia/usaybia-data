@@ -206,17 +206,23 @@
                <persName xml:id="name1114-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1114-1">Ibn al-Sarrāj</persName>
-               <persName xml:id="name1114-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن السراج</persName>
+                         source="#bib1114-1"
+                         resp="#rschmahl">Ibn al-Sarrāj</persName>
+               <persName xml:id="name1114-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن السراج</persName>
                <note xml:id="abstract-en-1114"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1114-1">Ibn al-Sarrāj, author of `K. al-Uṣūl`</note>
+                     source="#bib1114-1"
+                     resp="#rschmahl">Ibn al-Sarrāj, author of `K. al-Uṣūl`</note>
                <idno type="URI">https://usaybia.net/person/1114</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1114-1">
+                      source="#bib1114-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1114-1">

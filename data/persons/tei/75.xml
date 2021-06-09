@@ -206,21 +206,28 @@
                <persName xml:id="name75-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib75-1">Abū ʿAbd Allāh al-Malik al-Thaqafī</persName>
-               <persName xml:id="name75-2" xml:lang="en-x-lhom" source="#bib75-1">Abū ʿAbd Allāh al-Mālik al-Thaqafī</persName>
+                         source="#bib75-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh al-Malik al-Thaqafī</persName>
+               <persName xml:id="name75-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib75-1"
+                         resp="#rschmahl #mtolay">Abū ʿAbd Allāh al-Mālik al-Thaqafī</persName>
                <persName xml:id="name75-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib75-1">أبو عبد الله الملك الثقفي</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib75-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو عبد الله الملك الثقفي</persName>
                <note xml:id="abstract-en-75"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib75-1">Abū ʿAbd Allāh al-Malik al-Thaqafī Andalusian physician</note>
+                     source="#bib75-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh al-Malik al-Thaqafī Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/75</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib75-1">
+                      source="#bib75-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib75-1">

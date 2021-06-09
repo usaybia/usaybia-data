@@ -206,14 +206,23 @@
                <persName xml:id="name952-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib952-1">Ibn Bassām</persName>
-               <persName xml:id="name952-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن بسام</persName>
+                         source="#bib952-1"
+                         resp="#mtolay">Ibn Bassām</persName>
+               <persName xml:id="name952-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن بسام</persName>
                <note xml:id="abstract-en-952"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib952-1">Ibn Bassām, 3rd/9th-c. poet</note>
+                     source="#bib952-1"
+                     resp="#mtolay">Ibn Bassām, 3rd/9th-c. poet</note>
                <idno type="URI">https://usaybia.net/person/952</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib952-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib952-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib952-1">

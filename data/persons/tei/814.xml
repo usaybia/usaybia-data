@@ -210,24 +210,30 @@
                <persName xml:id="name814-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib814-1">al-Ḥakam ⅠⅠ, al-Mustanṣir bi-Allāh</persName>
-               <persName xml:id="name814-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحكم الثاني المستنصر بالله</persName>
+                         source="#bib814-1"
+                         resp="#fioppolo">al-Ḥakam ⅠⅠ, al-Mustanṣir bi-Allāh</persName>
+               <persName xml:id="name814-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحكم الثاني المستنصر بالله</persName>
                <note xml:id="abstract-en-814"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib814-1">al-Ḥakam ⅠⅠ, al-Mustanṣir bi-Allāh, second Umayyad caliph of al-Andalus (`reg.` 350– 366/961–76),</note>
+                     source="#bib814-1"
+                     resp="#fioppolo">al-Ḥakam ⅠⅠ, al-Mustanṣir bi-Allāh, second Umayyad caliph of al-Andalus (`reg.` 350– 366/961–76),</note>
                <idno type="URI">https://usaybia.net/person/814</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib814-1">
+                      source="#bib814-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib814-1">

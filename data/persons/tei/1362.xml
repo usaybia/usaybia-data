@@ -210,37 +210,45 @@
                <persName xml:id="name1362-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1362-1 #bib1362-1">Kamāl al-Dīn ibn Yūnus</persName>
-               <persName xml:id="name1362-2"
+                         source="#bib1362-1"
+                         resp="#rschmahl #rschmahl #mtolay">Kamāl al-Dīn ibn Yūnus</persName>
+               <persName xml:id="name1362-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1362-1">كمال الدين بن يونس</persName>
-               <persName xml:id="name1362-3" xml:lang="ar" source="#bib1362-1">Kamāl al-Dīn ibn Yūnus, Abū ʿImrān (`or` Abū l-Fatḥ) Kamāl al-Dīn Mūsā ibn Yūnus ibn Muḥammad al-Mawṣilī, mathematician and jurist (551–639/1156–1242) 10.83; 15.40.3</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1362-1"
+                         resp="#rschmahl #mtolay #hfriedel">كمال الدين بن يونس</persName>
+               <persName xml:id="name1362-4"
+                         xml:lang="ar"
+                         source="#bib1362-1"
+                         resp="#rschmahl #mtolay">Kamāl al-Dīn ibn Yūnus, Abū ʿImrān (`or` Abū l-Fatḥ) Kamāl al-Dīn Mūsā ibn Yūnus ibn Muḥammad al-Mawṣilī, mathematician and jurist (551–639/1156–1242) 10.83; 15.40.3</persName>
                <note xml:id="abstract-en-1362"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1362-1">Kamāl al-Dīn ibn Yūnus, Abū ʿImrān (`or` Abū l-Fatḥ) Kamāl al-Dīn Mūsā ibn Yūnus ibn Muḥammad al-Mawṣilī, mathematician and jurist (551–639/1156–1242)</note>
+                     source="#bib1362-1"
+                     resp="#rschmahl">Kamāl al-Dīn ibn Yūnus, Abū ʿImrān (`or` Abū l-Fatḥ) Kamāl al-Dīn Mūsā ibn Yūnus ibn Muḥammad al-Mawṣilī, mathematician and jurist (551–639/1156–1242)</note>
                <idno type="URI">https://usaybia.net/person/1362</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4262</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%83%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D9%8A%D9%88%D9%86%D8%B3</idno>
-               <idno type="URI">https://viaf.org/viaf/233532801</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4262</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%83%D9%85%D8%A7%D9%84_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D9%8A%D9%88%D9%86%D8%B3</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/233532801</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib1362-1">
+                      source="#bib1362-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib1362-1">
+                      source="#bib1362-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1362-1">

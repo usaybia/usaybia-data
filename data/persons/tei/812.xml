@@ -210,21 +210,30 @@
                <persName xml:id="name812-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib812-1">al-Ḥakam ibn Muḥammad ibn Qanbar (`or` Qunbur) al-Māzinī</persName>
-               <persName xml:id="name812-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحكم بن محمد بن قنبر المازني</persName>
+                         source="#bib812-1"
+                         resp="#fioppolo">al-Ḥakam ibn Muḥammad ibn Qanbar (`or` Qunbur) al-Māzinī</persName>
+               <persName xml:id="name812-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحكم بن محمد بن قنبر المازني</persName>
                <note xml:id="abstract-en-812"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib812-1">al-Ḥakam ibn Muḥammad ibn Qanbar (`or` Qunbur) al-Māzinī, 3rd/9th-c. poet from Basra</note>
+                     source="#bib812-1"
+                     resp="#fioppolo">al-Ḥakam ibn Muḥammad ibn Qanbar (`or` Qunbur) al-Māzinī, 3rd/9th-c. poet from Basra</note>
                <idno type="URI">https://usaybia.net/person/812</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib812-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib812-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib812-1">

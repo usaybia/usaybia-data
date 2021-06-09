@@ -206,24 +206,35 @@
                <persName xml:id="name2062-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2062-1">Shānāq</persName>
-               <persName xml:id="name2062-2" xml:lang="en-x-lhom" source="#bib2062-1">Shānāq (Cāṇakya)</persName>
+                         source="#bib2062-1"
+                         resp="#mtolay">Shānāq</persName>
+               <persName xml:id="name2062-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2062-1"
+                         resp="#rschmahl #mtolay">Shānāq (Cāṇakya)</persName>
                <persName xml:id="name2062-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib2062-1">شاناق</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib2062-1"
+                         resp="#rschmahl #mtolay #hfriedel">شاناق</persName>
                <note xml:id="abstract-en-2062"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2062-1">Shānāq, legendary Indian sage Cāṇakya (also referred to as Kauṭilya) and minister of Candragupta Maurya (`reg.` 321–298BC)</note>
+                     source="#bib2062-1"
+                     resp="#mtolay">Shānāq, legendary Indian sage Cāṇakya (also referred to as Kauṭilya) and minister of Candragupta Maurya (`reg.` 321–298BC)</note>
                <idno type="URI">https://usaybia.net/person/2062</idno>
-               <state xml:lang="en" type="occupation" role="sage" source="#bib2062-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="sage"
+                      source="#bib2062-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>sage</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="minister"
-                      source="#bib2062-1">
+                      source="#bib2062-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>minister</desc>
                </state>
                <bibl xml:id="bib2062-1">

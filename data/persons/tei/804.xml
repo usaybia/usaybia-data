@@ -206,17 +206,23 @@
                <persName xml:id="name804-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib804-1">Gregorius</persName>
-               <persName xml:id="name804-2" xml:lang="ar" srophe-tags="#syriaca-headword">غرغوريس</persName>
+                         source="#bib804-1"
+                         resp="#fioppolo">Gregorius</persName>
+               <persName xml:id="name804-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">غرغوريس</persName>
                <note xml:id="abstract-en-804"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib804-1">Gregorius, Methodist physician of antiquity</note>
+                     source="#bib804-1"
+                     resp="#fioppolo">Gregorius, Methodist physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/804</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib804-1">
+                      source="#bib804-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib804-1">

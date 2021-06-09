@@ -210,21 +210,30 @@
                <persName xml:id="name2011-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2011-1">Ṣārim al-Dīn al-Tabnīnī</persName>
-               <persName xml:id="name2011-2" xml:lang="ar" srophe-tags="#syriaca-headword">صارم الدين التبنيني</persName>
+                         source="#bib2011-1"
+                         resp="#mtolay">Ṣārim al-Dīn al-Tabnīnī</persName>
+               <persName xml:id="name2011-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صارم الدين التبنيني</persName>
                <note xml:id="abstract-en-2011"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2011-1">Ṣārim al-Dīn al-Tabnīnī, Ayyubid emir</note>
+                     source="#bib2011-1"
+                     resp="#mtolay">Ṣārim al-Dīn al-Tabnīnī, Ayyubid emir</note>
                <idno type="URI">https://usaybia.net/person/2011</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib2011-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib2011-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2011-1">

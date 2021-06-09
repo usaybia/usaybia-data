@@ -206,17 +206,23 @@
                <persName xml:id="name800-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib800-1">Glaucon</persName>
-               <persName xml:id="name800-2" xml:lang="ar" srophe-tags="#syriaca-headword">اغلوقن</persName>
+                         source="#bib800-1"
+                         resp="#fioppolo">Glaucon</persName>
+               <persName xml:id="name800-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">اغلوقن</persName>
                <note xml:id="abstract-en-800"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib800-1">Glaucon, philosopher friend and dedicatee of Galen</note>
+                     source="#bib800-1"
+                     resp="#fioppolo">Glaucon, philosopher friend and dedicatee of Galen</note>
                <idno type="URI">https://usaybia.net/person/800</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib800-1">
+                      source="#bib800-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib800-1">

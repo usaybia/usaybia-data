@@ -206,17 +206,23 @@
                <persName xml:id="name1836-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1836-1">Polemon</persName>
-               <persName xml:id="name1836-2" xml:lang="ar" srophe-tags="#syriaca-headword">أفليمون</persName>
+                         source="#bib1836-1"
+                         resp="#fioppolo">Polemon</persName>
+               <persName xml:id="name1836-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أفليمون</persName>
                <note xml:id="abstract-en-1836"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1836-1">Polemon, 2nd-c. Greek nobleman</note>
+                     source="#bib1836-1"
+                     resp="#fioppolo">Polemon, 2nd-c. Greek nobleman</note>
                <idno type="URI">https://usaybia.net/person/1836</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="nobleman"
-                      source="#bib1836-1">
+                      source="#bib1836-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>nobleman</desc>
                </state>
                <bibl xml:id="bib1836-1">

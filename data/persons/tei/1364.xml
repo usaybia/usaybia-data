@@ -206,27 +206,35 @@
                <persName xml:id="name1364-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1364-1">Kankah (`or` Kanakah) al-Hindī</persName>
-               <persName xml:id="name1364-2" xml:lang="en-x-lhom" source="#bib1364-1">Kankah al-Hindī</persName>
+                         source="#bib1364-1"
+                         resp="#rschmahl">Kankah (`or` Kanakah) al-Hindī</persName>
+               <persName xml:id="name1364-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1364-1"
+                         resp="#rschmahl #mtolay">Kankah al-Hindī</persName>
                <persName xml:id="name1364-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1364-1">كنكة الهندي</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1364-1"
+                         resp="#rschmahl #mtolay #hfriedel">كنكة الهندي</persName>
                <note xml:id="abstract-en-1364"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1364-1">Kankah (`or` Kanakah) al-Hindī, Indian astrologer-astronomer (active ca. 775– 800)</note>
+                     source="#bib1364-1"
+                     resp="#rschmahl">Kankah (`or` Kanakah) al-Hindī, Indian astrologer-astronomer (active ca. 775– 800)</note>
                <idno type="URI">https://usaybia.net/person/1364</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astrologer"
-                      source="#bib1364-1">
+                      source="#bib1364-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astrologer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib1364-1">
+                      source="#bib1364-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib1364-1">

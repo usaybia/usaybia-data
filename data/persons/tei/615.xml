@@ -210,27 +210,37 @@
                <persName xml:id="name615-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib615-1">Bahāʾ al-Dīn Abū l-Thanāʾ Maḥmūd ibn Abī l-Faḍl Manṣūr ibn al-Ḥasan ibn Ismāʿīl al-Ṭabarī al-Makhzūmī</persName>
-               <persName xml:id="name615-2" xml:lang="ar" srophe-tags="#syriaca-headword">بهاء الدين أبو الثناء محمود بن أبي الفضل منصور بن الحسن بن إسماعيل الطبري المخزومي</persName>
+                         source="#bib615-1"
+                         resp="#fioppolo">Bahāʾ al-Dīn Abū l-Thanāʾ Maḥmūd ibn Abī l-Faḍl Manṣūr ibn al-Ḥasan ibn Ismāʿīl al-Ṭabarī al-Makhzūmī</persName>
+               <persName xml:id="name615-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بهاء الدين أبو الثناء محمود بن أبي الفضل منصور بن الحسن بن إسماعيل الطبري المخزومي</persName>
                <note xml:id="abstract-en-615"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib615-1">Bahāʾ al-Dīn Abū l-Thanāʾ Maḥmūd ibn Abī l-Faḍl Manṣūr ibn al-Ḥasan ibn Ismāʿīl al-Ṭabarī al-Makhzūmī, judge and physician</note>
+                     source="#bib615-1"
+                     resp="#fioppolo">Bahāʾ al-Dīn Abū l-Thanāʾ Maḥmūd ibn Abī l-Faḍl Manṣūr ibn al-Ḥasan ibn Ismāʿīl al-Ṭabarī al-Makhzūmī, judge and physician</note>
                <idno type="URI">https://usaybia.net/person/615</idno>
-               <state xml:lang="en" type="occupation" role="judge" source="#bib615-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="judge"
+                      source="#bib615-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>judge</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib615-1">
+                      source="#bib615-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib615-1">

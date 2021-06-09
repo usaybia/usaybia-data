@@ -206,32 +206,39 @@
                <persName xml:id="name470-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib470-1">ʿAlī ibn Ibrāhīm ibn Baks, Abū l-Ḥasan</persName>
-               <persName xml:id="name470-2" xml:lang="en-x-lhom" source="#bib470-1">Abū l-Ḥasan ʿAlī ibn Ibrāhīm ibn Baks</persName>
+                         source="#bib470-1"
+                         resp="#fioppolo">ʿAlī ibn Ibrāhīm ibn Baks, Abū l-Ḥasan</persName>
+               <persName xml:id="name470-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib470-1"
+                         resp="#rschmahl #mtolay">Abū l-Ḥasan ʿAlī ibn Ibrāhīm ibn Baks</persName>
                <persName xml:id="name470-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib470-1">أبو الحسن علي بن إبراهيم بن بكس</persName>
-               <persName xml:id="name470-4" xml:lang="ar" srophe-tags="#syriaca-headword">علي بن إبراهيم بن بكس أبو الحسن</persName>
+                         source="#bib470-1"
+                         resp="#rschmahl #mtolay">أبو الحسن علي بن إبراهيم بن بكس</persName>
+               <persName xml:id="name470-4" xml:lang="ar" resp="#hfriedel">علي بن إبراهيم بن بكس أبو الحسن</persName>
                <note xml:id="abstract-en-470"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib470-1">ʿAlī ibn Ibrāhīm ibn Baks, Abū l-Ḥasan, physician at ʿAḍudī Hospital (d. 394/1003–1004)</note>
+                     source="#bib470-1"
+                     resp="#fioppolo">ʿAlī ibn Ibrāhīm ibn Baks, Abū l-Ḥasan, physician at ʿAḍudī Hospital (d. 394/1003–1004)</note>
                <idno type="URI">https://usaybia.net/person/470</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4170</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4224</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4170</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4224</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib470-1">
+                      source="#bib470-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib470-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">9.38; 10.43; 11.5.6</citedRange>
-                  <citedRange unit="section">10.43</citedRange>
                   <citedRange unit="section">9.38</citedRange>
+                  <citedRange unit="section">10.43</citedRange>
                </bibl>
             </person>
          </listPerson>

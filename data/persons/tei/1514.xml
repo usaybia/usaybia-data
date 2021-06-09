@@ -210,38 +210,49 @@
                <persName xml:id="name1514-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1514-1">al-Māridīnī, Fakhr al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd al-Salām</persName>
-               <persName xml:id="name1514-2" xml:lang="ar" source="#">فخر الدين المارديني عبد الله محمد بن عبد السلام</persName>
-               <persName xml:id="name1514-3" xml:lang="en-x-lhom" source="#bib1514-1">Fakhr al-Dīn al-Māridīnī</persName>
+                         source="#bib1514-1"
+                         resp="#fioppolo">al-Māridīnī, Fakhr al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd al-Salām</persName>
+               <persName xml:id="name1514-2"
+                         xml:lang="ar"
+                         source="#bib1514-2"
+                         resp="#rschmahl #mtolay">فخر الدين المارديني عبد الله محمد بن عبد السلام</persName>
+               <persName xml:id="name1514-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1514-1"
+                         resp="#rschmahl #mtolay">Fakhr al-Dīn al-Māridīnī</persName>
                <persName xml:id="name1514-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1514-1">فخر الدين المارديني</persName>
-               <persName xml:id="name1514-5" xml:lang="ar" srophe-tags="#syriaca-headword">المارديني قخر الدين أبو عبد الله محمد بن عبد السلام</persName>
+                         source="#bib1514-1"
+                         resp="#rschmahl #mtolay">فخر الدين المارديني</persName>
+               <persName xml:id="name1514-5" xml:lang="ar" resp="#hfriedel">المارديني قخر الدين أبو عبد الله محمد بن عبد السلام</persName>
                <note xml:id="abstract-en-1514"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1514-1">al-Māridīnī, Fakhr al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd al-Salām, physician and teacher of Shihāb al-Dīn al-Suhrawardī al-Maqtūl and Sadīd al-Dīn ibn Raqīqah</note>
+                     source="#bib1514-1"
+                     resp="#fioppolo">al-Māridīnī, Fakhr al-Dīn Abū ʿAbd Allāh Muḥammad ibn ʿAbd al-Salām, physician and teacher of Shihāb al-Dīn al-Suhrawardī al-Maqtūl and Sadīd al-Dīn ibn Raqīqah</note>
                <idno type="URI">https://usaybia.net/person/1514</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4254</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%81%D8%AE%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D8%AF%D9%8A%D9%86%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4254</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%81%D8%AE%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D9%85%D8%A7%D8%B1%D8%AF%D9%8A%D9%86%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1514-1">
+                      source="#bib1514-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1514-1">
+                      source="#bib1514-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1514-1">
@@ -249,6 +260,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.64.18; 10.75; 15.18.1; 15.29; 15.46.1; 15.46.2; 15.46.3; 15.46.3.9; 15.50</citedRange>
                   <citedRange unit="section">10.75</citedRange>
+               </bibl>
+               <bibl xml:id="bib1514-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

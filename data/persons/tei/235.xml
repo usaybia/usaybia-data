@@ -206,19 +206,25 @@
                <persName xml:id="name235-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib235-1">Abū Isḥāq Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>
-               <persName xml:id="name235-2" xml:lang="en-x-lhom" source="#bib235-1">Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>
+                         source="#bib235-1"
+                         resp="#mtolay">Abū Isḥāq Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>
+               <persName xml:id="name235-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib235-1"
+                         resp="#rschmahl #mtolay">Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>
                <persName xml:id="name235-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib235-1">أبو إسحاق إبراهيم بن زهرون الحراني</persName>
-               <persName xml:id="name235-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو إسحاق إبراهيم بن زهرون الحرّاني</persName>
+                         source="#bib235-1"
+                         resp="#rschmahl #mtolay">أبو إسحاق إبراهيم بن زهرون الحراني</persName>
+               <persName xml:id="name235-4" xml:lang="ar" resp="#hfriedel">أبو إسحاق إبراهيم بن زهرون الحرّاني</persName>
                <note xml:id="abstract-en-235"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib235-1">Abū Isḥāq Ibrāhīm ibn Zahrūn al-Ḥarrānī, (d. 309/921)</note>
+                     source="#bib235-1"
+                     resp="#mtolay">Abū Isḥāq Ibrāhīm ibn Zahrūn al-Ḥarrānī, (d. 309/921)</note>
                <idno type="URI">https://usaybia.net/person/235</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4189</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4189</idno>
                <bibl xml:id="bib235-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -206,17 +206,23 @@
                <persName xml:id="name453-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib453-1">Alexander of Aphrodisias</persName>
-               <persName xml:id="name453-2" xml:lang="ar" srophe-tags="#syriaca-headword">ألاسكندر الافروديسي</persName>
+                         source="#bib453-1"
+                         resp="#mtolay">Alexander of Aphrodisias</persName>
+               <persName xml:id="name453-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ألاسكندر الافروديسي</persName>
                <note xml:id="abstract-en-453"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib453-1">Alexander of Aphrodisias, 3rd-c. Aristotelian philosopher (confused with Alexander of Damascus)</note>
+                     source="#bib453-1"
+                     resp="#mtolay">Alexander of Aphrodisias, 3rd-c. Aristotelian philosopher (confused with Alexander of Damascus)</note>
                <idno type="URI">https://usaybia.net/person/453</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib453-1">
+                      source="#bib453-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib453-1">

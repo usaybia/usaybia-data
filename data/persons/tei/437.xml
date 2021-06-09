@@ -210,24 +210,30 @@
                <persName xml:id="name437-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib437-1">Aḥmad ibn Ṭūlūn</persName>
-               <persName xml:id="name437-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن طولون</persName>
+                         source="#bib437-1"
+                         resp="#mtolay">Aḥmad ibn Ṭūlūn</persName>
+               <persName xml:id="name437-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن طولون</persName>
                <note xml:id="abstract-en-437"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib437-1">Aḥmad ibn Ṭūlūn, Turkish governor of Egypt, founder of the Ṭūlūnid dynasty (220/835– 270/884)</note>
+                     source="#bib437-1"
+                     resp="#mtolay">Aḥmad ibn Ṭūlūn, Turkish governor of Egypt, founder of the Ṭūlūnid dynasty (220/835– 270/884)</note>
                <idno type="URI">https://usaybia.net/person/437</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib437-1">
+                      source="#bib437-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib437-1">

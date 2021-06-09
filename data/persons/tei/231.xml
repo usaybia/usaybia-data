@@ -210,21 +210,30 @@
                <persName xml:id="name231-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib231-1">Abū Isḥāq ibn Hūd Sharaf al-Dawlah</persName>
-               <persName xml:id="name231-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو إسحاق بن هود شرف الدولة</persName>
+                         source="#bib231-1"
+                         resp="#mtolay">Abū Isḥāq ibn Hūd Sharaf al-Dawlah</persName>
+               <persName xml:id="name231-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو إسحاق بن هود شرف الدولة</persName>
                <note xml:id="abstract-en-231"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib231-1">Abū Isḥāq ibn Hūd Sharaf al-Dawlah, Hūdī ruler in Murcia and Seville</note>
+                     source="#bib231-1"
+                     resp="#mtolay">Abū Isḥāq ibn Hūd Sharaf al-Dawlah, Hūdī ruler in Murcia and Seville</note>
                <idno type="URI">https://usaybia.net/person/231</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib231-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib231-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib231-1">

@@ -210,24 +210,39 @@
                <persName xml:id="name478-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib478-1">ʿAlī ibn Mūsā, al-Riḍā</persName>
-               <persName xml:id="name478-2" xml:lang="ar" source="#">على بن موسى الرضى</persName>
-               <persName xml:id="name478-3" xml:lang="ar" srophe-tags="#syriaca-headword">علي بن موسى الرضا</persName>
+                         source="#bib478-1"
+                         resp="#fioppolo">ʿAlī ibn Mūsā, al-Riḍā</persName>
+               <persName xml:id="name478-2"
+                         xml:lang="ar"
+                         source="#bib478-2"
+                         resp="#rschmahl #mtolay">على بن موسى الرضى</persName>
+               <persName xml:id="name478-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">علي بن موسى الرضا</persName>
                <note xml:id="abstract-en-478"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib478-1">ʿAlī ibn Mūsā, al-Riḍā, eighth imam of the Twelver Shi’is</note>
+                     source="#bib478-1"
+                     resp="#fioppolo">ʿAlī ibn Mūsā, al-Riḍā, eighth imam of the Twelver Shi’is</note>
                <idno type="URI">https://usaybia.net/person/478</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D8%B1%D8%B6%D8%A7</idno>
-               <idno type="URI">https://viaf.org/viaf/298140737</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0540</idno>
-               <state xml:lang="en" type="religious-affiliation" source="#bib478-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D8%B1%D8%B6%D8%A7</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/298140737</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0540</idno>
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib478-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Muslim, Shi’ite, Twelver Shi’ite</label>
                </state>
                <bibl xml:id="bib478-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">8.3.11n; 15.51.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib478-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

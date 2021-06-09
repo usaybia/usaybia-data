@@ -210,21 +210,30 @@
                <persName xml:id="name1419-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1419-1">Kuthayyir ibn ʿAbd al-Raḥmān</persName>
-               <persName xml:id="name1419-2" xml:lang="ar" srophe-tags="#syriaca-headword">كثير بن عبد الرحمن</persName>
+                         source="#bib1419-1"
+                         resp="#fioppolo">Kuthayyir ibn ʿAbd al-Raḥmān</persName>
+               <persName xml:id="name1419-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كثير بن عبد الرحمن</persName>
                <note xml:id="abstract-en-1419"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1419-1">Kuthayyir ibn ʿAbd al-Raḥmān, known as Kuthayyir ʿAzzah, 1st/7th-c. poet</note>
+                     source="#bib1419-1"
+                     resp="#fioppolo">Kuthayyir ibn ʿAbd al-Raḥmān, known as Kuthayyir ʿAzzah, 1st/7th-c. poet</note>
                <idno type="URI">https://usaybia.net/person/1419</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1419-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1419-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1419-1">

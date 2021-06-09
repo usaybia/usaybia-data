@@ -210,31 +210,37 @@
                <persName xml:id="name2049-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2049-1">Shams al-Dīn Abū ʿAbd Allāh Muḥammad ibn al-Ḥasan ibn Muḥammad al-Kātib al-Baghdādī ibn al-Karīm</persName>
-               <persName xml:id="name2049-2" xml:lang="ar" srophe-tags="#syriaca-headword">شمس الدين أبو عبد الله محمد بن الحسن بن محمد الكاتب البغدادي بن الكريم</persName>
+                         source="#bib2049-1"
+                         resp="#mtolay">Shams al-Dīn Abū ʿAbd Allāh Muḥammad ibn al-Ḥasan ibn Muḥammad al-Kātib al-Baghdādī ibn al-Karīm</persName>
+               <persName xml:id="name2049-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شمس الدين أبو عبد الله محمد بن الحسن بن محمد الكاتب البغدادي بن الكريم</persName>
                <note xml:id="abstract-en-2049"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2049-1">Shams al-Dīn Abū ʿAbd Allāh Muḥammad ibn al-Ḥasan ibn Muḥammad al-Kātib al-Baghdādī ibn al-Karīm, author of `K. al-Ṭabīkh`</note>
+                     source="#bib2049-1"
+                     resp="#mtolay">Shams al-Dīn Abū ʿAbd Allāh Muḥammad ibn al-Ḥasan ibn Muḥammad al-Kātib al-Baghdādī ibn al-Karīm, author of `K. al-Ṭabīkh`</note>
                <idno type="URI">https://usaybia.net/person/2049</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib2049-1">
+                      source="#bib2049-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2049-1">

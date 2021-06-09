@@ -206,24 +206,31 @@
                <persName xml:id="name1032-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1032-1 #bib1032-1">Ibn al-Khayyāṭ</persName>
-               <persName xml:id="name1032-2"
+                         source="#bib1032-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn al-Khayyāṭ</persName>
+               <persName xml:id="name1032-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1032-1">ابن الخياط</persName>
-               <persName xml:id="name1032-3" xml:lang="ar" source="#bib1032-1">Ibn al-Khayyāṭ, Abū Bakr Yaḥyā ibn Aḥmad, Andalusian physician (d. 447/1055–1056) 13.45</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1032-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن الخياط</persName>
+               <persName xml:id="name1032-4"
+                         xml:lang="ar"
+                         source="#bib1032-1"
+                         resp="#rschmahl #mtolay">Ibn al-Khayyāṭ, Abū Bakr Yaḥyā ibn Aḥmad, Andalusian physician (d. 447/1055–1056) 13.45</persName>
                <note xml:id="abstract-en-1032"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1032-1">Ibn al-Khayyāṭ, Abū Bakr Yaḥyā ibn Aḥmad, Andalusian physician (d. 447/1055–1056)</note>
+                     source="#bib1032-1"
+                     resp="#rschmahl">Ibn al-Khayyāṭ, Abū Bakr Yaḥyā ibn Aḥmad, Andalusian physician (d. 447/1055–1056)</note>
                <idno type="URI">https://usaybia.net/person/1032</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B7_(%D8%AA%D9%88%D8%B6%D9%8A%D8%AD)</idno>
-               <idno type="URI">https://viaf.org/viaf/90082292</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3254</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D8%AE%D9%8A%D8%A7%D8%B7_(%D8%AA%D9%88%D8%B6%D9%8A%D8%AD)</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90082292</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3254</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1032-1">
+                      source="#bib1032-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1032-1">

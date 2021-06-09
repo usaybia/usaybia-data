@@ -210,30 +210,43 @@
                <persName xml:id="name1112-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1112-1">Ibn al-Samḥ al-Baghdādī</persName>
-               <persName xml:id="name1112-2" xml:lang="en-x-lhom" source="#bib1112-1">Ibn al-Samḥ</persName>
+                         source="#bib1112-1"
+                         resp="#rschmahl">Ibn al-Samḥ al-Baghdādī</persName>
+               <persName xml:id="name1112-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1112-1"
+                         resp="#rschmahl #mtolay">Ibn al-Samḥ</persName>
                <persName xml:id="name1112-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1112-1">ابن السمح</persName>
-               <persName xml:id="name1112-4" xml:lang="ar" source="#bib1112-1">Ibn al-Samḥ al-Baghdādī, Abū l-Qāsim Aṣbagh ibn Muḥammad, Christian commentator on Aristotle (d. 418/1027) 13.5.1; 13.6; 14.22.4.3 no. 43; 14.22.5.2 no. 91n; 14.24</persName>
-               <persName xml:id="name1112-5" xml:lang="ar" srophe-tags="#syriaca-headword">ابن السمح البغدادي</persName>
+                         source="#bib1112-1"
+                         resp="#rschmahl #mtolay">ابن السمح</persName>
+               <persName xml:id="name1112-4"
+                         xml:lang="ar"
+                         source="#bib1112-1"
+                         resp="#rschmahl #mtolay">Ibn al-Samḥ al-Baghdādī, Abū l-Qāsim Aṣbagh ibn Muḥammad, Christian commentator on Aristotle (d. 418/1027) 13.5.1; 13.6; 14.22.4.3 no. 43; 14.22.5.2 no. 91n; 14.24</persName>
+               <persName xml:id="name1112-5" xml:lang="ar" resp="#hfriedel">ابن السمح البغدادي</persName>
                <note xml:id="abstract-en-1112"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1112-1">Ibn al-Samḥ al-Baghdādī, Abū l-Qāsim Aṣbagh ibn Muḥammad, Christian commentator on Aristotle (d. 418/1027)</note>
+                     source="#bib1112-1"
+                     resp="#rschmahl">Ibn al-Samḥ al-Baghdādī, Abū l-Qāsim Aṣbagh ibn Muḥammad, Christian commentator on Aristotle (d. 418/1027)</note>
                <idno type="URI">https://usaybia.net/person/1112</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50045</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%B5%D8%A8%D8%BA_%D8%A7%D9%84%D9%85%D9%87%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/226394858</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3357</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50045</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%B5%D8%A8%D8%BA_%D8%A7%D9%84%D9%85%D9%87%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/226394858</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3357</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="commentator"
-                      source="#bib1112-1">
+                      source="#bib1112-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>commentator</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1112-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1112-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1112-1">

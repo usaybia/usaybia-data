@@ -210,24 +210,30 @@
                <persName xml:id="name2285-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2285-1">al-Walīd ibn ʿAbd al-Malik ibn Marwān</persName>
-               <persName xml:id="name2285-2" xml:lang="ar" srophe-tags="#syriaca-headword">الوليد بن عبد الملك بن مروان</persName>
+                         source="#bib2285-1"
+                         resp="#mtolay">al-Walīd ibn ʿAbd al-Malik ibn Marwān</persName>
+               <persName xml:id="name2285-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الوليد بن عبد الملك بن مروان</persName>
                <note xml:id="abstract-en-2285"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2285-1">al-Walīd ibn ʿAbd al-Malik ibn Marwān, sixth Umayyad caliph (`reg.` 86–96/705–715)</note>
+                     source="#bib2285-1"
+                     resp="#mtolay">al-Walīd ibn ʿAbd al-Malik ibn Marwān, sixth Umayyad caliph (`reg.` 86–96/705–715)</note>
                <idno type="URI">https://usaybia.net/person/2285</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib2285-1">
+                      source="#bib2285-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2285-1">

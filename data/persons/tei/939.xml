@@ -206,24 +206,34 @@
                <persName xml:id="name939-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib939-1">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr</persName>
-               <persName xml:id="name939-2" xml:lang="en-x-lhom" source="#bib939-1">Ibn al-ʿAynzarbī</persName>
+                         source="#bib939-1"
+                         resp="#mtolay">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr</persName>
+               <persName xml:id="name939-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib939-1"
+                         resp="#rschmahl #mtolay">Ibn al-ʿAynzarbī</persName>
                <persName xml:id="name939-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib939-1">ابن العين زربي</persName>
-               <persName xml:id="name939-4" xml:lang="ar" source="#bib939-1">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr, Egyptian physician 14.28n; 14.29; 14.30; 14.31.6; 14.32.1</persName>
-               <persName xml:id="name939-5" xml:lang="ar" srophe-tags="#syriaca-headword">ابن العينزربي موفق الدين أبو نصر عدنان ابن منصور</persName>
+                         source="#bib939-1"
+                         resp="#rschmahl #mtolay">ابن العين زربي</persName>
+               <persName xml:id="name939-4"
+                         xml:lang="ar"
+                         source="#bib939-1"
+                         resp="#rschmahl #mtolay">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr, Egyptian physician 14.28n; 14.29; 14.30; 14.31.6; 14.32.1</persName>
+               <persName xml:id="name939-5" xml:lang="ar" resp="#hfriedel">ابن العينزربي موفق الدين أبو نصر عدنان ابن منصور</persName>
                <note xml:id="abstract-en-939"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib939-1">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr, Egyptian physician</note>
+                     source="#bib939-1"
+                     resp="#mtolay">Ibn al-ʿAynzarbī, Muwaffaq al-Dīn Abū Naṣr ʿAdnān ibn Manṣūr, Egyptian physician</note>
                <idno type="URI">https://usaybia.net/person/939</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/110090</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/110090</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib939-1">
+                      source="#bib939-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib939-1">

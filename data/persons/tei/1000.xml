@@ -206,37 +206,49 @@
                <persName xml:id="name1000-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1000-1">Ibn Hindū</persName>
-               <persName xml:id="name1000-2" xml:lang="en-x-lhom" source="#bib1000-1">Abū l-Faraj ibn Hindū</persName>
+                         source="#bib1000-1"
+                         resp="#rschmahl">Ibn Hindū</persName>
+               <persName xml:id="name1000-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1000-1"
+                         resp="#rschmahl #mtolay">Abū l-Faraj ibn Hindū</persName>
                <persName xml:id="name1000-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1000-1">أبو الفرج بن هندو</persName>
-               <persName xml:id="name1000-4" xml:lang="ar" srophe-tags="#syriaca-headword">ابن هندو</persName>
+                         source="#bib1000-1"
+                         resp="#rschmahl #mtolay">أبو الفرج بن هندو</persName>
+               <persName xml:id="name1000-4" xml:lang="ar" resp="#hfriedel">ابن هندو</persName>
                <note xml:id="abstract-en-1000"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1000-1">Ibn Hindū, Abū l-Faraj ʿAlī ibn al-Ḥusayn, poet and physician author of `K. Miftāḥ al-ṭibb` (d. 420/1029)</note>
+                     source="#bib1000-1"
+                     resp="#rschmahl">Ibn Hindū, Abū l-Faraj ʿAlī ibn al-Ḥusayn, poet and physician author of `K. Miftāḥ al-ṭibb` (d. 420/1029)</note>
                <idno type="URI">https://usaybia.net/person/1000</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/31284</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/44101</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/28251</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%81%D8%B1%D8%AC_%D8%A8%D9%86_%D9%87%D9%86%D8%AF%D9%88</idno>
-               <idno type="URI">https://viaf.org/viaf/95676109</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30817</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1000-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/31284</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/44101</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/28251</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%81%D8%B1%D8%AC_%D8%A8%D9%86_%D9%87%D9%86%D8%AF%D9%88</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/95676109</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30817</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1000-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1000-1">
+                      source="#bib1000-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1000-1">
+                      source="#bib1000-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1000-1">

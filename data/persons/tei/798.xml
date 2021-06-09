@@ -210,28 +210,37 @@
                <persName xml:id="name798-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib798-1">Ghiyāth al-Dīn, Muḥammad ibn Malik-Shāh Abū Shujāʿ Ghiyāth al-Dunyā wa-l-Dīn</persName>
-               <persName xml:id="name798-2" xml:lang="ar" srophe-tags="#syriaca-headword">غياث الدين محمد بن ملكشاه أبو شجاع غياث الدنيا والدين</persName>
+                         source="#bib798-1"
+                         resp="#fioppolo">Ghiyāth al-Dīn, Muḥammad ibn Malik-Shāh Abū Shujāʿ Ghiyāth al-Dunyā wa-l-Dīn</persName>
+               <persName xml:id="name798-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">غياث الدين محمد بن ملكشاه أبو شجاع غياث الدنيا والدين</persName>
                <note xml:id="abstract-en-798"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib798-1">Ghiyāth al-Dīn, Muḥammad ibn Malik-Shāh Abū Shujāʿ Ghiyāth al-Dunyā wa-l-Dīn, Seljuq ruler (498–511/1105–1118)</note>
+                     source="#bib798-1"
+                     resp="#fioppolo">Ghiyāth al-Dīn, Muḥammad ibn Malik-Shāh Abū Shujāʿ Ghiyāth al-Dunyā wa-l-Dīn, Seljuq ruler (498–511/1105–1118)</note>
                <idno type="URI">https://usaybia.net/person/798</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib798-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib798-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib798-1">

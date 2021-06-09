@@ -206,25 +206,41 @@
                <persName xml:id="name945-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib945-1">Ibn Bakkalārish</persName>
-               <persName xml:id="name945-2" xml:lang="en-x-lhom" source="#bib945-1">Ibn Bakkalārish (?)</persName>
+                         source="#bib945-1"
+                         resp="#mtolay">Ibn Bakkalārish</persName>
+               <persName xml:id="name945-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib945-1"
+                         resp="#rschmahl #mtolay">Ibn Bakkalārish (?)</persName>
                <persName xml:id="name945-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib945-1">ابن بكلارش</persName>
-               <persName xml:id="name945-4" xml:lang="ar" source="#bib945-1">Ibn Bakkalārish (also Baklārish and Biklārish), Andalusian physician 13.57</persName>
-               <persName xml:id="name945-5" xml:lang="en-x-lhom" source="#bib945-1">Baklārish</persName>
-               <persName xml:id="name945-6" xml:lang="en-x-lhom" source="#bib945-1">Biklārish</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib945-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن بكلارش</persName>
+               <persName xml:id="name945-4"
+                         xml:lang="ar"
+                         source="#bib945-1"
+                         resp="#rschmahl #mtolay">Ibn Bakkalārish (also Baklārish and Biklārish), Andalusian physician 13.57</persName>
+               <persName xml:id="name945-5"
+                         xml:lang="en-x-lhom"
+                         source="#bib945-1"
+                         resp="#rschmahl #mtolay">Baklārish</persName>
+               <persName xml:id="name945-6"
+                         xml:lang="en-x-lhom"
+                         source="#bib945-1"
+                         resp="#rschmahl #mtolay">Biklārish</persName>
                <note xml:id="abstract-en-945"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib945-1">Ibn Bakkalārish (also Baklārish and Biklārish), Andalusian physician</note>
+                     source="#bib945-1"
+                     resp="#mtolay">Ibn Bakkalārish (also Baklārish and Biklārish), Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/945</idno>
-               <idno type="URI">https://viaf.org/viaf/299285009</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/299285009</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib945-1">
+                      source="#bib945-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib945-1">

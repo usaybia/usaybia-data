@@ -206,17 +206,23 @@
                <persName xml:id="name204-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib204-1">Abū l-Ḥasan ibn Saʿīd (? = Abū l-Ḥusayn Aḥmad ibn Saʿīd)</persName>
-               <persName xml:id="name204-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن بن سعيد</persName>
+                         source="#bib204-1"
+                         resp="#mtolay">Abū l-Ḥasan ibn Saʿīd (? = Abū l-Ḥusayn Aḥmad ibn Saʿīd)</persName>
+               <persName xml:id="name204-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن بن سعيد</persName>
                <note xml:id="abstract-en-204"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib204-1">Abū l-Ḥasan ibn Saʿīd (? = Abū l-Ḥusayn Aḥmad ibn Saʿīd), physician</note>
+                     source="#bib204-1"
+                     resp="#mtolay">Abū l-Ḥasan ibn Saʿīd (? = Abū l-Ḥusayn Aḥmad ibn Saʿīd), physician</note>
                <idno type="URI">https://usaybia.net/person/204</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib204-1">
+                      source="#bib204-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib204-1">

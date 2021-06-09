@@ -210,24 +210,30 @@
                <persName xml:id="name760-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib760-1">al-Fāʾiz bi-Naṣr Allāh (Abū l-Qāsim ʿĪsā ibn al-Ẓāfir bi-Amr Allāh)</persName>
-               <persName xml:id="name760-2" xml:lang="ar" srophe-tags="#syriaca-headword">الفائز بنصر الله (أبو القاسم عيسى بن الظافر بأمر الله)</persName>
+                         source="#bib760-1"
+                         resp="#fioppolo">al-Fāʾiz bi-Naṣr Allāh (Abū l-Qāsim ʿĪsā ibn al-Ẓāfir bi-Amr Allāh)</persName>
+               <persName xml:id="name760-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الفائز بنصر الله (أبو القاسم عيسى بن الظافر بأمر الله)</persName>
                <note xml:id="abstract-en-760"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib760-1">al-Fāʾiz bi-Naṣr Allāh (Abū l-Qāsim ʿĪsā ibn al-Ẓāfir bi-Amr Allāh), ninth Fatimid caliph of Egypt</note>
+                     source="#bib760-1"
+                     resp="#fioppolo">al-Fāʾiz bi-Naṣr Allāh (Abū l-Qāsim ʿĪsā ibn al-Ẓāfir bi-Amr Allāh), ninth Fatimid caliph of Egypt</note>
                <idno type="URI">https://usaybia.net/person/760</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib760-1">
+                      source="#bib760-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib760-1">

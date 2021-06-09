@@ -210,27 +210,33 @@
                <persName xml:id="name463-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib463-1 #bib463-1">ʿAlī ibn al-ʿAbbās al-Majūsī</persName>
-               <persName xml:id="name463-2"
+                         source="#bib463-1"
+                         resp="#fioppolo #rschmahl #mtolay">ʿAlī ibn al-ʿAbbās al-Majūsī</persName>
+               <persName xml:id="name463-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib463-1">علي بن العباس المجوسي</persName>
-               <persName xml:id="name463-3" xml:lang="ar" source="#bib463-1">ʿAlī ibn al-ʿAbbās al-Majūsī 10.25; 14.25.9 no. 64n</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib463-1"
+                         resp="#rschmahl #mtolay #hfriedel">علي بن العباس المجوسي</persName>
+               <persName xml:id="name463-4"
+                         xml:lang="ar"
+                         source="#bib463-1"
+                         resp="#rschmahl #mtolay">ʿAlī ibn al-ʿAbbās al-Majūsī 10.25; 14.25.9 no. 64n</persName>
                <note xml:id="abstract-en-463"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib463-1">ʿAlī ibn al-ʿAbbās al-Majūsī</note>
+                     source="#bib463-1"
+                     resp="#fioppolo">ʿAlī ibn al-ʿAbbās al-Majūsī</note>
                <idno type="URI">https://usaybia.net/person/463</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50036</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/علي_بن_عباس_الأهوازي</idno>
-               <idno type="URI">https://viaf.org/viaf/9955882</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_22195</idno>
-               <idno type="URI">http://www.iranicaonline.org/articles/ali-b-abbas-majusi</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50036</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/علي_بن_عباس_الأهوازي</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/9955882</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_22195</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://www.iranicaonline.org/articles/ali-b-abbas-majusi</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Zoroastrian</label>
                </state>
                <bibl xml:id="bib463-1">

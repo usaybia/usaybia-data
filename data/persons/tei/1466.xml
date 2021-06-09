@@ -210,24 +210,30 @@
                <persName xml:id="name1466-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1466-1">al-Malik al-Fāʾiz Ibrāhīm ibn al-Malik al-ʿĀdil Ⅰ</persName>
-               <persName xml:id="name1466-2" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الفائز إبراهيم بن الملك العادل الواحد</persName>
+                         source="#bib1466-1"
+                         resp="#fioppolo">al-Malik al-Fāʾiz Ibrāhīm ibn al-Malik al-ʿĀdil Ⅰ</persName>
+               <persName xml:id="name1466-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الفائز إبراهيم بن الملك العادل الواحد</persName>
                <note xml:id="abstract-en-1466"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1466-1">al-Malik al-Fāʾiz Ibrāhīm ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid prince</note>
+                     source="#bib1466-1"
+                     resp="#fioppolo">al-Malik al-Fāʾiz Ibrāhīm ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid prince</note>
                <idno type="URI">https://usaybia.net/person/1466</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib1466-1">
+                      source="#bib1466-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1466-1">

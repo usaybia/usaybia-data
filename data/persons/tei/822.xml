@@ -210,30 +210,41 @@
                <persName xml:id="name822-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib822-1 #bib822-1">al-Ḥaqīr al-Nāfiʿ</persName>
-               <persName xml:id="name822-2"
+                         source="#bib822-1"
+                         resp="#fioppolo #rschmahl #mtolay">al-Ḥaqīr al-Nāfiʿ</persName>
+               <persName xml:id="name822-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib822-1">الحقير النافع</persName>
-               <persName xml:id="name822-3" xml:lang="ar" source="#bib822-1">al-Ḥaqīr al-Nāfiʿ, Egyptian Jewish wound specialist (`jarāʾiḥī`) under al-Ḥākim 14.18</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib822-1"
+                         resp="#rschmahl #mtolay #hfriedel">الحقير النافع</persName>
+               <persName xml:id="name822-4"
+                         xml:lang="ar"
+                         source="#bib822-1"
+                         resp="#rschmahl #mtolay">al-Ḥaqīr al-Nāfiʿ, Egyptian Jewish wound specialist (`jarāʾiḥī`) under al-Ḥākim 14.18</persName>
                <note xml:id="abstract-en-822"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib822-1">al-Ḥaqīr al-Nāfiʿ, Egyptian Jewish wound specialist (`jarāʾiḥī`) under al-Ḥākim</note>
+                     source="#bib822-1"
+                     resp="#fioppolo">al-Ḥaqīr al-Nāfiʿ, Egyptian Jewish wound specialist (`jarāʾiḥī`) under al-Ḥākim</note>
                <idno type="URI">https://usaybia.net/person/822</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib822-1">
+                      source="#bib822-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="wound specialist"
-                      source="#bib822-1">
+                      source="#bib822-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>wound specialist</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib822-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib822-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib822-1">

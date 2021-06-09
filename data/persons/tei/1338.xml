@@ -210,23 +210,29 @@
                <persName xml:id="name1338-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1338-1 #bib1338-1">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ</persName>
-               <persName xml:id="name1338-2"
+                         source="#bib1338-1"
+                         resp="#rschmahl #rschmahl #mtolay">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ</persName>
+               <persName xml:id="name1338-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1338-1">جبريل بن عبيد الله بن بختيشوع</persName>
-               <persName xml:id="name1338-3" xml:lang="ar" source="#bib1338-1">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ 8.5</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1338-1"
+                         resp="#rschmahl #mtolay #hfriedel">جبريل بن عبيد الله بن بختيشوع</persName>
+               <persName xml:id="name1338-4"
+                         xml:lang="ar"
+                         source="#bib1338-1"
+                         resp="#rschmahl #mtolay">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ 8.5</persName>
                <note xml:id="abstract-en-1338"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1338-1">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ</note>
+                     source="#bib1338-1"
+                     resp="#rschmahl">Jibrīl ibn ʿUbayd Allāh ibn Bukhtīshūʿ</note>
                <idno type="URI">https://usaybia.net/person/1338</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4111</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4111</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1338-1">

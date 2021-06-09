@@ -206,14 +206,23 @@
                <persName xml:id="name1402-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1402-1">al-Khuraymī</persName>
-               <persName xml:id="name1402-2" xml:lang="ar" srophe-tags="#syriaca-headword">الخريمي</persName>
+                         source="#bib1402-1"
+                         resp="#rschmahl">al-Khuraymī</persName>
+               <persName xml:id="name1402-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الخريمي</persName>
                <note xml:id="abstract-en-1402"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1402-1">al-Khuraymī, Abu Yaʿqūb Isḥāq ibn Ḥassān, poet (d. 214/829)</note>
+                     source="#bib1402-1"
+                     resp="#rschmahl">al-Khuraymī, Abu Yaʿqūb Isḥāq ibn Ḥassān, poet (d. 214/829)</note>
                <idno type="URI">https://usaybia.net/person/1402</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1402-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1402-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1402-1">

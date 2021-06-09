@@ -206,23 +206,30 @@
                <persName xml:id="name1251-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1251-1">ʿĪsā ibn Shahlā</persName>
-               <persName xml:id="name1251-2" xml:lang="ar" srophe-tags="#syriaca-headword">عيسى بن شهلى</persName>
+                         source="#bib1251-1"
+                         resp="#rschmahl">ʿĪsā ibn Shahlā</persName>
+               <persName xml:id="name1251-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عيسى بن شهلى</persName>
                <note xml:id="abstract-en-1251"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1251-1">ʿĪsā ibn Shahlā, student of Jūrjis ibn Jibrīl, personal physician to al-Manṣūr</note>
+                     source="#bib1251-1"
+                     resp="#rschmahl">ʿĪsā ibn Shahlā, student of Jūrjis ibn Jibrīl, personal physician to al-Manṣūr</note>
                <idno type="URI">https://usaybia.net/person/1251</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib1251-1">
+                      source="#bib1251-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1251-1">
+                      source="#bib1251-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1251-1">

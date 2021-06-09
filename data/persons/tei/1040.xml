@@ -206,22 +206,29 @@
                <persName xml:id="name1040-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1040-1 #bib1040-1">Ibn Mandawayh al-Iṣfahānī</persName>
-               <persName xml:id="name1040-2"
+                         source="#bib1040-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Mandawayh al-Iṣfahānī</persName>
+               <persName xml:id="name1040-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1040-1">ابن مندويه الإصفهاني</persName>
-               <persName xml:id="name1040-3" xml:lang="ar" source="#bib1040-1">Ibn Mandawayh al-Iṣfahānī, Abū ʿAlī ibn ʿAbd al-Raḥmān, physician of Persia 11.16</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1040-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن مندويه الإصفهاني</persName>
+               <persName xml:id="name1040-4"
+                         xml:lang="ar"
+                         source="#bib1040-1"
+                         resp="#rschmahl #mtolay">Ibn Mandawayh al-Iṣfahānī, Abū ʿAlī ibn ʿAbd al-Raḥmān, physician of Persia 11.16</persName>
                <note xml:id="abstract-en-1040"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1040-1">Ibn Mandawayh al-Iṣfahānī, Abū ʿAlī ibn ʿAbd al-Raḥmān, physician of Persia</note>
+                     source="#bib1040-1"
+                     resp="#rschmahl">Ibn Mandawayh al-Iṣfahānī, Abū ʿAlī ibn ʿAbd al-Raḥmān, physician of Persia</note>
                <idno type="URI">https://usaybia.net/person/1040</idno>
-               <idno type="URI">https://viaf.org/viaf/90064124</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90064124</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1040-1">
+                      source="#bib1040-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1040-1">

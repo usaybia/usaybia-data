@@ -9,7 +9,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Ibn Kazūrā</title>
+            <title level="a" xml:lang="en">Anonymi 1024</title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -93,7 +93,8 @@
                <name type="person" ref="#hfriedel">Hanna Friedel</name>
             </respStmt>
             <respStmt>
-               <resp>Bibliography editing by</resp>
+               <resp>Bibliography editing and checking for typographical 
+                            errors in headword name, abstract, and references by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
             <respStmt>
@@ -206,12 +207,17 @@
                <persName xml:id="name1024-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1024-1">Ibn Kazūrā</persName>
-               <persName xml:id="name1024-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن كزورى</persName>
+                         source="#bib1024-1"
+                         resp="#rschmahl #nloehr">Anonymi 1024</persName>
+               <persName xml:id="name1024-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel #ngibson">بنو كزورا</persName>
                <note xml:id="abstract-en-1024"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1024-1">Ibn Kazūrā</note>
+                     source="#bib1024-1"
+                     resp="#rschmahl #nloehr">The unnamed physicians, sons of Kazūrā</note>
                <idno type="URI">https://usaybia.net/person/1024</idno>
                <bibl xml:id="bib1024-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

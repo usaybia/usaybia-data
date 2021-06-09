@@ -210,20 +210,29 @@
                <persName xml:id="name2385-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2385-1">John Philoponus</persName>
-               <persName xml:id="name2385-2" xml:lang="ar" srophe-tags="#syriaca-headword">يحيى فيلونيوس</persName>
+                         source="#bib2385-1"
+                         resp="#rschmahl">John Philoponus</persName>
+               <persName xml:id="name2385-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يحيى فيلونيوس</persName>
                <note xml:id="abstract-en-2385"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2385-1">John Philoponus, Neoplatonist Christian philosopher (ca. 490–575)</note>
+                     source="#bib2385-1"
+                     resp="#rschmahl">John Philoponus, Neoplatonist Christian philosopher (ca. 490–575)</note>
                <idno type="URI">https://usaybia.net/person/2385</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2385-1">
+                      source="#bib2385-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2385-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2385-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2385-1">

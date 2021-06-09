@@ -206,27 +206,35 @@
                <persName xml:id="name1501-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1501-1">Mankah al-Hindī (Māṇikya)</persName>
-               <persName xml:id="name1501-2" xml:lang="en-x-lhom" source="#bib1501-1">Mankah al-Hindī (Māṇikya or Maṅkha)</persName>
+                         source="#bib1501-1"
+                         resp="#fioppolo">Mankah al-Hindī (Māṇikya)</persName>
+               <persName xml:id="name1501-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1501-1"
+                         resp="#rschmahl #mtolay">Mankah al-Hindī (Māṇikya or Maṅkha)</persName>
                <persName xml:id="name1501-3"
                          xml:lang="ar"
-                         srophe-tags="#syriaca-headword #syriaca-headword"
-                         source="#bib1501-1">منكة الهندي</persName>
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1501-1"
+                         resp="#rschmahl #mtolay #hfriedel">منكة الهندي</persName>
                <note xml:id="abstract-en-1501"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1501-1">Mankah al-Hindī (Māṇikya), Indian physician and translator under Hārūn al-Rashīd</note>
+                     source="#bib1501-1"
+                     resp="#fioppolo">Mankah al-Hindī (Māṇikya), Indian physician and translator under Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/1501</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1501-1">
+                      source="#bib1501-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1501-1">
+                      source="#bib1501-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib1501-1">

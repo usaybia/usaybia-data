@@ -206,14 +206,23 @@
                <persName xml:id="name1821-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1821-1">Philip</persName>
-               <persName xml:id="name1821-2" xml:lang="ar" srophe-tags="#syriaca-headword">فيلبس</persName>
+                         source="#bib1821-1"
+                         resp="#fioppolo">Philip</persName>
+               <persName xml:id="name1821-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فيلبس</persName>
                <note xml:id="abstract-en-1821"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1821-1">Philip, king of Macedon, father of Alexander the Great</note>
+                     source="#bib1821-1"
+                     resp="#fioppolo">Philip, king of Macedon, father of Alexander the Great</note>
                <idno type="URI">https://usaybia.net/person/1821</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib1821-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib1821-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib1821-1">

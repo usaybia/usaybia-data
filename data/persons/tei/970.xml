@@ -206,14 +206,23 @@
                <persName xml:id="name970-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib970-1">Ibn Diḥyah</persName>
-               <persName xml:id="name970-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن دحية</persName>
+                         source="#bib970-1"
+                         resp="#rschmahl">Ibn Diḥyah</persName>
+               <persName xml:id="name970-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن دحية</persName>
                <note xml:id="abstract-en-970"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib970-1">Ibn Diḥyah (d. 633/1235), Andalusian poet and anthologist</note>
+                     source="#bib970-1"
+                     resp="#rschmahl">Ibn Diḥyah (d. 633/1235), Andalusian poet and anthologist</note>
                <idno type="URI">https://usaybia.net/person/970</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib970-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib970-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib970-1">

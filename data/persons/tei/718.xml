@@ -206,14 +206,23 @@
                <persName xml:id="name718-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib718-1">Dionysius</persName>
-               <persName xml:id="name718-2" xml:lang="ar" srophe-tags="#syriaca-headword">ديونوسيوس</persName>
+                         source="#bib718-1"
+                         resp="#fioppolo">Dionysius</persName>
+               <persName xml:id="name718-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ديونوسيوس</persName>
                <note xml:id="abstract-en-718"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib718-1">Dionysius, tyrant of Sicily</note>
+                     source="#bib718-1"
+                     resp="#fioppolo">Dionysius, tyrant of Sicily</note>
                <idno type="URI">https://usaybia.net/person/718</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib718-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib718-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <bibl xml:id="bib718-1">

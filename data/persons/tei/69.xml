@@ -210,24 +210,30 @@
                <persName xml:id="name69-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib69-1">Abū ʿAbd Allāh ibn Aḥmad ibn Ḥamdūn</persName>
-               <persName xml:id="name69-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عبد الله بن أحمد بن حمدون</persName>
+                         source="#bib69-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh ibn Aḥmad ibn Ḥamdūn</persName>
+               <persName xml:id="name69-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عبد الله بن أحمد بن حمدون</persName>
                <note xml:id="abstract-en-69"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib69-1">Abū ʿAbd Allāh ibn Aḥmad ibn Ḥamdūn, man of letters</note>
+                     source="#bib69-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh ibn Aḥmad ibn Ḥamdūn, man of letters</note>
                <idno type="URI">https://usaybia.net/person/69</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="man of letters"
-                      source="#bib69-1">
+                      source="#bib69-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>man of letters</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib69-1">

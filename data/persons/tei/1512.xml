@@ -206,17 +206,23 @@
                <persName xml:id="name1512-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1512-1">Marcian</persName>
-               <persName xml:id="name1512-2" xml:lang="ar" srophe-tags="#syriaca-headword">مرقيان</persName>
+                         source="#bib1512-1"
+                         resp="#fioppolo">Marcian</persName>
+               <persName xml:id="name1512-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مرقيان</persName>
                <note xml:id="abstract-en-1512"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1512-1">Marcian, 5th-c. emperor</note>
+                     source="#bib1512-1"
+                     resp="#fioppolo">Marcian, 5th-c. emperor</note>
                <idno type="URI">https://usaybia.net/person/1512</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib1512-1">
+                      source="#bib1512-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib1512-1">

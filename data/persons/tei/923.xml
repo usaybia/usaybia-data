@@ -206,27 +206,40 @@
                <persName xml:id="name923-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib923-1">Ibn Abī Ṣādiq al-Nīsābūrī</persName>
-               <persName xml:id="name923-2" xml:lang="ar" source="#">ابو القاسم عبد الرحمن بن علي بن احمد بن ابي صادق النيسابوري</persName>
-               <persName xml:id="name923-3" xml:lang="en-x-lhom" source="#bib923-1">Ibn Abī Ṣādiq</persName>
+                         source="#bib923-1"
+                         resp="#mtolay">Ibn Abī Ṣādiq al-Nīsābūrī</persName>
+               <persName xml:id="name923-2"
+                         xml:lang="ar"
+                         source="#bib923-2"
+                         resp="#rschmahl #mtolay">ابو القاسم عبد الرحمن بن علي بن احمد بن ابي صادق النيسابوري</persName>
+               <persName xml:id="name923-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib923-1"
+                         resp="#rschmahl #mtolay">Ibn Abī Ṣādiq</persName>
                <persName xml:id="name923-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib923-1">ابن أبي صادق</persName>
-               <persName xml:id="name923-5" xml:lang="ar" source="#bib923-1">Ibn Abī Ṣādiq al-Nīsābūrī, Abū l-Qāsim ʿAbd al-Raḥmān ibn ʿAlī, 5th/11th-c. Persian physician 8.29.22; 11.17; 15.37.6 no. 3; 15.50 no. 6; 15.57.1</persName>
-               <persName xml:id="name923-6" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أبي صادق النيسابوري</persName>
+                         source="#bib923-1"
+                         resp="#rschmahl #mtolay">ابن أبي صادق</persName>
+               <persName xml:id="name923-5"
+                         xml:lang="ar"
+                         source="#bib923-1"
+                         resp="#rschmahl #mtolay">Ibn Abī Ṣādiq al-Nīsābūrī, Abū l-Qāsim ʿAbd al-Raḥmān ibn ʿAlī, 5th/11th-c. Persian physician 8.29.22; 11.17; 15.37.6 no. 3; 15.50 no. 6; 15.57.1</persName>
+               <persName xml:id="name923-6" xml:lang="ar" resp="#hfriedel">ابن أبي صادق النيسابوري</persName>
                <note xml:id="abstract-en-923"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib923-1">Ibn Abī Ṣādiq al-Nīsābūrī, Abū l-Qāsim ʿAbd al-Raḥmān ibn ʿAlī, 5th/11th-c. Persian physician</note>
+                     source="#bib923-1"
+                     resp="#mtolay">Ibn Abī Ṣādiq al-Nīsābūrī, Abū l-Qāsim ʿAbd al-Raḥmān ibn ʿAlī, 5th/11th-c. Persian physician</note>
                <idno type="URI">https://usaybia.net/person/923</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B5%D8%A7%D8%AF%D9%82</idno>
-               <idno type="URI">https://viaf.org/viaf/4405945</idno>
-               <idno type="URI">https://viaf.org/viaf/90055206</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B5%D8%A7%D8%AF%D9%82</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/4405945</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90055206</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib923-1">
+                      source="#bib923-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib923-1">
@@ -234,6 +247,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">8.29.22; 11.17; 15.37.6 no. 3; 15.50 no. 6; 15.57.1</citedRange>
                   <citedRange unit="section">11.17</citedRange>
+               </bibl>
+               <bibl xml:id="bib923-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

@@ -206,26 +206,39 @@
                <persName xml:id="name990-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib990-1">Ibn Ḥamawayh (`or` Ibn Ḥammūyah)</persName>
-               <persName xml:id="name990-2" xml:lang="ar" source="#">صدر الدين بن حمويه ابو الحسن محمد بن عماد الدين ابي حفص عمر</persName>
-               <persName xml:id="name990-3" xml:lang="ar" srophe-tags="#syriaca-headword">ابن حمويه</persName>
+                         source="#bib990-1"
+                         resp="#rschmahl">Ibn Ḥamawayh (`or` Ibn Ḥammūyah)</persName>
+               <persName xml:id="name990-2"
+                         xml:lang="ar"
+                         source="#bib990-2"
+                         resp="#rschmahl #mtolay">صدر الدين بن حمويه ابو الحسن محمد بن عماد الدين ابي حفص عمر</persName>
+               <persName xml:id="name990-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن حمويه</persName>
                <note xml:id="abstract-en-990"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib990-1">Ibn Ḥamawayh (`or` Ibn Ḥammūyah), Ṣadr al-Dīn. Shāfīʿī `faqih`</note>
+                     source="#bib990-1"
+                     resp="#rschmahl">Ibn Ḥamawayh (`or` Ibn Ḥammūyah), Ṣadr al-Dīn. Shāfīʿī `faqih`</note>
                <idno type="URI">https://usaybia.net/person/990</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/20224</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/32224</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/20224</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/32224</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="`faqih`"
-                      source="#bib990-1">
+                      source="#bib990-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>`faqih`</desc>
                </state>
                <bibl xml:id="bib990-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">15.51.7</citedRange>
+               </bibl>
+               <bibl xml:id="bib990-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

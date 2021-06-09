@@ -206,17 +206,23 @@
                <persName xml:id="name2029-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2029-1">Sergius Paullus</persName>
-               <persName xml:id="name2029-2" xml:lang="ar" srophe-tags="#syriaca-headword">سرجيوس بولوس</persName>
+                         source="#bib2029-1"
+                         resp="#mtolay">Sergius Paullus</persName>
+               <persName xml:id="name2029-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سرجيوس بولوس</persName>
                <note xml:id="abstract-en-2029"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2029-1">Sergius Paullus, prefect of Rome ca. 168</note>
+                     source="#bib2029-1"
+                     resp="#mtolay">Sergius Paullus, prefect of Rome ca. 168</note>
                <idno type="URI">https://usaybia.net/person/2029</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prefect"
-                      source="#bib2029-1">
+                      source="#bib2029-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prefect</desc>
                </state>
                <bibl xml:id="bib2029-1">

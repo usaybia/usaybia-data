@@ -206,18 +206,27 @@
                <persName xml:id="name632-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib632-1">Abū Mūsā the Physician</persName>
-               <persName xml:id="name632-2" xml:lang="en-x-lhom" source="#bib632-1">Baqqah</persName>
-               <persName xml:id="name632-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو موسى الطبيب</persName>
+                         source="#bib632-1"
+                         resp="#fioppolo">Abū Mūsā the Physician</persName>
+               <persName xml:id="name632-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib632-1"
+                         resp="#rschmahl #mtolay">Baqqah</persName>
+               <persName xml:id="name632-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو موسى الطبيب</persName>
                <note xml:id="abstract-en-632"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib632-1">Abū Mūsā the Physician known as Baqqah (‘Bug’)</note>
+                     source="#bib632-1"
+                     resp="#fioppolo">Abū Mūsā the Physician known as Baqqah (‘Bug’)</note>
                <idno type="URI">https://usaybia.net/person/632</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="Physician"
-                      source="#bib632-1">
+                      source="#bib632-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>Physician</desc>
                </state>
                <bibl xml:id="bib632-1">

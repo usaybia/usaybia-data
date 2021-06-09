@@ -210,24 +210,30 @@
                <persName xml:id="name393-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib393-1">Abū Zurʿah ʿAbd al-Raḥmān ibn ʿAmr ibn ʿAbd Allāh ibn Ṣafwān al-Azdī al-Baṣrī</persName>
-               <persName xml:id="name393-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو زرعة عبد الرحمن بن عمرو بن عبد الله بن صفوان الأزدي البصري</persName>
+                         source="#bib393-1"
+                         resp="#mtolay ">Abū Zurʿah ʿAbd al-Raḥmān ibn ʿAmr ibn ʿAbd Allāh ibn Ṣafwān al-Azdī al-Baṣrī</persName>
+               <persName xml:id="name393-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو زرعة عبد الرحمن بن عمرو بن عبد الله بن صفوان الأزدي البصري</persName>
                <note xml:id="abstract-en-393"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib393-1">Abū Zurʿah ʿAbd al-Raḥmān ibn ʿAmr ibn ʿAbd Allāh ibn Ṣafwān al-Azdī al-Baṣrī, transmitter</note>
+                     source="#bib393-1"
+                     resp="#mtolay ">Abū Zurʿah ʿAbd al-Raḥmān ibn ʿAmr ibn ʿAbd Allāh ibn Ṣafwān al-Azdī al-Baṣrī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/393</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib393-1">
+                      source="#bib393-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib393-1">

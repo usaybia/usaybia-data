@@ -206,23 +206,33 @@
                <persName xml:id="name1903-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1903-1">al-Raḥbī, Raḍī al-Dīn</persName>
-               <persName xml:id="name1903-2" xml:lang="ar" source="#">رضي الدين الرحبي الحجاج يوسف بن حيدرة بن الحسن</persName>
-               <persName xml:id="name1903-3" xml:lang="en-x-lhom" source="#bib1903-1">Raḍī al-Dīn al-Raḥbī</persName>
+                         source="#bib1903-1"
+                         resp="#mtolay">al-Raḥbī, Raḍī al-Dīn</persName>
+               <persName xml:id="name1903-2"
+                         xml:lang="ar"
+                         source="#bib1903-2"
+                         resp="#rschmahl #mtolay">رضي الدين الرحبي الحجاج يوسف بن حيدرة بن الحسن</persName>
+               <persName xml:id="name1903-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1903-1"
+                         resp="#rschmahl #mtolay">Raḍī al-Dīn al-Raḥbī</persName>
                <persName xml:id="name1903-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1903-1">رضي الدين الرحبي</persName>
-               <persName xml:id="name1903-5" xml:lang="ar" srophe-tags="#syriaca-headword">الرحبي رضي الدين</persName>
+                         source="#bib1903-1"
+                         resp="#rschmahl #mtolay">رضي الدين الرحبي</persName>
+               <persName xml:id="name1903-5" xml:lang="ar" resp="#hfriedel">الرحبي رضي الدين</persName>
                <note xml:id="abstract-en-1903"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1903-1">al-Raḥbī, Raḍī al-Dīn, Syrian physician (d. 631/1233)</note>
+                     source="#bib1903-1"
+                     resp="#mtolay">al-Raḥbī, Raḍī al-Dīn, Syrian physician (d. 631/1233)</note>
                <idno type="URI">https://usaybia.net/person/1903</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1903-1">
+                      source="#bib1903-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1903-1">
@@ -230,6 +240,10 @@
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">10.64.12; 14.31.5; 14.44.2; 15.29; 15.36; 15.42; 15.50.1; 15.50.4; 15.51.2; ＡⅠⅠ.15(p)</citedRange>
                   <citedRange unit="section">15.36</citedRange>
+               </bibl>
+               <bibl xml:id="bib1903-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

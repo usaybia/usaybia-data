@@ -210,21 +210,30 @@
                <persName xml:id="name866-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib866-1">Saʿd b. Muḥammad al-Tamīmī</persName>
-               <persName xml:id="name866-2" xml:lang="ar" srophe-tags="#syriaca-headword">سعد بن محمد التميمي</persName>
+                         source="#bib866-1"
+                         resp="#mtolay">Saʿd b. Muḥammad al-Tamīmī</persName>
+               <persName xml:id="name866-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعد بن محمد التميمي</persName>
                <note xml:id="abstract-en-866"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib866-1">Saʿd b. Muḥammad al-Tamīmī, poet (d. 574/1179)</note>
+                     source="#bib866-1"
+                     resp="#mtolay">Saʿd b. Muḥammad al-Tamīmī, poet (d. 574/1179)</note>
                <idno type="URI">https://usaybia.net/person/866</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib866-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib866-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib866-1">

@@ -206,23 +206,30 @@
                <persName xml:id="name2312-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2312-1">al-Yaʿqūbī</persName>
-               <persName xml:id="name2312-2" xml:lang="ar" srophe-tags="#syriaca-headword">اليعقوبي</persName>
+                         source="#bib2312-1"
+                         resp="#mtolay">al-Yaʿqūbī</persName>
+               <persName xml:id="name2312-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">اليعقوبي</persName>
                <note xml:id="abstract-en-2312"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2312-1">al-Yaʿqūbī, geographer and historian</note>
+                     source="#bib2312-1"
+                     resp="#mtolay">al-Yaʿqūbī, geographer and historian</note>
                <idno type="URI">https://usaybia.net/person/2312</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="geographer"
-                      source="#bib2312-1">
+                      source="#bib2312-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geographer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib2312-1">
+                      source="#bib2312-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <bibl xml:id="bib2312-1">

@@ -210,43 +210,51 @@
                <persName xml:id="name2289-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2289-1">al-Washshā, Abū l-Ṭayyib Muḥammad ibn Aḥmad</persName>
-               <persName xml:id="name2289-2" xml:lang="ar" srophe-tags="#syriaca-headword">الوشى، أبو الطيب محمد بن أحمد</persName>
+                         source="#bib2289-1"
+                         resp="#mtolay">al-Washshā, Abū l-Ṭayyib Muḥammad ibn Aḥmad</persName>
+               <persName xml:id="name2289-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الوشى، أبو الطيب محمد بن أحمد</persName>
                <note xml:id="abstract-en-2289"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2289-1">al-Washshā, Abū l-Ṭayyib Muḥammad ibn Aḥmad, man of letters, grammarian and lexicographer (d. 325/937)</note>
+                     source="#bib2289-1"
+                     resp="#mtolay">al-Washshā, Abū l-Ṭayyib Muḥammad ibn Aḥmad, man of letters, grammarian and lexicographer (d. 325/937)</note>
                <idno type="URI">https://usaybia.net/person/2289</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="man of letters"
-                      source="#bib2289-1">
+                      source="#bib2289-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>man of letters</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib2289-1">
+                      source="#bib2289-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="lexicographer"
-                      source="#bib2289-1">
+                      source="#bib2289-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>lexicographer</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2289-1">

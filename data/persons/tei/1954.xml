@@ -206,20 +206,30 @@
                <persName xml:id="name1954-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1954-1">Saḥbān</persName>
-               <persName xml:id="name1954-2" xml:lang="ar" srophe-tags="#syriaca-headword">سحبان</persName>
+                         source="#bib1954-1"
+                         resp="#mtolay">Saḥbān</persName>
+               <persName xml:id="name1954-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سحبان</persName>
                <note xml:id="abstract-en-1954"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1954-1">Saḥbān, legendary orator and poet of the tribe of Wāʾil</note>
+                     source="#bib1954-1"
+                     resp="#mtolay">Saḥbān, legendary orator and poet of the tribe of Wāʾil</note>
                <idno type="URI">https://usaybia.net/person/1954</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="orator"
-                      source="#bib1954-1">
+                      source="#bib1954-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>orator</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1954-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1954-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1954-1">

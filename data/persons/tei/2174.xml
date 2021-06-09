@@ -210,24 +210,30 @@
                <persName xml:id="name2174-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2174-1">al-Ṭāʾiʿ li-Allāh</persName>
-               <persName xml:id="name2174-2" xml:lang="ar" srophe-tags="#syriaca-headword">الطائع لالله</persName>
+                         source="#bib2174-1"
+                         resp="#mtolay">al-Ṭāʾiʿ li-Allāh</persName>
+               <persName xml:id="name2174-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الطائع لالله</persName>
                <note xml:id="abstract-en-2174"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2174-1">al-Ṭāʾiʿ li-Allāh, Abbasid caliph (`reg.` 363– 381/974–91)</note>
+                     source="#bib2174-1"
+                     resp="#mtolay">al-Ṭāʾiʿ li-Allāh, Abbasid caliph (`reg.` 363– 381/974–91)</note>
                <idno type="URI">https://usaybia.net/person/2174</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib2174-1">
+                      source="#bib2174-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2174-1">

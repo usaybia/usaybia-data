@@ -210,18 +210,23 @@
                <persName xml:id="name2327-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2327-1">Yūḥannā ibn Sahl</persName>
-               <persName xml:id="name2327-2" xml:lang="ar" srophe-tags="#syriaca-headword">يوحنا بن سهل</persName>
+                         source="#bib2327-1"
+                         resp="#mtolay ">Yūḥannā ibn Sahl</persName>
+               <persName xml:id="name2327-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يوحنا بن سهل</persName>
                <note xml:id="abstract-en-2327"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2327-1">Yūḥannā ibn Sahl, son of Sahl al-Kawsaj</note>
+                     source="#bib2327-1"
+                     resp="#mtolay ">Yūḥannā ibn Sahl, son of Sahl al-Kawsaj</note>
                <idno type="URI">https://usaybia.net/person/2327</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2327-1">

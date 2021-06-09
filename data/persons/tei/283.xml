@@ -210,30 +210,37 @@
                <persName xml:id="name283-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib283-1">Abū Muḥammad al-Ḥasan ibn al-Ḥusayn [ibn ʿAlī ibn al-ʿAbbās ibn Ismāʿīl ibn Abī Sahl ibn Nawbakht] al-Nawbakhtī</persName>
-               <persName xml:id="name283-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو محمد الحسن بن الحسين [بن علي بن العباس بن إسمائيل بن أبي سهل بن نوبخت] النوبختي</persName>
+                         source="#bib283-1"
+                         resp="#mtolay">Abū Muḥammad al-Ḥasan ibn al-Ḥusayn [ibn ʿAlī ibn al-ʿAbbās ibn Ismāʿīl ibn Abī Sahl ibn Nawbakht] al-Nawbakhtī</persName>
+               <persName xml:id="name283-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو محمد الحسن بن الحسين [بن علي بن العباس بن إسمائيل بن أبي سهل بن نوبخت] النوبختي</persName>
                <note xml:id="abstract-en-283"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib283-1">Abū Muḥammad al-Ḥasan ibn al-Ḥusayn [ibn ʿAlī ibn al-ʿAbbās ibn Ismāʿīl ibn Abī Sahl ibn Nawbakht] al-Nawbakhtī, scribe and traditionist (d. 402/1012)</note>
+                     source="#bib283-1"
+                     resp="#mtolay">Abū Muḥammad al-Ḥasan ibn al-Ḥusayn [ibn ʿAlī ibn al-ʿAbbās ibn Ismāʿīl ibn Abī Sahl ibn Nawbakht] al-Nawbakhtī, scribe and traditionist (d. 402/1012)</note>
                <idno type="URI">https://usaybia.net/person/283</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scribe"
-                      source="#bib283-1">
+                      source="#bib283-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scribe</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="traditionist"
-                      source="#bib283-1">
+                      source="#bib283-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>traditionist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib283-1">
