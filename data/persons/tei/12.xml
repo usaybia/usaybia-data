@@ -243,24 +243,26 @@
                       xml:lang="en"
                       type="occupation"
                       role="physician">
-                  <desc>physician</desc>
+                  <desc xmlns="http://www.tei-c.org/ns/1.0">physician</desc>
                </state>
                <state xmlns=""
                       source="#bib12-1"
                       resp="#vbirkhahn #ngibson"
                       xml:lang="en"
                       type="religious-affiliation">
-                  <label>Christian</label>
+                  <label xmlns="http://www.tei-c.org/ns/1.0">Christian</label>
                </state>
                <bibl xmlns="" xml:id="bib12-1">
-                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
-                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">8.2; 8.10</citedRange>
-                  <citedRange unit="section">8.10</citedRange>
+                  <title xmlns="http://www.tei-c.org/ns/1.0" level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr xmlns="http://www.tei-c.org/ns/1.0"
+                       target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange xmlns="http://www.tei-c.org/ns/1.0" unit="section">8.2; 8.10</citedRange>
+                  <citedRange xmlns="http://www.tei-c.org/ns/1.0" unit="section">8.10</citedRange>
                </bibl>
                <bibl xmlns="" xml:id="bib12-2">
-                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
-                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
+                  <title xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr xmlns="http://www.tei-c.org/ns/1.0"
+                       target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>

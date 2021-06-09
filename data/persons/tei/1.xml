@@ -227,12 +227,13 @@
                       xml:lang="en"
                       type="occupation"
                       role="physician">
-                  <desc>physician</desc>
+                  <desc xmlns="http://www.tei-c.org/ns/1.0">physician</desc>
                </state>
                <bibl xmlns="" xml:id="bib1-1">
-                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
-                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">11.16.1.2.7</citedRange>
+                  <title xmlns="http://www.tei-c.org/ns/1.0" level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr xmlns="http://www.tei-c.org/ns/1.0"
+                       target="https://usaybia.net/bibl/WVSJMDSV"/>
+                  <citedRange xmlns="http://www.tei-c.org/ns/1.0" unit="section">11.16.1.2.7</citedRange>
                </bibl>
             </person>
          </listPerson>
