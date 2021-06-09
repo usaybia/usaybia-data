@@ -211,11 +211,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib943-1"
-                         resp="#mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh</persName>
+                         resp="#mtolay"
+                         change="#change-3">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh</persName>
                <persName xml:id="name943-2"
                          xml:lang="en-x-lhom"
                          source="#bib943-1"
-                         resp="#rschmahl #mtolay">Ibn Bājjah</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Bājjah</persName>
                <persName xml:id="name943-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -225,12 +227,16 @@
                          xml:lang="ar"
                          source="#bib943-1"
                          resp="#rschmahl #mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139) 13.51.2; 13.59</persName>
-               <persName xml:id="name943-5" xml:lang="ar" resp="#hfriedel">ابن باجة، أبو بكر محمد ابن يحيى ابن الصائغ</persName>
+               <persName xml:id="name943-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن باجة، أبو بكر محمد ابن يحيى ابن الصائغ</persName>
                <note xml:id="abstract-en-943"
                      xml:lang="en"
                      type="abstract"
                      source="#bib943-1"
-                     resp="#mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139)</note>
+                     resp="#mtolay"
+                     change="#change-3">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139)</note>
                <idno type="URI">https://usaybia.net/person/943</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9786</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13805</idno>
@@ -242,21 +248,24 @@
                       type="occupation"
                       role="philosopher"
                       source="#bib943-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib943-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib943-1">

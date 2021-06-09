@@ -207,11 +207,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1245-1"
-                         resp="#rschmahl">ʿĪsā ibn Māsarjīs (`or` Māsarjawayh)</persName>
+                         resp="#rschmahl"
+                         change="#change-3">ʿĪsā ibn Māsarjīs (`or` Māsarjawayh)</persName>
                <persName xml:id="name1245-2"
                          xml:lang="en-x-lhom"
                          source="#bib1245-1"
-                         resp="#rschmahl #mtolay">ʿĪsā ibn Māsarjīs</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">ʿĪsā ibn Māsarjīs</persName>
                <persName xml:id="name1245-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -221,26 +223,32 @@
                          xml:lang="ar"
                          source="#bib1245-1"
                          resp="#rschmahl #mtolay">ʿĪsā ibn Māsarjīs (`or` Māsarjawayh), physician and translator 9.9</persName>
-               <persName xml:id="name1245-5" xml:lang="ar" resp="#hfriedel">عيسى بن ماسرجيس/ماسرجويه</persName>
+               <persName xml:id="name1245-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">عيسى بن ماسرجيس/ماسرجويه</persName>
                <note xml:id="abstract-en-1245"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1245-1"
-                     resp="#rschmahl">ʿĪsā ibn Māsarjīs (`or` Māsarjawayh), physician and translator</note>
+                     resp="#rschmahl"
+                     change="#change-3">ʿĪsā ibn Māsarjīs (`or` Māsarjawayh), physician and translator</note>
                <idno type="URI">https://usaybia.net/person/1245</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4144</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1245-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
                       source="#bib1245-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib1245-1">

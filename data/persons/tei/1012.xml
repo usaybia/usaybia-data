@@ -207,7 +207,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1012-1"
-                         resp="#rschmahl #rschmahl #mtolay">Ibn Jazlah</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Jazlah</persName>
                <persName xml:id="name1012-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -217,12 +218,16 @@
                          xml:lang="ar"
                          source="#bib1012-1"
                          resp="#rschmahl #mtolay">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician 10.59; 14.58.4 no. 1n</persName>
-               <persName xml:id="name1012-5" xml:lang="ar" resp="#hfriedel">ابن جزلة</persName>
+               <persName xml:id="name1012-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن جزلة</persName>
                <note xml:id="abstract-en-1012"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1012-1"
-                     resp="#rschmahl">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/1012</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4239</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30816</idno>
@@ -232,7 +237,8 @@
                       type="occupation"
                       role="physician"
                       source="#bib1012-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1012-1">

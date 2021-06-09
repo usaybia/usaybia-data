@@ -211,12 +211,14 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1104-1"
-                         resp="#rschmahl #rschmahl #mtolay">Ibn Ṣafiyyah</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Ṣafiyyah</persName>
                <persName xml:id="name1104-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1104-1"
-                         resp="#rschmahl #mtolay #hfriedel">ابن صفية</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">ابن صفية</persName>
                <persName xml:id="name1104-4"
                          xml:lang="ar"
                          source="#bib1104-1"
@@ -225,28 +227,32 @@
                      xml:lang="en"
                      type="abstract"
                      source="#bib1104-1"
-                     resp="#rschmahl">Ibn Ṣafiyyah, Abū Ghālib al-Ṭabīb al-Naṣrānī, physician during the reign of al-Mustanjid (566–575/1170–1180)</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Ṣafiyyah, Abū Ghālib al-Ṭabīb al-Naṣrānī, physician during the reign of al-Mustanjid (566–575/1170–1180)</note>
                <idno type="URI">https://usaybia.net/person/1104</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4243</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1104-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Jewish</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="nisba"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1104-1">

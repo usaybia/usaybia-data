@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib762-1"
-                         resp="#fioppolo">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy</persName>
+                         resp="#fioppolo"
+                         change="#change-3">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy</persName>
                <persName xml:id="name762-2"
                          xml:lang="ar"
                          source="#bib762-2"
@@ -219,18 +220,23 @@
                <persName xml:id="name762-3"
                          xml:lang="en-x-lhom"
                          source="#bib762-1"
-                         resp="#rschmahl #mtolay">Ibn Khaṭīb al-Rayy (Fakhr al-Dīn al-Rāzī)</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Khaṭīb al-Rayy (Fakhr al-Dīn al-Rāzī)</persName>
                <persName xml:id="name762-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib762-1"
                          resp="#rschmahl #mtolay">ابن خطيب الري</persName>
-               <persName xml:id="name762-5" xml:lang="ar" resp="#hfriedel">قخر الدين الرازي ابن خطيب الري</persName>
+               <persName xml:id="name762-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">قخر الدين الرازي ابن خطيب الري</persName>
                <note xml:id="abstract-en-762"
                      xml:lang="en"
                      type="abstract"
                      source="#bib762-1"
-                     resp="#fioppolo">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy (‘The Son of the Preacher of Rayy’), philosopher and theologian, author of the monumental Qurʾanic commentary `Mafātīḥ al-ghayb`</note>
+                     resp="#fioppolo"
+                     change="#change-3">Fakhr al-Dīn al-Rāzī, Ibn Khaṭīb al-Rayy (‘The Son of the Preacher of Rayy’), philosopher and theologian, author of the monumental Qurʾanic commentary `Mafātīḥ al-ghayb`</note>
                <idno type="URI">https://usaybia.net/person/762</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14533</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30600</idno>
@@ -241,28 +247,32 @@
                       type="occupation"
                       role="philosopher"
                       source="#bib762-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
                       source="#bib762-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>theologian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
                       source="#bib762-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="occupation"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib762-1">

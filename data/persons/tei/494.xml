@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib494-1"
-                         resp="#fioppolo">al-Āmidī, Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī ibn Muḥammad ibn Sālim al-Taghlibī al-Āmidī</persName>
+                         resp="#fioppolo"
+                         change="#change-3">al-Āmidī, Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī ibn Muḥammad ibn Sālim al-Taghlibī al-Āmidī</persName>
                <persName xml:id="name494-2"
                          xml:lang="ar"
                          source="#bib494-2"
@@ -219,18 +220,23 @@
                <persName xml:id="name494-3"
                          xml:lang="en-x-lhom"
                          source="#bib494-1"
-                         resp="#rschmahl #mtolay">Sayf al-Dīn al-Āmidī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Sayf al-Dīn al-Āmidī</persName>
                <persName xml:id="name494-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib494-1"
                          resp="#rschmahl #mtolay">سيف الدين الآمدي</persName>
-               <persName xml:id="name494-5" xml:lang="ar" resp="#hfriedel">الآمدي سيف الدين أبو الحسن علي بن أبي علي بن محمد بن سالم التغلبي الآمدي</persName>
+               <persName xml:id="name494-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">الآمدي سيف الدين أبو الحسن علي بن أبي علي بن محمد بن سالم التغلبي الآمدي</persName>
                <note xml:id="abstract-en-494"
                      xml:lang="en"
                      type="abstract"
                      source="#bib494-1"
-                     resp="#fioppolo">al-Āmidī, Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī ibn Muḥammad ibn Sālim al-Taghlibī al-Āmidī, theologian and philosopher (d. 631/1233)</note>
+                     resp="#fioppolo"
+                     change="#change-3">al-Āmidī, Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī ibn Muḥammad ibn Sālim al-Taghlibī al-Āmidī, theologian and philosopher (d. 631/1233)</note>
                <idno type="URI">https://usaybia.net/person/494</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D9%81_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A2%D9%85%D8%AF%D9%8A</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90055036</idno>
@@ -240,21 +246,24 @@
                       type="occupation"
                       role="theologian"
                       source="#bib494-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>theologian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
                       source="#bib494-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib494-1">

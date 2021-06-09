@@ -211,11 +211,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1962-1"
-                         resp="#mtolay">Saʿīd ibn ʿAbd Rabbih, Abū ʿUthmān ibn ʿAbd al-Raḥmān ibn Muḥammad</persName>
+                         resp="#mtolay"
+                         change="#change-3">Saʿīd ibn ʿAbd Rabbih, Abū ʿUthmān ibn ʿAbd al-Raḥmān ibn Muḥammad</persName>
                <persName xml:id="name1962-2"
                          xml:lang="en-x-lhom"
                          source="#bib1962-1"
-                         resp="#rschmahl #mtolay">Saʿīd ibn ʿAbd Rabbih</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Saʿīd ibn ʿAbd Rabbih</persName>
                <persName xml:id="name1962-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -225,12 +227,16 @@
                          xml:lang="ar"
                          source="#bib1962-1"
                          resp="#rschmahl #mtolay">Saʿīd ibn ʿAbd Rabbih, Abū ʿUthmān ibn ʿAbd al-Raḥmān ibn Muḥammad 13.24</persName>
-               <persName xml:id="name1962-5" xml:lang="ar" resp="#hfriedel">سعيد بن عبد ربه أبو عثمان بن عبد الرحمن بن محمد</persName>
+               <persName xml:id="name1962-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">سعيد بن عبد ربه أبو عثمان بن عبد الرحمن بن محمد</persName>
                <note xml:id="abstract-en-1962"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1962-1"
-                     resp="#mtolay">Saʿīd ibn ʿAbd Rabbih, Abū ʿUthmān ibn ʿAbd al-Raḥmān ibn Muḥammad</note>
+                     resp="#mtolay"
+                     change="#change-3">Saʿīd ibn ʿAbd Rabbih, Abū ʿUthmān ibn ʿAbd al-Raḥmān ibn Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/1962</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50133</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90078739</idno>
@@ -238,7 +244,8 @@
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1962-1">

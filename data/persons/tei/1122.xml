@@ -207,22 +207,28 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1122-1"
-                         resp="#rschmahl">Ibn Shaʿyā see Abū l-Barakāt ibn Shaʿyā Ibn (al-)Shibl al-Baghdādī</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Ibn Shaʿyā see Abū l-Barakāt ibn Shaʿyā Ibn (al-)Shibl al-Baghdādī</persName>
                <persName xml:id="name1122-2"
                          xml:lang="en-x-lhom"
                          source="#bib1122-1"
-                         resp="#rschmahl #mtolay">Ibn Shibl al-Baghdādī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Shibl al-Baghdādī</persName>
                <persName xml:id="name1122-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1122-1"
                          resp="#rschmahl #mtolay">ابن الشِبل البغدادي</persName>
-               <persName xml:id="name1122-4" xml:lang="ar" resp="#hfriedel">ابن شعيى</persName>
+               <persName xml:id="name1122-4"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن شعيى</persName>
                <note xml:id="abstract-en-1122"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1122-1"
-                     resp="#rschmahl">Ibn Shaʿyā see Abū l-Barakāt ibn Shaʿyā Ibn (al-)Shibl al-Baghdādī, Abū ʿAlī al-Ḥusayn (`or` Muḥammad ibn al-Ḥusayn) ibn ʿAbd Allāh, physician and poet from Baghdad (d. 474/1081–1082)</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Shaʿyā see Abū l-Barakāt ibn Shaʿyā Ibn (al-)Shibl al-Baghdādī, Abū ʿAlī al-Ḥusayn (`or` Muḥammad ibn al-Ḥusayn) ibn ʿAbd Allāh, physician and poet from Baghdad (d. 474/1081–1082)</note>
                <idno type="URI">https://usaybia.net/person/1122</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4231</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D8%B4%D8%A8%D9%84_%D8%A7%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%D9%8A</idno>
@@ -232,14 +238,16 @@
                       type="occupation"
                       role="physician"
                       source="#bib1122-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="poet"
                       source="#bib1122-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1122-1">

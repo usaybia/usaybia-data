@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1919-1"
-                         resp="#mtolay">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā</persName>
+                         resp="#mtolay"
+                         change="#change-3">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā</persName>
                <persName xml:id="name1919-2"
                          xml:lang="ar"
                          source="#bib1919-2"
@@ -219,18 +220,23 @@
                <persName xml:id="name1919-3"
                          xml:lang="en-x-lhom"
                          source="#bib1919-1"
-                         resp="#rschmahl #mtolay">Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Abū Bakr Muḥammad ibn Zakariyyā al-Rāzī</persName>
                <persName xml:id="name1919-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1919-1"
                          resp="#rschmahl #mtolay">أبو بكر محمد بن زكريا الرازي</persName>
-               <persName xml:id="name1919-5" xml:lang="ar" resp="#hfriedel">الرازي أبو بكر محمد بن زكريا</persName>
+               <persName xml:id="name1919-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">الرازي أبو بكر محمد بن زكريا</persName>
                <note xml:id="abstract-en-1919"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1919-1"
-                     resp="#mtolay">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā, physician and philosopher (ca. 250– 313/854–925)</note>
+                     resp="#mtolay"
+                     change="#change-3">al-Rāzī, Abū Bakr Muḥammad ibn Zakariyyā, physician and philosopher (ca. 250– 313/854–925)</note>
                <idno type="URI">https://usaybia.net/person/1919</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4267</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/12062</idno>
@@ -241,21 +247,24 @@
                       type="occupation"
                       role="physician"
                       source="#bib1919-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
                       source="#bib1919-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1919-1">

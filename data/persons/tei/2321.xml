@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2321-1"
-                         resp="#mtolay #rschmahl #mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid</persName>
+                         resp="#mtolay #rschmahl"
+                         change="#change-3">Yazīd ibn Yūḥannā ibn Abī Khālid</persName>
                <persName xml:id="name2321-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -221,26 +222,32 @@
                          xml:lang="ar"
                          source="#bib2321-1"
                          resp="#rschmahl #mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī 8.13</persName>
-               <persName xml:id="name2321-5" xml:lang="ar" resp="#hfriedel">يريد بن يوحنا بن أبي خالد</persName>
+               <persName xml:id="name2321-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">يريد بن يوحنا بن أبي خالد</persName>
                <note xml:id="abstract-en-2321"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2321-1"
-                     resp="#mtolay">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī</note>
+                     resp="#mtolay"
+                     change="#change-3">Yazīd ibn Yūḥannā ibn Abī Khālid, known as Yazīd Būr, personal physician to al-Maʾmūn and then Abū Isḥāq Ibrāhīm ibn al-Mahdī</note>
                <idno type="URI">https://usaybia.net/person/2321</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4119</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib2321-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2321-1">

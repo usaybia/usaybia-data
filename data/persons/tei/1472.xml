@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1472-1"
-                         resp="#fioppolo">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb</persName>
+                         resp="#fioppolo"
+                         change="#change-3">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb</persName>
                <persName xml:id="name1472-2"
                          xml:lang="ar"
                          source="#bib1472-2"
@@ -219,12 +220,14 @@
                <persName xml:id="name1472-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         resp="#hfriedel">الملك الكامل محمد بن أبو بكر بن أيوب</persName>
+                         resp="#hfriedel"
+                         change="#change-6">الملك الكامل محمد بن أبو بكر بن أيوب</persName>
                <note xml:id="abstract-en-1472"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1472-1"
-                     resp="#fioppolo">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb (573–635/1177–1238), fourth Ayyubid sultan in Egypt</note>
+                     resp="#fioppolo"
+                     change="#change-3">al-Malik al-Kāmil Muḥammad ibn Abū Bakr ibn Ayyūb (573–635/1177–1238), fourth Ayyubid sultan in Egypt</note>
                <idno type="URI">https://usaybia.net/person/1472</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84_%D9%86%D8%A7%D8%B5%D8%B1_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D9%85%D8%AD%D9%85%D8%AF</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/50020150</idno>
@@ -233,21 +236,24 @@
                       type="occupation"
                       role="sultan"
                       source="#bib1472-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>sultan</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="occupation"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1472-1">

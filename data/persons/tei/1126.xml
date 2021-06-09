@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1126-1"
-                         resp="#rschmahl">Ibn Siqlāb</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Ibn Siqlāb</persName>
                <persName xml:id="name1126-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -224,13 +225,18 @@
                <persName xml:id="name1126-4"
                          xml:lang="en-x-lhom"
                          source="#bib1126-1"
-                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn Yaʿqūb ibn Ṣiqlāb</persName>
-               <persName xml:id="name1126-6" xml:lang="ar" resp="#hfriedel">ابن سقلاب</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Muwaffaq al-Dīn Yaʿqūb ibn Ṣiqlāb</persName>
+               <persName xml:id="name1126-6"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن سقلاب</persName>
                <note xml:id="abstract-en-1126"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1126-1"
-                     resp="#rschmahl">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb, Christian physician of Ayyubid emir Fāris al-Dīn Maymūn al-Qaṣrī (d. 624/1227)</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb, Christian physician of Ayyubid emir Fāris al-Dīn Maymūn al-Qaṣrī (d. 624/1227)</note>
                <idno type="URI">https://usaybia.net/person/1126</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%82%D9%84%D8%A7%D8%A8</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32252</idno>
@@ -238,13 +244,15 @@
                       type="occupation"
                       role="physician"
                       source="#bib1126-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1126-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1126-1">

@@ -211,12 +211,14 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1154-1"
-                         resp="#rschmahl #rschmahl #mtolay">Ibn Uthāl</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibn Uthāl</persName>
                <persName xml:id="name1154-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1154-2 #bib1154-1"
-                         resp="#rschmahl #mtolay #hfriedel">ابن أثال</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">ابن أثال</persName>
                <persName xml:id="name1154-5"
                          xml:lang="ar"
                          source="#bib1154-1"
@@ -225,7 +227,8 @@
                      xml:lang="en"
                      type="abstract"
                      source="#bib1154-1"
-                     resp="#rschmahl">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah</note>
                <idno type="URI">https://usaybia.net/person/1154</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4101</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%AB%D8%A7%D9%84</idno>
@@ -233,13 +236,15 @@
                       type="occupation"
                       role="physician"
                       source="#bib1154-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1154-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1154-1">

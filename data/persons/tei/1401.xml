@@ -207,22 +207,28 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1401-1"
-                         resp="#rschmahl">al-Khūnajī</persName>
+                         resp="#rschmahl"
+                         change="#change-3">al-Khūnajī</persName>
                <persName xml:id="name1401-2"
                          xml:lang="en-x-lhom"
                          source="#bib1401-1"
-                         resp="#rschmahl #mtolay">Afḍal al-Dīn al-Khūnajī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Afḍal al-Dīn al-Khūnajī</persName>
                <persName xml:id="name1401-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1401-1"
                          resp="#rschmahl #mtolay">أفضل الدين الخونجي</persName>
-               <persName xml:id="name1401-4" xml:lang="ar" resp="#hfriedel">الخونجي</persName>
+               <persName xml:id="name1401-4"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">الخونجي</persName>
                <note xml:id="abstract-en-1401"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1401-1"
-                     resp="#rschmahl">al-Khūnajī, Afḍal al-Dīn Abū l-Faḍāʾil Muḥammad ibn Nāmawar, physician, teacher of ⅠＡＵ (d. 646/1248)</note>
+                     resp="#rschmahl"
+                     change="#change-3">al-Khūnajī, Afḍal al-Dīn Abū l-Faḍāʾil Muḥammad ibn Nāmawar, physician, teacher of ⅠＡＵ (d. 646/1248)</note>
                <idno type="URI">https://usaybia.net/person/1401</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/20403</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/32403</idno>
@@ -234,14 +240,16 @@
                       type="occupation"
                       role="physician"
                       source="#bib1401-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
                       source="#bib1401-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1401-1">

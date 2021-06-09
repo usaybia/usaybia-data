@@ -207,22 +207,28 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2305-1"
-                         resp="#mtolay">Yaḥyā ibn Yaḥyā</persName>
+                         resp="#mtolay"
+                         change="#change-3">Yaḥyā ibn Yaḥyā</persName>
                <persName xml:id="name2305-2"
                          xml:lang="en-x-lhom"
                          source="#bib2305-1"
-                         resp="#rschmahl #mtolay">Yaḥyā ibn Yaḥyā, Known as Ibn al-Samīnah</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Yaḥyā ibn Yaḥyā, Known as Ibn al-Samīnah</persName>
                <persName xml:id="name2305-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib2305-1"
                          resp="#rschmahl #mtolay">يحيى بن يحيى المعروف بابن السمينة</persName>
-               <persName xml:id="name2305-4" xml:lang="ar" resp="#hfriedel">يحيى بن يحيى</persName>
+               <persName xml:id="name2305-4"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">يحيى بن يحيى</persName>
                <note xml:id="abstract-en-2305"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2305-1"
-                     resp="#mtolay">Yaḥyā ibn Yaḥyā, known as Ibn al-Samīnah, physician from Cordova (d. 315/927)</note>
+                     resp="#mtolay"
+                     change="#change-3">Yaḥyā ibn Yaḥyā, known as Ibn al-Samīnah, physician from Cordova (d. 315/927)</note>
                <idno type="URI">https://usaybia.net/person/2305</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/42617</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50155</idno>
@@ -230,7 +236,8 @@
                       type="occupation"
                       role="physician"
                       source="#bib2305-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2305-1">

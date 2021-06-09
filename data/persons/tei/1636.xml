@@ -211,12 +211,14 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1636-1"
-                         resp="#fioppolo #rschmahl #mtolay">Muḥammad ibn Tamlīkh</persName>
+                         resp="#fioppolo #rschmahl #mtolay"
+                         change="#change-3">Muḥammad ibn Tamlīkh</persName>
                <persName xml:id="name1636-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1636-1"
-                         resp="#rschmahl #mtolay #hfriedel">محمد بن تمليخ</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">محمد بن تمليخ</persName>
                <persName xml:id="name1636-4"
                          xml:lang="ar"
                          source="#bib1636-1"
@@ -225,7 +227,8 @@
                      xml:lang="en"
                      type="abstract"
                      source="#bib1636-1"
-                     resp="#fioppolo">Muḥammad ibn Tamlīkh, 4th/10th-c. Andalusian physician and judge</note>
+                     resp="#fioppolo"
+                     change="#change-3">Muḥammad ibn Tamlīkh, 4th/10th-c. Andalusian physician and judge</note>
                <idno type="URI">https://usaybia.net/person/1636</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50120</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/42333</idno>
@@ -233,28 +236,32 @@
                       type="occupation"
                       role="physician"
                       source="#bib1636-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="judge"
                       source="#bib1636-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>judge</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="occupation"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1636-1">

@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2342-1"
-                         resp="#mtolay #ngibson">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī</persName>
+                         resp="#mtolay #ngibson"
+                         change="#change-3">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī</persName>
                <persName xml:id="name2342-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -220,32 +221,40 @@
                <persName xml:id="name2342-3"
                          xml:lang="en-x-lhom"
                          source="#bib2342-1"
-                         resp="#rschmahl #mtolay">Abū l-Ḥajjāj Yūsuf al-Isrāʾīlī</persName>
-               <persName xml:id="name2342-5" xml:lang="ar" resp="#hfriedel">يوسف الإسرائيلي أبو الحجاج يوسف بن يحيى بن إسحاق السبتي المغربي</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Abū l-Ḥajjāj Yūsuf al-Isrāʾīlī</persName>
+               <persName xml:id="name2342-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">يوسف الإسرائيلي أبو الحجاج يوسف بن يحيى بن إسحاق السبتي المغربي</persName>
                <note xml:id="abstract-en-2342"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2342-1"
-                     resp="#mtolay #ngibson">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī, Jewish physician often known as Ibn Shamʿūn (d. 1227)</note>
+                     resp="#mtolay #ngibson"
+                     change="#change-3">Yūsuf al-Isrāʾīlī, Abū al-Ḥajjāj Yūsuf ibn Yaḥyā ibn Isḥāq al-Sabtī al-Maghribī, Jewish physician often known as Ibn Shamʿūn (d. 1227)</note>
                <idno type="URI">https://usaybia.net/person/2342</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib2342-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="nisba"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Jewish</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib2342-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib2342-1">

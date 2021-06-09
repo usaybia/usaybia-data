@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2295-1"
-                         resp="#mtolay">al-Yabrūdī, Abū l-Faraj Jirjīs [Jūrjis] ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>
+                         resp="#mtolay"
+                         change="#change-3">al-Yabrūdī, Abū l-Faraj Jirjīs [Jūrjis] ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>
                <persName xml:id="name2295-2"
                          xml:lang="ar"
                          source="#bib2295-2"
@@ -219,7 +220,8 @@
                <persName xml:id="name2295-3"
                          xml:lang="en-x-lhom"
                          source="#bib2295-1"
-                         resp="#rschmahl #mtolay">al-Yabrūdī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">al-Yabrūdī</persName>
                <persName xml:id="name2295-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -229,39 +231,47 @@
                          xml:lang="ar"
                          source="#bib2295-1"
                          resp="#rschmahl #mtolay">al-Yabrūdī, Abū l-Faraj Jirjīs [Jūrjis] ibn Yuḥannā ibn Sahl ibn Ibrahīm, Christian physician from Damascus (d. ca. 450/1058) 15.3</persName>
-               <persName xml:id="name2295-6" xml:lang="ar" resp="#hfriedel">اليبرودي، أبو الفرج جرجيس / جورجس بن يحنى بن سهل بن إبراهم</persName>
+               <persName xml:id="name2295-6"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">اليبرودي، أبو الفرج جرجيس / جورجس بن يحنى بن سهل بن إبراهم</persName>
                <note xml:id="abstract-en-2295"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2295-1"
-                     resp="#mtolay">al-Yabrūdī, Abū l-Faraj Jirjīs [Jūrjis] ibn Yuḥannā ibn Sahl ibn Ibrahīm, Christian physician from Damascus (d. ca. 450/1058)</note>
+                     resp="#mtolay"
+                     change="#change-3">al-Yabrūdī, Abū l-Faraj Jirjīs [Jūrjis] ibn Yuḥannā ibn Sahl ibn Ibrahīm, Christian physician from Damascus (d. ca. 450/1058)</note>
                <idno type="URI">https://usaybia.net/person/2295</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%81%D8%B1%D8%AC_%D8%A7%D9%84%D9%8A%D8%A8%D8%B1%D9%88%D8%AF%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib2295-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib2295-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2295-1">

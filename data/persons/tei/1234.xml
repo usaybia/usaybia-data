@@ -207,11 +207,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1234-1"
-                         resp="#rschmahl">ʿĪsā</persName>
+                         resp="#rschmahl"
+                         change="#change-3">ʿĪsā</persName>
                <persName xml:id="name1234-2"
                          xml:lang="en-x-lhom"
                          source="#bib1234-1"
-                         resp="#rschmahl #mtolay">ʿĪsā, known as Abū Quraysh</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">ʿĪsā, known as Abū Quraysh</persName>
                <persName xml:id="name1234-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -221,26 +223,32 @@
                          xml:lang="ar"
                          source="#bib1234-1"
                          resp="#rschmahl #mtolay">ʿĪsā, known as Abū Quraysh, apothecary and personal physician to al-Mahdī 8.2; 8.8</persName>
-               <persName xml:id="name1234-5" xml:lang="ar" resp="#hfriedel">عيسى</persName>
+               <persName xml:id="name1234-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">عيسى</persName>
                <note xml:id="abstract-en-1234"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1234-1"
-                     resp="#rschmahl">ʿĪsā, known as Abū Quraysh, apothecary and personal physician to al-Mahdī</note>
+                     resp="#rschmahl"
+                     change="#change-3">ʿĪsā, known as Abū Quraysh, apothecary and personal physician to al-Mahdī</note>
                <idno type="URI">https://usaybia.net/person/1234</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4114</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="apothecary"
                       source="#bib1234-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>apothecary</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1234-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1234-1">

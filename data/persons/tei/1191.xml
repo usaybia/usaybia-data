@@ -211,11 +211,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1191-1"
-                         resp="#rschmahl">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?)</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?)</persName>
                <persName xml:id="name1191-2"
                          xml:lang="en-x-lhom"
                          source="#bib1191-1"
-                         resp="#rschmahl #mtolay">Ibrāhīm ibn Baks (Bakūs)</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Ibrāhīm ibn Baks (Bakūs)</persName>
                <persName xml:id="name1191-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -229,12 +231,16 @@
                          xml:lang="ar"
                          source="#bib1191-1"
                          resp="#rschmahl #mtolay">أبو إسحاق إبراهيم بن بكس</persName>
-               <persName xml:id="name1191-6" xml:lang="ar" resp="#hfriedel">إبراهيم بن بكس/بكوس/بكوش العشاري</persName>
+               <persName xml:id="name1191-6"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">إبراهيم بن بكس/بكوس/بكوش العشاري</persName>
                <note xml:id="abstract-en-1191"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1191-1"
-                     resp="#rschmahl">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?), Abū Isḥāq, 4th/10th-c. Christian physician and translator active in Baghdad</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibrāhīm ibn Baks/Bakūs/Bakūsh/Bakkūsh al-ʿUshārī/al-ʿAshshārī(?), Abū Isḥāq, 4th/10th-c. Christian physician and translator active in Baghdad</note>
                <idno type="URI">https://usaybia.net/person/1191</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4169</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4223</idno>
@@ -243,20 +249,23 @@
                       type="occupation"
                       role="physician"
                       source="#bib1191-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
                       source="#bib1191-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1191-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1191-1">

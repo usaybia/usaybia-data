@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1390-1"
-                         resp="#rschmahl">Khaṣīb al-Naṣrānī</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Khaṣīb al-Naṣrānī</persName>
                <persName xml:id="name1390-2"
                          xml:lang="ar"
                          source="#bib1390-2"
@@ -219,7 +220,8 @@
                <persName xml:id="name1390-3"
                          xml:lang="en-x-lhom"
                          source="#bib1390-1"
-                         resp="#rschmahl #mtolay">Khaṣīb</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Khaṣīb</persName>
                <persName xml:id="name1390-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -229,32 +231,39 @@
                          xml:lang="ar"
                          source="#bib1390-1"
                          resp="#rschmahl #mtolay">Khaṣīb al-Naṣrānī, 2nd/8th-c. Christian physician 8.7</persName>
-               <persName xml:id="name1390-6" xml:lang="ar" resp="#hfriedel">خصيب النصراني</persName>
+               <persName xml:id="name1390-6"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">خصيب النصراني</persName>
                <note xml:id="abstract-en-1390"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1390-1"
-                     resp="#rschmahl">Khaṣīb al-Naṣrānī, 2nd/8th-c. Christian physician</note>
+                     resp="#rschmahl"
+                     change="#change-3">Khaṣīb al-Naṣrānī, 2nd/8th-c. Christian physician</note>
                <idno type="URI">https://usaybia.net/person/1390</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4113</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1390-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="nisba"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1390-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1390-1">

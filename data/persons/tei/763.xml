@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib763-1"
-                         resp="#fioppolo">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī</persName>
+                         resp="#fioppolo"
+                         change="#change-3">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī</persName>
                <persName xml:id="name763-2"
                          xml:lang="ar"
                          source="#bib763-2"
@@ -219,18 +220,23 @@
                <persName xml:id="name763-3"
                          xml:lang="en-x-lhom"
                          source="#bib763-1"
-                         resp="#rschmahl #mtolay">Fakhr al-Dīn [Riḍwān] ibn al-Sāʿātī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Fakhr al-Dīn [Riḍwān] ibn al-Sāʿātī</persName>
                <persName xml:id="name763-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib763-1"
                          resp="#rschmahl #mtolay">فخر الدين بن الساعاتي</persName>
-               <persName xml:id="name763-5" xml:lang="ar" resp="#hfriedel">قخر الدين رضوان بن محمد بن علي بن رستم الخراساني الساعاتي</persName>
+               <persName xml:id="name763-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">قخر الدين رضوان بن محمد بن علي بن رستم الخراساني الساعاتي</persName>
                <note xml:id="abstract-en-763"
                      xml:lang="en"
                      type="abstract"
                      source="#bib763-1"
-                     resp="#fioppolo">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī, physician, clock-maker and littérateur</note>
+                     resp="#fioppolo"
+                     change="#change-3">Fakhr al-Dīn Riḍwān ibn Muḥammad ibn ʿAlī ibn Rustam al-Khurāsānī al-Sāʿātī, physician, clock-maker and littérateur</note>
                <idno type="URI">https://usaybia.net/person/763</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30478</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14513</idno>
@@ -241,14 +247,16 @@
                       type="occupation"
                       role="physician"
                       source="#bib763-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib763-1">

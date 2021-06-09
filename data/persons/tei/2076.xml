@@ -211,11 +211,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2076-1"
-                         resp="#mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</persName>
+                         resp="#mtolay"
+                         change="#change-3">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</persName>
                <persName xml:id="name2076-2"
                          xml:lang="en-x-lhom"
                          source="#bib2076-1"
-                         resp="#rschmahl #mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
                <persName xml:id="name2076-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -225,32 +227,39 @@
                          xml:lang="ar"
                          source="#bib2076-1"
                          resp="#rschmahl #mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician 13.55</persName>
-               <persName xml:id="name2076-5" xml:lang="ar" resp="#hfriedel">الشريف محمد بن محمد الحسني أبو عبد الله</persName>
+               <persName xml:id="name2076-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">الشريف محمد بن محمد الحسني أبو عبد الله</persName>
                <note xml:id="abstract-en-2076"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2076-1"
-                     resp="#mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician</note>
+                     resp="#mtolay"
+                     change="#change-3">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/2076</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib2076-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2076-1">

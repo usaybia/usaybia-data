@@ -211,42 +211,49 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1621-1"
-                         resp="#fioppolo">Muḥammad ibn al-Jahm</persName>
+                         resp="#fioppolo"
+                         change="#change-3">Muḥammad ibn al-Jahm</persName>
                <persName xml:id="name1621-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         resp="#hfriedel">محمد بن الجهم</persName>
+                         resp="#hfriedel"
+                         change="#change-6">محمد بن الجهم</persName>
                <note xml:id="abstract-en-1621"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1621-1"
-                     resp="#fioppolo">Muḥammad ibn al-Jahm (active 3rd/8th c.), Muʿtazilite philosoper and official</note>
+                     resp="#fioppolo"
+                     change="#change-3">Muḥammad ibn al-Jahm (active 3rd/8th c.), Muʿtazilite philosoper and official</note>
                <idno type="URI">https://usaybia.net/person/1621</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="official"
                       source="#bib1621-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>official</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
                       source="#bib1621-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1621-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Muslim, Muʿtazilite</label>
                </state>
                <bibl xml:id="bib1621-1">

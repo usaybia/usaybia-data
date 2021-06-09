@@ -211,35 +211,41 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1342-1"
-                         resp="#rschmahl">Jirjis</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Jirjis</persName>
                <persName xml:id="name1342-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         resp="#hfriedel">جرجس</persName>
+                         resp="#hfriedel"
+                         change="#change-6">جرجس</persName>
                <note xml:id="abstract-en-1342"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1342-1"
-                     resp="#rschmahl">Jirjis, 5th/11th-c. Christian physician in Cairo</note>
+                     resp="#rschmahl"
+                     change="#change-3">Jirjis, 5th/11th-c. Christian physician in Cairo</note>
                <idno type="URI">https://usaybia.net/person/1342</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1342-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1342-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1342-1">

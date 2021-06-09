@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib765-1"
-                         resp="#fioppolo">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān</persName>
+                         resp="#fioppolo"
+                         change="#change-3">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān</persName>
                <persName xml:id="name765-2"
                          xml:lang="ar"
                          source="#bib765-2"
@@ -219,18 +220,23 @@
                <persName xml:id="name765-3"
                          xml:lang="en-x-lhom"
                          source="#bib765-1"
-                         resp="#rschmahl #mtolay">Abū Naṣr al-Fārābī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Abū Naṣr al-Fārābī</persName>
                <persName xml:id="name765-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib765-1"
                          resp="#rschmahl #mtolay">أبو نصر الفارابيأبو نصر الفارابي</persName>
-               <persName xml:id="name765-5" xml:lang="ar" resp="#hfriedel">الفارابي أبو نصر محمد بن أزلوغ بن طرخان</persName>
+               <persName xml:id="name765-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">الفارابي أبو نصر محمد بن أزلوغ بن طرخان</persName>
                <note xml:id="abstract-en-765"
                      xml:lang="en"
                      type="abstract"
                      source="#bib765-1"
-                     resp="#fioppolo">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān, philosopher and scholar of music (ca. 256–338/870–950)</note>
+                     resp="#fioppolo"
+                     change="#change-3">al-Fārābī, Abū Naṣr Muḥammad ibn Ūzlūgh ibn Ṭarkhān, philosopher and scholar of music (ca. 256–338/870–950)</note>
                <idno type="URI">https://usaybia.net/person/765</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/12304</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30706</idno>
@@ -243,21 +249,24 @@
                       type="occupation"
                       role="philosopher"
                       source="#bib765-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="musicologist"
                       source="#bib765-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>musicologist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib765-1">

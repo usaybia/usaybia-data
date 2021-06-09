@@ -211,21 +211,25 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2209-1"
-                         resp="#mtolay">al-Usquf Theodore the Syncellus</persName>
+                         resp="#mtolay"
+                         change="#change-3">al-Usquf Theodore the Syncellus</persName>
                <persName xml:id="name2209-2"
                          xml:lang="en-x-lhom"
                          source="#bib2209-1"
-                         resp="#rschmahl #mtolay">Theodore the Syncellus</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Theodore the Syncellus</persName>
                <persName xml:id="name2209-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib2209-1"
-                         resp="#rschmahl #mtolay #hfriedel">تذرس السنقل</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">تذرس السنقل</persName>
                <note xml:id="abstract-en-2209"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2209-1"
-                     resp="#mtolay">al-Usquf Theodore the Syncellus (Tadharus, or Tadrus, al-Sunqal), translator</note>
+                     resp="#mtolay"
+                     change="#change-3">al-Usquf Theodore the Syncellus (Tadharus, or Tadrus, al-Sunqal), translator</note>
                <idno type="URI">https://usaybia.net/person/2209</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4158</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/45921354</idno>
@@ -233,21 +237,24 @@
                       type="occupation"
                       role="translator"
                       source="#bib2209-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="syncellus"
                       source="#bib2209-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>syncellus</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="occupation"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2209-1">

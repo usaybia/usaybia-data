@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1453-1"
-                         resp="#fioppolo">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī)</persName>
+                         resp="#fioppolo"
+                         change="#change-3">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī)</persName>
                <persName xml:id="name1453-2"
                          xml:lang="ar"
                          source="#bib1453-2"
@@ -219,12 +220,14 @@
                <persName xml:id="name1453-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         resp="#hfriedel">الملك العادل نور الدين محمود بن زنكي</persName>
+                         resp="#hfriedel"
+                         change="#change-6">الملك العادل نور الدين محمود بن زنكي</persName>
                <note xml:id="abstract-en-1453"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1453-1"
-                     resp="#fioppolo">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī), ruler of Aleppo and Damascus, founder of al-Bīmāristān al-Nūrī (al-Nūrī hospital)</note>
+                     resp="#fioppolo"
+                     change="#change-3">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī), ruler of Aleppo and Damascus, founder of al-Bīmāristān al-Nūrī (al-Nūrī hospital)</note>
                <idno type="URI">https://usaybia.net/person/1453</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30082</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30715</idno>
@@ -235,21 +238,24 @@
                       type="occupation"
                       role="ruler"
                       source="#bib1453-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="hospital founder"
                       source="#bib1453-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>hospital founder</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="occupation"
                       cert="high"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1453-1">

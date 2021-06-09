@@ -211,12 +211,14 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1353-1"
-                         resp="#rschmahl #rschmahl #mtolay">Jūrjis ibn Jibrīl</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Jūrjis ibn Jibrīl</persName>
                <persName xml:id="name1353-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1353-1"
-                         resp="#rschmahl #mtolay #hfriedel">جورجس بن جبريل</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">جورجس بن جبريل</persName>
                <persName xml:id="name1353-4"
                          xml:lang="ar"
                          source="#bib1353-1"
@@ -225,7 +227,8 @@
                      xml:lang="en"
                      type="abstract"
                      source="#bib1353-1"
-                     resp="#rschmahl">Jūrjis ibn Jibrīl, first of the Christian Bukhtīshūʿ family of physicians</note>
+                     resp="#rschmahl"
+                     change="#change-3">Jūrjis ibn Jibrīl, first of the Christian Bukhtīshūʿ family of physicians</note>
                <idno type="URI">https://usaybia.net/person/1353</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4108</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4141</idno>
@@ -233,20 +236,23 @@
                       type="occupation"
                       role="physician"
                       source="#bib1353-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       source="#bib1353-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-5">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1353-1">

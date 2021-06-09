@@ -207,7 +207,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib2196-1"
-                         resp="#mtolay #rschmahl #mtolay">Thābit ibn Qurrah al-Ḥarrānī</persName>
+                         resp="#mtolay #rschmahl"
+                         change="#change-3">Thābit ibn Qurrah al-Ḥarrānī</persName>
                <persName xml:id="name2196-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -221,12 +222,16 @@
                          xml:lang="ar"
                          source="#bib2196-1"
                          resp="#rschmahl #mtolay">ثابت الناقل</persName>
-               <persName xml:id="name2196-6" xml:lang="ar" resp="#hfriedel">ثابت بن قرّة الحرّاني</persName>
+               <persName xml:id="name2196-6"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ثابت بن قرّة الحرّاني</persName>
                <note xml:id="abstract-en-2196"
                      xml:lang="en"
                      type="abstract"
                      source="#bib2196-1"
-                     resp="#mtolay">Thābit ibn Qurrah al-Ḥarrānī, mathematician and scientist</note>
+                     resp="#mtolay"
+                     change="#change-3">Thābit ibn Qurrah al-Ḥarrānī, mathematician and scientist</note>
                <idno type="URI">https://usaybia.net/person/2196</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/11861</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%D8%A8%D9%86_%D9%82%D8%B1%D8%A9</idno>
@@ -236,14 +241,16 @@
                       type="occupation"
                       role="mathematician"
                       source="#bib2196-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scientist"
                       source="#bib2196-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>scientist</desc>
                </state>
                <bibl xml:id="bib2196-1">

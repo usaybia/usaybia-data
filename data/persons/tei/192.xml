@@ -211,12 +211,14 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib192-1"
-                         resp="#rschmahl #rschmahl #mtolay">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī</persName>
                <persName xml:id="name192-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib192-1"
-                         resp="#rschmahl #mtolay #hfriedel">أبو الحسن أحمد بن محمد الطبري</persName>
+                         resp="#rschmahl #mtolay #hfriedel"
+                         change="#change-6">أبو الحسن أحمد بن محمد الطبري</persName>
                <persName xml:id="name192-4"
                          xml:lang="ar"
                          source="#bib192-1"
@@ -225,7 +227,8 @@
                      xml:lang="en"
                      type="abstract"
                      source="#bib192-1"
-                     resp="#rschmahl">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician</note>
+                     resp="#rschmahl"
+                     change="#change-3">Abū l-Ḥasan Aḥmad ibn Muḥammad al-Ṭabarī, 4th/10th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/192</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4268</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%B7%D8%A8%D8%B1%D9%8A</idno>
@@ -235,14 +238,16 @@
                       type="occupation"
                       role="physician"
                       source="#bib192-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib192-1">

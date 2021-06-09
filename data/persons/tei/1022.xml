@@ -207,11 +207,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1022-1"
-                         resp="#rschmahl">Ibn al-Kattānī</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Ibn al-Kattānī</persName>
                <persName xml:id="name1022-2"
                          xml:lang="en-x-lhom"
                          source="#bib1022-1"
-                         resp="#rschmahl #mtolay">Abū ʿAbd Allāh ibn al-Kattānī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Abū ʿAbd Allāh ibn al-Kattānī</persName>
                <persName xml:id="name1022-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -221,12 +223,16 @@
                          xml:lang="ar"
                          source="#bib1022-1"
                          resp="#rschmahl #mtolay">Abū ʿAbd Allāh ibn al-Kattānī 13.29</persName>
-               <persName xml:id="name1022-5" xml:lang="ar" resp="#hfriedel">ابن الكتاني</persName>
+               <persName xml:id="name1022-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن الكتاني</persName>
                <note xml:id="abstract-en-1022"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1022-1"
-                     resp="#rschmahl">Ibn al-Kattānī, Abū ʿAbd Allāh Muḥammad ibn al-Ḥusayn, Andalusian physician (d. ca. 420/1029)</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn al-Kattānī, Abū ʿAbd Allāh Muḥammad ibn al-Ḥusayn, Andalusian physician (d. ca. 420/1029)</note>
                <idno type="URI">https://usaybia.net/person/1022</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/40082</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50107</idno>
@@ -235,7 +241,8 @@
                       type="occupation"
                       role="physician"
                       source="#bib1022-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1022-1">

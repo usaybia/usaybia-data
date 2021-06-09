@@ -211,22 +211,28 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib432-1"
-                         resp="#mtolay">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</persName>
+                         resp="#mtolay"
+                         change="#change-3">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</persName>
                <persName xml:id="name432-2"
                          xml:lang="en-x-lhom"
                          source="#bib432-1"
-                         resp="#rschmahl #mtolay">Aḥmad ibn Muḥammad al-Baladī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">Aḥmad ibn Muḥammad al-Baladī</persName>
                <persName xml:id="name432-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib432-1"
                          resp="#rschmahl #mtolay">أحمد بن محمد البلدي</persName>
-               <persName xml:id="name432-4" xml:lang="ar" resp="#hfriedel">أحمد بن محمد بن يحيى البلدي أبو العباس</persName>
+               <persName xml:id="name432-4"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">أحمد بن محمد بن يحيى البلدي أبو العباس</persName>
                <note xml:id="abstract-en-432"
                      xml:lang="en"
                      type="abstract"
                      source="#bib432-1"
-                     resp="#mtolay">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</note>
+                     resp="#mtolay"
+                     change="#change-3">Aḥmad ibn Muḥammad ibn Yaḥyā al-Baladī, Abū l-ʿAbbās</note>
                <idno type="URI">https://usaybia.net/person/432</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4228</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/305410345</idno>
@@ -234,7 +240,8 @@
                       type="religious-affiliation"
                       evidence="ancestor-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib432-1">

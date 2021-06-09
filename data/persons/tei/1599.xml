@@ -211,7 +211,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1599-1"
-                         resp="#fioppolo">Muḥammad</persName>
+                         resp="#fioppolo"
+                         change="#change-3">Muḥammad</persName>
                <persName xml:id="name1599-2"
                          xml:lang="ar"
                          source="#bib1599-2"
@@ -219,12 +220,14 @@
                <persName xml:id="name1599-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         resp="#hfriedel">محمد</persName>
+                         resp="#hfriedel"
+                         change="#change-6">محمد</persName>
                <note xml:id="abstract-en-1599"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1599-1"
-                     resp="#fioppolo">Muḥammad, Prophet, Messenger of God</note>
+                     resp="#fioppolo"
+                     change="#change-3">Muḥammad, Prophet, Messenger of God</note>
                <idno type="URI">https://usaybia.net/person/1599</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/97245226</idno>
@@ -233,14 +236,16 @@
                       type="occupation"
                       role="prophet"
                       source="#bib1599-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>prophet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1599-1">

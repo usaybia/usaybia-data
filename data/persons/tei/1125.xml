@@ -207,7 +207,8 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1125-1"
-                         resp="#rschmahl">Ibn Sīnā</persName>
+                         resp="#rschmahl"
+                         change="#change-3">Ibn Sīnā</persName>
                <persName xml:id="name1125-2"
                          xml:lang="ar"
                          source="#bib1125-2"
@@ -215,18 +216,23 @@
                <persName xml:id="name1125-3"
                          xml:lang="en-x-lhom"
                          source="#bib1125-1"
-                         resp="#rschmahl #mtolay">al-Shaykh al-Raʾīs Ibn Sīnā</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">al-Shaykh al-Raʾīs Ibn Sīnā</persName>
                <persName xml:id="name1125-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
                          source="#bib1125-1"
                          resp="#rschmahl #mtolay">الشيخ الرئيس بن سينا</persName>
-               <persName xml:id="name1125-5" xml:lang="ar" resp="#hfriedel">ابن سينا</persName>
+               <persName xml:id="name1125-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">ابن سينا</persName>
                <note xml:id="abstract-en-1125"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1125-1"
-                     resp="#rschmahl">Ibn Sīnā, Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh al-Shaykh al-Raʾīs (d. 428/1037)</note>
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Sīnā, Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh al-Shaykh al-Raʾīs (d. 428/1037)</note>
                <idno type="URI">https://usaybia.net/person/1125</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30190</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13056</idno>
@@ -239,21 +245,24 @@
                       type="occupation"
                       role="author"
                       source="#bib1125-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
                       source="#bib1125-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1125-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1125-1">

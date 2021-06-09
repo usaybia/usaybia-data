@@ -211,11 +211,13 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib1665-1"
-                         resp="#fioppolo">al-Muqbilī, Abū Naṣr Muḥammad ibn Yūsuf</persName>
+                         resp="#fioppolo"
+                         change="#change-3">al-Muqbilī, Abū Naṣr Muḥammad ibn Yūsuf</persName>
                <persName xml:id="name1665-2"
                          xml:lang="en-x-lhom"
                          source="#bib1665-1"
-                         resp="#rschmahl #mtolay">al-Muqbilī</persName>
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">al-Muqbilī</persName>
                <persName xml:id="name1665-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
@@ -225,26 +227,32 @@
                          xml:lang="ar"
                          source="#bib1665-1"
                          resp="#rschmahl #mtolay">al-Muqbilī, Abū Naṣr Muḥammad ibn Yūsuf, Iraqi physician 10.55</persName>
-               <persName xml:id="name1665-5" xml:lang="ar" resp="#hfriedel">المقبلي أبو نصر محمد بن يوسف</persName>
+               <persName xml:id="name1665-5"
+                         xml:lang="ar"
+                         resp="#hfriedel"
+                         change="#change-6">المقبلي أبو نصر محمد بن يوسف</persName>
                <note xml:id="abstract-en-1665"
                      xml:lang="en"
                      type="abstract"
                      source="#bib1665-1"
-                     resp="#fioppolo">al-Muqbilī, Abū Naṣr Muḥammad ibn Yūsuf, Iraqi physician</note>
+                     resp="#fioppolo"
+                     change="#change-3">al-Muqbilī, Abū Naṣr Muḥammad ibn Yūsuf, Iraqi physician</note>
                <idno type="URI">https://usaybia.net/person/1665</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4235</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
                       source="#bib1665-1"
-                      resp="#vbirkhahn #ngibson">
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
                       evidence="given-name"
                       cert="low"
-                      resp="#ngibson">
+                      resp="#ngibson"
+                      change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1665-1">
