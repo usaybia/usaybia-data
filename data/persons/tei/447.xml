@@ -210,14 +210,17 @@
                <persName xml:id="name447-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">ʿAlāʾ al-Dīn Kayqubādh</persName>
+                         source="#bib447-1">ʿAlāʾ al-Dīn Kayqubādh</persName>
                <persName xml:id="name447-2" xml:lang="ar" srophe-tags="#syriaca-headword">علاء الدين كيقباذ</persName>
                <note xml:id="abstract-en-447"
                      xml:lang="en"
                      type="abstract"
-                     source="#">ʿAlāʾ al-Dīn Kayqubādh, Seljuq sultan of Rūm (`reg.` 616–634/1219–1237)</note>
+                     source="#bib447-1">ʿAlāʾ al-Dīn Kayqubādh, Seljuq sultan of Rūm (`reg.` 616–634/1219–1237)</note>
                <idno type="URI">https://usaybia.net/person/447</idno>
-               <state xml:lang="en" type="occupation" role="sultan" source="#">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="sultan"
+                      source="#bib447-1">
                   <desc>sultan</desc>
                </state>
                <state xml:lang="en"
@@ -227,6 +230,10 @@
                       cert="high">
                   <label>Muslim</label>
                </state>
+               <bibl xml:id="bib447-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>

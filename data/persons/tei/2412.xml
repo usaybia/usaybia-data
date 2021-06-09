@@ -206,16 +206,20 @@
                <persName xml:id="name2412-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#">Bahāʾ al-Dīn ibn Nafādah</persName>
+                         source="#bib2412-1">Bahāʾ al-Dīn ibn Nafādah</persName>
                <persName xml:id="name2412-2" xml:lang="ar" srophe-tags="#syriaca-headword">بهاء الدين بن نفادة</persName>
                <note xml:id="abstract-en-2412"
                      xml:lang="en"
                      type="abstract"
-                     source="#">Bahāʾ al-Dīn ibn Nafādah? = `adīb` and poet Aḥmad ibn ʿAbd al-Raḥmān Ibn Nafādah</note>
+                     source="#bib2412-1">Bahāʾ al-Dīn ibn Nafādah? = `adīb` and poet Aḥmad ibn ʿAbd al-Raḥmān Ibn Nafādah</note>
                <idno type="URI">https://usaybia.net/person/2412</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#">
+               <state xml:lang="en" type="occupation" role="poet" source="#bib2412-1">
                   <desc>poet</desc>
                </state>
+               <bibl xml:id="bib2412-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
             </person>
          </listPerson>
       </body>
