@@ -206,17 +206,23 @@
                <persName xml:id="name1056-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1056-1">Ibn Muhājir</persName>
-               <persName xml:id="name1056-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن مهاجر</persName>
+                         source="#bib1056-1"
+                         resp="#rschmahl">Ibn Muhājir</persName>
+               <persName xml:id="name1056-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن مهاجر</persName>
                <note xml:id="abstract-en-1056"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1056-1">Ibn Muhājir, founder of law-college in Mosul</note>
+                     source="#bib1056-1"
+                     resp="#rschmahl">Ibn Muhājir, founder of law-college in Mosul</note>
                <idno type="URI">https://usaybia.net/person/1056</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="law-college founder"
-                      source="#bib1056-1">
+                      source="#bib1056-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>law-college founder</desc>
                </state>
                <bibl xml:id="bib1056-1">

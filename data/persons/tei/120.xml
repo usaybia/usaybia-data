@@ -206,23 +206,33 @@
                <persName xml:id="name120-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib120-1">Abū Bakr</persName>
-               <persName xml:id="name120-2" xml:lang="en-x-lhom" source="#bib120-1">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī</persName>
+                         source="#bib120-1"
+                         resp="#rschmahl">Abū Bakr</persName>
+               <persName xml:id="name120-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib120-1"
+                         resp="#rschmahl #mtolay">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī</persName>
                <persName xml:id="name120-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib120-1">أبو بكر بن القاضي أبي الحسن الزهري</persName>
-               <persName xml:id="name120-4" xml:lang="ar" source="#bib120-1">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī, Andalusian physician 13.62.3; 13.80</persName>
-               <persName xml:id="name120-5" xml:lang="ar">أبو بكر</persName>
+                         source="#bib120-1"
+                         resp="#rschmahl #mtolay">أبو بكر بن القاضي أبي الحسن الزهري</persName>
+               <persName xml:id="name120-4"
+                         xml:lang="ar"
+                         source="#bib120-1"
+                         resp="#rschmahl #mtolay">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī, Andalusian physician 13.62.3; 13.80</persName>
+               <persName xml:id="name120-5" xml:lang="ar" resp="#hfriedel">أبو بكر</persName>
                <note xml:id="abstract-en-120"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib120-1">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī, Andalusian physician</note>
+                     source="#bib120-1"
+                     resp="#rschmahl">Abū Bakr, the son of al-Qāḍī Abū l-Ḥasan al-Zuhrī, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/120</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib120-1">
+                      source="#bib120-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib120-1">

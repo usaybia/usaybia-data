@@ -206,23 +206,33 @@
                <persName xml:id="name156-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib156-1">Abū l-Faḍl Ismāʿīl ibn Abī l-Waqqār</persName>
-               <persName xml:id="name156-2" xml:lang="ar" source="#bib156-2">أبو الفضل اسمعيل بن أبى الوقار</persName>
-               <persName xml:id="name156-3" xml:lang="en-x-lhom" source="#bib156-1">Abū l-Faḍl ibn Abī l-Waqqār</persName>
+                         source="#bib156-1"
+                         resp="#rschmahl">Abū l-Faḍl Ismāʿīl ibn Abī l-Waqqār</persName>
+               <persName xml:id="name156-2"
+                         xml:lang="ar"
+                         source="#bib156-2"
+                         resp="#rschmahl #mtolay">أبو الفضل اسمعيل بن أبى الوقار</persName>
+               <persName xml:id="name156-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib156-1"
+                         resp="#rschmahl #mtolay">Abū l-Faḍl ibn Abī l-Waqqār</persName>
                <persName xml:id="name156-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib156-1">أبو الفضل بن أبي الوقار</persName>
-               <persName xml:id="name156-5" xml:lang="ar">أبو الفضل إسماعيل بن أبي الوقار</persName>
+                         source="#bib156-1"
+                         resp="#rschmahl #mtolay">أبو الفضل بن أبي الوقار</persName>
+               <persName xml:id="name156-5" xml:lang="ar" resp="#hfriedel">أبو الفضل إسماعيل بن أبي الوقار</persName>
                <note xml:id="abstract-en-156"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib156-1">Abū l-Faḍl Ismāʿīl ibn Abī l-Waqqār, physician</note>
+                     source="#bib156-1"
+                     resp="#rschmahl">Abū l-Faḍl Ismāʿīl ibn Abī l-Waqqār, physician</note>
                <idno type="URI">https://usaybia.net/person/156</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib156-1">
+                      source="#bib156-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib156-1">

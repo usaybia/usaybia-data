@@ -206,26 +206,33 @@
                <persName xml:id="name160-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib160-1">Abū l-Falāḥ</persName>
-               <persName xml:id="name160-2" xml:lang="en-x-lhom" source="#bib160-1">Aḥmad ibn Abī l-Ashʿath</persName>
+                         source="#bib160-1"
+                         resp="#rschmahl">Abū l-Falāḥ</persName>
+               <persName xml:id="name160-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib160-1"
+                         resp="#rschmahl #mtolay">Aḥmad ibn Abī l-Ashʿath</persName>
                <persName xml:id="name160-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib160-1">أحمد بن أبي الأشعث</persName>
-               <persName xml:id="name160-4" xml:lang="ar">أبو الفلاح</persName>
+                         source="#bib160-1"
+                         resp="#rschmahl #mtolay">أحمد بن أبي الأشعث</persName>
+               <persName xml:id="name160-4" xml:lang="ar" resp="#hfriedel">أبو الفلاح</persName>
                <note xml:id="abstract-en-160"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib160-1">Abū l-Falāḥ, student of Aḥmad ibn Abī l-Ashʿath</note>
+                     source="#bib160-1"
+                     resp="#rschmahl">Abū l-Falāḥ, student of Aḥmad ibn Abī l-Ashʿath</note>
                <idno type="URI">https://usaybia.net/person/160</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4226</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%A7%D9%84%D8%A3%D8%B4%D8%B9%D8%AB</idno>
-               <idno type="URI">https://viaf.org/viaf/90078938</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30655</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4226</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%A7%D9%84%D8%A3%D8%B4%D8%B9%D8%AB</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90078938</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30655</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib160-1">
+                      source="#bib160-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib160-1">

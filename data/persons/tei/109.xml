@@ -206,19 +206,28 @@
                <persName xml:id="name109-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib109-1">Abū ʿAmr al-Zajjājī</persName>
-               <persName xml:id="name109-2" xml:lang="ar" source="#bib109-2">ابو عمرو الزجاجي</persName>
-               <persName xml:id="name109-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عمر الزجاجي</persName>
+                         source="#bib109-1"
+                         resp="#rschmahl">Abū ʿAmr al-Zajjājī</persName>
+               <persName xml:id="name109-2"
+                         xml:lang="ar"
+                         source="#bib109-2"
+                         resp="#rschmahl #mtolay">ابو عمرو الزجاجي</persName>
+               <persName xml:id="name109-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عمر الزجاجي</persName>
                <note xml:id="abstract-en-109"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib109-1">Abū ʿAmr al-Zajjājī, transmitter</note>
+                     source="#bib109-1"
+                     resp="#rschmahl">Abū ʿAmr al-Zajjājī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/109</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B9%D9%85%D8%B1%D9%88_%D8%A7%D9%84%D8%B2%D8%AC%D8%A7%D8%AC%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B9%D9%85%D8%B1%D9%88_%D8%A7%D9%84%D8%B2%D8%AC%D8%A7%D8%AC%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib109-1">
+                      source="#bib109-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib109-1">

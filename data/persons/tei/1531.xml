@@ -210,29 +210,36 @@
                <persName xml:id="name1531-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1531-1">Māsawayh Abū Yūḥannā</persName>
-               <persName xml:id="name1531-2" xml:lang="en-x-lhom" source="#bib1531-1">Māsawayh Abū Yuḥannā</persName>
+                         source="#bib1531-1"
+                         resp="#fioppolo">Māsawayh Abū Yūḥannā</persName>
+               <persName xml:id="name1531-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1531-1"
+                         resp="#rschmahl #mtolay">Māsawayh Abū Yuḥannā</persName>
                <persName xml:id="name1531-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1531-1">ماسويه أبو يوحنا</persName>
+                         source="#bib1531-1"
+                         resp="#rschmahl #mtolay #hfriedel">ماسويه أبو يوحنا</persName>
                <note xml:id="abstract-en-1531"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1531-1">Māsawayh Abū Yūḥannā, physician in the service of Hārūn al-Rashīd</note>
+                     source="#bib1531-1"
+                     resp="#fioppolo">Māsawayh Abū Yūḥannā, physician in the service of Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/1531</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4129</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4129</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1531-1">
+                      source="#bib1531-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1531-1">

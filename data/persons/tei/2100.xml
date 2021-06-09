@@ -210,24 +210,37 @@
                <persName xml:id="name2100-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2100-1">Shukr ibn Abī l-Futūḥ al-ʿAlawī al-Ḥasanī</persName>
-               <persName xml:id="name2100-2" xml:lang="ar" srophe-tags="#syriaca-headword">شكر بن أبي الفتوح العلوي الحسني</persName>
+                         source="#bib2100-1"
+                         resp="#mtolay">Shukr ibn Abī l-Futūḥ al-ʿAlawī al-Ḥasanī</persName>
+               <persName xml:id="name2100-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شكر بن أبي الفتوح العلوي الحسني</persName>
                <note xml:id="abstract-en-2100"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2100-1">Shukr ibn Abī l-Futūḥ al-ʿAlawī al-Ḥasanī, emir of Mecca, poet (d. 453/1061)</note>
+                     source="#bib2100-1"
+                     resp="#mtolay">Shukr ibn Abī l-Futūḥ al-ʿAlawī al-Ḥasanī, emir of Mecca, poet (d. 453/1061)</note>
                <idno type="URI">https://usaybia.net/person/2100</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib2100-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib2100-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2100-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2100-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2100-1">

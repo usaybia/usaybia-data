@@ -206,17 +206,23 @@
                <persName xml:id="name1829-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1829-1">Plato</persName>
-               <persName xml:id="name1829-2" xml:lang="ar" srophe-tags="#syriaca-headword">أفلاطن</persName>
+                         source="#bib1829-1"
+                         resp="#fioppolo">Plato</persName>
+               <persName xml:id="name1829-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أفلاطن</persName>
                <note xml:id="abstract-en-1829"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1829-1">Plato, 4th-c. BC philosopher</note>
+                     source="#bib1829-1"
+                     resp="#fioppolo">Plato, 4th-c. BC philosopher</note>
                <idno type="URI">https://usaybia.net/person/1829</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1829-1">
+                      source="#bib1829-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib1829-1">

@@ -210,26 +210,35 @@
                <persName xml:id="name1470-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1470-1">al-Malik al-Jawād Muẓaffar al-Dīn Yūnus ibn Shams al-Dīn Mamdūd ibn al-Malik al-ʿĀdil</persName>
-               <persName xml:id="name1470-2" xml:lang="ar" source="#bib1470-2">الملك الجواد مظفر الدين يونس بن شمس الدين مودود بن الملك العادل</persName>
-               <persName xml:id="name1470-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الجواد مظفر الدين يونس بن شمس الدين ممدود بن الملك العادل</persName>
+                         source="#bib1470-1"
+                         resp="#fioppolo">al-Malik al-Jawād Muẓaffar al-Dīn Yūnus ibn Shams al-Dīn Mamdūd ibn al-Malik al-ʿĀdil</persName>
+               <persName xml:id="name1470-2"
+                         xml:lang="ar"
+                         source="#bib1470-2"
+                         resp="#rschmahl #mtolay">الملك الجواد مظفر الدين يونس بن شمس الدين مودود بن الملك العادل</persName>
+               <persName xml:id="name1470-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الجواد مظفر الدين يونس بن شمس الدين ممدود بن الملك العادل</persName>
                <note xml:id="abstract-en-1470"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1470-1">al-Malik al-Jawād Muẓaffar al-Dīn Yūnus ibn Shams al-Dīn Mamdūd ibn al-Malik al-ʿĀdil, Ayyubid ruler of Damascus</note>
+                     source="#bib1470-1"
+                     resp="#fioppolo">al-Malik al-Jawād Muẓaffar al-Dīn Yūnus ibn Shams al-Dīn Mamdūd ibn al-Malik al-ʿĀdil, Ayyubid ruler of Damascus</note>
                <idno type="URI">https://usaybia.net/person/1470</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D9%86%D8%B3_%D8%A7%D8%A8%D9%86_%D9%85%D9%88%D8%AF%D9%88%D8%AF</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D9%86%D8%B3_%D8%A7%D8%A8%D9%86_%D9%85%D9%88%D8%AF%D9%88%D8%AF</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1470-1">
+                      source="#bib1470-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1470-1">

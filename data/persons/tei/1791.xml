@@ -206,17 +206,23 @@
                <persName xml:id="name1791-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1791-1">Oribasius</persName>
-               <persName xml:id="name1791-2" xml:lang="ar" srophe-tags="#syriaca-headword">أريباسيوس</persName>
+                         source="#bib1791-1"
+                         resp="#fioppolo">Oribasius</persName>
+               <persName xml:id="name1791-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أريباسيوس</persName>
                <note xml:id="abstract-en-1791"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1791-1">Oribasius, 4th-c. physician to Julian the Apostate</note>
+                     source="#bib1791-1"
+                     resp="#fioppolo">Oribasius, 4th-c. physician to Julian the Apostate</note>
                <idno type="URI">https://usaybia.net/person/1791</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1791-1">
+                      source="#bib1791-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1791-1">

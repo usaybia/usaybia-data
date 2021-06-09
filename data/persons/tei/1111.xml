@@ -206,23 +206,30 @@
                <persName xml:id="name1111-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1111-1">Ibn Samajūn</persName>
+                         source="#bib1111-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Samajūn</persName>
                <persName xml:id="name1111-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1111-1">ابن سمجون</persName>
-               <persName xml:id="name1111-4" xml:lang="ar" source="#bib1111-1">Ibn Samajūn, Abū Bakr Ḥāmid, author of a `K. al-`acshuag `al-`kqenacag 13.52; 15.40.9 no. 80</persName>
+                         source="#bib1111-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن سمجون</persName>
+               <persName xml:id="name1111-4"
+                         xml:lang="ar"
+                         source="#bib1111-1"
+                         resp="#rschmahl #mtolay">Ibn Samajūn, Abū Bakr Ḥāmid, author of a `K. al-`acshuag `al-`kqenacag 13.52; 15.40.9 no. 80</persName>
                <note xml:id="abstract-en-1111"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1111-1">Ibn Samajūn, Abū Bakr Ḥāmid, author of a `K. al-`adwiyah `al-`mufradah</note>
+                     source="#bib1111-1"
+                     resp="#rschmahl">Ibn Samajūn, Abū Bakr Ḥāmid, author of a `K. al-`adwiyah `al-`mufradah</note>
                <idno type="URI">https://usaybia.net/person/1111</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%85%D8%AC%D9%88%D9%86</idno>
-               <idno type="URI">https://viaf.org/viaf/89855424</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%85%D8%AC%D9%88%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/89855424</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1111-1">
+                      source="#bib1111-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1111-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1971-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1971-1">Saʿīd ibn Jubayr</persName>
-               <persName xml:id="name1971-2" xml:lang="ar" srophe-tags="#syriaca-headword">سعيد بن جبير</persName>
+                         source="#bib1971-1"
+                         resp="#mtolay">Saʿīd ibn Jubayr</persName>
+               <persName xml:id="name1971-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعيد بن جبير</persName>
                <note xml:id="abstract-en-1971"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1971-1">Saʿīd ibn Jubayr, 1st/7th-c. legal scholar from Kufah</note>
+                     source="#bib1971-1"
+                     resp="#mtolay">Saʿīd ibn Jubayr, 1st/7th-c. legal scholar from Kufah</note>
                <idno type="URI">https://usaybia.net/person/1971</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1971-1">
+                      source="#bib1971-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <bibl xml:id="bib1971-1">

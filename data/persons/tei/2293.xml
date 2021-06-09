@@ -206,17 +206,23 @@
                <persName xml:id="name2293-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2293-1">Xenocrates</persName>
-               <persName xml:id="name2293-2" xml:lang="ar" srophe-tags="#syriaca-headword">كسانوقراطيس</persName>
+                         source="#bib2293-1"
+                         resp="#mtolay">Xenocrates</persName>
+               <persName xml:id="name2293-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كسانوقراطيس</persName>
                <note xml:id="abstract-en-2293"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2293-1">Xenocrates, master of the Athens Academy</note>
+                     source="#bib2293-1"
+                     resp="#mtolay">Xenocrates, master of the Athens Academy</note>
                <idno type="URI">https://usaybia.net/person/2293</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="academy master"
-                      source="#bib2293-1">
+                      source="#bib2293-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>academy master</desc>
                </state>
                <bibl xml:id="bib2293-1">

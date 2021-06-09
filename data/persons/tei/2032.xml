@@ -206,17 +206,23 @@
                <persName xml:id="name2032-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2032-1">Shaʿbān</persName>
-               <persName xml:id="name2032-2" xml:lang="ar" srophe-tags="#syriaca-headword">سعبان</persName>
+                         source="#bib2032-1"
+                         resp="#mtolay">Shaʿbān</persName>
+               <persName xml:id="name2032-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعبان</persName>
                <note xml:id="abstract-en-2032"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2032-1">Shaʿbān, lampooned physician</note>
+                     source="#bib2032-1"
+                     resp="#mtolay">Shaʿbān, lampooned physician</note>
                <idno type="URI">https://usaybia.net/person/2032</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2032-1">
+                      source="#bib2032-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2032-1">

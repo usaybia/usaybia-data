@@ -206,14 +206,23 @@
                <persName xml:id="name2421-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2421-1">Hermes</persName>
-               <persName xml:id="name2421-2" xml:lang="ar" srophe-tags="#syriaca-headword">هرمس</persName>
+                         source="#bib2421-1"
+                         resp="#mtolay">Hermes</persName>
+               <persName xml:id="name2421-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">هرمس</persName>
                <note xml:id="abstract-en-2421"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2421-1">Hermes, legendary Egyptian-Greek sage, Hermes Trismegistus (Thrice-Great), identified with the Islamic Idrīs/Hermes the Second/Hermes the Third</note>
+                     source="#bib2421-1"
+                     resp="#mtolay">Hermes, legendary Egyptian-Greek sage, Hermes Trismegistus (Thrice-Great), identified with the Islamic Idrīs/Hermes the Second/Hermes the Third</note>
                <idno type="URI">https://usaybia.net/person/2421</idno>
-               <state xml:lang="en" type="occupation" role="sage" source="#bib2421-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="sage"
+                      source="#bib2421-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>sage</desc>
                </state>
                <bibl xml:id="bib2421-1">

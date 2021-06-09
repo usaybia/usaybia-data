@@ -206,17 +206,23 @@
                <persName xml:id="name2232-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2232-1">Timaeus ‘the Palestinian’</persName>
-               <persName xml:id="name2232-2" xml:lang="ar" srophe-tags="#syriaca-headword">طيماوس الفلسطيني</persName>
+                         source="#bib2232-1"
+                         resp="#mtolay ">Timaeus ‘the Palestinian’</persName>
+               <persName xml:id="name2232-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">طيماوس الفلسطيني</persName>
                <note xml:id="abstract-en-2232"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2232-1">Timaeus ‘the Palestinian’, commentator on the works of Hippocrates</note>
+                     source="#bib2232-1"
+                     resp="#mtolay ">Timaeus ‘the Palestinian’, commentator on the works of Hippocrates</note>
                <idno type="URI">https://usaybia.net/person/2232</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="commentator"
-                      source="#bib2232-1">
+                      source="#bib2232-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>commentator</desc>
                </state>
                <bibl xml:id="bib2232-1">

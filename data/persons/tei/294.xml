@@ -210,21 +210,30 @@
                <persName xml:id="name294-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib294-1">Abū l-Najāʾ Sālim ibn Hūd ʿImād al-Dawlah</persName>
-               <persName xml:id="name294-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو النجاء سالم بن هود عماد الدولة</persName>
+                         source="#bib294-1"
+                         resp="#mtolay">Abū l-Najāʾ Sālim ibn Hūd ʿImād al-Dawlah</persName>
+               <persName xml:id="name294-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو النجاء سالم بن هود عماد الدولة</persName>
                <note xml:id="abstract-en-294"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib294-1">Abū l-Najāʾ Sālim ibn Hūd ʿImād al-Dawlah, Hūdī ruler of Murcia and Seville</note>
+                     source="#bib294-1"
+                     resp="#mtolay">Abū l-Najāʾ Sālim ibn Hūd ʿImād al-Dawlah, Hūdī ruler of Murcia and Seville</note>
                <idno type="URI">https://usaybia.net/person/294</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib294-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib294-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib294-1">

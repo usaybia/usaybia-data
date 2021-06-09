@@ -206,17 +206,23 @@
                <persName xml:id="name1011-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1011-1">Ibn al-Jammālah</persName>
-               <persName xml:id="name1011-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الجمالة</persName>
+                         source="#bib1011-1"
+                         resp="#rschmahl">Ibn al-Jammālah</persName>
+               <persName xml:id="name1011-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الجمالة</persName>
                <note xml:id="abstract-en-1011"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1011-1">Ibn al-Jammālah, copyist of Ibn al-Muṭrān</note>
+                     source="#bib1011-1"
+                     resp="#rschmahl">Ibn al-Jammālah, copyist of Ibn al-Muṭrān</note>
                <idno type="URI">https://usaybia.net/person/1011</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="copyist"
-                      source="#bib1011-1">
+                      source="#bib1011-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>copyist</desc>
                </state>
                <bibl xml:id="bib1011-1">

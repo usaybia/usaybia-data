@@ -198,25 +198,32 @@
                <persName xml:id="name2437-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2437-1">Yaʿqūb of Edessa</persName>
-               <persName xml:id="name2437-2" xml:lang="en-x-lhom" source="#bib2437-1">Ayyūb al-Ruhāwī (Ayyūb of Edessa)</persName>
+                         source="#bib2437-1"
+                         resp="#mtolay">Yaʿqūb of Edessa</persName>
+               <persName xml:id="name2437-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2437-1"
+                         resp="#rschmahl #mtolay">Ayyūb al-Ruhāwī (Ayyūb of Edessa)</persName>
                <persName xml:id="name2437-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2437-1">أيوب الرهاوي</persName>
+                         source="#bib2437-1"
+                         resp="#rschmahl #mtolay">أيوب الرهاوي</persName>
                <note xml:id="abstract-en-2437"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2437-1">Yaʿqūb of Edessa</note>
+                     source="#bib2437-1"
+                     resp="#mtolay">Yaʿqūb of Edessa</note>
                <idno type="URI">https://usaybia.net/person/2437</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4160</idno>
-               <idno type="URI">https://viaf.org/viaf/267186205</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32672</idno>
-               <idno type="URI">http://syriaca.org/person/113</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4160</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/267186205</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32672</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/113</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="polymath"
-                      source="#bib2437-1">
+                      source="#bib2437-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>polymath</desc>
                </state>
                <bibl xml:id="bib2437-1">

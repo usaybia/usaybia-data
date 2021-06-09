@@ -202,14 +202,23 @@
                <persName xml:id="name2429-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2429-1">Kay Bahman</persName>
-               <persName xml:id="name2429-2" xml:lang="ar" srophe-tags="#syriaca-headword">بهمن</persName>
+                         source="#bib2429-1"
+                         resp="#rschmahl">Kay Bahman</persName>
+               <persName xml:id="name2429-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#ngibson">بهمن</persName>
                <note xml:id="abstract-en-2429"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2429-1">Kay Bahman, mythical Kayanian king</note>
+                     source="#bib2429-1"
+                     resp="#rschmahl">Kay Bahman, mythical Kayanian king</note>
                <idno type="URI">https://usaybia.net/person/2429</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib2429-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib2429-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib2429-1">

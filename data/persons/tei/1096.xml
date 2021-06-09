@@ -206,28 +206,35 @@
                <persName xml:id="name1096-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1096-1">Ibn Rushd (Averroes)</persName>
-               <persName xml:id="name1096-2" xml:lang="en-x-lhom" source="#bib1096-1">Abū l-Walīd ibn Rushd</persName>
+                         source="#bib1096-1"
+                         resp="#rschmahl">Ibn Rushd (Averroes)</persName>
+               <persName xml:id="name1096-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1096-1"
+                         resp="#rschmahl #mtolay">Abū l-Walīd ibn Rushd</persName>
                <persName xml:id="name1096-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1096-1">أبو الوليد بن رشد</persName>
-               <persName xml:id="name1096-4" xml:lang="ar">ابن رشد</persName>
+                         source="#bib1096-1"
+                         resp="#rschmahl #mtolay">أبو الوليد بن رشد</persName>
+               <persName xml:id="name1096-4" xml:lang="ar" resp="#hfriedel">ابن رشد</persName>
                <note xml:id="abstract-en-1096"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1096-1">Ibn Rushd (Averroes), Abū l-Walīd Muḥammad ibn Aḥmad, philosopher (d. 595/ 1198)</note>
+                     source="#bib1096-1"
+                     resp="#rschmahl">Ibn Rushd (Averroes), Abū l-Walīd Muḥammad ibn Aḥmad, philosopher (d. 595/ 1198)</note>
                <idno type="URI">https://usaybia.net/person/1096</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/13697</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/14391</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B1%D8%B4%D8%AF</idno>
-               <idno type="URI">https://viaf.org/viaf/19688718</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8671</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/ibn-rushd-natural/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13697</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/14391</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B1%D8%B4%D8%AF</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/19688718</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_8671</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/ibn-rushd-natural/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1096-1">
+                      source="#bib1096-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib1096-1">

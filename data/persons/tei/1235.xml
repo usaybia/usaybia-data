@@ -206,17 +206,23 @@
                <persName xml:id="name1235-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1235-1">ʿĪsā ibn Abī Khālid</persName>
-               <persName xml:id="name1235-2" xml:lang="ar" srophe-tags="#syriaca-headword">عيسى بن أبي خالد</persName>
+                         source="#bib1235-1"
+                         resp="#rschmahl">ʿĪsā ibn Abī Khālid</persName>
+               <persName xml:id="name1235-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عيسى بن أبي خالد</persName>
                <note xml:id="abstract-en-1235"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1235-1">ʿĪsā ibn Abī Khālid, early 3rd/9th-c. physician, a contemporary of Sahl al-Kawsaj</note>
+                     source="#bib1235-1"
+                     resp="#rschmahl">ʿĪsā ibn Abī Khālid, early 3rd/9th-c. physician, a contemporary of Sahl al-Kawsaj</note>
                <idno type="URI">https://usaybia.net/person/1235</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1235-1">
+                      source="#bib1235-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1235-1">

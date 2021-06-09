@@ -210,33 +210,40 @@
                <persName xml:id="name1287-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1287-1">Iṣṭifan ibn Basīl</persName>
+                         source="#bib1287-1"
+                         resp="#rschmahl #rschmahl #mtolay">Iṣṭifan ibn Basīl</persName>
                <persName xml:id="name1287-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1287-1">إصطفن بن بسيل</persName>
-               <persName xml:id="name1287-4" xml:lang="ar" source="#bib1287-1">Iṣṭifan ibn Basīl, translator (d. ca. 298/910) 4.1.11.1n; 8.29.9; 9.19; 13.36.2.1</persName>
+                         source="#bib1287-1"
+                         resp="#rschmahl #mtolay #hfriedel">إصطفن بن بسيل</persName>
+               <persName xml:id="name1287-4"
+                         xml:lang="ar"
+                         source="#bib1287-1"
+                         resp="#rschmahl #mtolay">Iṣṭifan ibn Basīl, translator (d. ca. 298/910) 4.1.11.1n; 8.29.9; 9.19; 13.36.2.1</persName>
                <note xml:id="abstract-en-1287"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1287-1">Iṣṭifan ibn Basīl, translator (d. ca. 298/910)</note>
+                     source="#bib1287-1"
+                     resp="#rschmahl">Iṣṭifan ibn Basīl, translator (d. ca. 298/910)</note>
                <idno type="URI">https://usaybia.net/person/1287</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4154</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50093</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D8%B7%D9%81%D8%A7%D9%86_%D8%A8%D9%86_%D8%A8%D8%A7%D8%B3%D9%8A%D9%84</idno>
-               <idno type="URI">https://viaf.org/viaf/78147423130144881912</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3678</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4154</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50093</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D8%B7%D9%81%D8%A7%D9%86_%D8%A8%D9%86_%D8%A8%D8%A7%D8%B3%D9%8A%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/78147423130144881912</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3678</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1287-1">
+                      source="#bib1287-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1287-1">

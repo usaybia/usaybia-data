@@ -206,17 +206,23 @@
                <persName xml:id="name1942-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1942-1">Saʿdān the Shoemaker (Saʿdān al-Iskāf )</persName>
-               <persName xml:id="name1942-2" xml:lang="ar" srophe-tags="#syriaca-headword">سعدان الإسكاف</persName>
+                         source="#bib1942-1"
+                         resp="#mtolay">Saʿdān the Shoemaker (Saʿdān al-Iskāf )</persName>
+               <persName xml:id="name1942-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعدان الإسكاف</persName>
                <note xml:id="abstract-en-1942"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1942-1">Saʿdān the Shoemaker (Saʿdān al-Iskāf )</note>
+                     source="#bib1942-1"
+                     resp="#mtolay">Saʿdān the Shoemaker (Saʿdān al-Iskāf )</note>
                <idno type="URI">https://usaybia.net/person/1942</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="shoemaker"
-                      source="#bib1942-1">
+                      source="#bib1942-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>shoemaker</desc>
                </state>
                <bibl xml:id="bib1942-1">

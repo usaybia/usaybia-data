@@ -206,17 +206,23 @@
                <persName xml:id="name2200-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2200-1">Thawr ibn Murtiʿ ibn Kindah</persName>
-               <persName xml:id="name2200-2" xml:lang="ar" srophe-tags="#syriaca-headword">ثور بن مرتع بن كندة</persName>
+                         source="#bib2200-1"
+                         resp="#mtolay">Thawr ibn Murtiʿ ibn Kindah</persName>
+               <persName xml:id="name2200-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ثور بن مرتع بن كندة</persName>
                <note xml:id="abstract-en-2200"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2200-1">Thawr ibn Murtiʿ ibn Kindah, pre-Islamic Arabian chieftain</note>
+                     source="#bib2200-1"
+                     resp="#mtolay">Thawr ibn Murtiʿ ibn Kindah, pre-Islamic Arabian chieftain</note>
                <idno type="URI">https://usaybia.net/person/2200</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="tribal leader"
-                      source="#bib2200-1">
+                      source="#bib2200-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>tribal leader</desc>
                </state>
                <bibl xml:id="bib2200-1">

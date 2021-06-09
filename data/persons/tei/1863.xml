@@ -210,27 +210,37 @@
                <persName xml:id="name1863-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1863-1">al-Qāḍī al-Nuʿmān</persName>
-               <persName xml:id="name1863-2" xml:lang="ar" srophe-tags="#syriaca-headword">القاضي النعمان</persName>
+                         source="#bib1863-1"
+                         resp="#mtolay">al-Qāḍī al-Nuʿmān</persName>
+               <persName xml:id="name1863-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">القاضي النعمان</persName>
                <note xml:id="abstract-en-1863"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1863-1">al-Qāḍī al-Nuʿmān (d. 363/ 974), theologian and qadi of the Fatimid caliph Muʿizz liDīn Allāh</note>
+                     source="#bib1863-1"
+                     resp="#mtolay">al-Qāḍī al-Nuʿmān (d. 363/ 974), theologian and qadi of the Fatimid caliph Muʿizz liDīn Allāh</note>
                <idno type="URI">https://usaybia.net/person/1863</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
-                      source="#bib1863-1">
+                      source="#bib1863-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>theologian</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="qadi" source="#bib1863-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="qadi"
+                      source="#bib1863-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1863-1">

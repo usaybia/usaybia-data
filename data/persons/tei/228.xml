@@ -210,24 +210,30 @@
                <persName xml:id="name228-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib228-1">Abū ʿImrān ibn Abī ʿImrān al-Martalī</persName>
-               <persName xml:id="name228-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عمران بن أبي عمران المرتلي</persName>
+                         source="#bib228-1"
+                         resp="#fioppolo">Abū ʿImrān ibn Abī ʿImrān al-Martalī</persName>
+               <persName xml:id="name228-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عمران بن أبي عمران المرتلي</persName>
                <note xml:id="abstract-en-228"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib228-1">Abū ʿImrān ibn Abī ʿImrān al-Martalī, unidentified jurist and ascetic who lived in Seville (perhaps Abū ʿImrān Mūsā ibn ʿAbd al-Raḥmān ibn Khalaf al-ʿAbdarī)</note>
+                     source="#bib228-1"
+                     resp="#fioppolo">Abū ʿImrān ibn Abī ʿImrān al-Martalī, unidentified jurist and ascetic who lived in Seville (perhaps Abū ʿImrān Mūsā ibn ʿAbd al-Raḥmān ibn Khalaf al-ʿAbdarī)</note>
                <idno type="URI">https://usaybia.net/person/228</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib228-1">
+                      source="#bib228-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib228-1">

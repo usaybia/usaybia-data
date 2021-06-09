@@ -210,24 +210,30 @@
                <persName xml:id="name1527-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1527-1">al-Marzubānī, Abū ʿUbayd Allāh Muḥammad ibn ʿImrān</persName>
-               <persName xml:id="name1527-2" xml:lang="ar" srophe-tags="#syriaca-headword">المرزباني أبو عبيد الله محمد بن عمران</persName>
+                         source="#bib1527-1"
+                         resp="#fioppolo">al-Marzubānī, Abū ʿUbayd Allāh Muḥammad ibn ʿImrān</persName>
+               <persName xml:id="name1527-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المرزباني أبو عبيد الله محمد بن عمران</persName>
                <note xml:id="abstract-en-1527"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1527-1">al-Marzubānī, Abū ʿUbayd Allāh Muḥammad ibn ʿImrān, 4th/10th-c. scholar</note>
+                     source="#bib1527-1"
+                     resp="#fioppolo">al-Marzubānī, Abū ʿUbayd Allāh Muḥammad ibn ʿImrān, 4th/10th-c. scholar</note>
                <idno type="URI">https://usaybia.net/person/1527</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1527-1">
+                      source="#bib1527-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1527-1">

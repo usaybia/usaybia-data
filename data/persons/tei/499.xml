@@ -210,24 +210,30 @@
                <persName xml:id="name499-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib499-1">al-Āmir bi-Aḥkām Allāh (Abū ʿAlī al-Manṣūr ibn Abī l-Qāsim Aḥmad al-Mustaʿlī biAllāh ibn al-Mustanṣir)</persName>
-               <persName xml:id="name499-2" xml:lang="ar" srophe-tags="#syriaca-headword">الآمر بحكام الله أبو علي المنصور بن أبي القاسم أحمد المستعلي بالله بن المستنصر</persName>
+                         source="#bib499-1"
+                         resp="#fioppolo">al-Āmir bi-Aḥkām Allāh (Abū ʿAlī al-Manṣūr ibn Abī l-Qāsim Aḥmad al-Mustaʿlī biAllāh ibn al-Mustanṣir)</persName>
+               <persName xml:id="name499-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الآمر بحكام الله أبو علي المنصور بن أبي القاسم أحمد المستعلي بالله بن المستنصر</persName>
                <note xml:id="abstract-en-499"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib499-1">al-Āmir bi-Aḥkām Allāh (Abū ʿAlī al-Manṣūr ibn Abī l-Qāsim Aḥmad al-Mustaʿlī biAllāh ibn al-Mustanṣir), tenth Fatimid caliph (d. 524/1130)</note>
+                     source="#bib499-1"
+                     resp="#fioppolo">al-Āmir bi-Aḥkām Allāh (Abū ʿAlī al-Manṣūr ibn Abī l-Qāsim Aḥmad al-Mustaʿlī biAllāh ibn al-Mustanṣir), tenth Fatimid caliph (d. 524/1130)</note>
                <idno type="URI">https://usaybia.net/person/499</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib499-1">
+                      source="#bib499-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib499-1">

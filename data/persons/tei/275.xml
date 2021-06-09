@@ -210,33 +210,43 @@
                <persName xml:id="name275-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib275-1">Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī</persName>
-               <persName xml:id="name275-2" xml:lang="ar" source="#bib275-2">أبو معشر جعفر بن محمد بن عمر البلخي/ Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī</persName>
-               <persName xml:id="name275-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو معشر جعفر بن محمد بن عمر البلخي</persName>
+                         source="#bib275-1"
+                         resp="#mtolay">Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī</persName>
+               <persName xml:id="name275-2"
+                         xml:lang="ar"
+                         source="#bib275-2"
+                         resp="#rschmahl #mtolay">أبو معشر جعفر بن محمد بن عمر البلخي/ Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī</persName>
+               <persName xml:id="name275-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو معشر جعفر بن محمد بن عمر البلخي</persName>
                <note xml:id="abstract-en-275"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib275-1">Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī, astronomer and astrologer in Baghdad</note>
+                     source="#bib275-1"
+                     resp="#mtolay">Abū Maʿshar Jaʿfar ibn Muḥammad ibn ʿUmar al-Balkhī, astronomer and astrologer in Baghdad</note>
                <idno type="URI">https://usaybia.net/person/275</idno>
-               <idno type="URI">https://en.wikipedia.org/wiki/Abu_Maʿshar</idno>
-               <idno type="URI">https://www.cgie.org.ir/fa/publication/entryview/3771</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://en.wikipedia.org/wiki/Abu_Maʿshar</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://www.cgie.org.ir/fa/publication/entryview/3771</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib275-1">
+                      source="#bib275-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astrologer"
-                      source="#bib275-1">
+                      source="#bib275-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astrologer</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib275-1">

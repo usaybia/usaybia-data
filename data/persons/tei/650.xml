@@ -206,17 +206,23 @@
                <persName xml:id="name650-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib650-1">Boethus, Flavius</persName>
-               <persName xml:id="name650-2" xml:lang="ar" srophe-tags="#syriaca-headword">بويثس</persName>
+                         source="#bib650-1"
+                         resp="#fioppolo">Boethus, Flavius</persName>
+               <persName xml:id="name650-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بويثس</persName>
                <note xml:id="abstract-en-650"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib650-1">Boethus, Flavius – 2nd-c. Roman senator</note>
+                     source="#bib650-1"
+                     resp="#fioppolo">Boethus, Flavius – 2nd-c. Roman senator</note>
                <idno type="URI">https://usaybia.net/person/650</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="senator"
-                      source="#bib650-1">
+                      source="#bib650-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>senator</desc>
                </state>
                <bibl xml:id="bib650-1">

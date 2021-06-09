@@ -206,17 +206,23 @@
                <persName xml:id="name1120-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1120-1">Ibn al-Sharīf al-Jalīl</persName>
-               <persName xml:id="name1120-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الشريف الجليل</persName>
+                         source="#bib1120-1"
+                         resp="#rschmahl">Ibn al-Sharīf al-Jalīl</persName>
+               <persName xml:id="name1120-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الشريف الجليل</persName>
                <note xml:id="abstract-en-1120"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1120-1">Ibn al-Sharīf al-Jalīl, al-Sayyid al-Naqīb al-Kāmil, author of panegyric on Amīn al-Dawlah Ibn al-Tilmīdh</note>
+                     source="#bib1120-1"
+                     resp="#rschmahl">Ibn al-Sharīf al-Jalīl, al-Sayyid al-Naqīb al-Kāmil, author of panegyric on Amīn al-Dawlah Ibn al-Tilmīdh</note>
                <idno type="URI">https://usaybia.net/person/1120</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1120-1">
+                      source="#bib1120-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1120-1">

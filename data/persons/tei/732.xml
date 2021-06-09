@@ -210,20 +210,29 @@
                <persName xml:id="name732-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib732-1">Elias</persName>
-               <persName xml:id="name732-2" xml:lang="ar" srophe-tags="#syriaca-headword">إليّا</persName>
+                         source="#bib732-1"
+                         resp="#fioppolo">Elias</persName>
+               <persName xml:id="name732-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إليّا</persName>
                <note xml:id="abstract-en-732"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib732-1">Elias, Jewish prophet</note>
+                     source="#bib732-1"
+                     resp="#fioppolo">Elias, Jewish prophet</note>
                <idno type="URI">https://usaybia.net/person/732</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prophet"
-                      source="#bib732-1">
+                      source="#bib732-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prophet</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib732-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib732-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib732-1">

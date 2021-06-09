@@ -206,17 +206,23 @@
                <persName xml:id="name1039-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1039-1">Ibn Mājah</persName>
-               <persName xml:id="name1039-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن ماجة</persName>
+                         source="#bib1039-1"
+                         resp="#rschmahl">Ibn Mājah</persName>
+               <persName xml:id="name1039-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن ماجة</persName>
                <note xml:id="abstract-en-1039"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1039-1">Ibn Mājah, compiler of a canonical collection of hadiths</note>
+                     source="#bib1039-1"
+                     resp="#rschmahl">Ibn Mājah, compiler of a canonical collection of hadiths</note>
                <idno type="URI">https://usaybia.net/person/1039</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="compiler"
-                      source="#bib1039-1">
+                      source="#bib1039-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>compiler</desc>
                </state>
                <bibl xml:id="bib1039-1">

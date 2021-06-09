@@ -206,17 +206,23 @@
                <persName xml:id="name2212-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2212-1">Theodorus of Athens</persName>
-               <persName xml:id="name2212-2" xml:lang="ar" srophe-tags="#syriaca-headword">ثياذورس الأثيني</persName>
+                         source="#bib2212-1"
+                         resp="#mtolay">Theodorus of Athens</persName>
+               <persName xml:id="name2212-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ثياذورس الأثيني</persName>
                <note xml:id="abstract-en-2212"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2212-1">Theodorus of Athens, Greek philosopher</note>
+                     source="#bib2212-1"
+                     resp="#mtolay">Theodorus of Athens, Greek philosopher</note>
                <idno type="URI">https://usaybia.net/person/2212</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2212-1">
+                      source="#bib2212-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2212-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1088-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1088-1">Ibn Qutaybah al-Dīnawarī</persName>
-               <persName xml:id="name1088-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن قتيبة الدينوري</persName>
+                         source="#bib1088-1"
+                         resp="#rschmahl">Ibn Qutaybah al-Dīnawarī</persName>
+               <persName xml:id="name1088-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن قتيبة الدينوري</persName>
                <note xml:id="abstract-en-1088"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1088-1">Ibn Qutaybah al-Dīnawarī, Islamic polymath (213–276/828–89)</note>
+                     source="#bib1088-1"
+                     resp="#rschmahl">Ibn Qutaybah al-Dīnawarī, Islamic polymath (213–276/828–89)</note>
                <idno type="URI">https://usaybia.net/person/1088</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="polymath"
-                      source="#bib1088-1">
+                      source="#bib1088-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>polymath</desc>
                </state>
                <bibl xml:id="bib1088-1">

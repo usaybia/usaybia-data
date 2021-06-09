@@ -210,24 +210,30 @@
                <persName xml:id="name951-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib951-1">Ibn Barzaj, Abū Naṣr Muḥammad ibn ʿAlī</persName>
-               <persName xml:id="name951-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن برزج أبو نصر محمد ابن علي</persName>
+                         source="#bib951-1"
+                         resp="#mtolay">Ibn Barzaj, Abū Naṣr Muḥammad ibn ʿAlī</persName>
+               <persName xml:id="name951-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن برزج أبو نصر محمد ابن علي</persName>
                <note xml:id="abstract-en-951"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib951-1">Ibn Barzaj, Abū Naṣr Muḥammad ibn ʿAlī, student of Ibn al-Ṭayyib</note>
+                     source="#bib951-1"
+                     resp="#mtolay">Ibn Barzaj, Abū Naṣr Muḥammad ibn ʿAlī, student of Ibn al-Ṭayyib</note>
                <idno type="URI">https://usaybia.net/person/951</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib951-1">
+                      source="#bib951-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib951-1">

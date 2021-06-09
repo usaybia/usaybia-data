@@ -206,17 +206,23 @@
                <persName xml:id="name823-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib823-1">al-Harawī</persName>
-               <persName xml:id="name823-2" xml:lang="ar" srophe-tags="#syriaca-headword">الهروي</persName>
+                         source="#bib823-1"
+                         resp="#fioppolo">al-Harawī</persName>
+               <persName xml:id="name823-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الهروي</persName>
                <note xml:id="abstract-en-823"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib823-1">al-Harawī, student of Ibn al-Ṭayyib</note>
+                     source="#bib823-1"
+                     resp="#fioppolo">al-Harawī, student of Ibn al-Ṭayyib</note>
                <idno type="URI">https://usaybia.net/person/823</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib823-1">
+                      source="#bib823-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib823-1">

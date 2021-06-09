@@ -210,24 +210,30 @@
                <persName xml:id="name1345-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1345-1">John</persName>
-               <persName xml:id="name1345-2" xml:lang="ar" srophe-tags="#syriaca-headword">يحيى</persName>
+                         source="#bib1345-1"
+                         resp="#rschmahl">John</persName>
+               <persName xml:id="name1345-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يحيى</persName>
                <note xml:id="abstract-en-1345"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1345-1">John, mid 5th-c. Patriarch of Antioch</note>
+                     source="#bib1345-1"
+                     resp="#rschmahl">John, mid 5th-c. Patriarch of Antioch</note>
                <idno type="URI">https://usaybia.net/person/1345</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="patriarch"
-                      source="#bib1345-1">
+                      source="#bib1345-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patriarch</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1345-1">

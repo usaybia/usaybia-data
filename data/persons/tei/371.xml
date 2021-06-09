@@ -206,33 +206,41 @@
                <persName xml:id="name371-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib371-1">Abū ʿUbayd al-Bakrī, ʿAbd Allāh ibn ʿAbd al-ʿAzīz</persName>
-               <persName xml:id="name371-2" xml:lang="en-x-lhom" source="#bib371-1">al-Bakrī</persName>
+                         source="#bib371-1"
+                         resp="#mtolay">Abū ʿUbayd al-Bakrī, ʿAbd Allāh ibn ʿAbd al-ʿAzīz</persName>
+               <persName xml:id="name371-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib371-1"
+                         resp="#rschmahl #mtolay">al-Bakrī</persName>
                <persName xml:id="name371-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib371-1">البكري</persName>
-               <persName xml:id="name371-4" xml:lang="ar">أبو عبيد البكري عبد الله بن عبد العزيز</persName>
+                         source="#bib371-1"
+                         resp="#rschmahl #mtolay">البكري</persName>
+               <persName xml:id="name371-4" xml:lang="ar" resp="#hfriedel">أبو عبيد البكري عبد الله بن عبد العزيز</persName>
                <note xml:id="abstract-en-371"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib371-1">Abū ʿUbayd al-Bakrī, ʿAbd Allāh ibn ʿAbd al-ʿAzīz, Andalusian geographer, historian (d. 487/1094)</note>
+                     source="#bib371-1"
+                     resp="#mtolay">Abū ʿUbayd al-Bakrī, ʿAbd Allāh ibn ʿAbd al-ʿAzīz, Andalusian geographer, historian (d. 487/1094)</note>
                <idno type="URI">https://usaybia.net/person/371</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9822</idno>
-               <idno type="URI">https://en.wikipedia.org/wiki/Al-Bakri</idno>
-               <idno type="URI">https://viaf.org/viaf/29560582</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0265</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0151</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9822</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://en.wikipedia.org/wiki/Al-Bakri</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/29560582</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0265</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0151</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="geographer"
-                      source="#bib371-1">
+                      source="#bib371-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geographer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib371-1">
+                      source="#bib371-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <bibl xml:id="bib371-1">

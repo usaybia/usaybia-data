@@ -206,17 +206,23 @@
                <persName xml:id="name152-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib152-1">Abū l-Faḍl al-ʿĀriḍ</persName>
-               <persName xml:id="name152-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الفضل العارض</persName>
+                         source="#bib152-1"
+                         resp="#rschmahl">Abū l-Faḍl al-ʿĀriḍ</persName>
+               <persName xml:id="name152-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الفضل العارض</persName>
                <note xml:id="abstract-en-152"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib152-1">Abū l-Faḍl al-ʿĀriḍ, physician</note>
+                     source="#bib152-1"
+                     resp="#rschmahl">Abū l-Faḍl al-ʿĀriḍ, physician</note>
                <idno type="URI">https://usaybia.net/person/152</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib152-1">
+                      source="#bib152-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib152-1">

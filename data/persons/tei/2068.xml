@@ -210,24 +210,30 @@
                <persName xml:id="name2068-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2068-1">Sharaf al-Dīn ʿUmar</persName>
-               <persName xml:id="name2068-2" xml:lang="ar" srophe-tags="#syriaca-headword">شرف الدين عمر</persName>
+                         source="#bib2068-1"
+                         resp="#mtolay">Sharaf al-Dīn ʿUmar</persName>
+               <persName xml:id="name2068-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شرف الدين عمر</persName>
                <note xml:id="abstract-en-2068"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2068-1">Sharaf al-Dīn ʿUmar, preacher, father of Burhān al-Dīn</note>
+                     source="#bib2068-1"
+                     resp="#mtolay">Sharaf al-Dīn ʿUmar, preacher, father of Burhān al-Dīn</note>
                <idno type="URI">https://usaybia.net/person/2068</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="preacher"
-                      source="#bib2068-1">
+                      source="#bib2068-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>preacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2068-1">

@@ -210,43 +210,51 @@
                <persName xml:id="name2168-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2168-1">al-Ṭabarī, Abū Jaʿfar Muḥammad ibn Jarīr Ṭabarī</persName>
-               <persName xml:id="name2168-2" xml:lang="ar" srophe-tags="#syriaca-headword">الطبري أبو جعفر محمد بن جرير طبري</persName>
+                         source="#bib2168-1"
+                         resp="#mtolay">al-Ṭabarī, Abū Jaʿfar Muḥammad ibn Jarīr Ṭabarī</persName>
+               <persName xml:id="name2168-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الطبري أبو جعفر محمد بن جرير طبري</persName>
                <note xml:id="abstract-en-2168"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2168-1">al-Ṭabarī, Abū Jaʿfar Muḥammad ibn Jarīr Ṭabarī, polymath historian and Qurʾanic commentator (d. 310/923)</note>
+                     source="#bib2168-1"
+                     resp="#mtolay">al-Ṭabarī, Abū Jaʿfar Muḥammad ibn Jarīr Ṭabarī, polymath historian and Qurʾanic commentator (d. 310/923)</note>
                <idno type="URI">https://usaybia.net/person/2168</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="polymath"
-                      source="#bib2168-1">
+                      source="#bib2168-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>polymath</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib2168-1">
+                      source="#bib2168-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="Qurʾanic commentator"
-                      source="#bib2168-1">
+                      source="#bib2168-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>Qurʾanic commentator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2168-1">

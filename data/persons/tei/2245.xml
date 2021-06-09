@@ -206,17 +206,23 @@
                <persName xml:id="name2245-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2245-1">Tullius of Alexandria</persName>
-               <persName xml:id="name2245-2" xml:lang="ar" srophe-tags="#syriaca-headword">طولس الإسكندراني</persName>
+                         source="#bib2245-1"
+                         resp="#mtolay">Tullius of Alexandria</persName>
+               <persName xml:id="name2245-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">طولس الإسكندراني</persName>
                <note xml:id="abstract-en-2245"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2245-1">Tullius of Alexandria, physician of late antiquity</note>
+                     source="#bib2245-1"
+                     resp="#mtolay">Tullius of Alexandria, physician of late antiquity</note>
                <idno type="URI">https://usaybia.net/person/2245</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2245-1">
+                      source="#bib2245-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2245-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name2031-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2031-1">Severus</persName>
-               <persName xml:id="name2031-2" xml:lang="ar" srophe-tags="#syriaca-headword">ساواري</persName>
+                         source="#bib2031-1"
+                         resp="#mtolay">Severus</persName>
+               <persName xml:id="name2031-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ساواري</persName>
                <note xml:id="abstract-en-2031"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2031-1">Severus, physician of antiquity</note>
+                     source="#bib2031-1"
+                     resp="#mtolay">Severus, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/2031</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2031-1">
+                      source="#bib2031-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2031-1">

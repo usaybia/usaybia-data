@@ -210,24 +210,30 @@
                <persName xml:id="name906-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib906-1">al-Ḥuwayzī, Aḥmad ibn Muḥammad ibn Muḥammad Abū l-ʿAbbās ‘al-ʿAbbāsī</persName>
-               <persName xml:id="name906-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحويزي، أحمد بن محمد بن محمد أبو العباس العباسي</persName>
+                         source="#bib906-1"
+                         resp="#mtolay">al-Ḥuwayzī, Aḥmad ibn Muḥammad ibn Muḥammad Abū l-ʿAbbās ‘al-ʿAbbāsī</persName>
+               <persName xml:id="name906-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحويزي، أحمد بن محمد بن محمد أبو العباس العباسي</persName>
                <note xml:id="abstract-en-906"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib906-1">al-Ḥuwayzī, Aḥmad ibn Muḥammad ibn Muḥammad Abū l-ʿAbbās ‘al-ʿAbbāsī’, administrator in Baghdad of uncertain date</note>
+                     source="#bib906-1"
+                     resp="#mtolay">al-Ḥuwayzī, Aḥmad ibn Muḥammad ibn Muḥammad Abū l-ʿAbbās ‘al-ʿAbbāsī’, administrator in Baghdad of uncertain date</note>
                <idno type="URI">https://usaybia.net/person/906</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="administrator"
-                      source="#bib906-1">
+                      source="#bib906-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>administrator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib906-1">

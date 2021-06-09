@@ -206,17 +206,23 @@
                <persName xml:id="name203-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib203-1">Abū l-Ḥasan ibn Nafīs</persName>
-               <persName xml:id="name203-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن بن نفيس</persName>
+                         source="#bib203-1"
+                         resp="#rschmahl">Abū l-Ḥasan ibn Nafīs</persName>
+               <persName xml:id="name203-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن بن نفيس</persName>
                <note xml:id="abstract-en-203"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib203-1">Abū l-Ḥasan ibn Nafīs, teacher of Ibrahim ibn Baks</note>
+                     source="#bib203-1"
+                     resp="#rschmahl">Abū l-Ḥasan ibn Nafīs, teacher of Ibrahim ibn Baks</note>
                <idno type="URI">https://usaybia.net/person/203</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib203-1">
+                      source="#bib203-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib203-1">

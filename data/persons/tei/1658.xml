@@ -210,24 +210,30 @@
                <persName xml:id="name1658-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1658-1">al-Muktafī</persName>
-               <persName xml:id="name1658-2" xml:lang="ar" srophe-tags="#syriaca-headword">المكتفي</persName>
+                         source="#bib1658-1"
+                         resp="#fioppolo">al-Muktafī</persName>
+               <persName xml:id="name1658-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المكتفي</persName>
                <note xml:id="abstract-en-1658"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1658-1">al-Muktafī, Abbasid caliph (`reg.` 288– 295/902–908)</note>
+                     source="#bib1658-1"
+                     resp="#fioppolo">al-Muktafī, Abbasid caliph (`reg.` 288– 295/902–908)</note>
                <idno type="URI">https://usaybia.net/person/1658</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1658-1">
+                      source="#bib1658-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1658-1">

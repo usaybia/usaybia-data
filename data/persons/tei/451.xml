@@ -206,17 +206,23 @@
                <persName xml:id="name451-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib451-1">al-ʿAlawī</persName>
-               <persName xml:id="name451-2" xml:lang="ar" srophe-tags="#syriaca-headword">العلوي</persName>
+                         source="#bib451-1"
+                         resp="#mtolay">al-ʿAlawī</persName>
+               <persName xml:id="name451-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">العلوي</persName>
                <note xml:id="abstract-en-451"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib451-1">al-ʿAlawī, patron of Ibn Sīnā</note>
+                     source="#bib451-1"
+                     resp="#mtolay">al-ʿAlawī, patron of Ibn Sīnā</note>
                <idno type="URI">https://usaybia.net/person/451</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="patron"
-                      source="#bib451-1">
+                      source="#bib451-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patron</desc>
                </state>
                <bibl xml:id="bib451-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name994-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib994-1">Ibn Ḥāmid ibn Muḥammad</persName>
-               <persName xml:id="name994-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن حميد ابن محمد</persName>
+                         source="#bib994-1"
+                         resp="#rschmahl">Ibn Ḥāmid ibn Muḥammad</persName>
+               <persName xml:id="name994-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن حميد ابن محمد</persName>
                <note xml:id="abstract-en-994"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib994-1">Ibn Ḥāmid ibn Muḥammad, Abū Naṣr al-ʿAzīz Aḥmad, nicknamed Āluh `or` Aluh, `mustawfī` (‘accountant–general’) under the Seljuq Maḥmūd ibn Muḥammad ibn Malikshāh (d. 525/1131)</note>
+                     source="#bib994-1"
+                     resp="#rschmahl">Ibn Ḥāmid ibn Muḥammad, Abū Naṣr al-ʿAzīz Aḥmad, nicknamed Āluh `or` Aluh, `mustawfī` (‘accountant–general’) under the Seljuq Maḥmūd ibn Muḥammad ibn Malikshāh (d. 525/1131)</note>
                <idno type="URI">https://usaybia.net/person/994</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="general"
-                      source="#bib994-1">
+                      source="#bib994-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>general</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib994-1">

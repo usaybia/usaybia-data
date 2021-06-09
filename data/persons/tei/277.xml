@@ -210,24 +210,30 @@
                <persName xml:id="name277-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib277-1">Abū Muḥammad ʿAbd Allāh ibn Rushd</persName>
-               <persName xml:id="name277-2" xml:lang="en-x-lhom" source="#bib277-1">Abū Muḥammad ibn Rushd</persName>
+                         source="#bib277-1"
+                         resp="#mtolay">Abū Muḥammad ʿAbd Allāh ibn Rushd</persName>
+               <persName xml:id="name277-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib277-1"
+                         resp="#rschmahl #mtolay">Abū Muḥammad ibn Rushd</persName>
                <persName xml:id="name277-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib277-1">أبو محمد بن رشد</persName>
-               <persName xml:id="name277-4" xml:lang="ar">أبو محمد عبد الله بن رشد</persName>
+                         source="#bib277-1"
+                         resp="#rschmahl #mtolay">أبو محمد بن رشد</persName>
+               <persName xml:id="name277-4" xml:lang="ar" resp="#hfriedel">أبو محمد عبد الله بن رشد</persName>
                <note xml:id="abstract-en-277"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib277-1">Abū Muḥammad ʿAbd Allāh ibn Rushd, son of Ibn Rushd</note>
+                     source="#bib277-1"
+                     resp="#mtolay">Abū Muḥammad ʿAbd Allāh ibn Rushd, son of Ibn Rushd</note>
                <idno type="URI">https://usaybia.net/person/277</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_22729</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_22729</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib277-1">

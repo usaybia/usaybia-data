@@ -206,17 +206,23 @@
                <persName xml:id="name999-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib999-1">Ibn Ḥibbān</persName>
-               <persName xml:id="name999-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن حبان</persName>
+                         source="#bib999-1"
+                         resp="#rschmahl">Ibn Ḥibbān</persName>
+               <persName xml:id="name999-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن حبان</persName>
                <note xml:id="abstract-en-999"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib999-1">Ibn Ḥibbān, traditionist</note>
+                     source="#bib999-1"
+                     resp="#rschmahl">Ibn Ḥibbān, traditionist</note>
                <idno type="URI">https://usaybia.net/person/999</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="traditionist"
-                      source="#bib999-1">
+                      source="#bib999-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>traditionist</desc>
                </state>
                <bibl xml:id="bib999-1">

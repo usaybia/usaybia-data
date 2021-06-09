@@ -210,24 +210,30 @@
                <persName xml:id="name1679-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1679-1">Mūsā ibn Muḥammad ibn Saʿīd ibn Mūsā ibn Ḥudayr</persName>
-               <persName xml:id="name1679-2" xml:lang="ar" srophe-tags="#syriaca-headword">موسى بن محمد بن سعيد بن موسى بن حدير</persName>
+                         source="#bib1679-1"
+                         resp="#fioppolo">Mūsā ibn Muḥammad ibn Saʿīd ibn Mūsā ibn Ḥudayr</persName>
+               <persName xml:id="name1679-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">موسى بن محمد بن سعيد بن موسى بن حدير</persName>
                <note xml:id="abstract-en-1679"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1679-1">Mūsā ibn Muḥammad ibn Saʿīd ibn Mūsā ibn Ḥudayr, vizier under ʿAbd al-Raḥmān ⅠⅠⅠ</note>
+                     source="#bib1679-1"
+                     resp="#fioppolo">Mūsā ibn Muḥammad ibn Saʿīd ibn Mūsā ibn Ḥudayr, vizier under ʿAbd al-Raḥmān ⅠⅠⅠ</note>
                <idno type="URI">https://usaybia.net/person/1679</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1679-1">
+                      source="#bib1679-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1679-1">

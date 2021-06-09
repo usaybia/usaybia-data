@@ -206,17 +206,23 @@
                <persName xml:id="name2024-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2024-1">Seleucus</persName>
-               <persName xml:id="name2024-2" xml:lang="ar" srophe-tags="#syriaca-headword">سلوقس</persName>
+                         source="#bib2024-1"
+                         resp="#mtolay">Seleucus</persName>
+               <persName xml:id="name2024-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سلوقس</persName>
                <note xml:id="abstract-en-2024"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2024-1">Seleucus, founder of the Seleucid empire</note>
+                     source="#bib2024-1"
+                     resp="#mtolay">Seleucus, founder of the Seleucid empire</note>
                <idno type="URI">https://usaybia.net/person/2024</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib2024-1">
+                      source="#bib2024-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <bibl xml:id="bib2024-1">

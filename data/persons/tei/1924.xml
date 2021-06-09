@@ -206,17 +206,23 @@
                <persName xml:id="name1924-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1924-1">Romanos</persName>
-               <persName xml:id="name1924-2" xml:lang="ar" srophe-tags="#syriaca-headword">أرمانيوس</persName>
+                         source="#bib1924-1"
+                         resp="#mtolay">Romanos</persName>
+               <persName xml:id="name1924-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أرمانيوس</persName>
                <note xml:id="abstract-en-1924"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1924-1">Romanos, Byzantine Emperor</note>
+                     source="#bib1924-1"
+                     resp="#mtolay">Romanos, Byzantine Emperor</note>
                <idno type="URI">https://usaybia.net/person/1924</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib1924-1">
+                      source="#bib1924-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib1924-1">

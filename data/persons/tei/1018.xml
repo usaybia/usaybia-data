@@ -206,17 +206,23 @@
                <persName xml:id="name1018-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1018-1">Ibn al-Jundī</persName>
-               <persName xml:id="name1018-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الجندي</persName>
+                         source="#bib1018-1"
+                         resp="#rschmahl">Ibn al-Jundī</persName>
+               <persName xml:id="name1018-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الجندي</persName>
                <note xml:id="abstract-en-1018"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1018-1">Ibn al-Jundī, al-Qāḍī Muḥammad ibn Aḥmad ibn Hārūn al-Ghassānī, transmitter</note>
+                     source="#bib1018-1"
+                     resp="#rschmahl">Ibn al-Jundī, al-Qāḍī Muḥammad ibn Aḥmad ibn Hārūn al-Ghassānī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/1018</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib1018-1">
+                      source="#bib1018-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib1018-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name1605-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1605-1">Muḥammad ibn ʿAbd Allāh ibn Ṭāhir</persName>
-               <persName xml:id="name1605-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن عبد الله بن طاهر</persName>
+                         source="#bib1605-1"
+                         resp="#fioppolo">Muḥammad ibn ʿAbd Allāh ibn Ṭāhir</persName>
+               <persName xml:id="name1605-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمد بن عبد الله بن طاهر</persName>
                <note xml:id="abstract-en-1605"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1605-1">Muḥammad ibn ʿAbd Allāh ibn Ṭāhir, head of police under al-Mutawakkil (d. 253/876)</note>
+                     source="#bib1605-1"
+                     resp="#fioppolo">Muḥammad ibn ʿAbd Allāh ibn Ṭāhir, head of police under al-Mutawakkil (d. 253/876)</note>
                <idno type="URI">https://usaybia.net/person/1605</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="head of police"
-                      source="#bib1605-1">
+                      source="#bib1605-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>head of police</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1605-1">

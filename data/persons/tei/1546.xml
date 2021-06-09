@@ -210,31 +210,37 @@
                <persName xml:id="name1546-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1546-1">al-Māwardī, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn Ḥabīb</persName>
-               <persName xml:id="name1546-2" xml:lang="ar" srophe-tags="#syriaca-headword">الماوردي، أبو الحسن علي بن محمد بن حبيب</persName>
+                         source="#bib1546-1"
+                         resp="#fioppolo">al-Māwardī, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn Ḥabīb</persName>
+               <persName xml:id="name1546-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الماوردي، أبو الحسن علي بن محمد بن حبيب</persName>
                <note xml:id="abstract-en-1546"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1546-1">al-Māwardī, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn Ḥabīb, Shāfiʿite jurist (d. 450/1058)</note>
+                     source="#bib1546-1"
+                     resp="#fioppolo">al-Māwardī, Abū l-Ḥasan ʿAlī ibn Muḥammad ibn Ḥabīb, Shāfiʿite jurist (d. 450/1058)</note>
                <idno type="URI">https://usaybia.net/person/1546</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib1546-1">
+                      source="#bib1546-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1546-1">

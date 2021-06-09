@@ -206,17 +206,23 @@
                <persName xml:id="name537-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib537-1">Antipater</persName>
-               <persName xml:id="name537-2" xml:lang="ar" srophe-tags="#syriaca-headword">انطبطرس</persName>
+                         source="#bib537-1"
+                         resp="#fioppolo">Antipater</persName>
+               <persName xml:id="name537-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">انطبطرس</persName>
                <note xml:id="abstract-en-537"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib537-1">Antipater, student of Aristotle</note>
+                     source="#bib537-1"
+                     resp="#fioppolo">Antipater, student of Aristotle</note>
                <idno type="URI">https://usaybia.net/person/537</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib537-1">
+                      source="#bib537-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib537-1">

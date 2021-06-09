@@ -206,17 +206,23 @@
                <persName xml:id="name1033-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1033-1">Ibn al-Khaybarī</persName>
-               <persName xml:id="name1033-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الخيبري</persName>
+                         source="#bib1033-1"
+                         resp="#rschmahl">Ibn al-Khaybarī</persName>
+               <persName xml:id="name1033-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الخيبري</persName>
                <note xml:id="abstract-en-1033"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1033-1">Ibn al-Khaybarī, servant of al-Mutawakkil</note>
+                     source="#bib1033-1"
+                     resp="#rschmahl">Ibn al-Khaybarī, servant of al-Mutawakkil</note>
                <idno type="URI">https://usaybia.net/person/1033</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib1033-1">
+                      source="#bib1033-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib1033-1">

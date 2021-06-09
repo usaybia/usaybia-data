@@ -210,42 +210,53 @@
                <persName xml:id="name943-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib943-1">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh</persName>
-               <persName xml:id="name943-2" xml:lang="en-x-lhom" source="#bib943-1">Ibn Bājjah</persName>
+                         source="#bib943-1"
+                         resp="#mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh</persName>
+               <persName xml:id="name943-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib943-1"
+                         resp="#rschmahl #mtolay">Ibn Bājjah</persName>
                <persName xml:id="name943-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib943-1">ابن باجة</persName>
-               <persName xml:id="name943-4" xml:lang="ar" source="#bib943-1">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139) 13.51.2; 13.59</persName>
-               <persName xml:id="name943-5" xml:lang="ar">ابن باجة، أبو بكر محمد ابن يحيى ابن الصائغ</persName>
+                         source="#bib943-1"
+                         resp="#rschmahl #mtolay">ابن باجة</persName>
+               <persName xml:id="name943-4"
+                         xml:lang="ar"
+                         source="#bib943-1"
+                         resp="#rschmahl #mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139) 13.51.2; 13.59</persName>
+               <persName xml:id="name943-5" xml:lang="ar" resp="#hfriedel">ابن باجة، أبو بكر محمد ابن يحيى ابن الصائغ</persName>
                <note xml:id="abstract-en-943"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib943-1">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139)</note>
+                     source="#bib943-1"
+                     resp="#mtolay">Ibn Bājjah, Abū Bakr Muḥammad ibn Yaḥyā ibn al-Ṣāʾigh, Andalusian philosopher and physician (d. 533/1139)</note>
                <idno type="URI">https://usaybia.net/person/943</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9786</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/13805</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D8%A7%D8%AC%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/226034628</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3098</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/ibn-bajja/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9786</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13805</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D8%A7%D8%AC%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/226034628</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3098</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/ibn-bajja/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib943-1">
+                      source="#bib943-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib943-1">
+                      source="#bib943-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib943-1">

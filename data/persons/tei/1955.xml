@@ -206,23 +206,33 @@
                <persName xml:id="name1955-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1955-1">Sahl al-Kawsaj (Sahl the Beardless)</persName>
+                         source="#bib1955-1"
+                         resp="#mtolay">Sahl al-Kawsaj (Sahl the Beardless)</persName>
                <persName xml:id="name1955-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1955-2 #bib1955-1">سهل الكوسج</persName>
-               <persName xml:id="name1955-3" xml:lang="en-x-lhom" source="#bib1955-1">Sahl al-Kawsaj</persName>
-               <persName xml:id="name1955-5" xml:lang="ar" source="#bib1955-1">Sahl al-Kawsaj (Sahl the Beardless), early 3rd/9th-c. physician 8.15</persName>
+                         source="#bib1955-2 #bib1955-1"
+                         resp="#rschmahl #mtolay #hfriedel">سهل الكوسج</persName>
+               <persName xml:id="name1955-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1955-1"
+                         resp="#rschmahl #mtolay">Sahl al-Kawsaj</persName>
+               <persName xml:id="name1955-5"
+                         xml:lang="ar"
+                         source="#bib1955-1"
+                         resp="#rschmahl #mtolay">Sahl al-Kawsaj (Sahl the Beardless), early 3rd/9th-c. physician 8.15</persName>
                <note xml:id="abstract-en-1955"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1955-1">Sahl al-Kawsaj (Sahl the Beardless), early 3rd/9th-c. physician</note>
+                     source="#bib1955-1"
+                     resp="#mtolay">Sahl al-Kawsaj (Sahl the Beardless), early 3rd/9th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/1955</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4121</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4121</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1955-1">
+                      source="#bib1955-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1955-1">

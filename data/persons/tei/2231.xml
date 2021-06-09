@@ -206,17 +206,23 @@
                <persName xml:id="name2231-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2231-1">Timaeus of Tarsus</persName>
-               <persName xml:id="name2231-2" xml:lang="ar" srophe-tags="#syriaca-headword">طيماوس الطرسوسي</persName>
+                         source="#bib2231-1"
+                         resp="#mtolay ">Timaeus of Tarsus</persName>
+               <persName xml:id="name2231-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">طيماوس الطرسوسي</persName>
                <note xml:id="abstract-en-2231"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2231-1">Timaeus of Tarsus, late-antique physician</note>
+                     source="#bib2231-1"
+                     resp="#mtolay ">Timaeus of Tarsus, late-antique physician</note>
                <idno type="URI">https://usaybia.net/person/2231</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2231-1">
+                      source="#bib2231-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2231-1">

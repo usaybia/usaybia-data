@@ -206,22 +206,29 @@
                <persName xml:id="name1072-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1072-1">Ibn al-Nabbāsh</persName>
+                         source="#bib1072-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn al-Nabbāsh</persName>
                <persName xml:id="name1072-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1072-1">ابن النباش</persName>
-               <persName xml:id="name1072-4" xml:lang="ar" source="#bib1072-1">Ibn al-Nabbāsh, Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Ḥāmid al-Bijāʾī, Andalusian physician 13.42</persName>
+                         source="#bib1072-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن النباش</persName>
+               <persName xml:id="name1072-4"
+                         xml:lang="ar"
+                         source="#bib1072-1"
+                         resp="#rschmahl #mtolay">Ibn al-Nabbāsh, Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Ḥāmid al-Bijāʾī, Andalusian physician 13.42</persName>
                <note xml:id="abstract-en-1072"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1072-1">Ibn al-Nabbāsh, Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Ḥāmid al-Bijāʾī, Andalusian physician</note>
+                     source="#bib1072-1"
+                     resp="#rschmahl">Ibn al-Nabbāsh, Abū ʿAbd Allāh Muḥammad ibn ʿAbd Allāh ibn Ḥāmid al-Bijāʾī, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/1072</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50101</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50101</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1072-1">
+                      source="#bib1072-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1072-1">

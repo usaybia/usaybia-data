@@ -206,22 +206,28 @@
                <persName xml:id="name1108-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1108-1">Ibn al-Ṣāʾigh al-ʿAntarī</persName>
-               <persName xml:id="name1108-2" xml:lang="en-x-lhom" source="#bib1108-1">al-ʿAntarī (Ibn al-Ṣāʾigh)</persName>
+                         source="#bib1108-1"
+                         resp="#rschmahl">Ibn al-Ṣāʾigh al-ʿAntarī</persName>
+               <persName xml:id="name1108-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1108-1"
+                         resp="#rschmahl #mtolay">al-ʿAntarī (Ibn al-Ṣāʾigh)</persName>
                <persName xml:id="name1108-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1108-1">العنتري</persName>
-               <persName xml:id="name1108-4" xml:lang="ar">ابن الصائغ العنتري</persName>
+                         source="#bib1108-1"
+                         resp="#rschmahl #mtolay">العنتري</persName>
+               <persName xml:id="name1108-4" xml:lang="ar" resp="#hfriedel">ابن الصائغ العنتري</persName>
                <note xml:id="abstract-en-1108"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1108-1">Ibn al-Ṣāʾigh al-ʿAntarī, Abū l-Muʾayyad Muḥammad ibn al-Mujallī (d. ca. 560/ 1165)</note>
+                     source="#bib1108-1"
+                     resp="#rschmahl">Ibn al-Ṣāʾigh al-ʿAntarī, Abū l-Muʾayyad Muḥammad ibn al-Mujallī (d. ca. 560/ 1165)</note>
                <idno type="URI">https://usaybia.net/person/1108</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4248</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9357</idno>
-               <idno type="URI">https://viaf.org/viaf/113154981839267741776</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32213</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4248</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9357</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/113154981839267741776</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32213</idno>
                <bibl xml:id="bib1108-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

@@ -206,17 +206,23 @@
                <persName xml:id="name457-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib457-1">Alexander of Tralles</persName>
-               <persName xml:id="name457-2" xml:lang="ar" srophe-tags="#syriaca-headword">الإسكندر الترالي</persName>
+                         source="#bib457-1"
+                         resp="#mtolay">Alexander of Tralles</persName>
+               <persName xml:id="name457-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الإسكندر الترالي</persName>
                <note xml:id="abstract-en-457"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib457-1">Alexander of Tralles, physician of late antiquity</note>
+                     source="#bib457-1"
+                     resp="#mtolay">Alexander of Tralles, physician of late antiquity</note>
                <idno type="URI">https://usaybia.net/person/457</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib457-1">
+                      source="#bib457-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib457-1">

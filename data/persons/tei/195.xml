@@ -210,24 +210,30 @@
                <persName xml:id="name195-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib195-1">Abū l-Ḥasan ʿAlī ibn Aḥmad (`or` Muḥammad) ibn al-Ḥusayn ibn Maḥmawayh al-Shāfiʿī al-Yazdī</persName>
-               <persName xml:id="name195-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن علي بن أحمد / محمد بن الحسين بن محمويه الشافعي اليزدي</persName>
+                         source="#bib195-1"
+                         resp="#rschmahl">Abū l-Ḥasan ʿAlī ibn Aḥmad (`or` Muḥammad) ibn al-Ḥusayn ibn Maḥmawayh al-Shāfiʿī al-Yazdī</persName>
+               <persName xml:id="name195-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن علي بن أحمد / محمد بن الحسين بن محمويه الشافعي اليزدي</persName>
                <note xml:id="abstract-en-195"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib195-1">Abū l-Ḥasan ʿAlī ibn Aḥmad (`or` Muḥammad) ibn al-Ḥusayn ibn Maḥmawayh al-Shāfiʿī al-Yazdī, transmitter</note>
+                     source="#bib195-1"
+                     resp="#rschmahl">Abū l-Ḥasan ʿAlī ibn Aḥmad (`or` Muḥammad) ibn al-Ḥusayn ibn Maḥmawayh al-Shāfiʿī al-Yazdī, transmitter</note>
                <idno type="URI">https://usaybia.net/person/195</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib195-1">
+                      source="#bib195-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib195-1">

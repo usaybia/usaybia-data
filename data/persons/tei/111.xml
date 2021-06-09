@@ -210,30 +210,37 @@
                <persName xml:id="name111-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib111-1">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī</persName>
-               <persName xml:id="name111-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الأصبغ عيسى بن أحمد الرازي</persName>
+                         source="#bib111-1"
+                         resp="#rschmahl">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī</persName>
+               <persName xml:id="name111-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الأصبغ عيسى بن أحمد الرازي</persName>
                <note xml:id="abstract-en-111"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib111-1">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī (d. 379/989), Andalusī historian and secretary of al-Ḥakam ⅠⅠ</note>
+                     source="#bib111-1"
+                     resp="#rschmahl">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī (d. 379/989), Andalusī historian and secretary of al-Ḥakam ⅠⅠ</note>
                <idno type="URI">https://usaybia.net/person/111</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib111-1">
+                      source="#bib111-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="secretary"
-                      source="#bib111-1">
+                      source="#bib111-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>secretary</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib111-1">

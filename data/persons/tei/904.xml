@@ -210,21 +210,30 @@
                <persName xml:id="name904-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib904-1">Ḥusayn ibn Kharmīn</persName>
-               <persName xml:id="name904-2" xml:lang="ar" srophe-tags="#syriaca-headword">حسين بن خرمين</persName>
+                         source="#bib904-1"
+                         resp="#mtolay">Ḥusayn ibn Kharmīn</persName>
+               <persName xml:id="name904-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">حسين بن خرمين</persName>
                <note xml:id="abstract-en-904"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib904-1">Ḥusayn ibn Kharmīn, known as Ibn Kharmīl, ruler of Herat</note>
+                     source="#bib904-1"
+                     resp="#mtolay">Ḥusayn ibn Kharmīn, known as Ibn Kharmīl, ruler of Herat</note>
                <idno type="URI">https://usaybia.net/person/904</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib904-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib904-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib904-1">

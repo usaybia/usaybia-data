@@ -206,17 +206,23 @@
                <persName xml:id="name2152-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2152-1">Sulaymān ibn Dāwūd ibn Bābān</persName>
-               <persName xml:id="name2152-2" xml:lang="ar" srophe-tags="#syriaca-headword">سليمان بن داود بن بابان</persName>
+                         source="#bib2152-1"
+                         resp="#mtolay">Sulaymān ibn Dāwūd ibn Bābān</persName>
+               <persName xml:id="name2152-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سليمان بن داود بن بابان</persName>
                <note xml:id="abstract-en-2152"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2152-1">Sulaymān ibn Dāwūd ibn Bābān, physician accompanying Abū Dulaf</note>
+                     source="#bib2152-1"
+                     resp="#mtolay">Sulaymān ibn Dāwūd ibn Bābān, physician accompanying Abū Dulaf</note>
                <idno type="URI">https://usaybia.net/person/2152</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2152-1">
+                      source="#bib2152-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2152-1">

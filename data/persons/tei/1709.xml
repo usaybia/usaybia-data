@@ -206,20 +206,29 @@
                <persName xml:id="name1709-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1709-1">Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī</persName>
-               <persName xml:id="name1709-2" xml:lang="ar" source="#bib1709-2">موفق الدين عبد العزيز بن عبد الجبار ابن ابي السلمي</persName>
-               <persName xml:id="name1709-3" xml:lang="en-x-lhom" source="#bib1709-1">Muwaffaq al-Dīn ʿAbd al-ʿAzīz [al-Sulamī]</persName>
+                         source="#bib1709-1"
+                         resp="#fioppolo">Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī</persName>
+               <persName xml:id="name1709-2"
+                         xml:lang="ar"
+                         source="#bib1709-2"
+                         resp="#rschmahl #mtolay">موفق الدين عبد العزيز بن عبد الجبار ابن ابي السلمي</persName>
+               <persName xml:id="name1709-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1709-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn ʿAbd al-ʿAzīz [al-Sulamī]</persName>
                <persName xml:id="name1709-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1709-1">موفق الدين عبد العزيز</persName>
-               <persName xml:id="name1709-5" xml:lang="ar">موفق الدين عبد العزيز السلمي</persName>
+                         source="#bib1709-1"
+                         resp="#rschmahl #mtolay">موفق الدين عبد العزيز</persName>
+               <persName xml:id="name1709-5" xml:lang="ar" resp="#hfriedel">موفق الدين عبد العزيز السلمي</persName>
                <note xml:id="abstract-en-1709"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1709-1">Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī, pupil of Ilyās ibn al-Muṭrān</note>
+                     source="#bib1709-1"
+                     resp="#fioppolo">Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī, pupil of Ilyās ibn al-Muṭrān</note>
                <idno type="URI">https://usaybia.net/person/1709</idno>
-               <idno type="URI">https://viaf.org/viaf/32302701</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/32302701</idno>
                <bibl xml:id="bib1709-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

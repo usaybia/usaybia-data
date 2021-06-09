@@ -206,34 +206,48 @@
                <persName xml:id="name32-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib32-1">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī</persName>
-               <persName xml:id="name32-2" xml:lang="ar" source="#bib32-2">عبد اللطيف بن يوسف البغدادي موفق الدين</persName>
-               <persName xml:id="name32-3" xml:lang="en-x-lhom" source="#bib32-1">Muwaffaq al-Dīn ʿAbd al-Laṭīf al-Baghdādī</persName>
+                         source="#bib32-1"
+                         resp="#fioppolo">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī</persName>
+               <persName xml:id="name32-2"
+                         xml:lang="ar"
+                         source="#bib32-2"
+                         resp="#rschmahl #mtolay">عبد اللطيف بن يوسف البغدادي موفق الدين</persName>
+               <persName xml:id="name32-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib32-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn ʿAbd al-Laṭīf al-Baghdādī</persName>
                <persName xml:id="name32-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib32-1">موفق الدين عبد اللطيف البغدادي</persName>
-               <persName xml:id="name32-5" xml:lang="en-x-lhom" source="#bib32-1">Ibn al-Labbād</persName>
-               <persName xml:id="name32-6" xml:lang="ar">عبد اللطيف بن يوسف البغدادي</persName>
+                         source="#bib32-1"
+                         resp="#rschmahl #mtolay">موفق الدين عبد اللطيف البغدادي</persName>
+               <persName xml:id="name32-5"
+                         xml:lang="en-x-lhom"
+                         source="#bib32-1"
+                         resp="#rschmahl #mtolay">Ibn al-Labbād</persName>
+               <persName xml:id="name32-6" xml:lang="ar" resp="#hfriedel">عبد اللطيف بن يوسف البغدادي</persName>
                <note xml:id="abstract-en-32"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib32-1">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī, philosopher and physician, also known as Ibn al-Labbād (557–629/1162–1231)</note>
+                     source="#bib32-1"
+                     resp="#fioppolo">ʿAbd al-Laṭīf ibn Yūsuf al-Baghdādī, philosopher and physician, also known as Ibn al-Labbād (557–629/1162–1231)</note>
                <idno type="URI">https://usaybia.net/person/32</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D8%B7%D9%8A%D9%81_%D8%A8%D9%86_%D9%8A%D9%88%D8%B3%D9%81_%D8%A7%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/81975562</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_24150</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/al-baghdadi/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D8%B7%D9%8A%D9%81_%D8%A8%D9%86_%D9%8A%D9%88%D8%B3%D9%81_%D8%A7%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/81975562</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_24150</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/al-baghdadi/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib32-1">
+                      source="#bib32-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib32-1">
+                      source="#bib32-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib32-1">

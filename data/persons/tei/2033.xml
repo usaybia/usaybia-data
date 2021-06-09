@@ -210,27 +210,37 @@
                <persName xml:id="name2033-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2033-1">al-Shabānsī, Qāsim ibn Muḥammad al-Qurashī al-Marwānī</persName>
-               <persName xml:id="name2033-2" xml:lang="ar" srophe-tags="#syriaca-headword">الشبانسي، قاسم بن محمد القرشي المرواني</persName>
+                         source="#bib2033-1"
+                         resp="#mtolay">al-Shabānsī, Qāsim ibn Muḥammad al-Qurashī al-Marwānī</persName>
+               <persName xml:id="name2033-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الشبانسي، قاسم بن محمد القرشي المرواني</persName>
                <note xml:id="abstract-en-2033"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2033-1">al-Shabānsī, Qāsim ibn Muḥammad al-Qurashī al-Marwānī, Cordovan physician and poet</note>
+                     source="#bib2033-1"
+                     resp="#mtolay">al-Shabānsī, Qāsim ibn Muḥammad al-Qurashī al-Marwānī, Cordovan physician and poet</note>
                <idno type="URI">https://usaybia.net/person/2033</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2033-1">
+                      source="#bib2033-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2033-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2033-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2033-1">

@@ -210,31 +210,38 @@
                <persName xml:id="name1998-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1998-1">al-Samarqandī, Najīb al-Dīn Abū Ḥāmid Muḥammad ibn ʿAlī ibn ʿUmar</persName>
-               <persName xml:id="name1998-2" xml:lang="en-x-lhom" source="#bib1998-1">Najīb al-Dīn al-Samarqandī</persName>
+                         source="#bib1998-1"
+                         resp="#mtolay">al-Samarqandī, Najīb al-Dīn Abū Ḥāmid Muḥammad ibn ʿAlī ibn ʿUmar</persName>
+               <persName xml:id="name1998-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1998-1"
+                         resp="#rschmahl #mtolay">Najīb al-Dīn al-Samarqandī</persName>
                <persName xml:id="name1998-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1998-1">نجيب الدين أبو حامد محمد بن علي بن عمر السمرقندي</persName>
-               <persName xml:id="name1998-4" xml:lang="ar">السمرقندي نجيب الدين أبو حميد محمد بن علي بن عمر</persName>
+                         source="#bib1998-1"
+                         resp="#rschmahl #mtolay">نجيب الدين أبو حامد محمد بن علي بن عمر السمرقندي</persName>
+               <persName xml:id="name1998-4" xml:lang="ar" resp="#hfriedel">السمرقندي نجيب الدين أبو حميد محمد بن علي بن عمر</persName>
                <note xml:id="abstract-en-1998"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1998-1">al-Samarqandī, Najīb al-Dīn Abū Ḥāmid Muḥammad ibn ʿAlī ibn ʿUmar, physician in Herat</note>
+                     source="#bib1998-1"
+                     resp="#mtolay">al-Samarqandī, Najīb al-Dīn Abū Ḥāmid Muḥammad ibn ʿAlī ibn ʿUmar, physician in Herat</note>
                <idno type="URI">https://usaybia.net/person/1998</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D8%AC%D9%8A%D8%A8_%D8%A7%D9%84%D8%B3%D9%85%D8%B1%D9%82%D9%86%D8%AF%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/23709089</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D8%AC%D9%8A%D8%A8_%D8%A7%D9%84%D8%B3%D9%85%D8%B1%D9%82%D9%86%D8%AF%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/23709089</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1998-1">
+                      source="#bib1998-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1998-1">

@@ -210,18 +210,23 @@
                <persName xml:id="name292-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib292-1">Abū Muslim</persName>
-               <persName xml:id="name292-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو مسلم</persName>
+                         source="#bib292-1"
+                         resp="#mtolay">Abū Muslim</persName>
+               <persName xml:id="name292-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو مسلم</persName>
                <note xml:id="abstract-en-292"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib292-1">Abū Muslim, Abbasid revolutionary murdered by al-Manṣūr</note>
+                     source="#bib292-1"
+                     resp="#mtolay">Abū Muslim, Abbasid revolutionary murdered by al-Manṣūr</note>
                <idno type="URI">https://usaybia.net/person/292</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib292-1">

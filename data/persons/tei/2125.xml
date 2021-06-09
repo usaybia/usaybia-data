@@ -206,17 +206,23 @@
                <persName xml:id="name2125-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2125-1">Socrates</persName>
-               <persName xml:id="name2125-2" xml:lang="ar" srophe-tags="#syriaca-headword">سقراطس</persName>
+                         source="#bib2125-1"
+                         resp="#mtolay">Socrates</persName>
+               <persName xml:id="name2125-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سقراطس</persName>
                <note xml:id="abstract-en-2125"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2125-1">Socrates, Greek philosopher</note>
+                     source="#bib2125-1"
+                     resp="#mtolay">Socrates, Greek philosopher</note>
                <idno type="URI">https://usaybia.net/person/2125</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2125-1">
+                      source="#bib2125-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2125-1">

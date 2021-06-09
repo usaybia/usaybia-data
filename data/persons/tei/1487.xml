@@ -210,29 +210,38 @@
                <persName xml:id="name1487-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1487-1">al-Malik al-Nāṣir Ṣalāḥ al-Dīn Abū l-Muẓaffar Yūsuf ibn Ayyūb</persName>
-               <persName xml:id="name1487-2" xml:lang="ar" source="#bib1487-2">الملك الناصر صلاح الدين يوسف بن ايوب</persName>
-               <persName xml:id="name1487-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الناصر صلاح الدين أبو المظفر يوسف بن أيوب</persName>
+                         source="#bib1487-1"
+                         resp="#fioppolo">al-Malik al-Nāṣir Ṣalāḥ al-Dīn Abū l-Muẓaffar Yūsuf ibn Ayyūb</persName>
+               <persName xml:id="name1487-2"
+                         xml:lang="ar"
+                         source="#bib1487-2"
+                         resp="#rschmahl #mtolay">الملك الناصر صلاح الدين يوسف بن ايوب</persName>
+               <persName xml:id="name1487-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الناصر صلاح الدين أبو المظفر يوسف بن أيوب</persName>
                <note xml:id="abstract-en-1487"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1487-1">al-Malik al-Nāṣir Ṣalāḥ al-Dīn Abū l-Muẓaffar Yūsuf ibn Ayyūb, Ayyubid ruler (d. 1260)</note>
+                     source="#bib1487-1"
+                     resp="#fioppolo">al-Malik al-Nāṣir Ṣalāḥ al-Dīn Abū l-Muẓaffar Yūsuf ibn Ayyūb, Ayyubid ruler (d. 1260)</note>
                <idno type="URI">https://usaybia.net/person/1487</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9176</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90040943</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/2214-871X_ei1_SIM_5097</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9176</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A7%D9%84%D8%A3%D9%8A%D9%88%D8%A8%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90040943</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/2214-871X_ei1_SIM_5097</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1487-1">
+                      source="#bib1487-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1487-1">

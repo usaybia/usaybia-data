@@ -206,20 +206,30 @@
                <persName xml:id="name935-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib935-1">Ibn ʿArabī, Muḥyī l-Dīn</persName>
-               <persName xml:id="name935-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن عربي محيي الدين</persName>
+                         source="#bib935-1"
+                         resp="#mtolay">Ibn ʿArabī, Muḥyī l-Dīn</persName>
+               <persName xml:id="name935-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن عربي محيي الدين</persName>
                <note xml:id="abstract-en-935"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib935-1">Ibn ʿArabī, Muḥyī l-Dīn (d. 638/1240), Andalusī mystic and poet</note>
+                     source="#bib935-1"
+                     resp="#mtolay">Ibn ʿArabī, Muḥyī l-Dīn (d. 638/1240), Andalusī mystic and poet</note>
                <idno type="URI">https://usaybia.net/person/935</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib935-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib935-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="mystic"
-                      source="#bib935-1">
+                      source="#bib935-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mystic</desc>
                </state>
                <bibl xml:id="bib935-1">

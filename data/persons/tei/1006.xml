@@ -206,17 +206,23 @@
                <persName xml:id="name1006-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1006-1">Ibn Isḥāq</persName>
-               <persName xml:id="name1006-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن إسحاق</persName>
+                         source="#bib1006-1"
+                         resp="#rschmahl">Ibn Isḥāq</persName>
+               <persName xml:id="name1006-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن إسحاق</persName>
                <note xml:id="abstract-en-1006"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1006-1">Ibn Isḥāq, vizier of the Umayyad emirs in Cordova</note>
+                     source="#bib1006-1"
+                     resp="#rschmahl">Ibn Isḥāq, vizier of the Umayyad emirs in Cordova</note>
                <idno type="URI">https://usaybia.net/person/1006</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1006-1">
+                      source="#bib1006-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib1006-1">

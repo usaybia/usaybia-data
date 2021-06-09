@@ -210,24 +210,30 @@
                <persName xml:id="name1536-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1536-1">al-Masīḥī Maslamah</persName>
-               <persName xml:id="name1536-2" xml:lang="ar" srophe-tags="#syriaca-headword">المسيحي مسلمة</persName>
+                         source="#bib1536-1"
+                         resp="#fioppolo">al-Masīḥī Maslamah</persName>
+               <persName xml:id="name1536-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المسيحي مسلمة</persName>
                <note xml:id="abstract-en-1536"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1536-1">al-Masīḥī Maslamah, transmitter</note>
+                     source="#bib1536-1"
+                     resp="#fioppolo">al-Masīḥī Maslamah, transmitter</note>
                <idno type="URI">https://usaybia.net/person/1536</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib1536-1">
+                      source="#bib1536-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1536-1">

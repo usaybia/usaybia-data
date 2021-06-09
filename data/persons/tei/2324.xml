@@ -210,18 +210,23 @@
                <persName xml:id="name2324-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2324-1">Yūḥannā ibn Fātilah</persName>
-               <persName xml:id="name2324-2" xml:lang="ar" srophe-tags="#syriaca-headword">يوحنا بن فاتلة</persName>
+                         source="#bib2324-1"
+                         resp="#mtolay ">Yūḥannā ibn Fātilah</persName>
+               <persName xml:id="name2324-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يوحنا بن فاتلة</persName>
                <note xml:id="abstract-en-2324"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2324-1">Yūḥannā ibn Fātilah</note>
+                     source="#bib2324-1"
+                     resp="#mtolay ">Yūḥannā ibn Fātilah</note>
                <idno type="URI">https://usaybia.net/person/2324</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2324-1">

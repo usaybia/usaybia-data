@@ -210,37 +210,44 @@
                <persName xml:id="name933-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib933-1">Ibn al-ʿAmīd, Abū l-Faḍl Muḥammad ibn al-Ḥusayn ibn Muḥammad</persName>
-               <persName xml:id="name933-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن العميد أبو الفضل محمد ابن الحسين ابن محمد</persName>
+                         source="#bib933-1"
+                         resp="#mtolay">Ibn al-ʿAmīd, Abū l-Faḍl Muḥammad ibn al-Ḥusayn ibn Muḥammad</persName>
+               <persName xml:id="name933-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن العميد أبو الفضل محمد ابن الحسين ابن محمد</persName>
                <note xml:id="abstract-en-933"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib933-1">Ibn al-ʿAmīd, Abū l-Faḍl Muḥammad ibn al-Ḥusayn ibn Muḥammad (d. 360/970), vizier and man of letters</note>
+                     source="#bib933-1"
+                     resp="#mtolay">Ibn al-ʿAmīd, Abū l-Faḍl Muḥammad ibn al-Ḥusayn ibn Muḥammad (d. 360/970), vizier and man of letters</note>
                <idno type="URI">https://usaybia.net/person/933</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib933-1">
+                      source="#bib933-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="littérateur"
-                      source="#bib933-1">
+                      source="#bib933-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>littérateur</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib933-1">

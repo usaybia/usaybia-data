@@ -206,17 +206,23 @@
                <persName xml:id="name1186-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1186-1">Ibrāhīm ibn ʿAlī</persName>
-               <persName xml:id="name1186-2" xml:lang="ar" srophe-tags="#syriaca-headword">إبراهيم بن علي</persName>
+                         source="#bib1186-1"
+                         resp="#rschmahl">Ibrāhīm ibn ʿAlī</persName>
+               <persName xml:id="name1186-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إبراهيم بن علي</persName>
                <note xml:id="abstract-en-1186"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1186-1">Ibrāhīm ibn ʿAlī, physician of Aḥmad ibn Ṭūlūn</note>
+                     source="#bib1186-1"
+                     resp="#rschmahl">Ibrāhīm ibn ʿAlī, physician of Aḥmad ibn Ṭūlūn</note>
                <idno type="URI">https://usaybia.net/person/1186</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1186-1">
+                      source="#bib1186-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1186-1">

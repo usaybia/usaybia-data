@@ -210,30 +210,37 @@
                <persName xml:id="name1760-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1760-1">al-Nawbakhtī, Abū Muḥammad al-Ḥasan</persName>
-               <persName xml:id="name1760-2" xml:lang="ar" srophe-tags="#syriaca-headword">النوبختي أبو محمد الحسن</persName>
+                         source="#bib1760-1"
+                         resp="#fioppolo">al-Nawbakhtī, Abū Muḥammad al-Ḥasan</persName>
+               <persName xml:id="name1760-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">النوبختي أبو محمد الحسن</persName>
                <note xml:id="abstract-en-1760"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1760-1">al-Nawbakhtī, Abū Muḥammad al-Ḥasan (d. between 300/912 and 310/922), Imamite scholar and translator</note>
+                     source="#bib1760-1"
+                     resp="#fioppolo">al-Nawbakhtī, Abū Muḥammad al-Ḥasan (d. between 300/912 and 310/922), Imamite scholar and translator</note>
                <idno type="URI">https://usaybia.net/person/1760</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib1760-1">
+                      source="#bib1760-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1760-1">
+                      source="#bib1760-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1760-1">

@@ -210,21 +210,29 @@
                <persName xml:id="name2396-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2396-1">Abū l-Fatḥ ibn Muhannā al-Naṣrānī</persName>
-               <persName xml:id="name2396-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الفتح بن مهنا النصراني</persName>
+                         source="#bib2396-1"
+                         resp="#rschmahl">Abū l-Fatḥ ibn Muhannā al-Naṣrānī</persName>
+               <persName xml:id="name2396-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الفتح بن مهنا النصراني</persName>
                <note xml:id="abstract-en-2396"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2396-1">Abū l-Fatḥ ibn Muhannā al-Naṣrānī, unidentified Christian</note>
+                     source="#bib2396-1"
+                     resp="#rschmahl">Abū l-Fatḥ ibn Muhannā al-Naṣrānī, unidentified Christian</note>
                <idno type="URI">https://usaybia.net/person/2396</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2396-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2396-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2396-1">

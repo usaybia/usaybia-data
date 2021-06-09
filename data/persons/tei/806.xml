@@ -210,31 +210,37 @@
                <persName xml:id="name806-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib806-1">al-Hādī, Abū Muḥammad Mūsā ibn al-Mahdī</persName>
-               <persName xml:id="name806-2" xml:lang="ar" srophe-tags="#syriaca-headword">الهادي أبو محمد موسى بن المهدي</persName>
+                         source="#bib806-1"
+                         resp="#fioppolo">al-Hādī, Abū Muḥammad Mūsā ibn al-Mahdī</persName>
+               <persName xml:id="name806-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الهادي أبو محمد موسى بن المهدي</persName>
                <note xml:id="abstract-en-806"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib806-1">al-Hādī, Abū Muḥammad Mūsā ibn al-Mahdī, Abbasid caliph (`reg.` 169–170/785– 86)</note>
+                     source="#bib806-1"
+                     resp="#fioppolo">al-Hādī, Abū Muḥammad Mūsā ibn al-Mahdī, Abbasid caliph (`reg.` 169–170/785– 86)</note>
                <idno type="URI">https://usaybia.net/person/806</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib806-1">
+                      source="#bib806-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib806-1">

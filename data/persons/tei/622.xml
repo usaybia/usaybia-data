@@ -206,17 +206,23 @@
                <persName xml:id="name622-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib622-1">Baldwin</persName>
-               <persName xml:id="name622-2" xml:lang="ar" srophe-tags="#syriaca-headword">بلدوين</persName>
+                         source="#bib622-1"
+                         resp="#fioppolo">Baldwin</persName>
+               <persName xml:id="name622-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بلدوين</persName>
                <note xml:id="abstract-en-622"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib622-1">Baldwin, Prince, son of Amalric, Baldwin ⅠⅤ of Jerusalem, leprous (`reg.` 1174–1183)</note>
+                     source="#bib622-1"
+                     resp="#fioppolo">Baldwin, Prince, son of Amalric, Baldwin ⅠⅤ of Jerusalem, leprous (`reg.` 1174–1183)</note>
                <idno type="URI">https://usaybia.net/person/622</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib622-1">
+                      source="#bib622-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <bibl xml:id="bib622-1">

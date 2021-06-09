@@ -206,14 +206,23 @@
                <persName xml:id="name2284-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2284-1">al-Walīd</persName>
-               <persName xml:id="name2284-2" xml:lang="ar" srophe-tags="#syriaca-headword">الوليد</persName>
+                         source="#bib2284-1"
+                         resp="#mtolay">al-Walīd</persName>
+               <persName xml:id="name2284-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الوليد</persName>
                <note xml:id="abstract-en-2284"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2284-1">al-Walīd, poet (probably al-Walīd ibn ʿUbayd Allāh al-Buḥturī, d. 284/897)</note>
+                     source="#bib2284-1"
+                     resp="#mtolay">al-Walīd, poet (probably al-Walīd ibn ʿUbayd Allāh al-Buḥturī, d. 284/897)</note>
                <idno type="URI">https://usaybia.net/person/2284</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2284-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2284-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib2284-1">

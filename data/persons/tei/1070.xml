@@ -206,37 +206,49 @@
                <persName xml:id="name1070-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1070-1">Ibn al-Muṭrān</persName>
-               <persName xml:id="name1070-2" xml:lang="ar" source="#bib1070-2">اسعد بن الياس ابن المطران ابو نصر موفق الدين</persName>
-               <persName xml:id="name1070-3" xml:lang="en-x-lhom" source="#bib1070-1">Muwaffaq al-Dīn ibn al-Muṭrān</persName>
+                         source="#bib1070-1"
+                         resp="#rschmahl">Ibn al-Muṭrān</persName>
+               <persName xml:id="name1070-2"
+                         xml:lang="ar"
+                         source="#bib1070-2"
+                         resp="#rschmahl #mtolay">اسعد بن الياس ابن المطران ابو نصر موفق الدين</persName>
+               <persName xml:id="name1070-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1070-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn ibn al-Muṭrān</persName>
                <persName xml:id="name1070-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1070-1">موفق الدين بن المطران</persName>
-               <persName xml:id="name1070-5" xml:lang="ar">ابن المطران</persName>
+                         source="#bib1070-1"
+                         resp="#rschmahl #mtolay">موفق الدين بن المطران</persName>
+               <persName xml:id="name1070-5" xml:lang="ar" resp="#hfriedel">ابن المطران</persName>
                <note xml:id="abstract-en-1070"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1070-1">Ibn al-Muṭrān, Muwaffaq al-Dīn, Abū Naṣr Asʿad ibn Ilyās, personal physician of Saladin, teacher of al-Dakhwār, author of `Bustān al-aṭibbāʾ wa-rawḍat al-alibbāʾ` (d. 578/1191)</note>
+                     source="#bib1070-1"
+                     resp="#rschmahl">Ibn al-Muṭrān, Muwaffaq al-Dīn, Abū Naṣr Asʿad ibn Ilyās, personal physician of Saladin, teacher of al-Dakhwār, author of `Bustān al-aṭibbāʾ wa-rawḍat al-alibbāʾ` (d. 578/1191)</note>
                <idno type="URI">https://usaybia.net/person/1070</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D8%A7%D9%86</idno>
-               <idno type="URI">https://viaf.org/viaf/57026057</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D9%85%D8%B7%D8%B1%D8%A7%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/57026057</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1070-1">
+                      source="#bib1070-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1070-1">
+                      source="#bib1070-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1070-1">
+                      source="#bib1070-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1070-1">

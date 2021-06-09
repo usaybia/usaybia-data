@@ -210,18 +210,23 @@
                <persName xml:id="name433-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib433-1">Aḥmad ibn Muḥammad al-Khurāsānī</persName>
-               <persName xml:id="name433-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن محمد الخراساني</persName>
+                         source="#bib433-1"
+                         resp="#mtolay">Aḥmad ibn Muḥammad al-Khurāsānī</persName>
+               <persName xml:id="name433-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن محمد الخراساني</persName>
                <note xml:id="abstract-en-433"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib433-1">Aḥmad ibn Muḥammad al-Khurāsānī, addressee of a treatise by al-Kindī</note>
+                     source="#bib433-1"
+                     resp="#mtolay">Aḥmad ibn Muḥammad al-Khurāsānī, addressee of a treatise by al-Kindī</note>
                <idno type="URI">https://usaybia.net/person/433</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib433-1">

@@ -210,25 +210,34 @@
                <persName xml:id="name369-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib369-1">Abū l-Tuqā Ṣāliḥ ibn Aḥmad ibn Ibrāhīm ibn al-Ḥasan ibn Sulaymān al-Qurashī `alias` Taqī al-Dīn</persName>
-               <persName xml:id="name369-2" xml:lang="ar" source="#bib369-2">تقي صالح بن احمد ابرهيم القرشي المقدسي</persName>
-               <persName xml:id="name369-3" xml:lang="ar" srophe-tags="#syriaca-headword">أبو التقى صالح بن أحمد بن إبراهيم بن الحسن ين سليمان القرشي (تقي الدين)</persName>
+                         source="#bib369-1"
+                         resp="#mtolay">Abū l-Tuqā Ṣāliḥ ibn Aḥmad ibn Ibrāhīm ibn al-Ḥasan ibn Sulaymān al-Qurashī `alias` Taqī al-Dīn</persName>
+               <persName xml:id="name369-2"
+                         xml:lang="ar"
+                         source="#bib369-2"
+                         resp="#rschmahl #mtolay">تقي صالح بن احمد ابرهيم القرشي المقدسي</persName>
+               <persName xml:id="name369-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو التقى صالح بن أحمد بن إبراهيم بن الحسن ين سليمان القرشي (تقي الدين)</persName>
                <note xml:id="abstract-en-369"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib369-1">Abū l-Tuqā Ṣāliḥ ibn Aḥmad ibn Ibrāhīm ibn al-Ḥasan ibn Sulaymān al-Qurashī `alias` Taqī al-Dīn, teacher of ⅠＡＵ’s paternal uncle</note>
+                     source="#bib369-1"
+                     resp="#mtolay">Abū l-Tuqā Ṣāliḥ ibn Aḥmad ibn Ibrāhīm ibn al-Ḥasan ibn Sulaymān al-Qurashī `alias` Taqī al-Dīn, teacher of ⅠＡＵ’s paternal uncle</note>
                <idno type="URI">https://usaybia.net/person/369</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib369-1">
+                      source="#bib369-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib369-1">

@@ -210,32 +210,43 @@
                <persName xml:id="name461-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib461-1">ʿAlī, known as al-Fayyūm</persName>
+                         source="#bib461-1"
+                         resp="#mtolay #rschmahl #mtolay">ʿAlī, known as al-Fayyūm</persName>
                <persName xml:id="name461-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib461-1">علي المعروف بالفيوم</persName>
-               <persName xml:id="name461-4" xml:lang="ar" source="#bib461-1">ʿAlī, known as al-Fayyūm, Christian patron of translators including Ḥunayn ibn Isḥāq, governor of the Egyptian district of Fayyūm 9.45</persName>
-               <persName xml:id="name461-5" xml:lang="ar">علي (الفيوم)</persName>
+                         source="#bib461-1"
+                         resp="#rschmahl #mtolay">علي المعروف بالفيوم</persName>
+               <persName xml:id="name461-4"
+                         xml:lang="ar"
+                         source="#bib461-1"
+                         resp="#rschmahl #mtolay">ʿAlī, known as al-Fayyūm, Christian patron of translators including Ḥunayn ibn Isḥāq, governor of the Egyptian district of Fayyūm 9.45</persName>
+               <persName xml:id="name461-5" xml:lang="ar" resp="#hfriedel">علي (الفيوم)</persName>
                <note xml:id="abstract-en-461"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib461-1">ʿAlī, known as al-Fayyūm, Christian patron of translators including Ḥunayn ibn Isḥāq, governor of the Egyptian district of Fayyūm</note>
+                     source="#bib461-1"
+                     resp="#mtolay">ʿAlī, known as al-Fayyūm, Christian patron of translators including Ḥunayn ibn Isḥāq, governor of the Egyptian district of Fayyūm</note>
                <idno type="URI">https://usaybia.net/person/461</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4177</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4177</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="patron"
-                      source="#bib461-1">
+                      source="#bib461-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patron</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib461-1">
+                      source="#bib461-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib461-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib461-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib461-1">

@@ -206,24 +206,31 @@
                <persName xml:id="name922-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib922-1">Ibn Abī Rimthah (`or` Ramthah) al-Tamīmī</persName>
+                         source="#bib922-1"
+                         resp="#mtolay">Ibn Abī Rimthah (`or` Ramthah) al-Tamīmī</persName>
                <persName xml:id="name922-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib922-2 #bib922-1">ابن أبي رمثة التميمي</persName>
-               <persName xml:id="name922-3" xml:lang="en-x-lhom" source="#bib922-1">Ibn Abī Rimthah al-Tamīmī</persName>
-               <persName xml:id="name922-5" xml:lang="ar">ابن ألي رمثة التميمي</persName>
+                         source="#bib922-2 #bib922-1"
+                         resp="#rschmahl #mtolay">ابن أبي رمثة التميمي</persName>
+               <persName xml:id="name922-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib922-1"
+                         resp="#rschmahl #mtolay">Ibn Abī Rimthah al-Tamīmī</persName>
+               <persName xml:id="name922-5" xml:lang="ar" resp="#hfriedel">ابن ألي رمثة التميمي</persName>
                <note xml:id="abstract-en-922"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib922-1">Ibn Abī Rimthah (`or` Ramthah) al-Tamīmī (also known as Abū Rimthah `or` Ramthah), physician contemporary of Muḥammad</note>
+                     source="#bib922-1"
+                     resp="#mtolay">Ibn Abī Rimthah (`or` Ramthah) al-Tamīmī (also known as Abū Rimthah `or` Ramthah), physician contemporary of Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/922</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50170</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B1%D9%85%D8%AB%D8%A9_%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%85%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50170</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B1%D9%85%D8%AB%D8%A9_%D8%A7%D9%84%D8%AA%D9%85%D9%8A%D9%85%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib922-1">
+                      source="#bib922-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib922-1">

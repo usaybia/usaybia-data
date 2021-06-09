@@ -210,30 +210,37 @@
                <persName xml:id="name2067-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2067-1">Sharaf al-Dīn al-Muẓaffar ibn Muḥammad ibn al-Muẓaffar al-Ṭūsī</persName>
-               <persName xml:id="name2067-2" xml:lang="ar" srophe-tags="#syriaca-headword">شرف الدين المظفر بن محمد بن المظفر الطوسي</persName>
+                         source="#bib2067-1"
+                         resp="#mtolay">Sharaf al-Dīn al-Muẓaffar ibn Muḥammad ibn al-Muẓaffar al-Ṭūsī</persName>
+               <persName xml:id="name2067-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شرف الدين المظفر بن محمد بن المظفر الطوسي</persName>
                <note xml:id="abstract-en-2067"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2067-1">Sharaf al-Dīn al-Muẓaffar ibn Muḥammad ibn al-Muẓaffar al-Ṭūsī, mathematician and astronomer (d. 610/1213)</note>
+                     source="#bib2067-1"
+                     resp="#mtolay">Sharaf al-Dīn al-Muẓaffar ibn Muḥammad ibn al-Muẓaffar al-Ṭūsī, mathematician and astronomer (d. 610/1213)</note>
                <idno type="URI">https://usaybia.net/person/2067</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib2067-1">
+                      source="#bib2067-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib2067-1">
+                      source="#bib2067-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2067-1">

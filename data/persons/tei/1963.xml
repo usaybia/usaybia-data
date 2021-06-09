@@ -206,17 +206,23 @@
                <persName xml:id="name1963-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1963-1">Ṣāʿid ibn ʿAbdūs, Abū Manṣūr</persName>
-               <persName xml:id="name1963-2" xml:lang="ar" srophe-tags="#syriaca-headword">صاعد بن عبدوس أبو منصور</persName>
+                         source="#bib1963-1"
+                         resp="#mtolay">Ṣāʿid ibn ʿAbdūs, Abū Manṣūr</persName>
+               <persName xml:id="name1963-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صاعد بن عبدوس أبو منصور</persName>
                <note xml:id="abstract-en-1963"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1963-1">Ṣāʿid ibn ʿAbdūs, Abū Manṣūr, physician contemporary with Ibn al-Ṭayyib</note>
+                     source="#bib1963-1"
+                     resp="#mtolay">Ṣāʿid ibn ʿAbdūs, Abū Manṣūr, physician contemporary with Ibn al-Ṭayyib</note>
                <idno type="URI">https://usaybia.net/person/1963</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1963-1">
+                      source="#bib1963-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1963-1">

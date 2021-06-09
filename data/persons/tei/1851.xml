@@ -205,17 +205,23 @@
                <persName xml:id="name1851-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1851-1">Ptolemy al-Gharīb</persName>
-               <persName xml:id="name1851-2" xml:lang="ar" srophe-tags="#syriaca-headword">بطلميوس الغريب</persName>
+                         source="#bib1851-1"
+                         resp="#ngibson">Ptolemy al-Gharīb</persName>
+               <persName xml:id="name1851-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بطلميوس الغريب</persName>
                <note xml:id="abstract-en-1851"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1851-1">Ptolemy al-Gharīb, author of the `Vita Aristotelis`</note>
+                     source="#bib1851-1"
+                     resp="#ngibson">Ptolemy al-Gharīb, author of the `Vita Aristotelis`</note>
                <idno type="URI">https://usaybia.net/person/1851</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1851-1">
+                      source="#bib1851-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1851-1">

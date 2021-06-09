@@ -206,14 +206,23 @@
                <persName xml:id="name2021-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2021-1">al-Sayyid al-Naqīb al-Kāmil Ibn al-Sharīf al-Jalīl</persName>
-               <persName xml:id="name2021-2" xml:lang="ar" srophe-tags="#syriaca-headword">السيد النقيب الكامل ابن الشريف الجليل</persName>
+                         source="#bib2021-1"
+                         resp="#mtolay">al-Sayyid al-Naqīb al-Kāmil Ibn al-Sharīf al-Jalīl</persName>
+               <persName xml:id="name2021-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">السيد النقيب الكامل ابن الشريف الجليل</persName>
                <note xml:id="abstract-en-2021"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2021-1">al-Sayyid al-Naqīb al-Kāmil Ibn al-Sharīf al-Jalīl, poet</note>
+                     source="#bib2021-1"
+                     resp="#mtolay">al-Sayyid al-Naqīb al-Kāmil Ibn al-Sharīf al-Jalīl, poet</note>
                <idno type="URI">https://usaybia.net/person/2021</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2021-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2021-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib2021-1">

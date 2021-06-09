@@ -206,17 +206,23 @@
                <persName xml:id="name1387-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1387-1">al-Khāqānī</persName>
-               <persName xml:id="name1387-2" xml:lang="ar" srophe-tags="#syriaca-headword">الخاقاني</persName>
+                         source="#bib1387-1"
+                         resp="#rschmahl">al-Khāqānī</persName>
+               <persName xml:id="name1387-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الخاقاني</persName>
                <note xml:id="abstract-en-1387"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1387-1">al-Khāqānī, Abū l-Qāsim ʿAbd Allāh ibn Muḥammad (d. 314/926–927), vizier under al-Muqtadir</note>
+                     source="#bib1387-1"
+                     resp="#rschmahl">al-Khāqānī, Abū l-Qāsim ʿAbd Allāh ibn Muḥammad (d. 314/926–927), vizier under al-Muqtadir</note>
                <idno type="URI">https://usaybia.net/person/1387</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1387-1">
+                      source="#bib1387-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib1387-1">

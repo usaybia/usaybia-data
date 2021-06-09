@@ -206,17 +206,23 @@
                <persName xml:id="name345-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib345-1">Abū l-Ṣalt</persName>
-               <persName xml:id="name345-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الصلت</persName>
+                         source="#bib345-1"
+                         resp="#mtolay">Abū l-Ṣalt</persName>
+               <persName xml:id="name345-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الصلت</persName>
                <note xml:id="abstract-en-345"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib345-1">Abū l-Ṣalt (active 10th-c.), bonesetter at the ʿAḍudī Hospital</note>
+                     source="#bib345-1"
+                     resp="#mtolay">Abū l-Ṣalt (active 10th-c.), bonesetter at the ʿAḍudī Hospital</note>
                <idno type="URI">https://usaybia.net/person/345</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="bonesetter"
-                      source="#bib345-1">
+                      source="#bib345-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>bonesetter</desc>
                </state>
                <bibl xml:id="bib345-1">

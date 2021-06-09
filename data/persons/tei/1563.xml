@@ -202,23 +202,26 @@
                <persName xml:id="name1563-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1563-1">Michael the Syncellus</persName>
+                         source="#bib1563-1"
+                         resp="#fioppolo">Michael the Syncellus</persName>
                <note xml:id="abstract-en-1563"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1563-1">Michael the Syncellus, brother of Theodore at Mar Saba</note>
+                     source="#bib1563-1"
+                     resp="#fioppolo">Michael the Syncellus, brother of Theodore at Mar Saba</note>
                <idno type="URI">https://usaybia.net/person/1563</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="syncellus"
-                      source="#bib1563-1">
+                      source="#bib1563-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>syncellus</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1563-1">

@@ -210,20 +210,29 @@
                <persName xml:id="name1097-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1097-1">Ibn Saʿādah</persName>
-               <persName xml:id="name1097-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن سعادة</persName>
+                         source="#bib1097-1"
+                         resp="#rschmahl">Ibn Saʿādah</persName>
+               <persName xml:id="name1097-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن سعادة</persName>
                <note xml:id="abstract-en-1097"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1097-1">Ibn Saʿādah, Abū Zakariyyā Yahūdhā, 11th-c. Jewish Egyptian physician</note>
+                     source="#bib1097-1"
+                     resp="#rschmahl">Ibn Saʿādah, Abū Zakariyyā Yahūdhā, 11th-c. Jewish Egyptian physician</note>
                <idno type="URI">https://usaybia.net/person/1097</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1097-1">
+                      source="#bib1097-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1097-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1097-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1097-1">

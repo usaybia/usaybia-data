@@ -206,14 +206,23 @@
                <persName xml:id="name877-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib877-1">Herpyllis</persName>
-               <persName xml:id="name877-2" xml:lang="ar" srophe-tags="#syriaca-headword">أربليس</persName>
+                         source="#bib877-1"
+                         resp="#mtolay">Herpyllis</persName>
+               <persName xml:id="name877-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أربليس</persName>
                <note xml:id="abstract-en-877"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib877-1">Herpyllis, Aristotle’s maid/concubine</note>
+                     source="#bib877-1"
+                     resp="#mtolay">Herpyllis, Aristotle’s maid/concubine</note>
                <idno type="URI">https://usaybia.net/person/877</idno>
-               <state xml:lang="en" type="occupation" role="maid" source="#bib877-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="maid"
+                      source="#bib877-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>maid</desc>
                </state>
                <bibl xml:id="bib877-1">

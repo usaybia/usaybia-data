@@ -206,17 +206,23 @@
                <persName xml:id="name20-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib20-1">ʿAbd Allāh ibn al-Mubārak</persName>
-               <persName xml:id="name20-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله بن المبارك</persName>
+                         source="#bib20-1"
+                         resp="#fioppolo">ʿAbd Allāh ibn al-Mubārak</persName>
+               <persName xml:id="name20-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الله بن المبارك</persName>
                <note xml:id="abstract-en-20"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib20-1">ʿAbd Allāh ibn al-Mubārak, transmitter</note>
+                     source="#bib20-1"
+                     resp="#fioppolo">ʿAbd Allāh ibn al-Mubārak, transmitter</note>
                <idno type="URI">https://usaybia.net/person/20</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib20-1">
+                      source="#bib20-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib20-1">

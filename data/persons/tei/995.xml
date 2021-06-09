@@ -206,14 +206,23 @@
                <persName xml:id="name995-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib995-1">Ibn Hāniʾ al-Andalusī</persName>
-               <persName xml:id="name995-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن هانئ الأندلسي</persName>
+                         source="#bib995-1"
+                         resp="#rschmahl">Ibn Hāniʾ al-Andalusī</persName>
+               <persName xml:id="name995-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن هانئ الأندلسي</persName>
                <note xml:id="abstract-en-995"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib995-1">Ibn Hāniʾ al-Andalusī, poet (d. ca. 362/973)</note>
+                     source="#bib995-1"
+                     resp="#rschmahl">Ibn Hāniʾ al-Andalusī, poet (d. ca. 362/973)</note>
                <idno type="URI">https://usaybia.net/person/995</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib995-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib995-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib995-1">

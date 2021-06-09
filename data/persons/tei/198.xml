@@ -210,20 +210,29 @@
                <persName xml:id="name198-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib198-1">Abū l-Ḥasan al-Baṣrī</persName>
-               <persName xml:id="name198-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن البصري</persName>
+                         source="#bib198-1"
+                         resp="#rschmahl">Abū l-Ḥasan al-Baṣrī</persName>
+               <persName xml:id="name198-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن البصري</persName>
                <note xml:id="abstract-en-198"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib198-1">Abū l-Ḥasan al-Baṣrī (? = Abū l-Ḥusayn al-Baṣrī, Muʿtazilite theologian)</note>
+                     source="#bib198-1"
+                     resp="#rschmahl">Abū l-Ḥasan al-Baṣrī (? = Abū l-Ḥusayn al-Baṣrī, Muʿtazilite theologian)</note>
                <idno type="URI">https://usaybia.net/person/198</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="theologian"
-                      source="#bib198-1">
+                      source="#bib198-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>theologian</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib198-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib198-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Muslim, Muʿtazilite</label>
                </state>
                <bibl xml:id="bib198-1">

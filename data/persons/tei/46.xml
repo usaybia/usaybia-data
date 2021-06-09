@@ -206,17 +206,23 @@
                <persName xml:id="name46-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib46-1">ʿAbd al-Wadūd al-Ṭabīb</persName>
-               <persName xml:id="name46-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الودود الطبيب</persName>
+                         source="#bib46-1"
+                         resp="#fioppolo">ʿAbd al-Wadūd al-Ṭabīb</persName>
+               <persName xml:id="name46-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الودود الطبيب</persName>
                <note xml:id="abstract-en-46"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib46-1">ʿAbd al-Wadūd al-Ṭabīb, transmitter</note>
+                     source="#bib46-1"
+                     resp="#fioppolo">ʿAbd al-Wadūd al-Ṭabīb, transmitter</note>
                <idno type="URI">https://usaybia.net/person/46</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib46-1">
+                      source="#bib46-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib46-1">

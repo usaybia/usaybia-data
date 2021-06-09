@@ -206,17 +206,23 @@
                <persName xml:id="name339-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib339-1">Abū Saʿīd ibn al-Muʿawwaj</persName>
-               <persName xml:id="name339-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو سعيد بن المعوج</persName>
+                         source="#bib339-1"
+                         resp="#mtolay">Abū Saʿīd ibn al-Muʿawwaj</persName>
+               <persName xml:id="name339-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو سعيد بن المعوج</persName>
                <note xml:id="abstract-en-339"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib339-1">Abū Saʿīd ibn al-Muʿawwaj, 5th/11th-c. official</note>
+                     source="#bib339-1"
+                     resp="#mtolay">Abū Saʿīd ibn al-Muʿawwaj, 5th/11th-c. official</note>
                <idno type="URI">https://usaybia.net/person/339</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="official"
-                      source="#bib339-1">
+                      source="#bib339-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>official</desc>
                </state>
                <bibl xml:id="bib339-1">

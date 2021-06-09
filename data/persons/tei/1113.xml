@@ -210,27 +210,37 @@
                <persName xml:id="name1113-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1113-1">Ibn Sanāʾ al-Mulk</persName>
-               <persName xml:id="name1113-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن سناء الملك</persName>
+                         source="#bib1113-1"
+                         resp="#rschmahl">Ibn Sanāʾ al-Mulk</persName>
+               <persName xml:id="name1113-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن سناء الملك</persName>
                <note xml:id="abstract-en-1113"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1113-1">Ibn Sanāʾ al-Mulk, al-Qāḍī l-Saʿīd Abū l-Qāsim Hibat Allāh ibn Abī l-Faḍl Jaʿfar ibn al-Muʿtamid, Ayyubid qadi and writer of `muwashshaḥāt` (550–608/1155–1211)</note>
+                     source="#bib1113-1"
+                     resp="#rschmahl">Ibn Sanāʾ al-Mulk, al-Qāḍī l-Saʿīd Abū l-Qāsim Hibat Allāh ibn Abī l-Faḍl Jaʿfar ibn al-Muʿtamid, Ayyubid qadi and writer of `muwashshaḥāt` (550–608/1155–1211)</note>
                <idno type="URI">https://usaybia.net/person/1113</idno>
-               <state xml:lang="en" type="occupation" role="qadi" source="#bib1113-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="qadi"
+                      source="#bib1113-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>qadi</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1113-1">
+                      source="#bib1113-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1113-1">

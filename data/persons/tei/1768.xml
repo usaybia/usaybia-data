@@ -206,17 +206,23 @@
                <persName xml:id="name1768-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1768-1">Nicanor of Stagira</persName>
-               <persName xml:id="name1768-2" xml:lang="ar" srophe-tags="#syriaca-headword">نيقانر</persName>
+                         source="#bib1768-1"
+                         resp="#fioppolo">Nicanor of Stagira</persName>
+               <persName xml:id="name1768-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">نيقانر</persName>
                <note xml:id="abstract-en-1768"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1768-1">Nicanor of Stagira, commander under Alexander the Great</note>
+                     source="#bib1768-1"
+                     resp="#fioppolo">Nicanor of Stagira, commander under Alexander the Great</note>
                <idno type="URI">https://usaybia.net/person/1768</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="commander"
-                      source="#bib1768-1">
+                      source="#bib1768-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>commander</desc>
                </state>
                <bibl xml:id="bib1768-1">

@@ -206,23 +206,30 @@
                <persName xml:id="name2003-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2003-1">Sanḥārīb</persName>
-               <persName xml:id="name2003-2" xml:lang="ar" srophe-tags="#syriaca-headword">سنحاريب</persName>
+                         source="#bib2003-1"
+                         resp="#mtolay">Sanḥārīb</persName>
+               <persName xml:id="name2003-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سنحاريب</persName>
                <note xml:id="abstract-en-2003"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2003-1">Sanḥārīb, Armenian ruler and patron of Qusṭā ibn Lūqā (active late 9th–early 10th-c.)</note>
+                     source="#bib2003-1"
+                     resp="#mtolay">Sanḥārīb, Armenian ruler and patron of Qusṭā ibn Lūqā (active late 9th–early 10th-c.)</note>
                <idno type="URI">https://usaybia.net/person/2003</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib2003-1">
+                      source="#bib2003-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="patron"
-                      source="#bib2003-1">
+                      source="#bib2003-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patron</desc>
                </state>
                <bibl xml:id="bib2003-1">

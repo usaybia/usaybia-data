@@ -210,27 +210,40 @@
                <persName xml:id="name1975-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1975-1">Saʿīd ibn Tawfīl, Abū ʿUthmān</persName>
-               <persName xml:id="name1975-2" xml:lang="en-x-lhom" source="#bib1975-1">Saʿīd ibn Tawfīl</persName>
+                         source="#bib1975-1"
+                         resp="#mtolay">Saʿīd ibn Tawfīl, Abū ʿUthmān</persName>
+               <persName xml:id="name1975-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1975-1"
+                         resp="#rschmahl #mtolay">Saʿīd ibn Tawfīl</persName>
                <persName xml:id="name1975-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1975-1">سعيد بن توفيل</persName>
-               <persName xml:id="name1975-4" xml:lang="ar" source="#bib1975-1">Saʿīd ibn Tawfīl, Abū ʿUthmān, Christian physician in the service of Aḥmad ibn Ṭūlūn 14.3; 14.4; 13.1.3 no. 4</persName>
-               <persName xml:id="name1975-5" xml:lang="ar">سعيد بن توفيل أبو عثمان</persName>
+                         source="#bib1975-1"
+                         resp="#rschmahl #mtolay">سعيد بن توفيل</persName>
+               <persName xml:id="name1975-4"
+                         xml:lang="ar"
+                         source="#bib1975-1"
+                         resp="#rschmahl #mtolay">Saʿīd ibn Tawfīl, Abū ʿUthmān, Christian physician in the service of Aḥmad ibn Ṭūlūn 14.3; 14.4; 13.1.3 no. 4</persName>
+               <persName xml:id="name1975-5" xml:lang="ar" resp="#hfriedel">سعيد بن توفيل أبو عثمان</persName>
                <note xml:id="abstract-en-1975"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1975-1">Saʿīd ibn Tawfīl, Abū ʿUthmān, Christian physician in the service of Aḥmad ibn Ṭūlūn</note>
+                     source="#bib1975-1"
+                     resp="#mtolay">Saʿīd ibn Tawfīl, Abū ʿUthmān, Christian physician in the service of Aḥmad ibn Ṭūlūn</note>
                <idno type="URI">https://usaybia.net/person/1975</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A8%D9%86_%D8%AA%D9%88%D9%81%D9%8A%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B3%D8%B9%D9%8A%D8%AF_%D8%A8%D9%86_%D8%AA%D9%88%D9%81%D9%8A%D9%84</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1975-1">
+                      source="#bib1975-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1975-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1975-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1975-1">

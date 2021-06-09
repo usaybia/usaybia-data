@@ -206,25 +206,35 @@
                <persName xml:id="name1734-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1734-1">Najm al-Dīn ibn al-Lubūdī</persName>
-               <persName xml:id="name1734-2" xml:lang="ar" source="#bib1734-2">نجم الدين اللبودي أبو زكريا يحيى بن شمس الدين محمد</persName>
-               <persName xml:id="name1734-3" xml:lang="en-x-lhom" source="#bib1734-1">al-Ṣāḥib Najm al-Dīn ibn al-Lubūdī</persName>
+                         source="#bib1734-1"
+                         resp="#fioppolo">Najm al-Dīn ibn al-Lubūdī</persName>
+               <persName xml:id="name1734-2"
+                         xml:lang="ar"
+                         source="#bib1734-2"
+                         resp="#rschmahl #mtolay">نجم الدين اللبودي أبو زكريا يحيى بن شمس الدين محمد</persName>
+               <persName xml:id="name1734-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1734-1"
+                         resp="#rschmahl #mtolay">al-Ṣāḥib Najm al-Dīn ibn al-Lubūdī</persName>
                <persName xml:id="name1734-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1734-1">الصاحب نجم الدين بن اللبودي</persName>
-               <persName xml:id="name1734-5" xml:lang="ar">نجم الدين بن اللبودي</persName>
+                         source="#bib1734-1"
+                         resp="#rschmahl #mtolay">الصاحب نجم الدين بن اللبودي</persName>
+               <persName xml:id="name1734-5" xml:lang="ar" resp="#hfriedel">نجم الدين بن اللبودي</persName>
                <note xml:id="abstract-en-1734"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1734-1">Najm al-Dīn ibn al-Lubūdī, physician son of Shams al-Dīn ibn al-Lubūdī</note>
+                     source="#bib1734-1"
+                     resp="#fioppolo">Najm al-Dīn ibn al-Lubūdī, physician son of Shams al-Dīn ibn al-Lubūdī</note>
                <idno type="URI">https://usaybia.net/person/1734</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%84%D8%A8%D9%88%D8%AF%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90055571</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%84%D8%A8%D9%88%D8%AF%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90055571</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1734-1">
+                      source="#bib1734-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1734-1">

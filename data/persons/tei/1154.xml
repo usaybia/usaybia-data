@@ -210,26 +210,36 @@
                <persName xml:id="name1154-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1154-1">Ibn Uthāl</persName>
+                         source="#bib1154-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Uthāl</persName>
                <persName xml:id="name1154-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1154-2 #bib1154-1">ابن أثال</persName>
-               <persName xml:id="name1154-5" xml:lang="ar" source="#bib1154-1">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah 7.5</persName>
+                         source="#bib1154-2 #bib1154-1"
+                         resp="#rschmahl #mtolay #hfriedel">ابن أثال</persName>
+               <persName xml:id="name1154-5"
+                         xml:lang="ar"
+                         source="#bib1154-1"
+                         resp="#rschmahl #mtolay">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah 7.5</persName>
                <note xml:id="abstract-en-1154"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1154-1">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah</note>
+                     source="#bib1154-1"
+                     resp="#rschmahl">Ibn Uthāl, Christian of Damascus, personal physician to Muʿāwiyah</note>
                <idno type="URI">https://usaybia.net/person/1154</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4101</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%AB%D8%A7%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4101</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A3%D8%AB%D8%A7%D9%84</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1154-1">
+                      source="#bib1154-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1154-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1154-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1154-1">

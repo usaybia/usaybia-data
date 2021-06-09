@@ -206,17 +206,23 @@
                <persName xml:id="name1805-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1805-1">Perennis</persName>
-               <persName xml:id="name1805-2" xml:lang="ar" srophe-tags="#syriaca-headword">فرونيوس</persName>
+                         source="#bib1805-1"
+                         resp="#fioppolo">Perennis</persName>
+               <persName xml:id="name1805-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فرونيوس</persName>
                <note xml:id="abstract-en-1805"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1805-1">Perennis, Tigidius, 2nd-c. praetorian prefect</note>
+                     source="#bib1805-1"
+                     resp="#fioppolo">Perennis, Tigidius, 2nd-c. praetorian prefect</note>
                <idno type="URI">https://usaybia.net/person/1805</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prefect"
-                      source="#bib1805-1">
+                      source="#bib1805-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prefect</desc>
                </state>
                <bibl xml:id="bib1805-1">

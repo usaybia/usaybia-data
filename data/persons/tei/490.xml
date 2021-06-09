@@ -206,17 +206,23 @@
                <persName xml:id="name490-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib490-1">Ambracis</persName>
-               <persName xml:id="name490-2" xml:lang="ar" srophe-tags="#syriaca-headword">إماراقيس</persName>
+                         source="#bib490-1"
+                         resp="#fioppolo">Ambracis</persName>
+               <persName xml:id="name490-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إماراقيس</persName>
                <note xml:id="abstract-en-490"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib490-1">Ambracis, maidservant of Aristotle</note>
+                     source="#bib490-1"
+                     resp="#fioppolo">Ambracis, maidservant of Aristotle</note>
                <idno type="URI">https://usaybia.net/person/490</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="maidservant"
-                      source="#bib490-1">
+                      source="#bib490-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>maidservant</desc>
                </state>
                <bibl xml:id="bib490-1">

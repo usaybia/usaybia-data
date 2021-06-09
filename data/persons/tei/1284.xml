@@ -210,24 +210,30 @@
                <persName xml:id="name1284-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1284-1">Isrāʾīl the bishop</persName>
-               <persName xml:id="name1284-2" xml:lang="ar" srophe-tags="#syriaca-headword">إسرائيل</persName>
+                         source="#bib1284-1"
+                         resp="#rschmahl">Isrāʾīl the bishop</persName>
+               <persName xml:id="name1284-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إسرائيل</persName>
                <note xml:id="abstract-en-1284"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1284-1">Isrāʾīl the bishop (unidentified)</note>
+                     source="#bib1284-1"
+                     resp="#rschmahl">Isrāʾīl the bishop (unidentified)</note>
                <idno type="URI">https://usaybia.net/person/1284</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="bishop"
-                      source="#bib1284-1">
+                      source="#bib1284-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>bishop</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1284-1">

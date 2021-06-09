@@ -210,24 +210,34 @@
                <persName xml:id="name2145-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2145-1">Sukkarah al-Ḥalabī</persName>
+                         source="#bib2145-1"
+                         resp="#mtolay #rschmahl #mtolay">Sukkarah al-Ḥalabī</persName>
                <persName xml:id="name2145-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2145-2 #bib2145-1">سكرة الحلبي</persName>
-               <persName xml:id="name2145-5" xml:lang="ar" source="#bib2145-1">Sukkarah al-Ḥalabī, Jewish physician under al-Malik al-ʿĀdil 15.15</persName>
+                         source="#bib2145-2 #bib2145-1"
+                         resp="#rschmahl #mtolay #hfriedel">سكرة الحلبي</persName>
+               <persName xml:id="name2145-5"
+                         xml:lang="ar"
+                         source="#bib2145-1"
+                         resp="#rschmahl #mtolay">Sukkarah al-Ḥalabī, Jewish physician under al-Malik al-ʿĀdil 15.15</persName>
                <note xml:id="abstract-en-2145"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2145-1">Sukkarah al-Ḥalabī, Jewish physician under al-Malik al-ʿĀdil</note>
+                     source="#bib2145-1"
+                     resp="#mtolay">Sukkarah al-Ḥalabī, Jewish physician under al-Malik al-ʿĀdil</note>
                <idno type="URI">https://usaybia.net/person/2145</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2145-1">
+                      source="#bib2145-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2145-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2145-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib2145-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name1696-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1696-1">al-Muʿtamid ʿalā Allāh, Aḥmad ibn al-Mutawakkil</persName>
-               <persName xml:id="name1696-2" xml:lang="ar" srophe-tags="#syriaca-headword">المعتمد على الله أحمد بن المتوكل</persName>
+                         source="#bib1696-1"
+                         resp="#fioppolo">al-Muʿtamid ʿalā Allāh, Aḥmad ibn al-Mutawakkil</persName>
+               <persName xml:id="name1696-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المعتمد على الله أحمد بن المتوكل</persName>
                <note xml:id="abstract-en-1696"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1696-1">al-Muʿtamid ʿalā Allāh, Aḥmad ibn al-Mutawakkil, Abbasid caliph (`reg.` 256– 279/870–92)</note>
+                     source="#bib1696-1"
+                     resp="#fioppolo">al-Muʿtamid ʿalā Allāh, Aḥmad ibn al-Mutawakkil, Abbasid caliph (`reg.` 256– 279/870–92)</note>
                <idno type="URI">https://usaybia.net/person/1696</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1696-1">
+                      source="#bib1696-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1696-1">

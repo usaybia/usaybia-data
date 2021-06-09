@@ -210,24 +210,30 @@
                <persName xml:id="name1630-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1630-1">Muḥammad ibn Saʿīd al-Ṭabīb</persName>
-               <persName xml:id="name1630-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن سعيد الطبيب</persName>
+                         source="#bib1630-1"
+                         resp="#fioppolo">Muḥammad ibn Saʿīd al-Ṭabīb</persName>
+               <persName xml:id="name1630-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمد بن سعيد الطبيب</persName>
                <note xml:id="abstract-en-1630"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1630-1">Muḥammad ibn Saʿīd al-Ṭabīb, one of the Andalusī translators of `De Materia Medica`</note>
+                     source="#bib1630-1"
+                     resp="#fioppolo">Muḥammad ibn Saʿīd al-Ṭabīb, one of the Andalusī translators of `De Materia Medica`</note>
                <idno type="URI">https://usaybia.net/person/1630</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1630-1">
+                      source="#bib1630-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1630-1">

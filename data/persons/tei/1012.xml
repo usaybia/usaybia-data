@@ -206,26 +206,33 @@
                <persName xml:id="name1012-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1012-1">Ibn Jazlah</persName>
+                         source="#bib1012-1"
+                         resp="#rschmahl #rschmahl #mtolay">Ibn Jazlah</persName>
                <persName xml:id="name1012-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1012-1">ابن جَزْلة</persName>
-               <persName xml:id="name1012-4" xml:lang="ar" source="#bib1012-1">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician 10.59; 14.58.4 no. 1n</persName>
-               <persName xml:id="name1012-5" xml:lang="ar">ابن جزلة</persName>
+                         source="#bib1012-1"
+                         resp="#rschmahl #mtolay">ابن جَزْلة</persName>
+               <persName xml:id="name1012-4"
+                         xml:lang="ar"
+                         source="#bib1012-1"
+                         resp="#rschmahl #mtolay">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician 10.59; 14.58.4 no. 1n</persName>
+               <persName xml:id="name1012-5" xml:lang="ar" resp="#hfriedel">ابن جزلة</persName>
                <note xml:id="abstract-en-1012"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1012-1">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician</note>
+                     source="#bib1012-1"
+                     resp="#rschmahl">Ibn Jazlah, Yaḥyā ibn ʿĪsā ibn ʿAlī, 5th/11th-c. physician</note>
                <idno type="URI">https://usaybia.net/person/1012</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4239</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30816</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%AC%D8%B2%D9%84%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/93768036</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4239</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30816</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%AC%D8%B2%D9%84%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/93768036</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1012-1">
+                      source="#bib1012-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1012-1">

@@ -210,38 +210,44 @@
                <persName xml:id="name274-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib274-1">Abū Marwān Muḥammad ibn Aḥmad ibn ʿAbd al-Malik al-Lakhmī al-Bājī</persName>
-               <persName xml:id="name274-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو مروان محمد بن أحمد بن عبد الملك اللخمي الباجي</persName>
+                         source="#bib274-1"
+                         resp="#mtolay">Abū Marwān Muḥammad ibn Aḥmad ibn ʿAbd al-Malik al-Lakhmī al-Bājī</persName>
+               <persName xml:id="name274-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو مروان محمد بن أحمد بن عبد الملك اللخمي الباجي</persName>
                <note xml:id="abstract-en-274"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib274-1">Abū Marwān Muḥammad ibn Aḥmad ibn ʿAbd al-Malik al-Lakhmī al-Bājī, Sevillian jurist and informant of ⅠＡＵ</note>
+                     source="#bib274-1"
+                     resp="#mtolay">Abū Marwān Muḥammad ibn Aḥmad ibn ʿAbd al-Malik al-Lakhmī al-Bājī, Sevillian jurist and informant of ⅠＡＵ</note>
                <idno type="URI">https://usaybia.net/person/274</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib274-1">
+                      source="#bib274-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib274-1">

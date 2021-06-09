@@ -206,29 +206,37 @@
                <persName xml:id="name2311-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2311-1">Yaʿqūb al-Sīrāfī Ibn Māhān</persName>
-               <persName xml:id="name2311-2" xml:lang="en-x-lhom" source="#bib2311-1">Ibn Māhān</persName>
+                         source="#bib2311-1"
+                         resp="#mtolay">Yaʿqūb al-Sīrāfī Ibn Māhān</persName>
+               <persName xml:id="name2311-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2311-1"
+                         resp="#rschmahl #mtolay">Ibn Māhān</persName>
                <persName xml:id="name2311-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2311-1">ابن ماهان</persName>
-               <persName xml:id="name2311-4" xml:lang="ar">يعقوب السيرافي ابن ماهان</persName>
+                         source="#bib2311-1"
+                         resp="#rschmahl #mtolay">ابن ماهان</persName>
+               <persName xml:id="name2311-4" xml:lang="ar" resp="#hfriedel">يعقوب السيرافي ابن ماهان</persName>
                <note xml:id="abstract-en-2311"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2311-1">Yaʿqūb al-Sīrāfī Ibn Māhān, physician and author of a work on medical matters</note>
+                     source="#bib2311-1"
+                     resp="#mtolay">Yaʿqūb al-Sīrāfī Ibn Māhān, physician and author of a work on medical matters</note>
                <idno type="URI">https://usaybia.net/person/2311</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4139</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4139</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2311-1">
+                      source="#bib2311-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib2311-1">
+                      source="#bib2311-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib2311-1">

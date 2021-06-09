@@ -206,17 +206,23 @@
                <persName xml:id="name509-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib509-1">ʿAmr ibn Maʿrūf</persName>
-               <persName xml:id="name509-2" xml:lang="ar" srophe-tags="#syriaca-headword">عمرو بن معروف</persName>
+                         source="#bib509-1"
+                         resp="#fioppolo">ʿAmr ibn Maʿrūf</persName>
+               <persName xml:id="name509-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عمرو بن معروف</persName>
                <note xml:id="abstract-en-509"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib509-1">ʿAmr ibn Maʿrūf, transmitter</note>
+                     source="#bib509-1"
+                     resp="#fioppolo">ʿAmr ibn Maʿrūf, transmitter</note>
                <idno type="URI">https://usaybia.net/person/509</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib509-1">
+                      source="#bib509-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib509-1">

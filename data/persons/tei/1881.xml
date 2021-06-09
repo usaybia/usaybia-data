@@ -206,17 +206,23 @@
                <persName xml:id="name1881-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1881-1">Quintus</persName>
-               <persName xml:id="name1881-2" xml:lang="ar" srophe-tags="#syriaca-headword">قوينطوس</persName>
+                         source="#bib1881-1"
+                         resp="#mtolay">Quintus</persName>
+               <persName xml:id="name1881-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">قوينطوس</persName>
                <note xml:id="abstract-en-1881"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1881-1">Quintus, 2nd-c. physician at Rome</note>
+                     source="#bib1881-1"
+                     resp="#mtolay">Quintus, 2nd-c. physician at Rome</note>
                <idno type="URI">https://usaybia.net/person/1881</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1881-1">
+                      source="#bib1881-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1881-1">

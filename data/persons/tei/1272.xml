@@ -210,32 +210,39 @@
                <persName xml:id="name1272-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1272-1">Isḥāq ibn Sulaymān al-Isrāʾīlī</persName>
+                         source="#bib1272-1"
+                         resp="#rschmahl #rschmahl #mtolay">Isḥāq ibn Sulaymān al-Isrāʾīlī</persName>
                <persName xml:id="name1272-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1272-1">إسحاق بن سليمان الإسرائيلي</persName>
-               <persName xml:id="name1272-4" xml:lang="ar" source="#bib1272-1">Isḥāq ibn Sulaymān al-Isrāʾīlī, medical writer (d. 320/932 `or` 344/955) 13.2; 13.3.1; 15.40.9 nos. 54, 55, 56</persName>
+                         source="#bib1272-1"
+                         resp="#rschmahl #mtolay #hfriedel">إسحاق بن سليمان الإسرائيلي</persName>
+               <persName xml:id="name1272-4"
+                         xml:lang="ar"
+                         source="#bib1272-1"
+                         resp="#rschmahl #mtolay">Isḥāq ibn Sulaymān al-Isrāʾīlī, medical writer (d. 320/932 `or` 344/955) 13.2; 13.3.1; 15.40.9 nos. 54, 55, 56</persName>
                <note xml:id="abstract-en-1272"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1272-1">Isḥāq ibn Sulaymān al-Isrāʾīlī, medical writer (d. 320/932 `or` 344/955)</note>
+                     source="#bib1272-1"
+                     resp="#rschmahl">Isḥāq ibn Sulaymān al-Isrāʾīlī, medical writer (d. 320/932 `or` 344/955)</note>
                <idno type="URI">https://usaybia.net/person/1272</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AD%D8%A7%D9%82_%D8%A8%D9%86_%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/34580662</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/9789004206106_eifo_SIM_3617</idno>
-               <idno type="URI">https://plato.stanford.edu/archives/sum2018/entries/israeli/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%AD%D8%A7%D9%82_%D8%A8%D9%86_%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86_%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/34580662</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/9789004206106_eifo_SIM_3617</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/archives/sum2018/entries/israeli/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1272-1">
+                      source="#bib1272-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib1272-1">

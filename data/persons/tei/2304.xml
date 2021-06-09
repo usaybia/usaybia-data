@@ -210,26 +210,36 @@
                <persName xml:id="name2304-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2304-1">Yaḥyā ibn Saʿīd ibn Yaḥyā (Abū l-Faraj al-Anṭākī)</persName>
-               <persName xml:id="name2304-2" xml:lang="ar" srophe-tags="#syriaca-headword">يحيى بن سعيد بن يحيى (أبو الفرج الأنطاكي)</persName>
+                         source="#bib2304-1"
+                         resp="#mtolay">Yaḥyā ibn Saʿīd ibn Yaḥyā (Abū l-Faraj al-Anṭākī)</persName>
+               <persName xml:id="name2304-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يحيى بن سعيد بن يحيى (أبو الفرج الأنطاكي)</persName>
                <note xml:id="abstract-en-2304"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2304-1">Yaḥyā ibn Saʿīd ibn Yaḥyā (also known as Abū l-Faraj al-Anṭākī), Christian physician and historian continuator of Saʿīd ibn al-Biṭrīq (ca. 369/980)</note>
+                     source="#bib2304-1"
+                     resp="#mtolay">Yaḥyā ibn Saʿīd ibn Yaḥyā (also known as Abū l-Faraj al-Anṭākī), Christian physician and historian continuator of Saʿīd ibn al-Biṭrīq (ca. 369/980)</note>
                <idno type="URI">https://usaybia.net/person/2304</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2304-1">
+                      source="#bib2304-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib2304-1">
+                      source="#bib2304-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2304-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2304-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2304-1">

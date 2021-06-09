@@ -210,18 +210,23 @@
                <persName xml:id="name1566-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1566-1">Mīkhāʾīl</persName>
-               <persName xml:id="name1566-2" xml:lang="ar" srophe-tags="#syriaca-headword">ميجائل</persName>
+                         source="#bib1566-1"
+                         resp="#fioppolo">Mīkhāʾīl</persName>
+               <persName xml:id="name1566-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ميجائل</persName>
                <note xml:id="abstract-en-1566"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1566-1">Mīkhāʾīl, son-in-law of Jibrīl ibn Bukhtīshūʿ</note>
+                     source="#bib1566-1"
+                     resp="#fioppolo">Mīkhāʾīl, son-in-law of Jibrīl ibn Bukhtīshūʿ</note>
                <idno type="URI">https://usaybia.net/person/1566</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1566-1">

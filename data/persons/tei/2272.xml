@@ -210,24 +210,30 @@
                <persName xml:id="name2272-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2272-1">ʿUrwah ibn al-Zubayr</persName>
-               <persName xml:id="name2272-2" xml:lang="ar" srophe-tags="#syriaca-headword">عروة بن الزبير</persName>
+                         source="#bib2272-1"
+                         resp="#mtolay">ʿUrwah ibn al-Zubayr</persName>
+               <persName xml:id="name2272-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عروة بن الزبير</persName>
                <note xml:id="abstract-en-2272"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2272-1">ʿUrwah ibn al-Zubayr, late 7th-c. Medinan jurist</note>
+                     source="#bib2272-1"
+                     resp="#mtolay">ʿUrwah ibn al-Zubayr, late 7th-c. Medinan jurist</note>
                <idno type="URI">https://usaybia.net/person/2272</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="jurist"
-                      source="#bib2272-1">
+                      source="#bib2272-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>jurist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2272-1">

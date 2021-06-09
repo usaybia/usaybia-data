@@ -210,18 +210,23 @@
                <persName xml:id="name1317-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1317-1">Jamāl al-Dīn Muḥammad al-Āmidī</persName>
-               <persName xml:id="name1317-2" xml:lang="ar" srophe-tags="#syriaca-headword">جمال الدين محمد الآمدي</persName>
+                         source="#bib1317-1"
+                         resp="#rschmahl">Jamāl al-Dīn Muḥammad al-Āmidī</persName>
+               <persName xml:id="name1317-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جمال الدين محمد الآمدي</persName>
                <note xml:id="abstract-en-1317"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1317-1">Jamāl al-Dīn Muḥammad al-Āmidī, son of Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī al-Āmidī</note>
+                     source="#bib1317-1"
+                     resp="#rschmahl">Jamāl al-Dīn Muḥammad al-Āmidī, son of Sayf al-Dīn Abū l-Ḥasan ʿAlī ibn Abī ʿAlī al-Āmidī</note>
                <idno type="URI">https://usaybia.net/person/1317</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1317-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1892-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1892-1">al-Rabīʿ ibn Yūnus ibn ʿAbd Allāh ibn Abī Farwah</persName>
-               <persName xml:id="name1892-2" xml:lang="ar" srophe-tags="#syriaca-headword">الربيع بن يونس بن عبد الله بن أبي فروة</persName>
+                         source="#bib1892-1"
+                         resp="#mtolay">al-Rabīʿ ibn Yūnus ibn ʿAbd Allāh ibn Abī Farwah</persName>
+               <persName xml:id="name1892-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الربيع بن يونس بن عبد الله بن أبي فروة</persName>
                <note xml:id="abstract-en-1892"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1892-1">al-Rabīʿ ibn Yūnus ibn ʿAbd Allāh ibn Abī Farwah, chamberlain to al-Mansūr</note>
+                     source="#bib1892-1"
+                     resp="#mtolay">al-Rabīʿ ibn Yūnus ibn ʿAbd Allāh ibn Abī Farwah, chamberlain to al-Mansūr</note>
                <idno type="URI">https://usaybia.net/person/1892</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="chamberlain"
-                      source="#bib1892-1">
+                      source="#bib1892-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chamberlain</desc>
                </state>
                <bibl xml:id="bib1892-1">

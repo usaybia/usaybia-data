@@ -210,24 +210,30 @@
                <persName xml:id="name293-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib293-1">Abū Muslim Muḥammad ibn Baḥr</persName>
-               <persName xml:id="name293-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو مسلم محمد بن بحر</persName>
+                         source="#bib293-1"
+                         resp="#mtolay">Abū Muslim Muḥammad ibn Baḥr</persName>
+               <persName xml:id="name293-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو مسلم محمد بن بحر</persName>
                <note xml:id="abstract-en-293"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib293-1">Abū Muslim Muḥammad ibn Baḥr, physician</note>
+                     source="#bib293-1"
+                     resp="#mtolay">Abū Muslim Muḥammad ibn Baḥr, physician</note>
                <idno type="URI">https://usaybia.net/person/293</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib293-1">
+                      source="#bib293-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib293-1">

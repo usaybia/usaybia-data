@@ -206,30 +206,41 @@
                <persName xml:id="name1908-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1908-1">al-Raqqī al-Tiflīsī, Abū l-Qāsim ʿĪsā</persName>
-               <persName xml:id="name1908-2" xml:lang="ar" source="#bib1908-2">عيسى الرقي المعروف التفليسي</persName>
-               <persName xml:id="name1908-3" xml:lang="en-x-lhom" source="#bib1908-1">ʿĪsā al-Raqqī</persName>
+                         source="#bib1908-1"
+                         resp="#mtolay">al-Raqqī al-Tiflīsī, Abū l-Qāsim ʿĪsā</persName>
+               <persName xml:id="name1908-2"
+                         xml:lang="ar"
+                         source="#bib1908-2"
+                         resp="#rschmahl #mtolay">عيسى الرقي المعروف التفليسي</persName>
+               <persName xml:id="name1908-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1908-1"
+                         resp="#rschmahl #mtolay">ʿĪsā al-Raqqī</persName>
                <persName xml:id="name1908-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1908-1">عيسى الرقي المعروف بالتفليسي</persName>
-               <persName xml:id="name1908-5" xml:lang="ar">الرقي التفليسي أبو القاسم عيسى</persName>
+                         source="#bib1908-1"
+                         resp="#rschmahl #mtolay">عيسى الرقي المعروف بالتفليسي</persName>
+               <persName xml:id="name1908-5" xml:lang="ar" resp="#hfriedel">الرقي التفليسي أبو القاسم عيسى</persName>
                <note xml:id="abstract-en-1908"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1908-1">al-Raqqī al-Tiflīsī, Abū l-Qāsim ʿĪsā, physician and astronomer under Sayf al-Dawla Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī (`reg.` 333–356/944–67)</note>
+                     source="#bib1908-1"
+                     resp="#mtolay">al-Raqqī al-Tiflīsī, Abū l-Qāsim ʿĪsā, physician and astronomer under Sayf al-Dawla Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī (`reg.` 333–356/944–67)</note>
                <idno type="URI">https://usaybia.net/person/1908</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D9%8A%D8%B3%D9%89_%D8%A7%D9%84%D8%B1%D9%82%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D9%8A%D8%B3%D9%89_%D8%A7%D9%84%D8%B1%D9%82%D9%8A</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1908-1">
+                      source="#bib1908-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib1908-1">
+                      source="#bib1908-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib1908-1">

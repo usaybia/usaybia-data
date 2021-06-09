@@ -206,28 +206,42 @@
                <persName xml:id="name316-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib316-1">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān)</persName>
-               <persName xml:id="name316-2" xml:lang="en-x-lhom" source="#bib316-1">Abū l-Qāsim Hibat Allāh ibn al-Faḍl</persName>
+                         source="#bib316-1"
+                         resp="#mtolay">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān)</persName>
+               <persName xml:id="name316-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib316-1"
+                         resp="#rschmahl #mtolay">Abū l-Qāsim Hibat Allāh ibn al-Faḍl</persName>
                <persName xml:id="name316-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib316-1">أبو القاسم هبة ﷲ بن الفضل</persName>
-               <persName xml:id="name316-4" xml:lang="ar" source="#bib316-1">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān), poet and physician (d. 558/1163) 10.64.19.16; 10.68; ＡⅠⅠ.6</persName>
-               <persName xml:id="name316-5" xml:lang="ar">أبو القاسم هبت الله بن الفضل</persName>
+                         source="#bib316-1"
+                         resp="#rschmahl #mtolay">أبو القاسم هبة ﷲ بن الفضل</persName>
+               <persName xml:id="name316-4"
+                         xml:lang="ar"
+                         source="#bib316-1"
+                         resp="#rschmahl #mtolay">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān), poet and physician (d. 558/1163) 10.64.19.16; 10.68; ＡⅠⅠ.6</persName>
+               <persName xml:id="name316-5" xml:lang="ar" resp="#hfriedel">أبو القاسم هبت الله بن الفضل</persName>
                <note xml:id="abstract-en-316"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib316-1">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān), poet and physician (d. 558/1163)</note>
+                     source="#bib316-1"
+                     resp="#mtolay">Abū l-Qāsim Hibat Allāh ibn al-Faḍl (= Ibn al-Qaṭṭān), poet and physician (d. 558/1163)</note>
                <idno type="URI">https://usaybia.net/person/316</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9063</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%D9%8A_(%D8%B4%D8%A7%D8%B9%D8%B1)</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib316-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9063</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF%D9%8A_(%D8%B4%D8%A7%D8%B9%D8%B1)</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib316-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib316-1">
+                      source="#bib316-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib316-1">

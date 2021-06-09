@@ -206,17 +206,23 @@
                <persName xml:id="name1793-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1793-1">Otho</persName>
-               <persName xml:id="name1793-2" xml:lang="ar" srophe-tags="#syriaca-headword">أوثون</persName>
+                         source="#bib1793-1"
+                         resp="#fioppolo">Otho</persName>
+               <persName xml:id="name1793-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أوثون</persName>
                <note xml:id="abstract-en-1793"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1793-1">Otho, 1st-c. Roman emperor</note>
+                     source="#bib1793-1"
+                     resp="#fioppolo">Otho, 1st-c. Roman emperor</note>
                <idno type="URI">https://usaybia.net/person/1793</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib1793-1">
+                      source="#bib1793-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib1793-1">

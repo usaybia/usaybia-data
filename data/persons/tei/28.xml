@@ -210,18 +210,23 @@
                <persName xml:id="name28-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib28-1">ʿAbd Allāh al-Mahdī bi-Allāh</persName>
-               <persName xml:id="name28-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله المهدي بالله</persName>
+                         source="#bib28-1"
+                         resp="#fioppolo">ʿAbd Allāh al-Mahdī bi-Allāh</persName>
+               <persName xml:id="name28-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الله المهدي بالله</persName>
                <note xml:id="abstract-en-28"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib28-1">ʿAbd Allāh al-Mahdī bi-Allāh, founder of the Fatimid caliphate</note>
+                     source="#bib28-1"
+                     resp="#fioppolo">ʿAbd Allāh al-Mahdī bi-Allāh, founder of the Fatimid caliphate</note>
                <idno type="URI">https://usaybia.net/person/28</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib28-1">

@@ -206,24 +206,30 @@
                <persName xml:id="name13-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib13-1">ʿAbd Allāh ibn al-ʿAbbās (commonly Ibn ʿAbbās)</persName>
-               <persName xml:id="name13-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله ابن العباس (ابن عباس)</persName>
+                         source="#bib13-1"
+                         resp="#fioppolo">ʿAbd Allāh ibn al-ʿAbbās (commonly Ibn ʿAbbās)</persName>
+               <persName xml:id="name13-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#ngibson">عبد الله ابن العباس (ابن عباس)</persName>
                <note xml:id="abstract-en-13"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib13-1">ʿAbd Allāh ibn al-ʿAbbās (commonly Ibn ʿAbbās), 1st/7th-c. Qurʾanic exegete, eponymous ancestor of the Abbasid caliphs</note>
+                     source="#bib13-1"
+                     resp="#fioppolo">ʿAbd Allāh ibn al-ʿAbbās (commonly Ibn ʿAbbās), 1st/7th-c. Qurʾanic exegete, eponymous ancestor of the Abbasid caliphs</note>
                <idno type="URI">https://usaybia.net/person/13</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="exegete"
-                      source="#bib13-1">
+                      source="#bib13-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>exegete</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib13-1">

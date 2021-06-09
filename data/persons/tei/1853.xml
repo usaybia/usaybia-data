@@ -206,17 +206,23 @@
                <persName xml:id="name1853-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1853-1">Ptolemy the Physician</persName>
-               <persName xml:id="name1853-2" xml:lang="ar" srophe-tags="#syriaca-headword">بطلميوس الطبيب</persName>
+                         source="#bib1853-1"
+                         resp="#mtolay">Ptolemy the Physician</persName>
+               <persName xml:id="name1853-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بطلميوس الطبيب</persName>
                <note xml:id="abstract-en-1853"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1853-1">Ptolemy the Physician</note>
+                     source="#bib1853-1"
+                     resp="#mtolay">Ptolemy the Physician</note>
                <idno type="URI">https://usaybia.net/person/1853</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="Physician"
-                      source="#bib1853-1">
+                      source="#bib1853-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>Physician</desc>
                </state>
                <bibl xml:id="bib1853-1">

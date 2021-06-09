@@ -210,28 +210,35 @@
                <persName xml:id="name110-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib110-1">Abū l-ʿArab Yūsuf ibn Muḥammad</persName>
+                         source="#bib110-1"
+                         resp="#rschmahl #rschmahl #mtolay">Abū l-ʿArab Yūsuf ibn Muḥammad</persName>
                <persName xml:id="name110-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib110-1">أبو العرب يوسف بن محمد</persName>
-               <persName xml:id="name110-4" xml:lang="ar" source="#bib110-1">Abū l-ʿArab Yūsuf ibn Muḥammad, Andalusian physician 13.37</persName>
+                         source="#bib110-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو العرب يوسف بن محمد</persName>
+               <persName xml:id="name110-4"
+                         xml:lang="ar"
+                         source="#bib110-1"
+                         resp="#rschmahl #mtolay">Abū l-ʿArab Yūsuf ibn Muḥammad, Andalusian physician 13.37</persName>
                <note xml:id="abstract-en-110"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib110-1">Abū l-ʿArab Yūsuf ibn Muḥammad, Andalusian physician</note>
+                     source="#bib110-1"
+                     resp="#rschmahl">Abū l-ʿArab Yūsuf ibn Muḥammad, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/110</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib110-1">
+                      source="#bib110-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib110-1">

@@ -206,18 +206,26 @@
                <persName xml:id="name465-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib465-1">ʿAlī ibn Abī Ṭālib</persName>
-               <persName xml:id="name465-2" xml:lang="ar" source="#bib465-2">على بن ابى طالب</persName>
-               <persName xml:id="name465-3" xml:lang="ar" srophe-tags="#syriaca-headword">علي بن أبي طالب</persName>
+                         source="#bib465-1"
+                         resp="#fioppolo">ʿAlī ibn Abī Ṭālib</persName>
+               <persName xml:id="name465-2"
+                         xml:lang="ar"
+                         source="#bib465-2"
+                         resp="#rschmahl #mtolay">على بن ابى طالب</persName>
+               <persName xml:id="name465-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">علي بن أبي طالب</persName>
                <note xml:id="abstract-en-465"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib465-1">ʿAlī ibn Abī Ṭālib, cousin and son-in-law of the Prophet Muḥammad, last of the ‘Rightly Guided’ caliphs</note>
+                     source="#bib465-1"
+                     resp="#fioppolo">ʿAlī ibn Abī Ṭālib, cousin and son-in-law of the Prophet Muḥammad, last of the ‘Rightly Guided’ caliphs</note>
                <idno type="URI">https://usaybia.net/person/465</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B7%D8%A7%D9%84%D8%A8</idno>
-               <idno type="URI">https://viaf.org/viaf/34436377</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0046</idno>
-               <idno type="URI">http://www.iranicaonline.org/articles/ali-b-abi-taleb#pt2</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%A3%D8%A8%D9%8A_%D8%B7%D8%A7%D9%84%D8%A8</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/34436377</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_0046</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://www.iranicaonline.org/articles/ali-b-abi-taleb#pt2</idno>
                <bibl xml:id="bib465-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

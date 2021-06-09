@@ -210,32 +210,45 @@
                <persName xml:id="name167-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib167-1">Abū l-Faraj (al-Naṣrānī)</persName>
-               <persName xml:id="name167-2" xml:lang="ar" source="#bib167-2">أبو الفرج النصرانى الطبيب</persName>
-               <persName xml:id="name167-3" xml:lang="en-x-lhom" source="#bib167-1">Abū l-Faraj al-Naṣrānī (the Christian)</persName>
+                         source="#bib167-1"
+                         resp="#rschmahl">Abū l-Faraj (al-Naṣrānī)</persName>
+               <persName xml:id="name167-2"
+                         xml:lang="ar"
+                         source="#bib167-2"
+                         resp="#rschmahl #mtolay">أبو الفرج النصرانى الطبيب</persName>
+               <persName xml:id="name167-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib167-1"
+                         resp="#rschmahl #mtolay">Abū l-Faraj al-Naṣrānī (the Christian)</persName>
                <persName xml:id="name167-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib167-1">أبو الفرج النصراني</persName>
+                         source="#bib167-1"
+                         resp="#rschmahl #mtolay #hfriedel">أبو الفرج النصراني</persName>
                <note xml:id="abstract-en-167"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib167-1">Abū l-Faraj (al-Naṣrānī), Christian physician serving under Ṣalāḥ al-Dīn and al-Malik al-Afḍal Nūr al-Dīn ʿAlī</note>
+                     source="#bib167-1"
+                     resp="#rschmahl">Abū l-Faraj (al-Naṣrānī), Christian physician serving under Ṣalāḥ al-Dīn and al-Malik al-Afḍal Nūr al-Dīn ʿAlī</note>
                <idno type="URI">https://usaybia.net/person/167</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib167-1">
+                      source="#bib167-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib167-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib167-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib167-1">

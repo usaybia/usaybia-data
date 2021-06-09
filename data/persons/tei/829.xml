@@ -210,24 +210,30 @@
                <persName xml:id="name829-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib829-1">al-Ḥārith ibn Buskhunnār</persName>
-               <persName xml:id="name829-2" xml:lang="ar" srophe-tags="#syriaca-headword">الحارث بن بسخنار</persName>
+                         source="#bib829-1"
+                         resp="#fioppolo">al-Ḥārith ibn Buskhunnār</persName>
+               <persName xml:id="name829-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الحارث بن بسخنار</persName>
                <note xml:id="abstract-en-829"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib829-1">al-Ḥārith ibn Buskhunnār, Khorasanian prince (141/758–759)</note>
+                     source="#bib829-1"
+                     resp="#fioppolo">al-Ḥārith ibn Buskhunnār, Khorasanian prince (141/758–759)</note>
                <idno type="URI">https://usaybia.net/person/829</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib829-1">
+                      source="#bib829-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib829-1">

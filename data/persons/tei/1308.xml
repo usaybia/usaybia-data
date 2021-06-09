@@ -206,23 +206,30 @@
                <persName xml:id="name1308-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1308-1">al-Jahshiyārī</persName>
-               <persName xml:id="name1308-2" xml:lang="ar" srophe-tags="#syriaca-headword">الجهشياري</persName>
+                         source="#bib1308-1"
+                         resp="#rschmahl">al-Jahshiyārī</persName>
+               <persName xml:id="name1308-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الجهشياري</persName>
                <note xml:id="abstract-en-1308"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1308-1">al-Jahshiyārī, Abū ʿAbd Allāh, 4th/10th-c. man of letters, historian</note>
+                     source="#bib1308-1"
+                     resp="#rschmahl">al-Jahshiyārī, Abū ʿAbd Allāh, 4th/10th-c. man of letters, historian</note>
                <idno type="URI">https://usaybia.net/person/1308</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="man of letters"
-                      source="#bib1308-1">
+                      source="#bib1308-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>man of letters</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib1308-1">
+                      source="#bib1308-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <bibl xml:id="bib1308-1">

@@ -210,21 +210,30 @@
                <persName xml:id="name607-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib607-1">al-Badīhī, Abū l-Ḥasan ʿAlī ibn Muḥammad</persName>
-               <persName xml:id="name607-2" xml:lang="ar" srophe-tags="#syriaca-headword">البديهي أبو الحسن علي بن محمد</persName>
+                         source="#bib607-1"
+                         resp="#fioppolo">al-Badīhī, Abū l-Ḥasan ʿAlī ibn Muḥammad</persName>
+               <persName xml:id="name607-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">البديهي أبو الحسن علي بن محمد</persName>
                <note xml:id="abstract-en-607"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib607-1">al-Badīhī, Abū l-Ḥasan ʿAlī ibn Muḥammad, 4th/10th-c. poet</note>
+                     source="#bib607-1"
+                     resp="#fioppolo">al-Badīhī, Abū l-Ḥasan ʿAlī ibn Muḥammad, 4th/10th-c. poet</note>
                <idno type="URI">https://usaybia.net/person/607</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib607-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib607-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib607-1">

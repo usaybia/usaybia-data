@@ -210,21 +210,30 @@
                <persName xml:id="name2364-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2364-1">al-Zawzanī, ʿAbd Allāh ibn Muḥammad ibn Yūsuf al-ʿAbdalakānī</persName>
-               <persName xml:id="name2364-2" xml:lang="ar" srophe-tags="#syriaca-headword">الزوزني، عبد الله بن محمد بن يوسف العبدلكاني</persName>
+                         source="#bib2364-1"
+                         resp="#mtolay">al-Zawzanī, ʿAbd Allāh ibn Muḥammad ibn Yūsuf al-ʿAbdalakānī</persName>
+               <persName xml:id="name2364-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الزوزني، عبد الله بن محمد بن يوسف العبدلكاني</persName>
                <note xml:id="abstract-en-2364"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2364-1">al-Zawzanī, ʿAbd Allāh ibn Muḥammad ibn Yūsuf al-ʿAbdalakānī (d. 431/1040), poet</note>
+                     source="#bib2364-1"
+                     resp="#mtolay">al-Zawzanī, ʿAbd Allāh ibn Muḥammad ibn Yūsuf al-ʿAbdalakānī (d. 431/1040), poet</note>
                <idno type="URI">https://usaybia.net/person/2364</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib2364-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib2364-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2364-1">

@@ -210,25 +210,34 @@
                <persName xml:id="name2085-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2085-1">Shihāb al-Dīn ibn al-ʿĀlimah</persName>
-               <persName xml:id="name2085-2" xml:lang="ar" source="#bib2085-2">شهاب الدين بن العالمة القاضي</persName>
-               <persName xml:id="name2085-3" xml:lang="ar" srophe-tags="#syriaca-headword">شهاب الدين بن العالمة</persName>
+                         source="#bib2085-1"
+                         resp="#mtolay">Shihāb al-Dīn ibn al-ʿĀlimah</persName>
+               <persName xml:id="name2085-2"
+                         xml:lang="ar"
+                         source="#bib2085-2"
+                         resp="#rschmahl #mtolay">شهاب الدين بن العالمة القاضي</persName>
+               <persName xml:id="name2085-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شهاب الدين بن العالمة</persName>
                <note xml:id="abstract-en-2085"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2085-1">Shihāb al-Dīn ibn al-ʿĀlimah, judge, halfbrother of Najm al-Dīn ibn al-Minfākh</note>
+                     source="#bib2085-1"
+                     resp="#mtolay">Shihāb al-Dīn ibn al-ʿĀlimah, judge, halfbrother of Najm al-Dīn ibn al-Minfākh</note>
                <idno type="URI">https://usaybia.net/person/2085</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="judge"
-                      source="#bib2085-1">
+                      source="#bib2085-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>judge</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2085-1">

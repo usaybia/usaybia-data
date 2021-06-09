@@ -210,24 +210,30 @@
                <persName xml:id="name1689-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1689-1">al-Mustanṣir bi-Allāh (Abū Jaʿfar al-Mustanṣir al-Manṣūr ibn al-Ẓāhir)</persName>
-               <persName xml:id="name1689-2" xml:lang="ar" srophe-tags="#syriaca-headword">المستنصر بالله أبو جعفر المستنصر المنصور بن الظاهر</persName>
+                         source="#bib1689-1"
+                         resp="#fioppolo">al-Mustanṣir bi-Allāh (Abū Jaʿfar al-Mustanṣir al-Manṣūr ibn al-Ẓāhir)</persName>
+               <persName xml:id="name1689-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">المستنصر بالله أبو جعفر المستنصر المنصور بن الظاهر</persName>
                <note xml:id="abstract-en-1689"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1689-1">al-Mustanṣir bi-Allāh (Abū Jaʿfar al-Mustanṣir al-Manṣūr ibn al-Ẓāhir), Abbasid caliph (`reg.` 623–640/1226–1242)</note>
+                     source="#bib1689-1"
+                     resp="#fioppolo">al-Mustanṣir bi-Allāh (Abū Jaʿfar al-Mustanṣir al-Manṣūr ibn al-Ẓāhir), Abbasid caliph (`reg.` 623–640/1226–1242)</note>
                <idno type="URI">https://usaybia.net/person/1689</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib1689-1">
+                      source="#bib1689-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1689-1">

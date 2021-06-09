@@ -210,21 +210,30 @@
                <persName xml:id="name1440-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1440-1">Allāh ibn ʿAlī Majd al-Dīn Majd al-Dawlah, Rustam</persName>
-               <persName xml:id="name1440-2" xml:lang="ar" srophe-tags="#syriaca-headword">الله بن علي مجد الدين مجد الدولة رستم</persName>
+                         source="#bib1440-1"
+                         resp="#fioppolo">Allāh ibn ʿAlī Majd al-Dīn Majd al-Dawlah, Rustam</persName>
+               <persName xml:id="name1440-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الله بن علي مجد الدين مجد الدولة رستم</persName>
                <note xml:id="abstract-en-1440"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1440-1">Allāh ibn ʿAlī Majd al-Dīn Majd al-Dawlah, Rustam, Būyid emir of Rayy and the Jibāl (`reg.` 387–420/997–1029)</note>
+                     source="#bib1440-1"
+                     resp="#fioppolo">Allāh ibn ʿAlī Majd al-Dīn Majd al-Dawlah, Rustam, Būyid emir of Rayy and the Jibāl (`reg.` 387–420/997–1029)</note>
                <idno type="URI">https://usaybia.net/person/1440</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib1440-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib1440-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1440-1">

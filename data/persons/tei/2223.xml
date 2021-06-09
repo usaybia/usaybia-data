@@ -206,20 +206,26 @@
                <persName xml:id="name2223-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2223-1">Thomas of Edessa (Tūmā al-Ruhāwī)</persName>
-               <persName xml:id="name2223-2" xml:lang="en-x-lhom" source="#bib2223-1">Tūmā al-Ruhāwī (Thomas of Edessa)</persName>
+                         source="#bib2223-1"
+                         resp="#mtolay">Thomas of Edessa (Tūmā al-Ruhāwī)</persName>
+               <persName xml:id="name2223-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2223-1"
+                         resp="#rschmahl #mtolay">Tūmā al-Ruhāwī (Thomas of Edessa)</persName>
                <persName xml:id="name2223-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2223-1">توما الرهاوي</persName>
-               <persName xml:id="name2223-4" xml:lang="ar">تومى الرهاوي</persName>
+                         source="#bib2223-1"
+                         resp="#rschmahl #mtolay">توما الرهاوي</persName>
+               <persName xml:id="name2223-4" xml:lang="ar" resp="#hfriedel">تومى الرهاوي</persName>
                <note xml:id="abstract-en-2223"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2223-1">Thomas of Edessa (Tūmā al-Ruhāwī), contemporary of Ḥunayn ibn Isḥāq</note>
+                     source="#bib2223-1"
+                     resp="#mtolay">Thomas of Edessa (Tūmā al-Ruhāwī), contemporary of Ḥunayn ibn Isḥāq</note>
                <idno type="URI">https://usaybia.net/person/2223</idno>
-               <idno type="URI">https://viaf.org/viaf/20035596</idno>
-               <idno type="URI">http://syriaca.org/person/795</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/20035596</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/795</idno>
                <bibl xml:id="bib2223-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

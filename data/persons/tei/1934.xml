@@ -210,28 +210,38 @@
                <persName xml:id="name1934-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1934-1">Sābūr ibn Sahl</persName>
+                         source="#bib1934-1"
+                         resp="#mtolay #rschmahl #mtolay">Sābūr ibn Sahl</persName>
                <persName xml:id="name1934-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1934-2 #bib1934-1">سابور بن سهل</persName>
-               <persName xml:id="name1934-5" xml:lang="ar" source="#bib1934-1">Sābūr ibn Sahl, early 3rd/9th-c. Christian physician 8.15.1; 8.16; 8.26.6n</persName>
+                         source="#bib1934-2 #bib1934-1"
+                         resp="#rschmahl #mtolay #hfriedel">سابور بن سهل</persName>
+               <persName xml:id="name1934-5"
+                         xml:lang="ar"
+                         source="#bib1934-1"
+                         resp="#rschmahl #mtolay">Sābūr ibn Sahl, early 3rd/9th-c. Christian physician 8.15.1; 8.16; 8.26.6n</persName>
                <note xml:id="abstract-en-1934"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1934-1">Sābūr ibn Sahl, early 3rd/9th-c. Christian physician</note>
+                     source="#bib1934-1"
+                     resp="#mtolay">Sābūr ibn Sahl, early 3rd/9th-c. Christian physician</note>
                <idno type="URI">https://usaybia.net/person/1934</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4122</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B3%D8%A7%D8%A8%D9%88%D8%B1_%D8%A8%D9%86_%D8%B3%D9%87%D9%84</idno>
-               <idno type="URI">https://viaf.org/viaf/98173192/#Sābūr_ibn_Sahl,_-869</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6389</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4122</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B3%D8%A7%D8%A8%D9%88%D8%B1_%D8%A8%D9%86_%D8%B3%D9%87%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/98173192/#Sābūr_ibn_Sahl,_-869</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_6389</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1934-1">
+                      source="#bib1934-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1934-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1934-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1934-1">

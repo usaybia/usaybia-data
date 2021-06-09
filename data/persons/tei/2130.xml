@@ -206,17 +206,23 @@
                <persName xml:id="name2130-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2130-1">Sophus</persName>
-               <persName xml:id="name2130-2" xml:lang="ar" srophe-tags="#syriaca-headword">سوفوس</persName>
+                         source="#bib2130-1"
+                         resp="#mtolay">Sophus</persName>
+               <persName xml:id="name2130-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سوفوس</persName>
                <note xml:id="abstract-en-2130"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2130-1">Sophus, Dogmatic physician of antiquity</note>
+                     source="#bib2130-1"
+                     resp="#mtolay">Sophus, Dogmatic physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/2130</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2130-1">
+                      source="#bib2130-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2130-1">

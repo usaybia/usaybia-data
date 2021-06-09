@@ -206,17 +206,29 @@
                <persName xml:id="name1445-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1445-1">Majnūn Laylā, Qays ibn al-Mulawwaḥ</persName>
-               <persName xml:id="name1445-2" xml:lang="ar" source="#bib1445-2">علم الدين قيصر بن ابي القاسم بن الغني بن مسافر الحنفي المهندس</persName>
-               <persName xml:id="name1445-3" xml:lang="ar" srophe-tags="#syriaca-headword">مجنون ليلى قيس بن الملوح</persName>
+                         source="#bib1445-1"
+                         resp="#fioppolo">Majnūn Laylā, Qays ibn al-Mulawwaḥ</persName>
+               <persName xml:id="name1445-2"
+                         xml:lang="ar"
+                         source="#bib1445-2"
+                         resp="#rschmahl #mtolay">علم الدين قيصر بن ابي القاسم بن الغني بن مسافر الحنفي المهندس</persName>
+               <persName xml:id="name1445-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مجنون ليلى قيس بن الملوح</persName>
                <note xml:id="abstract-en-1445"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1445-1">Majnūn Laylā, Qays ibn al-Mulawwaḥ, 1st/7th-c. poet</note>
+                     source="#bib1445-1"
+                     resp="#fioppolo">Majnūn Laylā, Qays ibn al-Mulawwaḥ, 1st/7th-c. poet</note>
                <idno type="URI">https://usaybia.net/person/1445</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%82%D9%8A%D8%B5%D8%B1_%D8%AA%D8%B9%D8%A7%D8%B3%D9%8A%D9%81</idno>
-               <idno type="URI">https://viaf.org/viaf/90082864</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1445-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%82%D9%8A%D8%B5%D8%B1_%D8%AA%D8%B9%D8%A7%D8%B3%D9%8A%D9%81</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90082864</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1445-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1445-1">

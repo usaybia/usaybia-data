@@ -210,28 +210,37 @@
                <persName xml:id="name22-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib22-1">ʿAbd Allāh ibn Muḥammad al-Umawī</persName>
-               <persName xml:id="name22-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله بن محمد الأموي</persName>
+                         source="#bib22-1"
+                         resp="#fioppolo">ʿAbd Allāh ibn Muḥammad al-Umawī</persName>
+               <persName xml:id="name22-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الله بن محمد الأموي</persName>
                <note xml:id="abstract-en-22"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib22-1">ʿAbd Allāh ibn Muḥammad al-Umawī, emir of al-Andalus</note>
+                     source="#bib22-1"
+                     resp="#fioppolo">ʿAbd Allāh ibn Muḥammad al-Umawī, emir of al-Andalus</note>
                <idno type="URI">https://usaybia.net/person/22</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib22-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib22-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib22-1">

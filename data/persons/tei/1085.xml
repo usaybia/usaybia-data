@@ -206,29 +206,37 @@
                <persName xml:id="name1085-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1085-1">Ibn al-Qifṭī</persName>
-               <persName xml:id="name1085-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن القفطي</persName>
+                         source="#bib1085-1"
+                         resp="#rschmahl">Ibn al-Qifṭī</persName>
+               <persName xml:id="name1085-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن القفطي</persName>
                <note xml:id="abstract-en-1085"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1085-1">Ibn al-Qifṭī, Jamāl al-Dīn Abū l-Ḥasan ʿAlī ibn Yūsuf ibn Ibrāhīm ibn ʿAbd al-Wāḥid al-Shaybānī, vizier and biographer author of `Ikhbār al-ʿulamāʾ bi-akhbār al-ḥukamāʾ` commonly referred to as `Tārīkh al- ḥukamāʾ` (d. 646/1248)</note>
+                     source="#bib1085-1"
+                     resp="#rschmahl">Ibn al-Qifṭī, Jamāl al-Dīn Abū l-Ḥasan ʿAlī ibn Yūsuf ibn Ibrāhīm ibn ʿAbd al-Wāḥid al-Shaybānī, vizier and biographer author of `Ikhbār al-ʿulamāʾ bi-akhbār al-ḥukamāʾ` commonly referred to as `Tārīkh al- ḥukamāʾ` (d. 646/1248)</note>
                <idno type="URI">https://usaybia.net/person/1085</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1085-1">
+                      source="#bib1085-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="biographer"
-                      source="#bib1085-1">
+                      source="#bib1085-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>biographer</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1085-1">
+                      source="#bib1085-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1085-1">

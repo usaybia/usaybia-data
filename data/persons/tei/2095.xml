@@ -210,20 +210,29 @@
                <persName xml:id="name2095-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2095-1">Shuʿayb</persName>
-               <persName xml:id="name2095-2" xml:lang="ar" srophe-tags="#syriaca-headword">شعيب</persName>
+                         source="#bib2095-1"
+                         resp="#mtolay">Shuʿayb</persName>
+               <persName xml:id="name2095-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شعيب</persName>
                <note xml:id="abstract-en-2095"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2095-1">Shuʿayb, Jewish astrologer</note>
+                     source="#bib2095-1"
+                     resp="#mtolay">Shuʿayb, Jewish astrologer</note>
                <idno type="URI">https://usaybia.net/person/2095</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astrologer"
-                      source="#bib2095-1">
+                      source="#bib2095-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astrologer</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2095-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2095-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib2095-1">

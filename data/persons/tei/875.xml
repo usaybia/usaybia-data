@@ -206,17 +206,23 @@
                <persName xml:id="name875-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib875-1">Herodotus</persName>
-               <persName xml:id="name875-2" xml:lang="ar" srophe-tags="#syriaca-headword">ارودوطس</persName>
+                         source="#bib875-1"
+                         resp="#mtolay">Herodotus</persName>
+               <persName xml:id="name875-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ارودوطس</persName>
                <note xml:id="abstract-en-875"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib875-1">Herodotus, 1st–2nd-c. physician at Rome</note>
+                     source="#bib875-1"
+                     resp="#mtolay">Herodotus, 1st–2nd-c. physician at Rome</note>
                <idno type="URI">https://usaybia.net/person/875</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib875-1">
+                      source="#bib875-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib875-1">

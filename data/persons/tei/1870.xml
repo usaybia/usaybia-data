@@ -206,17 +206,23 @@
                <persName xml:id="name1870-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1870-1">Qayḍā al-Ruhāwī</persName>
-               <persName xml:id="name1870-2" xml:lang="ar" srophe-tags="#syriaca-headword">قيضى الرهاوي</persName>
+                         source="#bib1870-1"
+                         resp="#mtolay">Qayḍā al-Ruhāwī</persName>
+               <persName xml:id="name1870-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">قيضى الرهاوي</persName>
                <note xml:id="abstract-en-1870"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1870-1">Qayḍā al-Ruhāwī, translator associate of Ḥunayn ibn Isḥāq</note>
+                     source="#bib1870-1"
+                     resp="#mtolay">Qayḍā al-Ruhāwī, translator associate of Ḥunayn ibn Isḥāq</note>
                <idno type="URI">https://usaybia.net/person/1870</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1870-1">
+                      source="#bib1870-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <bibl xml:id="bib1870-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name250-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib250-1">Abū Jurayq (the Monk)</persName>
-               <persName xml:id="name250-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو جريق الراهب</persName>
+                         source="#bib250-1"
+                         resp="#mtolay">Abū Jurayq (the Monk)</persName>
+               <persName xml:id="name250-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو جريق الراهب</persName>
                <note xml:id="abstract-en-250"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib250-1">Abū Jurayq (the Monk), late-antique medical writer</note>
+                     source="#bib250-1"
+                     resp="#mtolay">Abū Jurayq (the Monk), late-antique medical writer</note>
                <idno type="URI">https://usaybia.net/person/250</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib250-1">
+                      source="#bib250-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib250-1">

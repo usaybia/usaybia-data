@@ -210,21 +210,30 @@
                <persName xml:id="name2015-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2015-1">Sayf al-Dawlah Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī</persName>
-               <persName xml:id="name2015-2" xml:lang="ar" srophe-tags="#syriaca-headword">سيف الدولة أبو الحسن علي بن عبد الله بن حمدان التغلبي</persName>
+                         source="#bib2015-1"
+                         resp="#mtolay">Sayf al-Dawlah Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī</persName>
+               <persName xml:id="name2015-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سيف الدولة أبو الحسن علي بن عبد الله بن حمدان التغلبي</persName>
                <note xml:id="abstract-en-2015"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2015-1">Sayf al-Dawlah Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī, Ḥamdānid emir (`reg.` 333–356/944–67)</note>
+                     source="#bib2015-1"
+                     resp="#mtolay">Sayf al-Dawlah Abū l-Ḥasan ʿAlī ibn ʿAbd Allāh ibn Ḥamdān al-Taghlibī, Ḥamdānid emir (`reg.` 333–356/944–67)</note>
                <idno type="URI">https://usaybia.net/person/2015</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib2015-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib2015-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2015-1">

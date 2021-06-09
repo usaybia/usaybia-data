@@ -206,42 +206,54 @@
                <persName xml:id="name1125-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1125-1">Ibn Sīnā</persName>
-               <persName xml:id="name1125-2" xml:lang="ar" source="#bib1125-2">ابن سينا ابو علي الحسين الشيخ الرئيس</persName>
-               <persName xml:id="name1125-3" xml:lang="en-x-lhom" source="#bib1125-1">al-Shaykh al-Raʾīs Ibn Sīnā</persName>
+                         source="#bib1125-1"
+                         resp="#rschmahl">Ibn Sīnā</persName>
+               <persName xml:id="name1125-2"
+                         xml:lang="ar"
+                         source="#bib1125-2"
+                         resp="#rschmahl #mtolay">ابن سينا ابو علي الحسين الشيخ الرئيس</persName>
+               <persName xml:id="name1125-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1125-1"
+                         resp="#rschmahl #mtolay">al-Shaykh al-Raʾīs Ibn Sīnā</persName>
                <persName xml:id="name1125-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1125-1">الشيخ الرئيس بن سينا</persName>
-               <persName xml:id="name1125-5" xml:lang="ar">ابن سينا</persName>
+                         source="#bib1125-1"
+                         resp="#rschmahl #mtolay">الشيخ الرئيس بن سينا</persName>
+               <persName xml:id="name1125-5" xml:lang="ar" resp="#hfriedel">ابن سينا</persName>
                <note xml:id="abstract-en-1125"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1125-1">Ibn Sīnā, Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh al-Shaykh al-Raʾīs (d. 428/1037)</note>
+                     source="#bib1125-1"
+                     resp="#rschmahl">Ibn Sīnā, Abū ʿAlī al-Ḥusayn ibn ʿAbd Allāh al-Shaykh al-Raʾīs (d. 428/1037)</note>
                <idno type="URI">https://usaybia.net/person/1125</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30190</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/13056</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%8A%D9%86%D8%A7</idno>
-               <idno type="URI">https://viaf.org/viaf/89770781</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_COM_0342</idno>
-               <idno type="URI">http://www.iranicaonline.org/articles/avicenna-index</idno>
-               <idno type="URI">https://plato.stanford.edu/entries/ibn-sina/</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30190</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13056</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%8A%D9%86%D8%A7</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/89770781</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_COM_0342</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://www.iranicaonline.org/articles/avicenna-index</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://plato.stanford.edu/entries/ibn-sina/</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1125-1">
+                      source="#bib1125-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1125-1">
+                      source="#bib1125-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1125-1">
+                      source="#bib1125-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1125-1">

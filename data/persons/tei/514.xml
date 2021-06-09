@@ -206,14 +206,23 @@
                <persName xml:id="name514-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib514-1">Amyntas</persName>
-               <persName xml:id="name514-2" xml:lang="ar" srophe-tags="#syriaca-headword">أمنطس</persName>
+                         source="#bib514-1"
+                         resp="#fioppolo">Amyntas</persName>
+               <persName xml:id="name514-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أمنطس</persName>
                <note xml:id="abstract-en-514"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib514-1">Amyntas, ancient Macedonian king</note>
+                     source="#bib514-1"
+                     resp="#fioppolo">Amyntas, ancient Macedonian king</note>
                <idno type="URI">https://usaybia.net/person/514</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib514-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib514-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib514-1">

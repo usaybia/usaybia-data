@@ -210,30 +210,37 @@
                <persName xml:id="name1567-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1567-1">Mīkhāʾīl ibn Māsawayh</persName>
+                         source="#bib1567-1"
+                         resp="#fioppolo #rschmahl #mtolay">Mīkhāʾīl ibn Māsawayh</persName>
                <persName xml:id="name1567-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1567-2 #bib1567-1">ميخائيل بن ماسويه</persName>
-               <persName xml:id="name1567-5" xml:lang="ar" source="#bib1567-1">Mīkhāʾīl ibn Māsawayh, personal physician to al-Maʾmūn, brother of Yūḥannā ibn Māsawayh 8.25.1; 8.27; 8.29.3n</persName>
-               <persName xml:id="name1567-6" xml:lang="ar">ميجائل بن ماسويه</persName>
+                         source="#bib1567-2 #bib1567-1"
+                         resp="#rschmahl #mtolay">ميخائيل بن ماسويه</persName>
+               <persName xml:id="name1567-5"
+                         xml:lang="ar"
+                         source="#bib1567-1"
+                         resp="#rschmahl #mtolay">Mīkhāʾīl ibn Māsawayh, personal physician to al-Maʾmūn, brother of Yūḥannā ibn Māsawayh 8.25.1; 8.27; 8.29.3n</persName>
+               <persName xml:id="name1567-6" xml:lang="ar" resp="#hfriedel">ميجائل بن ماسويه</persName>
                <note xml:id="abstract-en-1567"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1567-1">Mīkhāʾīl ibn Māsawayh, personal physician to al-Maʾmūn, brother of Yūḥannā ibn Māsawayh</note>
+                     source="#bib1567-1"
+                     resp="#fioppolo">Mīkhāʾīl ibn Māsawayh, personal physician to al-Maʾmūn, brother of Yūḥannā ibn Māsawayh</note>
                <idno type="URI">https://usaybia.net/person/1567</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4130</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4130</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1567-1">
+                      source="#bib1567-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1567-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1819-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1819-1">Philagrius</persName>
-               <persName xml:id="name1819-2" xml:lang="ar" srophe-tags="#syriaca-headword">بلغريوس</persName>
+                         source="#bib1819-1"
+                         resp="#fioppolo">Philagrius</persName>
+               <persName xml:id="name1819-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بلغريوس</persName>
                <note xml:id="abstract-en-1819"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1819-1">Philagrius, 3rd–4th-c. medical author</note>
+                     source="#bib1819-1"
+                     resp="#fioppolo">Philagrius, 3rd–4th-c. medical author</note>
                <idno type="URI">https://usaybia.net/person/1819</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="medical author"
-                      source="#bib1819-1">
+                      source="#bib1819-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>medical author</desc>
                </state>
                <bibl xml:id="bib1819-1">

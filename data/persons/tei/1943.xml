@@ -210,27 +210,39 @@
                <persName xml:id="name1943-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1943-1">Ṣadaqah ibn Manjā ibn Ṣadaqah al-Sāmirī</persName>
-               <persName xml:id="name1943-2" xml:lang="ar" source="#bib1943-2">صدقة بن منجا بن صدقة السامري</persName>
-               <persName xml:id="name1943-3" xml:lang="en-x-lhom" source="#bib1943-1">Ṣadaqah al-Sāmirī</persName>
+                         source="#bib1943-1"
+                         resp="#mtolay">Ṣadaqah ibn Manjā ibn Ṣadaqah al-Sāmirī</persName>
+               <persName xml:id="name1943-2"
+                         xml:lang="ar"
+                         source="#bib1943-2"
+                         resp="#rschmahl #mtolay">صدقة بن منجا بن صدقة السامري</persName>
+               <persName xml:id="name1943-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1943-1"
+                         resp="#rschmahl #mtolay">Ṣadaqah al-Sāmirī</persName>
                <persName xml:id="name1943-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1943-1">صدقة السامري</persName>
-               <persName xml:id="name1943-5" xml:lang="ar">صدقة بن منجى بن صدقة السامري</persName>
+                         source="#bib1943-1"
+                         resp="#rschmahl #mtolay">صدقة السامري</persName>
+               <persName xml:id="name1943-5" xml:lang="ar" resp="#hfriedel">صدقة بن منجى بن صدقة السامري</persName>
                <note xml:id="abstract-en-1943"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1943-1">Ṣadaqah ibn Manjā ibn Ṣadaqah al-Sāmirī</note>
+                     source="#bib1943-1"
+                     resp="#mtolay">Ṣadaqah ibn Manjā ibn Ṣadaqah al-Sāmirī</note>
                <idno type="URI">https://usaybia.net/person/1943</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Samaritan</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1943-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1943-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Samaritan</label>
                </state>
                <bibl xml:id="bib1943-1">

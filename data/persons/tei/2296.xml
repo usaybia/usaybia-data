@@ -206,14 +206,23 @@
                <persName xml:id="name2296-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2296-1">Yabūlūs</persName>
-               <persName xml:id="name2296-2" xml:lang="ar" srophe-tags="#syriaca-headword">يبولوس</persName>
+                         source="#bib2296-1"
+                         resp="#mtolay">Yabūlūs</persName>
+               <persName xml:id="name2296-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يبولوس</persName>
                <note xml:id="abstract-en-2296"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2296-1">Yabūlūs, unidentified Roman king</note>
+                     source="#bib2296-1"
+                     resp="#mtolay">Yabūlūs, unidentified Roman king</note>
                <idno type="URI">https://usaybia.net/person/2296</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib2296-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib2296-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib2296-1">

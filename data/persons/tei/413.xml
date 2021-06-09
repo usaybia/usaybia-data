@@ -210,30 +210,37 @@
                <persName xml:id="name413-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib413-1">Agapius (Maḥbūb ibn Quṣṭanṭīn)</persName>
-               <persName xml:id="name413-2" xml:lang="ar" srophe-tags="#syriaca-headword">محبوب بن قصطنطين</persName>
+                         source="#bib413-1"
+                         resp="#mtolay">Agapius (Maḥbūb ibn Quṣṭanṭīn)</persName>
+               <persName xml:id="name413-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محبوب بن قصطنطين</persName>
                <note xml:id="abstract-en-413"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib413-1">Agapius (Maḥbūb ibn Quṣṭanṭīn), 10th-c. bishop of Manbij and historian</note>
+                     source="#bib413-1"
+                     resp="#mtolay">Agapius (Maḥbūb ibn Quṣṭanṭīn), 10th-c. bishop of Manbij and historian</note>
                <idno type="URI">https://usaybia.net/person/413</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="bishop"
-                      source="#bib413-1">
+                      source="#bib413-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>bishop</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib413-1">
+                      source="#bib413-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib413-1">

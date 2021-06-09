@@ -210,30 +210,43 @@
                <persName xml:id="name961-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib961-1">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn</persName>
-               <persName xml:id="name961-2" xml:lang="en-x-lhom" source="#bib961-1">Ibn Buṭlān</persName>
+                         source="#bib961-1"
+                         resp="#mtolay">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn</persName>
+               <persName xml:id="name961-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib961-1"
+                         resp="#rschmahl #mtolay">Ibn Buṭlān</persName>
                <persName xml:id="name961-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib961-1">ابن بُطلان</persName>
-               <persName xml:id="name961-4" xml:lang="ar" source="#bib961-1">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn, Christian physician (d. 458/1066) 4.1.10.2n; 6.1.1; 8.3.23n; 8.6; 8.26.16; 8.30.5; 10.8.2; 10.13.2; 10.13.4; 10.23.2; 10.36; 10.37.4; 10.38; 10.69.3.1; 14.25.1n; 14.25.3 (quoted); 14.25.5; 14.25.9 nos. 22n, 56, 58, 59, 60, 61, 62, 102; 15.23.5n</persName>
-               <persName xml:id="name961-5" xml:lang="ar">ابن بطلان المختار ابن الحسن ابن عبدون</persName>
+                         source="#bib961-1"
+                         resp="#rschmahl #mtolay">ابن بُطلان</persName>
+               <persName xml:id="name961-4"
+                         xml:lang="ar"
+                         source="#bib961-1"
+                         resp="#rschmahl #mtolay">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn, Christian physician (d. 458/1066) 4.1.10.2n; 6.1.1; 8.3.23n; 8.6; 8.26.16; 8.30.5; 10.8.2; 10.13.2; 10.13.4; 10.23.2; 10.36; 10.37.4; 10.38; 10.69.3.1; 14.25.1n; 14.25.3 (quoted); 14.25.5; 14.25.9 nos. 22n, 56, 58, 59, 60, 61, 62, 102; 15.23.5n</persName>
+               <persName xml:id="name961-5" xml:lang="ar" resp="#hfriedel">ابن بطلان المختار ابن الحسن ابن عبدون</persName>
                <note xml:id="abstract-en-961"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib961-1">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn, Christian physician (d. 458/1066)</note>
+                     source="#bib961-1"
+                     resp="#mtolay">Ibn Buṭlān, al-Mukhtār ibn al-Ḥasan ibn ʿAbdūn, Christian physician (d. 458/1066)</note>
                <idno type="URI">https://usaybia.net/person/961</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4219</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D8%B7%D9%84%D8%A7%D9%86</idno>
-               <idno type="URI">https://viaf.org/viaf/165270090</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3120</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4219</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A8%D8%B7%D9%84%D8%A7%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/165270090</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3120</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib961-1">
+                      source="#bib961-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib961-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib961-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib961-1">

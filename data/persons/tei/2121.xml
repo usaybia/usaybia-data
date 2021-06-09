@@ -206,17 +206,23 @@
                <persName xml:id="name2121-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2121-1">Ṣiqlāb</persName>
-               <persName xml:id="name2121-2" xml:lang="ar" srophe-tags="#syriaca-headword">صقلاب</persName>
+                         source="#bib2121-1"
+                         resp="#mtolay">Ṣiqlāb</persName>
+               <persName xml:id="name2121-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">صقلاب</persName>
                <note xml:id="abstract-en-2121"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2121-1">Ṣiqlāb, servant of al-Mutawakkil</note>
+                     source="#bib2121-1"
+                     resp="#mtolay">Ṣiqlāb, servant of al-Mutawakkil</note>
                <idno type="URI">https://usaybia.net/person/2121</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib2121-1">
+                      source="#bib2121-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib2121-1">

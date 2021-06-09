@@ -206,24 +206,31 @@
                <persName xml:id="name2305-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2305-1">Yaḥyā ibn Yaḥyā</persName>
-               <persName xml:id="name2305-2" xml:lang="en-x-lhom" source="#bib2305-1">Yaḥyā ibn Yaḥyā, Known as Ibn al-Samīnah</persName>
+                         source="#bib2305-1"
+                         resp="#mtolay">Yaḥyā ibn Yaḥyā</persName>
+               <persName xml:id="name2305-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2305-1"
+                         resp="#rschmahl #mtolay">Yaḥyā ibn Yaḥyā, Known as Ibn al-Samīnah</persName>
                <persName xml:id="name2305-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2305-1">يحيى بن يحيى المعروف بابن السمينة</persName>
-               <persName xml:id="name2305-4" xml:lang="ar">يحيى بن يحيى</persName>
+                         source="#bib2305-1"
+                         resp="#rschmahl #mtolay">يحيى بن يحيى المعروف بابن السمينة</persName>
+               <persName xml:id="name2305-4" xml:lang="ar" resp="#hfriedel">يحيى بن يحيى</persName>
                <note xml:id="abstract-en-2305"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2305-1">Yaḥyā ibn Yaḥyā, known as Ibn al-Samīnah, physician from Cordova (d. 315/927)</note>
+                     source="#bib2305-1"
+                     resp="#mtolay">Yaḥyā ibn Yaḥyā, known as Ibn al-Samīnah, physician from Cordova (d. 315/927)</note>
                <idno type="URI">https://usaybia.net/person/2305</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/42617</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50155</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/42617</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50155</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2305-1">
+                      source="#bib2305-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2305-1">

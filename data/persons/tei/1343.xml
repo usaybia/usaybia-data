@@ -210,24 +210,30 @@
                <persName xml:id="name1343-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1343-1">Jirjis al-Faylasūf</persName>
-               <persName xml:id="name1343-2" xml:lang="ar" srophe-tags="#syriaca-headword">جرجس الفيلسوف</persName>
+                         source="#bib1343-1"
+                         resp="#rschmahl">Jirjis al-Faylasūf</persName>
+               <persName xml:id="name1343-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جرجس الفيلسوف</persName>
                <note xml:id="abstract-en-1343"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1343-1">Jirjis al-Faylasūf, unidentified lampoonist</note>
+                     source="#bib1343-1"
+                     resp="#rschmahl">Jirjis al-Faylasūf, unidentified lampoonist</note>
                <idno type="URI">https://usaybia.net/person/1343</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="lampoonist"
-                      source="#bib1343-1">
+                      source="#bib1343-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>lampoonist</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1343-1">

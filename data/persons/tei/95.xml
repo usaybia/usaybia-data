@@ -210,21 +210,30 @@
                <persName xml:id="name95-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib95-1">Abū ʿAlī ʿAbd al-Raḥmān ibn ʿĪsā ibn Dāʾūd ibn al-Jarrāḥ</persName>
-               <persName xml:id="name95-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو علي عبد الرحمن بن عيسى بن داؤد بن الجراح</persName>
+                         source="#bib95-1"
+                         resp="#rschmahl">Abū ʿAlī ʿAbd al-Raḥmān ibn ʿĪsā ibn Dāʾūd ibn al-Jarrāḥ</persName>
+               <persName xml:id="name95-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو علي عبد الرحمن بن عيسى بن داؤد بن الجراح</persName>
                <note xml:id="abstract-en-95"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib95-1">Abū ʿAlī ʿAbd al-Raḥmān ibn ʿĪsā ibn Dāʾūd ibn al-Jarrāḥ (active 325/936), vizier of al-Rāḍī and al-Muttaqī</note>
+                     source="#bib95-1"
+                     resp="#rschmahl">Abū ʿAlī ʿAbd al-Raḥmān ibn ʿĪsā ibn Dāʾūd ibn al-Jarrāḥ (active 325/936), vizier of al-Rāḍī and al-Muttaqī</note>
                <idno type="URI">https://usaybia.net/person/95</idno>
-               <state xml:lang="en" type="occupation" role="vizier" source="#bib95-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="vizier"
+                      source="#bib95-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib95-1">

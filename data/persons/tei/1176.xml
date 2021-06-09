@@ -210,35 +210,46 @@
                <persName xml:id="name1176-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1176-1">Ibn Zurʿah</persName>
-               <persName xml:id="name1176-2" xml:lang="en-x-lhom" source="#bib1176-1">Abū ʿAlī ibn Zurʿah</persName>
+                         source="#bib1176-1"
+                         resp="#rschmahl">Ibn Zurʿah</persName>
+               <persName xml:id="name1176-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1176-1"
+                         resp="#rschmahl #mtolay">Abū ʿAlī ibn Zurʿah</persName>
                <persName xml:id="name1176-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1176-1">أبو علي بن زرعة</persName>
-               <persName xml:id="name1176-4" xml:lang="ar">ابن زرعة</persName>
+                         source="#bib1176-1"
+                         resp="#rschmahl #mtolay">أبو علي بن زرعة</persName>
+               <persName xml:id="name1176-4" xml:lang="ar" resp="#hfriedel">ابن زرعة</persName>
                <note xml:id="abstract-en-1176"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1176-1">Ibn Zurʿah, Abū ʿAlī ʿĪsā ibn Isḥāq ibn Zurʿah, Christian philosopher and translator (331–398/943–1008)</note>
+                     source="#bib1176-1"
+                     resp="#rschmahl">Ibn Zurʿah, Abū ʿAlī ʿĪsā ibn Isḥāq ibn Zurʿah, Christian philosopher and translator (331–398/943–1008)</note>
                <idno type="URI">https://usaybia.net/person/1176</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4204</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/ابن_زرعة</idno>
-               <idno type="URI">https://viaf.org/viaf/300141010</idno>
-               <idno type="URI">http://syriaca.org/person/188</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4204</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/ابن_زرعة</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/300141010</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/188</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1176-1">
+                      source="#bib1176-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib1176-1">
+                      source="#bib1176-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1176-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1176-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1176-1">

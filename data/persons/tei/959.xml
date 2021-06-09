@@ -210,20 +210,29 @@
                <persName xml:id="name959-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib959-1">Ibn al-Būrī, Muwaffaq al-Dīn</persName>
-               <persName xml:id="name959-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن البوري موفق الدين</persName>
+                         source="#bib959-1"
+                         resp="#mtolay">Ibn al-Būrī, Muwaffaq al-Dīn</persName>
+               <persName xml:id="name959-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن البوري موفق الدين</persName>
                <note xml:id="abstract-en-959"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib959-1">Ibn al-Būrī, Muwaffaq al-Dīn, Christian scribe</note>
+                     source="#bib959-1"
+                     resp="#mtolay">Ibn al-Būrī, Muwaffaq al-Dīn, Christian scribe</note>
                <idno type="URI">https://usaybia.net/person/959</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scribe"
-                      source="#bib959-1">
+                      source="#bib959-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scribe</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib959-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib959-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib959-1">

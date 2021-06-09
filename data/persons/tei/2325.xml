@@ -210,27 +210,36 @@
                <persName xml:id="name2325-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2325-1">Yūḥannā ibn Ḥaylān</persName>
-               <persName xml:id="name2325-2" xml:lang="ar" srophe-tags="#syriaca-headword">يوحنا بن حيلان</persName>
+                         source="#bib2325-1"
+                         resp="#mtolay ">Yūḥannā ibn Ḥaylān</persName>
+               <persName xml:id="name2325-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يوحنا بن حيلان</persName>
                <note xml:id="abstract-en-2325"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2325-1">Yūḥannā ibn Ḥaylān, Christian philosopher (d. during caliphate of al-Muqtadir)</note>
+                     source="#bib2325-1"
+                     resp="#mtolay ">Yūḥannā ibn Ḥaylān, Christian philosopher (d. during caliphate of al-Muqtadir)</note>
                <idno type="URI">https://usaybia.net/person/2325</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2325-1">
+                      source="#bib2325-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2325-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2325-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2325-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name406-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib406-1">Aetius of Amida</persName>
-               <persName xml:id="name406-2" xml:lang="ar" srophe-tags="#syriaca-headword">أطيوس الآمدي</persName>
+                         source="#bib406-1"
+                         resp="#mtolay">Aetius of Amida</persName>
+               <persName xml:id="name406-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أطيوس الآمدي</persName>
                <note xml:id="abstract-en-406"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib406-1">Aetius of Amida, 6th-c. medical author</note>
+                     source="#bib406-1"
+                     resp="#mtolay">Aetius of Amida, 6th-c. medical author</note>
                <idno type="URI">https://usaybia.net/person/406</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="medical author"
-                      source="#bib406-1">
+                      source="#bib406-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>medical author</desc>
                </state>
                <bibl xml:id="bib406-1">

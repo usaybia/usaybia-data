@@ -206,14 +206,23 @@
                <persName xml:id="name456-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib456-1">Alexander the Great</persName>
-               <persName xml:id="name456-2" xml:lang="ar" srophe-tags="#syriaca-headword">الإسكندر الأكبر</persName>
+                         source="#bib456-1"
+                         resp="#mtolay">Alexander the Great</persName>
+               <persName xml:id="name456-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الإسكندر الأكبر</persName>
                <note xml:id="abstract-en-456"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib456-1">Alexander the Great, Macedonian king</note>
+                     source="#bib456-1"
+                     resp="#mtolay">Alexander the Great, Macedonian king</note>
                <idno type="URI">https://usaybia.net/person/456</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib456-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib456-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib456-1">

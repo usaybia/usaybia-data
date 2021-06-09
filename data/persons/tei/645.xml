@@ -206,30 +206,43 @@
                <persName xml:id="name645-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib645-1">al-Bīrūnī, Abū l-Rayḥān</persName>
-               <persName xml:id="name645-2" xml:lang="ar" source="#bib645-2">أبو الريحان محمد بن أحمد البيروني</persName>
-               <persName xml:id="name645-3" xml:lang="en-x-ei3" source="#bib645-2">Abū r-Raiḥān Muḥammad ibn Aḥmad al-Bīrūnī</persName>
-               <persName xml:id="name645-4" xml:lang="en-x-lhom" source="#bib645-1">Abū l-Rayḥān al-Bīrūnī</persName>
+                         source="#bib645-1"
+                         resp="#fioppolo">al-Bīrūnī, Abū l-Rayḥān</persName>
+               <persName xml:id="name645-2"
+                         xml:lang="ar"
+                         source="#bib645-2"
+                         resp="#rschmahl #mtolay">أبو الريحان محمد بن أحمد البيروني</persName>
+               <persName xml:id="name645-3"
+                         xml:lang="en-x-ei3"
+                         source="#bib645-2"
+                         resp="#rschmahl #mtolay">Abū r-Raiḥān Muḥammad ibn Aḥmad al-Bīrūnī</persName>
+               <persName xml:id="name645-4"
+                         xml:lang="en-x-lhom"
+                         source="#bib645-1"
+                         resp="#rschmahl #mtolay">Abū l-Rayḥān al-Bīrūnī</persName>
                <persName xml:id="name645-5"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib645-1">أبو الريحان البيروني</persName>
-               <persName xml:id="name645-6" xml:lang="ar">البيروني، أبو الريحان</persName>
+                         source="#bib645-1"
+                         resp="#rschmahl #mtolay">أبو الريحان البيروني</persName>
+               <persName xml:id="name645-6" xml:lang="ar" resp="#hfriedel">البيروني، أبو الريحان</persName>
                <note xml:id="abstract-en-645"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib645-1">al-Bīrūnī, Abū l-Rayḥān, polymath (d. ca. 442/1050)</note>
+                     source="#bib645-1"
+                     resp="#fioppolo">al-Bīrūnī, Abū l-Rayḥān, polymath (d. ca. 442/1050)</note>
                <idno type="URI">https://usaybia.net/person/645</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%B1%D9%8A%D8%AD%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%8A</idno>
-               <idno type="URI">https://de.wikipedia.org/wiki/Al-Biruni</idno>
-               <idno type="URI">https://viaf.org/viaf/100174240</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_25350</idno>
-               <idno type="URI">http://www.iranicaonline.org/articles/biruni-abu-rayhan-index</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_05000005</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D8%B1%D9%8A%D8%AD%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://de.wikipedia.org/wiki/Al-Biruni</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/100174240</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_25350</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://www.iranicaonline.org/articles/biruni-abu-rayhan-index</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_05000005</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="polymath"
-                      source="#bib645-1">
+                      source="#bib645-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>polymath</desc>
                </state>
                <bibl xml:id="bib645-1">

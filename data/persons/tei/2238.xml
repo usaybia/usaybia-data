@@ -206,17 +206,23 @@
                <persName xml:id="name2238-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2238-1">al-Tirmidhī</persName>
-               <persName xml:id="name2238-2" xml:lang="ar" srophe-tags="#syriaca-headword">الترمذي</persName>
+                         source="#bib2238-1"
+                         resp="#mtolay ">al-Tirmidhī</persName>
+               <persName xml:id="name2238-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الترمذي</persName>
                <note xml:id="abstract-en-2238"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2238-1">al-Tirmidhī, 3rd/9th-c. collector of hadiths</note>
+                     source="#bib2238-1"
+                     resp="#mtolay ">al-Tirmidhī, 3rd/9th-c. collector of hadiths</note>
                <idno type="URI">https://usaybia.net/person/2238</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="hadith compiler"
-                      source="#bib2238-1">
+                      source="#bib2238-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>hadith compiler</desc>
                </state>
                <bibl xml:id="bib2238-1">

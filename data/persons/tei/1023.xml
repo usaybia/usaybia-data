@@ -210,30 +210,37 @@
                <persName xml:id="name1023-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1023-1">Ibn al-Kattānī Abū l-Walīd Muḥammad ibn al-Ḥusayn</persName>
-               <persName xml:id="name1023-2" xml:lang="en-x-lhom" source="#bib1023-1">Abū l-Walīd ibn al-Kattānī</persName>
+                         source="#bib1023-1"
+                         resp="#rschmahl">Ibn al-Kattānī Abū l-Walīd Muḥammad ibn al-Ḥusayn</persName>
+               <persName xml:id="name1023-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1023-1"
+                         resp="#rschmahl #mtolay">Abū l-Walīd ibn al-Kattānī</persName>
                <persName xml:id="name1023-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1023-1">أبو الوليد بن الكتاني</persName>
-               <persName xml:id="name1023-4" xml:lang="ar">ابن الكتاني أبو الوليد محمد ابن الحسين</persName>
+                         source="#bib1023-1"
+                         resp="#rschmahl #mtolay">أبو الوليد بن الكتاني</persName>
+               <persName xml:id="name1023-4" xml:lang="ar" resp="#hfriedel">ابن الكتاني أبو الوليد محمد ابن الحسين</persName>
                <note xml:id="abstract-en-1023"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1023-1">Ibn al-Kattānī Abū l-Walīd Muḥammad ibn al-Ḥusayn, Andalusian physician</note>
+                     source="#bib1023-1"
+                     resp="#rschmahl">Ibn al-Kattānī Abū l-Walīd Muḥammad ibn al-Ḥusayn, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/1023</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50108</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50108</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1023-1">
+                      source="#bib1023-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1023-1">

@@ -206,18 +206,22 @@
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
                          source="#bib942-1">Ibn Badraj probably an error for Ibn Barzaj Ibn al-Baghūnish</persName>
-               <persName xml:id="name942-2" xml:lang="en-x-lhom" source="#bib942-1">Ibn al-Baghūnish</persName>
+               <persName xml:id="name942-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib942-1"
+                         resp="#rschmahl #mtolay">Ibn al-Baghūnish</persName>
                <persName xml:id="name942-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib942-1">ابن البغونش</persName>
-               <persName xml:id="name942-4" xml:lang="ar">ابن بدرج / برزج بن البغونش</persName>
+                         source="#bib942-1"
+                         resp="#rschmahl #mtolay">ابن البغونش</persName>
+               <persName xml:id="name942-4" xml:lang="ar" resp="#hfriedel">ابن بدرج / برزج بن البغونش</persName>
                <note xml:id="abstract-en-942"
                      xml:lang="en"
                      type="abstract"
                      source="#bib942-1">Ibn Badraj probably an error for Ibn Barzaj Ibn al-Baghūnish, Abū ʿUthmān Saʿīd ibn Muḥammad al-Ṭulayṭulī</note>
                <idno type="URI">https://usaybia.net/person/942</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50135</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50135</idno>
                <bibl xml:id="bib942-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>

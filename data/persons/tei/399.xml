@@ -210,31 +210,37 @@
                <persName xml:id="name399-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib399-1">al-ʿĀḍid bi-Allāh (Abū Muḥammad ʿAbd Allāh ibn al-Mawlā Abī l-Ḥajjāj Yūsuf ibn al-Imām al-Ḥāfiẓ li-Dīn Allāh)</persName>
-               <persName xml:id="name399-2" xml:lang="ar" srophe-tags="#syriaca-headword">العاضد بالله أبو محمد عبد الله بن المولى أبي الحجاج يوسف بن الإمام الحافظ لدين الله</persName>
+                         source="#bib399-1"
+                         resp="#mtolay">al-ʿĀḍid bi-Allāh (Abū Muḥammad ʿAbd Allāh ibn al-Mawlā Abī l-Ḥajjāj Yūsuf ibn al-Imām al-Ḥāfiẓ li-Dīn Allāh)</persName>
+               <persName xml:id="name399-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">العاضد بالله أبو محمد عبد الله بن المولى أبي الحجاج يوسف بن الإمام الحافظ لدين الله</persName>
                <note xml:id="abstract-en-399"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib399-1">al-ʿĀḍid bi-Allāh (Abū Muḥammad ʿAbd Allāh ibn al-Mawlā Abī l-Ḥajjāj Yūsuf ibn al-Imām al-Ḥāfiẓ li-Dīn Allāh), last Fatimid caliph of Egypt (d. 567/1171)</note>
+                     source="#bib399-1"
+                     resp="#mtolay">al-ʿĀḍid bi-Allāh (Abū Muḥammad ʿAbd Allāh ibn al-Mawlā Abī l-Ḥajjāj Yūsuf ibn al-Imām al-Ḥāfiẓ li-Dīn Allāh), last Fatimid caliph of Egypt (d. 567/1171)</note>
                <idno type="URI">https://usaybia.net/person/399</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib399-1">
+                      source="#bib399-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="descendant-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib399-1">

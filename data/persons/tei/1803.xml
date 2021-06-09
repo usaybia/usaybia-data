@@ -206,17 +206,23 @@
                <persName xml:id="name1803-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1803-1">Pelops</persName>
-               <persName xml:id="name1803-2" xml:lang="ar" srophe-tags="#syriaca-headword">فالفس</persName>
+                         source="#bib1803-1"
+                         resp="#fioppolo">Pelops</persName>
+               <persName xml:id="name1803-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فالفس</persName>
                <note xml:id="abstract-en-1803"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1803-1">Pelops, Dogmatist teacher of Galen</note>
+                     source="#bib1803-1"
+                     resp="#fioppolo">Pelops, Dogmatist teacher of Galen</note>
                <idno type="URI">https://usaybia.net/person/1803</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib1803-1">
+                      source="#bib1803-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib1803-1">

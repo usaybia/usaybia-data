@@ -206,17 +206,23 @@
                <persName xml:id="name529-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib529-1">Andronicus</persName>
-               <persName xml:id="name529-2" xml:lang="ar" srophe-tags="#syriaca-headword">أندرونيقوس</persName>
+                         source="#bib529-1"
+                         resp="#fioppolo">Andronicus</persName>
+               <persName xml:id="name529-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أندرونيقوس</persName>
                <note xml:id="abstract-en-529"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib529-1">Andronicus, editor of the works of Aristotle</note>
+                     source="#bib529-1"
+                     resp="#fioppolo">Andronicus, editor of the works of Aristotle</note>
                <idno type="URI">https://usaybia.net/person/529</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="editor"
-                      source="#bib529-1">
+                      source="#bib529-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>editor</desc>
                </state>
                <bibl xml:id="bib529-1">

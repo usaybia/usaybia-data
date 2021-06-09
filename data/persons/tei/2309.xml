@@ -206,17 +206,23 @@
                <persName xml:id="name2309-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2309-1">Yaʿqūb</persName>
-               <persName xml:id="name2309-2" xml:lang="ar" srophe-tags="#syriaca-headword">يعقوب</persName>
+                         source="#bib2309-1"
+                         resp="#mtolay">Yaʿqūb</persName>
+               <persName xml:id="name2309-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يعقوب</persName>
                <note xml:id="abstract-en-2309"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2309-1">Yaʿqūb, superintendent of Baghdad hospital</note>
+                     source="#bib2309-1"
+                     resp="#mtolay">Yaʿqūb, superintendent of Baghdad hospital</note>
                <idno type="URI">https://usaybia.net/person/2309</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="superintendent"
-                      source="#bib2309-1">
+                      source="#bib2309-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>superintendent</desc>
                </state>
                <bibl xml:id="bib2309-1">

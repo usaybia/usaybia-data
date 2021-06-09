@@ -210,24 +210,30 @@
                <persName xml:id="name911-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib911-1">Ibn al-Abbār, Abū Jaʿfar Aḥmad ibn Muḥammad al-Khawlānī</persName>
-               <persName xml:id="name911-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن الأبار، أبو جعفر أحمد ابن محمد الخولاني</persName>
+                         source="#bib911-1"
+                         resp="#mtolay">Ibn al-Abbār, Abū Jaʿfar Aḥmad ibn Muḥammad al-Khawlānī</persName>
+               <persName xml:id="name911-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن الأبار، أبو جعفر أحمد ابن محمد الخولاني</persName>
                <note xml:id="abstract-en-911"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib911-1">Ibn al-Abbār, Abū Jaʿfar Aḥmad ibn Muḥammad al-Khawlānī, Andalusian scholar</note>
+                     source="#bib911-1"
+                     resp="#mtolay">Ibn al-Abbār, Abū Jaʿfar Aḥmad ibn Muḥammad al-Khawlānī, Andalusian scholar</note>
                <idno type="URI">https://usaybia.net/person/911</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="scholar"
-                      source="#bib911-1">
+                      source="#bib911-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scholar</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib911-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name300-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib300-1">Abū Naṣr ibn al-Daḥlī</persName>
-               <persName xml:id="name300-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو نصر بن الدحلي</persName>
+                         source="#bib300-1"
+                         resp="#mtolay">Abū Naṣr ibn al-Daḥlī</persName>
+               <persName xml:id="name300-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو نصر بن الدحلي</persName>
                <note xml:id="abstract-en-300"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib300-1">Abū Naṣr ibn al-Daḥlī, oculist at the ʿAḍudī Hospital</note>
+                     source="#bib300-1"
+                     resp="#mtolay">Abū Naṣr ibn al-Daḥlī, oculist at the ʿAḍudī Hospital</note>
                <idno type="URI">https://usaybia.net/person/300</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="oculist"
-                      source="#bib300-1">
+                      source="#bib300-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>oculist</desc>
                </state>
                <bibl xml:id="bib300-1">

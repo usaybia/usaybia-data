@@ -210,42 +210,50 @@
                <persName xml:id="name1571-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1571-1">al-Minfākh Miskawayh, Abū ʿAlī Aḥmad ibn Muḥammad</persName>
-               <persName xml:id="name1571-2" xml:lang="en-x-lhom" source="#bib1571-1">Miskawayh</persName>
+                         source="#bib1571-1"
+                         resp="#fioppolo">al-Minfākh Miskawayh, Abū ʿAlī Aḥmad ibn Muḥammad</persName>
+               <persName xml:id="name1571-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1571-1"
+                         resp="#rschmahl #mtolay">Miskawayh</persName>
                <persName xml:id="name1571-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1571-1">مسكويه</persName>
-               <persName xml:id="name1571-4" xml:lang="ar">المنفاخ مسكويه أبو علي أحمد بن محمد</persName>
+                         source="#bib1571-1"
+                         resp="#rschmahl #mtolay">مسكويه</persName>
+               <persName xml:id="name1571-4" xml:lang="ar" resp="#hfriedel">المنفاخ مسكويه أبو علي أحمد بن محمد</persName>
                <note xml:id="abstract-en-1571"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1571-1">al-Minfākh Miskawayh, Abū ʿAlī Aḥmad ibn Muḥammad, philosopher and historian (d. 421/ 1030)</note>
+                     source="#bib1571-1"
+                     resp="#fioppolo">al-Minfākh Miskawayh, Abū ʿAlī Aḥmad ibn Muḥammad, philosopher and historian (d. 421/ 1030)</note>
                <idno type="URI">https://usaybia.net/person/1571</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4225</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/44085</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D9%83%D9%88%D9%8A%D9%87</idno>
-               <idno type="URI">https://viaf.org/viaf/292520979</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5235</idno>
-               <idno type="URI">http://www.iranicaonline.org/articles/meskavayh-abu-ali-ahmad</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1875-9831_isla_COM_0040</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4225</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/44085</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D9%83%D9%88%D9%8A%D9%87</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/292520979</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5235</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://www.iranicaonline.org/articles/meskavayh-abu-ali-ahmad</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1875-9831_isla_COM_0040</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib1571-1">
+                      source="#bib1571-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="historian"
-                      source="#bib1571-1">
+                      source="#bib1571-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>historian</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1571-1">

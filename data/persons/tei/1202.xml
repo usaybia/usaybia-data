@@ -206,17 +206,23 @@
                <persName xml:id="name1202-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1202-1">Ibrāhīm ibn Mūsā ibn Maymūn</persName>
-               <persName xml:id="name1202-2" xml:lang="en-x-lhom" source="#bib1202-1">Ibrāhīm ibn al-Raʾīs Mūsā</persName>
+                         source="#bib1202-1"
+                         resp="#rschmahl">Ibrāhīm ibn Mūsā ibn Maymūn</persName>
+               <persName xml:id="name1202-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1202-1"
+                         resp="#rschmahl #mtolay">Ibrāhīm ibn al-Raʾīs Mūsā</persName>
                <persName xml:id="name1202-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1202-1">إبراهيم بن الرئيس موسى</persName>
-               <persName xml:id="name1202-4" xml:lang="ar">إبراهيم بن موسى بن ميمون</persName>
+                         source="#bib1202-1"
+                         resp="#rschmahl #mtolay">إبراهيم بن الرئيس موسى</persName>
+               <persName xml:id="name1202-4" xml:lang="ar" resp="#hfriedel">إبراهيم بن موسى بن ميمون</persName>
                <note xml:id="abstract-en-1202"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1202-1">Ibrāhīm ibn Mūsā ibn Maymūn, son of Mūsā ibn Maymūn (Maimonides)</note>
+                     source="#bib1202-1"
+                     resp="#rschmahl">Ibrāhīm ibn Mūsā ibn Maymūn, son of Mūsā ibn Maymūn (Maimonides)</note>
                <idno type="URI">https://usaybia.net/person/1202</idno>
                <bibl xml:id="bib1202-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

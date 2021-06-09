@@ -206,17 +206,23 @@
                <persName xml:id="name524-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib524-1">Andreas</persName>
-               <persName xml:id="name524-2" xml:lang="ar" srophe-tags="#syriaca-headword">أندرياس</persName>
+                         source="#bib524-1"
+                         resp="#fioppolo">Andreas</persName>
+               <persName xml:id="name524-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أندرياس</persName>
                <note xml:id="abstract-en-524"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib524-1">Andreas, personal physician of Ptolemy Philopator</note>
+                     source="#bib524-1"
+                     resp="#fioppolo">Andreas, personal physician of Ptolemy Philopator</note>
                <idno type="URI">https://usaybia.net/person/524</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib524-1">
+                      source="#bib524-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib524-1">

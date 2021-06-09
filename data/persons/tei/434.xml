@@ -210,30 +210,37 @@
                <persName xml:id="name434-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib434-1">Aḥmad ibn al-Muʿtaṣim, Abū l-ʿAbbās</persName>
-               <persName xml:id="name434-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن المعتصم أبو العباس</persName>
+                         source="#bib434-1"
+                         resp="#mtolay">Aḥmad ibn al-Muʿtaṣim, Abū l-ʿAbbās</persName>
+               <persName xml:id="name434-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن المعتصم أبو العباس</persName>
                <note xml:id="abstract-en-434"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib434-1">Aḥmad ibn al-Muʿtaṣim, Abū l-ʿAbbās, Abbasid prince and patron of al-Kindī</note>
+                     source="#bib434-1"
+                     resp="#mtolay">Aḥmad ibn al-Muʿtaṣim, Abū l-ʿAbbās, Abbasid prince and patron of al-Kindī</note>
                <idno type="URI">https://usaybia.net/person/434</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib434-1">
+                      source="#bib434-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="patron"
-                      source="#bib434-1">
+                      source="#bib434-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patron</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib434-1">

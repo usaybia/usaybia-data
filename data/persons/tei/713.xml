@@ -206,17 +206,23 @@
                <persName xml:id="name713-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib713-1">Diocles</persName>
-               <persName xml:id="name713-2" xml:lang="ar" srophe-tags="#syriaca-headword">ديوقيلس</persName>
+                         source="#bib713-1"
+                         resp="#fioppolo">Diocles</persName>
+               <persName xml:id="name713-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ديوقيلس</persName>
                <note xml:id="abstract-en-713"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib713-1">Diocles, Dogmatic physician of late antiquity</note>
+                     source="#bib713-1"
+                     resp="#fioppolo">Diocles, Dogmatic physician of late antiquity</note>
                <idno type="URI">https://usaybia.net/person/713</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib713-1">
+                      source="#bib713-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib713-1">

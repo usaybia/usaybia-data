@@ -210,24 +210,30 @@
                <persName xml:id="name1749-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1749-1">Naṣīr al-Dawlah ibn Marwān</persName>
-               <persName xml:id="name1749-2" xml:lang="ar" srophe-tags="#syriaca-headword">ناصر الدولة بن مروان</persName>
+                         source="#bib1749-1"
+                         resp="#fioppolo">Naṣīr al-Dawlah ibn Marwān</persName>
+               <persName xml:id="name1749-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ناصر الدولة بن مروان</persName>
                <note xml:id="abstract-en-1749"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1749-1">Naṣīr al-Dawlah ibn Marwān, Marwānid ruler of Diyār Bakr (d. 489/1096)</note>
+                     source="#bib1749-1"
+                     resp="#fioppolo">Naṣīr al-Dawlah ibn Marwān, Marwānid ruler of Diyār Bakr (d. 489/1096)</note>
                <idno type="URI">https://usaybia.net/person/1749</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1749-1">
+                      source="#bib1749-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1749-1">

@@ -206,14 +206,23 @@
                <persName xml:id="name2146-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2146-1">Sulaymān</persName>
-               <persName xml:id="name2146-2" xml:lang="ar" srophe-tags="#syriaca-headword">سليمان</persName>
+                         source="#bib2146-1"
+                         resp="#mtolay">Sulaymān</persName>
+               <persName xml:id="name2146-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سليمان</persName>
                <note xml:id="abstract-en-2146"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2146-1">Sulaymān, Solomon son of David</note>
+                     source="#bib2146-1"
+                     resp="#mtolay">Sulaymān, Solomon son of David</note>
                <idno type="URI">https://usaybia.net/person/2146</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib2146-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib2146-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib2146-1">

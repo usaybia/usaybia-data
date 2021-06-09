@@ -206,17 +206,23 @@
                <persName xml:id="name1321-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1321-1">Janān</persName>
-               <persName xml:id="name1321-2" xml:lang="ar" srophe-tags="#syriaca-headword">جنان</persName>
+                         source="#bib1321-1"
+                         resp="#rschmahl">Janān</persName>
+               <persName xml:id="name1321-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جنان</persName>
                <note xml:id="abstract-en-1321"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1321-1">Janān, slave-girl loved by Abū Nuwās</note>
+                     source="#bib1321-1"
+                     resp="#rschmahl">Janān, slave-girl loved by Abū Nuwās</note>
                <idno type="URI">https://usaybia.net/person/1321</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="slave"
-                      source="#bib1321-1">
+                      source="#bib1321-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>slave</desc>
                </state>
                <bibl xml:id="bib1321-1">

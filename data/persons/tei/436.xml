@@ -206,17 +206,23 @@
                <persName xml:id="name436-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib436-1">Aḥmad ibn Saʿd</persName>
-               <persName xml:id="name436-2" xml:lang="ar" srophe-tags="#syriaca-headword">أحمد بن سعد</persName>
+                         source="#bib436-1"
+                         resp="#mtolay">Aḥmad ibn Saʿd</persName>
+               <persName xml:id="name436-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أحمد بن سعد</persName>
                <note xml:id="abstract-en-436"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib436-1">Aḥmad ibn Saʿd, physician</note>
+                     source="#bib436-1"
+                     resp="#mtolay">Aḥmad ibn Saʿd, physician</note>
                <idno type="URI">https://usaybia.net/person/436</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib436-1">
+                      source="#bib436-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib436-1">

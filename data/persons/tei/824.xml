@@ -210,18 +210,23 @@
                <persName xml:id="name824-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib824-1">Ḥarb ibn Muḥammad</persName>
-               <persName xml:id="name824-2" xml:lang="ar" srophe-tags="#syriaca-headword">حرب بن محمد</persName>
+                         source="#bib824-1"
+                         resp="#fioppolo">Ḥarb ibn Muḥammad</persName>
+               <persName xml:id="name824-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">حرب بن محمد</persName>
                <note xml:id="abstract-en-824"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib824-1">Ḥarb ibn Muḥammad, unidentified</note>
+                     source="#bib824-1"
+                     resp="#fioppolo">Ḥarb ibn Muḥammad, unidentified</note>
                <idno type="URI">https://usaybia.net/person/824</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib824-1">

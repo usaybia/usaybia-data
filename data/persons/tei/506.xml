@@ -206,17 +206,23 @@
                <persName xml:id="name506-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib506-1">Amqat</persName>
-               <persName xml:id="name506-2" xml:lang="ar" srophe-tags="#syriaca-headword">أمقت</persName>
+                         source="#bib506-1"
+                         resp="#fioppolo">Amqat</persName>
+               <persName xml:id="name506-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أمقت</persName>
                <note xml:id="abstract-en-506"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib506-1">Amqat, Indian physician at court of Hārūn al-Rashīd</note>
+                     source="#bib506-1"
+                     resp="#fioppolo">Amqat, Indian physician at court of Hārūn al-Rashīd</note>
                <idno type="URI">https://usaybia.net/person/506</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib506-1">
+                      source="#bib506-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib506-1">

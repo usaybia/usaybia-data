@@ -206,14 +206,23 @@
                <persName xml:id="name1151-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1151-1">Ibn ʿUnayn</persName>
-               <persName xml:id="name1151-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن عنين</persName>
+                         source="#bib1151-1"
+                         resp="#rschmahl">Ibn ʿUnayn</persName>
+               <persName xml:id="name1151-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن عنين</persName>
                <note xml:id="abstract-en-1151"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1151-1">Ibn ʿUnayn, Sharaf al-Dīn Muḥammad ibn Naṣr (`or` Naṣr Allāh) ibn al-Ḥasan, Damascene poet (d. 630/1233)</note>
+                     source="#bib1151-1"
+                     resp="#rschmahl">Ibn ʿUnayn, Sharaf al-Dīn Muḥammad ibn Naṣr (`or` Naṣr Allāh) ibn al-Ḥasan, Damascene poet (d. 630/1233)</note>
                <idno type="URI">https://usaybia.net/person/1151</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1151-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1151-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1151-1">

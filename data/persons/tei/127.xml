@@ -206,17 +206,23 @@
                <persName xml:id="name127-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib127-1">Abū Bakr ibn Qārin al-Rāzī</persName>
-               <persName xml:id="name127-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر بن قارن الرازي</persName>
+                         source="#bib127-1"
+                         resp="#rschmahl">Abū Bakr ibn Qārin al-Rāzī</persName>
+               <persName xml:id="name127-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر بن قارن الرازي</persName>
                <note xml:id="abstract-en-127"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib127-1">Abū Bakr ibn Qārin al-Rāzī, physician, student of al-Rāzī</note>
+                     source="#bib127-1"
+                     resp="#rschmahl">Abū Bakr ibn Qārin al-Rāzī, physician, student of al-Rāzī</note>
                <idno type="URI">https://usaybia.net/person/127</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib127-1">
+                      source="#bib127-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib127-1">

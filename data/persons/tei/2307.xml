@@ -206,17 +206,23 @@
                <persName xml:id="name2307-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2307-1">Yandūn</persName>
-               <persName xml:id="name2307-2" xml:lang="ar" srophe-tags="#syriaca-headword">يندون</persName>
+                         source="#bib2307-1"
+                         resp="#mtolay">Yandūn</persName>
+               <persName xml:id="name2307-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يندون</persName>
                <note xml:id="abstract-en-2307"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2307-1">Yandūn, servant of al-Hādī</note>
+                     source="#bib2307-1"
+                     resp="#mtolay">Yandūn, servant of al-Hādī</note>
                <idno type="URI">https://usaybia.net/person/2307</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="servant"
-                      source="#bib2307-1">
+                      source="#bib2307-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>servant</desc>
                </state>
                <bibl xml:id="bib2307-1">

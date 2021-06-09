@@ -206,14 +206,23 @@
                <persName xml:id="name1049-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1049-1">Ibn Miknasah al-Iskandarī</persName>
-               <persName xml:id="name1049-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن مكنسة الإسكندري</persName>
+                         source="#bib1049-1"
+                         resp="#rschmahl">Ibn Miknasah al-Iskandarī</persName>
+               <persName xml:id="name1049-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن مكنسة الإسكندري</persName>
                <note xml:id="abstract-en-1049"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1049-1">Ibn Miknasah al-Iskandarī, poet</note>
+                     source="#bib1049-1"
+                     resp="#rschmahl">Ibn Miknasah al-Iskandarī, poet</note>
                <idno type="URI">https://usaybia.net/person/1049</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib1049-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib1049-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib1049-1">

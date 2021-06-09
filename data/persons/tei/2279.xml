@@ -206,17 +206,23 @@
                <persName xml:id="name2279-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2279-1">Verus</persName>
-               <persName xml:id="name2279-2" xml:lang="ar" srophe-tags="#syriaca-headword">بيرس</persName>
+                         source="#bib2279-1"
+                         resp="#mtolay">Verus</persName>
+               <persName xml:id="name2279-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">بيرس</persName>
                <note xml:id="abstract-en-2279"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2279-1">Verus, Lucius, 2nd-c. Roman emperor</note>
+                     source="#bib2279-1"
+                     resp="#mtolay">Verus, Lucius, 2nd-c. Roman emperor</note>
                <idno type="URI">https://usaybia.net/person/2279</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib2279-1">
+                      source="#bib2279-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib2279-1">

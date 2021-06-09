@@ -206,17 +206,23 @@
                <persName xml:id="name452-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib452-1">Albinus</persName>
-               <persName xml:id="name452-2" xml:lang="ar" srophe-tags="#syriaca-headword">أرمينس</persName>
+                         source="#bib452-1"
+                         resp="#mtolay">Albinus</persName>
+               <persName xml:id="name452-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أرمينس</persName>
                <note xml:id="abstract-en-452"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib452-1">Albinus, Platonist and teacher of Galen</note>
+                     source="#bib452-1"
+                     resp="#mtolay">Albinus, Platonist and teacher of Galen</note>
                <idno type="URI">https://usaybia.net/person/452</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib452-1">
+                      source="#bib452-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <bibl xml:id="bib452-1">

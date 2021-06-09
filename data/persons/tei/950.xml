@@ -206,17 +206,23 @@
                <persName xml:id="name950-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib950-1">Ibn Barrī</persName>
-               <persName xml:id="name950-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن بري</persName>
+                         source="#bib950-1"
+                         resp="#mtolay">Ibn Barrī</persName>
+               <persName xml:id="name950-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن بري</persName>
                <note xml:id="abstract-en-950"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib950-1">Ibn Barrī, grammarian</note>
+                     source="#bib950-1"
+                     resp="#mtolay">Ibn Barrī, grammarian</note>
                <idno type="URI">https://usaybia.net/person/950</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib950-1">
+                      source="#bib950-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib950-1">

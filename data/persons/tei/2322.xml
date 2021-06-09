@@ -210,25 +210,30 @@
                <persName xml:id="name2322-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2322-1">Yūḥannā ibn ʿAbd al-Masīḥ, Abū ʿAlī</persName>
-               <persName xml:id="name2322-2" xml:lang="ar" srophe-tags="#syriaca-headword">يوحنا بن عبد المسيح أبو علي</persName>
+                         source="#bib2322-1"
+                         resp="#mtolay">Yūḥannā ibn ʿAbd al-Masīḥ, Abū ʿAlī</persName>
+               <persName xml:id="name2322-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يوحنا بن عبد المسيح أبو علي</persName>
                <note xml:id="abstract-en-2322"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2322-1">Yūḥannā ibn ʿAbd al-Masīḥ, Abū ʿAlī, friend of al-Faḍl ibn Jarīr al-Takrītī</note>
+                     source="#bib2322-1"
+                     resp="#mtolay">Yūḥannā ibn ʿAbd al-Masīḥ, Abū ʿAlī, friend of al-Faḍl ibn Jarīr al-Takrītī</note>
                <idno type="URI">https://usaybia.net/person/2322</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2322-1">

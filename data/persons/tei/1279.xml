@@ -206,17 +206,23 @@
                <persName xml:id="name1279-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1279-1">Ismāʿīl ibn Mūsā</persName>
-               <persName xml:id="name1279-2" xml:lang="ar" srophe-tags="#syriaca-headword">إسماعيل بن موسى</persName>
+                         source="#bib1279-1"
+                         resp="#rschmahl">Ismāʿīl ibn Mūsā</persName>
+               <persName xml:id="name1279-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إسماعيل بن موسى</persName>
                <note xml:id="abstract-en-1279"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1279-1">Ismāʿīl ibn Mūsā, physician son of Mūsā ibn al-ʿĀzār al-Israʾīlī</note>
+                     source="#bib1279-1"
+                     resp="#rschmahl">Ismāʿīl ibn Mūsā, physician son of Mūsā ibn al-ʿĀzār al-Israʾīlī</note>
                <idno type="URI">https://usaybia.net/person/1279</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1279-1">
+                      source="#bib1279-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1279-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name1561-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1561-1">Methodists</persName>
-               <persName xml:id="name1561-2" xml:lang="ar" srophe-tags="#syriaca-headword">أصحاب الحيل</persName>
+                         source="#bib1561-1"
+                         resp="#fioppolo">Methodists</persName>
+               <persName xml:id="name1561-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أصحاب الحيل</persName>
                <note xml:id="abstract-en-1561"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1561-1">Methodists, school of ancient Greek physicians</note>
+                     source="#bib1561-1"
+                     resp="#fioppolo">Methodists, school of ancient Greek physicians</note>
                <idno type="URI">https://usaybia.net/person/1561</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1561-1">
+                      source="#bib1561-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1561-1">

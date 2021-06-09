@@ -210,24 +210,30 @@
                <persName xml:id="name1465-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1465-1">al-Malik Bahāʾ al-Dawlah ibn ʿAḍud al-Dawlah = Abū Naṣr Bahāʾ al-Dawlah Fīrūz b. Fanā Khusraw ʿAḍud al-Dawlah</persName>
-               <persName xml:id="name1465-2" xml:lang="ar" srophe-tags="#syriaca-headword">الملك بهاء الدولة بن عضد الدولة (أبو نصر بهاء الدولة فيروز بن فنى خسرو عضد الدولة</persName>
+                         source="#bib1465-1"
+                         resp="#fioppolo">al-Malik Bahāʾ al-Dawlah ibn ʿAḍud al-Dawlah = Abū Naṣr Bahāʾ al-Dawlah Fīrūz b. Fanā Khusraw ʿAḍud al-Dawlah</persName>
+               <persName xml:id="name1465-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك بهاء الدولة بن عضد الدولة (أبو نصر بهاء الدولة فيروز بن فنى خسرو عضد الدولة</persName>
                <note xml:id="abstract-en-1465"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1465-1">al-Malik Bahāʾ al-Dawlah ibn ʿAḍud al-Dawlah = Abū Naṣr Bahāʾ al-Dawlah Fīrūz b. Fanā Khusraw ʿAḍud al-Dawlah, Būyid prince (`reg.` 388–403/998–1012)</note>
+                     source="#bib1465-1"
+                     resp="#fioppolo">al-Malik Bahāʾ al-Dawlah ibn ʿAḍud al-Dawlah = Abū Naṣr Bahāʾ al-Dawlah Fīrūz b. Fanā Khusraw ʿAḍud al-Dawlah, Būyid prince (`reg.` 388–403/998–1012)</note>
                <idno type="URI">https://usaybia.net/person/1465</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="prince"
-                      source="#bib1465-1">
+                      source="#bib1465-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>prince</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1465-1">

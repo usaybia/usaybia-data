@@ -206,25 +206,32 @@
                <persName xml:id="name1883-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1883-1">al-Qumrī (or al-Qamarī), Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qumrī (or al-Qamarī)</persName>
-               <persName xml:id="name1883-2" xml:lang="en-x-lhom" source="#bib1883-1">Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qamarī (or, al-Qumrī)</persName>
+                         source="#bib1883-1"
+                         resp="#mtolay">al-Qumrī (or al-Qamarī), Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qumrī (or al-Qamarī)</persName>
+               <persName xml:id="name1883-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1883-1"
+                         resp="#rschmahl #mtolay">Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qamarī (or, al-Qumrī)</persName>
                <persName xml:id="name1883-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1883-1">أبو منصور الحسن بن نوح القمري</persName>
-               <persName xml:id="name1883-4" xml:lang="ar">القمري أبو منصور الحسن بن نوح القمري</persName>
+                         source="#bib1883-1"
+                         resp="#rschmahl #mtolay">أبو منصور الحسن بن نوح القمري</persName>
+               <persName xml:id="name1883-4" xml:lang="ar" resp="#hfriedel">القمري أبو منصور الحسن بن نوح القمري</persName>
                <note xml:id="abstract-en-1883"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1883-1">al-Qumrī (or al-Qamarī), Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qumrī (or al-Qamarī), Persian physician</note>
+                     source="#bib1883-1"
+                     resp="#mtolay">al-Qumrī (or al-Qamarī), Abū Manṣūr al-Ḥasan ibn Nūḥ al-Qumrī (or al-Qamarī), Persian physician</note>
                <idno type="URI">https://usaybia.net/person/1883</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4272</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%AD%D8%B3%D9%86_%D8%A8%D9%86_%D9%86%D9%88%D8%AD_%D8%A7%D9%84%D9%82%D9%85%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90058060</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4272</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%AD%D8%B3%D9%86_%D8%A8%D9%86_%D9%86%D9%88%D8%AD_%D8%A7%D9%84%D9%82%D9%85%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90058060</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1883-1">
+                      source="#bib1883-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1883-1">

@@ -206,23 +206,30 @@
                <persName xml:id="name2218-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2218-1">Theon</persName>
-               <persName xml:id="name2218-2" xml:lang="ar" srophe-tags="#syriaca-headword">ثاون</persName>
+                         source="#bib2218-1"
+                         resp="#mtolay">Theon</persName>
+               <persName xml:id="name2218-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ثاون</persName>
                <note xml:id="abstract-en-2218"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2218-1">Theon, 2nd-c. ＡⅮ mathematician and philosopher</note>
+                     source="#bib2218-1"
+                     resp="#mtolay">Theon, 2nd-c. ＡⅮ mathematician and philosopher</note>
                <idno type="URI">https://usaybia.net/person/2218</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib2218-1">
+                      source="#bib2218-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="philosopher"
-                      source="#bib2218-1">
+                      source="#bib2218-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>philosopher</desc>
                </state>
                <bibl xml:id="bib2218-1">

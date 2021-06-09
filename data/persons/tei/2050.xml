@@ -206,17 +206,23 @@
                <persName xml:id="name2050-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2050-1">Shams al-Dīn Abū l-Faḍl ibn Abī l-Faraj</persName>
-               <persName xml:id="name2050-2" xml:lang="ar" srophe-tags="#syriaca-headword">شمس الدين أبو الفضل بن أبي الفرج</persName>
+                         source="#bib2050-1"
+                         resp="#mtolay">Shams al-Dīn Abū l-Faḍl ibn Abī l-Faraj</persName>
+               <persName xml:id="name2050-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شمس الدين أبو الفضل بن أبي الفرج</persName>
                <note xml:id="abstract-en-2050"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2050-1">Shams al-Dīn Abū l-Faḍl ibn Abī l-Faraj, oculist from Damascus known al-Miṭwāʿ</note>
+                     source="#bib2050-1"
+                     resp="#mtolay">Shams al-Dīn Abū l-Faḍl ibn Abī l-Faraj, oculist from Damascus known al-Miṭwāʿ</note>
                <idno type="URI">https://usaybia.net/person/2050</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="oculist"
-                      source="#bib2050-1">
+                      source="#bib2050-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>oculist</desc>
                </state>
                <bibl xml:id="bib2050-1">

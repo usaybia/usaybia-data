@@ -206,15 +206,27 @@
                <persName xml:id="name1458-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1458-1">al-Malik al-Ankūr</persName>
-               <persName xml:id="name1458-2" xml:lang="ar" source="#bib1458-2">الملك الانكور</persName>
-               <persName xml:id="name1458-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك الأنكور</persName>
+                         source="#bib1458-1"
+                         resp="#fioppolo">al-Malik al-Ankūr</persName>
+               <persName xml:id="name1458-2"
+                         xml:lang="ar"
+                         source="#bib1458-2"
+                         resp="#rschmahl #mtolay">الملك الانكور</persName>
+               <persName xml:id="name1458-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك الأنكور</persName>
                <note xml:id="abstract-en-1458"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1458-1">al-Malik al-Ankūr, probably = (Malik) al-Inkitār (‘(King of) l’Angleterre’), name of Richard Ⅰ</note>
+                     source="#bib1458-1"
+                     resp="#fioppolo">al-Malik al-Ankūr, probably = (Malik) al-Inkitār (‘(King of) l’Angleterre’), name of Richard Ⅰ</note>
                <idno type="URI">https://usaybia.net/person/1458</idno>
-               <state xml:lang="en" type="occupation" role="king" source="#bib1458-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="king"
+                      source="#bib1458-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>king</desc>
                </state>
                <bibl xml:id="bib1458-1">

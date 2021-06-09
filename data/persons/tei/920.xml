@@ -210,37 +210,48 @@
                <persName xml:id="name920-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib920-1">Ibn Abī l-Ḥawāfir, Jamāl al-Dīn (al-Shaykh al-Imām al-ʿĀlim Abū ʿAmr ʿUthmān ibn Hibat Allāh ibn Aḥmad ibn ʿAqīl al-Qaysī, also known as Ibn Abī l-Ḥawāfir)</persName>
-               <persName xml:id="name920-2" xml:lang="ar" source="#bib920-2">جمال الدين بن ابي الحوافر ابو عمر عثمان بن هبة الله</persName>
-               <persName xml:id="name920-3" xml:lang="en-x-lhom" source="#bib920-1">Jamāl al-Dīn ibn Abī l-Ḥawāfir</persName>
+                         source="#bib920-1"
+                         resp="#mtolay">Ibn Abī l-Ḥawāfir, Jamāl al-Dīn (al-Shaykh al-Imām al-ʿĀlim Abū ʿAmr ʿUthmān ibn Hibat Allāh ibn Aḥmad ibn ʿAqīl al-Qaysī, also known as Ibn Abī l-Ḥawāfir)</persName>
+               <persName xml:id="name920-2"
+                         xml:lang="ar"
+                         source="#bib920-2"
+                         resp="#rschmahl #mtolay">جمال الدين بن ابي الحوافر ابو عمر عثمان بن هبة الله</persName>
+               <persName xml:id="name920-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib920-1"
+                         resp="#rschmahl #mtolay">Jamāl al-Dīn ibn Abī l-Ḥawāfir</persName>
                <persName xml:id="name920-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib920-1">جمال الدين بن أبي الحوافر</persName>
-               <persName xml:id="name920-5" xml:lang="ar">ابن أبي الحوافر، جمال الدين (الشيخ الإمام العالم أبو عمر عثمان بن هبة الله بن أحمد بن عقيل القيسي / ابن أبي الحوافر)</persName>
+                         source="#bib920-1"
+                         resp="#rschmahl #mtolay">جمال الدين بن أبي الحوافر</persName>
+               <persName xml:id="name920-5" xml:lang="ar" resp="#hfriedel">ابن أبي الحوافر، جمال الدين (الشيخ الإمام العالم أبو عمر عثمان بن هبة الله بن أحمد بن عقيل القيسي / ابن أبي الحوافر)</persName>
                <note xml:id="abstract-en-920"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib920-1">Ibn Abī l-Ḥawāfir, Jamāl al-Dīn (al-Shaykh al-Imām al-ʿĀlim Abū ʿAmr ʿUthmān ibn Hibat Allāh ibn Aḥmad ibn ʿAqīl al-Qaysī, also known as Ibn Abī l-Ḥawāfir), Egyptian physician and author</note>
+                     source="#bib920-1"
+                     resp="#mtolay">Ibn Abī l-Ḥawāfir, Jamāl al-Dīn (al-Shaykh al-Imām al-ʿĀlim Abū ʿAmr ʿUthmān ibn Hibat Allāh ibn Aḥmad ibn ʿAqīl al-Qaysī, also known as Ibn Abī l-Ḥawāfir), Egyptian physician and author</note>
                <idno type="URI">https://usaybia.net/person/920</idno>
-               <idno type="URI">https://viaf.org/viaf/90064195</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90064195</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib920-1">
+                      source="#bib920-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib920-1">
+                      source="#bib920-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib920-1">

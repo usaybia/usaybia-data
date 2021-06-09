@@ -210,24 +210,30 @@
                <persName xml:id="name1584-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1584-1">Muʾayyid al-Dīn Abū Ismāʿīl al-Ḥusayn ibn Muḥammad ibn al-Ḥasan ibn ʿAlī</persName>
-               <persName xml:id="name1584-2" xml:lang="ar" srophe-tags="#syriaca-headword">مؤيد الدين أبو إسماعيل الحسين بن محمد بن الحسن بن علي</persName>
+                         source="#bib1584-1"
+                         resp="#fioppolo">Muʾayyid al-Dīn Abū Ismāʿīl al-Ḥusayn ibn Muḥammad ibn al-Ḥasan ibn ʿAlī</persName>
+               <persName xml:id="name1584-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">مؤيد الدين أبو إسماعيل الحسين بن محمد بن الحسن بن علي</persName>
                <note xml:id="abstract-en-1584"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1584-1">Muʾayyid al-Dīn Abū Ismāʿīl al-Ḥusayn ibn Muḥammad ibn al-Ḥasan ibn ʿAlī, vizier</note>
+                     source="#bib1584-1"
+                     resp="#fioppolo">Muʾayyid al-Dīn Abū Ismāʿīl al-Ḥusayn ibn Muḥammad ibn al-Ḥasan ibn ʿAlī, vizier</note>
                <idno type="URI">https://usaybia.net/person/1584</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1584-1">
+                      source="#bib1584-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1584-1">

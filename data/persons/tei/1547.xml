@@ -206,17 +206,23 @@
                <persName xml:id="name1547-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1547-1">Maximinus</persName>
-               <persName xml:id="name1547-2" xml:lang="ar" srophe-tags="#syriaca-headword">ماخمينس</persName>
+                         source="#bib1547-1"
+                         resp="#fioppolo">Maximinus</persName>
+               <persName xml:id="name1547-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ماخمينس</persName>
                <note xml:id="abstract-en-1547"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1547-1">Maximinus, physician of antiquity</note>
+                     source="#bib1547-1"
+                     resp="#fioppolo">Maximinus, physician of antiquity</note>
                <idno type="URI">https://usaybia.net/person/1547</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1547-1">
+                      source="#bib1547-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1547-1">

@@ -206,20 +206,30 @@
                <persName xml:id="name678-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib678-1">Cleopatra</persName>
-               <persName xml:id="name678-2" xml:lang="ar" srophe-tags="#syriaca-headword">كلاوبطرة</persName>
+                         source="#bib678-1"
+                         resp="#fioppolo">Cleopatra</persName>
+               <persName xml:id="name678-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">كلاوبطرة</persName>
                <note xml:id="abstract-en-678"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib678-1">Cleopatra, Ptolemaic queen of Egypt (d. 30BC), supposed author on cosmetics and medical/alchemical matters</note>
+                     source="#bib678-1"
+                     resp="#fioppolo">Cleopatra, Ptolemaic queen of Egypt (d. 30BC), supposed author on cosmetics and medical/alchemical matters</note>
                <idno type="URI">https://usaybia.net/person/678</idno>
-               <state xml:lang="en" type="occupation" role="queen" source="#bib678-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="queen"
+                      source="#bib678-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>queen</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib678-1">
+                      source="#bib678-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib678-1">

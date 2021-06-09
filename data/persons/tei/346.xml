@@ -206,34 +206,48 @@
                <persName xml:id="name346-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib346-1">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī</persName>
-               <persName xml:id="name346-2" xml:lang="en-x-lhom" source="#bib346-1">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz</persName>
+                         source="#bib346-1"
+                         resp="#mtolay">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī</persName>
+               <persName xml:id="name346-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib346-1"
+                         resp="#rschmahl #mtolay">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz</persName>
                <persName xml:id="name346-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib346-1">أبو الصلت</persName>
-               <persName xml:id="name346-4" xml:lang="ar" source="#bib346-1">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī, physician and poet (d. 528/1134) 13.58; 15.47n; 14.27.1; 14.27.2; 14.27.3</persName>
-               <persName xml:id="name346-5" xml:lang="ar">أبو الصلت أمية بن عبد العزيز بن أبي الصلت الأندلسي الإشبيلي</persName>
+                         source="#bib346-1"
+                         resp="#rschmahl #mtolay">أبو الصلت</persName>
+               <persName xml:id="name346-4"
+                         xml:lang="ar"
+                         source="#bib346-1"
+                         resp="#rschmahl #mtolay">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī, physician and poet (d. 528/1134) 13.58; 15.47n; 14.27.1; 14.27.2; 14.27.3</persName>
+               <persName xml:id="name346-5" xml:lang="ar" resp="#hfriedel">أبو الصلت أمية بن عبد العزيز بن أبي الصلت الأندلسي الإشبيلي</persName>
                <note xml:id="abstract-en-346"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib346-1">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī, physician and poet (d. 528/1134)</note>
+                     source="#bib346-1"
+                     resp="#mtolay">Abū l-Ṣalt Umayyah ibn ʿAbd al-ʿAzīz ibn Abī l-Ṣalt al-Andalusī al-Ishbīlī, physician and poet (d. 528/1134)</note>
                <idno type="URI">https://usaybia.net/person/346</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/9660</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/13753</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/13916</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30104</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/36005</idno>
-               <idno type="URI">https://en.wikipedia.org/wiki/Abu_al-Salt</idno>
-               <idno type="URI">https://viaf.org/viaf/88345150</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0248</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/9660</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13753</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/13916</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30104</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/36005</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://en.wikipedia.org/wiki/Abu_al-Salt</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/88345150</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_0248</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib346-1">
+                      source="#bib346-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib346-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib346-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib346-1">

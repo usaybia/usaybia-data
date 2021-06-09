@@ -206,17 +206,23 @@
                <persName xml:id="name1820-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1820-1">Philinus of Kos</persName>
-               <persName xml:id="name1820-2" xml:lang="ar" srophe-tags="#syriaca-headword">فيلن</persName>
+                         source="#bib1820-1"
+                         resp="#fioppolo">Philinus of Kos</persName>
+               <persName xml:id="name1820-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فيلن</persName>
                <note xml:id="abstract-en-1820"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1820-1">Philinus of Kos, founder of Empiricist sect (active 260BC)</note>
+                     source="#bib1820-1"
+                     resp="#fioppolo">Philinus of Kos, founder of Empiricist sect (active 260BC)</note>
                <idno type="URI">https://usaybia.net/person/1820</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="empiricist"
-                      source="#bib1820-1">
+                      source="#bib1820-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>empiricist</desc>
                </state>
                <bibl xml:id="bib1820-1">

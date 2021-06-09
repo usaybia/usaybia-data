@@ -210,24 +210,30 @@
                <persName xml:id="name2261-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2261-1">ʿUmar ibn al-Khaṭṭāb</persName>
-               <persName xml:id="name2261-2" xml:lang="ar" srophe-tags="#syriaca-headword">عمر بن الخطاب</persName>
+                         source="#bib2261-1"
+                         resp="#mtolay">ʿUmar ibn al-Khaṭṭāb</persName>
+               <persName xml:id="name2261-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عمر بن الخطاب</persName>
                <note xml:id="abstract-en-2261"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2261-1">ʿUmar ibn al-Khaṭṭāb, second caliph (reg. 13–23/634–644) after Muḥammad’s death</note>
+                     source="#bib2261-1"
+                     resp="#mtolay">ʿUmar ibn al-Khaṭṭāb, second caliph (reg. 13–23/634–644) after Muḥammad’s death</note>
                <idno type="URI">https://usaybia.net/person/2261</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="caliph"
-                      source="#bib2261-1">
+                      source="#bib2261-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>caliph</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2261-1">

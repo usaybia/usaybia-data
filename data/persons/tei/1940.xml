@@ -206,13 +206,21 @@
                <persName xml:id="name1940-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1940-1">Saʿd ibn ʿUbādah</persName>
-               <persName xml:id="name1940-2" xml:lang="ar" source="#bib1940-2">سعد ابن عبادة</persName>
-               <persName xml:id="name1940-3" xml:lang="ar" srophe-tags="#syriaca-headword">سعد بن عبادة</persName>
+                         source="#bib1940-1"
+                         resp="#mtolay">Saʿd ibn ʿUbādah</persName>
+               <persName xml:id="name1940-2"
+                         xml:lang="ar"
+                         source="#bib1940-2"
+                         resp="#rschmahl #mtolay">سعد ابن عبادة</persName>
+               <persName xml:id="name1940-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سعد بن عبادة</persName>
                <note xml:id="abstract-en-1940"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1940-1">Saʿd ibn ʿUbādah, Companion of Muḥammad</note>
+                     source="#bib1940-1"
+                     resp="#mtolay">Saʿd ibn ʿUbādah, Companion of Muḥammad</note>
                <idno type="URI">https://usaybia.net/person/1940</idno>
                <bibl xml:id="bib1940-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>

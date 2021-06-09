@@ -206,17 +206,23 @@
                <persName xml:id="name525-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib525-1">Androcles</persName>
-               <persName xml:id="name525-2" xml:lang="ar" srophe-tags="#syriaca-headword">أندروقاوس</persName>
+                         source="#bib525-1"
+                         resp="#fioppolo">Androcles</persName>
+               <persName xml:id="name525-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أندروقاوس</persName>
                <note xml:id="abstract-en-525"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib525-1">Androcles, governor of Samos and fosterfather of Pythagoras</note>
+                     source="#bib525-1"
+                     resp="#fioppolo">Androcles, governor of Samos and fosterfather of Pythagoras</note>
                <idno type="URI">https://usaybia.net/person/525</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib525-1">
+                      source="#bib525-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <bibl xml:id="bib525-1">

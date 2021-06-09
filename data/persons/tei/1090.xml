@@ -206,29 +206,40 @@
                <persName xml:id="name1090-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1090-1">Ibn Raqīqah</persName>
-               <persName xml:id="name1090-2" xml:lang="ar" source="#bib1090-2">سديد الدين محمود بن عمر بن رقيقة</persName>
-               <persName xml:id="name1090-3" xml:lang="en-x-lhom" source="#bib1090-1">Sadīd al-Dīn ibn Raqīqah</persName>
+                         source="#bib1090-1"
+                         resp="#rschmahl">Ibn Raqīqah</persName>
+               <persName xml:id="name1090-2"
+                         xml:lang="ar"
+                         source="#bib1090-2"
+                         resp="#rschmahl #mtolay">سديد الدين محمود بن عمر بن رقيقة</persName>
+               <persName xml:id="name1090-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1090-1"
+                         resp="#rschmahl #mtolay">Sadīd al-Dīn ibn Raqīqah</persName>
                <persName xml:id="name1090-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1090-1">سديد الدين بن رقيقة</persName>
-               <persName xml:id="name1090-5" xml:lang="ar">ابن رقيقة</persName>
+                         source="#bib1090-1"
+                         resp="#rschmahl #mtolay">سديد الدين بن رقيقة</persName>
+               <persName xml:id="name1090-5" xml:lang="ar" resp="#hfriedel">ابن رقيقة</persName>
                <note xml:id="abstract-en-1090"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1090-1">Ibn Raqīqah, Abū l-Thanāʾ Maḥmūd ibn ʿUmar ibn Muḥammad al-Ṭabīb ibn Ibrāhīm ibn Shujāʿ al-Shaybānī al-Ḥanawī, Sadīd al-Dīn, physician author of `K. Mūḍiḥat al-ishtibāh fī adwiyat al-bāh` (565/1169–636/1238)</note>
+                     source="#bib1090-1"
+                     resp="#rschmahl">Ibn Raqīqah, Abū l-Thanāʾ Maḥmūd ibn ʿUmar ibn Muḥammad al-Ṭabīb ibn Ibrāhīm ibn Shujāʿ al-Shaybānī al-Ḥanawī, Sadīd al-Dīn, physician author of `K. Mūḍiḥat al-ishtibāh fī adwiyat al-bāh` (565/1169–636/1238)</note>
                <idno type="URI">https://usaybia.net/person/1090</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1090-1">
+                      source="#bib1090-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib1090-1">
+                      source="#bib1090-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <bibl xml:id="bib1090-1">

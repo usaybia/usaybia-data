@@ -210,26 +210,38 @@
                <persName xml:id="name225-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib225-1">Abū l-Ḥusayn al-Sahlī, Aḥmad ibn Muḥammad</persName>
-               <persName xml:id="name225-2" xml:lang="en-x-lhom" source="#bib225-1">Abū l-Ḥasan</persName>
-               <persName xml:id="name225-3" xml:lang="en-x-lhom" source="#bib225-1">al-Suhaylī</persName>
-               <persName xml:id="name225-4" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسين السهلي أحمد بن محمد</persName>
+                         source="#bib225-1"
+                         resp="#fioppolo">Abū l-Ḥusayn al-Sahlī, Aḥmad ibn Muḥammad</persName>
+               <persName xml:id="name225-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib225-1"
+                         resp="#rschmahl #mtolay">Abū l-Ḥasan</persName>
+               <persName xml:id="name225-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib225-1"
+                         resp="#rschmahl #mtolay">al-Suhaylī</persName>
+               <persName xml:id="name225-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسين السهلي أحمد بن محمد</persName>
                <note xml:id="abstract-en-225"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib225-1">Abū l-Ḥusayn (or Abū l-Ḥasan) al-Sahlī (al-Suhaylī), Aḥmad ibn Muḥammad, vizier to Maʾmūnid Khwārazm-Shāhs at Gurganj (d. 418/1027)</note>
+                     source="#bib225-1"
+                     resp="#fioppolo">Abū l-Ḥusayn (or Abū l-Ḥasan) al-Sahlī (al-Suhaylī), Aḥmad ibn Muḥammad, vizier to Maʾmūnid Khwārazm-Shāhs at Gurganj (d. 418/1027)</note>
                <idno type="URI">https://usaybia.net/person/225</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib225-1">
+                      source="#bib225-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib225-1">

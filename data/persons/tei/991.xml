@@ -206,17 +206,23 @@
                <persName xml:id="name991-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib991-1">Ibn Ḥamdān</persName>
-               <persName xml:id="name991-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن حمدان</persName>
+                         source="#bib991-1"
+                         resp="#rschmahl">Ibn Ḥamdān</persName>
+               <persName xml:id="name991-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن حمدان</persName>
                <note xml:id="abstract-en-991"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib991-1">Ibn Ḥamdān, surgeon at the al-Nūrī hospital in Damascus</note>
+                     source="#bib991-1"
+                     resp="#rschmahl">Ibn Ḥamdān, surgeon at the al-Nūrī hospital in Damascus</note>
                <idno type="URI">https://usaybia.net/person/991</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="surgeon"
-                      source="#bib991-1">
+                      source="#bib991-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>surgeon</desc>
                </state>
                <bibl xml:id="bib991-1">

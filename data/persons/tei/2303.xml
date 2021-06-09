@@ -206,23 +206,30 @@
                <persName xml:id="name2303-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2303-1">Yaḥyā ibn Māsawayh</persName>
-               <persName xml:id="name2303-2" xml:lang="ar" srophe-tags="#syriaca-headword">يحيى بن ماسويه</persName>
+                         source="#bib2303-1"
+                         resp="#mtolay">Yaḥyā ibn Māsawayh</persName>
+               <persName xml:id="name2303-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يحيى بن ماسويه</persName>
                <note xml:id="abstract-en-2303"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2303-1">Yaḥyā ibn Māsawayh, 11th-c. writer on pharmacology</note>
+                     source="#bib2303-1"
+                     resp="#mtolay">Yaḥyā ibn Māsawayh, 11th-c. writer on pharmacology</note>
                <idno type="URI">https://usaybia.net/person/2303</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="author"
-                      source="#bib2303-1">
+                      source="#bib2303-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>author</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="pharmacologist"
-                      source="#bib2303-1">
+                      source="#bib2303-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>pharmacologist</desc>
                </state>
                <bibl xml:id="bib2303-1">

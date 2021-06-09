@@ -206,17 +206,23 @@
                <persName xml:id="name333-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib333-1">Abū Sahl al-Kūhī</persName>
-               <persName xml:id="name333-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو سهل الكوهي</persName>
+                         source="#bib333-1"
+                         resp="#mtolay">Abū Sahl al-Kūhī</persName>
+               <persName xml:id="name333-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو سهل الكوهي</persName>
                <note xml:id="abstract-en-333"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib333-1">Abū Sahl al-Kūhī, 4th/10th-c. astronomer</note>
+                     source="#bib333-1"
+                     resp="#mtolay">Abū Sahl al-Kūhī, 4th/10th-c. astronomer</note>
                <idno type="URI">https://usaybia.net/person/333</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="astronomer"
-                      source="#bib333-1">
+                      source="#bib333-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>astronomer</desc>
                </state>
                <bibl xml:id="bib333-1">

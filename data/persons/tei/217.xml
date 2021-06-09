@@ -206,24 +206,34 @@
                <persName xml:id="name217-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib217-1">Abū Hilāl al-Ḥimṣī</persName>
-               <persName xml:id="name217-2" xml:lang="en-x-lhom" source="#bib217-1">Hilāl ibn Abī Hilāl al-Ḥimṣī</persName>
+                         source="#bib217-1"
+                         resp="#fioppolo">Abū Hilāl al-Ḥimṣī</persName>
+               <persName xml:id="name217-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib217-1"
+                         resp="#rschmahl #mtolay">Hilāl ibn Abī Hilāl al-Ḥimṣī</persName>
                <persName xml:id="name217-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib217-1">هلال بن أبي هلال الحمصي</persName>
-               <persName xml:id="name217-4" xml:lang="ar" source="#bib217-1">Hilāl ibn Abī Hilāl al-Ḥimṣī, mathematician (d. 218/833), translator of Apollonius’ `K. al-Makhrūṭāt` 9.15</persName>
-               <persName xml:id="name217-5" xml:lang="ar">أبو هلال الحمصي</persName>
+                         source="#bib217-1"
+                         resp="#rschmahl #mtolay">هلال بن أبي هلال الحمصي</persName>
+               <persName xml:id="name217-4"
+                         xml:lang="ar"
+                         source="#bib217-1"
+                         resp="#rschmahl #mtolay">Hilāl ibn Abī Hilāl al-Ḥimṣī, mathematician (d. 218/833), translator of Apollonius’ `K. al-Makhrūṭāt` 9.15</persName>
+               <persName xml:id="name217-5" xml:lang="ar" resp="#hfriedel">أبو هلال الحمصي</persName>
                <note xml:id="abstract-en-217"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib217-1">Abū Hilāl al-Ḥimṣī, physician, father of Hilāl ibn Abī Hilāl al-Ḥimṣī</note>
+                     source="#bib217-1"
+                     resp="#fioppolo">Abū Hilāl al-Ḥimṣī, physician, father of Hilāl ibn Abī Hilāl al-Ḥimṣī</note>
                <idno type="URI">https://usaybia.net/person/217</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4150</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4150</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib217-1">
+                      source="#bib217-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib217-1">

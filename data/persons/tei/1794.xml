@@ -206,17 +206,23 @@
                <persName xml:id="name1794-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1794-1">Palladius</persName>
-               <persName xml:id="name1794-2" xml:lang="ar" srophe-tags="#syriaca-headword">فلاذيوس</persName>
+                         source="#bib1794-1"
+                         resp="#fioppolo">Palladius</persName>
+               <persName xml:id="name1794-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">فلاذيوس</persName>
                <note xml:id="abstract-en-1794"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1794-1">Palladius, late-antique physician</note>
+                     source="#bib1794-1"
+                     resp="#fioppolo">Palladius, late-antique physician</note>
                <idno type="URI">https://usaybia.net/person/1794</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1794-1">
+                      source="#bib1794-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib1794-1">

@@ -206,23 +206,33 @@
                <persName xml:id="name642-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib642-1">al-Bayyāsī (`or` al-Bayāsī), Amīn al-Dīn Abū Zakariyyā Yaḥyā ibn Ismāʿīl al-Andalusī</persName>
-               <persName xml:id="name642-2" xml:lang="ar" source="#bib642-2">آمين الدين أبو زكريا يحيى بن اسمعيل البياسى</persName>
-               <persName xml:id="name642-3" xml:lang="en-x-lhom" source="#bib642-1">Abū Zakariyyā Yaḥyā al-Bayyāsī</persName>
+                         source="#bib642-1"
+                         resp="#fioppolo">al-Bayyāsī (`or` al-Bayāsī), Amīn al-Dīn Abū Zakariyyā Yaḥyā ibn Ismāʿīl al-Andalusī</persName>
+               <persName xml:id="name642-2"
+                         xml:lang="ar"
+                         source="#bib642-2"
+                         resp="#rschmahl #mtolay">آمين الدين أبو زكريا يحيى بن اسمعيل البياسى</persName>
+               <persName xml:id="name642-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib642-1"
+                         resp="#rschmahl #mtolay">Abū Zakariyyā Yaḥyā al-Bayyāsī</persName>
                <persName xml:id="name642-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib642-1">أبو زكريا يحيى البياسي</persName>
-               <persName xml:id="name642-5" xml:lang="ar">البياسي، أمين الدين أبو زكريا يحيى بن إسمائل الأندلسي</persName>
+                         source="#bib642-1"
+                         resp="#rschmahl #mtolay">أبو زكريا يحيى البياسي</persName>
+               <persName xml:id="name642-5" xml:lang="ar" resp="#hfriedel">البياسي، أمين الدين أبو زكريا يحيى بن إسمائل الأندلسي</persName>
                <note xml:id="abstract-en-642"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib642-1">al-Bayyāsī (`or` al-Bayāsī), Amīn al-Dīn Abū Zakariyyā Yaḥyā ibn Ismāʿīl al-Andalusī, Egyptian physician in Damascus, teacher of Asʿad al-Dīn ibn Abī l-Ḥasan</note>
+                     source="#bib642-1"
+                     resp="#fioppolo">al-Bayyāsī (`or` al-Bayāsī), Amīn al-Dīn Abū Zakariyyā Yaḥyā ibn Ismāʿīl al-Andalusī, Egyptian physician in Damascus, teacher of Asʿad al-Dīn ibn Abī l-Ḥasan</note>
                <idno type="URI">https://usaybia.net/person/642</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib642-1">
+                      source="#bib642-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib642-1">

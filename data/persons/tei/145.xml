@@ -210,39 +210,49 @@
                <persName xml:id="name145-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib145-1">Abū Bishr Mattā ibn Yūnān (`or` Yūnus)</persName>
-               <persName xml:id="name145-2" xml:lang="en-x-lhom" source="#bib145-1">Mattā ibn Yūnān</persName>
+                         source="#bib145-1"
+                         resp="#rschmahl">Abū Bishr Mattā ibn Yūnān (`or` Yūnus)</persName>
+               <persName xml:id="name145-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib145-1"
+                         resp="#rschmahl #mtolay">Mattā ibn Yūnān</persName>
                <persName xml:id="name145-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib145-1">متّى بن يونان</persName>
-               <persName xml:id="name145-4" xml:lang="ar">أبو بشر متى بن يونان</persName>
+                         source="#bib145-1"
+                         resp="#rschmahl #mtolay">متّى بن يونان</persName>
+               <persName xml:id="name145-4" xml:lang="ar" resp="#hfriedel">أبو بشر متى بن يونان</persName>
                <note xml:id="abstract-en-145"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib145-1">Abū Bishr Mattā ibn Yūnān (`or` Yūnus), Christian Aristotelian translator (d. 328/940)</note>
+                     source="#bib145-1"
+                     resp="#rschmahl">Abū Bishr Mattā ibn Yūnān (`or` Yūnus), Christian Aristotelian translator (d. 328/940)</note>
                <idno type="URI">https://usaybia.net/person/145</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4202</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50099</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D9%89_%D8%A8%D9%86_%D9%8A%D9%88%D9%86%D8%B3</idno>
-               <idno type="URI">https://viaf.org/viaf/34712415</idno>
-               <idno type="URI">https://viaf.org/viaf/2664151247985844270007</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5044</idno>
-               <idno type="URI">http://syriaca.org/person/1003</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4202</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50099</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D9%89_%D8%A8%D9%86_%D9%8A%D9%88%D9%86%D8%B3</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/34712415</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/2664151247985844270007</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5044</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">http://syriaca.org/person/1003</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="translator"
-                      source="#bib145-1">
+                      source="#bib145-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>translator</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib145-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib145-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib145-1">

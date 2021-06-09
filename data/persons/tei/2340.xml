@@ -206,17 +206,23 @@
                <persName xml:id="name2340-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2340-1">Yūsuf ibn Yaʿqūb</persName>
-               <persName xml:id="name2340-2" xml:lang="ar" srophe-tags="#syriaca-headword">يوسف بن يعقوب</persName>
+                         source="#bib2340-1"
+                         resp="#mtolay">Yūsuf ibn Yaʿqūb</persName>
+               <persName xml:id="name2340-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">يوسف بن يعقوب</persName>
                <note xml:id="abstract-en-2340"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2340-1">Yūsuf ibn Yaʿqūb, student of al-Rāzī</note>
+                     source="#bib2340-1"
+                     resp="#mtolay">Yūsuf ibn Yaʿqūb, student of al-Rāzī</note>
                <idno type="URI">https://usaybia.net/person/2340</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib2340-1">
+                      source="#bib2340-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <bibl xml:id="bib2340-1">

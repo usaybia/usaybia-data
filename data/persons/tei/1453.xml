@@ -210,36 +210,46 @@
                <persName xml:id="name1453-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1453-1">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī)</persName>
-               <persName xml:id="name1453-2" xml:lang="ar" source="#bib1453-2">نور الدين محمود بن زنكي المالك العادل</persName>
-               <persName xml:id="name1453-3" xml:lang="ar" srophe-tags="#syriaca-headword">الملك العادل نور الدين محمود بن زنكي</persName>
+                         source="#bib1453-1"
+                         resp="#fioppolo">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī)</persName>
+               <persName xml:id="name1453-2"
+                         xml:lang="ar"
+                         source="#bib1453-2"
+                         resp="#rschmahl #mtolay">نور الدين محمود بن زنكي المالك العادل</persName>
+               <persName xml:id="name1453-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الملك العادل نور الدين محمود بن زنكي</persName>
                <note xml:id="abstract-en-1453"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1453-1">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī), ruler of Aleppo and Damascus, founder of al-Bīmāristān al-Nūrī (al-Nūrī hospital)</note>
+                     source="#bib1453-1"
+                     resp="#fioppolo">al-Malik al-ʿĀdil Nūr al-Dīn Maḥmūd ibn Zankī (`or` Zangī), ruler of Aleppo and Damascus, founder of al-Bīmāristān al-Nūrī (al-Nūrī hospital)</note>
                <idno type="URI">https://usaybia.net/person/1453</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30082</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/30715</idno>
-               <idno type="URI">https://en.wikipedia.org/wiki/Nur_ad-Din_(died_1174)</idno>
-               <idno type="URI">https://viaf.org/viaf/90039925</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5988</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30082</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/30715</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://en.wikipedia.org/wiki/Nur_ad-Din_(died_1174)</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90039925</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_5988</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="ruler"
-                      source="#bib1453-1">
+                      source="#bib1453-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="hospital founder"
-                      source="#bib1453-1">
+                      source="#bib1453-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>hospital founder</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1453-1">

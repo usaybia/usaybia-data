@@ -210,37 +210,47 @@
                <persName xml:id="name2076-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</persName>
-               <persName xml:id="name2076-2" xml:lang="en-x-lhom" source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
+                         source="#bib2076-1"
+                         resp="#mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh</persName>
+               <persName xml:id="name2076-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib2076-1"
+                         resp="#rschmahl #mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī</persName>
                <persName xml:id="name2076-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2076-1">الشريف محمد بن محمد الحسني</persName>
-               <persName xml:id="name2076-4" xml:lang="ar" source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician 13.55</persName>
-               <persName xml:id="name2076-5" xml:lang="ar">الشريف محمد بن محمد الحسني أبو عبد الله</persName>
+                         source="#bib2076-1"
+                         resp="#rschmahl #mtolay">الشريف محمد بن محمد الحسني</persName>
+               <persName xml:id="name2076-4"
+                         xml:lang="ar"
+                         source="#bib2076-1"
+                         resp="#rschmahl #mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician 13.55</persName>
+               <persName xml:id="name2076-5" xml:lang="ar" resp="#hfriedel">الشريف محمد بن محمد الحسني أبو عبد الله</persName>
                <note xml:id="abstract-en-2076"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2076-1">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician</note>
+                     source="#bib2076-1"
+                     resp="#mtolay">al-Sharīf Muḥammad ibn Muḥammad al-Ḥasanī, Abū ʿAbd Allāh, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/2076</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2076-1">
+                      source="#bib2076-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2076-1">

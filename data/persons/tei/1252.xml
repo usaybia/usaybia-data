@@ -210,24 +210,30 @@
                <persName xml:id="name1252-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1252-1">ʿĪsā ibn Usayd al-Naṣrānī</persName>
-               <persName xml:id="name1252-2" xml:lang="ar" srophe-tags="#syriaca-headword">عيسى بن أسيد النصراني</persName>
+                         source="#bib1252-1"
+                         resp="#rschmahl">ʿĪsā ibn Usayd al-Naṣrānī</persName>
+               <persName xml:id="name1252-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عيسى بن أسيد النصراني</persName>
                <note xml:id="abstract-en-1252"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1252-1">ʿĪsā ibn Usayd al-Naṣrānī, Abū Mūsā, student of Thābit ibn Qurrah</note>
+                     source="#bib1252-1"
+                     resp="#rschmahl">ʿĪsā ibn Usayd al-Naṣrānī, Abū Mūsā, student of Thābit ibn Qurrah</note>
                <idno type="URI">https://usaybia.net/person/1252</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="student"
-                      source="#bib1252-1">
+                      source="#bib1252-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>student</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1252-1">

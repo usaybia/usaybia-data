@@ -210,28 +210,37 @@
                <persName xml:id="name43-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib43-1">ʿAbd al-Raḥmān ⅠⅠⅠ al-Nāṣir</persName>
-               <persName xml:id="name43-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الرحمان الثالث الناصر</persName>
+                         source="#bib43-1"
+                         resp="#fioppolo">ʿAbd al-Raḥmān ⅠⅠⅠ al-Nāṣir</persName>
+               <persName xml:id="name43-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الرحمان الثالث الناصر</persName>
                <note xml:id="abstract-en-43"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib43-1">ʿAbd al-Raḥmān ⅠⅠⅠ al-Nāṣir, Umayyad ruler of al-Andalus (d. 350/961)</note>
+                     source="#bib43-1"
+                     resp="#fioppolo">ʿAbd al-Raḥmān ⅠⅠⅠ al-Nāṣir, Umayyad ruler of al-Andalus (d. 350/961)</note>
                <idno type="URI">https://usaybia.net/person/43</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib43-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib43-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib43-1">

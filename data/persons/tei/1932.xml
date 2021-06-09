@@ -210,31 +210,38 @@
                <persName xml:id="name1932-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1932-1">Sabrishoʿ ibn Quṭrub (written Shīrshūʿ `or` Shīrīshūʿ)</persName>
-               <persName xml:id="name1932-2" xml:lang="en-x-lhom" source="#bib1932-1">Sabrīshūʿ ibn Quṭrub (Sabrishoʿ bar Quṭrub)</persName>
+                         source="#bib1932-1"
+                         resp="#mtolay">Sabrishoʿ ibn Quṭrub (written Shīrshūʿ `or` Shīrīshūʿ)</persName>
+               <persName xml:id="name1932-2"
+                         xml:lang="en-x-lhom"
+                         source="#bib1932-1"
+                         resp="#rschmahl #mtolay">Sabrīshūʿ ibn Quṭrub (Sabrishoʿ bar Quṭrub)</persName>
                <persName xml:id="name1932-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1932-1">شبريشوع بن قطرب</persName>
-               <persName xml:id="name1932-4" xml:lang="ar">شيرشو / شيريشو بن قطرب</persName>
+                         source="#bib1932-1"
+                         resp="#rschmahl #mtolay">شبريشوع بن قطرب</persName>
+               <persName xml:id="name1932-4" xml:lang="ar" resp="#hfriedel">شيرشو / شيريشو بن قطرب</persName>
                <note xml:id="abstract-en-1932"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1932-1">Sabrishoʿ ibn Quṭrub (written Shīrshūʿ `or` Shīrīshūʿ), physician from Gondēshāpūr</note>
+                     source="#bib1932-1"
+                     resp="#mtolay">Sabrishoʿ ibn Quṭrub (written Shīrshūʿ `or` Shīrīshūʿ), physician from Gondēshāpūr</note>
                <idno type="URI">https://usaybia.net/person/1932</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4171</idno>
-               <idno type="URI">https://viaf.org/viaf/46045337</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4171</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/46045337</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1932-1">
+                      source="#bib1932-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1932-1">

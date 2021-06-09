@@ -206,17 +206,23 @@
                <persName xml:id="name886-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib886-1">Hippocrates</persName>
-               <persName xml:id="name886-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبقراط</persName>
+                         source="#bib886-1"
+                         resp="#mtolay">Hippocrates</persName>
+               <persName xml:id="name886-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبقراط</persName>
                <note xml:id="abstract-en-886"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib886-1">Hippocrates, Greek physician</note>
+                     source="#bib886-1"
+                     resp="#mtolay">Hippocrates, Greek physician</note>
                <idno type="URI">https://usaybia.net/person/886</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib886-1">
+                      source="#bib886-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib886-1">

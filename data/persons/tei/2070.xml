@@ -210,31 +210,37 @@
                <persName xml:id="name2070-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2070-1">Sharaf al-Kuttāb Abū l-Faraj Muḥammad ibn Aḥmad ibn Ḥamzah ibn Jiyā (or Jiyāʾ)</persName>
-               <persName xml:id="name2070-2" xml:lang="ar" srophe-tags="#syriaca-headword">شرف الكتاب أبو الفرج محمد بن أحمد بن حمزة بن جيى</persName>
+                         source="#bib2070-1"
+                         resp="#mtolay">Sharaf al-Kuttāb Abū l-Faraj Muḥammad ibn Aḥmad ibn Ḥamzah ibn Jiyā (or Jiyāʾ)</persName>
+               <persName xml:id="name2070-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">شرف الكتاب أبو الفرج محمد بن أحمد بن حمزة بن جيى</persName>
                <note xml:id="abstract-en-2070"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2070-1">Sharaf al-Kuttāb Abū l-Faraj Muḥammad ibn Aḥmad ibn Ḥamzah ibn Jiyā (or Jiyāʾ) (d. 579/1183), teacher of Ibn al-Muʾammil</note>
+                     source="#bib2070-1"
+                     resp="#mtolay">Sharaf al-Kuttāb Abū l-Faraj Muḥammad ibn Aḥmad ibn Ḥamzah ibn Jiyā (or Jiyāʾ) (d. 579/1183), teacher of Ibn al-Muʾammil</note>
                <idno type="URI">https://usaybia.net/person/2070</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="teacher"
-                      source="#bib2070-1">
+                      source="#bib2070-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>teacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2070-1">

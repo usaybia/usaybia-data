@@ -206,17 +206,23 @@
                <persName xml:id="name1226-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1226-1">ʿImrān the Short (al-Qaṣīr)</persName>
-               <persName xml:id="name1226-2" xml:lang="ar" srophe-tags="#syriaca-headword">عمران القصير</persName>
+                         source="#bib1226-1"
+                         resp="#rschmahl">ʿImrān the Short (al-Qaṣīr)</persName>
+               <persName xml:id="name1226-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عمران القصير</persName>
                <note xml:id="abstract-en-1226"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1226-1">ʿImrān the Short (al-Qaṣīr), transmitter</note>
+                     source="#bib1226-1"
+                     resp="#rschmahl">ʿImrān the Short (al-Qaṣīr), transmitter</note>
                <idno type="URI">https://usaybia.net/person/1226</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="transmitter"
-                      source="#bib1226-1">
+                      source="#bib1226-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>transmitter</desc>
                </state>
                <bibl xml:id="bib1226-1">

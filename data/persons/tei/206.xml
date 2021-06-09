@@ -210,18 +210,23 @@
                <persName xml:id="name206-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib206-1">Abū l-Ḥasan Muḥammad ibn ʿAlī (? = Abū l-Ḥasan Muḥammad ibn ʿAlī ibn ʿUmar)</persName>
-               <persName xml:id="name206-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن محمد بن علي</persName>
+                         source="#bib206-1"
+                         resp="#mtolay">Abū l-Ḥasan Muḥammad ibn ʿAlī (? = Abū l-Ḥasan Muḥammad ibn ʿAlī ibn ʿUmar)</persName>
+               <persName xml:id="name206-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن محمد بن علي</persName>
                <note xml:id="abstract-en-206"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib206-1">Abū l-Ḥasan Muḥammad ibn ʿAlī (? = Abū l-Ḥasan Muḥammad ibn ʿAlī ibn ʿUmar, 5th/11th-c. poet)</note>
+                     source="#bib206-1"
+                     resp="#mtolay">Abū l-Ḥasan Muḥammad ibn ʿAlī (? = Abū l-Ḥasan Muḥammad ibn ʿAlī ibn ʿUmar, 5th/11th-c. poet)</note>
                <idno type="URI">https://usaybia.net/person/206</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib206-1">

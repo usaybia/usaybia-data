@@ -206,17 +206,23 @@
                <persName xml:id="name303-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib303-1">Abū Naṣr Sābūr ibn Ardashīr</persName>
-               <persName xml:id="name303-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو نصر سابور بن أردشير</persName>
+                         source="#bib303-1"
+                         resp="#mtolay">Abū Naṣr Sābūr ibn Ardashīr</persName>
+               <persName xml:id="name303-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو نصر سابور بن أردشير</persName>
                <note xml:id="abstract-en-303"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib303-1">Abū Naṣr Sābūr ibn Ardashīr, 4th/10th-c. vizier</note>
+                     source="#bib303-1"
+                     resp="#mtolay">Abū Naṣr Sābūr ibn Ardashīr, 4th/10th-c. vizier</note>
                <idno type="URI">https://usaybia.net/person/303</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib303-1">
+                      source="#bib303-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib303-1">

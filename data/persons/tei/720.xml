@@ -206,17 +206,23 @@
                <persName xml:id="name720-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib720-1">Dioscorides</persName>
-               <persName xml:id="name720-2" xml:lang="ar" srophe-tags="#syriaca-headword">دياسقوريدس</persName>
+                         source="#bib720-1"
+                         resp="#fioppolo">Dioscorides</persName>
+               <persName xml:id="name720-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">دياسقوريدس</persName>
                <note xml:id="abstract-en-720"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib720-1">Dioscorides, Greek pharmacologist (d. ca. 90)</note>
+                     source="#bib720-1"
+                     resp="#fioppolo">Dioscorides, Greek pharmacologist (d. ca. 90)</note>
                <idno type="URI">https://usaybia.net/person/720</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="pharmacologist"
-                      source="#bib720-1">
+                      source="#bib720-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>pharmacologist</desc>
                </state>
                <bibl xml:id="bib720-1">

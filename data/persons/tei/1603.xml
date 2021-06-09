@@ -210,18 +210,23 @@
                <persName xml:id="name1603-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1603-1">Muḥammad ibn ʿAbd Allāh ibn Ḥasan (`or` al-Ḥasan)</persName>
-               <persName xml:id="name1603-2" xml:lang="ar" srophe-tags="#syriaca-headword">محمد بن عبد الله بن حسن/الحسن</persName>
+                         source="#bib1603-1"
+                         resp="#fioppolo">Muḥammad ibn ʿAbd Allāh ibn Ḥasan (`or` al-Ḥasan)</persName>
+               <persName xml:id="name1603-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">محمد بن عبد الله بن حسن/الحسن</persName>
                <note xml:id="abstract-en-1603"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1603-1">Muḥammad ibn ʿAbd Allāh ibn Ḥasan (`or` al-Ḥasan), known as ‘The Pure Soul’ (`al-Nafs al-Zakiyyah`), 2nd/8th-c. ʿAlid rebel</note>
+                     source="#bib1603-1"
+                     resp="#fioppolo">Muḥammad ibn ʿAbd Allāh ibn Ḥasan (`or` al-Ḥasan), known as ‘The Pure Soul’ (`al-Nafs al-Zakiyyah`), 2nd/8th-c. ʿAlid rebel</note>
                <idno type="URI">https://usaybia.net/person/1603</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1603-1">

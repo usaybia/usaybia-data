@@ -206,33 +206,44 @@
                <persName xml:id="name2196-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2196-1">Thābit ibn Qurrah al-Ḥarrānī</persName>
+                         source="#bib2196-1"
+                         resp="#mtolay #rschmahl #mtolay">Thābit ibn Qurrah al-Ḥarrānī</persName>
                <persName xml:id="name2196-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2196-1">أبو الحسن ثابت بن قُرّة الحراني</persName>
-               <persName xml:id="name2196-4" xml:lang="en-x-lhom" source="#bib2196-1">Thābit the Translator</persName>
-               <persName xml:id="name2196-5" xml:lang="ar" source="#bib2196-1">ثابت الناقل</persName>
-               <persName xml:id="name2196-6" xml:lang="ar">ثابت بن قرّة الحرّاني</persName>
+                         source="#bib2196-1"
+                         resp="#rschmahl #mtolay">أبو الحسن ثابت بن قُرّة الحراني</persName>
+               <persName xml:id="name2196-4"
+                         xml:lang="en-x-lhom"
+                         source="#bib2196-1"
+                         resp="#rschmahl #mtolay">Thābit the Translator</persName>
+               <persName xml:id="name2196-5"
+                         xml:lang="ar"
+                         source="#bib2196-1"
+                         resp="#rschmahl #mtolay">ثابت الناقل</persName>
+               <persName xml:id="name2196-6" xml:lang="ar" resp="#hfriedel">ثابت بن قرّة الحرّاني</persName>
                <note xml:id="abstract-en-2196"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2196-1">Thābit ibn Qurrah al-Ḥarrānī, mathematician and scientist</note>
+                     source="#bib2196-1"
+                     resp="#mtolay">Thābit ibn Qurrah al-Ḥarrānī, mathematician and scientist</note>
                <idno type="URI">https://usaybia.net/person/2196</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/11861</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%D8%A8%D9%86_%D9%82%D8%B1%D8%A9</idno>
-               <idno type="URI">https://viaf.org/viaf/55563658</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_islam_SIM_7507</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/11861</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%AB%D8%A7%D8%A8%D8%AA_%D8%A8%D9%86_%D9%82%D8%B1%D8%A9</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/55563658</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_7507</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="mathematician"
-                      source="#bib2196-1">
+                      source="#bib2196-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>mathematician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="scientist"
-                      source="#bib2196-1">
+                      source="#bib2196-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>scientist</desc>
                </state>
                <bibl xml:id="bib2196-1">

@@ -197,17 +197,23 @@
                <persName xml:id="name2509-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2509-1">Sulaymān</persName>
-               <persName xml:id="name2509-2" xml:lang="ar" srophe-tags="#syriaca-headword">سليمان</persName>
+                         source="#bib2509-1"
+                         resp="#mtolay">Sulaymān</persName>
+               <persName xml:id="name2509-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سليمان</persName>
                <note xml:id="abstract-en-2509"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2509-1">Sulaymān, Solomon son of David</note>
+                     source="#bib2509-1"
+                     resp="#mtolay">Sulaymān, Solomon son of David</note>
                <idno type="URI">https://usaybia.net/person/2509</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="oculist"
-                      source="#bib2509-1">
+                      source="#bib2509-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>oculist</desc>
                </state>
                <bibl xml:id="bib2509-1">

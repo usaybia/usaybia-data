@@ -206,18 +206,27 @@
                <persName xml:id="name1293-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1293-1">ʿIzz al-Dīn Farrukh Shāh ibn Shāhān Shāh ibn Ayyūb</persName>
-               <persName xml:id="name1293-2" xml:lang="ar" source="#bib1293-2">عز الدين فرخشاه بن شاهنشاه بن ايوب</persName>
-               <persName xml:id="name1293-3" xml:lang="ar" srophe-tags="#syriaca-headword">عز الدين فرخ شاه بن شاهان شاه بن أيوب</persName>
+                         source="#bib1293-1"
+                         resp="#rschmahl">ʿIzz al-Dīn Farrukh Shāh ibn Shāhān Shāh ibn Ayyūb</persName>
+               <persName xml:id="name1293-2"
+                         xml:lang="ar"
+                         source="#bib1293-2"
+                         resp="#rschmahl #mtolay">عز الدين فرخشاه بن شاهنشاه بن ايوب</persName>
+               <persName xml:id="name1293-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عز الدين فرخ شاه بن شاهان شاه بن أيوب</persName>
                <note xml:id="abstract-en-1293"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1293-1">ʿIzz al-Dīn Farrukh Shāh ibn Shāhān Shāh ibn Ayyūb, Ayyubid governor of Baalbek</note>
+                     source="#bib1293-1"
+                     resp="#rschmahl">ʿIzz al-Dīn Farrukh Shāh ibn Shāhān Shāh ibn Ayyūb, Ayyubid governor of Baalbek</note>
                <idno type="URI">https://usaybia.net/person/1293</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="governor"
-                      source="#bib1293-1">
+                      source="#bib1293-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>governor</desc>
                </state>
                <bibl xml:id="bib1293-1">

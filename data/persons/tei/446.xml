@@ -210,28 +210,37 @@
                <persName xml:id="name446-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib446-1">ʿAlāʾ al-Dawlah, Abū Jaʿfar Muḥammad ibn Dushmanziyār</persName>
-               <persName xml:id="name446-2" xml:lang="ar" srophe-tags="#syriaca-headword">علاء الدولة أبو جعفر محمد بن دشمنزيار</persName>
+                         source="#bib446-1"
+                         resp="#mtolay">ʿAlāʾ al-Dawlah, Abū Jaʿfar Muḥammad ibn Dushmanziyār</persName>
+               <persName xml:id="name446-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">علاء الدولة أبو جعفر محمد بن دشمنزيار</persName>
                <note xml:id="abstract-en-446"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib446-1">ʿAlāʾ al-Dawlah, Abū Jaʿfar Muḥammad ibn Dushmanziyār (d. 433/1041–1042), Kākūyid ruler of the Jibāl region</note>
+                     source="#bib446-1"
+                     resp="#mtolay">ʿAlāʾ al-Dawlah, Abū Jaʿfar Muḥammad ibn Dushmanziyār (d. 433/1041–1042), Kākūyid ruler of the Jibāl region</note>
                <idno type="URI">https://usaybia.net/person/446</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib446-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib446-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>ruler</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib446-1">

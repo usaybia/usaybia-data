@@ -210,44 +210,55 @@
                <persName xml:id="name2345-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2345-1">Yūsuf al-Naṣrānī</persName>
+                         source="#bib2345-1"
+                         resp="#mtolay #rschmahl #mtolay">Yūsuf al-Naṣrānī</persName>
                <persName xml:id="name2345-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2345-1">يوسف النصراني</persName>
-               <persName xml:id="name2345-4" xml:lang="ar" source="#bib2345-1">Yūsuf al-Naṣrānī, Christian physician and patriarch of Jerusalem 981–983 14.10</persName>
+                         source="#bib2345-1"
+                         resp="#rschmahl #mtolay #hfriedel">يوسف النصراني</persName>
+               <persName xml:id="name2345-4"
+                         xml:lang="ar"
+                         source="#bib2345-1"
+                         resp="#rschmahl #mtolay">Yūsuf al-Naṣrānī, Christian physician and patriarch of Jerusalem 981–983 14.10</persName>
                <note xml:id="abstract-en-2345"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2345-1">Yūsuf al-Naṣrānī, Christian physician and patriarch of Jerusalem 981–983</note>
+                     source="#bib2345-1"
+                     resp="#mtolay">Yūsuf al-Naṣrānī, Christian physician and patriarch of Jerusalem 981–983</note>
                <idno type="URI">https://usaybia.net/person/2345</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2345-1">
+                      source="#bib2345-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="patriarch"
-                      source="#bib2345-1">
+                      source="#bib2345-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>patriarch</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="nisba"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib2345-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib2345-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib2345-1">

@@ -210,24 +210,30 @@
                <persName xml:id="name116-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib116-1">Abū ʿAwānah</persName>
-               <persName xml:id="name116-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عوانة</persName>
+                         source="#bib116-1"
+                         resp="#rschmahl">Abū ʿAwānah</persName>
+               <persName xml:id="name116-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عوانة</persName>
                <note xml:id="abstract-en-116"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib116-1">Abū ʿAwānah, al-Waḍḍāḥ, `muḥaddith` (d. 170/786 `or` 176/792)</note>
+                     source="#bib116-1"
+                     resp="#rschmahl">Abū ʿAwānah, al-Waḍḍāḥ, `muḥaddith` (d. 170/786 `or` 176/792)</note>
                <idno type="URI">https://usaybia.net/person/116</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="hadith transmitter"
-                      source="#bib116-1">
+                      source="#bib116-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>hadith transmitter</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib116-1">

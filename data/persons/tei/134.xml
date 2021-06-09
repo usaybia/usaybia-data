@@ -210,18 +210,23 @@
                <persName xml:id="name134-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib134-1">Abū Bakr Muḥammad ibn ʿUmar ibn ʿAbd al-ʿAzīz</persName>
-               <persName xml:id="name134-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو بكر محمد بن عمر بن عبد العزيز</persName>
+                         source="#bib134-1"
+                         resp="#rschmahl">Abū Bakr Muḥammad ibn ʿUmar ibn ʿAbd al-ʿAzīz</persName>
+               <persName xml:id="name134-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو بكر محمد بن عمر بن عبد العزيز</persName>
                <note xml:id="abstract-en-134"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib134-1">Abū Bakr Muḥammad ibn ʿUmar ibn ʿAbd al-ʿAzīz, son of ʿUmar ibn ʿAbd al-ʿAzīz</note>
+                     source="#bib134-1"
+                     resp="#rschmahl">Abū Bakr Muḥammad ibn ʿUmar ibn ʿAbd al-ʿAzīz, son of ʿUmar ibn ʿAbd al-ʿAzīz</note>
                <idno type="URI">https://usaybia.net/person/134</idno>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib134-1">

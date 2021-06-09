@@ -206,17 +206,23 @@
                <persName xml:id="name2102-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2102-1">Sībawayh</persName>
-               <persName xml:id="name2102-2" xml:lang="ar" srophe-tags="#syriaca-headword">سيبويه</persName>
+                         source="#bib2102-1"
+                         resp="#mtolay">Sībawayh</persName>
+               <persName xml:id="name2102-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">سيبويه</persName>
                <note xml:id="abstract-en-2102"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2102-1">Sībawayh, Abū Bishr ʿAmr ibn ʿUthmān, grammarian (d. between 177/793 and 180/796–797)</note>
+                     source="#bib2102-1"
+                     resp="#mtolay">Sībawayh, Abū Bishr ʿAmr ibn ʿUthmān, grammarian (d. between 177/793 and 180/796–797)</note>
                <idno type="URI">https://usaybia.net/person/2102</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="grammarian"
-                      source="#bib2102-1">
+                      source="#bib2102-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>grammarian</desc>
                </state>
                <bibl xml:id="bib2102-1">

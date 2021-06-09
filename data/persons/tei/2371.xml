@@ -206,25 +206,35 @@
                <persName xml:id="name2371-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2371-1">Zaynab</persName>
-               <persName xml:id="name2371-2" xml:lang="ar" source="#bib2371-2">زينب طبيبة بنى أود</persName>
-               <persName xml:id="name2371-3" xml:lang="en-x-lhom" source="#bib2371-1">Zaynab, the Physician of the Banū Awd</persName>
+                         source="#bib2371-1"
+                         resp="#mtolay">Zaynab</persName>
+               <persName xml:id="name2371-2"
+                         xml:lang="ar"
+                         source="#bib2371-2"
+                         resp="#rschmahl #mtolay">زينب طبيبة بنى أود</persName>
+               <persName xml:id="name2371-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib2371-1"
+                         resp="#rschmahl #mtolay">Zaynab, the Physician of the Banū Awd</persName>
                <persName xml:id="name2371-4"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2371-1">زينب طبيبة بني أود</persName>
-               <persName xml:id="name2371-5" xml:lang="ar">زينب</persName>
+                         source="#bib2371-1"
+                         resp="#rschmahl #mtolay">زينب طبيبة بني أود</persName>
+               <persName xml:id="name2371-5" xml:lang="ar" resp="#hfriedel">زينب</persName>
                <note xml:id="abstract-en-2371"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2371-1">Zaynab, female physician of the Banū Awd</note>
+                     source="#bib2371-1"
+                     resp="#mtolay">Zaynab, female physician of the Banū Awd</note>
                <idno type="URI">https://usaybia.net/person/2371</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/4107</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B2%D9%8A%D9%86%D8%A8_%D8%B7%D8%A8%D9%8A%D8%A8%D8%A9_%D8%A8%D9%86%D9%8A_%D8%A3%D9%88%D8%AF</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4107</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B2%D9%8A%D9%86%D8%A8_%D8%B7%D8%A8%D9%8A%D8%A8%D8%A9_%D8%A8%D9%86%D9%8A_%D8%A3%D9%88%D8%AF</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib2371-1">
+                      source="#bib2371-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <bibl xml:id="bib2371-1">

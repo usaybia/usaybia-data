@@ -210,24 +210,30 @@
                <persName xml:id="name1300-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1300-1">Jaʿfar ibn ʿAbd al-Raḥmān al-Ṣaqlabī</persName>
-               <persName xml:id="name1300-2" xml:lang="ar" srophe-tags="#syriaca-headword">جعفر بن عبد الرحمن الصقلبي</persName>
+                         source="#bib1300-1"
+                         resp="#rschmahl">Jaʿfar ibn ʿAbd al-Raḥmān al-Ṣaqlabī</persName>
+               <persName xml:id="name1300-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">جعفر بن عبد الرحمن الصقلبي</persName>
                <note xml:id="abstract-en-1300"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1300-1">Jaʿfar ibn ʿAbd al-Raḥmān al-Ṣaqlabī, chamberlain of al-Ḥakam ⅠⅠ</note>
+                     source="#bib1300-1"
+                     resp="#rschmahl">Jaʿfar ibn ʿAbd al-Raḥmān al-Ṣaqlabī, chamberlain of al-Ḥakam ⅠⅠ</note>
                <idno type="URI">https://usaybia.net/person/1300</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="chamberlain"
-                      source="#bib1300-1">
+                      source="#bib1300-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chamberlain</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib1300-1">

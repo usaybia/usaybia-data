@@ -206,17 +206,23 @@
                <persName xml:id="name946-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib946-1">Ibn al-Baladī, Sharaf al-Dīn</persName>
-               <persName xml:id="name946-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن البلدي شرف الدين</persName>
+                         source="#bib946-1"
+                         resp="#mtolay">Ibn al-Baladī, Sharaf al-Dīn</persName>
+               <persName xml:id="name946-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن البلدي شرف الدين</persName>
                <note xml:id="abstract-en-946"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib946-1">Ibn al-Baladī, Sharaf al-Dīn, vizier under al-Mustanjid</note>
+                     source="#bib946-1"
+                     resp="#mtolay">Ibn al-Baladī, Sharaf al-Dīn, vizier under al-Mustanjid</note>
                <idno type="URI">https://usaybia.net/person/946</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib946-1">
+                      source="#bib946-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib946-1">

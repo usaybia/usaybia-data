@@ -206,17 +206,23 @@
                <persName xml:id="name743-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib743-1">Euclid</persName>
-               <persName xml:id="name743-2" xml:lang="ar" srophe-tags="#syriaca-headword">أقليدس</persName>
+                         source="#bib743-1"
+                         resp="#fioppolo">Euclid</persName>
+               <persName xml:id="name743-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أقليدس</persName>
                <note xml:id="abstract-en-743"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib743-1">Euclid, Greek geometrician</note>
+                     source="#bib743-1"
+                     resp="#fioppolo">Euclid, Greek geometrician</note>
                <idno type="URI">https://usaybia.net/person/743</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="geometer"
-                      source="#bib743-1">
+                      source="#bib743-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>geometer</desc>
                </state>
                <bibl xml:id="bib743-1">

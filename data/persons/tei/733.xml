@@ -210,30 +210,37 @@
                <persName xml:id="name733-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib733-1">Elias of Nisibis</persName>
-               <persName xml:id="name733-2" xml:lang="ar" srophe-tags="#syriaca-headword">إليا مطران نصيبين</persName>
+                         source="#bib733-1"
+                         resp="#fioppolo">Elias of Nisibis</persName>
+               <persName xml:id="name733-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">إليا مطران نصيبين</persName>
                <note xml:id="abstract-en-733"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib733-1">Elias of Nisibis, 11th c., brother of Zāhid al-ʿUlamāʾ, metropolitan of Nisibis, chronographer</note>
+                     source="#bib733-1"
+                     resp="#fioppolo">Elias of Nisibis, 11th c., brother of Zāhid al-ʿUlamāʾ, metropolitan of Nisibis, chronographer</note>
                <idno type="URI">https://usaybia.net/person/733</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="metropolitan"
-                      source="#bib733-1">
+                      source="#bib733-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>metropolitan</desc>
                </state>
                <state xml:lang="en"
                       type="occupation"
                       role="chronographer"
-                      source="#bib733-1">
+                      source="#bib733-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>chronographer</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib733-1">

@@ -210,28 +210,41 @@
                <persName xml:id="name1126-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1126-1">Ibn Siqlāb</persName>
+                         source="#bib1126-1"
+                         resp="#rschmahl">Ibn Siqlāb</persName>
                <persName xml:id="name1126-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1126-2 #bib1126-1">موفق الدين يعقوب بن سقلاب</persName>
-               <persName xml:id="name1126-3" xml:lang="en-x-ei3" source="#bib1126-2">Muwaffaq al-Dīn Yaʿqūb Ibn Siqlāb</persName>
-               <persName xml:id="name1126-4" xml:lang="en-x-lhom" source="#bib1126-1">Muwaffaq al-Dīn Yaʿqūb ibn Ṣiqlāb</persName>
-               <persName xml:id="name1126-6" xml:lang="ar">ابن سقلاب</persName>
+                         source="#bib1126-2 #bib1126-1"
+                         resp="#rschmahl #mtolay">موفق الدين يعقوب بن سقلاب</persName>
+               <persName xml:id="name1126-3"
+                         xml:lang="en-x-ei3"
+                         source="#bib1126-2"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn Yaʿqūb Ibn Siqlāb</persName>
+               <persName xml:id="name1126-4"
+                         xml:lang="en-x-lhom"
+                         source="#bib1126-1"
+                         resp="#rschmahl #mtolay">Muwaffaq al-Dīn Yaʿqūb ibn Ṣiqlāb</persName>
+               <persName xml:id="name1126-6" xml:lang="ar" resp="#hfriedel">ابن سقلاب</persName>
                <note xml:id="abstract-en-1126"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1126-1">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb, Christian physician of Ayyubid emir Fāris al-Dīn Maymūn al-Qaṣrī (d. 624/1227)</note>
+                     source="#bib1126-1"
+                     resp="#rschmahl">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb, Christian physician of Ayyubid emir Fāris al-Dīn Maymūn al-Qaṣrī (d. 624/1227)</note>
                <idno type="URI">https://usaybia.net/person/1126</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%82%D9%84%D8%A7%D8%A8</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32252</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B3%D9%82%D9%84%D8%A7%D8%A8</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_32252</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib1126-1">
+                      source="#bib1126-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
-               <state xml:lang="en" type="religious-affiliation" source="#bib1126-1">
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      source="#bib1126-1"
+                      resp="#vbirkhahn #ngibson">
                   <label>Christian</label>
                </state>
                <bibl xml:id="bib1126-1">

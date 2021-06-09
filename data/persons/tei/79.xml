@@ -210,28 +210,37 @@
                <persName xml:id="name79-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib79-1">Abū ʿAbd Allāh Muḥammad ibn Abī ʿAlī al-Ḥasan ibn Abī Yūsuf Ḥajjāj al-Khaṭīb</persName>
-               <persName xml:id="name79-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو عبد الله محمد بن أبي علي الحسن بن أبي يوسف حجاج الخطيب</persName>
+                         source="#bib79-1"
+                         resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Abī ʿAlī al-Ḥasan ibn Abī Yūsuf Ḥajjāj al-Khaṭīb</persName>
+               <persName xml:id="name79-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو عبد الله محمد بن أبي علي الحسن بن أبي يوسف حجاج الخطيب</persName>
                <note xml:id="abstract-en-79"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib79-1">Abū ʿAbd Allāh Muḥammad ibn Abī ʿAlī al-Ḥasan ibn Abī Yūsuf Ḥajjāj al-Khaṭīb, Almohad qadi</note>
+                     source="#bib79-1"
+                     resp="#rschmahl">Abū ʿAbd Allāh Muḥammad ibn Abī ʿAlī al-Ḥasan ibn Abī Yūsuf Ḥajjāj al-Khaṭīb, Almohad qadi</note>
                <idno type="URI">https://usaybia.net/person/79</idno>
-               <state xml:lang="en" type="occupation" role="qadi" source="#bib79-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="qadi"
+                      source="#bib79-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib79-1">

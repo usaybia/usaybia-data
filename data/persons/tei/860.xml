@@ -210,29 +210,36 @@
                <persName xml:id="name860-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib860-1">Ḥasdāy ibn Isḥāq</persName>
+                         source="#bib860-1"
+                         resp="#fioppolo #rschmahl #mtolay">Ḥasdāy ibn Isḥāq</persName>
                <persName xml:id="name860-3"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib860-1">حسداي بن إسحاق</persName>
-               <persName xml:id="name860-4" xml:lang="ar" source="#bib860-1">Ḥasdāy ibn Isḥāq, Andalusian physician 13.36.2.3; 13.36.2.4; 13.49</persName>
+                         source="#bib860-1"
+                         resp="#rschmahl #mtolay #hfriedel">حسداي بن إسحاق</persName>
+               <persName xml:id="name860-4"
+                         xml:lang="ar"
+                         source="#bib860-1"
+                         resp="#rschmahl #mtolay">Ḥasdāy ibn Isḥāq, Andalusian physician 13.36.2.3; 13.36.2.4; 13.49</persName>
                <note xml:id="abstract-en-860"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib860-1">Ḥasdāy ibn Isḥāq, Andalusian physician</note>
+                     source="#bib860-1"
+                     resp="#fioppolo">Ḥasdāy ibn Isḥāq, Andalusian physician</note>
                <idno type="URI">https://usaybia.net/person/860</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/50070</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/50070</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib860-1">
+                      source="#bib860-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="given-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Jewish</label>
                </state>
                <bibl xml:id="bib860-1">

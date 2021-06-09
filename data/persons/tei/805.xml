@@ -210,21 +210,30 @@
                <persName xml:id="name805-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib805-1">Ḥabbūs ibn Māksan ibn Zīrī ibn Manād al-Ṣanhājī</persName>
-               <persName xml:id="name805-2" xml:lang="ar" srophe-tags="#syriaca-headword">حبوس بن ماكسن بن زيري بن مناد الصنهاجي</persName>
+                         source="#bib805-1"
+                         resp="#fioppolo">Ḥabbūs ibn Māksan ibn Zīrī ibn Manād al-Ṣanhājī</persName>
+               <persName xml:id="name805-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">حبوس بن ماكسن بن زيري بن مناد الصنهاجي</persName>
                <note xml:id="abstract-en-805"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib805-1">Ḥabbūs ibn Māksan ibn Zīrī ibn Manād al-Ṣanhājī, first emir of the Zirid dynasty in Granada</note>
+                     source="#bib805-1"
+                     resp="#fioppolo">Ḥabbūs ibn Māksan ibn Zīrī ibn Manād al-Ṣanhājī, first emir of the Zirid dynasty in Granada</note>
                <idno type="URI">https://usaybia.net/person/805</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib805-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib805-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib805-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name205-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib205-1">Abū l-Ḥasan ibn Tuffāḥ</persName>
-               <persName xml:id="name205-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الحسن بن تفاح</persName>
+                         source="#bib205-1"
+                         resp="#mtolay">Abū l-Ḥasan ibn Tuffāḥ</persName>
+               <persName xml:id="name205-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الحسن بن تفاح</persName>
                <note xml:id="abstract-en-205"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib205-1">Abū l-Ḥasan ibn Tuffāḥ, surgeon at the ʿAḍudī Hospital</note>
+                     source="#bib205-1"
+                     resp="#mtolay">Abū l-Ḥasan ibn Tuffāḥ, surgeon at the ʿAḍudī Hospital</note>
                <idno type="URI">https://usaybia.net/person/205</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="surgeon"
-                      source="#bib205-1">
+                      source="#bib205-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>surgeon</desc>
                </state>
                <bibl xml:id="bib205-1">

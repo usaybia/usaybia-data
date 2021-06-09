@@ -206,14 +206,23 @@
                <persName xml:id="name59-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib59-1">al-Abīwardī</persName>
-               <persName xml:id="name59-2" xml:lang="ar" srophe-tags="#syriaca-headword">الأبيوردي</persName>
+                         source="#bib59-1"
+                         resp="#rschmahl">al-Abīwardī</persName>
+               <persName xml:id="name59-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الأبيوردي</persName>
                <note xml:id="abstract-en-59"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib59-1">al-Abīwardī, poet (d. 507/1113)</note>
+                     source="#bib59-1"
+                     resp="#rschmahl">al-Abīwardī, poet (d. 507/1113)</note>
                <idno type="URI">https://usaybia.net/person/59</idno>
-               <state xml:lang="en" type="occupation" role="poet" source="#bib59-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="poet"
+                      source="#bib59-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>poet</desc>
                </state>
                <bibl xml:id="bib59-1">

@@ -206,17 +206,23 @@
                <persName xml:id="name545-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib545-1">Apollo</persName>
-               <persName xml:id="name545-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبُلُن</persName>
+                         source="#bib545-1"
+                         resp="#fioppolo">Apollo</persName>
+               <persName xml:id="name545-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبُلُن</persName>
                <note xml:id="abstract-en-545"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib545-1">Apollo, early expert on medicine and originator of Greek writing</note>
+                     source="#bib545-1"
+                     resp="#fioppolo">Apollo, early expert on medicine and originator of Greek writing</note>
                <idno type="URI">https://usaybia.net/person/545</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="medical expert"
-                      source="#bib545-1">
+                      source="#bib545-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>medical expert</desc>
                </state>
                <bibl xml:id="bib545-1">

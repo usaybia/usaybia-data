@@ -210,21 +210,30 @@
                <persName xml:id="name273-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib273-1">Abū Marwān Aḥmad al-Bājī</persName>
-               <persName xml:id="name273-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو مروان أحمد الباجي</persName>
+                         source="#bib273-1"
+                         resp="#mtolay">Abū Marwān Aḥmad al-Bājī</persName>
+               <persName xml:id="name273-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو مروان أحمد الباجي</persName>
                <note xml:id="abstract-en-273"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib273-1">Abū Marwān Aḥmad al-Bājī, son of the qadi Abū Marwān Muḥammad al-Bājī</note>
+                     source="#bib273-1"
+                     resp="#mtolay">Abū Marwān Aḥmad al-Bājī, son of the qadi Abū Marwān Muḥammad al-Bājī</note>
                <idno type="URI">https://usaybia.net/person/273</idno>
-               <state xml:lang="en" type="occupation" role="qadi" source="#bib273-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="qadi"
+                      source="#bib273-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>qadi</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib273-1">

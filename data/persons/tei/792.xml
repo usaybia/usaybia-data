@@ -210,21 +210,30 @@
                <persName xml:id="name792-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib792-1">al-Ghaḍanfar, Abū Taghlib Faḍl Allāh</persName>
-               <persName xml:id="name792-2" xml:lang="ar" srophe-tags="#syriaca-headword">الغضنفر أبو تغلب فضل الله</persName>
+                         source="#bib792-1"
+                         resp="#fioppolo">al-Ghaḍanfar, Abū Taghlib Faḍl Allāh</persName>
+               <persName xml:id="name792-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">الغضنفر أبو تغلب فضل الله</persName>
                <note xml:id="abstract-en-792"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib792-1">al-Ghaḍanfar, Abū Taghlib Faḍl Allāh (d. 369/979), Ḥamdānid emir</note>
+                     source="#bib792-1"
+                     resp="#fioppolo">al-Ghaḍanfar, Abū Taghlib Faḍl Allāh (d. 369/979), Ḥamdānid emir</note>
                <idno type="URI">https://usaybia.net/person/792</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib792-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib792-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib792-1">

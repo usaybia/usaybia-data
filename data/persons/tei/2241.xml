@@ -206,17 +206,23 @@
                <persName xml:id="name2241-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib2241-1">Trajan</persName>
-               <persName xml:id="name2241-2" xml:lang="ar" srophe-tags="#syriaca-headword">ألبيوس طرينوس</persName>
+                         source="#bib2241-1"
+                         resp="#mtolay ">Trajan</persName>
+               <persName xml:id="name2241-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ألبيوس طرينوس</persName>
                <note xml:id="abstract-en-2241"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib2241-1">Trajan, 2nd-c. Roman emperor</note>
+                     source="#bib2241-1"
+                     resp="#mtolay ">Trajan, 2nd-c. Roman emperor</note>
                <idno type="URI">https://usaybia.net/person/2241</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="emperor"
-                      source="#bib2241-1">
+                      source="#bib2241-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emperor</desc>
                </state>
                <bibl xml:id="bib2241-1">

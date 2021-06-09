@@ -206,17 +206,23 @@
                <persName xml:id="name256-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib256-1">Abū l-Khayr</persName>
-               <persName xml:id="name256-2" xml:lang="ar" srophe-tags="#syriaca-headword">أبو الخير</persName>
+                         source="#bib256-1"
+                         resp="#mtolay ">Abū l-Khayr</persName>
+               <persName xml:id="name256-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">أبو الخير</persName>
                <note xml:id="abstract-en-256"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib256-1">Abū l-Khayr, surgeon at the ʿAḍudī Hospital</note>
+                     source="#bib256-1"
+                     resp="#mtolay ">Abū l-Khayr, surgeon at the ʿAḍudī Hospital</note>
                <idno type="URI">https://usaybia.net/person/256</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="surgeon"
-                      source="#bib256-1">
+                      source="#bib256-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>surgeon</desc>
                </state>
                <bibl xml:id="bib256-1">

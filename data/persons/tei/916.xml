@@ -210,24 +210,30 @@
                <persName xml:id="name916-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib916-1">Ibn Abī l-Ashʿath, Abū Jaʿfar Aḥmad ibn Muḥammad</persName>
-               <persName xml:id="name916-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن أبي الأشعث أبو جعفر أحمد ابن محمد</persName>
+                         source="#bib916-1"
+                         resp="#mtolay">Ibn Abī l-Ashʿath, Abū Jaʿfar Aḥmad ibn Muḥammad</persName>
+               <persName xml:id="name916-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن أبي الأشعث أبو جعفر أحمد ابن محمد</persName>
                <note xml:id="abstract-en-916"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib916-1">Ibn Abī l-Ashʿath, Abū Jaʿfar Aḥmad ibn Muḥammad, Persian physician active in Mosul (d. ca. 360/970)</note>
+                     source="#bib916-1"
+                     resp="#mtolay">Ibn Abī l-Ashʿath, Abū Jaʿfar Aḥmad ibn Muḥammad, Persian physician active in Mosul (d. ca. 360/970)</note>
                <idno type="URI">https://usaybia.net/person/916</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="physician"
-                      source="#bib916-1">
+                      source="#bib916-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>physician</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="ancestor-name"
-                      cert="low">
+                      cert="low"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib916-1">

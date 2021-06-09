@@ -206,17 +206,23 @@
                <persName xml:id="name1035-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1035-1">Ibn Killis</persName>
-               <persName xml:id="name1035-2" xml:lang="ar" srophe-tags="#syriaca-headword">ابن كلس</persName>
+                         source="#bib1035-1"
+                         resp="#rschmahl">Ibn Killis</persName>
+               <persName xml:id="name1035-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">ابن كلس</persName>
                <note xml:id="abstract-en-1035"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1035-1">Ibn Killis, Abū l-Faraj Yaʿqūb, vizier of Fatimid caliph al-ʿAzīz (318–380/930–91)</note>
+                     source="#bib1035-1"
+                     resp="#rschmahl">Ibn Killis, Abū l-Faraj Yaʿqūb, vizier of Fatimid caliph al-ʿAzīz (318–380/930–91)</note>
                <idno type="URI">https://usaybia.net/person/1035</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="vizier"
-                      source="#bib1035-1">
+                      source="#bib1035-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>vizier</desc>
                </state>
                <bibl xml:id="bib1035-1">

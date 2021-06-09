@@ -210,31 +210,35 @@
                <persName xml:id="name844-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib844-1">al-Ḥasan al-Baṣrī</persName>
+                         source="#bib844-1"
+                         resp="#fioppolo">al-Ḥasan al-Baṣrī</persName>
                <persName xml:id="name844-2"
                          xml:lang="ar"
                          srophe-tags="#syriaca-headword"
-                         source="#bib844-2">الحسن البصري</persName>
+                         source="#bib844-2"
+                         resp="#rschmahl #mtolay #hfriedel">الحسن البصري</persName>
                <note xml:id="abstract-en-844"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib844-1">al-Ḥasan al-Baṣrī, famous preacher (d. 110/ 728)</note>
+                     source="#bib844-1"
+                     resp="#fioppolo">al-Ḥasan al-Baṣrī, famous preacher (d. 110/ 728)</note>
                <idno type="URI">https://usaybia.net/person/844</idno>
-               <idno type="URI">https://onomasticon.irht.cnrs.fr/en/entry/id/10489</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D9%8A</idno>
-               <idno type="URI">https://viaf.org/viaf/90045570</idno>
-               <idno type="URI">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30346</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/10489</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B3%D9%86_%D8%A7%D9%84%D8%A8%D8%B5%D8%B1%D9%8A</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/90045570</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_ei3_COM_30346</idno>
                <state xml:lang="en"
                       type="occupation"
                       role="preacher"
-                      source="#bib844-1">
+                      source="#bib844-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>preacher</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib844-1">

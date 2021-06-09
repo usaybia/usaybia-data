@@ -210,21 +210,30 @@
                <persName xml:id="name9-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib9-1">ʿAbd Allāh Ⅰ</persName>
-               <persName xml:id="name9-2" xml:lang="ar" srophe-tags="#syriaca-headword">عبد الله الأول</persName>
+                         source="#bib9-1"
+                         resp="#fioppolo">ʿAbd Allāh Ⅰ</persName>
+               <persName xml:id="name9-2"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel">عبد الله الأول</persName>
                <note xml:id="abstract-en-9"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib9-1">ʿAbd Allāh Ⅰ, seventh emir of Cordova</note>
+                     source="#bib9-1"
+                     resp="#fioppolo">ʿAbd Allāh Ⅰ, seventh emir of Cordova</note>
                <idno type="URI">https://usaybia.net/person/9</idno>
-               <state xml:lang="en" type="occupation" role="emir" source="#bib9-1">
+               <state xml:lang="en"
+                      type="occupation"
+                      role="emir"
+                      source="#bib9-1"
+                      resp="#vbirkhahn #ngibson">
                   <desc>emir</desc>
                </state>
                <state xml:lang="en"
                       type="religious-affiliation"
-                      resp="#ngibson"
                       evidence="occupation"
-                      cert="high">
+                      cert="high"
+                      resp="#ngibson">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib9-1">
