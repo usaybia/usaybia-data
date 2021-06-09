@@ -1,46 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<persName xml:id="name12-1"
-          xml:lang="en-x-lhom"
-          resp="#fioppolo"
+<persName xml:lang="en-x-lhom"
+          xml:id="name12-1"
           srophe-tags="#syriaca-headword"
-          source="#bib12-1">ʿAbd Allāh al-Ṭayfūrī</persName>
-<persName xml:id="name12-2"
-          xml:lang="ar"
-          resp="#rschmahl #mtolay"
-          source="#bib12-2">عبد الله الطيفورى</persName>
-<persName xml:id="name12-3"
-          xml:lang="en-x-lhom"
-          resp="#rschmahl #mtolay"
-          source="#bib12-1">ʿAbd Allāh al-Ṭayfūrī</persName>
-<persName xml:id="name12-4"
-          xml:lang="ar"
-          resp="#rschmahl #mtolay"
+          source="#bib12-1 #bib12-1"
+          resp="#fioppolo #rschmahl #mtolay">ʿAbd Allāh al-Ṭayfūrī</persName>
+<persName xml:lang="ar"
+          xml:id="name12-2"
+          source="#bib12-2"
+          resp="#rschmahl #mtolay">عبد الله الطيفورى</persName>
+<persName xml:lang="ar"
+          xml:id="name12-4"
           srophe-tags="#syriaca-headword"
-          source="#bib12-1">عبد الله الطيفوري</persName>
-<persName xml:id="name12-5"
-          xml:lang="ar"
-          resp="#rschmahl #mtolay"
-          source="#bib12-1">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī 8.2; 8.10</persName>
-<persName xml:id="name12-6" xml:lang="ar" resp="#hfriedel">عبد الله الطيفوري</persName>
-<note xml:id="abstract-en-12"
-      xml:lang="en"
+          source="#bib12-1"
+          resp="#rschmahl #mtolay #hfriedel">عبد الله الطيفوري</persName>
+<persName xml:lang="ar"
+          xml:id="name12-5"
+          source="#bib12-1"
+          resp="#rschmahl #mtolay">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī 8.2; 8.10</persName>
+<note xml:lang="en"
       type="abstract"
-      resp="#fioppolo"
-      source="#bib12-1">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī </note>
+      xml:id="abstract-en-12"
+      source="#bib12-1"
+      resp="#fioppolo">ʿAbd Allāh al-Ṭayfūrī, Christian physician to al-Hādī </note>
 <idno type="URI">https://usaybia.net/person/12</idno>
 <idno type="URI" resp="#rschmahl #mtolay">https://onomasticon.irht.cnrs.fr/en/entry/id/4116</idno>
 <state xml:lang="en"
        type="occupation"
        role="physician"
-       resp="#vbirkhahn #ngibson"
-       source="#bib12-1">
+       source="#bib12-1"
+       resp="#vbirkhahn #ngibson">
    <desc>physician</desc>
 </state>
 <state xml:lang="en"
        type="religious-affiliation"
-       resp="#vbirkhahn #ngibson"
-       source="#bib12-1">
+       source="#bib12-1"
+       resp="#vbirkhahn #ngibson">
    <label>Christian</label>
 </state>
 <bibl xml:id="bib12-1">

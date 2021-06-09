@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<persName xml:id="name1-1"
-          xml:lang="en-x-lhom"
-          resp="#fioppolo"
+<persName xml:lang="en-x-lhom"
+          xml:id="name1-1"
           srophe-tags="#syriaca-headword"
-          source="#bib1-1">ʿAbbād ibn ʿAbbās</persName>
-<persName xml:id="name1-2"
-          xml:lang="ar"
-          resp="#hfriedel"
-          srophe-tags="#syriaca-headword">عباد بن عباس</persName>
-<note xml:id="abstract-en-1"
-      xml:lang="en"
+          source="#bib1-1"
+          resp="#fioppolo">ʿAbbād ibn ʿAbbās</persName>
+<persName xml:lang="ar"
+          xml:id="name1-2"
+          srophe-tags="#syriaca-headword"
+          resp="#hfriedel">عباد بن عباس</persName>
+<note xml:lang="en"
       type="abstract"
-      resp="#fioppolo"
-      source="#bib1-1">ʿAbbād ibn ʿAbbās, unidentified physician, addressee of Ibn Mandawayh al-Iṣfahānī </note>
+      xml:id="abstract-en-1"
+      source="#bib1-1"
+      resp="#fioppolo">ʿAbbād ibn ʿAbbās, unidentified physician, addressee of Ibn Mandawayh al-Iṣfahānī </note>
 <idno type="URI">https://usaybia.net/person/1</idno>
 <state xml:lang="en"
        type="occupation"
        role="physician"
-       resp="#vbirkhahn #ngibson"
-       source="#bib1-1">
+       source="#bib1-1"
+       resp="#vbirkhahn #ngibson">
    <desc>physician</desc>
 </state>
 <bibl xml:id="bib1-1">
