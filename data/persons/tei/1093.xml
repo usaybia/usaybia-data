@@ -9,8 +9,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">Ibn Riḍwān</title>
-
+            <title level="a" xml:lang="en">Ibn Riḍwān, Abū l-Ḥasan ʿAlī — <foreign xml:lang="ar">علي بن رضوان</foreign>
+            </title>
             <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
@@ -27,10 +27,13 @@
             <principal ref="#ngibson">Nathan P. Gibson</principal>
             <editor xml:id="ngibson"
                     role="general"
-                    ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         https://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
             <editor xml:id="vbirkhahn"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor xml:id="hfriedel"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#hfriedel                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/hanna_friedel/index.html">Hanna Friedel</editor>
             <editor xml:id="fioppolo"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
@@ -43,12 +46,17 @@
             <editor xml:id="mtolay"
                     role="contributor"
                     ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor xml:id="fzeska"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#fzeska">Flavio Zeska</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
+            <editor role="creator" ref="#hfriedel">Hanna Friedel</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
             <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
+            <editor role="creator" ref="#fzeska">Flavio Zeska</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -97,7 +105,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="0.5.0-dev"/>
+            <edition n="0.6.0-dev"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -105,12 +113,12 @@
             </authority>
             <idno type="URI">https://usaybia.net/person/1093/tei</idno>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>Distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-01-28+02:00</date>
+            <date>2021-06-11+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -169,13 +177,22 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
+         <change xml:id="change-1"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.2"
-                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
-                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
+         <change xml:id="change-2"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.3"
                  when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-3"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change xml:id="change-7"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-10+02:00">CHANGED: Corrected faulty import of names classified as Arabic from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -185,26 +202,50 @@
                <persName xml:id="name1093-1"
                          xml:lang="en-x-lhom"
                          srophe-tags="#syriaca-headword"
-                         source="#bib1093-1">Ibn Riḍwān</persName>
-               <persName xml:id="name1093-2" xml:lang="ar" source="#">Abū al-Ḥasan ʿAlī b. Riḍwān</persName>
-               <persName xml:id="name1093-3" xml:lang="en-x-lhom" source="#bib1093-1">ʿAlī ibn Riḍwān</persName>
-               <persName xml:id="name1093-4" xml:lang="ar" source="#bib1093-1">علي بن رضوان</persName>
+                         source="#bib1093-1"
+                         resp="#rschmahl"
+                         change="#change-3">Ibn Riḍwān, Abū l-Ḥasan ʿAlī</persName>
+               <persName xml:id="name1093-2"
+                         xml:lang="ar"
+                         source="#bib1093-2"
+                         resp="#rschmahl #mtolay">Abū al-Ḥasan ʿAlī b. Riḍwān</persName>
+               <persName xml:id="name1093-3"
+                         xml:lang="en-x-lhom"
+                         source="#bib1093-1"
+                         resp="#rschmahl #mtolay"
+                         change="#change-3">ʿAlī ibn Riḍwān</persName>
+               <persName xml:id="name1093-4"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1093-1"
+                         resp="#rschmahl #mtolay">علي بن رضوان</persName>
                <note xml:id="abstract-en-1093"
                      xml:lang="en"
                      type="abstract"
-                     source="#bib1093-1">Ibn Riḍwān, Abū l-Ḥasan ʿAlī, Egyptian physician at court of Fāṭimid caliph al-Mustanṣir (d. 453/1061 `or` 460/1068)</note>
+                     source="#bib1093-1"
+                     resp="#rschmahl"
+                     change="#change-3">Ibn Riḍwān, Abū l-Ḥasan ʿAlī, Egyptian physician at court of Fāṭimid caliph al-Mustanṣir (d. 453/1061 `or` 460/1068)</note>
                <idno type="URI">https://usaybia.net/person/1093</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%B1%D8%B6%D9%88%D8%A7%D9%86</idno>                <idno type="URI">http://viaf.org/viaf/100198249</idno>                <idno type="URI">http://dx.doi.org/10.1163/1573-3912_islam_SIM_3335</idno>
-               <state xml:lang="en" type="occupation" role="physician" source="#bib1093-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%B9%D9%84%D9%8A_%D8%A8%D9%86_%D8%B1%D8%B6%D9%88%D8%A7%D9%86</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/100198249</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_3335</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="physician"
+                      source="#bib1093-1"
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>physician</desc>
                </state>
-                  <state xml:lang="en" type="occupation" role="caliph" source="#bib1093-1">
-                  <desc>caliph</desc>
-               </state>
                <bibl xml:id="bib1093-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">1.5; 4.1.2; 4.1.8.1n; 4.1.9.1n; 5.1.4n (Galen’s dates); 6.3.1–4 (account of the Alexandrian medical curriculum); 8.26.9n; 10.38.2; 10.38.3; 10.38.6 no. 6; 11.5.25 no. 166; 11.8.4; 14.7; 13.2.3 no. 1; 13.51.4 no. 4; 13.58.5 no. 3; 13.61.4 no. 3; 14.14.8n; 14.22.4.3 no. 44n; 14.23.1; 14.25; 14.26.1; 14.27.2; 14.32.2; 15.3.1.2; 15.40.9 no. 88 Specific treatises `Resolution al-Rāzī's Doubts regarding Galen` 11.8.4 `Useful Book` 6.3.1–4</citedRange>
                   <citedRange unit="section">14.25</citedRange>
+               </bibl>
+               <bibl xml:id="bib1093-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>
