@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:functx="http://www.functx.com" xmlns:saxon="http://saxon.sf.net/" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:srophe="https://srophe.app"
+     xmlns:saxon="http://saxon.sf.net/"
+     xmlns:functx="http://www.functx.com"
+     xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="a" xml:lang="en">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</title>
-
-<title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
+            <title level="a" xml:lang="en">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ — <foreign xml:lang="ar">الملك المعظم شرف الدين عيسى بن الملك العادل الواحد</foreign>
+            </title>
+            <title level="m" xml:lang="en">Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybiʿa’s History of the Physicians</title>
             <sponsor ref="https://www.uni-muenchen.de">
                <orgName>Ludwig Maximilian University of Munich</orgName>
                         (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -20,18 +25,38 @@
                         (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
                     </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor xml:id="ngibson" role="general" ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-            <editor xml:id="vbirkhahn" role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-            <editor xml:id="fioppolo" role="contributor" ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
-            <editor xml:id="nloehr" role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="rschmahl" role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
-            <editor xml:id="mtolay" role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor xml:id="ngibson"
+                    role="general"
+                    ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         https://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor xml:id="vbirkhahn"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor xml:id="hfriedel"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#hfriedel                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/hanna_friedel/index.html">Hanna Friedel</editor>
+            <editor xml:id="fioppolo"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
+            <editor xml:id="nloehr"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+            <editor xml:id="rschmahl"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor xml:id="fzeska"
+                    role="contributor"
+                    ref="https://usaybia.net/documentation/editors.xml#fzeska">Flavio Zeska</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
+            <editor role="creator" ref="#hfriedel">Hanna Friedel</editor>
             <editor role="creator" ref="#fioppolo">Fabio Ioppolo</editor>
             <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
             <editor role="creator" ref="#rschmahl">Robin Schmahl</editor>
             <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
+            <editor role="creator" ref="#fzeska">Flavio Zeska</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from the index entry in 
                             A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of 
@@ -65,16 +90,22 @@
                <name type="person" ref="#fioppolo">Fabio Ioppolo</name>
             </respStmt>
             <respStmt>
+               <resp>Adding names in Arabic script by</resp>
+               <name type="person" ref="#hfriedel">Hanna Friedel</name>
+            </respStmt>
+            <respStmt>
                <resp>Bibliography editing by</resp>
                <name type="person" ref="#nloehr">Nadine Löhr</name>
             </respStmt>
             <respStmt>
                <resp>Original data architecture of TEI person records for Srophé by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
+               <name type="person"
+                     ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
             </respStmt>
             <respStmt>
                <resp>Srophé app design and development by</resp>
-               <name type="person" ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+               <name type="person"
+                     ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -86,12 +117,12 @@
             </authority>
             <idno type="URI">https://usaybia.net/person/1479/tei</idno>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>Distributed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-05-02Z</date>
+            <date>2021-06-11+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -150,26 +181,80 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.2" when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.
-                The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
-         <change who="http://syriaca.org/documentation/editors.xml#ngibson" n="0.3" when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-1"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.2"
+                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
+         <change xml:id="change-2"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.3"
+                 when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-3"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change xml:id="change-5"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-6"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
+                 n="0.6.0-dev"
+                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person xml:id="person-1479">
-               <persName xml:id="name1479-1" xml:lang="en-x-lhom" srophe-tags="#syriaca-headword" source="#bib1479-1">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</persName>
-               <persName xml:id="name1479-2" xml:lang="ar" source="#">المالك المعظم عيسى ابن المالك العادل</persName>
-               <note xml:id="abstract-en-1479" xml:lang="en" type="abstract" source="#bib1479-1">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid ruler of Damascus (576–624/1180–1227). Ayyubid ruler of Damascus</note>
+               <persName xml:id="name1479-1"
+                         xml:lang="en-x-lhom"
+                         srophe-tags="#syriaca-headword"
+                         source="#bib1479-1"
+                         resp="#fioppolo"
+                         change="#change-3">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ</persName>
+               <persName xml:id="name1479-2"
+                         xml:lang="ar"
+                         source="#bib1479-2"
+                         resp="#rschmahl #mtolay">المالك المعظم عيسى ابن المالك العادل</persName>
+               <persName xml:id="name1479-3"
+                         xml:lang="ar"
+                         srophe-tags="#syriaca-headword"
+                         resp="#hfriedel"
+                         change="#change-6">الملك المعظم شرف الدين عيسى بن الملك العادل الواحد</persName>
+               <note xml:id="abstract-en-1479"
+                     xml:lang="en"
+                     type="abstract"
+                     source="#bib1479-1"
+                     resp="#fioppolo"
+                     change="#change-3">al-Malik al-Muʿaẓẓam Sharaf al-Dīn ʿĪsā ibn al-Malik al-ʿĀdil Ⅰ, Ayyubid ruler of Damascus (576–624/1180–1227)</note>
                <idno type="URI">https://usaybia.net/person/1479</idno>
-               <idno type="URI">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85_%D8%B9%D9%8A%D8%B3%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%84</idno>                <idno type="URI">http://viaf.org/viaf/1634149844942602960006</idno>
-               <state xml:lang="en" type="occupation" role="ruler" source="#bib1479-1">
+               <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B9%D8%B8%D9%85_%D8%B9%D9%8A%D8%B3%D9%89_%D8%A8%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%84</idno>
+               <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/1634149844942602960006</idno>
+               <state xml:lang="en"
+                      type="occupation"
+                      role="ruler"
+                      source="#bib1479-1"
+                      resp="#vbirkhahn #ngibson"
+                      change="#change-3">
                   <desc>ruler</desc>
                </state>
+               <state xml:lang="en"
+                      type="religious-affiliation"
+                      evidence="occupation"
+                      cert="high"
+                      resp="#ngibson"
+                      change="#change-5">
+                  <label>Muslim</label>
+               </state>
                <bibl xml:id="bib1479-1">
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section">14.50; 14.53; 14.56.1; 15.19; 15.22; 15.29; 15.36.1; 15.43.1; 15.43.3; 15.45.2; 15.45.3 no. 1; 15.50.3; 15.51</citedRange>
+               </bibl>
+               <bibl xml:id="bib1479-2">
+                  <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
+                  <ptr target="https://usaybia.net/bibl/6RJQF8FK"/>
                </bibl>
             </person>
          </listPerson>
