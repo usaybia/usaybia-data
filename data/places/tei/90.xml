@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/uniqueLangHW.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:srophe="https://srophe.app"
-     xmlns:syriaca="http://syriaca.org"
-     xmlns:svg="http://www.w3.org/2000/svg"
-     xml:lang="en">
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/out/syriacaPlaces.compiled.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/master/documentation/schemas/uniqueLangHW.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:srophe="https://srophe.app" xmlns:syriaca="http://syriaca.org" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,9 +18,7 @@
                <orgName>German Federal Ministry of Education and
                                             Research</orgName> (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>) </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor xml:id="ngibson"
-                    role="general"
-                    ref="https://usaybia.net/documentation/editors.xml#ngibson                                          http://syriaca.org/documentation/editors.html#ngibson                                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                                         http://orcid.org/0000-0003-0786-8075                                         http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor xml:id="ngibson" role="general" ref="https://usaybia.net/documentation/editors.xml#ngibson                                          http://syriaca.org/documentation/editors.html#ngibson                                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                                         http://orcid.org/0000-0003-0786-8075                                         http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <respStmt>
                <resp>The orignal version of this record was adapted from
@@ -45,23 +37,20 @@
             <respStmt>
                <resp>Original data architecture of TEI place records for
                                             Srophé by</resp>
-               <name type="person"
-                     ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
             </respStmt>
             <respStmt>
                <resp>Original data architecture of TEI place records for
                                             Srophé by</resp>
-               <name type="person"
-                     ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</name>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
             <respStmt>
                <resp>Srophé app design and development by</resp>
-               <name type="person"
-                     ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition n="0.5.0-dev"/>
+            <edition n="0.6.0-dev"/>
          </editionStmt>
          <publicationStmt>
             <authority>
@@ -74,7 +63,7 @@
                                                 International (CC BY 4.0) License.</p>
                </licence>
             </availability>
-            <date>2021-01-28+02:00</date>
+            <date>2021-06-22Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -114,16 +103,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.4"
-                 when="2020-07-22+02:00">CREATED: place from spreadsheet
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.4" when="2020-07-22+02:00">CREATED: place from spreadsheet
                                     https://docs.google.com/spreadsheets/d/1B6vJjZjUbCX-oyqmrgVmVq7GmyqvaAjfBlzcIYnwhpQ.
                                     The canonical record is currently in the spreadsheet. Changes
                                     should be made there. THIS FILE SHOULD NOT BE MANUALLY
                                     EDITED!</change>
-         <change who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.4"
-                 when="2020-07-23+02:00">CHANGED: Updated places from spreadsheet
+         <change who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.4" when="2020-07-23+02:00">CHANGED: Updated places from spreadsheet
                                     https://docs.google.com/spreadsheets/d/1B6vJjZjUbCX-oyqmrgVmVq7GmyqvaAjfBlzcIYnwhpQ.
                                     The canonical record is currently in the spreadsheet. Changes
                                     should be made there. THIS FILE SHOULD NOT BE MANUALLY
@@ -134,14 +119,8 @@
       <body>
          <listPlace>
             <place type="settlement">
-               <placeName source="#bib90-1"
-                          xml:id="name90-1"
-                          xml:lang="en-x-lhom"
-                          srophe:tags="#syriaca-headword">al-Baṣṣah</placeName>
-               <desc type="abstract"
-                     xml:id="abstract90-1"
-                     xml:lang="en"
-                     source="#bib90-1">
+               <placeName source="#bib90-1" xml:id="name90-1" xml:lang="en-x-lhom" srophe:tags="#syriaca-headword">al-Baṣṣah</placeName>
+               <desc type="abstract" xml:id="abstract90-1" xml:lang="en" source="#bib90-1">
                                                   "small town in Northern Palestine"
                                             </desc>
                <idno type="URI">https://usaybia.net/place/90</idno>

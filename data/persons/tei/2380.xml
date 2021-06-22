@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:srophe="https://srophe.app"
-     xmlns:saxon="http://saxon.sf.net/"
-     xmlns:functx="http://www.functx.com"
-     xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app" xmlns:functx="http://www.functx.com" xmlns:saxon="http://saxon.sf.net/" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,30 +20,14 @@
                         (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
                     </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor xml:id="ngibson"
-                    role="general"
-                    ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         https://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-            <editor xml:id="vbirkhahn"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-            <editor xml:id="hfriedel"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#hfriedel                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/hanna_friedel/index.html">Hanna Friedel</editor>
-            <editor xml:id="fioppolo"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
-            <editor xml:id="nloehr"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-            <editor xml:id="rschmahl"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
-            <editor xml:id="mtolay"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-            <editor xml:id="fzeska"
-                    role="contributor"
-                    ref="https://usaybia.net/documentation/editors.xml#fzeska">Flavio Zeska</editor>
+            <editor xml:id="ngibson" role="general" ref="https://usaybia.net/documentation/editors.xml#ngibson                          http://syriaca.org/documentation/editors.html#ngibson                          https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html                         http://orcid.org/0000-0003-0786-8075                         https://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+            <editor xml:id="vbirkhahn" role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                          https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+            <editor xml:id="hfriedel" role="contributor" ref="https://usaybia.net/documentation/editors.xml#hfriedel                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/hanna_friedel/index.html">Hanna Friedel</editor>
+            <editor xml:id="fioppolo" role="contributor" ref="https://usaybia.net/documentation/editors.xml#fioppolo                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/ioppolo/index.html">Fabio Ioppolo</editor>
+            <editor xml:id="nloehr" role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                         https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+            <editor xml:id="rschmahl" role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+            <editor xml:id="mtolay" role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                         https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+            <editor xml:id="fzeska" role="contributor" ref="https://usaybia.net/documentation/editors.xml#fzeska">Flavio Zeska</editor>
             <editor role="creator" ref="#ngibson">Nathan P. Gibson</editor>
             <editor role="creator" ref="#vbirkhahn">Vanessa Birkhahn</editor>
             <editor role="creator" ref="#hfriedel">Hanna Friedel</editor>
@@ -99,13 +78,11 @@
             </respStmt>
             <respStmt>
                <resp>Original data architecture of TEI person records for Srophé by</resp>
-               <name type="person"
-                     ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</name>
             </respStmt>
             <respStmt>
                <resp>Srophé app design and development by</resp>
-               <name type="person"
-                     ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
+               <name type="person" ref="http://syriaca.org/documentation/editors.xml#wsalesky">Winona Salesky</name>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -122,7 +99,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-22Z</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -181,64 +158,25 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
-         <change xml:id="change-1"
-                 who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.2"
-                 when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
-         <change xml:id="change-2"
-                 who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.3"
-                 when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
-         <change xml:id="change-3"
-                 who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.6.0-dev"
-                 when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
-         <change xml:id="change-5"
-                 who="http://usaybia.net/documentation/editors.xml#ngibson"
-                 n="0.6.0-dev"
-                 when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
-         <change xml:id="change-6"
-                 who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
-                 n="0.6.0-dev"
-                 when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-1" who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.2" when="2020-06-08+02:00">CREATED: person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. The canonical record is currently in the spreadsheet. Changes should be made there. THIS FILE SHOULD NOT BE MANUALLY EDITED!</change>
+         <change xml:id="change-2" who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.3" when="2020-06-25+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-3" who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.6.0-dev" when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change xml:id="change-5" who="http://usaybia.net/documentation/editors.xml#ngibson" n="0.6.0-dev" when="2021-03-10+02:00">CHANGED: Added religious affiliations and religious affiliation signals from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-6" who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel" n="0.6.0-dev" when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPerson>
             <person xml:id="person-2380">
-               <persName xml:id="name2380-1"
-                         xml:lang="en-x-lhom"
-                         srophe-tags="#syriaca-headword"
-                         source="#bib2380-1"
-                         resp="#rschmahl"
-                         change="#change-3">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī)</persName>
-               <persName xml:id="name2380-2"
-                         xml:lang="ar"
-                         srophe-tags="#syriaca-headword"
-                         resp="#hfriedel"
-                         change="#change-6">أبو الفرج علي بن الحسين بن محمد الإصفهاني / الإصبهاني</persName>
-               <note xml:id="abstract-en-2380"
-                     xml:lang="en"
-                     type="abstract"
-                     source="#bib2380-1"
-                     resp="#rschmahl"
-                     change="#change-3">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī), author of `K. al-Aghānī`</note>
+               <persName xml:id="name2380-1" xml:lang="en-x-lhom" srophe-tags="#syriaca-headword" source="#bib2380-1" resp="#rschmahl" change="#change-3">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī)</persName>
+               <persName xml:id="name2380-2" xml:lang="ar" srophe-tags="#syriaca-headword" resp="#hfriedel" change="#change-6">أبو الفرج علي بن الحسين بن محمد الإصفهاني / الإصبهاني</persName>
+               <note xml:id="abstract-en-2380" xml:lang="en" type="abstract" source="#bib2380-1" resp="#rschmahl" change="#change-3">Abū l-Faraj ʿAlī ibn al-Ḥusayn ibn Muḥammad al-Iṣfahānī (`or` al-Iṣbahānī), author of `K. al-Aghānī`</note>
                <idno type="URI">https://usaybia.net/person/2380</idno>
-               <state xml:lang="en"
-                      type="occupation"
-                      role="author"
-                      source="#bib2380-1"
-                      resp="#vbirkhahn #ngibson"
-                      change="#change-3">
+               <state xml:lang="en" type="occupation" role="author" source="#bib2380-1" resp="#vbirkhahn #ngibson" change="#change-3">
                   <desc>author</desc>
                </state>
-               <state xml:lang="en"
-                      type="religious-affiliation"
-                      evidence="ancestor-name"
-                      cert="low"
-                      resp="#ngibson"
-                      change="#change-5">
+               <state xml:lang="en" type="religious-affiliation" evidence="ancestor-name" cert="low" resp="#ngibson" change="#change-5">
                   <label>Muslim</label>
                </state>
                <bibl xml:id="bib2380-1">
