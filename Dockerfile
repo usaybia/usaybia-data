@@ -8,6 +8,7 @@ ENV autodeploy=/exist/autodeploy/
 # ADD https://github.com/usaybia/srophe-eXist-app/releases/download/v${app_version}/usaybia-${app_version}.xar ${autodeploy}
 ADD https://exist-db.org/exist/apps/public-repo/public/functx-1.0.xar ${autodeploy}
 ADD http://exist-db.org/exist/apps/public-repo/public/expath-crypto-exist-lib-0.6.xar ${autodeploy}
+ADD https://github.com/eXist-db/atom-editor-support/releases/download/v1.1.0/atom-editor-1.1.0.xar ${autodeploy}
 
 # Copy built eXist package to autodeploy 
 COPY build/*.xar ${autodeploy}
