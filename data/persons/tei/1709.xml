@@ -122,7 +122,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -201,6 +201,10 @@
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
                  when="2021-06-10+02:00">CHANGED: Corrected faulty import of names classified as Arabic from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-10"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -239,11 +243,20 @@
                      change="#change-3">Muwaffaq al-Dīn ʿAbd al-ʿAzīz al-Sulamī, pupil of Ilyās ibn al-Muṭrān</note>
                <idno type="URI">https://usaybia.net/person/1709</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/32302701</idno>
-               <bibl xml:id="bib1709-1">
+               <bibl xml:id="bib1709-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">15.24; 15.34; 15.45.1; 15.50.1; 15.50.6</citedRange>
-                  <citedRange unit="section">15.34</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.34"
+                              ana="entry">15.34</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.24">15.24</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.45">15.45.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.50">15.50.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.50">15.50.6</citedRange>
                </bibl>
                <bibl xml:id="bib1709-2">
                   <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>
