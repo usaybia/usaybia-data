@@ -122,7 +122,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -197,6 +197,10 @@
                  who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
                  n="0.6.0-dev"
                  when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-10"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -232,7 +236,106 @@
                <bibl xml:id="bib886-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">1.1; 1.9; 2.1.5; 4.1; 4.5.3n; 5.1.37 no. 46; 9.31n; 10.1.14 no. 129; 10.37.2; 10.37.5 nos. 10–13; 11.5.10; 11.5.25 nos. 117, 163; 11.6; 11.8.4; 11.17 no. 3; 13.1.3 nos. 10, 12; 13.24.3(p); 13.51.1; 13.51.2; 14.21 no. 2; 14.25.2; 14.25.7; 14.25.9 nos. 21, 26, 28, 29, 50; 14.32.4; 14.54.6 Hippocratic works specified: 3.3; 4.9.1 (list of twelve main works); 4.9.1.2 (list of other works); 9.11; 10.64.20 no. 6; 11.16 no. 3 (`Aphorisms`); 10.64.20 no. 7 (`Prognosis`); 11.5.25 no. 16311.17 nos. 3, 4; 11.18 no. 3; 13.51.4 no. 1 (`Oath`); 11.17 no. 3; 13.51.4 no. 2 (`Aphorisms`); 11.17 no. 4; 14.21 no. 2; 14.22.4.3 no. 44.7; 14.22.4.3 no. 44.14; 14.22.4.3 nos. 44.7, 44.30; 14.25.9 nos. 26, 28, 29; 14.54.9 (`Prognosis`); 15.1 no. 53; 15.10 nos. 1, 2; 11.17 no. 3; 14.54.3 (`Aphorisms` and `Prognosis`) 15.30 no. 4; 15.40.9 nos. 37 ( `Aphorisms`), 38, 39 ( `Acute Diseases`); 15.47.3 no. 4; 15.58.8 no. 4; 15.60.1 (`Aphorisms` and `Prognosis`); ＡⅠ.1 no. 1 Cited in poetry: 5.1 (al-Maʿarrī), 8.30 (Isḥāq ibn Ḥunayn), 13.24.3 (Saʿīd ibn ʿAbd Rabbih and Aḥmad ibn ʿAbd Rabbih), 13.58 (Abū l-Ṣalt Umayyah), 14.32.4 (Yūsuf ibn Hibat Allāh), 14.51.3 (ʿAḍud al-Dīn ibn Munqidh), 15.8 (Abū l-Faḍl ibn al-Milḥī), 15.10 (Ibn al-Budhūkh), 15.17 (Abū l-Ḥakam al-Maghribī), 15.37.4 (ⅠＡＵ), 15.52.1. (ⅠＡＵ, two poems); ＡⅠⅠ.1 (Anon); ＡⅠⅠ.15 (Ibn ʿUnayn)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:1.1">1.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:1.9">1.9</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:2.1">2.1.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.1">4.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.5">4.5.3n</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">5.1.37 no. 46</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:9.31">9.31n</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.1">10.1.14 no. 129</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37">10.37.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37">10.37.5 nos. 10–13</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.5">11.5.10</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.5">11.5.25 nos. 117, 163</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.6">11.6</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.8">11.8.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.17">11.17 no. 3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.1">13.1.3 nos. 10, 12</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.24">13.24.3(p)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.51">13.51.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.51">13.51.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.21">14.21 no. 2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25">14.25.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25">14.25.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25">14.25.9 nos. 21, 26, 28, 29, 50</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.32">14.32.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54">14.54.6 Hippocratic works specified: 3.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.9">4.9.1 (list of twelve main works)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.9">4.9.1.2 (list of other works)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:9.11">9.11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.64">10.64.20 no. 6</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.16">11.16 no. 3 (`Aphorisms`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.64">10.64.20 no. 7 (`Prognosis`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.5">11.5.25 no. 16311.17 nos. 3, 4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.18">11.18 no. 3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.51">13.51.4 no. 1 (`Oath`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.51">13.51.4 no. 2 (`Aphorisms`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.17">11.17 no. 4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.22">14.22.4.3 no. 44.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.22">14.22.4.3 no. 44.14</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.22">14.22.4.3 nos. 44.7, 44.30</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25">14.25.9 nos. 26, 28, 29</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54">14.54.9 (`Prognosis`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.1">15.1 no. 53</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.10">15.10 nos. 1, 2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54">14.54.3 (`Aphorisms` and `Prognosis`) 15.30 no. 4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.40">15.40.9 nos. 37 ( `Aphorisms`), 38, 39 ( `Acute Diseases`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.47">15.47.3 no. 4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.58">15.58.8 no. 4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.60">15.60.1 (`Aphorisms` and `Prognosis`)</citedRange>
+                  <citedRange unit="section"
+                              target="ＡⅠ.1 no. 1 Cited in poetry: https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">ＡⅠ.1 no. 1 Cited in poetry: 5.1 (al-Maʿarrī), 8.30 (Isḥāq ibn Ḥunayn), 13.24.3 (Saʿīd ibn ʿAbd Rabbih and Aḥmad ibn ʿAbd Rabbih), 13.58 (Abū l-Ṣalt Umayyah), 14.32.4 (Yūsuf ibn Hibat Allāh), 14.51.3 (ʿAḍud al-Dīn ibn Munqidh), 15.8 (Abū l-Faḍl ibn al-Milḥī), 15.10 (Ibn al-Budhūkh), 15.17 (Abū l-Ḥakam al-Maghribī), 15.37.4 (ⅠＡＵ), 15.52.1. (ⅠＡＵ, two poems)</citedRange>
+                  <citedRange unit="section" target="ＡⅠⅠ.1 (Anon)">ＡⅠⅠ.1 (Anon)</citedRange>
+                  <citedRange unit="section" target="ＡⅠⅠ.15 (Ibn ʿUnayn)">ＡⅠⅠ.15 (Ibn ʿUnayn)</citedRange>
                </bibl>
             </person>
          </listPerson>

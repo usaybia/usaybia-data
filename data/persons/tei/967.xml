@@ -122,7 +122,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -197,6 +197,10 @@
                  who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
                  n="0.6.0-dev"
                  when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-10"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -240,7 +244,126 @@
                <bibl xml:id="bib967-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">5.1.16.1–5 (Galen’s status); 7.7.2; 7.8.2; 7.8.3; 8.3.6; 8.3.7; 8.3.10; 8.3.11; 8.3.12; 8.3.14; 8.3.15; 8.3.16; 8.3.17; 8.3.18; 8.3.19; 8.8.2; 8.8.3; 8.8.4; 8.8.5; 8.8.6; 8.9; 8.10.2; 8.10.4; 8.11; 8.13.2; 8.13.4; 8.15.2; 8.18.1; 8.18.3; 8.18.4; 8.19.3; 8.19.4; 8.19.5; 8.20.4; 8.20.5; 8.20.7; 8.20.8; 8.20.9; 8.20.10; 8.10.11; 8.21.2; 8.21.3; 8.21.4; 8.25.7; 8.26.5; 8.26.6; 8.26.7; 8.26.8; 8.26.9; 8.26.10; 8.26.11; 8.26.11; 8.26.12; 8.26.13; 8.26.14; 8.27.2; 8.27.3; 8.27.4; 8.29.2; 8.29.3; 12.6 (these are all quotations from the `Akhbār al- aṭibbāʾ`)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">5.1.16.1–5 (Galen’s status)</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:7.7">7.7.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:7.8">7.8.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:7.8">7.8.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.6</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.10</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.12</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.14</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.15</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.16</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.17</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.18</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.3">8.3.19</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.8">8.8.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.8">8.8.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.8">8.8.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.8">8.8.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.8">8.8.6</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.9">8.9</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.10">8.10.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.10">8.10.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.11">8.11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.13">8.13.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.13">8.13.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.15">8.15.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.18">8.18.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.18">8.18.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.18">8.18.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.19">8.19.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.19">8.19.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.19">8.19.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.8</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.9</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.20">8.20.10</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.10">8.10.11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.21">8.21.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.21">8.21.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.21">8.21.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.25">8.25.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.6</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.7</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.8</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.9</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.10</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.12</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.13</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.26">8.26.14</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.27">8.27.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.27">8.27.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.27">8.27.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29">8.29.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29">8.29.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:12.6">12.6 (these are all quotations from the `Akhbār al- aṭibbāʾ`)</citedRange>
                </bibl>
             </person>
          </listPerson>

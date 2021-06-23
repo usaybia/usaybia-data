@@ -118,7 +118,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -193,6 +193,10 @@
                  who="http://usaybia.net/documentation/editors.xml#ngibson https://usaybia.net/documentation/editors.xml#hfriedel"
                  n="0.6.0-dev"
                  when="2021-05-27+02:00">CHANGED: Added Arabic names from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+         <change xml:id="change-10"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -228,7 +232,32 @@
                <bibl xml:id="bib2428-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">2.1.5; 3.2; 4.1.11.1n; 4.1.11.3; 5.1.3; 5.1.4; 5.1.12.1; 6.1.1; 6.1.2; 6.1.3; 6.2; 14.22.4.3 no. 11; 15.1.5 no. 43</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:2.1">2.1.5</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:3.2">3.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.1">4.1.11.1n</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.1">4.1.11.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">5.1.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">5.1.4</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">5.1.12.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:6.1">6.1.1</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:6.1">6.1.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:6.1">6.1.3</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:6.2">6.2</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.22">14.22.4.3 no. 11</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.1">15.1.5 no. 43</citedRange>
                </bibl>
             </person>
          </listPerson>

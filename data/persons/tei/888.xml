@@ -117,7 +117,7 @@
                                 License.</p>
                </licence>
             </availability>
-            <date>2021-06-11+02:00</date>
+            <date>2021-06-23+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -188,6 +188,10 @@
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
                  when="2021-03-08+02:00">CHANGED: Updated person from spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0. : Corrected names, abstracts, occupations and references.</change>
+         <change xml:id="change-10"
+                 who="http://usaybia.net/documentation/editors.xml#ngibson"
+                 n="0.6.0-dev"
+                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -218,7 +222,8 @@
                <bibl xml:id="bib888-1">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
-                  <citedRange unit="section">4.3.4.1n</citedRange>
+                  <citedRange unit="section"
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:4.3">4.3.4.1n</citedRange>
                </bibl>
             </person>
          </listPerson>
