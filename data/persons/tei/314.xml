@@ -200,7 +200,7 @@
          <change xml:id="change-10"
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
-                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -225,7 +225,7 @@
                      resp="#mtolay"
                      change="#change-3">Abū l-Qāsim Fayd ibn Najm, contemporary of Ibn al-Kattānī</note>
                <idno type="URI">https://usaybia.net/person/314</idno>
-               <bibl xml:id="bib314-1">
+               <bibl xml:id="bib314-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section"

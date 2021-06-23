@@ -208,7 +208,7 @@
          <change xml:id="change-10"
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
-                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -271,7 +271,7 @@
                       change="#change-5">
                   <label>Christian</label>
                </state>
-               <bibl xml:id="bib899-1">
+               <bibl xml:id="bib899-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section"
@@ -441,7 +441,9 @@
                   <citedRange unit="section"
                               target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.50">15.50.7 no. 6</citedRange>
                   <citedRange unit="section"
-                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.60">15.60.1 `Adāb al-falāsafah` 5.1.34</citedRange>
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.60">15.60.1</citedRange>
+                  <citedRange unit="section"
+                              target="`Adāb al-falāsafah` https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:5.1">`Adāb al-falāsafah` 5.1.34</citedRange>
                </bibl>
             </person>
          </listPerson>

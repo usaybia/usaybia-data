@@ -208,7 +208,7 @@
          <change xml:id="change-10"
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
-                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -275,7 +275,7 @@
                       change="#change-5">
                   <label>Muslim</label>
                </state>
-               <bibl xml:id="bib1919-1">
+               <bibl xml:id="bib1919-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section"
@@ -332,13 +332,19 @@
                   <citedRange unit="section"
                               target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.36">15.36.1.2</citedRange>
                   <citedRange unit="section"
-                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.60">15.60.1 Works `al-Kitāb al-Ḥāwī fī l-ṭibb` 10.64.20 no. 4</citedRange>
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.60">15.60.1</citedRange>
+                  <citedRange unit="section"
+                              target="Works `al-Kitāb al-Ḥāwī fī l-ṭibb` https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.64">Works `al-Kitāb al-Ḥāwī fī l-ṭibb` 10.64.20 no. 4</citedRange>
                   <citedRange unit="section"
                               target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.21">14.21 no. 1</citedRange>
                   <citedRange unit="section"
                               target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.39">15.39 no. 4</citedRange>
                   <citedRange unit="section"
-                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.50">15.50.7 no. 1 `Doubts on Galen` 15.40.9 no. 101 `Taʿālīq ʿalā K. al-Ḥāwī`: 14.56.4 no. 4</citedRange>
+                              target="https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.50">15.50.7 no. 1</citedRange>
+                  <citedRange unit="section"
+                              target="`Doubts on Galen` https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.40">`Doubts on Galen` 15.40.9 no. 101</citedRange>
+                  <citedRange unit="section"
+                              target="`Taʿālīq ʿalā K. al-Ḥāwī`: https://dh.brill.com/scholarlyeditions/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56">`Taʿālīq ʿalā K. al-Ḥāwī`: 14.56.4 no. 4</citedRange>
                </bibl>
                <bibl xml:id="bib1919-2">
                   <title xml:lang="ar" level="m">عيون الأنباء في طبقات الأطباء</title>

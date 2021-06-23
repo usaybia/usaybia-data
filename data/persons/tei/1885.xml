@@ -204,7 +204,7 @@
          <change xml:id="change-10"
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
-                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -237,7 +237,7 @@
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D9%82%D8%B3%D8%B7%D8%A7_%D8%A8%D9%86_%D9%84%D9%88%D9%82%D8%A7</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://viaf.org/viaf/36906875</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://dx.doi.org/10.1163/1573-3912_islam_SIM_4567</idno>
-               <bibl xml:id="bib1885-1">
+               <bibl xml:id="bib1885-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section"

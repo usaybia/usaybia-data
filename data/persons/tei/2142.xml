@@ -204,7 +204,7 @@
          <change xml:id="change-10"
                  who="http://usaybia.net/documentation/editors.xml#ngibson"
                  n="0.6.0-dev"
-                 when="2021-06-23+02:00">CHANGED: Improved citedRanges for LHOM: reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
+                 when="2021-06-23+02:00">CHANGED: citedRanges for LHOM: corrected, reordered, added @ana for entries and links in @target in spreadsheet https://docs.google.com/spreadsheets/d/1ujiT91ua3sA-WX86OWpuE-gDD_E-zONpI1dP70pXdWw/edit#gid=0.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -243,7 +243,7 @@
                      change="#change-3">al-Sukkarī, Jābir ibn Mawhūb, physician son of Mawhūb ibn Ẓāfir</note>
                <idno type="URI">https://usaybia.net/person/2142</idno>
                <idno type="URI" resp="#rschmahl #mtolay">https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A8%D8%B1_%D8%A8%D9%86_%D9%85%D9%88%D9%87%D9%88%D8%A8_%D8%A7%D9%84%D8%B3%D9%83%D8%B1%D9%8A</idno>
-               <bibl xml:id="bib2142-1">
+               <bibl xml:id="bib2142-1" change="#change-10">
                   <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
                   <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
                   <citedRange unit="section"
