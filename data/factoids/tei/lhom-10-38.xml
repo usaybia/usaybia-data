@@ -137,35 +137,153 @@
     <text>
         <body>
             <!-- Here is how the factoid URI and number might work. -->
-           <div 
+            <ab 
+                type="factoid" subtype="relation" 
+                xml:id="factoid-1" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-1</idno>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/961" passive="https://usaybia.net/person/161">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> had become associated with <persName ref="https://usaybia.net/person/161">Abū l-Faraj ʿAbd Allāh ibn al-Ṭayyib</persName> and became one of his students.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="relation" 
+                xml:id="factoid-2" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-2</idno>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/professional-relationship" mutual="https://usaybia.net/person/961 https://usaybia.net/person/211">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> also kept the company of the physician <persName ref="https://usaybia.net/person/211">Abū l-Ḥasan Thābit ibn Ibrāhīm ibn Zahrūn al-Ḥarrānī</persName>.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </ab>
+           <ab 
               type="factoid" subtype="relation" 
-              xml:id="factoid-20" 
+              xml:id="factoid-3" 
               resp="#nloehr">
-              <idno type="URI">https://usaybia.net/factoid/10-38-20</idno>
+              <idno type="URI">https://usaybia.net/factoid/10-38-3</idno>
               <listRelation>
-                  <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093">
+                  <relation type="person" ref="http://syriaca.org/keyword/refuter-of" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093">
                       <desc>Neither of them would compose a book nor form any opinion without the other 
                           responding to it and exposing the folly of his opinion</desc>
                  </relation>
               </listRelation>
               <bibl type="urn">
                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                 <citedRange unit="part">5</citedRange>
+                 <citedRange unit="part">2</citedRange>
               </bibl>
-           </div>
-           <div 
-              type="factoid" subtype="relation" 
-              xml:id="factoid-21" 
-              resp="#nloehr">
-              <idno type="URI">https://usaybia.net/factoid/10-38-21</idno>
-              <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/961 https://usaybia.net/person/211">
-                 Ibn Buṭlān also kept the company of the physician Abū l-Ḥasan Thābit ibn Ibrāhīm ibn Zahrūn al-Ḥarrānī</relation>
-                 </listRelation>
-              <bibl type="urn">
-                 <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                 <citedRange unit="part">5</citedRange>
-              </bibl>
-           </div>
+           </ab>
+            <ab 
+                type="factoid" subtype="relation" 
+                xml:id="factoid-4" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-4</idno>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/reader-of" active="https://usaybia.net/person/926" passive="https://usaybia.net/person/961 https://usaybia.net/person/1093">
+                        <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName> saw examples of <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName>'s and <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>'s correspondence and their criticisms of one another.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">2</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-5" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-5</idno>
+                <listEvent>
+                    <event>
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> travelled from <placeName ref="https://usaybia.net/place/77">Baghdad</placeName> to <placeName ref="https://usaybia.net/place/184">Egypt</placeName>,
+                            departing in the year
+                            <choice>
+                                <reg><date notBefore="1047" notAfter="1048" calendar="#julian">1047/48</date></reg>
+                                <orig><date when="0439" calendar="#hijri">439</date></orig>
+                            </choice>.
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">2</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-8" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-8</idno>
+                <listEvent>
+                    <event>
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> arrived in <placeName ref="https://usaybia.net/place/209">Fustat</placeName>
+                            to meet with <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>
+                            in
+                            <choice>
+                                <reg><date when="1049-11" calendar="#julian">November 1049</date></reg>
+                                <orig><date when="0441-06" calendar="#hijri">Jumādā II in the year 441</date></orig>
+                            </choice>.
+                        <listRelation>
+                            <relation type="person" ref="http://syriaca.org/keyword/serious-intimate-relationship-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093"/>
+                        </listRelation>
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">3</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="relation" 
+                xml:id="factoid-6" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-6</idno>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/alliance-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1655">
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> was treated kindly and greatly honoured by <persName ref="https://usaybia.net/person/1655">Muʿizz al-Dawlah Thimāl ibn Ṣāliḥ</persName> in <placeName ref="https://usaybia.net/place/17">Aleppo</placeName>.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">2</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-7" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-7</idno>
+                <listEvent>
+                    <event ana="http://syriaca.org/keyword/travel">
+                        <desc>
+                            <persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> journeyed from <placeName ref="https://usaybia.net/place/184">Egypt</placeName> to <placeName ref="https://usaybia.net/place/140">Constantinople</placeName> where he remained for a year
+                            (<choice>
+                                <reg>
+                                    <date from="1052" to="1053" calendar="#julian">1052–1053</date>
+                                </reg>
+                                <orig>
+                                    <date from="0444" to="0445" calendar="#hijri">444–445</date>
+                                </orig>
+                            </choice>).
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">4</citedRange>
+                </bibl>
+            </ab>
           
         </body>
     </text>

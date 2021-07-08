@@ -136,7 +136,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="factoid" subtype="occupation" xml:id="factoid-30" resp="#nloehr">
+         <ab type="factoid" subtype="occupation" xml:id="factoid-1" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-1</idno>
             <listPerson>
                <person>
@@ -144,21 +144,22 @@
                   <occupation ana="https://usaybia.net/keyword/emirs">
                      <note>
                         <persName ref="https://usaybia.net/person/1589">al-Mubashshir ibn Fātik, Maḥmūd al-Dawlah Abū l-Wafāʾ</persName>
-                        was emir in Fatimid Egypt
+                        was emir in Fatimid <placeName ref="https://usaybia.net/place/184">Egypt</placeName>
                      </note> 
+                  </occupation>
                </person>
             </listPerson>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-31" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-2</idno>
             <listRelation>
-               <relation ref="usaybia:associate-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/997">
+               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/997">
                   <desc><persName ref="https://usaybia.net/person/1589">al-Mubashshir ibn Fātik, Maḥmūd al-Dawlah Abū l-Wafāʾ</persName> 
-                     was a close associate of the famous <occupation ref="https://usaybia.net/occupation/astronomers">astronomer</occupation> 
+                     was a close associate of the famous <rs ref="https://usaybia.net/occupation/astronomers">astronomer</rs> 
                      <persName ref="https://usaybia.net/person/997">Ibn al-Haytham</persName>.</desc>
                </relation>
             </listRelation>
@@ -166,12 +167,11 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-32" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-3" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-3</idno>
             <listRelation>
-               <relation ref="usaybia:acquaintance-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/494">
+               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/494">
                   <desc><persName ref="https://usaybia.net/person/1589">al-Mubashshir ibn Fātik, Maḥmūd al-Dawlah Abū l-Wafāʾ</persName> 
                      learned philosophical disciplines from 
                      <persName ref="https://usaybia.net/person/494">Ibn al-Āmidī</persName>.</desc>
@@ -181,11 +181,11 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-33" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-4" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-4</idno>
             <listRelation>
-               <relation ref="usaybia:associate-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/494">
+               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/1589 https://usaybia.net/person/494">
                   <desc><persName ref="https://usaybia.net/person/1589">al-Mubashshir ibn Fātik, Maḥmūd al-Dawlah Abū l-Wafāʾ</persName> 
                      met frequently with
                      <persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName>.</desc>
@@ -195,81 +195,130 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-34" 
+            xml:id="factoid-5" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-5</idno>
             <listRelation>
-               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/926"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/1589">
-                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>saw many of the manuscripts 
-                     copied by <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName><!-- keyword:autograph-->.</desc>
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw many of the manuscripts 
+                     copied by <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-35" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-6" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-6</idno>
             <listRelation>
-               <relation ref="usaybia:cited" active="https://usaybia.net/person/1947" passive="https://usaybia.net/person/1589">
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-about" active="https://usaybia.net/person/1947" passive="https://usaybia.net/person/1589">
                   <desc><persName ref="https://usaybia.net/person/1947">Shaykh Sadīd al-Dīn</persName> 
-                     knows about <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName> and his private life.</desc>
+                     conveyed knowledge about <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName> and his private life.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-36" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-7" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-7</idno>
             <listRelation>
-               <relation ref="usaybia:acquaintance-of" mutual="https://usaybia.net/person/926 https://usaybia.net/person/1947">
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/1947" passive="https://usaybia.net/person/926">
                   <desc><persName ref="https://usaybia.net/person/1947">Shaykh Sadīd al-Dīn</persName> 
-                     reports to <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>
-                     in <placeName  ref="https://usaybia.net/place/184">Egypt</placeName>.</desc>
+                     reported information to <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>
+                     in <placeName ref="https://usaybia.net/place/184">Egypt</placeName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">2</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="relation" xml:id="factoid-37" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-10" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-23-10</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/spouse-of" mutual="https://usaybia.net/person/2553 https://usaybia.net/person/1589">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/2553">Anonymous 2553</persName> was the wife of
+                     <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="residence" xml:id="factoid-11" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-23-11</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/2553">Anonymous 2553</persName>
+                  <socecStatus ana="http://syriaca.org/keyword/upper-social-group">
+                     <note type="desc">
+                        <persName ref="https://usaybia.net/person/2553">Anonymous 2553</persName> was of the ruling class and had a high status.
+                     </note>
+                  </socecStatus>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"></ptr>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="gender" xml:id="factoid-12" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-23-12</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/2553">Anonymous 2553</persName>
+                  <trait type="gender" ana="http://syriaca.org/keyword/female">
+                     <note type="desc">
+                        <persName ref="https://usaybia.net/person/2553">Anonymous 2553</persName> was female.
+                     </note>
+                  </trait>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"></ptr>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-8</idno>
             <listRelation>
-               <relation ref="usaybia:enimity-for" active="https://usaybia.net/person/2553" passive="https://usaybia.net/person/1589">
-                  <desc><persName ref="https://usaybia.net/person/2553">Ibn Fātik's influencial wife</persName>destroyed the books of
-                     <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName>together with her slave girls.</desc>
+               <relation type="person" ref="http://syriaca.org/keyword/enmity-for" active="https://usaybia.net/person/2553" passive="https://usaybia.net/person/1589">
+                  <desc><persName ref="https://usaybia.net/person/2553">Ibn Fātik's influential wife</persName> together with her female slaves damaged the books of
+                     <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">2</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-38" 
+            xml:id="factoid-9" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-23-9</idno>
             <listRelation>
-               <relation ref="snap:student-of" active="https://usaybia.net/person/1983"
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1983"
                   passive="https://usaybia.net/person/1589">
                   <desc><persName ref="https://usaybia.net/person/1983">Salāmah ibn Raḥmūn</persName> was a student of 
                      <persName ref="https://usaybia.net/person/1589">Ibn Fātik</persName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
-               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.23"/>
                <citedRange unit="part">3</citedRange>
             </bibl>
-         </div>
+         </ab>
          
       </body>
    </text>

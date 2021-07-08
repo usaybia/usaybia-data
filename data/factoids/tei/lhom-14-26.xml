@@ -137,13 +137,13 @@
    <text>
       <body>
          <!-- Here is how the factoid URI and number might work. -->
-         <div 
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-22" 
+            xml:id="factoid-1" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-1</idno>
             <listRelation>
-               <relation ref="snap:student-of" active="https://usaybia.net/person/1215"
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1215"
                   passive="https://usaybia.net/person/1093">
                   <desc><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> was an outstanding student of 
                      <persName ref="https://usaybia.net/person/1093">Abū l-Ḥasan ʿAlī ibn Riḍwān</persName>.</desc>
@@ -153,15 +153,15 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-23" 
+            xml:id="factoid-2" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-2</idno>
             <listRelation>
-               <relation ref="snap:patron-of" active="https://usaybia.net/person/1215"
-                  passive="https://usaybia.net/person/1057">
+               <relation type="person" ref="http://syriaca.org/keyword/employee-of" active="https://usaybia.net/person/1057" 
+               passive="https://usaybia.net/person/1215">
                   <desc><persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName> 
                      was working for 
                      <persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName>.</desc>
@@ -171,33 +171,34 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div type="factoid" subtype="occupation" xml:id="factoid-24" resp="#nloehr">
+         </ab>
+         <ab type="factoid" subtype="occupation" xml:id="factoid-3" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-3</idno>
             <listPerson>
                <person>
                   <persName ref="https://usaybia.net/person/1057"/>
-                  <occupation ana="https://usaybia.net/keyword/copyists">
+                  <occupation ana="http://syriaca.org/keyword/amanuensis">
                      <note>
                         <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>
-                        was a well paid copiyist
+                        was a well-paid copyist.
                      </note> 
+                  </occupation>
                </person>
             </listPerson>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-25" 
+            xml:id="factoid-4" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-4</idno>
             <listRelation>
-               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/926"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/1057">
-                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>saw some of the manuscripts 
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw some of the manuscripts 
                      copied by <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>.</desc>
                </relation>
             </listRelation>
@@ -205,16 +206,16 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-26" 
+            xml:id="factoid-5" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-5</idno>
             <listRelation>
-               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/1215"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1215"
                   passive="https://usaybia.net/person/1057">
-                  <desc><!--Ibn Abī Uṣaybiʿa saw that --><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName>annotated some of the manuscripts 
+                  <desc><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> annotated some of the manuscripts 
                      copied by <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>.</desc>
                </relation>
             </listRelation>
@@ -222,16 +223,62 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">1</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-9" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-9</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926" passive="https://usaybia.net/person/1215">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> read annotations of 
+                     <persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> in manuscripts 
+                     copied by <persName ref="https://usaybia.net/person/1057">Ibn Mulsāqah</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-11" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-11</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-about" active="https://usaybia.net/person/" passive="https://usaybia.net/person/408">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/1945">Sadīd al-Dīn, father of Ibn Abī Uṣaybiʿa</persName> related information about 
+                     <persName ref="https://usaybia.net/person/408">al-Afḍal ibn Amīr al-Juyūsh</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-12" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/14-26-12</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/" passive="https://usaybia.net/person/926">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/1945">Sadīd al-Dīn, father of Ibn Abī Uṣaybiʿa</persName> related information to
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-27" 
+            xml:id="factoid-6" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-6</idno>
             <listRelation>
-               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/408"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/408"
                   passive="https://usaybia.net/person/1215">
-                  <desc><!--Ibn Abī Uṣaybiʿa's father related that --><persName ref="https://usaybia.net/person/408">al-Afḍal ibn Amīr al-Juyūsh</persName> bought the manuscripts 
+                  <desc><persName ref="https://usaybia.net/person/408">al-Afḍal ibn Amīr al-Juyūsh</persName> bought the manuscripts 
                      owned by <persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> and added his ownership statements.</desc>
                </relation>
             </listRelation>
@@ -239,33 +286,31 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">2</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-28" 
+            xml:id="factoid-7" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-7</idno>
             <listRelation>
-               <relation ref="usaybia:reader-of" active="https://usaybia.net/person/926"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/1057">
-                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>found an autograph of 
-                     <title ref="https://usaybia.net/work/1998" n="14.26.3no1" change="#change-1" cert="low">Taʿālīq wa-mujarrabāt jaʿalahā ʿalā jihat al-kunnāsh</title>.</desc>
-                      
-        
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found an autograph of 
+                     <title ref="https://usaybia.net/work/1998">Taʿālīq wa-mujarrabāt jaʿalahā ʿalā jihat al-kunnāsh</title>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">3</citedRange>
             </bibl>
-         </div>
-         <div 
+         </ab>
+         <ab 
             type="factoid" subtype="relation" 
-            xml:id="factoid-29" 
+            xml:id="factoid-8" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-8</idno>
             <listRelation>
-               <relation ref="usaybia:addressee-of" active="https://usaybia.net/person/992"
+               <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/992"
                   passive="https://usaybia.net/person/1215">
                   <desc><persName ref="https://usaybia.net/person/1215">Ifrāʾīm ibn al-Zaffān</persName> composed a book for 
                      <persName ref="https://usaybia.net/person/992">Naṣīr al-Dawlah Abū ʿAlī l-Ḥusayn ibn Abī ʿAlī al-Ḥasan ibn Ḥamdān</persName> 
@@ -276,7 +321,7 @@
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
                <citedRange unit="part">3</citedRange>
             </bibl>
-         </div>
+         </ab>
        
       </body>
    </text>

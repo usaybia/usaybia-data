@@ -170,52 +170,53 @@
                     <citedRange unit="part">1</citedRange>
                 </bibl>
             </div>
-            <div type="factoid" subtype="birthPlace" xml:id="factoid-2" resp="#nloehr">
+            <ab type="factoid" subtype="birthPlace" xml:id="factoid-2" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-2</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <birth><placeName ref="https://usaybia.net/place/217"/><note type="desc"
-                            >born in "Old Cairo" <!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
-                            <!-- Do we want a seperate place ID for these exact coordinates? Do we need one? -->.</note></birth>
+                            >born in <placeName ref="https://usaybia.net/place/121">"Old Cairo"</placeName><!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
+                            <!-- Do we want a seperate place ID for these exact coordinates? Do we need one? 
+                                NL: no don't think so, let's just keep this here as a note for myself -->.</note></birth>
                     </person>
                 </listPerson>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">1</citedRange>
                 </bibl>
-            </div>
+            </ab>
             <div type="factoid" subtype="education" xml:id="factoid-3" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-3</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <education ana="http://usaybia.net/education/medicine"><note type="desc"
-                            > when I reached the age of 14 I moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
-                            I undertook the study of medicine</note></education>
+                            > whenʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
+                             and studied medicine</note></education>
                     </person>
                 </listPerson>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">1</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="education" xml:id="factoid-4" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="education" xml:id="factoid-4" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-4</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
                         <education ana="http://usaybia.net/education/philosophy"><note type="desc"
-                            > when I reached the age of 14 I moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
-                            I undertook the study of medicine and philosophy</note></education>
+                            > when ʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
+                            and studied philosophy</note></education>
                     </person>
                 </listPerson>
                 <bibl type="urn">
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">1</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="occupation" xml:id="factoid-5" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="occupation" xml:id="factoid-5" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-5</idno>
                 <listPerson>
                     <person>
@@ -236,8 +237,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">1</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="mentalState" xml:id="factoid-6" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="mentalState" xml:id="factoid-6" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-6</idno>
                 <listPerson>
                     <person>
@@ -245,7 +246,7 @@
                         <state type="mental" ana="http://syriaca.org/keyword/mental-states">
                             <note type="desc"><persName ref="https://usaybia.net/person/926"
                                 >His</persName> mental faculties deteriorated <date>after the period of famine
-                                    (<reg><date notBefore="1053" notAfter="1061" calendar="Gregorian">1053–1061</date></reg></date>).</note>
+                                    (<reg><date notBefore="1053" notAfter="1061" calendar="julian">1053–1061</date></reg></date>).</note>
                         </state>
                     </person>
                 </listPerson>
@@ -253,24 +254,24 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">4</citedRange>
                 </bibl>
-            </div>
+            </ab>
           
-            <div type="factoid" subtype="event" xml:id="factoid-7" resp="#nloehr">
+            <ab type="factoid" subtype="event" xml:id="factoid-7" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-7</idno>
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crises">
                         <desc> <persName ref="https://usaybia.net/person/1093"> Ibn Riḍwān</persName> 
                             transcriped from a Manuscript in the hand of <persName ref="https://usaybia.net/person/961"> Ibn Butlan:
                             </persName> In <choice>
-                            <reg><date when="1053" calendar="Gregorian">1053</date></reg>
+                            <reg><date when="1053" calendar="julian">1053</date></reg>
                             <orig><date when-custom="445"
-                                datingMethod="Hijri">445</date></orig>
+                                datingMethod="hijri">445</date></orig>
                         </choice>, <persName ref="https://usaybia.net/person/961"> Ibn Butlan
                         </persName> a shortage of supplies occured in <placeName ref="https://usaybia.net/place/184">Egypt,</placeName>
                             the level of the Nile fell and the shortage of food increased, followed by a great pestilence in
-                            <reg><date when="1055" calendar="Gregorian">1055</date></reg>
+                            <reg><date when="1055" calendar="julian">1055</date></reg>
                             <orig><date when-custom="447"
-                                datingMethod="Hijri">447</date></orig>
+                                datingMethod="hijri">447</date></orig>
                             <!-- is this too much input for one factoid? -->
                         </desc>
                     </event>
@@ -279,15 +280,15 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">3</citedRange>
                 </bibl>
-            </div>
-     <div type="factoid" subtype="event" xml:id="factoid-8" resp="#nloehr">
+            </ab>
+     <ab type="factoid" subtype="event" xml:id="factoid-8" resp="#nloehr">
          <idno type="URI">https://usaybia.net/factoid/14-25-8</idno>
                 <listEvent>
                     <event ana="https://usaybia.net/keyword/crime">
                         <desc> In <choice>
-                            <reg><date notBefore="1053" notAfter="1061" calendar="Gregorian"
+                            <reg><date notBefore="1053" notAfter="1061" calendar="julian"
                                 srophe:computed-start="1053" srophe:computed-end="1061">1053–1061</date></reg>
-                            <orig><date notBefore="0445" notAfter="0453" calendar="Hijri"
+                            <orig><date notBefore="0445" notAfter="0453" calendar="hijri"
                                 srophe:computed-start="0445"
                                 srophe:computed-end="0453">445–453</date></orig>
                         </choice>, <persName ref="https://usaybia.net/person/2457">an orphan girl
@@ -301,8 +302,8 @@
              <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
              <citedRange unit="part">4</citedRange>
          </bibl>
-            </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-9" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-9" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-9</idno>
                 <listRelation>
                     <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/926 https://usaybia.net/person/2394">
@@ -316,16 +317,16 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">4</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="deathDate" xml:id="factoid-10" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="deathDate" xml:id="factoid-10" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-10</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"> Ibn Riḍwān</persName> died
                         <death>
                             <choice>
-                                <reg><date when="1061" calendar="Gregorian">in the year 1061</date></reg>
-                                <orig><date when="0453" datingMethod="Hijri"> 453 </date></orig>
+                                <reg><date when="1061" calendar="julian">in the year 1061</date></reg>
+                                <orig><date when="0453" datingMethod="hijri"> 453 </date></orig>
                                 <note type="desc">during the caliphate of al-Mustanṣir bi-Allāh Abū Tamīm Maʿadd ibn al-Ẓāhir li-Iʿzāz al-Dīn al-Ḥākim
                                     <persName ref="https://usaybia.net/person/1688"></persName></note>
                             </choice>
@@ -336,8 +337,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">6</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="deathPlace" xml:id="factoid-11" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="deathPlace" xml:id="factoid-11" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-11</idno>
                 <listPerson>
                     <person>
@@ -359,8 +360,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="residence" xml:id="factoid-12" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="residence" xml:id="factoid-12" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-12</idno>
                 <listPerson>
                     <person>
@@ -375,8 +376,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">3</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-13" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-13" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-13</idno>
                 <listRelation>
                     <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/961">
@@ -386,8 +387,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-14" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-14" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-14</idno>
                 <listRelation>
                     <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/899">
@@ -397,8 +398,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-15" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-15" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-15</idno>
                 <listRelation>
                     <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 https://usaybia.net/person/1136">
@@ -408,8 +409,8 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
-            </div>
-            <div type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
+            </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-16</idno>
                 <listRelation>
                     <relation ref="usaybia:refuter-of" mutual="https://usaybia.net/person/1093 ref=https://usaybia.net/person/1919">
@@ -419,7 +420,23 @@
                     <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
                     <citedRange unit="part">5</citedRange>
                 </bibl>
-            </div>
+                <ab 
+                    type="factoid" subtype="relation" 
+                    xml:id="factoid-17" 
+                    resp="#nloehr">
+                    <idno type="URI">https://usaybia.net/factoid/14-25-17</idno>
+                    <listRelation>
+                        <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1093  https://usaybia.net/person/1097">
+                            <desc><persName ref="https://usaybia.net/person/1093">Ibn Riḍwān</persName> 
+                                exchanged letters with <persName ref=" https://usaybia.net/person/1097">Abū Zakariyyā Yahūdā ibn Saʿādah</persName>.</desc>
+                        </relation>
+                    </listRelation>
+                    <bibl type="urn">
+                        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.25"/>
+                        <citedRange unit="part">9</citedRange>
+                    </bibl>
+                </ab>
+            </ab>
             
         </body>
     </text>
