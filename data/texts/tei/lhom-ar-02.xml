@@ -1,15 +1,13 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xml:id="arabicLit.textgroup.work.H01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a">Chapter 2</title>
 				<title xml:lang="ar" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
-				<author xml:lang="ar" ref="https://usaybia.net/person/1">ابن أبي أصيبعة</author>
+				<author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
 				<sponsor ref="https://www.uni-muenchen.de">
 					<orgName>Ludwig Maximilian University of Munich</orgName>
 					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -23,19 +21,11 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
-					http://syriaca.org/documentation/editors.html#ngibson 
-					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
-					http://orcid.org/0000-0003-0786-8075
-                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
-                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
-                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -47,7 +37,9 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
@@ -102,6 +94,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
+            <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-11">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+اليونان[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
@@ -156,7 +149,9 @@
                             على ما وجد في أخبار الجبابرة بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> ذكي الطبع قوي الفهم حريصاً مجتهداً في علم صناعة الطب.‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            واتفقت له اتفاقات حميدة معينة على التمهر في هذه الصناعة وانكشفت له أمور عجيبة من أحوال العلاج بإلهام من الله عز وجل ويحكي أنه وجد علم الطب في هيكل كان لهم برومية يعرف بهيكل أبلن <note n="16" type="footnote"><p>Müller: أبلن; AR: ايلق, in margin AR: خ قالق; B: ايلق; Gc: ابلق</p></note>
+                            واتفقت له اتفاقات حميدة معينة على التمهر في هذه الصناعة وانكشفت له أمور عجيبة من أحوال العلاج بإلهام من الله عز وجل ويحكي أنه وجد علم الطب في هيكل كان لهم برومية يعرف بهيكل أبلن <note n="16" type="footnote">
+                                <p>Müller: أبلن; AR: ايلق, in margin AR: خ قالق; B: ايلق; Gc: ابلق</p>
+                            </note>
                             وهو للشمس
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٠أ‎" />
                             ويقال إن أسقليبيوس <note n="17" type="footnote"><p>Müller: أسقليبيوس; ABGcR: اسقلنبيوس</p></note>
@@ -274,7 +269,9 @@
                             غاية الكرامة ويشرفهما لعلو محلهما في العلم.‎
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ومن خط ثابت بن قرة الحراني لما ذكر البقارطة قال ويقال إنه كان في جميع أقاليم الأرض لأسقليبيوس <note n="77" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلبنيوس</p></note>
+                            ومن خط ثابت بن قرة الحراني لما ذكر البقارطة قال ويقال إنه كان في جميع أقاليم الأرض لأسقليبيوس <note n="77" type="footnote">
+                                <p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلبنيوس</p>
+                            </note>
                             اثنا عشر ألف تلميذ
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="١١ب‎" />
                             وإنه كان يعلم الطب مشافهة وكان آل أسقليبيوس <note n="78" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلبنيوس</p></note>
@@ -312,11 +309,21 @@
                             <hi rend="bold">[2.1.6.2]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            قال جالينوس وقد آن لنا أيضاً <note n="94" type="footnote"><p>Gc: om. أيضاً</p></note>
-                            أن نتكلم في صورة أسقليبيوس <note n="95" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلبنيوس</p></note>
-                            وثيابه <note n="96" type="footnote"><p>R: بياته</p></note>
-                            وتمكنه وذلك أن الأقاويل التي نجدها مكتوبة في تألهه إنما تليق بالخرافات لا بالحق ومن المشهور من أمره أنه رفع إلى الملائكة <note n="97" type="footnote"><p>A: المليكة</p></note>
-                            في عمود من نار كما يقال في ذينوسس <note n="98" type="footnote"><p>Müller: ذيونوسس; A: زينوسس, in margin of A: خ زيونوسس; B: زيونوسس; Gc: زيونوسيس; R: رينوسس, in margin of R: خ ديونس</p></note>
+                            قال جالينوس وقد آن لنا أيضاً <note n="94" type="footnote">
+                                <p>Gc: om. أيضاً</p>
+                            </note>
+                            أن نتكلم في صورة أسقليبيوس <note n="95" type="footnote">
+                                <p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس; R: اسقلبنيوس</p>
+                            </note>
+                            وثيابه <note n="96" type="footnote">
+                                <p>R: بياته</p>
+                            </note>
+                            وتمكنه وذلك أن الأقاويل التي نجدها مكتوبة في تألهه إنما تليق بالخرافات لا بالحق ومن المشهور من أمره أنه رفع إلى الملائكة <note n="97" type="footnote">
+                                <p>A: المليكة</p>
+                            </note>
+                            في عمود من نار كما يقال في ذينوسس <note n="98" type="footnote">
+                                <p>Müller: ذيونوسس; A: زينوسس, in margin of A: خ زيونوسس; B: زيونوسس; Gc: زيونوسيس; R: رينوسس, in margin of R: خ ديونس</p>
+                            </note>
                             وإيرقلس وسائر
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٢أ‎" />
                             من أشبههما ممن عنى بنفع الناس واجتهد في ذلك وبالجملة يقال إن الله تبارك وتعالى فعل بأسقليبيوس <note n="99" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلنىيوس</p></note>
@@ -343,10 +350,18 @@
                             <hi rend="bold">[2.1.6.3]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            قال جالينوس وأما أعوجاجها وكثرة شعبها فتدل على كثرة الأصناف والتفنن <note n="107" type="footnote"><p>A: والتفنن, in margin والتغير</p></note>
-                            الموجود في صناعة الطب وليس <note n="108" type="footnote"><p>BGcR: وليس</p></note>
-                            نجدهم أيضاً تركوا تلك العصا بغير زينة <note n="109" type="footnote"><p>R: يزمنة</p></note>
-                            ولا تهيئة <note n="110" type="footnote"><p>A: om. ولا تهيئة</p></note>
+                            قال جالينوس وأما أعوجاجها وكثرة شعبها فتدل على كثرة الأصناف والتفنن <note n="107" type="footnote">
+                                <p>A: والتفنن, in margin والتغير</p>
+                            </note>
+                            الموجود في صناعة الطب وليس <note n="108" type="footnote">
+                                <p>BGcR: وليس</p>
+                            </note>
+                            نجدهم أيضاً تركوا تلك العصا بغير زينة <note n="109" type="footnote">
+                                <p>R: يزمنة</p>
+                            </note>
+                            ولا تهيئة <note n="110" type="footnote">
+                                <p>A: om. ولا تهيئة</p>
+                            </note>
                             لكنهم صوروا عليها صورة حيوان
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٢ب‎" />
                             طويل العمر ملتف <note n="111" type="footnote"><p>A: يلتف</p></note>
@@ -428,45 +443,75 @@
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                قال أسقليبيوس <note n="151" type="footnote"><p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلىىيوس</p></note>
+                                <title ref="https://usaybia.net/work/1634" n="2.1.7no1" change="#change-1" cert="low">
+                                قال أسقليبيوس <note n="151" type="footnote">
+                                    <p>Müller: أسقليبيوس; AGc: اسقلنبيوس; B: اسقلىىيوس</p>
+                                </note>
                                 من عرف الأيام لم يغفل الاستعداد.
+                            </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال إن أحدكم بين نعمة من بارئه وبين ذنب عمله وما يصلح هاتين <note n="152" type="footnote"><p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 28: ما بين</p></note>
+                                
+                                وقال إن أحدكم بين نعمة من بارئه وبين ذنب عمله وما يصلح هاتين <note n="152" type="footnote">
+                                    <p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 28: ما بين</p>
+                                </note>
                                 الحالتين إلا الحمد للمنعم والاستغفار من الذنب.
+                            
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">3.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال كم من دهر ذممتموه فلما صرتم إلى غيره حمدتموه وكم من أمر أبغضت <note n="153" type="footnote"><p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 29: يغضب في</p></note>
+                                
+                                وقال كم من دهر ذممتموه فلما صرتم إلى غيره حمدتموه وكم من أمر أبغضت <note n="153" type="footnote">
+                                    <p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 29: يغضب في</p>
+                                </note>
                                 أوائله وبكى عند أواخره عليه.
+                            
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">4.</label>
                             <item style="direction:rtl; unicode-bidi:embed">وقال المتعبد بغير معرفة كحمار الطاحون يدور ولا يبرح ولا يدري ما هو فاعل.</item>
                             <label style="direction:rtl; unicode-bidi:embed">5.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال فوت الحاجة خير من طلبها إلى <note n="154" type="footnote"><p>R: إلى, in margin ظ من</p></note>
+                                
+                                وقال فوت الحاجة خير من طلبها إلى <note n="154" type="footnote">
+                                    <p>R: إلى, in margin ظ من</p>
+                                </note>
                                 غير أهلها.
+                            
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">6.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال إعطاء الفاجر تقوية له <note n="155" type="footnote"><p>Gc: om. له</p></note>
+                                
+                                وقال إعطاء الفاجر تقوية له <note n="155" type="footnote">
+                                    <p>Gc: om. له</p>
+                                </note>
                                 على فجوره والصنيعة عند الكفور إضاعة للنعمة وتعليم الجاهل ازدياد في الجهل ومسألة اللئيم إهانة للعرض.
+                            
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">7.</label>
                             <item style="direction:rtl; unicode-bidi:embed">وقال إني لأعجب ممن يحتمي من المآكل الرديئة مخافة الضرر ولا يدع الذنوب مخافة الآخرة.</item>
                             <label style="direction:rtl; unicode-bidi:embed">8.</label>
                             <item style="direction:rtl; unicode-bidi:embed">وقال أكثروا من الصمت فإنه سلامة من المقت واستعملوا الصدق فإنه زين النطق.</item>
-                            <label style="direction:rtl; unicode-bidi:embed">9.</label>
-                            <item style="direction:rtl; unicode-bidi:embed">وقيل له صف لنا الدنيا فقال أمس أجل واليوم عمل وغداً أمل.</item>
+                            <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
+                            <item style="direction:rtl; unicode-bidi:embed">
+                                <title ref="https://usaybia.net/work/1642" n="2.1.7no9" change="#change-1" cert="low">وقيل له صف لنا الدنيا فقال أمس أجل واليوم عمل وغداً أمل.</title>
+                            </item>
                             <label style="direction:rtl; unicode-bidi:embed">10.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال المشفق عليكم يسيء الظن بكم والزاري عليكم كثير العتب <note n="156" type="footnote"><p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 29: العيب</p></note>
+                                
+                                وقال المشفق عليكم يسيء الظن بكم والزاري عليكم كثير العتب <note n="156" type="footnote">
+                                    <p>Cf. Badawī, <hi rend="italic">Al-Mubashshir ibn Fātik</hi>, 29: العيب</p>
+                                </note>
                                 لكم وذو البغضاء لكم قليل النصيحة لكم.
+                            
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">11.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                وقال سبيل من له دين ومروءة أن يبذل لصديقه نفسه وماله ولمن يعرفه طلاقة وجهه وحسن محضره ولعدوه العدل وأن يتصاون عن كل حال يعيب. <note n="157" type="footnote"><p>R: تعبر</p></note>
+                                
+                                وقال سبيل من له دين ومروءة أن يبذل لصديقه نفسه وماله ولمن يعرفه طلاقة وجهه وحسن محضره ولعدوه العدل وأن يتصاون عن كل حال يعيب. <note n="157" type="footnote">
+                                    <p>R: تعبر</p>
+                                </note>
+                            
                             </item>
                         </list>
                     </div>
@@ -475,7 +520,9 @@
                             <hi rend="bold">[2.2] أبُلُن</hi> <note n="1" type="footnote"><p>ABGcR: أيلق; cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 15: أبلن; Müller: أيلق</p></note>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ويقال له أبله <note n="2" type="footnote"><p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 15: أبله; ABGcR: أيله</p></note>
+                            ويقال له أبله <note n="2" type="footnote">
+                                <p>Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 15: أبله; ABGcR: أيله</p>
+                            </note>
                             قال سليمان بن حسان المعروف بابن جلجل إن هذا أول حكيم تكلم في الطب ببلد الروم
                             <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٤أ‎" />
                             والفرس <note n="3" type="footnote"><p>Cf. Ibn Juljul, <hi rend="italic">Ṭabaqāt al-aṭibbāʾ</hi>, 15: والغريقين</p></note>
