@@ -7,7 +7,7 @@
             <titleStmt>
                 <title xml:lang="en" level="a">Chapter 12</title>
 				<title xml:lang="ar" level="m" ref="https://usaybia.net/work/1 http://viaf.org/viaf/215291388">عيون الأنباء في طبقات الأطباء</title>
-				<author xml:lang="ar" ref="https://usaybia.net/person/1">ابن أبي أصيبعة</author>
+				<author xml:lang="ar" ref="https://usaybia.net/person/926">ابن أبي أصيبعة</author>
 				<sponsor ref="https://www.uni-muenchen.de">
 					<orgName>Ludwig Maximilian University of Munich</orgName>
 					(<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
@@ -32,8 +32,12 @@
 					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				</respStmt>				
 				<respStmt>
-					<resp>Edited by</resp>
-					<name type="person">Insert other names of people who edit this document </name>
+					<resp>Place names tagged by</resp>
+					<name type="person" ref="#mtolay">Malinda Tolay</name>
+                </respStmt>
+                <respStmt>
+					<resp>Place name tagging checked by</resp>
+					<name type="person" ref="#ngibson">Nathan P. Gibson</name>
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
@@ -95,6 +99,15 @@
         <revisionDesc>
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
+            <change xml:id="change-2" who="#mtolay" when="2020-08-26">Tagged place names in Recogito.</change>
+            <change xml:id="change-3" who="#ngibson" when="2021-02-01">Reformatted after downloading from Recogito: 
+                1. Switched attribute order on notes.
+                2. Switched attribute order on milestones.
+                3. Converted placeName attributes @ana to @ref, removed Recogito @xml:id and @cert and teiHeader/encodingDesc taxonomy, added @resp.
+                4. Changed span elements to placeName.
+            </change>
+            <change xml:id="change-4" who="#ngibson" when="2021-02-01">Added URI for item with no URI.</change>
+            <change xml:id="change-5" who="#ngibson" when="2021-02-01">Edited placeName tags to include definite article.</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-19">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الفرس[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
