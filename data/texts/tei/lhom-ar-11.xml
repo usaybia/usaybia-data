@@ -93,8 +93,8 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-<<<<<<< HEAD
             <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
+			<change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-12">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: (يوناني(ة|ين)?)([^ا-ي]), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">$1/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
@@ -102,9 +102,6 @@
             <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-22">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: (هندية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note) and not(ancestor-or-self::persName) and not(ancestor::rs[@ref="http://syriaca.org/keyword/sanskrit-language"])]/text()</change>
-=======
-            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>             <change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
->>>>>>> development
         </revisionDesc>
     </teiHeader>
 	<text>
@@ -185,7 +182,6 @@
                                 <p>Gc: نوشروان; R: انوشيروان</p>
                             </note>
 							بن قباذ بن فيروز
-<<<<<<< HEADresolve_rs
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="١٦٧ب‎" />
 							ملك الفرس وترجمه له من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> ثم ترجمه في الإسلام عبد الله بن المقفع الخطيب من اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
 						</p>
@@ -194,22 +190,6 @@
 							وترجم مع ذلك المدخل إلى كتاب المنطق المعروف بإيساغوجي فرفوريوس الصوري وعبارته في الترجمة عبارة سهلة قريبة المأخذ ولابن المقفع أيضاً تواليف حسان منها رسالته في الأدب والسياسة ومنها رسالته المعروفة <note n="5" type="footnote"><p>R: المعروف</p></note>
 							باليتيمة في طاعة <note n="6" type="footnote"><p>B: طاعات</p></note>
 							السلطان.‎
-=======
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٦٧‬ب‬‎"/>
-							ملك الفرس وترجمه له من اللغة الهندية إلى الفارسية ثم ترجمه في الإسلام عبد الله بن المقفع الخطيب من اللغة الفارسية إلى اللغة العربية.‬‎
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							أقول وهذا كتاب كما قد عظمت شهرته إنه في إصلاح الأخلاق تهذيب النفوس لا نظير له في معناه وكان عبد الله بن المقفع الخطيب فارسياً أيضاً وكان كاتب أبي جعفر المنصور وترجم أيضاً من كتب أرسطوطاليس كتاب قاطيغورياس وكتاب باريمينياس وكتاب أنالوطيقيا <note n="4" type="footnote">
-                                <p>A: انولوطيقيا</p>
-                            </note>
-							وترجم مع ذلك المدخل إلى كتاب المنطق المعروف بإيساغوجي فرفوريوس الصوري وعبارته في الترجمة عبارة سهلة قريبة المأخذ ولابن المقفع أيضاً تواليف حسان منها رسالته في الأدب والسياسة ومنها رسالته المعروفة <note n="5" type="footnote">
-                                <p>R: المعروف</p>
-                            </note>
-							باليتيمة في طاعة <note n="6" type="footnote">
-                                <p>B: طاعات</p>
-                            </note>
-							السلطان.‬‎
->>>>>>> development
 						</p>
 					</div>
 					<div type="textpart" subtype="biography" n="3">
@@ -2356,7 +2336,6 @@
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/3566" n="11.5.25no92" change="#change-1" cert="low">
 								<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 									كتاب الجامع ويسمى حاصر <note n="228" type="footnote"><p>GcR: حاضر</p></note>
 									صناعة الطب <note n="229" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:308: كتاب الحاوي ويسمى الجامع الحاصر لصناعة الطب</p></note>
 									وغرضه في هذا الكتاب جمع ما وقع إليه وأدركه من كتاب طب قديم أو محدث إلى موضع واحد في كل باب وهو ينقسم اثني عشر قسماً القسم الأول في حفظ الصحة وعلاج الأمراض والوثي <note n="230" type="footnote"><p>R: والوثر</p></note>
@@ -2380,65 +2359,6 @@
 								</p>
 							</item>
 							<label style="direction:rtl; unicode-bidi:embed">93.</label>
-=======
-									كتاب الجامع ويسمى حاصر <note n="228" type="footnote">
-                                        <p>GcR: حاضر</p>
-                                    </note>
-									صناعة الطب <note n="229" type="footnote">
-                                        <p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:308: كتاب الحاوي ويسمى الجامع الحاصر لصناعة الطب</p>
-                                    </note>
-									وغرضه في هذا الكتاب جمع ما وقع إليه وأدركه من كتاب طب قديم أو محدث إلى موضع واحد في كل باب وهو ينقسم اثني عشر قسماً القسم الأول في حفظ الصحة وعلاج الأمراض والوثي <note n="230" type="footnote">
-                                        <p>R: والوثر</p>
-                                    </note>
-									والجبر والعلاجات القسم الثاني في قوى الأدوية والأغذية <note n="231" type="footnote">
-                                        <p>R: الأغذية والأدوية</p>
-                                    </note>
-									وما يحتاج إليه من التدبير في الطب القسم الثالث في الأدوية المركبة فيه ذكر ما يحتاج إليه منها على سبيل الأقراباذين القسم الرابع فيما يحتاج إليه من الطب في سحق الأدوية وإحراقها ‭[i,318]‬ وتصعيداتها وغسلها واستخراج قواها وحفظها ومقدار بقاء قوة <note n="232" type="footnote">
-                                        <p>A: قوة, in margin بخطه لا</p>
-                                    </note>
-									كل دواء منها وما أشبه ذلك <note n="233" type="footnote">
-                                        <p>In margin of A, Gc om.: وما أشبه ذلك</p>
-                                    </note>
-									القسم الخامس في صيدلية الطب فيه صفة الأدوية وألوانها وطعومها وروائحها ومعادنها وجيدها ورديها ونحو ذلك من علل الصيدلة <note n="234" type="footnote">
-                                        <p>In margin of A, Gc om.: وألوانها وطعومها … من علل الصيدلة صح‬‎</p>
-                                    </note>
-									القسم السادس في الأبدال <note n="235" type="footnote">
-                                        <p>Gc: add. الأدوية</p>
-                                    </note>
-									يذكر فيه ما ينوب عن كل دواء أو غذاء إذا لم يوجد <note n="236" type="footnote">
-                                        <p>In margin of A, Gc om.: يذكر فيه … يوجد صح‬‎</p>
-                                    </note>
-									القسم السابع في تفسير الأسماء والأوزان والمكاييل التي للعقاقير وتسمية الأعضاء والأدواء باليونانية والسريانية والفارسية والهندية والعربية على سبيل الكتب المسماة بشقشماهي <note n="237" type="footnote">
-                                        <p>In margin of A, Gc om.: والمكاييل التي … المسماة بشقشماهي‬‎</p>
-                                    </note>
-									القسم الثامن في التشريح ومنافع الأعضاء <note n="238" type="footnote">
-                                        <p>In margin of A, Gc om.: ومنافع الأعضاء; B: ومنافع اطب</p>
-                                    </note>
-									القسم التاسع في الأسباب الطبيعية من صناعة الطب غرضه فيه أن يبين <note n="239" type="footnote">
-                                        <p>AGc: في الأسباب الطبيعية بين فيه</p>
-                                    </note>
-									أسباب العلل بالأمر الطبيعي القسم العاشر في المدخل إلى صناعة الطب وهو مقالتان الأولى منهما في الأشياء الطبيعية والثانية في أوائل الطب <note n="240" type="footnote">
-                                        <p>In margin of A, Gc om.: وهو مقالتان … أوائل الطب‬‎</p>
-                                    </note>
-									القسم الحادي عشر جمل علاجات وصفات وغير ذلك القسم الثاني عشر فيما استدركه من كتب جالينوس ولم يذكرها حنين ولا هي في فهرست جالينوس. <note n="241" type="footnote">
-                                        <p>Gc: om. ولم يذكرها … فهرست جالينوس‬‎; cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:309:</p>
-                                        <p style="direction:rtl; unicode-bidi:embed">كتاب في استدراك ما بقي من كتب جالينوس مما لم يذكره حنين ولا جالينوس في فهرسته مقالة‬‎</p>
-                                    </note>
-									‬‎
-								</p>
-								<p style="direction:rtl; unicode-bidi:embed">
-									أقول وهذا التقسيم المذكور هاهنا ليس هو لكتابه المعروف بالحاوي ولا هو تقسيم مرضي ويمكن أن هذه كانت مسودات كتب <note n="242" type="footnote">
-                                        <p>A: كتاب</p>
-                                    </note>
-									وجدت للرازي بعد موته وهي مجموعة على هذا الترتيب فحسبت أنها كتاب واحد وإلى غايتي هذه ما رأيت نسخة لهذا الكتاب ولا وجدت من أخبر أنه رآه <note n="243" type="footnote">
-                                        <p>In margin of A, Gc om.: أقول وهذا التقسيم … من أخبر أنه رآه‬‎</p>
-                                    </note>
-									‬‎
-								</p>
-							</title>
-                            </item>
-							<label style="direction:rtl; unicode-bidi:embed">‭93‬.</label>
->>>>>>> development
 							<item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/3567" n="11.5.25no93" change="#change-1" cert="low">
 								كتاب الفاخر في الطب أقول وإنما أثبت هذا الكتاب في جملة كتبه لكونه قد نسب إليه واشتهر أنه له وبالجملة فإنه كتاب جيد <note n="244" type="footnote">
@@ -3933,33 +3853,16 @@
 							<hi rend="bold">[11.8.1]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							أبو الخير الحسن بن سوار بن بابا <note n="2" type="footnote"><p>ABR: يايا</p></note>
 							بن <note n="3" type="footnote"><p>Gc: om. بن</p></note>
 							بهنام المعروف بابن الخمّار وبهنام لفظة <rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> مركبة من كلمتين وهما <note n="4" type="footnote"><p>AGc: وهي</p></note>
 							به خير ونام اسم أي اسم الخير. <note n="5" type="footnote"><p>BR: om. وبهنام … اسم الخير‎</p></note>
 							‎
-=======
-							أبو الخير الحسن بن سوار بن بابا <note n="2" type="footnote">
-                                <p>ABR: يايا</p>
-                            </note>
-							بن <note n="3" type="footnote">
-                                <p>Gc: om. بن</p>
-                            </note>
-							بهنام المعروف بابن الخمّار وبهنام لفظة فارسية مركبة من كلمتين وهما <note n="4" type="footnote">
-                                <p>AGc: وهي</p>
-                            </note>
-							به خير ونام اسم أي اسم الخير. <note n="5" type="footnote">
-                                <p>BR: om. وبهنام … اسم الخير‬‎</p>
-                            </note>
-							‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.8.2]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							وكان هذا <note n="6" type="footnote"><p>Above the line in A: هذا</p></note>
 							أبو الخير الحسن نصرانياً <note n="7" type="footnote"><p>B: وكان نصرانيا; R: add. وكان</p></note>
 							عالماً بأصول صناعة الطب وفروعها خبيراً بغوامضها كثير الدراية لها ماهراً في العلوم الحكمية وله مصنفات جليلة في صناعة الطب وغيرها وكان خبيراً بالنقل وقد نقل كتباً كثيرة من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ووجدت بخطه شيئاً <note n="8" type="footnote"><p>A: أشياء</p></note>
@@ -3967,27 +3870,6 @@
 							وقرأ الحكمة على يحيى بن عدي ببغداد <note n="10" type="footnote"><p>Above the line in A, BGc om.: ببغداد</p></note>
 							وكان في نهاية الذكاء والفطنة ومولده في شهر ربيع الأول سنة إحدى وثمانين وثلاثمائة. <note n="11" type="footnote"><p>Gc: احد وثمانين وثلثمايه</p></note>
 							‎
-=======
-							وكان هذا <note n="6" type="footnote">
-                                <p>Above the line in A: هذا</p>
-                            </note>
-							أبو الخير الحسن نصرانياً <note n="7" type="footnote">
-                                <p>B: وكان نصرانيا; R: add. وكان</p>
-                            </note>
-							عالماً بأصول صناعة الطب وفروعها خبيراً بغوامضها كثير الدراية لها ماهراً في العلوم الحكمية وله مصنفات جليلة في صناعة الطب وغيرها وكان خبيراً بالنقل وقد نقل كتباً كثيرة من السرياني إلى العربي ووجدت بخطه شيئاً <note n="8" type="footnote">
-                                <p>A: أشياء</p>
-                            </note>
-							من ذلك وقد أجاد فيها <note n="9" type="footnote">
-                                <p>B: فيه</p>
-                            </note>
-							وقرأ الحكمة على يحيى بن عدي ببغداد <note n="10" type="footnote">
-                                <p>Above the line in A, BGc om.: ببغداد</p>
-                            </note>
-							وكان في نهاية الذكاء والفطنة ومولده في شهر ربيع الأول سنة إحدى وثمانين وثلاثمائة. <note n="11" type="footnote">
-                                <p>Gc: احد وثمانين وثلثمايه</p>
-                            </note>
-							‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.8.3]</hi>
@@ -5108,7 +4990,6 @@
 					<div type="textpart" subtype="biography" n="12">
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">
-<<<<<<< HEADresolve_rs
 								[11.12] أبو سهل المسيحي <note n="1" type="footnote"><p>This biography occurs in all three versions of the work.</p></note>
 							</hi>
 						</p>
@@ -5137,66 +5018,6 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							ولأبي سهل المسيحي من الكتب: <note n="15" type="footnote"><p>AGc: وله من الكتب</p></note>
 							‎
-=======
-								‭[11.12]‬ أبو سهل المسيحي <note n="1" type="footnote">
-                                    <p>This biography occurs in all three versions of the work.</p>
-                                </note>
-							</hi>
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							هو أبو سهل عيسى بن يحيى المسيحي الجرجاني طبيب فاضل بارع في صناعة الطب علمها وعملها فصيح العبارة جيد التصنيف وكان حسن الخط <note n="2" type="footnote">
-                                <p>Gc: وكان فصيح الكتابة</p>
-                            </note>
-							متقناً للعربية وقد رأيت بخطه كتابه في إظهار حكمة الله تعالى في خلق الإنسان وهو [‭i,328‬] في نهاية <note n="3" type="footnote">
-                                <p>A: غاية</p>
-                            </note>
-							الصحة والإتقان والإعراب والضبط <note n="4" type="footnote">
-                                <p>B: om. والإعراب والضبط</p>
-                            </note>
-							وهذا الكتاب هو من أجل كتبه وأنفعها فإنه قد أتى فيه بجمل ما ذكره جالينوس وغيره في منافع الأعضاء بأفصح عبارة وأوضحها مع زيادات نفيسة من قبله تدل <note n="5" type="footnote">
-                                <p>Gc: om. بأفصح عبارة … من قبله تدل‬‎</p>
-                            </note>
-							على فضل باهر وعلم غزير ولذلك يقول في أول كتابه هذا وليس يعرف فضيلة ما أوردناه على ما أوردوا إلا من قابل بين كلامنا هذا وكلامهم مع دراية <note n="6" type="footnote">
-                                <p>A: ذراية</p>
-                            </note>
-							وإنصاف منه فإن من لا يدري ما يعتبره لم يصلح للحكم فيه ومن لا إنصاف فيه لم يحكم للأفضل ولم يؤثره فمن اعتبر من يصلح للاعتبار وهو العالم المنصف بعناية واستقصاء منه ما أوردناه وما أوردوا رأى كيف صححنا ما أوردوه وهذبناه وأتممناه وسهلناه ورتبناه ترتيباً أفضل لجملة الكلام ولكل <note n="7" type="footnote">
-                                <p>Gc: ولكن</p>
-                            </note>
-							فصل منه وأسقطنا من هذا الصنف من العلم <note n="8" type="footnote">
-                                <p>B: الصنف منه</p>
-                            </note>
-							ما ليس منه ثم كم زدنا من <note n="9" type="footnote">
-                                <p>In margin of R: من</p>
-                            </note>
-							عندنا معاني دقيقة عجيبة <note n="10" type="footnote">
-                                <p>In margin of A: صح عجيبة</p>
-                            </note>
-							كانت قد خفيت عليهم للطفها وجلالة رتبتها وكيف جعلنا البيانات من الأشياء المتقدمة على الأشياء المتأخرة بالعكس مما فعلوه ليكون بياناً للشيء بمباديه وأسبابه فيكون برهاناً حقيقياً.‬‎
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							وسمعت من الشيخ الإمام الحكيم مهذب الدين عبد الرحيم بن علي رحمه الله وهو يقول إنني لم أجد أحداً من الأطباء النصارى المتقدمين والمتأخرين أفصح عبارة ولا أجود لفظاً ولا أحسن معنى من كلام أبي سهل المسيحي <note n="11" type="footnote">
-                                <p>B: om. وسمعت من الشيخ … أبي سهل المسيحي‬‎</p>
-                            </note>
-							وقيل إن المسيحي هو معلم الشيخ الرئيس صناعة الطب وإن كان الشيخ الرئيس بعد ذلك تميز في صناعة الطب <note n="12" type="footnote">
-                                <p>Gc: وإن كان … صناعة الطب‬‎</p>
-                            </note>
-							ومهر فيها وفي العلوم الحكمية حتى صنف كتباً للمسيحي وجعلها باسمه.‬‎
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							وقال عبيد الله بن جبرئيل إن المسيحي كان بخراسان وكان متقدماً عند سلطانها وإنه مات وله من العمر أربعون سنة ومن كلام <note n="13" type="footnote">
-                                <p>Gc: add. أبو سهل</p>
-                            </note>
-							المسيحي قال <note n="14" type="footnote">
-                                <p>In margin of A: صح قال</p>
-                            </note>
-							نومة بالنهار بعد أكلة خير من شرب دواء نافع.‬‎
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							ولأبي سهل المسيحي من الكتب: <note n="15" type="footnote">
-                                <p>AGc: وله من الكتب</p>
-                            </note>
-							‬‎
->>>>>>> development
 						</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">1.</label>
@@ -5682,7 +5503,6 @@
 							<hi rend="bold">[11.13.2.9]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							وكان سلطان بخارى في ذلك الوقت نوح بن منصور واتفق له مرض تلج <note n="78" type="footnote"><p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 416: بَلَحَ; Gohlman, <hi rend="italic">The Life of ibn Sina</hi>, 34: تحيّر</p></note>
 							الأطباء فيه وكان اسمي اشتهر بينهم بالتوفر على العلم والقراءة <note n="79" type="footnote"><p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 416: على القراءة</p></note>
 							فأجروا ذكري بين يديه وسألوه إحضاري فحضرت <note n="80" type="footnote"><p>R: فحضرتهم</p></note>
@@ -5694,39 +5514,6 @@
 							ورأيت من الكتب ما لم يقع اسمه إلى كثير من الناس قط وما كنت <note n="86" type="footnote"><p>Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>: om. كنت</p></note>
 							رأيته من قبل ولا رأيته أيضاً من بعد فقرأت تلك الكتب وظفرت بفوائدها وعرفت مرتبة كل رجل في علمه فلما بلغت ثماني عشرة سنة <note n="87" type="footnote"><p>RB: om. سنة</p></note>
 							من عمري فرغت من هذه العلوم كلها وكنت إذ ذاك للعلم أحفظ ولكنه اليوم معي أنضج وإلا فالعلم واحد لم يتجدد لي بعده شيء.‎
-=======
-							وكان سلطان بخارى في ذلك الوقت نوح بن منصور واتفق له مرض تلج <note n="78" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 416: بَلَحَ; Gohlman, <hi rend="italic">The Life of ibn Sina</hi>, 34: تحيّر</p>
-                            </note>
-							الأطباء فيه وكان اسمي اشتهر بينهم بالتوفر على العلم والقراءة <note n="79" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 416: على القراءة</p>
-                            </note>
-							فأجروا ذكري بين يديه وسألوه إحضاري فحضرت <note n="80" type="footnote">
-                                <p>R: فحضرتهم</p>
-                            </note>
-							وشاركتهم في مداواته وتوسمت بخدمته فسألته يوماً الإذن لي في دخول دار كتبهم ومطالعتها وقراءة <note n="81" type="footnote">
-                                <p>A: قرااة</p>
-                            </note>
-							ما فيها من كتب الطب فأذن لي فدخلت داراً ذات بيوت كثيرة في كل بيت صناديق كتب منضدة بعضها على البعض في بيت منها كتب العربية والشعر وفي آخر الفقه وكذلك في <note n="82" type="footnote">
-                                <p>Above the line in A: في</p>
-                            </note>
-							كل بيت كتب علم مفرد <note n="83" type="footnote">
-                                <p>Gc: om. مفرد</p>
-                            </note>
-							فطالعت فهرست <note n="84" type="footnote">
-                                <p>A: om. فهرست</p>
-                            </note>
-							كتب الأوائل وطلبت ما احتجت إليه منها <note n="85" type="footnote">
-                                <p>Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>: om. منها</p>
-                            </note>
-							ورأيت من الكتب ما لم يقع اسمه إلى كثير من الناس قط وما كنت <note n="86" type="footnote">
-                                <p>Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>: om. كنت</p>
-                            </note>
-							رأيته من قبل ولا رأيته أيضاً من بعد فقرأت تلك الكتب وظفرت بفوائدها وعرفت مرتبة كل رجل في علمه فلما بلغت ثماني عشرة سنة <note n="87" type="footnote">
-                                <p>RB: om. سنة</p>
-                            </note>
-							من عمري فرغت من هذه العلوم كلها وكنت إذ ذاك للعلم أحفظ ولكنه اليوم معي أنضج وإلا فالعلم واحد لم يتجدد لي بعده شيء.‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.13.2.10]</hi>
@@ -6628,7 +6415,6 @@
 							<hi rend="bold">[11.13.3.13]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							وكان الشيخ جالساً يوماً من الأيام بين يدي الأمير وأبو منصور الجبان <note n="196" type="footnote"><p>Gc: الحٮان; RB: الحيان; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 422; cf. Yāqūt, <hi rend="italic">Muʿjam al-udabāʾ</hi>, iii:1074: الجبائي</p></note>
 							حاضر فجرى في اللغة مسألة تكلم الشيخ فيها بما حضره فالتفت أبو منصور إلى الشيخ يقول إنك <note n="197" type="footnote"><p>Gc: وقال انت تقول انك; R: يقول له إنك</p></note>
 							فيلسوف وحكيم ولكن لم تقرأ من اللغة ما يرضي كلامك فيها فاستنكف الشيخ من هذا الكلام وتوفر على درس كتب اللغة ثلاث سنين واستهدى كتاب <note n="198" type="footnote"><p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 422: واستدعى بكتاب</p></note>
@@ -6648,63 +6434,6 @@
 							مثله ولم ينقله إلى البياض حتى توفي <note n="212" type="footnote"><p>Gc: توفا</p></note>
 							فبقي على مسودته لا يهتدي أحد إلى <note n="213" type="footnote"><p>RB: على</p></note>
 							ترتيبه.‎
-=======
-							وكان الشيخ جالساً يوماً من الأيام بين يدي الأمير وأبو منصور الجبان <note n="196" type="footnote">
-                                <p>Gc: الحٮان; RB: الحيان; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 422; cf. Yāqūt, <hi rend="italic">Muʿjam al-udabāʾ</hi>, iii:1074: الجبائي</p>
-                            </note>
-							حاضر فجرى في اللغة مسألة تكلم الشيخ فيها بما حضره فالتفت أبو منصور إلى الشيخ يقول إنك <note n="197" type="footnote">
-                                <p>Gc: وقال انت تقول انك; R: يقول له إنك</p>
-                            </note>
-							فيلسوف وحكيم ولكن لم تقرأ من اللغة ما يرضي كلامك فيها فاستنكف الشيخ من هذا الكلام وتوفر على درس كتب اللغة ثلاث سنين واستهدى كتاب <note n="198" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 422: واستدعى بكتاب</p>
-                            </note>
-							تهذيب اللغة من خراسان من <note n="199" type="footnote">
-                                <p>Gc: om. من</p>
-                            </note>
-							تصنيف أبي منصور الأزهري فبلغ الشيخ في اللغة طبقة قلما يتفق مثلها وأنشد ثلاث قصائد ضمنها ألفاظاً غريبة في <note n="200" type="footnote">
-                                <p>B: من</p>
-                            </note>
-							اللغة وكتب ثلاثة كتب أحدها على طريقة <note n="201" type="footnote">
-                                <p>R: om. طريقة</p>
-                            </note>
-							ابن العميد والآخر على طريقة الصابئ والآخر على طريقة الصاحب <note n="202" type="footnote">
-                                <p>Gc: والاخر على طريقة الصاحب والاخر على طريقة الصابئ; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 423: والثاني على طريقة الصاحب والثالث على طريقة الصابئ</p>
-                            </note>
-							وأمر بتجليدها وإخلاق جلدها ثم أوعز <note n="203" type="footnote">
-                                <p>Gc: اوعر; B: اوغر</p>
-                            </note>
-							الأمير فعرض تلك <note n="204" type="footnote">
-                                <p>Above the line in A: تلك</p>
-                            </note>
-							المجلدة على أبي منصور الجبان <note n="205" type="footnote">
-                                <p>BGcR: الحيان</p>
-                            </note>
-							وذكر إنا ظفرنا بهذه المجلدة بالصحراء <note n="206" type="footnote">
-                                <p>BGcR: في الصحراء</p>
-                            </note>
-							وقت الصيد فيجب أن تتفقدها وتقول لنا ما فيها فنظر فيها أبو منصور وأشكل عليه كثير مما فيها فقال له الشيخ إن <note n="207" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 423: كل</p>
-                            </note>
-							ما تجهله من هذا الكتاب فهو مذكور في الموضع الفلاني من كتب اللغة وذكر له كثيراً من الكتب المعروفة <note n="208" type="footnote">
-                                <p>Cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 423: وذكر له كتبا معروفة</p>
-                            </note>
-							في اللغة كان الشيخ حفظ تلك الألفاظ منها وكان أبو منصور مجزفاً <note n="209" type="footnote">
-                                <p>A: مجزفاً; Gc: مجازفا; R: مجرفا; B: محرفا</p>
-                            </note>
-							فيما يورده من اللغة المعروفة فيها <note n="210" type="footnote">
-                                <p>Gc: om. فيها; cf. Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 423: من لغة غير ثقة</p>
-                            </note>
-							ففطن أبو منصور أن تلك الرسائل من تصنيف الشيخ وأن الذي حمله عليه ما جبهه به في ذلك اليوم فتنصل واعتذر اليه ثم صنف الشيخ كتاباً في اللغة سماه لسان العرب لم يصنف في اللغة <note n="211" type="footnote">
-                                <p>Gc: om. في اللغة</p>
-                            </note>
-							مثله ولم ينقله إلى البياض حتى توفي <note n="212" type="footnote">
-                                <p>Gc: توفا</p>
-                            </note>
-							فبقي على مسودته لا يهتدي أحد إلى <note n="213" type="footnote">
-                                <p>RB: على</p>
-                            </note>
-							ترتيبه.‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.13.3.14]</hi>
@@ -11578,7 +11307,6 @@
 							<hi rend="bold">[11.19.1]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							هو الإمام فخر الدين أبو عبد الله محمد بن عمر بن الحسين الرازي أفضل المتأخرين وسيد الحكماء المحدثين قد شاعت سيادته وانتشرت في الآفاق مصنفاته وتلامذته وكان إذا ركب يمشي حوله نحو ثلاثمائة تلميذ فقهاء وغيرهم وكان خوارزم شاه يأتي إليه وكان ابن الخطيب شديد الحرص جداً <note n="2" type="footnote"><p>Gc: أيضا</p></note>
 							في سائر <note n="3" type="footnote"><p>A: om. سائر</p></note>
 							العلوم الشرعية والحكمية جيد الفطرة حاد الذهن حسن العبارة كثير البراعة قوي النظر في صناعة الطب ومباحثها عارفاً بالأدب وله شعر بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وكان عبل البدن ربع القامة كبير اللحية وكان في صوته فخامة وكان يخطب ببلده الري وفي غيرها من البلاد ويتكلم على المنبر بأنواع من الحكمة وكان الناس يقصدونه من البلاد ويهاجرون إليه من كل ناحية على اختلاف مطالبهم في العلوم وتفننهم فيما يشتغلون به
@@ -11590,29 +11318,6 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							وحكى لنا القاضي شمس الدين الخوئي عن الشيخ فخر الدين ابن الخطيب أنه قال والله إنني أتأسف في الفوات عن الاشتغال بالعلم في وقت الأكل فإن الوقت والزمان عزيز. <note n="6" type="footnote"><p>B: om. وحكى لنا … والزمان عزيز‎</p></note>
 							‎
-=======
-							هو الإمام فخر الدين أبو عبد الله محمد بن عمر بن الحسين الرازي أفضل المتأخرين وسيد الحكماء المحدثين قد شاعت سيادته وانتشرت في الآفاق مصنفاته وتلامذته وكان إذا ركب يمشي حوله نحو ثلاثمائة تلميذ فقهاء وغيرهم وكان خوارزم شاه يأتي إليه وكان ابن الخطيب شديد الحرص جداً <note n="2" type="footnote">
-                                <p>Gc: أيضا</p>
-                            </note>
-							في سائر <note n="3" type="footnote">
-                                <p>A: om. سائر</p>
-                            </note>
-							العلوم الشرعية والحكمية جيد الفطرة حاد الذهن حسن العبارة كثير البراعة قوي النظر في صناعة الطب ومباحثها عارفاً بالأدب وله شعر بالفارسي والعربي وكان عبل البدن ربع القامة كبير اللحية وكان في صوته فخامة وكان يخطب ببلده الري وفي غيرها من البلاد ويتكلم على المنبر بأنواع من الحكمة وكان الناس يقصدونه من البلاد ويهاجرون إليه من كل ناحية على اختلاف مطالبهم في العلوم وتفننهم فيما يشتغلون به
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٨٦‬ب‬‎"/>
-							فكان كل منهم يجد عنده النهاية القصوى <note n="4" type="footnote">
-                                <p>A: القصيا, above the line القصوى</p>
-                            </note>
-							فيما يرومه منه وكان الإمام فخر الدين قد قرأ الحكمة على مجد الدين الجيلي بمراغة وكان مجد الدين هذا من الأفاضل العظماء <note n="5" type="footnote">
-                                <p>A: العلماء</p>
-                            </note>
-							في زمانه وله تصانيف جليلة.‬‎
-						</p>
-						<p style="direction:rtl; unicode-bidi:embed">
-							وحكى لنا القاضي شمس الدين الخوئي عن الشيخ فخر الدين ابن الخطيب أنه قال والله إنني أتأسف في الفوات عن الاشتغال بالعلم في وقت الأكل فإن الوقت والزمان عزيز. <note n="6" type="footnote">
-                                <p>B: om. وحكى لنا … والزمان عزيز‬‎</p>
-                            </note>
-							‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.19.2]</hi>
@@ -12040,7 +11745,6 @@
                                 <p>Gc: الدين و الدين ذكورا أكبرهما</p>
                             </note>
 							يلقب بضياء الدين وله اشتغال ونظر في العلوم والآخر وهو الصغير لقبه شمس الدين وله فطرة فائقة وذكاء خارق وكان كثيراً ما يصفه الإمام فخر الدين بالذكاء ويقول
-<<<<<<< HEADresolve_rs
 							<milestone ed="Savage-Smith" type="folio" unit="folio" n="١٨٨أ‎" />
 							إن عاش ابني <note n="51" type="footnote"><p>Gc: om. ابني</p></note>
 							هذا فإنه <note n="52" type="footnote"><p>A: فهو, above the line خ فإنه</p></note>
@@ -12058,55 +11762,6 @@
 							وجماعة كثير <note n="64" type="footnote"><p>A: كبيرة</p></note>
 							من الفقهاء وغيرهم ظناً منهم أن يكونوا في أمان لاتصالهم بأولاد فخر الدين ولكونهم خصيصين بهم وفي دارهم وكانوا خلقاً عظيماً فلما دخل التتر إلي البلد وقتلوا من وجدوه بها وانتهوا إلى الدار نادوا بأولاد فخر الدين أن يروهم فلما شاهدوهم أخذوهم عندهم <note n="65" type="footnote"><p>Gc: om. عندهم</p></note>
 							وهم ضياء الدين وشمس الدين أختهم ثم شرعوا بسائر من كان في الدار فقتلوهم عن آخرهم بالسيف وتوجهوا بأولاد الشيخ فخر الدين من هراة إلى سمرقند لأن ملك التتر جنكل خان كان في ذلك الوقت بها وعنده علاء الملك قال ولست أعلم ما تم لهم بعد ذلك.‎
-=======
-							<milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٨٨‬أ‬‎"/>
-							إن عاش ابني <note n="51" type="footnote">
-                                <p>Gc: om. ابني</p>
-                            </note>
-							هذا فإنه <note n="52" type="footnote">
-                                <p>A: فهو, above the line خ فإنه</p>
-                            </note>
-							يكون أعلم مني وكانت النجابة تتبين فيه من الصغر ولما توفي الإمام فخر الدين بقيت أولاده مقيمين في هراة ولقب ولده الصغير بعد ذلك فخر الدين بلقب أبيه <note n="53" type="footnote">
-                                <p>Gc: والده</p>
-                            </note>
-							وكان الوزير علاء الملك <note n="54" type="footnote">
-                                <p>R: الدين</p>
-                            </note>
-							العلوي متقلداً الوزارة للسلطان خوارزم شاه وكان علاء الملك <note n="55" type="footnote">
-                                <p>Gc: add. عالماً</p>
-                            </note>
-							فاضلاً متقناً لعلوم والأدب ويشعر بالعربية والفارسية وكان قد تزوج بابنة الشيخ فخر الدين ولما جرى أن جنكل خان ملك التتر قهر خوارزم شاه وكسره وقتل أكثر عسكره وفقد خوارزم شاه توجه علاء الملك <note n="56" type="footnote">
-                                <p>A: الدولة, above the line الملك</p>
-                            </note>
-							قاصداً إلى جنكل خان ومعتصماً به فلما وصل إليه أكرمه وجعله عنده من جملة خواصه وعندما استولى <note n="57" type="footnote">
-                                <p>A: استولت</p>
-                            </note>
-							التتر على بلاد العجم وخربوا قلاعها ومدنها وكانوا يقتلون في كل مدينة جميع من بها ولم يبقوا على أحد تقدم علاء الملك إلى جنكل خان وقد توجهت فرقة من عساكره إلى مدينة هراة ليخربوها ويقتلوا من بها فسأله أن يعطيه أماناً لأولاد الشيخ فخر الدين بن خطيب الري وأن يجيئوا بهم <note n="58" type="footnote">
-                                <p>B: يحىيوهم</p>
-                            </note>
-							مكرمين إليه <note n="59" type="footnote">
-                                <p>B: إلى عنده</p>
-                            </note>
-							فوهب له ذلك وأعطاهم أماناً ولما ذهب أصحابه إلى هراة وشارفوا أخذها نادوا فيها بأن لأولاد فخر الدين بن الخطيب الأمان فليعزلوا ناحية في مكان ويكون هذا الأمان معهم <note n="60" type="footnote">
-                                <p>A: منهم; Gc: om. معهم</p>
-                            </note>
-							وكان في هراة دار الشيخ فخر الدين هي دار السلطنة كان خوارزم شاه قد أعطاها له وهي من <note n="61" type="footnote">
-                                <p>Gc: om. من</p>
-                            </note>
-							أعظم دار تكون وأكبرها وأبهاها وأكثرها زخرفة واحتفالاً فلما بلغ أولاد فخر الدين ذلك أقاموا بها مأمونين والتحق <note n="62" type="footnote">
-                                <p>A: التحف</p>
-                            </note>
-							بهم خلق كثير من أهاليهم وأقربائهم وأعيان الدولة وكبراء البلد <note n="63" type="footnote">
-                                <p>A: الدولة, in margin صح البلد</p>
-                            </note>
-							وجماعة كثير <note n="64" type="footnote">
-                                <p>A: كبيرة</p>
-                            </note>
-							من الفقهاء وغيرهم ظناً منهم أن يكونوا في أمان لاتصالهم بأولاد فخر الدين ولكونهم خصيصين بهم وفي دارهم وكانوا خلقاً عظيماً فلما دخل التتر إلي البلد وقتلوا من وجدوه بها وانتهوا إلى الدار نادوا بأولاد فخر الدين أن يروهم فلما شاهدوهم أخذوهم عندهم <note n="65" type="footnote">
-                                <p>Gc: om. عندهم</p>
-                            </note>
-							وهم ضياء الدين وشمس الدين أختهم ثم شرعوا بسائر من كان في الدار فقتلوهم عن آخرهم بالسيف وتوجهوا بأولاد الشيخ فخر الدين من هراة إلى سمرقند لأن ملك التتر جنكل خان كان في ذلك الوقت بها وعنده علاء الملك قال ولست أعلم ما تم لهم بعد ذلك.‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
 							<hi rend="bold">[11.19.6.1]</hi>
@@ -12476,15 +12131,8 @@
 							<hi rend="bold">[11.19.7]</hi>
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">
-<<<<<<< HEADresolve_rs
 							أقول وللشيخ فخر الدين أيضاً أشعاراً كثيرة بال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> ودوبيت. <note n="99" type="footnote"><p>In margin of A, BGc om.: أقول وللشيخ … بالفارسي ودوبيت‎</p></note>
 							‎
-=======
-							أقول وللشيخ فخر الدين أيضاً أشعاراً كثيرة بالفارسي ودوبيت. <note n="99" type="footnote">
-                                <p>In margin of A, BGc om.: أقول وللشيخ … بالفارسي ودوبيت‬‎</p>
-                            </note>
-							‬‎
->>>>>>> development
 						</p>
 						<p style="direction:rtl; unicode-bidi:embed">ولفخر الدين بن الخطيب من الكتب:‎</p>
 						<list>
