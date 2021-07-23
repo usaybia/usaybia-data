@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="arabicLit.textgroup.work.H01" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -93,7 +93,7 @@
            </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
+			<change when="2020-02-19" who="#ngibson">Added header to downloaded text.</change>
 			<change when="2020-06-04" who="#ngibson" xml:id="change-1">Added title elements with iterating URIs to list items.</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-7">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: عربية, REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low"&gt;عربية&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-8">Added Arabic language keywords in main text (excluding notes) using find/replace (FIND: (عربي)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
@@ -1653,10 +1653,10 @@
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">92.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/3566" n="11.5.25no92" change="#change-1" cert="low">
 								<p style="direction:rtl; unicode-bidi:embed">
+									<title ref="https://usaybia.net/work/3566" n="11.5.25no92" change="#change-1" cert="low">
 									كتاب الجامع ويسمى حاصر <note n="228" type="footnote"><p>GcR: حاضر</p></note>
-									صناعة الطب <note n="229" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:308: كتاب الحاوي ويسمى الجامع الحاصر لصناعة الطب</p></note>
+									صناعة الطب</title> <note n="229" type="footnote"><p>Cf. <hi rend="italic">Fihrist</hi>, ed. F. Sayyid, 2/1:308: كتاب الحاوي ويسمى الجامع الحاصر لصناعة الطب</p></note>
 									وغرضه في هذا الكتاب جمع ما وقع إليه وأدركه من كتاب طب قديم أو محدث إلى موضع واحد في كل باب وهو ينقسم اثني عشر قسماً القسم الأول في حفظ الصحة وعلاج الأمراض والوثي <note n="230" type="footnote"><p>R: والوثر</p></note>
 									والجبر والعلاجات القسم الثاني في قوى الأدوية والأغذية <note n="231" type="footnote"><p>R: الأغذية والأدوية</p></note>
 									وما يحتاج إليه من التدبير في الطب القسم الثالث في الأدوية المركبة فيه ذكر ما يحتاج إليه منها على سبيل الأقراباذين القسم الرابع فيما يحتاج إليه من الطب في سحق الأدوية وإحراقها [i,318] وتصعيداتها وغسلها واستخراج قواها وحفظها ومقدار بقاء قوة <note n="232" type="footnote"><p>A: قوة, in margin بخطه لا</p></note>
@@ -2156,8 +2156,11 @@
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">166.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/3640" n="11.5.25no166" change="#change-1" cert="low">
-								<p style="direction:rtl; unicode-bidi:embed">كتاب فيما يرومه من إظهار ما يدعي من عيوب الأولياء</p>
+								<p style="direction:rtl; unicode-bidi:embed">
+									<title ref="https://usaybia.net/work/3640" n="11.5.25no166" change="#change-1" cert="low">
+										كتاب فيما يرومه من إظهار ما يدعي من عيوب الأولياء
+									</title>
+								</p>
 								<p style="direction:rtl; unicode-bidi:embed">
 									أقول وهذا الكتاب إن كان قد ألف والله أعلم فربما أن بعض الأشرار المعادين للرازي قد ألفه ونسبه إليه ليسيء من يرى ذلك الكتاب <note n="287" type="footnote">
                                         <p>A: من يراه</p>
@@ -2168,9 +2171,7 @@
 									يكفره كعلي بن رضوان المصري وغيره يسمون ذلك الكتاب كتاب الرازي في مخاريق الأنبياء <note n="289" type="footnote">
                                         <p>Cf. al-Bīrūnī, <hi rend="italic">Risālah</hi>, 20: في حيل المتنبيين ويدعى مخاريق الأنبياء</p>
                                     </note>
-									
 								</p>
-							</title>
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">167.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -6677,8 +6678,8 @@
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">5.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/3786" n="11.13.8no5" change="#change-1" cert="low">
-								<p style="direction:rtl; unicode-bidi:embed">
+                                <p style="direction:rtl; unicode-bidi:embed">
+									<title ref="https://usaybia.net/work/3786" n="11.13.8no5" change="#change-1" cert="low">
 									كتاب الإنصاف عشرون مجلدة شرح فيه جميع كتب أرسطوطاليس <note n="432" type="footnote">
                                         <p>A: ارسطو</p>
                                     </note>
@@ -6688,9 +6689,8 @@
 									ضاع في نهب السلطان مسعود <note n="434" type="footnote">
                                         <p>Gc: محمود</p>
                                     </note>
-									
+								</title>
 								</p>
-							</title>
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">6.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
@@ -7575,8 +7575,11 @@
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">1.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/3899" n="11.16no1" change="#change-1" cert="low">
-								<p style="direction:rtl; unicode-bidi:embed">رسائل عدة من ذلك أربعون رسالة مشهورة إلى جماعة من أصحابه في الطب وهي:</p>
+								<p style="direction:rtl; unicode-bidi:embed">
+									<title ref="https://usaybia.net/work/3899" n="11.16no1" change="#change-1" cert="low">
+										رسائل عدة من ذلك أربعون رسالة مشهورة إلى جماعة من أصحابه في الطب وهي:
+										</title>
+									</p>
 								<list>
 									<label style="direction:rtl; unicode-bidi:embed">1.1.</label>
 									<item style="direction:rtl; unicode-bidi:embed">
@@ -7827,7 +7830,6 @@
                                             <title ref="https://usaybia.net/work/3939" n="no1" change="#change-1" cert="low">رسالة في أوجاع الأطفال</title>
                                         </item>
 								</list>
-							</title>
                             </item>
 							<label style="direction:rtl; unicode-bidi:embed">2.</label>
 							<item style="direction:rtl; unicode-bidi:embed">
