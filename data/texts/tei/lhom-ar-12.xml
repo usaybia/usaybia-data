@@ -114,6 +114,7 @@
             <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-21">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الهند[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-22">Added Sanskrit language keywords in main text (excluding notes) using find/replace (FIND: (هندية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note) and not(ancestor-or-self::persName) and not(ancestor::rs[@ref="http://syriaca.org/keyword/sanskrit-language"])]/text()</change>
+            <change when="2021-07-23" who="#ngibson" xml:id="change-25">Removed directional formatting characters (U+200E, U+200F, U+202A - U+202E).</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -126,7 +127,7 @@
                             <note n="1" type="footnote">
                                 <p>The edition of this chapter is based on MSS ABGcHR.</p>
                             </note>
-                            ‎
+                            
                         </head>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
@@ -136,19 +137,19 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            حكيم بارع من متقدمي حكماء الهند وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
+                            حكيم بارع من متقدمي حكماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وأكابرهم وله نظر في صناعة الطب وقوى الأدوية وطبائع المولدات وخواص الموجودات وكان من أعلم الناس <note n="3" type="footnote">
                                 <p>Collation mark in A: بلغت مقابلة وتصحيحاً من نسخة للمصنف بخطه جهد الطاقة</p>
                             </note>
                             (١٩١أ) بهيئة العالم وتركيب الأفلاك وحركات النجوم وقال أبو معشر جعفر بن محمد ابن عمر البلخي في كتاب الألوف إن كنكة هو المقدم <note n="4" type="footnote">
                                 <p>Gc: المتقدم</p>
                             </note>
-                            في علم النجوم عند جميع العلماء من الهند في سالف الدهر.‎
+                            في علم النجوم عند جميع العلماء من <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في سالف الدهر.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وله <note n="5" type="footnote">
                                 <p>BR: ولكنكه</p>
                             </note>
-                            من الكتب:‎
+                            من الكتب:
                         </p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
@@ -194,13 +195,13 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان من علماء الهند وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote">
+                            كان من علماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وفضلائهم الخبيرين بعلم الطب والنجوم وله <note n="2" type="footnote">
                                 <p>R: ولصنجهل</p>
                             </note>
                             من الكتب: كتاب المواليد الكبير. <note n="3" type="footnote">
-                                <p>B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير‎</p>
+                                <p>B: om. صنجهل كان من علماء الهند … كتاب المواليد الكبير</p>
                             </note>
-                            ‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان من بعد صنجهل <note n="4" type="footnote">
@@ -209,7 +210,7 @@
                             ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> جماعة في <note n="5" type="footnote">
                                 <p>Gc: من</p>
                             </note>
-                            بلاد الهند ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
+                            بلاد <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> ولهم تصانيف معروفة في صناعة الطب وغيرها <note n="6" type="footnote">
                                 <p>BGc: وفي غيرها</p>
                             </note>
                             من العلوم مثل باكهر <note n="7" type="footnote">
@@ -233,13 +234,13 @@
                             جاري <note n="13" type="footnote">
                                 <p>Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Flügel, 271; Tajaddud, 330; Sayyid 2/1, 224): جبارى; R: باكهر داهرجبهر راحه انكراندى حىكه زنكل جارى</p>
                             </note>
-                            كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
+                            كل هؤلاء أصحاب تصانيف وهم من حكماء الهند وأطبائهم ولهم الأحكام الموضوعة في علم النجوم والهند تشتغل بمؤلفات هؤلاء فيما بينهم ويقتدون بها ويتناقلونها وقد نقل كثير منها إلى اللغة ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ووجدت الرازي <note n="14" type="footnote">
                                 <p>B: add. أيضاً</p>
                             </note>
-                            قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:‎
+                            قد نقل في كتابه الحاوي وفي غيره عن كتب جماعة من الهند مثل:
                         </p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
@@ -289,7 +290,7 @@
                                 وكتاب فيما اختلفت <note n="21" type="footnote">
                                     <p>B: اختلف</p>
                                 </note>
-                                فيه الهند والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
+                                فيه <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> والروم في الحار والبارد وقوى الأدوية وتفصيل السنة
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">6.</label>
@@ -309,7 +310,7 @@
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">8.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
-                                <title ref="https://usaybia.net/work/215" n="12.2no8" change="#change-1" cert="low">وكتاب علاجات الحبالى للهند</title>
+                                <title ref="https://usaybia.net/work/215" n="12.2no8" change="#change-1" cert="low">وكتاب علاجات الحبالى لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName></title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">9.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -343,7 +344,7 @@
                             <label style="direction:rtl; unicode-bidi:embed">12.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/219" n="12.2no12" change="#change-1" cert="low">
-                                وكتاب السكر للهند
+                                    وكتاب السكر لل<placeName ref="https://usaybia.net/place/260" resp="#mtolay">هند</placeName>
                             </title>
                             </item>
                             <label style="direction:rtl; unicode-bidi:embed">13.</label>
@@ -374,7 +375,7 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            ومن المشهورين أيضاً من أطباء الهند شاناق <note n="2" type="footnote">
+                            ومن المشهورين أيضاً من أطباء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> شاناق <note n="2" type="footnote">
                                 <p>B: شناق</p>
                             </note>
                             وكانت له معالجات وتجارب كثيرة في صناعة الطب وتفنن في العلوم وفي الحكمة <note n="3" type="footnote">
@@ -408,15 +409,15 @@
                                 <p>A: وهن</p>
                             </note>
                             خمس فإذا لم يضبط حواسه مع قلتها وذلتها صعب عليه ضبط الأعوان مع كثرتهم وخشونة جانبهم فكانت عامة الرعية في أقاصي البلاد وأطراف المملكة أبعد من الضبط. <note n="13" type="footnote">
-                                <p>B: om. وتفنن في العلوم … أبعد من الضبط‎</p>
+                                <p>B: om. وتفنن في العلوم … أبعد من الضبط</p>
                             </note>
-                            ‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ولشاناق <note n="14" type="footnote">
                                 <p>B: وله</p>
                             </note>
-                            من الكتب:‎
+                            من الكتب:
                         </p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
@@ -452,7 +453,7 @@
                                     <p>R: لذلك الملك</p>
                                 </note>
                                 ابن قمانص ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs>. <note n="20" type="footnote">
-                                    <p>B: om. كتاب في علم النجوم … قمانص الهندي‎</p>
+                                    <p>B: om. كتاب في علم النجوم … قمانص الهندي</p>
                                 </note>
                             </title>
                             </item>
@@ -466,7 +467,7 @@
                                 </note>
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء الهند وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">جودر حكيم فاضل من حكماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وعلمائه متميز في أيامه وله نظر في الطب وتصانيف في العلوم الحكمية وله من الكتب: كتاب المواليد وهو قد نقل إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="5">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -477,28 +478,28 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم الهند متقناً ل<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهند</rs> و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
+                            كان عالماً بصناعة الطب حسن المعالجة لطيف التدبير فيلسوفاً من جملة المشار إليهم في علوم <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> متقناً ل<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهند</rs> و<rs ref="https://syriaca.org/keyword/persian-language" change="#change-19" cert="low">لغة الفرس</rs> وهو الذي نقل كتاب شاناق <note n="2" type="footnote">
                                 <p>GcH: add. الهندي</p>
                             </note>
                             في السموم من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسي</rs> <note n="3" type="footnote">
                                 <p>Gc: الفارسية</p>
                             </note>
-                            وكان في أيام الرشيد هارون وسافر من الهند إلى العراق في أيامه واجتمع به وداواه.‎
+                            وكان في أيام الرشيد هارون وسافر من الهند إلى <placeName ref="https://usaybia.net/place/263" resp="#mtolay">العراق</placeName> في أيامه واجتمع به وداواه.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ووجدت في بعض الكتب أن منكة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> كان في <note n="4" type="footnote">
                                 <p>H: add. تلامذة</p>
                             </note>
-                            جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
+                            جملة إسحاق بن سليمان بن علي الهاشمي وكان ينقل من ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-21" cert="low">لغة الهندية</rs> إلى اللغة ال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> وال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ونقلت من كتاب أخبار الخلفاء والبرامكة أن الرشيد اعتل علة صعبة فعالجه جميع <note n="5" type="footnote">
                                 <p>GcH: om. جميع</p>
                             </note>
-                            الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي بالهند طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote">
+                            الأطباء فلم يجد من علته إفاقة فقال له أبو عمرو الأعجمي ب<placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> طبيب يقال له منكة وهو أحد عبّادهم وفلاسفتهم فلو بعث إليه أمير المؤمنين فلعل الله أن يهب له الشفاء على يده قال فوجه الرشيد من حمله ووصله بصلة تعينه على سفره فقدم وعالج الرشيد فبرأ من علته بعلاجه وأجرى عليه رزقاً واسعاً وأموالاً كافية قال فبينا <note n="6" type="footnote">
                                 <p>Gc: بينما</p>
                             </note>
-                            منكة ماراً في الخلد إذا <note n="7" type="footnote">
+                            منكة ماراً في <placeName ref="https://usaybia.net/place/600" resp="#mtolay">الخلد</placeName> إذا <note n="7" type="footnote">
                                 <p>Gc: إذ</p>
                             </note>
                             هو برجل من المائنين <note n="8" type="footnote">
@@ -510,7 +511,7 @@
                             معجوناً فقال في صفته هذا دواء للحمى الدائمة وحمى الربع وحمى الغب <note n="10" type="footnote">
                                 <p>Gc: om. وحمى الغب; R: وحمى الغب وحمى الربع</p>
                             </note>
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٩٢أ‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٩٢أ"/>
                             ولوجع الظهر والركبتين والخام والبواسير والرياح ووجع المفاصل ووجع العينين ولوجع البطن والصداع والشقيقة ولتقطير البول والفالج والارتعاش ولم يدع علة <note n="11" type="footnote">
                                 <p>Gc: بدعة</p>
                             </note>
@@ -532,7 +533,7 @@
                             تحيا بفنائها أنفسُ خلقٍ كثير وإن تُرك [ii,34] وهذا الجهل قتَلَ في <note n="17" type="footnote">
                                 <p>Gc: om. في</p>
                             </note>
-                            كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.‎
+                            كل يوم نفساً وبالحرى أن يقتل اثنين وثلاثة وأربعة في كل يوم وهذا فساد في الدين ووهن في المملكة.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="6">
@@ -544,10 +545,10 @@
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            متميز من علماء الهند وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان بالعراق في أيام الرشيد هارون. <note n="2" type="footnote">
+                            متميز من علماء <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> وكان خبيراً بالمعالجات التي لهم وله قوة إنذارات في تقدمة المعرفة وكان ب<placeName ref="https://usaybia.net/place/263" resp="#mtolay">العراق</placeName> في أيام الرشيد هارون. <note n="2" type="footnote">
                                 <p>B: هرون الرشيد</p>
                             </note>
-                            ‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال أبو الحسن يوسف بن إبراهيم الحاسب المعروف بابن الداية حدثني أحمد بن رشيد الكاتب مولى سلام الأبرش أن <note n="3" type="footnote">
@@ -586,7 +587,7 @@
                             فقال جعفر بن يحيى يا أمير المؤمنين إن طب جبريل طب رومي وصالح بن بهلة ال<rs ref="https://syriaca.org/keyword/sanskrit-language" change="#change-22" cert="low">هندي</rs> في العلم بطريقة أهل <note n="14" type="footnote">
                                 <p>Above the line in A: أهل</p>
                             </note>
-                            الهند في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
+                            <placeName ref="https://usaybia.net/place/260" resp="#mtolay">الهند</placeName> في الطب مثل جبريل في العلم بمقالات الروم فإن رأى أمير المؤمنين أن يأمر بإحضاره وتوجيهه إلى إبراهيم بن صالح لنفهم عنه <note n="15" type="footnote">
                                 <p>A: عنه</p>
                             </note>
                             ما يقول مثل ما <note n="16" type="footnote">
@@ -640,7 +641,7 @@
                             يا صالح على غيب فقال صالح كلا يا أمير المؤمنين إنما الغيب ما لا علم لأحد به ولا دليل له <note n="32" type="footnote">
                                 <p>Above the line in A: له; Gc: om. له</p>
                             </note>
-                            عليه ولم أقل ما قلت إلا بعلم واضح ودلائل بينة.‎
+                            عليه ولم أقل ما قلت إلا بعلم واضح ودلائل بينة.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال أحمد بن رشيد قال لي أبو <note n="33" type="footnote">
@@ -656,7 +657,7 @@
                                 <p>A: add. الرشيد</p>
                             </note>
                             وأقبل على جعفر بن يحيى باللوم في إرشاده إياه إلى صالح بن بهلة وأقبل <note n="37" type="footnote">
-                                <p>Gc: om. على جعفر بن … صالح بن بهلة وأقبل‎</p>
+                                <p>Gc: om. على جعفر بن … صالح بن بهلة وأقبل</p>
                             </note>
                             يلعن الهند وطبهم <note n="38" type="footnote">
                                 <p>Gc: بعلن الطب من الهند</p>
@@ -712,7 +713,7 @@
                             بهذا القول مرات فإذن له بالدخول على <note n="55" type="footnote">
                                 <p>A: إلى, in margin على صح</p>
                             </note>
-                            إبراهيم وحده. (١٩٣أ)‎
+                            إبراهيم وحده. (١٩٣أ)
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال أحمد قال لي أبو <note n="56" type="footnote">
@@ -802,7 +803,7 @@
                             كان صالح أدخل فيها <note n="84" type="footnote">
                                 <p>Gc: فيه</p>
                             </note>
-                            الإبرة.‎
+                            الإبرة.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وعاش إبراهيم <note n="85" type="footnote">
@@ -811,7 +812,7 @@
                             بعد ذلك دهراً ثم تزوج العباسة بنت المهدي <note n="86" type="footnote">
                                 <p>Gc: الرشيد</p>
                             </note>
-                            وولي مصر وفلسطين وتوفي بمصر وقبره بها.‎
+                            وولي <placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> و<placeName ref="https://usaybia.net/place/432" resp="#mtolay">فلسطين</placeName> وتوفي ب<placeName ref="https://usaybia.net/place/184" resp="#mtolay">مصر</placeName> وقبره بها.
                         </p>
                     </div>
                 </div>
