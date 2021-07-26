@@ -101,6 +101,7 @@
             <change when="2021-05-17" who="#ngibson" xml:id="change-14">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: بال(رومية?), REPLACE: بال&lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-14" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-16">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+السرياني[ا-ي]*), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-16" cert="low"&gt;$1&lt;/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-07-26" who="#ngibson" xml:id="change-25">Removed directional formatting characters (U+200E, U+200F, U+202A - U+202E).</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -113,7 +114,7 @@
                             <note n="1" type="footnote">
                                 <p>This chapter is preserved in <hi rend="smallcaps">MSS</hi> ABGcR. It is included in all three versions of the <hi rend="italic">Classes of Physicians</hi>.</p>
                             </note>
-                            ‬‎
+                            
                         </head>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.1.1]</hi>
@@ -139,9 +140,9 @@
                             <note n="6" type="footnote">
                                 <p>Marginal note in A: حاشية يوانيس أي يحيا بالرومي</p>
                             </note>
-                            النحوي وكانوا على مذهب المسيح وقيل إن أنقيلاوس الإسكندراني هو كان المقدم على سائر الإسكندرانيين وإنه هو الذي رتب الكتب الستة عشر لجالينوس.‬‎
+                            النحوي وكانوا على مذهب المسيح وقيل إن أنقيلاوس الإسكندراني هو كان المقدم على سائر الإسكندرانيين وإنه هو الذي رتب الكتب الستة عشر لجالينوس.
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">أقول وكان هؤلاء الإسكندرانيين يقتصرون على قراءة الكتب الستة عشر لجالينوس في موضع تعليم الطب بالإسكندرية وكانوا يقرؤونها على الترتيب ويجتمعون في كل يوم على قراءة شيء منها وتفهمه ثم صرفوها إلى الجمل والجوامع ليسهل [i,104] حفظهم لها ومعرفتهم إياها ثم انفرد كل واحد منهم بتفسير الستة عشر.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">أقول وكان هؤلاء الإسكندرانيين يقتصرون على قراءة الكتب الستة عشر لجالينوس في موضع تعليم الطب بالإسكندرية وكانوا يقرؤونها على الترتيب ويجتمعون في كل يوم على قراءة شيء منها وتفهمه ثم صرفوها إلى الجمل والجوامع ليسهل [i,104] حفظهم لها ومعرفتهم إياها ثم انفرد كل واحد منهم بتفسير الستة عشر.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأجود ما وجدت من ذلك تفسير جاسيوس
                             <note n="7" type="footnote">
@@ -159,7 +160,7 @@
                             <note n="10" type="footnote">
                                 <p>Marginal note in R: مطلب يحيى النحوي لحق أوائل الإسلام</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.1.2]</hi>
@@ -201,7 +202,7 @@
                             <note n="19" type="footnote">
                                 <p>R: إليه</p>
                             </note>
-                            وأكرمه ورأى له موضعاً.‬‎
+                            وأكرمه ورأى له موضعاً.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ونقلت من تعاليق الشيخ أبي سليمان محمد بن طاهر بن بهرام السجستاني قال كان يحيى
@@ -228,7 +229,7 @@
                             <note n="25" type="footnote">
                                 <p>R: برقليس</p>
                             </note>
-                            وكان شيخاً كبيراً لا ينتفع به من الكبر.‬‎
+                            وكان شيخاً كبيراً لا ينتفع به من الكبر.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.1.3]</hi>
@@ -244,7 +245,7 @@
                             </note>
                             النحوي كان قوياً في علم النحو والمنطق والفلسفة وقد فسر كتباً كثيرة من الطبيات ولقوته في الفلسفة أُلحق بالفلسفة لأنه أحد الفلاسفة المذكورين في وقته قال وسبب قوته في الفلسفة
                             <note n="28" type="footnote">
-                                <p>R: om. ألحق بالفلسفة … في الفلسفة‬‎</p>
+                                <p>R: om. ألحق بالفلسفة … في الفلسفة</p>
                             </note>
                             أنه كان في أول أمره
                             <note n="29" type="footnote">
@@ -290,7 +291,7 @@
                             <note n="39" type="footnote">
                                 <p>Gc: om.</p>
                             </note>
-                            منها تفاسير وغيرها.‬‎
+                            منها تفاسير وغيرها.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ووجدت في بعض تواريخ النصارى أن يحيى
@@ -309,7 +310,7 @@
                             <note n="43" type="footnote"><p>R: يحنا</p></note>
                             النحوي وأصحابه وأوثوشيوس تفسيره بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> أبو سعيد وهذا أوثوشيوس كان طبيباً حكيماً وإنهم لما أحرموه لم
                             <note n="44" type="footnote"><p>B: أن</p></note>
-                            ينفوه كما نفوا المحرومين وكان ذلك لحاجتهم إلى طبه وتُرك في مدينة القسطنطينية ولم يزل مقيماً بها حتى مات مرقيان الملك.‎
+                            ينفوه كما نفوا المحرومين وكان ذلك لحاجتهم إلى طبه وتُرك في مدينة القسطنطينية ولم يزل مقيماً بها حتى مات مرقيان الملك.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ولهذا يحيى
@@ -318,7 +319,7 @@
                             </note>
                             النحوي لقب آخر
                             <note n="46" type="footnote"><p>Gc: om. آخر</p></note>
-                            بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-14" cert="low">رومي</rs> يقال له فيلونيوس أي المجتهد وهو من جملة السبعة الحكماء المصنفين للجوامع الستة عشرية وغيرها في مدينة الإسكندرية وله مصنفات كثيرة في الطب وغيره.‎
+                            بال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-14" cert="low">رومي</rs> يقال له فيلونيوس أي المجتهد وهو من جملة السبعة الحكماء المصنفين للجوامع الستة عشرية وغيرها في مدينة الإسكندرية وله مصنفات كثيرة في الطب وغيره.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وترك في مدينة القسطنطينية لعلمه [i,105] وفضله وطبه وقام بعد مرقيان
@@ -351,7 +352,7 @@
                             <note n="54" type="footnote">
                                 <p>R: om. تعالى</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فأرسل الملك إلى ذيسقوروذس
@@ -359,7 +360,7 @@
                                 <p>Gc: ديسقرودس; R: ذيسقوريذس</p>
                             </note>
                             صاحب الإسكندرية ويوانيس
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٠‬ب‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧٠ب"/>
                             بطرك أنطاكية فأمرهم أن يحضروا عنده فحضر ذيسقوروذس
                             <note n="56" type="footnote">
                                 <p>R: ذيسقوريذس Gc: ديسقرودس</p>
@@ -396,14 +397,14 @@
                             <note n="64" type="footnote">
                                 <p>R: بيحنا</p>
                             </note>
-                            النحوي ومات مخالفاً لمذهب الروم المعروفين بالملكية ومات وهو يعقوبي مخالف للروم المذكورين.‬‎
+                            النحوي ومات مخالفاً لمذهب الروم المعروفين بالملكية ومات وهو يعقوبي مخالف للروم المذكورين.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="2">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.2]</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وليحيى النحوي من الكتب:‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وليحيى النحوي من الكتب:</p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -438,15 +439,15 @@
                                 الثانية لأرسطوطاليس
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭4‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">4.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1598" n="6.2no4" change="#change-1" cert="low">تفسير كتاب طوبيقا لأرسطوطاليس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭5‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">5.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1599" n="6.2no5" change="#change-1" cert="low">تفسير كتاب السماع الطبيعي لأرسطوطاليس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭6‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">6.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1600" n="6.2no6" change="#change-1" cert="low">
                                 تفسير كتاب الكون والفساد لأرسطوطاليس
@@ -464,11 +465,11 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭8‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">8.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1602" n="6.2no8" change="#change-1" cert="low">تفسير كتاب الفرق لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭9‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">9.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1603" n="6.2no9" change="#change-1" cert="low">
                                 تفسير كتاب الصناعة الصغيرة لجالينوس
@@ -477,21 +478,21 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭10‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">10.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1604" n="6.2no10" change="#change-1" cert="low">تفسير كتاب النبض الصغير لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭11‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">11.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1605" n="6.2no11" change="#change-1" cert="low">تفسير كتاب أغلوقن لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭12‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">12.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1606" n="6.2no12" change="#change-1" cert="low">
                                 تفسير كتاب الأسطقسات لجالينوس
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭13‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">13.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1607" n="6.2no13" change="#change-1" cert="low">
                                 تفسير كتاب المزاج لجالينوس
@@ -500,11 +501,11 @@
                                 </note>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭14‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">14.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1608" n="6.2no14" change="#change-1" cert="low">تفسير كتاب القوى الطبيعية لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭15‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">15.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1609" n="6.2no15" change="#change-1" cert="low">
                                 تفسير كتاب التشريح الصغير
@@ -514,51 +515,51 @@
                                 لجالينوس
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭16‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">16.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1610" n="6.2no16" change="#change-1" cert="low">تفسير كتاب العلل والأعراض لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭17‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">17.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1611" n="6.2no17" change="#change-1" cert="low">تفسير كتاب تعرف علل الأعضاء الباطنة لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭18‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">18.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1612" n="6.2no18" change="#change-1" cert="low">تفسير كتاب النبض الكبير لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭19‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">19.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1613" n="6.2no19" change="#change-1" cert="low">تفسير كتاب الحميات لجاليوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭20‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">20.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1614" n="6.2no20" change="#change-1" cert="low">تفسير كتاب البحران لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭21‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">21.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1615" n="6.2no21" change="#change-1" cert="low">تفسير أيام البحران لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭22‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">22.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1616" n="6.2no22" change="#change-1" cert="low">تفسير كتاب حيلة البرء لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭23‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">23.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1617" n="6.2no23" change="#change-1" cert="low">تفسير كتاب تدبير الأصحاء لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭24‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">24.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1618" n="6.2no24" change="#change-1" cert="low">تفسير كتاب منافع الأعضاء لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭25‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">25.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1619" n="6.2no25" change="#change-1" cert="low">جوامع كتاب الترياق لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭26‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">26.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1620" n="6.2no26" change="#change-1" cert="low">جوامع كتاب الفصد لجالينوس</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭27‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">27.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1621" n="6.2no27" change="#change-1" cert="low">
                                 كتاب الرد على برقلس ثماني عشرة
@@ -568,15 +569,15 @@
                                 مقالة
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭28‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">28.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1622" n="6.2no28" change="#change-1" cert="low">كتاب في أن كل جسم متناه فقوته متناهية مقالة</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭29‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">29.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1623" n="6.2no29" change="#change-1" cert="low">كتاب الرد على أرسطوطاليس ست مقالات</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭30‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">30.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1624" n="6.2no30" change="#change-1" cert="low">
                                 مقالة يرد فيها
@@ -590,18 +591,18 @@
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1625" n="6.2no31" change="#change-1" cert="low">
                                 كتاب يرد فيه على قوم لا يعرفون مقالتان
-                                <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧١‬أ‬‎"/>
+                                <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧١أ"/>
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭32‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">32.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1626" n="6.2no32" change="#change-1" cert="low">ومقالة أخرى يرد فيها على قوم آخر</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭33‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">33.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1627" n="6.2no33" change="#change-1" cert="low">مقالة في النبض</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭34‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">34.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1628" n="6.2no34" change="#change-1" cert="low">
                                 نقضه للثمان عشرة مسألة لديروخس
@@ -611,7 +612,7 @@
                                 بن ملس الأفلاطوني
                             </title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭35‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">35.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1629" n="6.2no35" change="#change-1" cert="low">شرح كتاب إيساغوجي لفرفوريوس.</title>
                             </item>
@@ -622,7 +623,7 @@
                             <hi rend="bold">[6.3.1]</hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            قال أبو الحسن علي بن رضوان في كتاب النافع في كيفية [‭i,106‬] تعليم صناعة الطب وإنما اقتصر الإسكندرانيون على الكتب الستة عشر من سائر كتب جالينوس في التعليم ليكون المشتغل
+                            قال أبو الحسن علي بن رضوان في كتاب النافع في كيفية [i,106] تعليم صناعة الطب وإنما اقتصر الإسكندرانيون على الكتب الستة عشر من سائر كتب جالينوس في التعليم ليكون المشتغل
                             <note n="77" type="footnote">
                                 <p>B: المستعمل</p>
                             </note>
@@ -630,7 +631,7 @@
                             <note n="78" type="footnote">
                                 <p>Gc: om. إلى</p>
                             </note>
-                            أن ينظر في باقي ما يجد من كتبه.‬‎
+                            أن ينظر في باقي ما يجد من كتبه.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وكان ترتيبهم لهذه الكتب في سبع مراتب أما المرتبة الأولى فإنهم جعلوها بمنزلة المدخل إلى صناعة الطب فإن من تحصل له هذه المرتبة يمكنه
@@ -657,7 +658,7 @@
                             <note n="84" type="footnote">
                                 <p>BR: add. فيه</p>
                             </note>
-                            وإن كان طريقه التجربة عمل على قوانين التجربة فيه.‬‎
+                            وإن كان طريقه التجربة عمل على قوانين التجربة فيه.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثاني كتاب الصناعة الصغيرة مقالة واحدة يستفاد منه
@@ -672,7 +673,7 @@
                             <note n="87" type="footnote">
                                 <p>Gc: om. منها</p>
                             </note>
-                            والعملي.‬‎
+                            والعملي.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثالث كتاب النبض الصغير وهو أيضاً مقالة واحدة
@@ -683,14 +684,14 @@
                             <note n="89" type="footnote">
                                 <p>Gc: من</p>
                             </note>
-                            الأمراض.‬‎
+                            الأمراض.
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">والرابع الكتاب المسمى بأغلوقن وهو مقالتان ويستفاد منه كيفية التأتي في شفاء الأمراض.‎</p>
-                        <p style="direction:rtl; unicode-bidi:embed">ولأن من يتعاطى الأعمال الجزئية من الطب يضطر إلى معرفة قوى ما يحتاج إليه من الأغذية والأدوية وإلى أن يباشر بنفسه أعمال اليد من صناعة الطب لزمه أن ينظر فيما تدعوه إليه الحاجة من الكتب التي سماها جالينوس في آخر الصناعة الصغيرة أو يتعلم ما يحتاج إليه من ذلك تلقيناً ومشاهدة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">والرابع الكتاب المسمى بأغلوقن وهو مقالتان ويستفاد منه كيفية التأتي في شفاء الأمراض.</p>
+                        <p style="direction:rtl; unicode-bidi:embed">ولأن من يتعاطى الأعمال الجزئية من الطب يضطر إلى معرفة قوى ما يحتاج إليه من الأغذية والأدوية وإلى أن يباشر بنفسه أعمال اليد من صناعة الطب لزمه أن ينظر فيما تدعوه إليه الحاجة من الكتب التي سماها جالينوس في آخر الصناعة الصغيرة أو يتعلم ما يحتاج إليه من ذلك تلقيناً ومشاهدة.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فصارت هذه الأربعة كتب التي في المرتبة الأولى مقنعة للمتعلم في تعليم صناعة الطب فأما الكامل فإنه يتذكر بها جميع ما فهمه من الصناعة
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧١‬ب‬‎"/>
-                            .‬‎
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧١ب"/>
+                            .
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.3.2]</hi>
@@ -713,14 +714,14 @@
                                 <p>
                                     <hi rend="italic">K. al-Nāfiʿ</hi>, f. 9a: اخر; ABGcR: أخذ</p>
                             </note>
-                            الانحلال إليها وإن هذه الأسطقسات قابلة للتغير والاستحالة وهذا الكتاب هو أول كتاب يصلح أن يبدأ به من أراد استكمال تعليم صناعة الطب.‬‎
+                            الانحلال إليها وإن هذه الأسطقسات قابلة للتغير والاستحالة وهذا الكتاب هو أول كتاب يصلح أن يبدأ به من أراد استكمال تعليم صناعة الطب.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثاني كتاب المزاج وهو ثلاث مقالات يستفاد منه معرفة أصناف المزاج وبما يتقوم كل واحد منها وبما
                             <note n="94" type="footnote">
                                 <p>GcR: وبماذا</p>
                             </note>
-                            يستدل عليه إذا حدث.‬‎
+                            يستدل عليه إذا حدث.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثالث كتاب القوى الطبيعية وهو أيضاً ثلاث مقالات يستفاد منه معرفة القوى التي تدبر بها
@@ -731,15 +732,15 @@
                             <note n="96" type="footnote">
                                 <p>Gc: om. البدن</p>
                             </note>
-                            وأسبابها والعلامات التي يستدل بها عليها.‬‎
+                            وأسبابها والعلامات التي يستدل بها عليها.
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">والرابع كتاب التشريح [i,107] الصغير وهو خمس مقالات وضعها جالينوس متفرقة وإنما الإسكندرانيون جمعوها وجعلوها كتاباً واحداً يستفاد منه معرفة أعضاء البدن المتشابهة وعددها وجميع ما يحتاج إليه فيها.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">والرابع كتاب التشريح [i,107] الصغير وهو خمس مقالات وضعها جالينوس متفرقة وإنما الإسكندرانيون جمعوها وجعلوها كتاباً واحداً يستفاد منه معرفة أعضاء البدن المتشابهة وعددها وجميع ما يحتاج إليه فيها.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وهذه
                             <note n="97" type="footnote">
                                 <p>R: وهذا</p>
                             </note>
-                            الكتب التي في هذه المرتبة الثانية يستفاد من جميعها الأمور الطبيعية للبدن أعني التي قوامه بها وإذا نظر فيها محب التعليم اشتاق أيضاً إلى النظر في كل ما يتعلق بطبيعة البدن.‬‎
+                            الكتب التي في هذه المرتبة الثانية يستفاد من جميعها الأمور الطبيعية للبدن أعني التي قوامه بها وإذا نظر فيها محب التعليم اشتاق أيضاً إلى النظر في كل ما يتعلق بطبيعة البدن.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             أما كتاب
@@ -750,7 +751,7 @@
                             <note n="99" type="footnote">
                                 <p>B: الإلهية</p>
                             </note>
-                            الفاضلة ومقالته في سوء المزاج المختلف وكتابه في الأدوية المفردة ونحو هذا.‬‎
+                            الفاضلة ومقالته في سوء المزاج المختلف وكتابه في الأدوية المفردة ونحو هذا.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأما كتاب القوى الطبيعية فيشوق إلى كتابه في المنى وكتابه في آراء أبقراط وأفلاطن
@@ -761,9 +762,9 @@
                             <note n="101" type="footnote">
                                 <p>B: والأفعال والأرواح</p>
                             </note>
-                            ‬‎
+                            
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وأما كتاب التشريح الصغير فيشوق إلى كتابه في عمل التشريح ونحوه.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وأما كتاب التشريح الصغير فيشوق إلى كتابه في عمل التشريح ونحوه.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.3.3]</hi>
                         </p>
@@ -777,12 +778,12 @@
                                 <p>Gc: وأما</p>
                             </note>
                             الإسكندرانيون جمعوها وجعلوها في كتاب واحد يستفاد منه معرفة الأمراض وأسبابها والأعراض الحادثة عن الأمراض وهذا باب عظيم الغناء في صناعة الطب على رأي أصحاب
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٢‬أ‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧٢أ"/>
                             القياس وهو أصل عظيم إذا وقف الإنسان على ما في هذا الكتاب وفهمه لم يخف
                             <note n="104" type="footnote">
                                 <p>R: يخلف</p>
                             </note>
-                            عليه شيء من صناعة الطب.‬‎
+                            عليه شيء من صناعة الطب.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأما المرتبة الرابعة فكتابان أحدهما كتاب تعرف علل الأعضاء الباطنة ست مقالات يستفاد منه تعريف كل علة من العلل التي تحدث في الأعضاء الباطنة فإن هذه الأعضاء لا تدرك أمراضها
@@ -801,7 +802,7 @@
                             <note n="108" type="footnote">
                                 <p>Cf. <hi rend="italic">K. al-Nāfiʿ</hi>, f. 10b: تتقدمه</p>
                             </note>
-                            ضيق النفس والوجع الناخس والحمى والسعال فإن هذه إذا اجتمعت عُلم أن في الغشاء المستبطن للأضلاع ورم حار ولم يضع جالينوس كتاباً في تعرف علل الأعضاء الظاهرة إذا كانت هذه العلل تقع تحت العيان فيكتفي في تعرفها نظرها بين يدي المعلمين عياناً فقط.‬‎
+                            ضيق النفس والوجع الناخس والحمى والسعال فإن هذه إذا اجتمعت عُلم أن في الغشاء المستبطن للأضلاع ورم حار ولم يضع جالينوس كتاباً في تعرف علل الأعضاء الظاهرة إذا كانت هذه العلل تقع تحت العيان فيكتفي في تعرفها نظرها بين يدي المعلمين عياناً فقط.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             والثاني كتاب النبض الكبير وهو ينقسم إلى أربعة أجزاء وكل جزء منه أربع مقالات يستفاد من الجزء الأول منه
@@ -820,7 +821,7 @@
                             <note n="112" type="footnote">
                                 <p>Gc: add. أصناف</p>
                             </note>
-                            النبض وهذا باب عظيم النفع في الاستدلال على الأمراض ومعرفة قواها ونسبتها إلى قوة البدن.‬‎
+                            النبض وهذا باب عظيم النفع في الاستدلال على الأمراض ومعرفة قواها ونسبتها إلى قوة البدن.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأما المرتبة الخامسة فثلاثة
@@ -835,11 +836,11 @@
                             <note n="115" type="footnote">
                                 <p>Gc: om. وهو أيضاً</p>
                             </note>
-                            ثلاث مقالات يستفاد منه معرفة أوقات البحران ومعرفة الأيام التي يكون فيها [‭i,108‬] وأسباب ذلك وعلاماته.
+                            ثلاث مقالات يستفاد منه معرفة أوقات البحران ومعرفة الأيام التي يكون فيها [i,108] وأسباب ذلك وعلاماته.
                             <note n="116" type="footnote">
                                 <p>Marginal note in B: من هذا من غير خط المؤلف من قوله أربعة عشر مقالة إلى الفرقة الرابعة بعد هذه</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.3.4]</hi>
@@ -853,11 +854,11 @@
                             <note n="118" type="footnote">
                                 <p>BGc: ونحوها</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             وأما المرتبة السابعة
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٢‬ب‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧٢ب"/>
                             فكتاب واحد أيضاً
                             <note n="119" type="footnote">
                                 <p>Gc: om. أيضاً</p>
@@ -866,7 +867,7 @@
                             <note n="120" type="footnote">
                                 <p>B: من</p>
                             </note>
-                            جودة الكيموس ورداءته وفي كتابه في التدبير الملطف وفي شرائط الرياضة مثال ذلك ما في كتاب جالينوس من الرياضة بالكرة الصغيرة ونحو هذا.‬‎
+                            جودة الكيموس ورداءته وفي كتابه في التدبير الملطف وفي شرائط الرياضة مثال ذلك ما في كتاب جالينوس من الرياضة بالكرة الصغيرة ونحو هذا.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فالكتب
@@ -890,9 +891,9 @@
                             <note n="125" type="footnote">
                                 <p>Above the line in A: مرتبة</p>
                             </note>
-                            واحدة تدعو الضرورة إلى النظر فيه.‬‎
+                            واحدة تدعو الضرورة إلى النظر فيه.
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">فإذن ما فعله الإسكندرانيون في ذلك حيلة حسنة في حث المشتغل بها على التبحر في صناعة الطب وأن تؤديه العناية والاجتهاد إلى النظر في سائر كتب جالينوس.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">فإذن ما فعله الإسكندرانيون في ذلك حيلة حسنة في حث المشتغل بها على التبحر في صناعة الطب وأن تؤديه العناية والاجتهاد إلى النظر في سائر كتب جالينوس.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="4">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -907,7 +908,7 @@
                             <note n="127" type="footnote">
                                 <p>Above the line in A: متون; B: متن</p>
                             </note>
-                            كتب جالينوس وتكفي كلفة ما فيها من التوابع والفصول.‬‎
+                            كتب جالينوس وتكفي كلفة ما فيها من التوابع والفصول.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال أبو الخير بن الخمار وهو أستاذ أبي الفرج بن هندو أنا أظن أنهم قد قصروا فيما جمعوه من ذلك لأنه
@@ -922,7 +923,7 @@
                             <note n="130" type="footnote">
                                 <p>A: add. قد</p>
                             </note>
-                            بدأ من التشريح ثم صار إلى القوى والأفعال ثم إلى الأسطقسات.‬‎
+                            بدأ من التشريح ثم صار إلى القوى والأفعال ثم إلى الأسطقسات.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             قال أبو الفرج وأنا أرى أن الإسكندرانيين إنما اقتصروا على الكتب الستة عشر لا من حيث هي كافية في الطب وحاوية للغرض بل من حيث افتقرت إلى المعلم
@@ -933,12 +934,12 @@
                             <note n="132" type="footnote">
                                 <p>B: غير</p>
                             </note>
-                            مذاكرة ومطارحة ومن دون مراجعة ومفاوضة.‬‎
+                            مذاكرة ومطارحة ومن دون مراجعة ومفاوضة.
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">فأما الكتب التي ذكرها الأستاذ أبو الخير بن الخمار فالطبيب مضطر إلى معرفتها وأضافتها إلى الكتب التي عددناها غير أنه يمكنه من نفسه الوقوف على معانيها واستنباط الأغراض فيها بالقوة المستفادة من الستة عشر التي هي القوانيين لما سواها والمراقي إلى ما عداها.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">فأما الكتب التي ذكرها الأستاذ أبو الخير بن الخمار فالطبيب مضطر إلى معرفتها وأضافتها إلى الكتب التي عددناها غير أنه يمكنه من نفسه الوقوف على معانيها واستنباط الأغراض فيها بالقوة المستفادة من الستة عشر التي هي القوانيين لما سواها والمراقي إلى ما عداها.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فإن قلت
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٣‬أ‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧٣أ"/>
                             فما حجة الإسكندرانيين في ترتيبهم لهذه الكتب قلنا إنهم رتبوا بعضها بحسب استحقاقه في نفسه بمنزلة كتاب الفرق فإنه وجب تقديمه لتتنقى به نفس المتعلم من شكوك أصحاب التجربة والمحتالين ومغالطاتهم ويتحقق صواب
                             <note n="133" type="footnote">
                                 <p>B: om. صواب</p>
@@ -947,48 +948,48 @@
                             <note n="134" type="footnote">
                                 <p>R: om. القياس</p>
                             </note>
-                            فيقتدي بهم وبمنزلة الصناعة [‭i,109‬] الصغيرة فإنها لما كانت فيها شرارة من صناعة الطب كان الأولى أن يتبع بها كتاب الفرق ويجعل مدخلاً إلى الطب.‬‎
+                            فيقتدي بهم وبمنزلة الصناعة [i,109] الصغيرة فإنها لما كانت فيها شرارة من صناعة الطب كان الأولى أن يتبع بها كتاب الفرق ويجعل مدخلاً إلى الطب.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ورتبوا بعضها بحسب ما توجبه إضافته إلى غيره بمنزلة الكتاب الصغير في النبض فإنه جُعل تابعاً للصناعة الصغيرة لأن جالينوس ذكر فيها النبض عند ذكره لمزاج القلب ووجب أيضاً تقديمه على كتاب جالينوس إلى أغلوقن لأنه تكلم في هذا الكتاب في الحميات والنبض هو أول شيء يعرف منه أمر
                             <note n="135" type="footnote">
                                 <p>A: أحوال, above the line أمر</p>
                             </note>
-                            الحميات.‬‎
+                            الحميات.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             على أن الترتيب الذي ذكره
                             <note n="136" type="footnote">
                                 <p>R: ذكر</p>
                             </note>
-                            الأستاذ أبو الخير أن جالينوس أشار إليه هو لعمري الترتيب الصناعي وذلك أنه يجب على كل ذي صناعة أن يتدرج في تعليمها من الأظهر إلى الأخفى ومن الأخير إلى المبدأ والتشريح هو علم البدن وأعضائه وهذه هي أول ما يظهر لنا من الإنسان وإن كانت آخر ما تفعله الطبيعة فإن الطبيعة تأخذ أولاً الأسطقسات ثم تمزجها فيحصل منها الأخلاط ثم تفعل القوى والأعضاء.‬‎
+                            الأستاذ أبو الخير أن جالينوس أشار إليه هو لعمري الترتيب الصناعي وذلك أنه يجب على كل ذي صناعة أن يتدرج في تعليمها من الأظهر إلى الأخفى ومن الأخير إلى المبدأ والتشريح هو علم البدن وأعضائه وهذه هي أول ما يظهر لنا من الإنسان وإن كانت آخر ما تفعله الطبيعة فإن الطبيعة تأخذ أولاً الأسطقسات ثم تمزجها فيحصل منها الأخلاط ثم تفعل القوى والأعضاء.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فيجب أن يكون طريقنا في التعليم بالعكس من طريق الطبيعة في التكوين ولكنا ندع هذا الاضطرار
                             <note n="137" type="footnote">
                                 <p>Cf. Ibn Hindū, <hi rend="italic">Miftāḥ</hi>, 65: الاضطراب</p>
                             </note>
-                            ونرضى ترتيب الإسكندرانيين لأن العلم حاصل على كل حال وخرق إجماع الحكماء معدود من الخرق.‬‎
+                            ونرضى ترتيب الإسكندرانيين لأن العلم حاصل على كل حال وخرق إجماع الحكماء معدود من الخرق.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="5">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[6.5.1]</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">أقول وللإسكندرانيين أيضاً جوامع كثيرة في العلوم الحكمية والطب ولا سيما لكتب جالينوس وشروحاتها لكتب أبقراط.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">أقول وللإسكندرانيين أيضاً جوامع كثيرة في العلوم الحكمية والطب ولا سيما لكتب جالينوس وشروحاتها لكتب أبقراط.</p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             فأما الأطباء المذكورون من النصارى وغيرهم ممن كان معاصر هؤلاء الأطباء الإسكندرانيين وقريباً من أزمنتهم فمنهم شمعون الراهب المعروف بطيبوثة
                             <note n="138" type="footnote"><p>ABGcR: بطيبويه</p></note>
                             وأهرن القس صاحب الكناش وألف كناشه بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> ونقله ماسرجيس إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs>
                             <note n="139" type="footnote"><p>Gc: العربية</p></note>
-                            وهو ثلاثون مقالة وزاد عليها ماسرجيس مقالتين.‎
+                            وهو ثلاثون مقالة وزاد عليها ماسرجيس مقالتين.
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ويوحنا بن سرابيون وجميع ما ألف <rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> وكان والده سرابيون طبيباً من أهل باجرمي
                             <note n="140" type="footnote"><p>Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh</hi>, 431: باجرمي; ABGcR: تاخرمن;</p></note>
                             وخرج ولداه طبيبين فاضلين
                             <note n="141" type="footnote"><p>GcR: طبيبان فاضلان</p></note>
-                            وهما يوحنا وداوود وليوحنا بن سرابيون من الكتب:‎
+                            وهما يوحنا وداوود وليوحنا بن سرابيون من الكتب:
                         </p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
@@ -1017,7 +1018,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ومنهم
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭٧٣‬ب‬‎"/>
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="٧٣ب"/>
                             أنطيلس وبرطلاوس
                             <note n="144" type="footnote">
                                 <p>R: وبرطاوس</p>
@@ -1030,14 +1031,14 @@
                             <note n="146" type="footnote">
                                 <p>ABGcR: وفلاغوسوس; cf. above § 5.2.2: فيلغريس</p>
                             </note>
-                            وعيسى بن قسطنطين ويكنى أبا موسى وكان من جملة أفاضل الأطباء وله من الكتب:‬‎
+                            وعيسى بن قسطنطين ويكنى أبا موسى وكان من جملة أفاضل الأطباء وله من الكتب:
                         </p>
                         <list>
-                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1632" n="6.5.2no1" change="#change-1" cert="low">كتاب الأدوية المفردة</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1633" n="6.5.2no2" change="#change-1" cert="low">
                                 كتاب في البواسير وعللها
@@ -1061,7 +1062,7 @@
                             <note n="151" type="footnote">
                                 <p>Gc: om. بالحاوي</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                 </div>

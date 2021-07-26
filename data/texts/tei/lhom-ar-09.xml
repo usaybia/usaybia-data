@@ -103,6 +103,7 @@
             <change when="2021-05-17" who="#ngibson" xml:id="change-13">Added Greek language keywords in main text (excluding notes) using find/replace (FIND: ((لسان|لغة)s+الروم[ا-ي]*), REPLACE: &lt;rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-13" cert="low"&gt;$1/rs&gt;, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-17">Added Syriac language keywords in main text (excluding notes) using find/replace (FIND: (سريانية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
             <change when="2021-05-17" who="#ngibson" xml:id="change-20">Added Persian language keywords in main text (excluding notes) using find/replace (FIND: (فارسية?)([^ا-ي]), REPLACE: &lt;rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low"&gt;$1&lt;/rs&gt;$2, IN XPATH: /TEI/text/body//*[not(ancestor::note)]/text())</change>
+            <change when="2021-07-26" who="#ngibson" xml:id="change-25">Removed directional formatting characters (U+200E, U+200F, U+202A - U+202E).</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -113,12 +114,12 @@
                         <head style="direction:rtl; unicode-bidi:embed">
                             الباب التاسع في طبقات الأطباء النقلة الذين نقلوا كتب الطب وغيره من ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-11" cert="low">لسان اليوناني</rs> إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وذكر الذين نقلوا لهم
                             <note n="1" type="footnote"><p>The edition of this chapter is based on <hi rend="smallcaps">MS</hi> ABPRSb. Chapter 9 is found in all three versions of the work.</p></note>
-                            ‎
+                            
                         </head>
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.1] جورجس</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وهو أول من ابتدأ في نقل الكتب الطبية إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> عندما استدعاه المنصور وكان كثير الإحسان إليه وقد ذكرت أخبار جورجس فيما تقدم.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وهو أول من ابتدأ في نقل الكتب الطبية إلى اللسان ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> عندما استدعاه المنصور وكان كثير الإحسان إليه وقد ذكرت أخبار جورجس فيما تقدم.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="2">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -127,7 +128,7 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             كان عالماً باللغات الأربع غريبها ومستعملها ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> وال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> وال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة<note n="2" type="footnote"><p>R: om. واليونانية</p></note>
                             وال<rs ref="https://syriaca.org/keyword/persian-language" change="#change-20" cert="low">فارسية</rs> ونقله في الغاية من الجودة. <note n="3" type="footnote"><p>AP: om. ونقله في الغاية من الجودة; P: permutation of biographies 9.1 and 9.2 (noted by the copyist).</p></note>
-                            ‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="3">
@@ -141,7 +142,7 @@
                             عالماً باللغات التي يعرفها أبوه وهو يلحق به في النقل وكان إسحاق عذب العبارة فصيح الكلام وكان حنين مع ذلك أكثر تصنيفاً ونقلاً وقد تقدم ذكر إسحاق وأبيه. <note n="5" type="footnote">
                                 <p>A: ذكره, in margin إسحق وأبيه بخطه; P: ذكره</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="4">
@@ -152,14 +153,14 @@
                             وهو ابن أخت حنين بن إسحاق وتلميذه ناقل مجود <note n="6" type="footnote">
                                 <p>B: محمود</p>
                             </note>
-                            يلحق بحنين وإسحاق وقد تقدم أيضاً ذكره. ‭[i,204]‬‬‎
+                            يلحق بحنين وإسحاق وقد تقدم أيضاً ذكره. [i,204]
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="5">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.5] عيسى بن يحيى بن إبراهيم</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان أيضاً تلميذاً لحنين بن إسحاق وكان فاضلاً أثنى عليه حنين ورضي نقله وقلده فيه وله مصنفات. (١٢٥أ)‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان أيضاً تلميذاً لحنين بن إسحاق وكان فاضلاً أثنى عليه حنين ورضي نقله وقلده فيه وله مصنفات. (١٢٥أ)</p>
                     </div>
                     <div type="textpart" subtype="biography" n="6">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -172,20 +173,20 @@
                             خبيراً باللغات فاضلاً في العلوم الحكمية وغيرها وسيأتي ذكره وأخباره فيما بعد إن شاء الله تعالى. <note n="8" type="footnote">
                                 <p>PR: om. تعالى</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="7">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.7] أيوب المعروف بالأبرش</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان قليل النقل متوسطه وما نقله في آخر عمره يضاهي نقل حنين.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان قليل النقل متوسطه وما نقله في آخر عمره يضاهي نقل حنين.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="8">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.8] ماسرجيس</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان ناقلاً من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومشهوراً بالطب وله من الكتب:‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان ناقلاً من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومشهوراً بالطب وله من الكتب:</p>
                         <list>
                             <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
@@ -210,13 +211,13 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.9] عيسى بن ماسرجيس</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان يلحق بأبيه وله من الكتب:‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان يلحق بأبيه وله من الكتب:</p>
                         <list>
-                            <label style="direction:rtl; unicode-bidi:embed">‭1‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">1.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1593" n="9.9no1" change="#change-1" cert="low">كتاب الألوان</title>
                             </item>
-                            <label style="direction:rtl; unicode-bidi:embed">‭2‬.</label>
+                            <label style="direction:rtl; unicode-bidi:embed">2.</label>
                             <item style="direction:rtl; unicode-bidi:embed">
                                 <title ref="https://usaybia.net/work/1594" n="9.9no2" change="#change-1" cert="low">كتاب الروائح والطعوم.</title>
                             </item>
@@ -225,18 +226,18 @@
                     <div type="textpart" subtype="biography" n="10">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.10]‬ شهدى <note n="11" type="footnote">
+                                [9.10] شهدى <note n="11" type="footnote">
                                     <p>ABPR: شهدى; Sb: سهدى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 4, 6 (Berg); 10, 12, 14 (Lam): سهدا Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:148: شُهْدى</p>
                                 </note>
                                 الكرخي
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">من أهل الكرخ وكان قريب الحال في الترجمة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">من أهل الكرخ وكان قريب الحال في الترجمة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="11">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.11]‬ ابن شهدى <note n="12" type="footnote">
+                                [9.11] ابن شهدى <note n="12" type="footnote">
                                     <p>ABPR: شهدى; Sb: سهدى</p>
                                 </note>
                                 الكرخي
@@ -245,31 +246,31 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             كان مثل أبيه في النقل ثم إنه في <note n="13" type="footnote"><p>Sb: om. في</p></note>
                             آخر عمره فاق أباه ولم يزل متوسطاً وكان ينقل من ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> ومن نقله: كتاب الأجنة لأبقراط. <note n="14" type="footnote"><p>R: add. سرجس الرأسي من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط</p></note>
-                            ‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="12">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.12] الحجاج بن مطر</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">نقل للمأمون ومن نقله كتاب أقليدس ثم أصلح نقله فيما بعد ثابت بن قرة الحراني.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">نقل للمأمون ومن نقله كتاب أقليدس ثم أصلح نقله فيما بعد ثابت بن قرة الحراني.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="13">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.13] ابن ناعمة</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">واسمه عبد المسيح بن عبد الله الحمصي الناعمي كان متوسط النقل وهو إلى الجودة أميل.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">واسمه عبد المسيح بن عبد الله الحمصي الناعمي كان متوسط النقل وهو إلى الجودة أميل.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="14">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.14]‬ زرويا بن مانحوه <note n="15" type="footnote">
+                                [9.14] زرويا بن مانحوه <note n="15" type="footnote">
                                     <p>A: زرويا بن مانحوه; PRSb: زروبا بن مانحوه; Cf. Ibn al-Nadīm, <hi rend="italic">Fihrist</hi>: زروبا بن ماحوه (Sayyid, 2/1:146); زروبا بن ماجوه (Flügel, 244; Tajaddud, 304).</p>
                                 </note>
                                 الناعمي الحمصي
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان قريب النقل وما هو في درجة من قبله.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان قريب النقل وما هو في درجة من قبله.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="15">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -279,13 +280,13 @@
                             كان صحيح <note n="16" type="footnote">
                                 <p>R: حسن</p>
                             </note>
-                            النقل ولم يكن عنده فصاحة ولا بلاغة في اللفظ.‬‎
+                            النقل ولم يكن عنده فصاحة ولا بلاغة في اللفظ.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="16">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.16]‬ فثيون <note n="17" type="footnote">
+                                [9.16] فثيون <note n="17" type="footnote">
                                     <p>Ibn al-Nadīm, <hi rend="italic">Fihrist</hi> (Sayyid), 1:204; 2/1:146: فثيون; ABPRSb: قينون</p>
                                 </note>
                                 الترجمان
@@ -294,14 +295,14 @@
                         <p style="direction:rtl; unicode-bidi:embed">
                             وجدت نقله كثير اللحن ولم يكن يعرف شيئاً من علم <note n="18" type="footnote"><p>R: om. العربية</p></note>
                             ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> <note n="19" type="footnote"><p>AP: من العربية; Sb: يعرف علم العربية</p></note>
-                            أصلاً.‎
+                            أصلاً.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="17">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.17] أبو نصر بن ناري بن أيوب</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان قليل النقل ولم يعتد بنقله كغيره من النقلة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان قليل النقل ولم يعتد بنقله كغيره من النقلة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="18">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -311,42 +312,42 @@
                             نقل كتباً كثيرة وكان نقله أميل إلى الجودة. <note n="20" type="footnote">
                                 <p>R: add. والله أعلم</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="19">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.19] إصطفن بن بسيل</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان يقارب حنين بن إسحاق في النقل إلا أن عبارة حنين أفصح وأحلى.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان يقارب حنين بن إسحاق في النقل إلا أن عبارة حنين أفصح وأحلى.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="20">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.20] موسى بن خالد الترجمان</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وجدت من نقله كتباً كثيرة من الستة عشر لجالينوس وغيرها وكان لا يصل إلى درجة حنين أو يقرب منها.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وجدت من نقله كتباً كثيرة من الستة عشر لجالينوس وغيرها وكان لا يصل إلى درجة حنين أو يقرب منها.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="21">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.21] أسطاث</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان من النقلة المتوسطين.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان من النقلة المتوسطين.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="22">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.22]‬ خيرون <note n="21" type="footnote">
+                                [9.22] خيرون <note n="21" type="footnote">
                                     <p>A: حىرون; PR: حيرون; Sb: حيزون</p>
                                 </note>
                                 بن رابطة
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">ليس له شهرة بجودة النقل.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">ليس له شهرة بجودة النقل.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="23">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                [‭9.23‬] تذرس السنقل <note n="22" type="footnote">
+                                [9.23] تذرس السنقل <note n="22" type="footnote">
                                     <p>Sb: السيقل</p>
                                 </note>
                             </hi>
@@ -355,7 +356,7 @@
                             وجدت له نقلاً في الكتب الحكمية لا بأس به. <note n="23" type="footnote">
                                 <p>R: om. لا بأس به</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="24">
@@ -364,9 +365,9 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             من أهل مدينة رأس العين نقل كتباً كثيرة وكان متوسطاً في النقل وكان حنين يصلح نقله فما وجد بإصلاح حنين فهو الجيد وما وجد غير مصلح فهو وسط. <note n="24" type="footnote">
-                                <p>R: om. سرجس الرأسي … فهو وسط‬‎</p>
+                                <p>R: om. سرجس الرأسي … فهو وسط</p>
                             </note>
-                            ‬‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="25">
@@ -377,14 +378,14 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             ليس أيوب الأبرش المذكور أولاً ناقل جيد عالم باللغات إلا أنه بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> خير <note n="26" type="footnote"><p>R: غير</p></note>
-                            منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
+                            منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="26">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.26] يوسف الناقل</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">هو أبو يعقوب بن يوسف بن عيسى المتطبب الناقل ويلقب بالناعس وهو [i,205] تلميذ عيسى بن صهر بخت وكان يوسف الناقل من خوزستان وكانت في عبارته لكنة وليس نقله بكثير الجودة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">هو أبو يعقوب بن يوسف بن عيسى المتطبب الناقل ويلقب بالناعس وهو [i,205] تلميذ عيسى بن صهر بخت وكان يوسف الناقل من خوزستان وكانت في عبارته لكنة وليس نقله بكثير الجودة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="27">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -395,8 +396,8 @@
                                 <p>A: بجرجس</p>
                             </note>
                             الرأسي.
-                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="‭١٢٥‬ب‬‎"/>
-                            ‬‎
+                            <milestone ed="Savage-Smith" type="folio" unit="folio" n="١٢٥ب"/>
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="28">
@@ -407,7 +408,7 @@
                             كان <note n="28" type="footnote">
                                 <p>RSb: add. أيضاً</p>
                             </note>
-                            متوسطاً في النقل إلا أنه يفضل إبراهيم بن الصلت وكان مقلاً من النقل ومن نقله: كتاب الكيموسين لجالينوس.‬‎
+                            متوسطاً في النقل إلا أنه يفضل إبراهيم بن الصلت وكان مقلاً من النقل ومن نقله: كتاب الكيموسين لجالينوس.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="29">
@@ -418,7 +419,7 @@
                             كان <note n="29" type="footnote">
                                 <p>Sb: add. أيضاً</p>
                             </note>
-                            متوسطاً في النقل ونقل عدة كتب من كتب بقراط.‬‎
+                            متوسطاً في النقل ونقل عدة كتب من كتب بقراط.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="30">
@@ -427,7 +428,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             نقل كتباً كثيرة إلى ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> فأما إلى ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> فما عرف بنقله شيء منها. <note n="30" type="footnote"><p>P: om. شيء منها</p></note>
-                            ‎
+                            
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="31">
@@ -438,25 +439,25 @@
                             كان في أيام المنصور وأمره بنقل أشياء من الكتب القديمة وله نقل كثير جيد إلا أنه دون نقل حنين بن إسحاق وقد وجدت بنقله كتباً <note n="31" type="footnote">
                                 <p>Sb: كتب</p>
                             </note>
-                            كثيرة في الطب من كتب أبقراط وجالينوس.‬‎
+                            كثيرة في الطب من كتب أبقراط وجالينوس.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="32">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.32] يحيى بن البطريق</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان في جملة الحسن بن سهل وكان لا يعرف ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> حق معرفتها ولا ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوإنما كان لطينياً يعرف <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-13" cert="low">لغة الروم</rs> اليوم وكتابتها وهي الحروف المتصلة لا المنفصلة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالقديمة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان في جملة الحسن بن سهل وكان لا يعرف ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs> حق معرفتها ولا ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوإنما كان لطينياً يعرف <rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-13" cert="low">لغة الروم</rs> اليوم وكتابتها وهي الحروف المتصلة لا المنفصلة ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةالقديمة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="33">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.33]‬ توما <note n="32" type="footnote">
-                                    <p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 49 (Berg); 121 (Lam) Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 131; <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:280: توما; ABPR: قيضا; Sb: قيصا. Cf. also <hi rend="italic">Fihrist</hi> )‬‎Sayyid(‬‎, 1:58: تاوما</p>
+                                [9.33] توما <note n="32" type="footnote">
+                                    <p>Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi>, 49 (Berg); 121 (Lam) Ibn al-Qifṭī, <hi rend="italic">Taʾrīkh al-ḥukamāʾ</hi>, 131; <hi rend="italic">Fihrist</hi> (Sayyid), 2/1:280: توما; ABPR: قيضا; Sb: قيصا. Cf. also <hi rend="italic">Fihrist</hi> )Sayyid(, 1:58: تاوما</p>
                                 </note>
                                 الرهاوي
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان إذا كثرت على حنين الكتب وضاق عليه الوقت استعان به في نقلها ثم يصلحها بعد ذلك.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان إذا كثرت على حنين الكتب وضاق عليه الوقت استعان به في نقلها ثم يصلحها بعد ذلك.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="34">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -466,13 +467,13 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             طبقته في النقل مثل توما <note n="34" type="footnote"><p>ABPR: قيضا; Sb: قيصا</p></note>
-                            الرهاوي وكان بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> أقوى منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.‎
+                            الرهاوي وكان بال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سريانية</rs> أقوى منه بال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-7" cert="low">عربية</rs>.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="35">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.35]‬ عبد يسوع <note n="35" type="footnote">
+                                [9.35] عبد يسوع <note n="35" type="footnote">
                                     <p>A: يشوع</p>
                                 </note>
                                 بن بهريز <note n="36" type="footnote">
@@ -480,25 +481,25 @@
                                 </note>
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">مطران الموصل كان صديقاً لجبريل بن بختيشوع وناقلاً له حبيب بن بهريز.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">مطران الموصل كان صديقاً لجبريل بن بختيشوع وناقلاً له حبيب بن بهريز.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="36">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.36] أبو عثمان سعيد بن يعقوب الدمشقي</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">أحد النقلة المجيدين وكان منقطعاً إلى علي بن عيسى.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">أحد النقلة المجيدين وكان منقطعاً إلى علي بن عيسى.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="37">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.37] أبو إسحاق إبراهيم بن بكس</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">كان من الأطباء المشهورين وترجم كتباً كثيرة إلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ونقله أيضاً مرغوب فيه.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">كان من الأطباء المشهورين وترجم كتباً كثيرة إلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ونقله أيضاً مرغوب فيه.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="38">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.38]‬ أبو الحسن علي بن إبراهيم بن بكس <note n="37" type="footnote">
-                                    <p>In margin of A: كان من الأطباء المشهوين … إبراهيم بن بكس‬‎</p>
+                                [9.38] أبو الحسن علي بن إبراهيم بن بكس <note n="37" type="footnote">
+                                    <p>In margin of A: كان من الأطباء المشهوين … إبراهيم بن بكس</p>
                                 </note>
                             </hi>
                         </p>
@@ -509,13 +510,13 @@
                             في النقل فأما الذين كان هؤلاء النقلة ينقلون لهم <note n="39" type="footnote">
                                 <p>P: om. لهم</p>
                             </note>
-                            خارجاً عن الخلفاء فمنهم.‬‎
+                            خارجاً عن الخلفاء فمنهم.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="39">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.39]‬ شبريشوع <note n="40" type="footnote">
+                                [9.39] شبريشوع <note n="40" type="footnote">
                                     <p>Ed. em. ABPRSb, Müller: شيرشوع</p>
                                 </note>
                                 بن قطرب
@@ -523,7 +524,7 @@
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
                             من أهل جنديسابور <note n="41" type="footnote"><p>A: om. من أهل جنديسابور</p></note>
-                            وكان لا يزال يبر النقلة ويهدي إليهم ويتقرب إلى تحصيل الكتب منهم بما يمكنه من المال وكان يريد ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> أكثر من ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو أحد الخوز.‎
+                            وكان لا يزال يبر النقلة ويهدي إليهم ويتقرب إلى تحصيل الكتب منهم بما يمكنه من المال وكان يريد ال<rs ref="https://syriaca.org/keyword/classical-syriac" change="#change-17" cert="low">سرياني</rs> أكثر من ال<rs ref="https://syriaca.org/keyword/arabic-language" change="#change-8" cert="low">عربي</rs> وهو أحد الخوز.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="40">
@@ -537,7 +538,7 @@
                             الحساب المشهورين بالفضل والعلم والتصنيف في العلوم الرياضية وكان محمد هذا أبر الناس بحنين بن إسحاق وقد <note n="43" type="footnote">
                                 <p>P: om. وقد</p>
                             </note>
-                            نقل له حنين كثيراً من الكتب الطبية.‬‎
+                            نقل له حنين كثيراً من الكتب الطبية.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="41">
@@ -548,13 +549,13 @@
                             أحد كتاب المأمون وكان نديماً له وعنده فضل <note n="44" type="footnote">
                                 <p>A: تحصل</p>
                             </note>
-                            ‭[i,206]‬ ومال إلى الطب فنقلوا له منه كتباً كثيرة.‬‎
+                            [i,206] ومال إلى الطب فنقلوا له منه كتباً كثيرة.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="42">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.42]‬ ومنهم تادُرى <note n="45" type="footnote">
+                                [9.42] ومنهم تادُرى <note n="45" type="footnote">
                                     <p>A: تاذرى; B: ثادرى; R: تادرى; Sb: نادرى; cf. Ḥunayn ibn Isḥāq, <hi rend="italic">Risālah</hi> ثياذورس (Berg, 12); ثيادورس (Lam, 27).</p>
                                 </note>
                                 الأسقف
@@ -564,7 +565,7 @@
                             كان أسقفاً في الكرخ ببغداد <note n="46" type="footnote">
                                 <p>Sb: om. ببغداد</p>
                             </note>
-                            وكان حريصاً على طلب الكتب متقرباً إلى قلوب نقلتها فحصل منها شيئاً كثيراً وصنف له قوم من الأطباء النصارى كتباً لها قدر وجعلوها باسمه.‬‎
+                            وكان حريصاً على طلب الكتب متقرباً إلى قلوب نقلتها فحصل منها شيئاً كثيراً وصنف له قوم من الأطباء النصارى كتباً لها قدر وجعلوها باسمه.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="43">
@@ -575,18 +576,18 @@
                             نقلت له كتب طبية وكان من جملة العلماء الفضلاء يلخص الكتب ويعتبر جيد <note n="47" type="footnote">
                                 <p>Sb: جد</p>
                             </note>
-                            الكلام فيها من رديه.‬‎
+                            الكلام فيها من رديه.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="44">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.44]‬ ومنهم عيسى بن يونس الكاتب الحاسب <note n="48" type="footnote">
+                                [9.44] ومنهم عيسى بن يونس الكاتب الحاسب <note n="48" type="footnote">
                                     <p>P: om. الحاسب</p>
                                 </note>
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">من جملة الفضلاء بالعراق وكان كثير العناية بتحصيل الكتب القديمة والعلوم ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">من جملة الفضلاء بالعراق وكان كثير العناية بتحصيل الكتب القديمة والعلوم ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ة</p>
                     </div>
                     <div type="textpart" subtype="biography" n="45">
                         <p style="direction:rtl; unicode-bidi:embed">
@@ -596,45 +597,45 @@
                             اشتهر باسم المدينة التي كان عاملها وكانت النقلة يحصلون من جانبه ويمتارون <note n="49" type="footnote">
                                 <p>Sb: يمتازون</p>
                             </note>
-                            من فضله.‬‎
+                            من فضله.
                         </p>
                     </div>
                     <div type="textpart" subtype="biography" n="46">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.46] ومنهم أحمد بن محمد المعروف بابن المدبر الكاتب</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">(١٢٦ أ) وكان يصل إلى النقلة من ماله وأفضاله شيء كثير جداً.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">(١٢٦ أ) وكان يصل إلى النقلة من ماله وأفضاله شيء كثير جداً.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="47">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.47]‬ ومنهم إبراهيم بن محمد بن موسى <note n="50" type="footnote">
+                                [9.47] ومنهم إبراهيم بن محمد بن موسى <note n="50" type="footnote">
                                     <p>APSb: محمد بن موسى</p>
                                 </note>
                                 الكاتب
                             </hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وكان حريصاً على نقل كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ومشتملاً على أهل العلم والفضل وعلى النقلة خاصة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وكان حريصاً على نقل كتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانيين</rs>ينإلى <rs ref="https://syriaca.org/keyword/arabic-language" change="#change-9" cert="low">لغة العرب</rs> ومشتملاً على أهل العلم والفضل وعلى النقلة خاصة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="48">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">[9.48] ومنهم عبد الله بن إسحاق</hi>
                         </p>
-                        <p style="direction:rtl; unicode-bidi:embed">وكان أيضاً حريصاً على نقل الكتب وتحصيلها كثيرة.‎</p>
+                        <p style="direction:rtl; unicode-bidi:embed">وكان أيضاً حريصاً على نقل الكتب وتحصيلها كثيرة.</p>
                     </div>
                     <div type="textpart" subtype="biography" n="49">
                         <p style="direction:rtl; unicode-bidi:embed">
                             <hi rend="bold">
-                                ‭[9.49]‬ ومنهم محمد بن عبد الملك ابن <note n="51" type="footnote">
+                                [9.49] ومنهم محمد بن عبد الملك ابن <note n="51" type="footnote">
                                     <p>ABPR: om. ابن</p>
                                 </note>
                                 الزيات
                             </hi>
                         </p>
                         <p style="direction:rtl; unicode-bidi:embed">
-                            وكان يقارب عطاؤه للنقلة والعلماء والنساخ في كل شهر ألفي دينار ونقل باسمه كتب <note n="52" type="footnote"><p>Sb: كتباً‎</p></note>
-                            <hi rend="superscript">,</hi> <note n="53" type="footnote"><p>A: add. كثيرة‎</p></note>
-                             عدة وكان أيضاً ممن نقلت له الكتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوترجمت باسمه جماعة من أكابر الأطباء مثل يوحنا بن ماسويه وجبريل بن بختيشوع وبختيشوع بن جبريل بن بختيشوع وداؤد بن سرابيون وسلمويه بن بيان واليسع وإسرائيل بن زكريا بن الطيفوري وحبيش بن الحسن.‎
+                            وكان يقارب عطاؤه للنقلة والعلماء والنساخ في كل شهر ألفي دينار ونقل باسمه كتب <note n="52" type="footnote"><p>Sb: كتباً</p></note>
+                            <hi rend="superscript">,</hi> <note n="53" type="footnote"><p>A: add. كثيرة</p></note>
+                             عدة وكان أيضاً ممن نقلت له الكتب ال<rs ref="http://syriaca.org/keyword/greek-language-ancient" change="#change-12" cert="low">يونانية</rs>ةوترجمت باسمه جماعة من أكابر الأطباء مثل يوحنا بن ماسويه وجبريل بن بختيشوع وبختيشوع بن جبريل بن بختيشوع وداؤد بن سرابيون وسلمويه بن بيان واليسع وإسرائيل بن زكريا بن الطيفوري وحبيش بن الحسن.
                         </p>
                     </div>
                 </div>
