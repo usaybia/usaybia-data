@@ -233,6 +233,44 @@
          </ab>
          <ab 
             type="factoid" subtype="relation" 
+            xml:id="factoid-2" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/10-37-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/2144">
+                  <desc><!--  check if ok  like this, see below --><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found 
+                     <persName ref="https://usaybia.net/person/1136">Abū l-Faraj ibn al-Ṭayyib</persName>'s treatise 
+                     <rs ref="https://usaybia.net/work/2643">M. amlāhā fī jawāb mā suʾila ʿanhu min ibṭāl al-iʿtiqād fī l-ajzāʾ allatī lā tanqasim</rs> 
+                     with a note by <persName ref="https://usaybia.net/person/2144">al-Sukkarī</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37"/>
+               <citedRange unit="part">5</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-3" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/10-37-3</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1136">
+                  <desc><!--  check if ok  like this --><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found an autograph of
+                     <persName ref="https://usaybia.net/person/1136">Abū l-Faraj ibn al-Ṭayyib</persName>'s treatise 
+                     <rs ref="https://usaybia.net/work/2643">M. amlāhā fī jawāb mā suʾila ʿanhu min ibṭāl al-iʿtiqād fī l-ajzāʾ allatī lā tanqasim</rs> 
+                     with a note by <persName ref="https://usaybia.net/person/2144">al-Sukkarī</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37"/>
+               <citedRange unit="part">5</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
             xml:id="factoid-1" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/10-58-1</idno>
@@ -282,6 +320,40 @@
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.60"/>
                <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/10-65-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1140">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw writings in the handwriting of
+                     <persName ref="https://usaybia.net/person/1140">Ibn al-Tilmīdh</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.65"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-2" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/10-65-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active=" https://usaybia.net/person/867"
+                  passive="https://usaybia.net/person/1140">
+                  <desc><persName ref=" https://usaybia.net/person/867">al-Ḥaẓīrī</persName> saw poetry in the hand of
+                     <persName ref="https://usaybia.net/person/1140">Ibn al-Tilmīdh</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.65"/>
+               <citedRange unit="part">3</citedRange>
             </bibl>
          </ab>
          <ab 
