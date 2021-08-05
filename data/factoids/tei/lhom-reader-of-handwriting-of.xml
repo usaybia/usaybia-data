@@ -141,6 +141,77 @@
             type="factoid" subtype="relation" 
             xml:id="factoid-1" 
             resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/8-29-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/846">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> copied from a manuscript in
+                     <persName ref="https://usaybia.net/person/846">al-Ḥasan ibn al-ʿAbbās</persName>'s handwriting.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
+               <citedRange unit="part">5</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-2" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/8-29-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/899">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw manuscripts with Greek annotations in 
+                     the handwriting of <persName ref="https://usaybia.net/person/899">Ḥunayn ibn Isḥāq</persName>.
+                     These books also had a seal of caliph <persName ref="https://usaybia.net/person/1497">al-Maʾmūn</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
+               <citedRange unit="part">7</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-3" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/8-29-3</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/600">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw and purchased manuscripts in the handwriting of
+                     <persName ref="https://usaybia.net/person/600">al-Azraq, secretary of Ḥunayn ibn Isḥāq </persName>. 
+                     The text was written in muwallad script on large format paper which was particularly thick and heavy.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
+               <citedRange unit="part">7,21 <!----></citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-4" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/8-29-4</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/899">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> copied from a letter 
+                     (<rs ref="https://usaybia.net/work/3046">R. fīmā aṣābahū min al-miḥan wa-l-shadāʾid</rs>) in the handwriting of
+                     <persName ref="https://usaybia.net/person/899">Ḥunayn ibn Isḥāq</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
+               <citedRange unit="part">14</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/10-37-1</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
@@ -211,6 +282,23 @@
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.60"/>
                <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/11-5-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1073"
+                  passive=" https://usaybia.net/person/392">
+                  <desc><persName ref="https://usaybia.net/person/1073">Ibn al-Nadīm</persName> saw draft copies in
+                     <persName ref=" https://usaybia.net/person/392">Abū Zayd al-Balkhī</persName>'s handwriting.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:11.5"/>
+               <citedRange unit="part">9</citedRange>
             </bibl>
          </ab>
          <ab 
@@ -298,6 +386,23 @@
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.18"/>
                <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/13-61-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1612">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> copied from a manuscript in
+                     <persName ref="https://usaybia.net/person/1612">Muḥammad ibn Aḥmad ibn Ṣāliḥ al-ʿAbdī</persName>'s handwriting.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.61"/>
+               <citedRange unit="part">3</citedRange>
             </bibl>
          </ab>
          <ab 
@@ -427,6 +532,41 @@
             type="factoid" subtype="relation" 
             xml:id="factoid-1" 
             resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-1-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/765">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> mentions a copy of 
+                     <rs ref="https://usaybia.net/work/985">K. al-qiyās al-ṣaghīr</rs>
+                     in the handwriting of <persName ref="https://usaybia.net/person/765">al-Fārābī, Abū Naṣr</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.1"/>
+               <citedRange unit="part">5</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-11-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1339">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> copied from a manuscript in the handwriting of
+                     <persName ref="https://usaybia.net/person/1339">al-Jilyānī</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.11"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/15-17-1</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
@@ -473,6 +613,93 @@
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.21"/>
                <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-1" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw many books in grammatically correct and beautiful handwriting of
+                     <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-2" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1225"
+                  passive="https://usaybia.net/person/1314">
+                  <desc><persName ref="https://usaybia.net/person/1225">ʿImrān al-Isrāʾīlī</persName> saw thousands of books in small-format copied by
+                     <persName ref="https://usaybia.net/person/1314">Jamāl al-Dīn (Ibn al-Jammālah)</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-3" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/603">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> copied a eulogy from a manuscript in the handwriting of
+                     <persName ref="https://usaybia.net/person/603">al-Badīʿ ʿAbd al-Razzāq ibn Aḥmad ibn al-Khiḍr al-ʿĀmirī</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-4" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1596">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw 
+                     <rs ref="https://usaybia.net/work/1141">K. bustān al-aṭibbāʾ wa-rawḍat al-alibbāʾ</rs> in the handwriting of
+                     <persName ref="https://usaybia.net/person/1596">Muhadhdhab al-Dīn ibn al-Naqqāsh</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">5</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-5" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1314">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa </persName> saw a copy of
+                     <rs ref="https://usaybia.net/work/1142">Al-M. al-Nāsiriyyah fī ḥifẓ al-umūr al-ṣiḥḥiyyah</rs> in the handwriting of 
+                     <persName ref="https://usaybia.net/person/1314">Jamāl al-Dīn (Ibn al-Jammālah)</persName>.</desc>   
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">5</citedRange>
             </bibl>
          </ab>
          <ab 
