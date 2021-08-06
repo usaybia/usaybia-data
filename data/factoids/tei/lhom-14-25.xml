@@ -175,8 +175,8 @@
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
-                        <birth><placeName ref="https://usaybia.net/place/217"/><note type="desc"
-                            >born in <placeName ref="https://usaybia.net/place/121">"Old Cairo"</placeName><!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
+                        <birth><placeName ref="https://usaybia.net/place/217"/><note type="desc">
+                            born in <placeName ref="https://usaybia.net/place/121">"Old Cairo"</placeName><!--at 30° latitude and 55° longitude. According to Usaybia "Giza" --> 
                             <!-- Do we want a seperate place ID for these exact coordinates? Do we need one? 
                                 NL: no don't think so, let's just keep this here as a note for myself -->.</note></birth>
                     </person>
@@ -186,13 +186,13 @@
                     <citedRange unit="part">1</citedRange>
                 </bibl>
             </ab>
-            <div type="factoid" subtype="education" xml:id="factoid-3" resp="#nloehr">
+            <ab type="factoid" subtype="education" xml:id="factoid-3" resp="#nloehr">
                 <idno type="URI">https://usaybia.net/factoid/14-25-3</idno>
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
-                        <education ana="http://usaybia.net/education/medicine"><note type="desc"
-                            > whenʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
+                        <education ana="http://usaybia.net/education/medicine"><note type="desc"> 
+                            whenʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="http://usaybia.net/place/Cairo">capital</placeName> 
                              and studied medicine</note></education>
                     </person>
                 </listPerson>
@@ -206,8 +206,8 @@
                 <listPerson>
                     <person>
                         <persName ref="https://usaybia.net/person/1093"/>
-                        <education ana="http://usaybia.net/education/philosophy"><note type="desc"
-                            > when ʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
+                        <education ana="http://usaybia.net/education/philosophy"><note type="desc"> 
+                            when ʿAlī ibn Riḍwān reached the age of 14 he moved to the<placeName ref="https://usaybia.net/place/121">capital</placeName> 
                             and studied philosophy</note></education>
                     </person>
                 </listPerson>

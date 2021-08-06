@@ -174,7 +174,7 @@
             <listEvent>
                <event>
                   <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> 
-                     travelled from <placeName ref="https://usaybia.net/place/586">Yabrūdī</placeName>
+                     travelled from <placeName ref="https://usaybia.net/place/586">Yabrūd</placeName>
                      to <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.     
                   </desc>
                </event>
@@ -227,9 +227,9 @@
             <idno type="URI">https://usaybia.net/factoid/15-3-6</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/2295"
-                  passive="https://usaybia.net/person/1215">
+                  passive="https://usaybia.net/person/1136">
                   <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> was a student of 
-                     <persName ref='https://usaybia.net/person/1136'>Ibn al-Ṭayyib, Abū l-Faraj ʿAbd Allāh</persName>.</desc>
+                     <persName ref="https://usaybia.net/person/1136">Ibn al-Ṭayyib, Abū l-Faraj ʿAbd Allāh</persName>.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -255,8 +255,7 @@
                <citedRange unit="part">1</citedRange>
             </bibl>
          </ab>
-         <ab 
-            type="factoid" subtype="relation" 
+         <ab type="factoid" subtype="relation" 
             xml:id="factoid-8" 
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/15-3-8</idno>
@@ -394,7 +393,7 @@
          <ab type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/15-3-16</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/2295 https://usaybia.net/person/1176">
+               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/2295 https://usaybia.net/person/255">
                   <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> met
                      the blood-letter <persName ref="https://usaybia.net/person/255">Abū l-Khayr</persName>.</desc>
                </relation>
@@ -407,7 +406,7 @@
          <ab type="factoid" subtype="relation" xml:id="factoid-17" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/15-3-17</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/1176 https://usaybia.net/person/2299">
+               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/2295 https://usaybia.net/person/1093">
                   <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>
                   corresponded on a regulaar basis with
                      <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>.</desc>
