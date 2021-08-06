@@ -187,7 +187,11 @@
             </listRelation>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
-               <citedRange unit="part">7,21 <!----></citedRange>
+               <citedRange unit="part">7</citedRange>
+            </bibl>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:8.29"/>
+               <citedRange unit="part">21</citedRange>
             </bibl>
          </ab>
          <ab 
@@ -208,24 +212,26 @@
                <citedRange unit="part">14</citedRange>
             </bibl>
          </ab>
-         <ab 
-            type="factoid" subtype="relation" 
-            xml:id="factoid-1" 
-            resp="#nloehr">
+         <ab type="factoid" subtype="event" xml:id="factoid-1" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/10-37-1</idno>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
-                  passive="https://usaybia.net/person/1136">
-                  <desc><!--  check if ok  like this --><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found 
+            <listEvent>
+               <event ana="http://syriaca.org/keyword/writing http://syriaca.org/keyword/commentary">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found 
                      <persName ref="https://usaybia.net/person/1136">Abū l-Faraj ibn al-Ṭayyib</persName>'s commentary  
                      <rs ref="https://usaybia.net/work/2620">Tafsīr K. Aghlawqun li-Jālīnūs</rs> which was authorised in his own handwriting
                      in the <placeName ref="https://usaybia.net/place/8">ʿAḍudī Hospital in Baghdad</placeName> on  
                      <choice>
                         <reg><date when="1010-04-28" calendar="#julian">28 April 1010</date></reg>
                         <orig><date when="0400-09-11" calendar="#hijri">11 Ramaḍān in the year 400</date></orig>
-                     </choice>.</desc>
-               </relation>
-            </listRelation>
+                     </choice>.
+                     <listRelation>
+                        <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
+                        passive="https://usaybia.net/person/1136"/>
+                     </listRelation>
+                  </desc>
+               </event>
+            </listEvent>
             <bibl type="urn">
                <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37"/>
                <citedRange unit="part">2</citedRange>
@@ -238,27 +244,9 @@
             <idno type="URI">https://usaybia.net/factoid/10-37-2</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
-                  passive="https://usaybia.net/person/2144">
-                  <desc><!--  check if ok  like this, see below --><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found 
-                     <persName ref="https://usaybia.net/person/1136">Abū l-Faraj ibn al-Ṭayyib</persName>'s treatise 
-                     <rs ref="https://usaybia.net/work/2643">M. amlāhā fī jawāb mā suʾila ʿanhu min ibṭāl al-iʿtiqād fī l-ajzāʾ allatī lā tanqasim</rs> 
-                     with a note by <persName ref="https://usaybia.net/person/2144">al-Sukkarī</persName>.</desc>
-               </relation>
-            </listRelation>
-            <bibl type="urn">
-               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.37"/>
-               <citedRange unit="part">5</citedRange>
-            </bibl>
-         </ab>
-         <ab 
-            type="factoid" subtype="relation" 
-            xml:id="factoid-3" 
-            resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/10-37-3</idno>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
-                  passive="https://usaybia.net/person/1136">
-                  <desc><!--  check if ok  like this --><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found an autograph of
+                  passive="https://usaybia.net/person/1136 https://usaybia.net/person/2144">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> found an autograph of 
                      <persName ref="https://usaybia.net/person/1136">Abū l-Faraj ibn al-Ṭayyib</persName>'s treatise 
                      <rs ref="https://usaybia.net/work/2643">M. amlāhā fī jawāb mā suʾila ʿanhu min ibṭāl al-iʿtiqād fī l-ajzāʾ allatī lā tanqasim</rs> 
                      with a note by <persName ref="https://usaybia.net/person/2144">al-Sukkarī</persName>.</desc>
@@ -313,8 +301,8 @@
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/926"
                   passive="https://usaybia.net/person/254">
                   <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> saw the handwriting of
-                     <persName ref="https://usaybia.net/person/254">Abū l-Khaṭṭāb</persName> on a book he had composed and which was read back to him. It contained many grammatical errors. 
-                     <!-- english syntax ok?-->.</desc>
+                     <persName ref="https://usaybia.net/person/254">Abū l-Khaṭṭāb</persName> on a book he had composed and which was read back to him. 
+                     It contained many grammatical errors.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
@@ -343,7 +331,7 @@
             type="factoid" subtype="relation" 
             xml:id="factoid-2" 
             resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/10-65-1</idno>
+            <idno type="URI">https://usaybia.net/factoid/10-65-2</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active=" https://usaybia.net/person/867"
                   passive="https://usaybia.net/person/1140">
@@ -363,7 +351,7 @@
             <idno type="URI">https://usaybia.net/factoid/11-5-1</idno>
             <listRelation>
                <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1073"
-                  passive=" https://usaybia.net/person/392">
+                  passive="https://usaybia.net/person/392">
                   <desc><persName ref="https://usaybia.net/person/1073">Ibn al-Nadīm</persName> saw draft copies in
                      <persName ref=" https://usaybia.net/person/392">Abū Zayd al-Balkhī</persName>'s handwriting.</desc>
                </relation>
@@ -432,27 +420,13 @@
             resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/13-18-1</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1016"
+               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1016 https://usaybia.net/person/111"
                   passive="https://usaybia.net/person/814">
-                  <desc><!-- check this and nextdesc!! --><persName ref="https://usaybia.net/person/1016">Ibn Juljul</persName> saw <rs ref="https://usaybia.net/work/5002">a note</rs> in the handwriting of
-                     <persName ref="https://usaybia.net/person/814">al-Mustanṣir</persName>.</desc>
-               </relation>
-            </listRelation>
-            <bibl type="urn">
-               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:13.18"/>
-               <citedRange unit="part">1</citedRange>
-            </bibl>
-         </ab>
-         <ab 
-            type="factoid" subtype="relation" 
-            xml:id="factoid-2" 
-            resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/13-18-1</idno>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/reader-of-handwriting-of" active="https://usaybia.net/person/1016"
-                  passive="https://usaybia.net/person/814">
-                  <desc><persName ref="https://usaybia.net/person/111">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī</persName> possessed <rs ref="https://usaybia.net/work/5002">a note</rs> in the handwriting of
-                     <persName ref="https://usaybia.net/person/814">al-Mustanṣir</persName>.</desc>
+                  <desc>
+                     <persName ref="https://usaybia.net/person/111">Abū l-Aṣbagh ʿĪsā ibn Aḥmad al-Rāzī</persName> 
+                     possessed <rs ref="https://usaybia.net/work/5002">a note</rs> in the handwriting of
+                     <persName ref="https://usaybia.net/person/814">al-Mustanṣir</persName>, which 
+                     <persName ref="https://usaybia.net/person/1016">Ibn Juljul</persName> also saw.</desc>
                </relation>
             </listRelation>
             <bibl type="urn">
