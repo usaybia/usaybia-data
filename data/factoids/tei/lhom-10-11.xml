@@ -159,3 +159,19 @@
     </text>
 </TEI>
 -->
+<ab 
+type="factoid" subtype="relation" 
+xml:id="factoid-1" 
+resp="#mtolay">
+<idno type="URI">https://usaybia.net/factoid/10-11</idno>
+<listRelation>
+    <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/961" passive="https://usaybia.net/person/161">
+        <desc><persName ref="https://usaybia.net/person/1967">Abū ʿUthmān Saʿīd ibn Ghālib</persName> served <persName ref="https://usaybia.net/person/1692">al-Muʿtaḍid bi-Allāh</persName></desc>
+    </relation>
+</listRelation>
+<bibl type="urn">
+    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.11"/>
+    <citedRange unit="part">1</citedRange>
+</bibl>
+</ab>
+<ab 
