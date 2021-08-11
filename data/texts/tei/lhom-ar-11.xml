@@ -27,6 +27,9 @@
 					ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html"
 					>Vanessa Birkhahn</editor>
 				<editor role="contributor"
+					ref="https://usaybia.net/documentation/editors.xml#lfroschmeier                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/lukas_froschmeier/index.html"
+					>Lukas Froschmeier</editor>
+				<editor role="contributor"
 					ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
 					>Nadine Löhr</editor>
 				<editor role="contributor"
@@ -179,17 +182,18 @@
 						<p style="direction:rtl; unicode-bidi:embed">
 							<rs ref="https://usaybia.net/person/2189">كان</rs> 
 							نصرانياً وله معرفة جيدة بصناعة الطب ومحاولة لأعمالها وبنى له 
-							سابور ذو الأكتاف <note n="3" type="footnote">
-                                <p>A: <persName ref="https://usaybia.net/person/1933">الاكناف</persName></p>
+							<persName ref="https://usaybia.net/person/1933">سابور ذو الأكتاف</persName> 
+							<note n="3" type="footnote">
+                                <p>A: الاكناف</p>
                             </note>
 							البيع في 
-							<placeName ref="https://usaybia.net/place/218">بلده</placeName>
+							<rs ref="https://usaybia.net/place/218">بلده</rs>
 							 ويقال إن الذي بنى له البيع <note n="4" type="footnote">
                                 <p>AGcR: om. البيع</p>
                             </note>
 							<persName ref="https://usaybia.net/person/618">بهرام جور</persName>
 							. <note n="5" type="footnote">
-                                <p>Gc: om. <persName ref="https://usaybia.net/person/618">جور</persName></p>
+                                <p>Gc: om. جور</p>
                             </note>
 							‬‎
 						</p>
@@ -214,7 +218,9 @@
 							 عالماً بصناعة الطب موسوماً بها <note n="2" type="footnote">
                                 <p>In margin of A: موسوماً بها; R: موثوق بها</p>
                             </note>
-							متميزاً في زمانه فاضلاً في علوم الفرس والهند وإنه هو الذي جلب كتاب كليلة ودمنة من 
+							متميزاً في زمانه فاضلاً في علوم 
+							<placeName ref="https://usaybia.net/place/439">الفرس</placeName>
+							 والهند وإنه هو الذي جلب كتاب كليلة ودمنة من 
 							<placeName ref="https://usaybia.net/place/260">الهند</placeName>
 							 إلى 
 							<persName ref="https://usaybia.net/person/1413">أنوشروان <note n="3" type="footnote">
@@ -232,15 +238,13 @@
 							 <persName ref="https://usaybia.net/person/1604">عبد الله بن المقفع الخطيب</persName>
 							  فارسياً أيضاً وكان كاتب 
 							  <persName ref="https://usaybia.net/person/1689">أبي جعفر المنصور</persName>
-							   وترجم أيضاً من كتب أرسطوطاليس كتاب قاطيغورياس وكتاب باريمينياس وكتاب أنالوطيقيا <note n="4" type="footnote">
+							   وترجم أيضاً من كتب <persName ref="https://usaybia.net/person/565">أرسطوطاليس</persName> كتاب قاطيغورياس وكتاب باريمينياس وكتاب أنالوطيقيا <note n="4" type="footnote">
                                 <p>A: انولوطيقيا</p>
                             </note>
-							وترجم مع ذلك المدخل إلى كتاب المنطق المعروف ب
-							<persName ref="https://usaybia.net/person/565">إيساغوجي</persName>
-							 <persName ref="https://usaybia.net/person/1841">فرفوريوس</persName> 
-							 <placeName ref="https://usaybia.net/place/575">الصوري</placeName> 
-							 وعبارته في الترجمة عبارة سهلة قريبة المأخذ ولا
-							 <persName ref="https://usaybia.net/person/1064">بن المقفع</persName>
+							وترجم مع ذلك المدخل إلى كتاب المنطق المعروف بإيساغوجي
+							 <persName ref="https://usaybia.net/person/1841">فرفوريوس 
+							 <rs ref="https://usaybia.net/place/575">الصوري</rs></persName> 
+							 وعبارته في الترجمة عبارة سهلة قريبة المأخذ ول<persName ref="https://usaybia.net/person/1064">ابن المقفع</persName>
 							  أيضاً تواليف حسان منها رسالته في الأدب والسياسة ومنها رسالته المعروفة <note n="5" type="footnote">
                                 <p>R: المعروف</p>
                             </note>
@@ -270,7 +274,7 @@
 							 <rs ref="https://usaybia.net/person/1085">قال</rs>
 							  وكان ولده <note n="2" type="footnote">
 								<p>A: والده; Gc, R: ولده</p>
-							</note> <persName ref="https://usaybia.net/person/479">علي بن ربّن طبيباً</persName>
+							</note> <persName ref="https://usaybia.net/person/479">علي بن ربّن</persName> طبيباً
 							 <note n="3" type="footnote">
 								<p>Above the line in A: طبيباً</p>
 							</note> مشهوراً انتقل إلى 
@@ -282,12 +286,9 @@
 							   هذا كان له تقدم
 							في [i,309] علم <note n="4" type="footnote">
 								<p>A: om. علم</p>
-							</note> اليهود و
-							<persName ref="https://usaybia.net/person/479">الربّن</persName>
-							 و
-							 <persName ref="https://usaybia.net/person/2643">الربين</persName>
-							  و
-							  <persName ref="https://usaybia.net/person/2644">الرابّ</persName>
+							</note> اليهود والربّن
+							 والربين
+							  والرابّ
 							   أسماء لمقدمي شريعة اليهود وسئل
 							<persName ref="https://usaybia.net/person/275">أبو معشر</persName>
 							 عن مطارح الشعاع فذكرها وساق الحديث إلى أن قال إن المترجمين لنسخ
@@ -336,8 +337,7 @@
 								<p>R: بالحرّة</p>
 							</note> وأدخله 
 							<persName ref="https://usaybia.net/person/1702">المتوكل</persName>
-							 في جملة ندمائه و
-							 <rs ref="https://usaybia.net/person/479">كان</rs>
+							 في جملة ندمائه وكان
 							  بموضع من الأدب وهو معلم
 							<persName ref="https://usaybia.net/person/1919">الرازي</persName> <note n="4" type="footnote">
 								<p>Gc: العين زربي</p>
@@ -345,8 +345,7 @@
 							<placeName ref="https://usaybia.net/place/535">طبرستان</placeName>. </p>
 						<p style="direction:rtl; unicode-bidi:embed">ومن كلامه قال الطبيب الجاهل
 							مستحث الموت.</p>
-						<p style="direction:rtl; unicode-bidi:embed">ولا
-							<persName ref="https://usaybia.net/person/479">بن ربّن الطبري</persName>
+						<p style="direction:rtl; unicode-bidi:embed">ول<persName ref="https://usaybia.net/person/479">ابن ربّن الطبري</persName>
 							 من الكتب:</p>
 						<list>
 							<label style="direction:rtl; unicode-bidi:embed">1.</label>
