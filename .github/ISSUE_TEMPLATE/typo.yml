@@ -30,25 +30,3 @@ body:
       placeholder: Please copy the mistake here with a few words of context.
     validations:
       required: true
-  - type: textarea
-    id: whatShouldBe
-    attributes:
-      label: What _should_ the page say?
-      placeholder: Corrected text
-    validations:
-      required: true
-  - type: dropdown
-    id: acknowledgement
-    attributes:
-      label: Public Acknwoledgement
-      description: Is it okay if we publicly acknowledge your contribution?
-      options:
-        - "Yes"
-        - "No"
-    validations:
-      required: true
-  - type: textarea
-    id: comments
-    attributes:
-      label: Comments
-      description: Your other comments, if any
