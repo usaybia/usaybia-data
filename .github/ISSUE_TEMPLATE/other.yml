@@ -4,4 +4,5 @@ title: ""
 labels: [triage]
 body:
   - type: textarea
-    id: description
+    attributes: 
+      value: "Please describe the issue"

@@ -19,8 +19,7 @@ body:
     id: what-is
     attributes:
       label: What should be corrected on the page?
-      description: Please describe what is inaccurate and why you think it is not accurate.
-      placeholder: Description of inaccuracy
+      placeholder: Please describe what is inaccurate and why you think it is not accurate.
     validations:
       required: true
   - type: textarea
