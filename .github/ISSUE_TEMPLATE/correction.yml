@@ -1,0 +1,63 @@
+name: Correction to an individual record
+description: Let us know about a correction to the content of an individual record (page) on Usaybia.net (something more than just a typo)
+title: "Correction: "
+labels: [correction, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to let us know!
+  - type: input
+    id: uri
+    attributes:
+      label: URI of the page with the mistake
+      description: Please provide the URI of the page where you found the mistake.
+      placeholder: ex. https://usaybia.net/person/1
+    validations:
+      required: true
+  - type: textarea
+    id: what-is
+    attributes:
+      label: What should be corrected on the page?
+      description: Please describe what is inaccurate and why you think it is not accurate.
+      placeholder: Description of inaccuracy
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-be
+    attributes:
+      label: How should it be corrected?
+      placeholder: Please describe how you would suggest correcting the record. If you're unsure, how would you suggest finding more accurate information?
+    validations:
+      required: true
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      description: If possible, please provide a citation for the correct information.
+      placeholder: Author, Title (Publisher, Date), page or entry number
+    validations:
+      required: false
+  - type: input
+    id: citation-url
+    attributes:
+      label: Citation URL
+      description: If possible, please provide a URL for the work cited (such as from WorldCat).
+      placeholder: ex. https://www.worldcat.org/oclc/1137822932
+    validations:
+      required: false
+  - type: dropdown
+    id: acknowledgement
+    attributes:
+      label: Public Acknowledgement
+      description: Is it okay if we publicly acknowledge your contribution using the name or username listed in your GitHub profile?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Your other comments, if any, including further citations as needed
