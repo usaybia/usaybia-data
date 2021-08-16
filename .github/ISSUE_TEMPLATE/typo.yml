@@ -24,14 +24,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-is
+    id: whatIs
     attributes:
       label: What does the page say?
       placeholder: Please copy the mistake here with a few words of context.
     validations:
       required: true
   - type: textarea
-    id: what-should-be
+    id: whatShouldBe
     attributes:
       label: What _should_ the page say?
       placeholder: Corrected text
