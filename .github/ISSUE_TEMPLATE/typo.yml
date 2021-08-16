@@ -15,3 +15,40 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: input
+    id: uri
+    attributes:
+      label: URI of the page with the mistake
+      description: Please provide the URI of the page where you found the mistake.
+      placeholder: ex. https://usaybia.net/person/1
+    validations:
+      required: true
+  - type: textarea
+    id: what-is
+    attributes:
+      label: What does the page say?
+      placeholder: Please copy the mistake here with a few words of context.
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-be
+    attributes:
+      label: What _should_ the page say?
+      placeholder: Corrected text
+    validations:
+      required: true
+  - type: dropdown
+    id: acknowledgement
+    attributes:
+      label: Public Acknwoledgement
+      description: Is it okay if we publicly acknowledge your contribution?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Your other comments, if any
