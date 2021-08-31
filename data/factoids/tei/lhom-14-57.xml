@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+            <title level="m">Wissensgemeinschaften</title>
+            <sponsor ref="https://www.uni-muenchen.de">
+               <orgName>Ludwig Maximilian University of Munich</orgName>
+               (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+            </sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+               <orgName>Institute of Near and Middle Eastern Studies</orgName>
+               (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+            </sponsor>
+            <funder ref="https://www.bmbf.de/">
+               <orgName>German Federal Ministry of Education and Research</orgName>
+               (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+            </funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <respStmt>
+               <resp>Data entry and encoding by</resp>
+               <name xml:id="nloehr" 
+                  ref="https://usaybia.net/documentation/editors.xml#nloehr
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                  >Nadine Löhr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture by</resp>
+               <name xml:id="dschwartz" 
+                  ref="https://syriaca.org/documentation/editors.xml#dschwartz">
+                  Daniel Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Usaybia.net</authority>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                     License.</p>
+               </licence>
+            </availability>
+            <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Sources for the Data in this Born Digital Prosopography</head>
+               <bibl type="primary">
+                  <editor>
+                     <forename>Emilie</forename>
+                     <surname>Savage-Smith</surname>
+                  </editor>
+                  <editor>
+                     <forename>Simon</forename>
+                     <surname>Swain</surname>
+                  </editor>
+                  <editor>
+                     <forename>G. J. H. van</forename>
+                     <surname>Gelder</surname>
+                  </editor>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Ignacio Javier</forename>
+                     <surname>Sánchez Rojo</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>N. Peter</forename>
+                     <surname>Joosse</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Alasdair</forename>
+                     <surname>Watson</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Bruce</forename>
+                     <surname>Inksetter</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Franak</forename>
+                     <surname>Hilloowala</surname>
+                  </respStmt>
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <idno type="Zotero">WVSJMDSV</idno>
+                  <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
+                  <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
+                  <imprint>
+                     <pubPlace>Leiden</pubPlace>
+                     <publisher>Brill</publisher>
+                     <date>2020</date>
+                  </imprint>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
+               <bibl type="urn">
+                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>The prosopographical data in this document was encoded from 
+               <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                  Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                  A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                  of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="calculated">
+                  <catDesc> Used to denote a date calculated by the editor from a regnal year
+                     given in the text. </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <revisionDesc>
+         <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-1</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/keyword/student-of" active="https://usaybia.net/person/572" passive="https://usaybia.net/person/642">
+            <desc>
+                <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> was a student of
+                <persName ref="https://usaybia.net/person/642">Abū Zakariyyā Yaḥyā al-Bayyāsī</persName> in <placeName ref="https://usaybia.net/place/184">Egypt</placeName>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-2</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1477" passive="https://usaybia.net/person/572">
+            <desc>
+                <persName ref="https://usaybia.net/person/">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> served 
+                <persName ref="https://usaybia.net/person/1477">al-Malik al-Masʿūd Aqsīs ibn al-Malik al-Kāmil</persName> who gave him a lot of generous gifts and made him a member of his entourage. Asʿad al-Dīn ibn Abī l-Ḥasan stayed with him a period in <placeName ref="https://usaybia.net/place/590">Yemen</placeName> and served the ruler until his death.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="birthPlace" xml:id="factoid-3" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-3</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/572"></persName>
+            <birth>
+                <placeName ref="https://usaybia.net/place/184"></placeName>
+                <choice>
+                    <reg>
+                        <date calendar="#julian">1174</date>
+                    </reg>
+                    <orig>
+                        <date calendar="#hijri">570</date>
+                    </orig>
+                </choice>
+                <note type="desc">
+                    <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName>
+                    was born on  in
+                    <placeName ref="https://usaybia.net/place/">Egypt</placeName>.
+                </note>
+            </birth>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="event" xml:id="factoid-4" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-4</idno>
+    <listEvent>
+        <event ana="http://syriaca.org/keyword/relationships?">
+            <desc>
+                <persName ref="https://usaybia.net/person/926"></persName>
+                <placeName ref="https://usaybia.net/place/572"></placeName>
+                <choice>
+                    <reg>
+                        <date calendar="#julian"> April 1233</date>
+                    </reg>
+                    <orig>
+                        <date calendar="#hijri">Rajab 630</date>
+                    </orig>
+                </choice>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/relationships" mutual="https://usaybia.net/person/926 https://usaybia.net/person/572"></relation>
+                </listRelation> Ibn Abī Uṣaybiʿah first met Asʿad al-Dīn ibn Abī l-Ḥasan in Rajab 630 in <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.
+            </desc>
+        </event>
+    </listEvent>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-5</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/?" mutual="https://usaybia.net/person/ https://usaybia.net/person/">
+            <desc>
+                <persName ref="https://usaybia.net/person/926"></persName>
+                <persName ref="https://usaybia.net/person/572"></persName>
+            </desc> After their first meeting in Damascus Ibn Abī Uṣaybiʿah met Asʿad al-Dīn ibn Abī l-Ḥasan subsequently in 
+            <placeName ref="https://usaybia.net/place/184">Egypt</placeName> where he was recieved kindly and warmly by him.
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-6" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-6</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/friendship-for" mutual="https://usaybia.net/person/572 https://usaybia.net/person/1945">
+            <desc>
+                <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> had been a friend of 
+                <persName ref="https://usaybia.net/person/1945">Sadīd al-Dīn</persName> for many years.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="deathPlace" xml:id="factoid-7" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-7</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/572"></persName>
+            <death>
+                <placeName ref="https://usaybia.net/place/121"></placeName>
+                <choice>
+                    <reg>
+                        <date calendar="#julian">1237</date>
+                    </reg>
+                    <orig>
+                        <date calendar="#hijri">635</date>
+                    </orig>
+                </choice>
+                <note type="desc">
+                    <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName>
+                    died in the year 653 in
+                    <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
+                    .
+                </note>
+            </death>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-57-8</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/1477" passive="https://usaybia.net/person/572">
+            <desc>
+                <persName ref="https://usaybia.net/person/">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> composed the book <rs ref="what is the work URI" for
+                <persName ref="https://usaybia.net/person1477/">al-Malik al-Masʿūd Aqsīs ibn al-Malik al-Kāmil</persName>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="https://scholarlyeditions.brill.com/reader/urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.57"></ptr>
+        <citedRange unit="part">3</citedRange>
+    </bibl>
+</ab>
