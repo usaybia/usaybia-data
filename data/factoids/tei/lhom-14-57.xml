@@ -139,7 +139,7 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
     <idno type="URI">https://usaybia.net/factoid/14-57-1</idno>
     <listRelation>
-        <relation type="person" ref="http://syriaca.org/keyword/keyword/student-of" active="https://usaybia.net/person/572" passive="https://usaybia.net/person/642">
+        <relation type="person" ref="http://syriaca.org/keyword/keyword/student-of" active="https://usaybia.net/person/642" passive="https://usaybia.net/person/572">
             <desc>
                 <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> was a student of
                 <persName ref="https://usaybia.net/person/642">Abū Zakariyyā Yaḥyā al-Bayyāsī</persName> in <placeName ref="https://usaybia.net/place/184">Egypt</placeName>.
@@ -156,7 +156,7 @@
     <listRelation>
         <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1477" passive="https://usaybia.net/person/572">
             <desc>
-                <persName ref="https://usaybia.net/person/">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> served 
+                <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> served 
                 <persName ref="https://usaybia.net/person/1477">al-Malik al-Masʿūd Aqsīs ibn al-Malik al-Kāmil</persName> who gave him a lot of generous gifts and made him a member of his entourage. Asʿad al-Dīn ibn Abī l-Ḥasan stayed with him a period in <placeName ref="https://usaybia.net/place/590">Yemen</placeName> and served the ruler until his death.
             </desc>
         </relation>
@@ -170,9 +170,9 @@
     <idno type="URI">https://usaybia.net/factoid/14-57-3</idno>
     <listPerson>
         <person>
-            <persName ref="https://usaybia.net/person/572"></persName>
+            <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName>
             <birth>
-                <placeName ref="https://usaybia.net/place/184"></placeName>
+                <placeName ref="https://usaybia.net/place/184">Egypt</placeName>
                 <choice>
                     <reg>
                         <date calendar="#julian">1174</date>
@@ -183,7 +183,7 @@
                 </choice>
                 <note type="desc">
                     <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName>
-                    was born on  in
+                    was born on 570/1174 in
                     <placeName ref="https://usaybia.net/place/">Egypt</placeName>.
                 </note>
             </birth>
@@ -197,16 +197,16 @@
 <ab type="factoid" subtype="event" xml:id="factoid-4" resp="#mtolay">
     <idno type="URI">https://usaybia.net/factoid/14-57-4</idno>
     <listEvent>
-        <event ana="http://syriaca.org/keyword/relationships?">
+        <event ana="http://syriaca.org/keyword/aquintance">
             <desc>
                 <persName ref="https://usaybia.net/person/926"></persName>
                 <placeName ref="https://usaybia.net/place/572"></placeName>
                 <choice>
                     <reg>
-                        <date calendar="#julian"> April 1233</date>
+                        <date when"1233-04" calendar="#julian"> April 1233</date>
                     </reg>
                     <orig>
-                        <date calendar="#hijri">Rajab 630</date>
+                        <date when"630-07" calendar="#hijri">Rajab 630</date>
                     </orig>
                 </choice>
                 <listRelation>
@@ -223,10 +223,10 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
     <idno type="URI">https://usaybia.net/factoid/14-57-5</idno>
     <listRelation>
-        <relation type="person" ref="http://syriaca.org/keyword/?" mutual="https://usaybia.net/person/ https://usaybia.net/person/">
+        <relation type="person" ref="http://syriaca.org/keyword/relationhsips" mutual="https://usaybia.net/person/582 https://usaybia.net/person/926">
             <desc>
-                <persName ref="https://usaybia.net/person/926"></persName>
-                <persName ref="https://usaybia.net/person/572"></persName>
+                <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName>
+                <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName>
             </desc> After their first meeting in Damascus Ibn Abī Uṣaybiʿah met Asʿad al-Dīn ibn Abī l-Ḥasan subsequently in 
             <placeName ref="https://usaybia.net/place/184">Egypt</placeName> where he was recieved kindly and warmly by him.
         </relation>
@@ -260,10 +260,10 @@
                 <placeName ref="https://usaybia.net/place/121"></placeName>
                 <choice>
                     <reg>
-                        <date calendar="#julian">1237</date>
+                        <date when"1237" calendar="#julian">1237</date>
                     </reg>
                     <orig>
-                        <date calendar="#hijri">635</date>
+                        <date when"635" calendar="#hijri">635</date>
                     </orig>
                 </choice>
                 <note type="desc">
@@ -285,7 +285,7 @@
     <listRelation>
         <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/1477" passive="https://usaybia.net/person/572">
             <desc>
-                <persName ref="https://usaybia.net/person/">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> composed the book <rs ref="what is the work URI" for
+                <persName ref="https://usaybia.net/person/572">Asʿad al-Dīn ibn Abī l-Ḥasan</persName> composed the book <rs ref=*/no URI made yet*/ Nawādir al-alibbāʾ fī imtiḥān al-aṭibbāʾ </rs> for
                 <persName ref="https://usaybia.net/person1477/">al-Malik al-Masʿūd Aqsīs ibn al-Malik al-Kāmil</persName>.
             </desc>
         </relation>

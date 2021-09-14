@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+            <title level="m">Wissensgemeinschaften</title>
+            <sponsor ref="https://www.uni-muenchen.de">
+               <orgName>Ludwig Maximilian University of Munich</orgName>
+               (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+            </sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+               <orgName>Institute of Near and Middle Eastern Studies</orgName>
+               (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+            </sponsor>
+            <funder ref="https://www.bmbf.de/">
+               <orgName>German Federal Ministry of Education and Research</orgName>
+               (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+            </funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <respStmt>
+               <resp>Data entry and encoding by</resp>
+               <name xml:id="nloehr" 
+                  ref="https://usaybia.net/documentation/editors.xml#nloehr
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                  >Nadine Löhr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture by</resp>
+               <name xml:id="dschwartz" 
+                  ref="https://syriaca.org/documentation/editors.xml#dschwartz">
+                  Daniel Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Usaybia.net</authority>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                     License.</p>
+               </licence>
+            </availability>
+            <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Sources for the Data in this Born Digital Prosopography</head>
+               <bibl type="primary">
+                  <editor>
+                     <forename>Emilie</forename>
+                     <surname>Savage-Smith</surname>
+                  </editor>
+                  <editor>
+                     <forename>Simon</forename>
+                     <surname>Swain</surname>
+                  </editor>
+                  <editor>
+                     <forename>G. J. H. van</forename>
+                     <surname>Gelder</surname>
+                  </editor>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Ignacio Javier</forename>
+                     <surname>Sánchez Rojo</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>N. Peter</forename>
+                     <surname>Joosse</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Alasdair</forename>
+                     <surname>Watson</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Bruce</forename>
+                     <surname>Inksetter</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Franak</forename>
+                     <surname>Hilloowala</surname>
+                  </respStmt>
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <idno type="Zotero">WVSJMDSV</idno>
+                  <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
+                  <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
+                  <imprint>
+                     <pubPlace>Leiden</pubPlace>
+                     <publisher>Brill</publisher>
+                     <date>2020</date>
+                  </imprint>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
+               <bibl type="urn">
+                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>The prosopographical data in this document was encoded from 
+               <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                  Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                  A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                  of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="calculated">
+                  <catDesc> Used to denote a date calculated by the editor from a regnal year
+                     given in the text. </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <revisionDesc>
+         <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<ab type="factoid" subtype="citizenship" xml:id="factoid-1" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-1</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/1912"></persName>
+            <nationality>
+                <placeName ref="https://usaybia.net/place/282"></placeName>
+                <note type="desc"><persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> was a Christain from <placeName ref="https://usaybia.net/place/282">Jerusalem</placeName>.</note>
+            </nationality>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-2</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> studied under
+                <persName ref="https://usaybia.net/person/2183">Taqī l-Dīn Khazʿal ibn ʿAskar ibn Khalīl</persName> who was also the teacher of <rs ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</rs>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-3" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> was the most distinguished student of 
+                <persName ref="https://usaybia.net/person/1910">Rashīd al-Dīn ʿAlī ibn Khalīfah</persName> who was the paternal uncle of <rs ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</rs>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-4" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-4</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1594" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> studied under 
+                <persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName> who was aswell the teacher of <rs ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</rs>. 
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1472" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> served king
+                <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> 
+                residing in <placename ref="https://usaybia.net/place/121">Cairo</placename>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-6" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/URI MISSING?" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> served the son of <rs ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</rs> 
+                <persName ref="https://usaybia.net/person/URI MISSING?">al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb ibn al-Malik al-Kāmil</persName> for approixmately nine years.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-7" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-7</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/physician-of" active="https://usaybia.net/person/URI MISSING?" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> wanted to treat king 
+                <persName ref="https://usaybia.net/person/URI MISSING?">al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb ibn al-Malik al-Kāmil</persName> but experienced just before the consulation a partial paralysis. 
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-8</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/enmity-for" mutual="https://usaybia.net/person/1912 https://usaybia.net/person/1911">
+            <desc>
+               Between <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName>
+                <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> who both served king al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb ibn al-Malik al-Kāmil, was rivalty and enmity for each other.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="deathPlace" xml:id="factoid-9" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-9</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/1912"></persName>
+            <death>
+                <placeName ref="https://usaybia.net/place/149"></placeName>
+                <choice>
+                    <reg>
+                        <date when"1249-01" calendar="julian">1249</date>
+                    </reg>
+                    <orig>
+                        <date when="646-09" calendar="#hijri">646</date>
+                    </orig>
+                </choice>
+                <note type="desc">
+                    <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName>
+                    died a few days after the paralysis on the month of Ramadan 646 in
+                    <placeName ref="https://usaybia.net/place/149">Damascus</placeName>
+                    .
+                </note>
+            </death>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="deathPlace" xml:id="factoid-10" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-10</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/URI MISSING?"></persName>
+            <death>
+                <placeName ref="https://usaybia.net/place/185"></placeName>
+                <choice>
+                    <reg>
+                        <date when="1249-11-23" calendar="julian">1249</date>
+                    </reg>
+                    <orig>
+                        <date when="647-08-15" calendar="#hijri">647</date>
+                    </orig>
+                </choice>
+                <note type="desc">
+                    <persName ref="https://usaybia.net/person/URI MISSING"> Al-Malik al-Ṣāliḥ Najm al-Dīn</persName> died eventually on the causes of his ulceration, which couldn't be treated, on the 15th Shaʿbān 647 in
+                    <placeName ref="https://usaybia.net/place/185">Egypt</placeName> and was despite his power and wealth forgotten shortly after his death
+                    .
+                </note>
+            </death>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">3</citedRange>
+    </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-11" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-56-11</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/URI MISSING?" passive="https://usaybia.net/person/1912">
+            <desc>
+                <persName ref="https://usaybia.net/person/1912">Rashīd al-Dīn Abū Saʿīd</persName> composed the book <rs ref="https://usaybia.net/work/2046">ʿUyūn al-ṭibb</rs> for
+                <persName ref="https://usaybia.net/person/URI MISSING?">al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb</persName>, which includes summaries of medical treatments.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.56"></ptr>
+        <citedRange unit="part">4</citedRange>
+    </bibl>
+</ab>
