@@ -136,115 +136,127 @@
    </teiHeader>
    <text>
       <body>
-<ab type="factoid" subtype="birthPlace" xml:id="factoid-1" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-1</idno>
-   <listPerson>
-      <person>
-         <persName ref="https://usaybia.net/person/1595"></persName>
-         <birth>
-            <placeName ref="https://usaybia.net/place/121"></placeName>
-            <choice>
-               <reg>
-                  <date when="1223" calendar="#julian">1223</date>
-               </reg>
-               <orig>
-                  <date when="620" calendar="#hijri">620</date>
-               </orig>
-            </choice>
-            <note type="desc">
-               <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqah></persName>
-               was born on 620/1223  in
-               <placeName ref="https://usaybia.net/place/121">Cairo</placeName>.
-               .
-            </note>
-         </birth>
-      </person>
-   </listPerson>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">1</citedRange>
-   </bibl>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-51-1</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/338" passive="https://usaybia.net/person/349">
+            <desc>
+                <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName> studied medicine under his brother
+                <persName ref="https://usaybia.net/person/338">Abū Saʿīd ibn Abī Sulaymān</persName>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">1</citedRange>
+    </bibl>
 </ab>
 
-<ab type="factoid" subtype="event" xml:id="factoid-2" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-2</idno>
-   <listEvent>
-      <event ana="http://syriaca.org/keyword/religion">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName>
-            <placeName ref="https://usaybia.net/place/184">Egypt</placeName>
-            <choice>
-               <reg>
-                  <date  notBefore="1260" notAfter="1277" calendar="#julian">1260-1270</date>
-               </reg>
-               <orig>
-                  <date notBefore="658" notAfter="676" calendar="#hijri">658-676</date>
-               </orig>
-            </choice> During the reign of <persname ref=" https://usaybia.net/person/1496">al-Malik al-Ẓāhir Rukn al-Dīn</persname>, Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqah converted to Islam and from then was named Muḥammad. 
-         </desc>
-      </event>
-   </listEvent>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">1</citedRange>
-   </bibl>
-</ab>
-<ab type="factoid" subtype="event" xml:id="factoid-3" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-3</idno>
-   <listEvent>
-      <event ana="http://syriaca.org/keyword/writing">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName>
-            <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
-            <choice>
-               <reg>
-                  <date notBefore="1296-06" notAfter="" calendar="#julian">1296</date>
-               </reg>
-               <orig>
-                  <date when="667-10" calendar="#hijri">667</date>
-               </orig>
-            </choice>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/writing" mutual="https://usaybia.net/person/1595 https://usaybia.net/person/926"></relation>
-               <persname ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persname> wrote a letter to <persname ref=" https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persname> and told him that he found in <placeName ref="https://usaybia.net/place/121">Cairo</placeName> a copy of his book <rs></rs> which he greatly complimented and made it part of his library. Ibn Abī Uṣaybiʿah answered him with a poem.
-            </listRelation>
-         </desc>
-      </event>
-   </listEvent>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">2</citedRange>
-   </bibl>
+<ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-51-2</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/" passive="https://usaybia.net/person/349">
+            <desc>
+                <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName> served 
+                <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> and his father
+                <persname ref="https://usaybia.net/person/1451">al-Malik al-ʿĀdil</persname> who gave him gifts and compliments for his therapeutical skills.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
 </ab>
 
-<ab type="factoid" subtype="relation" xml:id="factoid-4" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-4</idno>
-   <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1595">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName> studied under his father
-            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> the medical art.
-         </desc>
-      </relation>
-   </listRelation>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">3</citedRange>
-   </bibl>
+<ab type="factoid" subtype="residence" xml:id="factoid-3" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-51-3</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName>
+            <residence>
+                <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
+                <note type="desc">Abū Shākir ibn Abī Sulaymān lived together with al-Malik al-Kāmil in the palace in Cairo.</note>
+            </residence>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
+</ab>
+
+<ab type="factoid" subtype="event" xml:id="factoid-4" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-52-4</idno>
+    <listEvent>
+        <event ana="http://syriaca.org/keyword/friendship-for">
+            <desc>
+                <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName>
+                <placeName ref="https://usaybia.net/place/93">Bayn al-Qaṣrayn</placeName>
+                <choice>
+                    <reg>
+                        <date  notAfter="1216" calendar="#julian">1216</date>
+                    </reg>
+                    <orig>
+                        <date notAfter="613" calendar="#hijri">613</date>
+                    </orig>
+                </choice>
+                <listRelation>
+                    <relation type="person" ref="http://syriaca.org/keyword/friendship-for" mutual="https://usaybia.net/person/349 https://usaybia.net/person/1472"></relation>
+                </listRelation>
+                When Abū Shākir ibn Abī Sulaymān came to Bayn al-Qaṣrayn, where the ruler al-Malik al-Kāmil waited for him, they both rode together to the vizierate talking all way.
+            </desc>
+        </event>
+    </listEvent>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">2</citedRange>
+    </bibl>
 </ab>
 
 <ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-5</idno>
-   <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1496" passive="https://usaybia.net/person/1595">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad</persName> adviced 
-            <persName ref="https://usaybia.net/person/1496">al-Malik al-Ẓāhir Baybars al-Malikī al-Ṣāliḥī </persName> who gave him in return a high position and respect.
-         </desc>
-      </relation>
-   </listRelation>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">3</citedRange>
-   </bibl>
+    <idno type="URI">https://usaybia.net/factoid/14-51-5</idno>
+    <listRelation>
+        <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/349" passive="https://usaybia.net/person/">
+            <desc>
+                <persName ref="https://usaybia.net/person/403">Al-ʿAḍud ibn Munqidh</persName> composed lines fpr
+                <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName>.
+            </desc>
+        </relation>
+    </listRelation>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">3</citedRange>
+    </bibl>
+</ab>
+
+<ab type="factoid" subtype="deathPlace" xml:id="factoid-6" resp="#mtolay">
+    <idno type="URI">https://usaybia.net/factoid/14-51-6</idno>
+    <listPerson>
+        <person>
+            <persName ref="https://usaybia.net/person/349"></persName>
+            <death>
+                <placeName ref="https://usaybia.net/place/300"></placeName>
+                <choice>
+                    <reg>
+                        <date when="1216" calendar="#julian">1216</date>
+                    </reg>
+                    <orig>
+                        <date when="613" calendar="#hijri">613</date>
+                    </orig>
+                </choice>
+                <note type="desc">
+                    <persName ref="https://usaybia.net/person/"></persName>
+                    died in 1216  and was buried in the monastery in
+                    <placeName ref="https://usaybia.net/place/300">al-Khandaq</placeName>
+                    .
+                </note>
+            </death>
+        </person>
+    </listPerson>
+    <bibl type="urn">
+        <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.51"></ptr>
+        <citedRange unit="part">4</citedRange>
+    </bibl>
 </ab>

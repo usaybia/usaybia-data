@@ -136,115 +136,127 @@
    </teiHeader>
    <text>
       <body>
-<ab type="factoid" subtype="birthPlace" xml:id="factoid-1" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-1</idno>
+<ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-47-1</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/family-relationships" mutual="https://usaybia.net/person/1726 https://usaybia.net/person/1170">
+         <desc>
+            <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> is from the mother-side related to 
+            <persName ref="https://usaybia.net/person/1170">Ibn al-Zubayr</persName> who was a renowned poet in <placename ref="https://usaybia.net/place/184">Egypt</placename>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.47"></ptr>
+      <citedRange unit="part">1</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="birthPlace" xml:id="factoid-2" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-47-2</idno>
    <listPerson>
       <person>
-         <persName ref="https://usaybia.net/person/1595"></persName>
+         <persName ref="https://usaybia.net/person/1726"></persName>
          <birth>
-            <placeName ref="https://usaybia.net/place/121"></placeName>
             <choice>
                <reg>
-                  <date when="1223" calendar="#julian">1223</date>
+                  <date when="" calendar="#julian">1160 or 1161</date>
                </reg>
                <orig>
-                  <date when="620" calendar="#hijri">620</date>
+                  <date when="" calendar="#hijri">555 or 556</date>
                </orig>
             </choice>
             <note type="desc">
-               <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqah></persName>
-               was born on 620/1223  in
-               <placeName ref="https://usaybia.net/place/121">Cairo</placeName>.
-               .
+               <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName>
+               was born either in the year 1160 or 1161.
             </note>
          </birth>
       </person>
    </listPerson>
    <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">1</citedRange>
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:"></ptr>
+      <citedRange unit="part"></citedRange>
    </bibl>
 </ab>
 
-<ab type="factoid" subtype="event" xml:id="factoid-2" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-2</idno>
-   <listEvent>
-      <event ana="http://syriaca.org/keyword/religion">
+<ab type="factoid" subtype="relation" xml:id="factoid-3" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-48-3</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1717" passive="https://usaybia.net/person/1726">
          <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName>
-            <placeName ref="https://usaybia.net/place/184">Egypt</placeName>
-            <choice>
-               <reg>
-                  <date  notBefore="1260" notAfter="1277" calendar="#julian">1260-1270</date>
-               </reg>
-               <orig>
-                  <date notBefore="658" notAfter="676" calendar="#hijri">658-676</date>
-               </orig>
-            </choice> During the reign of <persname ref=" https://usaybia.net/person/1496">al-Malik al-Ẓāhir Rukn al-Dīn</persname>, Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqah converted to Islam and from then was named Muḥammad. 
+            <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> studied medicine under
+            <persName ref="https://usaybia.net/person/1717">Ibn Shūʿah</persName>.
          </desc>
-      </event>
-   </listEvent>
+      </relation>
+   </listRelation>
    <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">1</citedRange>
-   </bibl>
-</ab>
-<ab type="factoid" subtype="event" xml:id="factoid-3" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-3</idno>
-   <listEvent>
-      <event ana="http://syriaca.org/keyword/writing">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName>
-            <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
-            <choice>
-               <reg>
-                  <date notBefore="1296-06" notAfter="" calendar="#julian">1296</date>
-               </reg>
-               <orig>
-                  <date when="667-10" calendar="#hijri">667</date>
-               </orig>
-            </choice>
-            <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/writing" mutual="https://usaybia.net/person/1595 https://usaybia.net/person/926"></relation>
-               <persname ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persname> wrote a letter to <persname ref=" https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persname> and told him that he found in <placeName ref="https://usaybia.net/place/121">Cairo</placeName> a copy of his book <rs></rs> which he greatly complimented and made it part of his library. Ibn Abī Uṣaybiʿah answered him with a poem.
-            </listRelation>
-         </desc>
-      </event>
-   </listEvent>
-   <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.47"></ptr>
       <citedRange unit="part">2</citedRange>
    </bibl>
 </ab>
 
 <ab type="factoid" subtype="relation" xml:id="factoid-4" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-4</idno>
+   <idno type="URI">https://usaybia.net/factoid/14-47-4</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1595">
+      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/2078" passive="https://usaybia.net/person/1726">
          <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad ibn Abī Ḥulayqa</persName> studied under his father
-            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> the medical art.
+            <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> studied then under
+            <persName ref="https://usaybia.net/person/2078">al-Sadīd Raʾis al-Ṭibb </persName>.
          </desc>
       </relation>
    </listRelation>
    <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">3</citedRange>
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.47"></ptr>
+      <citedRange unit="part">2</citedRange>
    </bibl>
 </ab>
 
-<ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
-   <idno type="URI">https://usaybia.net/factoid/14-55-5</idno>
-   <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1496" passive="https://usaybia.net/person/1595">
-         <desc>
-            <persName ref="https://usaybia.net/person/1595">Muhadhdhab al-Dīn Abū Saʿīd Muḥammad</persName> adviced 
-            <persName ref="https://usaybia.net/person/1496">al-Malik al-Ẓāhir Baybars al-Malikī al-Ṣāliḥī </persName> who gave him in return a high position and respect.
-         </desc>
-      </relation>
-   </listRelation>
+<ab type="factoid" subtype="residence" xml:id="factoid-5" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-47-5</idno>
+   <listPerson>
+      <person>
+         <persName ref="https://usaybia.net/person/1726"></persName>
+         <occupation ana="http://syriaca.org/keyword/occupations">
+            <note type="desc">
+               <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> was appointed from <persName ref="https://usaybia.net/person/1451">al-Malik al-ʿĀdil</persName> 
+               as chief physician. He was known for his treatments of eye alignments in the 
+               <placename ref="https://usaybia.net/place/416">Nāṣirī Hospital</placename>.
+            </note>
+         </occupation>
+      </person>
+   </listPerson>
    <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.55"></ptr>
-      <citedRange unit="part">3</citedRange>
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.47"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="deathPlace" xml:id="factoid-6" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-47-6</idno>
+   <listPerson>
+      <person>
+         <persName ref="https://usaybia.net/person/1726"></persName>
+         <death>
+            <placeName ref="https://usaybia.net/place/121"></placeName>
+            <choice>
+               <reg>
+                  <date notBefore="1222" notAfter="1242" calendar="#julian">1223-1242</date>
+               </reg>
+               <orig>
+                  <date notBefore="620" notAfter="640" calendar="#hijri">630's</date>
+               </orig>
+            </choice>
+            <note type="desc">
+               <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName>
+               died between the years 1223 to 1242  in
+               <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
+               .
+            </note>
+         </death>
+      </person>
+   </listPerson>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.47"></ptr>
+      <citedRange unit="part">2</citedRange>
    </bibl>
 </ab>
