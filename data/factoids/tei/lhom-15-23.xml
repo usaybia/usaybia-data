@@ -130,12 +130,137 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="factoid" subtype="residence" xml:id="factoid-1" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-1</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                   <education ana="https://syriaca.org/keyword/education https://syriaca.org/keyword/philosophy http://syriaca.org/keyword/linguistics 
+                   http://syriaca.org/keyword/medicine http://syriaca.org/keyword/grammar http://syriaca.org/keyword/literature http://syriaca.org/keyword/lexicography">
+                     <note type="desc"><!--> add info <!-->
+                        <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                     </note>
+                  </education>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"></ptr>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-2" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1070"
+                  passive="https://usaybia.net/person/1409">
+                  <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> was a student of 
+                     <persName ref="https://usaybia.net/person/1409">al-Kindī al-Naḥwī</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+          <ab type="factoid" subtype="birthPlace" xml:id="factoid-3" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+                <listPerson>
+                    <person>
+                        <persName ref="https://usaybia.net/person/1070"/>
+                        <birth><placeName ref="https://usaybia.net/place/217"/><note type="desc">
+                        <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> was
+                            born in <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.</note></birth>
+                    </person>
+                </listPerson>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </ab>
+              <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-4" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-4</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1070"
+                  passive="https://usaybia.net/person/1596">
+                  <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> was a student of 
+                     <persName ref="https://usaybia.net/person/1596">Muhadhdhab al-Dīn ibn al-Naqqāsh</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+          </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/15-23-5</idno>
+                <listRelation>
+                    <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/1981 https://usaybia.net/person/1070">
+                        <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> was 
+                            <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName>'s physician and chamberlain.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </ab>
+            <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-6" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-6</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1982"
+                  passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                     served  <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName> 
+                     who admired the phisician and granted him many gifts. Ibn al-Muṭrān took also care of Saladin's household
+                     and traveled with him.
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <!--><ab type="factoid" subtype="event" xml:id="factoid-7" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-7</idno>
+            <listEvent>
+               <event ana="http://syriaca.org/keyword/islam http://syriaca.org/keyword/conversion-to">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                     converted during the reign of his patron 
+                     <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName>
+                     (<choice>
+                        <reg>
+                           <date notBefore="1171" notAfter="03-04-1193" calendar="#julian"> 1171 - 4 March 1193</date>
+                        </reg>
+                        <orig>
+                           <date notBefore="567" notAfter="02-27-589" calendar="#hijri"> Jumadā I 567 - 27 Ṣafar 589 </date>
+                        </orig>
+                     </choice>)
+                     from <state ana="http://syriaca.org/keyword/christianity">Christianity</state> to <state ana="http://syriaca.org/keyword/islam">Islam</state>.
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"></ptr>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab><!-->
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-1"
+             xml:id="factoid-2"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-1</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -154,9 +279,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-2"
+             xml:id="factoid-3"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -175,9 +300,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-3"
+             xml:id="factoid-4"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-4</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -196,9 +321,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-4"
+             xml:id="factoid-5"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-5</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -218,9 +343,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-5"
+             xml:id="factoid-6"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-6</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
