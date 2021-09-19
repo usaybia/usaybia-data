@@ -218,32 +218,7 @@
                     <citedRange unit="part">2</citedRange>
                 </bibl>
             </ab>
-            <ab 
-                type="factoid" subtype="event" 
-                xml:id="factoid-8" 
-                resp="#nloehr">
-                <idno type="URI">https://usaybia.net/factoid/10-38-8</idno>
-                <listEvent>
-                    <event>
-                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> arrived in <placeName ref="https://usaybia.net/place/209">Fustat</placeName>
-                            to meet with <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>
-                            in
-                            <choice>
-                                <reg><date when="1049-11" calendar="#julian">November 1049</date></reg>
-                                <orig><date when="0441-06" calendar="#hijri">Jumādā II in the year 441</date></orig>
-                            </choice>.
-                        <listRelation>
-                            <relation type="person" ref="http://syriaca.org/keyword/serious-intimate-relationship-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093"/>
-                        </listRelation>
-                        </desc>
-                    </event>
-                </listEvent>
-                <bibl type="urn">
-                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
-                    <citedRange unit="part">3</citedRange>
-                </bibl>
-            </ab>
-            <ab 
+             <ab 
                 type="factoid" subtype="relation" 
                 xml:id="factoid-6" 
                 resp="#nloehr">
@@ -283,6 +258,32 @@
                     <citedRange unit="part">4</citedRange>
                 </bibl>
             </ab>
+            <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-8" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/10-38-8</idno>
+                <listEvent>
+                    <event>
+                        <desc><persName ref="https://usaybia.net/person/961">Ibn Buṭlān</persName> arrived in <placeName ref="https://usaybia.net/place/209">Fustat</placeName>
+                            to meet with <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>
+                            in
+                            <choice>
+                                <reg><date when="1049-11" calendar="#julian">November 1049</date></reg>
+                                <orig><date when="0441-06" calendar="#hijri">Jumādā II in the year 441</date></orig>
+                            </choice>.
+                        <listRelation>
+                            <relation type="person" ref="http://syriaca.org/keyword/serious-intimate-relationship-with" mutual="https://usaybia.net/person/961 https://usaybia.net/person/1093"/>
+                        </listRelation>
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:10.38"/>
+                    <citedRange unit="part">3</citedRange>
+                </bibl>
+            </ab>
+          
           
         </body>
     </text>

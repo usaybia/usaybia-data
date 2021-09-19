@@ -41,7 +41,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Usaybia.net</authority>
-            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-26/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported
@@ -136,7 +136,6 @@
    </teiHeader>
    <text>
       <body>
-         <!-- Here is how the factoid URI and number might work. -->
          <ab 
             type="factoid" subtype="relation" 
             xml:id="factoid-1" 
@@ -326,23 +325,4 @@
       </body>
    </text>
 </TEI>
-<!-- <back>            
-            <listBibl>
-                <head>Works Cited</head>
-                <bibl type="primary" xml:id="bibl798-1">
-                    <title>Lives of the Eastern Saints I</title>
-                    <title>Paul the Mourner</title>
-                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
-                    <editor><persName ref="http://syriaca.org/person/403">E. W. Brooks</persName></editor>
-                    <ptr target="http://syriaca.org/bibl/1409"/>
-                </bibl>
-                <bibl type="primary" xml:id="bibl798-2">
-                    <title>Paul the Mourner</title>
-                    <author><persName ref="http://syriaca.org/person/74">John of Ephesus</persName></author>
-                    <ptr target="http://syriaca.org/work/798"/>
-                </bibl>
-            </listBibl>
-        </back>
-    </text>
-</TEI>
--->
+
