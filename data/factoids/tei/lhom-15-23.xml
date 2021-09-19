@@ -255,12 +255,251 @@
                <citedRange unit="part">1</citedRange>
             </bibl>
          </ab><!-->
+                   </ab>
+            <ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/15-23-8</idno>
+                <listRelation>
+                    <relation ref="snap:ProfessionalRelationship" mutual="https://usaybia.net/person/167 https://usaybia.net/person/1070">
+                        <desc><persName ref="https://usaybia.net/person/167">Abū l-Faraj (al-Naṣrānī)</persName> was 
+                            <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName>'s physician.</desc>
+                    </relation>
+                </listRelation>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+                    <citedRange unit="part">1</citedRange>
+                </bibl>
+            </ab>
+             <ab type="factoid" subtype="relation" xml:id="factoid-9" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-9</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/enmity-for" active="https://usaybia.net/person/1070" passive="https://usaybia.net/person/167">
+                  <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> 
+                  envied <persName ref="https://usaybia.net/person/167">Abū l-Faraj (al-Naṣrānī)</persName> after the Sultan
+                  <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName> gifted him with valuables worth thirty thousand dirhams.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+          <ab type="factoid" subtype="relation" xml:id="factoid-10" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-10</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/388 https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/388">Abū l-Ẓāhir Ismāʿīl</persName> had an intimite relationship with
+                  <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>  whom he knew since he was a student.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+          <ab type="factoid" subtype="relation" xml:id="factoid-11" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-11</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/intimate-relationship-with http://syriaca.org/keyword/friendship-for" mutual="https://usaybia.net/person/1070 https://usaybia.net/person/1334">
+                  <desc><persName ref="https://usaybia.net/person/1334">Jawzah</persName> 
+                  taught her husband <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                  how to behave and put his affairs in order.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+          </ab>
+          <ab type="factoid" subtype="relation" xml:id="factoid-12" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-12</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1495 https://usaybia.net/person/1070 https://usaybia.net/person/1334">
+                  <desc><persName ref="https://usaybia.net/person/1495">al-Malik al-Ẓāhir Ghāzī ibn Yūsuf</persName>
+                  presented <persName ref="https://usaybia.net/person/1334">Jawzah</persName> 
+                  to <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-13" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-13</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/informant-to" active="https://usaybia.net/person/1281" passive="https://usaybia.net/person/1085">
+                  <desc><persName ref="https://usaybia.net/person/1281">Ismāʿīl ibn al-Ṣāliḥ ibn al-Bannāʾ al-Qifṭī</persName>
+                  related information to <persName ref="https://usaybia.net/person/1085">Ibn al-Qifṭī</persName> 
+                  .</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-14" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-14</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/informant-about" active="https://usaybia.net/person/1281" passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1281">Ismāʿīl ibn al-Ṣāliḥ ibn al-Bannāʾ al-Qifṭī</persName>
+                  related information about <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+          <ab type="factoid" subtype="relation" xml:id="factoid-15" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-15</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1281 https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1281">Ismāʿīl ibn al-Ṣāliḥ ibn al-Bannāʾ al-Qifṭī</persName>
+                 was a guest in the house of <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>
+                 in <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+                type="factoid" subtype="event" 
+                xml:id="factoid-16" 
+                resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/15-23-16</idno>
+                <listEvent>
+                    <event>
+                        <desc><<persName ref="https://usaybia.net/person/1281">Ismāʿīl ibn al-Ṣāliḥ ibn al-Bannāʾ al-Qifṭī</persName> travelled from 
+                        <placeName ref="https://usaybia.net/place/48">ʿAydhāb</placeName> to <placeName ref="https://usaybia.net/place/282">Jerusalem</placeName>,
+                            and to <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+                    <citedRange unit="part">2</citedRange>
+                </bibl>
+            </ab>
+            </ab>
+          <ab type="factoid" subtype="relation" xml:id="factoid-17" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-17</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/1281 https://usaybia.net/person/1860">
+                  <desc><persName ref="https://usaybia.net/person/1281">Ismāʿīl ibn al-Ṣāliḥ ibn al-Bannāʾ al-Qifṭī</persName>
+                 asked <<persName ref="https://usaybia.net/person/1860">al-Qāḍī al-Fāḍil ʿAbd al-Raḥīm ibn ʿAlī</persName>
+                 to send a letter of recommendation to <persName ref="https://usaybia.net/person/1981">Ṣalāḥ al-Dīn/Saladin</persName> .</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+           <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-18" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-18</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1126"
+                  passive="https://usaybia.net/person/1070">
+                  <desc> 
+                     <persName ref="https://usaybia.net/person/1126">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb</persName> was a student of
+                     <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+            <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-19" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-19</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/professional-relationship" mutual="https://usaybia.net/person/1126 https://usaybia.net/person/1552">
+                  <desc> 
+                     <persName ref="https://usaybia.net/person/1552">Maymūn al-Qaṣrī</persName> was the first patient of
+                     <persName ref="https://usaybia.net/person/1126">Ibn Siqlāb, Muwaffaq al-Dīn Yaʿqūb</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+              <ab type="factoid" subtype="relation" xml:id="factoid-20" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-20</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/oral-informant-to" active="https://usaybia.net/person/1129" passive="https://usaybia.net/person/926">
+                  <desc><persName ref="https://usaybia.net/person/1129">Ibn al-Suwaydī</persName>
+                  related information to <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+               </ab>
+              <ab type="factoid" subtype="relation" xml:id="factoid-21" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-21</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/oral-informant-about" active="https://usaybia.net/person/1129" passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1129">Ibn al-Suwaydī</persName>
+                  related information about <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+          <ab type="factoid" subtype="event" xml:id="factoid-22" resp="#nloehr">
+                <idno type="URI">https://usaybia.net/factoid/15-23-22</idno>
+                <listEvent>
+                    <event ana="https://usaybia.net/keyword/collector">
+                        <desc> <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName> 
+                            had a huge library which comprised about ten thousand medical and other books.
+                            He also had three copiyists employed which transcribed works for him.
+                            The books were sold after he died.
+                        </desc>
+                    </event>
+                </listEvent>
+                <bibl type="urn">
+                    <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+                    <citedRange unit="part">4</citedRange>
+                </bibl>
+            </ab>
+             <ab type="factoid" subtype="occupation" xml:id="factoid-23" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-23</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/1057"/>
+                  <occupation ana="http://syriaca.org/keyword/amanuensis">
+                     <note><persName ref="https://usaybia.net/person/1011">Ibn al-Jammālah</persName>
+                        was a copyist in the service of <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.
+                     </note> 
+                  </occupation>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.26"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-2"
+             xml:id="factoid-24"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-2</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-24</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -279,9 +518,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-3"
+             xml:id="factoid-25"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-3</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-25</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -297,12 +536,55 @@
                <citedRange unit="part">4</citedRange>
             </bibl>
          </ab>
+           <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-26" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-26</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1594"
+                  passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName> 
+                  was the best student of <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
+              <ab type="factoid" subtype="relation" xml:id="factoid-27" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-27</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/oral-informant-to" active="https://usaybia.net/person/1594" passive="https://usaybia.net/person/926">
+                  <desc><persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName>
+                  related information to <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
+              <ab type="factoid" subtype="relation" xml:id="factoid-27" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-23-27</idno>
+            <listRelation>
+               <relation type="person" ref="http://usaybia.org/keyword/oral-informant-about" active="https://usaybia.net/person/1594" passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName>
+                  related information about <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.23"/>
+               <citedRange unit="part">4</citedRange>
+            </bibl>
+         </ab>
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-4"
+             xml:id="factoid-28"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-4</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-28</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -321,9 +603,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-5"
+             xml:id="factoid-29"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-5</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-29</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
@@ -343,9 +625,9 @@
          <ab xmlns:srophe="https://srophe.app/"
              type="factoid"
              subtype="relation"
-             xml:id="factoid-6"
+             xml:id="factoid-30"
              resp="#nloehr">
-            <idno type="URI">https://usaybia.net/factoid/15-23-6</idno>
+            <idno type="URI">https://usaybia.net/factoid/15-23-30</idno>
             <listRelation>
                <relation type="person"
                          ref="http://syriaca.org/keyword/reader-of-handwriting-of"
