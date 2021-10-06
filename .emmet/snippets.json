@@ -1,7 +1,7 @@
 {
   "xml": {
     "snippets": {
-      "help": "c>{Use any of the following abbreviations and then press TAB}+{(You must uncomment this or copy it outside the comment)}+{=========================================================}+{date: dt}+{factoid with birth place: factbp}+{factoid with citizenship: factcn}+{factoid with death place: factdp}+{factoid with education: facted}+{factoid with event: facte}+{factoid with event and active-passive relation: factera}+{factoid with event and mutual relation: facterm}+{factoid with occupation: factoc}+{factoid with relation (active-passive): factra}+{factoid with relation (mutual): factrm}+{factoid with residence: factre}+{factoid with state: factst}+{factoid with socio-economic status: factss}+{factoid with trait: facttt}+{person name (persName): prnm}+{place name (placeName): plnm}",
+      "help": "c>{Use any of the following abbreviations and then press TAB}+{(You must uncomment this or copy it outside the comment)}+{=========================================================}+{date: dt}+{factoid with birth place: factbp}+{factoid with citizenship: factcn}+{factoid with death place: factdp}+{factoid with education: facted}+{factoid with event: facte}+{factoid with event and active-passive relation: factera}+{factoid with event and mutual relation: facterm}+{factoid with occupation: factoc}+{factoid with relation (active-passive): factra}+{factoid with relation (mutual): factrm}+{factoid with residence: factre}+{factoid with mental state: factst}+{factoid with socio-economic status: factss}+{factoid with physical trait: facttt}+{person name (persName): prnm}+{place name (placeName): plnm}",
       "abf":"ab[type='factoid' subtype='${1}' xml:id='factoid-${2}' resp='#${3:nloehr}']",
       "abfr":"ab[type='factoid' subtype='relation' xml:id='factoid-${2}' resp='#${3:nloehr}']",
       "abfe":"ab[type='factoid' subtype='event' xml:id='factoid-${2}' resp='#${3:nloehr}']",
@@ -9,6 +9,11 @@
       "abfdp":"ab[type='factoid' subtype='deathPlace' xml:id='factoid-${2}' resp='#${3:nloehr}']",
       "abfcn":"ab[type='factoid' subtype='citizenship' xml:id='factoid-${2}' resp='#${3:nloehr}']",
       "abfre":"ab[type='factoid' subtype='residence' xml:id='factoid-${2}' resp='#${3:nloehr}']",
+      "abfoc":"ab[type='factoid' subtype='occupation' xml:id='factoid-${2}' resp='#${3:nloehr}']",
+      "abfed":"ab[type='factoid' subtype='education' xml:id='factoid-${2}' resp='#${3:nloehr}']",
+      "abfst":"ab[type='factoid' subtype='mentalState' xml:id='factoid-${2}' resp='#${3:nloehr}']",
+      "abftt":"ab[type='factoid' subtype='physicalTrait' xml:id='factoid-${2}' resp='#${3:nloehr}']",
+      "abfss":"ab[type='factoid' subtype='socecStatus' xml:id='factoid-${2}' resp='#${3:nloehr}']",
       "id":"idno[type='URI']{https://usaybia.net/factoid/${1}}",
       "prnm":"persName[ref='https://usaybia.net/person/${1}']",
       "plnm":"placeName[ref='https://usaybia.net/place/${1}']",
@@ -64,11 +69,11 @@
       "factdp":"abfdp>id+lpdh+bbl",
       "factcn":"abfcn>id+lpcn+bbl",
       "factre":"abfre>id+lpre+bbl",
-      "factoc":"abfre>id+lpoc+bbl",
-      "facted":"abfre>id+lped+bbl",
-      "factst":"abfre>id+lpst+bbl",
-      "facttt":"abfre>id+lptt+bbl",
-      "factss":"abfre>id+lpoc+bbl",
+      "factoc":"abfoc>id+lpoc+bbl",
+      "facted":"abfed>id+lped+bbl",
+      "factst":"abfst>id+lpst+bbl",
+      "facttt":"abftt>id+lptt+bbl",
+      "factss":"abfss>id+lpoc+bbl",
       "ch":"change[xml:id='change-${1}' who='#${2}' when='${3:2021}-${4}-${5}']>{${6}}"
     }
   }
