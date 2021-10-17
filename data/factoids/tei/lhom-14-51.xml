@@ -21,13 +21,13 @@
                (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
             </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>Data entry and encoding by</resp>
-               <name xml:id="nloehr" 
+               <name xml:id="mtolay" 
                   ref="https://usaybia.net/documentation/editors.xml#nloehr
                   https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
-                  >Nadine Löhr</name>
+                  >Malinda Tolay</name>
             </respStmt>
             <respStmt>
                <resp>Data architecture by</resp>
@@ -41,7 +41,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Usaybia.net</authority>
-            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-51/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported
@@ -177,7 +177,7 @@
             <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName>
             <residence>
                 <placeName ref="https://usaybia.net/place/121">Cairo</placeName>
-                <note type="desc">Abū Shākir ibn Abī Sulaymān lived together with al-Malik al-Kāmil in the palace in Cairo.</note>
+                <note type="desc">Abū Shākir ibn Abī Sulaymān lived together with al-Malik al-Kāmil in the palace in Cairo.</note> Müssen bei desc auch immer die Städtenamen nohchmal mit URI geschrieben werden? 
             </residence>
         </person>
     </listPerson>
@@ -220,7 +220,7 @@
     <listRelation>
         <relation type="person" ref="http://syriaca.org/keyword/addressee-of" active="https://usaybia.net/person/349" passive="https://usaybia.net/person/">
             <desc>
-                <persName ref="https://usaybia.net/person/403">Al-ʿAḍud ibn Munqidh</persName> composed lines fpr
+                <persName ref="https://usaybia.net/person/403">Al-ʿAḍud ibn Munqidh</persName> composed lines for
                 <persName ref="https://usaybia.net/person/349">Abū Shākir ibn Abī Sulaymān</persName>.
             </desc>
         </relation>

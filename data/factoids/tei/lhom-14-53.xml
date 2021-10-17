@@ -21,13 +21,13 @@
                (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
             </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>Data entry and encoding by</resp>
-               <name xml:id="nloehr" 
-                  ref="https://usaybia.net/documentation/editors.xml#nloehr
-                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
-                  >Nadine Löhr</name>
+               <name xml:id="mtolay" 
+                  ref="https://usaybia.net/documentation/editors.xml#mtolay
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/malinda_tolay/index.html"
+                  >Malinda Tolay</name>
             </respStmt>
             <respStmt>
                <resp>Data architecture by</resp>
@@ -41,7 +41,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Usaybia.net</authority>
-            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-53/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported
@@ -136,16 +136,17 @@
    </teiHeader>
    <text>
       <body>
-<ab type="factoid" subtype="birthPlace" xml:id="factoid-1" resp="#mtolay">
+
+<ab type="factoid" subtype="birthDate" xml:id="factoid-1" resp="#mtolay">
     <idno type="URI">https://usaybia.net/factoid/14-53-1</idno>
     <listPerson>
         <person>
             <persName ref="https://usaybia.net/person/154"></persName>
             <birth>
-                <placeName ref="https://usaybia.net/place/"></placeName>
+                
                 <choice>
                     <reg>
-                        <date notBefore="" notAfter="" calendar="#ulian">1146</date>
+                        <date notBefore="" notAfter="" calendar="#julian">1146</date>
                     </reg>
                     <orig>
                         <date when="560" calendar="#hijri"><560/date>
@@ -153,9 +154,7 @@
                 </choice>
                 <note type="desc">
                     <persName ref="https://usaybia.net/person/154">Abū l-Faḍl ibn Abī Sulaymān</persName>
-                    was born on 560  in
-                    <placeName ref="https://usaybia.net/place/"></placeName>
-                    .
+                    was born in 560 AH.
                 </note>
             </birth>
         </person>
