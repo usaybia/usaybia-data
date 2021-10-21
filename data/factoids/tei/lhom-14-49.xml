@@ -21,13 +21,13 @@
                (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
             </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>Data entry and encoding by</resp>
-               <name xml:id="nloehr" 
-                  ref="https://usaybia.net/documentation/editors.xml#nloehr
-                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
-                  >Nadine Löhr</name>
+               <name xml:id="mtolay" 
+                  ref="https://usaybia.net/documentation/editors.xml#mtolay
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/malinda_tolay/index.html"
+                  >Malinda Tolay</name>
             </respStmt>
             <respStmt>
                <resp>Data architecture by</resp>
@@ -41,7 +41,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Usaybia.net</authority>
-            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-49/tei</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
                   <p>Distributed under a Creative Commons Attribution 3.0 Unported
@@ -136,3 +136,59 @@
    </teiHeader>
    <text>
       <body>
+<!-- 
+Use any of the following abbreviations and then press TAB
+(You must uncomment this or copy it outside the comment)
+=========================================================
+date: dt
+factoid with birth place: factbp
+factoid with citizenship: factcn
+factoid with death place: factdp
+factoid with education: facted
+factoid with event: facte
+factoid with event and active-passive relation: factera
+factoid with event and mutual relation: facterm
+factoid with occupation: factoc
+factoid with relation (active-passive): factra
+factoid with relation (mutual): factrm
+factoid with residence: factre
+factoid with state: factst
+factoid with socio-economic status: factss
+factoid with trait: facttt
+person name (persName): prnm
+place name (placeName): plnm
+-->
+
+<ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-1</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/2713" passive="https://usaybia.net/person/356">
+         <desc>
+            <persName ref="https://usaybia.net/person/356">Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah</persName> served the
+            <persName ref="https://usaybia.net/person/2713">Fatimid Caliphs</persName> in Egypt and was admired by them for his medical knowledge.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">1</citedRange>
+   </bibl>
+</ab>
+
+
+<ab type="factoid" subtype="citizenship" xml:id="factoid-2" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-2</idno>
+   <listPerson>
+      <person>
+         <persName ref="https://usaybia.net/person/356">Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah</persName>
+         <nationality>
+            <placeName ref="https://usaybia.net/place/282"></placeName>
+            <note type="desc"></note> Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah was originally a Christian from Jerusalem.
+         </nationality>
+      </person>
+   </listPerson>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">1</citedRange>
+   </bibl>
+</ab>
