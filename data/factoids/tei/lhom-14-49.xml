@@ -182,7 +182,7 @@ place name (placeName): plnm
       <person>
          <persName ref="https://usaybia.net/person/356">Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah</persName>
          <nationality>
-            <placeName ref="https://usaybia.net/place/282"></placeName>
+            <placeName ref="https://usaybia.net/place/282">Jerusalem</placeName>
             <note type="desc"></note> Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah was originally a Christian from Jerusalem.
          </nationality>
       </person>
@@ -190,5 +190,204 @@ place name (placeName): plnm
    <bibl type="urn">
       <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
       <citedRange unit="part">1</citedRange>
+   </bibl>
+</ab>
+
+
+<ab type="factoid" subtype="event" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listEvent>
+      <event ana="http://syriaca.org/keyword/aquintance">
+         <desc>
+            <persName ref="https://usaybia.net/person/487">King Amalric</persName> met
+            <persName ref="https://usaybia.net/place/356">Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah</persName> in   <placename ref="https://usaybia.net/place/185">Egypt</placename> in     
+            <choice>
+               <reg>
+                  <date notAfter="1167" calendar="#julian">1167</date>
+               </reg>
+               <orig>
+                  <date  notAfter="562-563" calendar="#hijri">562-563</date>
+               </orig>
+            </choice>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/" mutual="https://usaybia.net/person/487 https://usaybia.net/person/399"></relation>
+            </listRelation> and asked the caliph al-ʿĀḍid bi-Allāh  if Abu Sulayman ibn Dawud can come with him to Jerusalem. The caliph accepted and sent him and his sons.
+         </desc>
+      </event>
+   </listEvent>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patient-of" active="https://usaybia.net/person/623" passive="https://usaybia.net/person/356">
+         <desc>
+            <persName ref="https://usaybia.net/person/356">Abū Sulaymān Dāwūd</persName> treated 
+            <persName ref="https://usaybia.net/person/623">Baldwin IV</persName> King Amalrics son who suffered from Leprous diesease in <placename ref="https://usaybia.net/place/282">Jerusalem</placename>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/prisoner-of" active="https://usaybia.net/person/1230" passive="https://usaybia.net/person/487">
+         <desc>
+            <persName ref="https://usaybia.net/person/487">King Amalric</persName> arrested
+            <persName ref="https://usaybia.net/person/1230">ʿĪsā the jurist</persName> in Jerusalem because he owned a lot of tax and kept him in a pit where he soon began to become ill. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patient-of" active="https://usaybia.net/person/1230" passive="https://usaybia.net/person/338">
+         <desc>
+            <persName ref="https://usaybia.net/person/338">Abū Saʿīd ibn Abī Sulaymān</persName> treated 
+            <persName ref="https://usaybia.net/person/1230">Īsā the jurist</persName> in his home and gave him after his tax payback 1000 Dinars. Īsā the jurist accepted the gift and fastly went back to Saladdin. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="event" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listEvent>
+      <event ana="http://syriaca.org/keyword/predicitionxx">
+         <desc>
+            <persName ref="https://usaybia.net/person/1981">Saladin</persName> will conquer Jerusalem through 
+            <placeName ref="https://usaybia.net/place/68">Bāb al-Raḥmah</placeName>
+            <choice>
+               <reg>
+                  <date notBefore="" notAfter="" calendar="#julian">1180</date>
+               </reg>
+               <orig>
+                  <date when="" calendar="#hijri">580</date>
+               </orig>
+            </choice>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/speech-acts" active="https://usaybia.net/person/1981" passive="https://usaybia.net/person/356">
+            Abū Sulaymān Dāwūd could predict that Saladin will conquer Jerusalem because of his astrological knowledge. He sent out his son Abu-l Khayr to tell Saladin about his prediciton. 
+         </relation>
+            </listRelation>
+         </desc>
+      </event>
+   </listEvent>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/" active="https://usaybia.net/person/623" passive="https://usaybia.net/person/257">
+         <desc>
+            When <persName ref="https://usaybia.net/person/623">Baldwin IV</persName> was crowned king he knighted 
+            <persName ref="https://usaybia.net/person/257">Abū l-Khayr ibn Abī Sulaymān Dāwūd</persName>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="event" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49</idno>
+   <listEvent>
+      <event ana="http://syriaca.org/keyword/??">
+         <desc>
+            <persName ref="https://usaybia.net/person/257">Abū l-Khayr ibn Abī Sulaymān Dāwūd</persName> arrived in
+            <placeName ref="https://usaybia.net/place/282">Jerusalem</placeName>
+            <choice> in the year 
+               <reg>
+                  <date notBefore="" notAfter="" calendar="#julian">14-04-1184</date>
+               </reg>
+               <orig>
+                  <date when="580" calendar="#hijri">580</date>
+               </orig>
+            </choice> to transmitt the Prophecy of his father to Saladin.
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/??" active="https://usaybia.net/person/257" passive="https://usaybia.net/person/1981"></relation>
+            </listRelation>
+         </desc> When Saladin heard from Abū l-Khayr ibn Abī Sulaymān Dāwūd that he will conquer Jerusalem he granted him a lot of gifts and tribute.
+      </event>
+   </listEvent>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/relationships" active="https://usaybia.net/person/1981" passive="https://usaybia.net/person/356">
+         <desc>
+            <persName ref="https://usaybia.net/person/1981">Saladin</persName> protected the family of 
+            <persName ref="https://usaybia.net/person/356">Abū Sulaymān Dāwūd</persName> when Jerusalem was conquered, gave the sons more sallary than the franks did and freed them from all duties christians had. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="relation" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/2721" passive="https://usaybia.net/person/1981">
+         <desc>
+            <persName ref="https://usaybia.net/person/1981">Saladin</persName> protected 
+            <persName ref="https://usaybia.net/person/2721">the sons of Abū Sulaymān Dāwūd ibn Abī l-Munā ibn Abī Fānah</persName> also after the fathers death and made them part of his entourage.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+<ab type="factoid" subtype="event" xml:id="factoid-x" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-49-</idno>
+   <listEvent>
+      <event ana="http://syriaca.org/keyword/??">
+         <desc>
+            <persName ref="https://usaybia.net/person/1981">Saladin</persName>
+            <placeName ref="https://usaybia.net/place/282">Jerusalem</placeName>
+            <choice>
+               <reg>
+                  <date notBefore="" notAfter="" calendar="#gregorian">02-10-1187</date>
+               </reg>
+               <orig>
+                  <date when="" calendar="#hijri">27-07-583</date>
+               </orig>
+            </choice>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/" active="https://usaybia.net/person/926" passive="https://usaybia.net/person/1981"></relation>
+            </listRelation> Ibn Abī Uṣaybiʿah says that al-Malik al-Nāṣir Ṣalāḥ al-Dīn Yūsuf ibn Ayyūb conquered Jerusalem on the 2nd October 1187.
+         </desc>
+      </event>
+   </listEvent>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.49"></ptr>
+      <citedRange unit="part">4</citedRange>
    </bibl>
 </ab>
