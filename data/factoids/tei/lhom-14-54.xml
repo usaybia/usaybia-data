@@ -21,13 +21,13 @@
                (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
             </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#mtolay">Malinda Tolay</editor>
             <respStmt>
                <resp>Data entry and encoding by</resp>
-               <name xml:id="nloehr" 
-                  ref="https://usaybia.net/documentation/editors.xml#nloehr
-                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
-                  >Nadine Löhr</name>
+               <name xml:id="mtolay" 
+                  ref="https://usaybia.net/documentation/editors.xml#mtolay
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/malinda_tolay/index.html"
+                  >Malinda Tolay</name>
             </respStmt>
             <respStmt>
                <resp>Data architecture by</resp>
@@ -136,3 +136,222 @@
    </teiHeader>
    <text>
       <body>
+<ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-1</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/friendship-for" mutual="https://usaybia.net/person/1911 https://usaybia.net/person/926">
+         <desc>
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> and
+            <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName> met several times and had sympathy for each other.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-2</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/teacher-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/338">
+         <desc>
+            <persName ref="https://usaybia.net/person/338">Abū Saʿīd ibn Abī Sulaymān</persName>, the  uncle of 
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> taught him the art of medicine.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-3" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-3</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/teacher-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1594">
+         <desc>
+            Later, <persName ref="https://usaybia.net/person/">Rashīd al-Dīn Abū Ḥulayqah</persName> studied medicine under
+            <persName ref="https://usaybia.net/person/1911">al-Dakhwār</persName>, who also was the teacher of <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName>.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">2</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="event" xml:id="factoid-4" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-4</idno>
+   <listEvent>
+      <event ana="http://syriaca.org/keyword/aquitance">
+         <desc>
+            <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> met 
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> in a bathhouse in 
+            <placeName ref="https://usaybia.net/place/482">al-Ruhā </placeName>.
+            <choice>
+               <reg>
+                  <date notBefore="1200" notAfter="" calendar="#julian"></date>
+               </reg>
+               <orig>
+                  <date when="" calendar="#hijri">598</date>
+               </orig>
+            </choice>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/" active="https://usaybia.net/person/257" passive="https://usaybia.net/person/1472"></relation>
+            </listRelation>Abū l-Khayr ibn Abī Sulaymān Dāwūd, the father of Rashīd al-Dīn Abū Ḥulayqah got the advise from al-Malik al-Kāmil to make his son a doctor instead of a knight.
+         </desc>
+      </event>
+   </listEvent>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-5</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1472">
+         <desc>
+           When <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> 
+           was sent to 
+           <placename ref="https://usaybia.net/place/121">Cairo</placename>
+            in <choice>
+              <reg>
+                 <date notBefore="" notAfter="" calendar="#julian">1202-1203</date>
+              </reg>
+              <orig>
+                 <date when="" calendar="#hijri">599</date>
+              </orig>
+           </choice> he was held in high regard and under 
+            <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> and received numerous gifts and his trust in medical matters.
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-6" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-6</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1493">
+         <desc>
+            <persName ref="https://usaybia.net/person/">Rashīd al-Dīn Abū Ḥulayqa</persName> served under the son of al-Malik al-Kāmil
+            <persName ref="https://usaybia.net/person/1493">al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb</persName>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-7" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-7</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1481">
+         <desc>
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served the son of al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb
+            <persName ref="https://usaybia.net/person/1481">al-Malik al-Muʿaẓẓam Tūrānshāh</persName> until he was killed by in <choice>
+               <reg>
+                  <date notBefore="" notAfter="" calendar="#julian">01-05-1250</date>
+               </reg>
+               <orig>
+                  <date when="" calendar="#hijri">648</date>
+               </orig>
+            </choice>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-8</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1496">
+         <desc>
+            After the death of al-Malik al-Muʿaẓẓam Tūrānshāh <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served 
+            <persName ref="https://usaybia.net/person/1496">al-Malik al-Ẓāhir Rukn al-Dīn</persName> under the turkish dynasty where he was bestowed for his knowledge and held in honour. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">3</citedRange>
+   </bibl>
+</ab>
+
+<ab type="factoid" subtype="relation" xml:id="factoid-9" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-9</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/?" active="https://usaybia.net/person/" passive="https://usaybia.net/person/1472">
+         <desc>
+            <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> gave 
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> his name because of his earring he was wearing
+            <choice>
+               <reg>
+                  <date notBefore="" notAfter="" calendar="#julian"></date>
+               </reg>
+               <orig>
+                  <date when="" calendar="#hijri"></date>
+               </orig>
+            </choice>. 
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">4</citedRange>
+   </bibl>
+</ab>
+
+<!-- 
+Use any of the following abbreviations and then press TAB
+(You must uncomment this or copy it outside the comment)
+=========================================================
+date: dt
+factoid with birth place: factbp
+factoid with citizenship: factcn
+factoid with death place: factdp
+factoid with education: facted
+factoid with event: facte
+factoid with event and active-passive relation: factera
+factoid with event and mutual relation: facterm
+factoid with occupation: factoc
+factoid with relation (active-passive): factra
+factoid with relation (mutual): factrm
+factoid with residence: factre
+factoid with state: factst
+factoid with socio-economic status: factss
+factoid with trait: facttt
+person name (persName): prnm
+place name (placeName): plnm
+-->
+
+<ab type="factoid" subtype="relation" xml:id="factoid-10" resp="#mtolay">
+   <idno type="URI">https://usaybia.net/factoid/14-54-10</idno>
+   <listRelation>
+      <relation type="person" ref="http://syriaca.org/keyword/" active="https://usaybia.net/person/" passive="https://usaybia.net/person/">
+         <desc>
+            <persName ref="https://usaybia.net/person/"></persName> earring
+            <persName ref="https://usaybia.net/person/"></persName>
+         </desc>
+      </relation>
+   </listRelation>
+   <bibl type="urn">
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:14.54"></ptr>
+      <citedRange unit="part">14</citedRange>
+   </bibl>
+</ab>
