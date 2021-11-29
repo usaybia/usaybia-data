@@ -193,6 +193,9 @@
             <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> in a bathhouse in 
             <placeName ref="https://usaybia.net/place/482">al-Ruhā </placeName>.
             <choice>
+            <!--<reg><date when="1053" calendar="julian">1053</date></reg>
+                            <orig><date when-custom="445"
+                                datingMethod="hijri">445</date></orig>-->
                <reg>
                   <date notBefore="1200" notAfter="" calendar="#julian"></date>
                </reg>
@@ -260,7 +263,7 @@
       <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1481"><!--other way around-->
          <desc>
             <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served the son of al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb
-            <persName ref="https://usaybia.net/person/1481">al-Malik al-Muʿaẓẓam Tūrānshāh</persName> until he was killed by <!-- ?-->in <choice>
+            <persName ref="https://usaybia.net/person/1481">al-Malik al-Muʿaẓẓam Tūrānshāh</persName> until he was killed in <choice>
                <reg>
                   <date notBefore="" notAfter="" calendar="#julian">01-05-1250</date>
                </reg>
