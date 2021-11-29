@@ -21,13 +21,13 @@
                (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
             </funder>
             <principal ref="#ngibson">Nathan P. Gibson</principal>
-            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor><!--Change-->
             <respStmt>
                <resp>Data entry and encoding by</resp>
                <name xml:id="nloehr" 
                   ref="https://usaybia.net/documentation/editors.xml#nloehr
                   https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
-                  >Nadine Löhr</name>
+                  >Nadine Löhr</name><!-- change-->
             </respStmt>
             <respStmt>
                <resp>Data architecture by</resp>
@@ -174,15 +174,15 @@
       </person>
    </listPerson>
    <bibl type="urn">
-      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:"></ptr>
-      <citedRange unit="part"></citedRange>
+      <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:"><!--something missing here --></ptr>
+      <citedRange unit="part"><!-- ?? --> </citedRange>
    </bibl>
 </ab>
 
 <ab type="factoid" subtype="relation" xml:id="factoid-3" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-48-3</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1717" passive="https://usaybia.net/person/1726">
+      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/1717" passive="https://usaybia.net/person/1726"><!--the other way around!-->
          <desc>
             <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> studied medicine under
             <persName ref="https://usaybia.net/person/1717">Ibn Shūʿah</persName>.
@@ -198,7 +198,7 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-4" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-47-4</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/2078" passive="https://usaybia.net/person/1726">
+      <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/2078" passive="https://usaybia.net/person/1726"><!-- the other way around-->
          <desc>
             <persName ref="https://usaybia.net/person/1726">al-Qāḍī Nafīs al-Dīn ibn al-Zubayr</persName> studied then under
             <persName ref="https://usaybia.net/person/2078">al-Sadīd Raʾis al-Ṭibb </persName>.
@@ -211,7 +211,7 @@
    </bibl>
 </ab>
 
-<ab type="factoid" subtype="residence" xml:id="factoid-5" resp="#mtolay">
+<ab type="factoid" subtype="residence" xml:id="factoid-5" resp="#mtolay"><!--not residence-->
    <idno type="URI">https://usaybia.net/factoid/14-47-5</idno>
    <listPerson>
       <person>

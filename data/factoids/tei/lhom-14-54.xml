@@ -155,10 +155,10 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-2</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/teacher-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/338">
+      <relation type="person" ref="http://syriaca.org/keyword/teacher-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/338"><!-- the other way around!-->
          <desc>
             <persName ref="https://usaybia.net/person/338">Abū Saʿīd ibn Abī Sulaymān</persName>, the  uncle of 
-            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> taught him the art of medicine.
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> taught him the art of medicine.<!-- where?-->
          </desc>
       </relation>
    </listRelation>
@@ -173,8 +173,8 @@
    <listRelation>
       <relation type="person" ref="http://syriaca.org/keyword/teacher-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1594">
          <desc>
-            Later, <persName ref="https://usaybia.net/person/">Rashīd al-Dīn Abū Ḥulayqah</persName> studied medicine under
-            <persName ref="https://usaybia.net/person/1911">al-Dakhwār</persName>, who also was the teacher of <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName>.
+            Later, <persName ref="https://usaybia.net/person/"><!-- ID??-->Rashīd al-Dīn Abū Ḥulayqah</persName> studied medicine under
+            <persName ref="https://usaybia.net/person/1911">al-Dakhwār</persName>, <!-- no comma before who or which -->who also was the teacher of <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿah</persName>.
          </desc>
       </relation>
    </listRelation>
@@ -187,7 +187,7 @@
 <ab type="factoid" subtype="event" xml:id="factoid-4" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-4</idno>
    <listEvent>
-      <event ana="http://syriaca.org/keyword/aquitance">
+      <event ana="http://syriaca.org/keyword/aquitance"><!-- acquaintance!-->
          <desc>
             <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> met 
             <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> in a bathhouse in 
@@ -215,7 +215,7 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-5" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-5</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1472">
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1472"><!-- the other way around-->
          <desc>
            When <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqah</persName> 
            was sent to 
@@ -241,9 +241,9 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-6" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-6</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1493">
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1493"><!-- the other way around-->
          <desc>
-            <persName ref="https://usaybia.net/person/">Rashīd al-Dīn Abū Ḥulayqa</persName> served under the son of al-Malik al-Kāmil
+            <persName ref="https://usaybia.net/person/"><!-- ID??-->Rashīd al-Dīn Abū Ḥulayqa</persName> served under the son of al-Malik al-Kāmil
             <persName ref="https://usaybia.net/person/1493">al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb</persName>. 
          </desc>
       </relation>
@@ -257,10 +257,10 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-7" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-7</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1481">
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1481"><!--other way around-->
          <desc>
             <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served the son of al-Malik al-Ṣāliḥ Najm al-Dīn Ayyūb
-            <persName ref="https://usaybia.net/person/1481">al-Malik al-Muʿaẓẓam Tūrānshāh</persName> until he was killed by in <choice>
+            <persName ref="https://usaybia.net/person/1481">al-Malik al-Muʿaẓẓam Tūrānshāh</persName> until he was killed by <!-- ?-->in <choice>
                <reg>
                   <date notBefore="" notAfter="" calendar="#julian">01-05-1250</date>
                </reg>
@@ -280,9 +280,9 @@
 <ab type="factoid" subtype="relation" xml:id="factoid-8" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-8</idno>
    <listRelation>
-      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1496">
+      <relation type="person" ref="http://syriaca.org/keyword/patron-of" active="https://usaybia.net/person/1911" passive="https://usaybia.net/person/1496"><!--other way around-->
          <desc>
-            After the death of al-Malik al-Muʿaẓẓam Tūrānshāh <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served 
+            After the death of al-Malik al-Muʿaẓẓam Tūrānshāh<!-- with Pers-tag--> <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> served 
             <persName ref="https://usaybia.net/person/1496">al-Malik al-Ẓāhir Rukn al-Dīn</persName> under the turkish dynasty where he was bestowed for his knowledge and held in honour. 
          </desc>
       </relation>
@@ -299,7 +299,8 @@
       <relation type="person" ref="http://syriaca.org/keyword/?" active="https://usaybia.net/person/" passive="https://usaybia.net/person/1472">
          <desc>
             <persName ref="https://usaybia.net/person/1472">al-Malik al-Kāmil</persName> gave 
-            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> his name because of his earring he was wearing
+            <persName ref="https://usaybia.net/person/1911">Rashīd al-Dīn Abū Ḥulayqa</persName> his name because of his earring he was wearing 
+            <!-- nice :D can we rephrase this? how about: al malik gave Rashid al-Din the nickname Hulayqa because of the ring he used to wear on his ear (?) -->
             <choice>
                <reg>
                   <date notBefore="" notAfter="" calendar="#julian"></date>
@@ -339,6 +340,7 @@ factoid with trait: facttt
 person name (persName): prnm
 place name (placeName): plnm
 -->
+
 
 <ab type="factoid" subtype="relation" xml:id="factoid-10" resp="#mtolay">
    <idno type="URI">https://usaybia.net/factoid/14-54-10</idno>
