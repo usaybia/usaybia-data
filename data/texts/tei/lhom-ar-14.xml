@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -23,19 +24,11 @@
 					(<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
 				</funder>
 				<principal ref="#ngibson">Nathan P. Gibson</principal>
-				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson 
-					http://syriaca.org/documentation/editors.html#ngibson 
-					https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html
-					http://orcid.org/0000-0003-0786-8075
-                    http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn 
-                https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr
-                https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
-                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl
-                https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
+				<editor xml:id="ngibson" role="editor" ref="https://usaybia.net/documentation/editors.xml#ngibson       http://syriaca.org/documentation/editors.html#ngibson       https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/gibson/index.html      http://orcid.org/0000-0003-0786-8075                     http://viaf.org/viaf/59147905242279092527">Nathan P. Gibson</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#vbirkhahn                  https://www.naher-osten.uni-muenchen.de/personen/fachschaft/vanessa_birkhahn/index.html">Vanessa Birkhahn</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#nloehr                 https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html">Nadine Löhr</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#mtolay                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/tolay/index.html">Malinda Tolay</editor>
+                <editor role="contributor" ref="https://usaybia.net/documentation/editors.xml#rschmahl                 https://www.naher-osten.uni-muenchen.de/personen/hilfskraefte/schmahl/index.html">Robin Schmahl</editor>
 				<respStmt>
 					<resp>TEI XML encoding adapted from Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
                         A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020) by</resp>
@@ -47,7 +40,9 @@
 				</respStmt>
 			</titleStmt>
            <publicationStmt>
-              <p><ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date></p>
+              <p>
+                    <ref target="https://usaybia.net">Usaybia.net</ref>, <date>2020</date>
+                </p>
            </publicationStmt>
            <sourceDesc>
                <biblStruct>
