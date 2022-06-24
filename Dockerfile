@@ -23,4 +23,4 @@ EXPOSE 8080 8443
 # Start eXist-db
 CMD [ "java", "-jar", "start.jar", "jetty" ]
 
-LABEL org.opencontainers.image.source=https://github.com/usaybia/usaybia-data/tree/docker
+LABEL org.opencontainers.image.source=https://github.com/usaybia/usaybia-data/tree/development
