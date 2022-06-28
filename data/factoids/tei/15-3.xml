@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Ibn Abī Uṣaybiʿa, History of Physicians</title>
+            <title level="m">Wissensgemeinschaften</title>
+            <sponsor ref="https://www.uni-muenchen.de">
+               <orgName>Ludwig Maximilian University of Munich</orgName>
+               (<orgName xml:lang="de">Ludwig-Maximilians-Universität München</orgName>)
+            </sponsor>
+            <sponsor ref="http://www.naher-osten.uni-muenchen.de">
+               <orgName>Institute of Near and Middle Eastern Studies</orgName>
+               (<orgName xml:lang="de">Institut für den Nahen und Mittleren Osten</orgName>)
+            </sponsor>
+            <funder ref="https://www.bmbf.de/">
+               <orgName>German Federal Ministry of Education and Research</orgName>
+               (<orgName xml:lang="de">Bundesministerium für Bildung und Forschung</orgName>)
+            </funder>
+            <principal ref="#ngibson">Nathan P. Gibson</principal>
+            <editor role="creator" ref="#nloehr">Nadine Löhr</editor>
+            <respStmt>
+               <resp>Data entry and encoding by</resp>
+               <name xml:id="nloehr" 
+                  ref="https://usaybia.net/documentation/editors.xml#nloehr
+                  https://www.naher-osten.uni-muenchen.de/personen/wiss_ma/nadine_loehr/index.html"
+                  >Nadine Löhr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Data architecture by</resp>
+               <name xml:id="dschwartz" 
+                  ref="https://syriaca.org/documentation/editors.xml#dschwartz">
+                  Daniel Schwartz</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.1"/>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Usaybia.net</authority>
+            <idno type="URI">http://usaybia.net/factoid/lhom-14-25/tei</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                     License.</p>
+               </licence>
+            </availability>
+            <date><!-- INPUT ONCE WE HAVE A "FINAL" DRAFT --></date>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <head>Sources for the Data in this Born Digital Prosopography</head>
+               <bibl type="primary">
+                  <editor>
+                     <forename>Emilie</forename>
+                     <surname>Savage-Smith</surname>
+                  </editor>
+                  <editor>
+                     <forename>Simon</forename>
+                     <surname>Swain</surname>
+                  </editor>
+                  <editor>
+                     <forename>G. J. H. van</forename>
+                     <surname>Gelder</surname>
+                  </editor>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Ignacio Javier</forename>
+                     <surname>Sánchez Rojo</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>N. Peter</forename>
+                     <surname>Joosse</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Alasdair</forename>
+                     <surname>Watson</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Bruce</forename>
+                     <surname>Inksetter</surname>
+                  </respStmt>
+                  <respStmt>
+                     <resp>contributor</resp>
+                     <forename>Franak</forename>
+                     <surname>Hilloowala</surname>
+                  </respStmt>
+                  <title level="m">A literary history of medicine: the 'Uyūn al-anbā' fī ṭabaqāt al-aṭibbā' of Ibn Abī Uṣaybi'ah</title>
+                  <idno type="Zotero">WVSJMDSV</idno>
+                  <idno type="URI">http://zotero.org/groups/2349036/items/WVSJMDSV</idno>
+                  <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/"/>
+                  <imprint>
+                     <pubPlace>Leiden</pubPlace>
+                     <publisher>Brill</publisher>
+                     <date>2020</date>
+                  </imprint>
+                  <ptr target="https://usaybia.net/bibl/WVSJMDSV"/>
+               </bibl>
+               <bibl type="urn">
+                  <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>The prosopographical data in this document was encoded from 
+               <ref target="https://dh.brill.com/scholarlyeditions/library/urn:cts:arabicLit:0668IbnAbiUsaibia/">
+                  Emilie Savage-Smith, Simon Swain, and G. J. H. van Gelder, eds., 
+                  A Literary History of Medicine: The “Uyūn al-Anbā” Fī Ṭabaqāt al-Aṭibbā’ 
+                  of Ibn Abī Uṣaybi’ah, 5 vols. (Leiden: Brill, 2020)</ref>.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="calculated">
+                  <catDesc> Used to denote a date calculated by the editor from a regnal year
+                     given in the text. </catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc> </profileDesc>
+      <revisionDesc>
+         <!--<change
+                who="http://syriaca.org/documentation/editors.xml#jwalters http://syriaca.org/documentation/editors.xml#tbaillargeon http://syriaca.org/documentation/editors.xml#jdaccache http://syriaca.org/documentation/editors.xml#tmcneir http://syriaca.org/documentation/editors.xml#ewalsh http://syriaca.org/documentation/editors.xml#syoung"
+                >Initial data collected by James Walters, Tara Baillargeon, Jimmy Daccache, Taylor McNeir, Erin Galgay Walsh, and Samuel Young at "Mapping Ancient Lives &amp;
+                Social Networks: A Digital Workshop," held at Marquette University, 23-24 May
+                2017.</change>-->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab type="factoid" subtype="relation" xml:id="factoid-1" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-1</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/1151" passive="https://usaybia.net/person/926">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/1151">Sharaf al-Dīn ibn ʿUnayn</persName> related information to
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-2" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-2</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/2004" passive="https://usaybia.net/person/926">
+                  <desc>
+                     <persName ref="https://usaybia.net/person/2004">al-Sanī al-Baʿlabakkī</persName> related information to
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.
+                  </desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="event" 
+            xml:id="factoid-3" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-3</idno>
+            <listEvent>
+               <event>
+                  <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> 
+                     travelled from <placeName ref="https://usaybia.net/place/586">Yabrūdī</placeName>
+                     to <placeName ref="https://usaybia.net/place/149">Damascus</placeName>.     
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="birthPlace" xml:id="factoid-4" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-4</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>  
+                  <birth>
+                     <placeName ref="https://usaybia.net/place/586"/>
+                     <note type="desc">
+                        <persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> 
+                        was born in <placeName ref="https://usaybia.net/place/586">Yabrūd</placeName>.</note>
+                  </birth>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="event" 
+            xml:id="factoid-5" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-5</idno>
+            <listEvent>
+               <event>
+                  <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> 
+                     travelled from <placeName ref="https://usaybia.net/place/149">Damascus</placeName>
+                     to <placeName ref="https://usaybia.net/place/77">Baghdad</placeName>.     
+                  </desc>
+               </event>
+            </listEvent>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-6" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-6</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/2295"
+                  passive="https://usaybia.net/person/1215">
+                  <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> was a student of 
+                     <persName ref='https://usaybia.net/person/1136'>Ibn al-Ṭayyib, Abū l-Faraj ʿAbd Allāh</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab> 
+         <ab type="factoid" subtype="deathPlace" xml:id="factoid-7" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-7</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>  
+                  <death>
+                     <placeName ref="https://usaybia.net/place/149"/>
+                     <note type="desc">
+                        <persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> 
+                        did not leave <placeName ref="https://usaybia.net/place/149">Damascus</placeName> after he returned there.</note>
+                  </death>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-8" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-8</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/student-of" active="https://usaybia.net/person/926"
+                  passive="https://usaybia.net/person/1594">
+                  <desc><persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName> was a student of 
+                     <persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab> 
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-9" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-9</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/1594"
+                  passive="https://usaybia.net/person/926">
+                  <desc><persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-10" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-10</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/1070"
+                  passive="https://usaybia.net/person/1594">
+                  <desc><persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān, Muwaffaq al-Dīn</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/1594">Muhadhdhab al-Dīn ʿAbd al-Raḥīm ibn ʿAlī</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-11" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-11</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/2617"
+                  passive="https://usaybia.net/person/1070">
+                  <desc><persName ref="https://usaybia.net/person/2617">The father of Ibn al-Muṭrān</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/1070">Ibn al-Muṭrān, Muwaffaq al-Dīn</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab> 
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-12" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-12</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/165"
+                  passive="https://usaybia.net/person/2617">
+                  <desc><persName ref="https://usaybia.net/person/165">Abū l-Faraj ibn al-Ḥadīd</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/2617">The father of Ibn al-Muṭrān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-13" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-13</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/252"
+                  passive="https://usaybia.net/person/165">
+                  <desc><persName ref="https://usaybia.net/person/252">Abū l-Karam</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/165">Abū l-Faraj ibn al-Ḥadīd</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-14" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-14</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/2403"
+                  passive="https://usaybia.net/person/252">
+                  <desc><persName ref="https://usaybia.net/person/2403">Abū l-Rajāʾ</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/252">Abū l-Karam</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab 
+            type="factoid" subtype="relation" 
+            xml:id="factoid-15" 
+            resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-15</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/2618"
+                  passive="https://usaybia.net/person/2403">
+                  <desc><persName ref="https://usaybia.net/person/2618">The grandfather of Abū l-Rajāʾ</persName> revealed information to
+                     <persName ref="https://usaybia.net/person/2403">Abū l-Rajāʾ</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-16" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-16</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/acquaintance-of" mutual="https://usaybia.net/person/2295 https://usaybia.net/person/1176">
+                  <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName> met
+                     the blood-letter <persName ref="https://usaybia.net/person/255">Abū l-Khayr</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">1</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="relation" xml:id="factoid-17" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-17</idno>
+            <listRelation>
+               <relation type="person" ref="http://syriaca.org/keyword/associate-of" mutual="https://usaybia.net/person/1176 https://usaybia.net/person/2299">
+                  <desc><persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>
+                  corresponded on a regulaar basis with
+                     <persName ref="https://usaybia.net/person/1093">ʿAlī ibn Riḍwān</persName>.</desc>
+               </relation>
+            </listRelation>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+         <ab type="factoid" subtype="occupation" xml:id="factoid-18" resp="#nloehr">
+            <idno type="URI">https://usaybia.net/factoid/15-3-18</idno>
+            <listPerson>
+               <person>
+                  <persName ref="https://usaybia.net/person/2295"/>
+                  <occupation ana="http://syriaca.org/keyword/amanuensis">
+                     <note>
+                        <persName ref="https://usaybia.net/person/2295">al-Yabrūdī, Abū l-Faraj Jirjīs ibn Yuḥannā ibn Sahl ibn Ibrahīm</persName>
+                        copied many medical books.
+                     </note> 
+                  </occupation>
+               </person>
+            </listPerson>
+            <bibl type="urn">
+               <ptr target="urn:cts:arabicLit:0668IbnAbiUsaibia.Tabaqatalatibba.lhom-ed-ara1:15.3"/>
+               <citedRange unit="part">2</citedRange>
+            </bibl>
+         </ab>
+      </body>
+   </text>
+</TEI>
+

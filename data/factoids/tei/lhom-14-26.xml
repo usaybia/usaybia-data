@@ -2,6 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/srophe/srophe-eXist-app/spear-customization-nathangibson-2020-07-31/documentation/SPEARschema/out/SPEAR.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../../../usaybia-tools/tools/xslt/factoids2network.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:srophe="https://srophe.app/">
    <teiHeader>
       <fileDesc>
@@ -242,7 +243,7 @@
          <ab type="factoid" subtype="relation" xml:id="factoid-11" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-11</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-about" active="https://usaybia.net/person/" passive="https://usaybia.net/person/408">
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-about" active="https://usaybia.net/person/1945" passive="https://usaybia.net/person/408">
                   <desc>
                      <persName ref="https://usaybia.net/person/1945">Sadīd al-Dīn, father of Ibn Abī Uṣaybiʿa</persName> related information about 
                      <persName ref="https://usaybia.net/person/408">al-Afḍal ibn Amīr al-Juyūsh</persName>.
@@ -257,7 +258,7 @@
          <ab type="factoid" subtype="relation" xml:id="factoid-12" resp="#nloehr">
             <idno type="URI">https://usaybia.net/factoid/14-26-12</idno>
             <listRelation>
-               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/" passive="https://usaybia.net/person/926">
+               <relation type="person" ref="http://syriaca.org/keyword/oral-informant-to" active="https://usaybia.net/person/1945" passive="https://usaybia.net/person/926">
                   <desc>
                      <persName ref="https://usaybia.net/person/1945">Sadīd al-Dīn, father of Ibn Abī Uṣaybiʿa</persName> related information to
                      <persName ref="https://usaybia.net/person/926">Ibn Abī Uṣaybiʿa</persName>.
