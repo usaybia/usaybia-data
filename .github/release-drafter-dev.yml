@@ -1,6 +1,6 @@
-name-template: 'Pre-release version $RESOLVED_VERSION'
-tag-template: 'v$RESOLVED_VERSION'
-version-template: '$MAJOR.$MINOR.$PATCH-dev' # Different config files are referenced by workflows in different branches to allow 'dev' to be prepended only to development releases. See input: config-name in workflow file.
+name-template: 'Usaybia.net data pre-release version $RESOLVED_VERSION'
+tag-template: 'v0.6.0-dev'
+version-template: '0.6.0-dev' # Different config files are referenced by workflows in different branches to allow 'dev' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
   - title: '📚 New Content'
     labels:
@@ -34,12 +34,21 @@ version-resolver:
       - 'changelog: metadata/app fixes'
       - 'changelog: corrected content'
   default: patch
+exclude-labels:
+  - 'changelog: ignore'
 template: |
-  This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website. 
+  This release is intended for testing data to be released on the [Usaybia.net](https://usaybia.net) website for the project _Communities of Knowledge: Interreligious Networks of Scholars in Ibn Abi Usaybia’s History of the Physicians_ (_Wissensgemeinschaften: interreligiöse Gelehrtennetzwerke in Ibn Abi Usaybiʿa’s Geschichte der Ärzte_).
+  
   It includes person records, place records, bibliography records, some marked-up Arabic text, and some factoids.
+  
   The .xar package is intended to be used in [eXist-db 5.x](http://exist-db.org/exist/apps/homepage/index.html) with the [Srophé app Usaybia fork](https://github.com/usaybia/srophe-eXist-app).
-  You can also make your own .xar of the data by downloading this repo and running ant in the repo directory.  
+  
+  You can also make your own .xar of the data by downloading this repo and running ant in the repo directory. A docker image of eXist-db with this package pre-installed is available at https://github.com/orgs/usaybia/packages/container/package/usaybia-data.
+  
   ## Changes
+  
   $CHANGES
+  
   ## Contributors
+  
   $CONTRIBUTORS
