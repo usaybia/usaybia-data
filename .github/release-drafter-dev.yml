@@ -1,6 +1,6 @@
 name-template: 'Usaybia.net data pre-release version $RESOLVED_VERSION'
-tag-template: 'v0.6.0-dev'
-version-template: '0.6.0-dev' # Different config files are referenced by workflows in different branches to allow 'dev' to be prepended only to development releases. See input: config-name in workflow file.
+tag-template: 'v$RESOLVED_VERSION'
+version-template: '$MAJOR.$MINOR.$PATCH-dev' # Different config files are referenced by workflows in different branches to allow 'dev' to be prepended only to development releases. See input: config-name in workflow file.
 categories:
   - title: '📚 New Content'
     labels:
